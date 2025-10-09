@@ -128,3 +128,4 @@ export const getMdxPage = cache(async (slug: string): Promise<MdxPage> => {
 - ESLint: Disabled (--eslint false)
 - src directory: Disabled (--src-dir false)
 - Import alias: @/*
+- Additional setup: Configured `turbopack.root` in `next.config.ts` to pin the workspace root to this project and silence lockfile warnings.
