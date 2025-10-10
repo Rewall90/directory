@@ -1,7 +1,7 @@
-﻿import type { Config } from "tailwindcss";
-import daisyui from "daisyui";
+﻿import daisyui from "daisyui";
 
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+const config = {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx,md,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,md,mdx}",

@@ -65,6 +65,7 @@ export default [
       "next-env.d.ts",
       "eslint.config.mjs",
       "postcss.config.js",
+      "src/types/**/*.d.ts",
     ],
   },
 ];
