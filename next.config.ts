@@ -8,6 +8,30 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: projectRoot,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**.public.blob.vercel-storage.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "**.blob.vercel-storage.com",
+        port: "",
+        pathname: "/**",
+      },
+      // Add other image sources as needed
+      // Example for external CDNs or image services:
+      // {
+      //   protocol: "https",
+      //   hostname: "images.unsplash.com",
+      //   port: "",
+      //   pathname: "/**",
+      // },
+    ],
+  },
 };
 
 export default nextConfig;

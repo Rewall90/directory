@@ -1,4 +1,4 @@
-# Assistant Notes: Tech Stack
+﻿# Assistant Notes: Tech Stack
 
 ## Summary
 
@@ -36,6 +36,7 @@
 - Configure `tsconfig.json` with `strict: true` to catch runtime issues early.
 - Tailwind: ensure `content` paths include `/app`, `/components`, and `/content` MDX files.
 - DaisyUI: define the project theme in `tailwind.config.ts`; restrict arbitrary class usage where DaisyUI covers the pattern.
+- DaisyUI theme: `golf` extends Tailwind colors via CSS vars for background/foreground/muted and reuses DaisyUI light/dark fallbacks.
 - ESLint: `import/no-default-export` is enforced repo-wide with overrides for Next.js route entrypoints; update `eslint.config.mjs` if new defaults are required.
 
 ### MDX Workflow

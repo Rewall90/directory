@@ -48,6 +48,8 @@ export default [
       "src/app/**/loading.{ts,tsx}",
       "src/app/api/**/*.ts",
       "next.config.{js,ts,mjs}",
+      "tailwind.config.{js,ts}",
+      "postcss.config.{js,ts,mjs}",
     ],
     rules: {
       "import/no-default-export": "off",
@@ -59,9 +61,10 @@ export default [
       ".next/**",
       "out/**",
       "dist/**",
+      "prisma/**",
       "next-env.d.ts",
       "eslint.config.mjs",
-      "postcss.config.mjs",
+      "postcss.config.js",
     ],
   },
 ];
