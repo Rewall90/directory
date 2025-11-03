@@ -20,7 +20,7 @@ export function RatingCard({ rating }: RatingCardProps) {
   const hasUrl = !!rating.url;
 
   const handleClick = () => {
-    if (hasUrl) {
+    if (hasUrl && rating.url) {
       // Open reviews in a popup window
       window.open(
         rating.url,
