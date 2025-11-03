@@ -41,7 +41,7 @@ export function formatSchema(schema: Schema): string {
  * @param obj - Object to clean
  */
 export function cleanSchemaObject<T extends Record<string, unknown>>(obj: T): T {
-  const cleaned = { ...obj };
+  const cleaned: Record<string, unknown> = { ...obj };
 
   Object.keys(cleaned).forEach((key) => {
     const value = cleaned[key];
@@ -54,22 +54,16 @@ export function cleanSchemaObject<T extends Record<string, unknown>>(obj: T): T 
 
     // Recursively clean nested objects
     if (typeof value === "object" && !Array.isArray(value)) {
-      cleaned[key] = cleanSchemaObject(value as Record<string, unknown>) as T[Extract<
-        keyof T,
-        string
-      >];
+      cleaned[key] = cleanSchemaObject(value as Record<string, unknown>);
     }
 
     // Clean arrays (remove null/undefined items)
     if (Array.isArray(value)) {
-      cleaned[key] = value.filter((item) => item !== null && item !== undefined) as T[Extract<
-        keyof T,
-        string
-      >];
+      cleaned[key] = value.filter((item) => item !== null && item !== undefined);
     }
   });
 
-  return cleaned;
+  return cleaned as T;
 }
 
 /**
