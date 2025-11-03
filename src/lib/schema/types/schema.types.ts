@@ -21,7 +21,7 @@ export interface OrganizationSchema extends SchemaBase {
   foundingDate?: string;
   contactPoint?: ContactPoint[];
   sameAs?: string[];
-  areaServed?: Place | string;
+  areaServed?: PlaceReference | string;
 }
 
 // WebSite schema
