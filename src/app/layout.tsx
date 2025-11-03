@@ -21,11 +21,7 @@ export const metadata: Metadata = {
   title: "golfkart.no | Golfbaner i Norge",
   description: "Finn og utforsk golfbaner i Norge med regionkart, beskrivelser og guider.",
   icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "any" },
-    ],
-    apple: "/apple-touch-icon.png",
+    icon: { url: "/favicon.svg", type: "image/svg+xml" },
   },
 };
 
