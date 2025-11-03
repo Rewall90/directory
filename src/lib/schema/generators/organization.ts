@@ -40,7 +40,7 @@ export function generateOrganizationSchema(): OrganizationSchema {
         "@type": "ContactPoint",
         contactType: SITE_CONFIG.contact.contactType,
         email: SITE_CONFIG.contact.email,
-        availableLanguage: SITE_CONFIG.contact.availableLanguage,
+        availableLanguage: SITE_CONFIG.contact.availableLanguage as string[],
       },
     ],
 
