@@ -9,12 +9,7 @@ interface StarRatingProps {
   className?: string;
 }
 
-export function StarRating({
-  rating,
-  maxRating = 5,
-  size = 14,
-  className = "",
-}: StarRatingProps) {
+export function StarRating({ rating, maxRating = 5, size = 14, className = "" }: StarRatingProps) {
   // Generate a stable ID for this component instance
   const componentId = useId();
 
@@ -24,10 +19,7 @@ export function StarRating({
   // Generate 5 stars
   const stars = Array.from({ length: 5 }, (_, index) => {
     const starNumber = index + 1;
-    const fillPercentage = Math.min(
-      Math.max(normalizedRating - index, 0),
-      1,
-    ) * 100;
+    const fillPercentage = Math.min(Math.max(normalizedRating - index, 0), 1) * 100;
 
     return (
       <Star
@@ -40,11 +32,7 @@ export function StarRating({
     );
   });
 
-  return (
-    <div className={`inline-flex items-center gap-0.5 ${className}`}>
-      {stars}
-    </div>
-  );
+  return <div className={`inline-flex items-center gap-0.5 ${className}`}>{stars}</div>;
 }
 
 interface StarProps {
@@ -69,14 +57,8 @@ function Star({ fillPercentage, size, starId, componentId }: StarProps) {
     >
       <defs>
         <linearGradient id={gradientId}>
-          <stop
-            offset={`${fillPercentage}%`}
-            style={{ stopColor: "#16a34a", stopOpacity: 1 }}
-          />
-          <stop
-            offset={`${fillPercentage}%`}
-            style={{ stopColor: "#bac8c0", stopOpacity: 1 }}
-          />
+          <stop offset={`${fillPercentage}%`} style={{ stopColor: "#16a34a", stopOpacity: 1 }} />
+          <stop offset={`${fillPercentage}%`} style={{ stopColor: "#bac8c0", stopOpacity: 1 }} />
         </linearGradient>
       </defs>
       <path

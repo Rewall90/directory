@@ -20,12 +20,7 @@ export function HoleIcon({ className = "", size = 20 }: IconProps) {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle
-        cx="12"
-        cy="22"
-        r="2"
-        fill="currentColor"
-      />
+      <circle cx="12" cy="22" r="2" fill="currentColor" />
     </svg>
   );
 }
@@ -40,26 +35,9 @@ export function ParIcon({ className = "", size = 20 }: IconProps) {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <circle
-        cx="12"
-        cy="12"
-        r="9"
-        stroke="currentColor"
-        strokeWidth="2"
-      />
-      <circle
-        cx="12"
-        cy="12"
-        r="5"
-        stroke="currentColor"
-        strokeWidth="2"
-      />
-      <circle
-        cx="12"
-        cy="12"
-        r="2"
-        fill="currentColor"
-      />
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="2" />
+      <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="2" />
+      <circle cx="12" cy="12" r="2" fill="currentColor" />
     </svg>
   );
 }
@@ -95,21 +73,8 @@ export function CalendarIcon({ className = "", size = 20 }: IconProps) {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <rect
-        x="3"
-        y="6"
-        width="18"
-        height="15"
-        rx="2"
-        stroke="currentColor"
-        strokeWidth="2"
-      />
-      <path
-        d="M3 10H21M8 3V6M16 3V6"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
+      <rect x="3" y="6" width="18" height="15" rx="2" stroke="currentColor" strokeWidth="2" />
+      <path d="M3 10H21M8 3V6M16 3V6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
   );
 }
@@ -124,13 +89,7 @@ export function PersonIcon({ className = "", size = 20 }: IconProps) {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <circle
-        cx="12"
-        cy="8"
-        r="4"
-        stroke="currentColor"
-        strokeWidth="2"
-      />
+      <circle cx="12" cy="8" r="4" stroke="currentColor" strokeWidth="2" />
       <path
         d="M6 21C6 17.134 8.686 14 12 14C15.314 14 18 17.134 18 21"
         stroke="currentColor"
@@ -157,12 +116,7 @@ export function TreeIcon({ className = "", size = 20 }: IconProps) {
         strokeWidth="2"
         strokeLinejoin="round"
       />
-      <path
-        d="M12 19V22"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
+      <path d="M12 19V22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
   );
 }
@@ -203,13 +157,7 @@ export function SeasonIcon({ className = "", size = 20 }: IconProps) {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <circle
-        cx="12"
-        cy="12"
-        r="9"
-        stroke="currentColor"
-        strokeWidth="2"
-      />
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="2" />
       <path
         d="M12 6V12L16 14"
         stroke="currentColor"

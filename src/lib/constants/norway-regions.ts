@@ -61,9 +61,7 @@ export const NORWAY_COUNTY_CODES = NORWAY_COUNTIES.reduce(
  */
 export function getCountyCode(countyName: string): string | undefined {
   const normalized = countyName.trim().toLowerCase();
-  const county = NORWAY_COUNTIES.find(
-    (entry) => entry.name.toLowerCase() === normalized,
-  );
+  const county = NORWAY_COUNTIES.find((entry) => entry.name.toLowerCase() === normalized);
   return county?.id;
 }
 

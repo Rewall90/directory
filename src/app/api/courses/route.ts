@@ -40,9 +40,7 @@ export async function GET(request: NextRequest) {
             // Prioritize name matches for search
             { name: "asc" },
           ]
-        : [
-            { createdAt: "desc" },
-          ],
+        : [{ createdAt: "desc" }],
     });
 
     return NextResponse.json({

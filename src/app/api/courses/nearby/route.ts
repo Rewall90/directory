@@ -1,11 +1,7 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import {
-  calculateDistance,
-  getBoundingBox,
-  type Coordinates,
-} from "@/lib/geolocation";
+import { calculateDistance, getBoundingBox, type Coordinates } from "@/lib/geolocation";
 
 export async function GET(request: NextRequest) {
   try {
@@ -22,7 +18,7 @@ export async function GET(request: NextRequest) {
           success: false,
           error: "Missing required parameters: lat and lng",
         },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -45,7 +41,7 @@ export async function GET(request: NextRequest) {
           success: false,
           error: "Invalid coordinates",
         },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -104,10 +100,7 @@ export async function GET(request: NextRequest) {
               return sum + normalized;
             }, 0);
             avgRating = Math.round((normalizedSum / validRatings.length) * 10) / 10;
-            totalReviews = course.ratings.reduce(
-              (sum, r) => sum + (r.reviewCount || 0),
-              0
-            );
+            totalReviews = course.ratings.reduce((sum, r) => sum + (r.reviewCount || 0), 0);
           }
         }
 
@@ -145,7 +138,7 @@ export async function GET(request: NextRequest) {
         success: false,
         error: "Failed to fetch nearby courses",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

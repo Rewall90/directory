@@ -1,52 +1,59 @@
+import type { Metadata } from "next";
 import { RegionGrid } from "@/components/home/RegionGrid";
+import { NORWAY_MAP_REGIONS } from "@/lib/constants/norway-map-regions";
+import { getRegionsOverviewSchemas, JsonLdMultiple } from "@/lib/schema";
 
-// Mock data - same as homepage
-const mockRegions = [
-  { id: "NO-03", name: "Oslo", slug: "oslo", courseCount: 45 },
-  { id: "NO-30", name: "Viken", slug: "viken", courseCount: 123 },
-  { id: "NO-34", name: "Innlandet", slug: "innlandet", courseCount: 67 },
-  {
-    id: "NO-38",
-    name: "Vestfold og Telemark",
-    slug: "vestfold-og-telemark",
-    courseCount: 89,
+export const metadata: Metadata = {
+  title: "Golfbaner etter fylke - golfkart.no",
+  description: "Utforsk 162 golfbaner fordelt på 15 fylker i Norge. Finn golfbaner i ditt fylke.",
+  alternates: {
+    canonical: "/regions",
   },
-  { id: "NO-42", name: "Agder", slug: "agder", courseCount: 34 },
-  { id: "NO-11", name: "Rogaland", slug: "rogaland", courseCount: 56 },
-  { id: "NO-46", name: "Vestland", slug: "vestland", courseCount: 78 },
-  {
-    id: "NO-15",
-    name: "Møre og Romsdal",
-    slug: "more-og-romsdal",
-    courseCount: 45,
-  },
-  { id: "NO-50", name: "Trøndelag", slug: "trondelag", courseCount: 67 },
-  { id: "NO-18", name: "Nordland", slug: "nordland", courseCount: 23 },
-  {
-    id: "NO-54",
-    name: "Troms og Finnmark",
-    slug: "troms-og-finnmark",
-    courseCount: 12,
-  },
-];
+};
+
+// Use actual fylker data matching the homepage, sorted alphabetically
+const regions = [
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "akershus")!, courseCount: 24 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "ostfold")!, courseCount: 19 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "buskerud")!, courseCount: 10 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "oslo")!, courseCount: 3 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "innlandet")!, courseCount: 9 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "vestfold")!, courseCount: 5 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "telemark")!, courseCount: 5 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "agder")!, courseCount: 9 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "rogaland")!, courseCount: 13 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "vestland")!, courseCount: 21 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "more-og-romsdal")!, courseCount: 14 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "trondelag")!, courseCount: 15 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "nordland")!, courseCount: 9 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "troms")!, courseCount: 3 },
+  { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "finnmark")!, courseCount: 4 },
+].sort((a, b) => a.name.localeCompare(b.name, "no"));
 
 export default function RegionsPage() {
-  const totalCourses = mockRegions.reduce(
-    (sum, r) => sum + r.courseCount,
-    0,
-  );
+  const totalCourses = regions.reduce((sum, r) => sum + r.courseCount, 0);
+
+  // Generate all schema.org markup for the regions overview page
+  const schemas = getRegionsOverviewSchemas({
+    regions,
+    totalCourses,
+  });
 
   return (
-    <div className="container mx-auto max-w-[1170px] px-4 py-12">
-      <h1 className="mb-4 text-center text-3xl font-bold text-text-primary">
-        Golfbaner etter region
-      </h1>
-      <p className="mb-12 text-center text-text-secondary">
-        Utforsk {totalCourses} golfbaner fordelt på {mockRegions.length}{" "}
-        regioner i Norge
-      </p>
+    <>
+      {/* JSON-LD structured data for SEO */}
+      <JsonLdMultiple schemas={schemas} />
 
-      <RegionGrid regions={mockRegions} />
-    </div>
+      <div className="container mx-auto max-w-[1170px] px-4 py-12">
+        <h1 className="mb-4 text-center text-3xl font-bold text-text-primary">
+          Golfbaner etter fylke
+        </h1>
+        <p className="mb-12 text-center text-text-secondary">
+          Utforsk {totalCourses} golfbaner fordelt på {regions.length} fylker i Norge
+        </p>
+
+        <RegionGrid regions={regions} />
+      </div>
+    </>
   );
 }

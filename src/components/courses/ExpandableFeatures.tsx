@@ -23,11 +23,11 @@ export function ExpandableFeatures({ features }: ExpandableFeaturesProps) {
       <ul className="space-y-3 text-text-secondary">
         {displayFeatures.map((feature) => (
           <li key={feature.id} className="flex gap-3">
-            <span className="text-primary flex-shrink-0 mt-0.5">•</span>
+            <span className="mt-0.5 flex-shrink-0 text-primary">•</span>
             <div>
               <div className="font-medium text-text-primary">{feature.feature}</div>
               {feature.description && (
-                <div className="mt-1 text-sm leading-relaxed whitespace-pre-line">
+                <div className="mt-1 whitespace-pre-line text-sm leading-relaxed">
                   {feature.description}
                 </div>
               )}

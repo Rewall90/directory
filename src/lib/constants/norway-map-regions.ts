@@ -7,9 +7,9 @@
  */
 
 export interface RegionMapping {
-  name: string;           // Display name (2024 county name)
-  slug: string;           // URL slug
-  polygonIds: string[];   // norwayLow polygon IDs (can be multiple for merged counties)
+  name: string; // Display name (2024 county name)
+  slug: string; // URL slug
+  polygonIds: string[]; // norwayLow polygon IDs (can be multiple for merged counties)
 }
 
 export const NORWAY_MAP_REGIONS: RegionMapping[] = [
@@ -32,17 +32,17 @@ export const NORWAY_MAP_REGIONS: RegionMapping[] = [
   {
     name: "Innlandet",
     slug: "innlandet",
-    polygonIds: ["NO-04", "NO-05"] // Hedmark + Oppland
+    polygonIds: ["NO-04", "NO-05"], // Hedmark + Oppland
   },
   {
     name: "Agder",
     slug: "agder",
-    polygonIds: ["NO-09", "NO-10"] // Aust-Agder + Vest-Agder
+    polygonIds: ["NO-09", "NO-10"], // Aust-Agder + Vest-Agder
   },
   {
     name: "Vestland",
     slug: "vestland",
-    polygonIds: ["NO-12", "NO-14"] // Hordaland + Sogn og Fjordane
+    polygonIds: ["NO-12", "NO-14"], // Hordaland + Sogn og Fjordane
   },
 ];
 
@@ -51,16 +51,16 @@ export const NORWAY_MAP_REGIONS: RegionMapping[] = [
  * Used for click handlers to find which region a polygon belongs to
  */
 export const POLYGON_TO_REGION = new Map<string, RegionMapping>(
-  NORWAY_MAP_REGIONS.flatMap(region =>
-    region.polygonIds.map(polygonId => [polygonId, region] as const)
-  )
+  NORWAY_MAP_REGIONS.flatMap((region) =>
+    region.polygonIds.map((polygonId) => [polygonId, region] as const),
+  ),
 );
 
 /**
  * Get region by slug
  */
 export function getRegionBySlug(slug: string): RegionMapping | undefined {
-  return NORWAY_MAP_REGIONS.find(r => r.slug === slug);
+  return NORWAY_MAP_REGIONS.find((r) => r.slug === slug);
 }
 
 /**

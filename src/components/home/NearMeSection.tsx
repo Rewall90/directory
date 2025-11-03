@@ -42,14 +42,11 @@ export function NearMeSection() {
           const { latitude, longitude } = position.coords;
 
           // Store in sessionStorage for potential reuse (privacy-friendly)
-          sessionStorage.setItem(
-            "userLocation",
-            JSON.stringify({ latitude, longitude })
-          );
+          sessionStorage.setItem("userLocation", JSON.stringify({ latitude, longitude }));
 
           // Fetch nearby courses from API
           const response = await fetch(
-            `/api/courses/nearby?lat=${latitude}&lng=${longitude}&limit=3`
+            `/api/courses/nearby?lat=${latitude}&lng=${longitude}&limit=3`,
           );
 
           if (!response.ok) {
@@ -75,9 +72,7 @@ export function NearMeSection() {
         console.error("Geolocation error:", error);
         if (error.code === error.PERMISSION_DENIED) {
           setViewState("denied");
-          setErrorMessage(
-            "Du må gi tillatelse til stedstjenester for å se golfbaner i nærheten."
-          );
+          setErrorMessage("Du må gi tillatelse til stedstjenester for å se golfbaner i nærheten.");
         } else if (error.code === error.POSITION_UNAVAILABLE) {
           setViewState("error");
           setErrorMessage("Kunne ikke bestemme din posisjon.");
@@ -93,7 +88,7 @@ export function NearMeSection() {
         enableHighAccuracy: false,
         timeout: 10000,
         maximumAge: 300000, // Cache position for 5 minutes
-      }
+      },
     );
   };
 
@@ -111,7 +106,7 @@ export function NearMeSection() {
             </p>
             <button
               onClick={handleGetLocation}
-              className="inline-flex items-center gap-3 rounded-lg bg-primary px-8 py-4 text-lg font-semibold text-primary-content shadow-card transition hover:bg-primary-light"
+              className="shadow-card inline-flex items-center gap-3 rounded-lg bg-primary px-8 py-4 text-lg font-semibold text-primary-content transition hover:bg-primary-light"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -136,9 +131,7 @@ export function NearMeSection() {
             <div className="mb-6 flex justify-center">
               <div className="h-12 w-12 animate-spin rounded-full border-4 border-primary border-t-transparent"></div>
             </div>
-            <p className="text-lg text-text-secondary">
-              Finner golfbaner i nærheten...
-            </p>
+            <p className="text-lg text-text-secondary">Finner golfbaner i nærheten...</p>
           </div>
         )}
 
@@ -148,11 +141,9 @@ export function NearMeSection() {
             <h2 className="mb-6 text-3xl font-bold text-text-primary md:text-4xl">
               Finn golfbaner i nærheten
             </h2>
-            <div className="mb-8 rounded-lg border border-error/20 bg-error-light p-5 text-error">
+            <div className="border-error/20 mb-8 rounded-lg border bg-error-light p-5 text-error">
               <p className="mb-2 text-lg font-semibold">
-                {viewState === "denied"
-                  ? "Tillatelse nektet"
-                  : "Kunne ikke hente posisjon"}
+                {viewState === "denied" ? "Tillatelse nektet" : "Kunne ikke hente posisjon"}
               </p>
               <p className="text-base">{errorMessage}</p>
             </div>
@@ -185,11 +176,11 @@ export function NearMeSection() {
                   <Link
                     key={course.id}
                     href={courseUrl}
-                    className="group block rounded-lg border border-border-default bg-background p-5 shadow-sm transition hover:shadow-md"
+                    className="border-border-default group block rounded-lg border bg-background p-5 shadow-sm transition hover:shadow-md"
                   >
                     {/* Distance Badge */}
                     <div className="mb-3 flex items-center justify-between">
-                      <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
+                      <span className="bg-primary/10 inline-flex items-center gap-1 rounded-full px-3 py-1 text-sm font-medium text-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -212,9 +203,7 @@ export function NearMeSection() {
                     </h3>
 
                     {/* City */}
-                    <p className="mb-3 text-text-secondary">
-                      {course.city}
-                    </p>
+                    <p className="mb-3 text-text-secondary">{course.city}</p>
 
                     {/* Rating */}
                     {course.rating && (
@@ -224,9 +213,7 @@ export function NearMeSection() {
                           {course.rating.toFixed(1)}
                         </span>
                         {course.reviewCount > 0 && (
-                          <span className="text-text-tertiary">
-                            ({course.reviewCount})
-                          </span>
+                          <span className="text-text-tertiary">({course.reviewCount})</span>
                         )}
                       </div>
                     )}
@@ -243,7 +230,7 @@ export function NearMeSection() {
                     </div>
 
                     {/* Arrow indicator */}
-                    <div className="mt-4 flex items-center gap-1 text-sm font-medium text-primary group-hover:gap-2 transition-all">
+                    <div className="mt-4 flex items-center gap-1 text-sm font-medium text-primary transition-all group-hover:gap-2">
                       Se bane
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -271,7 +258,7 @@ export function NearMeSection() {
                   setCourses([]);
                   sessionStorage.removeItem("userLocation");
                 }}
-                className="text-base font-medium text-text-secondary hover:text-text-primary transition"
+                className="text-base font-medium text-text-secondary transition hover:text-text-primary"
               >
                 Søk på nytt
               </button>

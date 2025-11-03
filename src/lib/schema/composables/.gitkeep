@@ -1,0 +1,5 @@
+# This directory will contain page-level schema composers
+# - homepage-schema.ts
+# - course-page-schema.ts
+# - region-page-schema.ts
+# - search-page-schema.ts

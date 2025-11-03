@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Kontakt oss - golfkart.no",
+  description:
+    "Ta kontakt med golfkart.no. Vi vil gjerne høre fra deg om spørsmål, tilbakemeldinger eller oppdatert informasjon om golfbaner.",
+  alternates: {
+    canonical: "/kontakt-oss",
+  },
+};
+
 export default function ContactPage() {
   return (
     <div className="container mx-auto max-w-[1170px] px-4 py-12">
@@ -23,8 +34,7 @@ export default function ContactPage() {
             Legg til eller oppdater bane
           </h2>
           <p className="text-text-secondary">
-            Eier du en golfbane eller har du oppdatert informasjon? Kontakt oss
-            på:{" "}
+            Eier du en golfbane eller har du oppdatert informasjon? Kontakt oss på:{" "}
             <a href="mailto:baner@golfkart.no" className="text-primary hover:underline">
               baner@golfkart.no
             </a>

@@ -20,10 +20,7 @@ export interface BoundingBox {
  * @param coord2 Second coordinate
  * @returns Distance in kilometers
  */
-export function calculateDistance(
-  coord1: Coordinates,
-  coord2: Coordinates
-): number {
+export function calculateDistance(coord1: Coordinates, coord2: Coordinates): number {
   const R = 6371; // Earth's radius in kilometers
   const dLat = toRadians(coord2.latitude - coord1.latitude);
   const dLon = toRadians(coord2.longitude - coord1.longitude);
@@ -48,13 +45,9 @@ export function calculateDistance(
  * @param radiusKm Radius in kilometers
  * @returns Bounding box coordinates
  */
-export function getBoundingBox(
-  center: Coordinates,
-  radiusKm: number = 50
-): BoundingBox {
+export function getBoundingBox(center: Coordinates, radiusKm: number = 50): BoundingBox {
   const latDelta = radiusKm / 111; // 1 degree of latitude ≈ 111 km
-  const lngDelta =
-    radiusKm / (111 * Math.cos(toRadians(center.latitude))); // Adjust for latitude
+  const lngDelta = radiusKm / (111 * Math.cos(toRadians(center.latitude))); // Adjust for latitude
 
   return {
     minLat: center.latitude - latDelta,

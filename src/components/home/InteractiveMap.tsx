@@ -21,11 +21,7 @@ interface InteractiveMapProps {
   className?: string;
 }
 
-export function InteractiveMap({
-  regions,
-  onRegionClick,
-  className,
-}: InteractiveMapProps) {
+export function InteractiveMap({ regions, onRegionClick, className }: InteractiveMapProps) {
   const chartRef = useRef<HTMLDivElement>(null);
   const chartInstanceRef = useRef<am5map.MapChart | null>(null);
   const router = useRouter();
@@ -125,11 +121,11 @@ export function InteractiveMap({
     // For merged regions, create a data entry for EACH polygon ID
     const polygonData = regions.flatMap((region) =>
       region.polygonIds.map((polygonId) => ({
-        id: polygonId,           // norwayLow polygon ID (e.g., "NO-04")
-        name: region.name,        // Display name (e.g., "Innlandet")
+        id: polygonId, // norwayLow polygon ID (e.g., "NO-04")
+        name: region.name, // Display name (e.g., "Innlandet")
         courseCount: region.courseCount,
         slug: region.slug,
-      }))
+      })),
     );
 
     polygonSeries.data.setAll(polygonData);
@@ -144,52 +140,36 @@ export function InteractiveMap({
     };
   }, [regions, onRegionClick, router]);
 
-  const handleHomeClick = () => {
-    if (chartInstanceRef.current) {
-      // Manually zoom and center the map to home position
-      chartInstanceRef.current.zoomToGeoPoint(
-        { longitude: 10, latitude: 65 },
-        1,
-        true
-      );
-    }
-  };
-
   return (
     <div className="relative w-full max-w-2xl">
       {isLoading && (
-        <div className="absolute inset-0 flex items-center justify-center bg-background-elevated">
+        <div className="bg-background-elevated absolute inset-0 flex items-center justify-center">
           <div className="text-text-tertiary">Laster kart...</div>
         </div>
       )}
       <div
         ref={chartRef}
-        className={
-          className || "h-[300px] w-full md:h-[400px] lg:h-[500px]"
-        }
-        style={{ width: "100%", minWidth: "300px" }}
+        className={className || "h-[300px] w-full md:h-[400px] lg:h-[500px]"}
+        style={{
+          width: "100%",
+          minWidth: "300px",
+        }}
       />
-      {/* Home button positioned in top left corner */}
-      <button
-        onClick={handleHomeClick}
-        className="absolute flex h-8 w-8 items-center justify-center rounded border border-gray-300 bg-white shadow-sm transition hover:bg-gray-50 focus:outline-none"
-        style={{ top: "16px", left: "16px" }}
-        title="Reset til standard visning"
-        aria-label="Reset map to home position"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          className="h-5 w-5 text-gray-700"
-        >
-          <path
-            fillRule="evenodd"
-            d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z"
-            clipRule="evenodd"
-          />
-        </svg>
-      </button>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+        a[title*="Chart"],
+        [aria-label*="Chart"],
+        .am5-logo,
+        .am5-branding {
+          display: none !important;
+          opacity: 0 !important;
+          visibility: hidden !important;
+          pointer-events: none !important;
+        }
+      `,
+        }}
+      />
     </div>
   );
 }

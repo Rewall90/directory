@@ -86,7 +86,7 @@ interface GoogleWeatherResponse {
  */
 export async function getCurrentWeather(
   latitude: number,
-  longitude: number
+  longitude: number,
 ): Promise<CurrentWeather | null> {
   const apiKey = getApiKey();
 
@@ -105,9 +105,7 @@ export async function getCurrentWeather(
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.error(
-        `Weather API error: ${response.status} ${response.statusText}`
-      );
+      console.error(`Weather API error: ${response.status} ${response.statusText}`);
       console.error(`Response:`, errorText);
       return null;
     }
@@ -154,10 +152,7 @@ export function getWeatherEmoji(condition: string): string {
   if (conditionLower.includes("clear") || conditionLower.includes("sunny")) {
     return "☀️";
   }
-  if (
-    conditionLower.includes("cloud") ||
-    conditionLower.includes("overcast")
-  ) {
+  if (conditionLower.includes("cloud") || conditionLower.includes("overcast")) {
     return "☁️";
   }
   if (conditionLower.includes("rain") || conditionLower.includes("drizzle")) {
@@ -209,28 +204,28 @@ export function translateWeatherCondition(condition: string): string {
 
   // Direct translations
   const translations: Record<string, string> = {
-    "clear": "Klart",
-    "sunny": "Solrikt",
+    clear: "Klart",
+    sunny: "Solrikt",
     "mostly sunny": "Delvis solrikt",
     "partly sunny": "Delvis solrikt",
     "partly cloudy": "Delvis skyet",
     "mostly cloudy": "Overskyet",
-    "cloudy": "Skyet",
-    "overcast": "Overskyet",
-    "rain": "Regn",
+    cloudy: "Skyet",
+    overcast: "Overskyet",
+    rain: "Regn",
     "light rain": "Lett regn",
     "heavy rain": "Kraftig regn",
-    "drizzle": "Duskregn",
-    "showers": "Regnbyger",
-    "thunderstorm": "Tordenvær",
-    "snow": "Snø",
+    drizzle: "Duskregn",
+    showers: "Regnbyger",
+    thunderstorm: "Tordenvær",
+    snow: "Snø",
     "light snow": "Lett snø",
     "heavy snow": "Kraftig snø",
-    "sleet": "Sludd",
-    "fog": "Tåke",
-    "mist": "Dis",
-    "haze": "Dunst",
-    "windy": "Vindfull",
+    sleet: "Sludd",
+    fog: "Tåke",
+    mist: "Dis",
+    haze: "Dunst",
+    windy: "Vindfull",
   };
 
   // Check for exact match first

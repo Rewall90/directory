@@ -1,0 +1,9 @@
+# This directory will contain schema generator functions
+# - organization.ts
+# - website.ts
+# - webpage.ts
+# - breadcrumb.ts
+# - itemlist.ts
+# - golf-course.ts
+# - place.ts
+# - review.ts

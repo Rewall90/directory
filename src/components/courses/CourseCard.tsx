@@ -17,13 +17,12 @@ export function CourseCard({ course }: CourseCardProps) {
   const courseUrl = `/${toRegionSlug(course.region)}/${course.slug}`;
 
   // Determine if we have a full address or placeholder
-  const hasFullAddress =
-    course.addressStreet && course.addressStreet !== "TBD";
+  const hasFullAddress = course.addressStreet && course.addressStreet !== "TBD";
 
   return (
     <Link
       href={courseUrl}
-      className="group block rounded-lg border border-border-default bg-background-surface p-6 shadow-sm transition hover:shadow-md"
+      className="border-border-default group block rounded-lg border bg-background-surface p-6 shadow-sm transition hover:shadow-md"
     >
       <div className="flex items-start justify-between gap-4">
         {/* Left: Course Information (grows to fill space) */}
@@ -69,11 +68,7 @@ export function CourseCard({ course }: CourseCardProps) {
             )}
 
             {/* Holes */}
-            {course.holes && (
-              <span>
-                {course.holes} hull
-              </span>
-            )}
+            {course.holes && <span>{course.holes} hull</span>}
 
             {/* Par */}
             {course.par && (

@@ -117,9 +117,7 @@ export function WeatherWidget({
               <span>🌧️</span>
               <span>Nedbør</span>
             </span>
-            <span className="font-medium text-text-primary">
-              {precipitationChance}%
-            </span>
+            <span className="font-medium text-text-primary">{precipitationChance}%</span>
           </div>
         )}
 
@@ -132,9 +130,7 @@ export function WeatherWidget({
             </span>
             <span className="font-medium text-text-primary">
               {uvIndex}
-              {uvIndex >= 8 && (
-                <span className="ml-1 text-xs text-red-500">(Høy)</span>
-              )}
+              {uvIndex >= 8 && <span className="ml-1 text-xs text-red-500">(Høy)</span>}
               {uvIndex >= 6 && uvIndex < 8 && (
                 <span className="ml-1 text-xs text-yellow-600">(Moderat)</span>
               )}

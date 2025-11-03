@@ -22,22 +22,18 @@ export function RatingCard({ rating }: RatingCardProps) {
   const handleClick = () => {
     if (hasUrl && rating.url) {
       // Open reviews in a popup window
-      window.open(
-        rating.url,
-        '_blank',
-        'width=800,height=600,scrollbars=yes,resizable=yes'
-      );
+      window.open(rating.url, "_blank", "width=800,height=600,scrollbars=yes,resizable=yes");
     }
   };
 
   return (
     <div
-      className={`rounded-lg border border-border-subtle bg-background-surface p-4 shadow-sm ${hasUrl ? 'cursor-pointer hover:border-primary hover:shadow-md transition-all' : ''}`}
+      className={`rounded-lg border border-border-subtle bg-background-surface p-4 shadow-sm ${hasUrl ? "cursor-pointer transition-all hover:border-primary hover:shadow-md" : ""}`}
       onClick={handleClick}
       role={hasUrl ? "button" : undefined}
       tabIndex={hasUrl ? 0 : undefined}
       onKeyDown={(e) => {
-        if (hasUrl && (e.key === 'Enter' || e.key === ' ')) {
+        if (hasUrl && (e.key === "Enter" || e.key === " ")) {
           e.preventDefault();
           handleClick();
         }
@@ -51,7 +47,8 @@ export function RatingCard({ rating }: RatingCardProps) {
             {rating.source === "top100" && "Top 100 Golf Courses"}
             {rating.source === "google" && "Google"}
             {rating.source === "facebook" && "Facebook"}
-            {!["hole19", "18birdies", "top100", "google", "facebook"].includes(rating.source) && rating.source}
+            {!["hole19", "18birdies", "top100", "google", "facebook"].includes(rating.source) &&
+              rating.source}
           </div>
           {rating.reviewCount && rating.reviewCount > 0 && (
             <div className="text-xs text-text-tertiary">
@@ -63,9 +60,7 @@ export function RatingCard({ rating }: RatingCardProps) {
           <div className="flex items-center gap-1">
             <StarRating rating={normalizedRating} size={16} />
           </div>
-          <div className="font-semibold text-text-primary">
-            {normalizedRating.toFixed(1)} / 5
-          </div>
+          <div className="font-semibold text-text-primary">{normalizedRating.toFixed(1)} / 5</div>
         </div>
       </div>
     </div>

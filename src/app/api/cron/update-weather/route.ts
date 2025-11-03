@@ -22,10 +22,7 @@ export async function GET(request: NextRequest) {
       process.env.NODE_ENV === "production" &&
       authHeader !== `Bearer ${process.env.CRON_SECRET}`
     ) {
-      return NextResponse.json(
-        { success: false, error: "Unauthorized" },
-        { status: 401 }
-      );
+      return NextResponse.json({ success: false, error: "Unauthorized" }, { status: 401 });
     }
 
     console.log("🌤️  Starting weather update cron job...");
@@ -55,10 +52,7 @@ export async function GET(request: NextRequest) {
     // to avoid rate limiting and makes debugging easier
     for (const course of courses) {
       try {
-        const weather = await getCurrentWeather(
-          course.latitude!,
-          course.longitude!
-        );
+        const weather = await getCurrentWeather(course.latitude!, course.longitude!);
 
         if (weather) {
           await prisma.course.update({
@@ -80,7 +74,7 @@ export async function GET(request: NextRequest) {
 
           successCount++;
           console.log(
-            `✅ Updated weather for ${course.name}: ${weather.temperature}°C, ${weather.condition}`
+            `✅ Updated weather for ${course.name}: ${weather.temperature}°C, ${weather.condition}`,
           );
         } else {
           errorCount++;
@@ -133,7 +127,7 @@ export async function GET(request: NextRequest) {
         error: "Internal server error",
         message: error instanceof Error ? error.message : String(error),
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

@@ -42,9 +42,7 @@ export function CourseSearch({
 
     setIsLoading(true);
     try {
-      const response = await fetch(
-        `/api/courses?q=${encodeURIComponent(searchQuery)}`
-      );
+      const response = await fetch(`/api/courses?q=${encodeURIComponent(searchQuery)}`);
       const data = await response.json();
 
       if (data.success) {
@@ -83,9 +81,7 @@ export function CourseSearch({
     switch (e.key) {
       case "ArrowDown":
         e.preventDefault();
-        setActiveIndex((prev) =>
-          prev < results.length - 1 ? prev + 1 : prev
-        );
+        setActiveIndex((prev) => (prev < results.length - 1 ? prev + 1 : prev));
         break;
       case "ArrowUp":
         e.preventDefault();
@@ -110,10 +106,7 @@ export function CourseSearch({
   // Click outside to close
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        searchRef.current &&
-        !searchRef.current.contains(event.target as Node)
-      ) {
+      if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
         setIsOpen(false);
         setActiveIndex(-1);
       }
@@ -148,8 +141,8 @@ export function CourseSearch({
           placeholder={placeholder}
           className="w-full bg-background-surface px-4 py-3 pl-11 pr-4 text-text-primary placeholder-text-tertiary shadow-sm transition-all focus:outline-none"
           style={{
-            border: 'solid 2px hsl(72, 80%, 20%)',
-            borderRadius: '4px'
+            border: "solid 2px hsl(72, 80%, 20%)",
+            borderRadius: "4px",
           }}
           aria-label="Søk etter golfbaner"
           aria-autocomplete="list"
@@ -185,7 +178,7 @@ export function CourseSearch({
       {isOpen && (
         <div
           id="search-results"
-          className="absolute z-50 mt-2 w-full overflow-hidden rounded-lg border border-border-default bg-background-surface shadow-lg"
+          className="border-border-default absolute z-50 mt-2 w-full overflow-hidden rounded-lg border bg-background-surface shadow-lg"
           role="listbox"
         >
           {results.length > 0 ? (
@@ -221,9 +214,7 @@ export function CourseSearch({
                 />
               </svg>
               <p className="text-sm">Ingen resultater funnet</p>
-              <p className="mt-1 text-xs text-text-tertiary">
-                Prøv et annet søkeord
-              </p>
+              <p className="mt-1 text-xs text-text-tertiary">Prøv et annet søkeord</p>
             </div>
           )}
         </div>

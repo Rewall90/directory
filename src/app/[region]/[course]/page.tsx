@@ -2,13 +2,23 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
-import { toRegionSlug } from "@/lib/constants/norway-regions";
-import type { Facility, Rating as RatingModel, Course, Pricing, CourseRating, PhoneNumber, AdditionalFeature, MembershipPricing } from "@prisma/client";
+import { toRegionSlug, getCountyNameFromSlug } from "@/lib/constants/norway-regions";
+import type {
+  Facility,
+  Rating as RatingModel,
+  Course,
+  Pricing,
+  CourseRating,
+  PhoneNumber,
+  AdditionalFeature,
+  MembershipPricing,
+} from "@prisma/client";
 import { StarRating } from "@/components/courses/StarRating";
 import { ExpandableDescription } from "@/components/courses/ExpandableDescription";
 import { WeatherWidget } from "@/components/courses/WeatherWidget";
 import { ExpandableFeatures } from "@/components/courses/ExpandableFeatures";
 import { RatingCard } from "@/components/courses/RatingCard";
+import { generateCourseBreadcrumb } from "@/lib/schema";
 
 interface CoursePageProps {
   params: Promise<{
@@ -17,7 +27,9 @@ interface CoursePageProps {
   }>;
 }
 
-function calculateRating(ratings: RatingModel[]): { averageRating: number; totalReviews: number } | null {
+function calculateRating(
+  ratings: RatingModel[],
+): { averageRating: number; totalReviews: number } | null {
   if (!ratings || ratings.length === 0) return null;
 
   let weightedScore = 0;
@@ -44,14 +56,18 @@ function calculateRating(ratings: RatingModel[]): { averageRating: number; total
   };
 }
 
-function buildFacilityGroups(facilities: Facility | null): Array<{ title: string; items: string[] }> {
+function buildFacilityGroups(
+  facilities: Facility | null,
+): Array<{ title: string; items: string[] }> {
   if (!facilities) return [];
 
   const groups: Array<{ title: string; items: string[] }> = [];
 
   const training: string[] = [];
   if (facilities.drivingRange) {
-    const lengthSuffix = facilities.drivingRangeLength ? ` (${facilities.drivingRangeLength} m)` : "";
+    const lengthSuffix = facilities.drivingRangeLength
+      ? ` (${facilities.drivingRangeLength} m)`
+      : "";
     training.push(`Driving Range${lengthSuffix}`);
   }
   if (facilities.puttingGreen) training.push("Putting Green");
@@ -98,9 +114,7 @@ function buildFacilityGroups(facilities: Facility | null): Array<{ title: string
     );
   }
   if (facilities.simulator) {
-    extras.push(
-      facilities.simulatorType ? `Simulator – ${facilities.simulatorType}` : "Simulator",
-    );
+    extras.push(facilities.simulatorType ? `Simulator – ${facilities.simulatorType}` : "Simulator");
   }
   if (facilities.eventVenue) extras.push("Eventlokaler");
   if (typeof facilities.bunkers === "number") {
@@ -128,12 +142,12 @@ function getPhoneTypeLabel(type: string | null): string {
 
   // Map phone types to Norwegian labels
   const typeMap: Record<string, string> = {
-    "main": "Sentralbord",
-    "booking": "Booking",
-    "restaurant": "Restaurant",
-    "pro_shop": "Pro Shop",
+    main: "Sentralbord",
+    booking: "Booking",
+    restaurant: "Restaurant",
+    pro_shop: "Pro Shop",
     "Pro Shop": "Pro Shop",
-    "Spiseriet": "Restaurant",
+    Spiseriet: "Restaurant",
   };
 
   return typeMap[type] || type;
@@ -226,7 +240,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
           },
         },
         orderBy: { distanceKm: "asc" },
-        take: 8,
+        take: 4,
       },
     },
   });
@@ -250,12 +264,21 @@ export default async function CoursePage({ params }: CoursePageProps) {
     course.region,
   ].filter(Boolean);
 
-  // Structured data for SEO
+  // Generate BreadcrumbList schema
+  const breadcrumbSchema = generateCourseBreadcrumb(
+    course.region,
+    toRegionSlug(course.region),
+    course.name,
+    course.slug,
+  );
+
+  // Structured data for SEO - GolfCourse schema
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "GolfCourse",
     name: course.name,
-    description: course.description || `${course.name} - Golf course in ${course.city}, ${course.region}`,
+    description:
+      course.description || `${course.name} - Golf course in ${course.city}, ${course.region}`,
     address: {
       "@type": "PostalAddress",
       streetAddress: course.addressStreet,
@@ -264,13 +287,14 @@ export default async function CoursePage({ params }: CoursePageProps) {
       postalCode: course.postalCode,
       addressCountry: "NO",
     },
-    ...(course.latitude && course.longitude && {
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: course.latitude,
-        longitude: course.longitude,
-      },
-    }),
+    ...(course.latitude &&
+      course.longitude && {
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: course.latitude,
+          longitude: course.longitude,
+        },
+      }),
     ...(course.phone && { telephone: course.phone }),
     ...(course.email && { email: course.email }),
     ...(course.website && { url: course.website }),
@@ -287,10 +311,10 @@ export default async function CoursePage({ params }: CoursePageProps) {
       priceRange: `${Math.min(
         pricing.greenFeeWeekday || Infinity,
         pricing.greenFeeWeekend || Infinity,
-        pricing.greenFeeJunior || Infinity
+        pricing.greenFeeJunior || Infinity,
       )} - ${Math.max(
         pricing.greenFeeWeekday || 0,
-        pricing.greenFeeWeekend || 0
+        pricing.greenFeeWeekend || 0,
       )} ${pricing.currency}`,
     }),
   };
@@ -301,6 +325,10 @@ export default async function CoursePage({ params }: CoursePageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       {/* Breadcrumb */}
@@ -322,7 +350,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
           {/* Former Name Badge */}
           {course.formerName && (
             <div className="mb-3">
-              <span className="inline-block rounded-full bg-background-elevated px-3 py-1 text-xs text-text-tertiary">
+              <span className="bg-background-elevated inline-block rounded-full px-3 py-1 text-xs text-text-tertiary">
                 Tidligere: {course.formerName}
               </span>
             </div>
@@ -365,10 +393,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
               </a>
             )}
             {primaryPhone && (
-              <a
-                href={`tel:${primaryPhone.phoneNumber}`}
-                className="btn-secondary"
-              >
+              <a href={`tel:${primaryPhone.phoneNumber}`} className="btn-secondary">
                 Ring
               </a>
             )}
@@ -393,7 +418,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {/* Holes */}
             {course.holes && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
-                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">Hull</div>
+                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
+                  Hull
+                </div>
                 <div className="text-2xl font-bold text-text-primary">{course.holes}</div>
               </div>
             )}
@@ -401,7 +428,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {/* Par */}
             {course.par && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
-                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">Par</div>
+                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
+                  Par
+                </div>
                 <div className="text-2xl font-bold text-text-primary">{course.par}</div>
               </div>
             )}
@@ -409,7 +438,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {/* Designer */}
             {course.designer && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
-                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">Designer</div>
+                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
+                  Designer
+                </div>
                 <div className="font-semibold text-text-primary">{course.designer}</div>
               </div>
             )}
@@ -417,11 +448,15 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {/* Year Built */}
             {course.yearBuilt && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
-                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">Bygget</div>
+                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
+                  Bygget
+                </div>
                 <div className="text-2xl font-bold text-text-primary">
                   {course.yearBuilt}
                   {course.yearRedesigned && (
-                    <div className="text-xs font-normal text-text-tertiary">(omb {course.yearRedesigned})</div>
+                    <div className="text-xs font-normal text-text-tertiary">
+                      (omb {course.yearRedesigned})
+                    </div>
                   )}
                 </div>
               </div>
@@ -430,11 +465,15 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {/* Length */}
             {course.lengthMeters && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
-                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">Lengde</div>
+                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
+                  Lengde
+                </div>
                 <div className="text-2xl font-bold text-text-primary">
                   {formatter.format(course.lengthMeters)} m
                   {course.lengthYards && (
-                    <div className="text-xs font-normal text-text-tertiary">{formatter.format(course.lengthYards)} y</div>
+                    <div className="text-xs font-normal text-text-tertiary">
+                      {formatter.format(course.lengthYards)} y
+                    </div>
                   )}
                 </div>
               </div>
@@ -443,7 +482,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {/* Water Hazards */}
             {course.waterHazards && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
-                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">Vannhinder</div>
+                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
+                  Vannhinder
+                </div>
                 <div className="font-semibold text-text-primary">Ja</div>
               </div>
             )}
@@ -451,7 +492,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {/* Season */}
             {course.seasonStart && course.seasonEnd && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
-                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">Sesong</div>
+                <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
+                  Sesong
+                </div>
                 <div className="font-semibold text-text-primary">
                   {course.seasonStart} - {course.seasonEnd}
                 </div>
@@ -480,13 +523,17 @@ export default async function CoursePage({ params }: CoursePageProps) {
               {/* Individual Rating Cards */}
               {course.ratings.length > 0 && (
                 <div className="rounded-lg bg-background-surface p-6 shadow-sm">
-                  <h2 className="mb-4 text-2xl font-semibold text-text-primary">Vurderinger & Anmeldelser</h2>
+                  <h2 className="mb-4 text-2xl font-semibold text-text-primary">
+                    Vurderinger & Anmeldelser
+                  </h2>
 
                   {/* Overall Rating */}
                   {ratingData && (
                     <div className="mb-6 rounded-lg bg-background-hover p-4">
                       <div className="text-center">
-                        <div className="mb-2 text-sm text-text-tertiary">Gjennomsnittlig vurdering</div>
+                        <div className="mb-2 text-sm text-text-tertiary">
+                          Gjennomsnittlig vurdering
+                        </div>
                         <div className="mb-2 flex justify-center">
                           <StarRating rating={ratingData.averageRating} size={24} />
                         </div>
@@ -526,15 +573,19 @@ export default async function CoursePage({ params }: CoursePageProps) {
                             if (detailMatch) {
                               const [, mainName, details] = detailMatch;
                               // Remove phone numbers from details
-                              const cleanDetails = details.replace(/Tlf:\s*[+\d\s]+,?\s*/gi, '').replace(/E-post:\s*\S+,?\s*/gi, '');
+                              const cleanDetails = details
+                                .replace(/Tlf:\s*[+\d\s]+,?\s*/gi, "")
+                                .replace(/E-post:\s*\S+,?\s*/gi, "");
 
                               return (
                                 <li key={item} className="flex gap-2 leading-relaxed">
-                                  <span className="text-primary flex-shrink-0 mt-0.5">✓</span>
+                                  <span className="mt-0.5 flex-shrink-0 text-primary">✓</span>
                                   <div>
                                     <div className="font-medium text-text-primary">{mainName}</div>
                                     {cleanDetails && (
-                                      <div className="mt-0.5 text-sm text-text-tertiary leading-snug">{cleanDetails}</div>
+                                      <div className="mt-0.5 text-sm leading-snug text-text-tertiary">
+                                        {cleanDetails}
+                                      </div>
                                     )}
                                   </div>
                                 </li>
@@ -544,10 +595,12 @@ export default async function CoursePage({ params }: CoursePageProps) {
                               const [, mainName, parenContent, afterParen] = parenMatch;
                               return (
                                 <li key={item} className="flex gap-2 leading-relaxed">
-                                  <span className="text-primary flex-shrink-0 mt-0.5">✓</span>
+                                  <span className="mt-0.5 flex-shrink-0 text-primary">✓</span>
                                   <div>
-                                    <div className="font-medium text-text-primary">{mainName.trim()}</div>
-                                    <div className="mt-0.5 text-sm text-text-tertiary leading-snug">
+                                    <div className="font-medium text-text-primary">
+                                      {mainName.trim()}
+                                    </div>
+                                    <div className="mt-0.5 text-sm leading-snug text-text-tertiary">
                                       {parenContent} {afterParen}
                                     </div>
                                   </div>
@@ -557,7 +610,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
                               // Simple item
                               return (
                                 <li key={item} className="flex gap-2">
-                                  <span className="text-primary flex-shrink-0">✓</span>
+                                  <span className="flex-shrink-0 text-primary">✓</span>
                                   <span>{item}</span>
                                 </li>
                               );
@@ -568,10 +621,10 @@ export default async function CoursePage({ params }: CoursePageProps) {
                     ))}
                   </div>
                   {course.winterUse && (
-                    <div className="mt-8 pt-6 border-t border-border-subtle">
+                    <div className="mt-8 border-t border-border-subtle pt-6">
                       <h3 className="mb-3 font-semibold text-text-primary">Vinter</h3>
                       <div className="flex gap-2 text-text-secondary">
-                        <span className="text-primary flex-shrink-0">✓</span>
+                        <span className="flex-shrink-0 text-primary">✓</span>
                         <span className="leading-relaxed">{course.winterUse}</span>
                       </div>
                     </div>
@@ -582,7 +635,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
               {/* Pricing */}
               {pricing && (
                 <div className="rounded-lg bg-background-surface p-6 shadow-sm">
-                  <h2 className="mb-6 text-2xl font-semibold text-text-primary">Priser {pricing.year}</h2>
+                  <h2 className="mb-6 text-2xl font-semibold text-text-primary">
+                    Priser {pricing.year}
+                  </h2>
 
                   {/* Green Fees - 18 hull */}
                   <div className="mb-6">
@@ -591,19 +646,25 @@ export default async function CoursePage({ params }: CoursePageProps) {
                       {pricing.greenFeeWeekday && (
                         <div className="flex justify-between text-text-secondary">
                           <span>Standard:</span>
-                          <span className="font-semibold text-text-primary">{formatter.format(pricing.greenFeeWeekday)} kr</span>
+                          <span className="font-semibold text-text-primary">
+                            {formatter.format(pricing.greenFeeWeekday)} kr
+                          </span>
                         </div>
                       )}
                       {pricing.greenFeeJunior && (
                         <div className="flex justify-between text-text-secondary">
                           <span>Junior (0-18 år):</span>
-                          <span className="font-semibold text-text-primary">{formatter.format(pricing.greenFeeJunior)} kr</span>
+                          <span className="font-semibold text-text-primary">
+                            {formatter.format(pricing.greenFeeJunior)} kr
+                          </span>
                         </div>
                       )}
                       {pricing.greenFeeSenior && (
                         <div className="flex justify-between text-text-secondary">
                           <span>Senior:</span>
-                          <span className="font-semibold text-text-primary">{formatter.format(pricing.greenFeeSenior)} kr</span>
+                          <span className="font-semibold text-text-primary">
+                            {formatter.format(pricing.greenFeeSenior)} kr
+                          </span>
                         </div>
                       )}
                     </div>
@@ -611,25 +672,31 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
                   {/* Equipment Rental */}
                   {(pricing.cartRental || pricing.pullCartRental || pricing.clubRental) && (
-                    <div className="mb-6 pt-6 border-t border-border-subtle">
+                    <div className="mb-6 border-t border-border-subtle pt-6">
                       <h3 className="mb-3 font-semibold text-text-primary">Utstyr</h3>
                       <div className="space-y-2">
                         {pricing.cartRental && (
                           <div className="flex justify-between text-text-secondary">
                             <span>Golfbil:</span>
-                            <span className="font-semibold text-text-primary">{formatter.format(pricing.cartRental)} kr</span>
+                            <span className="font-semibold text-text-primary">
+                              {formatter.format(pricing.cartRental)} kr
+                            </span>
                           </div>
                         )}
                         {pricing.pullCartRental && (
                           <div className="flex justify-between text-text-secondary">
                             <span>Tralle:</span>
-                            <span className="font-semibold text-text-primary">{formatter.format(pricing.pullCartRental)} kr</span>
+                            <span className="font-semibold text-text-primary">
+                              {formatter.format(pricing.pullCartRental)} kr
+                            </span>
                           </div>
                         )}
                         {pricing.clubRental && (
                           <div className="flex justify-between text-text-secondary">
                             <span>Klubber:</span>
-                            <span className="font-semibold text-text-primary">{formatter.format(pricing.clubRental)} kr</span>
+                            <span className="font-semibold text-text-primary">
+                              {formatter.format(pricing.clubRental)} kr
+                            </span>
                           </div>
                         )}
                       </div>
@@ -638,11 +705,11 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
                   {/* View detailed pricing */}
                   {pricing.greenFeeDescription && (
-                    <details className="mt-6 pt-6 border-t border-border-subtle">
+                    <details className="mt-6 border-t border-border-subtle pt-6">
                       <summary className="cursor-pointer font-semibold text-primary hover:text-primary-dark">
                         Vis alle priser og detaljer
                       </summary>
-                      <div className="mt-4 text-sm leading-relaxed text-text-secondary whitespace-pre-line">
+                      <div className="mt-4 whitespace-pre-line text-sm leading-relaxed text-text-secondary">
                         {pricing.greenFeeDescription}
                       </div>
                     </details>
@@ -660,8 +727,8 @@ export default async function CoursePage({ params }: CoursePageProps) {
                   {/* Joining Fee */}
                   <div className="mb-6 rounded-lg border border-border-subtle bg-background-hover p-4">
                     <div className="font-semibold text-text-primary">Innmeldingsavgift</div>
-                    <div className="text-2xl font-bold text-text-primary mt-1">70 000 kr</div>
-                    <div className="text-sm text-text-secondary mt-1">Engangsavgift ved opptak</div>
+                    <div className="mt-1 text-2xl font-bold text-text-primary">70 000 kr</div>
+                    <div className="mt-1 text-sm text-text-secondary">Engangsavgift ved opptak</div>
                   </div>
 
                   <div className="space-y-4">
@@ -681,7 +748,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
                               )}
                             </h3>
                             {membership.description && (
-                              <p className="mt-1 text-sm text-text-secondary">{membership.description}</p>
+                              <p className="mt-1 text-sm text-text-secondary">
+                                {membership.description}
+                              </p>
                             )}
                           </div>
                           <div className="text-right">
@@ -722,7 +791,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
                   <div className="mb-6">
                     <h3 className="mb-2 font-semibold text-text-primary">Tee-valg</h3>
                     <div className="overflow-auto rounded-lg bg-background-hover p-3">
-                      <table className="min-w-full divide-y divide-border-default">
+                      <table className="divide-border-default min-w-full divide-y">
                         <thead className="bg-background-elevated text-left text-sm font-semibold text-text-secondary">
                           <tr>
                             <th className="px-3 py-2">Tee</th>
@@ -737,7 +806,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
                               <td className="px-3 py-2">
                                 {rating.teeColor} ({rating.gender === "men" ? "H" : "D"})
                               </td>
-                              <td className="px-3 py-2">{rating.courseRating?.toFixed(1) ?? "—"}</td>
+                              <td className="px-3 py-2">
+                                {rating.courseRating?.toFixed(1) ?? "—"}
+                              </td>
                               <td className="px-3 py-2">{rating.slopeRating ?? "—"}</td>
                               <td className="px-3 py-2">{rating.par ?? course.par ?? "—"}</td>
                             </tr>
@@ -749,7 +820,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
                 )}
 
                 {/* Additional Info */}
-                <div className="grid gap-y-4 gap-x-8 sm:grid-cols-2">
+                <div className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
                   <InfoRow label="Banetype" value={course.courseType} />
                   {course.lengthNote && <InfoRow label="Lengde" value={course.lengthNote} />}
                 </div>
@@ -766,7 +837,10 @@ export default async function CoursePage({ params }: CoursePageProps) {
                   {primaryPhone && (
                     <div>
                       <div className="font-semibold text-text-primary">Telefon</div>
-                      <a href={`tel:${primaryPhone.phoneNumber}`} className="text-primary hover:underline">
+                      <a
+                        href={`tel:${primaryPhone.phoneNumber}`}
+                        className="text-primary hover:underline"
+                      >
                         {primaryPhone.phoneNumber}
                       </a>
                     </div>
@@ -782,7 +856,10 @@ export default async function CoursePage({ params }: CoursePageProps) {
                             {label && (
                               <div className="font-semibold text-text-primary">{label}</div>
                             )}
-                            <a href={`tel:${phone.phoneNumber}`} className="text-primary hover:underline">
+                            <a
+                              href={`tel:${phone.phoneNumber}`}
+                              className="text-primary hover:underline"
+                            >
                               {phone.phoneNumber}
                             </a>
                           </div>
@@ -890,7 +967,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
               {course.latitude && course.longitude && (
                 <div className="rounded-lg bg-background-surface p-6 shadow-sm">
                   <h2 className="mb-4 text-xl font-semibold text-text-primary">Google Maps</h2>
-                  <div className="aspect-square w-full overflow-hidden rounded-lg border border-border-default">
+                  <div className="border-border-default aspect-square w-full overflow-hidden rounded-lg border">
                     <iframe
                       src={`https://www.google.com/maps?q=${course.latitude},${course.longitude}&hl=no&z=14&output=embed`}
                       width="100%"
@@ -946,7 +1023,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
                       {nearbyRating && (
                         <span className="flex items-center gap-1">
                           <StarRating rating={nearbyRating.averageRating} size={14} />
-                          <span className="font-medium">{nearbyRating.averageRating.toFixed(1)}</span>
+                          <span className="font-medium">
+                            {nearbyRating.averageRating.toFixed(1)}
+                          </span>
                         </span>
                       )}
                     </div>
