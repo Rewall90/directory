@@ -21,9 +21,12 @@
     "db:reset": "prisma migrate reset"
   },
   "dependencies": {
+    "@amcharts/amcharts5": "^5.14.3",
+    "@amcharts/amcharts5-geodata": "^5.1.5",
     "@prisma/client": "^6.17.0",
     "@vercel/blob": "^2.0.0",
     "@vercel/postgres": "^0.10.0",
+    "dotenv": "^17.2.3",
     "gray-matter": "^4.0.3",
     "next": "15.5.4",
     "next-mdx-remote": "^5.0.0",

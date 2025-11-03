@@ -22,14 +22,6 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
-      // Add other image sources as needed
-      // Example for external CDNs or image services:
-      // {
-      //   protocol: "https",
-      //   hostname: "images.unsplash.com",
-      //   port: "",
-      //   pathname: "/**",
-      // },
     ],
   },
 };
