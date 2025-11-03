@@ -3,33 +3,119 @@
 @tailwind utilities;
 
 :root {
-  --color-background: #ffffff;
-  --color-foreground: #0f172a;
-  --color-muted: #f3f4f6;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Neutrals - Light Mode (Default) */
+  --bg-base: oklch(0.98 0.005 160);
+  --bg-surface: oklch(0.96 0.006 160);
+  --bg-hover: oklch(0.92 0.008 160);
+
+  --text-primary: oklch(0.20 0.002 0);
+  --text-secondary: oklch(0.40 0.002 0);
+  --text-tertiary: oklch(0.58 0.002 0);
+
+  --border-subtle: oklch(0.88 0.008 160);
+  --border-default: oklch(0.82 0.010 160);
+  --border-strong: oklch(0.70 0.014 160);
+
+  /* Brand Colors (same in both modes) */
+  --primary-dark: oklch(0.35 0.14 155);
+  --primary: oklch(0.48 0.16 155);
+  --primary-light: oklch(0.58 0.14 155);
+  --primary-lighter: oklch(0.88 0.08 155);
+  --primary-content: oklch(0.98 0.02 155);
+
+  --secondary: oklch(0.58 0.18 240);
+  --secondary-light: oklch(0.68 0.16 240);
+  --secondary-lighter: oklch(0.92 0.06 240);
+
+  --accent: oklch(0.68 0.18 40);
+  --accent-light: oklch(0.78 0.16 40);
+  --accent-lighter: oklch(0.94 0.06 40);
+
+  /* Semantic Colors (same in both modes) */
+  --success: oklch(0.52 0.18 145);
+  --success-light: oklch(0.90 0.10 145);
+  --error: oklch(0.55 0.22 25);
+  --error-light: oklch(0.92 0.10 25);
+  --warning: oklch(0.85 0.14 95);
+  --warning-light: oklch(0.95 0.08 95);
+  --info: oklch(0.62 0.18 235);
+  --info-light: oklch(0.92 0.08 235);
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  /* Fonts */
+  --font-sans: var(--font-manrope);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: #0f172a;
-    --color-foreground: #f8fafc;
-    --color-muted: #1e293b;
-  }
+[data-theme="dark"] {
+  /* Neutrals - Dark Mode */
+  --bg-base: oklch(0.15 0.01 160);
+  --bg-surface: oklch(0.20 0.012 160);
+  --bg-hover: oklch(0.26 0.014 160);
+
+  --text-primary: oklch(0.92 0.002 0);
+  --text-secondary: oklch(0.72 0.002 0);
+  --text-tertiary: oklch(0.52 0.002 0);
+
+  --border-subtle: oklch(0.28 0.012 160);
+  --border-default: oklch(0.35 0.014 160);
+  --border-strong: oklch(0.45 0.016 160);
+
+  /* Adjust shadows for dark mode */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-elevated: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 @layer base {
   body {
-    @apply min-h-screen bg-background font-sans text-foreground antialiased;
+    @apply min-h-screen bg-background font-sans text-text-primary antialiased;
+    font-weight: 400;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+
+  strong, b {
+    font-weight: 600;
+  }
+
+  button {
+    font-weight: 600;
   }
 
   a {
-    @apply text-primary transition-colors hover:text-secondary;
+    @apply text-primary transition-colors hover:text-primary-light;
   }
 }
 
 @layer components {
   .card-highlight {
-    @apply rounded-xl border border-base-300 bg-base-100 p-6 shadow-sm;
+    @apply rounded-xl bg-background-surface p-6;
+    border: 1px solid var(--border-default);
+    box-shadow: var(--shadow-card);
+    transition: box-shadow 0.2s;
+  }
+
+  .card-highlight:hover {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .btn-primary {
+    @apply rounded-lg bg-primary px-6 py-3 text-white;
+    @apply transition-colors hover:bg-primary-dark hover:text-white;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    box-shadow: var(--shadow-card);
+  }
+
+  .btn-secondary {
+    @apply rounded-lg bg-transparent px-6 py-3 text-primary;
+    @apply transition-colors hover:bg-primary-lighter;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    border: 2px solid var(--primary);
   }
 }
