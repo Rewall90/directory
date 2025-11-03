@@ -8,7 +8,8 @@
  * Cost: ~10,000 API calls/month = FREE (within Google's free tier)
  */
 
-import { NextRequest, NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getCurrentWeather } from "@/lib/google-weather";
 

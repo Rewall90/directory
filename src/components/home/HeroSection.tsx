@@ -30,11 +30,9 @@ interface NearbyCourse {
 type ViewState = "initial" | "loading" | "success" | "error" | "denied";
 
 export function HeroSection({
-  title = "Golfbaner i Norge",
   description = [
     "Golf Directory tilbyr en komplett oversikt over golfbaner i Norge, med detaljert informasjon og vurderinger.",
   ],
-  courseCount,
 }: HeroSectionProps) {
   const [viewState, setViewState] = useState<ViewState>("initial");
   const [courses, setCourses] = useState<NearbyCourse[]>([]);
