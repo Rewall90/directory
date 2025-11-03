@@ -207,7 +207,8 @@ export interface BreadcrumbReference {
 }
 
 export interface PlaceReference {
-  "@id": string;
+  "@type"?: string;
+  "@id"?: string;
   name?: string;
 }
 
