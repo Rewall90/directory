@@ -129,7 +129,7 @@ export interface ContactPoint {
   contactType: string;
   email?: string;
   telephone?: string;
-  availableLanguage?: string[];
+  availableLanguage?: readonly string[] | string[];
   areaServed?: string;
 }
 
