@@ -21,9 +21,9 @@ export default function BloggPage() {
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((post) => {
           // Use seoDescription if available, otherwise strip HTML from description
-          const displayDescription =
-            post.frontMatter.seoDescription ||
-            post.frontMatter.description?.replace(/<[^>]*>/g, "") ||
+          const displayDescription: string =
+            (post.frontMatter.seoDescription as string) ||
+            (post.frontMatter.description as string)?.replace(/<[^>]*>/g, "") ||
             "";
 
           return (
