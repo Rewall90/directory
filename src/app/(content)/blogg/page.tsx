@@ -19,42 +19,39 @@ export default function BloggPage() {
       </header>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => (
-          <Link
-            key={post.slug}
-            href={`/blogg/${post.slug}`}
-            className="card bg-base-200 transition-shadow hover:shadow-lg"
-          >
-            <div className="card-body">
-              <h2 className="card-title text-primary">{post.frontMatter.title}</h2>
-              {post.frontMatter.description && (
-                <p className="text-base-content/70">{post.frontMatter.description}</p>
+        {posts.map((post) => {
+          // Use seoDescription if available, otherwise strip HTML from description
+          const displayDescription =
+            post.frontMatter.seoDescription ||
+            post.frontMatter.description?.replace(/<[^>]*>/g, "") ||
+            "";
+
+          return (
+            <Link
+              key={post.slug}
+              href={`/blogg/${post.slug}`}
+              className="border-border-default group flex flex-col rounded-lg border bg-background-surface p-6 transition-all hover:border-primary hover:shadow-md"
+            >
+              <h2 className="mb-3 text-xl font-semibold text-text-primary group-hover:text-primary">
+                {post.frontMatter.title}
+              </h2>
+
+              {displayDescription && (
+                <p className="mb-4 line-clamp-3 flex-1 text-text-secondary">{displayDescription}</p>
               )}
 
-              <div className="card-actions mt-4 justify-between">
-                {post.frontMatter.tags && post.frontMatter.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-1">
-                    {post.frontMatter.tags.slice(0, 2).map((tag) => (
-                      <span key={tag} className="badge badge-outline badge-sm">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
-
-                {post.frontMatter.publishedAt && (
-                  <span className="text-base-content/60 text-sm">
-                    {new Date(post.frontMatter.publishedAt).toLocaleDateString("nb-NO", {
-                      year: "numeric",
-                      month: "short",
-                      day: "numeric",
-                    })}
-                  </span>
-                )}
-              </div>
-            </div>
-          </Link>
-        ))}
+              {post.frontMatter.publishedAt && (
+                <span className="text-sm text-text-tertiary">
+                  {new Date(post.frontMatter.publishedAt).toLocaleDateString("nb-NO", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </span>
+              )}
+            </Link>
+          );
+        })}
       </div>
 
       {posts.length === 0 && (
