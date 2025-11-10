@@ -1,7 +1,14 @@
 import type { MDXComponents } from "mdx/types";
+import { FAQAccordion } from "@/components/blog/FAQAccordion";
+import { RankingTable } from "@/components/blog/RankingTable";
+import { BlogCourseCard } from "@/components/blog/BlogCourseCard";
 
 // MDX components configuration for styling
 export const mdxComponents: MDXComponents = {
+  // Custom components
+  FAQAccordion,
+  RankingTable,
+  BlogCourseCard,
   // Headings with custom styling
   h1: ({ children }) => <h1 className="mb-6 mt-8 text-4xl font-bold text-primary">{children}</h1>,
   h2: ({ children }) => (

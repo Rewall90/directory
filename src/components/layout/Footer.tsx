@@ -26,6 +26,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/blogg" className="text-text-secondary hover:text-primary">
+                  Blogg
+                </Link>
+              </li>
+              <li>
                 <Link href="/om-oss" className="text-text-secondary hover:text-primary">
                   Om oss
                 </Link>
