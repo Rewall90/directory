@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { SearchResult } from "./SearchResult";
+import { toRegionSlug } from "@/lib/constants/norway-regions";
 
 interface Course {
   id: string;
@@ -97,7 +98,7 @@ export function CourseSearch({
         e.preventDefault();
         if (activeIndex >= 0 && results[activeIndex]) {
           const course = results[activeIndex];
-          window.location.href = `/${course.region.toLowerCase().replace(/\s+/g, "-")}/${course.slug}`;
+          window.location.href = `/${toRegionSlug(course.region)}/${course.slug}`;
         }
         break;
     }

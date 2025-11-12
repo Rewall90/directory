@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { toRegionSlug } from "@/lib/constants/norway-regions";
 
 interface SearchResultProps {
   name: string;
@@ -21,7 +22,7 @@ export function SearchResult({
 }: SearchResultProps) {
   return (
     <Link
-      href={`/${region.toLowerCase().replace(/\s+/g, "-")}/${slug}`}
+      href={`/${toRegionSlug(region)}/${slug}`}
       className={`block px-4 py-3 transition-colors ${
         isActive
           ? "bg-primary-lighter text-primary-dark"
