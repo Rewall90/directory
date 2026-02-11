@@ -25,8 +25,30 @@ function resolveDisplayName(slug: string): string {
 
 export async function generateMetadata({ params }: RegionPageProps): Promise<Metadata> {
   const { region } = await params;
+  const displayName = resolveDisplayName(region);
+
+  // Fetch course count for the title
+  const courseCount = await prisma.course.count({
+    where: {
+      region: {
+        equals: displayName,
+        mode: "insensitive",
+      },
+    },
+  });
+
+  const title = `Golfbaner i ${displayName} - ${courseCount} Klubber`;
+  const description = `Finn alle golfbaner og golfklubber i ${displayName}. Se informasjon om ${courseCount} klubber med kart, priser, åpningstider og fasiliteter.`;
 
   return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: `https://golfkart.no/${region}`,
+    },
     alternates: {
       canonical: `/${region}`,
     },
