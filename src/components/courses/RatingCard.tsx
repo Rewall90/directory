@@ -3,7 +3,6 @@
 import { StarRating } from "./StarRating";
 
 interface Rating {
-  id: string;
   source: string;
   rating: number | null;
   reviewCount: number | null;

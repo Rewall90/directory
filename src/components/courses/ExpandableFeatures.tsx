@@ -3,7 +3,6 @@
 import { useState } from "react";
 
 interface Feature {
-  id: string;
   feature: string;
   description: string | null;
 }
@@ -21,8 +20,8 @@ export function ExpandableFeatures({ features }: ExpandableFeaturesProps) {
     <div className="rounded-lg bg-background-surface p-6 shadow-sm">
       <h2 className="mb-6 text-2xl font-semibold text-text-primary">Verdt å vite</h2>
       <ul className="space-y-3 text-text-secondary">
-        {displayFeatures.map((feature) => (
-          <li key={feature.id} className="flex gap-3">
+        {displayFeatures.map((feature, index) => (
+          <li key={index} className="flex gap-3">
             <span className="mt-0.5 flex-shrink-0 text-primary">•</span>
             <div>
               <div className="font-medium text-text-primary">{feature.feature}</div>

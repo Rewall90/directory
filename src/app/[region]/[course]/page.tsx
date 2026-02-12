@@ -1,18 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { prisma } from "@/lib/prisma";
-import { toRegionSlug, getCountyNameFromSlug } from "@/lib/constants/norway-regions";
-import type {
-  Facility,
-  Rating as RatingModel,
-  Course,
-  Pricing,
-  CourseRating,
-  PhoneNumber,
-  AdditionalFeature,
-  MembershipPricing,
-} from "@prisma/client";
+import { getCourse, getAllCourses, calculateAverageRating } from "@/lib/courses";
+import { toRegionSlug } from "@/lib/constants/norway-regions";
+import type { Course, Facilities } from "@/types/course";
 import { StarRating } from "@/components/courses/StarRating";
 import { ExpandableDescription } from "@/components/courses/ExpandableDescription";
 import { WeatherWidget } from "@/components/courses/WeatherWidget";
@@ -27,37 +18,8 @@ interface CoursePageProps {
   }>;
 }
 
-function calculateRating(
-  ratings: RatingModel[],
-): { averageRating: number; totalReviews: number } | null {
-  if (!ratings || ratings.length === 0) return null;
-
-  let weightedScore = 0;
-  let reviewCount = 0;
-
-  for (const rating of ratings) {
-    if (!rating.rating) continue;
-    const normalised = (rating.rating / (rating.maxRating || 5)) * 5;
-
-    if (rating.reviewCount && rating.reviewCount > 0) {
-      weightedScore += normalised * rating.reviewCount;
-      reviewCount += rating.reviewCount;
-    } else {
-      weightedScore += normalised;
-      reviewCount += 1;
-    }
-  }
-
-  if (reviewCount === 0) return null;
-
-  return {
-    averageRating: weightedScore / reviewCount,
-    totalReviews: reviewCount,
-  };
-}
-
 function buildFacilityGroups(
-  facilities: Facility | null,
+  facilities: Facilities | null,
 ): Array<{ title: string; items: string[] }> {
   if (!facilities) return [];
 
@@ -158,16 +120,7 @@ const formatter = new Intl.NumberFormat("no-NO");
 export async function generateMetadata({ params }: CoursePageProps): Promise<Metadata> {
   const { region: regionSlug, course: courseSlug } = await params;
 
-  const course = await prisma.course.findFirst({
-    where: { slug: courseSlug },
-    include: {
-      ratings: true,
-      pricing: {
-        orderBy: { year: "desc" },
-        take: 1,
-      },
-    },
-  });
+  const course = getCourse(courseSlug);
 
   if (!course || toRegionSlug(regionSlug) !== toRegionSlug(course.region)) {
     return {
@@ -175,11 +128,11 @@ export async function generateMetadata({ params }: CoursePageProps): Promise<Met
     };
   }
 
-  const ratingData = calculateRating(course.ratings);
+  const ratingData = calculateAverageRating(course.ratings);
 
   const description = course.description
     ? course.description.substring(0, 160) + "..."
-    : `${course.name} - ${course.holes} hull golf course in ${course.city}, ${course.region}. ${ratingData ? `Rated ${ratingData.averageRating.toFixed(1)}/5 by ${ratingData.totalReviews} golfers.` : ""}`;
+    : `${course.name} - ${course.course.holes} hull golf course in ${course.city}, ${course.region}. ${ratingData ? `Rated ${ratingData.averageRating.toFixed(1)}/5 by ${ratingData.totalReviews} golfers.` : ""}`;
 
   return {
     title: `${course.name} - Golf i ${course.region}`,
@@ -206,44 +159,7 @@ export async function generateMetadata({ params }: CoursePageProps): Promise<Met
 export default async function CoursePage({ params }: CoursePageProps) {
   const { region: regionSlug, course: courseSlug } = await params;
 
-  const course = await prisma.course.findFirst({
-    where: { slug: courseSlug },
-    include: {
-      facilities: true,
-      pricing: {
-        orderBy: { year: "desc" },
-        take: 1,
-      },
-      ratings: true,
-      courseRatings: true,
-      phoneNumbers: {
-        orderBy: { isPrimary: "desc" },
-      },
-      membershipPricing: {
-        where: { year: new Date().getFullYear() },
-        orderBy: { price: "desc" },
-      },
-      additionalFeatures: true,
-      nearbyCourses: {
-        include: {
-          nearbyCourse: {
-            select: {
-              id: true,
-              slug: true,
-              name: true,
-              region: true,
-              city: true,
-              holes: true,
-              par: true,
-              ratings: true,
-            },
-          },
-        },
-        orderBy: { distanceKm: "asc" },
-        take: 4,
-      },
-    },
-  });
+  const course = getCourse(courseSlug);
 
   if (!course) {
     notFound();
@@ -253,14 +169,40 @@ export default async function CoursePage({ params }: CoursePageProps) {
     notFound();
   }
 
-  const ratingData = calculateRating(course.ratings);
+  const ratingData = calculateAverageRating(course.ratings);
   const facilityGroups = buildFacilityGroups(course.facilities);
-  const pricing = course.pricing[0];
-  const primaryPhone = course.phoneNumbers[0];
+
+  // Get pricing - year is the key in the Record
+  const pricingYears = Object.keys(course.pricing).sort((a, b) => Number(b) - Number(a));
+  const pricingYear = pricingYears[0];
+  const pricing = pricingYear ? course.pricing[pricingYear] : null;
+
+  // Get primary phone - sorted by primary flag
+  const sortedPhones = [...course.phoneNumbers].sort((a, b) => (b.primary ? 1 : 0) - (a.primary ? 1 : 0));
+  const primaryPhone = sortedPhones[0];
+
+  // Get membership pricing for current year
+  const currentYear = new Date().getFullYear().toString();
+  const memberships = course.membershipPricing[currentYear] || [];
+
+  // Get nearby courses with full data
+  const nearbyCoursesData = course.nearbyCourses
+    .slice(0, 4)
+    .map(({ slug, distanceKm }) => {
+      const nearbyCourse = getCourse(slug);
+      return nearbyCourse ? { nearbyCourse, distanceKm } : null;
+    })
+    .filter((item): item is { nearbyCourse: Course; distanceKm: number | null } => item !== null);
+
+  // Convert ratings Record to array with source
+  const ratingsArray = Object.entries(course.ratings).map(([source, rating]) => ({
+    source,
+    ...rating,
+  }));
 
   const addressLines = [
-    [course.addressStreet, course.addressArea].filter(Boolean).join(", "),
-    `${course.postalCode} ${course.city}`,
+    [course.address.street, course.address.area].filter(Boolean).join(", "),
+    `${course.address.postalCode} ${course.city}`,
     course.region,
   ].filter(Boolean);
 
@@ -281,23 +223,22 @@ export default async function CoursePage({ params }: CoursePageProps) {
       course.description || `${course.name} - Golf course in ${course.city}, ${course.region}`,
     address: {
       "@type": "PostalAddress",
-      streetAddress: course.addressStreet,
+      streetAddress: course.address.street,
       addressLocality: course.city,
       addressRegion: course.region,
-      postalCode: course.postalCode,
+      postalCode: course.address.postalCode,
       addressCountry: "NO",
     },
-    ...(course.latitude &&
-      course.longitude && {
-        geo: {
-          "@type": "GeoCoordinates",
-          latitude: course.latitude,
-          longitude: course.longitude,
-        },
-      }),
-    ...(course.phone && { telephone: course.phone }),
-    ...(course.email && { email: course.email }),
-    ...(course.website && { url: course.website }),
+    ...(course.coordinates && {
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: course.coordinates.lat,
+        longitude: course.coordinates.lng,
+      },
+    }),
+    ...(course.contact.phone && { telephone: course.contact.phone }),
+    ...(course.contact.email && { email: course.contact.email }),
+    ...(course.contact.website && { url: course.contact.website }),
     ...(ratingData && {
       aggregateRating: {
         "@type": "AggregateRating",
@@ -382,9 +323,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap gap-3">
-            {course.website && (
+            {course.contact.website && (
               <a
-                href={course.website}
+                href={course.contact.website}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
@@ -393,13 +334,13 @@ export default async function CoursePage({ params }: CoursePageProps) {
               </a>
             )}
             {primaryPhone && (
-              <a href={`tel:${primaryPhone.phoneNumber}`} className="btn-secondary">
+              <a href={`tel:${primaryPhone.number}`} className="btn-secondary">
                 Ring
               </a>
             )}
-            {course.latitude && course.longitude && (
+            {course.coordinates && (
               <a
-                href={`https://www.google.com/maps/dir/?api=1&destination=${course.latitude},${course.longitude}`}
+                href={`https://www.google.com/maps/dir/?api=1&destination=${course.coordinates.lat},${course.coordinates.lng}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary"
@@ -416,46 +357,46 @@ export default async function CoursePage({ params }: CoursePageProps) {
         <div className="container mx-auto max-w-[1170px] px-4">
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             {/* Holes */}
-            {course.holes && (
+            {course.course.holes && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
                 <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
                   Hull
                 </div>
-                <div className="text-2xl font-bold text-text-primary">{course.holes}</div>
+                <div className="text-2xl font-bold text-text-primary">{course.course.holes}</div>
               </div>
             )}
 
             {/* Par */}
-            {course.par && (
+            {course.course.par && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
                 <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
                   Par
                 </div>
-                <div className="text-2xl font-bold text-text-primary">{course.par}</div>
+                <div className="text-2xl font-bold text-text-primary">{course.course.par}</div>
               </div>
             )}
 
             {/* Designer */}
-            {course.designer && (
+            {course.course.designer && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
                 <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
                   Designer
                 </div>
-                <div className="font-semibold text-text-primary">{course.designer}</div>
+                <div className="font-semibold text-text-primary">{course.course.designer}</div>
               </div>
             )}
 
             {/* Year Built */}
-            {course.yearBuilt && (
+            {course.course.yearBuilt && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
                 <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
                   Bygget
                 </div>
                 <div className="text-2xl font-bold text-text-primary">
-                  {course.yearBuilt}
-                  {course.yearRedesigned && (
+                  {course.course.yearBuilt}
+                  {course.course.yearRedesigned && (
                     <div className="text-xs font-normal text-text-tertiary">
-                      (omb {course.yearRedesigned})
+                      (omb {course.course.yearRedesigned})
                     </div>
                   )}
                 </div>
@@ -463,16 +404,16 @@ export default async function CoursePage({ params }: CoursePageProps) {
             )}
 
             {/* Length */}
-            {course.lengthMeters && (
+            {course.course.lengthMeters && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
                 <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
                   Lengde
                 </div>
                 <div className="text-2xl font-bold text-text-primary">
-                  {formatter.format(course.lengthMeters)} m
-                  {course.lengthYards && (
+                  {formatter.format(course.course.lengthMeters)} m
+                  {course.course.lengthYards && (
                     <div className="text-xs font-normal text-text-tertiary">
-                      {formatter.format(course.lengthYards)} y
+                      {formatter.format(course.course.lengthYards)} y
                     </div>
                   )}
                 </div>
@@ -480,7 +421,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
             )}
 
             {/* Water Hazards */}
-            {course.waterHazards && (
+            {course.course.waterHazards && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
                 <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
                   Vannhinder
@@ -490,13 +431,13 @@ export default async function CoursePage({ params }: CoursePageProps) {
             )}
 
             {/* Season */}
-            {course.seasonStart && course.seasonEnd && (
+            {course.season.start && course.season.end && (
               <div className="rounded-lg bg-background-surface p-6 text-center shadow-sm">
                 <div className="mb-2 text-xs font-semibold uppercase tracking-wide text-text-tertiary">
                   Sesong
                 </div>
                 <div className="font-semibold text-text-primary">
-                  {course.seasonStart} - {course.seasonEnd}
+                  {course.season.start} - {course.season.end}
                 </div>
               </div>
             )}
@@ -508,9 +449,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
       {course.description && (
         <ExpandableDescription
           description={course.description}
-          signatureHole={course.signatureHole}
-          scenicHole={course.scenicHole}
-          terrain={course.terrain}
+          signatureHole={course.course.signatureHole}
+          scenicHole={course.course.scenicHole}
+          terrain={course.course.terrain}
         />
       )}
 
@@ -521,7 +462,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
             {/* Left Column */}
             <div className="space-y-8">
               {/* Individual Rating Cards */}
-              {course.ratings.length > 0 && (
+              {ratingsArray.length > 0 && (
                 <div className="rounded-lg bg-background-surface p-6 shadow-sm">
                   <h2 className="mb-4 text-2xl font-semibold text-text-primary">
                     Vurderinger & Anmeldelser
@@ -549,8 +490,8 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
                   {/* Individual Platform Ratings */}
                   <div className="space-y-3">
-                    {course.ratings.map((rating) => (
-                      <RatingCard key={rating.id} rating={rating} />
+                    {ratingsArray.map((rating, index) => (
+                      <RatingCard key={index} rating={rating} />
                     ))}
                   </div>
                 </div>
@@ -620,12 +561,12 @@ export default async function CoursePage({ params }: CoursePageProps) {
                       </div>
                     ))}
                   </div>
-                  {course.winterUse && (
+                  {course.season.winterUse && (
                     <div className="mt-8 border-t border-border-subtle pt-6">
                       <h3 className="mb-3 font-semibold text-text-primary">Vinter</h3>
                       <div className="flex gap-2 text-text-secondary">
                         <span className="flex-shrink-0 text-primary">✓</span>
-                        <span className="leading-relaxed">{course.winterUse}</span>
+                        <span className="leading-relaxed">{course.season.winterUse}</span>
                       </div>
                     </div>
                   )}
@@ -636,7 +577,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
               {pricing && (
                 <div className="rounded-lg bg-background-surface p-6 shadow-sm">
                   <h2 className="mb-6 text-2xl font-semibold text-text-primary">
-                    Priser {pricing.year}
+                    Priser {pricingYear}
                   </h2>
 
                   {/* Green Fees - 18 hull */}
@@ -718,10 +659,10 @@ export default async function CoursePage({ params }: CoursePageProps) {
               )}
 
               {/* Membership Pricing */}
-              {course.membershipPricing.length > 0 && (
+              {memberships.length > 0 && (
                 <div className="rounded-lg bg-background-surface p-6 shadow-sm">
                   <h2 className="mb-4 text-2xl font-semibold text-text-primary">
-                    Medlemskap {course.membershipPricing[0]?.year}
+                    Medlemskap {currentYear}
                   </h2>
 
                   {/* Joining Fee */}
@@ -732,9 +673,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
                   </div>
 
                   <div className="space-y-4">
-                    {course.membershipPricing.map((membership) => (
+                    {memberships.map((membership, index) => (
                       <div
-                        key={membership.id}
+                        key={index}
                         className="rounded-lg border border-border-subtle bg-background-hover p-4"
                       >
                         <div className="mb-2 flex items-start justify-between">
@@ -775,13 +716,13 @@ export default async function CoursePage({ params }: CoursePageProps) {
                 <h2 className="mb-4 text-2xl font-semibold text-text-primary">Banedetaljer</h2>
 
                 {/* Par Breakdown */}
-                {(course.par3Count || course.par4Count || course.par5Count) && (
+                {(course.course.par3Count || course.course.par4Count || course.course.par5Count) && (
                   <div className="mb-6">
                     <h3 className="mb-2 font-semibold text-text-primary">Par-fordeling</h3>
                     <div className="space-y-1 text-text-secondary">
-                      {course.par3Count && <div>Par 3: {course.par3Count} hull</div>}
-                      {course.par4Count && <div>Par 4: {course.par4Count} hull</div>}
-                      {course.par5Count && <div>Par 5: {course.par5Count} hull</div>}
+                      {course.course.par3Count && <div>Par 3: {course.course.par3Count} hull</div>}
+                      {course.course.par4Count && <div>Par 4: {course.course.par4Count} hull</div>}
+                      {course.course.par5Count && <div>Par 5: {course.course.par5Count} hull</div>}
                     </div>
                   </div>
                 )}
@@ -801,8 +742,8 @@ export default async function CoursePage({ params }: CoursePageProps) {
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-border-subtle text-sm text-text-secondary">
-                          {course.courseRatings.map((rating) => (
-                            <tr key={`${rating.teeColor}-${rating.gender}`}>
+                          {course.courseRatings.map((rating, index) => (
+                            <tr key={index}>
                               <td className="px-3 py-2">
                                 {rating.teeColor} ({rating.gender === "men" ? "H" : "D"})
                               </td>
@@ -810,7 +751,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
                                 {rating.courseRating?.toFixed(1) ?? "—"}
                               </td>
                               <td className="px-3 py-2">{rating.slopeRating ?? "—"}</td>
-                              <td className="px-3 py-2">{rating.par ?? course.par ?? "—"}</td>
+                              <td className="px-3 py-2">{rating.par ?? course.course.par ?? "—"}</td>
                             </tr>
                           ))}
                         </tbody>
@@ -821,8 +762,8 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
                 {/* Additional Info */}
                 <div className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
-                  <InfoRow label="Banetype" value={course.courseType} />
-                  {course.lengthNote && <InfoRow label="Lengde" value={course.lengthNote} />}
+                  <InfoRow label="Banetype" value={course.course.courseType} />
+                  {course.course.lengthNote && <InfoRow label="Lengde" value={course.course.lengthNote} />}
                 </div>
               </div>
             </div>
@@ -838,61 +779,61 @@ export default async function CoursePage({ params }: CoursePageProps) {
                     <div>
                       <div className="font-semibold text-text-primary">Telefon</div>
                       <a
-                        href={`tel:${primaryPhone.phoneNumber}`}
+                        href={`tel:${primaryPhone.number}`}
                         className="text-primary hover:underline"
                       >
-                        {primaryPhone.phoneNumber}
+                        {primaryPhone.number}
                       </a>
                     </div>
                   )}
 
                   {/* Additional Phone Numbers */}
-                  {course.phoneNumbers.length > 1 && (
+                  {sortedPhones.length > 1 && (
                     <div className="space-y-2">
-                      {course.phoneNumbers.slice(1).map((phone) => {
+                      {sortedPhones.slice(1).map((phone, index) => {
                         const label = getPhoneTypeLabel(phone.type);
                         return (
-                          <div key={phone.id}>
+                          <div key={index}>
                             {label && (
                               <div className="font-semibold text-text-primary">{label}</div>
                             )}
                             <a
-                              href={`tel:${phone.phoneNumber}`}
+                              href={`tel:${phone.number}`}
                               className="text-primary hover:underline"
                             >
-                              {phone.phoneNumber}
+                              {phone.number}
                             </a>
                           </div>
                         );
                       })}
                     </div>
                   )}
-                  {course.email && (
+                  {course.contact.email && (
                     <div>
                       <div className="font-semibold text-text-primary">E-post</div>
-                      <a href={`mailto:${course.email}`} className="text-primary hover:underline">
-                        {course.email}
+                      <a href={`mailto:${course.contact.email}`} className="text-primary hover:underline">
+                        {course.contact.email}
                       </a>
                     </div>
                   )}
-                  {course.website && (
+                  {course.contact.website && (
                     <div>
                       <div className="font-semibold text-text-primary">Nettside</div>
                       <a
-                        href={course.website}
+                        href={course.contact.website}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline"
                       >
-                        {course.website.replace(/^https?:\/\//, "")}
+                        {course.contact.website.replace(/^https?:\/\//, "")}
                       </a>
                     </div>
                   )}
-                  {course.facebook && (
+                  {course.contact.facebook && (
                     <div>
                       <div className="font-semibold text-text-primary">Facebook</div>
                       <a
-                        href={course.facebook}
+                        href={course.contact.facebook}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline"
@@ -901,16 +842,16 @@ export default async function CoursePage({ params }: CoursePageProps) {
                       </a>
                     </div>
                   )}
-                  {course.instagram && (
+                  {course.contact.instagram && (
                     <div>
                       <div className="font-semibold text-text-primary">Instagram</div>
                       <a
-                        href={course.instagram}
+                        href={course.contact.instagram}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline"
                       >
-                        {course.instagram}
+                        {course.contact.instagram}
                       </a>
                     </div>
                   )}
@@ -918,58 +859,50 @@ export default async function CoursePage({ params }: CoursePageProps) {
               </div>
 
               {/* Weather */}
-              <WeatherWidget
-                temperature={course.weatherTemp}
-                feelsLike={course.weatherFeelsLike}
-                condition={course.weatherCondition}
-                windSpeed={course.weatherWindSpeed}
-                windDirection={course.weatherWindDirection}
-                humidity={course.weatherHumidity}
-                precipitationChance={course.weatherPrecipChance}
-                uvIndex={course.weatherUvIndex}
-                updatedAt={course.weatherUpdatedAt}
-              />
+              {course.coordinates && (
+                <WeatherWidget lat={course.coordinates.lat} lng={course.coordinates.lng} />
+              )}
 
               {/* Practical Info */}
               <div className="rounded-lg bg-background-surface p-6 shadow-sm">
                 <h2 className="mb-4 text-xl font-semibold text-text-primary">Praktisk info</h2>
                 <div className="space-y-3 text-text-secondary">
-                  {course.seasonStart && course.seasonEnd && (
+                  {course.season.start && course.season.end && (
                     <div>
                       <div className="font-semibold text-text-primary">Sesong</div>
                       <p>
-                        {course.seasonStart} – {course.seasonEnd}
+                        {course.season.start} – {course.season.end}
                       </p>
                     </div>
                   )}
-                  {course.visitorsWelcome && (
+                  {course.visitors.welcome && (
                     <div className="flex items-center gap-2">
                       <span className="text-primary">✓</span>
                       <span>Besøkende velkommen</span>
                     </div>
                   )}
-                  {course.walkingAllowed && (
+                  {course.visitors.walkingAllowed && (
                     <div className="flex items-center gap-2">
                       <span className="text-primary">✓</span>
                       <span>Gåing tillatt</span>
                     </div>
                   )}
-                  {course.distanceFromCenter && (
+                  {course.visitors.distanceFromCenter && (
                     <div>
                       <div className="font-semibold text-text-primary">Avstand</div>
-                      <p>{course.distanceFromCenter}</p>
+                      <p>{course.visitors.distanceFromCenter}</p>
                     </div>
                   )}
                 </div>
               </div>
 
               {/* Map */}
-              {course.latitude && course.longitude && (
+              {course.coordinates && (
                 <div className="rounded-lg bg-background-surface p-6 shadow-sm">
                   <h2 className="mb-4 text-xl font-semibold text-text-primary">Google Maps</h2>
                   <div className="border-border-default aspect-square w-full overflow-hidden rounded-lg border">
                     <iframe
-                      src={`https://www.google.com/maps?q=${course.latitude},${course.longitude}&hl=no&z=14&output=embed`}
+                      src={`https://www.google.com/maps?q=${course.coordinates.lat},${course.coordinates.lng}&hl=no&z=14&output=embed`}
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -990,17 +923,17 @@ export default async function CoursePage({ params }: CoursePageProps) {
       </section>
 
       {/* Nearby Courses Section */}
-      {course.nearbyCourses.length > 0 && (
+      {nearbyCoursesData.length > 0 && (
         <section className="bg-background py-16">
           <div className="container mx-auto max-w-[1170px] px-4">
             <h2 className="mb-6 text-2xl font-semibold text-text-primary">Nærliggende baner</h2>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              {course.nearbyCourses.map(({ nearbyCourse, distanceKm }) => {
-                const nearbyRating = calculateRating(nearbyCourse.ratings);
+              {nearbyCoursesData.map(({ nearbyCourse, distanceKm }) => {
+                const nearbyRating = calculateAverageRating(nearbyCourse.ratings);
 
                 return (
                   <Link
-                    key={nearbyCourse.id}
+                    key={nearbyCourse.slug}
                     href={`/${toRegionSlug(nearbyCourse.region)}/${nearbyCourse.slug}`}
                     className="group block rounded-lg bg-background-surface p-5 shadow-sm transition-shadow hover:shadow-md"
                   >
@@ -1016,7 +949,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
                     <div className="mb-3 flex items-center gap-3 text-text-secondary">
                       {/* Holes */}
                       <span className="flex items-center gap-1">
-                        <span className="font-medium">{nearbyCourse.holes}</span> hull
+                        <span className="font-medium">{nearbyCourse.course.holes}</span> hull
                       </span>
 
                       {/* Rating */}
@@ -1047,13 +980,8 @@ export default async function CoursePage({ params }: CoursePageProps) {
   );
 }
 
-export async function generateStaticParams() {
-  const courses = await prisma.course.findMany({
-    select: {
-      slug: true,
-      region: true,
-    },
-  });
+export function generateStaticParams() {
+  const courses = getAllCourses();
 
   return courses.map((course) => ({
     region: toRegionSlug(course.region),
