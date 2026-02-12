@@ -2,3 +2,5 @@
 .next
 out
 dist
+.playwright-cli
+playwright

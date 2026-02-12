@@ -66,6 +66,11 @@ export default [
       "eslint.config.mjs",
       "postcss.config.js",
       "src/types/**/*.d.ts",
+      "*.ts",
+      "playwright/**",
+      ".playwright-cli/**",
+      "scripts/**",
+      "lib/**",
     ],
   },
 ];
