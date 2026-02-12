@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import {
   getWeatherEmoji,
   getWindDirection,
@@ -5,44 +8,80 @@ import {
   translateWeatherCondition,
 } from "@/lib/google-weather";
 
-interface WeatherWidgetProps {
-  temperature: number | null;
-  feelsLike: number | null;
-  condition: string | null;
-  windSpeed: number | null;
-  windDirection: number | null;
-  humidity: number | null;
-  precipitationChance: number | null;
-  uvIndex: number | null;
-  updatedAt: Date | null;
+interface WeatherData {
+  temp: number;
+  feelsLike: number;
+  condition: string;
+  conditionOriginal: string;
+  emoji: string;
+  windSpeed: number;
+  windDirection: number;
+  humidity: number;
+  precipChance: number;
+  uvIndex: number;
+  updatedAt: string;
 }
 
-export function WeatherWidget({
-  temperature,
-  feelsLike,
-  condition,
-  windSpeed,
-  windDirection,
-  humidity,
-  precipitationChance,
-  uvIndex,
-  updatedAt,
-}: WeatherWidgetProps) {
-  // If no weather data available, don't render the widget
-  if (!temperature || !condition || !updatedAt) {
+interface WeatherWidgetProps {
+  lat: number;
+  lng: number;
+}
+
+export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
+  const [weather, setWeather] = useState<WeatherData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    async function fetchWeather() {
+      try {
+        const response = await fetch(`/api/weather?lat=${lat}&lng=${lng}`);
+        if (!response.ok) throw new Error("Failed to fetch");
+        const data = await response.json();
+        setWeather(data);
+      } catch {
+        setError(true);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchWeather();
+  }, [lat, lng]);
+
+  if (loading) {
+    return (
+      <div className="rounded-lg bg-background-surface p-6 shadow-sm animate-pulse">
+        <div className="h-6 bg-background-hover rounded w-24 mb-4" />
+        <div className="flex items-center gap-4 mb-4">
+          <div className="h-12 w-12 bg-background-hover rounded" />
+          <div>
+            <div className="h-8 bg-background-hover rounded w-16 mb-2" />
+            <div className="h-4 bg-background-hover rounded w-24" />
+          </div>
+        </div>
+        <div className="space-y-3 border-t border-border-subtle pt-4">
+          <div className="h-4 bg-background-hover rounded w-full" />
+          <div className="h-4 bg-background-hover rounded w-3/4" />
+        </div>
+      </div>
+    );
+  }
+
+  if (error || !weather) {
     return null;
   }
 
-  const weatherEmoji = getWeatherEmoji(condition);
-  const windDir = windDirection ? getWindDirection(windDirection) : "N";
-  const translatedCondition = translateWeatherCondition(condition);
+  const weatherEmoji = weather.emoji || getWeatherEmoji(weather.conditionOriginal);
+  const windDir = weather.windDirection ? getWindDirection(weather.windDirection) : "N";
+  const translatedCondition = weather.condition || translateWeatherCondition(weather.conditionOriginal);
 
   // Calculate how old the data is
+  const updatedAt = new Date(weather.updatedAt);
   const now = new Date();
-  const dataAge = Math.floor((now.getTime() - updatedAt.getTime()) / 1000 / 60); // minutes
-  const isStale = dataAge > 720; // More than 12 hours old
+  const dataAge = Math.floor((now.getTime() - updatedAt.getTime()) / 1000 / 60);
+  const isStale = dataAge > 720;
 
-  // Format last update time
   const formatUpdateTime = () => {
     if (dataAge < 60) {
       return `${dataAge} minutter siden`;
@@ -73,12 +112,12 @@ export function WeatherWidget({
         </div>
         <div className="flex-1">
           <div className="text-3xl font-bold text-text-primary">
-            {formatTemperature(temperature)}
+            {formatTemperature(weather.temp)}
           </div>
           <div className="text-sm text-text-secondary">{translatedCondition}</div>
-          {feelsLike && feelsLike !== temperature && (
+          {weather.feelsLike && weather.feelsLike !== weather.temp && (
             <div className="text-xs text-text-tertiary">
-              Føles som {formatTemperature(feelsLike)}
+              Føles som {formatTemperature(weather.feelsLike)}
             </div>
           )}
         </div>
@@ -87,51 +126,51 @@ export function WeatherWidget({
       {/* Weather Details Grid */}
       <div className="space-y-3 border-t border-border-subtle pt-4">
         {/* Wind */}
-        {windSpeed !== null && windSpeed > 0 && (
+        {weather.windSpeed !== null && weather.windSpeed > 0 && (
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-text-secondary">
               <span>💨</span>
               <span>Vind</span>
             </span>
             <span className="font-medium text-text-primary">
-              {Math.round(windSpeed)} km/t {windDir}
+              {Math.round(weather.windSpeed)} km/t {windDir}
             </span>
           </div>
         )}
 
         {/* Humidity */}
-        {humidity !== null && (
+        {weather.humidity !== null && (
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-text-secondary">
               <span>💧</span>
               <span>Fuktighet</span>
             </span>
-            <span className="font-medium text-text-primary">{humidity}%</span>
+            <span className="font-medium text-text-primary">{weather.humidity}%</span>
           </div>
         )}
 
         {/* Precipitation Chance */}
-        {precipitationChance !== null && precipitationChance > 0 && (
+        {weather.precipChance !== null && weather.precipChance > 0 && (
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-text-secondary">
               <span>🌧️</span>
               <span>Nedbør</span>
             </span>
-            <span className="font-medium text-text-primary">{precipitationChance}%</span>
+            <span className="font-medium text-text-primary">{weather.precipChance}%</span>
           </div>
         )}
 
         {/* UV Index */}
-        {uvIndex !== null && uvIndex > 0 && (
+        {weather.uvIndex !== null && weather.uvIndex > 0 && (
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-text-secondary">
               <span>☀️</span>
               <span>UV-indeks</span>
             </span>
             <span className="font-medium text-text-primary">
-              {uvIndex}
-              {uvIndex >= 8 && <span className="ml-1 text-xs text-red-500">(Høy)</span>}
-              {uvIndex >= 6 && uvIndex < 8 && (
+              {weather.uvIndex}
+              {weather.uvIndex >= 8 && <span className="ml-1 text-xs text-red-500">(Høy)</span>}
+              {weather.uvIndex >= 6 && weather.uvIndex < 8 && (
                 <span className="ml-1 text-xs text-yellow-600">(Moderat)</span>
               )}
             </span>
