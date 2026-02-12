@@ -1,62 +1,68 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { getAllCourses } from "@/lib/courses";
+import type { Course } from "@/types/course";
+
+// Cache courses in memory for fast search
+let coursesCache: Course[] | null = null;
+
+function getCoursesCache(): Course[] {
+  if (!coursesCache) {
+    coursesCache = getAllCourses();
+  }
+  return coursesCache;
+}
 
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
-    const query = searchParams.get("q");
+    const query = searchParams.get("q")?.toLowerCase();
 
-    // If there's a search query, filter results
-    const whereClause = query
-      ? {
-          OR: [
-            { name: { contains: query, mode: "insensitive" as const } },
-            { city: { contains: query, mode: "insensitive" as const } },
-            { region: { contains: query, mode: "insensitive" as const } },
-            { municipality: { contains: query, mode: "insensitive" as const } },
-            { formerName: { contains: query, mode: "insensitive" as const } },
-          ],
-        }
-      : {};
+    const courses = getCoursesCache();
 
-    const courses = await prisma.course.findMany({
-      where: whereClause,
-      take: query ? 15 : 10, // More results for search
-      select: {
-        id: true,
-        slug: true,
-        name: true,
-        city: true,
-        region: true,
-        municipality: true,
-        holes: true,
-        par: true,
-        lengthMeters: true,
-        createdAt: true,
-      },
-      orderBy: query
-        ? [
-            // Prioritize name matches for search
-            { name: "asc" },
-          ]
-        : [{ createdAt: "desc" }],
-    });
+    if (!query) {
+      // Return latest 10 courses if no query
+      return NextResponse.json(
+        courses.slice(0, 10).map((c) => ({
+          id: c.slug,
+          slug: c.slug,
+          name: c.name,
+          city: c.city,
+          region: c.region,
+          municipality: c.municipality,
+          holes: c.course.holes,
+          par: c.course.par,
+          lengthMeters: c.course.lengthMeters,
+        }))
+      );
+    }
 
-    return NextResponse.json({
-      success: true,
-      count: courses.length,
-      courses,
-      query: query || null,
-    });
+    // Search by name, city, region, municipality, or former name
+    const results = courses
+      .filter(
+        (course) =>
+          course.name.toLowerCase().includes(query) ||
+          course.city.toLowerCase().includes(query) ||
+          course.region.toLowerCase().includes(query) ||
+          course.municipality?.toLowerCase().includes(query) ||
+          course.formerName?.toLowerCase().includes(query)
+      )
+      .slice(0, 15)
+      .map((c) => ({
+        id: c.slug,
+        slug: c.slug,
+        name: c.name,
+        city: c.city,
+        region: c.region,
+        municipality: c.municipality,
+        holes: c.course.holes,
+        par: c.course.par,
+        lengthMeters: c.course.lengthMeters,
+      }));
+
+    return NextResponse.json(results);
   } catch (error) {
-    console.error("Error fetching courses:", error);
-    return NextResponse.json(
-      {
-        success: false,
-        error: "Failed to fetch courses",
-      },
-      { status: 500 },
-    );
+    console.error("Error searching courses:", error);
+    return NextResponse.json({ error: "Failed to search courses" }, { status: 500 });
   }
 }
