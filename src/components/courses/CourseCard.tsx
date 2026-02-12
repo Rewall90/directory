@@ -1,12 +1,28 @@
 import Link from "next/link";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
-import type { Course, Rating } from "@prisma/client";
 import { StarRating } from "./StarRating";
 
+interface CardRating {
+  rating: number | null;
+  reviewCount: number | null;
+  maxRating: number | null;
+}
+
+interface CardCourse {
+  slug: string;
+  name: string;
+  region: string;
+  city: string;
+  postalCode: string;
+  addressStreet: string | null;
+  addressArea: string | null;
+  holes: number | null;
+  par: number | null;
+  ratings?: CardRating[];
+}
+
 interface CourseCardProps {
-  course: Course & {
-    ratings?: Rating[];
-  };
+  course: CardCourse;
 }
 
 export function CourseCard({ course }: CourseCardProps) {
@@ -106,7 +122,7 @@ export function CourseCard({ course }: CourseCardProps) {
 /**
  * Calculate weighted average rating and total review count
  */
-function calculateRating(ratings: Rating[]) {
+function calculateRating(ratings: CardRating[]) {
   if (!ratings || ratings.length === 0) return null;
 
   let totalWeightedScore = 0;
