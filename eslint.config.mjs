@@ -17,6 +17,7 @@ export default [
       ".next/**",
       "out/**",
       "dist/**",
+      "scripts/**",
       "next-env.d.ts",
       "eslint.config.mjs",
       "postcss.config.js",

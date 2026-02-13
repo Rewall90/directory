@@ -46,8 +46,8 @@ export function CourseSearch({
       const response = await fetch(`/api/courses?q=${encodeURIComponent(searchQuery)}`);
       const data = await response.json();
 
-      if (data.success) {
-        setResults(data.courses);
+      if (Array.isArray(data)) {
+        setResults(data);
         setIsOpen(true);
       }
     } catch (error) {
