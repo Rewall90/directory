@@ -72,7 +72,9 @@ export function cleanSchemaObject<T extends Record<string, unknown>>(obj: T): T 
  */
 export function safeStringifySchema(schema: Schema): string {
   try {
-    const cleaned = cleanSchemaObject(schema as unknown as Record<string, unknown>) as unknown as Schema;
+    const cleaned = cleanSchemaObject(
+      schema as unknown as Record<string, unknown>,
+    ) as unknown as Schema;
     return formatSchema(cleaned);
   } catch (error) {
     console.error("Error stringifying schema:", error);

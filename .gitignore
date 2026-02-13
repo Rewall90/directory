@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+package-lock.json
 /.pnp
 .pnp.*
 .yarn/*
@@ -44,7 +45,15 @@ dev.out.log
 *.tsbuildinfo
 next-env.d.ts
 
-/src/generated/prisma
+# Playwright
+playwright/
+.playwright-cli/
 
-.vercel
-.env*.local
+# Build artifacts and logs
+build.log
+*.log
+
+# Temporary/backup files
+*.backup.json
+*-backup-*.json
+scrape-results-*.json

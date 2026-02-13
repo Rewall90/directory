@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
           holes: c.course.holes,
           par: c.course.par,
           lengthMeters: c.course.lengthMeters,
-        }))
+        })),
       );
     }
 
@@ -45,7 +45,7 @@ export async function GET(request: NextRequest) {
           course.city.toLowerCase().includes(query) ||
           course.region.toLowerCase().includes(query) ||
           course.municipality?.toLowerCase().includes(query) ||
-          course.formerName?.toLowerCase().includes(query)
+          course.formerName?.toLowerCase().includes(query),
       )
       .slice(0, 15)
       .map((c) => ({

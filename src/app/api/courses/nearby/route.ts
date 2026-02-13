@@ -25,7 +25,7 @@ export async function GET(request: NextRequest) {
     if (!lat || !lng) {
       return NextResponse.json(
         { success: false, error: "Missing required parameters: lat and lng" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -42,10 +42,7 @@ export async function GET(request: NextRequest) {
       userLocation.longitude < -180 ||
       userLocation.longitude > 180
     ) {
-      return NextResponse.json(
-        { success: false, error: "Invalid coordinates" },
-        { status: 400 }
-      );
+      return NextResponse.json({ success: false, error: "Invalid coordinates" }, { status: 400 });
     }
 
     const bbox = getBoundingBox(userLocation, radiusKm);
@@ -58,7 +55,7 @@ export async function GET(request: NextRequest) {
         c.coordinates.lat >= bbox.minLat &&
         c.coordinates.lat <= bbox.maxLat &&
         c.coordinates.lng >= bbox.minLng &&
-        c.coordinates.lng <= bbox.maxLng
+        c.coordinates.lng <= bbox.maxLng,
     );
 
     // Calculate distances and sort
@@ -102,7 +99,7 @@ export async function GET(request: NextRequest) {
     console.error("Error fetching nearby courses:", error);
     return NextResponse.json(
       { success: false, error: "Failed to fetch nearby courses" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

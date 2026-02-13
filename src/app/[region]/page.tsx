@@ -159,7 +159,8 @@ export default async function RegionPage({ params }: RegionPageProps) {
         ) : (
           <>
             <p className="mb-8 text-text-secondary">
-              {sortedCourses.length} golfban{sortedCourses.length !== 1 ? "er" : "e"} i {displayName}
+              {sortedCourses.length} golfban{sortedCourses.length !== 1 ? "er" : "e"} i{" "}
+              {displayName}
             </p>
 
             {/* Course List */}

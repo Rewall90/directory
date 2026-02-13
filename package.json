@@ -15,13 +15,10 @@
   "dependencies": {
     "@amcharts/amcharts5": "^5.14.3",
     "@amcharts/amcharts5-geodata": "^5.1.5",
-    "@vercel/blob": "^2.0.0",
-    "dotenv": "^17.2.3",
     "gray-matter": "^4.0.3",
     "next": "16.1.6",
     "next-mdx-remote": "^6.0.0",
     "nodemailer": "^7.0.11",
-    "playwright": "^1.58.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },

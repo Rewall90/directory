@@ -15,7 +15,7 @@ export async function GET(request: NextRequest) {
     if (!lat || !lng) {
       return NextResponse.json(
         { error: "Missing required parameters: lat and lng" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -29,10 +29,7 @@ export async function GET(request: NextRequest) {
     const weather = await getCurrentWeather(latitude, longitude);
 
     if (!weather) {
-      return NextResponse.json(
-        { error: "Failed to fetch weather data" },
-        { status: 503 }
-      );
+      return NextResponse.json({ error: "Failed to fetch weather data" }, { status: 503 });
     }
 
     // Return weather with Norwegian translation
@@ -53,9 +50,6 @@ export async function GET(request: NextRequest) {
     });
   } catch (error) {
     console.error("Error fetching weather:", error);
-    return NextResponse.json(
-      { error: "Internal server error" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

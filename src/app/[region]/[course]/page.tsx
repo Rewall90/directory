@@ -178,7 +178,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
   const pricing = pricingYear ? course.pricing[pricingYear] : null;
 
   // Get primary phone - sorted by primary flag
-  const sortedPhones = [...course.phoneNumbers].sort((a, b) => (b.primary ? 1 : 0) - (a.primary ? 1 : 0));
+  const sortedPhones = [...course.phoneNumbers].sort(
+    (a, b) => (b.primary ? 1 : 0) - (a.primary ? 1 : 0),
+  );
   const primaryPhone = sortedPhones[0];
 
   // Get membership pricing for current year
@@ -716,7 +718,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
                 <h2 className="mb-4 text-2xl font-semibold text-text-primary">Banedetaljer</h2>
 
                 {/* Par Breakdown */}
-                {(course.course.par3Count || course.course.par4Count || course.course.par5Count) && (
+                {(course.course.par3Count ||
+                  course.course.par4Count ||
+                  course.course.par5Count) && (
                   <div className="mb-6">
                     <h3 className="mb-2 font-semibold text-text-primary">Par-fordeling</h3>
                     <div className="space-y-1 text-text-secondary">
@@ -751,7 +755,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
                                 {rating.courseRating?.toFixed(1) ?? "—"}
                               </td>
                               <td className="px-3 py-2">{rating.slopeRating ?? "—"}</td>
-                              <td className="px-3 py-2">{rating.par ?? course.course.par ?? "—"}</td>
+                              <td className="px-3 py-2">
+                                {rating.par ?? course.course.par ?? "—"}
+                              </td>
                             </tr>
                           ))}
                         </tbody>
@@ -763,7 +769,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
                 {/* Additional Info */}
                 <div className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
                   <InfoRow label="Banetype" value={course.course.courseType} />
-                  {course.course.lengthNote && <InfoRow label="Lengde" value={course.course.lengthNote} />}
+                  {course.course.lengthNote && (
+                    <InfoRow label="Lengde" value={course.course.lengthNote} />
+                  )}
                 </div>
               </div>
             </div>
@@ -811,7 +819,10 @@ export default async function CoursePage({ params }: CoursePageProps) {
                   {course.contact.email && (
                     <div>
                       <div className="font-semibold text-text-primary">E-post</div>
-                      <a href={`mailto:${course.contact.email}`} className="text-primary hover:underline">
+                      <a
+                        href={`mailto:${course.contact.email}`}
+                        className="text-primary hover:underline"
+                      >
                         {course.contact.email}
                       </a>
                     </div>

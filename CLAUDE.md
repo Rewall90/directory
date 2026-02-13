@@ -20,6 +20,7 @@
 All course data is stored as JSON files in `content/courses/{region}/{slug}.json`.
 
 **Key data loading functions** (`src/lib/courses.ts`):
+
 - `getAllCourses()` - Returns all 168 courses
 - `getCourse(slug)` - Get single course by slug
 - `getCoursesByRegion(regionSlug)` - Get courses for a region
@@ -114,33 +115,40 @@ interface Course {
 ## Important Patterns
 
 ### Data Access
+
 - Course properties are nested: `course.course.holes` not `course.holes`
 - Coordinates: `course.coordinates?.lat` not `course.latitude`
 - Ratings is an object, not array: `Object.entries(course.ratings)`
 
 ### Static Generation
+
 All pages use `generateStaticParams()` for SSG. Changes to course data require rebuild.
 
 ### Weather
+
 Weather is fetched client-side via `/api/weather?lat=X&lng=Y` to ensure freshness.
 
 ## Common Tasks
 
 ### Adding/Updating Course Data
+
 Edit the JSON file directly in `content/courses/{region}/{slug}.json`
 
 ### Adding a New Region
+
 1. Create folder: `content/courses/{new-region}/`
 2. Add course JSON files
 3. Rebuild to generate pages
 
 ### Running Locally
+
 ```bash
 pnpm install
 pnpm dev
 ```
 
 ### Building
+
 ```bash
 pnpm build
 ```
@@ -154,20 +162,22 @@ pnpm build
 
 ## API Endpoints
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/courses?q=search` | GET | Search courses |
-| `/api/courses/nearby?lat=X&lng=Y` | GET | Find nearby courses |
-| `/api/weather?lat=X&lng=Y` | GET | Get weather data |
+| Endpoint                          | Method | Description         |
+| --------------------------------- | ------ | ------------------- |
+| `/api/courses?q=search`           | GET    | Search courses      |
+| `/api/courses/nearby?lat=X&lng=Y` | GET    | Find nearby courses |
+| `/api/weather?lat=X&lng=Y`        | GET    | Get weather data    |
 
 ## Environment Variables
 
 Required in `.env.local`:
+
 - `GOOGLE_WEATHER_API_KEY` - For weather API
 
 ## Recent Migration (Feb 2026)
 
 Migrated from PostgreSQL/Prisma to JSON file storage:
+
 - Removed all database dependencies
 - Course data exported to JSON files
 - Weather changed from server-side cron to client-side fetching

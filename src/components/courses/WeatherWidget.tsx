@@ -51,18 +51,18 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
 
   if (loading) {
     return (
-      <div className="rounded-lg bg-background-surface p-6 shadow-sm animate-pulse">
-        <div className="h-6 bg-background-hover rounded w-24 mb-4" />
-        <div className="flex items-center gap-4 mb-4">
-          <div className="h-12 w-12 bg-background-hover rounded" />
+      <div className="animate-pulse rounded-lg bg-background-surface p-6 shadow-sm">
+        <div className="mb-4 h-6 w-24 rounded bg-background-hover" />
+        <div className="mb-4 flex items-center gap-4">
+          <div className="h-12 w-12 rounded bg-background-hover" />
           <div>
-            <div className="h-8 bg-background-hover rounded w-16 mb-2" />
-            <div className="h-4 bg-background-hover rounded w-24" />
+            <div className="mb-2 h-8 w-16 rounded bg-background-hover" />
+            <div className="h-4 w-24 rounded bg-background-hover" />
           </div>
         </div>
         <div className="space-y-3 border-t border-border-subtle pt-4">
-          <div className="h-4 bg-background-hover rounded w-full" />
-          <div className="h-4 bg-background-hover rounded w-3/4" />
+          <div className="h-4 w-full rounded bg-background-hover" />
+          <div className="h-4 w-3/4 rounded bg-background-hover" />
         </div>
       </div>
     );
@@ -74,7 +74,8 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
 
   const weatherEmoji = weather.emoji || getWeatherEmoji(weather.conditionOriginal);
   const windDir = weather.windDirection ? getWindDirection(weather.windDirection) : "N";
-  const translatedCondition = weather.condition || translateWeatherCondition(weather.conditionOriginal);
+  const translatedCondition =
+    weather.condition || translateWeatherCondition(weather.conditionOriginal);
 
   // Calculate how old the data is
   const updatedAt = new Date(weather.updatedAt);
