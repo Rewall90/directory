@@ -1,0 +1,212 @@
+{
+  "slug": "sunndal-golfklubb",
+  "name": "Sunndal Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Sunndalsøra",
+  "municipality": "Sunndal",
+  "country": "Norway",
+  "address": {
+    "street": "Kviturvegen 9A",
+    "postalCode": "6600",
+    "area": "Trædal"
+  },
+  "coordinates": {
+    "lat": 62.6624886,
+    "lng": 8.531947599999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 18,
+    "par": 20,
+    "parPerRound": 60,
+    "lengthMeters": 1102,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane",
+    "courseType": "Kort 6-hulls bane (spilles 3 runder for 18 hull)",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": 2003,
+    "waterHazards": true,
+    "signatureHole": "Hull 4 og 6 (krevende par 4-hull)",
+    "scenicHole": "Idyllisk beliggenhet ved Pollen med utsikt mot fjellene",
+    "par3Count": 4,
+    "par4Count": 2,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Majestetisk beliggenhet omgitt av fjell og naturskjønne omgivelser rundt idylliske Pollen"
+  },
+  "description": "Banen ligger rundt idylliske Pollen, et par kilometer vest for Sunndalsøra sentrum, på Trædal gård like under Trædal Hotell og Turistsenter. Den består av 6 hull med par 20, og tre runder gir 18 hull med par 60. To av hullene, hull 4 og 6, er krevende par 4-hull, noe som gir relativt høy slope når de kommer igjen tre ganger. Banen ble påbegynt i 1999 med dugnad av medlemmer, og fra 2003 ble hullene omorganisert. Majestetisk beliggenhet omgitt av fjell og naturskjønn natur.",
+  "contact": {
+    "phone": "+47 957 26 500",
+    "email": "post@sunndal-golfklubb.no",
+    "emailAlt": null,
+    "website": "https://sunndal-golfklubb.no/",
+    "facebook": "https://www.facebook.com/p/Sunndal-Golfklubb-100068136782262/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 957 26 500",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 95 17 38 01",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 90 07 87 26",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Sesongbasert. Litjdalsvinden pleier å dra med seg plussgrader, mye vind og rask tining, noe som gir tidlig sesongstart."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sunndalsøra",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Sunndal Golfklubb",
+    "clubOrganization": "Sunndal Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": true,
+    "restaurantName": "Trædal Hotell og Turistsenter (nærliggende)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 50,
+      "greenFeeDescription": "Fjernmedlemskap senior (20 år og eldre): 200 kr. Fjernmedlemskap junior (under 20 år): 50 kr. Greenfee inkludert i medlemskap. Lokalmedlemskap varierer fra 400-1850 kr avhengig av kategori.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 7,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=18213533390972245308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 21.2,
+      "slopeRating": 109,
+      "lengthYards": null,
+      "lengthMeters": 1102,
+      "par": 20
+    },
+    {
+      "teeColor": "Gul (kort)",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 20.2,
+      "slopeRating": 108,
+      "lengthYards": null,
+      "lengthMeters": 1092,
+      "par": 20
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 19.7,
+      "slopeRating": 105,
+      "lengthYards": null,
+      "lengthMeters": 906,
+      "par": 20
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "surnadal-golfklubb",
+      "distanceKm": 0
+    },
+    {
+      "slug": "rauma-golfklubb",
+      "distanceKm": 44.7
+    },
+    {
+      "slug": "tingvoll-golfklubb",
+      "distanceKm": 47.2
+    },
+    {
+      "slug": "kristiansund-og-omegn-golfklubb",
+      "distanceKm": 60.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "91.5",
+    "websiteQuality": null,
+    "completenessPercentage": 91,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:10.357Z",
+    "createdAt": "2025-10-31T09:31:10.358Z",
+    "updatedAt": "2025-11-03T09:09:38.289Z"
+  }
+}

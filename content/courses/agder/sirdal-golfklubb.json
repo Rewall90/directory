@@ -1,0 +1,174 @@
+{
+  "slug": "sirdal-golfklubb",
+  "name": "Sirdal Fjellgolfklubb",
+  "formerName": null,
+  "region": "Agder",
+  "city": "Tjørhom",
+  "municipality": "Sirdal",
+  "country": "Norway",
+  "address": {
+    "street": "Kvæven",
+    "postalCode": "4443",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 58.7,
+    "lng": 6.7,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 66,
+    "parPerRound": 33,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Fjellbane 560 m.o.h.",
+    "courseType": "Fjellbane",
+    "designer": "Graeme J. Webster",
+    "yearBuilt": 2007,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Fjellgolf 560 m.o.h. i naturskjønne omgivelser"
+  },
+  "description": "9-hulls fjellgolfbane 560 m.o.h. i naturskjønne omgivelser på Kvæven i øvre Sirdal. Designet av Graeme J. Webster fra Skottland. Banen er vakkert designet inn i terrenget. Tee-alternativer: Grønn (nybegynner), Hvit 3828m, Blå 4350m, Rød 4640m.",
+  "contact": {
+    "phone": "90 77 84 62",
+    "email": "post@sirdalfjellgolf.no",
+    "emailAlt": null,
+    "website": "https://sirdalfjellgolf.no/",
+    "facebook": "https://www.facebook.com/groups/36129394432/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Stengt november-april"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": null,
+    "nearbyCity": "Tjørhom",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Sirdal Fjellgolfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "Driving range tilgjengelig i kurset",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": "Klubbhus",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": false,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Kontakt klubben for priser: 90 77 84 62",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Medlemskap med spillerett",
+        "price": 3000,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 30,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12947535713092792827&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "utsikten-golfklubb",
+      "distanceKm": 46.5
+    },
+    {
+      "slug": "preikestolen-golfklubb",
+      "distanceKm": 47
+    },
+    {
+      "slug": "dalane-golfklubb",
+      "distanceKm": 47.7
+    },
+    {
+      "slug": "egersund-golfklubb",
+      "distanceKm": 51.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-30T13:27:24.901Z",
+    "createdAt": "2025-10-30T13:27:24.903Z",
+    "updatedAt": "2025-11-03T09:09:34.461Z"
+  }
+}

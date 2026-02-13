@@ -1,0 +1,181 @@
+{
+  "slug": "hof-golfklubb",
+  "name": "Hof Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Hof",
+  "municipality": "Holmestrand",
+  "country": "Norway",
+  "address": {
+    "street": "Kopstadlinna 12",
+    "postalCode": "3090",
+    "area": "Storeng"
+  },
+  "coordinates": {
+    "lat": 59.5395232,
+    "lng": 10.0866508,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 33,
+    "parPerRound": 66,
+    "lengthMeters": 4373,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1996,
+    "yearRedesigned": 2003,
+    "waterHazards": true,
+    "signatureHole": "Lett kupert parklandterreng",
+    "scenicHole": "Lett kupert parklandterreng",
+    "par3Count": 4,
+    "par4Count": 4,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Hof Golfklubb - 'Der golf og hygge går hånd i hånd'. 9-hulls parklandbane i Hof, Holmestrand. Par 66 (18h). Ombygget 2003. Lett kupert terreng med godt plasserte bunkere og vannhindre. Driving range, putting green, chipping green, practice bunker. Klubbhus, pro shop (drevet av Jens Sundby) med enkel servering. El-vogn og tralle-utleie. Juniorgolf-program. Simulator-golf om vinteren. Over 300 medlemmer. Handicap-grense 54."
+  },
+  "description": "Hof Golfklubb - 9-hulls parklandbane i Hof, Holmestrand kommune. Grunnlagt 1996, ombygget 2003. Par 33 for 9 hull (par 66 når spilt 2 ganger). 4 par 3, 4 par 4, 1 par 5. Lett kupert terreng. Bunkere og vannhindre er godt plassert. Over 300 medlemmer. 'Golf er magisk!' - trivelig og hyggelig klubb.",
+  "contact": {
+    "phone": "+47 33 05 90 99",
+    "email": "post@hofgolfklubb.no",
+    "emailAlt": null,
+    "website": "https://hofgolfklubb.no/",
+    "facebook": "https://www.facebook.com/Hofgolfklubb/",
+    "instagram": "https://www.instagram.com/hofgolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 33 05 90 99",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 906 55 599",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 928 42 063",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": "Simulator-golf tilgjengelig"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Holmestrand",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Hof Golfklubb (Organisasjonsnummer: 979 879 032, Grunnlagt 1996, Sekretær: Knut J. Johnsen)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Simulator-golf tilgjengelig om vinteren",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 220,
+      "greenFeeWeekend": 270,
+      "greenFeeSenior": 250,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Ukedag 18 hull 220 kr, helg/helligdag 18 hull 270 kr. Norsk Seniorgolf-medlemmer 18h 250 kr, 9h 200 kr. Junior/student halv pris. Junior spiller gratis.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Junior spiller gratis. Junior/student halv pris på greenfee. Pro shop drevet av baneeier/greenkeeper Jens Sundby med enkel servering. Veien Til Golf-kurs for nybegynnere. Simulator-golf om vinteren."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 18,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=1634782141358594988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sande-golfklubb",
+      "distanceKm": 10.6
+    },
+    {
+      "slug": "solum-golfklubb",
+      "distanceKm": 15.1
+    },
+    {
+      "slug": "drammen-golfklubb",
+      "distanceKm": 16.3
+    },
+    {
+      "slug": "eiker-golfklubb",
+      "distanceKm": 22.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "89.0",
+    "websiteQuality": null,
+    "completenessPercentage": 89,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:42.042Z",
+    "createdAt": "2025-10-31T09:10:42.045Z",
+    "updatedAt": "2025-11-03T09:10:04.334Z"
+  }
+}

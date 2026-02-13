@@ -1,0 +1,165 @@
+{
+  "slug": "lillestrom-golfklubb",
+  "name": "Lillestrøm Golfklubb",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "",
+  "municipality": "",
+  "country": "Norway",
+  "address": {
+    "street": "TBD",
+    "postalCode": "0000",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.9558299,
+    "lng": 11.0737339,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": null,
+    "designer": "Not explicitly stated in extracted text",
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Designed without changes to existing landscape",
+  "contact": {
+    "phone": null,
+    "email": null,
+    "emailAlt": null,
+    "website": "https://lilgk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": null
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK (Norwegian Krone)",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.1,
+      "reviewCount": 75,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=5116151310138635614&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hauger-golfklubb",
+      "distanceKm": 7.2
+    },
+    {
+      "slug": "fet-golfklubb",
+      "distanceKm": 7.2
+    },
+    {
+      "slug": "groruddalen-golfklubb",
+      "distanceKm": 8.9
+    },
+    {
+      "slug": "losby-golfklubb",
+      "distanceKm": 9.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:11.901Z",
+    "createdAt": "2025-10-31T11:23:11.902Z",
+    "updatedAt": "2025-11-03T09:10:06.170Z"
+  }
+}

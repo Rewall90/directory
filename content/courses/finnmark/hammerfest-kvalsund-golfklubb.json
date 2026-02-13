@@ -1,0 +1,204 @@
+{
+  "slug": "hammerfest-kvalsund-golfklubb",
+  "name": "Hammerfest og Kvalsund Golfklubb",
+  "formerName": null,
+  "region": "Finnmark",
+  "city": "Kvalsund",
+  "municipality": "Hammerfest",
+  "country": "Norway",
+  "address": {
+    "street": "Kvalsund",
+    "postalCode": "",
+    "area": "Repparfjord"
+  },
+  "coordinates": null,
+  "course": {
+    "holes": 6,
+    "holesPlayed": 18,
+    "par": 20,
+    "parPerRound": 60,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": "6-hulls bane",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": "Arktisk beliggenhet i Repparfjord",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Hammerfest og Kvalsund Golfklubb - Verdens nordligste golfklubb! 6-hulls bane i Repparfjord, Kvalsund, bygget 2001. Par 20 for 6 hull (par 60 når spilt 3 ganger). Et av Norges billigste golfmedlemskap. Greenfee kun 150 kr."
+  },
+  "description": "Hammerfest og Kvalsund Golfklubb - Verdens nordligste golfklubb! 6-hulls bane i Repparfjord, Kvalsund, bygget 2001. Par 20 for 6 hull, par 60 når spilt 3 ganger (18 hull). Lengde 1088m (gul), 933m (rød) for 6 hull - totalt 3369m når spilt 3 ganger. Et av landets billigste golfmedlemskap.",
+  "contact": {
+    "phone": "+47 480 12 972",
+    "email": "post@hammerfestgolf.no",
+    "emailAlt": null,
+    "website": "https://hammerfestgolf.no/",
+    "facebook": "https://www.facebook.com/HammerfestOgKvalsundGolfklubb/",
+    "instagram": "https://www.instagram.com/hammerfest_golfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "Juni",
+    "end": "September",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Hammerfest",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Hammerfest og Kvalsund Golfklubb (Organisasjonsnummer: 983 469 132)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": "Golfsimulator med timepriser (200-275 kr/t) og sesongkort. Online booking tilgjengelig. 10-timerskort 2300 kr, 20-timerskort 4100 kr, sesongkort okt-juni 3200 kr.",
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee: 200 kr. Hammerfest og Kvalsund GK medlemmer kan spille på Alta GK for 300 kr per spiller når 6+ spillere spiller samtidig.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": "Et av landets billigste golfmedlemskap. Familiemedlemmer får 50% rabatt på spillerett.",
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 2500,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "adultContingent",
+        "price": 750,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "adultPlayingRights",
+        "price": 1750,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "familyMemberPlayingRights",
+        "price": 875,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "youth",
+        "price": 200,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 200,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 9,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=827275296264866313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 20
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 20
+    }
+  ],
+  "nearbyCourses": [],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-30T10:55:17.532Z",
+    "createdAt": "2025-10-30T10:55:17.536Z",
+    "updatedAt": "2025-10-30T10:55:17.536Z"
+  }
+}

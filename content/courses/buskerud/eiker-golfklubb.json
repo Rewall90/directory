@@ -1,0 +1,176 @@
+{
+  "slug": "eiker-golfklubb",
+  "name": "Eiker Golfklubb",
+  "formerName": "Portaasen Golfbane",
+  "region": "Buskerud",
+  "city": "Mjøndalen",
+  "municipality": "Øvre Eiker",
+  "country": "Norway",
+  "address": {
+    "street": "Kalkveien 1",
+    "postalCode": "3050",
+    "area": "Mjøndalen"
+  },
+  "coordinates": {
+    "lat": 59.736081,
+    "lng": 10.010787,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 68,
+    "parPerRound": 68,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "Skog- og parkbane",
+    "designer": "Tore Fjeld Olsen",
+    "yearBuilt": 2014,
+    "yearRedesigned": 2020,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 3,
+    "par4Count": 5,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Vakre naturomgivelser i åsen, skogkledde åser"
+  },
+  "description": "Variert og morsom 9-hulls bane midt i Eikerbygdenes skogkledde åser",
+  "contact": {
+    "phone": "+47 32 87 77 72",
+    "email": "post@eikergolf.no",
+    "emailAlt": null,
+    "website": "https://eikergolf.no/",
+    "facebook": "https://www.facebook.com/p/Eiker-Golfklubb-100063737940723/",
+    "instagram": "https://www.instagram.com/eikergolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 32 87 77 72",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 94 13 68 30",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": "Stengt"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Drammen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Eiker Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Golfkiosken",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": false,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "9 hull: 250 kr voksen, 150 kr junior. 18 hull: 400 kr voksen, 250 kr junior. Betaling: Kontant eller VIPPS til 101265",
+      "cartRental": 200,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "VTG kurs inkluderer gratis spill på banen ut 2026"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 58,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13701536883018328860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "drammen-golfklubb",
+      "distanceKm": 13.9
+    },
+    {
+      "slug": "sande-golfklubb",
+      "distanceKm": 19.2
+    },
+    {
+      "slug": "holtsmark-golfklubb",
+      "distanceKm": 20.5
+    },
+    {
+      "slug": "kjekstad-golfklubb",
+      "distanceKm": 20.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:56:50.371Z",
+    "createdAt": "2025-10-31T05:56:50.373Z",
+    "updatedAt": "2025-11-03T09:09:34.786Z"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "fet-golfklubb",
+  "name": "Fet Golfklubb",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "Fetsund",
+  "municipality": "Fetsund",
+  "country": "Norway",
+  "address": {
+    "street": "Løkenveien",
+    "postalCode": "1900",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.91656339999999,
+    "lng": 11.1769497,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "9 hulls bane",
+    "courseType": "9 hulls bane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "På vår 9 hulls bane kan du få testet dine ferdigheter på par 3 hull som varierer mellom 85 og 178 m, samt ett par 4 hull på 350 m. Hos oss kan du øve på bunkerslag i sandbunker, presisjon på våre putting- og pitching greener som er strategisk plassert i nærheten av vår driving range. På rangen kan du trene svingen før du går ut på banen.",
+  "contact": {
+    "phone": null,
+    "email": null,
+    "emailAlt": null,
+    "website": "https://fetgk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": null
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 25,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3815065523384128142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "lillestrom-golfklubb",
+      "distanceKm": 7.2
+    },
+    {
+      "slug": "losby-golfklubb",
+      "distanceKm": 11.3
+    },
+    {
+      "slug": "hauger-golfklubb",
+      "distanceKm": 14.3
+    },
+    {
+      "slug": "romerike-golfklubb",
+      "distanceKm": 14.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:09.937Z",
+    "createdAt": "2025-10-31T11:23:09.939Z",
+    "updatedAt": "2025-11-03T09:09:58.915Z"
+  }
+}

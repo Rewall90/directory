@@ -1,0 +1,226 @@
+{
+  "slug": "nordvegen-golfklubb",
+  "name": "Nordvegen Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Torvastad",
+  "municipality": "Karmøy",
+  "country": "Norway",
+  "address": {
+    "street": "Hauskevågvegen 4",
+    "postalCode": "4260",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.3967605,
+    "lng": 5.24418,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kystlandskap links",
+    "courseType": "18-hulls linksbane",
+    "designer": "Einar Marius Sæther",
+    "yearBuilt": 2003,
+    "yearRedesigned": 2018,
+    "waterHazards": null,
+    "signatureHole": "Linksbane ved havet med spektakulær utsikt",
+    "scenicHole": "Linksbane ved havet med spektakulær utsikt",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Nordvegen Golfklubb er en 18-hulls linksbane ved havet i Torvastad, nord på Karmøy, 15 min fra Haugesund. Åpnet 2003, redesignet 2018 av Einar Marius Sæther. Par 71. Klassisk kystlandskap links med spektakulær havutsikt. En klubb ved havet - for alle! Del av Sveio Golfpark-systemet (54 hull totalt: Nordvegen, Haugaland, Karmøy, Torvastad). Ett medlemskap gir tilgang til alle fire baner. Driving range under oppgradering, putting green, chipping green, practice bunker, klubbhus, simulator. Bobil-parkering tilgjengelig. Pro/daglig leder: Gavin Hinds."
+  },
+  "description": "Nordvegen Golfklubb er en 18-hulls linksbane i Torvastad, nord på Karmøy, kun 15 minutter fra Haugesund sentrum. Åpnet i 2003, redesignet 2018. Designet av arkitekt Einar Marius Sæther. Par 71. Klassisk linksbane ved havet med naturskjønne omgivelser. En klubb ved havet - for alle! Del av Sveio Golfpark-systemet sammen med Haugaland, Karmøy og Torvastad (54 hull totalt). Ett medlemskap gir tilgang til alle fire baner. Handicapkrav 54 for besøkende.",
+  "contact": {
+    "phone": "+47 483 56 158",
+    "email": "gavin@sveiogolfpark.no",
+    "emailAlt": "formann@nordvegengolf.no",
+    "website": "https://nordvegengolf.no/",
+    "facebook": "https://www.facebook.com/nordvegengolf.no/",
+    "instagram": "https://www.instagram.com/nordvegengolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 483 56 158",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 916 63 599",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 906 09 171",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Haugesund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Nordvegen Golfklubb (Organisasjonsnummer: 993 626 791)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulatør tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 450,
+      "greenFeeWeekend": 450,
+      "greenFeeSenior": 450,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee 2025: 450 kr (voksne >18 år), 200 kr (junior <18 år). Handicap 54 påkrevd. Medlemmer av Haugaland GK og Karmøy GK får gratis greenfee.",
+      "cartRental": 350,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Ta kurs nå og få medlemskap for 2025 og 2026 inkludert. Del av 54-hulls system med Haugaland, Karmøy og Torvastad."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 6840,
+        "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 5640,
+        "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 3540,
+        "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
+        "ageRange": null
+      },
+      {
+        "category": "youth20_23",
+        "price": 3540,
+        "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
+        "ageRange": null
+      },
+      {
+        "category": "junior13_19",
+        "price": 1500,
+        "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
+        "ageRange": null
+      },
+      {
+        "category": "child7_12",
+        "price": 500,
+        "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
+        "ageRange": null
+      },
+      {
+        "category": "childUnder6",
+        "price": 100,
+        "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 149,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=11364725786827498695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "haugesund-golfklubb",
+      "distanceKm": 6.5
+    },
+    {
+      "slug": "haugaland-golfklubb",
+      "distanceKm": 18.4
+    },
+    {
+      "slug": "karmoy-golfklubb",
+      "distanceKm": 26.9
+    },
+    {
+      "slug": "randaberg-golfklubb",
+      "distanceKm": 45.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:25.099Z",
+    "createdAt": "2025-10-31T07:46:25.101Z",
+    "updatedAt": "2025-11-03T09:10:16.780Z"
+  }
+}

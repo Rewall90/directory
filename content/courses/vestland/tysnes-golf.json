@@ -1,0 +1,165 @@
+{
+  "slug": "tysnes-golf",
+  "name": "Tysnes Golf",
+  "formerName": "Dalen Golf",
+  "region": "Vestland",
+  "city": "Uggdal",
+  "municipality": "Tysnes",
+  "country": "Norway",
+  "address": {
+    "street": "Dalsvegen 260",
+    "postalCode": "5685",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.0162566,
+    "lng": 5.549835,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 18,
+    "par": 21,
+    "parPerRound": 63,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Coastal/Parkland",
+    "courseType": "6-hulls bane + 18-hulls Pitch & Putt-bane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Utsikt mot havet i vest fra terrassene",
+    "scenicHole": "Utsikt mot havet i vest fra terrassene",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Tysnes Golf (tidl. Dalen Golf) - 6-hulls bane + 18-hulls Pitch & Putt (par 63) i Uggdal på Tysnes-øya, Vestland. Klubbhus i sjarmerende låve med stor terrasse og utsikt mot havet i vest. Sjokolade og brus i klubbhuset. Tysnesfest Open turnering. Åpen for publikum."
+  },
+  "description": "Tysnes Golf (tidl. Dalen Golf) - 6-hulls bane med tilleggsbane: 18-hulls Pitch & Putt-bane. Par 63 for 18-hull Pitch & Putt. Lokalisert i Uggdal på Tysnes-øya. Klubbhus i låve med stor terrasse med utsikt mot havet i vest.",
+  "contact": {
+    "phone": null,
+    "email": null,
+    "emailAlt": null,
+    "website": "https://www.tysnesgolf.no/",
+    "facebook": "https://www.facebook.com/DalenGolfklubb/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Tysnes Golf (tidligere Dalen Golf/Dalen Golfklubb)"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Tilgjengelig i klubbhuset 'låven'. Kontakt klubben for priser via nettside www.tysnesgolf.no.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "To baner: 6-hulls hovedbane og 18-hulls Pitch & Putt. Klubbhus i låve med stor terrasse og havutsikt. Sjokolade og brus tilgjengelig. Tysnesfest Open turnering."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.1,
+      "reviewCount": 8,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=304381037845087655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "bjornefjorden-golfklubb",
+      "distanceKm": 19.8
+    },
+    {
+      "slug": "kvinnherad-golfklubb",
+      "distanceKm": 21
+    },
+    {
+      "slug": "stord-golfklubb",
+      "distanceKm": 23.2
+    },
+    {
+      "slug": "fana-golfklubb",
+      "distanceKm": 33.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "65.0",
+    "websiteQuality": null,
+    "completenessPercentage": 65,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:17:02.176Z",
+    "createdAt": "2025-10-31T10:17:02.178Z",
+    "updatedAt": "2025-11-03T09:10:01.328Z"
+  }
+}

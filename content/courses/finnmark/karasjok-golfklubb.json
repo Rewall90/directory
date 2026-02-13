@@ -1,0 +1,189 @@
+{
+  "slug": "karasjok-golfklubb",
+  "name": "Karasjok Golfklubb",
+  "formerName": null,
+  "region": "Finnmark",
+  "city": "Karasjok",
+  "municipality": "Karasjok",
+  "country": "Norway",
+  "address": {
+    "street": "Finlandsveien",
+    "postalCode": "9735",
+    "area": null
+  },
+  "coordinates": null,
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 2311,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": "9 hull på elvebredden",
+    "par3Count": 2,
+    "par4Count": 5,
+    "par5Count": 2,
+    "mountainViews": false,
+    "viewDescription": "Karasjok Golfklubb - 9-hulls parklandbane på elvebredden ved Finlandsveien. Par 36 (9h), par 72 (18h). Bygget 2001. Svært rimelig medlemskap (749-799 kr) med god service for fjernmedlemmer. Greenfee kun 150 kr (18h). Golfkurs tilgjengelig."
+  },
+  "description": "Karasjok Golfklubb (Kárášjoga golfsearvi) - 9 vakre hull på elvebredden ved Finlandsveien.\n\nBanen ligger langs den lakserike Karasjohka-elven og tilbyr en unik golfopplevelse i samisk kulturlandskap. Med midnattssol om sommeren kan du spille golf døgnet rundt.\n\nPar 36 for 9 hull (par 72 når spilt 2 ganger). Banen har varierte hull fra 132 til 446 meter, med vannhindre, bunkere og dog-legs.\n\nLengde: Gul tee 2.311m, Rød tee 2.080m.\n\nKlubben er tospråklig (norsk/samisk) og har historisk tilknytning til Samuel Balto, den berømte samiske polarfareren som deltok på Fridtjof Nansens Grønlands-ekspedisjon.\n\nRimelige priser gjør dette til en familievennlig bane: Voksen 150 kr, Junior 75 kr for 18 hull.",
+  "contact": {
+    "phone": "+47 906 24 296",
+    "email": "karasjokgolf@gmail.com",
+    "emailAlt": "post@karasjokgolf.no",
+    "website": "https://karasjokgolf.no/",
+    "facebook": "https://www.facebook.com/p/Karasjok-Golfklubb-100064094619609/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 951 63 430",
+      "type": "alternate",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Karasjok",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Karasjok Golfklubb (Organisasjonsnummer: 984 664 664)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "Driving range og treningsområde tilgjengelig, åpent for alle",
+    "puttingGreen": null,
+    "chippingArea": null,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "",
+    "clubRental": true,
+    "clubRentalNotes": "Køller kan lånes på anlegget, inkludert i begynner/VTG-kurs",
+    "cartRental": null,
+    "pullCartRental": null,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 150,
+      "greenFeeWeekend": 150,
+      "greenFeeSenior": 150,
+      "greenFeeJunior": 75,
+      "greenFeeDescription": "Greenfee 2025: Senior/Voksen 150 kr (18 hull), Junior 75 kr (18 hull). Klubben markedsfører seg som svært rimelig med god service for fjernmedlemmer.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": 2000,
+      "specialOfferIncludes": "Begynner/Veien til Golf-kurs: 2000 kr inkludert kursmateriell og kølleutleie, minimum 12 timer opplæring med instruktør Jan Skoglund Paltto",
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "regular",
+        "price": 749,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "priority",
+        "price": 799,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {},
+  "courseRatings": [],
+  "nearbyCourses": [],
+  "additionalFeatures": [
+    {
+      "feature": "Midnattssol-golf",
+      "description": "Spill golf under midnattssolen om sommeren"
+    },
+    {
+      "feature": "Beliggenhet ved Karasjohka",
+      "description": "9 vakre hull langs elvebredden med mulighet for å se laks"
+    },
+    {
+      "feature": "Tospråklig klubb",
+      "description": "Skilting og kommunikasjon på norsk og samisk"
+    },
+    {
+      "feature": "Norges nordligste innlandsbane",
+      "description": "En av verdens nordligste golfbaner"
+    },
+    {
+      "feature": "Historisk tilknytning",
+      "description": "Oppkalt etter Samuel Balto, samisk polfarer som jobbet med Fridtjof Nansen"
+    },
+    {
+      "feature": "VTG-kurs",
+      "description": "Veien til Golf nybegynnerkurs: 2.000 kr inkl. kursmateriell og køllelån"
+    },
+    {
+      "feature": "Familievennlig",
+      "description": "Rimelige priser: 150 kr voksen, 75 kr junior for 18 hull"
+    },
+    {
+      "feature": "Driving range",
+      "description": "Treningsområde åpent for alle"
+    }
+  ],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2026-02-12T07:20:09.162Z",
+    "createdAt": "2025-10-30T10:55:18.542Z",
+    "updatedAt": "2026-02-12T07:20:09.163Z"
+  }
+}

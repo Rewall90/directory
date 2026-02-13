@@ -1,0 +1,165 @@
+{
+  "slug": "suldal-golfklubb",
+  "name": "Suldal Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Sand i Ryfylke",
+  "municipality": "Suldal",
+  "country": "Norway",
+  "address": {
+    "street": "TBD",
+    "postalCode": "0000",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.6481197,
+    "lng": 6.317529899999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": null,
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Suldal Golfklubb ligger i Suldal kommune i Ryfylke-regionen, nordøst i Rogaland. En av Norges minste golfklubber med 18 medlemmer (2014). Svært begrenset online tilstedeværelse og ingen offentlig tilgjengelig kontaktinformasjon. For informasjon, kontakt Suldal Reiselivslag eller Norges Golfforbund."
+  },
+  "description": "Suldal Golfklubb er en av Norges minste golfklubber med 18 medlemmer (per 2014). Ligger i Suldal kommune i Ryfylke, Rogaland. Svært begrenset online tilstedeværelse.",
+  "contact": {
+    "phone": null,
+    "email": null,
+    "emailAlt": null,
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sand i Ryfylke",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Suldal Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": false,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Ingen prisinformasjon tilgjengelig.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 25,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=17134889686935110468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sauda-golfklubb",
+      "distanceKm": 0
+    },
+    {
+      "slug": "kvinnherad-golfklubb",
+      "distanceKm": 39
+    },
+    {
+      "slug": "stord-golfklubb",
+      "distanceKm": 48.4
+    },
+    {
+      "slug": "odda-golfklubb",
+      "distanceKm": 49.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "15.0",
+    "websiteQuality": null,
+    "completenessPercentage": 15,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:28.039Z",
+    "createdAt": "2025-10-31T07:46:28.041Z",
+    "updatedAt": "2025-11-03T09:09:53.840Z"
+  }
+}

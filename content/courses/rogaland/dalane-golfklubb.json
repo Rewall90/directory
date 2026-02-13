@@ -1,0 +1,217 @@
+{
+  "slug": "dalane-golfklubb",
+  "name": "Dalane Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Hauge i Dalane",
+  "municipality": "Sokndal",
+  "country": "Norway",
+  "address": {
+    "street": "Kjellandsveien 9-11",
+    "postalCode": "4380",
+    "area": "Kjelland"
+  },
+  "coordinates": {
+    "lat": 58.3280036,
+    "lng": 6.290091599999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 6,
+    "par": 20,
+    "parPerRound": 20,
+    "lengthMeters": 1152,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Naturskjønne omgivelser",
+    "courseType": "6-hulls kortbane",
+    "designer": "Svein D. Olsnes",
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønne omgivelser ved Kjelland",
+    "scenicHole": "Naturskjønne omgivelser ved Kjelland",
+    "par3Count": 6,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Idyllisk 6-hulls kortbane i naturskjønne omgivelser helt sør i Rogaland, etablert 2000. Designet av arkitekt Svein D. Olsnes. Beliggende ved Kjelland, nær Sogndalstrand i Sokndal kommune. Par 20 (alle 6 hull par 3), lengde 1152m. CR 20.1, Slope 116. Kort men utfordrende bane som passer både nybegynnere og erfarne spillere. Slope-vurdert og godkjent av Norges Golfforbund. Fantastiske omgivelser med relativt lavpriset spill. Driving range, putting green, teaching pro, restaurant. Perfekt for kort spill-trening og raske runder i vakkert naturmiljø."
+  },
+  "description": "Dalane Golfklubb er en idyllisk 6-hulls kortbane i naturskjønne omgivelser helt sør i Rogaland, etablert 2000. Designet av arkitekt Svein D. Olsnes. Banen ligger ved Kjelland, nær Sogndalstrand i Sokndal kommune. Par 20, lengde 1152 meter fra gule tees. Alle 6 hullene er par 3. Kort men utfordrende bane som passer både nybegynnere og erfarne spillere. Slope-vurdert og godkjent av Norges Golfforbund. Fantastiske omgivelser med relativt lavpriset spill. Perfekt for kort spill-trening og raske runder.",
+  "contact": {
+    "phone": "+47 97 62 39 02",
+    "email": "Espen.Pettersen@kronosww.com",
+    "emailAlt": null,
+    "website": "http://www.dalane-golfklubb.no/",
+    "facebook": "https://www.facebook.com/dalanegk/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 97 62 39 02",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 90 14 90 64",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Banen stenges om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Egersund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Dalane Golfklubb (Semi-privat)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Restaurant ved klubbhus",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Greenfee for 6-hulls kortbane. Relativt lavpriset spill. Kontakt klubben for eksakte 2025-priser.",
+      "cartRental": 250,
+      "pullCartRental": null,
+      "clubRental": 150,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 3.4,
+      "reviewCount": 5,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=5343555975828874922&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 20.1,
+      "slopeRating": 116,
+      "lengthYards": null,
+      "lengthMeters": 1152,
+      "par": 20
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 20.9,
+      "slopeRating": 117,
+      "lengthYards": null,
+      "lengthMeters": 1152,
+      "par": 20
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 19.6,
+      "slopeRating": 113,
+      "lengthYards": null,
+      "lengthMeters": 995,
+      "par": 20
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 20,
+      "slopeRating": 110,
+      "lengthYards": null,
+      "lengthMeters": 995,
+      "par": 20
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "egersund-golfklubb",
+      "distanceKm": 27.9
+    },
+    {
+      "slug": "ogna-golfklubb",
+      "distanceKm": 36.1
+    },
+    {
+      "slug": "utsikten-golfklubb",
+      "distanceKm": 41.1
+    },
+    {
+      "slug": "sirdal-golfklubb",
+      "distanceKm": 47.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.5",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:20.972Z",
+    "createdAt": "2025-10-31T07:46:20.974Z",
+    "updatedAt": "2025-11-03T09:10:01.904Z"
+  }
+}

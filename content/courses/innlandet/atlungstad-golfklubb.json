@@ -1,0 +1,186 @@
+{
+  "slug": "atlungstad-golfklubb",
+  "name": "Atlungstad Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Ottestad",
+  "municipality": "Ottestad",
+  "country": "Norway",
+  "address": {
+    "street": "Sandvikaveien 222",
+    "postalCode": "N-2312",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.76065560000001,
+    "lng": 11.0860248,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "Skog- og parkbane",
+    "designer": "Dave Thomas LTD",
+    "yearBuilt": 2007,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Banen ligger ved Mjøsa med Atlungstad Brenneri som landemerke"
+  },
+  "description": "Atlungstad Golf er et 18-hulls golfanlegg designet av den kjente golfbanearkitekten Dave Thomas LTD. De første 9 hullene nede ved Mjøsa ble tatt i bruk i 2006, og hele 18-hullsanlegget åpnet for spill sommeren 2007. Banen er anlagt i det bølgende kulturlandskapet ned mot Mjøsa sør for Atlungstad Brenneri. Pipa på brenneriet blir et godt siktemerke mot greenen på flere av hullene på banen.",
+  "contact": {
+    "phone": "62 57 76 90",
+    "email": "manager@atlungstadgolf.com",
+    "emailAlt": "gabriella@atlungstadgolf.com",
+    "website": "https://atlungstadgolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "62 57 76 90",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "99 31 77 67",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "40 10 75 86",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "90 53 18 70",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Ottestad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Atlungstad Golf AS",
+    "clubOrganization": "Atlungstad Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafe",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 800,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "18 hull: Max 600 kr hverdag, max 800 kr helg. 9 hull: 400 kr. Junior rabatt 40%. Naboklubber (Mjøsen, Sorknes, Trysil, Skei, Kongsvinger, Elverum, Valdres, Land, Hafjell, Gjøvik & Toten): 100 kr rabatt 18 hull, 50 kr rabatt 9 hull. NSG seniorer: 500 kr (08:00-15:00 hverdager). To runder samme dag: 900 kr hverdag, 1300 kr helg.",
+      "cartRental": 20001800,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager)"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 30,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12103293164926050995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "gjovik-toten-golfklubb",
+      "distanceKm": 20.2
+    },
+    {
+      "slug": "mjosen-golfklubb",
+      "distanceKm": 29.4
+    },
+    {
+      "slug": "elverum-golfklubb",
+      "distanceKm": 34
+    },
+    {
+      "slug": "sorknes-golfklubb",
+      "distanceKm": 47.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:10.891Z",
+    "createdAt": "2025-10-31T07:18:10.893Z",
+    "updatedAt": "2025-11-03T09:09:47.286Z"
+  }
+}

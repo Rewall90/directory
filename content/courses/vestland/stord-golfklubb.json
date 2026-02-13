@@ -1,0 +1,192 @@
+{
+  "slug": "stord-golfklubb",
+  "name": "Stord Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Stord",
+  "municipality": "Stord",
+  "country": "Norway",
+  "address": {
+    "street": "Tyse 41",
+    "postalCode": "5414",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.80804010000001,
+    "lng": 5.5150583,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 34,
+    "parPerRound": 68,
+    "lengthMeters": 2060,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls park/skogsbane",
+    "designer": null,
+    "yearBuilt": 1992,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Bølgende park/skogsterreng med vannhindre",
+    "scenicHole": "Bølgende park/skogsterreng med vannhindre",
+    "par3Count": 3,
+    "par4Count": 5,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Stord Golfklubb - 9-hulls park/skogsbane grunnlagt 1992 på Stord i Sunnhordland, Vestland. Par 34 (68 for 18h), 2060m. Bølgende terreng med vannhindre. Par-fordeling: 1 par 5, 5 par 4, 3 par 3. Driving range, putting/chipping greens, practice bunker. 3 simulatorer. Klubbhus med pro shop. Kølleutleie. Handicap-grense 36. Åpen året rundt."
+  },
+  "description": "Stord Golfklubb - 9-hulls park/skogsbane grunnlagt 1992 på Stord i Sunnhordland. Par 34 (68 for 18 hull når spilt 2 ganger), 2060 meter. Bølgende terreng med vannhindre. Par-fordeling: 1 par 5, 5 par 4, 3 par 3. Moderat teknisk vanskelighetsgrad.",
+  "contact": {
+    "phone": "+47 92 20 25 92",
+    "email": "post@stordgolf.no",
+    "emailAlt": null,
+    "website": "https://stordgolf.com/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 92 20 25 92",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Åpen hele året, 3 golfsimulatore tilgjengelig"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Stord Golfpark",
+    "clubOrganization": "Stord Golfklubb (Grunnlagt 1992)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "3 toppmoderne golfsimulatore hvor man kan spille på kjente baner fra hele verden",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Greenfee 2025: 9 hull 200 kr (hverdager), 250 kr (helg/helligdager). Junior (under 18 år) 50% rabatt: 100 kr (hverdager), 125 kr (helg). Handicap-grense 36, gyldig handicapbevis påkrevd.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "3 toppmoderne golfsimulatore for innendørsspill på verdenskjente baner. Åpen hele året. Bølgende terreng med vannhindre og variert par-fordeling (1 par 5, 5 par 4, 3 par 3). Junior 50% rabatt."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 68,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16450798324322624237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul / Yellow",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 32.45,
+      "slopeRating": 112,
+      "lengthYards": null,
+      "lengthMeters": 2060,
+      "par": 34
+    },
+    {
+      "teeColor": "Rød / Red",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 32.7,
+      "slopeRating": 117,
+      "lengthYards": null,
+      "lengthMeters": 1718,
+      "par": 34
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "kvinnherad-golfklubb",
+      "distanceKm": 15.2
+    },
+    {
+      "slug": "tysnes-golf",
+      "distanceKm": 23.2
+    },
+    {
+      "slug": "haugaland-golfklubb",
+      "distanceKm": 29.9
+    },
+    {
+      "slug": "bjornefjorden-golfklubb",
+      "distanceKm": 42.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:17:01.420Z",
+    "createdAt": "2025-10-31T10:17:01.422Z",
+    "updatedAt": "2025-11-03T09:10:00.713Z"
+  }
+}

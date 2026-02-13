@@ -1,0 +1,192 @@
+{
+  "slug": "volda-golfklubb",
+  "name": "Volda Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Volda",
+  "municipality": "Volda",
+  "country": "Norway",
+  "address": {
+    "street": "Botnavegen",
+    "postalCode": "6100",
+    "area": "Vassbotn"
+  },
+  "coordinates": {
+    "lat": 62.1399707,
+    "lng": 6.1328401,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": 4670,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Park- og skogsbane",
+    "courseType": "9-hulls bane (spilles to runder for 18 hull)",
+    "designer": null,
+    "yearBuilt": 1998,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Utsikt mot høye fjell og dype fjorder fra banen",
+    "scenicHole": "Utsikt mot høye fjell og dype fjorder fra banen",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Spektakulær utsikt mot høye fjell og dype fjorder fra banen. Ligger ved Rotevatnet i naturskjønne omgivelser ved Vassbotn."
+  },
+  "description": "Variert og morsom 9-hulls bane i naturskjønne omgivelser ved Rotevatnet i Volda. Banen ligger vakkert til ved Vassbotn med utsikt mot høye fjell og dype fjorder. Kurs av park- og skogspreg med utfordrende layout. Volda er sentralt plassert i Sunnmøre med kort veg til Ålesund, Geiranger, fugløya Runde og Strynefjellet. En av Norges vakreste 9-hullsbaner.",
+  "contact": {
+    "phone": "+47 70 07 69 77",
+    "email": "post@voldagolf.no",
+    "emailAlt": null,
+    "website": "https://voldagolf.no/",
+    "facebook": "https://www.facebook.com/voldagolfklubb/",
+    "instagram": "https://www.instagram.com/voldagolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 70 07 69 77",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Simulator tilgjengelig for vintertrening"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Volda",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Volda Golfklubb",
+    "clubOrganization": "Volda Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator og innendørs treningsfasiliteter tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: 200 kr per dag. Betaling i klubbhuset ved parkeringsplassen.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 35,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13767125270051265481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 67.1,
+      "slopeRating": 117,
+      "lengthYards": null,
+      "lengthMeters": 4670,
+      "par": 70
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 64,
+      "slopeRating": 110,
+      "lengthYards": null,
+      "lengthMeters": 3909,
+      "par": 70
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "aalesund-golfklubb-solnor-gaard",
+      "distanceKm": 15.1
+    },
+    {
+      "slug": "vanylven-golfklubb",
+      "distanceKm": 24
+    },
+    {
+      "slug": "sunnmore-golfklubb",
+      "distanceKm": 25
+    },
+    {
+      "slug": "nordfjord-golfklubb",
+      "distanceKm": 26.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "92.5",
+    "websiteQuality": null,
+    "completenessPercentage": 92,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:12.384Z",
+    "createdAt": "2025-10-31T09:31:12.385Z",
+    "updatedAt": "2025-11-03T09:09:45.292Z"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "slug": "vesteralen-golfklubb",
+  "name": "Vesterålen Golfklubb",
+  "formerName": null,
+  "region": "Nordland",
+  "city": "Sortland",
+  "municipality": "Sortland",
+  "country": "Norway",
+  "address": {
+    "street": "Kjerringnes, Sigerfjord",
+    "postalCode": "8400",
+    "area": "Kjerringnes"
+  },
+  "coordinates": {
+    "lat": 68.66194109999999,
+    "lng": 15.4810508,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 6,
+    "par": 22,
+    "parPerRound": 22,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert og utfordrende",
+    "courseType": "6-hulls bane (utvides til 9 hull)",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 4,
+    "par4Count": 2,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Beliggenhet på Kjerringnes i Sigerfjord, 10 minutter fra Sortland sentrum. Kupert og utfordrende terreng i naturskjønne omgivelser på Vesterålen."
+  },
+  "description": "6-hulls bane på Kjerringnes i Sigerfjord. Klubben holder til 10 minutter utenfor Sortland sentrum. Utvidelse til 9 hull startet våren 2025.",
+  "contact": {
+    "phone": "+47 91 18 49 95",
+    "email": "johnny.karlsen@sktv.no",
+    "emailAlt": null,
+    "website": "https://vestgolf.com/",
+    "facebook": "https://www.facebook.com/VesteralenGolfklubb/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 91 18 49 95",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 91 71 01 55",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 96 23 93 23",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 41 67 16 21",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 48 15 87 81",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Banen er åpen hele døgnet i sommersesongen. Stengt om vinteren."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sortland",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Vesterålen Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": false,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Green fee betales via Vipps eller kontanter i postboksen. Medlemmer spiller gratis og betaler kun årsavgift. Pay and play.",
+      "cartRental": 150,
+      "pullCartRental": null,
+      "clubRental": 100,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": null,
+      "reviewCount": null,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=6229909080983852054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "harstad-golfklubb",
+      "distanceKm": 44.9
+    },
+    {
+      "slug": "bleik-golfstrombane",
+      "distanceKm": 71.1
+    },
+    {
+      "slug": "narvik-golfklubb",
+      "distanceKm": 91.8
+    },
+    {
+      "slug": "midt-troms-golfklubb",
+      "distanceKm": 127.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:42.612Z",
+    "createdAt": "2025-10-31T09:43:42.613Z",
+    "updatedAt": "2025-11-03T09:09:54.966Z"
+  }
+}

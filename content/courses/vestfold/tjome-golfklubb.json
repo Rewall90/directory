@@ -1,0 +1,190 @@
+{
+  "slug": "tjome-golfklubb",
+  "name": "Tjøme Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Tjøme",
+  "municipality": "Færder",
+  "country": "Norway",
+  "address": {
+    "street": "Barkevikveien 3",
+    "postalCode": "3145",
+    "area": "Rød"
+  },
+  "coordinates": {
+    "lat": 59.111329,
+    "lng": 10.392865,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "18-hulls parklandbane med unik double-9 design + 9-hulls treningsbane",
+    "designer": null,
+    "yearBuilt": 1989,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Historisk herregård fra 1865",
+    "scenicHole": "Historisk herregård fra 1865",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Tjøme Golfklubb - Eneste golfbane i Norden med double-9 design. 18-hulls parklandbane, par 72, 5388m. Valgfrie lengder: 5500m, 5000m, 4400m, 3200m. Bunkere, innsjøer/dammer, smale fairways. Driving range med matter, putting green, 2 chipping greener med bunkere. Herregård fra 1865 som klubbhus. Kafé Rosso. Pro shop. 9-hulls treningsbane. Handicap-grense 36 (strengere enn vanlig)."
+  },
+  "description": "Tjøme Golfklubb - 18-hulls parklandbane med par 72 og 5388 meter. Grunnlagt 1989. Eneste golfbane i Norden med double-9 design. Spillere kan velge å spille fra 5500m, 5000m, 4400m eller 3200m. Bunkere, vannhindre med innsjøer og dammer, og smale fairways. Pluss 9-hulls treningsbane. Klubbhus i herregård fra 1865.",
+  "contact": {
+    "phone": "+47 33 39 15 10",
+    "email": "post@tjomegolfklubb.no",
+    "emailAlt": null,
+    "website": "https://tjomegolfklubb.no/",
+    "facebook": "https://www.facebook.com/Tjøme-Golfklubb/",
+    "instagram": "https://www.instagram.com/tjomegolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 33 39 15 10",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 904 77 989",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 904 79 527",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Tønsberg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Tjøme Golfklubb (Organisasjonsnummer: 993 586 846, Grunnlagt 1989)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé Rosso",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Forhåndsbetaling påkrevd. Tee-tider kan bookes 5 dager i forveien. Booking utover 5 dager koster ekstra 100 kr per person. Greenfee-samarbeid med flere klubber (Grini, Nøtterøy, Vestfold m.fl.).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Medlemmer får gratis spill på Tjøme. 20 bøtter driving range-baller inkludert i medlemskap, ubegrenset bruk for 1000 kr. Medlemmer har 7 dagers forhåndsbooking. 10% rabatt på alt i pro shop. 9-hulls treningsbane tilgjengelig."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "drivingRangeUnlimited",
+        "price": 1000,
+        "description": "Medlemskap 2025: Medlemmer får gratis spill på Tjøme. 20 bøtter driving range-baller inkludert, ubegrenset bruk for 1000 kr ekstra. Medlemmer har 7 dagers forhåndsbooking av tee-tider. 10% rabatt på alt i pro shop. Greenfee-samarbeid med flere klubber. Kontakt klubben for fullstendige medlemspriser via telefon +47 33 39 15 10 eller epost post@tjomegolfklubb.no.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 74,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=18392593935286203757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "veierland-golfklubb",
+      "distanceKm": 6.4
+    },
+    {
+      "slug": "sandefjord-golfklubb",
+      "distanceKm": 12.1
+    },
+    {
+      "slug": "notteroy-golfklubb",
+      "distanceKm": 12.7
+    },
+    {
+      "slug": "husoya-golfklubb",
+      "distanceKm": 14.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:45.503Z",
+    "createdAt": "2025-10-31T09:10:45.505Z",
+    "updatedAt": "2025-11-03T09:10:17.374Z"
+  }
+}

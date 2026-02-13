@@ -1,0 +1,202 @@
+{
+  "slug": "stranda-golfklubb",
+  "name": "Stranda Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Stranda",
+  "municipality": "Stranda",
+  "country": "Norway",
+  "address": {
+    "street": "Dalevegen 1214",
+    "postalCode": "6200",
+    "area": "Strandadalen"
+  },
+  "coordinates": {
+    "lat": 62.2095309,
+    "lng": 6.921557699999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 62,
+    "parPerRound": 62,
+    "lengthMeters": 3320,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert",
+    "courseType": "9-hulls executive course (spilles to runder for 18 hull)",
+    "designer": null,
+    "yearBuilt": 1991,
+    "yearRedesigned": 2014,
+    "waterHazards": true,
+    "signatureHole": "Naturskjønne omgivelser med utsikt over Strandadalen",
+    "scenicHole": "Naturskjønne omgivelser med utsikt over Strandadalen",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Naturopplevelser i vakker natur med skogslandskap og utsikt over Strandadalen. Nær Geirangerfjorden og Trollstigen."
+  },
+  "description": "Idyllisk 9-hulls executive course, Overvoll Golfbane, beliggende ca. 14 km fra Stranda sentrum i retning Stryn. Variert golfbane med naturopplevelser i vakker natur. Banen kombinerer skogslandskap og parkliknende områder med vakre naturomgivelser. Klubben ble grunnlagt i 1991. Banen er tilgjengelig for alle - greenkort er ikke påkrevd, men minst en i flighten bør ha det. Overvoll Retreat tilbyr også overnatting.",
+  "contact": {
+    "phone": "+47 70 26 21 33",
+    "email": "klubbkontor@strandagolf.no",
+    "emailAlt": null,
+    "website": "https://strandagolf.no/",
+    "facebook": "https://www.facebook.com/Strandagolfklubb/",
+    "instagram": "https://www.instagram.com/explore/locations/1001996580/stranda-golfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 70 26 21 33",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 95 14 25 20",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 404 57 062",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "September",
+    "winterUse": "Golfsimulator åpen hele året. Vintergolfprogram tilgjengelig gjennom simulator og vinterturnering."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Stranda",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Stranda Golfklubb",
+    "clubOrganization": "Stranda Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Grill fasiliteter",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Trackman 4 med høyhastighetskameraer for ball- og klubbsporing. Trackman IO med nyere teknologi. Over 70 golfbaner tilgjengelig. Simulatorene er lokalisert i PI-bygget (3. etasje) i Stranda sentrum.",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: 200 kr per dag. Greenkort er ikke påkrevd, men minst en i flighten bør ha det.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Rabattkupong: kr 100 rabatt på neste års medlemskap hvis du rekrutterer en deltaker"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.8,
+      "reviewCount": 13,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=18150739616734518560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 61.8,
+      "slopeRating": 118,
+      "lengthYards": null,
+      "lengthMeters": 3320,
+      "par": 62
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 60.6,
+      "slopeRating": 109,
+      "lengthYards": null,
+      "lengthMeters": 2768,
+      "par": 62
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "volda-golfklubb",
+      "distanceKm": 41.7
+    },
+    {
+      "slug": "aalesund-golfklubb-solnor-gaard",
+      "distanceKm": 47.1
+    },
+    {
+      "slug": "sunnmore-golfklubb",
+      "distanceKm": 51.8
+    },
+    {
+      "slug": "giske-golfklubb",
+      "distanceKm": 54.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "92.5",
+    "websiteQuality": null,
+    "completenessPercentage": 92,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:09.917Z",
+    "createdAt": "2025-10-31T09:31:09.918Z",
+    "updatedAt": "2025-11-03T09:09:37.980Z"
+  }
+}

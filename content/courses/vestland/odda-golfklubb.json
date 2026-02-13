@@ -1,0 +1,171 @@
+{
+  "slug": "odda-golfklubb",
+  "name": "Odda Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Odda",
+  "municipality": "Ullensvang",
+  "country": "Norway",
+  "address": {
+    "street": "Askane",
+    "postalCode": "5750",
+    "area": "Eitrheim"
+  },
+  "coordinates": {
+    "lat": 60.080552,
+    "lng": 6.529681099999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Industrial/Parkland",
+    "courseType": "6-hulls mellombane (ikke lenger i drift)",
+    "designer": null,
+    "yearBuilt": 1996,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Ved Sørfjorden i Hardanger",
+    "scenicHole": "Ved Sørfjorden i Hardanger",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Odda Golfklubb - bygget 1996, NGF-godkjent 6-hulls mellombane fra 2000 i Odda, Hardanger. Unik beliggenhet inne i Outokumpu Norzink industriområde ved Sørfjorden. VIKTIG: Banen ikke lenger tilgjengelig på grunn av Bolidens utvidelse. Klubben fortsetter og jobber mot Røldal-prosjekt. Historisk: Åpen for publikum, kølleutleie."
+  },
+  "description": "Odda Golfklubb - bygget 1996, godkjent som 6-hulls mellombane av NGF fra 1. januar 2000. Unik beliggenhet inne i Outokumpu Norzink sitt industriområde ved Sørfjorden i Hardanger. VIKTIG: Klubben kan ikke lenger bruke området på grunn av Bolidens utvidelsesplaner. Klubben stemte for fortsatt eksistens og jobber mot kobling til planlagt golfbaneprosjekt i Røldal.",
+  "contact": {
+    "phone": "+47 53 64 24 41",
+    "email": null,
+    "emailAlt": null,
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 53 64 24 41",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": false,
+    "walkingAllowed": true,
+    "nearbyCity": "Odda",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Odda Golfklubb (Grunnlagt 1996, NGF-godkjent 2000)"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": false,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Klubben har for tiden ikke golfbane i drift. Historisk hadde banen kølleutleie tilgjengelig og var åpen for publikum.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Klubben jobber mot kobling til planlagt golfbaneprosjekt i Røldal. Tidligere hadde klubben unik 6-hulls bane inne i industriområde med omfattende miljøopprydding."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 5,
+      "reviewCount": 2,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9637927363196121412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hardanger-golfklubb",
+      "distanceKm": 37.9
+    },
+    {
+      "slug": "kvinnherad-golfklubb",
+      "distanceKm": 49
+    },
+    {
+      "slug": "suldal-golfklubb",
+      "distanceKm": 49.5
+    },
+    {
+      "slug": "sauda-golfklubb",
+      "distanceKm": 49.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "45.0",
+    "websiteQuality": null,
+    "completenessPercentage": 45,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:17:00.021Z",
+    "createdAt": "2025-10-31T10:17:00.023Z",
+    "updatedAt": "2025-11-03T09:09:59.207Z"
+  }
+}

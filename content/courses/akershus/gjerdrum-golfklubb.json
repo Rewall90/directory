@@ -1,0 +1,165 @@
+{
+  "slug": "gjerdrum-golfklubb",
+  "name": "Gjerdrum Golfklubb",
+  "formerName": "Gjerdrum Golfklubb",
+  "region": "Akershus",
+  "city": "Gjerdrum",
+  "municipality": "Gjerdrum",
+  "country": "Norway",
+  "address": {
+    "street": "Postboks 41",
+    "postalCode": "2024",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.0621648,
+    "lng": 11.0301072,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 66,
+    "parPerRound": 66,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane",
+    "courseType": "Parkbane",
+    "designer": "Svein Drange Olsnes",
+    "yearBuilt": 2010,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Gjerdrum golfbane er en parkbane med par 66, men har sine helt klare utfordringer. Det bølgende ravinelandskapet gjør at man på flere hull må spille strategisk fremfor å slå langt. Banen avsluttes med signaturhullet, et kort par tre hull over vann. Malerisk og trivelig.",
+  "contact": {
+    "phone": null,
+    "email": "Kontaktskjema på nettstedet",
+    "emailAlt": null,
+    "website": "https://gjerdrumgolfklubb.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Norge",
+    "clubOrganization": "Org.nr: 985 293 589\n\nFounded: 2002"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Eget simulatorsenter med Alba bookingsystem",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 27,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3391245877263381087&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hauger-golfklubb",
+      "distanceKm": 7.2
+    },
+    {
+      "slug": "miklagard-golfklubb",
+      "distanceKm": 7.3
+    },
+    {
+      "slug": "ullensaker-golfklubb",
+      "distanceKm": 10.7
+    },
+    {
+      "slug": "groruddalen-golfklubb",
+      "distanceKm": 12
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:10.246Z",
+    "createdAt": "2025-10-31T11:23:10.247Z",
+    "updatedAt": "2025-11-03T09:09:59.805Z"
+  }
+}

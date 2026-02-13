@@ -1,0 +1,298 @@
+{
+  "slug": "varanger-golfklubb",
+  "name": "Varanger Golfklubb",
+  "formerName": null,
+  "region": "Finnmark",
+  "city": "Vadsø",
+  "municipality": "Vadsø",
+  "country": "Norway",
+  "address": {
+    "street": "9811 Vadsø",
+    "postalCode": "9811",
+    "area": "Vestre Jakobselv"
+  },
+  "coordinates": {
+    "lat": 70.110107,
+    "lng": 29.373377,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls parkland/skogsbane",
+    "designer": null,
+    "yearBuilt": 2002,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": "Verdens nordligste 9-hulls bane godkjent av NGF",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Varanger Golfklubb - Finnmarks første og verdens nordligste 9-hulls bane godkjent av Norges Golfforbund! Varanger Golfpark i Vestre Jakobselv. Par 70 (18h). Driving range (8 overbygde + 4 udekte baner), putting green, chipping green, practice bunker. Klubbhus med pro shop. Tralle til leie. VTG-kurs. Vadsø Golfsimulator AS. Handicap-grense 54."
+  },
+  "description": "Varanger Golfklubb - Finnmarks første og verdens nordligste 9-hulls bane godkjent av Norges Golfforbund! Varanger Golfpark i Vestre Jakobselv, ca 15 km vest for Vadsø. Par 35 for 9 hull, par 70 når spilt 2 ganger (18 hull). 9 hull med lengder fra 120-443m. 3 tee-bokser (rød, blå, gul). Grunnlagt 2002. Handicap-grense 54.",
+  "contact": {
+    "phone": "+47 91 55 84 16",
+    "email": "post@varangergolf.no",
+    "emailAlt": null,
+    "website": "https://varangergolf.no/",
+    "facebook": "https://www.facebook.com/p/Varanger-Golfklubb-100057518976371/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 90 13 65 48",
+      "type": "alternate",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Vadsø",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Varanger Golfpark",
+    "clubOrganization": "Varanger Golfklubb (Grunnlagt 2002)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "8 overbygde og 4 udekte utslagssteder. Ballmaskin tar 20 kr mynter (ca 30 baller). Kunstgressgreen på ca 60 meter. Måltavler på ulike avstander.",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": null,
+    "restaurantName": "",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": "Vadsø Golfsimulator AS, Tollbugata 11, Vadsø. 175 kr/time. Betaling: kort eller VIPPS 73887. Har berømte baner som Pebble Beach.",
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 250,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "GREENFEE 2025:\n\nGJESTER:\n• Ukegreenfee: 1.250 kr\n• Dagsgreenfee (18+ hull): 400 kr\n• 9 hull: 300 kr\n\nMEDLEMMER:\n• Dagsgreenfee (18+ hull): 250 kr\n• 9 hull: 200 kr\n• Barn/ungdom (t.o.m. 19 år): Gratis\n• 10-klipp (HCP >36): 1.300 kr\n• 20-klipp (HCP >36): 1.800 kr\n\nSESONGGREENFEE:\n• Med spillerett: 4.000 kr\n• Uten spillerett: 4.500 kr\n• 20-26 år: 3.000 kr\n• Student/militær 20-26 år: 1.500 kr\n\nSpillerett: 7.000 kr (gir eierandel og rabattert sesonggreenfee)",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": "Medlemsfordeler: Redusert greenfee, 20% rabatt på golfutstyr i ProShop (unntatt baller), abonnement på Norsk Golf magasin (ca 8 utgaver/år).",
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Barn",
+        "price": 100,
+        "description": null,
+        "ageRange": "0-14"
+      },
+      {
+        "category": "Ungdom",
+        "price": 500,
+        "description": null,
+        "ageRange": "15-19"
+      },
+      {
+        "category": "Ung (student/militær)",
+        "price": 500,
+        "description": null,
+        "ageRange": "20-26"
+      },
+      {
+        "category": "Ung",
+        "price": 800,
+        "description": null,
+        "ageRange": "20-26"
+      },
+      {
+        "category": "Voksen",
+        "price": 1900,
+        "description": null,
+        "ageRange": "27-66"
+      },
+      {
+        "category": "Ektefelle/samboer",
+        "price": 800,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Pensjonist",
+        "price": 1500,
+        "description": null,
+        "ageRange": "67+"
+      },
+      {
+        "category": "Fjernmedlem",
+        "price": 900,
+        "description": "Bosatt utenfor Øst-Finnmark",
+        "ageRange": null
+      },
+      {
+        "category": "Nybegynner voksen",
+        "price": 1200,
+        "description": "Første års medlemskap",
+        "ageRange": null
+      },
+      {
+        "category": "Familie maks",
+        "price": 3100,
+        "description": "Maks pris per husstand",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 13,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4858149506221336960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 35
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 35
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 35
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "tromso-golfklubb",
+      "distanceKm": 376.2
+    },
+    {
+      "slug": "midt-troms-golfklubb",
+      "distanceKm": 438.9
+    },
+    {
+      "slug": "narvik-golfklubb",
+      "distanceKm": 515.4
+    },
+    {
+      "slug": "harstad-golfklubb",
+      "distanceKm": 521
+    }
+  ],
+  "additionalFeatures": [
+    {
+      "feature": "Verdens nordligste 9-hulls bane",
+      "description": "NGF-godkjent med slope rating"
+    },
+    {
+      "feature": "Kunstgressgreener",
+      "description": "3-4 flaggposisjoner per green"
+    },
+    {
+      "feature": "Driving range",
+      "description": "8 overbygde + 4 udekte utslagssteder"
+    },
+    {
+      "feature": "Golfsimulator",
+      "description": "175 kr/time i Vadsø sentrum, inkl. Pebble Beach"
+    },
+    {
+      "feature": "Klubbhus (2021)",
+      "description": "Garderober, dusj, badstue, festsal med kjøkken"
+    },
+    {
+      "feature": "Gratis for barn/ungdom",
+      "description": "Fritt spill for medlemmer t.o.m. 19 år"
+    },
+    {
+      "feature": "VTG-kurs",
+      "description": "Gratis nybegynnerkurs med utstyrslån"
+    },
+    {
+      "feature": "Spillerett",
+      "description": "7.000 kr gir eierandel og rabattert sesonggreenfee"
+    }
+  ],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2026-02-12T07:17:55.678Z",
+    "createdAt": "2025-10-30T10:55:19.560Z",
+    "updatedAt": "2026-02-12T07:17:55.682Z"
+  }
+}

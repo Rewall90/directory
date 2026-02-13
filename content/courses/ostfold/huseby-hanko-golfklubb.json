@@ -1,0 +1,182 @@
+{
+  "slug": "huseby-hanko-golfklubb",
+  "name": "Huseby & Hankø Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Manstad",
+  "municipality": "Fredrikstad",
+  "country": "Norway",
+  "address": {
+    "street": "Fjæraa",
+    "postalCode": "1625",
+    "area": "Manstad"
+  },
+  "coordinates": {
+    "lat": 59.26659770000001,
+    "lng": 10.7985162,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 35,
+    "parPerRound": 35,
+    "lengthMeters": 2600,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kystlandskap",
+    "courseType": "9-hulls kystbane",
+    "designer": null,
+    "yearBuilt": 2003,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Kystlandskap ved Manstad",
+    "scenicHole": "Kystlandskap ved Manstad",
+    "par3Count": 3,
+    "par4Count": 5,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Idyllisk 9-hulls kystbane ved Manstad i Fredrikstad. Etablert 2003 på jordbruksland fra den historiske Huseby gård. Fascinerende design med kystlandskap og variert terreng."
+  },
+  "description": "Idyllisk 9-hulls kystbane ved Manstad i Fredrikstad, etablert 2003 på jordbruksland fra den ærverdige Huseby gård. Par 35 med fascinerende design: 3 par-3 hull, 5 par-4 hull og 1 par-5 hull. I tillegg til hovedbanen har anlegget en enkel 6-hulls kortbane, treningsområde for kort spill med målgreen og sandbunker, putting green og driving range med 20 teesteder (10 overdekte). Rating 32.3, Slope 111.",
+  "contact": {
+    "phone": "+47 909 59 900",
+    "email": "gjoril@hhg.no",
+    "emailAlt": null,
+    "website": "https://hhg.no/",
+    "facebook": "https://www.facebook.com/p/Huseby-Hankø-Golfklubb-100064157676275/",
+    "instagram": "https://www.instagram.com/husebyhankogolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 909 59 900",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Banen stenges om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Fredrikstad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Huseby & Hankø Golfklubb (org.nr. 989 553 267)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Restaurant Elin",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Trackman simulator",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": 6,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 335,
+      "greenFeeWeekend": 390,
+      "greenFeeSenior": 335,
+      "greenFeeJunior": 195,
+      "greenFeeDescription": "Greenfee for 9 hull. For 18 hull må du booke deg inn 2 ganger med 120 minutters mellomrom. Voksen hverdag: 335 NOK (9 hull) eller 440 NOK (18 hull). Voksen helg/søn/helligdager/juli: 390 NOK (9 hull) eller 545 NOK (18 hull). Junior til 19 år hverdag: 195 NOK (9 hull) eller 305 NOK (18 hull). Junior lør/søn/helligdager/juli: 270 NOK (9 hull) eller 405 NOK (18 hull).",
+      "cartRental": 18,
+      "pullCartRental": null,
+      "clubRental": 150,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 57,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=18432040567113832451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 32.3,
+      "slopeRating": 111,
+      "lengthYards": null,
+      "lengthMeters": 2600,
+      "par": 35
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "onsoy-golfklubb",
+      "distanceKm": 0.9
+    },
+    {
+      "slug": "gamle-fredrikstad-golfklubb",
+      "distanceKm": 12
+    },
+    {
+      "slug": "moss-rygge-golfklubb",
+      "distanceKm": 13.2
+    },
+    {
+      "slug": "ekholtbruket-golfklubb",
+      "distanceKm": 17.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:43:13.223Z",
+    "createdAt": "2025-10-31T11:43:13.224Z",
+    "updatedAt": "2025-11-03T09:10:11.493Z"
+  }
+}

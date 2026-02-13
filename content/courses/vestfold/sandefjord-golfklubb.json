@@ -1,0 +1,171 @@
+{
+  "slug": "sandefjord-golfklubb",
+  "name": "Sandefjord Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Sandefjord",
+  "municipality": "Sandefjord",
+  "country": "Norway",
+  "address": {
+    "street": "Furustadlia 14",
+    "postalCode": "3232",
+    "area": "Marum/Jåberg"
+  },
+  "coordinates": {
+    "lat": 59.110399,
+    "lng": 10.181533,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "18-hulls park- og skogsbane med 6-hulls treningsbane",
+    "designer": null,
+    "yearBuilt": 2008,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Vannhindre på 8 hull skaper utfordringer",
+    "scenicHole": "Vannhindre på 8 hull skaper utfordringer",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Sandefjord Golfklubb - Utfordrende og vakker 18-hulls park- og skogsbane i Marum/Jåberg, 5 km fra Sandefjord. Bygget 2008. Relativt flat med mange dammer/bekker - vann i spill på 8 hull. 6-hulls treningsbane (gratis alle). Stor driving range, chipping/bunker-treningsområde, stor øvingsgreen. Pro shop (John Drummond). Golf simulator. Kiosk. Tralle-utleie. VTG-kurs, handicap-kurs, juniortrening."
+  },
+  "description": "Sandefjord Golfklubb - Utfordrende og vakker 18-hulls park- og skogsbane bygget 2008 i Marum/Jåberg-området, 5 km fra Sandefjord sentrum. Klubb grunnlagt 1995. Relativt flat bane med mange dammer og bekker - vann i spill på hele 8 hull. Pluss 6-hulls treningsbane (gratis for alle).",
+  "contact": {
+    "phone": "+47 908 96 000",
+    "email": "post@sandefjordgolf.no",
+    "emailAlt": null,
+    "website": "https://www.sandefjordgolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 908 96 000",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Februar",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sandefjord",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Sandefjord Golfklubb (Grunnlagt 1995, bane bygget 2008)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kiosk",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golf simulator tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Se sandefjordgolf.no for priser. Greenfee-samarbeid med flere klubber: 25-30% rabatt for medlemmer i samarbeidsklubber (1. mai - 1. oktober). Kontakt klubben for nøyaktige priser.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "6-hulls treningsbane gratis for alle. Greenfee-samarbeid med flere klubber (25-30% rabatt). Stor driving range og omfattende treningsområder."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 54,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=15431223389867193264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "veierland-golfklubb",
+      "distanceKm": 11.5
+    },
+    {
+      "slug": "tjome-golfklubb",
+      "distanceKm": 12.1
+    },
+    {
+      "slug": "larvik-golfklubb",
+      "distanceKm": 12.9
+    },
+    {
+      "slug": "notteroy-golfklubb",
+      "distanceKm": 17.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "87.0",
+    "websiteQuality": null,
+    "completenessPercentage": 87,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:43.444Z",
+    "createdAt": "2025-10-31T09:10:43.446Z",
+    "updatedAt": "2025-11-03T09:10:02.807Z"
+  }
+}

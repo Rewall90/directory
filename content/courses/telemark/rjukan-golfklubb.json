@@ -1,0 +1,217 @@
+{
+  "slug": "rjukan-golfklubb",
+  "name": "Rjukan Golfklubb",
+  "formerName": null,
+  "region": "Telemark",
+  "city": "Rjukan",
+  "municipality": "Tinn",
+  "country": "Norway",
+  "address": {
+    "street": "Milandvegen 130",
+    "postalCode": "3658",
+    "area": "Miland"
+  },
+  "coordinates": {
+    "lat": 59.9283393,
+    "lng": 8.762820699999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 18,
+    "par": 63,
+    "parPerRound": 63,
+    "lengthMeters": 3473,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Park",
+    "courseType": "Parkland",
+    "designer": null,
+    "yearBuilt": 2008,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 9,
+    "par4Count": 9,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Surrounded by mountain views in pretty area with natural streams and river beds"
+  },
+  "description": "6-hulls parkbane med store greener og bunkere. Banen spilles 3 ganger for å gi 18 hull. Beliggende i naturskjønne omgivelser ca 10 km øst for Rjukan. Familievennlig golfklubb for lokalbefolkning, hytteeiere og turister.",
+  "contact": {
+    "phone": "+47 900 68 178",
+    "email": "rjukangolf@rjukangolf.no",
+    "emailAlt": null,
+    "website": "https://www.rjukangolf.no",
+    "facebook": "https://www.facebook.com/p/Rjukan-Golfklubb-100063681005308/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 900 68 178",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 992 69 972",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Rjukan",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Rjukan Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Payment preferably by cash. Unattended course with self-service.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 15,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7823726583817620531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Yellow",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 60.8,
+      "slopeRating": 127,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 63
+    },
+    {
+      "teeColor": "Yellow",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 64.2,
+      "slopeRating": 123,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 63
+    },
+    {
+      "teeColor": "Red",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 59.2,
+      "slopeRating": 118,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 63
+    },
+    {
+      "teeColor": "Red",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 60.4,
+      "slopeRating": 115,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 63
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "norefjell-golfklubb",
+      "distanceKm": 54.9
+    },
+    {
+      "slug": "kongsberg-golfklubb",
+      "distanceKm": 63.7
+    },
+    {
+      "slug": "nesfjellet-golfklubb",
+      "distanceKm": 68.9
+    },
+    {
+      "slug": "vradal-golfklubb",
+      "distanceKm": 69.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T12:22:40.600Z",
+    "createdAt": "2025-10-31T12:22:40.601Z",
+    "updatedAt": "2025-11-03T09:10:12.694Z"
+  }
+}

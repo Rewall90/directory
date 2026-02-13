@@ -1,0 +1,227 @@
+{
+  "slug": "karmoy-golfklubb",
+  "name": "Karmøy Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Skudeneshavn",
+  "municipality": "Karmøy",
+  "country": "Norway",
+  "address": {
+    "street": "Skeismyrvegen 3",
+    "postalCode": "4280",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.1546153,
+    "lng": 5.2470756,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 34,
+    "parPerRound": 68,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parklandskap",
+    "courseType": "9-hulls parkbane",
+    "designer": null,
+    "yearBuilt": 1989,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Naturskjønn bane i Skudeneshavn",
+    "scenicHole": "Naturskjønn bane i Skudeneshavn",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Karmøy Golfklubb er en 9-hulls parkbane i sommerbyen Skudeneshavn, grunnlagt 1989. Par 34 (9 hull), par 68 (18 hull spilt to ganger). Parklandskap med naturskjønne omgivelser. Del av Sveio Golfpark-systemet sammen med Haugaland, Nordvegen og Torvastad (54 hull totalt). Ett medlemskap gir tilgang til alle fire baner. Driving range, putting green, practice bunker, klubbhus, pro shop. Trackman simulator. Turneringer og golftreninger tilgjengelig."
+  },
+  "description": "Karmøy Golfklubb er en 9-hulls parkbane i Skudeneshavn, Karmøy kommune. Grunnlagt i 1989. Par 34 for 9 hull, par 68 når spilt to ganger. Parklandskap med naturskjønne omgivelser i sommerbyen Skudeneshavn. Del av Sveio Golfpark-systemet sammen med Haugaland og Nordvegen.",
+  "contact": {
+    "phone": "+47 416 89 114",
+    "email": "post@karmoy-golfklubb.no",
+    "emailAlt": null,
+    "website": "https://www.karmoy-golfklubb.no/",
+    "facebook": "https://www.facebook.com/groups/544500015638474",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 416 89 114",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 480 76 667",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Haugesund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Karmøy Golfklubb (Organisasjonsnummer: 980 551 369)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Trackman golfsimulatør tilgjengelig (stengt til høsten)",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee (dagspass): 350 kr alle dager. Må forhåndbetales FØR spill. Spillere må registreres i Golfbox FØR start. Ikke-medlemmer som ikke har betalt greenfee blir belastet 500 kr + greenfee.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Del av 54-hulls system med Haugaland, Nordvegen og Torvastad. Medlemskap gir tilgang til alle fire baner."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "remote",
+        "price": 990,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
+        "ageRange": null
+      },
+      {
+        "category": "adult",
+        "price": 6840,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 5640,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 3540,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
+        "ageRange": null
+      },
+      {
+        "category": "youth20_23",
+        "price": 3540,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
+        "ageRange": null
+      },
+      {
+        "category": "junior13_19",
+        "price": 1500,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
+        "ageRange": null
+      },
+      {
+        "category": "child6_12",
+        "price": 500,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
+        "ageRange": null
+      },
+      {
+        "category": "childUnder6",
+        "price": 100,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 5,
+      "reviewCount": 1,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7604305677983080177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "randaberg-golfklubb",
+      "distanceKm": 24
+    },
+    {
+      "slug": "nordvegen-golfklubb",
+      "distanceKm": 26.9
+    },
+    {
+      "slug": "haugesund-golfklubb",
+      "distanceKm": 27
+    },
+    {
+      "slug": "stavanger-golfklubb",
+      "distanceKm": 32.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:24.415Z",
+    "createdAt": "2025-10-31T07:46:24.417Z",
+    "updatedAt": "2025-11-03T09:10:03.093Z"
+  }
+}

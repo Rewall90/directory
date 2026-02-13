@@ -1,0 +1,165 @@
+{
+  "slug": "nesfjellet-golfklubb",
+  "name": "Nesfjellet Golf",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Nesbyen",
+  "municipality": "Nesbyen",
+  "country": "Norway",
+  "address": {
+    "street": "Nørdre Tverrlie 10",
+    "postalCode": "3540",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.5340808,
+    "lng": 9.024693599999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Fjellbane",
+    "courseType": "9-hulls fjellbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "En komplett fjellopplevelse - på greenen. Med fjellandskapet som kulisse.",
+    "scenicHole": "En komplett fjellopplevelse - på greenen. Med fjellandskapet som kulisse.",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Midt i hjertet av vakre Nesfjellet med fjellandskapet som kulisse. Naturskjønn fjellbane med utsikt over fjell og natur."
+  },
+  "description": "Nesfjellet Golf ligger vakkert til midt i hjertet av vakre Nesfjellet i Nesbyen, Hallingdal. Naturskjønn 9-hulls fjellbane med fjellandskapet som kulisse. Banen tilbyr en unik golfopplevelse som kombinerer sport, natur og sosialt samvær. Komplett med drivingrange, to øvingsgreener og fasiliteter tilpasset både nybegynner og erfarne golfere. Nesfjellet Golf er mer enn en bane - det er et samlingspunkt for alle som ønsker å spille golf i gode omgivelser og hyggelig selskap.",
+  "contact": {
+    "phone": null,
+    "email": null,
+    "emailAlt": null,
+    "website": "https://nesfjelletgolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Nesbyen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Nesfjellet Golf",
+    "clubOrganization": "Nesfjellet Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": true,
+    "restaurantName": "Golfkafèen",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 82,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7354011379505624289&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hemsedal-golfalpin-golfbane",
+      "distanceKm": 30.9
+    },
+    {
+      "slug": "valdres-golfklubb",
+      "distanceKm": 47.4
+    },
+    {
+      "slug": "norefjell-golfklubb",
+      "distanceKm": 49.9
+    },
+    {
+      "slug": "hemsedal-golfklubb",
+      "distanceKm": 54.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:54:19.738Z",
+    "createdAt": "2025-10-31T05:54:19.740Z",
+    "updatedAt": "2025-11-03T09:09:57.961Z"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "namsos-golfklubb",
+  "name": "Namsos Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Spillum",
+  "municipality": "Namsos",
+  "country": "Norway",
+  "address": {
+    "street": "Klingavegen 611",
+    "postalCode": "7820",
+    "area": "Søvik"
+  },
+  "coordinates": {
+    "lat": 64.429298,
+    "lng": 11.492971,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 33,
+    "parPerRound": 66,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 4,
+    "par4Count": 4,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Trivelig klubb 5 km sør for Namsos; klubbhus med servering."
+  },
+  "description": "Parkland med skogskledde fairways; 1×par5, 4×par4, 4×par3.",
+  "contact": {
+    "phone": "+47 97 08 57 40",
+    "email": "haro@bdo.no",
+    "emailAlt": null,
+    "website": "http://www.namsosgolf.no/",
+    "facebook": "https://www.facebook.com/people/Namsos-Golfklubb/100066700930489/",
+    "instagram": "https://www.instagram.com/namsosgolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 97 08 57 40",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Namsos",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Namsos Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Golfamore: 50% rabatt. Se namsosgolf.no for satser.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golfamore halv greenfee; klubbhus med servering."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 5,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=15438161113084924243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "namdal-golfklubb",
+      "distanceKm": 25
+    },
+    {
+      "slug": "steinkjer-golfklubb",
+      "distanceKm": 45.6
+    },
+    {
+      "slug": "naeroysund-golfklubb",
+      "distanceKm": 48.4
+    },
+    {
+      "slug": "stiklestad-golfklubb",
+      "distanceKm": 67.9
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:52.123Z",
+    "createdAt": "2025-10-31T11:30:52.124Z",
+    "updatedAt": "2025-11-03T09:09:52.190Z"
+  }
+}

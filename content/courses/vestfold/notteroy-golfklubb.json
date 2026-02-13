@@ -1,0 +1,186 @@
+{
+  "slug": "notteroy-golfklubb",
+  "name": "Nøtterøy Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Nøtterøy",
+  "municipality": "Færder",
+  "country": "Norway",
+  "address": {
+    "street": "Sanneveien 1",
+    "postalCode": "3140",
+    "area": "Sanne Gård/Hellaskogen"
+  },
+  "coordinates": {
+    "lat": 59.22592830000001,
+    "lng": 10.3975564,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 5722,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "18-hulls parkland/skogsbane med 6-hulls korthullsbane",
+    "designer": "Jeremy Turner",
+    "yearBuilt": 2003,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Idylliske omgivelser i Hellaskogen på Nøtterøy",
+    "scenicHole": "Idylliske omgivelser i Hellaskogen på Nøtterøy",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Nøtterøy Golfklubb - 18-hulls parkland/skogsbane designet av Jeremy Turner i Hellaskogen, kun 6 km fra Tønsberg. Par 72, 6225m med 7 teesteder. Pluss 6-hulls korthullsbane. Trackman Range med gressutslag. Klubbhus designet av John H. Støre med garderober, pro shop (09:00-16:00), café (09:00-16:00). Toalett på bane, drikkevannstasjoner. Golfbil/tralle-utleie."
+  },
+  "description": "Nøtterøy Golfklubb - 18-hulls parkland/skogsbane designet av Jeremy Turner, åpnet 2003. Par 72, 6225 meter med syv teesteder. Klubbtee herre 5722m, dame 4644m. Pluss 6-hulls korthullsbane. Ligger i Hellaskogen på idylliske Nøtterøy, kun 6 km fra Tønsberg sentrum. Klubbhus designet av arkitekt John H. Støre.",
+  "contact": {
+    "phone": "+47 33 40 71 80",
+    "email": "proshop@notteroygolf.no",
+    "emailAlt": "post@notteroygolf.no",
+    "website": "https://notteroygolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 33 40 71 80",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Tønsberg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Nøtterøy Golfklubb (Grunnlagt 2000, bane åpnet 2003)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Café (åpent 09:00-16:00)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 240,
+      "greenFeeDescription": "Greenfee 2025: 18 hull 500 kr. Junior 240 kr, Junior lokal (Borre/Vestfold) 200 kr. Korthullsbane 99 kr/dag eller 499 kr sesongkort.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "6-hulls korthullsbane 99 kr/dag eller 499 kr sesongkort. Årskort driving range 3000 kr. Klubbhus med garderober, toalett på banen, drikkevannstasjoner."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "annual",
+        "price": 7990,
+        "description": "Medlemskap 2025: Årskontingent 7990 kr med full spillerett på Nøtterøy og årskort på driving range for 3000 kr. Klubben tilbyr oppdeling av årskontingenten i 10 rater. Fleksible medlemskapskategorier tilgjengelig. Kontakt klubben for detaljer via telefon +47 33 40 71 80 eller epost proshop@notteroygolf.no.",
+        "ageRange": null
+      },
+      {
+        "category": "drivingRangeCard",
+        "price": 3000,
+        "description": "Medlemskap 2025: Årskontingent 7990 kr med full spillerett på Nøtterøy og årskort på driving range for 3000 kr. Klubben tilbyr oppdeling av årskontingenten i 10 rater. Fleksible medlemskapskategorier tilgjengelig. Kontakt klubben for detaljer via telefon +47 33 40 71 80 eller epost proshop@notteroygolf.no.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 115,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7285741566835216422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "husoya-golfklubb",
+      "distanceKm": 4.2
+    },
+    {
+      "slug": "veierland-golfklubb",
+      "distanceKm": 7.3
+    },
+    {
+      "slug": "tjome-golfklubb",
+      "distanceKm": 12.7
+    },
+    {
+      "slug": "tonsberg-golfklubb",
+      "distanceKm": 13
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "92.0",
+    "websiteQuality": null,
+    "completenessPercentage": 92,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:42.983Z",
+    "createdAt": "2025-10-31T09:10:42.986Z",
+    "updatedAt": "2025-11-03T09:10:04.952Z"
+  }
+}

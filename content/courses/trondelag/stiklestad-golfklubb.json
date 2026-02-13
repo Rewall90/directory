@@ -1,0 +1,191 @@
+{
+  "slug": "stiklestad-golfklubb",
+  "name": "Stiklestad Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Verdal",
+  "municipality": "Verdal",
+  "country": "Norway",
+  "address": {
+    "street": "Sørskagveien 2",
+    "postalCode": "7650",
+    "area": "Troneshalvøya"
+  },
+  "coordinates": {
+    "lat": 63.8196722,
+    "lng": 11.4177048,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 70,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog/Parkland",
+    "courseType": "18-hulls bane",
+    "designer": null,
+    "yearBuilt": 1991,
+    "yearRedesigned": 2006,
+    "waterHazards": null,
+    "signatureHole": "Utsikt mot fjorden",
+    "scenicHole": "Utsikt mot fjorden",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Internasjonal standard; kåret til en av Norges beste baner."
+  },
+  "description": "18-hulls skog- og parklandbane på Troneshalvøya ved innerste Trondheimsfjorden.",
+  "contact": {
+    "phone": "+47 918 26 010",
+    "email": "klubbpost@stiklestad-golfklubb.no",
+    "emailAlt": null,
+    "website": "https://www.stiklestad-golfklubb.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 918 26 010",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 74 07 67 90",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April/mai",
+    "end": "Oktober/november",
+    "winterUse": "Simulator hele året"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Verdal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Stiklestad Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Golf Café",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Innendørs simulator-senter 06:00–23:00",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Se klubbens priser; 2025 ikke oppgitt.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Årsmedlemskap 2300/3500 (ubegrenset spill). Golfpakker via Stiklestad Nasjonale Kultursenter."
+    }
+  },
+  "membershipPricing": {
+    "2024": [
+      {
+        "category": "annualBasic",
+        "price": 2300,
+        "description": "Årsmedlemskap med ubegrenset spill (2024 satser).",
+        "ageRange": null
+      },
+      {
+        "category": "annualPremium",
+        "price": 3500,
+        "description": "Årsmedlemskap med ubegrenset spill (2024 satser).",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.9,
+      "reviewCount": 119,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=5967918319433683173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "steinkjer-golfklubb",
+      "distanceKm": 22.9
+    },
+    {
+      "slug": "frosta-golfklubb",
+      "distanceKm": 40.1
+    },
+    {
+      "slug": "stjordal-golfklubb",
+      "distanceKm": 44.2
+    },
+    {
+      "slug": "namsos-golfklubb",
+      "distanceKm": 67.9
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:53.749Z",
+    "createdAt": "2025-10-31T11:30:53.752Z",
+    "updatedAt": "2025-11-03T09:10:08.243Z"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "slug": "haugaland-golfklubb",
+  "name": "Haugaland Golfklubb",
+  "formerName": "Sveio Golfpark",
+  "region": "Vestland",
+  "city": "Sveio",
+  "municipality": "Sveio",
+  "country": "Norway",
+  "address": {
+    "street": "Leitevegen 41b",
+    "postalCode": "5550",
+    "area": "Austre Kringsjå"
+  },
+  "coordinates": {
+    "lat": 59.55,
+    "lng": 5.3653,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 6127,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogsterreng på første 9, åpent lynghei-landskap på siste 9",
+    "courseType": "18-hulls parkbane",
+    "designer": "Svein D. Olsnes",
+    "yearBuilt": 2001,
+    "yearRedesigned": 2008,
+    "waterHazards": true,
+    "signatureHole": "Hull 4 (par 4) rangert som Norges 11. beste golfhull - S-formet fairway med vann, krever presisjon. Hull 12 (par 4) rangert som #60 - risiko/belønning hull med mulighet for kortsnitt over skog.",
+    "scenicHole": "Banen kombinerer skogsterreng og åpent lynghei-landskap",
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
+    "mountainViews": false,
+    "viewDescription": "Haugaland Golfklubb (Sveio Golfpark) er en 18-hulls golfbane ca 20 min nord for Haugesund. Grunnlagt 1987, første 9 hull åpnet 2001, utvidet til 18 hull i 2008. Designet av Svein D. Olsnes. Par 72, lengde 6127m (hvit tee). Banen kombinerer skogsterreng på første 9 med åpent lynghei-landskap på siste 9. Moderat til krevende bane med lett kupering og vannhindringer. Semi-privat klubb åpen for besøkende. Tilliggende Albatross Spa med dampbad, boblebad, tecaldarium, fotbad og avslapningsrom. Del av 54-hulls system med Nordvegen (2018), Karmøy (2024) og Torvastad. Ett medlemskap dekker alle fire baner."
+  },
+  "description": "Haugaland Golfklubb, også kjent som Sveio Golfpark, er en 18-hulls golfbane i Sveio, Vestland (tidligere Hordaland), ca 20 minutter nord for Haugesund. Klubben ble grunnlagt i 1987, første 9 hull åpnet i 2001, utvidet til 18 hull i 2008. Designet av arkitekt Svein D. Olsnes. Par 72, lengde 6127m fra hvite tees. Banen har 4 par-3, 10 par-4 og 4 par-5 hull. Første 9 hull går gjennom skogsterreng, mens siste 9 har åpent lynghei-landskap. Moderat til krevende bane med lett kupering og vannhindringer. Semi-privat bane åpen for besøkende med gyldig handicap (max 36). Nå del av et system med 54 hull over fire baner inkludert Nordvegen Golfbane (2018) og Karmøy Golfklubb (2024).",
+  "contact": {
+    "phone": "+47 53 74 20 20",
+    "email": "klubb@haugaland-golf.no",
+    "emailAlt": "post@sveiogolfpark.no",
+    "website": "https://haugalandgolf.no/",
+    "facebook": "https://www.facebook.com/p/Haugaland-Golfklubb-Sveio-100063589269639/",
+    "instagram": "https://www.instagram.com/sveiogolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 53 74 20 20",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 53 74 20 25",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": "Banen er åpen hele året når værforholdene tillater det (snøfritt). Besøkende velkomne daglig med gyldig handicap (maks 36)."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Haugesund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Sveio Golfpark (Organisasjonsnummer: 982 166 063)",
+    "clubOrganization": "Haugaland Golfklubb (Organisasjonsnummer: 994 563 025)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé/snackbar",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulatør tilgjengelig, 200 kr per time (maks 4 spillere)",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 450,
+      "greenFeeWeekend": 450,
+      "greenFeeSenior": 450,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee: 450 kr (voksne), 200 kr (junior under 18 år). Gyldig handicap og handicapbevis påkrevd (max handicap 36).",
+      "cartRental": 350,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Medlemskap gir gratis spill på alle fire baner: Haugaland, Nordvegen, Karmøy, Torvastad (54 hull totalt). Medlemmer av Haugaland GK og Karmøy GK får gratis greenfee på Nordvegen. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 6840,
+        "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 5640,
+        "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 3540,
+        "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      },
+      {
+        "category": "youth20_23",
+        "price": 3540,
+        "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      },
+      {
+        "category": "junior13_19",
+        "price": 1500,
+        "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      },
+      {
+        "category": "child6_12",
+        "price": 500,
+        "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      },
+      {
+        "category": "childUnder6",
+        "price": 100,
+        "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      },
+      {
+        "category": "share",
+        "price": 6000,
+        "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 79,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7315888940828982680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 72.6,
+      "slopeRating": 142,
+      "lengthYards": null,
+      "lengthMeters": 6127,
+      "par": 72
+    },
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 77.5,
+      "slopeRating": 148,
+      "lengthYards": null,
+      "lengthMeters": 6127,
+      "par": 72
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 70.3,
+      "slopeRating": 140,
+      "lengthYards": null,
+      "lengthMeters": 5564,
+      "par": 72
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 75.9,
+      "slopeRating": 137,
+      "lengthYards": null,
+      "lengthMeters": 5564,
+      "par": 72
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 67.4,
+      "slopeRating": 135,
+      "lengthYards": null,
+      "lengthMeters": 5345,
+      "par": 72
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 74.9,
+      "slopeRating": 134,
+      "lengthYards": null,
+      "lengthMeters": 5345,
+      "par": 72
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 65.8,
+      "slopeRating": 132,
+      "lengthYards": null,
+      "lengthMeters": 4741,
+      "par": 72
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 70.9,
+      "slopeRating": 126,
+      "lengthYards": null,
+      "lengthMeters": 4741,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "haugesund-golfklubb",
+      "distanceKm": 17.7
+    },
+    {
+      "slug": "nordvegen-golfklubb",
+      "distanceKm": 18.4
+    },
+    {
+      "slug": "stord-golfklubb",
+      "distanceKm": 29.9
+    },
+    {
+      "slug": "kvinnherad-golfklubb",
+      "distanceKm": 41.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.5",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:55.923Z",
+    "createdAt": "2025-10-31T10:16:55.924Z",
+    "updatedAt": "2025-11-03T09:09:56.329Z"
+  }
+}

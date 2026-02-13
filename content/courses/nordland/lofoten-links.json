@@ -1,0 +1,166 @@
+{
+  "slug": "lofoten-links",
+  "name": "Lofoten Links",
+  "formerName": null,
+  "region": "Nordland",
+  "city": "Gimsøysand",
+  "municipality": "Vestvågøy",
+  "country": "Norway",
+  "address": {
+    "street": "Tore Hjorts Vei 389",
+    "postalCode": "8314",
+    "area": "Gimsøy"
+  },
+  "coordinates": null,
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": 6084,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Variabel",
+    "courseType": "Links-bane",
+    "designer": "Jeremy Turner",
+    "yearBuilt": 1998,
+    "yearRedesigned": 2015,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 4,
+    "par4Count": 11,
+    "par5Count": 3,
+    "mountainViews": true,
+    "viewDescription": "Utsikt over Norskehavet, nordkanten av øya Gims øy med 360° panoramautsikt fra toppen Hoven. Unik arktisk landskap med fjellformasjoner."
+  },
+  "description": "Verdensklasse golfbane med unik arktisk lokasjon på 68° nord, over polarsirkelen. Banen tilbyr 24-timers golfing under midnattssolen (mai-juli) og nordlysopplevelse (august-oktober). Hvite sandstrender, utsikt over Norskehavet, og helt unike golfopplevelser.",
+  "contact": {
+    "phone": "+47 76 07 20 02",
+    "email": "info@lofotenlinks.no",
+    "emailAlt": null,
+    "website": "https://lofotenlinks.no/",
+    "facebook": "https://www.facebook.com/Lofotenlinks/",
+    "instagram": "https://www.instagram.com/lofotenlinks/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 76 07 20 02",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 916 84 752",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "1. mai",
+    "end": "21. oktober",
+    "winterUse": "Resepsjon åpen 22. oktober til 30. april på Låven Restaurant på Hov"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Svolvær (ca. 40 minutter)",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Lofoten Links",
+    "clubOrganization": null
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Låven",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Trackman simulator tilgjengelig for å spille banen under nordlyset",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 1700,
+      "greenFeeWeekend": 1700,
+      "greenFeeSenior": 1700,
+      "greenFeeJunior": 1020,
+      "greenFeeDescription": "Greenfee-prisene varierer mellom 1450-1950 NOK avhengig av sesong (lav- eller høysesong), gjestetype (lodgegjest, medlem, eller vanlig gjest), og tidspunkt for bestilling. Junior (under 19 år): 40% rabatt. Midnattsgolf: +500 NOK ekstra per spiller. For sent bestilling etter kl. 19.00: NOK 500 gebyr. Manuell endring av tee time: NOK 150.",
+      "cartRental": 400,
+      "pullCartRental": null,
+      "clubRental": 400,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "3-runder pakke: Første runde full pris, andre runde halv pris, tredje runde GRATIS. Pakken må benyttes innenfor samme golfsesong."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 279,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=11395663248206472985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 73.5,
+      "slopeRating": 136,
+      "lengthYards": null,
+      "lengthMeters": 6084,
+      "par": 71
+    }
+  ],
+  "nearbyCourses": [],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "95.0",
+    "websiteQuality": null,
+    "completenessPercentage": 95,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:39.736Z",
+    "createdAt": "2025-10-31T09:43:39.737Z",
+    "updatedAt": "2025-10-31T09:43:39.737Z"
+  }
+}

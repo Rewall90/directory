@@ -1,0 +1,165 @@
+{
+  "slug": "veierland-golfklubb",
+  "name": "Veierland Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Veierland",
+  "municipality": "Færder",
+  "country": "Norway",
+  "address": {
+    "street": "Albykilen 7",
+    "postalCode": "3144",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.16494520000001,
+    "lng": 10.3523072,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 28,
+    "parPerRound": 28,
+    "lengthMeters": 857,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Coastal/Seaside",
+    "courseType": "9-hulls kort skystbane",
+    "designer": null,
+    "yearBuilt": 2008,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Kystlandskap og skjærgård rundt banen",
+    "scenicHole": "Kystlandskap og skjærgård rundt banen",
+    "par3Count": 8,
+    "par4Count": 1,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Veierland Golfklubb - 9-hulls kort kystbane på Veierland øy. Par 28, 857 meter. Omgitt av rolig kystlandskap og skjærgård. Hyggelig klubbhus. Treningsområde. Egnet for nybegynnere og erfarne spillere. Åpent for publikum."
+  },
+  "description": "Veierland Golfklubb - 9-hulls kort kystbane på idylliske Veierland øy i Færder. Bygget 2008. Par 28, 857 meter. 8 par 3-hull og 1 par 4. Omgitt av rolig kystlandskap. Overraskende og hyggelig å finne en golfbane midt i skjærgårdsparadiset. Egnet for både nybegynnere og erfarne spillere.",
+  "contact": {
+    "phone": null,
+    "email": null,
+    "emailAlt": null,
+    "website": null,
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Tønsberg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Veierland Golfklubb (Organisasjonsnummer: 993 006 084, Grunnlagt 2008)"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Kontakt klubben for greenfee-priser.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Kort og hyggelig bane på idyllisk øy. Egnet for alle nivåer."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": null,
+      "reviewCount": null,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=18440810579892449247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "tjome-golfklubb",
+      "distanceKm": 6.4
+    },
+    {
+      "slug": "notteroy-golfklubb",
+      "distanceKm": 7.3
+    },
+    {
+      "slug": "husoya-golfklubb",
+      "distanceKm": 10.4
+    },
+    {
+      "slug": "sandefjord-golfklubb",
+      "distanceKm": 11.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "72.0",
+    "websiteQuality": null,
+    "completenessPercentage": 72,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:46.339Z",
+    "createdAt": "2025-10-31T09:10:46.341Z",
+    "updatedAt": "2025-11-03T09:10:07.074Z"
+  }
+}

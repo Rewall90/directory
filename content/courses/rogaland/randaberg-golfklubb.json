@@ -1,0 +1,176 @@
+{
+  "slug": "randaberg-golfklubb",
+  "name": "Randaberg Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Randaberg",
+  "municipality": "Randaberg",
+  "country": "Norway",
+  "address": {
+    "street": "Tungenesveien 181",
+    "postalCode": "4070",
+    "area": "Tungenes"
+  },
+  "coordinates": {
+    "lat": 59.0280106,
+    "lng": 5.5881694,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 31,
+    "parPerRound": 62,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Links",
+    "courseType": "9-hulls linksbane med 6-hulls kortbane",
+    "designer": null,
+    "yearBuilt": 1998,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Vakker linksbane ved enden av Tungenes",
+    "scenicHole": "Vakker linksbane ved enden av Tungenes",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Randaberg Golfklubb er en vakker linksbane ved enden av Tungenes i Randaberg, nær Stavanger. Grunnlagt 1998. 9-hulls bane med par 62, samt 6-hulls kortbane. Klassisk linkskarakter ved kysten. Driving range, putting green, practice bunker. Åpen hele året."
+  },
+  "description": "Randaberg Golfklubb er en vakker linksbane ved enden av Tungenes i Randaberg. Grunnlagt 1998. 9-hulls bane med par 62, samt 6-hulls kortbane. Klassisk linkskarakter ved kysten nær Stavanger. Åpen hele året. Handicapkrav 54 for besøkende.",
+  "contact": {
+    "phone": "+47 51 41 91 10",
+    "email": "post@randaberggolf.no",
+    "emailAlt": null,
+    "website": "https://www.randaberggolf.no/",
+    "facebook": "https://www.facebook.com/randaberggolfklubb/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 51 41 91 10",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 948 45 221",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Januar",
+    "end": "Desember",
+    "winterUse": "Åpen hele året. Vintergreenfee 250 kr (01.11-31.03)."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Stavanger",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Randaberg Golfklubb (Organisasjonsnummer: 984 545 029)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 175,
+      "greenFeeDescription": "Greenfee 2025: 18 hull 350 kr (junior 175 kr), 9 hull 250 kr (junior 125 kr). Familie greenfee 600 kr (2 voksne + 2 barn/junior). Vintergreenfee 01.11-31.03: 250 kr (9 og 18 hull). NSG-medlemmer får halv greenfee hverdager før kl 14:00.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Familie greenfee: 600 kr for 2 voksne + 2 barn/junior"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.1,
+      "reviewCount": 49,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=15097917961878676850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "stavanger-golfklubb",
+      "distanceKm": 8.9
+    },
+    {
+      "slug": "sola-golfklubb",
+      "distanceKm": 16.2
+    },
+    {
+      "slug": "sandnes-golfklubb",
+      "distanceKm": 18.4
+    },
+    {
+      "slug": "karmoy-golfklubb",
+      "distanceKm": 24
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "85.0",
+    "websiteQuality": null,
+    "completenessPercentage": 85,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:26.387Z",
+    "createdAt": "2025-10-31T07:46:26.389Z",
+    "updatedAt": "2025-11-03T09:09:53.045Z"
+  }
+}

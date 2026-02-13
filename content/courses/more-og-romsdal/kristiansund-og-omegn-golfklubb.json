@@ -1,0 +1,197 @@
+{
+  "slug": "kristiansund-og-omegn-golfklubb",
+  "name": "Kristiansund og Omegn Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Kristiansund",
+  "municipality": "Kristiansund",
+  "country": "Norway",
+  "address": {
+    "street": "Kristtornveien 1",
+    "postalCode": "6517",
+    "area": "Seivika"
+  },
+  "coordinates": {
+    "lat": 63.110806,
+    "lng": 7.852938099999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 66,
+    "parPerRound": 66,
+    "lengthMeters": 3916,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "9-hulls golfbane",
+    "designer": null,
+    "yearBuilt": 1991,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Beliggenhet i et lite dalføre i Seivika"
+  },
+  "description": "9-hulls skog- og parkbane i Seivika, Kristiansund. Banen har utfordrende fairways og små greener. Idyllisk beliggenhet i et lite dalføre. Grunnlagt i mai 1991 med ca. 300 medlemmer. Klubben tilbyr golfopplevelser hele året med både utendørsbane og innendørs simulator.",
+  "contact": {
+    "phone": "+47 404 08772",
+    "email": "kristiansund.golf@gmail.com",
+    "emailAlt": null,
+    "website": "https://kristiansund-golfklubb.no/",
+    "facebook": "https://www.facebook.com/p/Kristiansund-og-Omegn-Golfklubb-100063529302114/",
+    "instagram": "https://www.instagram.com/kristiansundogomegngolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 404 08772",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 481 17553",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 880 540 602",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 922 094 853",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "1. april",
+    "end": "30. november",
+    "winterUse": "Åpen hele året. Trackman simulator tilgjengelig for vintertrening og spill."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Kristiansund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Kristiansund og Omegn Golfklubb",
+    "clubOrganization": "Kristiansund og Omegn Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Trackman simulator tilgjengelig for innendørs trening og spill",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Ordinær greenfee: 350 kr per dag. KOGK fjernmedlemmer, samarbeidsklubber eller gjester av KOGK-medlemmer som spiller i samme flight: 250 kr i greenfee.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Redusert pris for fjernmedlemmer og partnerklubber"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 28,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13803174250555287167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 64.9,
+      "slopeRating": 125,
+      "lengthYards": null,
+      "lengthMeters": 3916,
+      "par": 66
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "tingvoll-golfklubb",
+      "distanceKm": 13.4
+    },
+    {
+      "slug": "smola-golfklubb",
+      "distanceKm": 34.7
+    },
+    {
+      "slug": "molde-golfklubb",
+      "distanceKm": 49.8
+    },
+    {
+      "slug": "sunndal-golfklubb",
+      "distanceKm": 60.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:08.294Z",
+    "createdAt": "2025-10-31T09:31:08.295Z",
+    "updatedAt": "2025-11-03T09:09:35.730Z"
+  }
+}

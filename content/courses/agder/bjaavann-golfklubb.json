@@ -1,0 +1,204 @@
+{
+  "slug": "bjaavann-golfklubb",
+  "name": "Bjaavann golfklubb",
+  "formerName": null,
+  "region": "Agder",
+  "city": "Kristiansand S",
+  "municipality": "Kristiansand S",
+  "country": "Norway",
+  "address": {
+    "street": "Østre Ålefjærvei 195",
+    "postalCode": "4634",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 58.2467257,
+    "lng": 8.051066,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane",
+    "courseType": "Parkbane",
+    "designer": "Robert Trent Jones Jr.",
+    "yearBuilt": 2003,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": null,
+    "viewDescription": null
+  },
+  "description": "18-hulls mesterksapsbane designet av verdenskjente Robert Trent Jones Jr. Kalles 'Den norske skjønnheten'.",
+  "contact": {
+    "phone": "+47 915 69 155",
+    "email": "post@bjaavanngk.no",
+    "emailAlt": null,
+    "website": "https://bjaavanngk.no/",
+    "facebook": "https://www.facebook.com/Bjaavann-Golfklubb-Kristiansand-232270230195418/",
+    "instagram": "https://www.instagram.com/bjaavann_gk/",
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "Mars",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": null,
+    "nearbyCity": "Kristiansand S",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Bjaavann golfklubb (Organisasjonsnummer: 985 855 153)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "Range baller: 35 baller: 45 NOK, klippekort 10 bøtter: 400 NOK, 30 bøtter: 900 NOK, 100 bøtter: 1800 NOK",
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": "Simulator",
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 700,
+      "greenFeeWeekend": 850,
+      "greenFeeSenior": 450,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Høysesong 18h: 850 NOK | Periode: 10. juni - 18. august",
+      "cartRental": 500,
+      "pullCartRental": null,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "voksen",
+        "price": 9450,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "ungvoksen",
+        "price": 4850,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 2000,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "barn",
+        "price": 500,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "vtg",
+        "price": 4125,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "voksenutenspillerett",
+        "price": 1990,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.7,
+      "reviewCount": 108,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16810087073468501249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "kristiansand-golfklubb",
+      "distanceKm": 9.8
+    },
+    {
+      "slug": "grimstad-golfklubb",
+      "distanceKm": 36.6
+    },
+    {
+      "slug": "utsikten-golfklubb",
+      "distanceKm": 62.3
+    },
+    {
+      "slug": "arendal-og-omegn-golfklubb",
+      "distanceKm": 63
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-30T13:27:22.758Z",
+    "createdAt": "2025-10-30T13:27:22.761Z",
+    "updatedAt": "2025-11-03T09:09:31.545Z"
+  }
+}

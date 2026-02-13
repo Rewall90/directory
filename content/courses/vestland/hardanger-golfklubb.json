@@ -1,0 +1,176 @@
+{
+  "slug": "hardanger-golfklubb",
+  "name": "Hardanger Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Øystese",
+  "municipality": "Kvam",
+  "country": "Norway",
+  "address": {
+    "street": "Børvevegen",
+    "postalCode": "5610",
+    "area": "Børve"
+  },
+  "coordinates": {
+    "lat": 60.3751803,
+    "lng": 6.1828682,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 6,
+    "par": 23,
+    "parPerRound": 23,
+    "lengthMeters": 1300,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "6-hulls park/skogsbane",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Utsikt over Hardangerfjorden",
+    "scenicHole": "Utsikt over Hardangerfjorden",
+    "par3Count": 2,
+    "par4Count": 3,
+    "par5Count": 1,
+    "mountainViews": true,
+    "viewDescription": "Hardanger Golfklubb - 6-hulls bane grunnlagt 2001 på Børve i Øystese, Kvam. Par 23, 1300m. Idyllisk beliggenhet ved Hardangerfjorden mellom Øystese og Norheimsund (1 time fra Bergen). Spektakulær utsikt over Hardangerfjorden. 200m driving range, putting green, chipping area, practice bunker. Lite ubetjent klubbhus med selvbetjening (Vipps 96898). VTG-kurs. Turneringer."
+  },
+  "description": "Hardanger Golfklubb - 6-hulls park/skogsbane grunnlagt 2001 på Børve i Øystese, Kvam. Par 23, 1422 yards (ca 1300m). Idyllisk beliggenhet ved Hardangerfjorden mellom Øystese og Norheimsund, ca 1 time fra Bergen. Spektakulær utsikt over Hardangerfjorden.",
+  "contact": {
+    "phone": "+47 95 23 38 71",
+    "email": "hardangergolfklubb@gmail.com",
+    "emailAlt": null,
+    "website": "https://hardangergolfklubb.no/",
+    "facebook": "https://www.facebook.com/hardangergolfklubb/",
+    "instagram": "https://www.instagram.com/hardangergolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 95 23 38 71",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 90 76 52 03",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Hardanger Golfklubb (Organisasjonsnummer: 985 377 979, Grunnlagt 2001)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Selvbetjening via Vipps 96898. Scorekort i boks ved klubbhuset. Kortautomat installert ved ballmaskinen. Kontakt klubben for priser via telefon +47 95 23 38 71 eller epost hardangergolfklubb@gmail.com.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakulær utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 17,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16904546582108263435&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "odda-golfklubb",
+      "distanceKm": 37.9
+    },
+    {
+      "slug": "voss-golfklubb",
+      "distanceKm": 37.9
+    },
+    {
+      "slug": "bjornefjorden-golfklubb",
+      "distanceKm": 43.6
+    },
+    {
+      "slug": "bergen-golfklubb",
+      "distanceKm": 48.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "87.0",
+    "websiteQuality": null,
+    "completenessPercentage": 87,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:55.273Z",
+    "createdAt": "2025-10-31T10:16:55.275Z",
+    "updatedAt": "2025-11-03T09:09:48.404Z"
+  }
+}

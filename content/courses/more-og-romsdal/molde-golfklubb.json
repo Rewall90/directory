@@ -1,0 +1,207 @@
+{
+  "slug": "molde-golfklubb",
+  "name": "Molde Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Molde",
+  "municipality": "Molde",
+  "country": "Norway",
+  "address": {
+    "street": "Klubbhuset, Eikrem",
+    "postalCode": "6422",
+    "area": "Eikrem"
+  },
+  "coordinates": {
+    "lat": 62.75307170000001,
+    "lng": 7.259739,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 5572,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane",
+    "courseType": "9-hulls mesterkapssbane (spilles to runder for 18 hull)",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Beliggenhet mellom fjord og fjell med flott utsikt",
+    "scenicHole": "Beliggenhet mellom fjord og fjell med flott utsikt",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Idyllisk beliggenhet mellom fjord og fjell med flott utsikt over naturlandskapet"
+  },
+  "description": "9-hulls mesterkapssbane med par 72 beliggende på Eikrem, bare 10 minutter fra Molde sentrum. Banen er anlagt på gammel jordbruksmark og har strategisk plasserte vannhindringer og bunkere. Banen beskrives som 'kanskje Norges fineste 9-hulls bane' og ligger idyllisk mellom fjord og fjell. Klubben ble grunnlagt i 1990 og banen stod ferdig i 2001. Moderne klubbhus med kafé og proshop. God infrastruktur med korte avstander mellom fasiliteter.",
+  "contact": {
+    "phone": "+47 930 44 744",
+    "email": "post@moldegolf.no",
+    "emailAlt": null,
+    "website": "https://moldegolf.no/",
+    "facebook": "https://www.facebook.com/moldegolf/",
+    "instagram": "https://www.instagram.com/moldegolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 930 44 744",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 71 25 35 41",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "1. april",
+    "end": "31. oktober",
+    "winterUse": "Simulator tilgjengelig for vintertrening"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Molde",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Molde Golfklubb",
+    "clubOrganization": "Molde Golfklubb (Org.nr 980 697 223)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé (for tiden stengt)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator tilgjengelig for trening og spill",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 450,
+      "greenFeeWeekend": 450,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 225,
+      "greenFeeDescription": "Dagspass voksen: 450 kr, dagspass junior: 225 kr. Medlemmer av samarbeidsklubber eller gjester av medlemmer: voksen 350 kr, junior 175 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Redusert greenfee for medlemmer av samarbeidsklubber og gjester av medlemmer"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.7,
+      "reviewCount": 88,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=8762774590069364728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Tee 56",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 69.8,
+      "slopeRating": 143,
+      "lengthYards": null,
+      "lengthMeters": 5572,
+      "par": 72
+    },
+    {
+      "teeColor": "Tee 51",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 67.6,
+      "slopeRating": 137,
+      "lengthYards": null,
+      "lengthMeters": 5119,
+      "par": 72
+    },
+    {
+      "teeColor": "Tee 45",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 64.4,
+      "slopeRating": 131,
+      "lengthYards": null,
+      "lengthMeters": 4484,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "rauma-golfklubb",
+      "distanceKm": 31.6
+    },
+    {
+      "slug": "tingvoll-golfklubb",
+      "distanceKm": 47.1
+    },
+    {
+      "slug": "kristiansund-og-omegn-golfklubb",
+      "distanceKm": 49.8
+    },
+    {
+      "slug": "giske-golfklubb",
+      "distanceKm": 62.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "91.5",
+    "websiteQuality": null,
+    "completenessPercentage": 91,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:08.787Z",
+    "createdAt": "2025-10-31T09:31:08.788Z",
+    "updatedAt": "2025-11-03T09:10:12.373Z"
+  }
+}

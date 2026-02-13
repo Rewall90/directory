@@ -1,0 +1,187 @@
+{
+  "slug": "bergen-golfklubb",
+  "name": "Bergen Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Bergen",
+  "municipality": "Bergen",
+  "country": "Norway",
+  "address": {
+    "street": "Ervikveien 120",
+    "postalCode": "5106",
+    "area": "Øvre Ervik"
+  },
+  "coordinates": {
+    "lat": 60.448933,
+    "lng": 5.320181,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 34,
+    "parPerRound": 68,
+    "lengthMeters": 4173,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1937,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Nær Bergen sentrum med god tilgjengelighet",
+    "scenicHole": "Nær Bergen sentrum med god tilgjengelighet",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Bergen Golfklubb - 9-hulls parklandbane grunnlagt 1937 i Øvre Ervik. Par 68 (18 hull), 4173m, CR 66.0, Slope 118. Nær Bergen sentrum (10 min taxi/30 min buss). Treningsområde med nett, putting green, chipping area, practice bunker. Golf simulator. Klubbhus med garderober, restaurant/bar, pro shop. Handicap-grense 54. Vinterbane oktober-april."
+  },
+  "description": "Bergen Golfklubb - 9-hulls parklandbane grunnlagt 1937 i Øvre Ervik, Bergen. Par 68 (spilt 2 ganger), 4563 yards (ca 4173m), CR 66.0, Slope 118. Nær Bergen sentrum - 10 minutter med taxi eller 30 minutter med buss. En av Norges eldste golfklubber.",
+  "contact": {
+    "phone": "+47 55 19 91 80",
+    "email": "info@bgo.no",
+    "emailAlt": null,
+    "website": "https://bgk.no/",
+    "facebook": "https://www.facebook.com/p/Bergen-Golfklubb-100063738606188/",
+    "instagram": "https://www.instagram.com/explore/locations/268066924/bergen-golfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 55 19 91 80",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 55 19 91 86",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Vinterbane med vintergreener oktober-april, gratis for medlemmer"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Bergen Golfklubb (Grunnlagt 1937)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Bar og restaurant",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golf simulator tilgjengelig for medlemmer",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 405,
+      "greenFeeWeekend": 405,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 405 kr. Booking via bgk.no/greenfee.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Medlemskap inkluderer lokal spillerett (Bergen GK) og nasjonal spillerett (greenfee på andre klubber). Alle medlemmer kan booke tee-tider 7 dager i forveien, spille gratis på vinterbane (vintergreener okt-april), og booke golf simulator."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 26,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3213257922225864318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Standard",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 66,
+      "slopeRating": 118,
+      "lengthYards": null,
+      "lengthMeters": 4173,
+      "par": 68
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "meland-golfklubb",
+      "distanceKm": 16.4
+    },
+    {
+      "slug": "sotra-golfklubb",
+      "distanceKm": 16.6
+    },
+    {
+      "slug": "fana-golfklubb",
+      "distanceKm": 17.7
+    },
+    {
+      "slug": "herdla-golfklubb",
+      "distanceKm": 24.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:52.394Z",
+    "createdAt": "2025-10-31T10:16:52.396Z",
+    "updatedAt": "2025-11-03T09:09:41.506Z"
+  }
+}

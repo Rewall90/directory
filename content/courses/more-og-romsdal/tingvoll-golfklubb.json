@@ -1,0 +1,192 @@
+{
+  "slug": "tingvoll-golfklubb",
+  "name": "Tingvoll Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Tingvoll",
+  "municipality": "Tingvoll",
+  "country": "Norway",
+  "address": {
+    "street": "Øygardsvegen 33",
+    "postalCode": "6670",
+    "area": "Øydegård"
+  },
+  "coordinates": {
+    "lat": 63.00976929999999,
+    "lng": 7.998751299999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 31,
+    "parPerRound": 62,
+    "lengthMeters": 2971,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "9-hulls bane (spilles to runder for 18 hull)",
+    "designer": null,
+    "yearBuilt": 2006,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Sørvendt beliggenhet ned mot fjorden med naturskjønne omgivelser",
+    "scenicHole": "Sørvendt beliggenhet ned mot fjorden med naturskjønne omgivelser",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Sørvendt beliggenhet ned mot fjorden med naturskjønne omgivelser. Idyllisk plassering ved Øydegård."
+  },
+  "description": "Idyllisk 9-hulls golfbane ved Øydegård som spilles to ganger for 18 hull med par 62. Banen ligger sørvendt ned mot fjorden, noe som gir tidlig vår og sein høst = lang golfsesong. Variert terreng med naturlige hindringer og godt vedlikeholdte fairways. Klubben ble grunnlagt 18. mai 2006 med visjonen 'Golf – en folkesport' og mottot 'kultur – miljø – folkelig'. Banen er i stadig utvikling med hjelp av engasjerte dugnadsgjengar.",
+  "contact": {
+    "phone": "+47 944 34 133",
+    "email": "post@tingvollgolf.no",
+    "emailAlt": "vtg@tingvollgolf.no",
+    "website": "https://tingvollgolf.no/",
+    "facebook": "https://www.facebook.com/TingvollGolfklubb/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 944 34 133",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 901 29 021",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 913 57 765",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mars",
+    "end": "Oktober",
+    "winterUse": "Simulator tilgjengelig for medlemmer. Sørvendt beliggenhet gir tidlig sesongstart og sein avslutning."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Tingvoll",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Tingvoll Golfklubb",
+    "clubOrganization": "Tingvoll Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": "Kiosk (selvbetjening med Vipps)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator tilgjengelig (kun for medlemmer)",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "Voksne 400 kr, junior (under 19 år) 250 kr, barn (12 år og yngre) 150 kr",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "VTG-kurs med fri spillerett ut året man tar kurset"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 26,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=1637796302643377431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 57.2,
+      "slopeRating": 103,
+      "lengthYards": null,
+      "lengthMeters": 2971,
+      "par": 62
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "kristiansund-og-omegn-golfklubb",
+      "distanceKm": 13.4
+    },
+    {
+      "slug": "smola-golfklubb",
+      "distanceKm": 46.5
+    },
+    {
+      "slug": "molde-golfklubb",
+      "distanceKm": 47.1
+    },
+    {
+      "slug": "sunndal-golfklubb",
+      "distanceKm": 47.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "91.0",
+    "websiteQuality": null,
+    "completenessPercentage": 91,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:11.493Z",
+    "createdAt": "2025-10-31T09:31:11.494Z",
+    "updatedAt": "2025-11-03T09:09:42.136Z"
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "borregaard-golfklubb",
+  "name": "Borregaard Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Sarpsborg",
+  "municipality": "Sarpsborg",
+  "country": "Norway",
+  "address": {
+    "street": "Hagebyveien 52",
+    "postalCode": "1726",
+    "area": "Opsund"
+  },
+  "coordinates": {
+    "lat": 59.2756231,
+    "lng": 11.19799,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 33,
+    "parPerRound": 66,
+    "lengthMeters": 3849,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert parkbane",
+    "courseType": "9-hulls parkbane",
+    "designer": null,
+    "yearBuilt": 1927,
+    "yearRedesigned": 1929,
+    "waterHazards": true,
+    "signatureHole": "Utsikt over Glomma",
+    "scenicHole": "Utsikt over Glomma",
+    "par3Count": 4,
+    "par4Count": 4,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Variert og morsom bane ved Glommas bredder."
+  },
+  "description": "Norges nest eldste – 9-hulls parkbane ved Glomma (spilles som 18).",
+  "contact": {
+    "phone": "+47 69 12 15 00",
+    "email": "post@borregaardgk.no",
+    "emailAlt": null,
+    "website": "https://borregaardgk.no/",
+    "facebook": "https://www.facebook.com/borregaard.golfklubb/",
+    "instagram": "https://www.instagram.com/borregaardgk/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 69 12 15 00",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Stengt om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sarpsborg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Borregaard Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafeteria",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Juniorer spiller gratis. Vipps eller resepsjon.",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 100,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 149,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14428878685097578715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 64.8,
+      "slopeRating": 127,
+      "lengthYards": null,
+      "lengthMeters": 3849,
+      "par": 66
+    },
+    {
+      "teeColor": "Rød",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 63.6,
+      "slopeRating": 125,
+      "lengthYards": null,
+      "lengthMeters": 3461,
+      "par": 66
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "skjeberg-golfklubb",
+      "distanceKm": 0
+    },
+    {
+      "slug": "oya-golfpark",
+      "distanceKm": 4.1
+    },
+    {
+      "slug": "gamle-fredrikstad-golfklubb",
+      "distanceKm": 15.5
+    },
+    {
+      "slug": "halden-golfklubb",
+      "distanceKm": 21.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:03.495Z",
+    "createdAt": "2025-10-31T11:42:03.496Z",
+    "updatedAt": "2025-11-03T09:09:33.547Z"
+  }
+}

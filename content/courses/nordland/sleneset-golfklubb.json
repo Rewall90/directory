@@ -1,0 +1,186 @@
+{
+  "slug": "sleneset-golfklubb",
+  "name": "Sleneset Golfklubb",
+  "formerName": "Sleneset Golfpark",
+  "region": "Nordland",
+  "city": "Sleneset",
+  "municipality": "Lurøy",
+  "country": "Norway",
+  "address": {
+    "street": "Slipsteinneset 9",
+    "postalCode": "8762",
+    "area": "Øya Sleneset"
+  },
+  "coordinates": {
+    "lat": 66.36246109999999,
+    "lng": 12.5969839,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 6,
+    "par": 19,
+    "parPerRound": 19,
+    "lengthMeters": 790,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert",
+    "courseType": "Par 3-bane",
+    "designer": "Stein Isaksen",
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 5,
+    "par4Count": 1,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Naturskjønne omgivelser på øya Sleneset langt ute i havet på Helgelandskysten. Tilgjengelig med ferje fra Stokkvågen eller hurtigbåt."
+  },
+  "description": "Sleneset Golfpark ligger i naturskjønne omgivelser på øya Sleneset på Helgelandskysten. Banen er en par 3-bane med 6 hull som utbygges og utbedres kontinuerlig.",
+  "contact": {
+    "phone": "+47 977 84 234",
+    "email": "post@slenesetgolf.no",
+    "emailAlt": null,
+    "website": "https://slenesetgolf.no/",
+    "facebook": "https://www.facebook.com/Sleneset-Golfpark-1374538992805309",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 977 84 234",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 413 14 204",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 917 13 390",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 911 39 074",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "September",
+    "winterUse": "Banen stenges om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Lurøy",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Sleneset Golfklubb",
+    "clubOrganization": "Selveiende og fristående golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": false,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 100,
+      "greenFeeWeekend": 100,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Hele dagen for medlemmer uten avtalt spillerett og andre besøkende",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": 50,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 5,
+      "reviewCount": 3,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13272366612487923993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "helgeland-golfklubb",
+      "distanceKm": 58.3
+    },
+    {
+      "slug": "polarsirkelen-golfklubb",
+      "distanceKm": 62
+    },
+    {
+      "slug": "bodo-golfpark",
+      "distanceKm": 138.2
+    },
+    {
+      "slug": "bodo-golfklubb",
+      "distanceKm": 138.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:41.986Z",
+    "createdAt": "2025-10-31T09:43:41.987Z",
+    "updatedAt": "2025-11-03T09:09:54.681Z"
+  }
+}

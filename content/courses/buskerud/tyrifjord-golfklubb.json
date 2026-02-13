@@ -1,0 +1,182 @@
+{
+  "slug": "tyrifjord-golfklubb",
+  "name": "Tyrifjord Golfklubb",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Krokkleiva",
+  "municipality": "Hole",
+  "country": "Norway",
+  "address": {
+    "street": "Hamarbispens vei 81, Storøya",
+    "postalCode": "3531",
+    "area": "Storøya"
+  },
+  "coordinates": {
+    "lat": 60.0521944,
+    "lng": 10.2666865,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland og skog",
+    "courseType": "Parkland og skogsbane på øy",
+    "designer": "Jan Sederholm og Tor Eia",
+    "yearBuilt": 1996,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Øyutsikter over Tyrifjorden med naturskjønne omgivelser"
+  },
+  "description": "Tyrifjord Golfklubb er en fantastisk 18-hulls golfbane lokalisert på Storøya i Tyrifjorden, Buskerud. Åpnet i to faser med 9 hull i 1994 og full 18 hull i 1996. Banen ligger vakkert til på øya i Tyrifjorden, med fairways som buktiger seg gjennom skog og parklandskap nær vannet. En unik blanding av parkland og skogsterreng med fredelige øyutsikter og naturskjønne omgivelser.",
+  "contact": {
+    "phone": "+47 32 16 13 60",
+    "email": "post@tyrifjord-golfklubb.no",
+    "emailAlt": null,
+    "website": "https://tyrifjord-golfklubb.no/",
+    "facebook": "https://www.facebook.com/tyrifjordgolfklubb/",
+    "instagram": "https://www.instagram.com/explore/locations/12138640/tyrifjord-golfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 32 16 13 60",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Stengt for vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Oslo (40 min), Hønefoss",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Tyrifjord Golfklubb",
+    "clubOrganization": "Tyrifjord Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Medlem-gjest greenfee: Man-fre 475 kr, Lør-søn 575 kr. Weekend Prime tid (09:00-11:50) har høyere pris. Se tyrifjord-golfklubb.no for fullstendig prisliste.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 180,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13588337754998426146&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul Damer",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": 143,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "lommedalen-golfklubb",
+      "distanceKm": 14.8
+    },
+    {
+      "slug": "baerum-golfklubb",
+      "distanceKm": 16
+    },
+    {
+      "slug": "holtsmark-golfklubb",
+      "distanceKm": 20.1
+    },
+    {
+      "slug": "haga-golfklubb",
+      "distanceKm": 21.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:56:51.561Z",
+    "createdAt": "2025-10-31T05:56:51.563Z",
+    "updatedAt": "2025-11-03T09:09:36.363Z"
+  }
+}

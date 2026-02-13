@@ -1,0 +1,171 @@
+{
+  "slug": "norefjell-golfklubb",
+  "name": "Norefjell Golfklubb",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Noresund",
+  "municipality": "Krødsherad",
+  "country": "Norway",
+  "address": {
+    "street": "Heiaveien",
+    "postalCode": "3536",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.18889539999999,
+    "lng": 9.6034097,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogsbane",
+    "courseType": "18-hulls skogsbane",
+    "designer": null,
+    "yearBuilt": 1993,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "18 hulls skogsbane på Norefjell med naturskjønne omgivelser."
+  },
+  "description": "Norefjell Golfklubb er et fullverdig anlegg med 18 hulls skogsbane, øvingsfelt med drivingrange, putting green og klubbhus. Grunnlagt 7. september 1993. Organisert som Norefjell Golfbane AS, medlem av Norges Golfforbund. Utleie av golfkøller, traller og bil. Årlig dugnad i mai for sesongåpning. Opphavshederlige medlemmer: Terje Løkkeberg og Anne Haug. Norefjell Golfklubbs hederstegn tildelt: Harry Eull (2016), Rolf Heia (2017), Erik Svendsen (2018), Astri Tove Heia (2019), Odd Rustad Nilsen (2024). Klubbmestere 2025: Herrer - Jostein Kjernaas (73 slag), Damer - Reidun Svendsen (93 slag), Junior - Leo Sikkut Berger (78 slag). Hole-in-one register vedlikeholdt.",
+  "contact": {
+    "phone": "+47 32 14 73 85",
+    "email": "info@norefjell-golf.no",
+    "emailAlt": null,
+    "website": "https://norefjell-golf.no/",
+    "facebook": "Norefjell Golfklubb (Følg oss på Facebook)",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 32 14 73 85",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Banen stenges for vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Noresund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Norefjell Golfbane AS (Organisasjonsnummer: 979159420)",
+    "clubOrganization": "Norefjell Golfklubb (Stiftet 7. september 1993, Vedtekter sist oppdatert 31. mars 2025)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 250 kr inkluderer 24 timer spilling. Betaling: VIPPS, Bankkort, Ordr.no (selvbetjening online).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong (fredager 15:30-16:45), Ungdom/junior 13-19 år 800 kr/sesong (fredager 17:00-18:15), Voksne 20+ 1000 kr/sesong (fredager 18:30-19:45). Golfpro Thorbjørn Hansen. Fokusområder: Putting, Chipping & Pitching, Bunker, Sving, Retningskontroll, Mentale teknikker, Taktiske økter. Registrering via Spond app."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 50,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4240212056435141744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "ringerike-golfklubb",
+      "distanceKm": 32.7
+    },
+    {
+      "slug": "tyrifjord-golfklubb",
+      "distanceKm": 39.8
+    },
+    {
+      "slug": "nesfjellet-golfklubb",
+      "distanceKm": 49.9
+    },
+    {
+      "slug": "holtsmark-golfklubb",
+      "distanceKm": 50.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:54:19.338Z",
+    "createdAt": "2025-10-31T05:54:19.339Z",
+    "updatedAt": "2025-11-03T09:09:56.870Z"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "giske-golfklubb",
+  "name": "Giske Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Vigra",
+  "municipality": "Giske",
+  "country": "Norway",
+  "address": {
+    "street": "Nørestranda 81",
+    "postalCode": "6040",
+    "area": "Gjøsundneset"
+  },
+  "coordinates": {
+    "lat": 62.5339032,
+    "lng": 6.1276419,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 35,
+    "parPerRound": 35,
+    "lengthMeters": 34,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert",
+    "courseType": "9-hulls golfbane",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": 2019,
+    "waterHazards": true,
+    "signatureHole": "Hull ved Vigrafjorden med vakker utsikt",
+    "scenicHole": "Hull ved Vigrafjorden med vakker utsikt",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Idyllisk beliggenhet ved Vigrafjorden med vakker utsikt mot fjorden"
+  },
+  "description": "Variert 9-hulls bane beliggende ved Gjøsundneset på Vigra. Idyllisk beliggenhet ved Vigrafjorden med mild klima og åpen hele året. Banen passer veldig fint for nybegynnere som ønsker å lære seg golf i avslappede omgivelser. Dugnadsbasert klubb med fokus på inkluderende og sosialt miljø.",
+  "contact": {
+    "phone": "+47 976 70 501",
+    "email": "post@giskegolf.no",
+    "emailAlt": null,
+    "website": "https://giskegolf.no/",
+    "facebook": "https://www.facebook.com/p/Giske-Golfklubb-100063539771593/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 976 70 501",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "1. januar",
+    "end": "31. desember",
+    "winterUse": "Åpen hele året med ordinære greener. Det er kun noen få dager i året det ligger snø på banen. Området er blant det mildeste i landet målt som gjennomsnittstemperatur gjennom vinteren: ca +4,5 grader"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Vigra, Giske",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Giske Golfklubb",
+    "clubOrganization": "Giske Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Simulator E6 tilgjengelig på Gamle Valderøy barneskole (Valderhaug 35, 6050 Valderøy). Timepris: 200 kr. Ta kontakt på post@giskegolf.no for koder til dører og opplæring",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee for voksne: 250 kr, junior (13-19 år): 150 kr, barn (0-12 år): gratis. Medlemmer av Ålesund GK og Giske GK betaler redusert pris. Greenfee betales før utslag. Dobbel greenfee hvis ikke betalt ved kontroll.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 12,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=2988583473467431725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sunnmore-golfklubb",
+      "distanceKm": 21.9
+    },
+    {
+      "slug": "volda-golfklubb",
+      "distanceKm": 43.8
+    },
+    {
+      "slug": "vanylven-golfklubb",
+      "distanceKm": 52.4
+    },
+    {
+      "slug": "stranda-golfklubb",
+      "distanceKm": 54.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:07.831Z",
+    "createdAt": "2025-10-31T09:31:07.833Z",
+    "updatedAt": "2025-11-03T09:10:12.090Z"
+  }
+}

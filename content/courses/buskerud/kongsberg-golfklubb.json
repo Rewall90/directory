@@ -1,0 +1,176 @@
+{
+  "slug": "kongsberg-golfklubb",
+  "name": "Kongsberg Golfklubb",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Skollenborg",
+  "municipality": "Kongsberg",
+  "country": "Norway",
+  "address": {
+    "street": "Hostvedtveien 130",
+    "postalCode": "3618",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.61542439999999,
+    "lng": 9.715216999999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Variert terreng",
+    "courseType": "18-hulls golfbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Variert og spennende bane med godt miljø og hyggelig atmosfære."
+  },
+  "description": "Kongsberg Golfbane er en variert og spennende bane med flotte og raske greener. En morsom og velopprettholdt bane som ble stemt frem som den 6. beste klubben i Norge under Medlemsundersøkelsen i 2022. Godt miljø og hyggelig atmosfære. Meget positive tilbakemeldinger fra gjestespillere. Marshalltjeneste under travle tidspunkter for å sikre tempo og hyggelig atmosfære. Slopetabell og baneguide tilgjengelig.",
+  "contact": {
+    "phone": "+47 95 48 48 48",
+    "email": "kontor@kongsberggolf.no",
+    "emailAlt": "proshop@kongsberggolf.no, pro@kongsberggolf.no",
+    "website": "https://kongsberggolf.no/",
+    "facebook": "Kongsberg Golfklubb",
+    "instagram": "Kongsberg Golfklubb",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 95 48 48 48",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 92 82 60 04 (Daglig leder)",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April/Mai",
+    "end": "September/Oktober",
+    "winterUse": "TrackMan simulatorsenter åpent hele året med variert programmering: turneringer, gruppe- og protrening. Vintersesongen innendørs 2025/2026."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Kongsberg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Kongsberg Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "All in One (AVL Catering AS)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Topp moderne TrackMan simulatorsenter med 3 simulatorer. Medlem-eksklusivt tilbud. Arrangerer turneringer i vintersesongen med lagspill og individuelle turneringer. TrackMan klubbmesterskap. Advanced golfsimulatorer med dataanalyse, filming av sving, TrackMan AI (Tracy) som gir treningsråd.",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee priser tilgjengelig på kongsberggolf.no/gjester/greenfee. Medlemmer får 100 kr rabatt på greenfee for opptil 3 gjestespillere.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "TrackMan simulatorsenter: 240-340 kr/time. Protime: 790 kr (50 min), 1190 kr (2 personer), 3150 kr (5 for 4 kampanje). Medlemsfordeler hos partnere: Norsjø GK (300 kr), Grenland GK (350/200 kr), Vestfold GK (400/500 kr), Larvik GK (200 kr rabatt), Asker GK (400 kr), Kjekstad GK (400 kr). Pro shop: Demodøller fra TaylorMade og Callaway. Grip replacement 219 kr+, shaft replacement 499-1199 kr+."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 116,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9730834030553272660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "eiker-golfklubb",
+      "distanceKm": 21.3
+    },
+    {
+      "slug": "hof-golfklubb",
+      "distanceKm": 22.6
+    },
+    {
+      "slug": "sande-golfklubb",
+      "distanceKm": 28.9
+    },
+    {
+      "slug": "drammen-golfklubb",
+      "distanceKm": 29
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:54:18.825Z",
+    "createdAt": "2025-10-31T05:54:18.826Z",
+    "updatedAt": "2025-11-03T09:09:56.602Z"
+  }
+}

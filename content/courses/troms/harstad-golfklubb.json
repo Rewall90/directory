@@ -1,0 +1,248 @@
+{
+  "slug": "harstad-golfklubb",
+  "name": "Harstad Golfklubb",
+  "formerName": null,
+  "region": "Troms",
+  "city": "Harstad",
+  "municipality": "Harstad",
+  "country": "Norway",
+  "address": {
+    "street": "Røkenes gård",
+    "postalCode": "9402",
+    "area": "Røkenes gård"
+  },
+  "coordinates": {
+    "lat": 68.8348215,
+    "lng": 16.4868293,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 68,
+    "parPerRound": 68,
+    "lengthMeters": 4026,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1986,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønne omgivelser 7 km utenfor Harstad",
+    "scenicHole": "Naturskjønne omgivelser 7 km utenfor Harstad",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Harstad Golfklubb - 9-hulls park/skogsbane grunnlagt 1986, 7 km utenfor Harstad sentrum i Troms. Par 68 (uvanlig høy for 9 hull), 4026m. 27 tee-plasseringer for variasjon. Driving range, putting green, practice bunker. Klubbhus med restaurant og pro shop. Tralle og kølleutleie. Handicap-grense 36 (strengere enn vanlig)."
+  },
+  "description": "Harstad Golfklubb - 9-hulls park/skogsbane grunnlagt 1986, 7 km utenfor Harstad sentrum.\n\nPar 68 for 18 hull (spilt 2 ganger). Banelengde: 4.026m for 18 hull.\n\nBanen ligger i naturskjønne omgivelser med skog og parklandskap. En variert bane som passer både nybegynnere og erfarne spillere.\n\nSpill golf under midnattssolen fra mai til juli - en unik opplevelse i Nord-Norge!\n\nFasiliteter inkluderer driving range, putting green, klubbhus med garderober og pro shop. Greenfee-automat med Vipps gjør det enkelt å betale døgnet rundt.",
+  "contact": {
+    "phone": "+47 77 06 94 73",
+    "email": "harstadgk@gmail.com",
+    "emailAlt": null,
+    "website": "https://hgolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 77 06 94 73",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 90 13 88 84",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Juni",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Harstad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Røkenes gård",
+    "clubOrganization": "Harstad Golfklubb (Grunnlagt 1986)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "GREENFEE 2025:\n\nVOKSNE:\n• 18 hull: 350 kr\n• 9 hull: 200 kr\n\nJUNIOR (under 20 år):\n• 18 hull: 200 kr\n• 9 hull: 120 kr\n\nDAGSKORT: 450 kr (ubegrenset spill hele dagen)\n\nTRENINGSUTSTYR:\n• Kurv m/50 rangeballer: 100 kr\n• Utleie av rangematter\n\nGreenfee-automat med Vipps tilgjengelig.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "24 timer spilling inkludert i greenfee. 27 ulike tee-plasseringer for variasjon. Uvanlig høy par (68) for 9-hulls bane. Naturskjønne omgivelser i Troms."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Voksen (20-67 år)",
+        "price": 4500,
+        "description": null,
+        "ageRange": "20-67"
+      },
+      {
+        "category": "Junior (under 20 år)",
+        "price": 1500,
+        "description": null,
+        "ageRange": "0-19"
+      },
+      {
+        "category": "Student (20-25 år)",
+        "price": 2500,
+        "description": null,
+        "ageRange": "20-25"
+      },
+      {
+        "category": "Senior (67+ år)",
+        "price": 3500,
+        "description": null,
+        "ageRange": "67+"
+      },
+      {
+        "category": "Familie (2 voksne + barn)",
+        "price": 10000,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Fjernmedlem",
+        "price": 500,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 3.9,
+      "reviewCount": 10,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=17328347465168595548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "vesteralen-golfklubb",
+      "distanceKm": 44.9
+    },
+    {
+      "slug": "bleik-golfstrombane",
+      "distanceKm": 53.3
+    },
+    {
+      "slug": "narvik-golfklubb",
+      "distanceKm": 76.1
+    },
+    {
+      "slug": "midt-troms-golfklubb",
+      "distanceKm": 83.2
+    }
+  ],
+  "additionalFeatures": [
+    {
+      "feature": "Midnattssol-golf",
+      "description": "Spill golf under midnattssolen fra mai til juli"
+    },
+    {
+      "feature": "Grunnlagt 1986",
+      "description": "En av de eldste golfklubbene i Nord-Norge"
+    },
+    {
+      "feature": "Park/skogsbane",
+      "description": "Variert 9-hulls bane med skog og parklandskap"
+    },
+    {
+      "feature": "Nær Harstad sentrum",
+      "description": "Kun 7 km fra sentrum"
+    },
+    {
+      "feature": "VTG nybegynnerkurs",
+      "description": "Veien til Golf kurs for nybegynnere"
+    },
+    {
+      "feature": "Greenfee-automat",
+      "description": "Vipps-betaling tilgjengelig hele døgnet"
+    },
+    {
+      "feature": "Driving range",
+      "description": "Treningsområde med rangeballer (100 kr per kurv)"
+    },
+    {
+      "feature": "Dagskort",
+      "description": "Ubegrenset spill hele dagen for 450 kr"
+    }
+  ],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 74,
+    "pagesScraped": null,
+    "scrapedAt": "2026-02-12T07:38:19.045Z",
+    "createdAt": "2025-10-31T05:13:01.736Z",
+    "updatedAt": "2026-02-12T07:38:19.049Z"
+  }
+}

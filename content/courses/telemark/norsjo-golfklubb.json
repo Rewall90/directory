@@ -1,0 +1,182 @@
+{
+  "slug": "norsjo-golfklubb",
+  "name": "Norsjø Golfklubb",
+  "formerName": "Norsjø Golfpark",
+  "region": "Telemark",
+  "city": "Ulefoss",
+  "municipality": "Nome",
+  "country": "Norway",
+  "address": {
+    "street": "Romnesvegen 100",
+    "postalCode": "3830",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.30164319999999,
+    "lng": 9.265604699999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 6142,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Park og skog",
+    "courseType": "Parkland/Woodland",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Hole 11 - One of Norway's most photographed par 3 holes",
+    "scenicHole": "Hole 11 - One of Norway's most photographed par 3 holes",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Idyllically located by Norsjø and the Telemark Canal with magnificent forest and park scenery. Two holes ranked in top 100 most spectacular in Norway."
+  },
+  "description": "En av Norges mest krevende 18-hullsbaner, idyllisk beliggende ved Norsjø og Telemarkkanalen. To hull er rangert blant Norges 100 mest spektakulære. Hull 11 er et av landets mest fotograferte par 3-hull.",
+  "contact": {
+    "phone": "+47 35 94 94 00",
+    "email": "post@golfparken.no",
+    "emailAlt": null,
+    "website": "https://www.golfparken.no",
+    "facebook": "https://www.facebook.com/Norsjogolfpark/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 35 94 94 00",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Ulefoss, Bø",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Norsjø Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": 6,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": 400,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "50% greenfee discount with Golfamore Card"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 124,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=17740373460305961636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Standard",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 75,
+      "slopeRating": 152,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "grenland-og-omegn-golfklubb",
+      "distanceKm": 17.9
+    },
+    {
+      "slug": "bamble-golfklubb",
+      "distanceKm": 43
+    },
+    {
+      "slug": "kongsberg-golfklubb",
+      "distanceKm": 43.2
+    },
+    {
+      "slug": "vradal-golfklubb",
+      "distanceKm": 44.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T12:22:40.078Z",
+    "createdAt": "2025-10-31T12:22:40.080Z",
+    "updatedAt": "2025-11-03T09:10:19.428Z"
+  }
+}

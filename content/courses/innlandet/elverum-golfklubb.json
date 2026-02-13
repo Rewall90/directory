@@ -1,0 +1,176 @@
+{
+  "slug": "elverum-golfklubb",
+  "name": "Elverum Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Elverum",
+  "municipality": "Elverum",
+  "country": "Norway",
+  "address": {
+    "street": "Starmoen 2411",
+    "postalCode": "2401",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.876884,
+    "lng": 11.666127,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skoggolfbane",
+    "courseType": "Skoggolfbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Naturskjønne omgivelser"
+  },
+  "description": "Elverum Golfklubb tilbyr en flott 18-hullers golfbane med naturskjønne omgivelser. Skoggolfbane med variert vanskelighetsgrad.",
+  "contact": {
+    "phone": "62413588",
+    "email": "post@elverumgolf.no",
+    "emailAlt": null,
+    "website": "https://elverumgolf.no/",
+    "facebook": "Elverum Golfklubb",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "62413588",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "467 64 189",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Elverum",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Elverum Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee priser tilgjengelig - kontakt klubben for detaljer",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Gratis medlemskap, trening og utstyr for Ung Start (under 20 år i Elverum kommune)"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 86,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=6197862488702127528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "atlungstad-golfklubb",
+      "distanceKm": 34
+    },
+    {
+      "slug": "sorknes-golfklubb",
+      "distanceKm": 37.2
+    },
+    {
+      "slug": "mjosen-golfklubb",
+      "distanceKm": 52.7
+    },
+    {
+      "slug": "gjovik-toten-golfklubb",
+      "distanceKm": 54.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:11.463Z",
+    "createdAt": "2025-10-31T07:18:11.464Z",
+    "updatedAt": "2025-11-03T09:09:47.556Z"
+  }
+}

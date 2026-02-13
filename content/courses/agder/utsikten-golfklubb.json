@@ -1,0 +1,197 @@
+{
+  "slug": "utsikten-golfklubb",
+  "name": "Utsikten Golfklubb",
+  "formerName": null,
+  "region": "Agder",
+  "city": "Kvinesdal",
+  "municipality": "Kvinesdal",
+  "country": "Norway",
+  "address": {
+    "street": "Skaren 26",
+    "postalCode": "4480",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 58.3111202,
+    "lng": 6.9928582,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogslandskap",
+    "courseType": "18-hulls championship-bane med 9-hulls Pay & Play",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Hull 3 - beskrevet som 'den vakreste tee jeg noen gang har sett på en bane noe sted i verden'",
+    "scenicHole": "Fjellnatur med utsikt over Kvinesdal bygd og elver",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Utsikten Golfklubb - championship standard skogsbane i spektakulær fjellnatur i Kvinesdal. Kåret til 'Norges beste golfbane' i 2007. Hull 3 har en av verdens vakreste tee-plasseringer. 18-hulls hovedbane og 9-hulls Pay & Play. Utsikt over Kvinesdal bygd og elver. Driving range, putting green, klubbhus, pro shop. Del av Utsikten Golfpark."
+  },
+  "description": "Utsikten Golfklubb - championship standard skogsbane i fjellnatur med spektakulær utsikt over Kvinesdal bygd og elver. Kåret til 'Norges beste golfbane' i 2007. Hull 3 har en av verdens vakreste tee-plasseringer. 18-hulls hovedbane og 9-hulls Pay & Play kortbane. Del av Utsikten Golfpark.",
+  "contact": {
+    "phone": "+47 911 20 184",
+    "email": "post@utsiktengolf.no",
+    "emailAlt": "ramona@utsiktengolf.no",
+    "website": "https://utsiktengolf.no/",
+    "facebook": "https://www.facebook.com/utsiktengolfpark/",
+    "instagram": "https://www.instagram.com/utsiktengolfpark/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 911 20 184",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 945 08 461",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Kvinesdal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Utsikten Golfpark",
+    "clubOrganization": "Utsikten Golfklubb (Organisasjonsnummer: 975 660 133)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 550,
+      "greenFeeWeekend": 650,
+      "greenFeeSenior": 550,
+      "greenFeeJunior": 275,
+      "greenFeeDescription": "Greenfee 18 hull: 550 kr (hverdag), 650 kr (helg). 9 hull: 330 kr (hverdag), 390 kr (helg). Junior 50% rabatt.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Andelseiere får kr 500 rabatt på medlemskap"
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "junior",
+        "price": 1250,
+        "description": "Medlemskap 2025: Junior (t.o.m. året de fyller 19 år) 1250 kr (fellestrening inkludert), Unge voksne (t.o.m. året de fyller 24 år) 4000 kr, 'Snart Voksen' 25-28 år med fritt spill 5500 kr. Hovedmedlemmer og ektefeller/samboere som er andelseiere får 500 kr rabatt. Administrasjonsgebyr 40 kr ved fakturering. Mulighet for deling av faktura ved å kontakte Julia hos NorKred. Daglig leder: Ramona Reiersen.",
+        "ageRange": null
+      },
+      {
+        "category": "youngAdult",
+        "price": 4000,
+        "description": "Medlemskap 2025: Junior (t.o.m. året de fyller 19 år) 1250 kr (fellestrening inkludert), Unge voksne (t.o.m. året de fyller 24 år) 4000 kr, 'Snart Voksen' 25-28 år med fritt spill 5500 kr. Hovedmedlemmer og ektefeller/samboere som er andelseiere får 500 kr rabatt. Administrasjonsgebyr 40 kr ved fakturering. Mulighet for deling av faktura ved å kontakte Julia hos NorKred. Daglig leder: Ramona Reiersen.",
+        "ageRange": null
+      },
+      {
+        "category": "age25_28",
+        "price": 5500,
+        "description": "Medlemskap 2025: Junior (t.o.m. året de fyller 19 år) 1250 kr (fellestrening inkludert), Unge voksne (t.o.m. året de fyller 24 år) 4000 kr, 'Snart Voksen' 25-28 år med fritt spill 5500 kr. Hovedmedlemmer og ektefeller/samboere som er andelseiere får 500 kr rabatt. Administrasjonsgebyr 40 kr ved fakturering. Mulighet for deling av faktura ved å kontakte Julia hos NorKred. Daglig leder: Ramona Reiersen.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 104,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=2886219215905815985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "dalane-golfklubb",
+      "distanceKm": 41.1
+    },
+    {
+      "slug": "sirdal-golfklubb",
+      "distanceKm": 46.5
+    },
+    {
+      "slug": "kristiansand-golfklubb",
+      "distanceKm": 62.3
+    },
+    {
+      "slug": "bjaavann-golfklubb",
+      "distanceKm": 62.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "85.0",
+    "websiteQuality": null,
+    "completenessPercentage": 85,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:44:56.866Z",
+    "createdAt": "2025-10-31T07:44:56.868Z",
+    "updatedAt": "2025-11-03T09:10:16.188Z"
+  }
+}

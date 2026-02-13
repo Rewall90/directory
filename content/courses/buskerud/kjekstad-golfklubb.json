@@ -1,0 +1,171 @@
+{
+  "slug": "kjekstad-golfklubb",
+  "name": "Kjekstad Golfklubb",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Røyken",
+  "municipality": "Asker",
+  "country": "Norway",
+  "address": {
+    "street": "Golfveien 1",
+    "postalCode": "3440",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.7507233,
+    "lng": 10.378686,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "18-hulls skogsbane + 9-hulls Pay & Play korthullsbane",
+    "designer": null,
+    "yearBuilt": 1976,
+    "yearRedesigned": 1988,
+    "waterHazards": null,
+    "signatureHole": "Variert og naturskjønn golfbane i skogsterreng med fjell og vann. Gapahuk ved Stordammen på hull 10.",
+    "scenicHole": "Variert og naturskjønn golfbane i skogsterreng med fjell og vann. Gapahuk ved Stordammen på hull 10.",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Naturskjønn bane i variert terreng med skog, fjell og vann. Gapahuk ved Stordammen gir flott mulighet til pause med utsikt over vannet. Bare kort kjøretur fra Oslo og Drammen."
+  },
+  "description": "Kjekstad Golfklubb ble stiftet i 1976 og ligger vakkert til i variert terreng med skog, fjell og vann, bare en kort kjøretur fra Oslo og Drammen. Klubben har en 18-hulls skogsbane og en 9-hulls Pay & Play korthullsbane, ideell for både nybegynnere og erfarne spillere. Naturskjønn bane i variert terreng. Full 18-hulls bane åpnet i 1988. Klubben har rundt 2000 medlemmer.",
+  "contact": {
+    "phone": "+47 31 29 79 90",
+    "email": "post@kjekstad-gk.no",
+    "emailAlt": null,
+    "website": "https://kjekstad-gk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 31 29 79 90",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Simulator-senter åpent hele året"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Oslo, Drammen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Kjekstad Golfklubb (Org.nr: 971 314 249)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kjekstad Kafe",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Toppmoderne simulator-senter hvor du kan spille på virtuelle baner og forbedre ferdighetene dine hele året. Gir muligheten til å spille på noen av verdens beste baner, samtidig som du får nøyaktige data og tilbakemeldinger.",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee priser tilgjengelig på kjekstad-gk.no. Tiered pricing for gjester.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Gapahuk ved Stordammen på hull 10 for pause ute i naturen. Simulator-senter tilgjengelig hele året. Tradisjonell Kjekstad-vaffel (spesialitet i kafeen)."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 182,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=11406173526788034367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "asker-golfklubb",
+      "distanceKm": 9
+    },
+    {
+      "slug": "drammen-golfklubb",
+      "distanceKm": 12.6
+    },
+    {
+      "slug": "holtsmark-golfklubb",
+      "distanceKm": 15
+    },
+    {
+      "slug": "drobak-golfklubb",
+      "distanceKm": 17.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:54:18.517Z",
+    "createdAt": "2025-10-31T05:54:18.519Z",
+    "updatedAt": "2025-11-03T09:09:45.007Z"
+  }
+}

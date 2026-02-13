@@ -1,0 +1,176 @@
+{
+  "slug": "bjornefjorden-golfklubb",
+  "name": "Bjørnefjorden Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Os",
+  "municipality": "Bjørnafjorden",
+  "country": "Norway",
+  "address": {
+    "street": "Hatvikvegen 20",
+    "postalCode": "5200",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.19109,
+    "lng": 5.484461,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 34,
+    "parPerRound": 68,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls park/skogsbane + 6-hulls Pitch & Putt",
+    "designer": null,
+    "yearBuilt": 1994,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Park og skogsterreng med varierte hull",
+    "scenicHole": "Park og skogsterreng med varierte hull",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Bjørnefjorden Golfklubb - 9-hulls park/skogsbane i Os grunnlagt 1994. Par 34 (68 for 18h). Lange par 5, korte par 3, smale fairways på par 4. 6-hulls Pitch & Putt (opp til 100m). Driving range med 18 tees (8 med overbygg/lys). Stor putting green (9 hull). Approach-treningsgreen 90m med bunker. 2 simulatorer (Full Swing Golf). Pro shop, kafeteria, garderober. Juniortrening, Senior-/Dame-/Herre-/Elitegrupper. Handicap-grense 54. Åpent året rundt."
+  },
+  "description": "Bjørnefjorden Golfklubb - 9-hulls park/skogsbane grunnlagt 1994 i Os. Par 34 (68 for 18 hull). Lange par 5-hull, korte par 3-hull, og smale fairways på par 4-hull som krever presisjon fra utslaget. Pluss 6-hulls Pitch & Putt-bane (hull opp til ca 100 meter). Hull 8 har midlertidig green mens ny green bygges.",
+  "contact": {
+    "phone": "+47 56 30 70 88",
+    "email": "post@bjgk.no",
+    "emailAlt": null,
+    "website": "https://bjgk.no/",
+    "facebook": "https://www.facebook.com/p/Bjørnefjorden-Golfklubb-100063535031626/",
+    "instagram": "https://www.instagram.com/bjornefjordengolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 56 30 70 88",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 56 30 67 77",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Vinterbane tilgjengelig fra 20. oktober. Åpent året rundt."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Bjørnefjorden Golfklubb (Grunnlagt 1994)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafeteria med automater for varme/kalde drikker, snacks, is, smørbrød og sveler",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "2 simulatorer med Full Swing Golf Simulator-programvare",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 250-300 kr. Reduserte priser grunnet midlertidig green på hull 8. Golfamore-gjester får rabatt alle hverdager (ingen rabatt helger/helligdager). Golfamore-PLUS gir halv pris på hverdager.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "6-hulls Pitch & Putt-bane tilgjengelig. 18 tees på driving range, 8 med overbygg og lys. Stor putting green med 9 hull. Approach shot-treningsgreen opp til 90m med greenside bunker. 2 simulatorer. Golfamore-rabatt."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 56,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13323946545268146373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "fana-golfklubb",
+      "distanceKm": 14.6
+    },
+    {
+      "slug": "tysnes-golf",
+      "distanceKm": 19.8
+    },
+    {
+      "slug": "sotra-golfklubb",
+      "distanceKm": 28.3
+    },
+    {
+      "slug": "bergen-golfklubb",
+      "distanceKm": 30.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:53.421Z",
+    "createdAt": "2025-10-31T10:16:53.422Z",
+    "updatedAt": "2025-11-03T09:09:46.154Z"
+  }
+}

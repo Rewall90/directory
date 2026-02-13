@@ -1,0 +1,305 @@
+{
+  "slug": "haugesund-golfklubb",
+  "name": "Haugesund Golfklubb",
+  "formerName": "Haugesund Golfpark",
+  "region": "Rogaland",
+  "city": "Kolnes",
+  "municipality": "Karmøy",
+  "country": "Norway",
+  "address": {
+    "street": "Eikjevegen 205",
+    "postalCode": "5541",
+    "area": "Kolnes"
+  },
+  "coordinates": {
+    "lat": 59.3911111,
+    "lng": 5.3586111,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": 2326,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parklandskap",
+    "courseType": "9-hulls parkbane",
+    "designer": "Svein D. Olsnes",
+    "yearBuilt": 1997,
+    "yearRedesigned": 2001,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønn parkbane ved Kolnes nær Haugesund",
+    "scenicHole": "Naturskjønn parkbane ved Kolnes nær Haugesund",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Haugesund Golfklubb er en 9-hulls parkbane ved Kolnes, 5 minutter fra Haugesund sentrum. Grunnlagt 1997, åpnet 2001. Designet av Svein D. Olsnes. Par 35 (9 hull), par 70 (18 hull spilt to ganger). Lengde 2326m (gul), 2007m (rød). Semi-privat bane med naturskjønne omgivelser, gjennomtenkte fairways og velholdte greener. Åpen for besøkende med handicap max 54. Driving range 240m (Norges lengste) med 20+ plasser, 10 under tak, flombelyst, åpent 24/7. Robotgressklipper og robotball-samler. Callaway rangeballer. Golfsimulatorer, putting green, kort spill-område. Teaching pro tilgjengelig. Gratis kølleutlån for nybegynnere. Åpen hele året."
+  },
+  "description": "Haugesund Golfklubb (Haugesund Golfpark) er en 9-hulls parkbane ved Kolnes, ca 5 minutter fra Haugesund sentrum. Grunnlagt 08. oktober 1997, åpnet 2001. Designet av arkitekt Svein D. Olsnes. Par 35 for 9 hull, par 70 for 18 hull (spilt to ganger). Lengde 2326m (gul), 2007m (rød) for 9 hull. Semi-privat bane åpen for besøkende med gyldig handicap (max 54). Parkstil bane med gjennomtenkte fairways og velholdte greener i naturskjønne omgivelser. Åpen hele året. Fasiliteter inkluderer Norges lengste driving range (240m) med over 20 plasser, golfsimulatorer, putting green og kort spill-område.",
+  "contact": {
+    "phone": "+47 947 93 971",
+    "email": "styret@haugesundgolf.no",
+    "emailAlt": null,
+    "website": "https://www.haugesundgolf.no/",
+    "facebook": "https://www.facebook.com/haugesundgolf/",
+    "instagram": "https://www.instagram.com/haugesundgolfpark/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 947 93 971",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 958 11 022",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 52 82 00 05",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Januar",
+    "end": "Desember",
+    "winterUse": "Banen er åpen hele året. Driving range åpen 24/7."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Haugesund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Haugesund Golfpark",
+    "clubOrganization": "Haugesund Golfklubb (Organisasjonsnummer: 993 610 771)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulatorer tilgjengelig, booking via nettsiden",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": 250,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: 250 kr. Gyldig handicap og handicapbevis påkrevd (max handicap 54). Booking via telefon eller nettside.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Gratis kølleutlån for nybegynnere på driving range"
+    }
+  },
+  "membershipPricing": {
+    "2024": [
+      {
+        "category": "adult",
+        "price": 4400,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 3100,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 2150,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "age20_29",
+        "price": 2150,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "junior13_19",
+        "price": 1250,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "family",
+        "price": 7500,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "additionalJunior",
+        "price": 500,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "bMembership",
+        "price": 3300,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "passive",
+        "price": 1200,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "remote",
+        "price": 850,
+        "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 63,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=17238815081796075536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 33.9,
+      "slopeRating": 120,
+      "lengthYards": null,
+      "lengthMeters": 2326,
+      "par": 35
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 36.5,
+      "slopeRating": 118,
+      "lengthYards": null,
+      "lengthMeters": 2326,
+      "par": 35
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 32.7,
+      "slopeRating": 115,
+      "lengthYards": null,
+      "lengthMeters": 2007,
+      "par": 35
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 34.5,
+      "slopeRating": 110,
+      "lengthYards": null,
+      "lengthMeters": 2007,
+      "par": 35
+    },
+    {
+      "teeColor": "Yellow (18-hole)",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 67.9,
+      "slopeRating": 115,
+      "lengthYards": null,
+      "lengthMeters": 4652,
+      "par": 70
+    },
+    {
+      "teeColor": "Red (18-hole)",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 65.4,
+      "slopeRating": 110,
+      "lengthYards": null,
+      "lengthMeters": 4014,
+      "par": 70
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "nordvegen-golfklubb",
+      "distanceKm": 6.5
+    },
+    {
+      "slug": "haugaland-golfklubb",
+      "distanceKm": 17.7
+    },
+    {
+      "slug": "karmoy-golfklubb",
+      "distanceKm": 27
+    },
+    {
+      "slug": "randaberg-golfklubb",
+      "distanceKm": 42.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "85.0",
+    "websiteQuality": null,
+    "completenessPercentage": 85,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:22.052Z",
+    "createdAt": "2025-10-31T07:46:22.054Z",
+    "updatedAt": "2025-11-03T09:10:02.497Z"
+  }
+}

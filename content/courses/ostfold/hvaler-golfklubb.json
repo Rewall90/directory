@@ -1,0 +1,182 @@
+{
+  "slug": "hvaler-golfklubb",
+  "name": "Hvaler Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Skjærhalden",
+  "municipality": "Hvaler",
+  "country": "Norway",
+  "address": {
+    "street": "Midtre veien 113",
+    "postalCode": "1680",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.0540783,
+    "lng": 11.0228338,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 34,
+    "parPerRound": 68,
+    "lengthMeters": 2062,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kystlandskap",
+    "courseType": "9-hulls dobbel-tee bane",
+    "designer": null,
+    "yearBuilt": 2002,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Kystlandskap på Kirkeøy",
+    "scenicHole": "Kystlandskap på Kirkeøy",
+    "par3Count": 4,
+    "par4Count": 8,
+    "par5Count": 6,
+    "mountainViews": false,
+    "viewDescription": "Pittoresk kystbane på øya Kirkeøy i Skjærhalden. Vakker øykommune med skjærgårdslandskap. Norges mest langvarige golfsesong. 6-hulls kortbane tilgjengelig. Restaurant Golfkroa. Parkering for bobiler."
+  },
+  "description": "9-hulls dobbel-tee bane på den pittoreske øya Kirkeøy i Skjærhalden, etablert 2002. Par 34 for 9 hull (68 for 18 hull). Banen spilles to ganger fra forskjellige tees. Slope 134. Norges mest langvarige sesong. I tillegg har anlegget en 6-hulls kortbane (par 18, 360 meter).",
+  "contact": {
+    "phone": "+47 909 59 900",
+    "email": "post@hvalergk.no",
+    "emailAlt": null,
+    "website": "https://hvalergk.no/",
+    "facebook": "https://www.facebook.com/hvalergolf/",
+    "instagram": "https://www.instagram.com/hvalergolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 909 59 900",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mars/April",
+    "end": "27. oktober 2025",
+    "winterUse": "Norges mest langvarige golfsesong - lang sesong fra tidlig vår til sent på høsten"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Fredrikstad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Hvaler Golfklubb (org.nr. 984 937 776)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Golfkroa",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": 6,
+    "footgolfPar": 18,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee 18 hull: ca 400 NOK. Kølleleie tilgjengelig. Kontakt klubben for oppdaterte priser.",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 150,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Kampanje 2025-2026: Fritt spill ut 2026 ved medlemskap"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.1,
+      "reviewCount": 47,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4210054228484742745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": 134,
+      "lengthYards": null,
+      "lengthMeters": 2062,
+      "par": 68
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "gamle-fredrikstad-golfklubb",
+      "distanceKm": 16.7
+    },
+    {
+      "slug": "halden-golfklubb",
+      "distanceKm": 23.2
+    },
+    {
+      "slug": "skjeberg-golfklubb",
+      "distanceKm": 26.6
+    },
+    {
+      "slug": "borregaard-golfklubb",
+      "distanceKm": 26.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:06.531Z",
+    "createdAt": "2025-10-31T11:42:06.532Z",
+    "updatedAt": "2025-11-03T09:10:10.292Z"
+  }
+}

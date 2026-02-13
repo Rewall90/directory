@@ -1,0 +1,182 @@
+{
+  "slug": "bodo-golfklubb",
+  "name": "Bodø Golfklubb",
+  "formerName": null,
+  "region": "Nordland",
+  "city": "Tverlandet",
+  "municipality": "Bodø",
+  "country": "Norway",
+  "address": {
+    "street": "Ilstadgården 20",
+    "postalCode": "8050",
+    "area": "Ilstad"
+  },
+  "coordinates": {
+    "lat": 67.2764814,
+    "lng": 14.7369197,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 27,
+    "parPerRound": 54,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Lett kupert",
+    "courseType": "9-hulls par-3 bane (spilles to runder for 18 hull)",
+    "designer": null,
+    "yearBuilt": 2005,
+    "yearRedesigned": 2020,
+    "waterHazards": null,
+    "signatureHole": "Kystlandskap med utsikt",
+    "scenicHole": "Kystlandskap med utsikt",
+    "par3Count": 9,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Vakkert kystlandskap på Ilstad med utsikt over fjell og hav. Lett tilgjengelig bane ca. 20 km fra Bodø sentrum."
+  },
+  "description": "Innbydende og inkluderende 9-hulls par-3 bane på Ilstad, ca. 20 km fra Bodø sentrum. Opprinnelig 9-hullers bane åpnet i 2005, utvidet med nye tee-plasseringer i 2020 slik at banen nå har 18 hull (9 greener). Alle hull er par 3. Fin kortspillplass og overdekket drivingrange. Perfekt for både nybegynnere og erfarne spillere. Vakkert anlagt med utsikt over kystlandskapet.",
+  "contact": {
+    "phone": "+47 902 06 270",
+    "email": "bodogolfklubb@gmail.com",
+    "emailAlt": null,
+    "website": "https://bodogolfklubb.no/",
+    "facebook": "https://www.facebook.com/BodoGolfklubb/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 902 06 270",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Banen stenges når det er frost. Golf simulator tilgjengelig for vintertrening."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bodø",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Bodø Golfklubb",
+    "clubOrganization": "Bodø Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golf simulator tilgjengelig. Klubben investerte 1 million kroner i nye simulatorer.",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": 18,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 420,
+      "greenFeeWeekend": 420,
+      "greenFeeSenior": 420,
+      "greenFeeJunior": 180,
+      "greenFeeDescription": "18 hull: Voksen 420 NOK, Junior under 18: 180 NOK, Student under 30: 320 NOK, Barn 0-12: Gratis, Nordlige klubbmedlemmer: 320 NOK",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 27,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14191794998524795716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 68.7,
+      "slopeRating": 120,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 54
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "bodo-golfpark",
+      "distanceKm": 11.3
+    },
+    {
+      "slug": "polarsirkelen-golfklubb",
+      "distanceKm": 112.3
+    },
+    {
+      "slug": "sleneset-golfklubb",
+      "distanceKm": 138.2
+    },
+    {
+      "slug": "narvik-golfklubb",
+      "distanceKm": 155.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "89.5",
+    "websiteQuality": null,
+    "completenessPercentage": 89,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:38.380Z",
+    "createdAt": "2025-10-31T09:43:38.381Z",
+    "updatedAt": "2025-11-03T09:09:50.273Z"
+  }
+}

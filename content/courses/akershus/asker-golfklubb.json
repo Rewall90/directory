@@ -1,0 +1,186 @@
+{
+  "slug": "asker-golfklubb",
+  "name": "Asker Golfklubb",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "Asker",
+  "municipality": "Asker",
+  "country": "Norway",
+  "address": {
+    "street": "Høgåsveien 35",
+    "postalCode": "1383",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.83153,
+    "lng": 10.3887452,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 70,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kombinert park- og skogsbane",
+    "courseType": "Kombinert park- og skogsbane",
+    "designer": "Peter Chamberlain",
+    "yearBuilt": 1993,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Hull 18 - Askers signaturhull, slår knappe 110 meter over Finnsrudvannet og ned på greenen foran klubbhusets nye terasse",
+    "scenicHole": "Hull 18 - Askers signaturhull, slår knappe 110 meter over Finnsrudvannet og ned på greenen foran klubbhusets nye terasse",
+    "par3Count": 7,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Asker Golfklubb - 18-hulls kombinert park- og skogsbane ved Finnrudvannet, Brendsrudvannet og Hogstadvannet. Par 70, 5100m. Designet av Peter Chamberlain (1993). 7 par 3 hull. Signaturhull: Hull 18 (110m slag over Finnsrudvannet). Driving range, putting/chipping greens. PEGGEN Simulatorsenter. Klubbhus med Høgås Kafe, pro shop, garderober. Vaffelstand på banen"
+  },
+  "description": "Asker Golfklubb ligger fint til ved og rundt de tre små vannene Finnrudvannet, Brendsrudvannet og Hogstadvannet utenfor Asker. Den spilles som en kombinert park- og skogsbane og byr på utfordringer av alle typer. Hull 18 - Askers signaturhull, slår knappe 110 meter over Finnsrudvannet og ned på greenen foran klubbhusets nye terasse. 7 par 3 hull, variert bane med naturopplevelser. Vaffelstand (halfway house)",
+  "contact": {
+    "phone": "66 90 03 40",
+    "email": "agk@askergolf.no",
+    "emailAlt": null,
+    "website": "https://askergolf.no/",
+    "facebook": "https://www.facebook.com/askergolfklubb/",
+    "instagram": "https://www.instagram.com/askergolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "66 90 03 40",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "479 23 622",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "929 181 89",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "919 02 526",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Banen er stengt for i år! Takk for en veldig fin sesong! Simulatorsenteret er åpent for sesongen"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Asker",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Norge",
+    "clubOrganization": "Asker Golfklubb (Org.nr: 981663519). Stiftet 4. juni 1992. NGF-medlem nr 177"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Høgås Kafe",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "PEGGEN - Simulatorsenter. Innendørsanlegg",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 750,
+      "greenFeeWeekend": 850,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Hverdag kr 750, Helg kr 850. Junior: 50% av ordinær greenfee. Medlemsrabatt: kr 200, maks 3 gjester per medlem. Norges Seniorgolfklubb: kr 100 rabatt. Booking via EAGL-app eller Protime. Hverdag etter 15:00: kr 500. Helg etter 15:00: kr 500. Driving range: kr 30 (15 baller), kr 50 (30 baller), kr 60 (45 baller)",
+      "cartRental": 800400,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Trilleie: kr 75. Etter kl 15:00 både hverdag og helg: kr 500"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 170,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=10261378275213301515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "holtsmark-golfklubb",
+      "distanceKm": 8.5
+    },
+    {
+      "slug": "kjekstad-golfklubb",
+      "distanceKm": 9
+    },
+    {
+      "slug": "oustoen-country-club",
+      "distanceKm": 11.5
+    },
+    {
+      "slug": "ballerud-golfklubb",
+      "distanceKm": 13.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:07.949Z",
+    "createdAt": "2025-10-31T11:23:07.951Z",
+    "updatedAt": "2025-11-03T09:09:39.908Z"
+  }
+}

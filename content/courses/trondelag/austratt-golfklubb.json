@@ -1,0 +1,171 @@
+{
+  "slug": "austratt-golfklubb",
+  "name": "Austrått Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Opphaug",
+  "municipality": "Ørland",
+  "country": "Norway",
+  "address": {
+    "street": "Lundahaugveien 63",
+    "postalCode": "7140",
+    "area": "Austrått"
+  },
+  "coordinates": {
+    "lat": 63.7074053,
+    "lng": 9.7294276,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls parkland/skogsbane",
+    "designer": null,
+    "yearBuilt": 2008,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Utsikt over Trondheimsfjorden",
+    "scenicHole": "Utsikt over Trondheimsfjorden",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Driving range (gjenåpnet mai 2025), treningsgreen. Regelmessige turneringer inkl. scramble, fourball, klubbmesterskap og nattgolf."
+  },
+  "description": "9-hulls parkland/skogsbane i historiske Austrått-området med utsikt over Trondheimsfjorden. Planer om utvidelse til 18 hull.",
+  "contact": {
+    "phone": "+47 952 80 528",
+    "email": "post@austraattgolf.no",
+    "emailAlt": null,
+    "website": "https://austraattgolf.no/",
+    "facebook": "https://www.facebook.com/p/Austrått-Golfklubb-100063651903196/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 952 80 528",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Opphaug",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Austrått Golfklubb (Organisasjonsnummer: 887 167 192, Grunnlagt 1997)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 175,
+      "greenFeeDescription": "Samarbeidsavtaler: Klæbu GK 200 kr/dag, Stiklestad GK 20% rabatt, Steinkjer GK 50% rabatt.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Årlig medlemskap inkluderer 500 kr bidrag til utvikling av 18-hulls bane."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 17,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=6965006469817698187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hitra-golfklubb",
+      "distanceKm": 41.3
+    },
+    {
+      "slug": "trondheim-golfklubb",
+      "distanceKm": 43.7
+    },
+    {
+      "slug": "byneset-golfklubb",
+      "distanceKm": 44.6
+    },
+    {
+      "slug": "frosta-golfklubb",
+      "distanceKm": 54.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:48.972Z",
+    "createdAt": "2025-10-31T11:30:48.973Z",
+    "updatedAt": "2025-11-03T09:10:14.435Z"
+  }
+}

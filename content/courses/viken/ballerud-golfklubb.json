@@ -1,0 +1,212 @@
+{
+  "slug": "ballerud-golfklubb",
+  "name": "Ballerud Golf",
+  "formerName": null,
+  "region": "Viken",
+  "city": "Høvik",
+  "municipality": "Bærum",
+  "country": "Norway",
+  "address": {
+    "street": "Ballerud Allé 1b",
+    "postalCode": "1363",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.9070644,
+    "lng": 10.5821974,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 27,
+    "parPerRound": 27,
+    "lengthMeters": 966,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane",
+    "courseType": "9-hulls par 3 kortbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 9,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Kun 10 minutter fra Oslo. Intimt golfanlegg med fokus på trening og nærspill. Høy kvalitet. Terrassekafé med god utsikt."
+  },
+  "description": "Golfbane og treningsanlegg kun 10 minutter fra Oslo. Ballerud er det perfekte golfanlegget for travle mennesker. Vi har fokusert på trening og nærspill og har skapt et intimt golfanlegg med høy kvalitet. Parkbane med raske velholdte greener. Perfekt for nybegynnere som for elitespillere. Godkjent for regulering av HCP fra august 2024.",
+  "contact": {
+    "phone": "+47 67 10 61 10",
+    "email": "post@ballerud.no",
+    "emailAlt": "shop@ballerud.no",
+    "website": "https://ballerud.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 67 10 61 10",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 67 10 61 10 valg 2 (Kiosk/Booking)",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 67 10 61 10 valg 3 (Proshop)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 67 10 61 10 valg 4 (Kontor)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 40 03 27 15 (TTM Golf Academy)",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": "Oktober",
+    "winterUse": "Driving range åpen med lys. Kiosk og bane stengt for sesongen."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Oslo",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Ballerud Golf",
+    "clubOrganization": "Ballerud Golfklubb (Org.nr: 964 710 953)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": 270,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Terrassekafé",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 285,
+      "greenFeeWeekend": 285,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 175,
+      "greenFeeDescription": "Greenfee 2025: 9 hull gjest 285 kr, medlem 250 kr. Junior gjest 175 kr, medlem 140 kr. For 18 hulls spill må det bookes 2 runder av 9 hull.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Godkjent for regulering av HCP fra august 2024. Driving range 270m med 115 plasser. TTM Golf Academy kurser tilgjengelig."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "senior",
+        "price": 3850,
+        "description": "Medlemskap 2025: Senior 3850 kr, Ungdom/Student 20-25 år 2900 kr, Junior til og med 19 år 1900 kr (venteliste). Tillegg for Nordhaug banen: Voksen 1750 kr, Junior 850 kr. Alle medlemskap er personlige. Ingen aksje, andel eller bindingstid. Automatisk fornyelse hvis ikke skriftlig melding om utmelding innen 31/12.",
+        "ageRange": null
+      },
+      {
+        "category": "youth",
+        "price": 2900,
+        "description": "Medlemskap 2025: Senior 3850 kr, Ungdom/Student 20-25 år 2900 kr, Junior til og med 19 år 1900 kr (venteliste). Tillegg for Nordhaug banen: Voksen 1750 kr, Junior 850 kr. Alle medlemskap er personlige. Ingen aksje, andel eller bindingstid. Automatisk fornyelse hvis ikke skriftlig melding om utmelding innen 31/12.",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 1900,
+        "description": "Medlemskap 2025: Senior 3850 kr, Ungdom/Student 20-25 år 2900 kr, Junior til og med 19 år 1900 kr (venteliste). Tillegg for Nordhaug banen: Voksen 1750 kr, Junior 850 kr. Alle medlemskap er personlige. Ingen aksje, andel eller bindingstid. Automatisk fornyelse hvis ikke skriftlig melding om utmelding innen 31/12.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 171,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=17563386768915917305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "nordhaug-golfklubb",
+      "distanceKm": 3.4
+    },
+    {
+      "slug": "haga-golfklubb",
+      "distanceKm": 3.9
+    },
+    {
+      "slug": "oustoen-country-club",
+      "distanceKm": 4.3
+    },
+    {
+      "slug": "grini-golfklubb",
+      "distanceKm": 5.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:08.550Z",
+    "createdAt": "2025-10-31T11:23:08.551Z",
+    "updatedAt": "2025-11-03T09:09:55.258Z"
+  }
+}

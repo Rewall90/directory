@@ -1,0 +1,265 @@
+{
+  "slug": "north-cape-golf-club",
+  "name": "North Cape Golf Club",
+  "formerName": null,
+  "region": "Finnmark",
+  "city": "Lakselv",
+  "municipality": "Porsanger",
+  "country": "Norway",
+  "address": {
+    "street": "9711 Lakselv",
+    "postalCode": "9711",
+    "area": "Banak"
+  },
+  "coordinates": null,
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 2800,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Links - flat med vannhindringer",
+    "courseType": "9-hulls linksbane",
+    "designer": null,
+    "yearBuilt": 2010,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": "Linksbane ved havet",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "North Cape Golf Club - Verdens nordligste linksbane! Banak Links Golfpark - autentisk 9-hulls linksbane i sanddynelandskap ved havet i Lakselv. Par 72 (18h). Åpnet 2010. Omfattende treningsområde: Driving range (15 tees), putting green, pitching green, chipping green, practice bunker. VTG-kurs og juniorprogram. Del av Finnmark Golf Tour."
+  },
+  "description": "North Cape Golf Club - Verdens nordligste linksbane!\n\nBanak Links Golfpark ligger vakkert til i sanddynelandskap ved havet, øst for Lakselv lufthavn (Banak) på 70 grader nord.\n\n9-hulls autentisk linksbane med par 36. Lengde: Gul tee 2.800m, Blå tee 2.469m, Rød tee 2.205m.\n\nKlubben ble stiftet 7. juli 1997 som Finnmarks første golfklubb. Dagens bane åpnet 13. august 2010.\n\nSpill golf under midnattssolen på verdens nordligste linksbane - en unik opplevelse i ekte skotsk linkstradisjon.",
+  "contact": {
+    "phone": "+47 99 55 95 88",
+    "email": "post@northcape-golfclub.no",
+    "emailAlt": null,
+    "website": "https://northcape-golfclub.no/",
+    "facebook": "https://www.facebook.com/northcapegolfclub/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 995 59 588",
+      "type": "alternate",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Lakselv",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Banak Links Golfpark",
+    "clubOrganization": "North Cape Golf Club (Grunnlagt 1997)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "Driving range med 15 tee-plasser",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": null,
+    "restaurant": null,
+    "restaurantName": "",
+    "clubRental": null,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": null,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 175,
+      "greenFeeDescription": "GREENFEE GJESTER 2025:\n\nVOKSNE:\n• Ukegreenfee: 1.000 kr\n• Dagsgreenfee (18 hull): 350 kr\n• 9 hull: 250 kr\n\nJUNIOR (15-19 år):\n• Ukegreenfee: 500 kr\n• Dagsgreenfee (18 hull): 175 kr\n• 9 hull: 125 kr\n\nRABATT: 50 kr rabatt for fjernmedlemmer og medlemmer av samarbeidende nordnorske golfklubber.\n\nLOKALE MEDLEMMER:\n• Årsgreenfee: 2.000 kr\n• Dagsgreenfee (18 hull): 250 kr\n• 9 hull: 150 kr\n• Junior (under 19): Gratis",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Barn (lokal)",
+        "price": 100,
+        "description": null,
+        "ageRange": "0-14"
+      },
+      {
+        "category": "Junior (lokal)",
+        "price": 100,
+        "description": null,
+        "ageRange": "15-19"
+      },
+      {
+        "category": "Voksen (lokal)",
+        "price": 1400,
+        "description": null,
+        "ageRange": "20-66"
+      },
+      {
+        "category": "Pensjonist/student/militær (lokal)",
+        "price": 1000,
+        "description": null,
+        "ageRange": "67+ / 20-25"
+      },
+      {
+        "category": "Ektefelle/samboer (lokal)",
+        "price": 1000,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Barn/junior (fjern)",
+        "price": 400,
+        "description": null,
+        "ageRange": "0-19"
+      },
+      {
+        "category": "Ektefelle/samboer (fjern)",
+        "price": 600,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Voksen (fjern)",
+        "price": 1000,
+        "description": null,
+        "ageRange": "20-99"
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 5,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3001109536598576256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 36
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 36
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 36
+    }
+  ],
+  "nearbyCourses": [],
+  "additionalFeatures": [
+    {
+      "feature": "Verdens nordligste linksbane",
+      "description": "Beliggende på 70 grader nord"
+    },
+    {
+      "feature": "Autentisk linksbane",
+      "description": "Sanddynelandskap ved havet i ekte skotsk tradisjon"
+    },
+    {
+      "feature": "Finnmarks første golfklubb",
+      "description": "Stiftet 7. juli 1997"
+    },
+    {
+      "feature": "Midnattssol-golf",
+      "description": "Spill golf under midnattssolen om sommeren"
+    },
+    {
+      "feature": "Finnmark Golf Tour",
+      "description": "Del av regional golfturnering"
+    },
+    {
+      "feature": "Golfskole for juniorer",
+      "description": "Tilbyr ungdomsgolfprogrammer"
+    },
+    {
+      "feature": "VTG nybegynnerkurs",
+      "description": "1.200 kr voksne, 400 kr ungdom. Inkluderer første års medlemskap og fritt spill"
+    },
+    {
+      "feature": "Gratis spill for juniorer",
+      "description": "Lokale medlemmer under 19 år spiller gratis"
+    }
+  ],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2026-02-12T07:27:57.339Z",
+    "createdAt": "2025-10-30T10:55:19.086Z",
+    "updatedAt": "2026-02-12T07:27:57.587Z"
+  }
+}

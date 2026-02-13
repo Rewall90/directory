@@ -1,0 +1,176 @@
+{
+  "slug": "tonsberg-golfklubb",
+  "name": "Tønsberg Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Ramnes",
+  "municipality": "Re",
+  "country": "Norway",
+  "address": {
+    "street": "Reine Gård",
+    "postalCode": "3175",
+    "area": "Reine Gård"
+  },
+  "coordinates": {
+    "lat": 59.3333865,
+    "lng": 10.3061414,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls park- og skogsbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Intim og landlig bane på Reine Gård",
+    "scenicHole": "Intim og landlig bane på Reine Gård",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Tønsberg Golfklubb - Re Golfbane på Reine Gård i Ramnes. 9-hulls intim og landlig park/skogsbane. Vennlig og folkelig miljø, enkel kontakt med andre spillere. Lett adkomst, gode parkeringsforhold. Sjelden stor og spennende driving range, stor putting green, sandbunkere. Klubbhus med touchskjerm for tee-tid booking. Pro shop med enkelt golfutstyr. Servering av pølser, toast, vafler. VTG-kurs for alle aldre."
+  },
+  "description": "Tønsberg Golfklubb - Re Golfbane. 9-hulls park- og skogsbane på Reine Gård i Ramnes. Tilrettelagt for både erfarne og uerfarne spillere. Intim og landlig bane med vennlig og folkelig miljø. Enkel kontakt med andre golfspillere. Lett adkomst og gode parkeringsforhold.",
+  "contact": {
+    "phone": "+47 33 39 63 24",
+    "email": "post@tonsberggolf.no",
+    "emailAlt": null,
+    "website": "https://tonsberggolf.no/",
+    "facebook": "https://www.facebook.com/Tønsberg-Golfklubb/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 33 39 63 24",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 41 41 00 04",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Tønsberg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Tønsberg Golfklubb (Organisasjonsnummer: 883 593 022)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Servering av pølser, toast og vafler i klubbhuset",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Tee-tid obligatorisk via Golfbox. Greenfee-samarbeid med flere klubber (Tjøme, Norsjø m.fl.). Kontakt klubben for priser på post@tonsberggolf.no.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "VTG-kurs (Veien til Golf) deltakere får 50% rabatt på medlemskap de 2 første årene. Sjelden stor driving range. Klubbhus med touchskjerm for tee-tid booking og scorekortuskriving."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 45,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9454353870735352445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "borre-golfklubb",
+      "distanceKm": 11
+    },
+    {
+      "slug": "notteroy-golfklubb",
+      "distanceKm": 13
+    },
+    {
+      "slug": "husoya-golfklubb",
+      "distanceKm": 14
+    },
+    {
+      "slug": "solum-golfklubb",
+      "distanceKm": 14.9
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "85.0",
+    "websiteQuality": null,
+    "completenessPercentage": 85,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:45.983Z",
+    "createdAt": "2025-10-31T09:10:45.985Z",
+    "updatedAt": "2025-11-03T09:10:06.770Z"
+  }
+}

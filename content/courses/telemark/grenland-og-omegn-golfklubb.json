@@ -1,0 +1,182 @@
+{
+  "slug": "grenland-og-omegn-golfklubb",
+  "name": "Grenland & Omegn Golfklubb",
+  "formerName": "Telemark Golfpark",
+  "region": "Telemark",
+  "city": "Skien",
+  "municipality": "Skien",
+  "country": "Norway",
+  "address": {
+    "street": "Luksefjellveien 578",
+    "postalCode": "3721",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.268066,
+    "lng": 9.574555,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 5977,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Park og skog",
+    "courseType": "Parkland/Woodland",
+    "designer": "Jan Sederholm",
+    "yearBuilt": 1994,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Slag i slag for trivsel og helse! 18-hulls parkbane/skogbane.",
+  "contact": {
+    "phone": "+47 35 59 03 00",
+    "email": "post@grenlandgolf.no",
+    "emailAlt": null,
+    "website": "https://grenlandgolf.no",
+    "facebook": "https://www.facebook.com/GrenlandGolf/",
+    "instagram": "https://www.instagram.com/grenlandgolf/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 35 59 03 00",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Skien",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Grenland og Omegn Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": true,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 95,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=5763115272837570088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "White",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 73.9,
+      "slopeRating": 143,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "norsjo-golfklubb",
+      "distanceKm": 17.9
+    },
+    {
+      "slug": "bamble-golfklubb",
+      "distanceKm": 35
+    },
+    {
+      "slug": "larvik-golfklubb",
+      "distanceKm": 36.2
+    },
+    {
+      "slug": "sandefjord-golfklubb",
+      "distanceKm": 38.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T12:22:39.201Z",
+    "createdAt": "2025-10-31T12:22:39.203Z",
+    "updatedAt": "2025-11-03T09:10:09.373Z"
+  }
+}

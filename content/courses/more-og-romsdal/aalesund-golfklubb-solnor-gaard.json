@@ -1,0 +1,222 @@
+{
+  "slug": "aalesund-golfklubb-solnor-gaard",
+  "name": "Ålesund Golfklubb - Solnør Gaard Golfbane",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Ålesund",
+  "municipality": "Ålesund",
+  "country": "Norway",
+  "address": {
+    "street": "Solnørvegen 34",
+    "postalCode": "6260",
+    "area": "Skodje"
+  },
+  "coordinates": {
+    "lat": 62.0042,
+    "lng": 6.1289,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 6071,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert",
+    "courseType": "Skog- og parkbane",
+    "designer": null,
+    "yearBuilt": 1995,
+    "yearRedesigned": 2004,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Vakker skog- og parkbane med naturlig terreng i Skodje. En av Norges vakreste golfbaner, lokalisert ca. 30 minutter fra Ålesund sentrum."
+  },
+  "description": "Variert og utfordrende 18-hulls bane med naturlig terreng. Opprinnelig 9-hullers bane åpnet i 1995, utvidet til 18 hull i 2004. Banen byr på flott natur og god variasjon.",
+  "contact": {
+    "phone": "+47 90 20 55 00",
+    "email": "klubbadministrasjon@aalesundgk.no",
+    "emailAlt": null,
+    "website": "https://aalesundgk.no/",
+    "facebook": "https://www.facebook.com/aalesundgk.no/",
+    "instagram": "https://www.instagram.com/aalesundgolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 90 20 55 00",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "12. oktober",
+    "winterUse": "Banen er stengt for sesongen fra oktober til vår. Golf simulator tilgjengelig på Moa Golfsenter hele året."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Ålesund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Ålesund Golfklubb",
+    "clubOrganization": "Ålesund Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Golfkroa",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golf simulator tilgjengelig på Moa Golfsenter. Booking via Alba app eller direkte kontakt.",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": 500,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "Greenfee: 500 kr for 18 hull, 300 kr for 9 hull. Junior betaler halv pris (250 kr for 18 hull). Medlemmer: 350 kr for 18 hull, 250 kr for 9 hull.",
+      "cartRental": 450,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 28,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12185400228986319842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 74.1,
+      "slopeRating": 150,
+      "lengthYards": null,
+      "lengthMeters": 6071,
+      "par": 72
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 71.1,
+      "slopeRating": 147,
+      "lengthYards": null,
+      "lengthMeters": 5564,
+      "par": 72
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 69.8,
+      "slopeRating": 140,
+      "lengthYards": null,
+      "lengthMeters": 5163,
+      "par": 72
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 67,
+      "slopeRating": 135,
+      "lengthYards": null,
+      "lengthMeters": 4669,
+      "par": 72
+    },
+    {
+      "teeColor": "grønn",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 63.9,
+      "slopeRating": 133,
+      "lengthYards": null,
+      "lengthMeters": 3898,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "nordfjord-golfklubb",
+      "distanceKm": 12.1
+    },
+    {
+      "slug": "volda-golfklubb",
+      "distanceKm": 15.1
+    },
+    {
+      "slug": "vanylven-golfklubb",
+      "distanceKm": 26.5
+    },
+    {
+      "slug": "sandane-golfklubb",
+      "distanceKm": 28.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "94.5",
+    "websiteQuality": null,
+    "completenessPercentage": 94,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:12.699Z",
+    "createdAt": "2025-10-31T09:31:12.700Z",
+    "updatedAt": "2025-11-03T09:09:45.565Z"
+  }
+}

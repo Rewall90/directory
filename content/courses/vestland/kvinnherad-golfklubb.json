@@ -1,0 +1,202 @@
+{
+  "slug": "kvinnherad-golfklubb",
+  "name": "Kvinnherad Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Husnes",
+  "municipality": "Kvinnherad",
+  "country": "Norway",
+  "address": {
+    "street": "Onarheimsvegen 183",
+    "postalCode": "5460",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.861699,
+    "lng": 5.76528,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 34,
+    "parPerRound": 68,
+    "lengthMeters": 2404,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls park/skogsbane",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Ved munninga av Hardangerfjorden",
+    "scenicHole": "Ved munninga av Hardangerfjorden",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Kvinnherad Golfklubb - 9-hulls park/skogsbane i Husnes grunnlagt 1999. Par 34 (68 for 18h), 2404m. Ved munninga av Hardangerfjorden, midt på Vestlandet. Driving range, putting/chipping greens, practice bunker. Klubbhus med dusj, pro shop, selskapsrom. Teaching pro. Tralle-utleie. Handicap-grense 54. Åpent året rundt."
+  },
+  "description": "Kvinnherad Golfklubb - 9-hulls park/skogsbane grunnlagt 1999 i Husnes. Par 34 (68 for 18 hull når spilt 2 ganger), 2404 meter. Banen kan spilles to ganger for å gjøre 18 hull. I munninga av Hardangerfjorden, rett ved båthavna på Husnes. Midt på Vestlandet.",
+  "contact": {
+    "phone": "+47 90 52 66 59",
+    "email": "post@golfen.no",
+    "emailAlt": "kvgk@frisurf.no",
+    "website": "https://golfen.no/",
+    "facebook": "https://www.facebook.com/golfen.no/",
+    "instagram": "https://www.instagram.com/golfen.no/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 90 52 66 59",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 90 10 98 34",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 53 48 03 70",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Åpent året rundt"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Kvinnherad Golfklubb (Grunnlagt 1999)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 18 hull 300 kr (alle dager), 9 hull 200 kr (alle dager). Klubbmedlem hel dag 200 kr. Handicap-grense 54, gyldig handicapbevis påkrevd.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Lokalisert i munninga av Hardangerfjorden ved båthavna på Husnes. Selskapsrom tilgjengelig."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.1,
+      "reviewCount": 34,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14196005768965287733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul / Yellow",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 33.2,
+      "slopeRating": 135,
+      "lengthYards": null,
+      "lengthMeters": 2404,
+      "par": 34
+    },
+    {
+      "teeColor": "Rød / Red",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 63.6,
+      "slopeRating": 126,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 34
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "stord-golfklubb",
+      "distanceKm": 15.2
+    },
+    {
+      "slug": "tysnes-golf",
+      "distanceKm": 21
+    },
+    {
+      "slug": "sauda-golfklubb",
+      "distanceKm": 39
+    },
+    {
+      "slug": "suldal-golfklubb",
+      "distanceKm": 39
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:58.139Z",
+    "createdAt": "2025-10-31T10:16:58.140Z",
+    "updatedAt": "2025-11-03T09:09:57.694Z"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "skei-golfklubb",
+  "name": "Skei Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Svingvoll",
+  "municipality": "Svingvoll",
+  "country": "Norway",
+  "address": {
+    "street": "Segalstadsetervegen 62A",
+    "postalCode": "2652",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 61.3361548,
+    "lng": 10.0912783,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Fjellterreng",
+    "courseType": "18-hulls høyfjellsbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Nordens høyest beliggende 18-hulls golfbane på 860 M.O.H."
+  },
+  "description": "Nordens høyest beliggende 18-hulls golfbane på 860 M.O.H. Trysilfjellet Golfbane ligger flott til ved foten av Trysilfjellet.",
+  "contact": {
+    "phone": "416 35 416",
+    "email": "info@skeigolf.no",
+    "emailAlt": null,
+    "website": "https://skeigolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "416 35 416",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Sesongstart",
+    "end": "26.9",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Svingvoll, Skeikampen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Skei Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee information available on website",
+      "cartRental": 360,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Medlemskap rekrutteringskampanje for nybegynnere: Inkluderer gratis spill på banen første år. Voksen: 2700 kr, Ungdom 19-26 år: 2100 kr, Junior til 18 år: 1250 kr"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.1,
+      "reviewCount": 24,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7579084415681826113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hafjell-golfklubb",
+      "distanceKm": 22
+    },
+    {
+      "slug": "mjosen-golfklubb",
+      "distanceKm": 54.2
+    },
+    {
+      "slug": "valdres-golfklubb",
+      "distanceKm": 60.1
+    },
+    {
+      "slug": "sorknes-golfklubb",
+      "distanceKm": 69
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:13.660Z",
+    "createdAt": "2025-10-31T07:18:13.662Z",
+    "updatedAt": "2025-11-03T09:09:49.212Z"
+  }
+}

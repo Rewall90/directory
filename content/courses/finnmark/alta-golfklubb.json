@@ -1,0 +1,207 @@
+{
+  "slug": "alta-golfklubb",
+  "name": "Alta Golfklubb",
+  "formerName": null,
+  "region": "Finnmark",
+  "city": "Alta",
+  "municipality": "Alta",
+  "country": "Norway",
+  "address": {
+    "street": "Kvenvikmoen 17",
+    "postalCode": "9541",
+    "area": null
+  },
+  "coordinates": null,
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": "9-hulls bane med 4 ulike tees per hull, 6-hulls kortbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Alta Golfklubb er en 9-hulls bane med 4 ulike tees per hull i Alta, Finnmark. Ved å spille 2 runder spiller man fra 18 ulike tees. 6-hulls kortbane. Del av Alta Golfpark med aktivitetspark: 9h frisbee golf, 6h fotballgolf, 9h minigolf (gratis for barn/ungdom/studenter). Driving range, putting green, simulator. Klubbhus åpent 09:00-19:00 daglig. Banen åpen 24 timer. VTG-kurs tilbys."
+  },
+  "description": "Alta Golfklubb er en 9-hulls bane med 4 ulike tees på hvert hull i Alta, Finnmark. Ved å spille 2 runder får man spill fra 18 ulike tees. I tillegg 6-hulls kortbane. Del av Alta Golfpark med aktivitetspark (9h frisbee golf, 6h fotballgolf, 9h minigolf). Besøkende velkommen daglig. Åpent 24 timer.",
+  "contact": {
+    "phone": "+47 977 64 229",
+    "email": "post@altagolf.no",
+    "emailAlt": "altagolfklubb@ebilag.com",
+    "website": "https://altagolfklubb.no/",
+    "facebook": "https://www.facebook.com/groups/112430008956952/",
+    "instagram": "https://www.instagram.com/altagolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "Juni",
+    "end": "September",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Alta",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Alta Golfpark AS (Org.nr: 993 033 944)",
+    "clubOrganization": "Alta Golfklubb (Organisasjonsnummer: 990 198 152)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": "",
+    "clubRental": null,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": 6,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee ca 400 kr (18 hull), 300 kr (9 hull) - nøyaktige 2025-priser finnes i TidyPay. Gruppepris: 300 kr per spiller for Hammerfest/Kvalsund GK medlemmer når 6+ spillere. Aktivitetsparken (minigolf, frisbee golf, fotballgolf, kortbane) gratis for barn, ungdom og studenter.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": 1900,
+      "specialOfferIncludes": "VTG-deltakere får årskort for 9-hulls bane til 1900 kr - gyldig det året og påfølgende år",
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 2800,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "secondAdultInHousehold",
+        "price": 2200,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "youngAdult",
+        "price": 1700,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 900,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "child",
+        "price": 350,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "remoteMember",
+        "price": 1800,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "supportingMember",
+        "price": 1000,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "annualCoursePass",
+        "price": 3900,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "monthlyCoursePass",
+        "price": 1200,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "vtgAnnualCard",
+        "price": 1900,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 90,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3754421360210257226&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-30T09:36:46.551Z",
+    "createdAt": "2025-10-30T09:36:46.555Z",
+    "updatedAt": "2025-10-30T09:36:46.555Z"
+  }
+}

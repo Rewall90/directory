@@ -1,0 +1,212 @@
+{
+  "slug": "stavanger-golfklubb",
+  "name": "Stavanger Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Hafrsfjord",
+  "municipality": "Stavanger",
+  "country": "Norway",
+  "address": {
+    "street": "Store Stokkavann",
+    "postalCode": "4042",
+    "area": "Store Stokkavann"
+  },
+  "coordinates": {
+    "lat": 58.958021,
+    "lng": 5.662528,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": 5758,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parklandskap/Skogslandskap",
+    "courseType": "18-hulls parkbane",
+    "designer": "Fred Smith",
+    "yearBuilt": 1956,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Park- og skogslandskap ved Store Stokkavann",
+    "scenicHole": "Park- og skogslandskap ved Store Stokkavann",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Stavanger Golfklubb - aktiv og tradisjonsrik golfklubb grunnlagt 1956. 18-hulls parkbane designet av Fred Smith, 5 km fra Stavanger sentrum ved Store Stokkavann. Par 71, lett kupert terreng med vannhindringer. Vanskelighetsgrad moderat-utfordrende. Driving range, simulator, Café 19th Hole, Gårdsmat restaurant, treningsområder, pro shop, konferanserom."
+  },
+  "description": "Stavanger Golfklubb - En aktiv og tradisjonsrik golfklubb for alle. 18-hulls parkbane designet av Fred Smith, grunnlagt 1956. Par 71, lengde 5758m (hvit), 5551m (gul). Ligger 5 km fra Stavanger sentrum i rolige omgivelser nær Store Stokkavann. Lett kupert terreng med vannhindringer. Vanskelighetsgrad moderat til utfordrende.",
+  "contact": {
+    "phone": "+47 51 93 91 00",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://sgk.no/",
+    "facebook": "https://www.facebook.com/StavangerGK/",
+    "instagram": "https://www.instagram.com/stavangergk/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 51 93 91 00",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Stavanger",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Stavanger Golfklubb (Organisasjonsnummer: 969 939 274)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Café 19th Hole og Gårdsmat restaurant",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee priser tilgjengelig i Golfbox. Medlemmer kan bruke GolfMore-app for greenfee-tilbud til gjestespillere. Booking via Golfbox.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 59,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=673734375624094433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 70.5,
+      "slopeRating": 131,
+      "lengthYards": null,
+      "lengthMeters": 5758,
+      "par": 71
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 69.8,
+      "slopeRating": 130,
+      "lengthYards": null,
+      "lengthMeters": 5551,
+      "par": 71
+    },
+    {
+      "teeColor": "svart",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 73.5,
+      "slopeRating": 132,
+      "lengthYards": null,
+      "lengthMeters": 5156,
+      "par": 71
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 71.8,
+      "slopeRating": 128,
+      "lengthYards": null,
+      "lengthMeters": 4871,
+      "par": 71
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "sola-golfklubb",
+      "distanceKm": 7.5
+    },
+    {
+      "slug": "randaberg-golfklubb",
+      "distanceKm": 8.9
+    },
+    {
+      "slug": "sandnes-golfklubb",
+      "distanceKm": 9.7
+    },
+    {
+      "slug": "preikestolen-golfklubb",
+      "distanceKm": 26
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "87.0",
+    "websiteQuality": null,
+    "completenessPercentage": 87,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:27.632Z",
+    "createdAt": "2025-10-31T07:46:27.633Z",
+    "updatedAt": "2025-11-03T09:09:53.582Z"
+  }
+}

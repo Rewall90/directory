@@ -1,0 +1,186 @@
+{
+  "slug": "smola-golfklubb",
+  "name": "Smøla Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Smøla",
+  "municipality": "Smøla",
+  "country": "Norway",
+  "address": {
+    "street": "Dyrnesdalen",
+    "postalCode": "6570",
+    "area": "Dyrnes"
+  },
+  "coordinates": {
+    "lat": 63.42288689999999,
+    "lng": 7.858584399999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 33,
+    "parPerRound": 33,
+    "lengthMeters": 1885,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogsbane",
+    "courseType": "9-hulls golfbane",
+    "designer": null,
+    "yearBuilt": 2003,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Kystnært landskap med naturskjønne omgivelser",
+    "scenicHole": "Kystnært landskap med naturskjønne omgivelser",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Kystnært landskap med naturskjønne omgivelser i skogsterreng, godt beskyttet mot vind"
+  },
+  "description": "9-hulls utfordrende skogsbane i Dyrnesdalen på vestsiden av Smøla. Banen er godt beskyttet mot vær og vind. Klubben ble grunnlagt i 2001 av Nils Baadnes og Frode Roksvåg, og Dyrnesvågen Golfbane åpnet i påsken 2003. Banen ble offisielt slope-beregnet av Norges Golfforbund i 2005 og godkjent som klubb #168. Røde og gule teer er tilgjengelige på alle hull. Benker er plassert ved tee-stedene. Nylig oppgradert med ny design.",
+  "contact": {
+    "phone": null,
+    "email": "post@smolagolfklubb.no",
+    "emailAlt": null,
+    "website": "https://smolagolfklubb.no/",
+    "facebook": "https://www.facebook.com/groups/6615050778/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "Påsken",
+    "end": "Oktober",
+    "winterUse": "Simulator tilgjengelig for vintertrening"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Hopen, Smøla",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Smøla Golfklubb",
+    "clubOrganization": "Smøla Golfklubb (Org.nr 887 635 072)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": "Kiosk (åpent under arrangementer)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": false,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Senior/voksen: 300 kr/dag. Junior: 150 kr/dag (gratis for klubbjuniorer). Samarbeidsklubber: 150 kr. Klubbmedlemmer: 100 kr/dag.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Redusert pris for samarbeidsklubber"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 3.8,
+      "reviewCount": 4,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=8843333670719262304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 30.8,
+      "slopeRating": 118,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 33
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 30.2,
+      "slopeRating": 112,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 33
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "kristiansund-og-omegn-golfklubb",
+      "distanceKm": 34.7
+    },
+    {
+      "slug": "tingvoll-golfklubb",
+      "distanceKm": 46.5
+    },
+    {
+      "slug": "hitra-golfklubb",
+      "distanceKm": 58.5
+    },
+    {
+      "slug": "molde-golfklubb",
+      "distanceKm": 80.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "89.0",
+    "websiteQuality": null,
+    "completenessPercentage": 89,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:09.605Z",
+    "createdAt": "2025-10-31T09:31:09.606Z",
+    "updatedAt": "2025-11-03T09:09:37.686Z"
+  }
+}

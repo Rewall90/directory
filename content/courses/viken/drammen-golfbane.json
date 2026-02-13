@@ -1,0 +1,242 @@
+{
+  "slug": "drammen-golfbane",
+  "name": "Drammen Golfbane",
+  "formerName": null,
+  "region": "Viken",
+  "city": "Drammen",
+  "municipality": "Drammen",
+  "country": "Norway",
+  "address": {
+    "street": "Vollsbekk 40",
+    "postalCode": "3039",
+    "area": null
+  },
+  "coordinates": null,
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": 5800,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Forest and park course",
+    "courseType": "18-hulls mesterskaps parkbane",
+    "designer": "Jeremy Turner",
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": null,
+    "viewDescription": null
+  },
+  "description": "Variert og morsom 18-hulls PAR-71 bane designet av den anerkjente arkitekten Jeremy Turner. Banen er spillbar med både hode og hjerte, og passer for alle nivåer.\n\n📏 LENGDE: 4700-5800 meter avhengig av tee-valg\n\n🏔️ KJENNETEGN:\n• Utfordrende skråninger og betydelige høydeforskjeller\n• Vakre naturopplevelser i skog- og parkterreng\n• Variert vanskelighetsgrad\n• Naturskjønn bane\n\n📍 PLASSERING: Skoger, 1,5 km sør for Drammen sentrum\n\n⚠️ KRAV FOR SPILL: Alle spillere må ha gjennomført VTG-kurs eller ha handicap 54 eller bedre.",
+  "contact": {
+    "phone": "32 88 03 03",
+    "email": "post@drammen.golf",
+    "emailAlt": null,
+    "website": "https://drammengk.no",
+    "facebook": "https://www.facebook.com/Drammengolfbane/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "32 88 03 03",
+      "type": "admin_proshop",
+      "primary": true
+    },
+    {
+      "number": "95 22 19 40",
+      "type": "general_manager",
+      "primary": false
+    },
+    {
+      "number": "95 26 76 91",
+      "type": "cafe",
+      "primary": false
+    },
+    {
+      "number": "463 20 597",
+      "type": "instruktør_fredrik",
+      "primary": false
+    },
+    {
+      "number": "908 56 501",
+      "type": "instruktør_knut",
+      "primary": false
+    },
+    {
+      "number": "952 66 110",
+      "type": "instruktør_marius",
+      "primary": false
+    },
+    {
+      "number": "932 25 769",
+      "type": "instruktør_douglas",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Drammen",
+    "distanceFromCenter": "1,5 km sør"
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": null
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": 250,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Hannes Café og Golfshop",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": true,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": null,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 550,
+      "greenFeeWeekend": 600,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 275,
+      "greenFeeDescription": "18 HULL:\n• Hverdag: 550 NOK\n• Helg: 600 NOK\n• Junior: 275 NOK (halv pris alle dager)\n\n9 HULL:\n• Hverdag: 300 NOK\n• Helg: 400 NOK\n• Junior: 150/200 NOK (halv pris)\n\nMEDLEM MED GJEST (maks 3 gjester):\n• Hverdag: 500 NOK per gjest\n• Helg: 550 NOK per gjest\n• Gjest må være forhåndsbestilt",
+      "cartRental": 420,
+      "pullCartRental": 100,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "GOLFBIL (2025):\n• 18 hull standard: 420 NOK\n• 18 hull medlem: 350 NOK\n• 18 hull med legeerklæring: 250 NOK\n• 9 hull: 200 NOK\n• Booking via EAGL app\n• Aldersgrense 18 år\n• Kjøring rundt greener forbudt\n\nTREKKBIL: 100 NOK\n\nBETALING: Forskuddsbetaling kreves ved booking i Golfbox\n\nINNSJEKK: Møt opp minimum 10 minutter før tee time i pro shop\n\nBOOKING:\n• Medlemmer: 10 dager i forveien\n• Gjester: 6 dager i forveien\n\nSTORE GRUPPER: 12-24 greenfee-spillere må kontakte klubben på 32 88 03 03 eller post@drammen.golf"
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "voksen",
+        "price": 8000,
+        "description": "Full membership with unlimited play, current season",
+        "ageRange": "26+"
+      },
+      {
+        "category": "ung_voksen",
+        "price": 4500,
+        "description": "Unlimited play for ages 20-25",
+        "ageRange": "20-25"
+      },
+      {
+        "category": "junior",
+        "price": 2500,
+        "description": "Unlimited play for ages 13-19",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "knotter",
+        "price": 700,
+        "description": "Unlimited play for ages 0-12",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "klubbmedlemskap",
+        "price": 3000,
+        "description": "For those who don't play as much golf",
+        "ageRange": null
+      },
+      {
+        "category": "hverdag",
+        "price": 5000,
+        "description": "Limited play rights - weekdays only",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {},
+  "courseRatings": [],
+  "nearbyCourses": [],
+  "additionalFeatures": [
+    {
+      "feature": "Instruktører",
+      "description": "TRENERTEAM:\n\nHEAD PROS:\n• Fredrik de Sousa - Tlf: 463 20 597\n• Knut Schiager - Tlf: 908 56 501\n• Marius Tandberg - Tlf: 952 66 110\n\nPRO:\n• Douglas Craig - Tlf: 932 25 769\n  Lang erfaring med å hjelpe både nybegynnere og konkurransespillere\n\nTRENINGSOPPLEGG:\n• VTG-kurs (Veien til Golf) for nybegynnere\n• Gruppetreninger\n• Sommertreningsprogrammer\n• Demo-dager\n• Gratis trening for juniorer 1-2 ganger per uke (inkludert i medlemskap)"
+    },
+    {
+      "feature": "Hannes Café og Golfshop",
+      "description": "KAFÉ OG SERVERING:\n• Ferske matvarer og varm mat\n• Kaffe og iskrem\n• Inne- og uteplasser\n• Kafé-terrasse\n\nSPESIELT: Du kan forhåndsbestille varm mat som serveres underveis i runden!\n\nKONTAKT:\n• Manager: Hanne Ødegaard\n• Tlf: 95 26 76 91\n• E-post: hanne.odegaard@drammen.golf\n\nPRO SHOP:\nGodt utstyrt pro shop med utstyr for å slå ballen og forbedre scoren."
+    },
+    {
+      "feature": "Golfbiler",
+      "description": "20 ELEKTRISKE CLUB CAR GOLFBILER:\n\n• Booking og bruk via EAGL app\n• Aldersgrense: 18 år minimum\n• Kjøreforbud: Områder rundt greener\n\nPRISER 2025:\n• 18 hull standard: 420 NOK\n• 18 hull medlem: 350 NOK\n• 18 hull med legeerklæring: 250 NOK\n• 9 hull alle: 200 NOK"
+    },
+    {
+      "feature": "Øvingsanlegg",
+      "description": "DRIVING RANGE:\n• 32 plasser\n• God kapasitet for trening\n\nØVINGSOMRÅDER:\n• Putting green\n• Chipping area\n• Treningsbunkere\n• Pitching-område\n\nMedlemmer får rabatterte priser på driving range."
+    }
+  ],
+  "sponsors": [],
+  "sources": [
+    {
+      "type": "official_website",
+      "url": "https://drammengk.no/",
+      "dataObtained": [
+        "contact_info",
+        "course_details",
+        "pricing",
+        "facilities",
+        "membership",
+        "training_team"
+      ],
+      "pagesScraped": 8,
+      "scrapedAt": "2025-10-22T12:33:18.917Z"
+    }
+  ],
+  "meta": {
+    "dataQuality": "high",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 75,
+    "pagesScraped": 8,
+    "scrapedAt": "2025-10-22T12:33:17.700Z",
+    "createdAt": "2025-10-10T10:23:39.255Z",
+    "updatedAt": "2025-10-22T12:42:28.237Z"
+  }
+}

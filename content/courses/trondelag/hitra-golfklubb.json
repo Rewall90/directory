@@ -1,0 +1,204 @@
+{
+  "slug": "hitra-golfklubb",
+  "name": "Hitra Golfklubb",
+  "formerName": "Hitra Frøya Golfklubb",
+  "region": "Trøndelag",
+  "city": "Sandstad",
+  "municipality": "Hitra",
+  "country": "Norway",
+  "address": {
+    "street": "Akset, Hestvika",
+    "postalCode": "7246",
+    "area": "Akset, Hestvika"
+  },
+  "coordinates": {
+    "lat": 63.5100083,
+    "lng": 9.0204619,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 30,
+    "parPerRound": 60,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Links",
+    "courseType": "9-hulls linksbane",
+    "designer": null,
+    "yearBuilt": 2003,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Utsikt mot Trondheimsleia og Terningen fyr",
+    "scenicHole": "Utsikt mot Trondheimsleia og Terningen fyr",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Golfperle ved havet; klubbhus med lagringsplass; range med mynter."
+  },
+  "description": "9-hulls intim linksbane på Akset ved Hestvika med utsikt mot Trondheimsleia og Terningen fyr.",
+  "contact": {
+    "phone": "+47 975 62 959",
+    "email": "post@hitragolf.no",
+    "emailAlt": null,
+    "website": "https://hitragolf.no/",
+    "facebook": "https://www.facebook.com/Hitra-Golfklubb-1329048077134629/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 975 62 959",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sandstad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Hitra Golfbane AS (Org.nr. 984 648 375)",
+    "clubOrganization": "Hitra Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": true,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 75,
+      "greenFeeDescription": "Medlemmer 150 kr. Range (30 baller) 20 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Banepass inkl. medlemskap + gratis spill + bag/tralle-lagring. Hovedandel 6000 / familieandel 3000."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "hovedmedlemskap",
+        "price": 1500,
+        "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
+        "ageRange": null
+      },
+      {
+        "category": "youth",
+        "price": 1000,
+        "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
+        "ageRange": null
+      },
+      {
+        "category": "mainShare",
+        "price": 6000,
+        "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
+        "ageRange": null
+      },
+      {
+        "category": "familyShare",
+        "price": 3000,
+        "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
+        "ageRange": null
+      },
+      {
+        "category": "lockerRental",
+        "price": 200,
+        "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 3.8,
+      "reviewCount": 13,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3206061667359561329&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "austratt-golfklubb",
+      "distanceKm": 41.3
+    },
+    {
+      "slug": "smola-golfklubb",
+      "distanceKm": 58.5
+    },
+    {
+      "slug": "byneset-golfklubb",
+      "distanceKm": 59
+    },
+    {
+      "slug": "trondheim-golfklubb",
+      "distanceKm": 66
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:50.483Z",
+    "createdAt": "2025-10-31T11:30:50.484Z",
+    "updatedAt": "2025-11-03T09:09:51.079Z"
+  }
+}

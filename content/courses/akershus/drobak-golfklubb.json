@@ -1,0 +1,165 @@
+{
+  "slug": "drobak-golfklubb",
+  "name": "Drøbak Golfklubb",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "",
+  "municipality": "",
+  "country": "Norway",
+  "address": {
+    "street": "TBD",
+    "postalCode": "0000",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.67550259999999,
+    "lng": 10.6481924,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 70,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "18-hulls parkbane",
+    "courseType": "18-hulls parkbane",
+    "designer": "Not specified on website",
+    "yearBuilt": 1992,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Variert og innbydende 18-hulls parkbane som kombinerer vakre omgivelser, sosialt miljø og akkurat passe utfordringer. Banen er kjent for å være relativt kort og innbydende, men den lurer fortsatt mange - også de beste. En hyggelig bane med godt vedlikeholdte fairwayer og greener.",
+  "contact": {
+    "phone": null,
+    "email": null,
+    "emailAlt": null,
+    "website": "https://drobakgolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": null
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Drøbak Golfkafé",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 177,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3629254126579781088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "gjersjon-golfklubb",
+      "distanceKm": 13
+    },
+    {
+      "slug": "oppegard-golfklubb",
+      "distanceKm": 14.7
+    },
+    {
+      "slug": "soon-golfklubb",
+      "distanceKm": 15.9
+    },
+    {
+      "slug": "ski-golfklubb",
+      "distanceKm": 16.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:09.639Z",
+    "createdAt": "2025-10-31T11:23:09.640Z",
+    "updatedAt": "2025-11-03T09:09:38.950Z"
+  }
+}

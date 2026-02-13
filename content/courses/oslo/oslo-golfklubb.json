@@ -1,0 +1,196 @@
+{
+  "slug": "oslo-golfklubb",
+  "name": "Oslo Golfklubb",
+  "formerName": "Kristiania Golfklubb (1924-1925)",
+  "region": "Oslo",
+  "city": "Oslo",
+  "municipality": "Oslo",
+  "country": "Norway",
+  "address": {
+    "street": "Ankerveien 127",
+    "postalCode": "0766",
+    "area": "Bogstad"
+  },
+  "coordinates": {
+    "lat": 59.96229650000001,
+    "lng": 10.6387995,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland course with significant elevation changes set around scenic Lake Bogstadvannet (Bogstad Lake). Features sandcaped fairways with extensive SubAir drainage systems, relatively small but fast greens, water hazards on multiple holes. Compact 480-acre (194 hectares/120-acre per some sources) site with natural lake edge boundaries on two sides.",
+    "courseType": "18-hole championship parkland course",
+    "designer": "Steve Forrest (Steve Forrest & Associates / Arthur Hills-Steve Forrest, AHSF). Original 1924-1925 layout by founding members led by Ragnar Halle.",
+    "yearBuilt": 1924,
+    "yearRedesigned": 2009,
+    "waterHazards": true,
+    "signatureHole": "Hole 14 (Par 4) - Voted 'Norway's best par 4 hole' in 2016. Hole 9 (Par 5, 560 yards from black tee) - Most challenging par 5, stroke index 1. Hole 12 (Par 4, 353 yards) - Features rare waterfall right next to green.",
+    "scenicHole": "Hole 14 (Par 4) - Voted 'Norway's best par 4 hole' in 2016. Hole 9 (Par 5, 560 yards from black tee) - Most challenging par 5, stroke index 1. Hole 12 (Par 4, 353 yards) - Features rare waterfall right next to green.",
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
+    "mountainViews": false,
+    "viewDescription": "Stunning views of Lake Bogstadvannet (Bogstad Lake) from multiple holes and clubhouse. Lake edges the course layout on two sides. Restaurant features large floor-to-ceiling windows with panoramic views overlooking lake. Webcam available showing course view towards lake."
+  },
+  "description": "Norway's oldest golf club, founded June 13, 1924, as Kristiania Golfklubb by shipowner Ragnar Halle after returning from studying in Aberdeen, Scotland. Originally a 9-hole course on southern shores of Lake Bogstad on land leased from Nini Egeberg (wife of Westye Parr Egeberg) at Bogstad farm, expanded to 18 holes eight years later (1932). Course underwent major modifications in 1940, 1949, 1957, and 1975 before its most radical transformation: a $10 million renovation between September 2007 and May 2009 led by American architect Steve Forrest (AHSF - Arthur Hills/Steve Forrest & Associates). Renovation imported 4,500 truckloads of sand from Denmark, installed extensive drainage systems and catch basins, reconstructed all 18 greens with state-of-the-art SubAir systems for moisture control, removed 500 trees, and reseeded entire property with bent grass. Course reopened spring 2009. Located just 15 minutes (9 km northwest) from Oslo city center, approximately 1.5 km north of RÃ¸a. Par 72 championship course measuring 6,276m (6,868 yards) from championship tees. Features long par 3 holes, multiple water hazards, and notable waterfall on 12th hole adjacent to green. Hole 14 voted 'Norway's best par 4 hole' in 2016. Ranked #55 in Europe by Golf World (September 2019), #3 in Norway by Golf Digest (2022), Continental Europe's #155 (Golf World 2023). Over 30,000 rounds played per season (May to mid-October). Hosts over 2,300 members with waiting list of approximately 2,450 people. Regular venue for Norwegian Masters (Ladies European Tour, 2002 & 2006) and Challenge Tour's Norwegian Challenge (1995-1997). Selected as potential host for 2019 Solheim Cup bid. First golf shots hit autumn 1924, making this the pioneering golf facility in Norwegian history. New state-of-the-art clubhouse opened March 2020 after members voted for construction in 2018.",
+  "contact": {
+    "phone": "+47 22 51 05 60",
+    "email": "post@oslogk.no",
+    "emailAlt": "bk@oslogk.no (Daglig leder), vik@oslogk.no (Medlemsservice), siv@oslogk.no (Kommunikasjon), golfland@oslogk.no (Simulator), spiseriet@oslogk.no (Restaurant), mo@oslogk.no (Custom fitting)",
+    "website": "https://www.oslogk.no",
+    "facebook": "https://www.facebook.com/oslogolfklubb/",
+    "instagram": "@oslogolfklubb",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 22 51 05 60",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 22 51 05 65 (Pro Shop)",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 22 90 10 10 (Spiseriet)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 22 51 05 65 tast 1 (Golfland)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 418 55 624 (Protime)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 46 66 39 33 (Dekkskift)",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "May",
+    "end": "Mid-October",
+    "winterUse": "Golfland simulator center (7 TrackMan simulators) open year-round. Practice facility converts to outdoor ice skating rink (Bogstad winter paradise) with one bandy court and two smaller artificial ice surfaces."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Oslo",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Oslo Golfklubb",
+    "clubOrganization": "Oslo Golfklubb (Org.nr: 970 135 189, Registered March 12, 1995 as FLI organization)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Spiseriet (Phone: +47 22 90 10 10, Email: spiseriet@oslogk.no, Open to members and non-members, golfers and non-golfers)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": 70,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Summer pricing July 1-August 4: Reduced greenfee, extended playing times, handicap raised to 36, booking up to 12 days in advance for all players. Advance reservation available for NOK 2,500 per player (book more than 3 days ahead)."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 159,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=1516706602953214258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "grini-golfklubb",
+      "distanceKm": 1.6
+    },
+    {
+      "slug": "haga-golfklubb",
+      "distanceKm": 4
+    },
+    {
+      "slug": "nordhaug-golfklubb",
+      "distanceKm": 4.5
+    },
+    {
+      "slug": "ballerud-golfklubb",
+      "distanceKm": 6.9
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:35:08.771Z",
+    "createdAt": "2025-10-31T05:35:08.774Z",
+    "updatedAt": "2025-11-03T09:09:46.446Z"
+  }
+}

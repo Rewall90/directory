@@ -1,0 +1,186 @@
+{
+  "slug": "haga-golfklubb",
+  "name": "Haga Golfklubb",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "1356 Bekkestua",
+  "municipality": "1356 Bekkestua",
+  "country": "Norway",
+  "address": {
+    "street": "Griniveien 315",
+    "postalCode": "1356",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.9418016,
+    "lng": 10.5792751,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 27,
+    "holesPlayed": 27,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": null,
+    "designer": "Henrik Jacobsen (danske)",
+    "yearBuilt": 2003,
+    "yearRedesigned": 2014,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Haga Golfklubb har 27 flotte hull. Disse deles opp i 3 sløyfer, Rød, Gul & Blå, og spilles til en hver tid som en 18-hullsbane, åpen for alle, og en 9-hullsbane, kun åpen for klubbens aksjonærer og juniorer\n\nCourse consists of 27 holes divided into 3 loops: Rød, Gul, Blå",
+  "contact": {
+    "phone": "67 16 59 00",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://hagagolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "67 16 59 00",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "67 16 59 00",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "96 86 28 40",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "67 14 13 13",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Org.nr: 983790100\n\nFounded: 2003\n\nMajor tournaments: SAS Masters 2008 på Ladies European Tour, Norgesmesterskapet 2025\n\nMajor events:\n- SAS Masters på Ladies European Tour (2008) - GUL+RØD\n- Norgesmesterskapet (2025) - GUL+RØD\n\nDesigner: Henrik Jacobsen (danske) (2003)\n\nRenovation: Johan Benestam (svenske) (2014-2017)\n\nRenovation 2014-2017: Johan Benestam (Sverige)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": false,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": "17 simulatorer - Trackman, Full Swing baner, Driving Range, Top Tracer Range. Status: åpent hver dag",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 800,
+      "greenFeeWeekend": 1100,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 50,
+      "greenFeeDescription": "Junior discount: 50% på gjeldende greenfee\n\nGuest greenfee 2025: Prime time 1100 kr, Other times 800 kr\n\nGuest of shareholder: Prime time 900 kr, Other times 600 kr\n\nPrime time: Weekend 07:00-14:00, Weekday etter kl. 14:00\n\nEvening greenfee: 450 kr (varierer ift. solnedgang)",
+      "cartRental": 500,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "EAGL keyless technology installed on all golf carts\n\nMember 18-holes: 400 kr\n\nMember 9-holes: 250 kr\n\nGuest 18-holes: 500 kr\n\nGuest 9-holes: 350 kr\n\nMember with doctor cert 18-holes: 300 kr\n\nMember with doctor cert 9-holes: 250 kr\n\nGuest with doctor cert 9-holes: 350 kr\n\n10-round package (member): 2500 kr"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 124,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13030007166734358649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "nordhaug-golfklubb",
+      "distanceKm": 0.6
+    },
+    {
+      "slug": "grini-golfklubb",
+      "distanceKm": 2.5
+    },
+    {
+      "slug": "ballerud-golfklubb",
+      "distanceKm": 3.9
+    },
+    {
+      "slug": "oslo-golfklubb",
+      "distanceKm": 4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:24:46.102Z",
+    "createdAt": "2025-10-31T11:24:46.105Z",
+    "updatedAt": "2025-11-03T09:10:13.846Z"
+  }
+}

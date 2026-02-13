@@ -1,0 +1,257 @@
+{
+  "slug": "gronmo-golfklubb",
+  "name": "Grønmo Golfklubb",
+  "formerName": null,
+  "region": "Oslo",
+  "city": "Oslo",
+  "municipality": "Oslo",
+  "country": "Norway",
+  "address": {
+    "street": "Sørliveien 70",
+    "postalCode": "1279",
+    "area": "Klemetsrud"
+  },
+  "coordinates": {
+    "lat": 59.84313179999999,
+    "lng": 10.8596734,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane/skogsbane med bred fairways, store greener og tees i lett kupert terreng",
+    "courseType": "Park/Forest",
+    "designer": "Peter Nordwall",
+    "yearBuilt": 2003,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 2,
+    "par4Count": 5,
+    "par5Count": 2,
+    "mountainViews": null,
+    "viewDescription": "Banen ligger vakkert til i kanten av Østmarka med utsikt over skog og natur. Klubbhuset har panoramautsikt over området."
+  },
+  "description": "Grønmo Golfklubb ligger vakkert til i kanten av Østmarka, nær Ryenkrysset i Oslo - Oslos mest sentrale golfbane innenfor bygrensen.\n\nKlubben har en flott 9-hulls park/skogbane med bred fairways, store greener og tees i lett kupert terreng. Banen er designet for spillere på alle nivåer.\n\nFasiliteter inkluderer en stor driving range med 30 utslagssteder (200 meter lang), nærspillområde med tre soner, putting greens, moderne klubbhus med pro shop (drevet av Golfshopen AS) og Grønmo Kafé.\n\nKlubben driver også Grønmo Indoor Golf ved Skullerud med TrackMan-simulatorer og over 300 virtuelle baner, åpent hele året.\n\nMed 5 PGA-instruktører og et aktivt sosialt miljø tilbyr Grønmo Golf Academy skreddersydd instruksjon for alle nivåer. Klubben arrangerer turneringer, gruppetreninger, nybegynnerkurs og golfreiser til Spania.\n\nKlubben er kjent for sitt inkluderende miljø uansett alder, kjønn, funksjonalitet og sosial bakgrunn - \"Klubben med det store hjertet\".",
+  "contact": {
+    "phone": "+47 48 50 50 30",
+    "email": "info@gronmogk.no",
+    "emailAlt": null,
+    "website": "https://gronmogk.no",
+    "facebook": "https://www.facebook.com/gronmogk/",
+    "instagram": "https://www.instagram.com/gronmogk.no/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 48 50 50 30",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Medio april",
+    "end": "Medio/slutten av oktober",
+    "winterUse": "Innendørs golf med TrackMan simulatorer tilgjengelig året rundt på Skullerud Park"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Ryenkrysset, Oslo",
+    "distanceFromCenter": "Ca. 8 km fra Oslo sentrum"
+  },
+  "organization": {
+    "courseCompany": "Grønmo Golfbane AS (Org.nr. 881 254 662)",
+    "clubOrganization": "Grønmo Golfklubb (Org.nr. 981 711 890)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": 200,
+    "drivingRangeNotes": "30 utslagssteder (10 på taket reservert for kurs/instruksjon). Flagg og siktemerker på 50, 100 og 150 meter. Range Servant ballmaskin som tar betaling med bankkort og GolfMore app. Fine matter og kvalitets rangeballer.",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Grønmo Kafé",
+    "clubRental": null,
+    "clubRentalNotes": null,
+    "cartRental": true,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": true,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "TrackMan",
+    "simulatorCourses": "300+",
+    "simulatorNotes": "Grønmo Indoor Golf - separat lokasjon: Skullerud Park, Olaf Helsets vei 5, 0694 Oslo. Åpent man-fre 06:00-22:00, lør-søn 06:00-20:00. T-bane linje 3 til Skullerud (200m). 3 PGA instruktører: Ross Robertson, Gaute Almli Steiro, Anders.",
+    "bunkers": null,
+    "footgolf": null,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 700,
+      "greenFeeWeekend": 800,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 350,
+      "greenFeeDescription": "GREENFEE 2025 - HVERDAGER (18 hull):\n• Morgenfugl kl. 06:00-09:50: 500 kr\n• Brunsj kl. 10:00-13:50: 700 kr\n• Ettermiddag kl. 14:00-17:50: 800 kr\n• Twilight kl. 18:00-20:50: 600 kr\n\nHELG OG HELLIGDAGER (18 hull):\n• Morgenfugl kl. 06:00-09:50: 500 kr\n• Brunsj kl. 10:00-13:50: 800 kr\n• Ettermiddag kl. 14:00-17:50: 800 kr\n• Twilight kl. 18:00-20:50: 600 kr\n\nJULI GREENFEE (redusert, 18 hull):\n• Morgenfugl: 300 kr\n• Brunsj: 500 kr\n• Ettermiddag: 600 kr\n• Twilight: 400 kr\n\n9 HULL: Halv pris av 18 hull\n\nRABATTER:\n• Junior (under 20 år): 50% av ordinær pris\n• Grønmo Greenfee medlem: 50% av ordinær pris\n• Grønmo Basis medlem: 50 kr rabatt per 9 hull\n• Vennerabatt: 100 kr rabatt per 9 hull (må spille med aksjemedlem)\n\nUTSTYR:\n• Golfbil: 200 kr (9 hull) / 350 kr (18 hull)\n• Tralle: 50 kr\n\nBestilling inntil 3 dager i forveien via Gimmie-appen eller GolfBox.\nPro shop åpent: man-tor 09:00-20:00, fre-søn 09:00-18:00.",
+      "cartRental": 350,
+      "pullCartRental": 50,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "Aksje",
+        "price": 6900,
+        "description": "Fritt spill, starttidsbestilling 7 dager før, 2 gratis 9-hulls runder på Grini GK, 100 kr rabatt for gjest. Krever kjøp av aksje (2500 kr fra klubben).",
+        "ageRange": null
+      },
+      {
+        "category": "Greenfee medlem",
+        "price": 4050,
+        "description": "Halv pris greenfee på Grønmo GK, starttidsbestilling 3 dager før, Norsk Golf hjem i posten.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Basis",
+        "price": 1730,
+        "description": "50 kr rabatt per 9 hull på Grønmo GK, starttidsbestilling 3 dager før, Norsk Golf hjem i posten.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Voksen",
+        "price": 3860,
+        "description": "Fritt spill på Grønmo GK, starttidsbestilling 7 dager før, Norsk Golf hjem i posten.",
+        "ageRange": "20-26"
+      },
+      {
+        "category": "Junior 16-19",
+        "price": 1950,
+        "description": "Fritt spill på Grønmo GK, starttidsbestilling 7 dager før. 50% familierabatt hvis foresatt er aksjemedlem.",
+        "ageRange": "16-19"
+      },
+      {
+        "category": "Junior 9-15",
+        "price": 775,
+        "description": "Fritt spill på Grønmo GK, starttidsbestilling 7 dager før. 50% familierabatt hvis foresatt er aksjemedlem.",
+        "ageRange": "9-15"
+      },
+      {
+        "category": "Junior Knøtt",
+        "price": 260,
+        "description": "Fritt spill på Grønmo GK med ledsager over 18 år eller med hcp under 15. 50% familierabatt hvis foresatt er aksjemedlem.",
+        "ageRange": "5-8"
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 157,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7746186611693542089&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "krokhol-golfklubb",
+      "distanceKm": 5.9
+    },
+    {
+      "slug": "oppegard-golfklubb",
+      "distanceKm": 7.8
+    },
+    {
+      "slug": "losby-golfklubb",
+      "distanceKm": 8.4
+    },
+    {
+      "slug": "gjersjon-golfklubb",
+      "distanceKm": 9.2
+    }
+  ],
+  "additionalFeatures": [
+    {
+      "feature": "Grønmo Golf Academy",
+      "description": "Skreddersydd instruksjon med fokus på individuelle tilpasninger. Instruktørene fokuserer på grunnleggende faktorer for golfsvingen og taktiske valg."
+    },
+    {
+      "feature": "5 PGA-instruktører",
+      "description": "Ross Robertson, Gaute Almli Steiro, Anders og 2 andre profesjonelle instruktører tilgjengelig for kurs og privattimer."
+    },
+    {
+      "feature": "5 greenkeepere",
+      "description": "Dedikert team som sørger for at banen og fasiliteter holder høy kvalitet."
+    },
+    {
+      "feature": "Grønmo Indoor Golf",
+      "description": "Innendørs golfsenter ved Skullerud med TrackMan-simulatorer og over 300 baner. Separat lokasjon: Olaf Helsets vei 5, 0694 Oslo."
+    },
+    {
+      "feature": "Organiserte golfreiser",
+      "description": "Klubbturer til Spania (La Torre Golf Resort, La Finca Golf Resort) med proer."
+    },
+    {
+      "feature": "Bag-oppbevaring",
+      "description": "Ca. 60 skap for bagger og traller. Enkeltskap 950 kr/sesong, dobbeltskap 1250 kr/sesong. Prioriteres til aksjemedlemmer."
+    },
+    {
+      "feature": "Nærspillområde",
+      "description": "Tre soner mellom hull 1 og 9: putting green med bunker, pitching green med bunker, og chipping-område. Forbeholdt medlemmer."
+    },
+    {
+      "feature": "Grasrotandelen",
+      "description": "Støtt klubben via Norsk Tipping Grasrotandelen."
+    },
+    {
+      "feature": "Veien til Golf-kurs",
+      "description": "Nybegynnerkurs for de som vil lære golf fra bunnen av."
+    },
+    {
+      "feature": "Nivåinndelt gruppetrening",
+      "description": "Gruppetreninger tilpasset ulike ferdighetsnivåer gjennom sesongen."
+    }
+  ],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2026-02-12T06:37:51.508Z",
+    "createdAt": "2025-10-31T05:36:54.437Z",
+    "updatedAt": "2026-02-12T06:37:51.510Z"
+  }
+}

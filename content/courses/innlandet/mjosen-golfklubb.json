@@ -1,0 +1,171 @@
+{
+  "slug": "mjosen-golfklubb",
+  "name": "Mjøsen Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Moelv",
+  "municipality": "Moelv",
+  "country": "Norway",
+  "address": {
+    "street": "Ringslia 50",
+    "postalCode": "2390",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.94773529999999,
+    "lng": 10.702215,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "Skog- og parkbane (under ombyggning til to 9-hulls baner)",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Ved Moelven med fine naturopplevelser"
+  },
+  "description": "Banen på Mjøsen har sitt særpreg som 18-hulls bane med fine naturopplevelser. VIKTIG: Klubben er i ferd med å konvertere fra en 18-hulls bane til to 9-hulls baner (annonsert 26. september 2025).",
+  "contact": {
+    "phone": "62 36 95 01",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://msgk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "62 36 95 01",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": "27. oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Moelv",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Mjøsen Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Gjester velkommen. Kontakt klubben for priser.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "NSG medlemmer: kr 835,- (50+ years). Mulighet til å spille for hyggelige 'hverdagspriser' på flere enn 80 baner i Norge"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 74,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14099453063166989666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "gjovik-toten-golfklubb",
+      "distanceKm": 27.6
+    },
+    {
+      "slug": "atlungstad-golfklubb",
+      "distanceKm": 29.4
+    },
+    {
+      "slug": "hafjell-golfklubb",
+      "distanceKm": 35.5
+    },
+    {
+      "slug": "sorknes-golfklubb",
+      "distanceKm": 42
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:13.249Z",
+    "createdAt": "2025-10-31T07:18:13.251Z",
+    "updatedAt": "2025-11-03T09:09:48.955Z"
+  }
+}

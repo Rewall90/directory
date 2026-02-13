@@ -1,0 +1,171 @@
+{
+  "slug": "selje-golfklubb",
+  "name": "Selje Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Selje",
+  "municipality": "Stad",
+  "country": "Norway",
+  "address": {
+    "street": "Seljetunvegen 10",
+    "postalCode": "6740",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 62.040044,
+    "lng": 5.366212,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 30,
+    "parPerRound": 60,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1997,
+    "yearRedesigned": 2004,
+    "waterHazards": true,
+    "signatureHole": "Ytterst i havgapet med kystbeliggenhet",
+    "scenicHole": "Ytterst i havgapet med kystbeliggenhet",
+    "par3Count": 6,
+    "par4Count": 3,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Selje Golfklubb - 9-hulls parklandbane grunnlagt 1997 (Norges 100. golfklubb). Par 30 (6 par 3, 3 par 4). NGF-godkjent konkurransebane fra 2004. Utfordrende bane ytterst i havgapet på bølgende jordbruksland. Bruker åssider og bekker i terreng til fordel. Driving range. Sommergreener året rundt. Ca 190 medlemmer. Bunkerrenovering 2025."
+  },
+  "description": "Selje Golfklubb - Utfordrende 9-hulls parklandbane grunnlagt 1997, Norges golfklubb nr. 100. Ble fullverdig NGF-godkjent konkurransebane i november 2004. Par 30 (60 for 18 hull), kun 3 par 4-hull og 6 par 3-hull. Utfordrende bane til tross for at den ikke er veldig lang. Ligger ytterst i havgapet på bølgende jordbruksland fra syv småbruk.",
+  "contact": {
+    "phone": "+47 41 23 39 44",
+    "email": "info@seljegolfklubb.no",
+    "emailAlt": null,
+    "website": "https://seljegolfklubb.no/",
+    "facebook": "https://www.facebook.com/SeljeGolfklubb/",
+    "instagram": "https://www.instagram.com/seljegolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 41 23 39 44",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Sommergreener året rundt"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Måløy",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Selje Golfklubb (Organisasjonsnummer: 982 225 167, Grunnlagt 1997)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 250 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Sommergreener året rundt. Utfordrende bane med 6 par 3 og 3 par 4. Bølgende terreng med bekker. Ytterst i havgapet. Hull 1 tee flyttes tilbake til opprinnelig plassering i 2025 (ca 100 meter lenger)."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 3,
+      "reviewCount": 1,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9825199400880860138&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "vanylven-golfklubb",
+      "distanceKm": 18
+    },
+    {
+      "slug": "nordfjord-golfklubb",
+      "distanceKm": 36.7
+    },
+    {
+      "slug": "aalesund-golfklubb-solnor-gaard",
+      "distanceKm": 40
+    },
+    {
+      "slug": "volda-golfklubb",
+      "distanceKm": 41.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:17:00.645Z",
+    "createdAt": "2025-10-31T10:17:00.646Z",
+    "updatedAt": "2025-11-03T09:10:15.919Z"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "soon-golfklubb",
+  "name": "Soon Golfklubb",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "Son",
+  "municipality": "Son",
+  "country": "Norway",
+  "address": {
+    "street": "Kjøvangveien 11",
+    "postalCode": "1553",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.533324,
+    "lng": 10.68293,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 35,
+    "parPerRound": 35,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Park- og Skog bane",
+    "courseType": "Park- og Skog bane",
+    "designer": "Max Wahlqvist",
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Soon Golfbane er en 9-hulls Golfbane kjent for sine store, utfordrende og raske greener. Banen virker med sine 5.510 meter fra hvit tee, 5.298 meter fra gul tee og 4.248 meter fra rød tee som en overkommelig utfordring, men skinnet bedrar. Det stilles virkelig krav til kløkt og nøyaktighet dersom man skal spille til sitt handicap på Soon Golfbane. Det er ikke minst de store og ondulerte greenene som krever både rett spillestrategi og dyp konsentrasjon ved putting.",
+  "contact": {
+    "phone": "+47 907 85 096",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://soongolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 907 85 096",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 950 22 520",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": null
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Available for booking. Trackman simulator",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 100,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=8343411811546002387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "ekholtbruket-golfklubb",
+      "distanceKm": 13.9
+    },
+    {
+      "slug": "drobak-golfklubb",
+      "distanceKm": 15.9
+    },
+    {
+      "slug": "mork-golfklubb",
+      "distanceKm": 17.9
+    },
+    {
+      "slug": "moss-rygge-golfklubb",
+      "distanceKm": 18.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:16.052Z",
+    "createdAt": "2025-10-31T11:23:16.053Z",
+    "updatedAt": "2025-11-03T09:09:43.321Z"
+  }
+}

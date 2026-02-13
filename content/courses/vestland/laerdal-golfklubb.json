@@ -1,0 +1,171 @@
+{
+  "slug": "laerdal-golfklubb",
+  "name": "Lærdal Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Lærdal",
+  "municipality": "Lærdal",
+  "country": "Norway",
+  "address": {
+    "street": "Rikheim Gard",
+    "postalCode": "6887",
+    "area": "Rikheim Gard"
+  },
+  "coordinates": {
+    "lat": 61.04101,
+    "lng": 7.623557,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 18,
+    "par": 21,
+    "parPerRound": 63,
+    "lengthMeters": 1361,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Mountain/Parkland",
+    "courseType": "6-hulls fjellbane (ikke permanent i drift)",
+    "designer": null,
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Dramatisk fjellområde mellom 1000-meter høye fjell",
+    "scenicHole": "Dramatisk fjellområde mellom 1000-meter høye fjell",
+    "par3Count": 5,
+    "par4Count": null,
+    "par5Count": 1,
+    "mountainViews": true,
+    "viewDescription": "Lærdal Golfklubb - grunnlagt ca 2000 i Lærdal, Sogn. Hadde ekstremt utfordrende 6-hulls fjellbane med 5 lange par 3-hull (over 170m) mellom 1000m høye fjell. VIKTIG: Ingen permanent bane i drift for tiden. Bruker SimuGolf, Årdal Range og Hemsedal GK. Aktiv klubb med vinterserie og klubbmesterskap. Planlagt ny bane ved Ljøsne avslått."
+  },
+  "description": "Lærdal Golfklubb - grunnlagt rundt 2000. Hadde en ekstremt utfordrende 6-hulls bane mellom 1000-meter høye fjell på alle sider med svært lange hull (5 par 3-hull over 170m). VIKTIG: Klubben har for tiden ikke permanent golfbane i drift. Planlagt bane ved Ljøsne ble avslått. Medlemmer bruker SimuGolf, Årdal Range og Hemsedal Golfklubb.",
+  "contact": {
+    "phone": "+47 47 17 64 04",
+    "email": "post@legk.no",
+    "emailAlt": "per@golfhemsedal.no",
+    "website": "https://legk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 47 17 64 04",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Bruker SimuGolf for vinterserie-turneringer"
+  },
+  "visitors": {
+    "welcome": false,
+    "walkingAllowed": true,
+    "nearbyCity": "Lærdal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Lærdal Golfklubb (Grunnlagt ca 2000)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": false,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Bruker SimuGolf for innendørsspill og vinterserie-turneringer",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Klubben har for tiden ikke permanent bane i drift. Medlemmer spiller på Hemsedal Golfklubb (greenfee 400 kr) og bruker SimuGolf/Årdal Range. Historisk greenfee var 200 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Aktiv klubb uten permanent bane. Bruker SimuGolf, Årdal Range og Hemsedal Golfklubb. Arrangerer vinterserie på simulator og årlige klubbmesterskap. Medlemskap gir spillerett på baner i Norge/Sverige, golfforsikring og GolfBox-tilgang."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.7,
+      "reviewCount": 6,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14871430853747714859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hemsedal-golfklubb",
+      "distanceKm": 45.4
+    },
+    {
+      "slug": "hemsedal-golfalpin-golfbane",
+      "distanceKm": 68.1
+    },
+    {
+      "slug": "voss-golfklubb",
+      "distanceKm": 73.4
+    },
+    {
+      "slug": "valdres-golfklubb",
+      "distanceKm": 94.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "70.0",
+    "websiteQuality": null,
+    "completenessPercentage": 70,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:58.672Z",
+    "createdAt": "2025-10-31T10:16:58.673Z",
+    "updatedAt": "2025-11-03T09:10:15.348Z"
+  }
+}

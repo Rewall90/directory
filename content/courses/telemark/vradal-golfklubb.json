@@ -1,0 +1,176 @@
+{
+  "slug": "vradal-golfklubb",
+  "name": "Vrådal Golfklubb",
+  "formerName": "Vrådal Golf",
+  "region": "Telemark",
+  "city": "Vrådal",
+  "municipality": "Kviteseid",
+  "country": "Norway",
+  "address": {
+    "street": "Kråkenesvegen",
+    "postalCode": "3853",
+    "area": "Fossøy"
+  },
+  "coordinates": {
+    "lat": 59.3169584,
+    "lng": 8.4787407,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 68,
+    "parPerRound": 68,
+    "lengthMeters": 4228,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Øy med fjell og innsjø",
+    "courseType": "Parkland",
+    "designer": null,
+    "yearBuilt": 2013,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": 1,
+    "mountainViews": true,
+    "viewDescription": "Surrounded by breathtaking natural landscapes with serene lakes and majestic mountains. Located on island (Fossøy) in Vrådal."
+  },
+  "description": "En av Norges vakreste 9-hullers baner, beliggende på en øy i Vrådal. Omgitt av storslått naturlandskap med fjell og innsjø. Åpnet i 2013.",
+  "contact": {
+    "phone": "+47 35 49 95 50",
+    "email": "vradalproshop@gmail.com",
+    "emailAlt": null,
+    "website": "https://vradalgolfklubb.no",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 35 49 95 50",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 98 69 89 44",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "1. mai",
+    "end": "31. oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Vrådal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Vrådal Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Golf Café",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Price range NOK 250-350",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golf packages available through Straand Hotel"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 92,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3794828993630759974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "norsjo-golfklubb",
+      "distanceKm": 44.7
+    },
+    {
+      "slug": "grenland-og-omegn-golfklubb",
+      "distanceKm": 62.5
+    },
+    {
+      "slug": "hovden-golfklubb",
+      "distanceKm": 63.7
+    },
+    {
+      "slug": "rjukan-golfklubb",
+      "distanceKm": 69.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T12:22:41.182Z",
+    "createdAt": "2025-10-31T12:22:41.183Z",
+    "updatedAt": "2025-11-03T09:10:13.077Z"
+  }
+}

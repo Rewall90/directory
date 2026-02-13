@@ -1,0 +1,257 @@
+{
+  "slug": "mork-golfklubb",
+  "name": "Mørk Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Spydeberg",
+  "municipality": "Indre Østfold",
+  "country": "Norway",
+  "address": {
+    "street": "Mørkveien 775",
+    "postalCode": "1820",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.5318471,
+    "lng": 11.0005388,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 5545,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Park- og skoglandskap",
+    "courseType": "18-hulls park- og skogsbane",
+    "designer": null,
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Naturskjønne omgivelser med skog og park",
+    "scenicHole": "Naturskjønne omgivelser med skog og park",
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
+    "mountainViews": false,
+    "viewDescription": "Fantastisk 18-hulls park- og skogsbane i naturskjønne omgivelser ved Spydeberg. Grunnlagt 1989, hovedbane bygget 2000. Totalt 33 hull tilgjengelig: 18-hulls hovedbane (par 72), 9-hulls bane (par 31, bygget 1999) og 6-hulls kortbane. Fredelig beliggenhet med bare fuglekvitter og rolige elvestryk. Populær blant både amatører og profesjonelle (Ecco Tour). Omfattende treningsfasiliteter med driving range, putting green, chipping area og practice bunker. Teaching pro Fraser Mudie. Restaurant Mørk Golfkro tilgjengelig ved klubbhuset."
+  },
+  "description": "Fantastisk 18-hulls park- og skogsbane i naturskjønne omgivelser ved Spydeberg, etablert 2000. Par 72, lengde 5545 meter fra gule tees. Klubben grunnlagt 1989. I tillegg til hovedbanen har anlegget også en 9-hulls bane (par 31, bygget 1999) og en 6-hulls kortbane - totalt 33 hull! Utrolig morsom og utfordrende bane lagt i fredelige omgivelser hvor bare fuglekvitter og rolige elvestryk kan forstyrre konsentrasjonen. Variert utforming som gir alle en utfordring etter hvor aggressivt man ønsker å spille. Selv proffene på Ecco Tour storkoser seg her! Banen vender tilbake til klubbhuset etter 9 hull, slik at man kan få forfriskninger ved Mørk Golfkro før de siste 9 hullene.",
+  "contact": {
+    "phone": "+47 69 83 33 30",
+    "email": "post@morkgolf.no",
+    "emailAlt": null,
+    "website": "https://morkgolf.no/",
+    "facebook": "https://www.facebook.com/MorkGolf/",
+    "instagram": "https://www.instagram.com/morkgolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 69 83 33 30",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 950 60 335",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": "Anlegget stenges om vinteren. Skiløyper tilgjengelig i vintersesongen."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Mysen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Mørk Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Mørk Golfkro",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": 9,
+    "footgolfPar": 31,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 495,
+      "greenFeeWeekend": 595,
+      "greenFeeSenior": 495,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "Greenfee 18 hull: 495 NOK (hverdag), 595 NOK (helg/helligdag). Junior til 19 år: 250 NOK (hverdag), 295 NOK (helg). 9-hulls bane: 295 NOK (voksen), 150 NOK (junior). Norsk Senior Golf medlemmer får 150 kr rabatt på hverdager.",
+      "cartRental": 350,
+      "pullCartRental": null,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Medlemsgjest får 150 kr rabatt. Rabatter tilgjengelig for medlemmer av Skjeberg, Moss & Rygge, Borregaard, Hakadal, Romerike, Oppegård GK."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 140,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=5352886774586736542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 71.5,
+      "slopeRating": 134,
+      "lengthYards": null,
+      "lengthMeters": 5545,
+      "par": 72
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 69.3,
+      "slopeRating": 129,
+      "lengthYards": null,
+      "lengthMeters": 5065,
+      "par": 72
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 67.8,
+      "slopeRating": 126,
+      "lengthYards": null,
+      "lengthMeters": 4636,
+      "par": 72
+    },
+    {
+      "teeColor": "brun",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 64,
+      "slopeRating": 114,
+      "lengthYards": null,
+      "lengthMeters": 3604,
+      "par": 72
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 76.9,
+      "slopeRating": 133,
+      "lengthYards": null,
+      "lengthMeters": 5545,
+      "par": 72
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 73.9,
+      "slopeRating": 128,
+      "lengthYards": null,
+      "lengthMeters": 5065,
+      "par": 72
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 72.1,
+      "slopeRating": 125,
+      "lengthYards": null,
+      "lengthMeters": 4636,
+      "par": 72
+    },
+    {
+      "teeColor": "brun",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 65.2,
+      "slopeRating": 114,
+      "lengthYards": null,
+      "lengthMeters": 3604,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "askim-golfklubb",
+      "distanceKm": 12
+    },
+    {
+      "slug": "soon-golfklubb",
+      "distanceKm": 17.9
+    },
+    {
+      "slug": "ostmarka-golfklubb",
+      "distanceKm": 21.3
+    },
+    {
+      "slug": "ski-golfklubb",
+      "distanceKm": 21.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:07.242Z",
+    "createdAt": "2025-10-31T11:42:07.243Z",
+    "updatedAt": "2025-11-03T09:10:18.564Z"
+  }
+}

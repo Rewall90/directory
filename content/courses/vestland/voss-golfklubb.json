@@ -1,0 +1,171 @@
+{
+  "slug": "voss-golfklubb",
+  "name": "Voss Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Skulestadmo",
+  "municipality": "Voss",
+  "country": "Norway",
+  "address": {
+    "street": "Golfparken 9",
+    "postalCode": "5710",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.6818803,
+    "lng": 6.4860147,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 3361,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Mountain/Parkland",
+    "courseType": "9-hulls fjellbane",
+    "designer": "Jeremy Turner",
+    "yearBuilt": 2005,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Idyllisk plassert ved Lønavatnet i fjellandskap",
+    "scenicHole": "Idyllisk plassert ved Lønavatnet i fjellandskap",
+    "par3Count": 2,
+    "par4Count": 5,
+    "par5Count": 2,
+    "mountainViews": true,
+    "viewDescription": "Voss Golf og Aktivitetspark - 9-hulls fjellbane designet av Jeremy Turner (2005) ved Lønavatnet i Skulestadmo. Par 36 (72 for 18h), 6154m (18h). 4 tee-alternativer (2510-3361m). Driving range, putting/chipping greens. 2 simulatorer. Klubbhus (08-20 daglig) med kafé (daglig sommer Jun-Aug, helg/turnering ellers), pro shop. Cart/tralle/kølleutleie. Golfkurs."
+  },
+  "description": "Voss Golf og Aktivitetspark - 9-hulls fjellbane designet av Jeremy Turner, åpnet 2005 ved Lønavatnet i Skulestadmo. Par 36 (72 for 18 hull), 6154m for 18 hull. 4 tee-alternativer (hvit 3361m, gul 3180m, blå 2665m, rød 2510m for 9 hull). Idyllisk plassert ved Lønavatnet i fjellandskap.",
+  "contact": {
+    "phone": "+47 40 00 44 90",
+    "email": "post@vossgolf.no",
+    "emailAlt": null,
+    "website": "https://vossgolf.no/",
+    "facebook": "http://facebook.com/vossgolf/",
+    "instagram": "https://www.instagram.com/vossgolf/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 40 00 44 90",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "2 golfsimulatore, simulator sesongkort tilgjengelig (12.10-30.04): Voksen 3500 kr, Junior 1750 kr"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Voss",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Voss Golf og Aktivitetspark",
+    "clubOrganization": "Voss Golfklubb (Bane åpnet 2005)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "2 golfsimulatore i klubbhuset, brukes i vintersesongen",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Priser varierer etter dag og tidspunkt. 50% rabatt med Golfamore-kort for enkeltspillere (hverdager, én gang per år). Kontakt klubben for priser.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Designet av Jeremy Turner (2005). 4 tee-alternativer (2510-3361m). Idyllisk beliggenhet ved Lønavatnet i fjellområde. Golfamore 50% rabatt (hverdager). Simulator sesongkort: Voksen 3500 kr, Junior 1750 kr. Seimen Cup turnering."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 96,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=1022979702668732389&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hardanger-golfklubb",
+      "distanceKm": 37.9
+    },
+    {
+      "slug": "odda-golfklubb",
+      "distanceKm": 66.9
+    },
+    {
+      "slug": "bergen-golfklubb",
+      "distanceKm": 68.8
+    },
+    {
+      "slug": "laerdal-golfklubb",
+      "distanceKm": 73.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:17:02.474Z",
+    "createdAt": "2025-10-31T10:17:02.476Z",
+    "updatedAt": "2025-11-03T09:10:01.602Z"
+  }
+}

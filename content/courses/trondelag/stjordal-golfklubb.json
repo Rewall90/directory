@@ -1,0 +1,171 @@
+{
+  "slug": "stjordal-golfklubb",
+  "name": "Stjørdal Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Stjørdal",
+  "municipality": "Stjørdal",
+  "country": "Norway",
+  "address": {
+    "street": "Fagerlia",
+    "postalCode": "7507",
+    "area": "Østre Stokke gård"
+  },
+  "coordinates": {
+    "lat": 63.4867,
+    "lng": 10.9269,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": 5714,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "18-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1996,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "TrackMan Range, putting/chipping, klubbhus i gårdsbygning, pro shop, restaurant."
+  },
+  "description": "18-hulls parklandbane i Fagerlia med 6-hulls treningsbane. Klubbhus på Østre Stokke gård.",
+  "contact": {
+    "phone": "+47 73 50 60 40",
+    "email": "stjordal-golfklubb@stjordal-golfklubb.com",
+    "emailAlt": null,
+    "website": "https://stjordal.golf/",
+    "facebook": "https://www.facebook.com/groups/stjordalgolfklubb/",
+    "instagram": "https://www.instagram.com/stjordal_golfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 73 50 60 40",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Stjørdal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Stjørdal Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 450,
+      "greenFeeWeekend": 490,
+      "greenFeeSenior": 450,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "Senior 18h man–fre før 14:00 450 kr; etter 14:00 og helg 490 kr; Junior/student 18h 250 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Stjørdal og Trondheim GK."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 70,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4611662427111526792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "frosta-golfklubb",
+      "distanceKm": 12.3
+    },
+    {
+      "slug": "klaebu-golfklubb",
+      "distanceKm": 28.4
+    },
+    {
+      "slug": "trondheim-golfklubb",
+      "distanceKm": 30.3
+    },
+    {
+      "slug": "selbu-golfklubb",
+      "distanceKm": 33.9
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:54.172Z",
+    "createdAt": "2025-10-31T11:30:54.174Z",
+    "updatedAt": "2025-11-03T09:10:08.526Z"
+  }
+}

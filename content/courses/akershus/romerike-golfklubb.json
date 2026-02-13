@@ -1,0 +1,171 @@
+{
+  "slug": "romerike-golfklubb",
+  "name": "Romerike Golfklubb",
+  "formerName": "Romerike Golfklubb",
+  "region": "Akershus",
+  "city": "1930 Aurskog",
+  "municipality": "1930 Aurskog",
+  "country": "Norway",
+  "address": {
+    "street": "Blakerveien 1549",
+    "postalCode": "1549",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.9372163,
+    "lng": 11.4356697,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane",
+    "courseType": "Parkbane",
+    "designer": "Unknown",
+    "yearBuilt": 1999,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "En flott og åpen parkbane på store deler av banen. Vi har også \"Devils Corner\" på hjørnet av banen med tøffe og utfordrende hull.",
+  "contact": {
+    "phone": "954 08 500",
+    "email": "post@romerikegk.no",
+    "emailAlt": null,
+    "website": "https://romerikegk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "954 08 500",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": null
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Fjøset",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Trolley rental: [object Object]"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 123,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12404091217762151141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "fet-golfklubb",
+      "distanceKm": 14.6
+    },
+    {
+      "slug": "lillestrom-golfklubb",
+      "distanceKm": 20.3
+    },
+    {
+      "slug": "miklagard-golfklubb",
+      "distanceKm": 22.1
+    },
+    {
+      "slug": "rommen-golfklubb",
+      "distanceKm": 25
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:14.826Z",
+    "createdAt": "2025-10-31T11:23:14.827Z",
+    "updatedAt": "2025-11-03T09:09:40.882Z"
+  }
+}

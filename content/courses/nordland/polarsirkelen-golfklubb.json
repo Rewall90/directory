@@ -1,0 +1,192 @@
+{
+  "slug": "polarsirkelen-golfklubb",
+  "name": "Polarsirkelen Golfklubb",
+  "formerName": null,
+  "region": "Nordland",
+  "city": "Mo i Rana",
+  "municipality": "Rana",
+  "country": "Norway",
+  "address": {
+    "street": "Dag Folkes Ale",
+    "postalCode": "8616",
+    "area": "Alteren"
+  },
+  "coordinates": {
+    "lat": 66.31158909999999,
+    "lng": 13.981149,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 2640,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Naturområde mellom fjorden og fjellene",
+    "courseType": "9-hulls golfbane",
+    "designer": null,
+    "yearBuilt": 2014,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 2,
+    "par4Count": 5,
+    "par5Count": 2,
+    "mountainViews": true,
+    "viewDescription": "Banen tilbyr utsikt over fjorden og fjellene i Helgeland-området"
+  },
+  "description": "Flott 9-hulls golfbane som strekker seg over et stort naturområde mellom fjorden og fjellene. Banen ble oppstartet på 1990-tallet og utviklet gradvis fra et treningsfelt til dagens ni-hulls anlegg. Banen er kjent for sin unike plassering og naturlige terraeng.",
+  "contact": {
+    "phone": "+47 476 18 898",
+    "email": "post@polarsirkelen-golf.no",
+    "emailAlt": "jalvsing@live.no",
+    "website": "https://polarsirkelen-golf.no/",
+    "facebook": "https://www.facebook.com/polarsirkelengolf/",
+    "instagram": "https://www.instagram.com/polarsirkelengolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 476 18 898",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 458 77 951",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 976 42 305",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "02.05.2025",
+    "end": null,
+    "winterUse": "Innendørstrening på simulatorer ved Selfors åpen hele året"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Mo i Rana",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Polarsirkelen Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "2 Trackman simulatorer av beste slag. Plassert på baksiden av Coop Extra, Selforsveien 50, 8613 Mo i Rana. Ubetjent, selvbetjent tilbud åpen hele året. Tilgjengelig kurser: St. Andrews links (Old Course, New Course, Jubilee), Pebble Beach Courses (Pebble Beach, Spy Glass Hill, Spanish Harbour), og Lofoten links. Booking via alba.no. Dørtelefon: +47 458 77 951. Kapasitet inntil 4 personer per time.",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "Dagsgreenfee for 9 hulls. Medlemmer: kr 250. Junior (18-25 år): kr 250. Voksne ikke-medlem: kr 400. Greenfee skal løses før utgang på første tee-sted. Kan betales online eller med Vipps. Greenfee-merke skal være festet synlig på golfbag/tralle.",
+      "cartRental": 200,
+      "pullCartRental": null,
+      "clubRental": 100,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 33,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14533608177141200067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 34.4,
+      "slopeRating": 130,
+      "lengthYards": null,
+      "lengthMeters": 2640,
+      "par": 36
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "helgeland-golfklubb",
+      "distanceKm": 52.3
+    },
+    {
+      "slug": "sleneset-golfklubb",
+      "distanceKm": 62
+    },
+    {
+      "slug": "bodo-golfklubb",
+      "distanceKm": 112.3
+    },
+    {
+      "slug": "bodo-golfpark",
+      "distanceKm": 117.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "93.0",
+    "websiteQuality": null,
+    "completenessPercentage": 93,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:40.957Z",
+    "createdAt": "2025-10-31T09:43:40.958Z",
+    "updatedAt": "2025-11-03T09:09:54.115Z"
+  }
+}

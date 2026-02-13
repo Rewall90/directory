@@ -1,0 +1,198 @@
+{
+  "slug": "larvik-golfklubb",
+  "name": "Larvik Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Larvik",
+  "municipality": "Larvik",
+  "country": "Norway",
+  "address": {
+    "street": "Stavernsveien 232",
+    "postalCode": "3267",
+    "area": "Fritzøe Gård"
+  },
+  "coordinates": {
+    "lat": 59.032681,
+    "lng": 10.013685,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Seaside",
+    "courseType": "18-hulls parklandbane med seaside-preg + 9-hulls korthullsbane",
+    "designer": "Jan Sederholm",
+    "yearBuilt": 1988,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Seaside-preg med utsikt",
+    "scenicHole": "Seaside-preg med utsikt",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Larvik Golfklubb - 18-hulls parklandbane med seaside-preg designet av Jan Sederholm. Par 72. Pluss 9-hulls korthullsbane (åpent helårs). Driving range (13 matter), 2 greener, øvingsområde med bunker. Klubbhus, pro shop (09:00-16:00), café, simulator. El-vogn og tralle-utleie. VTG-kurs, junior/senior/elite-programmer. Custom fitting, privattreninger. Webkamera. Handicap-grense 54."
+  },
+  "description": "Larvik Golfklubb - 18-hulls parklandbane med seaside-preg designet av svenske Jan Sederholm, grunnlagt 1988. Par 72 (Seasidebanen). Pluss egen 9-hulls korthullsbane for pitch & putt. Lengde, vind, rough og strategisk plasserte vann og bunkere gir utfordringer for spillere på alle nivåer.",
+  "contact": {
+    "phone": "+47 33 14 01 40",
+    "email": "klubben@larvikgolf.no",
+    "emailAlt": "info@larvikgolf.no",
+    "website": "https://larvikgolf.no/",
+    "facebook": "https://www.facebook.com/larvikgolf/",
+    "instagram": "https://www.instagram.com/larvikgolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 33 14 01 40",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mars",
+    "end": "Desember",
+    "winterUse": "9-hulls korthullsbane åpent hele året når snøfritt"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Larvik",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Larvik Golfklubb (Grunnlagt 1988)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Café (åpent 09:00-16:00)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Simulator tilgjengelig (stengt i skrivende stund/sesongavhengig)",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 450,
+      "greenFeeWeekend": 450,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 18 hull 450 kr. Gratis for de med NGF-klassifisering og dispensasjon (med bevis). Korthullsbanen: 200 kr (20+), 100 kr (under 20). Vipps: #11891.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "9-hulls korthullsbane åpent hele året (så sant snøfritt). Webkamera tilgjengelig. Custom fitting og privattreninger. Greenfee-samarbeid med samarbeidsklubber."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "junior",
+        "price": 700,
+        "description": "Medlemskap 2025: Klubbavgift 1000 kr (voksen), 700 kr (junior t.o.m. 19 år). VTG1 (tar VTG-kurs i 2025) total spille- og medlemsavgift 1500 kr. Klubbmedlem total avgift 1500 kr. Ungsenior-kategori for 20-30 år. Junior-, senior- og elite-programmer. Custom fitting og privattreninger. Juniorturneringer. Kontakt klubben for fullstendige priser via telefon +47 33 14 01 40 eller epost klubben@larvikgolf.no.",
+        "ageRange": null
+      },
+      {
+        "category": "adult",
+        "price": 1000,
+        "description": "Medlemskap 2025: Klubbavgift 1000 kr (voksen), 700 kr (junior t.o.m. 19 år). VTG1 (tar VTG-kurs i 2025) total spille- og medlemsavgift 1500 kr. Klubbmedlem total avgift 1500 kr. Ungsenior-kategori for 20-30 år. Junior-, senior- og elite-programmer. Custom fitting og privattreninger. Juniorturneringer. Kontakt klubben for fullstendige priser via telefon +47 33 14 01 40 eller epost klubben@larvikgolf.no.",
+        "ageRange": null
+      },
+      {
+        "category": "vtg",
+        "price": 1500,
+        "description": "Medlemskap 2025: Klubbavgift 1000 kr (voksen), 700 kr (junior t.o.m. 19 år). VTG1 (tar VTG-kurs i 2025) total spille- og medlemsavgift 1500 kr. Klubbmedlem total avgift 1500 kr. Ungsenior-kategori for 20-30 år. Junior-, senior- og elite-programmer. Custom fitting og privattreninger. Juniorturneringer. Kontakt klubben for fullstendige priser via telefon +47 33 14 01 40 eller epost klubben@larvikgolf.no.",
+        "ageRange": null
+      },
+      {
+        "category": "clubMember",
+        "price": 1500,
+        "description": "Medlemskap 2025: Klubbavgift 1000 kr (voksen), 700 kr (junior t.o.m. 19 år). VTG1 (tar VTG-kurs i 2025) total spille- og medlemsavgift 1500 kr. Klubbmedlem total avgift 1500 kr. Ungsenior-kategori for 20-30 år. Junior-, senior- og elite-programmer. Custom fitting og privattreninger. Juniorturneringer. Kontakt klubben for fullstendige priser via telefon +47 33 14 01 40 eller epost klubben@larvikgolf.no.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 122,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14279678795731260023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sandefjord-golfklubb",
+      "distanceKm": 12.9
+    },
+    {
+      "slug": "tjome-golfklubb",
+      "distanceKm": 23.4
+    },
+    {
+      "slug": "veierland-golfklubb",
+      "distanceKm": 24.3
+    },
+    {
+      "slug": "bamble-golfklubb",
+      "distanceKm": 25.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "91.0",
+    "websiteQuality": null,
+    "completenessPercentage": 91,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:42.495Z",
+    "createdAt": "2025-10-31T09:10:42.497Z",
+    "updatedAt": "2025-11-03T09:10:04.644Z"
+  }
+}

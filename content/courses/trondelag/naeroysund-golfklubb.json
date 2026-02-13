@@ -1,0 +1,171 @@
+{
+  "slug": "naeroysund-golfklubb",
+  "name": "Nærøysund Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Ottersøy",
+  "municipality": "Nærøysund",
+  "country": "Norway",
+  "address": {
+    "street": "Ottersøy",
+    "postalCode": "7940",
+    "area": "Ottersøy"
+  },
+  "coordinates": {
+    "lat": 64.8563228,
+    "lng": 11.2969859,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 33,
+    "parPerRound": 66,
+    "lengthMeters": 1596,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls bane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønt Ytre Namdal",
+    "scenicHole": "Naturskjønt Ytre Namdal",
+    "par3Count": 4,
+    "par4Count": 4,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Døgnåpent (24/7) i sesong; range, putting green, klubbhus."
+  },
+  "description": "Vakker 9-hulls bane i Ytre Namdal; døgnåpen i sesong.",
+  "contact": {
+    "phone": "+47 488 65 364",
+    "email": "amund.helleso@online.no",
+    "emailAlt": null,
+    "website": "https://www.naroysundgolf.no/",
+    "facebook": "https://www.facebook.com/naroysundgolf.no/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 488 65 364",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Midten av april",
+    "end": "Midten av oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Kolvereid",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Nærøysund Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Estimert 350 kr; Steinkjer-medlemmer 175 kr (50% samarbeid).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Døgnåpent i sesong; samarbeid med Steinkjer GK."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 2,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4296782214993726652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "namsos-golfklubb",
+      "distanceKm": 48.4
+    },
+    {
+      "slug": "namdal-golfklubb",
+      "distanceKm": 52.5
+    },
+    {
+      "slug": "steinkjer-golfklubb",
+      "distanceKm": 93.7
+    },
+    {
+      "slug": "stiklestad-golfklubb",
+      "distanceKm": 115.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:51.423Z",
+    "createdAt": "2025-10-31T11:30:51.425Z",
+    "updatedAt": "2025-11-03T09:09:51.647Z"
+  }
+}

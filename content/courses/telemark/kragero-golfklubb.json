@@ -1,0 +1,182 @@
+{
+  "slug": "kragero-golfklubb",
+  "name": "Kragerø Golfklubb",
+  "formerName": "Kragerø Golf Park",
+  "region": "Telemark",
+  "city": "Kragerø",
+  "municipality": "Kragerø",
+  "country": "Norway",
+  "address": {
+    "street": "Diplemyrveien 1",
+    "postalCode": "3788",
+    "area": "Stabbestad"
+  },
+  "coordinates": {
+    "lat": 58.845527,
+    "lng": 9.396184,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 70,
+    "parPerRound": 70,
+    "lengthMeters": 5428,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog og parkland med kupert terreng",
+    "courseType": "Parkland",
+    "designer": "Kim Von Essen & Per Haugsrud",
+    "yearBuilt": 2003,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Set high and free surrounded by forests"
+  },
+  "description": "Voted 'Norway's Best Golf Course' and set within a large 1,700-acre wooded property. Tree-lined parkland course with undulating terrain, surrounded by forests and rocky outcrops. Opened in 2003 with international standard quality.",
+  "contact": {
+    "phone": "+47 35 98 55 30",
+    "email": "post@kragerogolf.no",
+    "emailAlt": null,
+    "website": "https://www.krageroresort.no",
+    "facebook": "https://www.facebook.com/kragerogolf",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 35 98 55 30",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mars",
+    "end": "November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Kragerø, Stabbestad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Kragerø Resort",
+    "clubOrganization": "Kragerø Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": 250,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Resort Restaurant",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 980,
+      "greenFeeWeekend": 1100,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Price varies by season (NOK 980-1100)",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golf packages available through Kragerø Resort"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 67,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13488832981330771427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Back",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 71.3,
+      "slopeRating": 140,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 70
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "bamble-golfklubb",
+      "distanceKm": 16.4
+    },
+    {
+      "slug": "arendal-og-omegn-golfklubb",
+      "distanceKm": 39.6
+    },
+    {
+      "slug": "larvik-golfklubb",
+      "distanceKm": 41.1
+    },
+    {
+      "slug": "grenland-og-omegn-golfklubb",
+      "distanceKm": 48.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T12:22:39.688Z",
+    "createdAt": "2025-10-31T12:22:39.690Z",
+    "updatedAt": "2025-11-03T09:10:09.666Z"
+  }
+}

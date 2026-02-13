@@ -1,0 +1,176 @@
+{
+  "slug": "hafjell-golfklubb",
+  "name": "Hafjell Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Øyer",
+  "municipality": "Øyer",
+  "country": "Norway",
+  "address": {
+    "street": "Nermosvegen 56",
+    "postalCode": "2636",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 61.2443161,
+    "lng": 10.4568586,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": null,
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Hafjell golfbane",
+  "contact": {
+    "phone": "95 17 76 55",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://hafjellgolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "95 17 76 55",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "61 27 55 80",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": "13. oktober",
+    "winterUse": "Vinterstengt bane fra 13. oktober"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Øyer",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Hafjell Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Booking/greenfee available via booking system",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 81,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16270365068477212261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "skei-golfklubb",
+      "distanceKm": 22
+    },
+    {
+      "slug": "mjosen-golfklubb",
+      "distanceKm": 35.5
+    },
+    {
+      "slug": "sorknes-golfklubb",
+      "distanceKm": 47.7
+    },
+    {
+      "slug": "gjovik-toten-golfklubb",
+      "distanceKm": 62.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:12.403Z",
+    "createdAt": "2025-10-31T07:18:12.405Z",
+    "updatedAt": "2025-11-03T09:09:48.134Z"
+  }
+}

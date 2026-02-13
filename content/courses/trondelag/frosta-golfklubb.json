@@ -1,0 +1,197 @@
+{
+  "slug": "frosta-golfklubb",
+  "name": "Frosta Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Frosta",
+  "municipality": "Frosta",
+  "country": "Norway",
+  "address": {
+    "street": "Korsnesvegen 19",
+    "postalCode": "7633",
+    "area": "Vågen, Korsnes"
+  },
+  "coordinates": {
+    "lat": 63.5830648,
+    "lng": 10.8033586,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 18,
+    "par": 20,
+    "parPerRound": 60,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "6-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Beliggenhet ved sjøen på Korsneshalvøya",
+    "scenicHole": "Beliggenhet ved sjøen på Korsneshalvøya",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Selvbetjent anlegg uten teetidsbooking. Driving range, putting/chipping, practice bunker."
+  },
+  "description": "6-hulls parklandbane ved sjøen i Vågen på Korsneshalvøya. Selvbetjent, ubegrenset dagsspill.",
+  "contact": {
+    "phone": "+47 901 08 746",
+    "email": "post@frostagk.no",
+    "emailAlt": null,
+    "website": "https://frostagk.no/",
+    "facebook": "https://www.facebook.com/FrostaGK",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 901 08 746",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 90 10 87 46",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober/November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Frosta",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Frosta Golfklubb (Org.nr. 984 441 673)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Ubegrenset spill en dag (selvbetjent). Betaling via kontanter, Vipps eller terminal når klubbhus er åpent.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Gratis køller. Ubegrenset spill mot dagsgreenfee."
+    }
+  },
+  "membershipPricing": {
+    "2022": [
+      {
+        "category": "junior6to12",
+        "price": 600,
+        "description": "Priser fra 2022 – verifiser gjeldende satser på frostagk.no.",
+        "ageRange": null
+      },
+      {
+        "category": "junior13to19",
+        "price": 1200,
+        "description": "Priser fra 2022 – verifiser gjeldende satser på frostagk.no.",
+        "ageRange": null
+      },
+      {
+        "category": "adult",
+        "price": 2700,
+        "description": "Priser fra 2022 – verifiser gjeldende satser på frostagk.no.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 17,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=15118824727583030365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "stjordal-golfklubb",
+      "distanceKm": 12.3
+    },
+    {
+      "slug": "trondheim-golfklubb",
+      "distanceKm": 29.4
+    },
+    {
+      "slug": "klaebu-golfklubb",
+      "distanceKm": 32.7
+    },
+    {
+      "slug": "stiklestad-golfklubb",
+      "distanceKm": 40.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:50.007Z",
+    "createdAt": "2025-10-31T11:30:50.008Z",
+    "updatedAt": "2025-11-03T09:09:50.810Z"
+  }
+}

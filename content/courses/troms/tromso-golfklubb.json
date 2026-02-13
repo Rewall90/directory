@@ -1,0 +1,263 @@
+{
+  "slug": "tromso-golfklubb",
+  "name": "Tromsø Golfklubb",
+  "formerName": null,
+  "region": "Troms",
+  "city": "Tromsø",
+  "municipality": "Tromsø",
+  "country": "Norway",
+  "address": {
+    "street": "Breivikeidet",
+    "postalCode": "9020",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 69.65801309999999,
+    "lng": 19.613336,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": 5800,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "18-hulls parklandbane + 9-hulls par-3 bane (27 hull totalt)",
+    "designer": "Jan Sederholm",
+    "yearBuilt": 2002,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Verdens nordligste 18-hulls bane",
+    "scenicHole": "Verdens nordligste 18-hulls bane",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Tromsø Golfklubb - Verdens nordligste 18-hulls golfbane! 18-hulls parklandbane par 71 + 9-hulls par-3 bane (27 hull totalt). Designet av Jan Sederholm. Driving range, putting green, chipping green, practice bunker. Klubbhus med pro shop og kafé. Utleie av køller (Titleist/TaylorMade), tralle og 5 golfbiler. Garderober. Handicap-grense 54. Camping-parkering tilgjengelig."
+  },
+  "description": "Tromsø Golfklubb - Verdens nordligste 18-hulls golfbane!\n\nBeliggende på 69°39'30\" N ved foten av Lyngsalpene, ca. 45 minutter fra Tromsø sentrum.\n\n18-hulls parklandbane par 71 designet av svenske Jan Sederholm. Banen åpnet i 2002, klubben ble stiftet i 1996. Over 550 medlemmer.\n\nSpill golf under midnattssolen - en helt unik opplevelse hvor du kan slå ut godt etter midnatt!\n\nFasiliteter inkluderer driving range, putting green, nærspillområde, klubbhus med kafé, og innendørs golfsenter (Tromsø Golfsenter) med TrackMan-simulatorer - utvides til 5 simulatorer fra 2026.\n\nUtstyrsutleie: Hele sett 300 kr, tralle 50 kr, golfbil 400-500 kr.",
+  "contact": {
+    "phone": "+47 77 63 32 60",
+    "email": "info@tromsogolf.com",
+    "emailAlt": null,
+    "website": "https://tromsogolf.com/",
+    "facebook": "https://www.facebook.com/tromsogolf/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 77 63 32 60",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Tromsø",
+    "distanceFromCenter": "45 min fra Tromsø sentrum"
+  },
+  "organization": {
+    "courseCompany": "Tromsø Golfpark",
+    "clubOrganization": "Tromsø Golfklubb (Grunnlagt 1996)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé med enkel servering",
+    "clubRental": true,
+    "clubRentalNotes": "Hele sett (Titleist/TaylorMade) 300 kr, enkeltklubber gratis",
+    "cartRental": true,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": true,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": true,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "TrackMan",
+    "simulatorCourses": "Tromsø Golfsenter - utvides til 5 simulatorer fra 2026",
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 950,
+      "greenFeeSenior": 500,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "GREENFEE 2025/2026:\n\nGJESTER (via Golfbox/telefon):\n• 18 hull: 500-950 kr (avhengig av dag)\n• 9 hull: 350-500 kr\n\nSTUDENT/JUNIOR:\n• 18 hull: 250 kr\n• 9 hull: 150 kr\n\nUNGDOM (19-27 år):\n• 18 hull: 325 kr\n• 9 hull: 220 kr\n\nUTSTYRSLEIE:\n• Hele sett: 300 kr\n• Tralle: 50 kr\n• Golfbil medlem: 400 kr\n• Golfbil gjest: 500 kr\n• Enkeltklubber: Gratis\n\nMØTEROM: 1.500 kr/dag\nSKAP: 700 kr/år",
+      "cartRental": 500,
+      "pullCartRental": null,
+      "clubRental": 300,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Camping/bobil-parkering med strøm 200 kr, uten strøm 100 kr. Medlemmer får redusert pris på golfbil (400 kr vs 500 kr)."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Voksen (26-66 år)",
+        "price": 3400,
+        "description": null,
+        "ageRange": "26-66"
+      },
+      {
+        "category": "Ung voksen (20-25 år)",
+        "price": 2250,
+        "description": null,
+        "ageRange": "20-25"
+      },
+      {
+        "category": "Junior (13-19 år)",
+        "price": 750,
+        "description": null,
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Barn (under 13 år)",
+        "price": 750,
+        "description": null,
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Senior (67+ år)",
+        "price": 3400,
+        "description": null,
+        "ageRange": "67+"
+      },
+      {
+        "category": "Familie (2 voksne + barn)",
+        "price": 6650,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Støttemedlem",
+        "price": 500,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Fjernmedlem",
+        "price": 1000,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 436,
+      "maxRating": 5,
+      "url": null,
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "midt-troms-golfklubb",
+      "distanceKm": 85.8
+    },
+    {
+      "slug": "bleik-golfstrombane",
+      "distanceKm": 148.3
+    },
+    {
+      "slug": "harstad-golfklubb",
+      "distanceKm": 153.4
+    },
+    {
+      "slug": "narvik-golfklubb",
+      "distanceKm": 180.4
+    }
+  ],
+  "additionalFeatures": [
+    {
+      "feature": "Verdens nordligste 18-hullsbane",
+      "description": "Beliggende på 69°39'30\" nord"
+    },
+    {
+      "feature": "Midnattssol-golf",
+      "description": "Slå ut godt etter midnatt under midnattssolen"
+    },
+    {
+      "feature": "Lyngsalpene",
+      "description": "Spektakulær utsikt til Lyngsalpene fra banen"
+    },
+    {
+      "feature": "Jan Sederholm-design",
+      "description": "Banen designet av svensk banearkitekt Jan Sederholm"
+    },
+    {
+      "feature": "Tromsø Golfsenter",
+      "description": "Innendørs senter med TrackMan - utvides til 5 simulatorer i 2026"
+    },
+    {
+      "feature": "Par-3 øvingsbane",
+      "description": "Egen 9-hulls par-3 bane for trening"
+    },
+    {
+      "feature": "Klubbfitting",
+      "description": "Profesjonell klubbfitting fra 995 kr"
+    },
+    {
+      "feature": "Bobil-/campingplass",
+      "description": "Overnatting med strøm 200 kr, uten 100 kr"
+    },
+    {
+      "feature": "VTG nybegynnerkurs",
+      "description": "Inkluderer gratis medlemskap og spill"
+    },
+    {
+      "feature": "Nettbutikk",
+      "description": "butikk.tromsogolf.com for utstyr og gavekort"
+    }
+  ],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 76,
+    "pagesScraped": null,
+    "scrapedAt": "2026-02-12T09:31:39.817Z",
+    "createdAt": "2025-10-31T05:13:00.650Z",
+    "updatedAt": "2026-02-12T09:31:39.819Z"
+  }
+}

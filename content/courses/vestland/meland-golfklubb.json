@@ -1,0 +1,171 @@
+{
+  "slug": "meland-golfklubb",
+  "name": "Meland Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Frekhaug",
+  "municipality": "Alver",
+  "country": "Norway",
+  "address": {
+    "street": "Beitingsvegen 50",
+    "postalCode": "5918",
+    "area": "Leirvik Gard"
+  },
+  "coordinates": {
+    "lat": 60.5406,
+    "lng": 5.08644,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 73,
+    "parPerRound": 73,
+    "lengthMeters": 6237,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Woodland",
+    "courseType": "18-hulls skogsbane",
+    "designer": "Robert A. Hunt (PGA Management)",
+    "yearBuilt": 1999,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Lett bølgende skogsterreng med vannhindre",
+    "scenicHole": "Lett bølgende skogsterreng med vannhindre",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Meland Golfklubb - 18-hulls skogsbane designet av Robert A. Hunt, åpnet 1999. Par 73, 6237m. En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). Lett bølgende terreng med vannhindre. Driving range, putting/chipping greens, practice bunker. 3 TrackMan simulatorer. Klubbhus med garderober, toalett, kafé, pro shop. 20 golfbiler med egne stier. Toalett på bane (hull 8, 13). Bobil-parkering. Handicap-grense 54."
+  },
+  "description": "Meland Golfklubb - 18-hulls skogsbane designet av Robert A. Hunt (PGA Management), åpnet 1999. Klubb grunnlagt 1995. Par 73, 6823 yards (ca 6237m). Kjent som en av de mest utfordrende golfbanene i Skandinavia. Lett bølgende terreng med vannhindre. 6 forskjellige tee-alternativer fra 3500 til 6200 meter.",
+  "contact": {
+    "phone": "+47 56 17 46 00",
+    "email": "post@melandgolf.no",
+    "emailAlt": null,
+    "website": "https://melandgolf.no/",
+    "facebook": "https://www.facebook.com/MelandGolfKlubb/",
+    "instagram": "https://www.instagram.com/melandgolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 56 17 46 00",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "3 TrackMan simulatorer tilgjengelig for innendørsspill"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Meland Golfklubb (Grunnlagt 1995, bane åpnet 1999)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "3 TrackMan Golf Simulators med digital baneintegrasjon",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 575,
+      "greenFeeWeekend": 600,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 575-600 kr. Handicap-grense 54, gyldig handicapbevis påkrevd.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). 3 TrackMan simulatorer. 20 golfbiler med egne stier. Bobil-parkering med/uten strøm. Toalett på banen etter hull 8 og 13."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 148,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9969479447518591458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "herdla-golfklubb",
+      "distanceKm": 7.9
+    },
+    {
+      "slug": "bergen-golfklubb",
+      "distanceKm": 16.4
+    },
+    {
+      "slug": "sotra-golfklubb",
+      "distanceKm": 20.9
+    },
+    {
+      "slug": "fana-golfklubb",
+      "distanceKm": 30.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:59.136Z",
+    "createdAt": "2025-10-31T10:16:59.137Z",
+    "updatedAt": "2025-11-03T09:10:15.627Z"
+  }
+}

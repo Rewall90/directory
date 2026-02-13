@@ -1,0 +1,192 @@
+{
+  "slug": "vanylven-golfklubb",
+  "name": "Vanylven Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Eidsåa",
+  "municipality": "Vanylven",
+  "country": "Norway",
+  "address": {
+    "street": "Syvdefjordvegen 24",
+    "postalCode": "6140",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 62.1122249,
+    "lng": 5.6746852,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 34,
+    "parPerRound": 68,
+    "lengthMeters": 1969,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Variert terreng med smale fairways",
+    "courseType": "Kompakt 9-hulls bane",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": 2023,
+    "waterHazards": true,
+    "signatureHole": "Banen ligger nær Syvdefjorden med flotte naturopplevelser",
+    "scenicHole": "Banen ligger nær Syvdefjorden med flotte naturopplevelser",
+    "par3Count": 3,
+    "par4Count": 5,
+    "par5Count": 1,
+    "mountainViews": true,
+    "viewDescription": "Banen ligger i naturskjønne omgivelser nær Syvdefjorden, omgitt av skog og fjell. Vakre fjordutsikter."
+  },
+  "description": "Variert og morsom 9-hulls kompaktbane i naturskjønne omgivelser ved Syvdefjorden. Banen ble åpnet som 6-hulls i 1999, utvidet til 9 hull i 2004, og redesignet i 2023. Karakterisert av smale fairways, utfordrende bunkere, og omgitt av skog og elver. Tilbyr en spennende og utfordrende golfopplevelse i vakre naturomgivelser. Par 34 per runde (68 for 18 hull).",
+  "contact": {
+    "phone": "+47 90473370",
+    "email": "post@vangolf.no",
+    "emailAlt": null,
+    "website": "https://www.vangolf.no/",
+    "facebook": "https://www.facebook.com/people/Vanylven-Golfklubb/100057508987692/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 90473370",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Simulator tilgjengelig, simulatorturnering arrangeres om høsten"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Eidsåa",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Vanylven Golfklubb",
+    "clubOrganization": "Vanylven Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Simulator turnering arrangeres om høsten",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Greenfee voksne: 200 kr per dag. Junior (13-19 år): 100 kr per dag. Barn opp til og med 12 år spiller gratis.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 3,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=474542148499312728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 32.8,
+      "slopeRating": 123,
+      "lengthYards": null,
+      "lengthMeters": 1969,
+      "par": 34
+    },
+    {
+      "teeColor": "grønn",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 33.1,
+      "slopeRating": 103,
+      "lengthYards": null,
+      "lengthMeters": 1029,
+      "par": 34
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "selje-golfklubb",
+      "distanceKm": 18
+    },
+    {
+      "slug": "volda-golfklubb",
+      "distanceKm": 24
+    },
+    {
+      "slug": "aalesund-golfklubb-solnor-gaard",
+      "distanceKm": 26.5
+    },
+    {
+      "slug": "nordfjord-golfklubb",
+      "distanceKm": 28.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "93.5",
+    "websiteQuality": null,
+    "completenessPercentage": 93,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:11.955Z",
+    "createdAt": "2025-10-31T09:31:11.956Z",
+    "updatedAt": "2025-11-03T09:10:14.124Z"
+  }
+}

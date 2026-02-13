@@ -1,0 +1,227 @@
+{
+  "slug": "onsoy-golfklubb",
+  "name": "Onsøy Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Manstad",
+  "municipality": "Fredrikstad",
+  "country": "Norway",
+  "address": {
+    "street": "Golfsvingen 1",
+    "postalCode": "1626",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.2742974,
+    "lng": 10.7913259,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 5855,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog, sjø og åpent landskap",
+    "courseType": "18-hulls skogsbane med naturlige elementer",
+    "designer": "Terje Andersen",
+    "yearBuilt": 1987,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Panoramautsikt over hull 1 og 18 fra Restaurant ELIN",
+    "scenicHole": "Panoramautsikt over hull 1 og 18 fra Restaurant ELIN",
+    "par3Count": 5,
+    "par4Count": 9,
+    "par5Count": 4,
+    "mountainViews": false,
+    "viewDescription": "Spektakulær 18-hulls skogsbane i naturskjønne omgivelser ved Manstad, Fredrikstad. Etablert 1987, designet av Terje Andersen. En av Norges mest utfordrende baner med Slope 146 fra lengste tee (5855m). Variert terreng omkranset av skog, sjø og åpent landskap. 5 forskjellige tee-posisjoner gjør banen tilgjengelig for alle nivåer. Panoramautsikt over hull 1 og 18 fra Restaurant ELIN. Omfattende treningsfasiliteter med driving range, putting green, chipping area, practice bunker og AKS-Simulator. Teaching pro tilgjengelig."
+  },
+  "description": "Velkommen til Onsøy Golfbane, en perle i naturskjønne omgivelser som tilbyr en golfopplevelse utenom det vanlige. Beliggende i hjertet av Østfold ved Manstad, kun en kort kjøretur fra Fredrikstad, finner du en vakker 18-hulls bane etablert i 1987. Par 72, lengde 5855 meter fra lengste tee. Designet av Terje Andersen og kjent for sin velpleide bane omkranset av skog, sjø og åpent landskap. De varierte hullene gir deg en spennende opplevelse hver gang du spiller banen. 5 forskjellige tee-posisjoner (59, 56, 52, 48, 34) gjør banen tilgjengelig for spillere på alle nivåer. En av Norges mest utfordrende baner med Slope 146 fra lengste tee.",
+  "contact": {
+    "phone": "+47 69 33 91 50",
+    "email": "post@onsoyresort.no",
+    "emailAlt": null,
+    "website": "https://onsoygolfklubb.no/",
+    "facebook": "https://www.facebook.com/onsoygolfklubb/",
+    "instagram": "https://www.instagram.com/onsoygolfbane/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 69 33 91 50",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 46 95 66 80",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mars/April",
+    "end": "Oktober/November",
+    "winterUse": "Banen stenges om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Fredrikstad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Fredrikstad Golfbane AS",
+    "clubOrganization": "Onsøy Golfklubb (org.nr. 983070116)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Restaurant ELIN",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "AKS-Simulator",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 695,
+      "greenFeeWeekend": 745,
+      "greenFeeSenior": 695,
+      "greenFeeJunior": 395,
+      "greenFeeDescription": "Greenfee 18 hull: 695 NOK (hverdag), 745-845 NOK (helg/helligdag, avhengig av primetime). Twilight (etter kl 19:00): 495 NOK. Junior: 300 kr rabatt på ordinær greenfee. Medlemsgjest: 150 kr rabatt.",
+      "cartRental": 400,
+      "pullCartRental": null,
+      "clubRental": 300,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Fra 1. august 2025 får alle som tegner medlemskap i Fullt medlemskaps kategorier og Fredrikstad Total fritt spill ut hele 2026"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 187,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14155854065945313410&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "svart",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 79.2,
+      "slopeRating": 146,
+      "lengthYards": null,
+      "lengthMeters": 5855,
+      "par": 72
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 77.7,
+      "slopeRating": 143,
+      "lengthYards": null,
+      "lengthMeters": 5609,
+      "par": 72
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 75.3,
+      "slopeRating": 137,
+      "lengthYards": null,
+      "lengthMeters": 5212,
+      "par": 72
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 73.1,
+      "slopeRating": 133,
+      "lengthYards": null,
+      "lengthMeters": 4851,
+      "par": 72
+    },
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 62.3,
+      "slopeRating": 115,
+      "lengthYards": null,
+      "lengthMeters": 3105,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "huseby-hanko-golfklubb",
+      "distanceKm": 0.9
+    },
+    {
+      "slug": "moss-rygge-golfklubb",
+      "distanceKm": 12.2
+    },
+    {
+      "slug": "gamle-fredrikstad-golfklubb",
+      "distanceKm": 12.9
+    },
+    {
+      "slug": "ekholtbruket-golfklubb",
+      "distanceKm": 16.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:07.860Z",
+    "createdAt": "2025-10-31T11:42:07.862Z",
+    "updatedAt": "2025-11-03T09:10:18.858Z"
+  }
+}

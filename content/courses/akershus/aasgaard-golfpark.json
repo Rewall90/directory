@@ -1,0 +1,186 @@
+{
+  "slug": "aasgaard-golfpark",
+  "name": "Hakadal Golfklubb - Aas Gaard Golfpark",
+  "formerName": "Aasgaard Golfpark",
+  "region": "Akershus",
+  "city": "Hakadal",
+  "municipality": "Nittedal",
+  "country": "Norway",
+  "address": {
+    "street": "Aas Gaard 11",
+    "postalCode": "1488",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.13231619999999,
+    "lng": 10.8369827,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane",
+    "courseType": "Parkbane",
+    "designer": null,
+    "yearBuilt": 2005,
+    "yearRedesigned": 2006,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 5,
+    "par4Count": 8,
+    "par5Count": 5,
+    "mountainViews": false,
+    "viewDescription": "Photo gallery: https://aasgaardgolfpark.no/klubben/bane/bane/klubben/bildearkiv"
+  },
+  "description": "Samarbeidet mellom Hakadal Golfklubb og grunneier har resultert i et baneprosjekt både klubb, grunneier og kommune slår ring om. Målsetningen har vært å skape et golf- og friluftstilbud med lokal tilknytning. Banen er bygget etter USGA-standard, tilpasset skandinaviske forhold. Første 9 hull åpnet juni 2005, ytterligere 9 hull august 2006. Golf passer for alle - uansett alder. Golf er en familie- og selskapssport. Golf er frisk luft og mosjon, helse og trivsel. Golf er relasjonsskapende.",
+  "contact": {
+    "phone": "90611116",
+    "email": "torve@hakadalgolf.no",
+    "emailAlt": null,
+    "website": "https://aasgaardgolfpark.no/",
+    "facebook": "https://www.facebook.com/hakadalgolf/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "90611116",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "93419810",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "91346692",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "91392021",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Sesong avsluttet, driving range stengt grunnet sprinkler vintergjøring. Mandager: Banen spilles fra hull 10. Må sjekke inn på proshop. Tee-tid intervaller: 10 minutter. Anbefalt spilletid: 4.5 timer. Gjester velkomne. Må booke tee-tid. Sjekk inn på proshop/starter minst 10 minutter før avslag. Avbestilling kreves innen kl 22:00 dagen før, ellers mistes bookingrettigheter i 14 dager. No-show gjester faktureres full greenfee til hjemmeklubb."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Norway",
+    "clubOrganization": "Founded: 14. august 2001\n\nFounding members: 15\n\nNGF member since: 19. oktober 2001\n\nNGF member #177\n\nTournaments hosted: President Cup, Samelua, Mesternes Mester, Sparebank1 Fearnleys Pokal\n\nRecent tournaments:\n- President Cup (12. oktober)\n- Arve Hermansen slo den rett i koppen på tampen av sesongen (10. oktober)\n- Samelua (28. september)\n- Mesternes Mester (27. september)\n- Sparebank1 Fearnleys Pokal 2025 – regn, sol og jubelscener (23. september)\n\nHakadal golfklubb ble stiftet den 14.august 2001, med 15 medlemmer. Klubben ble tatt opp i Norges Golfforbund den 19. oktober 2001, som medlemsklubb nr. 177."
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafeen",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 650,
+      "greenFeeWeekend": 700,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "50% rabatt for juniorer (halv pris alle dager). kr 400,- for Norsk Seniorgolf-medlemmer hverdager 13:00-15:00. Minimum greenfee kr 400,- for spillere over 19 år. Golfbilutleie krever booking via proshop i åpningstid. Fører må være 18+ med gyldig førerkort. Helg primetid (09:00-13:50) kr 850,-, andre helgetider kr 700,-. Range baller: kr 39,-. Åpningstider: Hverdager 08:00-20:00, Helg 08:00-17:00 (telefonbooking). Golfbox online booking 24/7 for tee-tider 06:00-20:50. Vipps: 107164",
+      "cartRental": 450,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Må bookes via proshop i åpningstid. Kan hentes maks 30 min før tee-tid hvis tilgjengelig. Ikke tilgjengelig utenfor åpningstid. Må være 18+ med førerkort. Leietaker ansvarlig for skader via egen forsikring. 9-hulls golfbilleie: kr 250,-"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 169,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9076243804675710101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "gjerdrum-golfklubb",
+      "distanceKm": 13.2
+    },
+    {
+      "slug": "ullensaker-golfklubb",
+      "distanceKm": 14.6
+    },
+    {
+      "slug": "hauger-golfklubb",
+      "distanceKm": 16.6
+    },
+    {
+      "slug": "groruddalen-golfklubb",
+      "distanceKm": 18.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:19.348Z",
+    "createdAt": "2025-10-31T11:23:19.350Z",
+    "updatedAt": "2025-11-03T09:10:17.975Z"
+  }
+}

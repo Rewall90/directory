@@ -1,0 +1,207 @@
+{
+  "slug": "nordfjord-golfklubb",
+  "name": "Nordfjord Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Nordfjordeid",
+  "municipality": "Stad",
+  "country": "Norway",
+  "address": {
+    "street": "Stokkenes",
+    "postalCode": "6770",
+    "area": "Stokkenes"
+  },
+  "coordinates": {
+    "lat": 61.9103,
+    "lng": 6.012043,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 32,
+    "parPerRound": 64,
+    "lengthMeters": 1513,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Panoramautsikt over naturskjønne omgivelser ved Eidselva",
+    "scenicHole": "Panoramautsikt over naturskjønne omgivelser ved Eidselva",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Nordfjord Golfklubb - 9-hulls parklandbane på Stokkenes ved Eidselva laksefossen i Nordfjordeid. Par 32, 1513m. Grunnlagt 1999. Ansett som en av de beste og vakreste golfbanene i Vestland. Driving range, putting green. Klubbhus med panoramautsikt over naturskjønne omgivelser. Handicap-grense 54. Ingen booking nødvendig."
+  },
+  "description": "Nordfjord Golfklubb - 9-hulls parklandbane på Stokkenes Golfpark ved Eidselva laksefossen, grunnlagt 1999. Par 32 (64 for 18 hull når spilt 2 ganger), 1655 yards (ca 1513m). Ansett av mange som en av de beste og vakreste golfbanene i Vestland. Nordfjordeid ligger i Nordfjord.",
+  "contact": {
+    "phone": "+47 48 11 22 60",
+    "email": "post@norgolf.com",
+    "emailAlt": null,
+    "website": "https://www.norgolf.com/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 48 11 22 60",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Februar",
+    "end": "Desember",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Nordfjordeid",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Stokkenes Golfpark",
+    "clubOrganization": "Nordfjord Golfklubb (Grunnlagt 1999)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Greenfee 2025: Voksen 250 kr, Junior 100 kr, Barn under 12 år gratis. Banen er åpen for gjestespillere uten booking - begrenset press på banen, kan alltid slå ut på kort varsel også helger og helligdager.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Barn under 12 år spiller gratis. Ingen booking nødvendig - begrenset press på banen. Ansett som en av de beste og vakreste banene i Vestland. Panoramautsikt fra klubbhuset."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "child",
+        "price": 1600,
+        "description": "Medlemskap 2025: Barn 1600 kr, Voksen 3200 kr. Inkluderer medlemskap i Nordfjord Golfklubb og fri spillerett for en sesong på Stokkenes Golfpark. Kontakt klubben for detaljer via telefon +47 48 11 22 60 eller epost post@norgolf.com.",
+        "ageRange": null
+      },
+      {
+        "category": "adult",
+        "price": 3200,
+        "description": "Medlemskap 2025: Barn 1600 kr, Voksen 3200 kr. Inkluderer medlemskap i Nordfjord Golfklubb og fri spillerett for en sesong på Stokkenes Golfpark. Kontakt klubben for detaljer via telefon +47 48 11 22 60 eller epost post@norgolf.com.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 34,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=8987380636059716432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul / Yellow",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 29.8,
+      "slopeRating": 119,
+      "lengthYards": null,
+      "lengthMeters": 1513,
+      "par": 32
+    },
+    {
+      "teeColor": "Rød / Red",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 58.9,
+      "slopeRating": 112,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 32
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "aalesund-golfklubb-solnor-gaard",
+      "distanceKm": 12.1
+    },
+    {
+      "slug": "sandane-golfklubb",
+      "distanceKm": 20.9
+    },
+    {
+      "slug": "volda-golfklubb",
+      "distanceKm": 26.3
+    },
+    {
+      "slug": "vanylven-golfklubb",
+      "distanceKm": 28.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "89.0",
+    "websiteQuality": null,
+    "completenessPercentage": 89,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:20:26.937Z",
+    "createdAt": "2025-10-31T10:20:26.938Z",
+    "updatedAt": "2025-11-03T09:10:17.683Z"
+  }
+}

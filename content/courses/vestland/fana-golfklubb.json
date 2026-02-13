@@ -1,0 +1,181 @@
+{
+  "slug": "fana-golfklubb",
+  "name": "Fana Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Bergen",
+  "municipality": "Bergen",
+  "country": "Norway",
+  "address": {
+    "street": "Vestre Rå 82",
+    "postalCode": "5239",
+    "area": "Rådal"
+  },
+  "coordinates": {
+    "lat": 60.28944449999999,
+    "lng": 5.309955,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 69,
+    "parPerRound": 69,
+    "lengthMeters": 5051,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "18-hulls park- og skogsbane",
+    "designer": null,
+    "yearBuilt": 1988,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Naturskjønne omgivelser ved Skeievannet",
+    "scenicHole": "Naturskjønne omgivelser ved Skeievannet",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Fana Golfklubb - Bergens eneste 18-hulls bane grunnlagt 1988 i naturskjønne omgivelser ved Skeievannet. Par 69, 5051m. En av Norges mest moderne driving ranges (TrackMan Range, overdekkede plasser, lys). Chipping/putting greens, practice bunker. 4 TrackMan-simulatorer vintersesong. Klubbhus med garderober, restaurant/bar med utsikt, pro shop. Toalett på bane (5,6,9,11,17). Bobil-parkering. Handicap-grense 54."
+  },
+  "description": "Fana Golfklubb - Bergens eneste 18-hulls golfbane, grunnlagt 1988. 18-hulls park- og skogsbane i naturskjønne omgivelser ved Skeievannet, sør for Bergen mot flyplassen. Par 69 (36 ut, 33 inn), 5051 meter. Variert og utfordrende terreng med lange avstander mellom enkelte hull.",
+  "contact": {
+    "phone": "+47 942 31 000",
+    "email": "fanagolf@fanagolf.no",
+    "emailAlt": null,
+    "website": "https://fanagolf.no/",
+    "facebook": "https://www.facebook.com/fanagolfklubb/",
+    "instagram": "https://www.instagram.com/fanagolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 942 31 000",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 98 25 56 33",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 40 00 21 58",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "4 TrackMan-simulatorer tilgjengelig i vintersesong"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Fana Golfklubb (Grunnlagt 1988)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Restaurant & bar med utsikt over golfbanen",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "4 TrackMan-simulatorer tilgjengelig i vintersesong",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 1200,
+      "greenFeeWeekend": 1200,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 475,
+      "greenFeeDescription": "Greenfee 2025: 1200 kr (alle dager). Unge golfere 20-26 år: 475 kr (18 hull) / 350 kr (9 hull). Medlemmer uten spillerett får 100 kr rabatt per 18-hulls runde.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Bergens eneste 18-hulls bane. En av Norges mest moderne driving ranges med TrackMan Range. 4 TrackMan-simulatorer for vintertrening. Toalett på banen ved hull 5, 6, 9, 11 og 17. Bobil-parkering."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 202,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7751425715857370788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sotra-golfklubb",
+      "distanceKm": 14.1
+    },
+    {
+      "slug": "bjornefjorden-golfklubb",
+      "distanceKm": 14.6
+    },
+    {
+      "slug": "bergen-golfklubb",
+      "distanceKm": 17.7
+    },
+    {
+      "slug": "meland-golfklubb",
+      "distanceKm": 30.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "89.0",
+    "websiteQuality": null,
+    "completenessPercentage": 89,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:54.007Z",
+    "createdAt": "2025-10-31T10:16:54.008Z",
+    "updatedAt": "2025-11-03T09:09:55.801Z"
+  }
+}

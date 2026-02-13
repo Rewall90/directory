@@ -1,0 +1,192 @@
+{
+  "slug": "floro-golfklubb",
+  "name": "Florø Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Florø",
+  "municipality": "Kinn",
+  "country": "Norway",
+  "address": {
+    "street": "Planteskulevegen 35",
+    "postalCode": "6908",
+    "area": "Brandsøy"
+  },
+  "coordinates": {
+    "lat": 61.609651,
+    "lng": 5.129764,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 6,
+    "holesPlayed": 6,
+    "par": 22,
+    "parPerRound": 22,
+    "lengthMeters": 1014,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Coastal",
+    "courseType": "6-hulls kort bane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Hull 4 (364 yards par 5) - banens vanskeligste hull",
+    "scenicHole": "Fantastisk fjord- og kystlandskap",
+    "par3Count": 3,
+    "par4Count": 2,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Florø Golfklubb - 6-hulls kort bane på Brandsøy ved Florø. Par 22, 1014m. Godkjent og slopet av NGF. Omgitt av fantastisk fjord- og kystlandskap. Driving range, putting green med sandbunker, chipping-område, ballmaskin, golf simulator. Avslappet atmosfære, familievennlig, ingen streng klesskode. Dugnadsdrevet klubb. Søndagsturneringer. Bedriftsarrangementer tilgjengelig."
+  },
+  "description": "Florø Golfklubb - 6-hulls kort bane på Brandsøy noen minutter kjøretur fra Florø sentrum. Par 22, 1109 yards (ca 1014m). Godkjent og slopet av Norges Golfforbund. Omgitt av fantastisk fjordlandskap og frodige kystlandskaper. Hull 4 (364y par 5) er banens vanskeligste hull. Avslappet atmosfære, vennlig for familier.",
+  "contact": {
+    "phone": "+47 977 52 410",
+    "email": "post@florogolf.no",
+    "emailAlt": null,
+    "website": "https://florogolf.no/",
+    "facebook": "https://www.facebook.com/p/Florø-Golfklubb-100063578620265/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 977 52 410",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Golf simulator tilgjengelig"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Florø",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Florø Golfklubb (Dugnadsdrevet klubb)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golf simulator tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: 250 kr (estimert fra 2022-priser). Årlig kortadministrasjon/IT-avgift 100 kr. Kontakt klubben for 2025-priser på florogolf.no eller telefon +47 977 52 410.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 16,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3853732319259481054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 20.5,
+      "slopeRating": 114,
+      "lengthYards": null,
+      "lengthMeters": 1014,
+      "par": 22
+    },
+    {
+      "teeColor": "Rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 20,
+      "slopeRating": 111,
+      "lengthYards": null,
+      "lengthMeters": 908,
+      "par": 22
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "selje-golfklubb",
+      "distanceKm": 49.4
+    },
+    {
+      "slug": "sunnfjord-golfklubb",
+      "distanceKm": 52.2
+    },
+    {
+      "slug": "nordfjord-golfklubb",
+      "distanceKm": 57.2
+    },
+    {
+      "slug": "sandane-golfklubb",
+      "distanceKm": 60.9
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:54.613Z",
+    "createdAt": "2025-10-31T10:16:54.615Z",
+    "updatedAt": "2025-11-03T09:09:56.057Z"
+  }
+}

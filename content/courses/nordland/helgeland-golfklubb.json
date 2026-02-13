@@ -1,0 +1,182 @@
+{
+  "slug": "helgeland-golfklubb",
+  "name": "Helgeland Golfklubb",
+  "formerName": null,
+  "region": "Nordland",
+  "city": "Mosjøen",
+  "municipality": "Vefsn",
+  "country": "Norway",
+  "address": {
+    "street": "Helfjellvegen 221",
+    "postalCode": "8664",
+    "area": "Helfjell"
+  },
+  "coordinates": {
+    "lat": 65.92600089999999,
+    "lng": 13.3152817,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 36,
+    "parPerRound": 36,
+    "lengthMeters": 2552,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert",
+    "courseType": "9-hulls golfbane",
+    "designer": null,
+    "yearBuilt": 1997,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Hull 6 - par-5, banens letteste hull med sjanse til birdie",
+    "scenicHole": null,
+    "par3Count": 2,
+    "par4Count": 6,
+    "par5Count": 2,
+    "mountainViews": false,
+    "viewDescription": "Naturskjønne omgivelser, nærheten til Mosjoøen og dagslys hele døgnet fra slutten av juni hele juli"
+  },
+  "description": "Spill golf i naturskjønne omgivelser rett utenfor Mosjoøen. Fra slutten av juni og hele juli kan du spille døgnet rundt i dagslys. Banen er dugnadsdrevet, men vi kan skilte med flotte greener med bra fart! Vi har automatisk vanningsanlegg på alle greener, så når det er tørt og varmt kan du risikere en aldri så liten dusj.",
+  "contact": {
+    "phone": "+47 930 29 787",
+    "email": "tommy@jt-kontor.no",
+    "emailAlt": null,
+    "website": "https://helgelandgolfklubb.no/",
+    "facebook": "https://www.facebook.com/helgelandgolfklubb/",
+    "instagram": "https://www.instagram.com/helgelandgolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 930 29 787",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "15.mai",
+    "end": "15.oktober",
+    "winterUse": "Golfbanen har åpent så lenge det er lys til å spille"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Mosjoøen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Helgeland Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Dagspass senior/voksen: 300 NOK. Junior under 19: 100 NOK. Samarbeidsklubb dagspass: 150 NOK. Samarbeidsklubb junior: 100 NOK.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 5,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=2166169689823644181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 35.4,
+      "slopeRating": 130,
+      "lengthYards": null,
+      "lengthMeters": 2552,
+      "par": 36
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "polarsirkelen-golfklubb",
+      "distanceKm": 52.3
+    },
+    {
+      "slug": "sleneset-golfklubb",
+      "distanceKm": 58.3
+    },
+    {
+      "slug": "naeroysund-golfklubb",
+      "distanceKm": 151.3
+    },
+    {
+      "slug": "bodo-golfklubb",
+      "distanceKm": 162.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "92.5",
+    "websiteQuality": null,
+    "completenessPercentage": 92,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:38.990Z",
+    "createdAt": "2025-10-31T09:43:38.991Z",
+    "updatedAt": "2025-11-03T09:09:50.533Z"
+  }
+}

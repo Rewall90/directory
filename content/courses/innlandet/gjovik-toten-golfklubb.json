@@ -1,0 +1,192 @@
+{
+  "slug": "gjovik-toten-golfklubb",
+  "name": "Gjøvik & Toten Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Bøverbru",
+  "municipality": "Bøverbru",
+  "country": "Norway",
+  "address": {
+    "street": "Sillongenvn 149",
+    "postalCode": "2846",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.6997864,
+    "lng": 10.7351771,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": 5284,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": null,
+    "designer": null,
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Gjøvik & Toten Golf Club - en spennende 18-hulls bane med varierte utfordringer",
+  "contact": {
+    "phone": "479 05 678",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://gtgk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "479 05 678",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": "19. oktober",
+    "winterUse": "Rutiner ved frost tilgjengelig"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bøverbru",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Gjøvik & Toten Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Trackman 4",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Guest play available - contact club for specific pricing",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 50,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16626880790249687345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "White",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": 53,
+      "lengthYards": null,
+      "lengthMeters": 5284,
+      "par": 71
+    },
+    {
+      "teeColor": "Yellow",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": null,
+      "slopeRating": 45,
+      "lengthYards": null,
+      "lengthMeters": 4455,
+      "par": 71
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "atlungstad-golfklubb",
+      "distanceKm": 20.2
+    },
+    {
+      "slug": "mjosen-golfklubb",
+      "distanceKm": 27.6
+    },
+    {
+      "slug": "ringerike-golfklubb",
+      "distanceKm": 52.2
+    },
+    {
+      "slug": "elverum-golfklubb",
+      "distanceKm": 54.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:11.863Z",
+    "createdAt": "2025-10-31T07:18:11.866Z",
+    "updatedAt": "2025-11-03T09:09:47.842Z"
+  }
+}

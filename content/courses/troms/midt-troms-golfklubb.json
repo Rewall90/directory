@@ -1,0 +1,260 @@
+{
+  "slug": "midt-troms-golfklubb",
+  "name": "Midt-Troms Golfklubb",
+  "formerName": null,
+  "region": "Troms",
+  "city": "Bardu",
+  "municipality": "Bardu",
+  "country": "Norway",
+  "address": {
+    "street": "Tromsøveien 1697",
+    "postalCode": "9360",
+    "area": "Finnkroken"
+  },
+  "coordinates": {
+    "lat": 68.9889323,
+    "lng": 18.5223473,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 2506,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane med kunstgressgreener",
+    "designer": null,
+    "yearBuilt": 2002,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Panoramautsikt over fjell",
+    "scenicHole": "Panoramautsikt over fjell",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Midt-Troms Golfklubb i Finnkroken Golfpark - 9-hulls bane med kunstgressgreener og panoramautsikt over fjell. Par 72 (18h). 2 svært forskjellige tees per hull for variert spill. Driving range, oppvarmingsgreen, practice bunker. Golf cart/køller/tralle til leie. Kafé lør-søn. VTG-kurs. Rimelige priser med familierabatt. Nær E6 i Bardu."
+  },
+  "description": "Midt-Troms Golfklubb - 9-hulls parklandbane i Finnkroken Golfpark, Bardu.\n\nPar 36 for 9 hull (par 72 spilt 2 ganger). Banelengde: 2.506m for 9 hull.\n\nBanen har kunstgressgreener som sikrer jevn kvalitet gjennom hele sesongen. Ligger i vakre omgivelser i det arktiske landskapet.\n\nSpill golf under midnattssolen - en unik opplevelse i Midt-Troms!\n\nFamilievennlig klubb med rimelige priser. Seniorrabatt og familiepakker tilgjengelig.",
+  "contact": {
+    "phone": "+47 934 40 878",
+    "email": "post@midttromsgolf.no",
+    "emailAlt": null,
+    "website": "https://midttromsgolf.no/",
+    "facebook": "https://www.facebook.com/midttromsgolf/",
+    "instagram": "https://www.instagram.com/midt_troms_golfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 934 40 878",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "September",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bardu",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Finnkroken Golfpark AS",
+    "clubOrganization": "Midt-Troms Golfklubb (Organisasjonsnummer: 989 493 868)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": "Kafé (kun lør-søn 10-16)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 240,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 320,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "GREENFEE 2025:\n\nVOKSNE:\n• 18 hull helg: 400 kr\n• 18 hull hverdag: 240 kr\n• 9 hull: 200 kr\n\nSENIOR (60+ år):\n• 18 hull: 320 kr\n• 9 hull: 180 kr\n\nJUNIOR (under 20 år):\n• 18 hull: 100 kr\n• 9 hull: 60 kr\n\nFAMILIEPAKKE: 800 kr (2 voksne + 2 barn)\n\nRABATT: Medlemmer av samarbeidende klubber får 20% rabatt.",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 100,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Familierabatt: Første voksen betaler full pris, øvrige 60%. Rabatt for studenter, militære og andre grupper."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Voksen",
+        "price": 4000,
+        "description": null,
+        "ageRange": "20-59"
+      },
+      {
+        "category": "Senior (60+)",
+        "price": 3000,
+        "description": null,
+        "ageRange": "60+"
+      },
+      {
+        "category": "Student",
+        "price": 1500,
+        "description": null,
+        "ageRange": "20-25"
+      },
+      {
+        "category": "Ungdom (13-19)",
+        "price": 1000,
+        "description": null,
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Barn (under 13)",
+        "price": 500,
+        "description": null,
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Familie",
+        "price": 7000,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Serviceavgift aksjonærer",
+        "price": 2000,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 15,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=10868729309404270248&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Standard",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 71.5,
+      "slopeRating": 134,
+      "lengthYards": null,
+      "lengthMeters": 5012,
+      "par": 36
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "harstad-golfklubb",
+      "distanceKm": 83.2
+    },
+    {
+      "slug": "tromso-golfklubb",
+      "distanceKm": 85.8
+    },
+    {
+      "slug": "narvik-golfklubb",
+      "distanceKm": 94.6
+    },
+    {
+      "slug": "bleik-golfstrombane",
+      "distanceKm": 106.1
+    }
+  ],
+  "additionalFeatures": [
+    {
+      "feature": "Finnkroken Golfpark",
+      "description": "Banen ligger i Finnkroken Golfpark i Bardu"
+    },
+    {
+      "feature": "Midnattssol-golf",
+      "description": "Spill golf under midnattssolen om sommeren"
+    },
+    {
+      "feature": "Kunstgressgreener",
+      "description": "Alle greener er kunstgress for stabil kvalitet"
+    },
+    {
+      "feature": "Arktisk golfopplevelse",
+      "description": "Unik beliggenhet i arktisk landskap"
+    },
+    {
+      "feature": "Familievennlig",
+      "description": "Rimelige priser og familiepakker tilgjengelig"
+    },
+    {
+      "feature": "Seniorrabatt",
+      "description": "Reduserte priser for spillere 60+ år"
+    },
+    {
+      "feature": "VTG nybegynnerkurs",
+      "description": "Veien til Golf kurs tilbys i sesongen"
+    },
+    {
+      "feature": "Samarbeidsrabatt",
+      "description": "20% rabatt for medlemmer av samarbeidende klubber"
+    }
+  ],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 82,
+    "pagesScraped": null,
+    "scrapedAt": "2026-02-12T07:38:23.021Z",
+    "createdAt": "2025-10-31T05:13:02.273Z",
+    "updatedAt": "2026-02-12T07:38:23.022Z"
+  }
+}

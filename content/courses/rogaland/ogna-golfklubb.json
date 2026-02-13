@@ -1,0 +1,174 @@
+{
+  "slug": "ogna-golfklubb",
+  "name": "Ogna Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Sirevåg",
+  "municipality": "Hå",
+  "country": "Norway",
+  "address": {
+    "street": "Nordsjøveien 4244",
+    "postalCode": "4364",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 58.52508479999999,
+    "lng": 5.7982812,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parklandskap",
+    "courseType": "9-hulls parkbane",
+    "designer": null,
+    "yearBuilt": 2002,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønn bane i Jærens kulturlandskap",
+    "scenicHole": "Naturskjønn bane i Jærens kulturlandskap",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Ogna Golfklubb er en 9-hulls parkbane på Jæren, åpnet 21. juni 2003. Klubben grunnlagt 20. februar 2002. Banen ligger mellom Ogna Camping og Ogna sentrum langs fylkesvei 44 i Sirevåg, Hå kommune. Par 35 (9 hull), par 70 (18 hull spilt to ganger). Midt i det varierte kulturlandskapet på Jæren med god eksponering mot vinden. Landskapet skaper en utmerket ramme rundt banen. Kortbane for trening og nye golfere. Klubbhus med kafé og golfutstyr. Driving range, putting green, chipping green, practice bunker. Tralle- og el-cart utleie. Nær Helgåleiren aktivitetssenter for bedrifts- og gruppeaktiviteter."
+  },
+  "description": "Ogna Golfklubb er en 9-hulls parkbane på Jæren, åpnet 21. juni 2003. Banen ligger mellom Ogna Camping og Ogna sentrum langs fylkesvei 44. Par 35 for 9 hull, par 70 når spilt to ganger. Midt i det varierte kulturlandskapet på Jæren med god eksponering mot vinden. Landskapet skaper en utmerket ramme rundt banen. Nær Helgåleiren aktivitetssenter. Handicapkrav 54 for besøkende.",
+  "contact": {
+    "phone": null,
+    "email": "post@ognagolf.no",
+    "emailAlt": "medlem@ognagolf.no",
+    "website": "https://ognagolf.no/",
+    "facebook": "https://www.facebook.com/ognagolfklubb/",
+    "instagram": "https://www.instagram.com/ogna_golfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Egersund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Ogna Golfklubb (Organisasjonsnummer: 984 387 369)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé i klubbhus",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 175,
+      "greenFeeDescription": "Greenfee 2024: 350 kr (18 hull), 250 kr (9 hull). Junior -50% rabatt. Handicap 54 påkrevd med gyldig handicapbevis.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Kortbane for trening og nye golfere tilgjengelig"
+    }
+  },
+  "membershipPricing": {
+    "2024": [
+      {
+        "category": "adult",
+        "price": 4320,
+        "description": "Hovedmedlemskap: 360 kr/måned via Avtalegiro (4320 kr/år). Medlemmer kan velge å betale kontingenten som engangsbeløp eller gjennom avtalegiro. Avtalegiro kun tilgjengelig for hovedmedlemskap. Ulike junior-kategorier tilgjengelig. Kontakt: medlem@ognagolf.no.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 45,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4791133999436141617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "egersund-golfklubb",
+      "distanceKm": 8.2
+    },
+    {
+      "slug": "jaeren-golfklubb",
+      "distanceKm": 20.6
+    },
+    {
+      "slug": "dalane-golfklubb",
+      "distanceKm": 36.1
+    },
+    {
+      "slug": "sandnes-golfklubb",
+      "distanceKm": 39
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "85.0",
+    "websiteQuality": null,
+    "completenessPercentage": 85,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:25.724Z",
+    "createdAt": "2025-10-31T07:46:25.725Z",
+    "updatedAt": "2025-11-03T09:10:03.412Z"
+  }
+}

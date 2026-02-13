@@ -1,0 +1,171 @@
+{
+  "slug": "ekholtbruket-golfklubb",
+  "name": "Ekholtbruket Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Moss",
+  "municipality": "Moss",
+  "country": "Norway",
+  "address": {
+    "street": "Vestre Ekholtvei 33",
+    "postalCode": "1525",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.408318,
+    "lng": 10.68285,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 30,
+    "parPerRound": 30,
+    "lengthMeters": 1470,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Flatt parklandskap",
+    "courseType": "9-hulls parkbane (kort)",
+    "designer": null,
+    "yearBuilt": 2005,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 6,
+    "par4Count": 3,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Flatt og tilgjengelig nær Moss; hyggelig atmosfære."
+  },
+  "description": "Liten og trivelig 9-hulls parkbane; par 30.",
+  "contact": {
+    "phone": "+47 415 48 995",
+    "email": "post@ekholtgolf.no",
+    "emailAlt": "ekbrgolf@gmail.com",
+    "website": "https://ekholtgolf.no/",
+    "facebook": "https://www.facebook.com/p/Ekholtbruket-golfklubb-100066932854372/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 415 48 995",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "2025-04-06",
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Moss",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Ekholtbruket Golfklubb",
+    "clubOrganization": "Ekholtbruket Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": true,
+    "restaurantName": "Carlbergløven (partneranlegg)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Carlbergløven Golfsenter – simulatorer",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Vipps 518274.",
+      "cartRental": 150,
+      "pullCartRental": null,
+      "clubRental": 100,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 17,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7187798105098592060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "moss-rygge-golfklubb",
+      "distanceKm": 4.4
+    },
+    {
+      "slug": "borre-golfklubb",
+      "distanceKm": 13
+    },
+    {
+      "slug": "soon-golfklubb",
+      "distanceKm": 13.9
+    },
+    {
+      "slug": "onsoy-golfklubb",
+      "distanceKm": 16.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:04.031Z",
+    "createdAt": "2025-10-31T11:42:04.032Z",
+    "updatedAt": "2025-11-03T09:09:33.874Z"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "slug": "jaeren-golfklubb",
+  "name": "Jæren Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Bryne",
+  "municipality": "Time",
+  "country": "Norway",
+  "address": {
+    "street": "Grødemsvegen 150",
+    "postalCode": "4346",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 58.7011887,
+    "lng": 5.6863471,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parklandskap",
+    "courseType": "9-hulls parkbane",
+    "designer": null,
+    "yearBuilt": 1995,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønn parkbane på Jæren",
+    "scenicHole": "Naturskjønn parkbane på Jæren",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Jæren Golfklubb er en 9-hulls parkbane i Bryne, Time kommune, Rogaland. Stiftet 1995, åpnet som 9-hulls bane med tilleggsbane på 6 hull for øving. Banen ligger på Grødemsvegen 150 mellom Hognestad og Fosse, ca 240 mål med parkbane, øvingsbane, driving range og parkeringsplass. Parklandskap egnet for både erfarne og nybegynnere. Par 35 (9 hull), par 70 (spilt to ganger). Klubben tilbyr 3D flyover-videoer av alle hull for spillplanlegging. Driving range, putting green, chipping green, practice bunker, simulator (300 kr/time). Teaching pro tilgjengelig (Pro Jan Egil). Klubbhus med proshop. Tralle- og el-cart utleie."
+  },
+  "description": "Jæren Golfklubb er en 9-hulls parkbane i Bryne, Time kommune, Rogaland. Klubben ble stiftet 20. november 1995, formelt registrert 28. oktober 1999. Banen ligger på Grødemsvegen 150 mellom Hognestad og Fosse. Klubben leier ca 240 mål for 9-hulls bane av høy kvalitet, 6-hulls øvingsbane, parkering, øvingsområde og driving range. Banen egner seg både for erfarne spillere og nybegynnere. Par 35 for 9 hull, spilt to ganger gir par 70. Klubben tilbyr 3D flyover-video av alle hullene for å planlegge spillstrategier. Handicapkrav 54 for besøkende.",
+  "contact": {
+    "phone": "+47 466 60 094",
+    "email": "post@jgk.no",
+    "emailAlt": null,
+    "website": "https://www.jgk.no/",
+    "facebook": "https://www.facebook.com/jaerengolfklubb/",
+    "instagram": "https://www.instagram.com/explore/locations/302366034/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 466 60 094",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 51 48 69 99",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 402 07 233",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 928 71 006",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 958 61 470",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 476 88 997",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Proshop stengt for sesongen, driving range forblir åpen"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bryne",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Jæren Golfklubb (Organisasjonsnummer: 981 018 176)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Simulator tilgjengelig, 300 kr per time delt på spillere (medlemmer med årskort spiller gratis)",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee: 300 kr heldagskort (ca 26 EUR), 200 kr for 9 hull (ca 17 EUR). Simulator: 300 kr per time delt på spillere. Handicap 54 påkrevd.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Greenfee-medlemskap 2200 kr inkluderer 3 greenfees til banen, Golfbox-medlemskap og tilgang til klubbtreninger"
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 4500,
+        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 3000,
+        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
+        "ageRange": null
+      },
+      {
+        "category": "halfYearAdult",
+        "price": 2500,
+        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
+        "ageRange": null
+      },
+      {
+        "category": "halfYearJunior",
+        "price": 1750,
+        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
+        "ageRange": null
+      },
+      {
+        "category": "greenfee",
+        "price": 2200,
+        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 53,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4516169803729053352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sandnes-golfklubb",
+      "distanceKm": 19
+    },
+    {
+      "slug": "ogna-golfklubb",
+      "distanceKm": 20.6
+    },
+    {
+      "slug": "sola-golfklubb",
+      "distanceKm": 21.3
+    },
+    {
+      "slug": "egersund-golfklubb",
+      "distanceKm": 27.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "82.0",
+    "websiteQuality": null,
+    "completenessPercentage": 82,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:23.028Z",
+    "createdAt": "2025-10-31T07:46:23.030Z",
+    "updatedAt": "2025-11-03T09:10:16.485Z"
+  }
+}

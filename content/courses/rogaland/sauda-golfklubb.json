@@ -1,0 +1,180 @@
+{
+  "slug": "sauda-golfklubb",
+  "name": "Sauda Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Saudasjøen",
+  "municipality": "Sauda",
+  "country": "Norway",
+  "address": {
+    "street": "Amdalsvegen 45",
+    "postalCode": "4208",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.6481197,
+    "lng": 6.317529899999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 30,
+    "parPerRound": 30,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogslandskap",
+    "courseType": "9-hulls skogsbane",
+    "designer": null,
+    "yearBuilt": 2008,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønne omgivelser i Saudasjøen med utsikt mot Saudafjorden",
+    "scenicHole": "Naturskjønne omgivelser i Saudasjøen med utsikt mot Saudafjorden",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Sauda Golfklubb er en 9-hulls skogsbane i naturskjønne omgivelser i Saudasjøen, 3 km fra Sauda sentrum, lengst inne i Ryfylkefjorden. Åpnet 2008. Par 30. Selvbetjent bane med klubbhus i hyttestil. Driving range, putting green, simulator. Fantastisk utsikt mot Saudafjorden. Sesong mars-oktober."
+  },
+  "description": "Sauda Golfklubb er en 9-hulls skogsbane i naturskjønne omgivelser i Saudasjøen, tre kilometer fra Sauda sentrum, lengst inne i Ryfylkefjorden. Åpnet i 2008. Par 30. Selvbetjent bane med klubbhus bygget i hyttestil. Fantastisk utsikt mot Saudafjorden.",
+  "contact": {
+    "phone": null,
+    "email": "post@saudagolf.no",
+    "emailAlt": null,
+    "website": "https://saudagolf.no/",
+    "facebook": "https://www.facebook.com/p/Sauda-Golfklubb-100057236178711/",
+    "instagram": "https://www.instagram.com/saudagolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "Mars",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sauda",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Sauda Golfbane AS (Org.nr: 990 323 666)",
+    "clubOrganization": "Sauda Golfklubb (Organisasjonsnummer: 983 443 079)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": false,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2023": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 100,
+      "greenFeeWeekend": 150,
+      "greenFeeSenior": 100,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee (2023-priser): 9 hull/dagspass 100 kr (hverdager), 150 kr (helger og høytidsdager). Selvbetjent bane.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Veien til Golf (VTG) kurs 990 kr. Deltakere får 50% rabatt på medlemskap og spiller gratis resten av sesongen (gjelder kun første medlemsår)."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 3400,
+        "description": "Medlemskap: Voksen 3400 kr/år, barn 500 kr/år. VTG-kurs 990 kr med 50% rabatt på medlemskap første år og gratis spill resten av sesongen. Styreleder: Thomas Sørensen. Postadresse: Postboks 275, 4201 Sauda.",
+        "ageRange": null
+      },
+      {
+        "category": "child",
+        "price": 500,
+        "description": "Medlemskap: Voksen 3400 kr/år, barn 500 kr/år. VTG-kurs 990 kr med 50% rabatt på medlemskap første år og gratis spill resten av sesongen. Styreleder: Thomas Sørensen. Postadresse: Postboks 275, 4201 Sauda.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 25,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=17134889686935110468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "suldal-golfklubb",
+      "distanceKm": 0
+    },
+    {
+      "slug": "kvinnherad-golfklubb",
+      "distanceKm": 39
+    },
+    {
+      "slug": "stord-golfklubb",
+      "distanceKm": 48.4
+    },
+    {
+      "slug": "odda-golfklubb",
+      "distanceKm": 49.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "85.0",
+    "websiteQuality": null,
+    "completenessPercentage": 85,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:27.032Z",
+    "createdAt": "2025-10-31T07:46:27.034Z",
+    "updatedAt": "2025-11-03T09:09:53.315Z"
+  }
+}

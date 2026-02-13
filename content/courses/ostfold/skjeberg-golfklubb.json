@@ -1,0 +1,222 @@
+{
+  "slug": "skjeberg-golfklubb",
+  "name": "Skjeberg Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Sarpsborg",
+  "municipality": "Sarpsborg",
+  "country": "Norway",
+  "address": {
+    "street": "Hevingen",
+    "postalCode": "1739",
+    "area": "Borgenhaugen"
+  },
+  "coordinates": {
+    "lat": 59.2756231,
+    "lng": 11.19799,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 5619,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogsterreng med naturlige elementer",
+    "courseType": "18-hulls skogs- og parkbane",
+    "designer": null,
+    "yearBuilt": 1986,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønn skogs- og parkbane",
+    "scenicHole": "Naturskjønn skogs- og parkbane",
+    "par3Count": 5,
+    "par4Count": 10,
+    "par5Count": 3,
+    "mountainViews": false,
+    "viewDescription": "Vakker 18-hulls skogs- og parkbane i naturskjønne omgivelser ved Hevingen, Sarpsborg. Etablert 1986, ca 850 medlemmer. Par 72, lengde 5619m. CR 71.9, Slope 135. Banen tar deg gjennom naturlig skog med frodige fairways og varierte hull. 6 forskjellige tee-posisjoner for alle nivåer. Omfattende treningsfasiliteter: driving range med 20+ plasser (8 under tak) med eget studio for pro/juniorer, putting green, chipping area, practice bunker, golfsimulator. Teaching pro tilgjengelig. Restaurant Kroa (Man-Thu 10:30-17:00, Fri-Sun 09:00-17:00). Spesialtilbud: Juniorer 8-19 år spiller GRATIS!"
+  },
+  "description": "Velkommen til Skjeberg Golfklubb, en vakker 18-hulls skogs- og parkbane i naturskjønne omgivelser ved Hevingen i Sarpsborg, etablert 1986. Par 72, lengde 5619 meter fra lengste tee. Banen tar deg gjennom naturlig skog med frodige fairways og varierte hull som utfordrer spillere på alle nivåer. Ca 850 medlemmer. 6 forskjellige tee-posisjoner gjør banen tilgjengelig for alle. Driving range med over 20 plasser (8 under tak) med eget studio brukt av pro og juniorer. Velholdt bane i fredelige omgivelser.",
+  "contact": {
+    "phone": "+47 69 13 91 00",
+    "email": "post@skjeberggk.no",
+    "emailAlt": null,
+    "website": "https://skjeberggk.no/",
+    "facebook": "https://www.facebook.com/skjeberggk/",
+    "instagram": "https://www.instagram.com/skjeberggolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 69 13 91 00",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Banen stenges om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sarpsborg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Skjeberg Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kroa - Café og restaurant",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 495,
+      "greenFeeWeekend": 625,
+      "greenFeeSenior": 495,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 18 hull: 495 NOK (hverdag), 625 NOK (helg/helligdag). Junior 8-19 år: GRATIS! Greenfee gjelder hele dagen - du kan spille flere runder hvis det er ledige tider. Betaling utenfor åpningstid: SMS 'Skjeberg' til 1988 eller Vipps 514311.",
+      "cartRental": 350,
+      "pullCartRental": null,
+      "clubRental": 250,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Sesonggreenfee: 2500 NOK - ubegrenset spill hele sesongen. Krever hovedmedlemskap i annen norsk klubb (min 6000 kr i kontingent). Maks 150 plasser."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 149,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14428878685097578715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 71.9,
+      "slopeRating": 135,
+      "lengthYards": null,
+      "lengthMeters": 5619,
+      "par": 72
+    },
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 77.7,
+      "slopeRating": 139,
+      "lengthYards": null,
+      "lengthMeters": 5619,
+      "par": 72
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 70.7,
+      "slopeRating": 132,
+      "lengthYards": null,
+      "lengthMeters": 5409,
+      "par": 72
+    },
+    {
+      "teeColor": "blå",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 68.9,
+      "slopeRating": 128,
+      "lengthYards": null,
+      "lengthMeters": 4964,
+      "par": 72
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 67.2,
+      "slopeRating": 125,
+      "lengthYards": null,
+      "lengthMeters": 4648,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "borregaard-golfklubb",
+      "distanceKm": 0
+    },
+    {
+      "slug": "oya-golfpark",
+      "distanceKm": 4.1
+    },
+    {
+      "slug": "gamle-fredrikstad-golfklubb",
+      "distanceKm": 15.5
+    },
+    {
+      "slug": "halden-golfklubb",
+      "distanceKm": 21.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:08.357Z",
+    "createdAt": "2025-10-31T11:42:08.358Z",
+    "updatedAt": "2025-11-03T09:10:10.857Z"
+  }
+}

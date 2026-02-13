@@ -1,0 +1,186 @@
+{
+  "slug": "drammen-golfklubb",
+  "name": "Drammen Golfklubb",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Drammen",
+  "municipality": "Drammen",
+  "country": "Norway",
+  "address": {
+    "street": "Vollsbekk 40",
+    "postalCode": "3039",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.670002,
+    "lng": 10.220502,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": 5800,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "18-hulls skog- og parkbane",
+    "designer": "Jeremy Turner",
+    "yearBuilt": 1997,
+    "yearRedesigned": 1998,
+    "waterHazards": null,
+    "signatureHole": "Variert og kupert bane med naturskjønne omgivelser i Skoger",
+    "scenicHole": "Variert og kupert bane med naturskjønne omgivelser i Skoger",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Naturskjønn beliggenhet i Skoger, én mil syd for Drammen. Variert og kupert terreng med morsomme utfordringer."
+  },
+  "description": "Banen er kjent for sin naturskjønne beliggenhet i Skoger, én mil syd for Drammen, og fremstår i dag som en meget attraktiv 18-hulls PAR-71 bane på 5800 m. Banen er variert og kupert, og den byr på morsomme utfordringer for utøvere på alle nivåer. Designet av Jeremy Turner. 9 hull åpnet St. Hans 1997, full 18-hulls bane åpnet 1. august 1998. Klubbhus bygget i 2004.",
+  "contact": {
+    "phone": "+47 32 88 03 03",
+    "email": "post@drammengk.no",
+    "emailAlt": null,
+    "website": "https://drammengk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 32 88 03 03",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 95 22 19 40 (Daglig leder)",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 95 26 76 91 (Café)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 91 34 61 34 (Nestleder)",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Drammen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Drammen Golfbane",
+    "clubOrganization": "Drammen Golfklubb (Org.nr: 980 148 165, Stiftet 17. april 1989)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Hannes Café og Golfshop",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee priser tilgjengelig på drammengk.no/gjester/greenfee",
+      "cartRental": 15,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Omfattende treningsprogrammer: Sommertrening, Trenerteam, Protimer, Nybegynnerkurs 2025, Demodager. Medlemsfordeler tilgjengelig."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 119,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=17901262903742967548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sande-golfklubb",
+      "distanceKm": 7.5
+    },
+    {
+      "slug": "kjekstad-golfklubb",
+      "distanceKm": 12.6
+    },
+    {
+      "slug": "eiker-golfklubb",
+      "distanceKm": 13.9
+    },
+    {
+      "slug": "hof-golfklubb",
+      "distanceKm": 16.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:54:15.766Z",
+    "createdAt": "2025-10-31T05:54:15.769Z",
+    "updatedAt": "2025-11-03T09:09:40.223Z"
+  }
+}

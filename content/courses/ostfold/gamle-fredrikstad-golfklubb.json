@@ -1,0 +1,217 @@
+{
+  "slug": "gamle-fredrikstad-golfklubb",
+  "name": "Gamle Fredrikstad Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Gamle Fredrikstad",
+  "municipality": "Fredrikstad",
+  "country": "Norway",
+  "address": {
+    "street": "Torsnesveien 16",
+    "postalCode": "1630",
+    "area": "Gamle Fredrikstad"
+  },
+  "coordinates": {
+    "lat": 59.2013392,
+    "lng": 10.9666407,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 6526,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Linkspreget parklandskap",
+    "courseType": "18-hulls linkspreget parkbane",
+    "designer": "Paal Midtvaage",
+    "yearBuilt": 2012,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Utsikt mot Gamlebyen og Kongsten fort",
+    "scenicHole": "Utsikt mot Gamlebyen og Kongsten fort",
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
+    "mountainViews": false,
+    "viewDescription": "Idyllisk ved Gamlebyen/Kongsten – del av Aktivitetsbyen."
+  },
+  "description": "Linkspreget parkbane åpnet 2012, tegnet av Paal Midtvaage; dramatisk avslutning langs vann.",
+  "contact": {
+    "phone": "+47 958 55 500",
+    "email": "post@gfgk.no",
+    "emailAlt": "servicepunkt@gfgk.no",
+    "website": "https://gfgk.no/",
+    "facebook": "https://www.facebook.com/GamleFredrikstadGolfklubb/",
+    "instagram": "https://www.instagram.com/gamlefredrikstadgk/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 958 55 500",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 406 97 598",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Stengt om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Fredrikstad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Fredrikstad Golfpark AS",
+    "clubOrganization": "Klubben eier 51% (overtar anlegget når finansiering er tilbakebetalt)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Aktivitetsbyen",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 475,
+      "greenFeeWeekend": 525,
+      "greenFeeSenior": 475,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "Forhåndsbetaling i GolfBox. 9-hulls Pay & Play også tilgjengelig.",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 100,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Kampanje 2025: Meld deg inn og spill gratis ut 2025."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 170,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9001523332950547104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 74.1,
+      "slopeRating": 125,
+      "lengthYards": null,
+      "lengthMeters": 6526,
+      "par": 72
+    },
+    {
+      "teeColor": "Gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 71.7,
+      "slopeRating": 123,
+      "lengthYards": null,
+      "lengthMeters": 6268,
+      "par": 72
+    },
+    {
+      "teeColor": "Blå",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 67.1,
+      "slopeRating": 113,
+      "lengthYards": null,
+      "lengthMeters": 5126,
+      "par": 72
+    },
+    {
+      "teeColor": "Rød",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 67.9,
+      "slopeRating": 111,
+      "lengthYards": null,
+      "lengthMeters": 5000,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "huseby-hanko-golfklubb",
+      "distanceKm": 12
+    },
+    {
+      "slug": "onsoy-golfklubb",
+      "distanceKm": 12.9
+    },
+    {
+      "slug": "oya-golfpark",
+      "distanceKm": 15.4
+    },
+    {
+      "slug": "borregaard-golfklubb",
+      "distanceKm": 15.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:04.759Z",
+    "createdAt": "2025-10-31T11:42:04.760Z",
+    "updatedAt": "2025-11-03T09:09:43.600Z"
+  }
+}

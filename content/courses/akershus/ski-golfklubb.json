@@ -1,0 +1,171 @@
+{
+  "slug": "ski-golfklubb",
+  "name": "Ski Golfklubb - Smerta",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "Ski",
+  "municipality": "Ski",
+  "country": "Norway",
+  "address": {
+    "street": "Oppsandveien 94",
+    "postalCode": "1400",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.7205144,
+    "lng": 10.9229691,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 70,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "18-hulls parkbane",
+    "courseType": "18-hulls parkbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Skog- og parkbane",
+  "contact": {
+    "phone": "+47 64 88 99 42",
+    "email": "postkasse@skigk.no",
+    "emailAlt": null,
+    "website": "https://skigk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 64 88 99 42",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Norge",
+    "clubOrganization": "Org.nr: 980 947 211\n\nTournaments hosted: Klubbmestere - Championships, NSG Landsfinalen, Alf Henriks Winter Challenge"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "50% discount\n\nKampanje: Spill GRATIS ut året",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "9-hole cart rental: kr 200,-"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 29,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4900697438532936300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "ostmarka-golfklubb",
+      "distanceKm": 6.6
+    },
+    {
+      "slug": "oppegard-golfklubb",
+      "distanceKm": 8.7
+    },
+    {
+      "slug": "krokhol-golfklubb",
+      "distanceKm": 9.2
+    },
+    {
+      "slug": "gjersjon-golfklubb",
+      "distanceKm": 9.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:15.691Z",
+    "createdAt": "2025-10-31T11:23:15.692Z",
+    "updatedAt": "2025-11-03T09:09:44.703Z"
+  }
+}

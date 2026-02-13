@@ -1,0 +1,210 @@
+{
+  "slug": "trondheim-golfklubb",
+  "name": "Trondheim Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Trondheim",
+  "municipality": "Trondheim",
+  "country": "Norway",
+  "address": {
+    "street": "Tømmerdalsveien 50",
+    "postalCode": "7020",
+    "area": "Sommersætra"
+  },
+  "coordinates": {
+    "lat": 63.421376,
+    "lng": 10.333929,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls med 18 tee-posisjoner",
+    "designer": null,
+    "yearBuilt": 1950,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Utsikt over Trondheim",
+    "scenicHole": "Utsikt over Trondheim",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Sommersætra i Bymarka; idyllisk utsikt over byen."
+  },
+  "description": "'Norges vakreste 9-hullsbane' i Bymarka med 18 ulike tee-posisjoner.",
+  "contact": {
+    "phone": "+47 73 53 18 85",
+    "email": "post@golfklubben.no",
+    "emailAlt": "jan@golfklubben.no",
+    "website": "https://golfklubben.no/",
+    "facebook": "https://www.facebook.com/golfklubben/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 73 53 18 85",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Trondheim",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Trondheim Golfklubb (Org.nr. 977 478 553)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé i låven",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK."
+    }
+  },
+  "membershipPricing": {
+    "2024": [
+      {
+        "category": "youth",
+        "price": 650,
+        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "ageRange": null
+      },
+      {
+        "category": "greenfeeMembership",
+        "price": 1620,
+        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "ageRange": null
+      },
+      {
+        "category": "young",
+        "price": 3220,
+        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 3220,
+        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "ageRange": null
+      },
+      {
+        "category": "youngAdult",
+        "price": 4830,
+        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "ageRange": null
+      },
+      {
+        "category": "support",
+        "price": 750,
+        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.9,
+      "reviewCount": 36,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12006800313488809465&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "byneset-golfklubb",
+      "distanceKm": 11.6
+    },
+    {
+      "slug": "klaebu-golfklubb",
+      "distanceKm": 12.9
+    },
+    {
+      "slug": "frosta-golfklubb",
+      "distanceKm": 29.4
+    },
+    {
+      "slug": "stjordal-golfklubb",
+      "distanceKm": 30.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:54.496Z",
+    "createdAt": "2025-10-31T11:30:54.497Z",
+    "updatedAt": "2025-11-03T09:10:08.807Z"
+  }
+}

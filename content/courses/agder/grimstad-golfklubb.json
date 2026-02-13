@@ -1,0 +1,198 @@
+{
+  "slug": "grimstad-golfklubb",
+  "name": "Grimstad Golfklubb",
+  "formerName": null,
+  "region": "Agder",
+  "city": "Grimstad",
+  "municipality": "Grimstad",
+  "country": "Norway",
+  "address": {
+    "street": "Hesnesveien 81",
+    "postalCode": "4885",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 58.36,
+    "lng": 8.64,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 68,
+    "parPerRound": 34,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Park/skogbane i variert terreng",
+    "courseType": "Park/skogbane",
+    "designer": null,
+    "yearBuilt": 2008,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": null,
+    "viewDescription": "Utsikt over skjærgården"
+  },
+  "description": "Vakker og intim 9-hulls bane på Norges solkyst. 9-hulls park/skogbane i variert terreng med utsikt over skjærgården. Banen har forskjellige tee-posisjoner for fremre og bakre 9, som gir 18-hulls opplevelse.",
+  "contact": {
+    "phone": "+47 47 82 22 55",
+    "email": "post@grimstadgolfklubb.no",
+    "emailAlt": null,
+    "website": "https://grimstadgolfklubb.no/",
+    "facebook": "https://www.facebook.com/GrimstadGK/",
+    "instagram": "https://www.instagram.com/grimstadgolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "Mars",
+    "end": "Oktober",
+    "winterUse": "Åpen hele året"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": null,
+    "nearbyCity": "Grimstad",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Grimstad Golfklubb (Organisasjonsnummer: 981869559)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "Tilgjengelig for trening",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": 500,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Hovedsesong: Senior 18h: 500 NOK, 9h: 300 NOK. Junior 18h: 200 NOK, 9h: 100 NOK. Vintersesong: Senior per dag: 100 NOK, Junior: 50 NOK. B-medlemmer: halv pris.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "A-medlem (Voksen 26+)",
+        "price": 4750,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "B-medlem",
+        "price": 3000,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Ungdom/Student (20-25)",
+        "price": 1650,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Junior (13-19)",
+        "price": 650,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Ung junior (0-12)",
+        "price": 250,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 84,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=15563254917517917796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "arendal-og-omegn-golfklubb",
+      "distanceKm": 32.3
+    },
+    {
+      "slug": "bjaavann-golfklubb",
+      "distanceKm": 36.6
+    },
+    {
+      "slug": "kristiansand-golfklubb",
+      "distanceKm": 42.6
+    },
+    {
+      "slug": "kragero-golfklubb",
+      "distanceKm": 69.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-30T13:27:23.234Z",
+    "createdAt": "2025-10-30T13:27:23.236Z",
+    "updatedAt": "2025-11-03T09:09:31.968Z"
+  }
+}

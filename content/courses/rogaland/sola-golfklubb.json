@@ -1,0 +1,171 @@
+{
+  "slug": "sola-golfklubb",
+  "name": "Sola Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Sola",
+  "municipality": "Sola",
+  "country": "Norway",
+  "address": {
+    "street": "Åsenvegen 443",
+    "postalCode": "4055",
+    "area": "Ræge"
+  },
+  "coordinates": {
+    "lat": 58.8928707,
+    "lng": 5.694822299999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 5838,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parklandskap/Skogslandskap",
+    "courseType": "18-hulls parkbane med 9-hulls bane og Golfpark",
+    "designer": null,
+    "yearBuilt": 1993,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Park- og skogslandskap ved Ræge",
+    "scenicHole": "Park- og skogslandskap ved Ræge",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Sola Golfklubb er en etablert 18-hulls parkbane i Sola, grunnlagt 1993. Par 72, lengde 5838m. Park- og skogslandskap ved Ræge. Klubben tilbyr tre baner med ett medlemskap: to 18-hulls baner og Golfpark med golf, fotballgolf og Pitch & Putt-løype. Driving range, putting green, chipping green, practice bunker, pro shop, restaurant, garderober."
+  },
+  "description": "Sola Golfklubb er en etablert 18-hulls parkbane i Sola, grunnlagt 1993. Par 72, lengde 5838m (gul), 4899m (rød). Park- og skogslandskap. Klubben tilbyr tre baner med ett medlemskap: to 18-hulls baner og en Golfpark med golf, fotballgolf og Pitch & Putt-løype. Handicapkrav 54 for besøkende. Sesong april-oktober.",
+  "contact": {
+    "phone": "+47 407 67 200",
+    "email": "proshop@solagk.no",
+    "emailAlt": "andre@solagk.no",
+    "website": "https://www.solagk.no/",
+    "facebook": "https://www.facebook.com/solagolfklubb/",
+    "instagram": "https://www.instagram.com/sola.golfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 407 67 200",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Stavanger",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Sola Golfklubb (Organisasjonsnummer: 975 333 493)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 700,
+      "greenFeeWeekend": 900,
+      "greenFeeSenior": 700,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 18 hull: 900 kr (med 3 dagers forhåndsbestilling), 700 kr (ved tee-off før kl 14:00 på hverdager).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Tre baner med ett medlemskap: to 18-hulls baner og Golfpark med golf, fotballgolf og Pitch & Putt-løype"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 201,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14623636535358111330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sandnes-golfklubb",
+      "distanceKm": 2.4
+    },
+    {
+      "slug": "stavanger-golfklubb",
+      "distanceKm": 7.5
+    },
+    {
+      "slug": "randaberg-golfklubb",
+      "distanceKm": 16.2
+    },
+    {
+      "slug": "jaeren-golfklubb",
+      "distanceKm": 21.3
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "87.0",
+    "websiteQuality": null,
+    "completenessPercentage": 87,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:27.379Z",
+    "createdAt": "2025-10-31T07:46:27.380Z",
+    "updatedAt": "2025-11-03T09:09:37.336Z"
+  }
+}

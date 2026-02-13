@@ -1,0 +1,181 @@
+{
+  "slug": "husoya-golfklubb",
+  "name": "Husøy Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Husøysund",
+  "municipality": "Tønsberg",
+  "country": "Norway",
+  "address": {
+    "street": "Husøyveien 29",
+    "postalCode": "3132",
+    "area": "Husøysund"
+  },
+  "coordinates": {
+    "lat": 59.23814159999999,
+    "lng": 10.4671716,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 28,
+    "parPerRound": 28,
+    "lengthMeters": 800,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Variert terreng med bakker",
+    "courseType": "9-hulls pitch and putt kortbane",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Putting-bane blant epletre i kupert terreng",
+    "scenicHole": "Putting-bane blant epletre i kupert terreng",
+    "par3Count": 7,
+    "par4Count": 2,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Idyllisk 9-hulls pitch and putt kortbane ved Husøysund i Tønsberg/Nøtterøy-skjærgården, etablert 1999. NGF-medlem. Perfekt for kort spill og raske runder. Liten, aktiv klubb med hyggelig og inkluderende miljø. Vintergreenener for spill nesten hele året. Smal fairway og kuperte greener. Putting-bane blant epletre. Arrangerer lokale turneringer, inkludert nissegolf i desember. Senior-gruppe med ukentlige mandagsturneringer. Ofte sosiale arrangement etter turneringer som grilling eller rekekvelder ved Borge Hotell. Tilknyttet Borge Hotell i Husøysundet."
+  },
+  "description": "Husøy Golfklubb er en spennende 9-hulls pitch and putt kortbane etablert i 1999, beliggende ved Husøysund i Tønsberg/Nøtterøy-skjærgården. Perfekt for de som verdsetter en rask golfrunde med mye kort spill. Banen har par 3 og par 4 hull i idylliske omgivelser. Klubben har vintergreenener som gjør det mulig å spille nesten hele året. Liten men aktiv klubb med hyggelig og inkluderende miljø som ønsker alle spillere velkommen, uavhengig av alder og nivå. Tilknyttet Borge Hotell.",
+  "contact": {
+    "phone": "+47 33 38 18 50",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://www.hotellborge.no/husoy-golfklubb/",
+    "facebook": "https://www.facebook.com/husoygolf/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 33 38 18 50",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 994 56 531",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 975 49 134",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mars/April",
+    "end": "November",
+    "winterUse": "Vintergreener tilgjengelig for spill nesten hele året"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Tønsberg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Borge Hotell",
+    "clubOrganization": "Husøy Golfklubb (NGF-medlem)"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": true,
+    "restaurantName": "Borge Hotell restaurant",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Greenfee for 9-hulls pitch and putt bane. Kontakt klubben for oppdaterte priser. Medlemskap 2023: Under 18 år 1500 NOK, Over 18 år 2600 NOK, Over 65 år 2200 NOK.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": 150,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Vintergreener gjør det mulig å spille nesten hele året"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 3.3,
+      "reviewCount": 7,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14469388682454327166&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "notteroy-golfklubb",
+      "distanceKm": 4.2
+    },
+    {
+      "slug": "veierland-golfklubb",
+      "distanceKm": 10.4
+    },
+    {
+      "slug": "tonsberg-golfklubb",
+      "distanceKm": 14
+    },
+    {
+      "slug": "tjome-golfklubb",
+      "distanceKm": 14.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:06.138Z",
+    "createdAt": "2025-10-31T11:42:06.139Z",
+    "updatedAt": "2025-11-03T09:10:18.266Z"
+  }
+}

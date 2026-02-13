@@ -1,0 +1,222 @@
+{
+  "slug": "egersund-golfklubb",
+  "name": "Egersund Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Hellvik",
+  "municipality": "Eigersund",
+  "country": "Norway",
+  "address": {
+    "street": "Maurholsveien 51",
+    "postalCode": "4375",
+    "area": "Maurholen"
+  },
+  "coordinates": {
+    "lat": 58.48432669999999,
+    "lng": 5.9152985,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": 5244,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Åpen parklandskap",
+    "courseType": "9-hulls parkbane",
+    "designer": "Graeme Webster",
+    "yearBuilt": 2006,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "To av hullene er kåret til Norges 100 beste hull",
+    "scenicHole": "Naturskjønn parkbane i Maurholen",
+    "par3Count": 3,
+    "par4Count": 4,
+    "par5Count": 2,
+    "mountainViews": false,
+    "viewDescription": "Maurholen Golfpark er en fantastisk 9-hulls parkbane ca 10 km nord for Egersund langs fylkesvei 44, åpnet august 2006. Designet av den anerkjente banearkitekten Graeme Webster. Par 35 for 9 hull, par 70 for 18 hull (spilt to ganger). Banen har 3 par-3, 4 par-4 og 2 par-5 hull. Kåret til en av Norges 10 beste golfbaner og har to av Norges 100 beste hull! Unik 9-hulls bane som viser at en bane ikke trenger å være lang for å være vanskelig. Lagt inn i områdets naturlige topografi i åpen parklandskap."
+  },
+  "description": "Maurholen Golfpark er en fantastisk 9-hulls parkbane ca 10 km nord for Egersund langs fylkesvei 44, åpnet august 2006. Designet av anerkjente Graeme Webster. Par 35 for 9 hull, par 70 for 18 hull (spilt to ganger). Lengde 2622m for 9 hull, 5244m for 18 hull. Banen har 3 par-3, 4 par-4 og 2 par-5 hull. Lagt inn i områdets naturlige topografi. Unik 9-hulls bane signert Graeme Webster viser at en bane ikke trenger å være lang for å være vanskelig. Kåret til en av Norges 10 beste golfbaner og har to av Norges 100 beste hull! Åpen hele året - fra 26. oktober til 1. april spilles fra vinter tee. Ved frost kan det skiftes til vintergreener uten forvarsel.",
+  "contact": {
+    "phone": "+47 916 13 884",
+    "email": "jostein.jensen1956@gmail.com",
+    "emailAlt": null,
+    "website": "https://egersund-golfklubb.no/",
+    "facebook": "https://www.facebook.com/egersundgolfklubb/",
+    "instagram": "https://www.instagram.com/egersund_golfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 916 13 884",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 922 00 592",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 901 67 393",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Banen er åpen hele året. Fra 26. oktober til 1. april spilles fra vinter tee. Ved frost kan det skiftes til vintergreener uten forvarsel. Ikke bruk rangeballer på banen. Vennligst ikke bruk traller mellom bunker og greener."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Egersund",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Egersund Golfklubb (Organisasjonsnummer: 984 810 407)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Trackman IO golfsimulatør med 2 bayer, lokalisert på Jernbaneveien 30 (Circle K lokaler). Åpnet 5. oktober 2024. Hver bay rommer opptil 4 personer. Innbydende lounge ved hver bay. Over 500 verdensberømte baner tilgjengelig. Booking via Trackman app. Automatisert innlogging. Personlig statistikk og tracking. Sikker tilgang med koder.",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "18 hull: 400 kr (voksne), 200 kr (junior). 9 hull: 300 kr (voksne), 150 kr (junior). Betaling via Vipps. Priser gjeldende 2025.",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 37,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9815216845435505863&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 69.4,
+      "slopeRating": 129,
+      "lengthYards": null,
+      "lengthMeters": 5244,
+      "par": 70
+    },
+    {
+      "teeColor": "hvit",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 74.1,
+      "slopeRating": 137,
+      "lengthYards": null,
+      "lengthMeters": 5244,
+      "par": 70
+    },
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 67.9,
+      "slopeRating": 125,
+      "lengthYards": null,
+      "lengthMeters": 4954,
+      "par": 70
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 66.2,
+      "slopeRating": 122,
+      "lengthYards": null,
+      "lengthMeters": 4602,
+      "par": 70
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "ogna-golfklubb",
+      "distanceKm": 8.2
+    },
+    {
+      "slug": "jaeren-golfklubb",
+      "distanceKm": 27.5
+    },
+    {
+      "slug": "dalane-golfklubb",
+      "distanceKm": 27.9
+    },
+    {
+      "slug": "sandnes-golfklubb",
+      "distanceKm": 45
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "93.5",
+    "websiteQuality": null,
+    "completenessPercentage": 93,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:21.552Z",
+    "createdAt": "2025-10-31T07:46:21.554Z",
+    "updatedAt": "2025-11-03T09:10:02.210Z"
+  }
+}

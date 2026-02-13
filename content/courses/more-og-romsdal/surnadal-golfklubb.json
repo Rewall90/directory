@@ -1,0 +1,171 @@
+{
+  "slug": "surnadal-golfklubb",
+  "name": "Surnadal Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Surnadal",
+  "municipality": "Surnadal",
+  "country": "Norway",
+  "address": {
+    "street": "Røvegen 89",
+    "postalCode": "6640",
+    "area": "Kvanne"
+  },
+  "coordinates": {
+    "lat": 62.6624886,
+    "lng": 8.531947599999999,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 66,
+    "parPerRound": 66,
+    "lengthMeters": 3935,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "Kort bane",
+    "designer": null,
+    "yearBuilt": 2006,
+    "yearRedesigned": 2019,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Flott utsikt mot både fjord og fjell"
+  },
+  "description": "Surnadal Golfpark ligger i lett skrånende dyrkamark og skogsterreng i naturskjønne omgivelser med flott utsikt mot fjord og fjell på gården Mo ved Kvanne. Banen har naturlig terreng med variert layout og ble opprinnelig åpnet som 6-hulls bane i 2006, utvidet til 9-hulls i 2008, og videre utviklet i 2019 med doble utslagssteder på alle hull for å kunne spilles som 18-hulls bane.",
+  "contact": {
+    "phone": "+47 959 41 102",
+    "email": "post@surnadal-golfklubb.no",
+    "emailAlt": null,
+    "website": "https://surnadal-golfklubb.no/",
+    "facebook": "https://www.facebook.com/surnadalgolf/",
+    "instagram": "https://www.instagram.com/surnadalgolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 959 41 102",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Simulator tilgjengelig for vintertrening i nytt bygg ved klubbhuset"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Surnadal, ca 15 km fra sentrum",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Surnadal Golfklubb",
+    "clubOrganization": "Surnadal Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator i nytt bygg tilknyttet klubbhuset (flyttet fra Landbrukshuset på Skei høsten 2019)",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Voksne 18 hull: 350 kr, Voksne 9 hull: 200 kr, Barn under 13 år: gratis, Ungdom 13-19 år: 100 kr",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 7,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=18213533390972245308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sunndal-golfklubb",
+      "distanceKm": 0
+    },
+    {
+      "slug": "rauma-golfklubb",
+      "distanceKm": 44.7
+    },
+    {
+      "slug": "tingvoll-golfklubb",
+      "distanceKm": 47.2
+    },
+    {
+      "slug": "kristiansund-og-omegn-golfklubb",
+      "distanceKm": 60.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "89.5",
+    "websiteQuality": null,
+    "completenessPercentage": 89,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:11.274Z",
+    "createdAt": "2025-10-31T09:31:11.275Z",
+    "updatedAt": "2025-11-03T09:09:40.546Z"
+  }
+}

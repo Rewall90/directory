@@ -1,0 +1,187 @@
+{
+  "slug": "sande-golfklubb",
+  "name": "Sande Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Sande i Vestfold",
+  "municipality": "Holmestrand",
+  "country": "Norway",
+  "address": {
+    "street": "Gamle Sørlandske 243",
+    "postalCode": "3073",
+    "area": "Holsrud Gård"
+  },
+  "coordinates": {
+    "lat": 59.602527,
+    "lng": 10.227984,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 2722,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Klubbhus i historisk låve med utsikt over hull 1 og 9",
+    "scenicHole": "Klubbhus i historisk låve med utsikt over hull 1 og 9",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Sande Golfklubb - 9-hulls parklandbane på Holsrud Gård grunnlagt 1999. Par 36, 2722m, CR 36.1, Slope 142. 3 tees per hull for variasjon. Driving range, putting green, chipping area, bunker practice. Klubbhus i historisk låve med terrasse over hull 1 og 9. Selvbetjeningskiosk, garderober, dusj, skap til leie. Golftrener tilgjengelig. Selskapsrom. Ca 650 medlemmer. Handicap-grense 54."
+  },
+  "description": "Sande Golfklubb - 9-hulls parklandbane på Holsrud Gård, grunnlagt 1999. Par 36, 2976 yards (ca 2722m), CR 36.1, Slope 142. Med 3 forskjellige tees per hull kan spillere gjennomføre 2 ni-hulls runder hvor alle hullene spilles forskjellig. Klubbhus i låve fra Holsrud gård med terrasse med utsikt over hull 1 tee og hull 9 green.",
+  "contact": {
+    "phone": "+47 977 13 766",
+    "email": "post@sandegk.no",
+    "emailAlt": "medlem@sandegk.no, klubbhuset@sandegk.no",
+    "website": "https://sandegk.no/",
+    "facebook": "https://www.facebook.com/Sande.Golfklubb/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 977 13 766",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 33 77 76 10",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Holmestrand",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Sande Golfklubb (Organisasjonsnummer: 881 553 902, Grunnlagt 1999)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Selvbetjeningskiosk med drikke, vafler m.m.",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 200 kr for 9 hull. Golfamore-kortinnehavere betaler halv greenfee ved spill før kl 14:00 på hverdager. Klubben har greenfee-samarbeid med flere klubber.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "3 forskjellige tees per hull - kan spille 2 runder med forskjellige utslag. Golfamore-rabatt tilgjengelig. Klubbhus i historisk låve på Holsrud gård."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 39,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13291194895930186010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Standard",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 36.1,
+      "slopeRating": 142,
+      "lengthYards": null,
+      "lengthMeters": 2722,
+      "par": 36
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "drammen-golfklubb",
+      "distanceKm": 7.5
+    },
+    {
+      "slug": "hof-golfklubb",
+      "distanceKm": 10.6
+    },
+    {
+      "slug": "solum-golfklubb",
+      "distanceKm": 15.8
+    },
+    {
+      "slug": "kjekstad-golfklubb",
+      "distanceKm": 18.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "89.0",
+    "websiteQuality": null,
+    "completenessPercentage": 89,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:44.023Z",
+    "createdAt": "2025-10-31T09:10:44.025Z",
+    "updatedAt": "2025-11-03T09:09:58.278Z"
+  }
+}

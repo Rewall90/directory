@@ -1,0 +1,228 @@
+{
+  "slug": "kristiansand-golfklubb",
+  "name": "Kristiansand Golfklubb",
+  "formerName": null,
+  "region": "Agder",
+  "city": "Kristiansand",
+  "municipality": "Kristiansand",
+  "country": "Norway",
+  "address": {
+    "street": "Dvergsnesveien 125",
+    "postalCode": "4639",
+    "area": "Randesund"
+  },
+  "coordinates": {
+    "lat": 58.159912,
+    "lng": 8.018206,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 36,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogsbane, kupert terreng",
+    "courseType": "Skogsbane",
+    "designer": null,
+    "yearBuilt": 1974,
+    "yearRedesigned": 2014,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": null,
+    "viewDescription": "Naturskjønne omgivelser ved Sukkevann"
+  },
+  "description": "9-hulls skogsbane ved Sukkevann i Randesund. Åpnet i 1974, en av Norges eldste golfanlegg. Banen har 18 forskjellige tee-posisjoner. Utfordringer er mange i naturskjønne omgivelser. 6-hulls korthullsbane med kunstgreener åpnet i 2014.",
+  "contact": {
+    "phone": "488 96 721",
+    "email": "klubb@kristiansandgk.no",
+    "emailAlt": null,
+    "website": "https://kristiansandgk.no",
+    "facebook": "https://www.facebook.com/KristiansandGolfklubb",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Innendørs simulatorer tilgjengelig hele året"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": null,
+    "nearbyCity": "Kristiansand",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Kristiansand Golfklubb (Organisasjonsnummer: 985855943)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "Driving range og tre treningsgreener",
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": "",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": "6 Trackman golfsimulatorer i to innendørssenter med stort innendørs treningsgreen",
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": 6,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 475,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Gjester: 18h 475 NOK (mai-sept 15), 400 NOK skulder sesong. 9h: 100 NOK rabatt. Korthullsbane gratis. Medlemmer: 18h 300 NOK, 9h 200 NOK.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Voksen m/spillerett",
+        "price": 5200,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Voksen u/spillerett",
+        "price": 2150,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Junior 0-10",
+        "price": 800,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Junior 11-14",
+        "price": 1450,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Junior 15-19",
+        "price": 1750,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Ungdom 20-24",
+        "price": 2750,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Student",
+        "price": 2750,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Årskort greenfee utenfor Agder",
+        "price": 2950,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Årskort greenfee Agder",
+        "price": 3450,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Årskort greenfee ungdom",
+        "price": 1750,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 127,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12255754329642734319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "bjaavann-golfklubb",
+      "distanceKm": 9.8
+    },
+    {
+      "slug": "grimstad-golfklubb",
+      "distanceKm": 42.6
+    },
+    {
+      "slug": "utsikten-golfklubb",
+      "distanceKm": 62.3
+    },
+    {
+      "slug": "arendal-og-omegn-golfklubb",
+      "distanceKm": 71.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-30T13:27:24.033Z",
+    "createdAt": "2025-10-30T13:27:24.035Z",
+    "updatedAt": "2025-11-03T09:09:32.610Z"
+  }
+}

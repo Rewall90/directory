@@ -1,0 +1,187 @@
+{
+  "slug": "herdla-golfklubb",
+  "name": "Herdla Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Askøy",
+  "municipality": "Askøy",
+  "country": "Norway",
+  "address": {
+    "street": "Herdla",
+    "postalCode": "5315",
+    "area": "Herdla"
+  },
+  "coordinates": {
+    "lat": 60.5686046,
+    "lng": 4.9532805,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 31,
+    "parPerRound": 62,
+    "lengthMeters": 1752,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Links",
+    "courseType": "9-hulls parkland/linksbane",
+    "designer": "Graeme Webster (skotsk arkitekt)",
+    "yearBuilt": 2001,
+    "yearRedesigned": 2009,
+    "waterHazards": null,
+    "signatureHole": "Idyllisk beliggenhet på Herdla, Askøy",
+    "scenicHole": "Idyllisk beliggenhet på Herdla, Askøy",
+    "par3Count": 2,
+    "par4Count": 2,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Herdla Golfklubb - 9-hulls parkland/linksbane på idylliske Herdla, Askøy. Par 31 (62 for 18h), 1752m. Designet av skotsk arkitekt Graeme Webster. Flat til lett bølgende. Driving range med 22 utslag, putting/pitching/chipping greens, practice bunker. Teaching pro. Kort avstand mellom hull. Vennlig bane. 45 min fra Bergen. Åpent året rundt unntatt frost/snø."
+  },
+  "description": "Herdla Golfklubb - 9-hulls parkland/linksbane på idylliske Herdla, Askøy. Startet som 6-hulls bane i 2001, fullført med 9 hull i 2009 designet av skotsk arkitekt Graeme Webster. Par 31 (62 for 18 hull), 1752 meter. Flat til lett bølgende terreng. Kort avstand mellom green og neste tee. Typisk 'vennlig bane'. Ca 45 min fra Bergen sentrum og Bergen lufthavn Flesland.",
+  "contact": {
+    "phone": "+47 482 07 111",
+    "email": "adm@herdlagk.no",
+    "emailAlt": null,
+    "website": "https://herdlagolf.no/",
+    "facebook": "https://www.facebook.com/HerdlaGK/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 482 07 111",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 48 20 71 11",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Vanligvis åpent med sommergreener året rundt, unntatt ved frost, snø og is"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Herdla Golfklubb (Grunnlagt 2001, 9 hull fullført 2009)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: Hverdag 18 hull 250 kr / 9 hull 200 kr. Helg/helligdag 18 hull 350 kr / 9 hull 250 kr. Spesialtilbud: Spill 18 hull for kun 290 kr med tee-tider 10:00-11:00 mandag-fredag. Junior (t.o.m. 18 år) rabatt tilgjengelig. Golfamore-partnere får halv greenfee.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Spill 18 hull for kun 290 kr med tee-tider 10:00-11:00 mandag-fredag. Kort avstand mellom green og neste tee - lett å gå. Vennlig bane."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 11,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=1630960427188411283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul / Yellow",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 29.3,
+      "slopeRating": 99,
+      "lengthYards": null,
+      "lengthMeters": 1752,
+      "par": 31
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "meland-golfklubb",
+      "distanceKm": 7.9
+    },
+    {
+      "slug": "bergen-golfklubb",
+      "distanceKm": 24.1
+    },
+    {
+      "slug": "sotra-golfklubb",
+      "distanceKm": 25.1
+    },
+    {
+      "slug": "fana-golfklubb",
+      "distanceKm": 36.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:16:57.592Z",
+    "createdAt": "2025-10-31T10:16:57.593Z",
+    "updatedAt": "2025-11-03T09:10:09.981Z"
+  }
+}

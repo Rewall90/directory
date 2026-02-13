@@ -1,0 +1,186 @@
+{
+  "slug": "hovden-golfklubb",
+  "name": "Hovden Golfklubb",
+  "formerName": null,
+  "region": "Agder",
+  "city": "Hovden i Setesdal",
+  "municipality": "Bykle",
+  "country": "Norway",
+  "address": {
+    "street": "Tverrheivn 5",
+    "postalCode": "4755",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.3542,
+    "lng": 7.3573,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 68,
+    "parPerRound": 34,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Høyfjellsbane 725 m.o.h.",
+    "courseType": "Høyfjellsbane",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 3,
+    "par4Count": 5,
+    "par5Count": 1,
+    "mountainViews": true,
+    "viewDescription": "Omgitt av høye fjell, 725 m.o.h."
+  },
+  "description": "Ørnefjell golfbane ligger 725 m.o.h. og er en 9-hulls høyfjellsbane med 18 forskjellige tee-plasseringer. Omgitt av høye fjell og mye vann. Alle greener har kunstgress. Beskrevet som utfordrende men morsom av gjester.",
+  "contact": {
+    "phone": "91 59 08 67",
+    "email": "astrid@hovdengolf.com",
+    "emailAlt": null,
+    "website": "https://www.hovdengolf.com",
+    "facebook": "https://www.facebook.com/hovdengolf/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "Juni",
+    "end": "September",
+    "winterUse": "Stengt oktober-mai"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": null,
+    "nearbyCity": "Hovden i Setesdal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Hovden Golfklubb (Organisasjonsnummer: 983057209)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": "Kiosk",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": false,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Gjester og distansemedlemmer: Voksne (19+): 300 NOK, Ungdom (til 18 år): 150 NOK. Klippekort 10 runder: 2000 NOK. Medlemmer betaler 200 NOK, ungdom/barn/studenter gratis.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": 2000,
+      "specialOfferIncludes": "10 greenfee-billetter (200 NOK per runde)",
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Sesongkort voksen (19+)",
+        "price": 1400,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Medlem med andel voksen (19+)",
+        "price": 200,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Medlem ungdom/barn/student",
+        "price": 0,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 22,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=10910731803347487362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "vradal-golfklubb",
+      "distanceKm": 63.7
+    },
+    {
+      "slug": "suldal-golfklubb",
+      "distanceKm": 67.2
+    },
+    {
+      "slug": "sauda-golfklubb",
+      "distanceKm": 67.2
+    },
+    {
+      "slug": "preikestolen-golfklubb",
+      "distanceKm": 81.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-30T13:27:23.662Z",
+    "createdAt": "2025-10-30T13:27:23.663Z",
+    "updatedAt": "2025-11-03T09:09:32.292Z"
+  }
+}

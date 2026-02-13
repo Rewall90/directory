@@ -1,0 +1,171 @@
+{
+  "slug": "trysil-golfklubb",
+  "name": "Trysil Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Trysil",
+  "municipality": "Trysil",
+  "country": "Norway",
+  "address": {
+    "street": "Golfvegen 1",
+    "postalCode": "2420",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 61.29970040000001,
+    "lng": 12.2444926,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "Skog- og parkbane",
+    "designer": null,
+    "yearBuilt": 1988,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Ligger flott til ved foten av Trysilfjellet"
+  },
+  "description": "En spennende og variert 18 hulls skogsbane, par 72, som ligger fint i terrenget. Mange utfordrende hull både for nybegynnerne og erfarne golfspillere. Trysilfjellet Golfbane ligger flott til ved foten av Trysilfjellet, ca. 2 timers kjøring fra Oslo. Priser: 2024: 'Players Choice', 'Beste Golfbane', 2 plass 'Mest verdi for pengene', 3 plass for beste restaurant (Golfamore gjestestudie). 2020: Norges 5. beste bane (Leadingcourses).",
+  "contact": {
+    "phone": "+47 62 45 67 89",
+    "email": "golf@trysil.com",
+    "emailAlt": null,
+    "website": "https://trysilgolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 62 45 67 89",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Trysil",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Trysil Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Golfamore",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": true,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee pricing available on website",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Introduksjonstilbud for nye medlemmer"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 73,
+      "maxRating": 5,
+      "url": "https://www.google.com/maps/place/Trysil+Golf/@61.2997004,12.2444925,747m/data=!3m2!1e3!4b1!4m6!3m5!1s0x466990f6377f4c29:0xdbc65a4fdc764bf0!8m2!3d61.2997004!4d12.2444925!16s%2Fg%2F1w0sbhcp?hl=no&entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sorknes-golfklubb",
+      "distanceKm": 50.8
+    },
+    {
+      "slug": "elverum-golfklubb",
+      "distanceKm": 56.4
+    },
+    {
+      "slug": "atlungstad-golfklubb",
+      "distanceKm": 86.5
+    },
+    {
+      "slug": "mjosen-golfklubb",
+      "distanceKm": 91.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:14.184Z",
+    "createdAt": "2025-10-31T07:18:14.186Z",
+    "updatedAt": "2025-11-03T09:09:49.744Z"
+  }
+}

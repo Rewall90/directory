@@ -1,0 +1,176 @@
+{
+  "slug": "halden-golfklubb",
+  "name": "Halden Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Halden",
+  "municipality": "Halden",
+  "country": "Norway",
+  "address": {
+    "street": "Kommandantveien 45",
+    "postalCode": "1769",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.11753479999999,
+    "lng": 11.410048,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog- og parkbane",
+    "courseType": "Skog- og parkbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Variert og morsom 18-hulls skog- og parkbane med flotte naturopplevelser i Halden"
+  },
+  "description": "Variert og morsom 18-hulls bane med flotte naturopplevelser",
+  "contact": {
+    "phone": "+47 69 17 65 56",
+    "email": "kontakt@haldengk.no",
+    "emailAlt": null,
+    "website": "https://haldengk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 69 17 65 56",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "472 73 603",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Golfbanen er stengt for sesongen"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Halden",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Norge",
+    "clubOrganization": "Halden Golfklubb. Styreleder: Dag Tore Sirland (472 73 603). Greenkeepers: Svenn Petersen, Tore Paulsen, Audun Lange Skarshaug. Trenere: Frank Kildebo (barn og ungdom), Harald Oseland (nybegynnere og høyhandicappere)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator for medlemmer",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee pricing available on website. Medlemmer: Redusert greenfee",
+      "cartRental": 18,
+      "pullCartRental": null,
+      "clubRental": 300,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Tralle 3-hjuls: 40 NOK"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 3.9,
+      "reviewCount": 49,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=11951534036177391255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "borregaard-golfklubb",
+      "distanceKm": 21.3
+    },
+    {
+      "slug": "skjeberg-golfklubb",
+      "distanceKm": 21.3
+    },
+    {
+      "slug": "hvaler-golfklubb",
+      "distanceKm": 23.2
+    },
+    {
+      "slug": "oya-golfpark",
+      "distanceKm": 25.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:43:12.656Z",
+    "createdAt": "2025-10-31T11:43:12.658Z",
+    "updatedAt": "2025-11-03T09:10:11.165Z"
+  }
+}

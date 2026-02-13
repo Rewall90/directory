@@ -1,0 +1,202 @@
+{
+  "slug": "sunnmore-golfklubb",
+  "name": "Sunnmøre Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Hareid",
+  "municipality": "Hareid",
+  "country": "Norway",
+  "address": {
+    "street": "Snipsøyrdalsvegen 77",
+    "postalCode": "6060",
+    "area": "Hovden"
+  },
+  "coordinates": {
+    "lat": 62.3516465,
+    "lng": 5.9686356,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 37,
+    "parPerRound": 74,
+    "lengthMeters": 3075,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkbane",
+    "courseType": "9-hulls parkbane (spilles to runder for 18 hull)",
+    "designer": "Tor Eia",
+    "yearBuilt": 1989,
+    "yearRedesigned": 2000,
+    "waterHazards": true,
+    "signatureHole": "Hol 6 er banens signaturhol og det vanskeligaste med mykje vatn i spel. Langtsløande spelarar kan velje å slå over elva og dermed ta den første dammen og elva ut av spel. Dette gir moglegheit for å nå green på 2 slag. Vatn til høgre og bunker til venstre ved innspel til green.",
+    "scenicHole": "Hol 7: Vakker utsikt med klubbhus og Sunnmørsalpane i bakgrunnen",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": 3,
+    "mountainViews": true,
+    "viewDescription": "Spektakulær utsikt med Sunnmørsalpane som kulisse. Naturskjønne omgivelser i Hovden."
+  },
+  "description": "Variert og utfordrande 9-hols parkbane designet av Tor Eia. Bana er ei opa og fin parkbane som ligg i fine omgivelsar ved Hovden, ca. 4,5 km fra Hareid sentrum langs veg 61. Bana har 8 vatn i spel, samt fleire elver og sidevannshinder, noko som er med på å auke bana si vanskeligheitsgrad. Med Sunnmørsalpane som kulisse gir banen en unik golfopplevelse. Grunnlagt som Ulstein Pitch & Putt klubb i 1989, skiftet namn til Sunnmøre Golfklubb i 2000 i samband med den nye banen i Hareid kommune.",
+  "contact": {
+    "phone": "+47 479 10 778",
+    "email": "post@sunnmoregolf.no",
+    "emailAlt": null,
+    "website": "https://sunnmoregolf.no/",
+    "facebook": "https://www.facebook.com/sunnmoregolfklubb/",
+    "instagram": "https://www.instagram.com/sunnmoregolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 479 10 778",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 907 21 879",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 70 09 29 10",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Simulator tilgjengelig for vintertrening"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Hareid, Ulsteinvik",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Sunnmøre Golfklubb",
+    "clubOrganization": "Sunnmøre Golfklubb (Org.nr 982 975 204)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Lounge",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": 60,
+    "simulator": true,
+    "simulatorType": "Golfsimulator er tilgjengeleg på klubbhuset",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Spel så mykje du vil for 300 kr alle dagar i veka (ubegrensa spel per dag)",
+      "cartRental": 200,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golfkurs og fritt spel første året for nyetablert medlem"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 28,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=1333520182986126126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 36.4,
+      "slopeRating": 132,
+      "lengthYards": null,
+      "lengthMeters": 3075,
+      "par": 37
+    },
+    {
+      "teeColor": "rød",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 34.5,
+      "slopeRating": 119,
+      "lengthYards": null,
+      "lengthMeters": 2625,
+      "par": 37
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "giske-golfklubb",
+      "distanceKm": 21.9
+    },
+    {
+      "slug": "volda-golfklubb",
+      "distanceKm": 25
+    },
+    {
+      "slug": "vanylven-golfklubb",
+      "distanceKm": 30.7
+    },
+    {
+      "slug": "aalesund-golfklubb-solnor-gaard",
+      "distanceKm": 39.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "93.5",
+    "websiteQuality": null,
+    "completenessPercentage": 93,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:10.838Z",
+    "createdAt": "2025-10-31T09:31:10.838Z",
+    "updatedAt": "2025-11-03T09:10:19.743Z"
+  }
+}

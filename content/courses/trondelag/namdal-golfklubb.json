@@ -1,0 +1,208 @@
+{
+  "slug": "namdal-golfklubb",
+  "name": "Namdal Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Overhalla",
+  "municipality": "Overhalla",
+  "country": "Norway",
+  "address": {
+    "street": "Grande gård",
+    "postalCode": "7863",
+    "area": "Grande gård"
+  },
+  "coordinates": {
+    "lat": 64.4907687,
+    "lng": 11.9938839,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls bane",
+    "designer": null,
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Klubbhus alltid åpent; tralle til leie; nær Grande gård."
+  },
+  "description": "Parkland/skogsbane ved lakseelven Namsen; klubbhus med veranda.",
+  "contact": {
+    "phone": "+47 95 78 20 58",
+    "email": "reidar.flasnes@ntebb.no",
+    "emailAlt": null,
+    "website": "https://www.namdal-golfklubb.no/",
+    "facebook": "https://www.facebook.com/groups/425737610801146/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 95 78 20 58",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 958 31 154",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 918 53 061",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Overhalla",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Namdal Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Halv greenfee via Golfamore; satser på klubbens nettsider.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Overnatting på Grande gård i nærheten."
+    }
+  },
+  "membershipPricing": {
+    "2024": [
+      {
+        "category": "main",
+        "price": 3000,
+        "description": "Satser fra 2024; verifiser gjeldende priser.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 2000,
+        "description": "Satser fra 2024; verifiser gjeldende priser.",
+        "ageRange": null
+      },
+      {
+        "category": "family",
+        "price": 5000,
+        "description": "Satser fra 2024; verifiser gjeldende priser.",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 500,
+        "description": "Satser fra 2024; verifiser gjeldende priser.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 5,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16445811324600310148&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "namsos-golfklubb",
+      "distanceKm": 25
+    },
+    {
+      "slug": "naeroysund-golfklubb",
+      "distanceKm": 52.5
+    },
+    {
+      "slug": "steinkjer-golfklubb",
+      "distanceKm": 57
+    },
+    {
+      "slug": "stiklestad-golfklubb",
+      "distanceKm": 79.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:51.635Z",
+    "createdAt": "2025-10-31T11:30:51.637Z",
+    "updatedAt": "2025-11-03T09:09:51.914Z"
+  }
+}

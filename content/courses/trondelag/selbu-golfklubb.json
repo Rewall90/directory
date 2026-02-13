@@ -1,0 +1,181 @@
+{
+  "slug": "selbu-golfklubb",
+  "name": "Selbu Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Selbu",
+  "municipality": "Selbu",
+  "country": "Norway",
+  "address": {
+    "street": "TBD",
+    "postalCode": "7581",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 63.191366,
+    "lng": 11.096569,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 33,
+    "parPerRound": 66,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Range, putting/chipping, klubbhus m/restaurant og pro shop; tralle-utleie."
+  },
+  "description": "9-hulls parklandbane i Selbu; samarbeid med Stjørdal GK (medlemmer kan velge hjemmebane).",
+  "contact": {
+    "phone": "+47 73 81 69 69",
+    "email": "info@selbugolfklubb.no",
+    "emailAlt": "post@selbugolfklubb.no",
+    "website": "https://selbugolfklubb.no/",
+    "facebook": "https://www.facebook.com/p/Selbu-Golfklubb-100057319846480/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 73 81 69 69",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 91 30 95 50",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 92 60 38 56",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Selbu",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Selbu Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2023": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Selbu-medlemmer 20% rabatt hos Stjørdal GK. Greenfee-medlemskap Stjørdal GK 199 kr/mnd (12 mnd).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Greenfee-medlemskap hos Stjørdal GK (199 kr/mnd)."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": null,
+      "reviewCount": null,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12537756420666093349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "stjordal-golfklubb",
+      "distanceKm": 33.9
+    },
+    {
+      "slug": "klaebu-golfklubb",
+      "distanceKm": 34.2
+    },
+    {
+      "slug": "frosta-golfklubb",
+      "distanceKm": 45.9
+    },
+    {
+      "slug": "trondheim-golfklubb",
+      "distanceKm": 45.9
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:53.063Z",
+    "createdAt": "2025-10-31T11:30:53.064Z",
+    "updatedAt": "2025-11-03T09:10:07.672Z"
+  }
+}

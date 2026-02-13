@@ -1,0 +1,165 @@
+{
+  "slug": "oppegard-golfklubb",
+  "name": "Oppegård Golfklubb",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "Oppegård",
+  "municipality": "Oppegård",
+  "country": "Norway",
+  "address": {
+    "street": "Kongeveien 198",
+    "postalCode": "1415",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.77701399999999,
+    "lng": 10.815188,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Golfbane",
+    "courseType": "Golfbane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "18-hullers golfbane",
+  "contact": {
+    "phone": null,
+    "email": "post@opgk.no",
+    "emailAlt": null,
+    "website": "https://oppegardgk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Banen stenger for sesongen - siste dag blir fredag 17.10. Nå starter gravingen mellom hull 9 og 18"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Norge",
+    "clubOrganization": "Org.nr: 952710745"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Birdiekokken",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 140,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=10867475736171898737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "gjersjon-golfklubb",
+      "distanceKm": 2.1
+    },
+    {
+      "slug": "krokhol-golfklubb",
+      "distanceKm": 6.9
+    },
+    {
+      "slug": "gronmo-golfklubb",
+      "distanceKm": 7.8
+    },
+    {
+      "slug": "ski-golfklubb",
+      "distanceKm": 8.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:14.095Z",
+    "createdAt": "2025-10-31T11:23:14.096Z",
+    "updatedAt": "2025-11-03T09:09:43.891Z"
+  }
+}

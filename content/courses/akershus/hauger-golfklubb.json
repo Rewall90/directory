@@ -1,0 +1,171 @@
+{
+  "slug": "hauger-golfklubb",
+  "name": "Hauger Golfklubb",
+  "formerName": null,
+  "region": "Akershus",
+  "city": "Slattum",
+  "municipality": "Slattum",
+  "country": "Norway",
+  "address": {
+    "street": "Ramstadveien 180",
+    "postalCode": "1480",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.00184849999999,
+    "lng": 10.9836754,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": null,
+    "designer": null,
+    "yearBuilt": 1996,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Hauger Golfbane er en 18-hulls bane som ble åpnet i 1996",
+  "contact": {
+    "phone": "67 07 37 70",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://hauger-golfklubb.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "67 07 37 70",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Banen er stengt for sesongen, vi sees i 2026!"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Norge",
+    "clubOrganization": "Founded: 1988"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": 15,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Restauranten på Hauger",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Opening hours: Se banestatus på nettstedet",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 189,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14223212576963243601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "groruddalen-golfklubb",
+      "distanceKm": 5.1
+    },
+    {
+      "slug": "gjerdrum-golfklubb",
+      "distanceKm": 7.2
+    },
+    {
+      "slug": "lillestrom-golfklubb",
+      "distanceKm": 7.2
+    },
+    {
+      "slug": "miklagard-golfklubb",
+      "distanceKm": 12.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:11.173Z",
+    "createdAt": "2025-10-31T11:23:11.175Z",
+    "updatedAt": "2025-11-03T09:09:41.803Z"
+  }
+}

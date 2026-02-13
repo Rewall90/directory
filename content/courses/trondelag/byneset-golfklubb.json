@@ -1,0 +1,206 @@
+{
+  "slug": "byneset-golfklubb",
+  "name": "Byneset Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Trondheim",
+  "municipality": "Trondheim",
+  "country": "Norway",
+  "address": {
+    "street": "Arnebyvegen 11A",
+    "postalCode": "7071",
+    "area": "Folkvang, Spongdal"
+  },
+  "coordinates": {
+    "lat": 63.3545195,
+    "lng": 10.1551001,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 27,
+    "holesPlayed": 27,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 6309,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "18-hulls + 9-hulls parkland/skogsbane",
+    "designer": "Donald Steel (Nord)",
+    "yearBuilt": 1995,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "27 hull nær Trondheim; omfattende treningsfasiliteter og studio."
+  },
+  "description": "27 hull totalt: 18-hulls Nord (par 72) + 9-hulls Syd (par 32). 20 min fra Trondheim.",
+  "contact": {
+    "phone": "+47 72 59 51 51",
+    "email": "nina@bynesetgolf.no",
+    "emailAlt": "alise@bynesetgolf.no",
+    "website": "https://www.bynesetgolf.no/",
+    "facebook": "https://www.facebook.com/bynesetgolf/",
+    "instagram": "https://www.instagram.com/bynesetgolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 72 59 51 51",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 72 59 51 52",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Trondheim",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Byneset Golfklubb (Org.nr. 983 801 854)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": 300,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé i klubbhus",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Swing Catalyst studio; Trackman på range (under tak)",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 600,
+      "greenFeeSenior": 600,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Dagsgreenfee 750 kr (ubegrenset spill på begge baner).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Ubegrenset spill på Nord (18h) og Syd (9h) samme dag"
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "clubContingent",
+        "price": 800,
+        "description": "Alle priser inkluderer klubbkontingent 800 kr (19+).",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 118,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=4362799858890438504&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Hvit",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 73.6,
+      "slopeRating": 139,
+      "lengthYards": null,
+      "lengthMeters": 6309,
+      "par": 72
+    },
+    {
+      "teeColor": "Herre (Syd)",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 31.1,
+      "slopeRating": null,
+      "lengthYards": null,
+      "lengthMeters": 1887,
+      "par": 32
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "trondheim-golfklubb",
+      "distanceKm": 11.6
+    },
+    {
+      "slug": "klaebu-golfklubb",
+      "distanceKm": 16.6
+    },
+    {
+      "slug": "frosta-golfklubb",
+      "distanceKm": 41
+    },
+    {
+      "slug": "stjordal-golfklubb",
+      "distanceKm": 41.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:49.447Z",
+    "createdAt": "2025-10-31T11:30:49.448Z",
+    "updatedAt": "2025-11-03T09:09:46.998Z"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "slug": "klaebu-golfklubb",
+  "name": "Klæbu Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Klæbu",
+  "municipality": "Trondheim",
+  "country": "Norway",
+  "address": {
+    "street": "Amundsdalvegen 290",
+    "postalCode": "7540",
+    "area": "Ulsetsanden"
+  },
+  "coordinates": {
+    "lat": 63.3264841,
+    "lng": 10.4816726,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 32,
+    "parPerRound": 64,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls skogsbane",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Kuppert englandskap",
+    "scenicHole": "Kuppert englandskap",
+    "par3Count": 3,
+    "par4Count": 4,
+    "par5Count": 2,
+    "mountainViews": false,
+    "viewDescription": "Kunstgressgreener; greenfee-samarbeid; range med betalingsmaskin."
+  },
+  "description": "9-hulls skogsbane ved E6 med kunstgressgreener; kuperte greener med engpreg.",
+  "contact": {
+    "phone": "+47 99 46 07 51",
+    "email": "klabugk@online.no",
+    "emailAlt": null,
+    "website": "https://www.klabugolf.no/",
+    "facebook": "https://www.facebook.com/p/Klæbu-Golfklubb-100023672925112/",
+    "instagram": "https://www.instagram.com/explore/locations/817743157/klaebu-golfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 99 46 07 51",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 95 08 44 97",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Trondheim",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Klæbu Golfklubb (Org.nr. 984 360 908)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Registrering/betaling ved GolfBox-maskin på range. Årlig greenfee: gratis spill hele sesongen. Samarbeid: Austrått 200/dag, Røros 250/300, Steinkjer 167, Stiklestad 20% rabatt.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Årlig greenfee; sensongmedlemskap fra 1.9 (høst + neste sesong). Rimelige familiemedlemskap."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "vtgAdult",
+        "price": 2200,
+        "description": "VTG-kurs inkl. medlemskap og spill. Familiemedlemskap tilgjengelig.",
+        "ageRange": null
+      },
+      {
+        "category": "vtgYouth",
+        "price": 1200,
+        "description": "VTG-kurs inkl. medlemskap og spill. Familiemedlemskap tilgjengelig.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.1,
+      "reviewCount": 35,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=2386803609597056156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "trondheim-golfklubb",
+      "distanceKm": 12.9
+    },
+    {
+      "slug": "byneset-golfklubb",
+      "distanceKm": 16.6
+    },
+    {
+      "slug": "stjordal-golfklubb",
+      "distanceKm": 28.4
+    },
+    {
+      "slug": "frosta-golfklubb",
+      "distanceKm": 32.7
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:51.007Z",
+    "createdAt": "2025-10-31T11:30:51.008Z",
+    "updatedAt": "2025-11-03T09:09:51.365Z"
+  }
+}

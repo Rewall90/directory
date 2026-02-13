@@ -1,0 +1,201 @@
+{
+  "slug": "preikestolen-golfklubb",
+  "name": "Preikestolen Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Jørpeland",
+  "municipality": "Strand",
+  "country": "Norway",
+  "address": {
+    "street": "Preikestolveien 136",
+    "postalCode": "4105",
+    "area": "Jøssang"
+  },
+  "coordinates": {
+    "lat": 58.99252500000001,
+    "lng": 6.110458,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 5282,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogslandskap",
+    "courseType": "9-hulls skogsbane",
+    "designer": null,
+    "yearBuilt": 1998,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønn bane i skogslandskap ved Jøssang",
+    "scenicHole": "Naturskjønn bane i skogslandskap ved Jøssang",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Preikestolen Golfklubb er en 9-hulls skogsbane med 18 teesteder i Jørpeland, Strand kommune, Rogaland. Grunnlagt 1998. Banen ligger i vakker dal ved Jøssang, ca 40 min fra Stavanger. Par 72 (spilt to ganger). Relativt smal og tett bane i skogslandskap som krever presise slag. Driving range, putting green, chipping green, practice bunker. 24 timers innmeldingsgaranti for nye medlemmer."
+  },
+  "description": "Preikestolen Golfklubb er en 9-hulls skogsbane med 18 teesteder i Jørpeland, Strand kommune. Grunnlagt i 1998. Banen ligger i vakker dal ved Jøssang, ca 40 minutter fra Stavanger sentrum. Par 72 når spilt to ganger. Relativt smal og tett bane som krever presise slag. Naturskjønn beliggenhet i skogslandskap. Handicapkrav 54 for besøkende.",
+  "contact": {
+    "phone": "+47 413 99 424",
+    "email": "post@prgk.no",
+    "emailAlt": null,
+    "website": "https://www.prgk.no/",
+    "facebook": "https://www.facebook.com/preikestolengolf/",
+    "instagram": "https://www.instagram.com/preikestolengk/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 413 99 424",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Stavanger",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Preikestolen Golfklubb (Organisasjonsnummer: 980 619 265)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: 350 kr. Handicap 54 påkrevd med gyldig handicapbevis. 50% rabatt med Golfhäftet.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "24 timers innmeldingsgaranti ved nye medlemskap"
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "brevmedlemskap",
+        "price": 795,
+        "description": "Brevmedlemskap (uten spillerett) 795 kr - greenfee må betales ved spill, 1 gratis greenfee per år. Juniormedlemskap 0-19 år inkluderer spillerett med gratis juniortrening. Studentmedlemskap inkluderer spillerett (krav om studentbevis til post@prgk.no). 24 timers innmeldingsgaranti. Blant Norges billigste golfklubber.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 45,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13466357168621426562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 71.4,
+      "slopeRating": 131,
+      "lengthYards": null,
+      "lengthMeters": 5282,
+      "par": 72
+    },
+    {
+      "teeColor": "Hovedbane (18-hull)",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 72.7,
+      "slopeRating": 145,
+      "lengthYards": null,
+      "lengthMeters": 5284,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "stavanger-golfklubb",
+      "distanceKm": 26
+    },
+    {
+      "slug": "sola-golfklubb",
+      "distanceKm": 26.3
+    },
+    {
+      "slug": "sandnes-golfklubb",
+      "distanceKm": 27.5
+    },
+    {
+      "slug": "randaberg-golfklubb",
+      "distanceKm": 30.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "85.0",
+    "websiteQuality": null,
+    "completenessPercentage": 85,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:25.969Z",
+    "createdAt": "2025-10-31T07:46:25.970Z",
+    "updatedAt": "2025-11-03T09:10:03.720Z"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "slug": "groruddalen-golfklubb",
+  "name": "Groruddalen Golfklubb",
+  "formerName": null,
+  "region": "Oslo",
+  "city": "Oslo",
+  "municipality": "Oslo",
+  "country": "Norway",
+  "address": {
+    "street": "Karen Platous Vei 33",
+    "postalCode": "0988",
+    "area": "Vestli"
+  },
+  "coordinates": {
+    "lat": 59.96998550000001,
+    "lng": 10.9166037,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 27,
+    "parPerRound": 27,
+    "lengthMeters": 1302,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skråbane med naturlig gress",
+    "courseType": "9-hulls par-3 bane",
+    "designer": null,
+    "yearBuilt": 1988,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Nord-Europas lengste par-3 hull (230 meter)",
+    "scenicHole": "Nord-Europas lengste par-3 hull (230 meter)",
+    "par3Count": 9,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Idyllisk beliggenhet i Tokeruddalen i øvre Groruddalen, Oslo. Naturskjønt område mellom Trondheimsveien og Stovner. Tokerudbekken går langs banen."
+  },
+  "description": "Groruddalen Golfklubb har Norges eneste slopet 9-hulls par 3-bane med hull fra 100 til 230 meter - inkludert det lengste par 3-hullet i Nord-Europa.\n\nBanen ligger sentralt i Oslo, lett tilgjengelig med offentlig transport, og tilbyr en unik golfopplevelse for spillere på alle nivåer. Den er spesielt godt egnet for å trene innspillet og utvikle det korte spillet.\n\nKlubben har et aktivt miljø med turneringer, kurs og sosialt samvær. Fasiliteter inkluderer driving range, putting green, pro shop, klubbhus med servering og 2 golfsimulatorer.\n\nPerfekt for nybegynnere som vil lære spillet, eller erfarne spillere som vil finpusse det korte spillet.",
+  "contact": {
+    "phone": "+47 22 79 05 60",
+    "email": "post@grorudgk.no",
+    "emailAlt": "proshop@grorudgk.no",
+    "website": "https://grorudgk.no/",
+    "facebook": "https://www.facebook.com/Grorudgk/",
+    "instagram": "https://www.instagram.com/groruddalengolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 22 79 05 60",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Banen stenges om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Oslo sentrum",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Groruddalen Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Klubbhus med servering",
+    "clubRental": true,
+    "clubRentalNotes": "Bagutleie 200 kr",
+    "cartRental": true,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golf simulator",
+    "simulatorCourses": null,
+    "simulatorNotes": "2 simulatorer tilgjengelig. Medlemmer: 250 kr/time (hverdag), 325 kr/time (helg). Ikke-medlemmer: 350 kr/time (hverdag), 425 kr/time (helg). Åpent fra 18:00 på hverdager. Helg må avtales med proshop.",
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "GREENFEE 2025 (9 hull):\n• Senior hverdag: 300 kr\n• Senior helg: 350 kr\n• Junior hverdag: 150 kr\n• Junior helg: 175 kr\n\nUTSTYR:\n• Bagutleie: 200 kr\n• Tralle: 50 kr\n• Golfbil: 200 kr\n\nSIMULATOR (fra kl. 18:00 hverdag, helg avtales):\n• Medlemmer: 250 kr/time (hverdag), 325 kr/time (helg)\n• Ikke-medlemmer: 350 kr/time (hverdag), 425 kr/time (helg)\n\nBAGSKAP (sesong):\n• Rad 1 og 4: 600 kr\n• Rad 2 og 3: 800 kr",
+      "cartRental": 200,
+      "pullCartRental": 50,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Senior",
+        "price": 5300,
+        "description": "Fullt medlemskap med fritt spill. Inkluderer NGF-kontingent.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Ungdom",
+        "price": 3100,
+        "description": "Medlemskap for ungdom med fritt spill.",
+        "ageRange": "16-19"
+      },
+      {
+        "category": "Junior",
+        "price": 2400,
+        "description": "Medlemskap for juniorer med fritt spill.",
+        "ageRange": "13-15"
+      },
+      {
+        "category": "Barn",
+        "price": 1200,
+        "description": "Medlemskap for barn med fritt spill.",
+        "ageRange": "0-12"
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.1,
+      "reviewCount": 209,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=2405029658693770993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hauger-golfklubb",
+      "distanceKm": 5.1
+    },
+    {
+      "slug": "lillestrom-golfklubb",
+      "distanceKm": 8.9
+    },
+    {
+      "slug": "losby-golfklubb",
+      "distanceKm": 10
+    },
+    {
+      "slug": "gjerdrum-golfklubb",
+      "distanceKm": 12
+    }
+  ],
+  "additionalFeatures": [
+    {
+      "feature": "Norges eneste slopet par-3 bane",
+      "description": "9-hulls par 3-bane med offisiell slope rating, unik i Norge."
+    },
+    {
+      "feature": "Lengste par-3 hull i Nord-Europa",
+      "description": "Hull på 230 meter - det lengste par 3-hullet i Nord-Europa."
+    },
+    {
+      "feature": "Varierte hullengder",
+      "description": "Hull fra 100 til 230 meter gir variert utfordring for alle nivåer."
+    },
+    {
+      "feature": "2 golfsimulatorer",
+      "description": "Innendørs spill hele året. Åpent fra kl. 18:00 hverdager, helg etter avtale med pro shop."
+    },
+    {
+      "feature": "Sentralt i Oslo",
+      "description": "Lett tilgjengelig med offentlig transport. Nær Grorud T-banestasjon."
+    },
+    {
+      "feature": "Bagskap",
+      "description": "Oppbevaringsskap for golfbag tilgjengelig for hele sesongen. Rad 1 og 4: 600 kr, Rad 2 og 3: 800 kr."
+    },
+    {
+      "feature": "Driving range",
+      "description": "Øvingsanlegg med driving range og putting green."
+    },
+    {
+      "feature": "Ideell for kortspill-trening",
+      "description": "Perfekt bane for å trene innspill og det korte spillet."
+    }
+  ],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2026-02-12T06:51:01.761Z",
+    "createdAt": "2025-10-31T05:35:09.472Z",
+    "updatedAt": "2026-02-12T06:51:02.021Z"
+  }
+}

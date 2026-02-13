@@ -1,0 +1,192 @@
+{
+  "slug": "moss-rygge-golfklubb",
+  "name": "Moss & Rygge Golfklubb",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Dilling",
+  "municipality": "Moss",
+  "country": "Norway",
+  "address": {
+    "street": "Evjetangen 15",
+    "postalCode": "1570",
+    "area": "Evje"
+  },
+  "coordinates": {
+    "lat": 59.3687341,
+    "lng": 10.6810621,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 6421,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Variert parklandskap",
+    "courseType": "18-hulls championshipbane",
+    "designer": "Jeremy Turner",
+    "yearBuilt": 2004,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Vakker beliggenhet ved Evjesund i Oslofjorden",
+    "scenicHole": "Vakker beliggenhet ved Evjesund i Oslofjorden",
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
+    "mountainViews": false,
+    "viewDescription": "Spektakulær championshipbane ved Evjesund i Oslofjorden, ca 7 minutters kjøretur fra Moss sentrum, mellom Moss og Larkollen. En av Norges best vurderte baner - Peugeot-guiden ga 17 av 20 poeng. Inkludert i Rolex Guide 2008 som en av verdens topp 1000 golfbaner. Variert design med åpne parklandhull på første 9 og mer skog og vann på siste 9. TopTracer Range og moderne simulatorsenter tilgjengelig."
+  },
+  "description": "Variert og interessant 18-hulls championshipbane ved Evjesund i Oslofjorden, designet av Jeremy Turner (2004). En av Norges best vurderte baner. De første ni hullene er lange og plassert i åpent landskap med brede fairways og store greens, mens de siste ni er annerledes med mer skog og vann. Krever presisjon og strategi. Peugeot-guiden ga 17 av 20 poeng. Inkludert i Rolex Guide 2008 som en av verdens topp 1000 golfbaner. Ca 7 minutters kjøretur fra Moss sentrum, mellom Moss og Larkollen.",
+  "contact": {
+    "phone": "+47 69 26 27 00",
+    "email": "post@evjegolf.no",
+    "emailAlt": null,
+    "website": "https://evjegolf.no/",
+    "facebook": "https://www.facebook.com/MossOchRyggeGolfklubb/",
+    "instagram": "https://www.instagram.com/mossogryggegolfklubb/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 69 26 27 00",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 69 26 27 00 tast 2",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 69 26 27 00 tast 3",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": "Åpen hele året avhengig av vær og baneforhold"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Moss",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Evje Golfpark AS (org.nr. 983 782 795)",
+    "clubOrganization": "Moss & Rygge Golfklubb (org.nr. 884 621 372)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Restaurant/café på Evje Golfpark",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Moderne golfsimulatorer tilgjengelige - Simulatorsenteret",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 550,
+      "greenFeeWeekend": 600,
+      "greenFeeSenior": 550,
+      "greenFeeJunior": 300,
+      "greenFeeDescription": "Greenfee 18 hull: ca 550-600 NOK avhengig av dag. Medlemsgjest: 250 kr rabatt ved spill med fullbetalende medlem. Se evjegolf.no for oppdaterte priser.",
+      "cartRental": 400,
+      "pullCartRental": null,
+      "clubRental": 300,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Medlemsgjest får 250 kr rabatt"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 189,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=11469760558484580015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "svart",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 74.7,
+      "slopeRating": 135,
+      "lengthYards": null,
+      "lengthMeters": 6421,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "ekholtbruket-golfklubb",
+      "distanceKm": 4.4
+    },
+    {
+      "slug": "onsoy-golfklubb",
+      "distanceKm": 12.2
+    },
+    {
+      "slug": "huseby-hanko-golfklubb",
+      "distanceKm": 13.2
+    },
+    {
+      "slug": "borre-golfklubb",
+      "distanceKm": 13.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:06.846Z",
+    "createdAt": "2025-10-31T11:42:06.848Z",
+    "updatedAt": "2025-11-03T09:10:10.584Z"
+  }
+}

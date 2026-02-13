@@ -1,0 +1,192 @@
+{
+  "slug": "rauma-golfklubb",
+  "name": "Rauma Golfklubb",
+  "formerName": null,
+  "region": "Møre og Romsdal",
+  "city": "Åndalsnes",
+  "municipality": "Rauma",
+  "country": "Norway",
+  "address": {
+    "street": "Setnesmoen",
+    "postalCode": "6300",
+    "area": "Veblungsnes"
+  },
+  "coordinates": {
+    "lat": 62.54988479999999,
+    "lng": 7.6927257,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 33,
+    "parPerRound": 66,
+    "lengthMeters": 2315,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Naturbane",
+    "courseType": "9-hulls bane (spilles to runder for 18 hull)",
+    "designer": null,
+    "yearBuilt": 1997,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønne omgivelser med utsikt over Romsdalen",
+    "scenicHole": "Naturskjønne omgivelser med utsikt over Romsdalen",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Naturskjønne omgivelser med spektakulær utsikt over Romsdalen og fjellene. Beliggenhet ved Setnesmoen nær Åndalsnes."
+  },
+  "description": "9-hulls golfbane i naturskjønne omgivelser på Setnesmoen, kun 3 km fra Åndalsnes sentrum. Hvert av hullene har tre utslagssteder og kan spilles som en fullverdig 18-hulls bane med lang løype (Tee 42) og kort løype (Tee 37). Historisk sett er dette stedet der golf i Norge begynte - engelske lakselorder arrangerte golfturneringer her allerede i 1905. Den moderne klubben ble grunnlagt 3. juli 1997 og fortsetter den historiske golftradisjonen på samme sted. Banen beskrives som 'kanskje Norges flotteste golfopplevelse' med fantastiske omgivelser.",
+  "contact": {
+    "phone": "+47 920 31 073",
+    "email": "post@raumagolf.no",
+    "emailAlt": null,
+    "website": "https://raumagolf.no/",
+    "facebook": "https://www.facebook.com/raumagolfklubb/",
+    "instagram": "https://www.instagram.com/raumagolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 920 31 073",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Hele året",
+    "end": "Hele året",
+    "winterUse": "Åpen hele året, værforhold tillatt. Simulator tilgjengelig for vintertrening."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Åndalsnes",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Rauma Golfklubb",
+    "clubOrganization": "Rauma Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator tilgjengelig for trening",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: ca. 200 kr per dag. Kontakt klubben for oppdaterte priser og spesielle tilbud.",
+      "cartRental": 150,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 40,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12399742749325767387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Tee 42",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 64.2,
+      "slopeRating": 121,
+      "lengthYards": null,
+      "lengthMeters": 2315,
+      "par": 66
+    },
+    {
+      "teeColor": "Tee 37",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 62.8,
+      "slopeRating": 116,
+      "lengthYards": null,
+      "lengthMeters": 2051,
+      "par": 66
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "molde-golfklubb",
+      "distanceKm": 31.6
+    },
+    {
+      "slug": "surnadal-golfklubb",
+      "distanceKm": 44.7
+    },
+    {
+      "slug": "sunndal-golfklubb",
+      "distanceKm": 44.7
+    },
+    {
+      "slug": "tingvoll-golfklubb",
+      "distanceKm": 53.5
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "87.5",
+    "websiteQuality": null,
+    "completenessPercentage": 87,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:31:09.233Z",
+    "createdAt": "2025-10-31T09:31:09.234Z",
+    "updatedAt": "2025-11-03T09:09:36.032Z"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "kongsvinger-golfklubb",
+  "name": "Kongsvingers Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Granli",
+  "municipality": "Granli",
+  "country": "Norway",
+  "address": {
+    "street": "Strengelsrudvegen 99",
+    "postalCode": "2210",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.1291351,
+    "lng": 12.0534849,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 6248,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": "18-hole championship course",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 5,
+    "par4Count": 9,
+    "par5Count": 4,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Vårt 18-hulls anlegg, gir muligheter for en unik golfopplevelse for alle, uansett ambisjoner og nivå. 18-hole championship course med varierte tee-systemer.",
+  "contact": {
+    "phone": "90 62 92 00",
+    "email": "post@kongsvingergolf.no",
+    "emailAlt": "booking@kongsvingergolf.no",
+    "website": "https://kongsvingergolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "90 62 92 00",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "95 81 93 90",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": "20. oktober 2025",
+    "winterUse": "Indoor golf available from November 2025 at Golfern"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Kongsvinger",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Kongsvingers Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Café & Flerbrukshuset",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 590,
+      "greenFeeWeekend": 750,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "18 hull: 590 kr mandag-torsdag, 750 kr fredag-søndag, 800 kr primetime. 9 hull: 300 kr mandag-torsdag, 400 kr fredag-søndag",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Accommodation partners with golf packages: Nordfjeld Gjestegård (16 km, 100 kr rabatt greenfee), Finnskogstua (40 km), Festningen Hotell & Resort, Kongsvinger Budget Hotel (100 kr rabatt greenfee, 10% rabatt med kode GOLF25), Sigernessj0en Familiecamping (gjensidig rabattavtale), Vinger Hotell (golfpakke med/uten middag)"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 211,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=3579068053179162436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "rommen-golfklubb",
+      "distanceKm": 35
+    },
+    {
+      "slug": "nes-golfklubb",
+      "distanceKm": 35
+    },
+    {
+      "slug": "romerike-golfklubb",
+      "distanceKm": 40.4
+    },
+    {
+      "slug": "miklagard-golfklubb",
+      "distanceKm": 50
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:12.728Z",
+    "createdAt": "2025-10-31T07:18:12.730Z",
+    "updatedAt": "2025-11-03T09:09:48.687Z"
+  }
+}

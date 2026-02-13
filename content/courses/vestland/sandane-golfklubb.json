@@ -1,0 +1,197 @@
+{
+  "slug": "sandane-golfklubb",
+  "name": "Sandane Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Sandane",
+  "municipality": "Gloppen",
+  "country": "Norway",
+  "address": {
+    "street": "Eidsvegen 68",
+    "postalCode": "6823",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 61.7569465,
+    "lng": 6.2409954,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 32,
+    "parPerRound": 64,
+    "lengthMeters": 1558,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane",
+    "designer": null,
+    "yearBuilt": 1999,
+    "yearRedesigned": 2008,
+    "waterHazards": null,
+    "signatureHole": "Panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet",
+    "scenicHole": "Panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Sandane Golfklubb - 9-hulls parklandbane grunnlagt 1999, utvidet 2008. Par 32, 1558m. Smale fairways, små greener. Panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet. Driving range, putting/chipping green, practice bunker. Golf simulator. Klubbhus med arrangement-lokale. Teaching pro. Ca 500 medlemmer. Handicap-grense 54."
+  },
+  "description": "Sandane Golfklubb - 9-hulls parklandbane grunnlagt 1999, utvidet fra 6 til 9 hull i 2008. Par 32 (64 for 18 hull når spilt 2 ganger), 1704 yards (ca 1558m). Kjent for smale fairways, små greener og panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet.",
+  "contact": {
+    "phone": "+47 90 74 27 83",
+    "email": "post@sandanegolf.no",
+    "emailAlt": null,
+    "website": "https://sandanegolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 90 74 27 83",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 99 26 55 94",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Golf simulator tilgjengelig"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sandane",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Sandane Golfklubb (Organisasjonsnummer: 993 603 015, Grunnlagt 1999)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golf simulator tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 150,
+      "greenFeeWeekend": 150,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 150 kr for 18 hull (spill 9-hulls banen 2 ganger). Samme pris mandag-søndag. Booking via Gimmie-app påkrevd. Handicap-grense 54, gyldig handicapbevis påkrevd.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Svært rimelig greenfee (150 kr). Klubbhus med arrangement-lokale til leie. Golf simulator. Damegolf-program. Panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 16,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=1637482701859148470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul / Yellow",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 30.4,
+      "slopeRating": 119,
+      "lengthYards": null,
+      "lengthMeters": 1558,
+      "par": 32
+    },
+    {
+      "teeColor": "Rød / Red",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 59.1,
+      "slopeRating": 114,
+      "lengthYards": null,
+      "lengthMeters": 1437,
+      "par": 31
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "nordfjord-golfklubb",
+      "distanceKm": 20.9
+    },
+    {
+      "slug": "aalesund-golfklubb-solnor-gaard",
+      "distanceKm": 28.1
+    },
+    {
+      "slug": "sunnfjord-golfklubb",
+      "distanceKm": 31.2
+    },
+    {
+      "slug": "volda-golfklubb",
+      "distanceKm": 43
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:17:00.241Z",
+    "createdAt": "2025-10-31T10:17:00.242Z",
+    "updatedAt": "2025-11-03T09:09:59.511Z"
+  }
+}

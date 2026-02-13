@@ -1,0 +1,197 @@
+{
+  "slug": "bamble-golfklubb",
+  "name": "Bamble Golfklubb",
+  "formerName": null,
+  "region": "Telemark",
+  "city": "Stathelle",
+  "municipality": "Bamble",
+  "country": "Norway",
+  "address": {
+    "street": "Valleveien 696",
+    "postalCode": "3967",
+    "area": "Valle"
+  },
+  "coordinates": {
+    "lat": 58.95298090000001,
+    "lng": 9.5917386,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": 34,
+    "parPerRound": 34,
+    "lengthMeters": 2189,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skog og park med fjellformasjoner",
+    "courseType": "Forest/Parkland",
+    "designer": null,
+    "yearBuilt": 1998,
+    "yearRedesigned": 2007,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Beautiful coastal nature with old rock formations and views from the clubhouse terrace overlooking the course and driving range"
+  },
+  "description": "En utfordrende 9-hulls skog- og parkbane som slynger seg gjennom gamle fjellformasjoner i vakker kystlig natur. Beskrevet som et lite golfparadis på den solrike Telemarkkysten.",
+  "contact": {
+    "phone": "+47 35 97 65 01",
+    "email": "post@bamblegolfklubb.no",
+    "emailAlt": "mail@bamble-gk.no",
+    "website": "https://bamblegolfklubb.no",
+    "facebook": "https://www.facebook.com/bamblegolfklubb",
+    "instagram": "https://www.instagram.com/bamblegolf/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 35 97 65 01",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 973 49 900",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "November",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Stathelle, Valle",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Bamble Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": false,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Café",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2024": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 330,
+      "greenFeeWeekend": 330,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Partner club rates: NOK 400 (Mon-Thu), Junior NOK 200 (Mon-Thu)",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 57,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9801515027671507959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Herretee",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 32.3,
+      "slopeRating": 121,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 34
+    },
+    {
+      "teeColor": "Dametee",
+      "teeNumber": null,
+      "gender": "women",
+      "courseRating": 28.5,
+      "slopeRating": 94,
+      "lengthYards": null,
+      "lengthMeters": null,
+      "par": 34
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "kragero-golfklubb",
+      "distanceKm": 16.4
+    },
+    {
+      "slug": "larvik-golfklubb",
+      "distanceKm": 25.7
+    },
+    {
+      "slug": "grenland-og-omegn-golfklubb",
+      "distanceKm": 35
+    },
+    {
+      "slug": "sandefjord-golfklubb",
+      "distanceKm": 38
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T12:22:38.475Z",
+    "createdAt": "2025-10-31T12:22:38.477Z",
+    "updatedAt": "2025-11-03T09:10:09.091Z"
+  }
+}

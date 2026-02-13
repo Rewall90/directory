@@ -1,0 +1,171 @@
+{
+  "slug": "valdres-golfklubb",
+  "name": "Valdres Golfklubb",
+  "formerName": null,
+  "region": "Innlandet",
+  "city": "Aurdal",
+  "municipality": "Aurdal",
+  "country": "Norway",
+  "address": {
+    "street": "Vestringsbygda",
+    "postalCode": "2910",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.9286937,
+    "lng": 9.3549496,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": "18-hulls bane (også 9-hulls alternativ)",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "En av landets flotteste golfbaner ligger mellom vann og fjell"
+  },
+  "description": "En av landets flotteste golfbaner ligger mellom vann og fjell i Vestringsbygda i Aurdal. 18-hulls bane med mulighet for 9-hulls spill (Front 9 og Back 9). Klubben ble etablert 28. november 1997.",
+  "contact": {
+    "phone": "613 61 180",
+    "email": "post@valdresgolf.no",
+    "emailAlt": "martine@valdresgolf.no",
+    "website": "https://valdresgolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "613 61 180",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Golf simulator tilgjengelig november-april"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Aurdal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Valdres Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Mat og drikke",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golfsimulator tilgjengelig fra begynnelsen av november (senest 15. november) til 1. april 2026. Booking via GolfBox. Seasonal membership: kr 2000 for hele vintersesongen (halv pris for under 20 år). Guest rate: kr 200 per time. 40 ansvarlige medlemmer søkes.",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee og utleie information available on website",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Custom fitting available: kr 695 (fradrag ved kjøp av utstyr)"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.7,
+      "reviewCount": 80,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=1703327076258018480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hemsedal-golfalpin-golfbane",
+      "distanceKm": 36
+    },
+    {
+      "slug": "nesfjellet-golfklubb",
+      "distanceKm": 47.4
+    },
+    {
+      "slug": "hemsedal-golfklubb",
+      "distanceKm": 50
+    },
+    {
+      "slug": "skei-golfklubb",
+      "distanceKm": 60.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:18:14.394Z",
+    "createdAt": "2025-10-31T07:18:14.396Z",
+    "updatedAt": "2025-11-03T09:09:50.010Z"
+  }
+}

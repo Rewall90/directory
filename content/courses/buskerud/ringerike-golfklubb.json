@@ -1,0 +1,241 @@
+{
+  "slug": "ringerike-golfklubb",
+  "name": "Ringerike Golfklubb",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Hønefoss",
+  "municipality": "Ringerike",
+  "country": "Norway",
+  "address": {
+    "street": "Fjøsviken",
+    "postalCode": "3503",
+    "area": "Ringmoen"
+  },
+  "coordinates": {
+    "lat": 60.3484687,
+    "lng": 10.1014051,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 34,
+    "parPerRound": 68,
+    "lengthMeters": 2765,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Variert terreng",
+    "courseType": "9-hulls golfbane",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": 2004,
+    "waterHazards": true,
+    "signatureHole": "Hull 7/16 (Par 5, 441/399m) - Langt hull med green 9m lavere enn fairway, sidevannshinder og 2 greenbunkere.",
+    "scenicHole": "Hull 7/16 (Par 5, 441/399m) - Langt hull med green 9m lavere enn fairway, sidevannshinder og 2 greenbunkere.",
+    "par3Count": 3,
+    "par4Count": 5,
+    "par5Count": 1,
+    "mountainViews": false,
+    "viewDescription": "Variert terreng ved Fjøsviken, nær Ringmoen. Flere vannhindere og raviner."
+  },
+  "description": "Ringerike Golfklubb ble stiftet 15. mars 2001 av grunneier Einar Trygve Lie ved Fjøsviken gård. Klubben ble tatt opp i NIF 19. juni 2001 og NGF 4. juli 2001 som klubb nr. 169. Ringerike Golfbane AS ble dannet 7. oktober 2001. 6-hulls bane åpnet juli 2003, offisiell åpning 16. august 2003. Full 9-hulls bane åpnet 29. august 2004. Baneguide hull for hull: Hull 1/10 (Par 4, Index 7, 289/252m) - Smalt med OB venstre. Hull 2/11 (Par 5, Index 5, 470/406m) - Dogleg høyre med bunker venstre, 2 greenbunkere. Hull 3/12 (Par 4, Index 1, 354/336m) - Dogleg venstre, OB venstre siste 100m. Hull 4/13 (Par 3, Index 17, 113/108m) - Over vannhinder, bratt bakke til green. Hull 5/14 (Par 3, Index 13, 152/133m) - Green 5m høyere, bunker høyre, sidevann venstre. Hull 6/15 (Par 4, Index 9, 295/273m) - Dogleg venstre, bunkere begge sider fairway. Hull 7/16 (Par 5, Index 3, 441/399m) - Langt hull, green 9m lavere, sidevann venstre, 2 greenbunkere. Hull 8/17 (Par 4, Index 11, 282/222m) - Dogleg høyre, fade foretrukket, bunker i banen og greenbunker. Hull 9/18 (Par 3, Index 15, 101/92m) - Over ravine/straffeområde, stor green.",
+  "contact": {
+    "phone": "+47 452 17 802",
+    "email": "post@ringerikegk.no",
+    "emailAlt": null,
+    "website": "https://www.ringerikegk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 452 17 802",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 90 66 15 01 (Proshop/Café)",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 905 12 349 (Roy Fjeld, Styreleder)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 971 89 960 (Jan Larsen, Baneansvarlig)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 906 76 121 (Ole Kristian Gruer, Proshop)",
+      "type": "other",
+      "primary": false
+    },
+    {
+      "number": "+47 995 96 720 (Elsa Lill P Strande, Golfkurs)",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": "Range: Åpent"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Hønefoss",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Ringerike Golfbane AS (Stiftet 7. oktober 2001, opprinnelig aksjepris 7.500 kr)",
+    "clubOrganization": "Ringerike Golfklubb (Org.nr: 984387113, Stiftet 15. mars 2001 av Einar Trygve Lie)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": 230,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Café",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": "3 simulatorer i distriktet med medlemsrabatt: Buskerud Golf AS (2 Trackman, 30% rabatt), Høneføss Golfsenter (3 plasser, 10% rabatt, åpent 11-21, Fre-Løn 11-01), Indoor golf AS (3 Trackman simulatorer).",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Se medlemskapsinfo for greenfee-rabatter basert på medlemskategori.",
+      "cartRental": 250,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golfbiler: 3 stk tilgjengelig, 250 kr (9 hull) / 350 kr (18 hull). Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Booking 08:00-20:00, nøkkelutlevering innen 17:00. Turneringer: golfbil fordeles etter helsemessige behov. Simulatorrabatter: 30% Buskerud Golf AS, 10% Høneføss Golfsenter."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "a_fritt_spill",
+        "price": 4500,
+        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
+        "ageRange": null
+      },
+      {
+        "category": "b_halv_greenfee",
+        "price": 3500,
+        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
+        "ageRange": null
+      },
+      {
+        "category": "c_familie",
+        "price": 8000,
+        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
+        "ageRange": null
+      },
+      {
+        "category": "d_student",
+        "price": 1800,
+        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
+        "ageRange": null
+      },
+      {
+        "category": "e_junior",
+        "price": 1250,
+        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
+        "ageRange": null
+      },
+      {
+        "category": "f_greenfee",
+        "price": 1550,
+        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
+        "ageRange": null
+      },
+      {
+        "category": "g_forste_ar",
+        "price": 1800,
+        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 40,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=2561712338945020067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "norefjell-golfklubb",
+      "distanceKm": 32.7
+    },
+    {
+      "slug": "tyrifjord-golfklubb",
+      "distanceKm": 34.2
+    },
+    {
+      "slug": "lommedalen-golfklubb",
+      "distanceKm": 47.1
+    },
+    {
+      "slug": "aasgaard-golfpark",
+      "distanceKm": 47.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:54:20.233Z",
+    "createdAt": "2025-10-31T05:54:20.235Z",
+    "updatedAt": "2025-11-03T09:09:58.593Z"
+  }
+}

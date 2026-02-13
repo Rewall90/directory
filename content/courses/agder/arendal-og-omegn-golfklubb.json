@@ -1,0 +1,216 @@
+{
+  "slug": "arendal-og-omegn-golfklubb",
+  "name": "Arendal & Omegn Golfklubb",
+  "formerName": null,
+  "region": "Agder",
+  "city": "Nes Verk",
+  "municipality": "Nes Verk",
+  "country": "Norway",
+  "address": {
+    "street": "Jacob Aalls Vei 53",
+    "postalCode": "4934",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 58.62837,
+    "lng": 8.851755,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert, åsete terreng. Banen inneholder noen blinde slag, og de siste ni hullene er trangere med flere trær.",
+    "courseType": null,
+    "designer": null,
+    "yearBuilt": 1994,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": null,
+    "viewDescription": null
+  },
+  "description": "Golfanlegget på Nes Verk hevder seg i landstoppen. Flere bygninger i området er blitt restaurert, og nye kommet til. Slik kan klubben tilby gjester og medlemmer de aller beste forhold også når det kommer til servering, møtelokaler, garderobeanlegg, golfbutikk og mer. Miljøet er hyggelig og imøtekommende. Banen beskrives som en kupert bane med høy standard, lagt over noe kupert terreng med strategiske utfordringer.",
+  "contact": {
+    "phone": "37 19 90 30",
+    "email": "post@arendalgk.no",
+    "emailAlt": null,
+    "website": "https://arendalgk.no/",
+    "facebook": "https://www.facebook.com/arendalgk/",
+    "instagram": "https://www.instagram.com/arendalgolf/",
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": "May",
+    "end": "October",
+    "winterUse": "Vinterbane tilgjengelig fra 20. oktober, åpent mandag-fredag 9:00-15:00"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": null,
+    "nearbyCity": "Nes Verk",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Arendal & Omegn Golfklubb (Organisasjonsnummer: 971016892)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "Åpent for alle, 40 baller koster 40 NOK. Køller kan lånes i klubbhuset/butikken.",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": null,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Proshop og kafe",
+    "clubRental": true,
+    "clubRentalNotes": null,
+    "cartRental": null,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 550,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "18-hull: 500 NOK ukedag, 550 NOK helg (250/275 NOK for junior). 9-hull: 310 NOK ukedag, 340 NOK helg (155/170 NOK for junior). Pay & Play bane: 250 NOK (125 NOK for junior).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": 60,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "VTG (Beginner)",
+        "price": 4600,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Senior A (Born 1996 or earlier)",
+        "price": 8190,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Senior B (Born 1996 or earlier)",
+        "price": 4990,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Senior C (Born 1996 or earlier)",
+        "price": 1990,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Young Adult (Born 1997-2001)",
+        "price": 4300,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Youth (Born 2002-2005)",
+        "price": 2050,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Junior 13-19 (Born 2006-2012)",
+        "price": 770,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Junior 0-12 (Born 2013 or later)",
+        "price": 310,
+        "description": null,
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 59,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=13247901968668878437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "grimstad-golfklubb",
+      "distanceKm": 32.3
+    },
+    {
+      "slug": "kragero-golfklubb",
+      "distanceKm": 39.6
+    },
+    {
+      "slug": "bamble-golfklubb",
+      "distanceKm": 55.9
+    },
+    {
+      "slug": "bjaavann-golfklubb",
+      "distanceKm": 63
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "good",
+    "websiteQuality": null,
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-30T13:27:21.917Z",
+    "createdAt": "2025-10-30T13:27:21.922Z",
+    "updatedAt": "2025-11-03T09:10:11.787Z"
+  }
+}

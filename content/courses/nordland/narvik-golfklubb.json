@@ -1,0 +1,192 @@
+{
+  "slug": "narvik-golfklubb",
+  "name": "Narvik Golfklubb",
+  "formerName": "Skjomen Golfpark",
+  "region": "Nordland",
+  "city": "Elvegård",
+  "municipality": "Narvik",
+  "country": "Norway",
+  "address": {
+    "street": "Sandmoveien 1",
+    "postalCode": "8523",
+    "area": "Skjomen"
+  },
+  "coordinates": {
+    "lat": 68.2406079,
+    "lng": 17.4130605,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 5884,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Skogsbane",
+    "courseType": "18-hulls championship course",
+    "designer": "Jan Sederholm",
+    "yearBuilt": 1995,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Hull 10 - par-3 med øy-green (120 meter)",
+    "scenicHole": "Hull 5 - par-5 med opphøyd tee, vann og utsikt over Frostisen-breen",
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
+    "mountainViews": true,
+    "viewDescription": "Spektakulær arktisk beliggenhet i Skjomen-dalen med utsikt over den mørkeblå isbreen Frostisen og massive fjell. Midnattssol-golf fra midten av juni til midten av august. Banen ligger ved elven Skjoma og omgitt av bratte fjellsider langs fjorden. Hesterideskole i nærheten."
+  },
+  "description": "Utfordrende 18-hulls championship bane i arktisk naturskjønn beliggenhet i Skjomen-dalen, 35 minutter utenfor Narvik by. Banen ligger over polarsirkelen og tilbyr midnattssol-golf fra midten av juni til midten av august. Unikt skogsterreng med nær sagt alle hull som doglegs, noe som gjør presisjon viktigere enn lengde. Spektakulær utsikt mot den mørkeblå isbreen Frostisen og massive fjell. Utfordrende bane der nøyaktighet er nøkkelen til suksess.",
+  "contact": {
+    "phone": "+47 410 83 723",
+    "email": "post@narvikgolf.no",
+    "emailAlt": null,
+    "website": "https://www.narvikgolf.no/",
+    "facebook": "https://www.facebook.com/narvikgolf/",
+    "instagram": "https://www.instagram.com/narvikgolf/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 410 83 723",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 948 00 949",
+      "type": "secondary",
+      "primary": false
+    },
+    {
+      "number": "+47 76 95 12 01",
+      "type": "other",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Banen stenges om vinteren. Resepsjon åpen 12:00-20:00 i sesongen. Golfparken åpen 24 timer under midnattssol."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Narvik (35 minutter)",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Narvik Golfklubb",
+    "clubOrganization": "Narvik Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Klubbhus restaurant",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee voksen: 400 NOK for 18 hull, 250 NOK for 9 hull. Junior: 200 NOK. Prisene kan variere, kontakt klubben for oppdatert prising.",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 40,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Midnattssol-golf tilgjengelig fra midten av juni til midten av august - spill døgnet rundt"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 87,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14867794139037299311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 73.4,
+      "slopeRating": 141,
+      "lengthYards": null,
+      "lengthMeters": 5884,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "harstad-golfklubb",
+      "distanceKm": 76.1
+    },
+    {
+      "slug": "vesteralen-golfklubb",
+      "distanceKm": 91.8
+    },
+    {
+      "slug": "midt-troms-golfklubb",
+      "distanceKm": 94.6
+    },
+    {
+      "slug": "bleik-golfstrombane",
+      "distanceKm": 129.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:40.328Z",
+    "createdAt": "2025-10-31T09:43:40.329Z",
+    "updatedAt": "2025-11-03T09:09:39.258Z"
+  }
+}

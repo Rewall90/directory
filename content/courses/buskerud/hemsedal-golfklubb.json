@@ -1,0 +1,203 @@
+{
+  "slug": "hemsedal-golfklubb",
+  "name": "Hemsedal Golfklubb",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Hemsedal",
+  "municipality": "Hemsedal",
+  "country": "Norway",
+  "address": {
+    "street": "Grøndalsvegen 645",
+    "postalCode": "3560",
+    "area": "Grøndalen"
+  },
+  "coordinates": {
+    "lat": 60.9245491,
+    "lng": 8.4293613,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "18-hulls championship bane",
+    "designer": "Robert Trent Jones II",
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Banen ligger på Holtsmark med panoramautsikt",
+    "scenicHole": "Banen ligger på Holtsmark med panoramautsikt",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Hemsedal Golfklubb ligger midt i Grøndalen med utsikt over fjell. Nær Solheisen Skisenter. Fra Oslo: Kjør mot Hemsedal Sentrum, fortsett gjennom sentrum forbi Hemsedal Skisenter, ta av fra RV 52 på Tuv og følg skilting mot Grøndalen/Solheisen Skisenter. Klubben ligger 6 km fra Tuv på venstre hånd."
+  },
+  "description": "Hemsedal Golfklubb ligger midt i Grøndalen, nær Solheisen Skisenter. Klubben er medlem av Holtsmark Golf Eiendomsselskap AS for spillerett. Banen er designet av Robert Trent Jones II og ble kåret til Norges beste bane av GolfDigest i 2019 og 2020. Var NM-bane i 2020. Klubben ble stiftet 15.12.1994. Banen ligger på Holtsmark, 30 minutter fra Sandvika og 20 minutter fra Drammen. Medlem av Norges Golfforbund (NGF) og NIF. 5 tee-alternativer fra nybegynnervennlig 40-tee til elite 63-tee (6300m).",
+  "contact": {
+    "phone": "+47 970 44 164",
+    "email": "post@golfhemsedal.no",
+    "emailAlt": "merethe@golfhemsedal.no",
+    "website": "https://hemsedalgolfklubb.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 970 44 164",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 90 68 65 31 (Golfstua - Merethe)",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "Juni",
+    "end": "Oktober",
+    "winterUse": "Golfstua kan leies sommer som vinter. Tennis stengt. Golfbane stengt."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Hemsedal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Holtsmark Golf Eiendomsselskap AS (Klubben er medlem for spillerett)",
+    "clubOrganization": "Hemsedal Golfklubb (Org.nr: registrert 15.12.1994, medlem av NGF og NIF, Buskerud idrettskrets, Hemsedal kommune)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 600,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 18 hull 600 kr, 9 hull 400 kr. VTG-kurs: Voksne 1600 kr (inkluderer greenfeemedlemskap inneværende år), Junior gratis med fritt spill medlemskap første året også gratis.",
+      "cartRental": 50,
+      "pullCartRental": null,
+      "clubRental": 140,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Alle medlemmer i Hemsedal GK med Fritt Spill medlemskap får 50% rabatt på Holtsmark. Medlemmer kan leie Golfstua (storhytte med 15-17 sengeplasser, badstue, ski in/out langrenn). Tennis: 2 kunstmattebaner tilgjengelig for 250 kr/time."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult_fritt_spill",
+        "price": 4600,
+        "description": "Medlemskap 2025: Medlem med fritt spill 4600 kr, Medlem (50% greenfee hver gang) 1600 kr, Junior fritt spill 1100 kr, Junior (50% greenfee) 600 kr. Klubben er selveiende og frittstående med utelukkende personlige medlemskap. Utmelding må meldes innen 31.12. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark.",
+        "ageRange": null
+      },
+      {
+        "category": "adult_50percent",
+        "price": 1600,
+        "description": "Medlemskap 2025: Medlem med fritt spill 4600 kr, Medlem (50% greenfee hver gang) 1600 kr, Junior fritt spill 1100 kr, Junior (50% greenfee) 600 kr. Klubben er selveiende og frittstående med utelukkende personlige medlemskap. Utmelding må meldes innen 31.12. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark.",
+        "ageRange": null
+      },
+      {
+        "category": "junior_fritt_spill",
+        "price": 1100,
+        "description": "Medlemskap 2025: Medlem med fritt spill 4600 kr, Medlem (50% greenfee hver gang) 1600 kr, Junior fritt spill 1100 kr, Junior (50% greenfee) 600 kr. Klubben er selveiende og frittstående med utelukkende personlige medlemskap. Utmelding må meldes innen 31.12. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark.",
+        "ageRange": null
+      },
+      {
+        "category": "junior_50percent",
+        "price": 600,
+        "description": "Medlemskap 2025: Medlem med fritt spill 4600 kr, Medlem (50% greenfee hver gang) 1600 kr, Junior fritt spill 1100 kr, Junior (50% greenfee) 600 kr. Klubben er selveiende og frittstående med utelukkende personlige medlemskap. Utmelding må meldes innen 31.12. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.3,
+      "reviewCount": 36,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12987874750732990355&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hemsedal-golfalpin-golfbane",
+      "distanceKm": 24.2
+    },
+    {
+      "slug": "laerdal-golfklubb",
+      "distanceKm": 45.4
+    },
+    {
+      "slug": "valdres-golfklubb",
+      "distanceKm": 50
+    },
+    {
+      "slug": "nesfjellet-golfklubb",
+      "distanceKm": 54.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:54:16.505Z",
+    "createdAt": "2025-10-31T05:54:16.507Z",
+    "updatedAt": "2025-11-03T09:09:55.523Z"
+  }
+}

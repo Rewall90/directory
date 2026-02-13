@@ -1,0 +1,182 @@
+{
+  "slug": "sotra-golfklubb",
+  "name": "Sotra Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Kolltveit",
+  "municipality": "Øygarden",
+  "country": "Norway",
+  "address": {
+    "street": "Bergalia 10",
+    "postalCode": "5360",
+    "area": "Kolltveitvegen"
+  },
+  "coordinates": {
+    "lat": 60.35304,
+    "lng": 5.08761,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 30,
+    "parPerRound": 60,
+    "lengthMeters": 2728,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland/Woodland",
+    "courseType": "9-hulls park/skogsbane med Pitch & Putt-bane",
+    "designer": null,
+    "yearBuilt": 2000,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Park/skogsbane i Kolltveit på Sotra",
+    "scenicHole": "Park/skogsbane i Kolltveit på Sotra",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Sotra Golfklubb - 9-hulls park/skogsbane grunnlagt 2000 i Kolltveit på Sotra, Øygarden. Par 30 (60 for 18h), 2728m. Pitch & Putt-bane (9h, 42-73m). Driving range åpen hele året (24h, flomlys til kl 22). 2 simulatorer. Putting green, practice bunker. Klubbhus med pro shop og kiosk. Tralle-utleie. Besøkende må være gjest av medlem i helgene."
+  },
+  "description": "Sotra Golfklubb - 9-hulls park/skogsbane grunnlagt 2000 i Kolltveit. Hovedbane: par 30 (60 for 18 hull når spilt 2 ganger), 2984 yards (ca 2728m). I tillegg har klubben en 9-hulls Pitch & Putt-bane for trening med hulllengder fra 42 til 73 meter. Ligger på Sotra, kort kjøretur fra Bergen.",
+  "contact": {
+    "phone": "+47 41 54 10 84",
+    "email": "post@sotragk.no",
+    "emailAlt": "kontakt@sotragolfpark.no",
+    "website": "https://sotragk.no/",
+    "facebook": "https://www.facebook.com/SotraGolfpark",
+    "instagram": "https://www.instagram.com/sotragolfpark/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 41 54 10 84",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Driving range åpen hele året, 2 simulatorer tilgjengelig for bestilling"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bergen",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Sotra Golfklubb (Grunnlagt 2000)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": false,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "2 golfsimulatore som kan bestilles, spesielt i vintersesongen",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 200 kr for 18 hull (hverdager). Besøkende må være gjest av medlem i helgene. Standard greenfee-range 250-300 kr avhengig av dag og sesong.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "To baner: Hovedbane (9 hull par 30) og Pitch & Putt-bane (9 hull, 42-73m). Driving range åpen 24 timer med flomlys til kl 22. 2 simulatorer for vintertrening. Veien til Golf-kurs. Juniortrening. Pondus Vintercup."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 74,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16313689070804844352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Standard",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 29.1,
+      "slopeRating": 110,
+      "lengthYards": null,
+      "lengthMeters": 2728,
+      "par": 30
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "fana-golfklubb",
+      "distanceKm": 14.1
+    },
+    {
+      "slug": "bergen-golfklubb",
+      "distanceKm": 16.6
+    },
+    {
+      "slug": "meland-golfklubb",
+      "distanceKm": 20.9
+    },
+    {
+      "slug": "herdla-golfklubb",
+      "distanceKm": 25.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "89.0",
+    "websiteQuality": null,
+    "completenessPercentage": 89,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:17:00.960Z",
+    "createdAt": "2025-10-31T10:17:00.961Z",
+    "updatedAt": "2025-11-03T09:10:00.408Z"
+  }
+}

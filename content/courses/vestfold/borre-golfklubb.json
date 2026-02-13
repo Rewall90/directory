@@ -1,0 +1,192 @@
+{
+  "slug": "borre-golfklubb",
+  "name": "Borre Golfklubb",
+  "formerName": null,
+  "region": "Vestfold",
+  "city": "Horten",
+  "municipality": "Horten",
+  "country": "Norway",
+  "address": {
+    "street": "Eskebekkveien 68",
+    "postalCode": "3186",
+    "area": "Semb Hovedgård"
+  },
+  "coordinates": {
+    "lat": 59.3976277,
+    "lng": 10.454545,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "18-hulls championship-bane ved Borrevannet",
+    "designer": "Tommy Nordström",
+    "yearBuilt": 1990,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Naturskjønne omgivelser ved Borrevannet",
+    "scenicHole": "Naturskjønne omgivelser ved Borrevannet",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Borre Golfklubb - 18-hulls championship-bane designet av Tommy Nordström ved Borrevannet i Horten. Par 72. Strategisk golf i naturskjønne omgivelser. Driving range (07:00-22:00 med ballmaskin), stor putting green, short game-område. Klubbhus med garderober/dusj, liten pro shop, café. Golf Pro: Sander Stavnar. Junior- og voksen-treningsprogrammer. GolfBox booking."
+  },
+  "description": "Borre Golfklubb - 18-hulls championship-bane designet av Tommy Nordström, åpnet 1990. Par 72. Strategisk golf i naturskjønne omgivelser ved Borrevannet i Horten. Trivelig og uformell klubb med flott bane.",
+  "contact": {
+    "phone": "+47 41 62 70 00",
+    "email": "klubben@borregb.no",
+    "emailAlt": "booking@borregb.no",
+    "website": "https://borregb.no/",
+    "facebook": "https://www.facebook.com/borregb.no/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 41 62 70 00",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "15. oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Horten",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Borre Golfklubb (Organisasjonsnummer: 981 712 676, Grunnlagt 1990)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kro/Café (enkel matservering, kaffe og drikke)",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 750,
+      "greenFeeWeekend": 750,
+      "greenFeeSenior": 500,
+      "greenFeeJunior": 325,
+      "greenFeeDescription": "Greenfee 2025: 18 hull fra åpning til 15. oktober alle dager 750 kr. Junior (t.o.m. 19 år) 325 kr alle dager. Fra 1. september etter kl 15:00 500 kr. Medlems gjestepris senior 500 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Driving range med ballmaskin åpent 07:00-22:00. Stor putting green, short game-område. Veien Til Golf-kurs for nybegynnere tilgjengelig."
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "knotter",
+        "price": 250,
+        "description": "Medlemskap 2025: I tillegg til spillerett må medlemmer betale klubbavgift: Knøtter 250 kr/år, Junior 250 kr/år, Voksen 900 kr/år. Veien Til Golf-kurs tilgjengelig. Junior- og seniortreningsprogrammer. Golfleksjon med Pro Sander Stavnar. Turneringer og golfturer. Kontakt klubben for fullstendige spillerettspriser via telefon +47 41 62 70 00 eller epost klubben@borregb.no.",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 250,
+        "description": "Medlemskap 2025: I tillegg til spillerett må medlemmer betale klubbavgift: Knøtter 250 kr/år, Junior 250 kr/år, Voksen 900 kr/år. Veien Til Golf-kurs tilgjengelig. Junior- og seniortreningsprogrammer. Golfleksjon med Pro Sander Stavnar. Turneringer og golfturer. Kontakt klubben for fullstendige spillerettspriser via telefon +47 41 62 70 00 eller epost klubben@borregb.no.",
+        "ageRange": null
+      },
+      {
+        "category": "adult",
+        "price": 900,
+        "description": "Medlemskap 2025: I tillegg til spillerett må medlemmer betale klubbavgift: Knøtter 250 kr/år, Junior 250 kr/år, Voksen 900 kr/år. Veien Til Golf-kurs tilgjengelig. Junior- og seniortreningsprogrammer. Golfleksjon med Pro Sander Stavnar. Turneringer og golfturer. Kontakt klubben for fullstendige spillerettspriser via telefon +47 41 62 70 00 eller epost klubben@borregb.no.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 58,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=6257146952543924546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "tonsberg-golfklubb",
+      "distanceKm": 11
+    },
+    {
+      "slug": "solum-golfklubb",
+      "distanceKm": 11.1
+    },
+    {
+      "slug": "ekholtbruket-golfklubb",
+      "distanceKm": 13
+    },
+    {
+      "slug": "moss-rygge-golfklubb",
+      "distanceKm": 13.2
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:10:41.021Z",
+    "createdAt": "2025-10-31T09:10:41.024Z",
+    "updatedAt": "2025-11-03T09:10:17.086Z"
+  }
+}

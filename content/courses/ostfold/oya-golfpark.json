@@ -1,0 +1,176 @@
+{
+  "slug": "oya-golfpark",
+  "name": "Øya Golfpark",
+  "formerName": null,
+  "region": "Østfold",
+  "city": "Hafslundsøy",
+  "municipality": "Sarpsborg",
+  "country": "Norway",
+  "address": {
+    "street": "Nordbyveien 210",
+    "postalCode": "1734",
+    "area": "Hafslundsøy"
+  },
+  "coordinates": {
+    "lat": 59.3029726,
+    "lng": 11.1506221,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 56,
+    "parPerRound": 56,
+    "lengthMeters": 2275,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Variert terreng på tidligere gårdseiendom",
+    "courseType": "18-hulls executive pay & play kortbane",
+    "designer": null,
+    "yearBuilt": 1988,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Naturskjønt område på tidligere gårdseiendom",
+    "scenicHole": "Naturskjønt område på tidligere gårdseiendom",
+    "par3Count": 18,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Sentrumsnær pay & play executive kortbane på Hafslundsøy i Sarpsborg, etablert 1988 på tidligere gårdseiendom. Over 200 dekar stort område. Par 56 (18 par-3 hull), lengde 2275m. 4 forskjellige tees gjør banen tilgjengelig for alle. Fleksibelt oppsett: spill 3, 6, 9 eller 18 hull etter ønske. Perfekt for raskt spill, kort-spill-trening og familiegolf. Driving range, putting green, chipping area, teaching pro. I tillegg 18-hulls disc golf-bane. Pay & Play - ingen medlemskap nødvendig, kjøp starttid i pro shop eller selvbetjeningsautomat. Golf for alle!"
+  },
+  "description": "Øya Golfpark er en sentrumsnær pay & play executive kortbane på Hafslundsøy i Sarpsborg, etablert 1988. Opprinnelig gårdseiendom utviklet som kortbane. Par 56 for 18 hull (alle par 3), lengde 2275 meter fra lengste tee. Anlegget kan spilles som 3, 6, 9 eller 18 hull, perfekt for raskt spill og kort-spill-trening. 4 forskjellige tees fra 1640m til 2275m gjør banen tilgjengelig for alle nivåer. Over 200 dekar stort område. Tilbyr også 18-hulls disc golf-bane. Golf for alle - ingen medlemskap nødvendig, bare møt opp og spill!",
+  "contact": {
+    "phone": "+47 69 14 95 50",
+    "email": null,
+    "emailAlt": null,
+    "website": "https://www.oyagolfpark.no/",
+    "facebook": "https://www.facebook.com/oyagolf/",
+    "instagram": "https://www.instagram.com/explore/locations/305664138/oya-golfpark/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 69 14 95 50",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 959 04 333",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Banen stenges om vinteren"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sarpsborg",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Øya Golfpark",
+    "clubOrganization": null
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Restaurant ved klubbhus",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": true,
+    "footgolfHoles": 18,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 250,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Pay & Play greenfee for kortbane. Kjøp av starttid i pro shop eller selvbetjeningsautomat ved inngang. Anlegget kan spilles som 3, 6, 9 eller 18 hull. Kontakt klubben for eksakte 2025-priser.",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Pay & Play - ingen medlemskap nødvendig"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4,
+      "reviewCount": 53,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14379124533246900519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "borregaard-golfklubb",
+      "distanceKm": 4.1
+    },
+    {
+      "slug": "skjeberg-golfklubb",
+      "distanceKm": 4.1
+    },
+    {
+      "slug": "gamle-fredrikstad-golfklubb",
+      "distanceKm": 15.4
+    },
+    {
+      "slug": "huseby-hanko-golfklubb",
+      "distanceKm": 20.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:42:08.783Z",
+    "createdAt": "2025-10-31T11:42:08.784Z",
+    "updatedAt": "2025-11-03T09:10:19.157Z"
+  }
+}

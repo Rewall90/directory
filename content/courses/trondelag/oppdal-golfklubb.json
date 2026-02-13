@@ -1,0 +1,182 @@
+{
+  "slug": "oppdal-golfklubb",
+  "name": "Oppdal Golfklubb",
+  "formerName": null,
+  "region": "Trøndelag",
+  "city": "Oppdal",
+  "municipality": "Oppdal",
+  "country": "Norway",
+  "address": {
+    "street": "Industrivegen N.",
+    "postalCode": "7340",
+    "area": "Fritidsparken"
+  },
+  "coordinates": {
+    "lat": 62.595537,
+    "lng": 9.7089452,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 5629,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Woodland/Skogsbane",
+    "courseType": "9-hulls skogsbane",
+    "designer": null,
+    "yearBuilt": 1988,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Fjellutsikt",
+    "scenicHole": "Fjellutsikt",
+    "par3Count": 2,
+    "par4Count": 5,
+    "par5Count": 2,
+    "mountainViews": true,
+    "viewDescription": "Fjellpanorama; elva Ålma; range, putting/chipping, practice bunker."
+  },
+  "description": "Skogsbane i bjørke- og furuskog med fjellpanorama; 18 tee-posisjoner slopet som 18-hulls.",
+  "contact": {
+    "phone": "+47 72 42 25 10",
+    "email": "post@oppdalgolfklubb.no",
+    "emailAlt": null,
+    "website": "https://www.oppdalgolfklubb.no/",
+    "facebook": "https://www.facebook.com/Oppdalgolfklubb/",
+    "instagram": "https://www.instagram.com/oppdalgolfklubb/",
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 72 42 25 10",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai / 30. april 2025",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Oppdal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Oppdal Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Halv greenfee med Golfamore. Betaling med Vipps.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Nybegynner-programmer; gode tilbud i pro shop."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.4,
+      "reviewCount": 9,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=12534686684147544382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 35.9,
+      "slopeRating": 136,
+      "lengthYards": null,
+      "lengthMeters": 5629,
+      "par": 72
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "sunndal-golfklubb",
+      "distanceKm": 60.6
+    },
+    {
+      "slug": "surnadal-golfklubb",
+      "distanceKm": 60.6
+    },
+    {
+      "slug": "roros-golfklubb",
+      "distanceKm": 84.5
+    },
+    {
+      "slug": "byneset-golfklubb",
+      "distanceKm": 87.4
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:30:52.435Z",
+    "createdAt": "2025-10-31T11:30:52.436Z",
+    "updatedAt": "2025-11-03T09:09:57.155Z"
+  }
+}

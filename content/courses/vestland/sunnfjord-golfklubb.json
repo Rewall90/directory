@@ -1,0 +1,187 @@
+{
+  "slug": "sunnfjord-golfklubb",
+  "name": "Sunnfjord Golfklubb",
+  "formerName": null,
+  "region": "Vestland",
+  "city": "Vassenden",
+  "municipality": "Sunnfjord",
+  "country": "Norway",
+  "address": {
+    "street": "Golfbanen Øygardsmyrane",
+    "postalCode": "6847",
+    "area": "Jølstraholmen"
+  },
+  "coordinates": {
+    "lat": 61.486906,
+    "lng": 6.080031,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 36,
+    "parPerRound": 72,
+    "lengthMeters": 4066,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parkland",
+    "courseType": "9-hulls parklandbane med doble tees",
+    "designer": null,
+    "yearBuilt": 2001,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "Golfopplevelse mellom fjord og fjell",
+    "scenicHole": "Golfopplevelse mellom fjord og fjell",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Sunnfjord Golfklubb - 9-hulls parklandbane åpnet 2001 i Vassenden, Sunnfjord. Par 36 (72 for 18h med doble tees), 4066m. Lett bølgende med vannhindre. 'Eit golfeventyr mellom fjord og fjell'. Driving range (15 tees, 3 overdekte). Putting/chipping greens, practice bunker. Kortholsbane. Simulator. Klubbhus med pro shop. Teaching pro. Over 500 medlemmer."
+  },
+  "description": "Sunnfjord Golfklubb - 9-hulls parklandbane med doble tees grunnlagt 1992, bane åpnet sommer 2001 i Vassenden. Par 36 (72 for 18 hull med doble tees), 4449 yards (ca 4066m). Lett bølgende terreng med vannhindre. 'Eit golfeventyr mellom fjord og fjell'. Over 500 medlemmer.",
+  "contact": {
+    "phone": "+47 95 27 66 63",
+    "email": "post@sunnfjordgk.no",
+    "emailAlt": null,
+    "website": "https://sunnfjordgk.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 95 27 66 63",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 57 72 87 40",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "1. mai",
+    "end": "31. oktober",
+    "winterUse": "Golf simulator tilgjengelig"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Førde",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Sunnfjord Golfklubb (Grunnlagt 1992, bane åpnet 2001)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Golf simulator tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee 2025: 300 kr hel dag (alle dager). Junior/student 50% rabatt: 150 kr. Booking via Golfbox. Driving range 20 kr per bøtte.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "9-hulls bane med doble tees for 18-hulls variasjon. Golfopplevelse mellom fjord og fjell. Driving range (15 tees, 3 overdekte) bare 20 kr per bøtte. Junior/student 50% rabatt. Kortholsbane tilgjengelig. Fritidskortet godkjent."
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 12,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=15403271477895788337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "Gul / Yellow",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 33.4,
+      "slopeRating": 122,
+      "lengthYards": null,
+      "lengthMeters": 4066,
+      "par": 36
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "sandane-golfklubb",
+      "distanceKm": 31.2
+    },
+    {
+      "slug": "nordfjord-golfklubb",
+      "distanceKm": 47.2
+    },
+    {
+      "slug": "floro-golfklubb",
+      "distanceKm": 52.2
+    },
+    {
+      "slug": "aalesund-golfklubb-solnor-gaard",
+      "distanceKm": 57.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "90.0",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T10:17:01.781Z",
+    "createdAt": "2025-10-31T10:17:01.783Z",
+    "updatedAt": "2025-11-03T09:10:01.034Z"
+  }
+}

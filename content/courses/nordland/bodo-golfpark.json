@@ -1,0 +1,187 @@
+{
+  "slug": "bodo-golfpark",
+  "name": "Bodø Golfpark",
+  "formerName": "Salten Golfklubb",
+  "region": "Nordland",
+  "city": "Bodø",
+  "municipality": "Bodø",
+  "country": "Norway",
+  "address": {
+    "street": "Postboks 2524, Løpsmarka",
+    "postalCode": "8091",
+    "area": "Løpsmarka"
+  },
+  "coordinates": {
+    "lat": 67.3434075,
+    "lng": 14.5378293,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 71,
+    "parPerRound": 71,
+    "lengthMeters": 5242,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Variert - kulturlandskap ved sjøen og skogsbane",
+    "courseType": "Kombinert links og skogsbane",
+    "designer": null,
+    "yearBuilt": 1992,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": "De første ni hullet med utsikt mot havet og Lofotveggen",
+    "scenicHole": "De første ni hullet med utsikt mot havet og Lofotveggen",
+    "par3Count": 5,
+    "par4Count": 10,
+    "par5Count": 3,
+    "mountainViews": true,
+    "viewDescription": "Utsikt mot havet, Landegode og Lofotveggen. Midnattsol i sommeren."
+  },
+  "description": "Bare noen få minutter fra Bodø lufthavn og sentrum av byen venter en flott 18-hulls kombinert links og skogsbane. De første ni hullene går i gammelt kulturlandskap langs sjøen. Her er både ei gammel vikingegrav og ei gammel jekestø i spill. Utsikten mot havet, Landegode og Lofotveggen tar pusten fra mange. Ikke minst når midnattsola stråler.",
+  "contact": {
+    "phone": "+47 48 48 16 17",
+    "email": "post@bodogolfpark.no",
+    "emailAlt": null,
+    "website": "https://bodogolfpark.com/",
+    "facebook": "https://www.facebook.com/bodogolfpark/",
+    "instagram": "https://www.instagram.com/bodo_golfpark/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 48 48 16 17",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 75 53 22 20",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
+  "season": {
+    "start": "1. mai",
+    "end": "Oktober",
+    "winterUse": "Simulator tilgjengelig for juniorgruppen om vinteren på Bodø Golfsenter"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Bodø",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Salten Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafe",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": true,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Simulator tilgjengelig for juniorgruppen om vinteren på Bodø Golfsenter",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 650,
+      "greenFeeWeekend": 650,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 325,
+      "greenFeeDescription": "Gjestespiller 18 hull: 650 kr, Junior: 325 kr, Birdie medlem: 500 kr, 9 hull gjestespiller: 450 kr",
+      "cartRental": 450,
+      "pullCartRental": null,
+      "clubRental": 220,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": null
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.7,
+      "reviewCount": 70,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=9744005281961228914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [
+    {
+      "teeColor": "gul",
+      "teeNumber": null,
+      "gender": "men",
+      "courseRating": 71,
+      "slopeRating": 124,
+      "lengthYards": null,
+      "lengthMeters": 5242,
+      "par": 71
+    }
+  ],
+  "nearbyCourses": [
+    {
+      "slug": "bodo-golfklubb",
+      "distanceKm": 11.3
+    },
+    {
+      "slug": "polarsirkelen-golfklubb",
+      "distanceKm": 117.3
+    },
+    {
+      "slug": "sleneset-golfklubb",
+      "distanceKm": 138.2
+    },
+    {
+      "slug": "vesteralen-golfklubb",
+      "distanceKm": 151.8
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "94.5",
+    "websiteQuality": null,
+    "completenessPercentage": 94,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:41.490Z",
+    "createdAt": "2025-10-31T09:43:41.491Z",
+    "updatedAt": "2025-11-03T09:09:54.405Z"
+  }
+}

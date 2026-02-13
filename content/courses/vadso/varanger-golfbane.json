@@ -1,0 +1,81 @@
+{
+  "slug": "varanger-golfbane",
+  "name": "Varanger Golfbane",
+  "formerName": null,
+  "region": "Vadsø",
+  "city": "Vadsø",
+  "municipality": "Vadsø",
+  "country": "Norway",
+  "address": {
+    "street": "TBD",
+    "postalCode": "0000",
+    "area": null
+  },
+  "coordinates": null,
+  "course": {
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": null,
+    "parPerRound": null,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": null,
+    "courseType": null,
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": null,
+    "viewDescription": null
+  },
+  "description": null,
+  "contact": {
+    "phone": null,
+    "email": null,
+    "emailAlt": null,
+    "website": "https://varangergolf.no",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": null,
+    "walkingAllowed": null,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": null
+  },
+  "facilities": null,
+  "pricing": {},
+  "membershipPricing": {},
+  "ratings": {},
+  "courseRatings": [],
+  "nearbyCourses": [],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "minimal",
+    "websiteQuality": "unknown",
+    "completenessPercentage": null,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-10T10:23:46.188Z",
+    "createdAt": "2025-10-10T10:23:46.189Z",
+    "updatedAt": "2025-10-10T10:59:24.925Z"
+  }
+}

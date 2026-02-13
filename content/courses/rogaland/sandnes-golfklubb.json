@@ -1,0 +1,198 @@
+{
+  "slug": "sandnes-golfklubb",
+  "name": "Sandnes Golfklubb",
+  "formerName": null,
+  "region": "Rogaland",
+  "city": "Sandnes",
+  "municipality": "Sandnes",
+  "country": "Norway",
+  "address": {
+    "street": "Bærheimsvegen",
+    "postalCode": "4352",
+    "area": "Bærheim"
+  },
+  "coordinates": {
+    "lat": 58.8717686,
+    "lng": 5.6922764,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Parklandskap",
+    "courseType": "18-hulls parkbane med 6-hulls kortbane",
+    "designer": null,
+    "yearBuilt": 2004,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": "Parkbane ved Bærheim",
+    "scenicHole": "Parkbane ved Bærheim",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": "Sandnes Golfklubb - Golfbanen for folk flest! 18-hulls parkbane ved Bærheim i Sandnes. Grunnlagt 2004. Par 72. Klubben har også 6-hulls kortbane. Del av Bærheim Golfpark med driving range, putting green, chipping green, practice bunker, indoor golf-anlegg. Klubbkontoret er åpent hverdager 09:00-15:00."
+  },
+  "description": "Sandnes Golfklubb - Golfbanen for folk flest! 18-hulls parkbane ved Bærheim i Sandnes. Grunnlagt 2004. Par 72. I tillegg til hovedbanen har klubben en 6-hulls kortbane. Del av Bærheim Golfpark. Handicapkrav 54 for besøkende.",
+  "contact": {
+    "phone": "+47 415 62 245",
+    "email": "post@sandnesgolfklubb.no",
+    "emailAlt": null,
+    "website": "https://sandnesgolfklubb.no/",
+    "facebook": "https://www.facebook.com/sandnesgolfklubb.no/",
+    "instagram": null,
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 415 62 245",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Sandnes",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Bærheim Golfpark (Org.nr: 959 409 854)",
+    "clubOrganization": "Sandnes Golfklubb (Organisasjonsnummer: 987 037 296)"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": false,
+    "eventCapacity": null,
+    "simulator": true,
+    "simulatorType": "Indoor golf-anlegg tilgjengelig",
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 750,
+      "greenFeeWeekend": 750,
+      "greenFeeSenior": 750,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 18 hull 750 kr (650 kr dersom medlem er med), 9 hull 450 kr (400 kr dersom medlem er med). Inntil 10 greenfee kan kjøpes av de med betalt spilleavgift før 1. april: 400 kr per stykk.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Inntil 10 greenfee kan kjøpes av medlemmer med betalt spilleavgift før 1. april for 400 kr per stykk"
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 1080,
+        "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 495,
+        "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
+        "ageRange": null
+      },
+      {
+        "category": "adultWithPlayingRights",
+        "price": 9000,
+        "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
+        "ageRange": null
+      },
+      {
+        "category": "spouseWithPlayingRights",
+        "price": 6960,
+        "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
+        "ageRange": null
+      }
+    ]
+  },
+  "ratings": {
+    "google": {
+      "rating": 4.5,
+      "reviewCount": 136,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=7443141677292616247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "sola-golfklubb",
+      "distanceKm": 2.4
+    },
+    {
+      "slug": "stavanger-golfklubb",
+      "distanceKm": 9.7
+    },
+    {
+      "slug": "randaberg-golfklubb",
+      "distanceKm": 18.4
+    },
+    {
+      "slug": "jaeren-golfklubb",
+      "distanceKm": 19
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "88.0",
+    "websiteQuality": null,
+    "completenessPercentage": 88,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T07:46:26.643Z",
+    "createdAt": "2025-10-31T07:46:26.645Z",
+    "updatedAt": "2025-11-03T09:09:36.995Z"
+  }
+}

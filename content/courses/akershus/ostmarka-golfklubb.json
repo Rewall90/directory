@@ -1,0 +1,165 @@
+{
+  "slug": "ostmarka-golfklubb",
+  "name": "Østmarka Golfklubb - Østmarka golfbane",
+  "formerName": "Østmarka Golfklubb - Østmarka golfbane",
+  "region": "Akershus",
+  "city": "",
+  "municipality": "",
+  "country": "Norway",
+  "address": {
+    "street": "TBD",
+    "postalCode": "0000",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 59.72218889999999,
+    "lng": 11.0408387,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": null,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "18-hulls bane",
+    "courseType": "18-hulls bane",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": null,
+    "waterHazards": null,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": false,
+    "viewDescription": null
+  },
+  "description": "Vi har gjort endringer på hullrekkefølge og front/back de siste årene, senest våren 2020. I sesongen er vi totalt 6 personer og enda flere frivillige som gjør vårt beste for at du som spiller skal få best mulig spilleforhold.",
+  "contact": {
+    "phone": null,
+    "email": "dagligleder@ostmarkagolf.no",
+    "emailAlt": null,
+    "website": "https://ostmarkagolf.no/",
+    "facebook": null,
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [],
+  "season": {
+    "start": null,
+    "end": null,
+    "winterUse": null
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": null,
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": null,
+    "clubOrganization": "Org.nr: 97098164\n\nTournaments hosted: Østmarka Matchplay 2025, Lag NM 2025\n\nMajor events:\n- undefined (date TBD)\n- undefined (date TBD)"
+  },
+  "facilities": {
+    "drivingRange": false,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": false,
+    "chippingArea": false,
+    "practiceBunker": false,
+    "clubhouse": false,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": true,
+    "restaurantName": "Østmarka Bistro",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": false,
+    "golfLessons": null,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "[object Object]",
+      "cartRental": 390,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "9-hole cart rental: kr 250,-"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.2,
+      "reviewCount": 135,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16317504219165840544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "ski-golfklubb",
+      "distanceKm": 6.6
+    },
+    {
+      "slug": "krokhol-golfklubb",
+      "distanceKm": 11
+    },
+    {
+      "slug": "oppegard-golfklubb",
+      "distanceKm": 14
+    },
+    {
+      "slug": "gjersjon-golfklubb",
+      "distanceKm": 15.6
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T11:23:18.970Z",
+    "createdAt": "2025-10-31T11:23:18.971Z",
+    "updatedAt": "2025-11-03T09:09:52.759Z"
+  }
+}

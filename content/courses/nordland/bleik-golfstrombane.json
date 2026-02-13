@@ -1,0 +1,171 @@
+{
+  "slug": "bleik-golfstrombane",
+  "name": "Bleik Golfstrømbane",
+  "formerName": null,
+  "region": "Nordland",
+  "city": "Bleik",
+  "municipality": "Andøy",
+  "country": "Norway",
+  "address": {
+    "street": "Golfstrømbanen",
+    "postalCode": "8481",
+    "area": "Bleik"
+  },
+  "coordinates": {
+    "lat": 69.2773172,
+    "lng": 15.9689689,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 9,
+    "holesPlayed": 18,
+    "par": 35,
+    "parPerRound": 70,
+    "lengthMeters": 4605,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Linksbane ved kysten",
+    "courseType": "9-hulls linksbane (spilles to runder for 18 hull)",
+    "designer": null,
+    "yearBuilt": null,
+    "yearRedesigned": 2017,
+    "waterHazards": true,
+    "signatureHole": "Spektakulær utsikt over Bleikstranda, havet, klipper og fjell",
+    "scenicHole": "Spektakulær utsikt over Bleikstranda, havet, klipper og fjell",
+    "par3Count": null,
+    "par4Count": null,
+    "par5Count": null,
+    "mountainViews": true,
+    "viewDescription": "Spektakulær beliggenhet ved Bleikstranda med utsikt over havet, dramatiske klipper, åser og fjell. Midnattssol og nordlys. Ligger nært Andøya Space raketbase - blant de nærmeste vitnene når Norge skyter raketter ut i verdensrommet. Kun få kilometer fra fugløya Bleiksøya med stor koloni av havørn og over 40 000 lunder."
+  },
+  "description": "Unik 9-hulls linksbane beliggende rett ved den berømte Bleikstranda på Andøya. Banen regnes som en av Norges skjulte perler og ligger på det punktet i Norge som er nærmest Golfstrømmen, noe som holder banen grønn mesteparten av året. Spektakulær natur med strandlinje, klipper, åser og åpent hav. Banen er bygget på sandgrunn av frivillige ildsjeler og ble slope-beregnet av Norges Golfforbund i 2017. Kjent banearkitekt Christian Lundin har uttalt at Bleik Golfstrømbane har potensial til å bli blant de 500 beste banene i verden. Spesielt mikroklima med mildt vær, midnattssol og nordlys.",
+  "contact": {
+    "phone": "+47 974 303 12",
+    "email": null,
+    "emailAlt": null,
+    "website": null,
+    "facebook": "https://www.facebook.com/BleikGolf/",
+    "instagram": null,
+    "golfbox": false
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 974 303 12",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Banen er stengt om vinteren. Unikt mikroklima med Golfstrømmen holder banen grønn lenger enn de fleste andre baner."
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Andenes",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Sportsklubben Høken",
+    "clubOrganization": "Høken Golfklubb"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": false,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": false,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": false,
+    "lockerRental": false,
+    "conferenceRoom": false,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: 250 kr for 9 hull, 300 kr for 18 hull, 500 kr for 24 timers spill. Betaling med Vipps.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "24 timers ubegrenset spill"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.7,
+      "reviewCount": 38,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=14233214053343371852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "harstad-golfklubb",
+      "distanceKm": 53.3
+    },
+    {
+      "slug": "vesteralen-golfklubb",
+      "distanceKm": 71.1
+    },
+    {
+      "slug": "midt-troms-golfklubb",
+      "distanceKm": 106.1
+    },
+    {
+      "slug": "narvik-golfklubb",
+      "distanceKm": 129.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "85.0",
+    "websiteQuality": null,
+    "completenessPercentage": 85,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T09:43:37.794Z",
+    "createdAt": "2025-10-31T09:43:37.795Z",
+    "updatedAt": "2025-11-03T09:09:35.105Z"
+  }
+}

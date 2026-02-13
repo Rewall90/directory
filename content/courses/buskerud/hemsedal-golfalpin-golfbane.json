@@ -1,0 +1,171 @@
+{
+  "slug": "hemsedal-golfalpin-golfbane",
+  "name": "Hemsedal Golfalpin Golfbane",
+  "formerName": null,
+  "region": "Buskerud",
+  "city": "Gol",
+  "municipality": "Gol og Hemsedal",
+  "country": "Norway",
+  "address": {
+    "street": "Hemsedalsvegen 1387",
+    "postalCode": "3550",
+    "area": null
+  },
+  "coordinates": {
+    "lat": 60.7805603,
+    "lng": 8.7632987,
+    "accuracy": null
+  },
+  "course": {
+    "holes": 18,
+    "holesPlayed": 18,
+    "par": 72,
+    "parPerRound": 72,
+    "lengthMeters": 440,
+    "lengthYards": null,
+    "lengthNote": null,
+    "terrain": "Kupert",
+    "courseType": "18-hulls golfbane",
+    "designer": "Jeremy Turner",
+    "yearBuilt": 1993,
+    "yearRedesigned": null,
+    "waterHazards": true,
+    "signatureHole": null,
+    "scenicHole": null,
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
+    "mountainViews": true,
+    "viewDescription": "Omkranset av høye furutrær og mindre vann, med fjellmassiv og Hydnefossen foss (160 meter høy) som naturlig ramme"
+  },
+  "description": "Fjellgolfbane plassert midt mellom Gol og Hemsedal. Banen har varierte terrengutfordringer med naturlige hindringer. 18-hulls golfbane med par 72.",
+  "contact": {
+    "phone": "+47 401 88 616",
+    "email": "bent@golfalpin.no",
+    "emailAlt": null,
+    "website": "https://golfalpingolfbane.no/",
+    "facebook": "https://www.facebook.com/golfalpingolfbane/",
+    "instagram": "https://www.instagram.com/golfalpin_golfbane_hemsedal/",
+    "golfbox": true
+  },
+  "phoneNumbers": [
+    {
+      "number": "+47 401 88 616",
+      "type": "main",
+      "primary": true
+    }
+  ],
+  "season": {
+    "start": "27. april",
+    "end": "2. oktober",
+    "winterUse": "Stengt"
+  },
+  "visitors": {
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Hemsedal",
+    "distanceFromCenter": null
+  },
+  "organization": {
+    "courseCompany": "Hemsedal Golfalpin golfbane AS",
+    "clubOrganization": "Golfalpin"
+  },
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": null,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Hull 19",
+    "clubRental": false,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": false,
+    "clubFitting": null,
+    "lockerRooms": null,
+    "showers": null,
+    "lockerRental": null,
+    "conferenceRoom": null,
+    "eventVenue": null,
+    "eventCapacity": null,
+    "simulator": false,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": null,
+    "bunkers": null,
+    "footgolf": false,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 690,
+      "greenFeeWeekend": 690,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 345,
+      "greenFeeDescription": "18 hull: 690 kr. Junior (til 19 år): 345 kr. Twilight (man-tor kl 18-20): 500 kr. Norsk Seniorgolf: 400 kr (man-tor, 3 runder per sesong). Golfamore: 50% rabatt (man-fre, ikke uke 27-30)",
+      "cartRental": 400,
+      "pullCartRental": null,
+      "clubRental": 300,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Twilight green fee mandag-torsdag kl 18-20"
+    }
+  },
+  "membershipPricing": {},
+  "ratings": {
+    "google": {
+      "rating": 4.6,
+      "reviewCount": 38,
+      "maxRating": 5,
+      "url": "https://maps.google.com/?cid=16861339893995487723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "likes": null,
+      "checkIns": null
+    }
+  },
+  "courseRatings": [],
+  "nearbyCourses": [
+    {
+      "slug": "hemsedal-golfklubb",
+      "distanceKm": 24.2
+    },
+    {
+      "slug": "nesfjellet-golfklubb",
+      "distanceKm": 30.9
+    },
+    {
+      "slug": "valdres-golfklubb",
+      "distanceKm": 36
+    },
+    {
+      "slug": "laerdal-golfklubb",
+      "distanceKm": 68.1
+    }
+  ],
+  "additionalFeatures": [],
+  "sponsors": [],
+  "sources": [],
+  "meta": {
+    "dataQuality": "excellent",
+    "websiteQuality": null,
+    "completenessPercentage": 90,
+    "pagesScraped": null,
+    "scrapedAt": "2025-10-31T05:56:50.846Z",
+    "createdAt": "2025-10-31T05:56:50.847Z",
+    "updatedAt": "2025-11-03T09:09:36.693Z"
+  }
+}
