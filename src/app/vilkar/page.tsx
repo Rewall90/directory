@@ -34,7 +34,7 @@ export default function TermsOfServicePage() {
           <section>
             <h2 className="mb-4 text-2xl font-semibold text-text-primary">1. Aksept av vilkår</h2>
             <p className="leading-relaxed">
-              Ved å få tilgang til og bruke golfkart.no ("nettstedet", "tjenesten", "vi", "oss"),
+              Ved å få tilgang til og bruke golfkart.no («nettstedet», «tjenesten», «vi», «oss»),
               godtar du å være bundet av disse bruksvilkårene. Hvis du ikke godtar disse vilkårene,
               må du ikke bruke nettstedet. Vi forbeholder oss retten til å endre disse vilkårene når
               som helst uten forvarsel.
@@ -146,7 +146,7 @@ export default function TermsOfServicePage() {
               6. Ansvarsfraskrivelse
             </h2>
             <p className="mb-3 leading-relaxed">
-              Nettstedet og alt innhold leveres "som det er" og "som tilgjengelig" uten garantier av
+              Nettstedet og alt innhold leveres «som det er» og «som tilgjengelig» uten garantier av
               noen art, verken uttrykkelige eller underforståtte, inkludert men ikke begrenset til:
             </p>
             <ul className="ml-6 list-disc space-y-2">

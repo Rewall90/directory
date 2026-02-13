@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { HeroSection } from "@/components/home/HeroSection";
+import { HeroSection } from "./_components/HeroSection";
 import { RegionGrid } from "@/components/home/RegionGrid";
-import { InteractiveMap } from "@/components/home/InteractiveMap";
+import { InteractiveMap } from "./_components/InteractiveMap";
 import { NORWAY_MAP_REGIONS } from "@/lib/constants/norway-map-regions";
 import { getHomepageSchemas, JsonLdMultiple } from "@/lib/schema";
 import { getRegionsWithCounts, getTotalCourseCount } from "@/lib/courses";

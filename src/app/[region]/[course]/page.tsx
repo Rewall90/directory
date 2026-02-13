@@ -5,10 +5,10 @@ import { getCourse, getAllCourses, calculateAverageRating } from "@/lib/courses"
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import type { Course, Facilities } from "@/types/course";
 import { StarRating } from "@/components/courses/StarRating";
-import { ExpandableDescription } from "@/components/courses/ExpandableDescription";
-import { WeatherWidget } from "@/components/courses/WeatherWidget";
-import { ExpandableFeatures } from "@/components/courses/ExpandableFeatures";
-import { RatingCard } from "@/components/courses/RatingCard";
+import { ExpandableDescription } from "./_components/ExpandableDescription";
+import { WeatherWidget } from "./_components/WeatherWidget";
+import { ExpandableFeatures } from "./_components/ExpandableFeatures";
+import { RatingCard } from "./_components/RatingCard";
 import { generateCourseBreadcrumb } from "@/lib/schema";
 
 interface CoursePageProps {

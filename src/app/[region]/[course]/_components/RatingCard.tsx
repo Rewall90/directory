@@ -1,6 +1,6 @@
 "use client";
 
-import { StarRating } from "./StarRating";
+import { StarRating } from "@/components/courses/StarRating";
 
 interface Rating {
   source: string;

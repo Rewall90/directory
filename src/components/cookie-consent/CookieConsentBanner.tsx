@@ -17,8 +17,8 @@ export function CookieConsentBanner() {
           </h2>
           <p className="text-sm text-text-secondary">
             Vi bruker informasjonskapsler for å forbedre nettleseropplevelsen din, vise personlig
-            tilpassede annonser eller innhold, og analysere trafikken vår. Ved å klikke på "Godta
-            alle", samtykker du til vår bruk av informasjonskapsler.
+            tilpassede annonser eller innhold, og analysere trafikken vår. Ved å klikke på «Godta
+            alle», samtykker du til vår bruk av informasjonskapsler.
           </p>
         </div>
 

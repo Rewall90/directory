@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCoursesByRegion, getRegions, calculateAverageRating } from "@/lib/courses";
+import { getCoursesByRegion, getRegions } from "@/lib/courses";
 import type { Course } from "@/types/course";
 import { CourseCard } from "@/components/courses/CourseCard";
 import { getCountyNameFromSlug, toRegionSlug } from "@/lib/constants/norway-regions";
@@ -28,24 +28,32 @@ function resolveDisplayName(slug: string): string {
  * Adapt JSON Course structure to the flat structure expected by CourseCard
  * This is a temporary adapter until CourseCard is migrated to use JSON types
  */
-function adaptCourseForCard(course: Course) {
+interface CardCourse {
+  slug: string;
+  name: string;
+  region: string;
+  city: string;
+  postalCode: string;
+  addressStreet: string | null;
+  addressArea: string | null;
+  holes: number | null;
+  par: number | null;
+  ratings?: Array<{
+    rating: number | null;
+    reviewCount: number | null;
+    maxRating: number | null;
+  }>;
+}
+
+function adaptCourseForCard(course: Course): CardCourse {
   // Convert ratings object to array format expected by CourseCard
-  const ratingsArray = Object.entries(course.ratings).map(([source, rating]) => ({
-    id: source,
-    courseId: course.slug,
-    source,
+  const ratingsArray = Object.entries(course.ratings).map(([, rating]) => ({
     rating: rating.rating,
     reviewCount: rating.reviewCount,
     maxRating: rating.maxRating,
-    url: rating.url,
-    likes: rating.likes,
-    checkIns: rating.checkIns,
-    createdAt: new Date(),
-    updatedAt: new Date(),
   }));
 
   return {
-    id: course.slug,
     slug: course.slug,
     name: course.name,
     region: course.region,
@@ -166,7 +174,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
             {/* Course List */}
             <div className="grid gap-8 md:grid-cols-2">
               {sortedCourses.map((course) => (
-                <CourseCard key={course.slug} course={adaptCourseForCard(course) as any} />
+                <CourseCard key={course.slug} course={adaptCourseForCard(course)} />
               ))}
             </div>
           </>

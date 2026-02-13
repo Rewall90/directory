@@ -46,7 +46,7 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
       }
     }
 
-    fetchWeather();
+    void fetchWeather();
   }, [lat, lng]);
 
   if (loading) {

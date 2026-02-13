@@ -6,7 +6,6 @@ import * as am5 from "@amcharts/amcharts5";
 import * as am5map from "@amcharts/amcharts5/map";
 import am5geodata_norwayLow from "@amcharts/amcharts5-geodata/norwayLow";
 import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
-import { getRegionByPolygonId } from "@/lib/constants/norway-map-regions";
 
 interface Region {
   name: string; // Display name (e.g., "Oslo", "Innlandet")
@@ -91,9 +90,9 @@ export function InteractiveMap({ regions, onRegionClick, className }: Interactiv
     // Set cursor style on hover
     polygonSeries.mapPolygons.template.events.on("pointerover", (ev) => {
       if (ev.target.dataItem) {
-        const dataContext = ev.target.dataItem.dataContext as any;
-        const polygonId = dataContext?.id as string;
-        const region = polygonToRegionMap.get(polygonId);
+        const dataContext = ev.target.dataItem.dataContext as { id?: string };
+        const polygonId = dataContext?.id;
+        const region = polygonId ? polygonToRegionMap.get(polygonId) : undefined;
         if (region) {
           ev.target.set("cursorOverStyle", "pointer");
         }
@@ -104,9 +103,9 @@ export function InteractiveMap({ regions, onRegionClick, className }: Interactiv
     polygonSeries.mapPolygons.template.events.on("click", (ev) => {
       const dataItem = ev.target.dataItem;
       if (dataItem) {
-        const dataContext = dataItem.dataContext as any;
-        const polygonId = dataContext?.id as string;
-        const region = polygonToRegionMap.get(polygonId);
+        const dataContext = dataItem.dataContext as { id?: string };
+        const polygonId = dataContext?.id;
+        const region = polygonId ? polygonToRegionMap.get(polygonId) : undefined;
 
         if (region && onRegionClick) {
           onRegionClick(region.slug);

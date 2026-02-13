@@ -71,7 +71,7 @@ export function CourseSearch({
 
     // Set new timer
     debounceTimerRef.current = setTimeout(() => {
-      performSearch(value);
+      void performSearch(value);
     }, 300); // 300ms debounce
   };
 

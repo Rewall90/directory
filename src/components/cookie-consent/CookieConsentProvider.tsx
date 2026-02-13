@@ -1,7 +1,8 @@
 "use client";
 
-import React, { createContext, useState, useEffect, useCallback, ReactNode } from "react";
-import { CookieConsentContextType, CookiePreferences, CookieConsent } from "./types";
+import type { ReactNode } from "react";
+import React, { createContext, useState, useEffect, useCallback } from "react";
+import type { CookieConsentContextType, CookiePreferences, CookieConsent } from "./types";
 import { cookieManager } from "./cookieManager";
 
 export const CookieConsentContext = createContext<CookieConsentContextType | undefined>(undefined);

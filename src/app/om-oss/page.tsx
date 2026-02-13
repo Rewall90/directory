@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Om oss - golfkart.no",
@@ -159,7 +160,7 @@ export default function AboutPage() {
                       </h3>
                       <p className="text-text-secondary">
                         Utforsk golfbaner via vårt interaktive Norge-kart, eller finn baner nær deg
-                        med vår "Baner i nærheten"-funksjon. Få veibeskrivelse direkte i Google
+                        med vår «Baner i nærheten»-funksjon. Få veibeskrivelse direkte i Google
                         Maps.
                       </p>
                     </div>
@@ -220,12 +221,12 @@ export default function AboutPage() {
                   Vi jobber kontinuerlig med å legge til flere baner. Ta kontakt hvis du mangler
                   informasjon om en spesifikk bane.
                 </p>
-                <a
+                <Link
                   href="/kontakt-oss"
                   className="hover:bg-background-elevated inline-block rounded-lg bg-white px-4 py-2 text-sm font-semibold text-primary transition-colors"
                 >
                   Kontakt oss
-                </a>
+                </Link>
               </div>
 
               {/* Features Card */}

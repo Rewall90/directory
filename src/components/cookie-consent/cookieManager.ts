@@ -1,4 +1,4 @@
-import { CookiePreferences, CookieConsent } from "./types";
+import type { CookiePreferences, CookieConsent } from "./types";
 
 const CONSENT_COOKIE_NAME = "golfkart-cookie-consent";
 const CONSENT_DURATION_DAYS = 365;
@@ -123,6 +123,6 @@ export const cookieManager = {
 // Type declaration for gtag
 declare global {
   interface Window {
-    gtag?: (...args: any[]) => void;
+    gtag?: (...args: unknown[]) => void;
   }
 }

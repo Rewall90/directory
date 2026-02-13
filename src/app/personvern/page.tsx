@@ -34,8 +34,8 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="mb-4 text-2xl font-semibold text-text-primary">1. Innledning</h2>
             <p className="leading-relaxed">
-              Denne personvernerklæringen beskriver hvordan golfkart.no ("vi", "oss" eller
-              "nettstedet") samler inn, bruker og beskytter informasjon når du besøker vårt
+              Denne personvernerklæringen beskriver hvordan golfkart.no («vi», «oss» eller
+              «nettstedet») samler inn, bruker og beskytter informasjon når du besøker vårt
               nettsted. Vi er forpliktet til å beskytte ditt personvern i samsvar med gjeldende
               personvernlovgivning, inkludert EUs personvernforordning (GDPR) og norsk
               personopplysningslov.
@@ -64,7 +64,7 @@ export default function PrivacyPolicyPage() {
 
             <h3 className="mb-2 mt-4 text-lg font-semibold text-text-primary">2.2 Lokasjonsdata</h3>
             <p className="leading-relaxed">
-              Hvis du velger å bruke funksjonen "Se baner nær meg", vil vi be om tilgang til din
+              Hvis du velger å bruke funksjonen «Se baner nær meg», vil vi be om tilgang til din
               geografiske posisjon. Denne informasjonen lagres kun midlertidig i nettleserens
               sessionStorage og deles ikke med tredjeparter.
             </p>
@@ -199,7 +199,7 @@ export default function PrivacyPolicyPage() {
             <p className="leading-relaxed">
               Vi kan oppdatere denne personvernerklæringen fra tid til annen. Vi vil varsle deg om
               eventuelle endringer ved å legge ut den nye personvernerklæringen på denne siden og
-              oppdatere "Sist oppdatert"-datoen. Vi oppfordrer deg til å gjennomgå denne
+              oppdatere «Sist oppdatert»-datoen. Vi oppfordrer deg til å gjennomgå denne
               personvernerklæringen regelmessig for eventuelle endringer.
             </p>
           </section>

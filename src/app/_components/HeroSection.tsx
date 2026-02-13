@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { CourseSearch } from "../search/CourseSearch";
+import { CourseSearch } from "@/components/search/CourseSearch";
 import { GolferDotsSVG } from "./GolferDotsSVG";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
-import { StarRating } from "../courses/StarRating";
+import { StarRating } from "@/components/courses/StarRating";
 import { formatDistance } from "@/lib/geolocation";
 
 interface HeroSectionProps {

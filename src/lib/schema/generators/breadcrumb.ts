@@ -6,7 +6,6 @@
 
 import type { BreadcrumbListSchema, ListItem } from "../types/schema.types";
 import type { BreadcrumbItem } from "../types/site-config.types";
-import { SITE_CONFIG } from "../config/site-config";
 import { createBreadcrumbId, createFullUrl } from "../utils/create-id";
 
 /**

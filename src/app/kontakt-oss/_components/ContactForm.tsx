@@ -51,7 +51,7 @@ export function ContactForm() {
           message: data.error || "Noe gikk galt. Vennligst prøv igjen.",
         });
       }
-    } catch (error) {
+    } catch {
       setStatus({
         type: "error",
         message: "Kunne ikke sende melding. Vennligst prøv igjen.",

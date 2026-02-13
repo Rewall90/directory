@@ -9,6 +9,15 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+interface FrontMatter {
+  title: string;
+  seoTitle?: string;
+  description?: string;
+  seoDescription?: string;
+  publishedAt?: string;
+  author?: string;
+}
+
 export async function generateStaticParams() {
   const slugs = getAllSlugs("blogg");
   return slugs.map((slug) => ({ slug }));
@@ -51,7 +60,7 @@ export async function generateMetadata(props: PageProps) {
 }
 
 // Generate structured data for SEO
-function generateStructuredData(slug: string, frontMatter: any) {
+function generateStructuredData(slug: string, frontMatter: FrontMatter) {
   const baseUrl = "https://golfkart.no";
 
   // Use seoTitle if available, otherwise fall back to title

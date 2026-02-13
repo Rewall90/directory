@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import { useCookieConsent } from "./useCookieConsent";
-import { COOKIE_CATEGORIES, CookieConsent } from "./types";
+import type { CookieConsent } from "./types";
+import { COOKIE_CATEGORIES } from "./types";
 
 export function CookieConsentModal() {
   const { showModal, closeModal, updateConsent, preferences, rejectAll, acceptAll } =
@@ -86,7 +87,7 @@ export function CookieConsentModal() {
                     Vi bruker informasjonskapsler for å hjelpe deg med å navigere effektivt og
                     utføre visse funksjoner. Du finner detaljert informasjon om alle
                     informasjonskapsler under hver samtykkekategori nedenfor. Informasjonskapslene
-                    som er kategorisert som "Nødvendige" lagres i nettleseren din da de er
+                    som er kategorisert som «Nødvendige» lagres i nettleseren din da de er
                     avgjørende for å aktivere de grunnleggende funksjonene til nettstedet.
                     {showMoreInfo && (
                       <span>
