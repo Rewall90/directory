@@ -10,6 +10,7 @@
  * 4. Logs progress and any courses that couldn't be matched
  */
 
+import "dotenv/config";
 import fs from "fs";
 import path from "path";
 import { findPlaceId } from "../src/lib/google-places";
