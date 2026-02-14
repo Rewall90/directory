@@ -45,9 +45,9 @@ export function CoursePhotos({ photos, courseName }: CoursePhotosProps) {
 
       {/* Gallery Grid */}
       {galleryPhotos.length > 0 && (
-        <div className="mt-3 grid grid-cols-3 gap-3">
+        <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3">
           {galleryPhotos.map((photo, index) => (
-            <div key={index} className="relative aspect-[4/3] overflow-hidden rounded-lg">
+            <div key={photo.url} className="relative aspect-[4/3] overflow-hidden rounded-lg">
               <Image
                 src={photo.url}
                 alt={`${courseName} - bilde ${index + 2}`}
