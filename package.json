@@ -10,7 +10,8 @@
     "lint:fix": "eslint . --max-warnings=0 --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "fetch-place-ids": "tsx scripts/fetch-place-ids.ts"
   },
   "dependencies": {
     "@amcharts/amcharts5": "^5.14.3",
