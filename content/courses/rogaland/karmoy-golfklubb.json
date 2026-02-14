@@ -219,9 +219,13 @@
     "dataQuality": "88.0",
     "websiteQuality": null,
     "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:24.415Z",
+    "pagesScraped": [
+      "https://www.karmoy-golfklubb.no/",
+      "https://www.karmoy-golfklubb.no/starte-med-golf/"
+    ],
+    "scrapedAt": "2026-02-14T16:03:00.000Z",
     "createdAt": "2025-10-31T07:46:24.417Z",
-    "updatedAt": "2025-11-03T09:10:03.093Z"
-  }
+    "updatedAt": "2026-02-14T16:03:00.000Z"
+  },
+  "googlePlaceId": "ChIJn7aVVkOoO0YRMwSsQYbuwWs"
 }

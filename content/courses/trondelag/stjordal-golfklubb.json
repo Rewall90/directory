@@ -109,24 +109,88 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 450,
-      "greenFeeWeekend": 490,
-      "greenFeeSenior": 450,
-      "greenFeeJunior": 250,
-      "greenFeeDescription": "Senior 18h man–fre før 14:00 450 kr; etter 14:00 og helg 490 kr; Junior/student 18h 250 kr.",
+      "greenFeeDaily": 600,
+      "greenFee18": 600,
+      "greenFee9": null,
+      "greenFee6": 0,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 600,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 300,
+      "greenFeeWeeklyVoksen": 2200,
+      "greenFeeWeeklyJunior": 1000,
+      "greenFeeKlippekort10": 4500,
+      "greenFeeDescription": "18 hull voksen 600 kr, junior 300 kr. 6-hulls bane gratis. Ukegreenfee voksen 2200 kr, junior 1000 kr. Klippekort 10 greenfee 4500 kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Stjørdal og Trondheim GK."
+      "notes": "20% rabatt for medlemmer av TGK, Stiklestad, Klæbu, Frosta, Selbu, Byneset og Åre GK. Golf Total 995 kr/mnd: ubegrenset spill på Stjørdal og Trondheim GK."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "Junior 0-12",
+        "price": 500,
+        "description": "Fritt spill på 6-hulls bane. Pris per år.",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Junior 13-19",
+        "price": 3228,
+        "priceMonthly": 269,
+        "description": "Full spillerett. Pris fra 01.03.26: 309 kr/mnd.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Ung voksen 20-25",
+        "price": 5388,
+        "priceMonthly": 449,
+        "description": "Full spillerett. Pris fra 01.03.26: 449 kr/mnd.",
+        "ageRange": "20-25"
+      },
+      {
+        "category": "Voksen Start 26-29",
+        "price": 5388,
+        "priceMonthly": 449,
+        "description": "Full spillerett. Ny kategori fra 01.03.26: 519 kr/mnd.",
+        "ageRange": "26-29"
+      },
+      {
+        "category": "Voksen",
+        "price": 7788,
+        "priceMonthly": 649,
+        "description": "Full spillerett. Fra 30 år. Pris fra 01.03.26: 689 kr/mnd.",
+        "ageRange": "30+"
+      },
+      {
+        "category": "Familie",
+        "price": 13140,
+        "priceMonthly": 1095,
+        "description": "Ektefelle/samboer og alle barn under 19 år. Pris fra 01.03.26: 1149 kr/mnd.",
+        "ageRange": null
+      },
+      {
+        "category": "Greenfeemedlem",
+        "price": 3588,
+        "priceMonthly": 299,
+        "description": "4 runder inkludert, deretter 400 kr/runde. Kan oppgraderes til fullt medlemskap.",
+        "ageRange": null
+      },
+      {
+        "category": "Golf Total",
+        "price": 11940,
+        "priceMonthly": 995,
+        "description": "Ubegrenset spill på både Stjørdal og Trondheim GK.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -161,11 +225,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:54.172Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "medlemskap",
+      "gjestespill"
+    ],
+    "scrapedAt": "2026-02-14T16:45:00.000Z",
     "createdAt": "2025-10-31T11:30:54.174Z",
-    "updatedAt": "2025-11-03T09:10:08.526Z"
-  }
+    "updatedAt": "2026-02-14T16:45:00.000Z",
+    "notes": "18-hole main course + 6-hole training course. TrackMan Range. Golf Total joint membership with Trondheim GK. VTG courses at Trondheim Golfsenter."
+  },
+  "googlePlaceId": "ChIJq0fK_oQVbUYRiJH_N4vq_z8"
 }

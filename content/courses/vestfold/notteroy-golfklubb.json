@@ -109,35 +109,97 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 500,
       "greenFeeDaily": null,
       "greenFeeWeekday": 500,
       "greenFeeWeekend": 500,
-      "greenFeeSenior": null,
+      "greenFeeSenior": 500,
       "greenFeeJunior": 240,
-      "greenFeeDescription": "Greenfee 2025: 18 hull 500 kr. Junior 240 kr, Junior lokal (Borre/Vestfold) 200 kr. Korthullsbane 99 kr/dag eller 499 kr sesongkort.",
-      "cartRental": null,
-      "pullCartRental": null,
+      "greenFeeJuniorLocal": 200,
+      "greenFeeDescription": "Greenfee 2026: 18 hull 500 kr. Junior 240 kr, Junior lokal (Borre/Vestfold) 200 kr. Norsk Senior Golf hverdager 08:00-15:00 500 kr (ikke juli, max 3 runder). Korthullsbane 99 kr/dag eller 499 kr sesongkort, gratis for juniorer.",
+      "cartRental": 500,
+      "cartRentalMember": 400,
+      "pullCartRental": 75,
+      "electricCartRental": 200,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "6-hulls korthullsbane 99 kr/dag eller 499 kr sesongkort. Årskort driving range 3000 kr. Klubbhus med garderober, toalett på banen, drikkevannstasjoner."
+      "notes": "Golfbil 500 kr (medlemmer 400 kr). Tralle 75 kr. Elektrisk tralle 200 kr. Korthullsbane 99 kr/dag eller 499 kr sesongkort, gratis for juniorer. Vipps #108710. Prebooking utover 6-7 dager koster 100 kr pr. spiller."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
-        "category": "annual",
-        "price": 7990,
-        "description": "Medlemskap 2025: Årskontingent 7990 kr med full spillerett på Nøtterøy og årskort på driving range for 3000 kr. Klubben tilbyr oppdeling av årskontingenten i 10 rater. Fleksible medlemskapskategorier tilgjengelig. Kontakt klubben for detaljer via telefon +47 33 40 71 80 eller epost proshop@notteroygolf.no.",
+        "category": "voksen",
+        "name": "Voksen",
+        "price": 12940,
+        "description": "Full spillerett. Forhåndsbooking 7 dager. 30% rabatt greenfee hos Larvik, Sandefjord, Borre (1. mai - 1. okt). 20% rabatt Tjøme (ikke 23. juni - 10. aug). Årskort driving range 3000 kr. Golfbil 400 kr.",
         "ageRange": null
       },
       {
-        "category": "drivingRangeCard",
+        "category": "ungVoksen",
+        "name": "Ung Voksen 20-35 år",
+        "price": 8300,
+        "description": "Full spillerett for medlemmer 20-35 år.",
+        "ageRange": "20-35"
+      },
+      {
+        "category": "honnor",
+        "name": "Honnør 75+",
+        "price": 7100,
+        "description": "Full spillerett for medlemmer 75 år og eldre.",
+        "ageRange": "75+"
+      },
+      {
+        "category": "studentMilitar",
+        "name": "Student/militær 20-26 år",
+        "price": 5400,
+        "description": "For studenter og militære 20-26 år.",
+        "ageRange": "20-26"
+      },
+      {
+        "category": "vtg1",
+        "name": "VTG-1",
+        "price": 4680,
+        "description": "Medlemskap etter nybegynnerkurs 2025.",
+        "ageRange": null
+      },
+      {
+        "category": "greenfee",
+        "name": "Greenfee-medlemskap",
+        "price": 3300,
+        "description": "Greenfee-medlemskap uten fast spillerett.",
+        "ageRange": null
+      },
+      {
+        "category": "junior13-19",
+        "name": "Junior 13-19 år",
+        "price": 2400,
+        "description": "Full spillerett for juniorer 13-19 år.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "junior6-12",
+        "name": "Junior 6-12 år",
+        "price": 950,
+        "description": "Full spillerett for juniorer 6-12 år.",
+        "ageRange": "6-12"
+      },
+      {
+        "category": "innmeldingsavgift",
+        "name": "Innmeldingsavgift",
+        "price": 1500,
+        "description": "Engangsavgift for nye medlemmer (gjelder ikke juniorer).",
+        "ageRange": null
+      },
+      {
+        "category": "drivingRangeArskort",
+        "name": "Årskort Driving Range",
         "price": 3000,
-        "description": "Medlemskap 2025: Årskontingent 7990 kr med full spillerett på Nøtterøy og årskort på driving range for 3000 kr. Klubben tilbyr oppdeling av årskontingenten i 10 rater. Fleksible medlemskapskategorier tilgjengelig. Kontakt klubben for detaljer via telefon +47 33 40 71 80 eller epost proshop@notteroygolf.no.",
+        "description": "Ubegrenset bruk av driving range hele sesongen.",
         "ageRange": null
       }
     ]
@@ -175,12 +237,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.0",
-    "websiteQuality": null,
-    "completenessPercentage": 92,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:10:42.983Z",
+    "dataQuality": "96.0",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 96,
+    "pagesScraped": [
+      "forside",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:35:00.000Z",
     "createdAt": "2025-10-31T09:10:42.986Z",
-    "updatedAt": "2025-11-03T09:10:04.952Z"
-  }
+    "updatedAt": "2026-02-14T16:35:00.000Z"
+  },
+  "googlePlaceId": "ChIJAQAAAJC5RkYRJtCCgFonHGU"
 }

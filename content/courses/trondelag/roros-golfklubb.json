@@ -40,13 +40,13 @@
   },
   "description": "9-hulls fjell/skogsbane designet av Jeremy Turner med 18 ulike tee-posisjoner.",
   "contact": {
-    "phone": "+47 72 41 07 72",
+    "phone": "+47 91 78 52 78",
     "email": "rorosgolfklubb@gmail.com",
     "emailAlt": null,
-    "website": "http://www.rorosgolf.no/",
+    "website": "https://www.rorosgolf.no/",
     "facebook": "https://www.facebook.com/groups/2442666617/",
     "instagram": "https://www.instagram.com/rorosgolfklubb/",
-    "golfbox": false
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -111,22 +111,89 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 350,
-      "greenFeeWeekend": 350,
-      "greenFeeSenior": null,
-      "greenFeeJunior": 175,
-      "greenFeeDescription": "Junior 9h 125 kr. Selvbetjening (kort/Vipps).",
-      "cartRental": null,
-      "pullCartRental": null,
+      "greenFee9": 400,
+      "greenFee18": 500,
+      "greenFeeDaily": 500,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": 500,
+      "greenFeeJunior9": 200,
+      "greenFeeJunior18": 250,
+      "greenFeePack10x9": 3000,
+      "greenFeeDescription": "Senior: 9h 400 kr, 18h/dag 500 kr. Junior: 9h 200 kr, 18h/dag 250 kr. Greenfee-pakke 10x9h 3000 kr. Dagspass = spill så mye du vil.",
+      "cartRental": 450,
+      "pullCartRental": 50,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "24/7 range med ballmaskin; pro shop via Røros Sport; selvbetjent klubbhus."
+      "notes": "Selvbetjening med bankkort eller Vipps i klubbhuset. 24/7 range med ballmaskin; pro shop via Røros Sport."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Senior med aksje",
+        "price": 4500,
+        "description": "Senior med aksje i Røros Golf Park.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Ektefelle/sambo med aksje",
+        "price": 3900,
+        "description": "Ektefelle/sambo med aksje.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Junior med aksje",
+        "price": 890,
+        "description": "Junior med aksje.",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "Senior uten aksje",
+        "price": 5100,
+        "description": "Senior uten aksje.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Ektefelle/sambo uten aksje",
+        "price": 4500,
+        "description": "Ektefelle/sambo uten aksje.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Junior uten aksje",
+        "price": 990,
+        "description": "Junior uten aksje.",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "Fjernmedlem",
+        "price": 1500,
+        "description": "Fjernmedlemskap. Bostedsadresse lenger enn 150km fra Røros.",
+        "ageRange": null
+      },
+      {
+        "category": "Aksje",
+        "price": 12500,
+        "description": "Aksje i Røros Golf Park (engangskjøp).",
+        "ageRange": null
+      },
+      {
+        "category": "VTG-kurs Senior",
+        "price": 1750,
+        "description": "Veien til golf kurs for voksne.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "VTG-kurs Junior",
+        "price": 0,
+        "description": "Veien til golf kurs for junior (tom 19 år) - gratis.",
+        "ageRange": "0-19"
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.7,
@@ -161,11 +228,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:52.755Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:34:00.000Z",
     "createdAt": "2025-10-31T11:30:52.756Z",
-    "updatedAt": "2025-11-03T09:10:07.375Z"
-  }
+    "updatedAt": "2026-02-14T16:34:00.000Z"
+  },
+  "googlePlaceId": "ChIJt1yWrelkbEYR9hbFHyQTcsw"
 }

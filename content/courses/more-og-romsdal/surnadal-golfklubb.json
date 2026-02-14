@@ -111,7 +111,7 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 350,
       "greenFeeWeekday": 350,
       "greenFeeWeekend": 350,
       "greenFeeSenior": 350,
@@ -124,9 +124,54 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 350,
+      "greenFee9": 200,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 100,
+      "greenFeeChildren": 0,
+      "twilight": null,
+      "greenFeeDescription": "Voksne 18 hull: 350 kr, 9 hull: 200 kr. Barn under 13 år: gratis. Ungdom 13-19 år: 100 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Greenfee inkludert i medlemskap med spillerett"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "fullMembership": 3800,
+      "fullMembershipDescription": "Voksen med spillerett (årskort) - fri spill",
+      "juniorMembership": 750,
+      "juniorMembershipDescription": "Junior under 20 år med spillerett - fri spill",
+      "studentMembership": 1800,
+      "studentMembershipDescription": "Student under 30 år med spillerett - fri spill (redusert fra 2500 kr)",
+      "childMembership": 100,
+      "childMembershipDescription": "Barn t.o.m. 12 år med spillerett - fri spill",
+      "familyMembership": 6300,
+      "familyMembershipDescription": "Familiemedlemskap (2 voksne + barn) med spillerett - fri spill",
+      "adultNoPlayingRights": 790,
+      "adultNoPlayingRightsDescription": "Voksen uten spillerett - greenfee 350 kr/dag",
+      "juniorNoPlayingRights": 430,
+      "juniorNoPlayingRightsDescription": "Ungdom under 20 år uten spillerett - greenfee 200 kr/dag",
+      "studentNoPlayingRights": 590,
+      "studentNoPlayingRightsDescription": "Student under 30 år uten spillerett - greenfee 200 kr/dag",
+      "familyNoPlayingRights": 1640,
+      "familyNoPlayingRightsDescription": "Familiemedlemskap uten spillerett - greenfee 350 kr/dag",
+      "playingRightsOtherClub": 3200,
+      "playingRightsOtherClubDescription": "Spillerett for medlemmer av andre klubber - fri spill",
+      "membershipStatus": "open",
+      "notes": "Ingen innmeldingsavgift. Norsk Golf blad inkludert. Aldersgrenser gjelder fra 1. januar årlig."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4,
@@ -160,12 +205,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "89.5",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 89,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:11.274Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "index",
+      "surnadal-golfpark/greenfee-satser",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:45:00.000Z",
     "createdAt": "2025-10-31T09:31:11.275Z",
-    "updatedAt": "2025-11-03T09:09:40.546Z"
-  }
+    "updatedAt": "2026-02-14T16:45:00.000Z"
+  },
+  "googlePlaceId": "ChIJTVsghWUJFEYR27LJd1W8FKw"
 }

@@ -7,9 +7,9 @@
   "municipality": "Snarøya",
   "country": "Norway",
   "address": {
-    "street": "TBD",
+    "street": "Postboks 5",
     "postalCode": "1335",
-    "area": null
+    "area": "Snarøya"
   },
   "coordinates": {
     "lat": 59.86873250000001,
@@ -42,7 +42,7 @@
   "contact": {
     "phone": "+47 67 83 23 83",
     "email": "occ@occ.no",
-    "emailAlt": null,
+    "emailAlt": "drc@occ.no",
     "website": "https://occ.no/",
     "facebook": null,
     "instagram": null,
@@ -51,8 +51,23 @@
   "phoneNumbers": [
     {
       "number": "+47 67 83 23 83",
-      "type": "main",
+      "type": "restaurant",
       "primary": true
+    },
+    {
+      "number": "+47 67 83 23 80",
+      "type": "admin",
+      "primary": false
+    },
+    {
+      "number": "+47 922 19 976",
+      "type": "daglig_leder",
+      "primary": false
+    },
+    {
+      "number": "+47 46 94 19 40",
+      "type": "ferge",
+      "primary": false
     }
   ],
   "season": {
@@ -61,10 +76,11 @@
     "winterUse": null
   },
   "visitors": {
-    "welcome": true,
+    "welcome": false,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Bærum",
+    "distanceFromCenter": null,
+    "note": "Privat klubb - må være invitert for å spille"
   },
   "organization": {
     "courseCompany": "Norge",
@@ -161,11 +177,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:14.420Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 80,
+    "pagesScraped": [
+      "homepage",
+      "kontakt",
+      "banen"
+    ],
+    "scrapedAt": "2026-02-14T17:42:00.000Z",
     "createdAt": "2025-10-31T11:23:14.421Z",
-    "updatedAt": "2025-11-10T09:03:42.027Z"
-  }
+    "updatedAt": "2026-02-14T17:42:00.000Z"
+  },
+  "googlePlaceId": "ChIJl9o0XltrQUYRh7NQ7vodpHo"
 }

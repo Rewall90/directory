@@ -40,7 +40,7 @@
   },
   "description": "Ogna Golfklubb er en 9-hulls parkbane på Jæren, åpnet 21. juni 2003. Banen ligger mellom Ogna Camping og Ogna sentrum langs fylkesvei 44. Par 35 for 9 hull, par 70 når spilt to ganger. Midt i det varierte kulturlandskapet på Jæren med god eksponering mot vinden. Landskapet skaper en utmerket ramme rundt banen. Nær Helgåleiren aktivitetssenter. Handicapkrav 54 for besøkende.",
   "contact": {
-    "phone": null,
+    "phone": "+47 419 25 343",
     "email": "post@ognagolf.no",
     "emailAlt": "medlem@ognagolf.no",
     "website": "https://ognagolf.no/",
@@ -48,7 +48,13 @@
     "instagram": "https://www.instagram.com/ogna_golfklubb/",
     "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "+47 419 25 343",
+      "type": "main",
+      "primary": true
+    }
+  ],
   "season": {
     "start": "April",
     "end": "Oktober",
@@ -128,6 +134,50 @@
         "description": "Hovedmedlemskap: 360 kr/måned via Avtalegiro (4320 kr/år). Medlemmer kan velge å betale kontingenten som engangsbeløp eller gjennom avtalegiro. Avtalegiro kun tilgjengelig for hovedmedlemskap. Ulike junior-kategorier tilgjengelig. Kontakt: medlem@ognagolf.no.",
         "ageRange": null
       }
+    ],
+    "2025": [
+      {
+        "category": "adult",
+        "price": 4250,
+        "description": "Hovedmedlem over 25 år: 4250 kr/år eller avtalegiro 360 kr/mnd (12 mnd binding)",
+        "ageRange": "25+"
+      },
+      {
+        "category": "youth20_25",
+        "price": 1800,
+        "description": "Hovedmedlem 20-25 år: 1800 kr/år",
+        "ageRange": "20-25"
+      },
+      {
+        "category": "greenfee",
+        "price": 1800,
+        "description": "Greenfeemedlem: 1800 kr/år - uten fritt spill, greenfee betales ved spill",
+        "ageRange": null
+      },
+      {
+        "category": "remote",
+        "price": 1000,
+        "description": "Fjernmedlem: 1000 kr/år",
+        "ageRange": null
+      },
+      {
+        "category": "junior14_19",
+        "price": 900,
+        "description": "Juniormedlem 14-19 år: 900 kr/år",
+        "ageRange": "14-19"
+      },
+      {
+        "category": "junior0_13",
+        "price": 150,
+        "description": "Juniormedlem 0-13 år: 150 kr/år",
+        "ageRange": "0-13"
+      },
+      {
+        "category": "passive",
+        "price": 500,
+        "description": "Passiv medlem uten spillerett: 500 kr/år",
+        "ageRange": null
+      }
     ]
   },
   "ratings": {
@@ -166,9 +216,13 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:25.724Z",
+    "pagesScraped": [
+      "https://ognagolf.no/",
+      "https://ognagolf.no/bli-medlem/"
+    ],
+    "scrapedAt": "2026-02-14T16:06:00.000Z",
     "createdAt": "2025-10-31T07:46:25.725Z",
-    "updatedAt": "2025-11-03T09:10:03.412Z"
-  }
+    "updatedAt": "2026-02-14T16:06:00.000Z"
+  },
+  "googlePlaceId": "ChIJEXcLvtcWOkYRMRSw6_yGfUI"
 }

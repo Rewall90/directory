@@ -11,7 +11,10 @@
     "postalCode": "9541",
     "area": null
   },
-  "coordinates": null,
+  "coordinates": {
+    "lat": 69.9218972,
+    "lng": 23.0894671
+  },
   "course": {
     "holes": 9,
     "holesPlayed": 18,
@@ -99,83 +102,109 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee9": 370,
+      "greenFee18": 420,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 400,
-      "greenFeeWeekend": 400,
-      "greenFeeSenior": 400,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee ca 400 kr (18 hull), 300 kr (9 hull) - nøyaktige 2025-priser finnes i TidyPay. Gruppepris: 300 kr per spiller for Hammerfest/Kvalsund GK medlemmer når 6+ spillere. Aktivitetsparken (minigolf, frisbee golf, fotballgolf, kortbane) gratis for barn, ungdom og studenter.",
+      "greenFeeWeekday": 420,
+      "greenFeeWeekend": 420,
+      "greenFeeSenior": 420,
+      "greenFeeJunior": 160,
+      "greenFeeDescription": "Gjester: Voksne 370/420 kr (9h/18h), Ung voksen 21-27 år 210/260 kr, Junior 14-20 år 130/160 kr, Barn under 13 år gratis. Medlemmer: Voksne 270/370 kr, Ung voksen 150/210 kr, Junior 80/110 kr. Aksjonær voksen dagskort 220 kr, Aksjonær <27 år 130 kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": 1900,
       "specialOfferIncludes": "VTG-deltakere får årskort for 9-hulls bane til 1900 kr - gyldig det året og påfølgende år",
       "freeTrial": null,
-      "notes": null
+      "notes": "Aktivitetsparken (minigolf, fotballgolf, frisbeegolf, korthullsbane): 50 kr per aktivitet for voksne 18+, gratis for barn/ungdom og medlemmer."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "adult",
         "price": 2800,
-        "description": null,
-        "ageRange": null
+        "description": "Medlem voksen",
+        "ageRange": "28+"
       },
       {
         "category": "secondAdultInHousehold",
         "price": 2200,
-        "description": null,
+        "description": "Medlem voksen nr.2 i ekteskap/samboerskap",
         "ageRange": null
       },
       {
         "category": "youngAdult",
         "price": 1700,
-        "description": null,
-        "ageRange": null
+        "description": "Medlem ung voksen",
+        "ageRange": "21-27"
       },
       {
         "category": "junior",
         "price": 900,
-        "description": null,
-        "ageRange": null
+        "description": "Medlem junior",
+        "ageRange": "14-20"
       },
       {
         "category": "child",
         "price": 350,
-        "description": null,
-        "ageRange": null
+        "description": "Medlem barn",
+        "ageRange": "0-13"
       },
       {
         "category": "remoteMember",
         "price": 1800,
-        "description": null,
+        "description": "Fjernmedlem (bosted utenfor tiltakssonen for Finnmark og Nord-Troms)",
         "ageRange": null
       },
       {
         "category": "supportingMember",
         "price": 1000,
-        "description": null,
+        "description": "Støttemedlem uten spillerett",
         "ageRange": null
       },
       {
-        "category": "annualCoursePass",
-        "price": 3900,
-        "description": null,
-        "ageRange": null
+        "category": "annualCoursePassAdult",
+        "price": 4100,
+        "description": "Medl. årskort golfbane voksen",
+        "ageRange": "28+"
+      },
+      {
+        "category": "annualCoursePassYoungAdult",
+        "price": 2100,
+        "description": "Medl. årskort golfbane 21-27 år",
+        "ageRange": "21-27"
+      },
+      {
+        "category": "annualCoursePassShareholderAdult",
+        "price": 3250,
+        "description": "Aksjonær årskort golfbane voksen",
+        "ageRange": "28+"
+      },
+      {
+        "category": "annualCoursePassShareholderYoungAdult",
+        "price": 1470,
+        "description": "Aksjonær årskort golfbane 21-27 år",
+        "ageRange": "21-27"
+      },
+      {
+        "category": "vtgAnnualCardAdult",
+        "price": 1900,
+        "description": "Medl. årskort VTG kurs i fjor eller i år voksen",
+        "ageRange": "28+"
+      },
+      {
+        "category": "vtgAnnualCardYoungAdult",
+        "price": 1300,
+        "description": "Medl. årskort VTG kurs i fjor eller i år 21-27 år",
+        "ageRange": "21-27"
       },
       {
         "category": "monthlyCoursePass",
-        "price": 1200,
-        "description": null,
-        "ageRange": null
-      },
-      {
-        "category": "vtgAnnualCard",
-        "price": 1900,
-        "description": null,
+        "price": 1300,
+        "description": "Medl. månedskort golfbane",
         "ageRange": null
       }
     ]
@@ -197,11 +226,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T09:36:46.551Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "homepage",
+      "banen",
+      "om-oss",
+      "medlemspriser"
+    ],
+    "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-30T09:36:46.555Z",
-    "updatedAt": "2025-10-30T09:36:46.555Z"
-  }
+    "updatedAt": "2026-02-14T15:55:00.000Z"
+  },
+  "googlePlaceId": "ChIJJ-tKSegSz0URSqV42FViGjQ"
 }

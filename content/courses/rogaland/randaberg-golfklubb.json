@@ -131,7 +131,52 @@
       "notes": "Familie greenfee: 600 kr for 2 voksne + 2 barn/junior"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "adult",
+        "price": 6200,
+        "description": "Hovedmedlem 6200 kr/år. Ingen innmeldingsavgift. Betalingsplan over maks 9 måneder tilgjengelig.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 4000,
+        "description": "Hovedmedlem Partner 4000 kr/år. Ektefelle/partner til hovedmedlem.",
+        "ageRange": null
+      },
+      {
+        "category": "youth25_30",
+        "price": 2000,
+        "description": "Unge Voksne 2000 kr/år. Året en fyller 25-30.",
+        "ageRange": "25-30"
+      },
+      {
+        "category": "youth20_24",
+        "price": 2000,
+        "description": "Eldre Junior 2000 kr/år. Året en fyller 20-24.",
+        "ageRange": "20-24"
+      },
+      {
+        "category": "junior13_19",
+        "price": 750,
+        "description": "Junior 750 kr/år. Året en fyller 13-19.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "junior6_12",
+        "price": 350,
+        "description": "Yngre Junior 350 kr/år. Året en fyller 6-12.",
+        "ageRange": "6-12"
+      },
+      {
+        "category": "remote",
+        "price": 795,
+        "description": "Fjernmedlemskap 795 kr/år. Medlem uten spillerett.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
@@ -168,9 +213,13 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:26.387Z",
+    "pagesScraped": [
+      "https://www.randaberggolf.no/",
+      "https://www.randaberggolf.no/blimedlem"
+    ],
+    "scrapedAt": "2026-02-14T16:11:00.000Z",
     "createdAt": "2025-10-31T07:46:26.389Z",
-    "updatedAt": "2025-11-03T09:09:53.045Z"
-  }
+    "updatedAt": "2026-02-14T16:11:00.000Z"
+  },
+  "googlePlaceId": "ChIJCc3cIYe0O0YRcqXE5WSUhtE"
 }

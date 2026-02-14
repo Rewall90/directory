@@ -95,10 +95,10 @@
     "conferenceRoom": false,
     "eventVenue": true,
     "eventCapacity": null,
-    "simulator": false,
-    "simulatorType": null,
+    "simulator": true,
+    "simulatorType": "Foresight",
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "Simulator på Klubbhuset i Hønefoss (KiH) - åpent man-søn 09:00-22:00. Foresight-teknologi. Vintertrening, clinics og KiH Winter Tour turneringer.",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -111,22 +111,41 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Medlem-gjest greenfee: Man-fre 475 kr, Lør-søn 575 kr. Weekend Prime tid (09:00-11:50) har høyere pris. Se tyrifjord-golfklubb.no for fullstendig prisliste.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "greenFee18Weekday": 815,
+      "greenFee18Weekend": 915,
+      "greenFee18WeekendPrime": 1030,
+      "greenFee9": 550,
+      "greenFeeJunior": "50%",
+      "greenFeeMemberGuestWeekday": 715,
+      "greenFeeMemberGuestWeekend": 815,
+      "greenFeePlussMemberGuest": 550,
+      "greenFeeDescription": "Hverdag (man-fre 07:00-20:50): 815 kr. Weekend (lør/søn 07:00-08:50 og 12:00-20:50): 915 kr. Weekend Prime (lør/søn 09:00-11:50): 1030 kr. 9 hull (drop-in): 550 kr. Medlem/gjest: 715/815 kr. PLUSS medlem/gjest: 550 kr. Junior (t.o.m. 19): 50%.",
+      "weekPass": 3495,
+      "monthPass": 6500,
+      "notes": "9 hull kun drop-in. PLUSS medlem/gjest kan ikke bookes via Golfbox - må ringes inn. Ubegrenset Golf ikke tilgjengelig lør/søn/helligdager 09:00-11:50."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "basisAdult23Plus": 10295,
+      "basisStudent": 5250,
+      "basisPluss": 15795,
+      "familiePluss": 26090,
+      "ungdom20To22": 5250,
+      "junior11To19": 3200,
+      "knoette0To10": 1900,
+      "basisPermittert": 5200,
+      "basisPassiv": 3200,
+      "basis9Hole": 7300,
+      "plussAddon": 5500,
+      "paypUnder40": 3600,
+      "paypStart": 2200,
+      "payp2": 2700,
+      "payp5": 3600,
+      "innmeldingsavgift": 7000,
+      "notes": "BASIS: Fritt spill fra 23 år og oppover. Krever låneobligasjon (7000 kr innmelding). Student/militær 23-28 år. PLUSS inkl. over 30 fordeler. Ungdom får gratis obligasjon ved 23. Junior i regionen (Hole, Ringerike, Jevnaker) har gratis kontingent - betaler kun bane/treningsavgift 1875 kr. PAYP Under 40: introduksjonstilbud inkl. 5 runder. PAYP 2/5 inkl. 2/5 runder."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -172,11 +191,18 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:56:51.561Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "greenfee-priser",
+      "medlemmer",
+      "medlemskap-2025"
+    ],
+    "scrapedAt": "2026-02-14T16:19:00.000Z",
     "createdAt": "2025-10-31T05:56:51.563Z",
-    "updatedAt": "2025-11-03T09:09:36.363Z"
-  }
+    "updatedAt": "2026-02-14T16:19:00.000Z"
+  },
+  "googlePlaceId": "ChIJSYK-6VUEQUYRIsq1rjF5k7w"
 }

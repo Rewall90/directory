@@ -163,9 +163,13 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:56:50.846Z",
+    "pagesScraped": [
+      "green-fee",
+      "gjester"
+    ],
+    "scrapedAt": "2026-02-14T15:56:00.000Z",
     "createdAt": "2025-10-31T05:56:50.847Z",
-    "updatedAt": "2025-11-03T09:09:36.693Z"
-  }
+    "updatedAt": "2026-02-14T15:56:00.000Z"
+  },
+  "googlePlaceId": "ChIJA23mcLHvP0YR60G5YkyD_-k"
 }

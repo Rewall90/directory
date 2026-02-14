@@ -121,27 +121,81 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
+      "greenFeeWinter18": 300,
+      "greenFeeWinter9": 150,
+      "greenFeeJuniorWinter18": 100,
+      "greenFeeJuniorWinter9": 50,
       "greenFeeDaily": null,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: Forhåndsbetaling påkrevd. Tee-tider kan bookes 5 dager i forveien. Booking utover 5 dager koster ekstra 100 kr per person. Greenfee-samarbeid med flere klubber (Grini, Nøtterøy, Vestfold m.fl.).",
+      "greenFeeDescription": "Greenfee 2025 vintergreener: 18h 300 kr, 9h 150 kr. Junior 18h 100 kr, 9h 50 kr. Forhåndsbetaling påkrevd. Booking 5 dager før. Prebooking utover 5 dager koster 100 kr ekstra pr. person. Greenfee-samarbeid med flere klubber (Grini, Nøtterøy, Vestfold, Drammen, Sandefjord, Borre, Tønsberg gk) - rabattene gjelder ikke vintergreenfee eller høysesong 23.6-10.8.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemmer får gratis spill på Tjøme. 20 bøtter driving range-baller inkludert i medlemskap, ubegrenset bruk for 1000 kr. Medlemmer har 7 dagers forhåndsbooking. 10% rabatt på alt i pro shop. 9-hulls treningsbane tilgjengelig."
+      "notes": "Medlemmer får gratis spill på Tjøme. 20 bøtter driving range-baller inkludert i medlemskap, ubegrenset bruk for 1000 kr. Medlemmer har 7 dagers forhåndsbooking. 10% rabatt på alt i pro shop. 9-hulls treningsbane tilgjengelig. Handicap-grense 36."
     }
   },
   "membershipPricing": {
     "2025": [
       {
-        "category": "drivingRangeUnlimited",
+        "category": "juniorUnder13",
+        "name": "Junior t.o.m. 13 år",
         "price": 1000,
-        "description": "Medlemskap 2025: Medlemmer får gratis spill på Tjøme. 20 bøtter driving range-baller inkludert, ubegrenset bruk for 1000 kr ekstra. Medlemmer har 7 dagers forhåndsbooking av tee-tider. 10% rabatt på alt i pro shop. Greenfee-samarbeid med flere klubber. Kontakt klubben for fullstendige medlemspriser via telefon +47 33 39 15 10 eller epost post@tjomegolfklubb.no.",
+        "description": "Junior medlemskap inkludert gratis spill. Ingen innmeldingsavgift eller klubbavgift.",
+        "ageRange": "0-13"
+      },
+      {
+        "category": "junior14-19",
+        "name": "Junior 14-19 år",
+        "price": 2700,
+        "description": "Junior medlemskap. Inkluderer 100 kr klubbavgift. Ingen innmeldingsavgift.",
+        "ageRange": "14-19"
+      },
+      {
+        "category": "ungVoksen20-30",
+        "name": "Ung voksen 20-30 år",
+        "price": 3800,
+        "description": "Ung voksen medlemskap. Inkluderer 230 kr klubbavgift. Ingen innmeldingsavgift.",
+        "ageRange": "20-30"
+      },
+      {
+        "category": "ungVoksen31-40",
+        "name": "Ung voksen 31-40 år",
+        "price": 4750,
+        "description": "Ung voksen medlemskap. Inkluderer 230 kr klubbavgift. Ingen innmeldingsavgift.",
+        "ageRange": "31-40"
+      },
+      {
+        "category": "ordinaerSpillerett",
+        "name": "Ordinær spillerett",
+        "price": 8300,
+        "description": "Full spillerett. Inkluderer 230 kr klubbavgift. Ingen innmeldingsavgift.",
+        "ageRange": null
+      },
+      {
+        "category": "aksjonaer",
+        "name": "Aksjonær",
+        "price": 8300,
+        "description": "Aksjonær medlemskap. Inkluderer 230 kr klubbavgift. Ingen innmeldingsavgift.",
+        "ageRange": null
+      },
+      {
+        "category": "aksjonaerbarn20-40",
+        "name": "Aksjonærbarn 20-40 år",
+        "price": 4750,
+        "description": "Medlemskap for barn av aksjonærer 20-40 år. Inkluderer 230 kr klubbavgift.",
+        "ageRange": "20-40"
+      },
+      {
+        "category": "drivingRangeUnlimited",
+        "name": "Ubegrenset driving range",
+        "price": 1000,
+        "description": "Ubegrenset bruk av driving range hele året. 20 bøtter inkludert i alle medlemskap.",
         "ageRange": null
       }
     ]
@@ -179,12 +233,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:10:45.503Z",
+    "dataQuality": "95.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjestespill",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T17:35:00.000Z",
     "createdAt": "2025-10-31T09:10:45.505Z",
-    "updatedAt": "2025-11-03T09:10:17.374Z"
-  }
+    "updatedAt": "2026-02-14T17:35:00.000Z"
+  },
+  "googlePlaceId": "ChIJmQWaLi-8RkYRbfW8aryeP_8"
 }

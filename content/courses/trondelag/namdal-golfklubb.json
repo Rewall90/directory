@@ -121,45 +121,63 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Halv greenfee via Golfamore; satser på klubbens nettsider.",
+      "greenFeeDaily": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 300,
+      "greenFeeDescription": "Greenfee 300 kr. Fjernmedlemmer betaler halv greenfee.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Overnatting på Grande gård i nærheten."
+      "notes": "Betaling: Vipps #688133 eller bankkonto 4448 13 06210. Overnatting på Grande gård i nærheten."
     }
   },
   "membershipPricing": {
-    "2024": [
+    "2025": [
       {
-        "category": "main",
+        "category": "Hovedmedlem",
         "price": 3000,
-        "description": "Satser fra 2024; verifiser gjeldende priser.",
+        "description": "Hovedmedlemskap med full spillerett.",
         "ageRange": null
       },
       {
-        "category": "spouse",
+        "category": "Ektefelle",
         "price": 2000,
-        "description": "Satser fra 2024; verifiser gjeldende priser.",
+        "description": "Ektefellemedlemskap.",
         "ageRange": null
       },
       {
-        "category": "family",
+        "category": "Familie",
         "price": 5000,
-        "description": "Satser fra 2024; verifiser gjeldende priser.",
+        "description": "Familiemedlemskap.",
         "ageRange": null
       },
       {
-        "category": "junior",
+        "category": "Junior",
         "price": 500,
-        "description": "Satser fra 2024; verifiser gjeldende priser.",
+        "description": "Junior 13-19 år.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Barn",
+        "price": 200,
+        "description": "Barn t.o.m. 12 år.",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Fjernmedlem",
+        "price": 1500,
+        "description": "Fjernmedlemskap. Halv greenfee ved spill.",
+        "ageRange": null
+      },
+      {
+        "category": "Student",
+        "price": 1300,
+        "description": "Studentmedlemskap.",
         "ageRange": null
       }
     ]
@@ -198,11 +216,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:51.635Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "priser"
+    ],
+    "scrapedAt": "2026-02-14T16:28:00.000Z",
     "createdAt": "2025-10-31T11:30:51.637Z",
-    "updatedAt": "2025-11-03T09:09:51.914Z"
-  }
+    "updatedAt": "2026-02-14T16:28:00.000Z"
+  },
+  "googlePlaceId": "ChIJHV5HeWr5ckYRhNnlHURCO-Q"
 }

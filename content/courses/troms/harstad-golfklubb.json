@@ -44,9 +44,9 @@
     "email": "harstadgk@gmail.com",
     "emailAlt": null,
     "website": "https://hgolf.no/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/HarstadGolfklubb/",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -87,9 +87,9 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Leie av køller: 150 kr",
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": null,
     "teachingPro": false,
@@ -116,57 +116,73 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 350,
       "greenFeeWeekday": 350,
       "greenFeeWeekend": 350,
+      "greenFee9Holes": 200,
       "greenFeeSenior": null,
       "greenFeeJunior": 200,
-      "greenFeeDescription": "GREENFEE 2025:\n\nVOKSNE:\n• 18 hull: 350 kr\n• 9 hull: 200 kr\n\nJUNIOR (under 20 år):\n• 18 hull: 200 kr\n• 9 hull: 120 kr\n\nDAGSKORT: 450 kr (ubegrenset spill hele dagen)\n\nTRENINGSUTSTYR:\n• Kurv m/50 rangeballer: 100 kr\n• Utleie av rangematter\n\nGreenfee-automat med Vipps tilgjengelig.",
-      "cartRental": null,
+      "greenFeeJuniorNote": "Opptil 19 år",
+      "greenFeeChildFree": true,
+      "greenFeeChildNote": "Barn opp til 15 år gratis",
+      "greenFeePartnerClubs": 250,
+      "greenFeePartnerNote": "Medlemmer av naboklubber",
+      "greenFeeDescription": "GREENFEE 2025:\n\nVOKSNE:\n• 18 hull / hele dagen: 350 kr\n• 9 hull: 200 kr\n\nJUNIOR (opptil 19 år):\n• 200 kr\n\nBARN (opptil 15 år):\n• Gratis\n\nNABOKLUBBER:\n• 18 hull / hele dagen: 250 kr\n\nBetaling via Vipps #106369",
+      "cartRental": 400,
+      "cartRentalNote": "Golfbil 18 hull",
+      "cartRental9Holes": 250,
       "pullCartRental": null,
-      "clubRental": null,
+      "clubRental": 150,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "24 timer spilling inkludert i greenfee. 27 ulike tee-plasseringer for variasjon. Uvanlig høy par (68) for 9-hulls bane. Naturskjønne omgivelser i Troms."
+      "bookingMethod": "Vipps",
+      "vippsNumber": "106369",
+      "notes": "Greenfee gjelder per døgn. 27 ulike tee-plasseringer for variasjon. Naturskjønne omgivelser i Troms. Midnattssol-golf mulig om sommeren."
     }
   },
   "membershipPricing": {
     "2025": [
       {
-        "category": "Voksen (20-67 år)",
-        "price": 4500,
-        "description": null,
-        "ageRange": "20-67"
+        "category": "Voksen (fullt medlemskap)",
+        "price": 5200,
+        "description": "Fullt medlemskap med spillerett",
+        "ageRange": "20+"
       },
       {
-        "category": "Junior (under 20 år)",
+        "category": "Barn (opptil 14 år)",
+        "price": 500,
+        "description": "Fullt medlemskap med spillerett",
+        "ageRange": "0-14"
+      },
+      {
+        "category": "Ungdom (15-19 år)",
+        "price": 1000,
+        "description": "Fullt medlemskap med spillerett",
+        "ageRange": "15-19"
+      },
+      {
+        "category": "Student/førstegangstjeneste",
         "price": 1500,
-        "description": null,
-        "ageRange": "0-19"
-      },
-      {
-        "category": "Student (20-25 år)",
-        "price": 2500,
-        "description": null,
-        "ageRange": "20-25"
-      },
-      {
-        "category": "Senior (67+ år)",
-        "price": 3500,
-        "description": null,
-        "ageRange": "67+"
-      },
-      {
-        "category": "Familie (2 voksne + barn)",
-        "price": 10000,
-        "description": null,
+        "description": "Fullt medlemskap med spillerett",
         "ageRange": null
       },
       {
-        "category": "Fjernmedlem",
-        "price": 500,
-        "description": null,
+        "category": "Familie",
+        "price": 10000,
+        "description": "To fullt betalende voksne gir fritt spill for hjemmeboende barn med samme adresse",
+        "ageRange": null
+      },
+      {
+        "category": "Fjernmedlemskap uten spillerett",
+        "price": 800,
+        "description": "Greenfee 200 kr (9 hull) / 350 kr (18 hull) kommer i tillegg",
+        "ageRange": null
+      },
+      {
+        "category": "Medlemskap uten spillerett",
+        "price": 1000,
+        "description": "Greenfee 200 kr (9 hull) / 350 kr (18 hull) kommer i tillegg",
         "ageRange": null
       }
     ]
@@ -238,11 +254,18 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 74,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-12T07:38:19.045Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 85,
+    "pagesScraped": [
+      "forside",
+      "banen",
+      "greenfee-og-leie",
+      "vtg-og-medlemsskap",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T16:02:00.000Z",
     "createdAt": "2025-10-31T05:13:01.736Z",
-    "updatedAt": "2026-02-12T07:38:19.049Z"
-  }
+    "updatedAt": "2026-02-14T16:02:00.000Z"
+  },
+  "googlePlaceId": "ChIJ2TpbJgV93EURXCrqxTWoevA"
 }

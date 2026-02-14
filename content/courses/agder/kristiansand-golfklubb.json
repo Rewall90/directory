@@ -46,7 +46,17 @@
     "website": "https://kristiansandgk.no",
     "facebook": "https://www.facebook.com/KristiansandGolfklubb",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
+  },
+  "booking": {
+    "system": "GolfBox",
+    "app": null,
+    "email": "klubb@kristiansandgk.no",
+    "phone": "488 96 721",
+    "advanceBookingDays": null,
+    "golfboxEnabled": true,
+    "simulatorBookingUrl": "/booking/simulator/kalender",
+    "notes": null
   },
   "phoneNumbers": [],
   "season": {
@@ -56,9 +66,13 @@
   },
   "visitors": {
     "welcome": true,
-    "walkingAllowed": null,
+    "walkingAllowed": true,
     "nearbyCity": "Kristiansand",
-    "distanceFromCenter": null
+    "distanceFromCenter": null,
+    "handicapRequired": true,
+    "dressCode": "Golf attire",
+    "bjaavannDiscount": true,
+    "bjaavannDiscountAmount": 100
   },
   "organization": {
     "courseCompany": null,
@@ -118,6 +132,23 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18Season": 475,
+      "greenFee18Shoulder": 400,
+      "greenFee9Discount": 100,
+      "greenFeeKorthullsbane": 0,
+      "greenFeeMember18": 300,
+      "greenFeeMember9": 200,
+      "greenFeeBjaavannDiscount": 100,
+      "seasonDates": "1/5 - 15/9",
+      "cartRental9": 250,
+      "cartRental18": 350,
+      "clubRental": 150,
+      "drivingRangeBalls20": 25,
+      "drivingRangeBalls40": 45,
+      "notes": "Medlemmer Bjaavann Golfklubb får kr. 100,- i rabatt på gjeldende priser"
     }
   },
   "membershipPricing": {
@@ -182,7 +213,105 @@
         "description": null,
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "Voksen m/spillerett",
+        "name": "Voksen m/spillerett",
+        "price": 5350,
+        "monthlyPrice": 445,
+        "description": "Full spillerett",
+        "ageRange": "25+"
+      },
+      {
+        "category": "Voksen u/spillerett",
+        "name": "Voksen u/spillerett",
+        "price": 2250,
+        "description": "Betaler greenfee",
+        "ageRange": "25+"
+      },
+      {
+        "category": "Junior 0-10",
+        "name": "Junior 0 - 10 år",
+        "price": 800,
+        "description": null,
+        "ageRange": "0-10"
+      },
+      {
+        "category": "Junior 11-14",
+        "name": "Junior 11 - 14 år",
+        "price": 1450,
+        "description": null,
+        "ageRange": "11-14"
+      },
+      {
+        "category": "Junior 15-19",
+        "name": "Junior 15 - 19 år",
+        "price": 1750,
+        "description": null,
+        "ageRange": "15-19"
+      },
+      {
+        "category": "Ungdom 20-24",
+        "name": "Ungdom 20 - 24 år",
+        "price": 2850,
+        "description": null,
+        "ageRange": "20-24"
+      },
+      {
+        "category": "Student",
+        "name": "Student",
+        "price": 2850,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Årsgreenfee utenfor Agder",
+        "name": "Årsgreenfee - Utenfor Agder",
+        "price": 3050,
+        "description": "For medlemmer bosatt utenfor Agder",
+        "ageRange": null
+      },
+      {
+        "category": "Årsgreenfee Agder",
+        "name": "Årsgreenfee - Agder",
+        "price": 3550,
+        "description": "For medlemmer bosatt i Agder",
+        "ageRange": null
+      },
+      {
+        "category": "VTG Voksen",
+        "name": "Veien til Golf (VTG) - f.o.m. 20 år",
+        "price": 1750,
+        "description": "Nybegynnerkurs",
+        "ageRange": "20+"
+      },
+      {
+        "category": "VTG Junior",
+        "name": "Veien til Golf (VTG) - under 20 år",
+        "price": 875,
+        "description": "Nybegynnerkurs",
+        "ageRange": "Under 20"
+      }
     ]
+  },
+  "membershipStatus": {
+    "status": "open",
+    "totalMembers": null,
+    "maxMembers": null,
+    "waitlistLength": null,
+    "entranceFee": null,
+    "avtalegiro": true,
+    "avtalegiroMonthly": 445,
+    "notes": null
+  },
+  "lockerRental": {
+    "skap40x60": 530,
+    "skap45x60": 580,
+    "skap60x60": 680,
+    "skap60x60Strom": 850,
+    "skap75x60": 780,
+    "skap75x60Strom": 975
   },
   "ratings": {
     "google": {
@@ -217,12 +346,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T13:27:24.033Z",
+    "dataQuality": "excellent",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "gjester/priser",
+      "medlemskap/priser-medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:27:00.000Z",
     "createdAt": "2025-10-30T13:27:24.035Z",
-    "updatedAt": "2025-11-03T09:09:32.610Z"
-  }
+    "updatedAt": "2026-02-14T15:27:00.000Z"
+  },
+  "googlePlaceId": "ChIJjeoDO5QBOEYR75LPCKEvFao"
 }

@@ -139,9 +139,52 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Redusert pris for fjernmedlemmer og partnerklubber"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 350,
+      "greenFee9": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "twilight": null,
+      "greenFeeDescription": "Ordinær greenfee: 350 kr per dag. KOGK fjernmedlemmer, samarbeidsklubber eller gjester av KOGK-medlemmer som spiller i samme flight: 250 kr i greenfee. Betaling via Vipps #115689.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Betaling via Vipps #115689"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "fullMembership": 5000,
+      "fullMembershipDescription": "Hovedmedlem 30-79 år med fri spillerett. Kan betales månedlig eller årlig.",
+      "distanceMembership": 1250,
+      "distanceMembershipDescription": "Fjernmedlem, må betale greenfee 250 kr",
+      "juniorMembership": 1750,
+      "juniorMembershipDescription": "Junior 13-19 år med fri spillerett",
+      "youthMembership": 2200,
+      "youthMembershipDescription": "Ungdom 20-25 år med fri spillerett",
+      "youngAdultMembership": 3750,
+      "youngAdultMembershipDescription": "Ung Voksen 26-29 år med fri spillerett",
+      "childMembership": 300,
+      "childMembershipDescription": "Barn 0-12 år med fri spillerett",
+      "seniorMembership": 2000,
+      "seniorMembershipDescription": "Eldre senior 80+ år med fri spillerett",
+      "esagMembership": 1750,
+      "esagMembershipDescription": "ESAG medlemskap",
+      "vtgKurs": 2200,
+      "vtgKursDescription": "År 1 for nye medlemmer over 25 år (VTG/TTG), inkl. materiell",
+      "dugnadsrabatt": "20 timer = 1000 kr rabatt, 60+ timer = 1500 kr rabatt",
+      "membershipStatus": "open",
+      "notes": "Utmelding må skje skriftlig innen 31. desember"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -186,12 +229,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.0",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:08.294Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "booking-greenfee",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:00:00.000Z",
     "createdAt": "2025-10-31T09:31:08.295Z",
-    "updatedAt": "2025-11-03T09:09:35.730Z"
-  }
+    "updatedAt": "2026-02-14T16:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJawAZhEXEE0YRf6YqOdm5jr8"
 }

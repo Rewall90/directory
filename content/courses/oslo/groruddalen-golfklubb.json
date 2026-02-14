@@ -53,12 +53,17 @@
       "number": "+47 22 79 05 60",
       "type": "main",
       "primary": true
+    },
+    {
+      "number": "+47 92 25 94 92",
+      "type": "admin",
+      "primary": false
     }
   ],
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Banen stenges om vinteren"
+    "winterUse": "Banen stenges om vinteren. Simulatorer åpne hele året."
   },
   "visitors": {
     "welcome": true,
@@ -81,7 +86,7 @@
     "clubhouseName": null,
     "proShop": true,
     "restaurant": true,
-    "restaurantName": "Klubbhus med servering",
+    "restaurantName": "Matexpressen (tlf: 93032722)",
     "clubRental": true,
     "clubRentalNotes": "Bagutleie 200 kr",
     "cartRental": true,
@@ -98,7 +103,7 @@
     "simulator": true,
     "simulatorType": "Golf simulator",
     "simulatorCourses": null,
-    "simulatorNotes": "2 simulatorer tilgjengelig. Medlemmer: 250 kr/time (hverdag), 325 kr/time (helg). Ikke-medlemmer: 350 kr/time (hverdag), 425 kr/time (helg). Åpent fra 18:00 på hverdager. Helg må avtales med proshop.",
+    "simulatorNotes": "2 simulatorer tilgjengelig (maks 4 personer per maskin). Aldersgrense 18 år uten voksen. Medlemmer: 250 kr/time (hverdag), 325 kr/time (helg). Ikke-medlemmer: 300 kr/time (hverdag), 375 kr/time (helg). 25-klippskort for medlemmer: 5000 kr. Husk innesko og rene baller.",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -116,7 +121,7 @@
       "greenFeeWeekend": 350,
       "greenFeeSenior": 200,
       "greenFeeJunior": 150,
-      "greenFeeDescription": "GREENFEE 2025 (9 hull):\n• Senior hverdag: 300 kr\n• Senior helg: 350 kr\n• Junior hverdag: 150 kr\n• Junior helg: 175 kr\n\nUTSTYR:\n• Bagutleie: 200 kr\n• Tralle: 50 kr\n• Golfbil: 200 kr\n\nSIMULATOR (fra kl. 18:00 hverdag, helg avtales):\n• Medlemmer: 250 kr/time (hverdag), 325 kr/time (helg)\n• Ikke-medlemmer: 350 kr/time (hverdag), 425 kr/time (helg)\n\nBAGSKAP (sesong):\n• Rad 1 og 4: 600 kr\n• Rad 2 og 3: 800 kr",
+      "greenFeeDescription": "GREENFEE 2025 (9 hull):\n• Senior hverdag: 300 kr\n• Senior helg: 350 kr\n• Junior hverdag: 150 kr\n• Junior helg: 175 kr\n\nGREENFEEMEDLEMMER (9 hull):\n• Senior hverdag: 250 kr\n• Senior helg: 300 kr\n• Junior hverdag: 125 kr\n• Junior helg: 150 kr\n\nTILLEGG 9 ekstra hull: 150 kr (gjester), 100 kr (greenfeemedlemmer), 50 kr (0-19 år)\n\nNorsk Senior Golf: 250 kr (hverdag før kl. 14), 300 kr (helg)\nHauger GK medlemmer: 250 kr (hverdag), 300 kr (helg)\n\nUTSTYR:\n• Bagutleie: 200 kr\n• Tralle: 50 kr\n• Golfbil (legeerklæring): 200 kr\n\nSIMULATOR:\n• Medlemmer: 250 kr/time (hverdag), 325 kr/time (helg)\n• Ikke-medlemmer: 300 kr/time (hverdag), 375 kr/time (helg)\n• 25-klippskort medlemmer: 5000 kr\n\nBAGSKAP (sesong):\n• Rad 1 og 4: 600 kr\n• Rad 2 og 3: 800 kr",
       "cartRental": 200,
       "pullCartRental": 50,
       "clubRental": 200,
@@ -129,28 +134,46 @@
   "membershipPricing": {
     "2025": [
       {
-        "category": "Senior",
+        "category": "Senior m/aktiv spillerett",
         "price": 5300,
-        "description": "Fullt medlemskap med fritt spill. Inkluderer NGF-kontingent.",
-        "ageRange": "20+"
+        "description": "Fullt medlemskap med fritt spill.",
+        "ageRange": "26+"
       },
       {
         "category": "Ungdom",
         "price": 3100,
-        "description": "Medlemskap for ungdom med fritt spill.",
-        "ageRange": "16-19"
+        "description": "Fullt medlemskap med fritt spill.",
+        "ageRange": "20-25"
       },
       {
         "category": "Junior",
         "price": 2400,
-        "description": "Medlemskap for juniorer med fritt spill.",
-        "ageRange": "13-15"
+        "description": "Fullt medlemskap med fritt spill.",
+        "ageRange": "13-19"
       },
       {
         "category": "Barn",
         "price": 1200,
-        "description": "Medlemskap for barn med fritt spill.",
+        "description": "Fullt medlemskap med fritt spill.",
         "ageRange": "0-12"
+      },
+      {
+        "category": "Greenfeemedlem Senior/Ungdom",
+        "price": 1900,
+        "description": "Betaler redusert greenfee. Senior 1900 kr, Ungdom 1800 kr.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Greenfeemedlem Junior/Barn",
+        "price": 700,
+        "description": "Betaler redusert greenfee.",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "Barn Introduksjon",
+        "price": 150,
+        "description": "Ingen spill på banen.",
+        "ageRange": "0-8"
       }
     ]
   },
@@ -222,10 +245,16 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-12T06:51:01.761Z",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "gjester",
+      "medlemskap",
+      "klubben",
+      "bane"
+    ],
+    "scrapedAt": "2026-02-14T15:57:00.000Z",
     "createdAt": "2025-10-31T05:35:09.472Z",
-    "updatedAt": "2026-02-12T06:51:02.021Z"
-  }
+    "updatedAt": "2026-02-14T15:57:00.000Z"
+  },
+  "googlePlaceId": "ChIJiyLZO5h6QUYR8Z64cLthYCE"
 }

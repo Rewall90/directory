@@ -116,22 +116,39 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 405,
-      "greenFeeWeekend": 405,
+      "greenFee18": 675,
+      "greenFee9": 405,
+      "greenFee18Weekday": 575,
+      "greenFee9Weekday": 345,
+      "greenFeeWeekday": 575,
+      "greenFeeWeekend": 675,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 405 kr. Booking via bgk.no/greenfee.",
+      "greenFeeJunior": 338,
+      "greenFeeDescription": "Greenfee 2025: Hverdager fra kl 12, helger/helligdager: 9 hull kr 405, 18 hull kr 675. Hverdager t.o.m kl 11.50: 9 hull kr 345, 18 hull kr 575. Juniorer har 50% rabatt. Forhåndsbetaling ved booking i Golfbox.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemskap inkluderer lokal spillerett (Bergen GK) og nasjonal spillerett (greenfee på andre klubber). Alle medlemmer kan booke tee-tider 7 dager i forveien, spille gratis på vinterbane (vintergreener okt-april), og booke golf simulator."
+      "notes": "Medlemskap inkluderer lokal spillerett (Bergen GK) og nasjonal spillerett (greenfee på andre klubber). Alle medlemmer kan booke tee-tider 7 dager i forveien, gjester 3 dager i forveien. Gratis vinterbane (vintergreener okt-april), og tilgang til golf simulator."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "aktiv27Plus": 7200,
+      "aktiv23_26": 5000,
+      "aktiv20_22": 3900,
+      "junior13_19": 2400,
+      "junior7_12": 1600,
+      "junior0_6": 250,
+      "aktivGreenfee27Plus": 2800,
+      "aktivGreenfee20_26": 1600,
+      "passiv": 1700,
+      "currency": "NOK",
+      "description": "Alle medlemskap har lokal og nasjonal spillerett. Aktiv-medlemskap gir fritt spill. Aktiv Greenfee-medlemmer har 50% rabatt på greenfee."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -176,12 +193,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.0",
+    "dataQuality": "92.0",
     "websiteQuality": null,
-    "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:52.394Z",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "medlemmer",
+      "greenfee"
+    ],
+    "scrapedAt": "2026-02-14T16:15:00.000Z",
     "createdAt": "2025-10-31T10:16:52.396Z",
-    "updatedAt": "2025-11-03T09:09:41.506Z"
-  }
+    "updatedAt": "2026-02-14T16:15:00.000Z"
+  },
+  "googlePlaceId": "ChIJU1a-WMP9PEYRfn77QQ7Jlyw"
 }

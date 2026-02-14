@@ -131,17 +131,40 @@
       "greenFeeWeekend": 800,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
+      "greenFee9Holes": 400,
       "greenFeeDescription": "18 hull: Max 600 kr hverdag, max 800 kr helg. 9 hull: 400 kr. Junior rabatt 40%. Naboklubber (Mjøsen, Sorknes, Trysil, Skei, Kongsvinger, Elverum, Valdres, Land, Hafjell, Gjøvik & Toten): 100 kr rabatt 18 hull, 50 kr rabatt 9 hull. NSG seniorer: 500 kr (08:00-15:00 hverdager). To runder samme dag: 900 kr hverdag, 1300 kr helg.",
-      "cartRental": 20001800,
-      "pullCartRental": null,
-      "clubRental": null,
+      "cartRental": 400,
+      "cartRental9Holes": 250,
+      "pullCartRental": 70,
+      "pullCartRentalElectric": 120,
+      "clubRental": 250,
+      "lockerRental": 600,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager)"
+      "notes": "Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager). Golfbil med legeattest: 350 kr (18 hull), 200 kr (9 hull)."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "currency": "NOK",
+      "fullMembershipWithShare": 7500,
+      "fullMembershipWithoutShare": 9500,
+      "fullMembershipWithShareLate": 8000,
+      "fullMembershipWithoutShareLate": 10000,
+      "juniorMembership": 3000,
+      "juniorMembershipYoung": 1000,
+      "studentMembership": 5500,
+      "familyMembershipWithShares": 15000,
+      "familyMembershipWithoutShares": 19000,
+      "newMemberDiscount": 6000,
+      "neighborClubMember": 6000,
+      "sharePrice": 8000,
+      "earlyPaymentDeadline": "20. mars",
+      "earlyPaymentDiscount": 500,
+      "notes": "Betaling før 20. mars gir 500 kr rabatt. Junior 2 (13-19 år): 3000/3500 kr. Junior 1 (12 år og yngre): 1000/1500 kr. Student (20-26 år): 5500/6000 kr. Familiemedlemskap inkluderer 2 voksne + alle juniorer, rabatt 1000 kr per Junior 2 og 500 kr per Junior 1."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -176,11 +199,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:10.891Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester",
+      "medlemmer",
+      "kontakt",
+      "utleie"
+    ],
+    "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-31T07:18:10.893Z",
-    "updatedAt": "2025-11-03T09:09:47.286Z"
-  }
+    "updatedAt": "2026-02-14T15:55:00.000Z"
+  },
+  "googlePlaceId": "ChIJe8o5XQDnQUYR9DJhKKpP0Ds"
 }

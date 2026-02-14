@@ -109,14 +109,14 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
       "greenFeeWeekday": 400,
       "greenFeeWeekend": 400,
       "greenFeeSenior": 250,
       "greenFeeJunior": null,
-      "greenFeeDescription": "GREENFEE 2025:\n\nGJESTER:\n• Ukegreenfee: 1.250 kr\n• Dagsgreenfee (18+ hull): 400 kr\n• 9 hull: 300 kr\n\nMEDLEMMER:\n• Dagsgreenfee (18+ hull): 250 kr\n• 9 hull: 200 kr\n• Barn/ungdom (t.o.m. 19 år): Gratis\n• 10-klipp (HCP >36): 1.300 kr\n• 20-klipp (HCP >36): 1.800 kr\n\nSESONGGREENFEE:\n• Med spillerett: 4.000 kr\n• Uten spillerett: 4.500 kr\n• 20-26 år: 3.000 kr\n• Student/militær 20-26 år: 1.500 kr\n\nSpillerett: 7.000 kr (gir eierandel og rabattert sesonggreenfee)",
+      "greenFeeDescription": "GREENFEE 2026:\n\nGJESTER:\n• Ukegreenfee: 1.250 kr\n• Dagsgreenfee (18+ hull): 400 kr\n• 9 hull: 300 kr\n\nMEDLEMMER:\n• Dagsgreenfee (18+ hull): 250 kr\n• 9 hull: 200 kr\n• Barn/ungdom (t.o.m. 19 år): Gratis\n• 10-klipp (HCP >36): 1.300 kr\n• 20-klipp (HCP >36): 1.800 kr\n\nSESONGGREENFEE:\n• Med spillerett: 4.000 kr\n• Uten spillerett: 4.500 kr\n• 20-26 år: 3.000 kr\n• Student/militær 20-26 år: 1.500 kr\n\nSpillerett: 7.000 kr (gir eierandel og rabattert sesonggreenfee)",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
@@ -127,7 +127,7 @@
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "Barn",
         "price": 100,
@@ -288,11 +288,18 @@
   "sources": [],
   "meta": {
     "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-12T07:17:55.678Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "homepage",
+      "gjest",
+      "greenfee",
+      "bli-medlem",
+      "medlemskontigent"
+    ],
+    "scrapedAt": "2026-02-14T16:08:00.000Z",
     "createdAt": "2025-10-30T10:55:19.560Z",
-    "updatedAt": "2026-02-12T07:17:55.682Z"
-  }
+    "updatedAt": "2026-02-14T16:08:00.000Z"
+  },
+  "googlePlaceId": "ChIJ-2o-xOsPy0URgOkPgDyda0M"
 }

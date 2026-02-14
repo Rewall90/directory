@@ -41,12 +41,13 @@
   "description": "Grini er en 9-hulls golfbane som passer golfspillere i alle kategorier. Banen er par 35 og måler 2591 meter. Den er designet av Jeremy Turner og ligger i et relativt åpent landskap, men med en layout som gir en rekke utfordringer. Varierte hull og flott utsikt til bl.a. Holmenkollen setter hyggelig preg på golfopplevelsen.",
   "contact": {
     "phone": null,
-    "email": "Post@grinigolfklubb.no",
+    "email": "post@grinigolfklubb.no",
     "emailAlt": null,
     "website": "https://grinigolfklubb.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/grinigolf",
+    "instagram": "https://www.instagram.com/grinigolf/",
+    "youtube": "https://www.youtube.com/channel/UC-DcxYAPH4n6tSd5hbEotfQ",
+    "golfbox": true
   },
   "phoneNumbers": [],
   "season": {
@@ -103,24 +104,44 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee9": 460,
       "greenFeeDaily": null,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
-      "pullCartRental": null,
+      "greenFeeJunior": 225,
+      "greenFeeDescription": "9 hull: 460 kr. Medlemmers gjester: 360 kr. Junior (19 år eller yngre): 225 kr. Greenfeemedlem: 360 kr. Greenfeemedlem junior: 175 kr. For 18 hull må du booke 2 starttider med 2,5 timer mellomrom.",
+      "cartRental": 250,
+      "cartRentalMember": 100,
+      "pullCartRental": 70,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Golfbil krever legeattest. Proshop: Man-Tor 08:00-20:00, Fre-Søn 08:00-18:00. Gjestespillere må ha hcp 36 eller bedre."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "hovedmedlemVoksen": 7950,
+      "ungVoksen26_29": 6200,
+      "ungVoksen20_25": 4350,
+      "junior13_19": 3950,
+      "barn0_12": 2000,
+      "greenfeeVoksen": 2300,
+      "greenfeeJunior": 1200,
+      "innmeldingsgebyr": 1950,
+      "membershipStatus": "Venteliste for Hovedmedlem, Ung Voksen og Junior (fulltegnet). Greenfeemedlemskap tilgjengelig.",
+      "maxMembers": {
+        "voksen": 800,
+        "ungVoksen": 250,
+        "junior": 250
+      },
+      "notes": "Jenter/kvinner 0-29 år tas inn for Fritt Spill selv om fulltegnet. Kontingent inkl. 250 kr til vanningsanlegg for Hovedmedlem og Ung Voksen."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.2,
@@ -155,11 +176,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:10.849Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester/priser-og-booking",
+      "medlemskap/alle-medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:57:00.000Z",
     "createdAt": "2025-10-31T11:23:10.850Z",
-    "updatedAt": "2025-11-03T09:09:38.623Z"
-  }
+    "updatedAt": "2026-02-14T15:57:00.000Z"
+  },
+  "googlePlaceId": "ChIJh4LFc0FtQUYRzLR6BYMFo9I"
 }

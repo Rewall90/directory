@@ -43,7 +43,8 @@
     "phone": "+47 97 62 39 02",
     "email": "Espen.Pettersen@kronosww.com",
     "emailAlt": null,
-    "website": "http://www.dalane-golfklubb.no/",
+    "website": null,
+    "websiteNote": "Previous website http://www.dalane-golfklubb.no/ is no longer active",
     "facebook": "https://www.facebook.com/dalanegk/",
     "instagram": null,
     "golfbox": true
@@ -210,8 +211,9 @@
     "websiteQuality": null,
     "completenessPercentage": 88,
     "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:20.972Z",
+    "scrapedAt": "2026-02-14T15:54:00.000Z",
     "createdAt": "2025-10-31T07:46:20.974Z",
-    "updatedAt": "2025-11-03T09:10:01.904Z"
-  }
+    "updatedAt": "2026-02-14T15:54:00.000Z"
+  },
+  "googlePlaceId": "ChIJjX_vonX7OUYRqiayQNkfKEo"
 }

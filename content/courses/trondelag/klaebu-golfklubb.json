@@ -41,10 +41,10 @@
   "description": "9-hulls skogsbane ved E6 med kunstgressgreener; kuperte greener med engpreg.",
   "contact": {
     "phone": "+47 99 46 07 51",
-    "email": "klabugk@online.no",
+    "email": "klabugolfklubb@gmail.com",
     "emailAlt": null,
     "website": "https://www.klabugolf.no/",
-    "facebook": "https://www.facebook.com/p/Klæbu-Golfklubb-100023672925112/",
+    "facebook": "https://www.facebook.com/Klæbu-Golfklubb-118009534899746/",
     "instagram": "https://www.instagram.com/explore/locations/817743157/klaebu-golfklubb/",
     "golfbox": true
   },
@@ -73,7 +73,7 @@
   },
   "organization": {
     "courseCompany": null,
-    "clubOrganization": "Klæbu Golfklubb (Org.nr. 984 360 908)"
+    "clubOrganization": "Klæbu Golfklubb (Org.nr. 993 843 199)"
   },
   "facilities": {
     "drivingRange": true,
@@ -116,33 +116,76 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Registrering/betaling ved GolfBox-maskin på range. Årlig greenfee: gratis spill hele sesongen. Samarbeid: Austrått 200/dag, Røros 250/300, Steinkjer 167, Stiklestad 20% rabatt.",
+      "greenFeeDaily": 400,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 250,
+      "greenFeeMemberNoPlayright": 250,
+      "greenFeeDescription": "Gjestespiller voksen 400 kr, barn/junior 250 kr, medlem uten spillerett 250 kr. Fritt spill samme dag. Betaling med kort, Vipps eller ApplePay.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Årlig greenfee; sensongmedlemskap fra 1.9 (høst + neste sesong). Rimelige familiemedlemskap."
+      "notes": "Årsgreenfee 2700 kr for gjestespillere. Samarbeid: Austrått 200/dag, Røros 250/300, Steinkjer 167, Stiklestad 20% rabatt."
     }
   },
   "membershipPricing": {
     "2025": [
       {
-        "category": "vtgAdult",
-        "price": 2200,
-        "description": "VTG-kurs inkl. medlemskap og spill. Familiemedlemskap tilgjengelig.",
+        "category": "Senior med spillerett",
+        "price": 3700,
+        "description": "Medlemskap med spillerett senior (fra 20 år). Spill så mye du vil hele sesongen!",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Senior uten spillerett",
+        "price": 1700,
+        "description": "Medlemskap uten spillerett senior (fra 20 år). Betaler medlems-greenfee pr gang.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Familie 2+2",
+        "price": 5700,
+        "description": "Gunstig medlemskap for familier. Gjelder for inntil 2 voksne og 2 barn.",
         "ageRange": null
       },
       {
-        "category": "vtgYouth",
-        "price": 1200,
-        "description": "VTG-kurs inkl. medlemskap og spill. Familiemedlemskap tilgjengelig.",
+        "category": "Barn",
+        "price": 300,
+        "description": "Medlemskap med spillerett barn (tom. 12 år). Spill så mye du vil hele sesongen!",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Junior",
+        "price": 950,
+        "description": "Medlemskap med spillerett junior (fom. 13 tom. 19 år). Spill så mye du vil hele sesongen!",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Årsgreenfee gjestespiller",
+        "price": 2700,
+        "description": "For medlemmer av annen klubb som ønsker å besøke hyppig. Betal en fast pris og spill så mye du vil.",
+        "ageRange": null
+      },
+      {
+        "category": "Student",
+        "price": 2200,
+        "description": "Medlemskap med spillerett student. Gyldig studentbevis må fremlegges.",
+        "ageRange": null
+      },
+      {
+        "category": "Student høst+neste sesong",
+        "price": 3200,
+        "description": "Medlemskap student med full spillerett høsten 2025 + hele 2026. Gjelder fom 01.09.2025.",
+        "ageRange": null
+      },
+      {
+        "category": "Høst+neste sesong",
+        "price": 4700,
+        "description": "Fritt spill høsten 2025 og hele 2026. Gjelder fom 01.09.2025.",
         "ageRange": null
       }
     ]
@@ -181,11 +224,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:51.007Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "blimedlem"
+    ],
+    "scrapedAt": "2026-02-14T16:24:00.000Z",
     "createdAt": "2025-10-31T11:30:51.008Z",
-    "updatedAt": "2025-11-03T09:09:51.365Z"
-  }
+    "updatedAt": "2026-02-14T16:24:00.000Z"
+  },
+  "googlePlaceId": "ChIJH2QXxmQvbUYRnBSnsjyhHyE"
 }

@@ -55,6 +55,14 @@
       "primary": true
     }
   ],
+  "booking": {
+    "email": "booking@borregb.no",
+    "phone": null,
+    "url": null,
+    "golfboxEnabled": true,
+    "windowDays": null,
+    "advanceBookingFee": null
+  },
   "season": {
     "start": "April",
     "end": "15. oktober",
@@ -64,7 +72,10 @@
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Horten",
-    "distanceFromCenter": null
+    "distanceFromCenter": null,
+    "handicapRequired": null,
+    "dressCode": null,
+    "roundTimeMinutes": null
   },
   "organization": {
     "courseCompany": null,
@@ -109,14 +120,20 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 800,
+      "greenFee9": null,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 750,
-      "greenFeeWeekend": 750,
-      "greenFeeSenior": 500,
-      "greenFeeJunior": 325,
-      "greenFeeDescription": "Greenfee 2025: 18 hull fra åpning til 15. oktober alle dager 750 kr. Junior (t.o.m. 19 år) 325 kr alle dager. Fra 1. september etter kl 15:00 500 kr. Medlems gjestepris senior 500 kr.",
+      "greenFeeWeekday": 800,
+      "greenFeeWeekend": 800,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 400,
+      "greenFeeStudent": null,
+      "greenFeeMemberGuest": 500,
+      "greenFeeTwilight": 500,
+      "twilightStartTime": "15:00",
+      "greenFeeDescription": "Greenfee 2026: 18 hull fra åpning til 15. oktober alle dager 800 kr. Junior (t.o.m. 19 år) 400 kr alle dager. Kveldsgreenfee fra kl 15:00 500 kr. Medlems gjestepris 500 kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
@@ -127,26 +144,76 @@
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "knotter",
-        "price": 250,
-        "description": "Medlemskap 2025: I tillegg til spillerett må medlemmer betale klubbavgift: Knøtter 250 kr/år, Junior 250 kr/år, Voksen 900 kr/år. Veien Til Golf-kurs tilgjengelig. Junior- og seniortreningsprogrammer. Golfleksjon med Pro Sander Stavnar. Turneringer og golfturer. Kontakt klubben for fullstendige spillerettspriser via telefon +47 41 62 70 00 eller epost klubben@borregb.no.",
-        "ageRange": null
+        "name": "Knøtter (0-6 år)",
+        "price": 0,
+        "clubDues": 250,
+        "totalAnnual": 250,
+        "description": "Gratis spillerett for de yngste. Kun klubbavgift.",
+        "ageRange": "0-6",
+        "ageMin": 0,
+        "ageMax": 6,
+        "restrictions": null
       },
       {
         "category": "junior",
-        "price": 250,
-        "description": "Medlemskap 2025: I tillegg til spillerett må medlemmer betale klubbavgift: Knøtter 250 kr/år, Junior 250 kr/år, Voksen 900 kr/år. Veien Til Golf-kurs tilgjengelig. Junior- og seniortreningsprogrammer. Golfleksjon med Pro Sander Stavnar. Turneringer og golfturer. Kontakt klubben for fullstendige spillerettspriser via telefon +47 41 62 70 00 eller epost klubben@borregb.no.",
-        "ageRange": null
+        "name": "Junior (7-19 år)",
+        "price": 2450,
+        "clubDues": 250,
+        "totalAnnual": 2700,
+        "description": "Full spillerett for juniorer.",
+        "ageRange": "7-19",
+        "ageMin": 7,
+        "ageMax": 19,
+        "restrictions": null
       },
       {
-        "category": "adult",
-        "price": 900,
-        "description": "Medlemskap 2025: I tillegg til spillerett må medlemmer betale klubbavgift: Knøtter 250 kr/år, Junior 250 kr/år, Voksen 900 kr/år. Veien Til Golf-kurs tilgjengelig. Junior- og seniortreningsprogrammer. Golfleksjon med Pro Sander Stavnar. Turneringer og golfturer. Kontakt klubben for fullstendige spillerettspriser via telefon +47 41 62 70 00 eller epost klubben@borregb.no.",
-        "ageRange": null
+        "category": "ung_voksen",
+        "name": "Ung voksen (20-30 år)",
+        "price": 5450,
+        "clubDues": 900,
+        "totalAnnual": 6350,
+        "description": "Rabattert spillerett for unge voksne.",
+        "ageRange": "20-30",
+        "ageMin": 20,
+        "ageMax": 30,
+        "restrictions": null
+      },
+      {
+        "category": "voksen",
+        "name": "Voksen (31-99 år)",
+        "price": 9450,
+        "clubDues": 900,
+        "totalAnnual": 10350,
+        "description": "Full spillerett for voksne.",
+        "ageRange": "31-99",
+        "ageMin": 31,
+        "ageMax": 99,
+        "restrictions": null
+      },
+      {
+        "category": "hverdag",
+        "name": "Hverdagsmedlem",
+        "price": 6450,
+        "clubDues": 900,
+        "totalAnnual": 7350,
+        "description": "Redusert pris for spill kun på hverdager.",
+        "ageRange": null,
+        "ageMin": null,
+        "ageMax": null,
+        "restrictions": "Kun hverdager (man-fre)"
       }
     ]
+  },
+  "membershipStatus": {
+    "accepting": true,
+    "status": "open",
+    "waitingListSize": null,
+    "waitingListYears": null,
+    "joiningFee": null,
+    "joiningFeeNote": null
   },
   "ratings": {
     "google": {
@@ -187,6 +254,7 @@
     "pagesScraped": null,
     "scrapedAt": "2025-10-31T09:10:41.021Z",
     "createdAt": "2025-10-31T09:10:41.024Z",
-    "updatedAt": "2025-11-03T09:10:17.086Z"
-  }
+    "updatedAt": "2026-02-14T12:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJU_0pccK0RkYRQnHMZQDa1VY"
 }

@@ -111,19 +111,29 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee pricing available on website",
+      "greenFeeWeekdayEarlyLate": 490,
+      "greenFeeWeekdayPrime": 590,
+      "greenFeeWeekendEarlyLate": 590,
+      "greenFeeWeekendPrime": 690,
+      "greenFee9HolesWeekday": 325,
+      "greenFee9HolesWeekend": 400,
+      "dagsgreenfeeWeekday": 800,
+      "greenFeeJuniorDiscount": "50%",
+      "greenFeeDescription": "Man-tor tidlig/sent: 490 kr, prime: 590 kr. Fre-søn tidlig/sent: 590 kr, prime: 690 kr. 9 hull: 325-400 kr. Junior t.o.m. 19 år: halv pris. Medlemmer: 15-25% rabatt.",
+      "midweekPackage": 2200,
+      "weekendPackage": 1800,
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Introduksjonstilbud for nye medlemmer"
+      "memberDiscount": "15-25%",
+      "penaltyFee": 1000,
+      "simulator": true,
+      "simulatorOpenHours": "05:00-24:00",
+      "simulatorBookingUrl": "https://albaplay.com/",
+      "notes": "Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Simulator åpen alle dager 05:00-24:00. Prime-tid: 09:00-14:50. Straffegebyr 1000 kr for spill uten gyldig avtale."
     }
   },
   "membershipPricing": {},
@@ -161,11 +171,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:14.184Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "home",
+      "gjest",
+      "gjest/greenfee",
+      "medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:13:00.000Z",
     "createdAt": "2025-10-31T07:18:14.186Z",
-    "updatedAt": "2025-11-03T09:09:49.744Z"
-  }
+    "updatedAt": "2026-02-14T16:13:00.000Z"
+  },
+  "googlePlaceId": "ChIJKUx_N_aQaUYR8Et23E9axts"
 }

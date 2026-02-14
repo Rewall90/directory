@@ -114,24 +114,46 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 330,
-      "greenFeeWeekend": 330,
+      "greenFee9": 350,
+      "greenFeeDaily": 480,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
       "greenFeeSenior": null,
-      "greenFeeJunior": 200,
-      "greenFeeDescription": "Partner club rates: NOK 400 (Mon-Thu), Junior NOK 200 (Mon-Thu)",
+      "greenFeeJunior": 180,
+      "greenFeeJuniorDaily": 280,
+      "greenFeeDescription": "9-hulls runde voksen: kr 350, dagsgreenfee: kr 480. Junior/student: 9 hull kr 180, dagsgreenfee kr 280.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Selvbetjening via Vipps #98862 utenom åpningstid"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2024": {
+      "currency": "NOK",
+      "full": 5900,
+      "fullDescription": "Hovedmedlem m/fritt spill (årsgreenfee)",
+      "family": 5000,
+      "familyDescription": "Familiemedlem m/fritt spill (årsgreenfee)",
+      "flexible": 3800,
+      "flexibleDescription": "Hovedmedlem m/medlemsgreenfee",
+      "familyFlexible": 2900,
+      "familyFlexibleDescription": "Familiemedlem m/medlemsgreenfee",
+      "youngAdult": 3000,
+      "youngAdultDescription": "Ung voksen (25-30 år) m/fritt spill",
+      "seniorJunior": 1800,
+      "seniorJuniorDescription": "Eldre junior (20-24 år) m/fritt spill",
+      "junior": 800,
+      "juniorDescription": "Junior (13-19 år) m/fritt spill",
+      "child": 300,
+      "childDescription": "Knøtt (0-12 år) m/fritt spill"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -187,11 +209,18 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T12:22:38.475Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjest",
+      "greenfee",
+      "medlem",
+      "medlemskontingent",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-31T12:22:38.477Z",
-    "updatedAt": "2025-11-03T09:10:09.091Z"
-  }
+    "updatedAt": "2026-02-14T15:55:00.000Z"
+  },
+  "googlePlaceId": "ChIJtXRSgGXhRkYR92MDrfz5BYg"
 }

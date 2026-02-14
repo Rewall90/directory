@@ -17,8 +17,8 @@
     "accuracy": null
   },
   "course": {
-    "holes": 9,
-    "holesPlayed": 9,
+    "holes": 27,
+    "holesPlayed": 27,
     "par": null,
     "parPerRound": null,
     "lengthMeters": null,
@@ -38,15 +38,15 @@
     "mountainViews": false,
     "viewDescription": null
   },
-  "description": null,
+  "description": "Et komplett golfanlegg med 18-hulls bane (Østmork) og 9-hulls bane (Vestmork). 6 Trackman simulatorer, proshop, restaurant og instruksjon.",
   "contact": {
     "phone": "67 92 33 40",
     "email": "info@losby.no",
     "emailAlt": null,
     "website": "https://losby.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/Losby-Golfklubb-197645840275855/",
+    "instagram": "https://www.instagram.com/losbygolf/",
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -111,19 +111,22 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee booking available through Golfbox, Gimmie app, or booking phone. Dress code: Appropriate and proper golf attire.",
+      "greenFee18Primetime": 1080,
+      "greenFee18OffPeak": 860,
+      "greenFee9": 345,
+      "greenFeeJunior18": 540,
+      "greenFeeJunior9": 173,
+      "greenFeeMemberNoPlayright18": 680,
+      "greenFeeMemberNoPlayright9": 300,
+      "greenFeeGuestOfAksjonaer": 680,
+      "greenFeeDescription": "Østmork 18-hull: Primetime (hverdager 15-18, helg 09-13): 1080kr. Øvrige tider: 860kr. Juniorer halv pris. Vestmork 9-hull: 345kr alle dager. Juniorer halv pris. Hcp krav 18-hull: 36, 9-hull: 54.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Booking via Golfbox, Gimmie app, eller telefon. Betaling med kort, Vipps eller greenfeebillett. Forventet spilletid 18-hull: 4 timer."
     }
   },
   "membershipPricing": {},
@@ -161,11 +164,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:12.500Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjest/booking-greenfee"
+    ],
+    "scrapedAt": "2026-02-14T16:14:00.000Z",
     "createdAt": "2025-10-31T11:23:12.501Z",
-    "updatedAt": "2025-11-03T09:10:05.535Z"
-  }
+    "updatedAt": "2026-02-14T16:14:00.000Z"
+  },
+  "googlePlaceId": "ChIJo0E2KmJkQUYRZ60DY70d2-c"
 }

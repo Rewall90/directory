@@ -114,24 +114,47 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 250,
       "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Payment preferably by cash. Unattended course with self-service.",
+      "greenFeeJunior": 125,
+      "greenFeeFamily": 500,
+      "greenFeeMemberGuest": 200,
+      "greenFeeDescription": "Greenfee voksen: kr 250. Junior/barn: kr 125. Familie (samme adresse): kr 500. Medlemmers gjester: kr 200. Betaling med Vipps #25354.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "6-hulls bane som spilles 3 ganger for 18 hull. Selvbetjent bane."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "currency": "NOK",
+      "full": 2790,
+      "fullDescription": "Medlemskap m/spillerett",
+      "flexible": 990,
+      "flexibleDescription": "Medlemskap u/spillerett (+ kr 200 greenfee per runde)",
+      "youngAdult": 1390,
+      "youngAdultDescription": "Unge voksne 20-29 år m/spillerett",
+      "junior": 990,
+      "juniorDescription": "Junior 13-19 år m/spillerett",
+      "juniorBasic": 590,
+      "juniorBasicDescription": "Junior 13-19 år u/spillerett",
+      "child": 100,
+      "childDescription": "Junior 0-12 år m/spillerett",
+      "family": 4990,
+      "familyDescription": "Familiemedlemskap (inntil 2 foreldre + barn under 20 år)",
+      "cabin": 990,
+      "cabinDescription": "Hyttemedlemskap m/spillerett"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4,
@@ -207,11 +230,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T12:22:40.600Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjestespill",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:15:00.000Z",
     "createdAt": "2025-10-31T12:22:40.601Z",
-    "updatedAt": "2025-11-03T09:10:12.694Z"
-  }
+    "updatedAt": "2026-02-14T16:15:00.000Z"
+  },
+  "googlePlaceId": "ChIJc3MSah1gP0YRM8w6SOB1k2w"
 }

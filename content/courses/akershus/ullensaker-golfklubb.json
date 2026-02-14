@@ -40,13 +40,13 @@
   },
   "description": "Midt mellom Jessheim og Gardermoen, kun minutter fra hovedfartsåren E6 finnes det en perle av en golfbane. Med sine flotte og utfordrende 9 hull, legger den til rette for en rask runde før eller etter arbeidstid på hverdagene. Vi har også flott treningsområde, puttinggreen, drivingrange og proshop.\n\nMidt mellom Jessheim og Gardermoen, kun minutter fra hovedfartsåren E6 finnes det en perle av en golfbane.",
   "contact": {
-    "phone": "95257828",
+    "phone": "+47 952 57 828",
     "email": "kontakt.ugk@gmail.com",
     "emailAlt": null,
     "website": "https://ugk.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/Ullensaker-Golfklubb-289327817793507",
+    "instagram": "https://www.instagram.com/ullensakergolf/",
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -109,24 +109,65 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Opening hours: [object Object]",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "greenFee9": 225,
+      "greenFee18": 350,
+      "greenFee9Holiday": 300,
+      "greenFee18Holiday": 450,
+      "greenFeeDescription": "Greenfee betales FØR spill i proshop eller via Vipps.",
+      "notes": "Helligdagspriser gjelder også inneklemte dager."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "hovedmedlem": {
+        "name": "Hovedmedlemskap (31-100 år)",
+        "price": 4400,
+        "description": "Full spillerett, turneringer, forsikring, hcp, Norsk Golf blad"
+      },
+      "hovedmedlem2030": {
+        "name": "Hovedmedlemskap 20-30 år",
+        "price": 2500,
+        "description": "For medlemmer født 1995 eller senere"
+      },
+      "greenfeemedlem": {
+        "name": "Greenfeemedlem",
+        "price": 1300,
+        "description": "Over 20 år. Forsikring, Norsk Golf blad, turneringer. Greenfee betales i proshop."
+      },
+      "familie": {
+        "name": "Familiemedlemskap med spillerett",
+        "price": 8600,
+        "description": "2 voksne + 1 junior"
+      },
+      "juniorHoved": {
+        "name": "Junior hovedmedlem (13-19 år)",
+        "price": 1275,
+        "description": "Gratis fellestrening med pro inkludert"
+      },
+      "samboer": {
+        "name": "Samboer/ektefelle hovedmedlemskap",
+        "price": 3700,
+        "description": "Gjelder kun når samboer/ektefelle er hovedmedlem"
+      },
+      "knotte": {
+        "name": "Knøtte hovedmedlem (0-8 år)",
+        "price": 500,
+        "description": "Gratis knøttetrening med pro inkludert"
+      },
+      "barnHoved": {
+        "name": "Barn hovedmedlem (9-12 år)",
+        "price": 900,
+        "description": "Gratis knøttetrening med pro inkludert"
+      },
+      "juniorEkstra": {
+        "name": "Junior nr. 2 i familiemedlemskap",
+        "price": 500,
+        "description": "For hvert ekstra barn i familiemedlemskap"
+      }
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -161,11 +202,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:16.447Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "priser",
+      "medlemsskap"
+    ],
+    "scrapedAt": "2026-02-14T17:51:00.000Z",
     "createdAt": "2025-10-31T11:23:16.448Z",
-    "updatedAt": "2025-11-03T09:09:52.468Z"
-  }
+    "updatedAt": "2026-02-14T17:51:00.000Z"
+  },
+  "googlePlaceId": "ChIJs36bs7qBQUYR1o8Lorp4hbA"
 }

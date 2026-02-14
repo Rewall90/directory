@@ -109,24 +109,69 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 200,
-      "greenFeeWeekend": null,
+      "greenFeeDaily": 330,
+      "greenFeeWeekday": 230,
+      "greenFeeWeekend": 330,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 200 kr for 18 hull (hverdager). Besøkende må være gjest av medlem i helgene. Standard greenfee-range 250-300 kr avhengig av dag og sesong.",
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee 2025: Gjester 330 kr (alle dager), 230 kr (ukedager 07:00-11:50 mai-sept). Medlemmer 280/180 kr. Junior 150/100 kr. 50% rabatt på ekstra runder. Maks HCP per flight: 160, maks 2 spillere med HCP 36+.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "To baner: Hovedbane (9 hull par 30) og Pitch & Putt-bane (9 hull, 42-73m). Driving range åpen 24 timer med flomlys til kl 22. 2 simulatorer for vintertrening. Veien til Golf-kurs. Juniortrening. Pondus Vintercup."
+      "notes": "Driving range åpen 24/7 med flomlys til 22:00. Pitch & Putt åpen alle dager. Simulator booking via Alba. Medlemmer booker 5 dager før, gjester 4 dager før. No-show faktureres full greenfee."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "child",
+        "price": 500,
+        "description": "Junior (0-9 år): 500 kr/år inkl. årskort.",
+        "ageRange": "0-9 år"
+      },
+      {
+        "category": "junior",
+        "price": 1000,
+        "description": "Junior (10-15 år): 1000 kr/år inkl. årskort.",
+        "ageRange": "10-15 år"
+      },
+      {
+        "category": "junior",
+        "price": 1500,
+        "description": "Junior (16-19 år): 1500 kr/år inkl. årskort.",
+        "ageRange": "16-19 år"
+      },
+      {
+        "category": "youngAdult",
+        "price": 4400,
+        "description": "Ung voksen (20-25 år): 4400 kr/år inkl. årskort.",
+        "ageRange": "20-25 år"
+      },
+      {
+        "category": "youngAdult",
+        "price": 5800,
+        "description": "Ung voksen (26-29 år): 5800 kr/år inkl. årskort.",
+        "ageRange": "26-29 år"
+      },
+      {
+        "category": "adult",
+        "price": 7200,
+        "description": "Voksen (30+ år): 7200 kr/år inkl. årskort.",
+        "ageRange": "30+ år"
+      },
+      {
+        "category": "greenfee",
+        "price": 2000,
+        "description": "Greenfee-medlemskap uten spillerett: 2000 kr/år. Betaler greenfee per runde.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -171,12 +216,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "89.0",
-    "websiteQuality": null,
-    "completenessPercentage": 89,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:17:00.960Z",
+    "dataQuality": "94.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 94,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T17:38:00.000Z",
     "createdAt": "2025-10-31T10:17:00.961Z",
-    "updatedAt": "2025-11-03T09:10:00.408Z"
-  }
+    "updatedAt": "2026-02-14T17:38:00.000Z"
+  },
+  "googlePlaceId": "ChIJYbX51k_kPEYRQL9-ucbdZeI"
 }

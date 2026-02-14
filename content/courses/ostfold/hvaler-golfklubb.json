@@ -109,21 +109,34 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": 400,
-      "greenFeeWeekend": 400,
-      "greenFeeSenior": 400,
-      "greenFeeJunior": 200,
-      "greenFeeDescription": "Greenfee 18 hull: ca 400 NOK. Kølleleie tilgjengelig. Kontakt klubben for oppdaterte priser.",
-      "cartRental": 300,
+      "greenFeeWeekday9": 335,
+      "greenFeeWeekday18": 440,
+      "greenFeeWeekend9": 390,
+      "greenFeeWeekend18": 545,
+      "greenFeeWeekday": 440,
+      "greenFeeWeekend": 545,
+      "greenFeeSenior": 440,
+      "greenFeeJunior9": 195,
+      "greenFeeJunior18": 305,
+      "greenFeeJuniorWeekend9": 270,
+      "greenFeeJuniorWeekend18": 405,
+      "greenFeeJunior": 305,
+      "greenFeeKorthull": 125,
+      "greenFeeKorthullJunior": 75,
+      "greenFeeDescription": "Senior hverdag: 335kr (9 hull), 440kr (18 hull). Senior helg/helligdager/juli: 390kr (9 hull), 545kr (18 hull). Junior hverdag: 195kr (9 hull), 305kr (18 hull). Junior helg/helligdager/juli: 270kr (9 hull), 405kr (18 hull). Korthullsbanen (Pay & Play): Voksen 125kr, Junior 75kr. Hcp 54 krav hovedbane.",
+      "cartRental": 500,
+      "cartRentalMember": 400,
+      "cartRental9Holes": 250,
+      "cartRental9HolesMember": 200,
       "pullCartRental": null,
       "clubRental": 150,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Kampanje 2025-2026: Fritt spill ut 2026 ved medlemskap"
+      "notes": "Bestilling via GolfBox eller tlf 909 59 900, Innvalg 2. Betaling i proshop før start."
     }
   },
   "membershipPricing": {},
@@ -173,10 +186,13 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:06.531Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester"
+    ],
+    "scrapedAt": "2026-02-14T16:11:00.000Z",
     "createdAt": "2025-10-31T11:42:06.532Z",
-    "updatedAt": "2025-11-03T09:10:10.292Z"
-  }
+    "updatedAt": "2026-02-14T16:11:00.000Z"
+  },
+  "googlePlaceId": "ChIJ99R22wAZREYRWd721QMebTo"
 }

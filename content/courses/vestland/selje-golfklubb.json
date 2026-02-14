@@ -40,13 +40,14 @@
   },
   "description": "Selje Golfklubb - Utfordrende 9-hulls parklandbane grunnlagt 1997, Norges golfklubb nr. 100. Ble fullverdig NGF-godkjent konkurransebane i november 2004. Par 30 (60 for 18 hull), kun 3 par 4-hull og 6 par 3-hull. Utfordrende bane til tross for at den ikke er veldig lang. Ligger ytterst i havgapet på bølgende jordbruksland fra syv småbruk.",
   "contact": {
-    "phone": "+47 41 23 39 44",
+    "phone": "+47 98 89 84 46",
     "email": "info@seljegolfklubb.no",
     "emailAlt": null,
     "website": "https://seljegolfklubb.no/",
     "facebook": "https://www.facebook.com/SeljeGolfklubb/",
     "instagram": "https://www.instagram.com/seljegolfklubb/",
-    "golfbox": false
+    "golfbox": false,
+    "vipps": "693758"
   },
   "phoneNumbers": [
     {
@@ -95,8 +96,9 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
-    "simulatorType": null,
+    "simulator": true,
+    "simulatorType": "1 Trackman simulator i Selje Samfunnshus",
+    "simulatorCount": 1,
     "simulatorCourses": null,
     "simulatorNotes": null,
     "bunkers": null,
@@ -109,24 +111,48 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
-      "greenFeeWeekend": 250,
+      "greenFeeDaily": 350,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 250 kr.",
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee 2026: Voksen 350 kr (heldags), Junior 200 kr (heldags). Ferie greenfee (10 dager) 1500 kr. Betales via Vipps #693758 før runden. Registrer deg i Gimmie før du slår ut.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
+      "specialOfferPrice": 1500,
+      "specialOfferIncludes": "Ferie greenfee - spill så mye du ønsker i 10 dager",
       "freeTrial": null,
-      "notes": "Sommergreener året rundt. Utfordrende bane med 6 par 3 og 3 par 4. Bølgende terreng med bekker. Ytterst i havgapet. Hull 1 tee flyttes tilbake til opprinnelig plassering i 2025 (ca 100 meter lenger)."
+      "notes": "Simulator: Drop-in 150 kr/time (hverdager før 16), 225 kr/time (etter 16 og helg). Junior halv pris. Sesongkort simulator: 3500-4500 kr. Årskort junior 2500 kr."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "junior",
+        "price": 400,
+        "playingRights": 0,
+        "description": "Junior medlemskap: 400 kr. Spillerett gratis.",
+        "ageRange": "Under 19 år"
+      },
+      {
+        "category": "adult",
+        "price": 900,
+        "playingRights": 1600,
+        "description": "Voksen medlemskap: 900 kr. Spillerett: 1600 kr.",
+        "ageRange": null
+      },
+      {
+        "category": "family",
+        "price": 1500,
+        "playingRights": 2000,
+        "description": "Par/Familie medlemskap: 1500 kr. Spillerett: 2000 kr.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 3,
@@ -160,12 +186,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.0",
-    "websiteQuality": null,
-    "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:17:00.645Z",
+    "dataQuality": "93.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 93,
+    "pagesScraped": [
+      "homepage",
+      "priser-og-medlemskap",
+      "simulator"
+    ],
+    "scrapedAt": "2026-02-14T17:36:00.000Z",
     "createdAt": "2025-10-31T10:17:00.646Z",
-    "updatedAt": "2025-11-03T09:10:15.919Z"
-  }
+    "updatedAt": "2026-02-14T17:36:00.000Z"
+  },
+  "googlePlaceId": "ChIJDaBA_78LF0YR6mviiMweWog"
 }

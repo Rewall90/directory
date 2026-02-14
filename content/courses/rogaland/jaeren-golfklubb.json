@@ -155,32 +155,44 @@
     "2025": [
       {
         "category": "adult",
-        "price": 4500,
-        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
+        "price": 5450,
+        "description": "Hovedmedlem voksen 5450 kr/år eller avtalegiro 490 kr/mnd (12 mnd binding). Med andel 415 kr/mnd. Halv kontingent fra 1. august.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "spouse",
+        "price": 3950,
+        "description": "Ektefelle 3950 kr/år eller avtalegiro 335 kr/mnd (12 mnd binding). Halv kontingent fra 1. august.",
         "ageRange": null
       },
       {
         "category": "junior",
-        "price": 3000,
-        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
-        "ageRange": null
-      },
-      {
-        "category": "halfYearAdult",
-        "price": 2500,
-        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
-        "ageRange": null
-      },
-      {
-        "category": "halfYearJunior",
-        "price": 1750,
-        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
-        "ageRange": null
+        "price": 600,
+        "description": "Barn/junior medlem 600 kr/år. 0-19 år (inkludert året man fyller 19).",
+        "ageRange": "0-19"
       },
       {
         "category": "greenfee",
-        "price": 2200,
-        "description": "Årsmedlemskap voksen (19+ år) 4500 kr, junior (<19 år) 3000 kr. Halvårsmedlemskap (jan-juni eller juli-des) voksen 2500 kr, junior 1750 kr. Greenfee-medlemskap 2200 kr inkluderer 3 greenfees, Golfbox-medlemskap og tilgang til klubbtreninger. Medlemskap kun tilgjengelig for Jæren GK medlemmer. Bestilling via epost (post@jgk.no) eller telefon (46660094).",
+        "price": 2500,
+        "description": "Greenfeemedlem 2500 kr/år. Inkluderer 3 greenfee til banen, Golfbox-medlemskap og tilgang til klubbtreninger.",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 2850,
+        "description": "Student 2850 kr/år eller avtalegiro 240 kr/mnd (12 mnd binding). Studentbevis kreves (fulltidsstudent).",
+        "ageRange": null
+      },
+      {
+        "category": "ggg",
+        "price": 1000,
+        "description": "Golf Grønn Glede/Golf Som Terapi 1000 kr/år. Tilbud via Time, Klepp og Gjesdal kommune.",
+        "ageRange": null
+      },
+      {
+        "category": "passive",
+        "price": 800,
+        "description": "Passivt/Støttemedlem 800 kr/år. Gir ikke spillerett.",
         "ageRange": null
       }
     ]
@@ -221,9 +233,14 @@
     "dataQuality": "82.0",
     "websiteQuality": null,
     "completenessPercentage": 82,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:23.028Z",
+    "pagesScraped": [
+      "https://www.jgk.no/",
+      "https://www.jgk.no/kontingent",
+      "https://www.jgk.no/rabattertgreenfee"
+    ],
+    "scrapedAt": "2026-02-14T16:01:00.000Z",
     "createdAt": "2025-10-31T07:46:23.030Z",
-    "updatedAt": "2025-11-03T09:10:16.485Z"
-  }
+    "updatedAt": "2026-02-14T16:01:00.000Z"
+  },
+  "googlePlaceId": "ChIJtetFTCw_OkYRqKadQIKorD4"
 }

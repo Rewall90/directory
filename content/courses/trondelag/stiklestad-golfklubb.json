@@ -114,35 +114,100 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 400,
-      "greenFeeWeekend": 400,
+      "greenFeeDaily": 600,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 600,
+      "greenFee9": 350,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Se klubbens priser; 2025 ikke oppgitt.",
-      "cartRental": null,
-      "pullCartRental": null,
+      "greenFeeJunior": 300,
+      "greenFeeStudent": 400,
+      "greenFeeBarn": 0,
+      "greenFeeDescription": "Greenfee 600 kr, 9 hull 350 kr. Student 400 kr (under 30 år). Junior 13-19 år 300 kr. Barn t.o.m. 12 år gratis med betalende voksen. Ektefeller/samboere 1000 kr. Familie (2+2) 1200 kr.",
+      "cartRental": 400,
+      "pullCartRental": 50,
       "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
+      "cartRentalMedical": 350,
+      "rangeBalls": 30,
+      "specialOfferPrice": 1000,
+      "specialOfferIncludes": "2-dagerskort (samme uke). 3-dagerskort 1400 kr.",
       "freeTrial": null,
-      "notes": "Årsmedlemskap 2300/3500 (ubegrenset spill). Golfpakker via Stiklestad Nasjonale Kultursenter."
+      "notes": "Greenfeesamarbeid med Austrått, Frosta, Helgeland, Klæbu, Namdal, Namsos, Røros, Sandneset, Steinkjer, Stjørdal, Storsjøbygden, Åre."
     }
   },
   "membershipPricing": {
-    "2024": [
+    "2026": [
       {
-        "category": "annualBasic",
-        "price": 2300,
-        "description": "Årsmedlemskap med ubegrenset spill (2024 satser).",
+        "category": "Barn",
+        "price": 210,
+        "description": "Til og med 12 år.",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Ungdom",
+        "price": 880,
+        "description": "13-15 år. Månedlig 105 kr.",
+        "ageRange": "13-15"
+      },
+      {
+        "category": "Junior",
+        "price": 1750,
+        "description": "16-19 år. Månedlig 175 kr.",
+        "ageRange": "16-19"
+      },
+      {
+        "category": "Unge voksne 20-25",
+        "price": 4580,
+        "description": "20-25 år. Månedlig 410 kr.",
+        "ageRange": "20-25"
+      },
+      {
+        "category": "Unge voksne 26-30",
+        "price": 5510,
+        "description": "26-30 år. Månedlig 490 kr.",
+        "ageRange": "26-30"
+      },
+      {
+        "category": "Voksne",
+        "price": 7570,
+        "description": "Fra 31 år. Månedlig 660 kr.",
+        "ageRange": "31+"
+      },
+      {
+        "category": "Familie",
+        "price": 13340,
+        "description": "Ektefeller, samboere og barn t.o.m. 19 år på samme adresse. Månedlig 1140 kr.",
         "ageRange": null
       },
       {
-        "category": "annualPremium",
-        "price": 3500,
-        "description": "Årsmedlemskap med ubegrenset spill (2024 satser).",
+        "category": "Fjernmedlem",
+        "price": 3810,
+        "description": "Bostedsadresse over 50 km fra Trones. Månedlig 350 kr.",
+        "ageRange": null
+      },
+      {
+        "category": "Greenfeemedlem",
+        "price": 2370,
+        "description": "Greenfee 9 hull 200 kr, 18 hull 400 kr. Månedlig 230 kr.",
+        "ageRange": null
+      },
+      {
+        "category": "Greenfeemedlem+",
+        "price": 3610,
+        "description": "5x18-hullsrunder eller 10x9-hullsrunder inkludert, deretter 200/400 kr. Månedlig 330 kr.",
+        "ageRange": null
+      },
+      {
+        "category": "Comeback",
+        "price": 4790,
+        "description": "Fra 31 år. Gjelder spillere som ikke var medlem i norsk golfklubb foregående år.",
+        "ageRange": "31+"
+      },
+      {
+        "category": "Steinkjermedlemmer",
+        "price": 4580,
+        "description": "Gjelder hovedmedlemmer i Steinkjer Golfklubb. Månedlig 410 kr.",
         "ageRange": null
       }
     ]
@@ -181,11 +246,18 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:53.749Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "gjest",
+      "priser",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:43:00.000Z",
     "createdAt": "2025-10-31T11:30:53.752Z",
-    "updatedAt": "2025-11-03T09:10:08.243Z"
-  }
+    "updatedAt": "2026-02-14T16:43:00.000Z",
+    "notes": "One of Norway's best courses per national survey. Simulator center open 06:00-23:00 daily."
+  },
+  "googlePlaceId": "ChIJgZ9NXDRjbUYR5RBklhdO0lI"
 }

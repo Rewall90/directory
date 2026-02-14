@@ -118,9 +118,51 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Redusert pris for samarbeidsklubber"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 300,
+      "greenFee9": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 150,
+      "greenFeeJuniorSamarbeidsklubb": 100,
+      "greenFeeSamarbeidsklubb": 150,
+      "greenFeeKlubbmedlem": 100,
+      "twilight": null,
+      "greenFeeDescription": "Senior/voksen: 300 kr/dag. Junior: 150 kr/dag (klubbjuniorer gratis). Samarbeidsklubber: 150 kr. Junior samarbeidsklubb: 100 kr. Klubbmedlemmer: 100 kr/dag.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "golfCartRental": true,
+      "golfSetRental": true,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Utleie av golfbil for de som er dårlige til beins. Utleie av golfsett."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "fullMembership": 1500,
+      "fullMembershipDescription": "Medlem (+ spilleavgift 500 kr for fri spill)",
+      "familyMembership": 2500,
+      "familyMembershipDescription": "Familie (1 voksen + min 2 barn / 2 voksen + barn), spilleavgift 0 kr",
+      "seniorMembership": 1000,
+      "seniorMembershipDescription": "Senior medlem (+ spilleavgift 300 kr)",
+      "spouseMembership": 1000,
+      "spouseMembershipDescription": "Ektefelle/samboer (+ spilleavgift 300 kr)",
+      "juniorMembership": 500,
+      "juniorMembershipDescription": "Junior under 19 år, gratis spill på banen",
+      "supportMembership": 500,
+      "supportMembershipDescription": "Støttemedlem (kun støtte, ikke spillerett)",
+      "spilleavgift": "Årlig avgift for fri spill hele sesongen",
+      "membershipStatus": "open",
+      "notes": "Spilleavgift gir fri spill hele sesongen. Junior spiller gratis t.o.m. året man fyller 18 år."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 3.8,
@@ -175,12 +217,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "89.0",
+    "dataQuality": "93.0",
     "websiteQuality": null,
-    "completenessPercentage": 89,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:09.605Z",
+    "completenessPercentage": 93,
+    "pagesScraped": [
+      "index",
+      "klubb"
+    ],
+    "scrapedAt": "2026-02-14T16:10:00.000Z",
     "createdAt": "2025-10-31T09:31:09.606Z",
-    "updatedAt": "2025-11-03T09:09:37.686Z"
-  }
+    "updatedAt": "2026-02-14T16:10:00.000Z"
+  },
+  "googlePlaceId": "ChIJCW7RVnUzEkYRYA55mR7VuXo"
 }

@@ -119,21 +119,26 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": 550,
-      "greenFeeWeekend": 600,
-      "greenFeeSenior": 550,
-      "greenFeeJunior": 300,
-      "greenFeeDescription": "Greenfee 18 hull: ca 550-600 NOK avhengig av dag. Medlemsgjest: 250 kr rabatt ved spill med fullbetalende medlem. Se evjegolf.no for oppdaterte priser.",
+      "greenFeeWeekday": 750,
+      "greenFeeWeekend": 800,
+      "greenFeeWeekendPrimetime": 900,
+      "greenFeeSenior": 750,
+      "greenFeeJunior": 350,
+      "greenFeeJuniorWeekend": 400,
+      "greenFee9Holes": 400,
+      "greenFeeTwilightWeekday": 550,
+      "greenFeeTwilightWeekend": 650,
+      "greenFeeDescription": "Hverdager 750kr. Helg/helligdager primetime (09-14) 900kr. Helg/helligdager (06-09, 14-18) 800kr. 9-hulls runde 400kr (hverdager og helg etter 14:00). Junior 8-19 år: 350kr (hverdag) / 400kr (helg). Twilight fra 18:00: 550kr (hverdag) / 650kr (helg). Forhåndsbetaling i GolfBox.",
       "cartRental": 400,
       "pullCartRental": null,
       "clubRental": 300,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemsgjest får 250 kr rabatt"
+      "notes": "Gjest av medlem: 250kr rabatt (maks 3 gjester, gjelder ikke junior). Medlem bokker 10 dager i forveien, gjester 6 dager. Greenfee gjelder hele dagen."
     }
   },
   "membershipPricing": {},
@@ -183,10 +188,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:06.846Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "start/gjest",
+      "start/gjest/greenfee"
+    ],
+    "scrapedAt": "2026-02-14T16:14:00.000Z",
     "createdAt": "2025-10-31T11:42:06.848Z",
-    "updatedAt": "2025-11-03T09:10:10.584Z"
-  }
+    "updatedAt": "2026-02-14T16:14:00.000Z"
+  },
+  "googlePlaceId": "ChIJa7Gr8w2tRkYRr2ZCY3XGLJ8"
 }

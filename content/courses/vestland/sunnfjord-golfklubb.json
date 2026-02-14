@@ -42,11 +42,12 @@
   "contact": {
     "phone": "+47 95 27 66 63",
     "email": "post@sunnfjordgk.no",
-    "emailAlt": null,
+    "emailAlt": "arvid@arsethgolf.no",
     "website": "https://sunnfjordgk.no/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/sunnfjordgolfklubb",
     "instagram": null,
-    "golfbox": true
+    "golfbox": true,
+    "vipps": "687992"
   },
   "phoneNumbers": [
     {
@@ -78,7 +79,7 @@
   "facilities": {
     "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": null,
+    "drivingRangeNotes": "15 tees, 3 overdekte",
     "puttingGreen": true,
     "chippingArea": true,
     "practiceBunker": true,
@@ -87,10 +88,12 @@
     "proShop": true,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Golfsett køller med bag - 250 kr dagspris",
+    "cartRental": true,
+    "cartRentalNotes": "9 hull 150 kr, 18 hull 250 kr. Maks 2 personer, 18+ aldersgrense.",
+    "pullCartRental": true,
+    "pullCartRentalPrice": 30,
     "golfLessons": true,
     "teachingPro": true,
     "clubFitting": null,
@@ -114,24 +117,62 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 300,
-      "greenFeeWeekend": 300,
+      "greenFee9": 250,
+      "greenFee18": 400,
+      "greenFeeDaily": 400,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
       "greenFeeSenior": null,
-      "greenFeeJunior": 150,
-      "greenFeeDescription": "Greenfee 2025: 300 kr hel dag (alle dager). Junior/student 50% rabatt: 150 kr. Booking via Golfbox. Driving range 20 kr per bøtte.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee 2025: Hel dag 400 kr, 9 hull 250 kr. Junior/Student/Militær: 200 kr. Medlem uten spillerett: 250 kr. Uten gyldig NGF-kort: 550 kr. Laerdal/Floro-medlemmer: 300 kr. Kortholsbane: Gratis!",
+      "cartRental": 150,
+      "cartRental18": 250,
+      "pullCartRental": 30,
+      "clubRental": 250,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "9-hulls bane med doble tees for 18-hulls variasjon. Golfopplevelse mellom fjord og fjell. Driving range (15 tees, 3 overdekte) bare 20 kr per bøtte. Junior/student 50% rabatt. Kortholsbane tilgjengelig. Fritidskortet godkjent."
+      "notes": "Kortholsbane gratis - trenger ikke medlemskap! 9-hulls bane med doble tees. Golfopplevelse mellom fjord og fjell. Trackman simulator. Teaching pros: Donovan Goosen (club fitting), Arvid Arseth. Fritidskortet godkjent."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "child",
+        "price": 700,
+        "description": "Barn under 14 år: 700 kr/år totalt (inkl. spillerett)",
+        "ageRange": "Under 14 år"
+      },
+      {
+        "category": "junior",
+        "price": 1650,
+        "description": "Junior 15-19 år: 1650 kr/år",
+        "ageRange": "15-19 år"
+      },
+      {
+        "category": "student",
+        "price": 2000,
+        "description": "Fulltidsstudent/Militær: 2000 kr/år",
+        "ageRange": null
+      },
+      {
+        "category": "adult",
+        "price": 3000,
+        "playingRights": 2350,
+        "description": "Voksen: Medlemskap 2300 kr + Dugnadsavgift 700 kr = 3000 kr. Årlig spillerett (valgfritt) 2350 kr. Total med spillerett: 5350 kr. Boende utenfor Sunnfjord slipper dugnadsavgift.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 2100,
+        "playingRights": 2000,
+        "description": "Ektefelle/Samboer: Medlemskap 1400 kr + Dugnadsavgift 700 kr = 2100 kr. Spillerett 2000 kr. Total: 4100 kr.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -176,12 +217,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:17:01.781Z",
+    "dataQuality": "95.0",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "medlem",
+      "greenfee"
+    ],
+    "scrapedAt": "2026-02-14T17:42:00.000Z",
     "createdAt": "2025-10-31T10:17:01.783Z",
-    "updatedAt": "2025-11-03T09:10:01.034Z"
-  }
+    "updatedAt": "2026-02-14T17:42:00.000Z"
+  },
+  "googlePlaceId": "ChIJuZMb_IM5FkYRMXfiksxpw9U"
 }

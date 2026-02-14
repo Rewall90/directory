@@ -96,7 +96,8 @@
     "eventVenue": null,
     "eventCapacity": null,
     "simulator": true,
-    "simulatorType": "Toppmoderne simulator-senter hvor du kan spille på virtuelle baner og forbedre ferdighetene dine hele året. Gir muligheten til å spille på noen av verdens beste baner, samtidig som du får nøyaktige data og tilbakemeldinger.",
+    "simulatorCount": 3,
+    "simulatorType": "Trackman - Toppmoderne simulator-senter med 3 simulatorer hvor du kan spille på virtuelle baner og forbedre ferdighetene dine hele året.",
     "simulatorCourses": null,
     "simulatorNotes": null,
     "bunkers": null,
@@ -109,24 +110,34 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee priser tilgjengelig på kjekstad-gk.no. Tiered pricing for gjester.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Gapahuk ved Stordammen på hull 10 for pause ute i naturen. Simulator-senter tilgjengelig hele året. Tradisjonell Kjekstad-vaffel (spesialitet i kafeen)."
+      "greenFee18Weekday": 600,
+      "greenFee18Weekend": 650,
+      "greenFee18Junior": "50%",
+      "greenFee18WithMemberDiscount": 100,
+      "greenFee9": 250,
+      "greenFee9WithMemberDiscount": 50,
+      "greenFee9x2": 400,
+      "greenFeeDescription": "18-hull: hverdag 600 kr, helg 650 kr. 9-hull: 250 kr (alle dager). 18 hull på 9-hullsbanen: 400 kr. Junior: 50% av greenfee. Medlem kan ta med 3 gjester med 100 kr rabatt (18-hull) eller 50 kr rabatt (9-hull).",
+      "notes": "Greenfeemedlemskap gir 50% rabatt på 18-hullsbanen. VIPPS til 515032 utenom åpningstid. Gapahuk ved Stordammen på hull 10."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "adult30Plus": 9100,
+      "youngAdult26_29": 6500,
+      "youngAdult20_25": 5000,
+      "familyMain": 20000,
+      "junior15_19": 2500,
+      "junior12_14": 1800,
+      "junior0_11": 1250,
+      "greenfeeMembership": 5100,
+      "familyShortCourse": 11000,
+      "innmeldingsavgift": 0,
+      "notes": "Ingen innmeldingsavgift eller krav til kjøp av andel. Fakturaer over 5000 kr kan deles opp i 4 avdrag via autogiro (35 kr gebyr per faktura). Kontingent vedtas på årsmøtet 10. mars 2026."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -162,10 +173,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:54:18.517Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:05:00.000Z",
     "createdAt": "2025-10-31T05:54:18.519Z",
-    "updatedAt": "2025-11-03T09:09:45.007Z"
-  }
+    "updatedAt": "2026-02-14T16:05:00.000Z"
+  },
+  "googlePlaceId": "ChIJqTlgMfM-QUYRP0-q3mPeSp4"
 }

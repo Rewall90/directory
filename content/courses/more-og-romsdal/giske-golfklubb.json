@@ -124,6 +124,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 250,
+      "greenFee9": null,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 150,
+      "greenFeeChildren": 0,
+      "twilight": null,
+      "greenFeeDescription": "Greenfee 18 hull voksen: 250 kr, junior (13-19 år): 150 kr, barn (0-12 år): gratis. Medlemmer av Ålesund GK og Giske GK får rabatt (voksen 200 kr, junior 120 kr). Booking via GolfBox, betaling via Vipps #113948. Dobbel greenfee ved kontroll uten betaling.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Booking via GolfBox, betaling via Vipps #113948"
     }
   },
   "membershipPricing": {},
@@ -163,9 +182,15 @@
     "dataQuality": "90.0",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:07.831Z",
+    "pagesScraped": [
+      "gjestespill-2",
+      "klubben",
+      "banen",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-31T09:31:07.833Z",
-    "updatedAt": "2025-11-03T09:10:12.090Z"
-  }
+    "updatedAt": "2026-02-14T15:55:00.000Z"
+  },
+  "googlePlaceId": "ChIJlX9hfDPXFkYRLRuhvdWUeSk"
 }

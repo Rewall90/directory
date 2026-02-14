@@ -17,30 +17,30 @@
     "accuracy": null
   },
   "course": {
-    "holes": 9,
-    "holesPlayed": 9,
-    "par": 28,
-    "parPerRound": 28,
-    "lengthMeters": 857,
+    "holes": 6,
+    "holesPlayed": 6,
+    "par": 21,
+    "parPerRound": 21,
+    "lengthMeters": null,
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Coastal/Seaside",
-    "courseType": "9-hulls kort skystbane",
+    "courseType": "6-hulls kortbane",
     "designer": null,
-    "yearBuilt": 2008,
+    "yearBuilt": 2005,
     "yearRedesigned": null,
     "waterHazards": null,
     "signatureHole": "Kystlandskap og skjærgård rundt banen",
     "scenicHole": "Kystlandskap og skjærgård rundt banen",
-    "par3Count": 8,
-    "par4Count": 1,
+    "par3Count": 6,
+    "par4Count": 0,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Veierland Golfklubb - 9-hulls kort kystbane på Veierland øy. Par 28, 857 meter. Omgitt av rolig kystlandskap og skjærgård. Hyggelig klubbhus. Treningsområde. Egnet for nybegynnere og erfarne spillere. Åpent for publikum."
+    "viewDescription": "Veierland Golfklubb - 6-hulls kortbane på idylliske Veierland øy i Færder. Banen åpnet i 2005, klubben stiftet i 2008. Omgitt av rolig kystlandskap og skjærgård ved Albykilen. Hyggelig klubbhus. NGF og NIF-medlem. Egnet for nybegynnere og trening til grønt kort. Åpent for publikum."
   },
-  "description": "Veierland Golfklubb - 9-hulls kort kystbane på idylliske Veierland øy i Færder. Bygget 2008. Par 28, 857 meter. 8 par 3-hull og 1 par 4. Omgitt av rolig kystlandskap. Overraskende og hyggelig å finne en golfbane midt i skjærgårdsparadiset. Egnet for både nybegynnere og erfarne spillere.",
+  "description": "Veierland Golfklubb - 6-hulls kortbane på idylliske Veierland øy i Færder. Banen åpnet i 2005, klubben stiftet i 2008. NGF og NIF-medlem som utsteder HCP-kort. Omgitt av rolig kystlandskap ved Albykilen. Kun 5-10 minutter å gå fra fergeleiet ved Vestgården. Overraskende og hyggelig å finne en golfbane midt i skjærgårdsparadiset. Ypperlig for trening til grønt kort. Alle velkommen med følge av person med gyldig grønt kort. Åpent for publikum april-oktober.",
   "contact": {
-    "phone": null,
+    "phone": "+47 970 05 737",
     "email": null,
     "emailAlt": null,
     "website": null,
@@ -48,10 +48,21 @@
     "instagram": null,
     "golfbox": false
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "+47 970 05 737",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "+47 907 39 401",
+      "type": "secondary",
+      "primary": false
+    }
+  ],
   "season": {
-    "start": null,
-    "end": null,
+    "start": "April",
+    "end": "Oktober",
     "winterUse": null
   },
   "visitors": {
@@ -62,7 +73,7 @@
   },
   "organization": {
     "courseCompany": null,
-    "clubOrganization": "Veierland Golfklubb (Organisasjonsnummer: 993 006 084, Grunnlagt 2008)"
+    "clubOrganization": "Veierland Golfklubb (Org.nr: 993 006 084, stiftet 02.05.2008, NGF og NIF-medlem)"
   },
   "facilities": {
     "drivingRange": false,
@@ -76,10 +87,10 @@
     "proShop": false,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
+    "clubRental": true,
+    "clubRentalNotes": "Utleie av køller tilgjengelig",
     "cartRental": false,
-    "pullCartRental": false,
+    "pullCartRental": true,
     "golfLessons": null,
     "teachingPro": false,
     "clubFitting": null,
@@ -100,24 +111,25 @@
     "tennis": null,
     "tennisCourts": null,
     "discGolf": null,
-    "discGolfStandard": null
+    "discGolfStandard": null,
+    "creditCards": false
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Kontakt klubben for greenfee-priser.",
+      "greenFeeDescription": "Kontakt klubben for greenfee-priser. Telefon: 970 05 737 eller 907 39 401.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Kort og hyggelig bane på idyllisk øy. Egnet for alle nivåer."
+      "notes": "6-hulls kortbane på idyllisk øy. Egnet for alle nivåer og trening til grønt kort. Kun kontant betaling - kredittkort aksepteres ikke."
     }
   },
   "membershipPricing": {},
@@ -152,14 +164,32 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    {
+      "name": "GolfPass",
+      "url": "https://www.golfpass.com/travel-advisor/courses/36958-veierland-golf-club"
+    },
+    {
+      "name": "Hole19",
+      "url": "https://www.hole19golf.com/courses/veierland-golfklubb"
+    },
+    {
+      "name": "1881.no",
+      "url": "https://www.1881.no/idrettslag-og-klubber/idrettslag-og-klubber-vestfold/idrettslag-og-klubber-veierland/veierland-golfklubb_106679988S0/"
+    }
+  ],
   "meta": {
-    "dataQuality": "72.0",
-    "websiteQuality": null,
-    "completenessPercentage": 72,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:10:46.339Z",
+    "dataQuality": "good",
+    "websiteQuality": "no-website",
+    "completenessPercentage": 78,
+    "pagesScraped": [
+      "golfpass",
+      "1881.no",
+      "hole19"
+    ],
+    "scrapedAt": "2026-02-14T00:00:00.000Z",
     "createdAt": "2025-10-31T09:10:46.341Z",
-    "updatedAt": "2025-11-03T09:10:07.074Z"
-  }
+    "updatedAt": "2026-02-14T00:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJq5w0bAC5RkYR3y_B0ITr6v8"
 }

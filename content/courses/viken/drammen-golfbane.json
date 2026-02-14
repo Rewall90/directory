@@ -121,10 +121,10 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
-    "simulatorType": null,
+    "simulator": true,
+    "simulatorType": "TrackMan",
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "TrackMan simulator på klubbhuset, åpnet februar 2026",
     "bunkers": null,
     "footgolf": null,
     "footgolfHoles": null,
@@ -135,62 +135,73 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
+      "greenFee9Weekday": 300,
+      "greenFee9Weekend": 400,
+      "greenFee18Weekday": 550,
+      "greenFee18Weekend": 600,
       "greenFeeWeekday": 550,
       "greenFeeWeekend": 600,
       "greenFeeSenior": null,
-      "greenFeeJunior": 275,
-      "greenFeeDescription": "18 HULL:\n• Hverdag: 550 NOK\n• Helg: 600 NOK\n• Junior: 275 NOK (halv pris alle dager)\n\n9 HULL:\n• Hverdag: 300 NOK\n• Helg: 400 NOK\n• Junior: 150/200 NOK (halv pris)\n\nMEDLEM MED GJEST (maks 3 gjester):\n• Hverdag: 500 NOK per gjest\n• Helg: 550 NOK per gjest\n• Gjest må være forhåndsbestilt",
+      "greenFeeJunior": null,
+      "greenFeeJuniorNote": "Junior 1/2 pris alle dager",
+      "greenFeeDescription": "18 HULL:\n• Hverdag: 550 NOK\n• Helg: 600 NOK\n• Junior: halv pris alle dager\n\n9 HULL:\n• Hverdag: 300 NOK\n• Helg: 400 NOK\n• Junior: halv pris\n\nMEDLEM MED GJEST (maks 3 gjester):\n• Hverdag: 500 NOK per gjest\n• Helg: 550 NOK per gjest\n• Gjest må forhåndsbookes og betales av medlemmet",
+      "cartRental18": 420,
+      "cartRental18Member": 350,
+      "cartRental9": 250,
+      "cartRentalYearly": 5000,
       "cartRental": 420,
       "pullCartRental": 100,
       "clubRental": null,
+      "golfCarts": 16,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "GOLFBIL (2025):\n• 18 hull standard: 420 NOK\n• 18 hull medlem: 350 NOK\n• 18 hull med legeerklæring: 250 NOK\n• 9 hull: 200 NOK\n• Booking via EAGL app\n• Aldersgrense 18 år\n• Kjøring rundt greener forbudt\n\nTREKKBIL: 100 NOK\n\nBETALING: Forskuddsbetaling kreves ved booking i Golfbox\n\nINNSJEKK: Møt opp minimum 10 minutter før tee time i pro shop\n\nBOOKING:\n• Medlemmer: 10 dager i forveien\n• Gjester: 6 dager i forveien\n\nSTORE GRUPPER: 12-24 greenfee-spillere må kontakte klubben på 32 88 03 03 eller post@drammen.golf"
+      "notes": "GOLFBIL (2026):\n• 18 hull standard: 420 NOK\n• 18 hull medlem: 350 NOK\n• 9 hull: 250 NOK\n• Årskort: 5000 NOK\n• Aldersgrense 18 år\n• Kjøring rundt greener forbudt\n• 16 elektriske golfbiler tilgjengelig\n\nBETALING: All greenfee forhåndsbetales i Golfbox\n\nINNSJEKK: Møt opp minimum 10 minutter før tee time i pro shop\n\nBOOKING:\n• Medlemmer: 10 dager i forveien\n• Gjester: 6 dager i forveien\n\nSTORE GRUPPER: 12-24 greenfee-spillere kontakt 32 88 03 03 eller post@drammen.golf\n\nNYTT: TrackMan Simulator på klubbhuset!"
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "voksen",
-        "price": 8000,
-        "description": "Full membership with unlimited play, current season",
+        "price": 8500,
+        "description": "Fullverdig medlem Voksen 2026 - spillerett med fritt spill",
         "ageRange": "26+"
       },
       {
         "category": "ung_voksen",
-        "price": 4500,
-        "description": "Unlimited play for ages 20-25",
+        "price": 4800,
+        "description": "Fullverdig medlem Ung Voksen 2026 - spillerett med fritt spill",
         "ageRange": "20-25"
       },
       {
         "category": "junior",
-        "price": 2500,
-        "description": "Unlimited play for ages 13-19",
+        "price": 2700,
+        "description": "Fullverdig medlem Junior 2026 - spillerett med fritt spill",
         "ageRange": "13-19"
       },
       {
         "category": "knotter",
         "price": 700,
-        "description": "Unlimited play for ages 0-12",
+        "description": "Knøtter 2026 - fritt spill for barn 0-12 år",
         "ageRange": "0-12"
       },
       {
         "category": "klubbmedlemskap",
         "price": 3000,
-        "description": "For those who don't play as much golf",
+        "description": "Klubbmedlemskap uten spillerett m/3 greenfee inkludert. For deg som ikke spiller så mye golf, men ønsker å være medlem av Drammen Golfklubb.",
         "ageRange": null
       },
       {
         "category": "hverdag",
-        "price": 5000,
-        "description": "Limited play rights - weekdays only",
+        "price": 6000,
+        "description": "Hverdagsmedlemskap 2026 - spillerett på hverdager",
         "ageRange": null
       }
-    ]
+    ],
+    "familiemedlemskap": "Ved 2 fullt betalende voksne med fritt spill, får inntil 2 felles barn gratis medlemskap med fri spillerett t.o.m. 19 år."
   },
   "ratings": {},
   "courseRatings": [],
@@ -233,10 +244,10 @@
   "meta": {
     "dataQuality": "high",
     "websiteQuality": "excellent",
-    "completenessPercentage": 75,
-    "pagesScraped": 8,
-    "scrapedAt": "2025-10-22T12:33:17.700Z",
+    "completenessPercentage": 80,
+    "pagesScraped": 5,
+    "scrapedAt": "2026-02-14T16:22:00.000Z",
     "createdAt": "2025-10-10T10:23:39.255Z",
-    "updatedAt": "2025-10-22T12:42:28.237Z"
+    "updatedAt": "2026-02-14T16:22:00.000Z"
   }
 }

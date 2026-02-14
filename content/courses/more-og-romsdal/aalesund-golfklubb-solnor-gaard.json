@@ -124,9 +124,65 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 500,
+      "greenFee9": 300,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": 500,
+      "greenFeeJunior": 250,
+      "greenFeeMemberGuest18": 350,
+      "greenFeeMemberGuest9": 250,
+      "twilight": null,
+      "greenFeeDescription": "Greenfee: 500 kr (18 hull), 300 kr (9 hull). Junior halv pris. Gjest av medlem: 350 kr (18 hull), 250 kr (9 hull).",
+      "cartRental18": 450,
+      "cartRental9": 300,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golfbil bestilles via EAGL-appen. Rabatterte gjestesatser gjelder ved spill sammen med medlemmer med full spillerett."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "fullMembership": 8000,
+      "fullMembershipDescription": "Medlem 35+ år - inkl. kontingent 2000 kr + spillerett 6000 kr",
+      "youngAdult26to34Membership": 7000,
+      "youngAdult26to34MembershipDescription": "Medlem 26-34 år - inkl. kontingent 2000 kr + spillerett 5000 kr",
+      "youngAdult20to25Membership": 6000,
+      "youngAdult20to25MembershipDescription": "Medlem 20-25 år - inkl. kontingent 2000 kr + spillerett 4000 kr",
+      "juniorMembership13to19": 2150,
+      "juniorMembership13to19Description": "Junior 13-19 år - inkl. kontingent 500 kr + spillerett 1650 kr",
+      "juniorMembership7to12": 1300,
+      "juniorMembership7to12Description": "Junior 7-12 år - inkl. kontingent 500 kr + spillerett 800 kr",
+      "juniorMembership0to6": 220,
+      "juniorMembership0to6Description": "Junior 0-6 år - kun kontingent",
+      "familyMembership": 16000,
+      "familyMembershipDescription": "Familiemedlemskap - 2 voksne (à 6000 kr) + barn under 19 år",
+      "moaMembership": 2500,
+      "moaMembershipDescription": "Moa-medlemskap - begrenset til Moa Golfsenter med rabatt på Solnør",
+      "giskeMembership": 7200,
+      "giskeMembershipDescription": "Giske-medlem - inkl. kontingent 2000 kr + spillerett 5200 kr",
+      "distanceMembership": 999,
+      "distanceMembershipDescription": "Fjernmedlem - for medlemmer utenfor definerte kommuner",
+      "passivMembership": 1000,
+      "passivMembershipDescription": "Medlemskap uten golfkort/spillerett",
+      "vtgFirstYear20plus": 3600,
+      "vtgFirstYear20plusDescription": "VTG 1. år 20+ - nybegynnerkurs med spillerett",
+      "vtgFirstYearUnder20": 2600,
+      "vtgFirstYearUnder20Description": "VTG 1. år under 20 år - nybegynnerkurs med spillerett",
+      "vtgSecondYear": 5000,
+      "vtgSecondYearDescription": "VTG medlem 2. år - overgang etter nybegynnerkurs",
+      "dugnadsrabatt": "Inntil 1000 kr rabatt for minimum 10 timer dugnad",
+      "membershipStatus": "open",
+      "notes": "Priser godkjent på årsmøte 18. mars 2025. Dugnadsrabatt tilgjengelig for kategoriene Medlem 35+, 26-34, 20-25, Familie og Giske."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -211,12 +267,19 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "94.5",
+    "dataQuality": "97.0",
     "websiteQuality": null,
-    "completenessPercentage": 94,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:12.699Z",
+    "completenessPercentage": 97,
+    "pagesScraped": [
+      "index",
+      "gjester",
+      "medlemskap",
+      "medlemskap/medlemskap-2026",
+      "banene/golfbilutleie"
+    ],
+    "scrapedAt": "2026-02-14T17:10:00.000Z",
     "createdAt": "2025-10-31T09:31:12.700Z",
-    "updatedAt": "2025-11-03T09:09:45.565Z"
-  }
+    "updatedAt": "2026-02-14T17:10:00.000Z"
+  },
+  "googlePlaceId": "ChIJ4VvXTPLaFkYRLG38tNRD65M"
 }

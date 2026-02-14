@@ -119,24 +119,48 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 400,
-      "greenFeeWeekend": 400,
-      "greenFeeSenior": 400,
-      "greenFeeJunior": 200,
-      "greenFeeDescription": "Greenfee voksen: 400 NOK for 18 hull, 250 NOK for 9 hull. Junior: 200 NOK. Prisene kan variere, kontakt klubben for oppdatert prising.",
-      "cartRental": 300,
+      "greenFee18": 500,
+      "greenFee9": 300,
+      "greenFeeDaily": 500,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": 500,
+      "greenFeeJunior": 250,
+      "greenFeeMember": 250,
+      "greenFeeFjernmedlem": 250,
+      "greenFeeDescription": "Dagsgreenfee 18 hull: 500 kr, 9 hull: 300 kr, Junior: 250 kr. Medlemmer uten spillerett og fjernmedlemmer: 250 kr.",
+      "cartRental": 400,
       "pullCartRental": null,
-      "clubRental": 40,
+      "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Midnattssol-golf tilgjengelig fra midten av juni til midten av august - spill døgnet rundt"
+      "notes": "Midnattssol-golf tilgjengelig fra midten av juni til midten av august"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "junior0_11_membership": 0,
+      "junior0_11_playRight": 0,
+      "junior12_19_membership": 1650,
+      "junior12_19_playRight": 0,
+      "youth20_27_membership": 3150,
+      "youth20_27_playRight": 850,
+      "senior27plus_membership": 3150,
+      "senior27plus_playRight": 3000,
+      "remote_membership": 750,
+      "remote_playRight": 0,
+      "student_membership": 2150,
+      "student_playRight": 0,
+      "family_total": 12300,
+      "support_membership": 1000,
+      "vtgFirstYear": 2500,
+      "vtgSecondYear": 4000,
+      "notes": "Fullt medlem (senior): 6150 kr (3150+3000). Fjernmedlem gjelder kun bosatte utenfor Nordland/Troms. Familie: 2 voksne + barn u20 på samme adresse."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -181,12 +205,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
+    "dataQuality": "97.0",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:40.328Z",
+    "completenessPercentage": 97,
+    "pagesScraped": [
+      "hjem",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:04:00.000Z",
     "createdAt": "2025-10-31T09:43:40.329Z",
-    "updatedAt": "2025-11-03T09:09:39.258Z"
-  }
+    "updatedAt": "2026-02-14T16:04:00.000Z"
+  },
+  "googlePlaceId": "ChIJkcyxiKHD20URb_LzGv8DVc4"
 }

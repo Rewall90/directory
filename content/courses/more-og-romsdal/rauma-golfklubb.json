@@ -182,11 +182,13 @@
   "sources": [],
   "meta": {
     "dataQuality": "87.5",
-    "websiteQuality": null,
+    "websiteQuality": "unavailable",
     "completenessPercentage": 87,
     "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:09.233Z",
+    "scrapedAt": "2026-02-14T16:07:00.000Z",
     "createdAt": "2025-10-31T09:31:09.234Z",
-    "updatedAt": "2025-11-03T09:09:36.032Z"
-  }
+    "updatedAt": "2026-02-14T16:07:00.000Z",
+    "scrapeNote": "Website SSL certificate error - unable to access raumagolf.no"
+  },
+  "googlePlaceId": "ChIJTVsghWUJFEYR27LJd1W8FKw"
 }

@@ -220,8 +220,10 @@
     "websiteQuality": null,
     "completenessPercentage": 90,
     "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:07.860Z",
+    "scrapedAt": "2026-02-14T16:15:00.000Z",
     "createdAt": "2025-10-31T11:42:07.862Z",
-    "updatedAt": "2025-11-03T09:10:18.858Z"
-  }
+    "updatedAt": "2026-02-14T16:15:00.000Z",
+    "note": "Pricing needs verification from onsoygolfklubb.no"
+  },
+  "googlePlaceId": "ChIJr7HakhOpRkYRgoDwpEWyc8Q"
 }

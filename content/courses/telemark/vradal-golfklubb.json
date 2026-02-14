@@ -87,10 +87,10 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Golf Café",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Helt sett kr 250, halvt sett kr 150",
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
     "clubFitting": null,
@@ -114,24 +114,59 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
-      "greenFeeWeekend": 350,
+      "greenFee18": 530,
+      "greenFee9": 380,
+      "greenFeeDaily": 530,
+      "greenFeeWeekday9": 330,
+      "greenFeeWeekdayDaily": 450,
+      "greenFeeWeekdayDescription": "Man-ons lavsesong: 9 hull kr 330, dagskort kr 450",
+      "greenFeeWeekend": 530,
+      "greenFeeWeekend9": 380,
+      "greenFeeWeekendDescription": "Tors-søn høysesong: 9 hull kr 380, 18 hull kr 530",
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Price range NOK 250-350",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
+      "greenFeeJunior": 265,
+      "greenFeeJunior9": 190,
+      "greenFeeJuniorDescription": "Junior 13-19 år halv pris",
+      "greenFeeChild": 0,
+      "greenFeeChildDescription": "Barn 0-12 år gratis",
+      "greenFeeMember9": 330,
+      "greenFeeMember18": 480,
+      "greenFeeMemberWeekday9": 230,
+      "greenFeeMemberDaily": 350,
+      "greenFeeDescription": "Tors-søn høysesong: Gjest 9 hull kr 380, 18 hull kr 530. Medlem 9 hull kr 330, 18 hull kr 480. Man-ons lavsesong: Gjest 9 hull kr 330, dagskort kr 450. Medlem 9 hull kr 230, dagskort kr 350. Junior 13-19 halv pris. Barn 0-12 gratis.",
+      "cartRental": 300,
+      "cartRental9": 200,
+      "cartRentalMember": 250,
+      "cartRentalMember9": 150,
+      "pullCartRental": 50,
+      "clubRental": 250,
+      "clubRentalHalf": 150,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golf packages available through Straand Hotel"
+      "notes": "Golf packages available through Straand Hotel. 9-hulls bane som spilles 2 ganger for 18 hull."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "currency": "NOK",
+      "full": 4700,
+      "fullDescription": "Årskort medlem",
+      "guest": 5500,
+      "guestDescription": "Årskort gjest (ikke-medlem)",
+      "youngAdult2025": 2000,
+      "youngAdult2025Description": "Ung Voksen 20-25 år",
+      "youngAdult2630": 3500,
+      "youngAdult2630Description": "Ung Voksen 26-30 år",
+      "junior": 1500,
+      "juniorDescription": "Junior 13-19 år medlem",
+      "juniorGuest": 2000,
+      "juniorGuestDescription": "Junior 13-19 år gjest",
+      "notes": "Årskort gir ubegrenset spill hele sesongen"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -166,11 +201,14 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T12:22:41.182Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "priser"
+    ],
+    "scrapedAt": "2026-02-14T16:20:00.000Z",
     "createdAt": "2025-10-31T12:22:41.183Z",
-    "updatedAt": "2025-11-03T09:10:13.077Z"
-  }
+    "updatedAt": "2026-02-14T16:20:00.000Z"
+  },
+  "googlePlaceId": "ChIJ7aGggOumOEYRJuy2JN3wqTQ"
 }

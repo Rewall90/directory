@@ -136,7 +136,52 @@
       "notes": null
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 4900,
+        "description": "Hovedmedlemskap 4900 kr/år eller 460 kr/måned (12 måneders binding). Inkluderer full spillerett.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 3400,
+        "description": "Ektefelle/Samboer 3400 kr/år eller 320 kr/måned.",
+        "ageRange": null
+      },
+      {
+        "category": "greenfee",
+        "price": 1700,
+        "description": "Greenfeemedlemskap 1700 kr/år - uten spillerett, greenfee må betales ved spill.",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 300,
+        "description": "Juniormedlemskap 300 kr/år.",
+        "ageRange": "under 19"
+      },
+      {
+        "category": "student",
+        "price": 1500,
+        "description": "Heltidsstudent/Militær 1500 kr/år eller 180 kr/måned. Gjelder ikke videreutdanning.",
+        "ageRange": null
+      },
+      {
+        "category": "vtg",
+        "price": 1500,
+        "description": "Veien til golf medlemskap 1500 kr - for kursdeltakere, fri spillerett ut sesongen.",
+        "ageRange": null
+      },
+      {
+        "category": "postVtg",
+        "price": 2800,
+        "description": "Første år etter VTG 2800 kr/år eller 280 kr/måned.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -214,9 +259,15 @@
     "dataQuality": "93.5",
     "websiteQuality": null,
     "completenessPercentage": 93,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:21.552Z",
+    "pagesScraped": [
+      "https://egersund-golfklubb.no/",
+      "https://egersund-golfklubb.no/?page_id=1691",
+      "https://egersund-golfklubb.no/?page_id=1003",
+      "https://egersund-golfklubb.no/?page_id=958"
+    ],
+    "scrapedAt": "2026-02-14T15:56:00.000Z",
     "createdAt": "2025-10-31T07:46:21.554Z",
-    "updatedAt": "2025-11-03T09:10:02.210Z"
-  }
+    "updatedAt": "2026-02-14T15:56:00.000Z"
+  },
+  "googlePlaceId": "ChIJ2Rf3ATcaOkYRxwydubenNog"
 }

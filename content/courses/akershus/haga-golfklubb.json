@@ -41,32 +41,34 @@
   "description": "Haga Golfklubb har 27 flotte hull. Disse deles opp i 3 sløyfer, Rød, Gul & Blå, og spilles til en hver tid som en 18-hullsbane, åpen for alle, og en 9-hullsbane, kun åpen for klubbens aksjonærer og juniorer\n\nCourse consists of 27 holes divided into 3 loops: Rød, Gul, Blå",
   "contact": {
     "phone": "67 16 59 00",
-    "email": null,
+    "email": "susan@hagagolf.no",
     "emailAlt": null,
     "website": "https://hagagolf.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/Hagagolf",
+    "instagram": "https://www.instagram.com/hagagolf_/",
+    "linkedin": "https://www.linkedin.com/company/haga-golf/",
+    "youtube": "https://www.youtube.com/@hagagolf2765",
+    "golfbox": true
   },
   "phoneNumbers": [
     {
       "number": "67 16 59 00",
-      "type": "main",
+      "type": "administrasjon",
       "primary": true
     },
     {
       "number": "67 16 59 00",
-      "type": "secondary",
+      "type": "proshop",
       "primary": false
     },
     {
       "number": "96 86 28 40",
-      "type": "other",
+      "type": "restaurant",
       "primary": false
     },
     {
       "number": "67 14 13 13",
-      "type": "other",
+      "type": "golfsenter",
       "primary": false
     }
   ],
@@ -110,8 +112,8 @@
     "conferenceRoom": true,
     "eventVenue": true,
     "eventCapacity": null,
-    "simulator": false,
-    "simulatorType": "17 simulatorer - Trackman, Full Swing baner, Driving Range, Top Tracer Range. Status: åpent hver dag",
+    "simulator": true,
+    "simulatorType": "9 Trackman iO og 8 Full Swing simulatorer på Haga Golfsenter. TopTracer Driving Range med 78 utslagsmatter under tak.",
     "simulatorCourses": null,
     "simulatorNotes": null,
     "bunkers": null,
@@ -141,7 +143,19 @@
       "notes": "EAGL keyless technology installed on all golf carts\n\nMember 18-holes: 400 kr\n\nMember 9-holes: 250 kr\n\nGuest 18-holes: 500 kr\n\nGuest 9-holes: 350 kr\n\nMember with doctor cert 18-holes: 300 kr\n\nMember with doctor cert 9-holes: 250 kr\n\nGuest with doctor cert 9-holes: 350 kr\n\n10-round package (member): 2500 kr"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "aksjonaer": 15850,
+      "greenfeemedlemskap": 2600,
+      "greenfeemedlemskapJunior": 1600,
+      "ungdomStudent20_25": 7400,
+      "junior13_19": 4680,
+      "yngreJunior0_12": 2400,
+      "klubbkontingent": 1000,
+      "membershipStatus": "Venteliste for Junior og Ungdom/Student. Greenfeemedlemskap tilgjengelig.",
+      "notes": "Alle priser inkluderer klubbkontingent 1000 kr. Aksjonærer og medlemmer (ikke juniorer) har spillerett på Nordhaug GK. 15% rabatt på simulatorspill på Haga Golfsenter."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -176,11 +190,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:24:46.102Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "medlem/medlemskap",
+      "baner"
+    ],
+    "scrapedAt": "2026-02-14T15:59:00.000Z",
     "createdAt": "2025-10-31T11:24:46.105Z",
-    "updatedAt": "2025-11-03T09:10:13.846Z"
-  }
+    "updatedAt": "2026-02-14T15:59:00.000Z"
+  },
+  "googlePlaceId": "ChIJDd9TXMwSQUYRedj-cXvi07Q"
 }

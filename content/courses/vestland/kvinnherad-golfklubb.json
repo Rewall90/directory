@@ -121,22 +121,36 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 300,
-      "greenFeeWeekend": 300,
+      "greenFee": 200,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 18 hull 300 kr (alle dager), 9 hull 200 kr (alle dager). Klubbmedlem hel dag 200 kr. Handicap-grense 54, gyldig handicapbevis påkrevd.",
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee 2025: Heildags greenfee alle dagar 200kr. Junior t.o.m 19 ar: 150kr. Rabattkupong 8 stk: 1200kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
+      "specialOfferPrice": 1200,
+      "specialOfferIncludes": "Rabattkupong 8 stk heildags greenfee",
       "freeTrial": null,
-      "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Lokalisert i munninga av Hardangerfjorden ved båthavna på Husnes. Selskapsrom tilgjengelig."
+      "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Lokalisert i munninga av Hardangerfjorden ved bathavna pa Husnes. Selskapsrom tilgjengelig."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "junior15_19": 1000,
+      "senior20Plus": 1800,
+      "ektefelleSambuar": 1500,
+      "studentLarling": 1200,
+      "fjernmedlemskap": 1000,
+      "stottemedlem": 1000,
+      "friSpelerettJunior": 0,
+      "friSpelerettSenior": 3750,
+      "friSpelerettEktefelle": 3150,
+      "currency": "NOK",
+      "description": "Junior 15-19 ar har gratis spelerett. Fri spelerett kreves i tillegg til medlemskap. Stottemedlem far rabatt pa husleige."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
@@ -191,12 +205,15 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
+    "dataQuality": "94.0",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:58.139Z",
+    "completenessPercentage": 94,
+    "pagesScraped": [
+      "klubb/medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:28:00.000Z",
     "createdAt": "2025-10-31T10:16:58.140Z",
-    "updatedAt": "2025-11-03T09:09:57.694Z"
-  }
+    "updatedAt": "2026-02-14T16:28:00.000Z"
+  },
+  "googlePlaceId": "ChIJYXCyZYlxPEYRNW-SgAhYAsU"
 }

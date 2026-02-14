@@ -101,7 +101,8 @@
     "eventVenue": true,
     "eventCapacity": null,
     "simulator": true,
-    "simulatorType": "Golf simulator tilgjengelig",
+    "simulatorType": "2 Trackman simulatorer, åpen 07:00-24:00 daglig",
+    "simulatorCount": 2,
     "simulatorCourses": null,
     "simulatorNotes": null,
     "bunkers": null,
@@ -114,24 +115,48 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": 150,
-      "greenFeeWeekend": 150,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 150 kr for 18 hull (spill 9-hulls banen 2 ganger). Samme pris mandag-søndag. Booking via Gimmie-app påkrevd. Handicap-grense 54, gyldig handicapbevis påkrevd.",
+      "greenFeeDescription": "Greenfee via medlemskap. Spillerett årskort: Voksen 2150 kr, Ektefelle/samboer 1500 kr, Junior (12-19) gratis, Barn (under 12) gratis. Alternativt betales greenfee per runde.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Svært rimelig greenfee (150 kr). Klubbhus med arrangement-lokale til leie. Golf simulator. Damegolf-program. Panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet."
+      "notes": "Simulator: 200 kr/time før kl 16, 250 kr/time etter kl 16 og helg. Juniors halv pris. Simulator årskort: 3000 kr (voksen), 1100 kr (junior). VTG kurs: 1500 kr (voksen), 500 kr (junior) inkl. gratis medlemskap og spillerett ut året."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "child",
+        "price": 250,
+        "playingRights": 0,
+        "description": "Barn (under 12 år): Medlemskap 250 kr, Spillerett gratis.",
+        "ageRange": "Under 12 år"
+      },
+      {
+        "category": "junior",
+        "price": 500,
+        "playingRights": 0,
+        "description": "Junior (12-19 år): Medlemskap 500 kr, Spillerett gratis.",
+        "ageRange": "12-19 år"
+      },
+      {
+        "category": "adult",
+        "price": 1300,
+        "playingRights": 2150,
+        "description": "Voksen (over 20 år): Medlemskap 1300 kr, Spillerett 2150 kr. Ektefelle/samboer spillerett: 1500 kr.",
+        "ageRange": "Over 20 år"
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -186,12 +211,19 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:17:00.241Z",
+    "dataQuality": "93.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 93,
+    "pagesScraped": [
+      "homepage",
+      "klubben",
+      "bli-medlem",
+      "baneguide",
+      "simulator"
+    ],
+    "scrapedAt": "2026-02-14T17:34:00.000Z",
     "createdAt": "2025-10-31T10:17:00.242Z",
-    "updatedAt": "2025-11-03T09:09:59.511Z"
-  }
+    "updatedAt": "2026-02-14T17:34:00.000Z"
+  },
+  "googlePlaceId": "ChIJK-ktEKdcFkYRtlIpcteBuRY"
 }

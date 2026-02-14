@@ -40,15 +40,26 @@
   },
   "description": null,
   "contact": {
-    "phone": null,
+    "phone": "400 70 964",
     "email": "kontakt@gjersjoengolf.no",
     "emailAlt": null,
     "website": "https://gjersjoengolf.no/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/GjersjoenGolfklubb",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "400 70 964",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "40 49 67 20",
+      "type": "membership",
+      "primary": false
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -103,24 +114,36 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2026": {
       "currency": "NOK",
+      "greenFee9": 350,
+      "greenFee18": 550,
       "greenFeeDaily": null,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "9 hull: 350 kr, 18 hull: 550 kr (book 2x9 hull). Junior (t.o.m. 19 år): 200/350 kr. Gjest av medlem: 9 hull 225 kr, 18 hull 350 kr.",
+      "cartRental": 400,
+      "cartRental9": 250,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Golfbiler kun til gjester eller medlemmer med legeattest. Traller og golfutstyr/køller kan leies."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "fullMember": 5500,
+      "youngAdult": 3400,
+      "greenfeeMember": 2900,
+      "junior": 1200,
+      "juniorMax": 1800,
+      "notes": "Junior årsavgift varierer etter alder (1200-1800 kr). Tidvis venteliste. Utmelding må skje skriftlig før 31. desember."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.2,
@@ -155,11 +178,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:10.555Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-31T11:23:10.556Z",
-    "updatedAt": "2025-11-03T09:10:00.116Z"
-  }
+    "updatedAt": "2026-02-14T15:55:00.000Z"
+  },
+  "googlePlaceId": "ChIJBXdTsx9oQUYR-tgtOHShB6c"
 }

@@ -38,7 +38,7 @@
     "mountainViews": false,
     "viewDescription": "Range, putting/chipping, klubbhus m/restaurant og pro shop; tralle-utleie."
   },
-  "description": "9-hulls parklandbane i Selbu; samarbeid med Stjørdal GK (medlemmer kan velge hjemmebane).",
+  "description": "9-hulls parklandbane i Selbu (egen bane avviklet); bruker Stjørdal GK som hjemmebane.",
   "contact": {
     "phone": "+47 73 81 69 69",
     "email": "info@selbugolfklubb.no",
@@ -121,22 +121,49 @@
   "pricing": {
     "2023": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 350,
       "greenFeeWeekday": 350,
       "greenFeeWeekend": 350,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Selbu-medlemmer 20% rabatt hos Stjørdal GK. Greenfee-medlemskap Stjørdal GK 199 kr/mnd (12 mnd).",
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 350,
+      "greenFeeDescription": "Greenfee 350 kr pr runde hos Stjørdal GK (hjemmebane). Greenfee-medlemskap hos Stjørdal GK 199 kr/mnd (12 mnd binding = 2388 kr/år).",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfee-medlemskap hos Stjørdal GK (199 kr/mnd)."
+      "notes": "Egen bane avviklet, bruker Stjørdal GK som hjemmebane. Tirsdagsturnering 150 kr for 9 hull for Selbu-medlemmer."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2023": [
+      {
+        "category": "Barn/Junior",
+        "price": 350,
+        "description": "Barn/Junior tom 19 år.",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "Senior",
+        "price": 950,
+        "description": "Senior fra fylte 20 år.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Par",
+        "price": 1300,
+        "description": "Par (gift/sambo).",
+        "ageRange": null
+      },
+      {
+        "category": "Familie",
+        "price": 1900,
+        "description": "Familie (par + alle barn under 18 år).",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": null,
@@ -170,12 +197,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:53.063Z",
+    "dataQuality": "good",
+    "websiteQuality": "poor",
+    "completenessPercentage": 75,
+    "pagesScraped": [
+      "homepage",
+      "innmelding"
+    ],
+    "scrapedAt": "2026-02-14T16:35:00.000Z",
     "createdAt": "2025-10-31T11:30:53.064Z",
-    "updatedAt": "2025-11-03T09:10:07.672Z"
-  }
+    "updatedAt": "2026-02-14T16:35:00.000Z",
+    "notes": "Website outdated (last news 2021). Club uses Stjørdal GK as home course. Pricing data from 2023."
+  },
+  "googlePlaceId": "ChIJz2U_q04VbUYRJe8sZgkP_60"
 }

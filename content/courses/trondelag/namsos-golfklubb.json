@@ -160,12 +160,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:52.123Z",
+    "dataQuality": "good",
+    "websiteQuality": "unavailable",
+    "completenessPercentage": 70,
+    "pagesScraped": [
+      "facebook-page"
+    ],
+    "scrapedAt": "2026-02-14T16:29:00.000Z",
     "createdAt": "2025-10-31T11:30:52.124Z",
-    "updatedAt": "2025-11-03T09:09:52.190Z"
-  }
+    "updatedAt": "2026-02-14T16:29:00.000Z",
+    "notes": "Website namsosgolf.no is unavailable (DNS not resolving). Only Facebook page accessible."
+  },
+  "googlePlaceId": "ChIJ7_39dfLockYRUxGtyrxdP9Y"
 }

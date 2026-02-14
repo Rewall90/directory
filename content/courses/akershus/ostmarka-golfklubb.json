@@ -7,9 +7,9 @@
   "municipality": "",
   "country": "Norway",
   "address": {
-    "street": "TBD",
-    "postalCode": "0000",
-    "area": null
+    "street": "Kjellgårdveien 35",
+    "postalCode": "1914",
+    "area": "Ytre Enebakk"
   },
   "coordinates": {
     "lat": 59.72218889999999,
@@ -40,15 +40,21 @@
   },
   "description": "Vi har gjort endringer på hullrekkefølge og front/back de siste årene, senest våren 2020. I sesongen er vi totalt 6 personer og enda flere frivillige som gjør vårt beste for at du som spiller skal få best mulig spilleforhold.",
   "contact": {
-    "phone": null,
+    "phone": "64 92 38 40",
     "email": "dagligleder@ostmarkagolf.no",
     "emailAlt": null,
     "website": "https://ostmarkagolf.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/ostmarkagk",
+    "instagram": "https://www.instagram.com/ostmarkagolfklubb/",
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "64 92 38 40",
+      "type": "proshop",
+      "primary": true
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -103,24 +109,75 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "[object Object]",
-      "cartRental": 390,
+      "greenFee9Weekday": 300,
+      "greenFee9Weekend": 350,
+      "greenFee18Weekday": 490,
+      "greenFee18Weekend": 590,
+      "greenFeeJunior": "50% av gjeldende pris",
+      "greenFeeMemberGuest18": -100,
+      "greenFeeDescription": "Dagsgreenfee gjelder ved betaling av full greenfee. Ingen handicapkrav, kun klubbhandicap 54.",
+      "cartRental18": 390,
+      "cartRental9": 250,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "9-hole cart rental: kr 250,-"
+      "notes": "Norsk Seniorgolf: 100 kr rabatt (3 ganger/år, hverdager før kl. 14:00)"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "barn0to7": {
+        "name": "Barn 0-7 år",
+        "price": 500,
+        "monthlyPrice": 42
+      },
+      "barnJunior8to19": {
+        "name": "Barn/Junior 8-19 år",
+        "price": 1740,
+        "monthlyPrice": 145
+      },
+      "ungdom20to29": {
+        "name": "Ungdom 20-29 år",
+        "price": 3900,
+        "monthlyPrice": 325
+      },
+      "voksen30Plus": {
+        "name": "Voksen 30+",
+        "price": 7500,
+        "monthlyPrice": 625
+      },
+      "greenfeeMedlem": {
+        "name": "Greenfeemedlem",
+        "price": 2640,
+        "monthlyPrice": 220
+      },
+      "hverdagsMedlem": {
+        "name": "Hverdagsmedlem",
+        "price": 5640,
+        "monthlyPrice": 470
+      },
+      "familie": {
+        "name": "Familie",
+        "price": 15000,
+        "monthlyPrice": 1250
+      },
+      "kampanje2026": {
+        "name": "Kampanje 2026",
+        "price": 3780,
+        "monthlyPrice": 315
+      },
+      "vtg2026": {
+        "name": "VTG 2026 (Veien til golf)",
+        "price": 3780,
+        "monthlyPrice": 315
+      },
+      "monthlyAdminFee": 25
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.2,
@@ -155,11 +212,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:18.970Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T17:40:00.000Z",
     "createdAt": "2025-10-31T11:23:18.971Z",
-    "updatedAt": "2025-11-03T09:09:52.759Z"
-  }
+    "updatedAt": "2026-02-14T17:40:00.000Z"
+  },
+  "googlePlaceId": "ChIJJ3gEL79fQUYRoFRRLKJrc-I"
 }

@@ -109,24 +109,55 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee information available on website",
+      "greenFeeWeekend18Holes": 480,
+      "greenFeeWeekend9Holes": 360,
+      "greenFeeWeekday18Holes": 420,
+      "greenFeeWeekday9Holes": 305,
+      "greenFeeJuniorWeekend18Holes": 290,
+      "greenFeeJuniorWeekend9Holes": 230,
+      "greenFeeJuniorWeekday18Holes": 230,
+      "greenFeeJuniorWeekday9Holes": 185,
+      "greenFeeInnlandetWeekend18Holes": 385,
+      "greenFeeInnlandetWeekend9Holes": 290,
+      "greenFeeInnlandetWeekday18Holes": 335,
+      "greenFeeInnlandetWeekday9Holes": 245,
+      "greenFeeInnlandetJuniorWeekend18Holes": 230,
+      "greenFeeInnlandetJuniorWeekend9Holes": 185,
+      "greenFeeInnlandetJuniorWeekday18Holes": 185,
+      "greenFeeInnlandetJuniorWeekday9Holes": 150,
+      "memberGreenFeeWeekend18Holes": 200,
+      "memberGreenFeeWeekend9Holes": 150,
+      "memberGreenFeeWeekday18Holes": 175,
+      "memberGreenFeeWeekday9Holes": 125,
+      "memberGreenFeeJuniorWeekend18Holes": 110,
+      "memberGreenFeeJuniorWeekend9Holes": 90,
+      "memberGreenFeeJuniorWeekday18Holes": 85,
+      "memberGreenFeeJuniorWeekday9Holes": 75,
+      "greenFeeDescription": "Medlemskontingent inkluderer ikke fritt spill. Greenfee: Voksen helg 480/360 kr, hverdag 420/305 kr. Junior helg 290/230 kr, hverdag 230/185 kr. Innlandsklubb-medlemmer får rabatt. NSG-medlemmer: 3 runder til halv pris (200 kr) i ukedager.",
+      "seasonGreenfeeAdult": 1700,
+      "seasonGreenfeeJunior": 850,
+      "fiveRoundPackage": 1955,
+      "nsgDiscount": 200,
       "cartRental": 360,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemskap rekrutteringskampanje for nybegynnere: Inkluderer gratis spill på banen første år. Voksen: 2700 kr, Ungdom 19-26 år: 2100 kr, Junior til 18 år: 1250 kr"
+      "notes": "Sesong-greenfee selges kun til fullt betalende medlemmer. 5 greenfee-billetter for 1955 kr. NSG-rabatt: 3 runder/sesong til halv pris (200 kr) på ukedager, kun 18 hull."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "newMemberAdult": 2700,
+      "newMemberYouth": 2100,
+      "newMemberJunior": 1250,
+      "notes": "Rekrutteringskampanje for nybegynnere: Inkluderer gratis spill på banen første år. Voksen: 2700 kr, Ungdom 19-26 år: 2100 kr, Junior til 18 år: 1250 kr. Medlemskontingenten inkluderer ikke fritt spill."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
@@ -161,11 +192,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:13.660Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "home",
+      "greenfee/priser-2026",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:09:00.000Z",
     "createdAt": "2025-10-31T07:18:13.662Z",
-    "updatedAt": "2025-11-03T09:09:49.212Z"
-  }
+    "updatedAt": "2026-02-14T16:09:00.000Z"
+  },
+  "googlePlaceId": "ChIJTSwCklDrakYRQQ1qzx5RLmk"
 }

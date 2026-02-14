@@ -111,22 +111,36 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 300,
       "greenFeeWeekday": 300,
-      "greenFeeWeekend": null,
+      "greenFeeWeekend": 300,
       "greenFeeSenior": 300,
       "greenFeeJunior": 100,
-      "greenFeeDescription": "Dagspass senior/voksen: 300 NOK. Junior under 19: 100 NOK. Samarbeidsklubb dagspass: 150 NOK. Samarbeidsklubb junior: 100 NOK.",
+      "greenFeePolarGKMember": 150,
+      "greenFeeDescription": "Senior dagspass: 300 kr, Junior: 100 kr. Medlemmer av Polarsirkelen GK: Dagspass 150 kr, Junior 100 kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Greenfeesamarbeid med Polarsirkelen GK"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "child0_12": 300,
+      "junior13_19": 500,
+      "adult20_25": 1750,
+      "adult26_66": 4500,
+      "spouse": 4100,
+      "senior67plus": 4000,
+      "remote": 1990,
+      "vtgPackage": 1990,
+      "vtgSecondYear": 2390,
+      "notes": "VTG-kurs inkl. 1. års medlemskap: 1990 kr. Fjernmedlem: For bosatt utenfor Vefsn kommune. Fri spillrett på Gulljordet, Golfboxkonto, NGF-medlemskap."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -171,12 +185,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.5",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 92,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:38.990Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "hjem",
+      "klubben"
+    ],
+    "scrapedAt": "2026-02-14T16:00:00.000Z",
     "createdAt": "2025-10-31T09:43:38.991Z",
-    "updatedAt": "2025-11-03T09:09:50.533Z"
-  }
+    "updatedAt": "2026-02-14T16:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJU7Vg8eJRdEYRFQooJdvHDx4"
 }

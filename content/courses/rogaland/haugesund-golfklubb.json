@@ -134,6 +134,27 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Gratis kølleutlån for nybegynnere på driving range"
+    },
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": 300,
+      "greenFee9Holes": 300,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "9-hulls Folkebane: 300 kr for hele dagen. 6-hulls Pitch & Putt: 150 kr (gratis for medlemmer). Driving range: halv bøtte 50 kr, full bøtte 100 kr. Simulator: 200 kr/time.",
+      "drivingRangeSmall": 50,
+      "drivingRangeLarge": 100,
+      "simulator": 200,
+      "pitchPutt": 150,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "9-hulls bane. Greenfee gjelder hele dagen."
     }
   },
   "membershipPricing": {
@@ -196,6 +217,62 @@
         "category": "remote",
         "price": 850,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
+        "ageRange": null
+      }
+    ],
+    "2025": [
+      {
+        "category": "adult",
+        "price": 4400,
+        "description": "Hovedmedlem",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 3100,
+        "description": "Ektefelle/Samboer",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 2150,
+        "description": "Student/Vernepliktig",
+        "ageRange": null
+      },
+      {
+        "category": "age20_29",
+        "price": 2150,
+        "description": "Alder 20-29 år",
+        "ageRange": "20-29"
+      },
+      {
+        "category": "junior13_19",
+        "price": 1200,
+        "description": "Junior 13-19 år",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "barn0_12",
+        "price": 0,
+        "description": "Barn 0-12 år (gratis)",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "family",
+        "price": 7500,
+        "description": "Familiemedlemskap (1 hovedmedlem + 1 ektefelle + 1 junior), +500 kr per ekstra junior",
+        "ageRange": null
+      },
+      {
+        "category": "bMembership",
+        "price": 3300,
+        "description": "B-medlemskap (spillerett i annen klubb)",
+        "ageRange": null
+      },
+      {
+        "category": "remote",
+        "price": 850,
+        "description": "Fjernmedlemskap",
         "ageRange": null
       }
     ]
@@ -297,9 +374,14 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:22.052Z",
+    "pagesScraped": [
+      "https://www.haugesundgolf.no/",
+      "https://www.haugesundgolf.no/menu-4",
+      "https://www.haugesundgolf.no/9hulls-bane-1"
+    ],
+    "scrapedAt": "2026-02-14T15:58:00.000Z",
     "createdAt": "2025-10-31T07:46:22.054Z",
-    "updatedAt": "2025-11-03T09:10:02.497Z"
-  }
+    "updatedAt": "2026-02-14T15:58:00.000Z"
+  },
+  "googlePlaceId": "ChIJ7ROkAjyfO0YREAAaU_uSPO8"
 }

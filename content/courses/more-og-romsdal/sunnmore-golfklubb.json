@@ -121,7 +121,7 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 300,
       "greenFeeWeekday": 300,
       "greenFeeWeekend": 300,
       "greenFeeSenior": null,
@@ -134,9 +134,55 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Golfkurs og fritt spel første året for nyetablert medlem"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 300,
+      "greenFee9": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "twilight": null,
+      "greenFeeDescription": "Spel så mykje du vil for 300 kr alle dagar i veka (ubegrensa spel per dag). Golfbil: 200 kr.",
+      "cartRental": 200,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": 1500,
+      "specialOfferIncludes": "Golfkurs og fritt spel første året for nyetablert medlem",
+      "freeTrial": null,
+      "notes": "Spelar du meir enn nokre få gongar i året, vil det lønne seg å benytte seg av tilbodet for første års medlemmar."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "juniorMembership": 500,
+      "juniorMembershipDescription": "Juniormedlem",
+      "distanceMembership": 1000,
+      "distanceMembershipDescription": "Fjernmedlem",
+      "passivMembership": 1000,
+      "passivMembershipDescription": "Passiv medlem lokalt",
+      "firstYearMembership": 1500,
+      "firstYearMembershipDescription": "1. års medlemskap 'nyetablert' - inkluderer golfkurs og fritt spel",
+      "studentMembership": 2000,
+      "studentMembershipDescription": "Studentmedlem",
+      "secondYearMembership": 2500,
+      "secondYearMembershipDescription": "2. års ordinært medlem",
+      "spouseMembership": 3500,
+      "spouseMembershipDescription": "Ektefelle til ordinært medlem",
+      "thirdYearMembership": 3500,
+      "thirdYearMembershipDescription": "3. års ordinært medlem",
+      "youngAdultMembership": 4200,
+      "youngAdultMembershipDescription": "Ordinært medlem 18-30 år",
+      "seniorMembership": 4300,
+      "seniorMembershipDescription": "Ordinært medlem over 60 år",
+      "fullMembership": 5800,
+      "fullMembershipDescription": "Ordinært medlem 31-59 år",
+      "membershipStatus": "open",
+      "notes": "Trinnvis prismodell over 3 år for nye medlemmer. Fri spel inkludert i alle medlemskap."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -191,12 +237,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "93.5",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 93,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:10.838Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "index",
+      "klubben/medlemskap",
+      "spele/golf"
+    ],
+    "scrapedAt": "2026-02-14T16:35:00.000Z",
     "createdAt": "2025-10-31T09:31:10.838Z",
-    "updatedAt": "2025-11-03T09:10:19.743Z"
-  }
+    "updatedAt": "2026-02-14T16:35:00.000Z"
+  },
+  "googlePlaceId": "ChIJox-hBr7fFkYRLrOzh4qdgRI"
 }

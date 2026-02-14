@@ -111,22 +111,38 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
-      "greenFeeWeekend": 250,
+      "greenFee": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeFjernmedlem": 150,
+      "greenFeeSunnfjord": 150,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee: 250 kr (estimert fra 2022-priser). Årlig kortadministrasjon/IT-avgift 100 kr. Kontakt klubben for 2025-priser på florogolf.no eller telefon +47 977 52 410.",
+      "greenFeeDescription": "Greenfee 2025: 300kr for gjester fra andre klubber. Fjernmedlemmer og Sunnfjord GK-medlemmer: 150kr. Arlig IT-avgift 100kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer."
+      "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer. Golfsimulator tilgjengelig."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "premiumMedlem": 3900,
+      "premiumEktefelle": 3200,
+      "medlemMedSpillerett": 2300,
+      "ektefelleSpillerett": 1650,
+      "juniorUnder20": 650,
+      "barnGrunnskole": 400,
+      "fjernmedlem": 700,
+      "innmeldingsavgift": 250,
+      "itAvgift": 100,
+      "currency": "NOK",
+      "description": "Premium medlem inkluderer bagskap og gratis startkontingent pa sondagsturneringer. Fjernmedlem pluss 170kr for Norsk Golf bladet. IT-avgift 100kr/ar."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4,
@@ -181,12 +197,15 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.0",
+    "dataQuality": "92.0",
     "websiteQuality": null,
-    "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:54.613Z",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "priser"
+    ],
+    "scrapedAt": "2026-02-14T16:21:00.000Z",
     "createdAt": "2025-10-31T10:16:54.615Z",
-    "updatedAt": "2025-11-03T09:09:56.057Z"
-  }
+    "updatedAt": "2026-02-14T16:21:00.000Z"
+  },
+  "googlePlaceId": "ChIJJ3fs202VF0YR3lPnXCA1ezU"
 }

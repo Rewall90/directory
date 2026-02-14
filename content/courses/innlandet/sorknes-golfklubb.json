@@ -109,21 +109,47 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee pricing available - contact club for details",
-      "cartRental": null,
+      "greenFeeWeekday": 475,
+      "greenFeeWeekend": 550,
+      "greenFee9Holes": 300,
+      "greenFeeJuniorDiscount": "50%",
+      "greenFeeTournament": 400,
+      "greenFee2ndRoundSameDay": 200,
+      "greenFeeStudentMilitary18Holes": 375,
+      "greenFeeStudentMilitary9Holes": 200,
+      "greenFeeDescription": "Man-tor: 475 kr, Fre-søn: 550 kr, 9 hull: 300 kr. Junior 6-19 år: 50% rabatt. Turneringsgreenfee: 400 kr. Student/militær: 375/200 kr. Golf Innlandet 20% rabatt. NSG: Halv pris man-tir (240 kr), 100 kr rabatt andre dager.",
+      "threeRoundPackage": 1250,
+      "sixRoundPackage": 2500,
+      "nineRoundPackage": 3500,
+      "twelveRoundPackage": 4600,
+      "cartRental": 400,
+      "cartRentalDoubleRound": 600,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Parkering for bobiler/campingvogner: 200 kroner pr døgn. Tilgang til garderober og toaletter hele døgnet."
+      "neighborClubDiscount": "20%",
+      "neighborClubs": [
+        "Hafjell GK",
+        "Kongsvinger GK",
+        "Mjøsen GK",
+        "Skei GK",
+        "Gjøvik & Toten GK",
+        "Randsfjorden GK",
+        "Atlungstad GK",
+        "Trysil GK",
+        "Gran GK",
+        "Valdres GK",
+        "Elverum GK"
+      ],
+      "nsgDiscountWeekday": 240,
+      "nsgDiscountOther": 100,
+      "golfamoreDiscount": "50%",
+      "vippsNumber": 100510,
+      "notes": "Parkering for bobiler/campingvogner: 200 kr/døgn med tilgang til garderobe og toaletter. Startintervall 10 min. Vipps betaling tilgjengelig."
     }
   },
   "membershipPricing": {},
@@ -161,11 +187,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:13.937Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "home",
+      "gjest/greenfee",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T16:11:00.000Z",
     "createdAt": "2025-10-31T07:18:13.939Z",
-    "updatedAt": "2025-11-03T09:09:49.480Z"
-  }
+    "updatedAt": "2026-02-14T16:11:00.000Z"
+  },
+  "googlePlaceId": "ChIJ4VESzPIWakYRRl9bBvYettE"
 }

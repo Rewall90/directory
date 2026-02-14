@@ -44,9 +44,9 @@
     "email": "postkasse@skigk.no",
     "emailAlt": null,
     "website": "https://skigk.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/Skigolfklubb",
+    "instagram": "https://www.instagram.com/skigk/",
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -109,21 +109,22 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "50% discount\n\nKampanje: Spill GRATIS ut året",
-      "cartRental": 300,
+      "greenFee9": 275,
+      "greenFee18": 425,
+      "greenFeeJunior": "50% rabatt",
+      "greenFeeSenior": "50% rabatt (NSG kort, 3 ganger/år, kl. 08-14)",
+      "greenFeeGolfamore": "50% rabatt på én runde/år",
+      "greenFeeDescription": "Greenfee for gjestespillere. Medlemmer av Askim GK, Krokhol GK og Borregaard GK spiller gratis (Askim/Krokhol: 1. mai - 15. okt).",
+      "cartRental18": 300,
+      "cartRental9": 200,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "9-hole cart rental: kr 200,-"
+      "notes": "Aldersgrense 18 år med førerkort for golfbil. Rabatter kan ikke kombineres."
     }
   },
   "membershipPricing": {},
@@ -161,11 +162,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:15.691Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "klubb/gjest"
+    ],
+    "scrapedAt": "2026-02-14T17:46:00.000Z",
     "createdAt": "2025-10-31T11:23:15.692Z",
-    "updatedAt": "2025-11-03T09:09:44.703Z"
-  }
+    "updatedAt": "2026-02-14T17:46:00.000Z"
+  },
+  "googlePlaceId": "ChIJ85BzJ9BdQUYRbCJs91rGAkQ"
 }

@@ -116,22 +116,37 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee priser tilgjengelig på kongsberggolf.no/gjester/greenfee. Medlemmer får 100 kr rabatt på greenfee for opptil 3 gjestespillere.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "TrackMan simulatorsenter: 240-340 kr/time. Protime: 790 kr (50 min), 1190 kr (2 personer), 3150 kr (5 for 4 kampanje). Medlemsfordeler hos partnere: Norsjø GK (300 kr), Grenland GK (350/200 kr), Vestfold GK (400/500 kr), Larvik GK (200 kr rabatt), Asker GK (400 kr), Kjekstad GK (400 kr). Pro shop: Demodøller fra TaylorMade og Callaway. Grip replacement 219 kr+, shaft replacement 499-1199 kr+."
+      "greenFee18": 590,
+      "greenFee18Morning": 490,
+      "greenFee9": 390,
+      "greenFeeJunior18": 350,
+      "greenFeeJunior9": 250,
+      "greenFee6hull": 0,
+      "monthlyGreenFee": 2900,
+      "nsgDiscount": 100,
+      "greenFeeDescription": "18 hull: 590 kr (490 kr før kl 11 hverdager). 9 hull: 390 kr. Junior: 350/250 kr. 6-hullsbanen: Gratis. Månedsgreenfee: 2900 kr (fritt spill inneværende måned). NSG medlemmer: 100 kr rabatt.",
+      "golfCartRental": 500,
+      "golfCartRentalMedical": 400,
+      "pullCartRental": 75,
+      "notes": "Kun Kongsberg Golfbanes golfbiler tillatt på banen. Golfbilleie for seniordager (mandager): 200 kr."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "fullMember": 8300,
+      "halfMember": 4150,
+      "familyMember": 16600,
+      "junior0_12": 500,
+      "junior13_19": 2500,
+      "youth20_25": 4150,
+      "youngAdult26_30": 5400,
+      "youngAdult31_35": 6100,
+      "nationalPlayingRights": 2650,
+      "supporter": 875,
+      "student": 4150,
+      "notes": "Alle medlemskap inkluderer: Tilgang til samarbeidsavtaler (Vestfold, Grenland, Norsjø, Larvik), gruppetreninger, TrackMan simulatorsenter. Student: Fulltidsstudent/vernepliktige opp til 32 år. Familiemedlemskap: 2 voksne + 2 barn opp til 19 år. Månedsnedbetaling kan avtales."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -167,10 +182,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:54:18.825Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "greenfee",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:07:00.000Z",
     "createdAt": "2025-10-31T05:54:18.826Z",
-    "updatedAt": "2025-11-03T09:09:56.602Z"
-  }
+    "updatedAt": "2026-02-14T16:07:00.000Z"
+  },
+  "googlePlaceId": "ChIJx5Zc-dLWQEYRVBFpn_7dCoc"
 }

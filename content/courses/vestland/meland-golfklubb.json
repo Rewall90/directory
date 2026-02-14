@@ -109,21 +109,25 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 575,
-      "greenFeeWeekend": 600,
+      "greenFee18WeekdayMorning": 725,
+      "greenFee18WeekdayAfternoon": 800,
+      "greenFee18WeekendMorning": 925,
+      "greenFee18WeekendAfternoon": 800,
+      "greenFeeWeekday": 725,
+      "greenFeeWeekend": 925,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 575-600 kr. Handicap-grense 54, gyldig handicapbevis påkrevd.",
+      "greenFeeDescription": "Greenfee 2026: Ukedag t.o.m kl 13:50: 725kr, fra kl 14:00: 800kr. Helg/helligdag t.o.m 13:50: 925kr, fra kl 14:00: 800kr. 9-hullsrunder: 65% av 18-hullspris.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). 3 TrackMan simulatorer. 20 golfbiler med egne stier. Bobil-parkering med/uten strøm. Toalett på banen etter hull 8 og 13."
+      "bobilParkering": 200,
+      "notes": "En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). 3 TrackMan simulatorer. 20 golfbiler. Bobil-parkering 200kr/dogn. Avbestilling 24 timer for refusjon."
     }
   },
   "membershipPricing": {},
@@ -160,12 +164,15 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
+    "dataQuality": "92.0",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:59.136Z",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "om-gjestespill"
+    ],
+    "scrapedAt": "2026-02-14T16:30:00.000Z",
     "createdAt": "2025-10-31T10:16:59.137Z",
-    "updatedAt": "2025-11-03T09:10:15.627Z"
-  }
+    "updatedAt": "2026-02-14T16:30:00.000Z"
+  },
+  "googlePlaceId": "ChIJS23g7igcPUYR4jnnqLy0Woo"
 }

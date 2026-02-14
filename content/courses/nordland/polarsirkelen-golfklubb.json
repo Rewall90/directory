@@ -119,21 +119,27 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
+      "greenFee18": 400,
+      "greenFee9": 250,
+      "greenFeeDaily": 400,
+      "greenFeeWeekday": 400,
       "greenFeeWeekend": 400,
-      "greenFeeSenior": null,
-      "greenFeeJunior": 250,
-      "greenFeeDescription": "Dagsgreenfee for 9 hulls. Medlemmer: kr 250. Junior (18-25 år): kr 250. Voksne ikke-medlem: kr 400. Greenfee skal løses før utgang på første tee-sted. Kan betales online eller med Vipps. Greenfee-merke skal være festet synlig på golfbag/tralle.",
-      "cartRental": 200,
+      "greenFeeSenior": 400,
+      "greenFeeJunior18_25_18": 250,
+      "greenFeeJunior18_25_9": 150,
+      "greenFeeMember_18": 250,
+      "greenFeeMember_9": 150,
+      "greenFeeNordNorgeKlubber": 300,
+      "greenFeeDescription": "Dagsgreenfee voksen: 400 kr, 9 hull: 250 kr. Greenfeemedlemmer: Dag 250 kr, 9 hull 150 kr. Junior (18-25): Dag 250 kr, 9 hull 150 kr. Samarbeidende klubber Nord-Norge: 300 kr.",
+      "cartRental": null,
       "pullCartRental": null,
-      "clubRental": 100,
+      "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Medlem av Golfamore-samarbeidet med rabatter. Greenfee kan betales online eller Vipps."
     }
   },
   "membershipPricing": {},
@@ -181,12 +187,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "93.0",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 93,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:40.957Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "hjem",
+      "greenfee"
+    ],
+    "scrapedAt": "2026-02-14T16:06:00.000Z",
     "createdAt": "2025-10-31T09:43:40.958Z",
-    "updatedAt": "2025-11-03T09:09:54.115Z"
-  }
+    "updatedAt": "2026-02-14T16:06:00.000Z"
+  },
+  "googlePlaceId": "ChIJSzKm9m2_dUYRw7Q2f6K_sck"
 }

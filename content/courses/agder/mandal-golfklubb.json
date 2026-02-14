@@ -3,13 +3,13 @@
   "name": "Mandal Golfklubb",
   "formerName": null,
   "region": "Agder",
-  "city": "",
-  "municipality": "",
+  "city": "Mandal",
+  "municipality": "Lindesnes",
   "country": "Norway",
   "address": {
-    "street": "Valleveien 25, 4513 Mandal",
-    "postalCode": "",
-    "area": null
+    "street": "Valleveien 25",
+    "postalCode": "4513",
+    "area": "Mandal"
   },
   "coordinates": null,
   "course": {
@@ -17,13 +17,13 @@
     "holesPlayed": 9,
     "par": null,
     "parPerRound": null,
-    "lengthMeters": null,
+    "lengthMeters": 5138,
     "lengthYards": null,
-    "lengthNote": null,
+    "lengthNote": "Utslagssteder: 33, 40, 48, 52",
     "terrain": null,
-    "courseType": null,
+    "courseType": "Parkbane",
     "designer": null,
-    "yearBuilt": null,
+    "yearBuilt": 1993,
     "yearRedesigned": null,
     "waterHazards": null,
     "signatureHole": null,
@@ -32,17 +32,27 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": null,
-    "viewDescription": null
+    "viewDescription": "Ved Skogsfjorden"
   },
-  "description": null,
+  "description": "Norges sydligste golfbane, stiftet i 1993. Mandal Golfklubb har en av Sørlandets beste 9 hullsbaner med treningsområder for nærspill, driving range og putting green, samt et klubbhus med fasiliteter som kafe og garderober, simulatorrom med tre Trackman simulatorer og en hyggelig terrasse.",
   "contact": {
     "phone": "938 35 540",
     "email": "kontakt@mandalgk.no",
     "emailAlt": null,
     "website": "https://mandalgk.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/mandalgolfklubb/",
+    "instagram": "https://www.instagram.com/mandalgolfklubb/",
+    "twitter": "https://twitter.com/mandalgolfklubb/",
+    "golfbox": true
+  },
+  "booking": {
+    "system": "GolfBox",
+    "app": null,
+    "email": "kontakt@mandalgk.no",
+    "phone": "938 35 540",
+    "advanceBookingDays": null,
+    "golfboxEnabled": true,
+    "notes": null
   },
   "phoneNumbers": [],
   "season": {
@@ -51,10 +61,12 @@
     "winterUse": null
   },
   "visitors": {
-    "welcome": null,
-    "walkingAllowed": null,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Mandal",
+    "distanceFromCenter": "3 km vest for Mandal sentrum",
+    "handicapRequired": true,
+    "dressCode": "Golf attire"
   },
   "organization": {
     "courseCompany": null,
@@ -98,8 +110,128 @@
     "discGolf": null,
     "discGolfStandard": null
   },
-  "pricing": {},
-  "membershipPricing": {},
+  "pricing": {
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": 400,
+      "greenFee9": 300,
+      "greenFeeMemberNoPlayingRight18": 350,
+      "greenFeeMemberNoPlayingRight9": 250,
+      "greenFeeJuniorDiscount": "50%",
+      "clubRental": 100,
+      "pullCartRental": 0,
+      "cartRental18": 200,
+      "cartRental9": 100,
+      "cartRentalRequiresHealthCert": true,
+      "norskSeniorGolfDiscount": 250,
+      "norskSeniorGolfNotes": "Inntil 2 runder a 250 kroner (18 hull) i hele sesongen. Gjelder ikke i juli. Alle hverdager før kl 14:00.",
+      "golfamoreDiscount": "50%",
+      "golfamoreNotes": "1 greenfee per kalenderår med 50% rabatt. Gjelder ikke i juli.",
+      "notes": null
+    }
+  },
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Medlem",
+        "name": "Medlemskontingent",
+        "price": 1800,
+        "description": "Basiskontingent",
+        "ageRange": null
+      },
+      {
+        "category": "Ektefelle/samboer",
+        "name": "Ektefelle / samboer av medlem",
+        "price": 1500,
+        "description": "Basiskontingent for ektefelle/samboer",
+        "ageRange": null
+      },
+      {
+        "category": "Passivt medlem",
+        "name": "Passivt medlem",
+        "price": 600,
+        "description": "Ingen spillerett",
+        "ageRange": null
+      },
+      {
+        "category": "Spillerett medlem",
+        "name": "Spillerett for medlemmer",
+        "price": 3300,
+        "description": "I tillegg til medlemskontingent",
+        "ageRange": null
+      },
+      {
+        "category": "Spillerett andre klubber",
+        "name": "Spillerett for medlemmer i andre klubber",
+        "price": 3800,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Student",
+        "name": "Student (inkl. spillerett)",
+        "price": 1800,
+        "description": "Inkludert spillerett",
+        "ageRange": null
+      },
+      {
+        "category": "Junior",
+        "name": "Junior (inkl. spillerett)",
+        "price": 1500,
+        "description": "Inkludert spillerett",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Knøtter",
+        "name": "Knøtter (inkl. spillerett)",
+        "price": 730,
+        "description": "Inkludert spillerett",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Medlem over 80",
+        "name": "Medlem over 80 år",
+        "price": 0,
+        "description": "Gratis spillerett",
+        "ageRange": "80+"
+      }
+    ]
+  },
+  "membershipStatus": {
+    "status": "open",
+    "totalMembers": null,
+    "maxMembers": null,
+    "waitlistLength": null,
+    "entranceFee": null,
+    "avtalegiro": true,
+    "notes": "Kan betales med månedlig avtalegiro. For familiemedlemskap kontakt daglig leder."
+  },
+  "clubPartnerships": [
+    {
+      "club": "Kristiansand Golfklubb",
+      "benefit": "Fritt spill fra 1 mai til 31 august"
+    },
+    {
+      "club": "Grini Golfklubb",
+      "benefit": "Gratis 2 ganger 9 hull per år"
+    },
+    {
+      "club": "Haugesund Golfpark",
+      "benefit": "Fritt spill hele sesongen"
+    },
+    {
+      "club": "Groruddalen Golfklubb",
+      "benefit": "Gratis 2 ganger 18 hull per år"
+    }
+  ],
+  "vtgCourse": {
+    "priceAdult": 1000,
+    "priceJunior": 500,
+    "priceKnott": 0,
+    "duration": 6,
+    "maxParticipants": 10,
+    "notes": "Pris for knøtter under 12 år gratis, men må ha følge av en voksen. Dersom en blir medlem med full spillerett er kurset gratis."
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -116,12 +248,12 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T13:30:17.195Z",
+    "dataQuality": "excellent",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 90,
+    "pagesScraped": ["gjester", "klubben", "bli-medlem"],
+    "scrapedAt": "2026-02-14T15:30:00.000Z",
     "createdAt": "2025-10-30T13:30:17.201Z",
-    "updatedAt": "2025-10-30T13:30:17.201Z"
+    "updatedAt": "2026-02-14T15:30:00.000Z"
   }
 }

@@ -105,14 +105,15 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 150,
       "greenFeeDaily": null,
       "greenFeeWeekday": 150,
       "greenFeeWeekend": 150,
       "greenFeeSenior": 150,
       "greenFeeJunior": 75,
-      "greenFeeDescription": "Greenfee 2025: Senior/Voksen 150 kr (18 hull), Junior 75 kr (18 hull). Klubben markedsfører seg som svært rimelig med god service for fjernmedlemmer.",
+      "greenFeeDescription": "Greenfee: Senior/Voksen 150 kr (18 hull), Junior 75 kr (18 hull). Et av Norges rimeligste golfanlegg med god service for fjernmedlemmer.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
@@ -123,17 +124,17 @@
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "regular",
         "price": 749,
-        "description": null,
+        "description": "Fjern- og lokalmedlemskap",
         "ageRange": null
       },
       {
         "category": "priority",
         "price": 799,
-        "description": null,
+        "description": "Medlemskap med høy prioritet",
         "ageRange": null
       }
     ]
@@ -179,11 +180,11 @@
   "sources": [],
   "meta": {
     "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-12T07:20:09.162Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 85,
+    "pagesScraped": ["homepage", "medlemskap", "banen"],
+    "scrapedAt": "2026-02-14T16:01:00.000Z",
     "createdAt": "2025-10-30T10:55:18.542Z",
-    "updatedAt": "2026-02-12T07:20:09.163Z"
+    "updatedAt": "2026-02-14T16:01:00.000Z"
   }
 }

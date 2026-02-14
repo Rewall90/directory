@@ -40,19 +40,24 @@
   },
   "description": "Nordfjord Golfklubb - 9-hulls parklandbane på Stokkenes Golfpark ved Eidselva laksefossen, grunnlagt 1999. Par 32 (64 for 18 hull når spilt 2 ganger), 1655 yards (ca 1513m). Ansett av mange som en av de beste og vakreste golfbanene i Vestland. Nordfjordeid ligger i Nordfjord.",
   "contact": {
-    "phone": "+47 48 11 22 60",
+    "phone": "+47 90 40 80 48",
     "email": "post@norgolf.com",
     "emailAlt": null,
     "website": "https://www.norgolf.com/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/Nordfjord-Golfklubb-208095869223784",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
   "phoneNumbers": [
     {
-      "number": "+47 48 11 22 60",
+      "number": "+47 90 40 80 48",
       "type": "main",
       "primary": true
+    },
+    {
+      "number": "+47 91 36 05 35",
+      "type": "memberservice",
+      "primary": false
     }
   ],
   "season": {
@@ -82,8 +87,8 @@
     "proShop": false,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
+    "clubRental": true,
+    "clubRentalNotes": "Callaway Rogue & Mavrik køller tilgjengelig",
     "cartRental": false,
     "pullCartRental": true,
     "golfLessons": null,
@@ -109,35 +114,44 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
-      "greenFeeWeekend": 250,
-      "greenFeeSenior": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
       "greenFeeJunior": 100,
-      "greenFeeDescription": "Greenfee 2025: Voksen 250 kr, Junior 100 kr, Barn under 12 år gratis. Banen er åpen for gjestespillere uten booking - begrenset press på banen, kan alltid slå ut på kort varsel også helger og helligdager.",
+      "greenFeeDescription": "Greenfee 2025: Voksne og pensjonister 300 kr, Junior (15-19 år) 100 kr, Barn under 15 år (i følge med voksen) gratis. Vintergreener: 100 kr / 25 kr.",
       "cartRental": null,
       "pullCartRental": null,
-      "clubRental": null,
+      "clubRental": true,
+      "clubRentalNotes": "Callaway Rogue & Mavrik køller tilgjengelig",
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Barn under 12 år spiller gratis. Ingen booking nødvendig - begrenset press på banen. Ansett som en av de beste og vakreste banene i Vestland. Panoramautsikt fra klubbhuset."
+      "notes": "Barn under 15 år spiller gratis med voksen. Alltid ledige tider. Kølleutleie tilgjengelig (Callaway Rogue & Mavrik). Vipps: 99802."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "child",
-        "price": 1600,
-        "description": "Medlemskap 2025: Barn 1600 kr, Voksen 3200 kr. Inkluderer medlemskap i Nordfjord Golfklubb og fri spillerett for en sesong på Stokkenes Golfpark. Kontakt klubben for detaljer via telefon +47 48 11 22 60 eller epost post@norgolf.com.",
-        "ageRange": null
+        "price": 0,
+        "description": "Barn under 15 år med bostedsadresse i Nordfjord: Gratis medlemskap og greenfee årskort.",
+        "ageRange": "Under 15 år"
+      },
+      {
+        "category": "junior",
+        "price": 600,
+        "greenfeeAnnual": 1000,
+        "description": "Junior (15-19 år): Medlemskap 600 kr, Greenfee årskort 1000 kr (valgfritt). Fjernmedlemmer betaler vanlig greenfee per runde.",
+        "ageRange": "15-19 år"
       },
       {
         "category": "adult",
-        "price": 3200,
-        "description": "Medlemskap 2025: Barn 1600 kr, Voksen 3200 kr. Inkluderer medlemskap i Nordfjord Golfklubb og fri spillerett for en sesong på Stokkenes Golfpark. Kontakt klubben for detaljer via telefon +47 48 11 22 60 eller epost post@norgolf.com.",
+        "price": 1300,
+        "greenfeeAnnual": 2000,
+        "description": "Voksen: Medlemskap 1300 kr, Greenfee årskort 2000 kr (valgfritt). Fjernmedlemmer betaler vanlig greenfee per runde. NGF-avgift og Golfkort inkludert.",
         "ageRange": null
       }
     ]
@@ -196,12 +210,18 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "89.0",
-    "websiteQuality": null,
-    "completenessPercentage": 89,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:20:26.937Z",
+    "dataQuality": "92.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "homepage",
+      "greenfee",
+      "medlemskap",
+      "bana"
+    ],
+    "scrapedAt": "2026-02-14T17:31:00.000Z",
     "createdAt": "2025-10-31T10:20:26.938Z",
-    "updatedAt": "2025-11-03T09:10:17.683Z"
-  }
+    "updatedAt": "2026-02-14T17:31:00.000Z"
+  },
+  "googlePlaceId": "ChIJZXLDwUJWFkYRUEuQQRKXuXw"
 }

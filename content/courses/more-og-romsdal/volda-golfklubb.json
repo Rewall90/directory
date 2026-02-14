@@ -111,22 +111,74 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 200,
-      "greenFeeWeekend": 200,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee: 200 kr per dag. Betaling i klubbhuset ved parkeringsplassen.",
+      "greenFeeDaily": 400,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee voksne: 400 kr per dag. Junior (t.o.m. 19 år): 200 kr (halv pris). Du kan gå så mange hol du ønsker den dagen.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Fjernmedlemmer må også betale full greenfee 400 kr"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 400,
+      "greenFee9": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 200,
+      "twilight": null,
+      "greenFeeDescription": "Greenfee voksne: 400 kr per dag. Junior (t.o.m. 19 år): 200 kr (halv pris). Ubegrenset antall hull per dag.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Fjernmedlemmer må også betale full greenfee 400 kr"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "currency": "NOK",
+      "firstYearMembership": 1500,
+      "firstYearMembershipDescription": "1. års ordinært medlemskap",
+      "secondYearMembership": 3000,
+      "secondYearMembershipDescription": "2. års ordinært medlemskap",
+      "fullMembership": 3700,
+      "fullMembershipDescription": "Ordinært medlemskap (3. år og senere)",
+      "pensionistMembership": 3300,
+      "pensionistMembershipDescription": "Pensjonist (67+ år)",
+      "childMembershipFree": 0,
+      "childMembershipFreeDescription": "Barn opp til 10 år - gratis",
+      "childMembership": 500,
+      "childMembershipDescription": "Barn 11-16 år",
+      "juniorMembership": 1500,
+      "juniorMembershipDescription": "Juniormedlem 17-21 år",
+      "studentMembership": 1500,
+      "studentMembershipDescription": "Studentmedlem",
+      "spouseMembership": 3000,
+      "spouseMembershipDescription": "Ektefelle/samboer av medlem",
+      "distanceMembership": 1000,
+      "distanceMembershipDescription": "Fjernmedlem (må betale greenfee 400 kr)",
+      "passivMembership": 1000,
+      "passivMembershipDescription": "Passiv lokalmedlem (uten spillerett)",
+      "neighborMembership": 1500,
+      "neighborMembershipDescription": "Nabomedlemskap",
+      "vtgCourse": 1500,
+      "vtgCourseDescription": "Vegen til Golf kurs for voksne (12 timer)",
+      "vtgCourseJunior": 500,
+      "vtgCourseJuniorDescription": "Vegen til Golf kurs for barn under 16 år",
+      "membershipStatus": "open",
+      "notes": "Utmelding må skje før 31. desember. Mellom 1. januar og 30. april: 450 kr gebyr. Etter 30. april: full kontingent."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -181,12 +233,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.5",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 92,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:12.384Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "index",
+      "bana/greenfee",
+      "om-klubben/medlemsskap"
+    ],
+    "scrapedAt": "2026-02-14T17:00:00.000Z",
     "createdAt": "2025-10-31T09:31:12.385Z",
-    "updatedAt": "2025-11-03T09:09:45.292Z"
-  }
+    "updatedAt": "2026-02-14T17:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJkVbuFDrlFkYRyZu1432nDr8"
 }

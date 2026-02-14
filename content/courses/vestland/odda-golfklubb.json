@@ -164,8 +164,10 @@
     "websiteQuality": null,
     "completenessPercentage": 45,
     "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:17:00.021Z",
+    "scrapedAt": "2026-02-14T17:48:00.000Z",
     "createdAt": "2025-10-31T10:17:00.023Z",
-    "updatedAt": "2025-11-03T09:09:59.207Z"
-  }
+    "updatedAt": "2026-02-14T17:48:00.000Z",
+    "statusNotes": "No active golf course in operation. Club previously had 6-hole course in industrial area. Working on potential connection to Roldal golf project."
+  },
+  "googlePlaceId": "ChIJLQzd88GfPkYRRHFSdt_LwIU"
 }

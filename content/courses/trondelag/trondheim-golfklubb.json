@@ -109,59 +109,83 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2025": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien.",
+      "greenFee9Voksen": 350,
+      "greenFee9UngVoksen": 300,
+      "greenFee9Junior": 250,
+      "greenFeeWeekly": 1500,
+      "greenFeeMonthly": 4000,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "9 hull: Voksen (30+) 350 kr, Ung-voksen (19-29) 300 kr, Junior (t.o.m. 19) 250 kr. Ukegreenfee 1500 kr, Månedsgreenfee 4000 kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK."
+      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK. Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien."
     }
   },
   "membershipPricing": {
-    "2024": [
+    "2026": [
       {
-        "category": "youth",
+        "category": "Barn",
         "price": 650,
-        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "description": "Under 12 år. Kan være med foreldre/foresatte ut på banen eller treningsfeltet.",
+        "ageRange": "0-11"
+      },
+      {
+        "category": "Junior",
+        "price": 3600,
+        "description": "12-19 år. Full spillerett. Kan deles opp i rater.",
+        "ageRange": "12-19"
+      },
+      {
+        "category": "Ung voksen 19-26",
+        "price": 5150,
+        "description": "Født 2000-2006. Full spillerett. Kan deles opp i rater.",
+        "ageRange": "19-26"
+      },
+      {
+        "category": "Ung voksen 27-29",
+        "price": 6000,
+        "description": "Født 1997-1999. Full spillerett. Kan deles opp i rater.",
+        "ageRange": "27-29"
+      },
+      {
+        "category": "Voksen",
+        "price": 7700,
+        "description": "30 år eller eldre. Full spillerett 7 dager i uka.",
+        "ageRange": "30+"
+      },
+      {
+        "category": "Familie",
+        "price": 15000,
+        "description": "Maks 2 voksne + 2 juniorer/barn i samme husstand. Kan deles opp i rater.",
         "ageRange": null
       },
       {
-        "category": "greenfeeMembership",
-        "price": 1620,
-        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "category": "Formiddag",
+        "price": 5670,
+        "description": "Spillerett før kl 15:00 på ukedager (man-fre). Må betale greenfee i helg/helligdag. Kan delta i klubbturneringer uten greenfee.",
         "ageRange": null
       },
       {
-        "category": "young",
-        "price": 3220,
-        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "category": "Greenfee",
+        "price": 2550,
+        "description": "For de som er usikre på spillemengde. Må betale greenfee for å spille. Inkluderer 1 greenfee.",
         "ageRange": null
       },
       {
-        "category": "junior",
-        "price": 3220,
-        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
-        "ageRange": null
-      },
-      {
-        "category": "youngAdult",
-        "price": 4830,
-        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
-        "ageRange": null
-      },
-      {
-        "category": "support",
-        "price": 750,
-        "description": "Barn t.o.m. 12 år 650; Junior 13–19 år 3220; Ung voksen 1995–2004: 4830; Greenfee-medlemskap 1620; Støttemedlemskap 750.",
+        "category": "Golf Total",
+        "price": 11940,
+        "priceMonthly": 995,
+        "description": "Ubegrenset spill på både Trondheim og Stjørdal GK.",
         "ageRange": null
       }
     ]
@@ -200,11 +224,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:54.496Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "kontigent-medlemskap",
+      "booking"
+    ],
+    "scrapedAt": "2026-02-14T16:46:00.000Z",
     "createdAt": "2025-10-31T11:30:54.497Z",
-    "updatedAt": "2025-11-03T09:10:08.807Z"
-  }
+    "updatedAt": "2026-02-14T16:46:00.000Z",
+    "notes": "Norway's most beautiful 9-hole course. Established 1950. Located in Bymarka with views over Trondheim. Golf Total joint membership with Stjørdal GK available."
+  },
+  "googlePlaceId": "ChIJLZdg6D0ybUYR-Z2MNkW5oKY"
 }

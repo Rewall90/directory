@@ -114,50 +114,26 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 600,
-      "greenFeeWeekend": 600,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 18 hull 600 kr, 9 hull 400 kr. VTG-kurs: Voksne 1600 kr (inkluderer greenfeemedlemskap inneværende år), Junior gratis med fritt spill medlemskap første året også gratis.",
-      "cartRental": 50,
-      "pullCartRental": null,
+      "greenFee18": 600,
+      "greenFee9": 400,
+      "greenFeeDescription": "Greenfee 9 hull 400 kr, 18 hull 600 kr",
+      "golfCartRental9": 200,
+      "golfCartRental18": 250,
+      "pullCartRental": 50,
       "clubRental": 140,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Alle medlemmer i Hemsedal GK med Fritt Spill medlemskap får 50% rabatt på Holtsmark. Medlemmer kan leie Golfstua (storhytte med 15-17 sengeplasser, badstue, ski in/out langrenn). Tennis: 2 kunstmattebaner tilgjengelig for 250 kr/time."
+      "notes": "Alle medlemmer i Hemsedal GK med Fritt Spill medlemskap får 50% rabatt på Holtsmark. Medlemmer kan leie Golfstua (storhytte med 15-17 sengeplasser, badstue, ski in/out langrenn)."
     }
   },
   "membershipPricing": {
-    "2025": [
-      {
-        "category": "adult_fritt_spill",
-        "price": 4600,
-        "description": "Medlemskap 2025: Medlem med fritt spill 4600 kr, Medlem (50% greenfee hver gang) 1600 kr, Junior fritt spill 1100 kr, Junior (50% greenfee) 600 kr. Klubben er selveiende og frittstående med utelukkende personlige medlemskap. Utmelding må meldes innen 31.12. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark.",
-        "ageRange": null
-      },
-      {
-        "category": "adult_50percent",
-        "price": 1600,
-        "description": "Medlemskap 2025: Medlem med fritt spill 4600 kr, Medlem (50% greenfee hver gang) 1600 kr, Junior fritt spill 1100 kr, Junior (50% greenfee) 600 kr. Klubben er selveiende og frittstående med utelukkende personlige medlemskap. Utmelding må meldes innen 31.12. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark.",
-        "ageRange": null
-      },
-      {
-        "category": "junior_fritt_spill",
-        "price": 1100,
-        "description": "Medlemskap 2025: Medlem med fritt spill 4600 kr, Medlem (50% greenfee hver gang) 1600 kr, Junior fritt spill 1100 kr, Junior (50% greenfee) 600 kr. Klubben er selveiende og frittstående med utelukkende personlige medlemskap. Utmelding må meldes innen 31.12. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark.",
-        "ageRange": null
-      },
-      {
-        "category": "junior_50percent",
-        "price": 600,
-        "description": "Medlemskap 2025: Medlem med fritt spill 4600 kr, Medlem (50% greenfee hver gang) 1600 kr, Junior fritt spill 1100 kr, Junior (50% greenfee) 600 kr. Klubben er selveiende og frittstående med utelukkende personlige medlemskap. Utmelding må meldes innen 31.12. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark.",
-        "ageRange": null
-      }
-    ]
+    "2026": {
+      "fullMemberAdult": 5000,
+      "memberAdult50Percent": 1900,
+      "juniorFreePlay": 1400,
+      "junior50Percent": 800,
+      "notes": "Medlem med fritt spill får fritt spill. Medlem betaler 50% greenfee hver gang. Alle medlemmer med Fritt Spill får 50% rabatt på Holtsmark. Klubben er selveiende og frittstående. Utmelding må meldes innen 31.12."
+    }
   },
   "ratings": {
     "google": {
@@ -194,10 +170,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:54:16.505Z",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "medlemskap-oversikt",
+      "greenfee"
+    ],
+    "scrapedAt": "2026-02-14T15:58:00.000Z",
     "createdAt": "2025-10-31T05:54:16.507Z",
-    "updatedAt": "2025-11-03T09:09:55.523Z"
-  }
+    "updatedAt": "2026-02-14T15:58:00.000Z"
+  },
+  "googlePlaceId": "ChIJ-885ImLcP0YRk3e06EUzPrQ"
 }

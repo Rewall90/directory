@@ -109,48 +109,76 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2025": {
       "currency": "NOK",
+      "greenFee18": 550,
+      "greenFee9": 400,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
-      "greenFeeWeekend": 350,
-      "greenFeeSenior": 250,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2024: Norsk Seniorgolf-medlemmer 350 kr (250 kr gyldig 1. mai - 1. oktober, ikke helg). Tralle-utleie 30 kr. Se solumgolf.club for fullstendige priser.",
-      "cartRental": null,
-      "pullCartRental": null,
+      "greenFeeWeekday": 550,
+      "greenFeeWeekend": 550,
+      "greenFeeSenior": 350,
+      "greenFeeSenior9": 250,
+      "greenFeeJunior": 350,
+      "greenFeeJunior9": 250,
+      "greenFeeSpring18": 450,
+      "greenFeeSpring9": 350,
+      "greenFeeDescription": "Greenfee 2025: Ordinær 18h 550 kr, 9h 400 kr. Rabattert vårpris 18h 450 kr, 9h 350 kr. Student/Junior 18h 350 kr, 9h 250 kr. NSG (1. mai - 1. okt, ikke helg/helligdager) 18h 350 kr, 9h 250 kr. Årsgreenfee (ikke-medlemmer) 5700 kr.",
+      "cartRental": 450,
+      "cartRental9": 350,
+      "cartRentalMedical": 350,
+      "cartRentalMedical9": 250,
+      "pullCartRental": 30,
       "clubRental": null,
+      "annualGreenfeeNonMember": 5700,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Årlig greenfee (ubegrenset spill for sesongen) 3300 kr voksne, 2200 kr junior/student t.o.m. 25 år. Barn t.o.m. 12 år spiller gratis på Solum. Stor putting green over 600 m2."
+      "notes": "Golfbil med legeattest 18h 350 kr, 9h 250 kr. Golfbil uten legeattest 18h 450 kr, 9h 350 kr. Traller 30 kr. Betaling via Vipps #602091. Medlemmer får 20% rabatt på simulatorsenter."
     }
   },
   "membershipPricing": {
-    "2024": [
+    "2025": [
       {
-        "category": "adult",
-        "price": 2130,
-        "description": "Medlemskap 2024: Voksen 2130 kr, Junior 13-19 år 1050 kr, Barn t.o.m. 12 år spiller gratis på Solum. Årlig greenfee (ubegrenset spill for sesongen) 3300 kr voksne, 2200 kr junior/student t.o.m. 25 år. Veien til golf-kurs tilgjengelig. Kontakt klubben for 2025-priser via telefon +47 976 32 520 eller epost post@solumgolfklubb.no.",
-        "ageRange": null
+        "category": "knotter",
+        "name": "Knøtter (0-12 år)",
+        "price": 300,
+        "description": "Medlemskap inkludert trening. Spiller gratis på Solum.",
+        "ageRange": "0-12"
       },
       {
         "category": "junior",
-        "price": 1050,
-        "description": "Medlemskap 2024: Voksen 2130 kr, Junior 13-19 år 1050 kr, Barn t.o.m. 12 år spiller gratis på Solum. Årlig greenfee (ubegrenset spill for sesongen) 3300 kr voksne, 2200 kr junior/student t.o.m. 25 år. Veien til golf-kurs tilgjengelig. Kontakt klubben for 2025-priser via telefon +47 976 32 520 eller epost post@solumgolfklubb.no.",
+        "name": "Junior/ungdom (13-19 år)",
+        "price": 550,
+        "description": "Medlemskap inkludert trening.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "voksen",
+        "name": "Voksen",
+        "price": 1100,
+        "description": "Grunnmedlemskap for voksne. Årsgreenfee kjøpes separat.",
         "ageRange": null
       },
       {
-        "category": "annualGreenfeeAdult",
-        "price": 3300,
-        "description": "Medlemskap 2024: Voksen 2130 kr, Junior 13-19 år 1050 kr, Barn t.o.m. 12 år spiller gratis på Solum. Årlig greenfee (ubegrenset spill for sesongen) 3300 kr voksne, 2200 kr junior/student t.o.m. 25 år. Veien til golf-kurs tilgjengelig. Kontakt klubben for 2025-priser via telefon +47 976 32 520 eller epost post@solumgolfklubb.no.",
+        "category": "arsgreenfeeVoksen",
+        "name": "Årsgreenfee Voksen",
+        "price": 5300,
+        "description": "Ubegrenset spill hele sesongen for voksne medlemmer. Betales til Solum Invest.",
         "ageRange": null
       },
       {
-        "category": "annualGreenfeeJunior",
-        "price": 2200,
-        "description": "Medlemskap 2024: Voksen 2130 kr, Junior 13-19 år 1050 kr, Barn t.o.m. 12 år spiller gratis på Solum. Årlig greenfee (ubegrenset spill for sesongen) 3300 kr voksne, 2200 kr junior/student t.o.m. 25 år. Veien til golf-kurs tilgjengelig. Kontakt klubben for 2025-priser via telefon +47 976 32 520 eller epost post@solumgolfklubb.no.",
-        "ageRange": null
+        "category": "arsgreenfeeStudent",
+        "name": "Årsgreenfee Student (20-25 år)",
+        "price": 3500,
+        "description": "Ubegrenset spill hele sesongen for studenter 20-25 år. Betales til Solum Invest.",
+        "ageRange": "20-25"
+      },
+      {
+        "category": "arsgreenfeeJunior",
+        "name": "Årsgreenfee Junior (13-19 år)",
+        "price": 2500,
+        "description": "Ubegrenset spill hele sesongen for juniorer 13-19 år. Betales til Solum Invest.",
+        "ageRange": "13-19"
       }
     ]
   },
@@ -218,12 +246,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "91.0",
-    "websiteQuality": null,
-    "completenessPercentage": 91,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:10:44.979Z",
+    "dataQuality": "95.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjestespiller",
+      "medlem"
+    ],
+    "scrapedAt": "2026-02-14T17:20:00.000Z",
     "createdAt": "2025-10-31T09:10:44.982Z",
-    "updatedAt": "2025-11-03T09:10:06.476Z"
-  }
+    "updatedAt": "2026-02-14T17:20:00.000Z"
+  },
+  "googlePlaceId": "ChIJ11ts6Rw1QUYRolS8DQGxQ1s"
 }

@@ -2,14 +2,14 @@
   "slug": "varanger-golfbane",
   "name": "Varanger Golfbane",
   "formerName": null,
-  "region": "Vadsø",
-  "city": "Vadsø",
-  "municipality": "Vadsø",
+  "region": "Vadsoe",
+  "city": "Vestre Jakobselv",
+  "municipality": "Vadso",
   "country": "Norway",
   "address": {
-    "street": "TBD",
-    "postalCode": "0000",
-    "area": null
+    "street": "Kariel",
+    "postalCode": "9802",
+    "area": "Vestre Jakobselv"
   },
   "coordinates": null,
   "course": {
@@ -19,63 +19,285 @@
     "parPerRound": null,
     "lengthMeters": null,
     "lengthYards": null,
-    "lengthNote": null,
-    "terrain": null,
-    "courseType": null,
+    "lengthNote": "120-443 meter. Rod, bla og gul tee. Gronn tee for korthullsslyfe pa 5 hull.",
+    "terrain": "Variert med vannhinder og bunkere",
+    "courseType": "9-hulls kunstgressbane",
     "designer": null,
     "yearBuilt": null,
     "yearRedesigned": null,
-    "waterHazards": null,
+    "waterHazards": true,
     "signatureHole": null,
     "scenicHole": null,
     "par3Count": null,
     "par4Count": null,
     "par5Count": null,
     "mountainViews": null,
-    "viewDescription": null
+    "viewDescription": "Varanger Golfpark har ni hull med lengder fra 120 til 443 meter. Banen er utfordrende bade for nybegynneren og den mer erfarne spilleren. Hullene er varierte med tanke pa lengder og det er vannhinder og/eller bunkere i spill pa hvert eneste hull.",
+    "greens": "Kunstgress greener pa samtlige hull, 3-4 flaggplasseringer per green"
   },
-  "description": null,
+  "description": "Varanger Golfpark har ni hull med lengder fra 120 til 443 meter. Det er bade rod, bla og gul tee. Gronn tee er etablert i en korthullsslyfe pa 5 hull som egner seg godt for de aller minste. Banen er utfordrende bade for nybegynneren og den mer erfarne spilleren. Hullene er varierte med tanke pa lengder og det er vannhinder og/eller bunkere i spill pa hvert eneste hull. Banen har kunstgress greener pa samtlige hull. Nytt klubbhus sto ferdig sommeren 2021 med garderobe, dusj, sauna og festsal med kjokken.",
   "contact": {
-    "phone": null,
-    "email": null,
+    "phone": "91 55 84 16",
+    "email": "post@varangergolf.no",
     "emailAlt": null,
     "website": "https://varangergolf.no",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/profile.php?id=100057518976371",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "91 55 84 16",
+      "type": "leder",
+      "primary": true,
+      "name": "Knut Busk"
+    },
+    {
+      "number": "416 78 640",
+      "type": "kasserer",
+      "primary": false,
+      "name": "Norunn F. Harila"
+    }
+  ],
   "season": {
-    "start": null,
+    "start": "April/Mai",
     "end": null,
     "winterUse": null
   },
   "visitors": {
-    "welcome": null,
-    "walkingAllowed": null,
-    "nearbyCity": null,
+    "welcome": true,
+    "walkingAllowed": true,
+    "nearbyCity": "Vadso",
     "distanceFromCenter": null
   },
   "organization": {
-    "courseCompany": null,
-    "clubOrganization": null
+    "courseCompany": "Varanger Golfpark AS (Org.nr: 915673996)",
+    "clubOrganization": "Varanger Golfklubb (Org.nr: 986670742)"
   },
-  "facilities": null,
-  "pricing": {},
-  "membershipPricing": {},
+  "facilities": {
+    "drivingRange": true,
+    "drivingRangeLength": null,
+    "drivingRangeNotes": "8 overbygde og 4 ikke overbygde utslag. Ballautomat med 20 kr myntinnkast (ca 30 baller). Kunstgress green ca. 60 meter fra utslag.",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
+    "clubhouseName": "Nytt klubbhus (2021)",
+    "proShop": true,
+    "restaurant": false,
+    "restaurantName": null,
+    "clubRental": null,
+    "clubRentalNotes": null,
+    "cartRental": false,
+    "pullCartRental": null,
+    "golfLessons": true,
+    "teachingPro": null,
+    "clubFitting": null,
+    "lockerRooms": true,
+    "showers": true,
+    "lockerRental": null,
+    "conferenceRoom": true,
+    "eventVenue": true,
+    "eventCapacity": null,
+    "eventVenueNotes": "Stor festsal med tilhorende kjokken. Leies ut til barnedap, konfirmasjon, bryllup og andre festdager. Kontakt Vivian Wara 98288011.",
+    "simulator": true,
+    "simulatorType": null,
+    "simulatorCourses": null,
+    "simulatorNotes": "Vadso Golfsimulator AS",
+    "bunkers": true,
+    "sauna": true,
+    "footgolf": null,
+    "footgolfHoles": null,
+    "footgolfPar": null,
+    "tennis": null,
+    "tennisCourts": null,
+    "discGolf": null,
+    "discGolfStandard": null
+  },
+  "pricing": {
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 400,
+      "greenFee9": 300,
+      "greenFeeWeekly": 1250,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 0,
+      "greenFeeJuniorNote": "Barn og ungdom til og med 19 ar gratis greenfee",
+      "greenFeeMember18": 250,
+      "greenFeeMember9": 200,
+      "greenFeeMemberWeekly": 1250,
+      "greenFeeDescription": "GJESTER:\n- Dagsgreenfee: 400 kr\n- 9 hull: 300 kr\n- Ukesgreenfee: 1250 kr\n\nMEDLEMMER:\n- Dagsgreenfee (18 hull+): 250 kr\n- 9 hull: 200 kr\n- Ukesgreenfee: 1250 kr\n- Barn og ungdom tom 19 ar: Gratis\n\nNYE MEDLEMMER:\n- VTG-deltakere far 1 ar fritt spill (utenom turneringer)\n\nGREENFEE PAKKER (medlem med HCP >36):\n- 10 greenfee: 1300 kr\n- 20 greenfee: 1800 kr\n\nSESSONGGREENFEE:\n- Spillerett-innehaver: 4000 kr\n- Medlem uten spillerett: 4500 kr\n- Medlem 20-26 ar: 3000 kr\n- Student/militar 20-26 ar: 1500 kr",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "drivingRange": {
+        "price": 20,
+        "ballCount": 30,
+        "notes": "Myntinnkast i ballautomat. Poletter kan kjopes i Pro shop."
+      },
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": "Nye medlemmer (sesongens VTG-deltagere) far 1 ar fritt spill utenom turneringer",
+      "notes": "Fjernmedlemmer betaler greenfee som gjest pga redusert medlemsavgift. Betaling via kort, Vipps (112473 eller 939787), eller kontanter i konvolutt i klubbhusets postkasse."
+    }
+  },
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "barn",
+        "price": 100,
+        "description": "Barn 0-14 ar",
+        "ageRange": "0-14"
+      },
+      {
+        "category": "ungdom",
+        "price": 500,
+        "description": "Ungdom 15-19 ar (inkl fjernmedlem)",
+        "ageRange": "15-19"
+      },
+      {
+        "category": "ung_student",
+        "price": 500,
+        "description": "Ung (student, vernepliktig) 20-26 ar",
+        "ageRange": "20-26"
+      },
+      {
+        "category": "ung",
+        "price": 800,
+        "description": "Ung 20-26 ar",
+        "ageRange": "20-26"
+      },
+      {
+        "category": "voksen",
+        "price": 1900,
+        "description": "Voksen (hovedmedlem) 27-67 ar",
+        "ageRange": "27-67"
+      },
+      {
+        "category": "ektefelle",
+        "price": 800,
+        "description": "Ektefelle/Samboer (ogsa fjernmedlem)",
+        "ageRange": null
+      },
+      {
+        "category": "pensjonist",
+        "price": 1500,
+        "description": "Pensjonist over 67 ar",
+        "ageRange": "67+"
+      },
+      {
+        "category": "fjernmedlem",
+        "price": 900,
+        "description": "Fjernmedlem voksen (utenom Ost-Finnmark)",
+        "ageRange": null
+      },
+      {
+        "category": "nybegynner",
+        "price": 1200,
+        "description": "Voksen ordinar medlem forste ar (nybegynner)",
+        "ageRange": null
+      },
+      {
+        "category": "familie_max",
+        "price": 3100,
+        "description": "Maks samlet kontingent for en familie (husstand)",
+        "ageRange": null
+      }
+    ],
+    "spillerettAksje": {
+      "price": 7000,
+      "description": "Kjop av spillerett aksje i Varanger Golfpark AS gir rett til kjop av arsgreenfee til redusert pris."
+    },
+    "sesonggreenfee": [
+      {
+        "category": "spillerett",
+        "price": 4000,
+        "description": "Spillerett-innehaver"
+      },
+      {
+        "category": "medlem_uten_spillerett",
+        "price": 4500,
+        "description": "Medlemmer uten Spillerett"
+      },
+      {
+        "category": "ung_20_26",
+        "price": 3000,
+        "description": "Medlemmer 20-26 ar"
+      },
+      {
+        "category": "student",
+        "price": 1500,
+        "description": "Student/militar 20-26 ar"
+      }
+    ]
+  },
   "ratings": {},
   "courseRatings": [],
   "nearbyCourses": [],
-  "additionalFeatures": [],
-  "sponsors": [],
-  "sources": [],
+  "additionalFeatures": [
+    {
+      "feature": "Kunstgress greener",
+      "description": "Banen har kunstgress greener pa samtlige hull med 3-4 ulike mulige flaggplasseringer per green."
+    },
+    {
+      "feature": "Klubbhus med festsal",
+      "description": "Nytt klubbhus (2021) med garderobe, dusj, sauna og stor festsal med tilhorende kjokken. Utleie til barnedap, konfirmasjon, bryllup og andre festdager."
+    },
+    {
+      "feature": "Korthullsslyfe",
+      "description": "Gronn tee er etablert i en korthullsslyfe pa 5 hull som egner seg godt for de aller minste."
+    },
+    {
+      "feature": "Grasrotandelen",
+      "description": "Stott klubben via Grasrotandelen. SMS: Grasrotandelen 986670742 til nummer 60000"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Harila",
+      "url": "https://harila.no/"
+    },
+    {
+      "name": "Vadso Transport Service AS",
+      "url": null
+    },
+    {
+      "name": "Serit",
+      "url": "https://serit.no/"
+    },
+    {
+      "name": "Varanger Kraft",
+      "url": "https://www.varanger-kraft.no/"
+    },
+    {
+      "name": "Byggern",
+      "url": "https://www.byggern.no/butikker"
+    }
+  ],
+  "sources": [
+    {
+      "type": "official_website",
+      "url": "https://varangergolf.no/",
+      "dataObtained": [
+        "contact_info",
+        "course_details",
+        "pricing",
+        "facilities",
+        "membership"
+      ],
+      "pagesScraped": 6,
+      "scrapedAt": "2026-02-14T16:25:00.000Z"
+    }
+  ],
   "meta": {
-    "dataQuality": "minimal",
-    "websiteQuality": "unknown",
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-10T10:23:46.188Z",
+    "dataQuality": "high",
+    "websiteQuality": "good",
+    "completenessPercentage": 75,
+    "pagesScraped": 6,
+    "scrapedAt": "2026-02-14T16:25:00.000Z",
     "createdAt": "2025-10-10T10:23:46.189Z",
-    "updatedAt": "2025-10-10T10:59:24.925Z"
+    "updatedAt": "2026-02-14T16:25:00.000Z"
   }
 }

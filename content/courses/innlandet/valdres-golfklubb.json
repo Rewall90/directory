@@ -111,22 +111,35 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee og utleie information available on website",
+      "greenFeeDescription": "Greenfee betales per besøk for ikke-medlemmer og medlemmer uten årskort. Årskortmedlemmer med årskort har fritt spill. 20% rabatt på andre Innlandet-baner for greenfeemedlemmer.",
+      "rangeBallFreeAccess": 1000,
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Custom fitting available: kr 695 (fradrag ved kjøp av utstyr)"
+      "neighborClubDiscount": "20%",
+      "customFitting": 695,
+      "notes": "Custom fitting: 695 kr (fradrag ved kjøp av utstyr). Fri tilgang til poletter på range: 1000 kr for sesongkort-innehavere."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "currency": "NOK",
+      "adultMembership": 1100,
+      "juniorStudentMembership": 700,
+      "seasonPassMember": 4200,
+      "seasonPassNonMember": 4200,
+      "seasonPassJunior": 1100,
+      "totalAdultWithSeasonPass": 5300,
+      "totalJuniorWithSeasonPass": 1800,
+      "hyttespillerett": 6500,
+      "hyttespillerettExtraChild": 750,
+      "familyFreeKids": "Under 12 år gratis ved 2 fullt betalende årskort",
+      "notes": "Regulært medlemskap gir golfkort og Norsk Golf. Årskort selges separat. Junior = tom 19 år, Student/vernepliktig tom 25 år. Familier med 2 årskort: barn under 12 år spiller gratis. Hyttespillerett: 6500 kr (100 plasser, alle tatt). Automatisk fornyelse - oppsigelse innen 31.12."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.7,
@@ -161,11 +174,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:14.394Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "home",
+      "om/bli-medlem",
+      "proshop"
+    ],
+    "scrapedAt": "2026-02-14T16:15:00.000Z",
     "createdAt": "2025-10-31T07:18:14.396Z",
-    "updatedAt": "2025-11-03T09:09:50.010Z"
-  }
+    "updatedAt": "2026-02-14T16:15:00.000Z"
+  },
+  "googlePlaceId": "ChIJoZgEcekDQEYRsPSphPNuoxc"
 }

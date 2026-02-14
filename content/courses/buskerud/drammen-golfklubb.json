@@ -110,10 +110,10 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
-    "simulatorType": null,
+    "simulator": true,
+    "simulatorType": "TrackMan",
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "TrackMan simulator på klubbhuset",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -124,24 +124,34 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee priser tilgjengelig på drammengk.no/gjester/greenfee",
-      "cartRental": 15,
+      "greenFee18": 550,
+      "greenFee18Weekend": 600,
+      "greenFee9": 300,
+      "greenFee9Weekend": 400,
+      "greenFeeJunior": "50%",
+      "greenFeeWithMember": 500,
+      "greenFeeWithMemberWeekend": 550,
+      "greenFeeDescription": "Junior 1/2 pris alle dager. Medlem m/gjest pris kr 500,- hverdager og 550,- helger/helligdager. Gjest må forhåndsbookes samtidig av medlemmet. Maks 3 gjester per fullt betalende medlem per runde.",
+      "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Omfattende treningsprogrammer: Sommertrening, Trenerteam, Protimer, Nybegynnerkurs 2025, Demodager. Medlemsfordeler tilgjengelig."
+      "notes": "All greenfee skal forhåndsbetales i Golfbox ved booking. TrackMan simulator tilgjengelig på klubbhuset."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "fullMemberAdult": 8500,
+      "fullMemberYoungAdult": 4800,
+      "fullMemberJunior": 2700,
+      "knotterMember": 700,
+      "weekdayMember": 6000,
+      "clubMember": 3000,
+      "familyMembershipNote": "Ved 2 fullt betalende voksne med fritt spill, får inntil 2 felles barn bli gratis medlemmer med fri spillerett t.o.m. 19 år.",
+      "notes": "Ung Voksen 20-25 år, Voksen 26+, Junior 13-19 år, Knøtter 0-12 år. Klubbmedlemskap inkluderer 3 greenfeebilletter for voksen og 6 for junior & student."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -177,10 +187,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:54:15.766Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "greenfee",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:53:00.000Z",
     "createdAt": "2025-10-31T05:54:15.769Z",
-    "updatedAt": "2025-11-03T09:09:40.223Z"
-  }
+    "updatedAt": "2026-02-14T15:53:00.000Z"
+  },
+  "googlePlaceId": "ChIJ9aCCleM6QUYR_C56GMQPbvg"
 }

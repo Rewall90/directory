@@ -40,15 +40,21 @@
   },
   "description": "Tysnes Golf (tidl. Dalen Golf) - 6-hulls bane med tilleggsbane: 18-hulls Pitch & Putt-bane. Par 63 for 18-hull Pitch & Putt. Lokalisert i Uggdal på Tysnes-øya. Klubbhus i låve med stor terrasse med utsikt mot havet i vest.",
   "contact": {
-    "phone": null,
-    "email": null,
+    "phone": "+47 90 55 19 95",
+    "email": "post@tysnesgolf.no",
     "emailAlt": null,
     "website": "https://www.tysnesgolf.no/",
     "facebook": "https://www.facebook.com/DalenGolfklubb/",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "+47 90 55 19 95",
+      "type": "main",
+      "primary": true
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -103,24 +109,51 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: Tilgjengelig i klubbhuset 'låven'. Kontakt klubben for priser via nettside www.tysnesgolf.no.",
+      "greenFeeDescription": "Greenfee tilgjengelig via medlemskap. Kontakt klubben for gjestespill: post@tysnesgolf.no eller 90551995.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "To baner: 6-hulls hovedbane og 18-hulls Pitch & Putt. Klubbhus i låve med stor terrasse og havutsikt. Sjokolade og brus tilgjengelig. Tysnesfest Open turnering."
+      "notes": "To baner: 6-hulls hovedbane og 18-hulls Pitch & Putt. Klubbhus i låve med stor terrasse og havutsikt. Tysnesfest Open turnering (startavgift 200 kr). Booking via GolfBox."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "senior",
+        "price": 2000,
+        "description": "Senior med spillerett: 2000 kr/år. 300 kr rabatt for ekstra husstandsmedlemmer.",
+        "ageRange": null
+      },
+      {
+        "category": "pensjonist",
+        "price": 1400,
+        "description": "Pensjonist med spillerett: 1400 kr/år",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 900,
+        "description": "Junior/Student med spillerett: 900 kr/år",
+        "ageRange": null
+      },
+      {
+        "category": "passive",
+        "price": 900,
+        "description": "Medlemskap uten spillerett: 900 kr/år",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
@@ -154,12 +187,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "65.0",
-    "websiteQuality": null,
-    "completenessPercentage": 65,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:17:02.176Z",
+    "dataQuality": "75.0",
+    "websiteQuality": "basic",
+    "completenessPercentage": 75,
+    "pagesScraped": [
+      "homepage",
+      "medlem"
+    ],
+    "scrapedAt": "2026-02-14T17:44:00.000Z",
     "createdAt": "2025-10-31T10:17:02.178Z",
-    "updatedAt": "2025-11-03T09:10:01.328Z"
-  }
+    "updatedAt": "2026-02-14T17:44:00.000Z"
+  },
+  "googlePlaceId": "ChIJE5vciLxmPEYRpwUf9fBgOQQ"
 }

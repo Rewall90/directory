@@ -40,13 +40,13 @@
   },
   "description": "Samarbeidet mellom Hakadal Golfklubb og grunneier har resultert i et baneprosjekt både klubb, grunneier og kommune slår ring om. Målsetningen har vært å skape et golf- og friluftstilbud med lokal tilknytning. Banen er bygget etter USGA-standard, tilpasset skandinaviske forhold. Første 9 hull åpnet juni 2005, ytterligere 9 hull august 2006. Golf passer for alle - uansett alder. Golf er en familie- og selskapssport. Golf er frisk luft og mosjon, helse og trivsel. Golf er relasjonsskapende.",
   "contact": {
-    "phone": "90611116",
+    "phone": "+47 906 11 116",
     "email": "torve@hakadalgolf.no",
     "emailAlt": null,
     "website": "https://aasgaardgolfpark.no/",
     "facebook": "https://www.facebook.com/hakadalgolf/",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -124,24 +124,98 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 650,
-      "greenFeeWeekend": 700,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "50% rabatt for juniorer (halv pris alle dager). kr 400,- for Norsk Seniorgolf-medlemmer hverdager 13:00-15:00. Minimum greenfee kr 400,- for spillere over 19 år. Golfbilutleie krever booking via proshop i åpningstid. Fører må være 18+ med gyldig førerkort. Helg primetid (09:00-13:50) kr 850,-, andre helgetider kr 700,-. Range baller: kr 39,-. Åpningstider: Hverdager 08:00-20:00, Helg 08:00-17:00 (telefonbooking). Golfbox online booking 24/7 for tee-tider 06:00-20:50. Vipps: 107164",
-      "cartRental": 450,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Må bookes via proshop i åpningstid. Kan hentes maks 30 min før tee-tid hvis tilgjengelig. Ikke tilgjengelig utenfor åpningstid. Må være 18+ med førerkort. Leietaker ansvarlig for skader via egen forsikring. 9-hulls golfbilleie: kr 250,-"
+      "greenFeeWeekday": 700,
+      "greenFeeWeekendPrime": 900,
+      "greenFeeWeekendAfternoon": 700,
+      "greenFee9": 450,
+      "greenFeeJunior": 450,
+      "greenFeeDescription": "Helg/røde dager før kl 15:00: kr 900,-, etter kl 15:00: kr 700,-. Junior t.o.m. det året du fyller 19 år. 9 hull må avtales med Proshop på forhånd.",
+      "cartRental18": 450,
+      "cartRental9": 300,
+      "notes": "Booking via GolfBox 24/7 eller telefon (hverdager 08:00-20:00, helg 08:00-17:00). Startintervall: 10 min. Avbestilling senest kl 22:00 dagen før. Anbefalt spilletid ved full bane: 4,5 timer."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "pluss": {
+        "name": "Plussmedlemskap",
+        "price": 12995,
+        "description": "Best valuta for pengene for de som spiller mye"
+      },
+      "target600": {
+        "name": "Target 600",
+        "price": 10250,
+        "description": "For aksjonærer/fullt betalende medlemmer"
+      },
+      "aksjonaerRegulaer": {
+        "name": "Aksjonærer/fullt betalende medlemmer regulær",
+        "price": 9350,
+        "description": "Standard medlemskap"
+      },
+      "frittSpillUtenBinding": {
+        "name": "Fritt spill uten binding",
+        "price": 9350,
+        "description": "Full tilgang uten binding"
+      },
+      "frittSpillHverdager": {
+        "name": "Fritt spill hverdager",
+        "price": 6550,
+        "description": "Ubegrenset spill mandag-fredag"
+      },
+      "provemedlem": {
+        "name": "Prøvemedlem 1 år med fritt spill hele uken",
+        "price": 5100,
+        "description": "For nye spillere"
+      },
+      "studentUngdom": {
+        "name": "Student eller ungdom 20-26 år",
+        "price": 4650,
+        "description": "For studenter og unge voksne"
+      },
+      "nineHullHverdager": {
+        "name": "9 hull fritt spill hverdager",
+        "price": 4250,
+        "description": "Fritt spill på 9 hull hverdager"
+      },
+      "vtg": {
+        "name": "VTG (Veien til golf)",
+        "price": 3200,
+        "description": "Nybegynnerkurs"
+      },
+      "juniorFrittSpill": {
+        "name": "Junior fritt spill",
+        "price": 3000,
+        "description": "For juniorer"
+      },
+      "greenfeemedlem1": {
+        "name": "Greenfeemedlemskap 1 inkl 3 runder",
+        "price": 1995,
+        "description": "Inkluderer 3 runder til verdi inntil kr 2700,-"
+      },
+      "juniorAksjonaer": {
+        "name": "Junior aksjonær, pluss og Target 600 foresatt",
+        "price": 1000,
+        "description": "For barn av aksjonærer/pluss/Target 600 medlemmer"
+      },
+      "vtgVinter": {
+        "name": "VTG-kurs innendørs vinter",
+        "price": 890,
+        "description": "Nybegynnerkurs innendørs"
+      },
+      "greenfeemedlem2": {
+        "name": "Greenfeemedlemskap 2",
+        "price": 890,
+        "description": "Basismedlemskap"
+      },
+      "juniorGreenfee": {
+        "name": "Junior greenfee medlemskap",
+        "price": 450,
+        "description": "For juniorer uten fritt spill"
+      }
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -176,11 +250,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:19.348Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 97,
+    "pagesScraped": [
+      "homepage",
+      "medlemsskap",
+      "bane/priser-og-regler-2026"
+    ],
+    "scrapedAt": "2026-02-14T17:53:00.000Z",
     "createdAt": "2025-10-31T11:23:19.350Z",
-    "updatedAt": "2025-11-03T09:10:17.975Z"
-  }
+    "updatedAt": "2026-02-14T17:53:00.000Z"
+  },
+  "googlePlaceId": "ChIJ3agzFAR2QUYRlRyJAKdL9X0"
 }

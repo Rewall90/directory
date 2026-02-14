@@ -41,12 +41,12 @@
   "description": "Miklagard Golf åpnet i juni 2001 med intensjon om å være en av Europas beste golfanlegg. Banen er tilrettelagt for bruk av golfbiler og vi har 20 moderne biler til utleie. Miklagard er kjent for sine gode greener. Kvaliteten på greener, fairwayer og utslagssteder holder høy europeisk standard.",
   "contact": {
     "phone": "+47 63943100",
-    "email": "E-post vist som bilde på nettsiden",
-    "emailAlt": null,
+    "email": "elias@miklagardgolf.no",
+    "emailAlt": "paal@miklagardgolf.no",
     "website": "https://miklagardgolf.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/miklagardgolf",
+    "instagram": "https://www.instagram.com/miklagard_golf",
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -73,21 +73,22 @@
   "facilities": {
     "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": null,
-    "puttingGreen": false,
-    "chippingArea": false,
+    "drivingRangeNotes": "5 kunstgressgreener, gressutslag, Titleist baller, utslag under tak",
+    "puttingGreen": true,
+    "chippingArea": true,
     "practiceBunker": false,
     "clubhouse": true,
     "clubhouseName": null,
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Miklagard Restaurant",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
-    "golfLessons": null,
-    "teachingPro": false,
+    "clubRental": true,
+    "clubRentalNotes": "Titleist golfsett til utleie - herre, dame og venstrehendte",
+    "cartRental": true,
+    "cartRentalNotes": "20 golfbiler til utleie, bookes via Golf Shopen",
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": true,
     "showers": null,
@@ -95,10 +96,10 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
-    "simulatorType": null,
+    "simulator": true,
+    "simulatorType": "TrackMan",
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "TrackMan svingstudio",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -126,7 +127,56 @@
       "notes": null
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "albatross": {
+        "name": "Albatross",
+        "price": 22390,
+        "monthlyPrice": 1996
+      },
+      "eagle": {
+        "name": "Eagle",
+        "price": 16490,
+        "monthlyPrice": 1470
+      },
+      "birdie": {
+        "name": "Birdie",
+        "price": 12990,
+        "monthlyPrice": 1158
+      },
+      "ungVoksenPluss": {
+        "name": "Ung voksen pluss",
+        "price": 11990,
+        "monthlyPrice": 1069
+      },
+      "ungVoksen": {
+        "name": "Ung voksen",
+        "price": 7990,
+        "monthlyPrice": 712
+      },
+      "par": {
+        "name": "Par",
+        "price": 6500
+      },
+      "basis": {
+        "name": "Basis",
+        "price": 1590
+      },
+      "junior0to12": {
+        "name": "Junior (0-12 år)",
+        "price": 1900
+      },
+      "junior13to18": {
+        "name": "Junior (13-18 år)",
+        "price": 3500
+      },
+      "eldreJunior": {
+        "name": "Eldre Junior (19-20 år)",
+        "price": 4900
+      },
+      "familyDiscount": "20%"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -172,11 +222,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
+    "websiteQuality": "good",
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:24:47.054Z",
+    "pagesScraped": [
+      "homepage",
+      "gjest",
+      "medlemskap",
+      "bookingregler"
+    ],
+    "scrapedAt": "2026-02-14T17:30:00.000Z",
     "createdAt": "2025-10-31T11:24:47.056Z",
-    "updatedAt": "2025-11-03T09:09:42.576Z"
-  }
+    "updatedAt": "2026-02-14T17:30:00.000Z"
+  },
+  "googlePlaceId": "ChIJec5FfgZ_QUYRIvyieuOfOkM"
 }

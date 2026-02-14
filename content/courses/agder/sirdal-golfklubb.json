@@ -105,30 +105,136 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Kontakt klubben for priser: 90 77 84 62",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "greenFee9": 300,
+      "greenFeeDaily": 400,
+      "greenFeeJunior9": 150,
+      "greenFeeJuniorDaily": 200,
+      "greenFeeChild": 55,
+      "greenFeeWeekend2Days": 600,
+      "greenFeeWeekend3Days": 800,
+      "greenFeeWeek5Days": 1200,
+      "greenFeeWeek7Days": 1600,
+      "greenFeeJuniorWeekend2Days": 300,
+      "greenFeeJuniorWeekend3Days": 400,
+      "greenFeeJuniorWeek5Days": 600,
+      "greenFeeJuniorWeek7Days": 800,
+      "greenFeeChildWeekend2Days": 85,
+      "greenFeeChildWeekend3Days": 110,
+      "greenFeeChildWeek5Days": 165,
+      "greenFeeChildWeek7Days": 220,
+      "greenFeeMemberDiscount": 55,
+      "trainingAreaDaily": 60,
+      "cartRental9": 250,
+      "cartRental18": 350,
+      "pullCartRental": 50,
+      "clubRental": 200,
+      "clubRentalSingle": 30,
+      "footballRental": 50,
+      "notes": "Medlemmer i Sirdal Fjellgolfklubb får kr. 55,- i rabatt på alle priser. Barn tom 12 år som er medlem spiller gratis."
     }
   },
   "membershipPricing": {
     "2025": [
       {
-        "category": "Medlemskap med spillerett",
-        "price": 3000,
-        "description": null,
+        "category": "Medlem uten spillerett - Voksen",
+        "name": "Medlemskap uten spillerett - Voksen",
+        "price": 1600,
+        "description": "Greenfeerabatter",
         "ageRange": null
+      },
+      {
+        "category": "Medlem uten spillerett - Ektefelle/samboer",
+        "name": "Medlemskap uten spillerett - Ektefelle/samboer",
+        "price": 1200,
+        "description": "Greenfeerabatter",
+        "ageRange": null
+      },
+      {
+        "category": "Medlem uten spillerett - Junior",
+        "name": "Medlemskap uten spillerett - Junior",
+        "price": 100,
+        "description": "Greenfeerabatter",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Medlem uten spillerett - Student",
+        "name": "Medlemskap uten spillerett - Student",
+        "price": 500,
+        "description": "Greenfeerabatter",
+        "ageRange": "20-25"
+      },
+      {
+        "category": "Medlem med spillerett - Hovedmedlem",
+        "name": "Medlemskap med fri spillerett - Hovedmedlem",
+        "price": 3600,
+        "description": "Fritt spill",
+        "ageRange": null
+      },
+      {
+        "category": "Medlem med spillerett - Ektefelle/samboer",
+        "name": "Medlemskap med fri spillerett - Ektefelle/samboer",
+        "price": 3200,
+        "description": "Fritt spill",
+        "ageRange": null
+      },
+      {
+        "category": "Medlem med spillerett - Barn",
+        "name": "Medlemskap med fri spillerett - Barn",
+        "price": 100,
+        "description": "Fritt spill",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Medlem med spillerett - Junior",
+        "name": "Medlemskap med fri spillerett - Junior",
+        "price": 500,
+        "description": "Fritt spill",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Medlem med spillerett - Student",
+        "name": "Medlemskap med fri spillerett - Student",
+        "price": 1000,
+        "description": "Fritt spill",
+        "ageRange": "20-25"
+      },
+      {
+        "category": "Andelseier - Voksen",
+        "name": "Medlemskap for andelseier - Voksen",
+        "price": 2500,
+        "description": "Fritt spill for eiere av personlig andel",
+        "ageRange": null
+      },
+      {
+        "category": "Andelseier - Ektefelle/samboer",
+        "name": "Medlemskap for andelseier - Ektefelle/samboer",
+        "price": 2100,
+        "description": "Fritt spill",
+        "ageRange": null
+      },
+      {
+        "category": "Andelseier - Junior",
+        "name": "Medlemskap for andelseier - Junior",
+        "price": 300,
+        "description": "Fritt spill",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "Andelseier - Student",
+        "name": "Medlemskap for andelseier - Student",
+        "price": 700,
+        "description": "Fritt spill",
+        "ageRange": "20-25"
       }
     ]
+  },
+  "membershipStatus": {
+    "status": "open",
+    "totalMembers": null,
+    "maxMembers": null,
+    "waitlistLength": null,
+    "entranceFee": null,
+    "notes": "Spesielt fokus på barn og ungdom"
   },
   "ratings": {
     "google": {
@@ -163,12 +269,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T13:27:24.901Z",
+    "dataQuality": "excellent",
+    "websiteQuality": "good",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "greenfee.html",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:32:00.000Z",
     "createdAt": "2025-10-30T13:27:24.903Z",
-    "updatedAt": "2025-11-03T09:09:34.461Z"
-  }
+    "updatedAt": "2026-02-14T15:32:00.000Z"
+  },
+  "googlePlaceId": "ChIJ06R8ESEKOUYR-3GUzyHjrrM"
 }

@@ -82,9 +82,9 @@
     "proShop": false,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
+    "clubRental": true,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -111,22 +111,28 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 250 kr inkluderer 24 timer spilling. Betaling: VIPPS, Bankkort, Ordr.no (selvbetjening online).",
-      "cartRental": null,
+      "greenFee18Weekend": 600,
+      "greenFee18Weekday": 500,
+      "greenFee9Weekend": 300,
+      "greenFee9Weekday": 250,
+      "greenFeeJunior": "50%",
+      "greenFeeDescription": "18 hull: fre-søn 600 kr, hverdager 500 kr. 9 hull: fre-søn 300 kr, hverdager 250 kr. Junior halv pris.",
+      "golfCartRental": 400,
       "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong (fredager 15:30-16:45), Ungdom/junior 13-19 år 800 kr/sesong (fredager 17:00-18:15), Voksne 20+ 1000 kr/sesong (fredager 18:30-19:45). Golfpro Thorbjørn Hansen. Fokusområder: Putting, Chipping & Pitching, Bunker, Sving, Retningskontroll, Mentale teknikker, Taktiske økter. Registrering via Spond app."
+      "clubRental": true,
+      "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong, Ungdom 13-19 år 800 kr/sesong, Voksne 20+ 1000 kr/sesong (fredager). Golfpro Thorbjørn Hansen."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "aMemberAdult": 4780,
+      "aMemberYouth": 2020,
+      "familyMember": 9560,
+      "cMemberAdult": 1700,
+      "cMemberYouth": 1010,
+      "notes": "A-medlemskap: Fritt spill, 100 kr rabatt for 1 gjest. C-medlemskap: 200 kr rabatt på greenfee. Familiemedlemskap: 2 A-medlemskap + gratis for barn inntil 19 år. Ungdom: under 20 år. Alle priser inkl NGF avgift."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -162,10 +168,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:54:19.338Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "greenfee",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:12:00.000Z",
     "createdAt": "2025-10-31T05:54:19.339Z",
-    "updatedAt": "2025-11-03T09:09:56.870Z"
-  }
+    "updatedAt": "2026-02-14T16:12:00.000Z"
+  },
+  "googlePlaceId": "ChIJByvUxzP0QEYRcCwlVGZC2Do"
 }

@@ -163,9 +163,15 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:48.972Z",
+    "pagesScraped": [
+      "homepage",
+      "golfbane",
+      "medlems-sider",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T16:14:00.000Z",
     "createdAt": "2025-10-31T11:30:48.973Z",
-    "updatedAt": "2025-11-03T09:10:14.435Z"
-  }
+    "updatedAt": "2026-02-14T16:14:00.000Z"
+  },
+  "googlePlaceId": "ChIJy6myYYm-EkYRiwfIa3usqGA"
 }

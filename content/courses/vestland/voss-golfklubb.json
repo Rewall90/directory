@@ -46,7 +46,8 @@
     "website": "https://vossgolf.no/",
     "facebook": "http://facebook.com/vossgolf/",
     "instagram": "https://www.instagram.com/vossgolf/",
-    "golfbox": false
+    "golfbox": true,
+    "vipps": "141899"
   },
   "phoneNumbers": [
     {
@@ -82,10 +83,12 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Kafé",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Fullsett 100 kr/dag. Gratis køller for driving range.",
+    "cartRental": true,
+    "cartRentalNotes": "9 hull 300 kr, 18 hull 500 kr. 50% rabatt med legeerklæring.",
     "pullCartRental": true,
+    "pullCartRentalPrice": 50,
     "golfLessons": true,
     "teachingPro": false,
     "clubFitting": null,
@@ -109,24 +112,81 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+      "greenFee9Weekday": 350,
+      "greenFee18Weekday": 500,
+      "greenFee9Weekend": 400,
+      "greenFee18Weekend": 600,
+      "greenFeeDaily": 700,
+      "greenFeeDailyWeekend": 800,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 600,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: Priser varierer etter dag og tidspunkt. 50% rabatt med Golfamore-kort for enkeltspillere (hverdager, én gang per år). Kontakt klubben for priser.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee 2025: Man-Fre 9h 350kr/18h 500kr. Lør-Søn 9h 400kr/18h 600kr. Heldags 700kr (vekedager), 800kr (helg). Junior (under 18) 150kr alle dager. Vipps #141899.",
+      "cartRental": 300,
+      "cartRental18": 500,
+      "pullCartRental": 50,
+      "clubRental": 100,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Designet av Jeremy Turner (2005). 4 tee-alternativer (2510-3361m). Idyllisk beliggenhet ved Lønavatnet i fjellområde. Golfamore 50% rabatt (hverdager). Simulator sesongkort: Voksen 3500 kr, Junior 1750 kr. Seimen Cup turnering."
+      "notes": "Trackman simulator: Sesongkort 3500kr (voksen), 1750kr (junior 13-19). Bobil parkering 150-200kr. Designet av Jeremy Turner (2005). Seimen Cup turnering. HCP-regler: Damer HCP 20+ fra lengde 46, Herrer HCP 20+ fra lengde 52."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "child",
+        "price": 600,
+        "description": "Fritt spel opp til 13 år: 600 kr/år",
+        "ageRange": "Opp til 13 år"
+      },
+      {
+        "category": "junior",
+        "price": 1000,
+        "description": "Fritt spel 14-20 år: 1000 kr/år",
+        "ageRange": "14-20 år"
+      },
+      {
+        "category": "youngAdult",
+        "price": 2600,
+        "description": "Fritt spel 21-25 år: 2600 kr/år",
+        "ageRange": "21-25 år"
+      },
+      {
+        "category": "adult",
+        "price": 5175,
+        "description": "Fritt spel voksen med medlemsandel: 5175 kr/år. Uten andel: 6200 kr/år. Medlemsandel: 10000 kr (engangsbeløp).",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 4350,
+        "description": "Fritt spel ektefelle/samboer med medlemsandel: 4350 kr/år. Medlemsandel: 7500 kr.",
+        "ageRange": null
+      },
+      {
+        "category": "senior",
+        "price": 4350,
+        "description": "Fritt spel pensjonist (67+ eller ufør) med medlemsandel: 4350 kr/år. Uten andel: 5375 kr/år.",
+        "ageRange": "67+ år"
+      },
+      {
+        "category": "greenfee",
+        "price": 1350,
+        "description": "C-medlem greenfee vaksen: 1350 kr/år. Junior 14-20 år: 600 kr/år. Betaler greenfee per runde.",
+        "ageRange": null
+      },
+      {
+        "category": "support",
+        "price": 1000,
+        "description": "Støttemedlem: 1000 kr/år",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -160,12 +220,19 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.0",
-    "websiteQuality": null,
-    "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:17:02.474Z",
+    "dataQuality": "96.0",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 96,
+    "pagesScraped": [
+      "homepage",
+      "gjest",
+      "greenfee",
+      "klubb",
+      "innmeldingsskjema"
+    ],
+    "scrapedAt": "2026-02-14T17:47:00.000Z",
     "createdAt": "2025-10-31T10:17:02.476Z",
-    "updatedAt": "2025-11-03T09:10:01.602Z"
-  }
+    "updatedAt": "2026-02-14T17:47:00.000Z"
+  },
+  "googlePlaceId": "ChIJC0qhiKLbPUYR5ScBnp5aMg4"
 }

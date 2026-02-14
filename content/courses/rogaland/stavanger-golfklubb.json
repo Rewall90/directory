@@ -111,22 +111,76 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+      "greenFeeDaily": 850,
+      "greenFeeWeekday": 850,
+      "greenFeeWeekend": 850,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee priser tilgjengelig i Golfbox. Medlemmer kan bruke GolfMore-app for greenfee-tilbud til gjestespillere. Booking via Golfbox.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
+      "greenFee9Hole": 510,
+      "greenFeeEarlyBird": 650,
+      "greenFeeTwilight": 650,
+      "greenFeeDescription": "18 hull: 850 kr (hverdager 08:00-19:00 og helg). Early Bird (hverdager før 08:00): 650 kr. Twilight (hverdager etter 19:00): 650 kr. 9 hull: 390 kr (hverdager før 08:00), 510 kr (etter 08:00 og helg). Medlemsrabatt: 5 stk greenfee via GolfMore for 2750 kr.",
+      "cartRental": 350,
+      "pullCartRental": 50,
+      "clubRental": 350,
+      "specialOfferPrice": 2750,
+      "specialOfferIncludes": "5 stk greenfee via GolfMore-appen",
       "freeTrial": null,
-      "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester"
+      "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester. Buggy kun for medisinske årsaker."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "adult",
+        "price": 10550,
+        "description": "Hovedmedlem (35+ år): 10 550 kr/år (922 kr/mnd)",
+        "ageRange": "35+"
+      },
+      {
+        "category": "spouse",
+        "price": 8550,
+        "description": "Ektefelle/samboer: 8 550 kr/år (755 kr/mnd)",
+        "ageRange": null
+      },
+      {
+        "category": "youngAdult",
+        "price": 8550,
+        "description": "Ung Voksne (20-34 år): 8 550 kr/år (755 kr/mnd)",
+        "ageRange": "20-34"
+      },
+      {
+        "category": "youngAdultSpouse",
+        "price": 6550,
+        "description": "Ektefelle/samboer Ung Voksen (20-34 år): 6 550 kr/år (588 kr/mnd)",
+        "ageRange": "20-34"
+      },
+      {
+        "category": "student",
+        "price": 4800,
+        "description": "Student/vernepliktig: 4 800 kr/år (442 kr/mnd). Kun for tidligere SGK junior medlemmer, opp til 26 år.",
+        "ageRange": "0-26"
+      },
+      {
+        "category": "vtg",
+        "price": 5275,
+        "description": "VTG I (Nybegynner): 5 275 kr/år (482 kr/mnd). Kun for kursdeltagere hos SGK.",
+        "ageRange": null
+      },
+      {
+        "category": "remote",
+        "price": 6330,
+        "description": "Fjernmedlem: 6 330 kr/år (570 kr/mnd). Fast bosted 8+ mil fra klubben. Gir spillerett, men ikke tilgang til TopNordic Golf.",
+        "ageRange": null
+      },
+      {
+        "category": "passive",
+        "price": 3000,
+        "description": "Passiv medlem: 3 000 kr/år. Inkluderer to greenfee-billetter, men gir ikke full spillerett.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -201,12 +255,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "87.0",
+    "dataQuality": "92.0",
     "websiteQuality": null,
-    "completenessPercentage": 87,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:27.632Z",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "https://www.sgk.no/",
+      "https://www.sgk.no/greenfee/",
+      "https://www.sgk.no/medlemskap/"
+    ],
+    "scrapedAt": "2026-02-14T16:21:00.000Z",
     "createdAt": "2025-10-31T07:46:27.633Z",
-    "updatedAt": "2025-11-03T09:09:53.582Z"
-  }
+    "updatedAt": "2026-02-14T16:21:00.000Z"
+  },
+  "googlePlaceId": "ChIJBfIuGsBKOkYR4TILVNiVWQk"
 }

@@ -41,12 +41,12 @@
   "description": "18 hulls bane i naturskjønne omgivelser\n\nBærum Golfklubb kan i dag fremvise et av landets mest komplette golfanlegg. I tillegg til en 18 hulls bane i naturskjønne omgivelser, disponerer klubben også en 9 hulls korthullbane og et eget stort treningsområde med en flott driving range og nærspiillsområder. Bærum GK tilbyr helårsaktivitet med fire TrackMan simulatorer og et performance svingstudio for undervisning, custom fitting og private selskaper i klubbens egne lokaler.\n\nKorthullsbanen: 9 holes - 9 hulls korthullbane",
   "contact": {
     "phone": "67 87 67 00",
-    "email": null,
-    "emailAlt": null,
+    "email": "bmgk@bmgk.no",
+    "emailAlt": "felix@bmgk.no",
     "website": "https://bmgk.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/BaerumGolfklubb/",
+    "instagram": "https://www.instagram.com/barumgk/",
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -69,7 +69,17 @@
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Oslo",
-    "distanceFromCenter": null
+    "distanceFromCenter": null,
+    "handicapRequired": null,
+    "dressCode": null,
+    "roundTimeMinutes": null
+  },
+  "booking": {
+    "system": "GolfBox",
+    "email": "bmgk@bmgk.no",
+    "phone": "67 87 67 01",
+    "advanceBookingDays": null,
+    "advanceBookingDaysKorthullsMember": 5
   },
   "organization": {
     "courseCompany": "Norwegian",
@@ -114,24 +124,111 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "greenFee18Weekend": 850,
+      "greenFee18Weekday": 650,
+      "greenFee18GuestOfMember": 500,
+      "greenFee18KorthullsMember": 450,
+      "greenFee18JuniorKorthullsMember": 250,
+      "greenFeeTwilight9Hull": 350,
+      "greenFeeTwilight9GuestOfMember": 325,
+      "greenFeeTwilight9KorthullsMember": 300,
+      "greenFee18Junior": 350,
+      "greenFeeTwilight9Junior": 250,
+      "korthullsbaneVoksen": 150,
+      "korthullsbaneJunior": 50,
+      "greenFeeDescription": "Greenfee 2026: Hovedbanen - 18 hull helg kr 850, hverdag kr 650, gjest av medlem kr 500. Twilight/9 hull kr 350. Juniorpris gjelder til og med det året du fyller 19 år.",
+      "notes": "Twilight gjelder fra ettermiddag når man ikke rekker rundt før mørkets frembrudd. Helgpriser gjelder lørdag, søndag og helligdager."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "enrollmentFees": {
+        "hovedbaneVoksen": 2500,
+        "hovedbaneJunior": 1000,
+        "hovedbaneFamilie": 3500,
+        "korthullsbaneVoksen": 750,
+        "korthullsbaneJunior": 500,
+        "korthullsbaneFamilie": 1500
+      },
+      "tiers": [
+        {
+          "category": "hovedbane",
+          "name": "Hovedbane 33+ år",
+          "ageMin": 33,
+          "ageMax": null,
+          "price": 10250
+        },
+        {
+          "category": "hovedbane",
+          "name": "Hovedbane 29-32 år",
+          "ageMin": 29,
+          "ageMax": 32,
+          "price": 7750
+        },
+        {
+          "category": "hovedbane",
+          "name": "Hovedbane 25-28 år",
+          "ageMin": 25,
+          "ageMax": 28,
+          "price": 6500
+        },
+        {
+          "category": "hovedbane",
+          "name": "Hovedbane 20-24 år",
+          "ageMin": 20,
+          "ageMax": 24,
+          "price": 5000
+        },
+        {
+          "category": "hovedbane",
+          "name": "Hovedbane 13-19 år",
+          "ageMin": 13,
+          "ageMax": 19,
+          "price": 3000
+        },
+        {
+          "category": "hovedbane",
+          "name": "Hovedbane 0-12 år",
+          "ageMin": 0,
+          "ageMax": 12,
+          "price": 1000
+        },
+        {
+          "category": "hovedbane",
+          "name": "Hovedbane familie",
+          "price": 23000
+        },
+        {
+          "category": "korthullsbane",
+          "name": "Korthullsbane 20+ år",
+          "ageMin": 20,
+          "ageMax": null,
+          "price": 2200,
+          "note": "Fungerer som greenfeemedlemskap med rabattert greenfee på hovedbanen, booking 5 dager i forveien"
+        },
+        {
+          "category": "korthullsbane",
+          "name": "Korthullsbane 0-19 år",
+          "ageMin": 0,
+          "ageMax": 19,
+          "price": 1100
+        },
+        {
+          "category": "korthullsbane",
+          "name": "Korthullsbane familie",
+          "price": 4950
+        }
+      ]
+    }
+  },
+  "membershipStatus": {
+    "status": "waitlist",
+    "waitlistNote": "Venteliste for voksne medlemmer 20+ på hovedbanen. Juniorer og korthullsbane har ledige plasser. Korthullsbanemedlemmer prioriteres ved inntak.",
+    "hasWaitlist": true
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -166,11 +263,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:09.264Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "https://bmgk.no/",
+      "https://bmgk.no/gjester",
+      "https://bmgk.no/klubben/medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:41:00.000Z",
     "createdAt": "2025-10-31T11:23:09.265Z",
-    "updatedAt": "2025-11-03T09:10:13.499Z"
-  }
+    "updatedAt": "2026-02-14T15:41:00.000Z"
+  },
+  "googlePlaceId": "ChIJNWt6J2kSQUYRm2isBl9fm9w"
 }

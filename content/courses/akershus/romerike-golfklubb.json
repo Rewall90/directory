@@ -40,19 +40,24 @@
   },
   "description": "En flott og åpen parkbane på store deler av banen. Vi har også \"Devils Corner\" på hjørnet av banen med tøffe og utfordrende hull.",
   "contact": {
-    "phone": "954 08 500",
+    "phone": "+47 954 08 500",
     "email": "post@romerikegk.no",
-    "emailAlt": null,
+    "emailAlt": "tore@romerikegk.no",
     "website": "https://romerikegk.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/romerikegolfklubb",
+    "instagram": "https://www.instagram.com/romerikegolfklubb/",
+    "golfbox": true
   },
   "phoneNumbers": [
     {
-      "number": "954 08 500",
-      "type": "main",
+      "number": "+47 954 08 500",
+      "type": "proshop",
       "primary": true
+    },
+    {
+      "number": "+47 911 62 393",
+      "type": "daglig_leder",
+      "primary": false
     }
   ],
   "season": {
@@ -109,24 +114,45 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
+      "greenFee18Weekday": 520,
+      "greenFee9Weekday": 300,
+      "greenFeeDayWeekday": 600,
+      "greenFee18Weekend": 595,
+      "greenFee9Weekend": 350,
+      "greenFeeDayWeekend": 700,
+      "greenFeeDescription": "Gjelder lørdag, søndag og røde dager. Gjester kan booke 14 dager i forkant.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
+      "golfamore": 595,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Trolley rental: [object Object]"
+      "notes": "Greenfeemedlemmer: 100 kr rabatt ved 18 hull, 50 kr rabatt ved 9 hull"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "hovedmedlem": {
+        "name": "Hovedmedlem",
+        "price": 6640
+      },
+      "greenfeeMedlem": {
+        "name": "Greenfeemedlemskap",
+        "price": 1390
+      },
+      "yngreJunior": {
+        "name": "Yngre junior",
+        "price": 50
+      },
+      "studentMilitaer": {
+        "name": "Student/Militær/Lærling",
+        "price": 3350
+      }
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -161,11 +187,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:14.826Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T17:44:00.000Z",
     "createdAt": "2025-10-31T11:23:14.827Z",
-    "updatedAt": "2025-11-03T09:09:40.882Z"
-  }
+    "updatedAt": "2026-02-14T17:44:00.000Z"
+  },
+  "googlePlaceId": "ChIJ57Qx6E_QQ0YR5WpBLD4vJKw"
 }

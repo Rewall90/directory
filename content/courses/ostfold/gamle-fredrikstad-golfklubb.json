@@ -40,8 +40,8 @@
   },
   "description": "Linkspreget parkbane åpnet 2012, tegnet av Paal Midtvaage; dramatisk avslutning langs vann.",
   "contact": {
-    "phone": "+47 958 55 500",
-    "email": "post@gfgk.no",
+    "phone": "+47 406 97 598",
+    "email": "njo@gfgk.no",
     "emailAlt": "servicepunkt@gfgk.no",
     "website": "https://gfgk.no/",
     "facebook": "https://www.facebook.com/GamleFredrikstadGolfklubb/",
@@ -50,14 +50,9 @@
   },
   "phoneNumbers": [
     {
-      "number": "+47 958 55 500",
+      "number": "+47 406 97 598",
       "type": "main",
       "primary": true
-    },
-    {
-      "number": "+47 406 97 598",
-      "type": "secondary",
-      "primary": false
     }
   ],
   "season": {
@@ -114,24 +109,42 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": 475,
-      "greenFeeWeekend": 525,
-      "greenFeeSenior": 475,
-      "greenFeeJunior": 250,
-      "greenFeeDescription": "Forhåndsbetaling i GolfBox. 9-hulls Pay & Play også tilgjengelig.",
-      "cartRental": 300,
+      "greenFeeWeekday": 650,
+      "greenFeeWeekend": 745,
+      "greenFeeWeekendPrimetime": 845,
+      "greenFeeSenior": 650,
+      "greenFeeJunior": 455,
+      "greenFeeJuniorWeekend": 520,
+      "greenFeeJuniorWeekendPrimetime": 590,
+      "greenFeeKorthull18": 300,
+      "greenFeeKorthull9": 195,
+      "greenFeeDescription": "Hovedbane: Hverdag 650kr, Helg primetime (08-13) 845kr, Helg (06-07:50/13:01-18) 745kr. Junior 8-19 år: Hverdag 455kr, Helg 520kr/590kr primetime. Flexi Korthullsbane: 300kr (18 hull), 195kr (9 hull).",
+      "cartRental": 350,
       "pullCartRental": null,
       "clubRental": 100,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Kampanje 2025: Meld deg inn og spill gratis ut 2025."
+      "notes": "Gjest av medlem: 30% rabatt (max 3 gjester). Basismedlemmer: 30% rabatt. Dynekilen-medlemmer: 200kr tirs/tors. NSG-medlemmer: 25% rabatt hverdager før kl 14 (etter 1. mai)."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "fredrikstadTotal": 10950,
+      "fredrikstadTotal2028": 7400,
+      "hovedmedlem": 7850,
+      "basismedlem": 3300,
+      "ungVoksen2028": 4400,
+      "junior13to19": 3490,
+      "junior0to12": 850,
+      "currency": "NOK",
+      "membershipStatus": "open",
+      "note": "Priser for 2025 - nye 2026-priser vedtas på årsmøtet mars 2026"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -208,10 +221,15 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:04.759Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester",
+      "gjester/greenfee",
+      "bli-medlem/bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:03:00.000Z",
     "createdAt": "2025-10-31T11:42:04.760Z",
-    "updatedAt": "2025-11-03T09:09:43.600Z"
-  }
+    "updatedAt": "2026-02-14T16:03:00.000Z"
+  },
+  "googlePlaceId": "ChIJ94ttmDYDREYRoFroecfV63w"
 }

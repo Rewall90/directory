@@ -109,71 +109,94 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
       "greenFeeWeekday": 500,
       "greenFeeWeekend": 950,
-      "greenFeeSenior": 500,
+      "greenFee9Holes": 350,
+      "greenFee9HolesWeekend": 500,
+      "greenFeeSenior": null,
       "greenFeeJunior": 250,
-      "greenFeeDescription": "GREENFEE 2025/2026:\n\nGJESTER (via Golfbox/telefon):\n• 18 hull: 500-950 kr (avhengig av dag)\n• 9 hull: 350-500 kr\n\nSTUDENT/JUNIOR:\n• 18 hull: 250 kr\n• 9 hull: 150 kr\n\nUNGDOM (19-27 år):\n• 18 hull: 325 kr\n• 9 hull: 220 kr\n\nUTSTYRSLEIE:\n• Hele sett: 300 kr\n• Tralle: 50 kr\n• Golfbil medlem: 400 kr\n• Golfbil gjest: 500 kr\n• Enkeltklubber: Gratis\n\nMØTEROM: 1.500 kr/dag\nSKAP: 700 kr/år",
+      "greenFeeJunior9Holes": 150,
+      "greenFeeStudent": 250,
+      "greenFeeStudent9Holes": 150,
+      "greenFeeUngdom": 325,
+      "greenFeeUngdom9Holes": 220,
+      "greenFeeUngdomNote": "19-27 år",
+      "greenFeeDescription": "GREENFEE 2026:\n\nGJESTESPILLERE (via Golfbox/Mail/Tlf):\n• 18 hull: 500-950 kr (avhengig av dag)\n• 9 hull: 350-500 kr\n\nSTUDENT/JUNIOR:\n• 18 hull: 250 kr\n• 9 hull: 150 kr\n\nUNGDOM (19-27 år):\n• 18 hull: 325 kr\n• 9 hull: 220 kr\n\nBOOKING:\n• Via Golfbox\n• Tlf: +47 776 33260 (i åpningstid kafé)\n• Mail: info@tromsogolf.com",
       "cartRental": 500,
-      "pullCartRental": null,
+      "cartRentalMember": 400,
+      "pullCartRental": 50,
       "clubRental": 300,
+      "clubRentalNote": "Hele sett",
+      "singleClubRental": "Gratis",
+      "meetingRoom": 1500,
+      "lockerRental": 700,
+      "lockerRentalNote": "Per år",
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Camping/bobil-parkering med strøm 200 kr, uten strøm 100 kr. Medlemmer får redusert pris på golfbil (400 kr vs 500 kr)."
+      "bookingMethod": "Golfbox, telefon, e-post",
+      "bookingPhone": "+47 776 33260",
+      "bookingEmail": "info@tromsogolf.com",
+      "notes": "Camping/bobil med strøm: 200 kr. Uten strøm: 100 kr. Enkeltklubber gratis å låne."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
-        "category": "Voksen (26-66 år)",
-        "price": 3400,
-        "description": null,
-        "ageRange": "26-66"
-      },
-      {
-        "category": "Ung voksen (20-25 år)",
-        "price": 2250,
-        "description": null,
-        "ageRange": "20-25"
+        "category": "Barn (0-12 år)",
+        "price": 750,
+        "description": "Kontingent 750 kr, gratis greenfee og årsgreenfee",
+        "ageRange": "0-12"
       },
       {
         "category": "Junior (13-19 år)",
         "price": 750,
-        "description": null,
+        "description": "Kontingent 750 kr, gratis greenfee og årsgreenfee",
         "ageRange": "13-19"
       },
       {
-        "category": "Barn (under 13 år)",
-        "price": 750,
-        "description": null,
-        "ageRange": "0-12"
+        "category": "Student/Ung voksen (20-27 år)",
+        "price": 2250,
+        "description": "Kontingent 2250 kr, årsgreenfee 1000 kr, greenfee 200/100 kr",
+        "ageRange": "20-27"
       },
       {
-        "category": "Senior (67+ år)",
+        "category": "Senior (28-66 år)",
         "price": 3400,
-        "description": null,
+        "description": "Kontingent 3400 kr, årsgreenfee 3200 kr, greenfee 325/200 kr",
+        "ageRange": "28-66"
+      },
+      {
+        "category": "Pensjonist (67+ år)",
+        "price": 3400,
+        "description": "Kontingent 3400 kr, årsgreenfee 1800 kr, greenfee 325/200 kr",
         "ageRange": "67+"
       },
       {
-        "category": "Familie (2 voksne + barn)",
-        "price": 6650,
-        "description": null,
+        "category": "Ektefelle/Samboer",
+        "price": 2300,
+        "description": "Kontingent 2300 kr, årsgreenfee 1800 kr, greenfee 325/200 kr",
         "ageRange": null
       },
       {
-        "category": "Støttemedlem",
-        "price": 500,
-        "description": null,
+        "category": "Familie (2 voksne + 2 barn u/20 år)",
+        "price": 6650,
+        "description": "Kontingent 6650 kr, årsgreenfee 4000 kr, greenfee 325/200 kr",
         "ageRange": null
       },
       {
         "category": "Fjernmedlem",
+        "price": 1250,
+        "description": "Kontingent 1250 kr, greenfee 325/200 kr",
+        "ageRange": null
+      },
+      {
+        "category": "Støttemedlem (uten spillerett)",
         "price": 1000,
-        "description": null,
+        "description": "Ingen spillerett",
         "ageRange": null
       }
     ]
@@ -253,11 +276,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 76,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-12T09:31:39.817Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "hjem",
+      "booking-greenfee",
+      "gjestespill",
+      "baneguide"
+    ],
+    "scrapedAt": "2026-02-14T16:07:00.000Z",
     "createdAt": "2025-10-31T05:13:00.650Z",
-    "updatedAt": "2026-02-12T09:31:39.819Z"
-  }
+    "updatedAt": "2026-02-14T16:07:00.000Z"
+  },
+  "googlePlaceId": "ChIJ8SZZ5pwgxUURUvU7l6hqKOU"
 }

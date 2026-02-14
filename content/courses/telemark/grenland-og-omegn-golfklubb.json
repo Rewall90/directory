@@ -109,24 +109,50 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 500,
+      "greenFee9": 300,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 400,
-      "greenFeeWeekend": 400,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekdayMorning": 400,
+      "greenFeeWeekend": 600,
+      "greenFeeWeekend9": 400,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
+      "greenFeeJunior": 250,
+      "greenFeeJuniorDescription": "Half price of adult rates",
+      "greenFeeDescription": "Weekend 18 hull: kr 600, 9 hull: kr 400. Hverdager 18 hull: kr 400 (før kl 12), kr 500 (fra kl 12). 9 hull: kr 300. Junior halv pris.",
+      "cartRental": 600,
+      "cartRental9": 400,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Samarbeid med flere klubber i regionen for greenfee-rabatter"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "full": 8800,
+      "fullDescription": "Voksen med fritt spill",
+      "spouse": 7800,
+      "spouseDescription": "Voksen ektefelle/samboer",
+      "flexible": 1950,
+      "flexibleDescription": "Greenfeemedlem - betaler greenfee ved spill",
+      "youngAdult": 4000,
+      "youngAdultDescription": "Ung/Voksen 20-29 år med fritt spill",
+      "junior": 1000,
+      "juniorDescription": "Ungdom 13-19 år med fritt spill",
+      "child": 700,
+      "childDescription": "Barn 0-12 år med fritt spill",
+      "vtgPackage": 4000,
+      "vtgPackageDescription": "Veien til golf kurs + fritt spill samme år",
+      "vtgSeason1": 5500,
+      "vtgSeason1Description": "Sesong 1 etter VTG med fritt spill"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -172,11 +198,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T12:22:39.201Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:00:00.000Z",
     "createdAt": "2025-10-31T12:22:39.203Z",
-    "updatedAt": "2025-11-03T09:10:09.373Z"
-  }
+    "updatedAt": "2026-02-14T16:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJ1yBe-XcmR0YRKJ4cbc6y-k8"
 }

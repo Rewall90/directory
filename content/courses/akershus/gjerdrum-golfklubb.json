@@ -40,15 +40,26 @@
   },
   "description": "Gjerdrum golfbane er en parkbane med par 66, men har sine helt klare utfordringer. Det bølgende ravinelandskapet gjør at man på flere hull må spille strategisk fremfor å slå langt. Banen avsluttes med signaturhullet, et kort par tre hull over vann. Malerisk og trivelig.",
   "contact": {
-    "phone": null,
-    "email": "Kontaktskjema på nettstedet",
+    "phone": "913 75 259",
+    "email": "Dagligleder@gjerdrumgolfklubb.no",
     "emailAlt": null,
     "website": "https://gjerdrumgolfklubb.no/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/GjerdrumGolfklubb",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "913 75 259",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "932 40 830",
+      "type": "booking",
+      "primary": false
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -57,8 +68,19 @@
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Gjerdrum",
+    "distanceFromCenter": null,
+    "handicapRequired": 54,
+    "dressCode": null,
+    "roundTimeMinutes": null
+  },
+  "booking": {
+    "system": "GolfBox",
+    "phone": "932 40 830",
+    "clubhouseHours": "mandag-søndag 10:00-18:00",
+    "registrationRequired": true,
+    "registrationMinutesBefore": 15,
+    "arrivalMinutesBefore": 5
   },
   "organization": {
     "courseCompany": "Norge",
@@ -103,24 +125,72 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "greenFee9HullVoksenBefore15": 280,
+      "greenFee9HullVoksenAfter15AndWeekend": 350,
+      "greenFee18HullVoksenBefore15": 400,
+      "greenFee18HullVoksenAfter15AndWeekend": 500,
+      "greenFee9HullJunior": 175,
+      "greenFee18HullJunior": 250,
+      "golfbil9Hull": 275,
+      "golfbil18Hull": 375,
+      "golfbilLegeattestRabatt": 100,
+      "clubRental18Hull": 350,
+      "greenFeeDescription": "Voksen 9 hull: kr 280 før 15:00 / kr 350 etter 15:00 og helg. Voksen 18 hull: kr 400 / kr 500. Junior 9 hull: kr 175, 18 hull: kr 250. NSG medlemmer egne priser.",
+      "notes": "Golfbil: 9 hull kr 275, 18 hull kr 375. Kr 100 rabatt med legeattest. Utleiesett: 2 sett (1 herre/1 dame, høyrehendt) kr 350 for 18 hull."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "note": "Medlemskontingent og fritt spill kjøpes separat",
+      "tiers": [
+        {
+          "category": "membership",
+          "name": "Medlemskontingent Voksen",
+          "price": 1400,
+          "note": "Fritt spill kjøpes i tillegg"
+        },
+        {
+          "category": "membership",
+          "name": "Medlemskontingent Eldre junior",
+          "price": 1200,
+          "note": "Fritt spill kjøpes i tillegg"
+        },
+        {
+          "category": "membership",
+          "name": "Medlemskontingent Yngre junior inkl fritt spill",
+          "price": 1000
+        },
+        {
+          "category": "playingRights",
+          "name": "Årskort Fritt spill voksen (medlem)",
+          "price": 3850
+        },
+        {
+          "category": "playingRights",
+          "name": "Årskort Fritt spill ung voksen 20-24 år (medlem)",
+          "ageMin": 20,
+          "ageMax": 24,
+          "price": 3500
+        },
+        {
+          "category": "playingRights",
+          "name": "Årskort Fritt spill eldre junior",
+          "price": 1500
+        },
+        {
+          "category": "playingRights",
+          "name": "Årskort Fritt spill (ikke medlem)",
+          "price": 4500
+        }
+      ]
+    }
+  },
+  "membershipStatus": {
+    "status": "open"
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -155,11 +225,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:10.246Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "https://gjerdrumgolfklubb.no/",
+      "https://gjerdrumgolfklubb.no/gjester",
+      "https://gjerdrumgolfklubb.no/medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:48:00.000Z",
     "createdAt": "2025-10-31T11:23:10.247Z",
-    "updatedAt": "2025-11-03T09:09:59.805Z"
-  }
+    "updatedAt": "2026-02-14T15:48:00.000Z"
+  },
+  "googlePlaceId": "ChIJYQyOwRV5QUYRX7JKZCggEC8"
 }

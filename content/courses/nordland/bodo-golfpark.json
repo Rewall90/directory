@@ -114,24 +114,53 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee9": 450,
+      "greenFee18": 650,
       "greenFeeDaily": null,
       "greenFeeWeekday": 650,
       "greenFeeWeekend": 650,
       "greenFeeSenior": null,
       "greenFeeJunior": 325,
-      "greenFeeDescription": "Gjestespiller 18 hull: 650 kr, Junior: 325 kr, Birdie medlem: 500 kr, 9 hull gjestespiller: 450 kr",
+      "greenFeeJunior9": 225,
+      "greenFeeBirdie18": 500,
+      "greenFeeBirdie9": 350,
+      "greenFeeDescription": "Gjestespiller 18 hull: 650 kr, 9 hull: 450 kr. Junior 18 hull: 325 kr, 9 hull: 225 kr. Birdie medlem 18 hull: 500 kr, 9 hull: 350 kr.",
       "cartRental": 450,
-      "pullCartRental": null,
+      "cartRental9": 300,
+      "pullCartRental": 80,
       "clubRental": 220,
+      "clubRentalWithCart": 220,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Leie av golfsett med tralle: 220 kr"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "albatross": 7700,
+      "albatrossMonthly": 642,
+      "eagle": 9200,
+      "eagleMonthly": 767,
+      "birdie": 3000,
+      "birdieMonthly": 250,
+      "par": 3300,
+      "parMonthly": 275,
+      "junior13_19": 1320,
+      "junior13_19Monthly": 110,
+      "junior20_23": 3700,
+      "junior20_23Monthly": 308,
+      "child0_12": 600,
+      "child0_12Monthly": 50,
+      "student": 3700,
+      "studentMonthly": 308,
+      "remote": 1400,
+      "remoteMonthly": 117,
+      "notes": "Albatross: Med andelsbevis, fritt spill. Eagle: Fritt spill, overføres til Albatross etter 5 år. Birdie: Kr 500/350 greenfee for 18/9 hull. Par: VTG-kurs tatt, fritt spill. Studenter, vernepliktige, ungdom og barn spiller gratis ved betalt medlemskap."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.7,
@@ -176,12 +205,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "94.5",
+    "dataQuality": "97.0",
     "websiteQuality": null,
-    "completenessPercentage": 94,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:41.490Z",
+    "completenessPercentage": 97,
+    "pagesScraped": [
+      "hjem",
+      "medlemmer",
+      "baneguide"
+    ],
+    "scrapedAt": "2026-02-14T15:58:00.000Z",
     "createdAt": "2025-10-31T09:43:41.491Z",
-    "updatedAt": "2025-11-03T09:09:54.405Z"
-  }
+    "updatedAt": "2026-02-14T15:58:00.000Z"
+  },
+  "googlePlaceId": "ChIJ98tYEYkQ30URcjrUkC2pOYc"
 }

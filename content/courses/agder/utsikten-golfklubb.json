@@ -48,15 +48,25 @@
     "instagram": "https://www.instagram.com/utsiktengolfpark/",
     "golfbox": true
   },
+  "booking": {
+    "system": "GolfBox",
+    "app": null,
+    "email": "post@utsiktengolf.no",
+    "phone": "+47 911 20 184",
+    "advanceBookingDays": null,
+    "golfboxEnabled": true,
+    "golfbilBookingUrl": "https://utsiktengolf.no/klubben/bestill-golfbil-her",
+    "notes": null
+  },
   "phoneNumbers": [
     {
       "number": "+47 911 20 184",
-      "type": "main",
+      "type": "Klubbhuset",
       "primary": true
     },
     {
       "number": "+47 945 08 461",
-      "type": "secondary",
+      "type": "Daglig leder Ramona Reiersen",
       "primary": false
     }
   ],
@@ -69,7 +79,12 @@
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Kvinesdal",
-    "distanceFromCenter": null
+    "distanceFromCenter": null,
+    "handicapRequired": true,
+    "handicapRequiredNotes": "For å spille på hovedbanen må man ha gjennomført grønt kort kurs og medlemskap i en golfklubb",
+    "dressCode": "Golf attire",
+    "payAndPlayAvailable": true,
+    "payAndPlayNotes": "Pay & Play er en 9 hulls bane der alle kan spille uten kurs eller erfaring kreves"
   },
   "organization": {
     "courseCompany": "Utsikten Golfpark",
@@ -116,42 +131,93 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 550,
-      "greenFeeWeekend": 650,
-      "greenFeeSenior": 550,
-      "greenFeeJunior": 275,
-      "greenFeeDescription": "Greenfee 18 hull: 550 kr (hverdag), 650 kr (helg). 9 hull: 330 kr (hverdag), 390 kr (helg). Junior 50% rabatt.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Andelseiere får kr 500 rabatt på medlemskap"
+      "greenFee18Weekday": 550,
+      "greenFee18Weekend": 650,
+      "greenFee9Weekday": 330,
+      "greenFee9Weekend": 390,
+      "greenFeeJuniorDiscount": "50%",
+      "payAndPlayDaily": 200,
+      "payAndPlayJuniorDiscount": "50%",
+      "payAndPlayClubRentalFree": true,
+      "cartRentalWeekday": 300,
+      "cartRentalWeekend": 400,
+      "drivingRangeBalls30": 40,
+      "drivingRangeSystem": "GolfMore",
+      "notes": "Green fee gjelder hele dagen. Golfbil kan kun leies med åpent klubbhus med mindre du har forhåndsbestilt."
     }
   },
   "membershipPricing": {
     "2025": [
       {
-        "category": "junior",
+        "category": "Medlem uten spillerett",
+        "name": "Medlem uten fri spillerett",
+        "price": 1500,
+        "description": "Mulighet til å spille på hovedbanen, Pay&Play og på andre klubber mot å betale greenfee",
+        "ageRange": null
+      },
+      {
+        "category": "Junior",
+        "name": "Junior med fri spillerett",
         "price": 1250,
-        "description": "Medlemskap 2025: Junior (t.o.m. året de fyller 19 år) 1250 kr (fellestrening inkludert), Unge voksne (t.o.m. året de fyller 24 år) 4000 kr, 'Snart Voksen' 25-28 år med fritt spill 5500 kr. Hovedmedlemmer og ektefeller/samboere som er andelseiere får 500 kr rabatt. Administrasjonsgebyr 40 kr ved fakturering. Mulighet for deling av faktura ved å kontakte Julia hos NorKred. Daglig leder: Ramona Reiersen.",
-        "ageRange": null
+        "description": "Fritt spill på hovedbanen og Pay&Play banen. Fellestrening inkludert.",
+        "ageRange": "T.o.m. året de fyller 19 år"
       },
       {
-        "category": "youngAdult",
+        "category": "Ung Voksen",
+        "name": "Ung Voksen med fri spillerett",
         "price": 4000,
-        "description": "Medlemskap 2025: Junior (t.o.m. året de fyller 19 år) 1250 kr (fellestrening inkludert), Unge voksne (t.o.m. året de fyller 24 år) 4000 kr, 'Snart Voksen' 25-28 år med fritt spill 5500 kr. Hovedmedlemmer og ektefeller/samboere som er andelseiere får 500 kr rabatt. Administrasjonsgebyr 40 kr ved fakturering. Mulighet for deling av faktura ved å kontakte Julia hos NorKred. Daglig leder: Ramona Reiersen.",
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": "T.o.m. året de fyller 24 år"
+      },
+      {
+        "category": "Snart Voksen",
+        "name": "Snart Voksen med fri spillerett",
+        "price": 5500,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": "25-28 år"
+      },
+      {
+        "category": "VTG 1",
+        "name": "VTG 1 - første år etter tatt VTG",
+        "price": 4000,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
         "ageRange": null
       },
       {
-        "category": "age25_28",
+        "category": "VTG 2",
+        "name": "VTG 2 - andre år etter tatt VTG",
         "price": 5500,
-        "description": "Medlemskap 2025: Junior (t.o.m. året de fyller 19 år) 1250 kr (fellestrening inkludert), Unge voksne (t.o.m. året de fyller 24 år) 4000 kr, 'Snart Voksen' 25-28 år med fritt spill 5500 kr. Hovedmedlemmer og ektefeller/samboere som er andelseiere får 500 kr rabatt. Administrasjonsgebyr 40 kr ved fakturering. Mulighet for deling av faktura ved å kontakte Julia hos NorKred. Daglig leder: Ramona Reiersen.",
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": null
+      },
+      {
+        "category": "Hovedmedlem",
+        "name": "Hovedmedlem med fri spillerett",
+        "price": 7500,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": null
+      },
+      {
+        "category": "Hovedmedlem Ektefelle/samboer",
+        "name": "Hovedmedlem Ektefelle/samboer med fri spillerett",
+        "price": 7000,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
         "ageRange": null
       }
     ]
+  },
+  "membershipStatus": {
+    "status": "open",
+    "totalMembers": null,
+    "maxMembers": null,
+    "waitlistLength": null,
+    "entranceFee": null,
+    "andelseierDiscount": 500,
+    "adminFee": 40,
+    "paymentSplit": true,
+    "paymentSplitContact": "juliaw@norkred.no",
+    "utmeldingDeadline": "31.12",
+    "notes": "Hovedmedlem og HM Ektefelle/samboer som er andels eiere kan få 500,- i rabatt på medlemskapet. Ved fakturering påfaller et admin. gebyr på 40,-. Mulighet for å dele opp fakturaen."
   },
   "ratings": {
     "google": {
@@ -186,12 +252,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "85.0",
-    "websiteQuality": null,
-    "completenessPercentage": 85,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:44:56.866Z",
+    "dataQuality": "excellent",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "gjester/priser",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:34:00.000Z",
     "createdAt": "2025-10-31T07:44:56.868Z",
-    "updatedAt": "2025-11-03T09:10:16.188Z"
-  }
+    "updatedAt": "2026-02-14T15:34:00.000Z"
+  },
+  "googlePlaceId": "ChIJ_zSAZXbROUYRsf34wxXpDSg"
 }

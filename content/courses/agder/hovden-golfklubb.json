@@ -40,13 +40,24 @@
   },
   "description": "Ørnefjell golfbane ligger 725 m.o.h. og er en 9-hulls høyfjellsbane med 18 forskjellige tee-plasseringer. Omgitt av høye fjell og mye vann. Alle greener har kunstgress. Beskrevet som utfordrende men morsom av gjester.",
   "contact": {
-    "phone": "91 59 08 67",
-    "email": "astrid@hovdengolf.com",
+    "phone": "95 77 58 88",
+    "email": "post@hovdengolf.com",
     "emailAlt": null,
     "website": "https://www.hovdengolf.com",
-    "facebook": "https://www.facebook.com/hovdengolf/",
-    "instagram": null,
+    "facebook": "https://www.facebook.com/Hovden-Golfklubb-108180319226062",
+    "instagram": "https://www.instagram.com/hovdengolfklubb/",
     "golfbox": false
+  },
+  "booking": {
+    "system": null,
+    "app": null,
+    "email": "post@hovdengolf.com",
+    "phone": "95 77 58 88",
+    "advanceBookingDays": null,
+    "golfboxEnabled": false,
+    "vipps": "523158",
+    "bankAccount": "2801 04 62594",
+    "notes": null
   },
   "phoneNumbers": [],
   "season": {
@@ -56,9 +67,13 @@
   },
   "visitors": {
     "welcome": true,
-    "walkingAllowed": null,
+    "walkingAllowed": true,
     "nearbyCity": "Hovden i Setesdal",
-    "distanceFromCenter": null
+    "distanceFromCenter": "10 min kjøring fra Hovden sentrum",
+    "handicapRequired": true,
+    "dressCode": null,
+    "vtgRequired": true,
+    "vtgRequirementNotes": "Gjennomført VTG-kurs og medlemskap i en golfklubb kreves"
   },
   "organization": {
     "courseCompany": null,
@@ -118,6 +133,19 @@
       "specialOfferIncludes": "10 greenfee-billetter (200 NOK per runde)",
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 300,
+      "greenFeeJunior": 150,
+      "greenFeeMemberDaily": 200,
+      "greenFeeMemberJunior": 0,
+      "greenFeeMemberStudent": 0,
+      "greenFeeHefte10": 2000,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "notes": "Medlemmer med andel eller sesongkort har fri spillerett. Ungdom/barn/studenter med betalt medlemskap spiller gratis."
     }
   },
   "membershipPricing": {
@@ -140,7 +168,53 @@
         "description": null,
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "Kontingent med dugnadsplikt",
+        "name": "Medlemskontingent med dugnadsplikt",
+        "price": 1000,
+        "description": "Dugnadsplikt en weekend i kiosk/proshop (lørdag og søndag)",
+        "ageRange": "19+"
+      },
+      {
+        "category": "Kontingent uten dugnadsplikt",
+        "name": "Medlemskontingent uten dugnadsplikt",
+        "price": 2300,
+        "description": "Fri spillerett hele sesongen",
+        "ageRange": "19+"
+      },
+      {
+        "category": "Junior",
+        "name": "Medlemskontingent junior",
+        "price": 500,
+        "description": "Fri spillerett ved betalt medlemskap. Gjelder barn/ungdom i Valle, Bykle og Vinje kommuner",
+        "ageRange": "0-18"
+      },
+      {
+        "category": "Student",
+        "name": "Medlemskontingent student",
+        "price": 1000,
+        "description": "Fri spillerett ved betalt medlemskap. Gjelder studenter i Valle, Bykle og Vinje kommuner som studerer fulltid",
+        "ageRange": null
+      },
+      {
+        "category": "Fjernmedlem",
+        "name": "Fjernmedlemskap junior og senior",
+        "price": 850,
+        "description": "Betaler ordinær greenfee som gjestespiller. Kan ikke kombineres med spilleandel eller sesongkort.",
+        "ageRange": null
+      }
     ]
+  },
+  "membershipStatus": {
+    "status": "open",
+    "totalMembers": null,
+    "maxMembers": null,
+    "waitlistLength": null,
+    "entranceFee": null,
+    "paymentDeadline": "15. april",
+    "notes": "Kontingenten betales innen 15.4. Etter denne datoen blir medlemskap satt inaktivt."
   },
   "ratings": {
     "google": {
@@ -176,11 +250,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T13:27:23.662Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 85,
+    "pagesScraped": [
+      "priser",
+      "medlem"
+    ],
+    "scrapedAt": "2026-02-14T15:24:00.000Z",
     "createdAt": "2025-10-30T13:27:23.663Z",
-    "updatedAt": "2025-11-03T09:09:32.292Z"
-  }
+    "updatedAt": "2026-02-14T15:24:00.000Z"
+  },
+  "googlePlaceId": "ChIJ6fU01R8pOUYRgooVgsS0apc"
 }

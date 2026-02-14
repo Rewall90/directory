@@ -218,9 +218,13 @@
     "dataQuality": "90.0",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:25.099Z",
+    "pagesScraped": [
+      "https://nordvegengolf.no/",
+      "https://nordvegengolf.no/nordvegen-gk/"
+    ],
+    "scrapedAt": "2026-02-14T16:05:00.000Z",
     "createdAt": "2025-10-31T07:46:25.101Z",
-    "updatedAt": "2025-11-03T09:10:16.780Z"
-  }
+    "updatedAt": "2026-02-14T16:05:00.000Z"
+  },
+  "googlePlaceId": "ChIJs4t8FmJ1O0YRxyST5eOdt50"
 }

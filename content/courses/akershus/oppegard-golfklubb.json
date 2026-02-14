@@ -40,15 +40,21 @@
   },
   "description": "18-hullers golfbane",
   "contact": {
-    "phone": null,
+    "phone": "66 81 59 90",
     "email": "post@opgk.no",
     "emailAlt": null,
     "website": "https://oppegardgk.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/oppegardgk/",
+    "instagram": "https://www.instagram.com/oppegardgolfklubb/",
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "66 81 59 90",
+      "type": "main",
+      "primary": true
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -103,24 +109,81 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
+      "greenFeeMemberGuest18": 580,
+      "greenFeeMemberGuest9": 406,
+      "greenFeeWeekend0700to0900_18": 850,
+      "greenFeeWeekend0700to0900_9": 595,
+      "greenFeeWeekend0900to1200_18": 1000,
+      "greenFeeWeekend0900to1200_9": 700,
+      "greenFeeWeekend1200to1500_18": 850,
+      "greenFeeWeekend1200to1500_9": 595,
+      "greenFeeWeekend1500to1700_18": 800,
+      "greenFeeWeekend1500to1700_9": 560,
+      "greenFeeWeekend1800to2200_18": 690,
+      "greenFeeWeekend1800to2200_9": 483,
+      "greenFeeWeekday0700to1200_18": 730,
+      "greenFeeWeekday0700to1200_9": 511,
+      "greenFeeWeekday1200to1500_18": 690,
+      "greenFeeWeekday1200to1500_9": 483,
+      "greenFeeWeekday1500to1800_18": 930,
+      "greenFeeWeekday1500to1800_9": 651,
+      "greenFeeWeekday1800to2200_18": 690,
+      "greenFeeWeekday1800to2200_9": 483,
+      "greenFeeJunior": "50% av gjeldende greenfee",
+      "greenFeeDescription": "Juniorer til og med 19 år, halv pris på gjeldende greenfee.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Avbestilling inntil 2 timer før starttid. Betaling med Vipps utenfor åpningstid."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "aktivMedlem": {
+        "name": "Aktiv medlem",
+        "price": 9300
+      },
+      "aktivHverdag": {
+        "name": "Aktiv hverdag",
+        "price": 7250
+      },
+      "ungdom": {
+        "name": "Ungdom (20-29 år)",
+        "price": 4700
+      },
+      "barn": {
+        "name": "Barn (tom 12 år)",
+        "price": 1145
+      },
+      "junior": {
+        "name": "Junior (13-19 år)",
+        "price": 2400
+      },
+      "greenfeeMedlem": {
+        "name": "Greenfeemedlem",
+        "price": 3950
+      },
+      "familie": {
+        "name": "Familiemedlemskap",
+        "price": 19000
+      },
+      "passiv": {
+        "name": "Passivt medlem",
+        "price": 1000
+      },
+      "ngfAvgift": 401,
+      "innmeldingsgebyr": 1000,
+      "ventelistegebyr": 100,
+      "adminGebyr": 40,
+      "spillerettRabatt": 500,
+      "note": "Ca. 100 personer på venteliste"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -155,11 +218,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:14.095Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T17:38:00.000Z",
     "createdAt": "2025-10-31T11:23:14.096Z",
-    "updatedAt": "2025-11-03T09:09:43.891Z"
-  }
+    "updatedAt": "2026-02-14T17:38:00.000Z"
+  },
+  "googlePlaceId": "ChIJjxe2RP1nQUYRceezi5oH0ZY"
 }

@@ -297,12 +297,15 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.5",
+    "dataQuality": "90.0",
     "websiteQuality": null,
-    "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:55.923Z",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "sveiogolfpark.no"
+    ],
+    "scrapedAt": "2026-02-14T16:25:00.000Z",
     "createdAt": "2025-10-31T10:16:55.924Z",
-    "updatedAt": "2025-11-03T09:09:56.329Z"
-  }
+    "updatedAt": "2026-02-14T16:25:00.000Z"
+  },
+  "googlePlaceId": "ChIJQQ9fny2DO0YRmP1R_jpCh2U"
 }

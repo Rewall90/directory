@@ -111,22 +111,42 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFee9": 300,
+      "greenFee18": 420,
+      "greenFeeDaily": 480,
       "greenFeeWeekday": 420,
       "greenFeeWeekend": 420,
       "greenFeeSenior": 420,
-      "greenFeeJunior": 180,
-      "greenFeeDescription": "18 hull: Voksen 420 NOK, Junior under 18: 180 NOK, Student under 30: 320 NOK, Barn 0-12: Gratis, Nordlige klubbmedlemmer: 320 NOK",
+      "greenFeeJunior": 150,
+      "greenFeeJuniorDaily": 180,
+      "greenFeeStudent": 320,
+      "greenFeeDescription": "Voksen: 9 hull 300 kr, 18 hull 420 kr, Dag 480 kr. Barn 0-12 gratis i følge med voksen. Junior tom 18 år: 9 hull 100 kr, 18 hull 150 kr, dag 180 kr. Student <30 / vernepliktig: 9 hull 240 kr, 18 hull 320 kr, dag 380 kr. Medlemmer nordnorske klubber: 9 hull 250 kr, 18 hull 320 kr, dag 380 kr.",
       "cartRental": 300,
-      "pullCartRental": null,
+      "cartRental9": 225,
+      "pullCartRental": 75,
       "clubRental": null,
+      "rangeBucket": 30,
+      "rangeCard20": 550,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Medlem med greenfeerabatt: 9 hull 180 kr, 18 hull 320 kr, dag 380 kr"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "adult": 5950,
+      "adultWithDiscount": 3050,
+      "adultNoDiscount": 1850,
+      "student": 2450,
+      "junior": 850,
+      "child": 400,
+      "remote": 1200,
+      "beginnerPackage": 2250,
+      "beginnerSecondYear": 2250,
+      "notes": "Voksen m/fritt spill: 5950 kr, Voksen med greenfeerabatt (kr 100): 3050 kr, Voksen uten greenfeerabatt: 1850 kr, Student <30/vernepliktig: 2450 kr, Junior 13-19: 850 kr, Barn 0-12: 400 kr, Fjernmedlem utenfor Nordland: 1200 kr, VTG nybegynner (kurs + fritt spill): 2250 kr"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -171,12 +191,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "89.5",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 89,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:38.380Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "hovedside",
+      "medlemsskap-2024",
+      "kontakt-oss"
+    ],
+    "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-31T09:43:38.381Z",
-    "updatedAt": "2025-11-03T09:09:50.273Z"
-  }
+    "updatedAt": "2026-02-14T15:55:00.000Z"
+  },
+  "googlePlaceId": "ChIJJ4eYRU0930URRFs8HFxi88Q"
 }

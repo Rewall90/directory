@@ -129,24 +129,28 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": 200,
-      "greenFeeWeekend": 200,
-      "greenFeeSenior": 200,
-      "greenFeeJunior": 100,
-      "greenFeeDescription": "Green fee betales via Vipps eller kontanter i postboksen. Medlemmer spiller gratis og betaler kun årsavgift. Pay and play.",
-      "cartRental": 150,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Green-fee betales med Vipps pa banen. Medlemmer spiller gratis pa banen, betaler kun arsavgift. Driving range med kortbetaling.",
+      "cartRental": null,
       "pullCartRental": null,
-      "clubRental": 100,
+      "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Utvidelse til 9-hullsbane pagar (startet 2025). Samfunnsoftet i SNN bidrar med 200.000 kr til prosjektet."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "notes": "Medlemmer spiller gratis pa banen, betaler kun arsavgift. Kontakt johnny.karlsen@sktv.no for innmelding."
+    }
+  },
   "ratings": {
     "google": {
       "rating": null,
@@ -180,12 +184,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.0",
+    "dataQuality": "90.0",
     "websiteQuality": null,
-    "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:42.612Z",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "hjem",
+      "banen",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:11:00.000Z",
     "createdAt": "2025-10-31T09:43:42.613Z",
-    "updatedAt": "2025-11-03T09:09:54.966Z"
-  }
+    "updatedAt": "2026-02-14T16:11:00.000Z"
+  },
+  "googlePlaceId": "ChIJ2wIvFZBG3EURFtQFO00VdVY"
 }

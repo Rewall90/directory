@@ -124,24 +124,32 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 100,
       "greenFeeWeekday": 100,
       "greenFeeWeekend": 100,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Hele dagen for medlemmer uten avtalt spillerett og andre besøkende",
+      "greenFeeSenior": 100,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Dagsgreenfee NOK 100 for hele dagen. Medlemmer uten avtalt spillerett og andre besokende.",
       "cartRental": null,
       "pullCartRental": null,
-      "clubRental": 50,
+      "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Greenfee loses for utgang pa forste tee. Pro Shop har utstyr til leie og salg."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "junior13_19": 100,
+      "memberWithoutPlayRight": 750,
+      "memberWithPlayRight": 1750,
+      "vtgCourseWithPlayRight": null,
+      "notes": "Junior (13-19 ar): 100 kr/ar. Uten spillerett (greenfee 100 kr): 750 kr/ar. Med spillerett (fri bruk av bane og utstyr): 1750 kr/ar. VTG-kurs med spillerett ut aret tilgjengelig."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 5,
@@ -175,12 +183,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:41.986Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "hjem",
+      "greenfee",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:09:00.000Z",
     "createdAt": "2025-10-31T09:43:41.987Z",
-    "updatedAt": "2025-11-03T09:09:54.681Z"
-  }
+    "updatedAt": "2026-02-14T16:09:00.000Z"
+  },
+  "googlePlaceId": "ChIJd9LVyegWdUYRGekYMh3rMLg"
 }

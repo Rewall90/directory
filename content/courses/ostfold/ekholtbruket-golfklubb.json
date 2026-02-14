@@ -109,24 +109,36 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
       "greenFeeWeekday": 300,
       "greenFeeWeekend": 300,
       "greenFeeSenior": 300,
       "greenFeeJunior": 150,
-      "greenFeeDescription": "Vipps 518274.",
+      "greenFeeDescription": "Greenfee 300kr, Junior 150kr. Betales med Vipps #518274. Ikke pay-and-play - krever gyldig spillelisens. Alle gjester må skrive seg inn i gjesteboken ved klubbhuset.",
       "cartRental": 150,
       "pullCartRental": null,
       "clubRental": 100,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Tirsdager 16-18: Reservert damespillere. Torsdager 17:30-19:30: Kun for egne medlemmer."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "seniorWithPlayingRights": 3900,
+      "seniorWithoutPlayingRights": 1650,
+      "student": 1350,
+      "studentDescription": "Heltidsstudent 20-23 år med spillerett",
+      "junior13to19": 1350,
+      "junior0to12": 850,
+      "currency": "NOK",
+      "membershipStatus": "open",
+      "vipps": "518274"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -162,10 +174,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:04.031Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester",
+      "blimedlem"
+    ],
+    "scrapedAt": "2026-02-14T16:00:00.000Z",
     "createdAt": "2025-10-31T11:42:04.032Z",
-    "updatedAt": "2025-11-03T09:09:33.874Z"
-  }
+    "updatedAt": "2026-02-14T16:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJi0RobbRSQUYRPJ-gQ0swwGM"
 }

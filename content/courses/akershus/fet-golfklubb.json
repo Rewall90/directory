@@ -40,15 +40,28 @@
   },
   "description": "På vår 9 hulls bane kan du få testet dine ferdigheter på par 3 hull som varierer mellom 85 og 178 m, samt ett par 4 hull på 350 m. Hos oss kan du øve på bunkerslag i sandbunker, presisjon på våre putting- og pitching greener som er strategisk plassert i nærheten av vår driving range. På rangen kan du trene svingen før du går ut på banen.",
   "contact": {
-    "phone": null,
-    "email": null,
+    "phone": "41566608",
+    "email": "postmaster@fetgk.no",
     "emailAlt": null,
-    "website": "https://fetgk.no/",
-    "facebook": null,
+    "website": "https://www.fetgk.no/",
+    "facebook": "https://www.facebook.com/1466822563540235",
     "instagram": null,
     "golfbox": false
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "41566608",
+      "name": "Tor Haugerud",
+      "type": "contact",
+      "primary": true
+    },
+    {
+      "number": "95164829",
+      "name": "Geir Sand",
+      "type": "contact",
+      "primary": false
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -57,12 +70,20 @@
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Fetsund",
+    "distanceFromCenter": null,
+    "handicapRequired": null,
+    "golfcardRequired": true,
+    "dressCode": null,
+    "roundTimeMinutes": null
+  },
+  "booking": {
+    "system": "Vipps",
+    "notes": "Betal med VIPPS og skriv deg inn i registreringsboka før du går ut"
   },
   "organization": {
     "courseCompany": null,
-    "clubOrganization": null
+    "clubOrganization": "Leikvin Golfpark"
   },
   "facilities": {
     "drivingRange": true,
@@ -105,22 +126,55 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "greenFeeSenior": 270,
+      "greenFeeJunior": 100,
+      "greenFeeGreenfeeMember": 100,
+      "greenFeeAksjeeier": 0,
+      "greenFeeJuniorMember": 0,
+      "greenFeeRomerikeDiscount": 50,
+      "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Gjestespillere fra Romerike GK får kr 50 rabatt.",
+      "notes": "Golfkortet kreves for å spille. Betal med Vipps."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "currency": "NOK",
+      "tiers": [
+        {
+          "category": "full",
+          "name": "Aksjeeiere",
+          "price": 2300
+        },
+        {
+          "category": "limited",
+          "name": "Greenfee-medlemmer",
+          "price": 2300
+        },
+        {
+          "category": "limited",
+          "name": "Formiddagsmedlemmer",
+          "price": 2300,
+          "note": "Kategori er full"
+        },
+        {
+          "category": "junior",
+          "name": "Eldre jr (t.o.m. 20 år)",
+          "ageMax": 20,
+          "price": 800
+        },
+        {
+          "category": "junior",
+          "name": "Yngre jr (t.o.m. 12 år)",
+          "ageMax": 12,
+          "price": 400
+        }
+      ]
+    }
+  },
+  "membershipStatus": {
+    "status": "open",
+    "formiddagsmedlemmerFull": true
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -155,11 +209,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:09.937Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "https://www.fetgk.no/",
+      "https://www.fetgk.no/kontakt/",
+      "https://www.fetgk.no/banen/",
+      "https://www.fetgk.no/klubben/"
+    ],
+    "scrapedAt": "2026-02-14T15:46:00.000Z",
     "createdAt": "2025-10-31T11:23:09.939Z",
-    "updatedAt": "2025-11-03T09:09:58.915Z"
-  }
+    "updatedAt": "2026-02-14T15:46:00.000Z"
+  },
+  "googlePlaceId": "ChIJTfe9AqpiQUYRjpImZOHV8TQ"
 }

@@ -119,24 +119,89 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 400,
+      "greenFee9": 250,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 220,
-      "greenFeeWeekend": 270,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
       "greenFeeSenior": 250,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: Ukedag 18 hull 220 kr, helg/helligdag 18 hull 270 kr. Norsk Seniorgolf-medlemmer 18h 250 kr, 9h 200 kr. Junior/student halv pris. Junior spiller gratis.",
-      "cartRental": null,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee 2026: 18 hull 400 kr, 9 hull 250 kr. Norsk Seniorgolf-medlemmer 18h 250 kr, 9h 200 kr. Junior/student halv pris. Barn t.o.m. 15 år som er medlem spiller gratis.",
+      "cartRental": 300,
+      "cartRental9": 150,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Junior spiller gratis. Junior/student halv pris på greenfee. Pro shop drevet av baneeier/greenkeeper Jens Sundby med enkel servering. Veien Til Golf-kurs for nybegynnere. Simulator-golf om vinteren."
+      "notes": "Golfbil: 9 hull 150 kr, 18 hull 300 kr. Kategori 1-medlemmer får 50% rabatt på greenfee. Kategori 2-medlemmer får 10% rabatt. Booking via Golfbox. Betal med Vipps 72125."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "kategori1",
+        "name": "Kategori 1",
+        "price": 2150,
+        "ngfFee": 391,
+        "totalPrice": 2541,
+        "description": "Gir mulighet til å kjøpe årsgreenfee (2000 kr). Gir 50% rabatt på greenfee uten årsgreenfee.",
+        "ageRange": null
+      },
+      {
+        "category": "kategori2",
+        "name": "Kategori 2",
+        "price": 1150,
+        "ngfFee": 391,
+        "totalPrice": 1541,
+        "description": "Gir 10% rabatt på greenfee. Kan ikke kjøpe årsgreenfee.",
+        "ageRange": null
+      },
+      {
+        "category": "kategori3",
+        "name": "Kategori 3 (ung voksen)",
+        "price": 1030,
+        "ngfFee": 391,
+        "totalPrice": 1421,
+        "description": "For medlemmer 20-24 år. Gir mulighet til å kjøpe årsgreenfee (800 kr). Gir 50% rabatt på greenfee.",
+        "ageRange": "20-24"
+      },
+      {
+        "category": "junior",
+        "name": "Junior",
+        "price": 650,
+        "ngfFee": 0,
+        "totalPrice": 650,
+        "description": "For ungdom t.o.m. året man fyller 19 år. NGF inkludert.",
+        "ageRange": "15-19"
+      },
+      {
+        "category": "knotter",
+        "name": "Knotter",
+        "price": 50,
+        "ngfFee": 0,
+        "totalPrice": 50,
+        "description": "For barn t.o.m. året man fyller 15 år. Spiller gratis som medlem.",
+        "ageRange": "0-15"
+      },
+      {
+        "category": "annualGreenfeeKat1",
+        "name": "Arsgreenfee Kategori 1",
+        "price": 2000,
+        "description": "Ubegrenset spill hele sesongen for Kategori 1-medlemmer.",
+        "ageRange": null
+      },
+      {
+        "category": "annualGreenfeeKat3Junior",
+        "name": "Arsgreenfee Kategori 3/Junior",
+        "price": 800,
+        "description": "Ubegrenset spill hele sesongen for Kategori 3 og Junior-medlemmer.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -170,12 +235,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "89.0",
-    "websiteQuality": null,
-    "completenessPercentage": 89,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:10:42.042Z",
+    "dataQuality": "95.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjestespill",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:15:00.000Z",
     "createdAt": "2025-10-31T09:10:42.045Z",
-    "updatedAt": "2025-11-03T09:10:04.334Z"
-  }
+    "updatedAt": "2026-02-14T16:15:00.000Z"
+  },
+  "googlePlaceId": "ChIJK9fhN-YtQUYRrNvUNLLprxY"
 }

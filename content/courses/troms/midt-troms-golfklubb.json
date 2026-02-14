@@ -79,12 +79,12 @@
     "practiceBunker": true,
     "clubhouse": true,
     "clubhouseName": null,
-    "proShop": false,
-    "restaurant": false,
-    "restaurantName": "Kafé (kun lør-søn 10-16)",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé (kun lør-søn 10:00-16:00)",
+    "clubRental": true,
+    "clubRentalNotes": "Leie av køllesett: 100 kr/runde (kun lør-søn 10:00-16:00)",
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": false,
@@ -111,63 +111,89 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 240,
+      "greenFeeDaily": 400,
+      "greenFeeWeekday": 400,
       "greenFeeWeekend": 400,
-      "greenFeeSenior": 320,
-      "greenFeeJunior": 100,
-      "greenFeeDescription": "GREENFEE 2025:\n\nVOKSNE:\n• 18 hull helg: 400 kr\n• 18 hull hverdag: 240 kr\n• 9 hull: 200 kr\n\nSENIOR (60+ år):\n• 18 hull: 320 kr\n• 9 hull: 180 kr\n\nJUNIOR (under 20 år):\n• 18 hull: 100 kr\n• 9 hull: 60 kr\n\nFAMILIEPAKKE: 800 kr (2 voksne + 2 barn)\n\nRABATT: Medlemmer av samarbeidende klubber får 20% rabatt.",
+      "greenFee9Holes": 240,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 250,
+      "greenFeeJunior9Holes": 150,
+      "greenFeeJuniorNote": "Tom året man fyller 21 år",
+      "greenFeePartnerClubs": 300,
+      "greenFeePartnerClubs9Holes": 180,
+      "greenFeePartnerNote": "Medlemmer av samarbeidsklubber i Nord-Norge, studenter, COOP-medlemmer, Forsvaret",
+      "greenFeeDescription": "GREENFEE 2025:\n\nGJESTESPILLERE:\n• Voksen: 9 hull 240 kr, 18 hull/dag 400 kr\n• Ungdom (tom 21 år): 9 hull 150 kr, 18 hull/dag 250 kr\n\nMEDLEMMER/SAMARBEIDSKLUBBER/STUDENTER/COOP/FORSVARET:\n• Voksen: 9 hull 180 kr, 18 hull/dag 300 kr\n• Ungdom/vernepliktige: 9 hull 120 kr, 18 hull/dag 200 kr\n\nBetaling via Gimmie App, Vipps Handlekurv eller i kafé/Proshop.",
       "cartRental": 300,
-      "pullCartRental": null,
+      "cartRental9Holes": 150,
+      "pullCartRental": 30,
       "clubRental": 100,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Familierabatt: Første voksen betaler full pris, øvrige 60%. Rabatt for studenter, militære og andre grupper."
+      "bookingMethod": "Gimmie App, GolfBox, Vipps Handlekurv",
+      "notes": "Dagsgreenfee gir ubegrenset spill. Kafé åpen lør-søn 10:00-16:00. Camping/bobil strøm 50 kr/døgn."
     }
   },
   "membershipPricing": {
     "2025": [
       {
-        "category": "Voksen",
-        "price": 4000,
-        "description": null,
-        "ageRange": "20-59"
+        "category": "Voksen (22+ år) - med spillerett",
+        "price": 6000,
+        "description": "Medlemskap 2000 kr + Fritt spill 4000 kr",
+        "ageRange": "22+"
       },
       {
-        "category": "Senior (60+)",
-        "price": 3000,
-        "description": null,
-        "ageRange": "60+"
+        "category": "Voksen (22+ år) - uten spillerett",
+        "price": 2000,
+        "description": "Medlemskap uten spillerett, greenfee kommer i tillegg",
+        "ageRange": "22+"
+      },
+      {
+        "category": "Ungdom (14-21 år) - med spillerett",
+        "price": 1900,
+        "description": "Medlemskap 900 kr + Fritt spill 1000 kr",
+        "ageRange": "14-21"
+      },
+      {
+        "category": "Ungdom (14-21 år) - uten spillerett",
+        "price": 900,
+        "description": "Medlemskap uten spillerett",
+        "ageRange": "14-21"
+      },
+      {
+        "category": "Barn (under 14 år) - med spillerett",
+        "price": 1000,
+        "description": "Medlemskap 500 kr + Fritt spill 500 kr",
+        "ageRange": "0-13"
+      },
+      {
+        "category": "Barn (under 14 år) - uten spillerett",
+        "price": 500,
+        "description": "Medlemskap uten spillerett",
+        "ageRange": "0-13"
       },
       {
         "category": "Student",
         "price": 1500,
-        "description": null,
-        "ageRange": "20-25"
-      },
-      {
-        "category": "Ungdom (13-19)",
-        "price": 1000,
-        "description": null,
-        "ageRange": "13-19"
-      },
-      {
-        "category": "Barn (under 13)",
-        "price": 500,
-        "description": null,
-        "ageRange": "0-12"
-      },
-      {
-        "category": "Familie",
-        "price": 7000,
-        "description": null,
+        "description": "Medlemskap, gyldig studentbevis kreves",
         "ageRange": null
       },
       {
-        "category": "Serviceavgift aksjonærer",
+        "category": "Fjernmedlem",
+        "price": 1200,
+        "description": "Bostedsadresse utenfor Nordland og Troms",
+        "ageRange": null
+      },
+      {
+        "category": "Aksjonærer - fritt spill",
         "price": 2000,
-        "description": null,
+        "description": "Spillerett for aksjonærer",
+        "ageRange": null
+      },
+      {
+        "category": "Familierabatt",
+        "price": null,
+        "description": "Første voksen betaler full pris, resten av familien betaler 60%",
         "ageRange": null
       }
     ]
@@ -250,11 +276,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 82,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-12T07:38:23.021Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "hjem",
+      "priser-og-apningstider",
+      "kontakt-oss"
+    ],
+    "scrapedAt": "2026-02-14T16:05:00.000Z",
     "createdAt": "2025-10-31T05:13:02.273Z",
-    "updatedAt": "2026-02-12T07:38:23.022Z"
-  }
+    "updatedAt": "2026-02-14T16:05:00.000Z"
+  },
+  "googlePlaceId": "ChIJIUq-pKUZ20URqA7rzrh71ZY"
 }

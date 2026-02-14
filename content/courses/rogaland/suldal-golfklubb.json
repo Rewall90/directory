@@ -157,9 +157,11 @@
     "dataQuality": "15.0",
     "websiteQuality": null,
     "completenessPercentage": 15,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:28.039Z",
+    "pagesScraped": [],
+    "scrapedAt": "2026-02-14T16:22:00.000Z",
     "createdAt": "2025-10-31T07:46:28.041Z",
-    "updatedAt": "2025-11-03T09:09:53.840Z"
-  }
+    "updatedAt": "2026-02-14T16:22:00.000Z",
+    "notes": "No website available. One of Norway's smallest golf clubs with limited online presence. Unable to scrape pricing information."
+  },
+  "googlePlaceId": "ChIJgSUgrx7_O0YRRINFv2Jby-0"
 }

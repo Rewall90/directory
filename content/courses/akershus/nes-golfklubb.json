@@ -7,9 +7,9 @@
   "municipality": "",
   "country": "Norway",
   "address": {
-    "street": "TBD",
-    "postalCode": "0000",
-    "area": null
+    "street": "Eidsvollveien 35",
+    "postalCode": "2160",
+    "area": "Vormsund"
   },
   "coordinates": {
     "lat": 60.16192659999999,
@@ -40,15 +40,21 @@
   },
   "description": "Open park course that is good to walk, but long to play. 5 different tee positions, sloped for both men and women. New junior tee (Tee 28) added in 2022 measuring 2,800 meters.",
   "contact": {
-    "phone": null,
-    "email": null,
-    "emailAlt": null,
+    "phone": "91690904",
+    "email": "admin@nesgolf.no",
+    "emailAlt": "proshop@rommengolfpark.no",
     "website": "https://nesgolf.no/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/NesGolfklubb09",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "91690904",
+      "type": "proshop",
+      "primary": true
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -103,24 +109,81 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
-      "pullCartRental": null,
+      "greenFee18Weekday": 480,
+      "greenFee18Weekend": 580,
+      "greenFee18MemberWeekday": 380,
+      "greenFee18MemberWeekend": 480,
+      "greenFee9": 300,
+      "greenFee9Member": 250,
+      "greenFeeJunior": 300,
+      "greenFeeJuniorMember": 200,
+      "greenFeeTwilight": 300,
+      "greenFeeTwilightMember": 250,
+      "greenFeeDescription": "Twilight golf etter kl. 19:00. Medlemmer av Norsk Senior Golf får 100 kr rabatt.",
+      "cartRental": 390,
+      "pullCartRental": 70,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Golfamore gyldig alle dager fra uke 19"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "hovedmedlem": {
+        "name": "Hovedmedlem",
+        "price": 1095
+      },
+      "ungdom13to18": {
+        "name": "Ungdom 13-18 år",
+        "price": 500
+      },
+      "barn0to12": {
+        "name": "Barn 0-12 år",
+        "price": 200
+      },
+      "familie": {
+        "name": "Familie",
+        "price": 2490
+      },
+      "spillerettTotal": {
+        "name": "Total spillerett",
+        "price": 8100,
+        "description": "Fritt spill, fri rangeballer, kaffeavtale, 50% rabatt golfbil, 10% klær i proshop"
+      },
+      "spillerettBasis": {
+        "name": "Basis spillerett",
+        "price": 5600,
+        "description": "Fritt spill hele sesongen"
+      },
+      "spillerettFormiddag": {
+        "name": "Formiddagsspillerett",
+        "price": 3600,
+        "description": "Hverdager før kl. 12:00"
+      },
+      "spillerettUng26": {
+        "name": "Ung 26",
+        "price": 3000,
+        "description": "T.o.m året man fyller 26"
+      },
+      "spillerettSommergolf": {
+        "name": "Sommergolf",
+        "price": 3900,
+        "description": "1. juni - 31. august"
+      },
+      "spillerett0to15": {
+        "name": "Spillerett 0-15 år",
+        "price": 1100
+      },
+      "spillerett16to18": {
+        "name": "Spillerett 16-18 år",
+        "price": 1700
+      }
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
@@ -155,11 +218,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:13.438Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "medlemskap",
+      "spillerett",
+      "gjestespill"
+    ],
+    "scrapedAt": "2026-02-14T17:34:00.000Z",
     "createdAt": "2025-10-31T11:23:13.440Z",
-    "updatedAt": "2025-11-03T09:10:05.844Z"
-  }
+    "updatedAt": "2026-02-14T17:34:00.000Z"
+  },
+  "googlePlaceId": "ChIJcRhPifIrQkYRzl3733MI0wQ"
 }

@@ -116,22 +116,86 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
+      "greenFee18": 500,
+      "greenFee9": 350,
       "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: Tee-tid obligatorisk via Golfbox. Greenfee-samarbeid med flere klubber (Tjøme, Norsjø m.fl.). Kontakt klubben for priser på post@tonsberggolf.no.",
-      "cartRental": null,
+      "greenFeeJunior": 200,
+      "greenFeeBarn": 0,
+      "greenFeeGolfamore": 250,
+      "greenFeeDescription": "Greenfee 2025: Ordinær 18h 500 kr, 9h 350 kr. Junior (13-19 år) 200 kr (gratis for medlemmer hos Tjøme, Sandefjord, Kragerø, Norsjø). Barn (6-12 år) gratis. Golfamore 250 kr/runde (maks 3 runder pr. år). NSG-medlemmer: kontakt klubbkontoret for avtale. Tee-tid obligatorisk via Golfbox.",
+      "cartRental": 200,
+      "cartRentalMedical": 100,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "VTG-kurs (Veien til Golf) deltakere får 50% rabatt på medlemskap de 2 første årene. Sjelden stor driving range. Klubbhus med touchskjerm for tee-tid booking og scorekortuskriving."
+      "notes": "Golfbil 200 kr (maks 4 timer/18h), 50% rabatt med legeerklæring. Traller til utleie. Ballkort/årskort rangeballer 400 kr, etterfylling 500 kr. VTG-kurs deltakere får 50% rabatt på medlemskap de 2 første årene."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "ordinaer",
+        "name": "Ordinær",
+        "price": 5800,
+        "description": "Full spillerett og fritt bruk av treningsanlegget.",
+        "ageRange": null
+      },
+      {
+        "category": "nyttMedlemMai",
+        "name": "Nytt medlem fra 01.05",
+        "price": 2900,
+        "description": "For nye medlemmer fra 1. mai. Forutsetter ingen medlemskap i golfklubb 2022-2024.",
+        "ageRange": null
+      },
+      {
+        "category": "nyttMedlemSept",
+        "name": "Nytt medlem fra 01.09",
+        "price": 2200,
+        "description": "For nye medlemmer fra 1. september. Forutsetter ingen medlemskap i golfklubb 2022-2024.",
+        "ageRange": null
+      },
+      {
+        "category": "klubb2",
+        "name": "Klubb 2-medlemskap",
+        "price": 2400,
+        "description": "For de med ordinært medlemskap i annen klubb (minimum 5000 kr/år). Inkluderer spillerett og fritt bruk av anlegget.",
+        "ageRange": null
+      },
+      {
+        "category": "ung20-29",
+        "name": "Ung 20-29 år",
+        "price": 2900,
+        "description": "Medlemskap for unge 20-29 år. 50% rabatt for nye VTG-spillere år 1+2.",
+        "ageRange": "20-29"
+      },
+      {
+        "category": "junior13-19",
+        "name": "Junior 13-19 år",
+        "price": 1700,
+        "description": "Junior medlemskap. 50% rabatt for nye VTG-spillere år 1+2.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "barn6-12",
+        "name": "Barn 6-12 år",
+        "price": 250,
+        "description": "Barnemedlemskap.",
+        "ageRange": "6-12"
+      },
+      {
+        "category": "fjernmedlem",
+        "name": "Fjernmedlemskap",
+        "price": 1000,
+        "description": "Uten spillerett og øvrige medlemsfordeler. Bosted minimum 60 km fra Re Golfbane.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -165,12 +229,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "85.0",
-    "websiteQuality": null,
-    "completenessPercentage": 85,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:10:45.983Z",
+    "dataQuality": "95.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "prisliste",
+      "arsavgifter",
+      "medlemsfordeler"
+    ],
+    "scrapedAt": "2026-02-14T17:45:00.000Z",
     "createdAt": "2025-10-31T09:10:45.985Z",
-    "updatedAt": "2025-11-03T09:10:06.770Z"
-  }
+    "updatedAt": "2026-02-14T17:45:00.000Z"
+  },
+  "googlePlaceId": "ChIJ2ZLeIfTJRkYRfSIFDsGcNIM"
 }

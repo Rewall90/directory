@@ -121,22 +121,39 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFee18": 1200,
+      "greenFee9": 780,
       "greenFeeWeekday": 1200,
       "greenFeeWeekend": 1200,
       "greenFeeSenior": null,
-      "greenFeeJunior": 475,
-      "greenFeeDescription": "Greenfee 2025: 1200 kr (alle dager). Unge golfere 20-26 år: 475 kr (18 hull) / 350 kr (9 hull). Medlemmer uten spillerett får 100 kr rabatt per 18-hulls runde.",
+      "greenFeeJunior": 600,
+      "greenFeeUng18": 475,
+      "greenFeeUng9": 350,
+      "greenFeeDescription": "Greenfee varierer med ukedag/helg, tid pa dagen og sesong. Pris i Golfbox. 9 hull = 65% av 18 hull. Junior 50% rabatt. Unge 20-26 ar: drop-in 475kr (18 hull) / 350kr (9 hull). Medlemmer uten spillerett: 100kr rabatt (18h) / 65kr (9h).",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Bergens eneste 18-hulls bane. En av Norges mest moderne driving ranges med TrackMan Range. 4 TrackMan-simulatorer for vintertrening. Toalett på banen ved hull 5, 6, 9, 11 og 17. Bobil-parkering."
+      "noShowFee": 1850,
+      "notes": "Bergens eneste 18-hulls bane. En av Norges mest moderne driving ranges med TrackMan Range. 4 TrackMan-simulatorer for vintertrening. Toalett pa banen ved hull 5, 6, 9, 11 og 17. Bobil-parkering. Gjester booker 4 dager i forveien, medlemmer 6 dager."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "aktivVoksen": 11000,
+      "aktivVoksenEktefelle": 9600,
+      "aktivUng": 6600,
+      "aktivJunior": 3700,
+      "fanaGreenfee": 2400,
+      "juniorSpesiell": 2200,
+      "juniorKnotter": 1200,
+      "registreringsgebyr": 2000,
+      "currency": "NOK",
+      "description": "Registreringsgebyr 2000kr ved innmelding i Aktiv kategorier. Kontingentene for 2026 vedtas pa arsmotet februar 2026."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -170,12 +187,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "89.0",
+    "dataQuality": "93.0",
     "websiteQuality": null,
-    "completenessPercentage": 89,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:54.007Z",
+    "completenessPercentage": 93,
+    "pagesScraped": [
+      "medlemskap",
+      "banen/reservasjon-av-spilletid"
+    ],
+    "scrapedAt": "2026-02-14T16:19:00.000Z",
     "createdAt": "2025-10-31T10:16:54.008Z",
-    "updatedAt": "2025-11-03T09:09:55.801Z"
-  }
+    "updatedAt": "2026-02-14T16:19:00.000Z"
+  },
+  "googlePlaceId": "ChIJue2jDlb3PEYRpK6BqJ6Ykms"
 }

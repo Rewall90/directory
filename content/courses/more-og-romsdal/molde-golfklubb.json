@@ -129,9 +129,55 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Redusert greenfee for medlemmer av samarbeidsklubber og gjester av medlemmer"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 400,
+      "greenFee9": 300,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 200,
+      "greenFeeJunior9": 150,
+      "twilight": null,
+      "greenFeeDescription": "Greenfee 18 hull: 400 kr, 9 hull: 300 kr. Gjest med medlem/samarbeidsklubb: 300 kr. Juniorer fra samarbeidsklubb: gratis. Studenter/juniorer: 200 kr (18) / 150 kr (9). Greenfee-medlemmer: 300 kr (18) / 200 kr (9).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "golfCartApp": "Eagl",
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Booking og betaling via Golfbox. Golfbil via Eagl app."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "fullMembership": 7488,
+      "fullMembershipDescription": "Full spillerett (D), dugnadsrabatt mulig",
+      "youthMembership": 4812,
+      "youthMembershipDescription": "20-25 år inkl. student (D)",
+      "juniorMembership": 1980,
+      "juniorMembershipDescription": "Under 20 år",
+      "familyMembership": 12300,
+      "familyMembershipDescription": "Familiemedlemskap (D)",
+      "greenfeeMembership": 3660,
+      "greenfeeMembershipDescription": "Greenfee-medlemskap (D), betaler redusert greenfee",
+      "gggMembership": 1775,
+      "gggMembershipDescription": "Golf Grønn Glede medlemskap",
+      "distanceMembership": 1407,
+      "distanceMembershipDescription": "Fjernmedlemskap",
+      "summerMembership": 1657,
+      "summerMembershipDescription": "Sommermedlemskap per måned",
+      "childMembership": 735,
+      "childMembershipDescription": "Barn 0-12 år",
+      "dugnadsrabatt": "1000 kr rabatt for 10+ timer dugnad",
+      "vtgDiscount": "Halv pris første året for VTG-deltakere",
+      "membershipStatus": "open",
+      "notes": "Utmelding/endring må meldes skriftlig innen 31. desember"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.7,
@@ -196,12 +242,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "91.5",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 91,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:08.787Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:05:00.000Z",
     "createdAt": "2025-10-31T09:31:08.788Z",
-    "updatedAt": "2025-11-03T09:10:12.373Z"
-  }
+    "updatedAt": "2026-02-14T16:05:00.000Z"
+  },
+  "googlePlaceId": "ChIJz5m5zRRWEUYR-Ffn_w-hm3k"
 }

@@ -41,12 +41,12 @@
   "description": "Hauger Golfbane er en 18-hulls bane som ble åpnet i 1996",
   "contact": {
     "phone": "67 07 37 70",
-    "email": null,
+    "email": "post@haugergolf.no",
     "emailAlt": null,
     "website": "https://hauger-golfklubb.no/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/HaugerGK/",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -81,7 +81,7 @@
     "clubhouseName": null,
     "proShop": true,
     "restaurant": true,
-    "restaurantName": "Restauranten på Hauger",
+    "restaurantName": "Hauger Matstue",
     "clubRental": false,
     "clubRentalNotes": null,
     "cartRental": false,
@@ -111,22 +111,43 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+      "greenFeeWeekdayPrime": 900,
+      "greenFeeWeekday": 750,
+      "greenFeeWeekdayOff": 650,
+      "greenFeeWeekendPrime": 1000,
+      "greenFeeWeekend": 750,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Opening hours: Se banestatus på nettstedet",
-      "cartRental": null,
+      "greenFeeJunior": 300,
+      "greenFeeDescription": "Ukedager: 07-09: 650kr, 09-10: 650kr, 10-15: 750kr, 15-18: 900kr, 18-21: 650kr. Helg/helligdag: 07-09: 750kr, 09-10: 1000kr, 10-15: 1000kr, 15-18: 750kr, 18-21: 650kr. Junior 300kr alle tider. Gjest av aksjonær: 500kr ukedag, 600kr helg. 9-hulls = 50% av ordinær.",
+      "cartRental": 500,
+      "cartRentalAksjonaer": 300,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Samarbeidsklubber med rabatt: Holtsmark/Drammen (50%), Bærum/Sorknes/Nøtterøy/Skjeberg/Grorud/Nordhaug (30%), Stavanger/Lillestrøm/Oppegård (20%). NSG hverdager før 15:00: 550kr (1.juni-31.okt)."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "aksjonaerFullSpillerett": 12000,
+      "haugerFlex": 7400,
+      "naermedlemskapVoksen": 1800,
+      "greenfeePluss": 3700,
+      "vtgNaermedlemskap": 1150,
+      "vtg2mndFrittSpill": 3150,
+      "studentMedlemskap": 7025,
+      "ungdomsmedlemskap": 8025,
+      "spillerettJunior20_21": 4000,
+      "spillerettJunior16_19": 3650,
+      "spillerettJunior11_15": 2650,
+      "spillerettBarnUnder10": 2050,
+      "naermedlemskapJunior": 675,
+      "membershipStatus": "Åpent for innmelding",
+      "notes": "Prisene for 2026 er med forbehold om godkjenning på årsmøtet i mars."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -161,11 +182,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:11.173Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:02:00.000Z",
     "createdAt": "2025-10-31T11:23:11.175Z",
-    "updatedAt": "2025-11-03T09:09:41.803Z"
-  }
+    "updatedAt": "2026-02-14T16:02:00.000Z"
+  },
+  "googlePlaceId": "ChIJERGEW0x6QUYRUS7DHnsAY8U"
 }

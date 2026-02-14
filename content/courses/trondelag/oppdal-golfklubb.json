@@ -111,22 +111,88 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
-      "greenFeeWeekend": 250,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Halv greenfee med Golfamore. Betaling med Vipps.",
+      "greenFee18": 500,
+      "greenFee9": 300,
+      "greenFeeDaily": 500,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": 500,
+      "greenFeeJunior18": 300,
+      "greenFeeJunior9": 150,
+      "greenFeeDescription": "Senior: 18 hull 500 kr, 9 hull 300 kr. Junior (tom 19 år): 18 hull 300 kr, 9 hull 150 kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Nybegynner-programmer; gode tilbud i pro shop."
+      "notes": "Vipps #111000. Halv greenfee med Golfamore. Nybegynner-programmer; gode tilbud i pro shop."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Barn",
+        "price": 100,
+        "description": "Barn tom 14 år - medlemskap og spillerett.",
+        "ageRange": "0-14"
+      },
+      {
+        "category": "Junior/Ungdom medlemskap",
+        "price": 400,
+        "description": "Junior/Ungdom tom 19 år - kun medlemskap.",
+        "ageRange": "15-19"
+      },
+      {
+        "category": "Junior/Ungdom med spillerett",
+        "price": 800,
+        "description": "Junior/Ungdom tom 19 år - medlemskap og spillerett.",
+        "ageRange": "15-19"
+      },
+      {
+        "category": "Student/lærling medlemskap",
+        "price": 690,
+        "description": "Student/lærling (med studentbevis) - kun medlemskap.",
+        "ageRange": null
+      },
+      {
+        "category": "Student/lærling med spillerett",
+        "price": 2490,
+        "description": "Student/lærling (med studentbevis) - medlemskap og spillerett.",
+        "ageRange": null
+      },
+      {
+        "category": "Senior medlemskap",
+        "price": 950,
+        "description": "Senior 20-66 år - kun medlemskap.",
+        "ageRange": "20-66"
+      },
+      {
+        "category": "Senior med spillerett",
+        "price": 4390,
+        "description": "Senior 20-66 år - medlemskap og spillerett.",
+        "ageRange": "20-66"
+      },
+      {
+        "category": "Pensjonist medlemskap",
+        "price": 800,
+        "description": "Pensjonister 67 år - kun medlemskap.",
+        "ageRange": "67+"
+      },
+      {
+        "category": "Pensjonist med spillerett",
+        "price": 3690,
+        "description": "Pensjonister 67 år - medlemskap og spillerett.",
+        "ageRange": "67+"
+      },
+      {
+        "category": "Fjernmedlem spillerett",
+        "price": 3650,
+        "description": "Spillerett for medlem i annen klubb.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -172,11 +238,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:52.435Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "greenfee",
+      "kontigent"
+    ],
+    "scrapedAt": "2026-02-14T16:31:00.000Z",
     "createdAt": "2025-10-31T11:30:52.436Z",
-    "updatedAt": "2025-11-03T09:09:57.155Z"
-  }
+    "updatedAt": "2026-02-14T16:31:00.000Z"
+  },
+  "googlePlaceId": "ChIJXT-XffNTE0YRPvFuqyAn9K0"
 }

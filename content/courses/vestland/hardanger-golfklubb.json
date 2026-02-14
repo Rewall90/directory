@@ -116,22 +116,36 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+      "greenFee": 250,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: Selvbetjening via Vipps 96898. Scorekort i boks ved klubbhuset. Kortautomat installert ved ballmaskinen. Kontakt klubben for priser via telefon +47 95 23 38 71 eller epost hardangergolfklubb@gmail.com.",
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee 2025: 250kr vaksen (gjeld heile dagen). Ungdom under 20 ar: 150kr. Betal med Vipps 96898. Kortautomat ved ballmaskinen (alle kort, ApplePay).",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakulær utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening."
+      "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakuler utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "vaksen24Plus": 1500,
+      "ektefelleSamboer": 1000,
+      "ungdom20_23": 1000,
+      "barnUngdomUnder20": 300,
+      "arskortVaksen": 2000,
+      "arskortUngdom": 1000,
+      "arskortBarn": 300,
+      "partsbrev": 15000,
+      "serviceavgift": 1400,
+      "currency": "NOK",
+      "description": "Partsbrev (15000kr) gjev fri spelerett i 5 ar. Serviceavgift 1400kr for andelseigarar. Arskort gjev fri spelerett heile 2025."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -165,12 +179,15 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "87.0",
+    "dataQuality": "92.0",
     "websiteQuality": null,
-    "completenessPercentage": 87,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:55.273Z",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "prisar"
+    ],
+    "scrapedAt": "2026-02-14T16:22:00.000Z",
     "createdAt": "2025-10-31T10:16:55.275Z",
-    "updatedAt": "2025-11-03T09:09:48.404Z"
-  }
+    "updatedAt": "2026-02-14T16:22:00.000Z"
+  },
+  "googlePlaceId": "ChIJaXWlH4wzPEYRC1SbY40Dmeo"
 }

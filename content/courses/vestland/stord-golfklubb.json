@@ -44,9 +44,10 @@
     "email": "post@stordgolf.no",
     "emailAlt": null,
     "website": "https://stordgolf.com/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/groups/773161502694096",
+    "instagram": "https://www.instagram.com/stordgolfklubb/",
+    "golfbox": true,
+    "vipps": "621212"
   },
   "phoneNumbers": [
     {
@@ -109,24 +110,83 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee9": 250,
+      "greenFee18": 350,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 200,
+      "greenFeeWeekday": 250,
       "greenFeeWeekend": 250,
       "greenFeeSenior": null,
-      "greenFeeJunior": 100,
-      "greenFeeDescription": "Greenfee 2025: 9 hull 200 kr (hverdager), 250 kr (helg/helligdager). Junior (under 18 år) 50% rabatt: 100 kr (hverdager), 125 kr (helg). Handicap-grense 36, gyldig handicapbevis påkrevd.",
-      "cartRental": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2025: 9 hull 250 kr, 18 hull 350 kr. Betales via Vipps #621212 før runden. Golfbil: 200 kr (9 hull), 300 kr (18 hull).",
+      "cartRental": 200,
+      "cartRental18": 300,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "3 toppmoderne golfsimulatore for innendørsspill på verdenskjente baner. Åpen hele året. Bølgende terreng med vannhindre og variert par-fordeling (1 par 5, 5 par 4, 3 par 3). Junior 50% rabatt."
+      "notes": "3 toppmoderne golfsimulatore for innendørsspill via Alba booking. Golfamore Shop. Tildelt 'Godt Tilgjenge 2025' pris for inkludering. Gratis medlemstreninger for barn og unge."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "child",
+        "price": 200,
+        "description": "Barn (0-12 år): 200 kr/år",
+        "ageRange": "0-12 år"
+      },
+      {
+        "category": "junior",
+        "price": 900,
+        "description": "Junior (13-19 år): 900 kr/år",
+        "ageRange": "13-19 år"
+      },
+      {
+        "category": "student",
+        "price": 1900,
+        "monthlyPrice": 159,
+        "description": "Student (med gyldig studentbevis): 1900 kr/år eller 159 kr/mnd",
+        "ageRange": null
+      },
+      {
+        "category": "youngAdult",
+        "price": 2990,
+        "monthlyPrice": 250,
+        "description": "Ung voksen (20-25 år): 2990 kr/år eller 250 kr/mnd",
+        "ageRange": "20-25 år"
+      },
+      {
+        "category": "adult",
+        "price": 4700,
+        "monthlyPrice": 392,
+        "description": "Hovedmedlem (26-66 år): 4700 kr/år eller 392 kr/mnd. Nye medlemmer første år: 3000 kr. 20% rabatt for medlemmer utenfor Stord/Fitjar.",
+        "ageRange": "26-66 år"
+      },
+      {
+        "category": "senior",
+        "price": 4200,
+        "monthlyPrice": 350,
+        "description": "Pensjonist (67+ år): 4200 kr/år eller 350 kr/mnd",
+        "ageRange": "67+ år"
+      },
+      {
+        "category": "spouse",
+        "price": 4200,
+        "monthlyPrice": 350,
+        "description": "Samboer/Ektefelle (med hovedmedlem): 4200 kr/år eller 350 kr/mnd",
+        "ageRange": null
+      },
+      {
+        "category": "passive",
+        "price": 1200,
+        "description": "Uten spillerett (passivt medlemskap): 1200 kr/år",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -181,12 +241,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.0",
-    "websiteQuality": null,
-    "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:17:01.420Z",
+    "dataQuality": "94.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 94,
+    "pagesScraped": [
+      "homepage",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T17:40:00.000Z",
     "createdAt": "2025-10-31T10:17:01.422Z",
-    "updatedAt": "2025-11-03T09:10:00.713Z"
-  }
+    "updatedAt": "2026-02-14T17:40:00.000Z"
+  },
+  "googlePlaceId": "ChIJi14WNWZ5PEYR7WLXeOr5TOQ"
 }

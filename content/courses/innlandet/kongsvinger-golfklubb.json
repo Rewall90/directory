@@ -166,11 +166,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:12.728Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "gjester",
+      "priser",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T16:05:00.000Z",
     "createdAt": "2025-10-31T07:18:12.730Z",
-    "updatedAt": "2025-11-03T09:09:48.687Z"
-  }
+    "updatedAt": "2026-02-14T16:05:00.000Z"
+  },
+  "googlePlaceId": "ChIJM11B4QNMQkYRRF-xgG5nqzE"
 }

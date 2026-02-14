@@ -152,6 +152,68 @@
         "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "adultClubMembership",
+        "price": 1080,
+        "description": "Sandnes Golfklubb klubbmedlemskap voksne 1080 kr/år",
+        "ageRange": "20+"
+      },
+      {
+        "category": "juniorClubMembership",
+        "price": 495,
+        "description": "Sandnes Golfklubb klubbmedlemskap t.o.m. 19 år: 495 kr/år",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "adultWithPlayingRights",
+        "price": 9960,
+        "description": "Hovedmedlem MED SPILLERETT 830 kr/mnd (9960 kr/år). Spilleavgift kommer i tillegg til klubbmedlemskap.",
+        "ageRange": null
+      },
+      {
+        "category": "adultWithoutPlayingRights",
+        "price": 11100,
+        "description": "Hovedmedlem UTEN SPILLERETT 925 kr/mnd (11100 kr/år). Greenfee må betales ved spill.",
+        "ageRange": null
+      },
+      {
+        "category": "spouseWithPlayingRights",
+        "price": 8160,
+        "description": "Ektefelle MED SPILLERETT 680 kr/mnd (8160 kr/år)",
+        "ageRange": null
+      },
+      {
+        "category": "spouseWithoutPlayingRights",
+        "price": 9360,
+        "description": "Ektefelle UTEN SPILLERETT 780 kr/mnd (9360 kr/år)",
+        "ageRange": null
+      },
+      {
+        "category": "juniorUnder19",
+        "price": 4740,
+        "description": "Junior under 19 år: 395 kr/mnd (4740 kr/år)",
+        "ageRange": "0-18"
+      },
+      {
+        "category": "juniorOver19",
+        "price": 6240,
+        "description": "Junior over 19 år: 520 kr/mnd (6240 kr/år)",
+        "ageRange": "19-25"
+      },
+      {
+        "category": "student",
+        "price": 6240,
+        "description": "Student (heltidsstudent under 26 år): 520 kr/mnd (6240 kr/år)",
+        "ageRange": "under 26"
+      },
+      {
+        "category": "military",
+        "price": 6240,
+        "description": "Militær 1. gangstjeneste: 520 kr/mnd (6240 kr/år)",
+        "ageRange": null
+      }
     ]
   },
   "ratings": {
@@ -190,9 +252,13 @@
     "dataQuality": "88.0",
     "websiteQuality": null,
     "completenessPercentage": 88,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:26.643Z",
+    "pagesScraped": [
+      "https://www.sandnesgolfklubb.no/",
+      "https://www.sandnesgolfklubb.no/berheim-golfpark/medlemskap-pa-baerheim-golfpark/"
+    ],
+    "scrapedAt": "2026-02-14T16:12:00.000Z",
     "createdAt": "2025-10-31T07:46:26.645Z",
-    "updatedAt": "2025-11-03T09:09:36.995Z"
-  }
+    "updatedAt": "2026-02-14T16:12:00.000Z"
+  },
+  "googlePlaceId": "ChIJEScKNho2OkYRN3ruh-tZS2c"
 }

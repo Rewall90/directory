@@ -249,9 +249,14 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-12T06:37:51.508Z",
+    "pagesScraped": [
+      "gjestespill",
+      "medlemskap",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-31T05:36:54.437Z",
-    "updatedAt": "2026-02-12T06:37:51.510Z"
-  }
+    "updatedAt": "2026-02-14T15:55:00.000Z"
+  },
+  "googlePlaceId": "ChIJ3Vu2VBlmQUYRyVrhqa77f2s"
 }

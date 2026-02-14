@@ -7,9 +7,9 @@
   "municipality": "Asker",
   "country": "Norway",
   "address": {
-    "street": "TBD",
-    "postalCode": "0000",
-    "area": null
+    "street": "Enebakkveien 640 C",
+    "postalCode": "1404",
+    "area": "Siggerud"
   },
   "coordinates": {
     "lat": 59.8028941,
@@ -17,10 +17,10 @@
     "accuracy": null
   },
   "course": {
-    "holes": 18,
-    "holesPlayed": 18,
-    "par": 72,
-    "parPerRound": 72,
+    "holes": 9,
+    "holesPlayed": 9,
+    "par": null,
+    "parPerRound": null,
     "lengthMeters": null,
     "lengthYards": null,
     "lengthNote": null,
@@ -38,17 +38,28 @@
     "mountainViews": false,
     "viewDescription": null
   },
-  "description": "En variert og morsom 18-hulls bane med flotte naturopplevelser",
+  "description": "9 spennende og varierte hull med USGA-standard. Den mest tilgjengelige banen på østsiden av Oslo. Spilles som 9-hullsbane siden 2011. Har også disc golf-bane.",
   "contact": {
-    "phone": null,
+    "phone": "64 85 77 90",
     "email": "kontor@krokhol.no",
     "emailAlt": null,
     "website": "https://krokhol.no/",
     "facebook": null,
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "64 85 77 90",
+      "type": "main",
+      "primary": true
+    },
+    {
+      "number": "46 47 36 25",
+      "type": "booking",
+      "primary": false
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -99,28 +110,42 @@
     "footgolfPar": null,
     "tennis": null,
     "tennisCourts": null,
-    "discGolf": null,
+    "discGolf": true,
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee9": 300,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 300,
-      "greenFeeWeekend": 300,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Opening hours: Klubbhuset har åpningstider - se separate detaljer",
+      "greenFeeDescription": "9 hull: ca 300 kr. Medlem uten spillerett: 250 kr (9 hull), 400 kr (18 hull). Samme pris for 9 eller 18 hull da sløyfene bestilles separat i Golfbox.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Leie av golfbil og tralle"
+      "notes": "Utleie av golfbiler og traller tilgjengelig. Døgnåpen drivingrange med ballautomater (tar bankkort). Forhåndsbetaling kreves via Golfbox."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "seniormedlem30plus": 5550,
+      "premiumSenior30plus": 8600,
+      "familiemedlemskap": 11800,
+      "yngreSenior20_29": 3650,
+      "seniorUtenSpillerett20plus": 1850,
+      "ungdom14_19": 2150,
+      "juniorUnder14Familie": 150,
+      "juniorUnder14Alene": 1050,
+      "membershipStatus": "Åpent for innmelding",
+      "notes": "Premium inkl. 40 ni-hulls runder med golfbil. Familiemedlemskap gjelder to voksne + barn t.o.m. 19 år. Utmelding må skje skriftlig før 31. desember."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -155,11 +180,18 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:11.617Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "gjester/greenfee",
+      "kontakt",
+      "medlemsservice/medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:06:00.000Z",
     "createdAt": "2025-10-31T11:23:11.618Z",
-    "updatedAt": "2025-11-03T09:10:04.014Z"
-  }
+    "updatedAt": "2026-02-14T16:06:00.000Z"
+  },
+  "googlePlaceId": "ChIJ8WTPFOJmQUYRdr1X5Y4JIMU"
 }

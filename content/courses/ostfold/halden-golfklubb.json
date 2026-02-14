@@ -114,21 +114,22 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee pricing available on website. Medlemmer: Redusert greenfee",
-      "cartRental": 18,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 200,
+      "greenFeeJuniorWeekend": 250,
+      "greenFeeDescription": "Hverdager 300kr, Helg/helligdager 400kr. Junior 0-19 år: Hverdager 200kr, Helg 250kr. Greenfee-medlemmer: Hverdager 250kr, Helg 300kr. Alle juniorgjester registrert i NGF spiller gratis! Greenfee gjelder hele dagen.",
+      "cartRental": 300,
       "pullCartRental": null,
       "clubRental": 300,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Tralle 3-hjuls: 40 NOK"
+      "notes": "Selvbetjent klubbhus med kodelåser. Golfsimulator kun for medlemmer."
     }
   },
   "membershipPricing": {},
@@ -168,9 +169,14 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:43:12.656Z",
+    "pagesScraped": [
+      "start/gjest",
+      "start/gjest/greenfee",
+      "start/nytt-medlem-i-klubben"
+    ],
+    "scrapedAt": "2026-02-14T16:06:00.000Z",
     "createdAt": "2025-10-31T11:43:12.658Z",
-    "updatedAt": "2025-11-03T09:10:11.165Z"
-  }
+    "updatedAt": "2026-02-14T16:06:00.000Z"
+  },
+  "googlePlaceId": "ChIJlR-T79ISREYRlw5YS-Jg3KU"
 }

@@ -41,11 +41,11 @@
   "description": "Gjøvik & Toten Golf Club - en spennende 18-hulls bane med varierte utfordringer",
   "contact": {
     "phone": "479 05 678",
-    "email": null,
-    "emailAlt": null,
+    "email": "proshop@gtgk.no",
+    "emailAlt": "marius@gtgk.no",
     "website": "https://gtgk.no/",
-    "facebook": null,
-    "instagram": null,
+    "facebook": "https://www.facebook.com/gjovikogtotengolfklubb",
+    "instagram": "https://www.instagram.com/GjovikogTotenGolfklubb",
     "golfbox": true
   },
   "phoneNumbers": [
@@ -109,24 +109,60 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Guest play available - contact club for specific pricing",
+      "greenFeeWeekday": 450,
+      "greenFeeWeekend": 490,
+      "greenFee9HolesWeekday": 350,
+      "greenFee9HolesWeekend": 380,
+      "greenFeeJuniorStudent": 325,
+      "greenFeeJuniorStudent9Holes": 250,
+      "greenFeeGreenfeeMembers18Holes": 300,
+      "greenFeeGreenfeeMembers9Holes": 235,
+      "greenFeeDescription": "Voksen: Hverdag 450 kr (18), 350 kr (9). Helg 490 kr (18), 380 kr (9). Junior/Student: 325 kr (18), 250 kr (9). Greenfeemedlemmer: 300 kr (18), 235 kr (9). NSG: 100 kr rabatt ukedager før kl. 15:00.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "neighborClubDiscount": true,
+      "neighborClubs": [
+        "Atlungstad GK",
+        "Skei GK",
+        "Hafjell GK",
+        "Mjøsen GK",
+        "Land GK",
+        "Trysil GK",
+        "Kongsvinger GK",
+        "Sorknes GK",
+        "Elverum GK",
+        "Valdres GK"
+      ],
+      "notes": "Samarbeidsklubber får rabatt. NSG 100 kr rabatt ukedager før 15:00. 9 hull skal maks ta 2:10, 18 hull maks 4:20."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "fullMembershipWithShare": 5900,
+      "fullMembershipWithoutShare": 6900,
+      "youngAdult20to25": 3900,
+      "youngAdult26to29": 4900,
+      "newMemberOffer": 4400,
+      "vtgYear1WithCourse": 3900,
+      "vtgYear2": 4900,
+      "vtgYear3": 5900,
+      "greenfeeOnlyMember": 2500,
+      "neighborMembership": 2900,
+      "juniorFree0to12": 0,
+      "junior13to19": 2600,
+      "distanceMember": 950,
+      "familyDiscount": "20%",
+      "enrollmentFee": 500,
+      "notes": "Gratis medlemskap 0-12 år. Familiemedlemskap gir 20% rabatt. Innmeldingsavgift 500 kr per voksen. VTG-medlemskap: År 1 inkl kurs 3900 kr, År 2: 4900 kr, År 3: 5900 kr. Frist for endring/oppsigelse: 31. desember."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -182,11 +218,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:11.863Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "gjestespill",
+      "medlemskap/medlemskap-og-priser",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T16:00:00.000Z",
     "createdAt": "2025-10-31T07:18:11.866Z",
-    "updatedAt": "2025-11-03T09:09:47.842Z"
-  }
+    "updatedAt": "2026-02-14T16:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJLz8PtbDEQUYRMUmZWfyLvuY"
 }

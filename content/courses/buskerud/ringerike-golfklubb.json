@@ -125,8 +125,8 @@
     "simulatorCourses": null,
     "simulatorNotes": null,
     "bunkers": null,
-    "footgolf": false,
-    "footgolfHoles": null,
+    "footgolf": true,
+    "footgolfHoles": 9,
     "footgolfPar": null,
     "tennis": null,
     "tennisCourts": null,
@@ -136,66 +136,31 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Se medlemskapsinfo for greenfee-rabatter basert på medlemskategori.",
-      "cartRental": 250,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Golfbiler: 3 stk tilgjengelig, 250 kr (9 hull) / 350 kr (18 hull). Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Booking 08:00-20:00, nøkkelutlevering innen 17:00. Turneringer: golfbil fordeles etter helsemessige behov. Simulatorrabatter: 30% Buskerud Golf AS, 10% Høneføss Golfsenter."
+      "greenFee9Weekday": 300,
+      "greenFee9Weekend": 338,
+      "greenFee18Weekday": 400,
+      "greenFee18Weekend": 450,
+      "greenFeeDescription": "9 hull: hverdag 300 kr, helg 337,50 kr. 18 hull: hverdag 400 kr, helg 450 kr.",
+      "golfCartRental9": 250,
+      "golfCartRental18": 350,
+      "pullCartRental": 0,
+      "notes": "Golfbiler: 3 stk tilgjengelig. Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Simulatorrabatter: 30% Buskerud Golf AS, 10% Hønefoss Golfsenter."
     }
   },
   "membershipPricing": {
-    "2025": [
-      {
-        "category": "a_fritt_spill",
-        "price": 4500,
-        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
-        "ageRange": null
-      },
-      {
-        "category": "b_halv_greenfee",
-        "price": 3500,
-        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
-        "ageRange": null
-      },
-      {
-        "category": "c_familie",
-        "price": 8000,
-        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
-        "ageRange": null
-      },
-      {
-        "category": "d_student",
-        "price": 1800,
-        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
-        "ageRange": null
-      },
-      {
-        "category": "e_junior",
-        "price": 1250,
-        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
-        "ageRange": null
-      },
-      {
-        "category": "f_greenfee",
-        "price": 1550,
-        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
-        "ageRange": null
-      },
-      {
-        "category": "g_forste_ar",
-        "price": 1800,
-        "description": "Medlemskap 2025: 7 kategorier. A (Fritt spill) 4500 kr, B (1/2 greenfee) 3500 kr, C (Familiemedlemskap inkl barn t.o.m. 19 år) 8000 kr, D (Student/vernepliktig, 1/2 greenfee) 1800 kr, E (Junior t.o.m 19 år, fritt spill) 1250 kr, F (Greenfeemedlemskap, full greenfee) 1550 kr, G (Første års medlemskap, 1/2 greenfee) 1800 kr - flyttes automatisk til kategori B neste år. Tilleggsmuligheter: G fritt spill addon 1200 kr, D fritt spill addon 1000 kr. Ingen innmeldingsavgift. Medlemskontingenten inkluderer avgift til NGF (medlemmer 20 år+) og abonnement på Norsk Golf. Utmelding/endring av kategori må meldes skriftlig innen 31. desember (jfr. lov for Ringerike Golfklubb §4). Proshop åpningstider: Man-Søn 10:00-17:00 (værforbehold - kan være stengt ved dårlig vær eller for varmt).",
-        "ageRange": null
-      }
-    ]
+    "2025": {
+      "aFrittSpill": 4500,
+      "bHalvGreenfee": 3500,
+      "cFamilie": 9000,
+      "dStudent": 1800,
+      "eJunior": 1250,
+      "fGreenfee": 1550,
+      "gForsteAr": 1800,
+      "frittSpillAddonG": 1200,
+      "frittSpillAddonD": 1000,
+      "innmeldingsavgift": 0,
+      "notes": "A: Fritt spill. B: 1/2 greenfee. C: Familie inkl barn t.o.m. 19 år. D: Student/vernepliktig 1/2 greenfee. E: Junior fritt spill. F: Full greenfee. G: Første år, flyttes til B neste år. Inkl NGF avgift og Norsk Golf. Utmelding innen 31. desember."
+    }
   },
   "ratings": {
     "google": {
@@ -232,10 +197,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:54:20.233Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:14:00.000Z",
     "createdAt": "2025-10-31T05:54:20.235Z",
-    "updatedAt": "2025-11-03T09:09:58.593Z"
-  }
+    "updatedAt": "2026-02-14T16:14:00.000Z"
+  },
+  "googlePlaceId": "ChIJUdRj8eVSQEYRo5CNu8wHjSM"
 }

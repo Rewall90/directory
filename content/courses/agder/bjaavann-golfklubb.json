@@ -21,22 +21,25 @@
     "holesPlayed": 18,
     "par": 72,
     "parPerRound": null,
-    "lengthMeters": null,
-    "lengthYards": null,
-    "lengthNote": null,
+    "lengthMeters": 6423,
+    "lengthYards": 6889,
+    "lengthNote": "Fra bakre tee (64)",
     "terrain": "Parkbane",
     "courseType": "Parkbane",
     "designer": "Robert Trent Jones Jr.",
     "yearBuilt": 2003,
     "yearRedesigned": null,
-    "waterHazards": null,
+    "waterHazards": true,
+    "waterHazardsNote": "Vann i spill på de fleste hull",
     "signatureHole": null,
     "scenicHole": null,
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "par3Count": 5,
+    "par4Count": 8,
+    "par5Count": 5,
+    "teeBoxes": 6,
     "mountainViews": null,
-    "viewDescription": null
+    "viewDescription": "Banen ligger i hesteskoform rundt Bjåvannet innerst i Ålefjærfjorden",
+    "courseName": "The Norwegian Beauty"
   },
   "description": "18-hulls mesterksapsbane designet av verdenskjente Robert Trent Jones Jr. Kalles 'Den norske skjønnheten'.",
   "contact": {
@@ -46,9 +49,18 @@
     "website": "https://bjaavanngk.no/",
     "facebook": "https://www.facebook.com/Bjaavann-Golfklubb-Kristiansand-232270230195418/",
     "instagram": "https://www.instagram.com/bjaavann_gk/",
-    "golfbox": false
+    "youtube": "https://www.youtube.com/channel/UC3zRWOymxiqw4RVCKg9CvSw",
+    "golfbox": true
   },
   "phoneNumbers": [],
+  "booking": {
+    "system": "GolfBox",
+    "app": "Gimmie",
+    "email": "post@bjaavanngk.no",
+    "advanceBookingDays": 7,
+    "onlineBooking": true,
+    "notes": "Bestilling via GolfBox/Gimmie. Innsjekking og betaling i GolfBox/Gimmie-appen eller resepsjon/butikk."
+  },
   "season": {
     "start": "Mars",
     "end": "Oktober",
@@ -56,9 +68,18 @@
   },
   "visitors": {
     "welcome": true,
-    "walkingAllowed": null,
+    "walkingAllowed": true,
     "nearbyCity": "Kristiansand S",
-    "distanceFromCenter": null
+    "distanceFromCenter": 16,
+    "distanceFromAirport": 8,
+    "airportName": "Kristiansand lufthavn Kjevik",
+    "handicapRequired": false,
+    "dressCode": "Liberal - relevant sportstøy/golftøy",
+    "roundTimeMinutes": 270,
+    "dogsAllowed": true,
+    "dogsNotes": "Hund må holdes i bånd. Avklar med medspillere.",
+    "courseOpenTime": "06:00",
+    "receptionOpenTime": "09:00"
   },
   "organization": {
     "courseCompany": null,
@@ -67,21 +88,26 @@
   "facilities": {
     "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": "Range baller: 35 baller: 45 NOK, klippekort 10 bøtter: 400 NOK, 30 bøtter: 900 NOK, 100 bøtter: 1800 NOK",
+    "drivingRangeNotes": "Range baller: 35 baller per bøtte. Betaling via Vipps/kredittkort/GolfMore-app.",
     "puttingGreen": true,
-    "chippingArea": false,
-    "practiceBunker": null,
+    "chippingArea": true,
+    "chippingAreaNotes": "Finns Fairway nærspillsområde med mulighet for slag opptil 100 meter fra gress",
+    "practiceBunker": true,
+    "practiceBunkerCount": 2,
     "clubhouse": true,
     "clubhouseName": null,
+    "clubhouseNotes": "Åpent tirsdager og onsdager 09:00-16:00. Cafe med baguetter, pølser, pizza, vafler, is og snacks. Øl og vin.",
     "proShop": true,
     "restaurant": true,
-    "restaurantName": "",
+    "restaurantName": null,
     "clubRental": true,
-    "clubRentalNotes": null,
-    "cartRental": null,
+    "clubRentalNotes": "Helsett m/bag: 150 NOK (9 hull), 200 NOK (18 hull)",
+    "cartRental": true,
+    "cartRentalNotes": "Bestilles via EAGL-appen",
     "pullCartRental": true,
+    "pullCartRentalNotes": "3-hjuls tralle: 85 NOK",
     "golfLessons": true,
-    "teachingPro": false,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": true,
     "showers": false,
@@ -90,9 +116,10 @@
     "eventVenue": false,
     "eventCapacity": null,
     "simulator": true,
-    "simulatorType": null,
+    "simulatorType": "Trackman",
+    "simulatorCount": 3,
     "simulatorCourses": null,
-    "simulatorNotes": "Simulator",
+    "simulatorNotes": "Innendørs treningssenter med 3 Trackman-simulatorer",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -100,65 +127,113 @@
     "tennis": null,
     "tennisCourts": null,
     "discGolf": null,
-    "discGolfStandard": null
+    "discGolfStandard": null,
+    "paymentMethods": [
+      "Kort",
+      "Vipps"
+    ],
+    "cashless": true
   },
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 700,
-      "greenFeeWeekend": 850,
+      "greenFee18Weekday": 700,
+      "greenFee18Weekend": 850,
+      "greenFee18HighSeason": 850,
+      "highSeasonPeriod": "10. juni - 18. august",
+      "greenFee9": 475,
+      "greenFeeJunior": "50%",
+      "greenFeeJuniorNote": "Født 2006 eller senere",
       "greenFeeSenior": 450,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Høysesong 18h: 850 NOK | Periode: 10. juni - 18. august",
+      "greenFeeSeniorNote": "Norsk Senior Golf - max 3 runder, før kl 14 man-fre, ikke i juli",
       "cartRental": 500,
-      "pullCartRental": null,
-      "clubRental": 200,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "pullCartRental": 85,
+      "clubRental9": 150,
+      "clubRental18": 200,
+      "rangeBalls": 45,
+      "rangeBallsNote": "35 baller per bøtte",
+      "rangeBallsCard10": 400,
+      "rangeBallsCard30": 900,
+      "rangeBallsCard100": 1800,
+      "notes": "Differensierte greenfee-satser - aktuell pris vises i GolfBox. Full greenfee-sats 850 NOK brukes som basis ved fordelskort."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "voksen",
-        "price": 9450,
-        "description": null,
-        "ageRange": null
+        "name": "Voksen med spillerett",
+        "price": 8450,
+        "monthlyPayment": 765,
+        "description": "Fullt medlemskap med spillerett",
+        "ageMin": null,
+        "ageMax": null,
+        "birthYearMax": 1997
+      },
+      {
+        "category": "premium",
+        "name": "Premium-medlem",
+        "price": 12225,
+        "monthlyPayment": 1100,
+        "description": "Premium medlemskap",
+        "ageMin": null,
+        "ageMax": null
       },
       {
         "category": "ungvoksen",
-        "price": 4850,
+        "name": "Ung Voksen med spillerett",
+        "price": 4225,
         "description": null,
-        "ageRange": null
+        "birthYearMin": 1998,
+        "birthYearMax": 2006
       },
       {
         "category": "junior",
-        "price": 2000,
+        "name": "Junior med spillerett",
+        "price": 1500,
         "description": null,
-        "ageRange": null
+        "birthYearMin": 2007,
+        "birthYearMax": 2014
       },
       {
         "category": "barn",
+        "name": "Barn med spillerett",
         "price": 500,
         "description": null,
-        "ageRange": null
+        "birthYearMin": 2015
       },
       {
         "category": "vtg",
+        "name": "VTG medlemskap",
         "price": 4125,
-        "description": null,
-        "ageRange": null
+        "description": "Veien til Golf medlemskap",
+        "ageMin": null,
+        "ageMax": null
+      },
+      {
+        "category": "aarsgreenfee",
+        "name": "Årsgreenfee",
+        "price": 6450,
+        "description": "Årlig greenfee uten medlemskap",
+        "ageMin": null,
+        "ageMax": null
       },
       {
         "category": "voksenutenspillerett",
-        "price": 1990,
+        "name": "Voksen uten spillerett",
+        "price": 2150,
         "description": null,
-        "ageRange": null
+        "ageMin": null,
+        "ageMax": null
       }
     ]
+  },
+  "membershipStatus": {
+    "status": "capped",
+    "maxMembers": 1400,
+    "maxMembersNote": "1200 ordinære + 200 premium medlemmer over 20 år",
+    "waitlist": false,
+    "notes": "Medlemsstopp ved 1400 medlemmer over 20 år"
   },
   "ratings": {
     "google": {
@@ -193,12 +268,19 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T13:27:22.758Z",
+    "dataQuality": "excellent",
+    "websiteQuality": "good",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "gjester/gjestespill",
+      "gjester/priser-2025",
+      "medlem/medlemskap-og-priser-2026-sesongen",
+      "banen",
+      "banen/scorekort"
+    ],
+    "scrapedAt": "2026-02-14T15:30:00.000Z",
     "createdAt": "2025-10-30T13:27:22.761Z",
-    "updatedAt": "2025-11-03T09:09:31.545Z"
-  }
+    "updatedAt": "2026-02-14T16:30:00.000Z"
+  },
+  "googlePlaceId": "ChIJbVs9s0kEOEYRAc15MSFtSek"
 }

@@ -99,60 +99,75 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 200,
+      "greenFee12": 100,
       "greenFeeDaily": null,
       "greenFeeWeekday": 200,
       "greenFeeWeekend": 200,
       "greenFeeSenior": 200,
       "greenFeeJunior": 200,
-      "greenFeeDescription": "Greenfee: 200 kr. Hammerfest og Kvalsund GK medlemmer kan spille på Alta GK for 300 kr per spiller når 6+ spillere spiller samtidig.",
+      "greenFeeDescription": "Greenfee: 200 kr. Ved turneringer over 12 hull: 100 kr. Driving range: 50 kr/time med gratis baller. Betaling via Vipps 109132.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
+      "rangeHourly": 50,
       "specialOfferPrice": null,
       "specialOfferIncludes": "Et av landets billigste golfmedlemskap. Familiemedlemmer får 50% rabatt på spillerett.",
       "freeTrial": null,
-      "notes": null
+      "notes": "Simulatormånedskort for HGK-medlemmer: 250 kr/mnd (klubben dekker resterende 250 kr)."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "adult",
         "price": 2500,
-        "description": null,
-        "ageRange": null
+        "description": "Hovedmedlem voksne med spillerett (750 + 1750)",
+        "ageRange": "19+"
       },
       {
         "category": "adultContingent",
         "price": 750,
-        "description": null,
-        "ageRange": null
+        "description": "Hovedmedlem voksne (kun medlemskap)",
+        "ageRange": "19+"
       },
       {
         "category": "adultPlayingRights",
         "price": 1750,
-        "description": null,
-        "ageRange": null
+        "description": "Spillerett hovedmedlem (fritt spill hele sesongen)",
+        "ageRange": "19+"
       },
       {
         "category": "familyMemberPlayingRights",
         "price": 875,
-        "description": null,
-        "ageRange": null
+        "description": "Familiemedlem spillerett (50% rabatt)",
+        "ageRange": "19+"
       },
       {
         "category": "youth",
         "price": 200,
-        "description": null,
-        "ageRange": null
+        "description": "Ungdom medlemskap",
+        "ageRange": "13-18"
+      },
+      {
+        "category": "youthPlayingRights",
+        "price": 0,
+        "description": "Ungdom spillerett (gratis)",
+        "ageRange": "13-18"
       },
       {
         "category": "junior",
         "price": 200,
-        "description": null,
-        "ageRange": null
+        "description": "Barn og juniorer medlemskap",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "juniorPlayingRights",
+        "price": 0,
+        "description": "Barn og juniorer spillerett (gratis)",
+        "ageRange": "0-12"
       }
     ]
   },
@@ -194,11 +209,11 @@
   "sources": [],
   "meta": {
     "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T10:55:17.532Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 85,
+    "pagesScraped": ["homepage", "greenfee", "priser-medlemskap", "golf-simulator"],
+    "scrapedAt": "2026-02-14T15:59:00.000Z",
     "createdAt": "2025-10-30T10:55:17.536Z",
-    "updatedAt": "2025-10-30T10:55:17.536Z"
+    "updatedAt": "2026-02-14T15:59:00.000Z"
   }
 }

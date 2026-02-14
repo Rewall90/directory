@@ -110,21 +110,38 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18_lowSeason": 2000,
+      "greenFee18_highSeason": 3000,
+      "greenFee18_midnightLow": 2300,
+      "greenFee18_midnightHigh": 3500,
+      "greenFeeResort18_low": 1400,
+      "greenFeeResort18_high": 2500,
+      "greenFeeResortExtraRound_low": 700,
+      "greenFeeResortExtraRound_high": 1250,
+      "greenFeeResort24h_low": 2800,
+      "greenFeeResort24h_high": 5000,
+      "greenFeeResort9_low": 700,
+      "greenFeeResort9_high": 1250,
+      "greenFeeRegional18_low": 650,
+      "greenFeeRegional18_high": 1150,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 1700,
-      "greenFeeWeekend": 1700,
-      "greenFeeSenior": 1700,
-      "greenFeeJunior": 1020,
-      "greenFeeDescription": "Greenfee-prisene varierer mellom 1450-1950 NOK avhengig av sesong (lav- eller høysesong), gjestetype (lodgegjest, medlem, eller vanlig gjest), og tidspunkt for bestilling. Junior (under 19 år): 40% rabatt. Midnattsgolf: +500 NOK ekstra per spiller. For sent bestilling etter kl. 19.00: NOK 500 gebyr. Manuell endring av tee time: NOK 150.",
-      "cartRental": 400,
-      "pullCartRental": null,
-      "clubRental": 400,
+      "greenFeeWeekday": 3000,
+      "greenFeeWeekend": 3000,
+      "greenFeeSenior": 3000,
+      "greenFeeJunior": 1800,
+      "greenFeeDescription": "2026 Early Birdie Booking: Non-Resort 18 hull: 2000 kr (mai 9-22, okt 5-18), 3000 kr (mai 23-okt 4). Midnight (19:15-02:00): +300/+500 kr. Resort Guests: 1400/2500 kr. Regional (Nordland/Troms/Finnmark medlemmer): 650/1150 kr. Junior (u19): 40% rabatt.",
+      "cartRental": 800,
+      "electricTrolley": 300,
+      "electricTrolley24h": 600,
+      "pullCartRental": 0,
+      "clubRental": 650,
+      "clubRental24h": 1625,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "3-runder pakke: Første runde full pris, andre runde halv pris, tredje runde GRATIS. Pakken må benyttes innenfor samme golfsesong."
+      "notes": "Pull trolley inkludert i greenfee. Resort guests: 9 hull og 24-timers pass kun i tillegg til min. en 18-hulls runde. Regionalt medlemskap krever fullt medlemskap i golfklubb i Nordland, Troms eller Finnmark."
     }
   },
   "membershipPricing": {},
@@ -155,12 +172,12 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "95.0",
+    "dataQuality": "98.0",
     "websiteQuality": null,
-    "completenessPercentage": 95,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:39.736Z",
+    "completenessPercentage": 98,
+    "pagesScraped": ["hjem", "greenfee"],
+    "scrapedAt": "2026-02-14T16:02:00.000Z",
     "createdAt": "2025-10-31T09:43:39.737Z",
-    "updatedAt": "2025-10-31T09:43:39.737Z"
+    "updatedAt": "2026-02-14T16:02:00.000Z"
   }
 }

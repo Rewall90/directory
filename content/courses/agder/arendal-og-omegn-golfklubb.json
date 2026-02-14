@@ -46,7 +46,18 @@
     "website": "https://arendalgk.no/",
     "facebook": "https://www.facebook.com/arendalgk/",
     "instagram": "https://www.instagram.com/arendalgolf/",
-    "golfbox": false
+    "youtube": "https://www.youtube.com/channel/UCr0soXTQRVQAQMpate4StkA",
+    "golfbox": true
+  },
+  "booking": {
+    "system": "GolfBox",
+    "app": "Gimmie",
+    "email": null,
+    "phone": "37 19 90 30",
+    "advanceBookingDays": null,
+    "golfboxEnabled": true,
+    "onlinePaymentUrl": "https://arendalgk.betaling.no/points-of-sale/337/products",
+    "notes": "Bestilling av starttid gjøres i Gimmie-appen eller GolfBox via nettleser"
   },
   "phoneNumbers": [],
   "season": {
@@ -56,9 +67,13 @@
   },
   "visitors": {
     "welcome": true,
-    "walkingAllowed": null,
+    "walkingAllowed": true,
     "nearbyCity": "Nes Verk",
-    "distanceFromCenter": null
+    "distanceFromCenter": null,
+    "handicapRequired": true,
+    "dressCode": "Golf attire",
+    "roundTimeMinutes": 270,
+    "roundTimeNotes": "Spilletid skal ikke overskride 4 timer og 30 minutter (2 timer og 10 min. første 9 + 2 timer og 20 min. siste 9)"
   },
   "organization": {
     "courseCompany": null,
@@ -118,6 +133,33 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 700,
+      "greenFee18Weekday": 560,
+      "greenFee18Weekend": 650,
+      "greenFee9": 435,
+      "greenFee9Weekday": 355,
+      "greenFee9Weekend": 410,
+      "greenFeeJunior18": 350,
+      "greenFeeJunior18Weekday": 280,
+      "greenFeeJunior18Weekend": 325,
+      "greenFeeJunior9": 230,
+      "greenFeeJunior9Weekday": 175,
+      "greenFeeJunior9Weekend": 210,
+      "greenFeeSeniorGolf": 350,
+      "greenFeeHefte5": 2650,
+      "greenFeePayAndPlay": 290,
+      "greenFeePayAndPlayJunior": 145,
+      "greenFeeFootgolf": 220,
+      "greenFeeFootgolfJunior": 110,
+      "greenFeeWinter": 100,
+      "seasonNotes": "Lavsesongen: Baneåpning -> 23.6 og 11.8 -> sesongslutt. Høysesongen: 23.6 - 11.8",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "notes": "For NSG-medlemmer kr 350 maks tre runder per sesong mellom kl. 08.00-14:00, unntatt helger, helligdager og ukene 26-32"
     }
   },
   "membershipPricing": {
@@ -170,7 +212,82 @@
         "description": null,
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "VTG Year 1",
+        "name": "VTG-medlemskap første år (for nybegynnere)",
+        "price": 2000,
+        "description": "For nybegynnere",
+        "ageRange": null
+      },
+      {
+        "category": "VTG Year 2",
+        "name": "VTG-medlemskap år 2",
+        "price": 4500,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "VTG Year 3",
+        "name": "VTG-medlemskap år 3",
+        "price": 6000,
+        "description": null,
+        "ageRange": null
+      },
+      {
+        "category": "Senior A",
+        "name": "Senior A (født 1997 eller tidligere)",
+        "price": 8490,
+        "monthlyPrice": 720,
+        "description": "Full spillerett inkl. gratis spill på Bjåvann GK",
+        "ageRange": "Født 1997 eller tidligere"
+      },
+      {
+        "category": "Senior B",
+        "name": "Senior B (født 1997 eller tidligere)",
+        "price": 1990,
+        "description": "Begrenset spillerett med greenfee",
+        "ageRange": "Født 1997 eller tidligere"
+      },
+      {
+        "category": "Ung voksen",
+        "name": "Ung voksen (Født 1998 - 2002)",
+        "price": 4390,
+        "monthlyPrice": 378,
+        "description": "Full spillerett inkl. gratis spill på Bjåvann GK",
+        "ageRange": "Født 1998-2002"
+      },
+      {
+        "category": "Ungdom",
+        "name": "Ungdom (Født 2003 - 2006)",
+        "price": 2190,
+        "description": "Full spillerett inkl. gratis spill på Bjåvann GK",
+        "ageRange": "Født 2003-2006"
+      },
+      {
+        "category": "Junior 13-19",
+        "name": "Junior 13-19 (Født 2007-2013)",
+        "price": 990,
+        "description": "Full spillerett inkl. gratis spill på Bjåvann GK",
+        "ageRange": "Født 2007-2013"
+      },
+      {
+        "category": "Junior 0-12",
+        "name": "Junior 0-12 år (Født 2014 eller senere)",
+        "price": 310,
+        "description": "Full spillerett inkl. gratis spill på Bjåvann GK",
+        "ageRange": "Født 2014 eller senere"
+      }
     ]
+  },
+  "membershipStatus": {
+    "status": "open",
+    "totalMembers": 1635,
+    "maxMembers": null,
+    "waitlistLength": null,
+    "entranceFee": 0,
+    "notes": "Ingen innmeldingsavgift eller aksjeinnbetaling"
   },
   "ratings": {
     "google": {
@@ -205,12 +322,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T13:27:21.917Z",
+    "dataQuality": "excellent",
+    "websiteQuality": "good",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "gjester",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T15:20:00.000Z",
     "createdAt": "2025-10-30T13:27:21.922Z",
-    "updatedAt": "2025-11-03T09:10:11.787Z"
-  }
+    "updatedAt": "2026-02-14T15:20:00.000Z"
+  },
+  "googlePlaceId": "ChIJLbO0fSWYR0YRZea0baYA2rc"
 }

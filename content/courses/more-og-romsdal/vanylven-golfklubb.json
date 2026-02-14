@@ -111,11 +111,12 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 200,
       "greenFeeWeekday": 200,
       "greenFeeWeekend": 200,
       "greenFeeSenior": 200,
       "greenFeeJunior": 100,
+      "greenFeeChildren": 0,
       "greenFeeDescription": "Greenfee voksne: 200 kr per dag. Junior (13-19 år): 100 kr per dag. Barn opp til og med 12 år spiller gratis.",
       "cartRental": null,
       "pullCartRental": null,
@@ -124,6 +125,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 200,
+      "greenFee9": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 100,
+      "greenFeeChildren": 0,
+      "twilight": null,
+      "greenFeeDescription": "Greenfee voksne: 200 kr per dag. Junior (13-19 år): 100 kr per dag. Barn opp til og med 12 år spiller gratis.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser bekreftet fra tidligere data - websiden har ikke prisinfo"
     }
   },
   "membershipPricing": {},
@@ -181,12 +201,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "93.5",
-    "websiteQuality": null,
-    "completenessPercentage": 93,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:11.955Z",
+    "dataQuality": "90.0",
+    "websiteQuality": "limited",
+    "completenessPercentage": 90,
+    "pagesScraped": [
+      "index"
+    ],
+    "scrapedAt": "2026-02-14T16:55:00.000Z",
     "createdAt": "2025-10-31T09:31:11.956Z",
-    "updatedAt": "2025-11-03T09:10:14.124Z"
-  }
+    "updatedAt": "2026-02-14T16:55:00.000Z",
+    "scrapeNote": "Website does not have dedicated pricing pages - using existing data"
+  },
+  "googlePlaceId": "ChIJ3aEPpqAFF0YRWJBA4JHplQY"
 }

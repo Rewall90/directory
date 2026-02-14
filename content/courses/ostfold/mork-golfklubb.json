@@ -121,14 +121,19 @@
       "greenFeeWeekend": 595,
       "greenFeeSenior": 495,
       "greenFeeJunior": 250,
-      "greenFeeDescription": "Greenfee 18 hull: 495 NOK (hverdag), 595 NOK (helg/helligdag). Junior til 19 år: 250 NOK (hverdag), 295 NOK (helg). 9-hulls bane: 295 NOK (voksen), 150 NOK (junior). Norsk Senior Golf medlemmer får 150 kr rabatt på hverdager.",
-      "cartRental": 350,
+      "greenFeeJuniorWeekend": 295,
+      "greenFee9Holes": 295,
+      "greenFee9HolesJunior": 150,
+      "greenFeeDescription": "18 hull: 495kr (hverdag), 595kr (helg/helligdag). Junior til 19 år: 250kr (hverdag), 295kr (helg). 9-hulls bane: 295kr (voksen), 150kr (junior). Hcp 54 krav. Vipps 136281 ved stengt proshop.",
+      "cartRental": 390,
+      "cartRentalWithLegeerklaring": 350,
       "pullCartRental": null,
       "clubRental": 200,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemsgjest får 150 kr rabatt. Rabatter tilgjengelig for medlemmer av Skjeberg, Moss & Rygge, Borregaard, Hakadal, Romerike, Oppegård GK."
+      "notes": "Medlemsgjest: 150kr rabatt. Skjeberg GK: Gratis spill torsdager + 150kr rabatt. Moss & Rygge, Oppegård GK: 150kr rabatt. Borregaard GK: 100kr rabatt. Hakadal GK Plus: Gratis spill hverdager, helg etter 14:00. NSG: 150kr rabatt hverdager.",
+      "vipps": "136281"
     }
   },
   "membershipPricing": {},
@@ -248,10 +253,13 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:07.242Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester"
+    ],
+    "scrapedAt": "2026-02-14T16:12:00.000Z",
     "createdAt": "2025-10-31T11:42:07.243Z",
-    "updatedAt": "2025-11-03T09:10:18.564Z"
-  }
+    "updatedAt": "2026-02-14T16:12:00.000Z"
+  },
+  "googlePlaceId": "ChIJJzPA-uBXQUYRnv8gIilGSUo"
 }

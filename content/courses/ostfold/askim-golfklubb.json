@@ -40,7 +40,7 @@
   },
   "description": "18-hulls parkbane med 9-hulls kortbane (Pay & Play) og footgolf.",
   "contact": {
-    "phone": "+47 93 45 18 26",
+    "phone": "+47 46 40 40 34",
     "email": "klubben@askimgk.no",
     "emailAlt": null,
     "website": "https://askimgk.no/",
@@ -50,7 +50,7 @@
   },
   "phoneNumbers": [
     {
-      "number": "+47 93 45 18 26",
+      "number": "+47 46 40 40 34",
       "type": "main",
       "primary": true
     }
@@ -116,17 +116,32 @@
       "greenFeeWeekend": 400,
       "greenFeeSenior": 400,
       "greenFeeJunior": 200,
-      "greenFeeDescription": "Junior 9 hull 150 kr. GolfBox-registrering påkrevd for hovedbanen.",
+      "greenFee9Holes": 300,
+      "greenFeeJunior9Holes": 150,
+      "greenFeeDescription": "Hovedbane: 18 hull 400kr, 9 hull 300kr. Junior 18 hull 200kr, 9 hull 150kr. Korthullsbane dagspass senior 200kr, junior 100kr. GolfBox-registrering påkrevd. Vipps: 114469.",
       "cartRental": 150,
       "pullCartRental": null,
       "clubRental": 100,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Footgolf: Senior 100kr, Junior 50kr"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "seniorFull": 5200,
+      "seniorShortCourse": 1800,
+      "youngAdult": 3200,
+      "youngAdultDescription": "Eldre Junior 20-23 / Student",
+      "juniorFull": 1700,
+      "juniorWithoutPlayingRights": 500,
+      "seasonGreenfee": 2500,
+      "seasonGreenfeeDescription": "Krever minimum 4500kr kontingent i annen klubb",
+      "currency": "NOK",
+      "membershipStatus": "open"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4,
@@ -173,10 +188,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:02.859Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:54:00.000Z",
     "createdAt": "2025-10-31T11:42:02.862Z",
-    "updatedAt": "2025-11-03T09:09:32.945Z"
-  }
+    "updatedAt": "2026-02-14T15:54:00.000Z"
+  },
+  "googlePlaceId": "ChIJ_4-vqHjjQ0YROxLTFi0bQ-A"
 }

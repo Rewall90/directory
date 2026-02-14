@@ -124,6 +124,24 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Banepass inkl. medlemskap + gratis spill + bag/tralle-lagring. Hovedandel 6000 / familieandel 3000."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee9": 200,
+      "greenFeeDaily": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeMember": 150,
+      "greenFeeJunior": 75,
+      "greenFeeDescription": "Gjestespiller: 9 hull 200 kr, hel dag 300 kr. Medlemmer 150 kr. Barn/ungdom 12-19 år 75 kr.",
+      "rangePrice": 20,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Vipps #697864. Kurs 1500 kr inkl. medlemskap og spillerett ut året."
     }
   },
   "membershipPricing": {
@@ -194,11 +212,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:50.483Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "om-oss",
+      "priser"
+    ],
+    "scrapedAt": "2026-02-14T16:21:00.000Z",
     "createdAt": "2025-10-31T11:30:50.484Z",
-    "updatedAt": "2025-11-03T09:09:51.079Z"
-  }
+    "updatedAt": "2026-02-14T16:21:00.000Z"
+  },
+  "googlePlaceId": "ChIJBe53gzj3EkYRcZb2mhk4fiw"
 }

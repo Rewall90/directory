@@ -3,13 +3,13 @@
   "name": "Lommedalen Golfklubb",
   "formerName": null,
   "region": "Akershus",
-  "city": "",
-  "municipality": "",
+  "city": "Lommedalen",
+  "municipality": "Bærum",
   "country": "Norway",
   "address": {
-    "street": "TBD",
-    "postalCode": "0000",
-    "area": null
+    "street": "Lommedalsveien 340",
+    "postalCode": "1350",
+    "area": "Lommedalen"
   },
   "coordinates": {
     "lat": 59.96741729999999,
@@ -38,17 +38,23 @@
     "mountainViews": false,
     "viewDescription": null
   },
-  "description": "En variert og meget solid golf opplevelse med moderne fasiliteter, et inkluderende miljø og utrolige naturopplevelser",
+  "description": "Pay and Play - Golf for Alle. En enkel og fin golfopplevelse. Konseptet er basert på å tilrettelegge for både nye og erfarne golfere på en rimelig måte.",
   "contact": {
-    "phone": null,
-    "email": null,
+    "phone": "400 01 812",
+    "email": "kontakt@lommedalengolf.no",
     "emailAlt": null,
     "website": "https://lommedalengk.no/",
     "facebook": null,
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "400 01 812",
+      "type": "main",
+      "primary": true
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -103,24 +109,31 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
+      "greenFee9": 300,
+      "greenFee18": 450,
+      "greenFee9Junior": 150,
+      "greenFee18Junior": 250,
+      "greenFeeDescription": "Senior: 9 hull 300 kr, 18 hull 450 kr. Junior: 9 hull 150 kr, 18 hull 250 kr. Betales på Vipps i forkant av runden.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Alle gjester booker starttid via Golfbox."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "frittSpillMedlem": 2600,
+      "klubbMedlem": 1300,
+      "juniorFrittSpill": 1000,
+      "membershipStatus": "Åpent for innmelding",
+      "notes": "Fritt Spill Medlem: ubegrenset golf hele sesongen. Klubb Medlem: betaler greenfee ved spill. Junior Fritt Spill (under 18 år): fritt spill hele sesongen."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
@@ -155,11 +168,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:12.160Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "priser"
+    ],
+    "scrapedAt": "2026-02-14T16:12:00.000Z",
     "createdAt": "2025-10-31T11:23:12.161Z",
-    "updatedAt": "2025-11-03T09:10:05.236Z"
-  }
+    "updatedAt": "2026-02-14T16:12:00.000Z"
+  },
+  "googlePlaceId": "ChIJk63DhBESQUYRVyiBAFLmvcU"
 }

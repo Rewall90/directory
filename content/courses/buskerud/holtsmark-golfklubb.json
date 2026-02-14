@@ -109,104 +109,46 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 750,
-      "greenFeeWeekend": 950,
-      "greenFeeSenior": null,
-      "greenFeeJunior": 200,
-      "greenFeeDescription": "Greenfee 2025: 18 hull hverdag 750 kr, helg 950 kr, twilight 550 kr, junior 200 kr. 9 hull (Eplehagen): hverdag 200 kr, helg 250 kr, junior 150 kr. Høstgreenfee fra 1. sept: 500 kr (10 hull fra kl 15:00). Medlemmer med greenfeemedlemskap: 50% rabatt.",
-      "cartRental": 4750,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Høstgreenfee fra 1. september: 10 hull fra kl 15:00 for 500 kr. El-tralle abonnement: 2250 kr/år. Medlemmer får rabatter hos samarbeidsklubber inkludert 50% på Golf Hemsedal."
+      "greenFee18Weekday": 750,
+      "greenFee18Weekend": 990,
+      "greenFee18Twilight": 550,
+      "greenFee18Junior": "50%",
+      "greenFee9Weekday": 250,
+      "greenFee9Weekend": 300,
+      "greenFee9Junior": 150,
+      "greenFeeDescription": "18-hull gjest: hverdag 750 kr, weekend 990 kr, twilight 550 kr, junior 50%. 9-hull (Eplehagen): hverdag 250 kr, weekend 300 kr, junior 150 kr. Høst-greenfee 10 hull fra kl 15.00: 500 kr (fra 1. sept). Medlemmer uten fritt spill: 50% rabatt.",
+      "golfCartRental18": 500,
+      "golfCartRental9": 300,
+      "electricTrolleyRental": 175,
+      "clubRental": 250,
+      "evCharging": 200,
+      "rangeBallBucket": 47,
+      "rangeCard50": 1750,
+      "rangeCard100": 3500,
+      "notes": "All greenfee forhåndsbetales i Golfbox. Kun kort og Vipps i proshop, ingen kontanter. Samarbeidsklubber 2026: Bærum GK, Drammen GK, Hauger GK, Miklagard GK (50% rabatt for Bronse+)"
     }
   },
   "membershipPricing": {
-    "2025": [
-      {
-        "category": "gull",
-        "price": 17000,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "solv",
-        "price": 14000,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "bronse",
-        "price": 11000,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "fritt_spill_70_plus",
-        "price": 8500,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "fritt_spill_familie",
-        "price": 19900,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "fritt_spill_24_30",
-        "price": 5900,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "fritt_spill_20_23",
-        "price": 4900,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "fritt_spill_junior",
-        "price": 2200,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "fritt_spill_hverdager",
-        "price": 7000,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "greenfee_pluss",
-        "price": 4500,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "greenfee_adult",
-        "price": 2500,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "greenfee_junior_6_12",
-        "price": 600,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      },
-      {
-        "category": "greenfee_junior_13_19",
-        "price": 1050,
-        "description": "Medlemskap 2025: 13 kategorier. Gull 17000 kr (booking 21 dager, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, gavekort protime mai, 50% golfbilrabatt, fritt Golf Hemsedal), Sølv 14000 kr (14 dager, 4 simultane, 25 bøtter, 20% protime rabatt), Bronse 11000 kr (10 dager, 3 simultane). Fritt spill 70+ 8500 kr (7 dager, 2 simultane, 30% gjesterabatt). Familie 19900 kr (2 voksne + 2 barn). Fritt spill 24-30 år 5900 kr, 20-23 år 4900 kr, Junior t.o.m. 19 år 2200 kr. Fritt spill hverdager 7000 kr (50% rabatt helg/helligdager). Greenfeemedlemskap Pluss 4500 kr (50% rabatt 18h, gratis 9h), Greenfeemedlemskap 2500 kr (50% rabatt 9h), Junior 6-12 år 600 kr, 13-19 år 1050 kr. Månedlig betaling mulig. Alle aldersbestemte medlemskap justeres automatisk etter årstall. El-bil lading tilgjengelig.",
-        "ageRange": null
-      }
-    ]
+    "2026": {
+      "innmeldingsavgift": 500,
+      "gull": 18500,
+      "solv": 14900,
+      "bronse": 11900,
+      "frittSpill70Plus": 9200,
+      "frittSpillFamilie": 21500,
+      "frittSpill24_30": 6900,
+      "frittSpill20_23": 5500,
+      "frittSpillJunior": 2900,
+      "frittSpillHverdager": 7500,
+      "greenfeePluss": 4500,
+      "greenfeeAdult": 2900,
+      "greenfeeJunior6_12": 700,
+      "greenfeeJunior13_19": 1200,
+      "golfbilAbonnement": 5000,
+      "notes": "Gull: 21 dagers booking, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, protime mai, fritt Golf Hemsedal, 50% samarbeidsklubber. Sølv: 14 dager, 4 simultane, 25 bøtter, 20% protime. Bronse: 10 dager, 3 simultane. Alle aldersbestemte medlemskap justeres automatisk. Månedsbetaling via ECIT."
+    }
   },
   "ratings": {
     "google": {
@@ -243,10 +185,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T05:54:17.246Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "greenfee",
+      "medlemskap-oversikt"
+    ],
+    "scrapedAt": "2026-02-14T16:02:00.000Z",
     "createdAt": "2025-10-31T05:54:17.247Z",
-    "updatedAt": "2025-11-03T09:09:57.428Z"
-  }
+    "updatedAt": "2026-02-14T16:02:00.000Z"
+  },
+  "googlePlaceId": "ChIJc__VOcQVQUYRxQvVtuLkzfE"
 }

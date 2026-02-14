@@ -109,24 +109,39 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2024": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 650,
+      "greenFee9": 350,
       "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+      "greenFeeWeekday": 650,
+      "greenFeeWeekdayMorning": 350,
+      "greenFeeWeekdayMorningDescription": "Early Bird hverdager før kl. 12 (ikke i juli)",
+      "greenFeeWeekend": 650,
+      "greenFeeWeekend9": 350,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
+      "greenFeeJunior": 350,
+      "greenFeeJunior9": 200,
+      "greenFeeJuniorDescription": "Junior 0-16 år",
+      "greenFeeDescription": "Voksen (17+): 18 hull kr 650, 9 hull kr 350. Junior (0-16): 18 hull kr 350, 9 hull kr 200. Early Bird hverdager før kl 12: kr 350 (ikke i juli). Klippekort 10 greenfee: kr 3500.",
       "cartRental": 400,
       "pullCartRental": null,
       "clubRental": null,
+      "clipCard10": 3500,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "50% greenfee discount with Golfamore Card"
+      "notes": "Hver 4. runde gratis med greenfeekortet. 50% greenfee discount with Golfamore Card."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "child": 500,
+      "childDescription": "Junior (0-16 år) med fritt spill inkludert",
+      "notes": "To typer medlemskap: Hovedmedlem og Greenfeemedlem"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -172,11 +187,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T12:22:40.078Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "greenfee-for-gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:10:00.000Z",
     "createdAt": "2025-10-31T12:22:40.080Z",
-    "updatedAt": "2025-11-03T09:10:19.428Z"
-  }
+    "updatedAt": "2026-02-14T16:10:00.000Z"
+  },
+  "googlePlaceId": "ChIJFbFq6ZQ5R0YRpOJNbKt3MvY"
 }

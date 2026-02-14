@@ -129,6 +129,23 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Ubegrenset spill på Nord (18h) og Syd (9h) samme dag"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee9South": 300,
+      "greenFee18South": 600,
+      "greenFee18North": 700,
+      "greenFeeWeekday": 700,
+      "greenFeeWeekend": 700,
+      "greenFeeJunior": 350,
+      "greenFeeDescription": "Byneset North har differensiert greenfee. Juniorer 50% rabatt. Medlemsgjest 20% rabatt.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Dynamisk prising på North - sjekk GolfBox for eksakt pris"
     }
   },
   "membershipPricing": {
@@ -138,6 +155,80 @@
         "price": 800,
         "description": "Alle priser inkluderer klubbkontingent 800 kr (19+).",
         "ageRange": null
+      }
+    ],
+    "2026": [
+      {
+        "category": "Voksen",
+        "price": 9850,
+        "description": "Fritt spill på hele anlegget. B-aksjonærer kr 500 rabatt.",
+        "ageRange": "30+"
+      },
+      {
+        "category": "Voksen START",
+        "price": 7850,
+        "description": "Fritt spill på hele anlegget.",
+        "ageRange": "26-29"
+      },
+      {
+        "category": "Ung Voksen",
+        "price": 6950,
+        "description": "Fritt spill på hele anlegget.",
+        "ageRange": "22-25"
+      },
+      {
+        "category": "Voksen begrenset",
+        "price": 6800,
+        "description": "Fritt spill på South. 20% rabatt på North greenfee.",
+        "ageRange": "30+"
+      },
+      {
+        "category": "Greenfeemedlem",
+        "price": 2950,
+        "description": "Betaler greenfee. 20% rabatt.",
+        "ageRange": null
+      },
+      {
+        "category": "Junior u/13",
+        "price": 1750,
+        "description": "Juniormedlem under 13 år.",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Junior 13-18",
+        "price": 3750,
+        "description": "Juniormedlem 13-18 år.",
+        "ageRange": "13-18"
+      },
+      {
+        "category": "Junior 19-21",
+        "price": 4950,
+        "description": "Juniormedlem 19-21 år.",
+        "ageRange": "19-21"
+      },
+      {
+        "category": "Student",
+        "price": 5450,
+        "description": "Fritt spill. NTNUI Golf medlemmer kr 500 rabatt.",
+        "ageRange": "0-25"
+      },
+      {
+        "category": "Premium",
+        "price": 13850,
+        "description": "Fritt spill, 10x golfbil, 20 bøtter range, kaffeavtale.",
+        "ageRange": null
+      },
+      {
+        "category": "Familie",
+        "price": 18500,
+        "description": "2 voksne + inntil 3 barn u/19 år samme husstand.",
+        "ageRange": null
+      },
+      {
+        "category": "clubContingent",
+        "price": 800,
+        "description": "Inkludert i alle priser for 19+.",
+        "ageRange": "19+"
       }
     ]
   },
@@ -196,11 +287,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:49.447Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjestespill/greenfee",
+      "medlemskap-og-priser"
+    ],
+    "scrapedAt": "2026-02-14T16:16:00.000Z",
     "createdAt": "2025-10-31T11:30:49.448Z",
-    "updatedAt": "2025-11-03T09:09:46.998Z"
-  }
+    "updatedAt": "2026-02-14T16:16:00.000Z"
+  },
+  "googlePlaceId": "ChIJE8p2ESzTEkYRaPdJR1vHizw"
 }

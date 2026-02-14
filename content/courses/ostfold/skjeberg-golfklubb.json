@@ -215,8 +215,10 @@
     "websiteQuality": null,
     "completenessPercentage": 90,
     "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:08.357Z",
+    "scrapedAt": "2026-02-14T16:15:00.000Z",
     "createdAt": "2025-10-31T11:42:08.358Z",
-    "updatedAt": "2025-11-03T09:10:10.857Z"
-  }
+    "updatedAt": "2026-02-14T16:15:00.000Z",
+    "note": "Pricing needs verification from skjeberggk.no"
+  },
+  "googlePlaceId": "ChIJ20hxIrIIREYR21BydLesPcg"
 }

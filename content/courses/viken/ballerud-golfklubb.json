@@ -129,41 +129,69 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
+      "greenFee9": 285,
+      "greenFee9Member": 250,
       "greenFeeWeekday": 285,
       "greenFeeWeekend": 285,
       "greenFeeSenior": null,
       "greenFeeJunior": 175,
-      "greenFeeDescription": "Greenfee 2025: 9 hull gjest 285 kr, medlem 250 kr. Junior gjest 175 kr, medlem 140 kr. For 18 hulls spill må det bookes 2 runder av 9 hull.",
+      "greenFeeJuniorMember": 140,
+      "greenFeeDescription": "Greenfee 2026: 9 hull gjest 285 kr, medlem 250 kr. Junior gjest 175 kr, medlem 140 kr. For 18 hulls spill må det bookes 2 runder av 9 hull.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
+      "drivingRange": {
+        "creditCard": 87,
+        "ballCount": 60,
+        "ballCard870Credit": 783,
+        "ballCard870CreditMember": 696,
+        "ballCardCost": 50
+      },
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Godkjent for regulering av HCP fra august 2024. Driving range 270m med 115 plasser. TTM Golf Academy kurser tilgjengelig."
+      "notes": "Godkjent for regulering av HCP fra august 2024. Driving range 270m med 115 plasser. TTM Golf Academy kurser tilgjengelig. Booking via Golfbox eller tlf 67106110. Gjester kan booke inntil 2 dager i forveien."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "senior",
-        "price": 3850,
-        "description": "Medlemskap 2025: Senior 3850 kr, Ungdom/Student 20-25 år 2900 kr, Junior til og med 19 år 1900 kr (venteliste). Tillegg for Nordhaug banen: Voksen 1750 kr, Junior 850 kr. Alle medlemskap er personlige. Ingen aksje, andel eller bindingstid. Automatisk fornyelse hvis ikke skriftlig melding om utmelding innen 31/12.",
-        "ageRange": null
+        "price": 3950,
+        "description": "Hovedmedlem 2026 - Voksen/Senior (fom. året du fyller 26 år). Ingen innmeldingsavgift, aksje, andel eller binding. Inkluderer NGF-medlemskap, Norsk Golf-bladet og Golfbox tilgang. Automatisk fornyelse hvis ikke skriftlig utmelding innen 31/12.",
+        "ageRange": "26+"
       },
       {
         "category": "youth",
         "price": 2900,
-        "description": "Medlemskap 2025: Senior 3850 kr, Ungdom/Student 20-25 år 2900 kr, Junior til og med 19 år 1900 kr (venteliste). Tillegg for Nordhaug banen: Voksen 1750 kr, Junior 850 kr. Alle medlemskap er personlige. Ingen aksje, andel eller bindingstid. Automatisk fornyelse hvis ikke skriftlig melding om utmelding innen 31/12.",
-        "ageRange": null
+        "description": "Hovedmedlem 2026 - Ungdom/Student (20-25 år). Ingen innmeldingsavgift.",
+        "ageRange": "20-25"
       },
       {
         "category": "junior",
-        "price": 1900,
-        "description": "Medlemskap 2025: Senior 3850 kr, Ungdom/Student 20-25 år 2900 kr, Junior til og med 19 år 1900 kr (venteliste). Tillegg for Nordhaug banen: Voksen 1750 kr, Junior 850 kr. Alle medlemskap er personlige. Ingen aksje, andel eller bindingstid. Automatisk fornyelse hvis ikke skriftlig melding om utmelding innen 31/12.",
+        "price": 1995,
+        "description": "Hovedmedlem 2026 - Junior (tom. året du fyller 19 år). Venteliste. Ingen innmeldingsavgift.",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "greenfee_vtg_senior",
+        "price": 1100,
+        "description": "Greenfee medlemskap (VTG) 2026 - Senior/ungdom. Kun tilgjengelig for de som har gjennomført VTG-kurs på Ballerud Golf.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "greenfee_vtg_junior",
+        "price": 600,
+        "description": "Greenfee medlemskap (VTG) 2026 - Junior. Kun tilgjengelig for de som har gjennomført VTG-kurs på Ballerud Golf.",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "familie",
+        "price": 8745,
+        "description": "Familiemedlemskap 2026. Ingen nye for 2026.",
         "ageRange": null
       }
     ]
@@ -202,11 +230,12 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:08.550Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 92,
+    "pagesScraped": 5,
+    "scrapedAt": "2026-02-14T16:20:00.000Z",
     "createdAt": "2025-10-31T11:23:08.551Z",
-    "updatedAt": "2025-11-03T09:09:55.258Z"
-  }
+    "updatedAt": "2026-02-14T16:20:00.000Z"
+  },
+  "googlePlaceId": "ChIJ33uXOclsQUYR-WkHJjavvfM"
 }

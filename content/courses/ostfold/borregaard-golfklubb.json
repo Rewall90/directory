@@ -109,24 +109,47 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
       "greenFeeWeekday": 400,
       "greenFeeWeekend": 400,
       "greenFeeSenior": 400,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Juniorer spiller gratis. Vipps eller resepsjon.",
+      "greenFeeJunior": 0,
+      "greenFee9Holes": 300,
+      "greenFeeDescription": "18 hull 400kr, 9 hull 300kr. Alle juniorer spiller GRATIS. Betaling i resepsjon, Vipps eller bankterminal. Booking via GolfBox.",
       "cartRental": 300,
+      "cartRentalMember": 250,
+      "cartRental9Holes": 250,
+      "cartRental9HolesMember": 200,
       "pullCartRental": null,
       "clubRental": 100,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Spillere med legeerklæring: 100kr rabatt på golfbil"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "seniorFull": 5500,
+      "seniorSpouse": 5100,
+      "trialMonthly": 450,
+      "trialDescription": "Prøvemedlem inkluderer VTG-kurs og fritt spill på Skjeberg GK",
+      "youngAdult": 3450,
+      "youngAdultDescription": "Eldre Junior 19-25 år",
+      "student": 3450,
+      "golfGreenTherapy": 1900,
+      "greenfeeSeasonMember": 2100,
+      "greenfeeSeasonDescription": "Halv pris på ordinær greenfee",
+      "junior12Under": 200,
+      "junior13to19": 1000,
+      "withoutPlayingRights": 500,
+      "borregaardEmployee": 4580,
+      "currency": "NOK",
+      "membershipStatus": "open"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -183,10 +206,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:03.495Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester/greenfee",
+      "medlemmer/medlemsavgift"
+    ],
+    "scrapedAt": "2026-02-14T15:58:00.000Z",
     "createdAt": "2025-10-31T11:42:03.496Z",
-    "updatedAt": "2025-11-03T09:09:33.547Z"
-  }
+    "updatedAt": "2026-02-14T15:58:00.000Z"
+  },
+  "googlePlaceId": "ChIJ6y-BtmAGREYRyiApQ5GeRq0"
 }

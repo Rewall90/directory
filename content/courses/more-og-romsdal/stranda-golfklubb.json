@@ -121,22 +121,70 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 200,
-      "greenFeeWeekend": 200,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee: 200 kr per dag. Greenkort er ikke påkrevd, men minst en i flighten bør ha det.",
+      "greenFeeDaily": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Senior greenfee: 300 kr/dag. Barn/junior (t.o.m. 19 år): 200 kr/dag. Sesongkort: senior 2400 kr, junior 1500 kr. Halv pris fra 1. august.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
+      "seasonPass": 2400,
+      "seasonPassJunior": 1500,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Rabattkupong: kr 100 rabatt på neste års medlemskap hvis du rekrutterer en deltaker"
+      "notes": "Betaling til konto 3910.13.81645. Greenfee gjelder hele dagen."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 300,
+      "greenFee9": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 200,
+      "twilight": null,
+      "greenFeeDescription": "Senior greenfee: 300 kr/dag. Barn/junior (t.o.m. 19 år): 200 kr/dag. Sesongkort: senior 2400 kr, junior 1500 kr. Halv pris fra 1. august (1200 kr og 750 kr).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "seasonPass": 2400,
+      "seasonPassJunior": 1500,
+      "seasonPassHalfYear": 1200,
+      "seasonPassHalfYearJunior": 750,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Betaling til konto 3910.13.81645. Greenfee gjelder hele dagen - spill så mange runder du vil."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "fullMembership": 790,
+      "fullMembershipDescription": "Senior lokalmedlemskap (f.o.m. 20 år)",
+      "juniorMembership": 390,
+      "juniorMembershipDescription": "Barn/junior lokalmedlemskap (t.o.m. 19 år)",
+      "familyMembership": 1990,
+      "familyMembershipDescription": "Familie lokalmedlemskap (par + alle barn/juniorer)",
+      "coupleMembership": 1390,
+      "coupleMembershipDescription": "Par lokalmedlemskap",
+      "distanceMembership": 790,
+      "distanceMembershipDescription": "Fjernmedlemskap senior (utenfor Stranda kommune). Inkluderer 2 gratis greenfee-dagskort.",
+      "distanceJuniorMembership": 390,
+      "distanceJuniorMembershipDescription": "Fjernmedlemskap barn/junior (t.o.m. 19 år)",
+      "distanceFamilyMembership": 1990,
+      "distanceFamilyMembershipDescription": "Fjernmedlemskap familie (par + alle barn/juniorer)",
+      "distanceCoupleMembership": 1390,
+      "distanceCoupleMembershipDescription": "Fjernmedlemskap par",
+      "greenfeeSesongkort": 2400,
+      "greenfeeSesongkortDescription": "Sesongkort for greenfee (betales i tillegg til medlemskap)",
+      "membershipStatus": "open",
+      "notes": "Halv pris fra 1. august. Ingen innmeldingsavgift eller dugnadsavgift. NGF-medlemskap inkludert. Fjernmedlemmer får 2 gratis greenfee-dagskort årlig."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.8,
@@ -191,12 +239,17 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.5",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 92,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:31:09.917Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "greenfeespill",
+      "lokalmedlemskap",
+      "fjernmedlemskap-2"
+    ],
+    "scrapedAt": "2026-02-14T16:20:00.000Z",
     "createdAt": "2025-10-31T09:31:09.918Z",
-    "updatedAt": "2025-11-03T09:09:37.980Z"
-  }
+    "updatedAt": "2026-02-14T16:20:00.000Z"
+  },
+  "googlePlaceId": "ChIJyUKE5BKZFkYRIB0SwoNh5Ps"
 }

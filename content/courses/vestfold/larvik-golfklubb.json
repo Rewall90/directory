@@ -111,45 +111,87 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
+      "greenFee18": 600,
+      "greenFee9": 350,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 450,
-      "greenFeeWeekend": 450,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 18 hull 450 kr. Gratis for de med NGF-klassifisering og dispensasjon (med bevis). Korthullsbanen: 200 kr (20+), 100 kr (under 20). Vipps: #11891.",
-      "cartRental": null,
-      "pullCartRental": null,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 700,
+      "greenFeeSenior": 500,
+      "greenFeeJunior": 300,
+      "greenFeeJuniorWeekend": 350,
+      "greenFeeDescription": "Greenfee 2025 Seasidebanen: Hverdager 600 kr, helg/helligdager og 23. juni - 10. august 700 kr. Junior (tom. 19 år) hverdager 300 kr, helg 350 kr. 9-hullsrunde hverdager 350 kr, helg 450 kr. Korthullsbanen: Senior dagsgreenfee 200 kr, Junior dagsgreenfee 100 kr.",
+      "cartRental": 450,
+      "pullCartRental": 60,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "9-hulls korthullsbane åpent hele året (så sant snøfritt). Webkamera tilgjengelig. Custom fitting og privattreninger. Greenfee-samarbeid med samarbeidsklubber."
+      "notes": "Korthullsbanen åpent hele året (snøfritt). Webkamera tilgjengelig. Greenfee-samarbeid med samarbeidsklubber. Booking via GolfBox 3-7 dager før spill avhengig av kategori. Vipps #11891. Norsk Seniorgolf Lojalitetskort: 500 kr pr. runde (maks 3 runder), hverdager før kl. 14:00, ikke juli."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
-        "category": "junior",
-        "price": 700,
-        "description": "Medlemskap 2025: Klubbavgift 1000 kr (voksen), 700 kr (junior t.o.m. 19 år). VTG1 (tar VTG-kurs i 2025) total spille- og medlemsavgift 1500 kr. Klubbmedlem total avgift 1500 kr. Ungsenior-kategori for 20-30 år. Junior-, senior- og elite-programmer. Custom fitting og privattreninger. Juniorturneringer. Kontakt klubben for fullstendige priser via telefon +47 33 14 01 40 eller epost klubben@larvikgolf.no.",
+        "category": "fullSpillerett",
+        "name": "Medlem - full spillerett",
+        "price": 10860,
+        "description": "Full spillerett på Seasidebanen (18-hullsbanen). Inkluderer klubbkontingent og NGF-avgift.",
         "ageRange": null
       },
       {
-        "category": "adult",
-        "price": 1000,
-        "description": "Medlemskap 2025: Klubbavgift 1000 kr (voksen), 700 kr (junior t.o.m. 19 år). VTG1 (tar VTG-kurs i 2025) total spille- og medlemsavgift 1500 kr. Klubbmedlem total avgift 1500 kr. Ungsenior-kategori for 20-30 år. Junior-, senior- og elite-programmer. Custom fitting og privattreninger. Juniorturneringer. Kontakt klubben for fullstendige priser via telefon +47 33 14 01 40 eller epost klubben@larvikgolf.no.",
+        "category": "hverdag",
+        "name": "Hverdag",
+        "price": 8100,
+        "description": "Spillerett på hverdager. Inkluderer klubbkontingent og NGF-avgift.",
+        "ageRange": null
+      },
+      {
+        "category": "ungsenior",
+        "name": "Ungsenior",
+        "price": 6500,
+        "description": "For medlemmer 20-30 år. Full spillerett. Inkluderer klubbkontingent og NGF-avgift.",
+        "ageRange": "20-30"
+      },
+      {
+        "category": "spillerettKorthullsbanen",
+        "name": "Medlem - spillerett korthullsbanen",
+        "price": 4000,
+        "description": "Spillerett på 9-hulls korthullsbanen. Inkluderer klubbkontingent og NGF-avgift.",
+        "ageRange": null
+      },
+      {
+        "category": "greenfee",
+        "name": "Medlem - greenfee",
+        "price": 4000,
+        "description": "Greenfeemedlemskap. Inkluderer klubbkontingent og NGF-avgift.",
         "ageRange": null
       },
       {
         "category": "vtg",
-        "price": 1500,
-        "description": "Medlemskap 2025: Klubbavgift 1000 kr (voksen), 700 kr (junior t.o.m. 19 år). VTG1 (tar VTG-kurs i 2025) total spille- og medlemsavgift 1500 kr. Klubbmedlem total avgift 1500 kr. Ungsenior-kategori for 20-30 år. Junior-, senior- og elite-programmer. Custom fitting og privattreninger. Juniorturneringer. Kontakt klubben for fullstendige priser via telefon +47 33 14 01 40 eller epost klubben@larvikgolf.no.",
+        "name": "VTG-medlem",
+        "price": 1250,
+        "description": "For de som har tatt VTG-kurs 2024, 2025 eller 2026. Inkluderer klubbkontingent og NGF-avgift.",
         "ageRange": null
       },
       {
-        "category": "clubMember",
-        "price": 1500,
-        "description": "Medlemskap 2025: Klubbavgift 1000 kr (voksen), 700 kr (junior t.o.m. 19 år). VTG1 (tar VTG-kurs i 2025) total spille- og medlemsavgift 1500 kr. Klubbmedlem total avgift 1500 kr. Ungsenior-kategori for 20-30 år. Junior-, senior- og elite-programmer. Custom fitting og privattreninger. Juniorturneringer. Kontakt klubben for fullstendige priser via telefon +47 33 14 01 40 eller epost klubben@larvikgolf.no.",
+        "category": "junior12-19",
+        "name": "Junior 12-19 år",
+        "price": 1550,
+        "description": "Junior med full spillerett. Inkluderer klubbkontingent og NGF-avgift.",
+        "ageRange": "12-19"
+      },
+      {
+        "category": "juniorUnder12",
+        "name": "Junior tom. 11 år",
+        "price": 1200,
+        "description": "Junior under 12 år med full spillerett. Inkluderer klubbkontingent og NGF-avgift.",
+        "ageRange": "0-11"
+      },
+      {
+        "category": "klubbmedlem",
+        "name": "Klubbmedlem",
+        "price": 1750,
+        "description": "Gir lokal og nasjonal spillerett uten spillerett på hjemmebane. Inkluderer klubbkontingent og NGF-avgift.",
         "ageRange": null
       }
     ]
@@ -187,12 +229,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "91.0",
-    "websiteQuality": null,
-    "completenessPercentage": 91,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:10:42.495Z",
+    "dataQuality": "96.0",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 96,
+    "pagesScraped": [
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:25:00.000Z",
     "createdAt": "2025-10-31T09:10:42.497Z",
-    "updatedAt": "2025-11-03T09:10:04.644Z"
-  }
+    "updatedAt": "2026-02-14T16:25:00.000Z"
+  },
+  "googlePlaceId": "ChIJ70O4NQ7pRkYRd1I9LjWcK8Y"
 }

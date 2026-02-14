@@ -7,9 +7,9 @@
   "municipality": "",
   "country": "Norway",
   "address": {
-    "street": "TBD",
-    "postalCode": "0000",
-    "area": null
+    "street": "Griniveien 363",
+    "postalCode": "1363",
+    "area": "Bekkestua"
   },
   "coordinates": {
     "lat": 59.9374657,
@@ -40,15 +40,21 @@
   },
   "description": null,
   "contact": {
-    "phone": null,
-    "email": null,
+    "phone": "+47 67 14 13 13",
+    "email": "Carina@hagagolf.no",
     "emailAlt": null,
     "website": "https://nordhauggk.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/NordhaugGK",
+    "instagram": "https://www.instagram.com/nordhauggk/",
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "+47 67 14 13 13",
+      "type": "main",
+      "primary": true
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -62,19 +68,20 @@
   },
   "organization": {
     "courseCompany": null,
-    "clubOrganization": null
+    "clubOrganization": "Org.nr: 896 482 092"
   },
   "facilities": {
-    "drivingRange": false,
+    "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": null,
-    "puttingGreen": false,
-    "chippingArea": false,
+    "drivingRangeNotes": "Haga Golfsenter",
+    "puttingGreen": true,
+    "puttingGreenNotes": "Kunstgress-putting",
+    "chippingArea": true,
     "practiceBunker": false,
-    "clubhouse": false,
-    "clubhouseName": null,
-    "proShop": false,
-    "restaurant": false,
+    "clubhouse": true,
+    "clubhouseName": "Haga Golfsenter",
+    "proShop": true,
+    "restaurant": true,
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
@@ -103,24 +110,44 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
+      "greenFee9": 380,
+      "greenFee9Junior": 230,
+      "greenFee9MemberNoFreespill": 330,
+      "greenFee9MemberGuest": 330,
+      "greenFee9MemberGuestJunior": 200,
+      "greenFeeDescription": "Forhåndsbetaling via GolfBox. Avbestilling innen 24 timer for refusjon.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Snikspill medfører dobbel greenfee + ordinær greenfee"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "frittSpillVoksen": {
+        "name": "Fritt Spill - Voksen",
+        "price": 4700
+      },
+      "frittSpill20to25": {
+        "name": "Fritt Spill - 20-25 år",
+        "price": 2300
+      },
+      "frittSpillJunior": {
+        "name": "Fritt Spill - Junior",
+        "price": 1800
+      },
+      "utenFrittSpill": {
+        "name": "Uten Fritt Spill - Alle aldre",
+        "price": 2100
+      },
+      "note": "Nordhaug Golfklubb er fulltegnet - nye innmeldinger settes på venteliste"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -155,11 +182,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:13.770Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "greenfee-priser",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T17:36:00.000Z",
     "createdAt": "2025-10-31T11:23:13.771Z",
-    "updatedAt": "2025-11-03T09:09:42.929Z"
-  }
+    "updatedAt": "2026-02-14T17:36:00.000Z"
+  },
+  "googlePlaceId": "ChIJPyEQA9ISQUYRXcYpHGV9WIE"
 }

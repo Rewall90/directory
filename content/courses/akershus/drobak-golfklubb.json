@@ -7,9 +7,9 @@
   "municipality": "",
   "country": "Norway",
   "address": {
-    "street": "TBD",
-    "postalCode": "0000",
-    "area": null
+    "street": "Belsjøveien 50",
+    "postalCode": "1445",
+    "area": "Drøbak"
   },
   "coordinates": {
     "lat": 59.67550259999999,
@@ -40,15 +40,21 @@
   },
   "description": "Variert og innbydende 18-hulls parkbane som kombinerer vakre omgivelser, sosialt miljø og akkurat passe utfordringer. Banen er kjent for å være relativt kort og innbydende, men den lurer fortsatt mange - også de beste. En hyggelig bane med godt vedlikeholdte fairwayer og greener.",
   "contact": {
-    "phone": null,
-    "email": null,
+    "phone": "+47 64 98 96 50",
+    "email": "dgk@drobakgolf.no",
     "emailAlt": null,
     "website": "https://drobakgolf.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/DrobakGolfklubb/",
+    "instagram": "https://www.instagram.com/drobakgolf/",
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "+47 64 98 96 50",
+      "type": "main",
+      "primary": true
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -57,12 +63,21 @@
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Drøbak",
+    "distanceFromCenter": null,
+    "handicapRequired": 54,
+    "dressCode": null,
+    "roundTimeMinutes": null
+  },
+  "booking": {
+    "system": "GolfBox",
+    "email": "dgk@drobakgolf.no",
+    "advanceBookingDays": 7,
+    "prepaymentRequired": true
   },
   "organization": {
     "courseCompany": null,
-    "clubOrganization": null
+    "clubOrganization": "Drøbak Golfklubb (Org.nr: 958 799 470)"
   },
   "facilities": {
     "drivingRange": true,
@@ -103,24 +118,89 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "greenFeeVoksen": 700,
+      "greenFeeJunior": 350,
+      "greenFeeGuestOfMember": 650,
+      "greenFeePakke3Member": 1590,
+      "greenFeePakke3NonMember": 1950,
+      "greenFeeDescription": "Greenfee fra kr 700 (voksen), kr 350 (junior 6-20 år). Gjestepris kr 650 alle dager. Pakketilbud: 3 billetter for medlemmer kr 1590, ikke-medlemmer kr 1950.",
+      "notes": "All greenfee forhåndsbetales i GolfBox. Maks 3 gjester per Senior hovedmedlem per runde."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "note": "Foreløpige priser - gjelder til vedtak på årsmøtet 19. mars",
+      "tiers": [
+        {
+          "category": "full",
+          "name": "Senior Hovedmedlem m/PlussTotal",
+          "price": 17900,
+          "monthlyPrice": 1495
+        },
+        {
+          "category": "full",
+          "name": "Senior Hovedmedlem m/PlussMedlemskap",
+          "price": 13900,
+          "monthlyPrice": 1195
+        },
+        {
+          "category": "full",
+          "name": "Senior Hovedmedlem",
+          "price": 11500,
+          "monthlyPrice": 995
+        },
+        {
+          "category": "student",
+          "name": "Student 21-28 år",
+          "ageMin": 21,
+          "ageMax": 28,
+          "price": 5100,
+          "monthlyPrice": 450
+        },
+        {
+          "category": "junior",
+          "name": "Junior 17-20 år",
+          "ageMin": 17,
+          "ageMax": 20,
+          "price": 4400,
+          "monthlyPrice": 395
+        },
+        {
+          "category": "junior",
+          "name": "Junior 13-16 år",
+          "ageMin": 13,
+          "ageMax": 16,
+          "price": 2200,
+          "monthlyPrice": 195
+        },
+        {
+          "category": "junior",
+          "name": "Barn 0-12 år",
+          "ageMin": 0,
+          "ageMax": 12,
+          "price": 800
+        },
+        {
+          "category": "limited",
+          "name": "Greenfee/Passiv medlem",
+          "price": 2950,
+          "monthlyPrice": 250
+        },
+        {
+          "category": "supporter",
+          "name": "Støttemedlem",
+          "price": 500
+        }
+      ]
+    }
+  },
+  "membershipStatus": {
+    "status": "open",
+    "memberCount": 1900
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -155,11 +235,17 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:09.639Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "https://drobakgolf.no/",
+      "https://drobakgolf.no/gjester",
+      "https://drobakgolf.no/gjester/greenfee",
+      "https://drobakgolf.no/medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:44:00.000Z",
     "createdAt": "2025-10-31T11:23:09.640Z",
-    "updatedAt": "2025-11-03T09:09:38.950Z"
-  }
+    "updatedAt": "2026-02-14T15:44:00.000Z"
+  },
+  "googlePlaceId": "ChIJdT634g1EQUYR4I1oRmazXTI"
 }

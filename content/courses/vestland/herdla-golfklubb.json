@@ -179,9 +179,12 @@
     "dataQuality": "90.0",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:57.592Z",
+    "pagesScraped": [
+      "homepage"
+    ],
+    "scrapedAt": "2026-02-14T16:26:00.000Z",
     "createdAt": "2025-10-31T10:16:57.593Z",
-    "updatedAt": "2025-11-03T09:10:09.981Z"
-  }
+    "updatedAt": "2026-02-14T16:26:00.000Z"
+  },
+  "googlePlaceId": "ChIJO27Je9YfPUYRk9tICd5VohY"
 }

@@ -46,7 +46,18 @@
     "website": "https://grimstadgolfklubb.no/",
     "facebook": "https://www.facebook.com/GrimstadGK/",
     "instagram": "https://www.instagram.com/grimstadgolfklubb/",
-    "golfbox": false
+    "youtube": "https://www.youtube.com/watch?v=nxblhkZ_xiE",
+    "golfbox": true
+  },
+  "booking": {
+    "system": "GolfBox",
+    "app": null,
+    "email": null,
+    "phone": "+47 47 82 22 55",
+    "advanceBookingDays": null,
+    "golfboxEnabled": true,
+    "onlinePayment": true,
+    "notes": "Forhåndsbetaling av greenfee i GolfBox ved booking"
   },
   "phoneNumbers": [],
   "season": {
@@ -56,9 +67,13 @@
   },
   "visitors": {
     "welcome": true,
-    "walkingAllowed": null,
+    "walkingAllowed": true,
     "nearbyCity": "Grimstad",
-    "distanceFromCenter": null
+    "distanceFromCenter": null,
+    "handicapRequired": true,
+    "dressCode": "Golf attire",
+    "roundTimeMinutes": 130,
+    "roundTimeNotes": "2 timer og 10 minutter mellom hver 9-hullsrunde"
   },
   "organization": {
     "courseCompany": null,
@@ -118,6 +133,23 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 500,
+      "greenFee9": 300,
+      "greenFeeJunior18": 200,
+      "greenFeeJunior9": 100,
+      "greenFeeWinterDaily": 100,
+      "greenFeeWinterJunior": 50,
+      "greenFeeBMember": "halv pris",
+      "greenFeeBMemberWinter": 50,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "seniorGolfAgreement": false,
+      "golfheftet": false,
+      "notes": "Grimstad Golfklubb har per i dag ingen avtale med Norsk Seniorgolf og er ikke med i Golfheftet"
     }
   },
   "membershipPricing": {
@@ -152,7 +184,52 @@
         "description": null,
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "A-medlem",
+        "name": "A-medlem",
+        "price": 4750,
+        "description": "Full spillerett",
+        "ageRange": "Voksen 26+"
+      },
+      {
+        "category": "B-medlem",
+        "name": "B-medlem",
+        "price": 3000,
+        "description": "Halv greenfee",
+        "ageRange": null
+      },
+      {
+        "category": "Ungdom/Student",
+        "name": "Ungdom/student",
+        "price": 1650,
+        "description": null,
+        "ageRange": "20-25"
+      },
+      {
+        "category": "Junior",
+        "name": "Junior",
+        "price": 650,
+        "description": null,
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Ung junior",
+        "name": "Ung junior",
+        "price": 250,
+        "description": null,
+        "ageRange": "0-12"
+      }
     ]
+  },
+  "membershipStatus": {
+    "status": "open",
+    "totalMembers": null,
+    "maxMembers": null,
+    "waitlistLength": null,
+    "entranceFee": null,
+    "notes": null
   },
   "ratings": {
     "google": {
@@ -188,11 +265,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-30T13:27:23.234Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 85,
+    "pagesScraped": [
+      "gjester/greenfee",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:22:00.000Z",
     "createdAt": "2025-10-30T13:27:23.236Z",
-    "updatedAt": "2025-11-03T09:09:31.968Z"
-  }
+    "updatedAt": "2026-02-14T15:22:00.000Z"
+  },
+  "googlePlaceId": "ChIJCXP7CyHsR0YRZL6By-PJ-9c"
 }

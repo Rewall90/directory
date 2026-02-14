@@ -151,6 +151,44 @@
         "description": "Priser fra 2022 – verifiser gjeldende satser på frostagk.no.",
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "Senior med spillerett",
+        "price": 3200,
+        "description": "Medlem med spillerett, 20 år og eldre.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Junior 13-19",
+        "price": 1500,
+        "description": "Juniormedlem 13-19 år.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Junior 6-12",
+        "price": 900,
+        "description": "Juniormedlem 6-12 år.",
+        "ageRange": "6-12"
+      },
+      {
+        "category": "Senior uten spillerett",
+        "price": 1900,
+        "description": "Må løse greenfee ved spill.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Long distance",
+        "price": 1300,
+        "description": "Må løse greenfee. Postnummer utenfor 7000-7999.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Deltidsfrosting",
+        "price": 2400,
+        "description": "Må være hovedmedlem i annen klubb. Løser ikke greenfee.",
+        "ageRange": "20+"
+      }
     ]
   },
   "ratings": {
@@ -187,11 +225,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
+    "websiteQuality": "good",
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:50.007Z",
+    "pagesScraped": [
+      "homepage",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:19:00.000Z",
     "createdAt": "2025-10-31T11:30:50.008Z",
-    "updatedAt": "2025-11-03T09:09:50.810Z"
-  }
+    "updatedAt": "2026-02-14T16:19:00.000Z"
+  },
+  "googlePlaceId": "ChIJq8j3i89AbUYRXXz6nPza0NE"
 }

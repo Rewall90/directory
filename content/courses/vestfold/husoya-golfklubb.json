@@ -171,11 +171,14 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
+    "websiteQuality": "inaccessible",
     "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:42:06.138Z",
+    "pagesScraped": [
+      "facebook"
+    ],
+    "scrapedAt": "2026-02-14T00:00:00.000Z",
     "createdAt": "2025-10-31T11:42:06.139Z",
-    "updatedAt": "2025-11-03T09:10:18.266Z"
-  }
+    "updatedAt": "2026-02-14T00:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJHdqBlvCxRkYRfl-_NliYzcg"
 }

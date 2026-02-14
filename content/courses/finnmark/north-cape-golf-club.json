@@ -105,25 +105,30 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 350,
+      "greenFee9": 250,
+      "greenFeeWeekly": 1000,
       "greenFeeDaily": null,
       "greenFeeWeekday": 350,
       "greenFeeWeekend": 350,
       "greenFeeSenior": 350,
-      "greenFeeJunior": 175,
-      "greenFeeDescription": "GREENFEE GJESTER 2025:\n\nVOKSNE:\n• Ukegreenfee: 1.000 kr\n• Dagsgreenfee (18 hull): 350 kr\n• 9 hull: 250 kr\n\nJUNIOR (15-19 år):\n• Ukegreenfee: 500 kr\n• Dagsgreenfee (18 hull): 175 kr\n• 9 hull: 125 kr\n\nRABATT: 50 kr rabatt for fjernmedlemmer og medlemmer av samarbeidende nordnorske golfklubber.\n\nLOKALE MEDLEMMER:\n• Årsgreenfee: 2.000 kr\n• Dagsgreenfee (18 hull): 250 kr\n• 9 hull: 150 kr\n• Junior (under 19): Gratis",
+      "greenFeeJunior18": 175,
+      "greenFeeJunior9": 125,
+      "greenFeeJuniorWeekly": 500,
+      "greenFeeDescription": "Greenfee gjester: Voksne dag 350 kr, 9-hull 250 kr, uke 1000 kr. Junior 15-19: dag 175 kr, 9-hull 125 kr, uke 500 kr. 50 kr rabatt for distansemedlemmer og samarbeidende Nord-Norske klubber.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Lokale medlemmer: årsgreenfee 2000 kr, dag 250 kr, 9-hull 150 kr. Junior under 19 år gratis greenfee."
     }
   },
   "membershipPricing": {
-    "2025": [
+    "2026": [
       {
         "category": "Barn (lokal)",
         "price": 100,
@@ -255,11 +260,11 @@
   "sources": [],
   "meta": {
     "dataQuality": "good",
-    "websiteQuality": null,
-    "completenessPercentage": null,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-12T07:27:57.339Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 90,
+    "pagesScraped": ["homepage", "gjest", "greenfee", "medlemskap"],
+    "scrapedAt": "2026-02-14T16:04:00.000Z",
     "createdAt": "2025-10-30T10:55:19.086Z",
-    "updatedAt": "2026-02-12T07:27:57.587Z"
+    "updatedAt": "2026-02-14T16:04:00.000Z"
   }
 }

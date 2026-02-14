@@ -111,22 +111,53 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
+      "greenFee18": 1290,
+      "greenFee9": 750,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 980,
-      "greenFeeWeekend": 1100,
+      "greenFeeWeekday": 690,
+      "greenFeeWeekday9": 400,
+      "greenFeeWeekend": 980,
+      "greenFeeWeekend9": 650,
+      "greenFeeHighSeason": 1290,
+      "greenFeeHighSeason9": 750,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Price varies by season (NOK 980-1100)",
+      "greenFeeJunior": 550,
+      "greenFeeJunior9": 350,
+      "greenFeeJuniorLowSeason": 330,
+      "greenFeeJuniorLowSeason9": 200,
+      "greenFeeDescription": "Lavsesong hverdager: 18 hull kr 690, 9 hull kr 400. Lavsesong helg: 18 hull kr 980, 9 hull kr 650. Høysesong (23/6-3/8): 18 hull kr 1290, 9 hull kr 750. Junior (t.o.m 19 år) halv pris.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golf packages available through Kragerø Resort"
+      "notes": "Europe's Best Golf Hotel 2023. Golf packages available through Kragerø Resort."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "currency": "NOK",
+      "full": 10700,
+      "fullDescription": "Aksjonær - full spillerett",
+      "cMembership": 11250,
+      "cMembershipDescription": "C-spillerett (uten aksje)",
+      "youngAdult": 6250,
+      "youngAdultDescription": "Ung Voksen (20-30 år)",
+      "junior": 1430,
+      "juniorDescription": "Junior (13-19 år)",
+      "child": 330,
+      "childDescription": "Yngre Junior (0-12 år)",
+      "flexible": 1100,
+      "flexibleDescription": "Greenfeemedlemskap - betaler greenfee ved spill",
+      "shortCourse": 2200,
+      "shortCourseDescription": "Korthullsbanemedlemskap",
+      "rental": 1550,
+      "rentalDescription": "Leiemedlemskap",
+      "sponsor": 3100,
+      "sponsorDescription": "Sponsormedlemskap"
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -172,11 +203,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T12:22:39.688Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjest",
+      "medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:05:00.000Z",
     "createdAt": "2025-10-31T12:22:39.690Z",
-    "updatedAt": "2025-11-03T09:10:09.666Z"
-  }
+    "updatedAt": "2026-02-14T16:05:00.000Z"
+  },
+  "googlePlaceId": "ChIJ-cH2oa8GR0YR4z3LLiH2Mbs"
 }

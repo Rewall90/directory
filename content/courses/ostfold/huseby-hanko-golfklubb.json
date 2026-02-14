@@ -109,24 +109,43 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": 335,
-      "greenFeeWeekend": 390,
-      "greenFeeSenior": 335,
-      "greenFeeJunior": 195,
-      "greenFeeDescription": "Greenfee for 9 hull. For 18 hull må du booke deg inn 2 ganger med 120 minutters mellomrom. Voksen hverdag: 335 NOK (9 hull) eller 440 NOK (18 hull). Voksen helg/søn/helligdager/juli: 390 NOK (9 hull) eller 545 NOK (18 hull). Junior til 19 år hverdag: 195 NOK (9 hull) eller 305 NOK (18 hull). Junior lør/søn/helligdager/juli: 270 NOK (9 hull) eller 405 NOK (18 hull).",
-      "cartRental": 18,
+      "greenFeeWeekday9": 335,
+      "greenFeeWeekday18": 440,
+      "greenFeeWeekend9": 390,
+      "greenFeeWeekend18": 545,
+      "greenFeeWeekday": 440,
+      "greenFeeWeekend": 545,
+      "greenFeeSenior": 440,
+      "greenFeeJunior9": 195,
+      "greenFeeJunior18": 305,
+      "greenFeeJuniorWeekend9": 270,
+      "greenFeeJuniorWeekend18": 405,
+      "greenFeeJunior": 305,
+      "greenFeeDescription": "Voksne hverdag: 335kr (9 hull), 440kr (18 hull). Voksne helg/helligdager/juli: 390kr (9 hull), 545kr (18 hull). Junior inntil 19 år hverdag: 195kr (9 hull), 305kr (18 hull). Junior helg/helligdager/juli: 270kr (9 hull), 405kr (18 hull). For 18 hull: book 2 ganger med 120 min mellomrom. Hcp 54 krav.",
+      "cartRental": 500,
+      "cartRentalMember": 400,
+      "cartRental9Holes": 250,
+      "cartRental9HolesMember": 200,
       "pullCartRental": null,
       "clubRental": 150,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Gjest av medlem: 150kr rabatt (18 hull), 75kr rabatt (9 hull). Betaling i proshop før start."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "klubbkontingentSenior": 750,
+      "klubbkontingentJunior": 300,
+      "currency": "NOK",
+      "membershipStatus": "open",
+      "note": "Klubbkontingent fastsatt av årsmøtet 2026. Spilleavgift kommer i tillegg og fastsettes av Huseby & Hankø Golfbane AS."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4,
@@ -173,10 +192,14 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:43:13.223Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "gjester",
+      "medlemskap/info-om-medlemskap-og-spill"
+    ],
+    "scrapedAt": "2026-02-14T16:09:00.000Z",
     "createdAt": "2025-10-31T11:43:13.224Z",
-    "updatedAt": "2025-11-03T09:10:11.493Z"
-  }
+    "updatedAt": "2026-02-14T16:09:00.000Z"
+  },
+  "googlePlaceId": "ChIJ2zcN4wWpRkYRA9hoGD3Dy_8"
 }

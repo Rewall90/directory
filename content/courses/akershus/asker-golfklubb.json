@@ -79,7 +79,19 @@
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Asker",
-    "distanceFromCenter": null
+    "distanceFromCenter": null,
+    "handicapRequired": 36,
+    "maxFlightHandicap": 144,
+    "dressCode": null,
+    "roundTimeMinutes": null
+  },
+  "booking": {
+    "system": "GolfBox",
+    "email": "agk@askergolf.no",
+    "advanceBookingDays": 3,
+    "advanceBookingDaysMember": 7,
+    "advanceBookingDaysLimitedMember": 5,
+    "cancellationHours": 2
   },
   "organization": {
     "courseCompany": "Norge",
@@ -126,22 +138,115 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 750,
-      "greenFeeWeekend": 850,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: Hverdag kr 750, Helg kr 850. Junior: 50% av ordinær greenfee. Medlemsrabatt: kr 200, maks 3 gjester per medlem. Norges Seniorgolfklubb: kr 100 rabatt. Booking via EAGL-app eller Protime. Hverdag etter 15:00: kr 500. Helg etter 15:00: kr 500. Driving range: kr 30 (15 baller), kr 50 (30 baller), kr 60 (45 baller)",
-      "cartRental": 800400,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Trilleie: kr 75. Etter kl 15:00 både hverdag og helg: kr 500"
+      "greenFeeWeekdayBefore14": 750,
+      "greenFeeWeekdayAfter14": 850,
+      "greenFeeWeekendBefore14": 850,
+      "greenFeeWeekendAfter14": 750,
+      "greenFeeTwilight": 500,
+      "greenFeeJunior": "50% av ordinær greenfee",
+      "greenFeePartnerClub": 400,
+      "greenFeeNSGDiscount": 100,
+      "greenFeeMemberGuestDiscount": 200,
+      "pullCartRental": 75,
+      "greenFeeDescription": "Greenfee 2025: Hverdager før 14:00 kr 750, etter 14:00 kr 850. Helger før 14:00 kr 850, etter 14:00 kr 750. Twilight kr 500. Junior: 50% av ordinær greenfee. NSG rabatt: kr 100. Spill med medlem: kr 200 rabatt (maks 3 gjester). Kjekstad/Kongsberg medlemmer: kr 400.",
+      "notes": "Pull cart rental: kr 75. Vipps no. 17300 for after hours rental."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "enrollmentFee": 2750,
+      "enrollmentFeeNote": "Gjelder alle over 19 år ved kjøp av full spillerett. Gjelder ikke for Greenfee+ og Flex.",
+      "tiers": [
+        {
+          "category": "full",
+          "name": "Voksen (32+)",
+          "ageMin": 32,
+          "ageMax": null,
+          "price": 9900
+        },
+        {
+          "category": "full",
+          "name": "Ung voksen (29-31 år)",
+          "ageMin": 29,
+          "ageMax": 31,
+          "price": 7500
+        },
+        {
+          "category": "full",
+          "name": "Ung voksen (26-28 år)",
+          "ageMin": 26,
+          "ageMax": 28,
+          "price": 6200
+        },
+        {
+          "category": "full",
+          "name": "Ung voksen (23-25 år)",
+          "ageMin": 23,
+          "ageMax": 25,
+          "price": 5100
+        },
+        {
+          "category": "full",
+          "name": "Ung voksen (20-22 år)",
+          "ageMin": 20,
+          "ageMax": 22,
+          "price": 4100
+        },
+        {
+          "category": "junior",
+          "name": "Junior (15-19 år)",
+          "ageMin": 15,
+          "ageMax": 19,
+          "price": 2900
+        },
+        {
+          "category": "junior",
+          "name": "Junior (11-14 år)",
+          "ageMin": 11,
+          "ageMax": 14,
+          "price": 2400
+        },
+        {
+          "category": "junior",
+          "name": "Junior (0-10 år)",
+          "ageMin": 0,
+          "ageMax": 10,
+          "price": 1
+        },
+        {
+          "category": "family",
+          "name": "Familie",
+          "price": 19800
+        },
+        {
+          "category": "limited",
+          "name": "Greenfee+",
+          "price": 6500,
+          "note": "Begrenset spillerett"
+        },
+        {
+          "category": "limited",
+          "name": "Flex medlemskap",
+          "price": 1600,
+          "note": "Begrenset spillerett"
+        }
+      ],
+      "partnerClubs": [
+        {
+          "name": "Kjekstad Golfklubb",
+          "priceAdult": 450,
+          "priceJunior": 250,
+          "note": "Alle medlemmer med full spillerett. Gjelder alle dager alle tider."
+        }
+      ]
+    }
+  },
+  "membershipStatus": {
+    "status": "open",
+    "hasWaitlist": true,
+    "waitlistUrl": "https://askergolf.no/medlemskap/regler-for-venteliste"
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -176,11 +281,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:07.949Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "https://askergolf.no/",
+      "https://askergolf.no/gjester/priser-og-booking",
+      "https://askergolf.no/medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T15:39:00.000Z",
     "createdAt": "2025-10-31T11:23:07.951Z",
-    "updatedAt": "2025-11-03T09:09:39.908Z"
-  }
+    "updatedAt": "2026-02-14T15:39:00.000Z"
+  },
+  "googlePlaceId": "ChIJxf-5o9gVQUYRC9f_lyy9Z44"
 }

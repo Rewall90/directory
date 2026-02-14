@@ -3,13 +3,13 @@
   "name": "Lillestrøm Golfklubb",
   "formerName": null,
   "region": "Akershus",
-  "city": "",
-  "municipality": "",
+  "city": "Lillestrøm",
+  "municipality": "Lillestrøm",
   "country": "Norway",
   "address": {
-    "street": "TBD",
-    "postalCode": "0000",
-    "area": null
+    "street": "Fetveien 261",
+    "postalCode": "2000",
+    "area": "Lillestrøm"
   },
   "coordinates": {
     "lat": 59.9558299,
@@ -40,15 +40,21 @@
   },
   "description": "Designed without changes to existing landscape",
   "contact": {
-    "phone": null,
-    "email": null,
+    "phone": "90623511",
+    "email": "post@lilgk.no",
     "emailAlt": null,
     "website": "https://lilgk.no/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/Lillestr%C3%B8m-Golfklubb-454568894620370/",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "90623511",
+      "type": "NSG kontakt",
+      "primary": true
+    }
+  ],
   "season": {
     "start": null,
     "end": null,
@@ -103,24 +109,33 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
-      "currency": "NOK (Norwegian Krone)",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+    "2026": {
+      "currency": "NOK",
+      "greenFee9Weekday": 250,
+      "greenFee18Weekday": 350,
+      "greenFee9Weekend": 300,
+      "greenFee18Weekend": 400,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
+      "greenFeeJunior": 0,
+      "greenFeeDescription": "Hverdager: 9 hull 250kr, 18 hull 350kr. Helg/helligdager: 9 hull 300kr, 18 hull 400kr. Under 12 år: gratis.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Greenfee under 12 år gratis. Kontonr: 1286.41.22319"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "seniorOver19": 3000,
+      "juniorTom19": 1100,
+      "juniorTom12": 50,
+      "membershipStatus": "Åpent for innmelding",
+      "notes": "Betalt medlemskontingent gir fritt spill på banen."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
@@ -155,11 +170,14 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:11.901Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage"
+    ],
+    "scrapedAt": "2026-02-14T16:09:00.000Z",
     "createdAt": "2025-10-31T11:23:11.902Z",
-    "updatedAt": "2025-11-03T09:10:06.170Z"
-  }
+    "updatedAt": "2026-02-14T16:09:00.000Z"
+  },
+  "googlePlaceId": "ChIJk32f32F7QUYRXnX2kYI4AEc"
 }

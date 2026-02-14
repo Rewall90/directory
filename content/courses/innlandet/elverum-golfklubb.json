@@ -116,22 +116,46 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee priser tilgjengelig - kontakt klubben for detaljer",
-      "cartRental": null,
+      "greenFeeWeekday": 495,
+      "greenFeeWeekend": 595,
+      "greenFee9Holes": 300,
+      "greenFeeJunior": 250,
+      "greenFeeJuniorWeekend": 300,
+      "greenFeeJunior9Holes": 200,
+      "greenFeeDescription": "Voksne: 495 kr (hverdag), 595 kr (helg). Junior: 250 kr (hverdag), 300 kr (helg). 9 hull: 300 kr (voksen), 200 kr (junior). Greenfee-medlemmer får 50% rabatt. NSG lojalitetskort: 50% rabatt man-fre (inntil 3 ganger). Golfamore: 50% rabatt man-fre (en gang per sesong).",
+      "cartRental": 400,
+      "cartRental9Holes": 250,
       "pullCartRental": null,
       "clubRental": null,
+      "minigolf9Holes": 60,
+      "minigolfJunior9Holes": 30,
+      "minigolfExtra9Holes": 30,
+      "minigolfJuniorExtra9Holes": 15,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Gratis medlemskap, trening og utstyr for Ung Start (under 20 år i Elverum kommune)"
+      "neighborClubDiscount": 100,
+      "notes": "Naboklubber får 100 kr rabatt man-fre 18 hull. Gratis medlemskap, trening og utstyr for Ung Start (under 20 år i Elverum kommune)"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2024": {
+      "currency": "NOK",
+      "fullMembership": 6990,
+      "distanceMember": 2090,
+      "juniorYoung": 790,
+      "juniorOlder": 1450,
+      "studentMembership": 2790,
+      "senior80Plus": 3090,
+      "senior90Plus": 1090,
+      "beginnerCourse": 2990,
+      "beginnerCourseStudent": 2500,
+      "year2AfterVTG": 3495,
+      "supportMember": 1000,
+      "trialMembership": 3495,
+      "notes": "Veien til golf kurs: 2995 kr inkludert medlemskap og fritt spill ut sesongen. 2026 kursdatoer: 9-10 mai, 23-24 mai, 6-7 juni, 20-21 juni. Junior 0-12 utenfor Elverum: 790 kr. Junior 13-19 utenfor Elverum: 1450 kr."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.5,
@@ -166,11 +190,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:11.463Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "greenfee",
+      "medlemsskap",
+      "kontakt"
+    ],
+    "scrapedAt": "2026-02-14T15:58:00.000Z",
     "createdAt": "2025-10-31T07:18:11.464Z",
-    "updatedAt": "2025-11-03T09:09:47.556Z"
-  }
+    "updatedAt": "2026-02-14T15:58:00.000Z"
+  },
+  "googlePlaceId": "ChIJR585jBL_aUYRqA3PhRg7A1Y"
 }

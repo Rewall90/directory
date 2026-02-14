@@ -118,20 +118,78 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Veien til Golf (VTG) kurs 990 kr. Deltakere får 50% rabatt på medlemskap og spiller gratis resten av sesongen (gjelder kun første medlemsår)."
+    },
+    "2025": {
+      "currency": "NOK",
+      "greenFeeDaily": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Dagskort mandag-søndag 300 kr. Junior (t.o.m. 19 år), student, vernepliktig 150 kr. Banen er selvbetjent - betaling via VIPPS #100434.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Selvbetjent bane. Betaling via VIPPS #100434."
     }
   },
   "membershipPricing": {
     "2025": [
       {
-        "category": "adult",
-        "price": 3400,
-        "description": "Medlemskap: Voksen 3400 kr/år, barn 500 kr/år. VTG-kurs 990 kr med 50% rabatt på medlemskap første år og gratis spill resten av sesongen. Styreleder: Thomas Sørensen. Postadresse: Postboks 275, 4201 Sauda.",
+        "category": "adultWithLoan",
+        "price": 4000,
+        "description": "Hovedmedlem MED medlemslån, med fritt spill: 4000 kr/år",
+        "ageRange": "20+"
+      },
+      {
+        "category": "adultWithoutLoan",
+        "price": 4500,
+        "description": "Hovedmedlem UTEN medlemslån, med fritt spill: 4500 kr/år",
+        "ageRange": "20+"
+      },
+      {
+        "category": "adultGreenfee",
+        "price": 2400,
+        "description": "Hovedmedlem greenfee (fyller 20 år eller mer i inneværende år): 2400 kr/år",
+        "ageRange": "20+"
+      },
+      {
+        "category": "olderJunior",
+        "price": 1200,
+        "description": "Eldre junior fritt spill (16-19 år) eller student/vernepliktig: 1200 kr/år",
+        "ageRange": "16-19"
+      },
+      {
+        "category": "olderJuniorGreenfee",
+        "price": 600,
+        "description": "Eldre junior greenfee (16-19 år) eller student/vernepliktig: 600 kr/år",
+        "ageRange": "16-19"
+      },
+      {
+        "category": "youngerJunior",
+        "price": 205,
+        "description": "Yngre junior (fyller 0-15 år i inneværende år): 205 kr/år",
+        "ageRange": "0-15"
+      },
+      {
+        "category": "cottage",
+        "price": 2500,
+        "description": "Hyttepakke - Hovedmedlem i annen klubb, bostedsadresse utenfor Sauda: 2500 kr/år",
         "ageRange": null
       },
       {
-        "category": "child",
-        "price": 500,
-        "description": "Medlemskap: Voksen 3400 kr/år, barn 500 kr/år. VTG-kurs 990 kr med 50% rabatt på medlemskap første år og gratis spill resten av sesongen. Styreleder: Thomas Sørensen. Postadresse: Postboks 275, 4201 Sauda.",
+        "category": "remote",
+        "price": 1200,
+        "description": "Fjernmedlem (bostedsadresse utenfor Sauda): 1200 kr/år",
+        "ageRange": null
+      },
+      {
+        "category": "supporter",
+        "price": 600,
+        "description": "Støttemedlem: 600 kr/år",
         "ageRange": null
       }
     ]
@@ -172,9 +230,13 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:46:27.032Z",
+    "pagesScraped": [
+      "https://www.saudagolf.no/",
+      "https://www.saudagolf.no/priser-og-medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:14:00.000Z",
     "createdAt": "2025-10-31T07:46:27.034Z",
-    "updatedAt": "2025-11-03T09:09:53.315Z"
-  }
+    "updatedAt": "2026-02-14T16:14:00.000Z"
+  },
+  "googlePlaceId": "ChIJgSUgrx7_O0YRRINFv2Jby-0"
 }

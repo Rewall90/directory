@@ -109,24 +109,121 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 650,
+      "greenFee9": 400,
       "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: Se sandefjordgolf.no for priser. Greenfee-samarbeid med flere klubber: 25-30% rabatt for medlemmer i samarbeidsklubber (1. mai - 1. oktober). Kontakt klubben for nøyaktige priser.",
+      "greenFeeWeekday": 650,
+      "greenFeeWeekend": 650,
+      "greenFeeSenior": 550,
+      "greenFeeJunior": 200,
+      "greenFeeMember": 550,
+      "greenFeeDescription": "Greenfee 2026: Standard 650 kr, Greenfee-medlem 550 kr, Gjest med medlem 100 kr rabatt. Junior (t.o.m. 19 år) 200 kr (gratis ved enkelte samarbeidsklubber). Norsk Seniorgolf: 550 kr (hverdager 08-15, ikke juli, maks 3 runder). 9-hulls: 400 kr.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "6-hulls treningsbane gratis for alle. Greenfee-samarbeid med flere klubber (25-30% rabatt). Stor driving range og omfattende treningsområder."
+      "notes": "6-hulls treningsbane gratis for alle. Greenfee-samarbeid med flere klubber (25-30% rabatt). Stor driving range og omfattende treningsområder. Greenfee-medlemmer kan bestille starttider 5 dager før."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": [
+      {
+        "category": "hovedmedlem",
+        "name": "Hovedmedlem",
+        "price": 10150,
+        "description": "Full spillerett på banen alle dager. Tilgang til klubbens greenfee-samarbeid med reduserte priser. Starttider kan bestilles 9 dager før spill. NGF-avgift 480 kr inkludert.",
+        "ageRange": null
+      },
+      {
+        "category": "ungVoksen",
+        "name": "Ung Voksen 20-35 år",
+        "price": 5350,
+        "description": "Full spillerett for medlemmer 20-35 år. Starttider kan bestilles 7 dager før spill.",
+        "ageRange": "20-35"
+      },
+      {
+        "category": "ungVoksenVTG2025",
+        "name": "Ung Voksen 20-35 år (VTG 2025)",
+        "price": 4350,
+        "description": "For ung voksen som gjennomførte VTG i 2025.",
+        "ageRange": "20-35"
+      },
+      {
+        "category": "vtgAr1",
+        "name": "VTG år 1 Innmelding",
+        "price": 3900,
+        "description": "Første års medlemskap etter VTG-kurs.",
+        "ageRange": null
+      },
+      {
+        "category": "vtgAr2",
+        "name": "VTG år 2 (gjennomført 2025)",
+        "price": 5100,
+        "description": "Andre års medlemskap etter VTG-kurs gjennomført 2025.",
+        "ageRange": null
+      },
+      {
+        "category": "vtgAr3",
+        "name": "VTG år 3 (gjennomført 2024)",
+        "price": 7650,
+        "description": "Tredje års medlemskap etter VTG-kurs gjennomført 2024.",
+        "ageRange": null
+      },
+      {
+        "category": "junior13-19",
+        "name": "Junior 13-19 år",
+        "price": 1700,
+        "description": "Full spillerett for juniorer 13-19 år. Starttider 7 dager før.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "junior6-12",
+        "name": "Junior 6-12 år",
+        "price": 850,
+        "description": "Full spillerett for juniorer 6-12 år.",
+        "ageRange": "6-12"
+      },
+      {
+        "category": "junior0-5",
+        "name": "Junior 0-5 år",
+        "price": 400,
+        "description": "Medlemskap for barn 0-5 år.",
+        "ageRange": "0-5"
+      },
+      {
+        "category": "greenfee",
+        "name": "Greenfee medlemskap",
+        "price": 3500,
+        "description": "100 kr rabatt på greenfee. Starttider kan bestilles 5 dager før.",
+        "ageRange": null
+      },
+      {
+        "category": "sommerGreenfee",
+        "name": "Sommer greenfee avtale",
+        "price": 5200,
+        "description": "Forutsetter fullt medlemskap i en 18-hulls golfklubb. Gjelder ikke for medlemmer av klubber i Vestfold eller med adresse i Vestfold.",
+        "ageRange": null
+      },
+      {
+        "category": "stotteMedlem",
+        "name": "Støtte medlem",
+        "price": 1650,
+        "description": "Støttemedlemskap uten spillerett. Kan innvilges ved sykdom, flytting til utlandet eller annen landsdel.",
+        "ageRange": null
+      },
+      {
+        "category": "esag",
+        "name": "ESAG (Et slag av gangen)",
+        "price": 1600,
+        "description": "ESAG-medlemskap.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": 4.2,
@@ -160,12 +257,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "87.0",
-    "websiteQuality": null,
-    "completenessPercentage": 87,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:10:43.444Z",
+    "dataQuality": "96.0",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 96,
+    "pagesScraped": [
+      "greenfee",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T17:00:00.000Z",
     "createdAt": "2025-10-31T09:10:43.446Z",
-    "updatedAt": "2025-11-03T09:10:02.807Z"
-  }
+    "updatedAt": "2026-02-14T17:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJ34PK30TARkYRsLO7Ouq3JtY"
 }

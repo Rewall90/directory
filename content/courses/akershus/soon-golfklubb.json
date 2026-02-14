@@ -40,22 +40,22 @@
   },
   "description": "Soon Golfbane er en 9-hulls Golfbane kjent for sine store, utfordrende og raske greener. Banen virker med sine 5.510 meter fra hvit tee, 5.298 meter fra gul tee og 4.248 meter fra rød tee som en overkommelig utfordring, men skinnet bedrar. Det stilles virkelig krav til kløkt og nøyaktighet dersom man skal spille til sitt handicap på Soon Golfbane. Det er ikke minst de store og ondulerte greenene som krever både rett spillestrategi og dyp konsentrasjon ved putting.",
   "contact": {
-    "phone": "+47 907 85 096",
-    "email": null,
-    "emailAlt": null,
+    "phone": "+47 950 22 520",
+    "email": "post@soongolf.no",
+    "emailAlt": "post@soongolfbane.no",
     "website": "https://soongolf.no/",
-    "facebook": null,
-    "instagram": null,
-    "golfbox": false
+    "facebook": "https://www.facebook.com/soongolf18hull/",
+    "instagram": "https://www.instagram.com/soon_golf/",
+    "golfbox": true
   },
   "phoneNumbers": [
     {
-      "number": "+47 907 85 096",
-      "type": "main",
+      "number": "+47 950 22 520",
+      "type": "proshop",
       "primary": true
     },
     {
-      "number": "+47 950 22 520",
+      "number": "+47 907 85 096",
       "type": "secondary",
       "primary": false
     }
@@ -114,21 +114,15 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2026": {
+    "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": null,
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": null
+      "greenFee9": "330-430",
+      "greenFee9Junior": 280,
+      "greenFeeShortCourse": 100,
+      "greenFeeSeason": 3700,
+      "greenFeeDescription": "Greenfee priser for 9 hull. Book 2 runder for 18 hull (minimum 2 timer & 20 min mellom runder). Forhåndsbetaling fra 1. juni 2025.",
+      "practiceField": 100,
+      "notes": "Hcp krav hovedbane: 54/54. Korthullsbane: Pay & play (ingen). Tidsbestilling 10 dager før i Golfbox."
     }
   },
   "membershipPricing": {},
@@ -166,11 +160,15 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:23:16.052Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "homepage",
+      "gjester/gjestespill-greenfee"
+    ],
+    "scrapedAt": "2026-02-14T17:48:00.000Z",
     "createdAt": "2025-10-31T11:23:16.053Z",
-    "updatedAt": "2025-11-03T09:09:43.321Z"
-  }
+    "updatedAt": "2026-02-14T17:48:00.000Z"
+  },
+  "googlePlaceId": "ChIJnWBejTBOQUYR03P_WdbAyXM"
 }

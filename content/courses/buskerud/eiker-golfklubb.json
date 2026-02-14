@@ -21,7 +21,7 @@
     "holesPlayed": 9,
     "par": 68,
     "parPerRound": 68,
-    "lengthMeters": null,
+    "lengthMeters": 4798,
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Skog- og parkbane",
@@ -60,6 +60,14 @@
       "primary": false
     }
   ],
+  "booking": {
+    "email": null,
+    "phone": "+47 32 87 77 72",
+    "url": null,
+    "golfboxEnabled": true,
+    "windowDays": null,
+    "advanceBookingFee": null
+  },
   "season": {
     "start": "April",
     "end": "November",
@@ -69,7 +77,10 @@
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Drammen",
-    "distanceFromCenter": null
+    "distanceFromCenter": null,
+    "handicapRequired": null,
+    "dressCode": null,
+    "roundTimeMinutes": null
   },
   "organization": {
     "courseCompany": null,
@@ -89,7 +100,7 @@
     "restaurantName": "Golfkiosken",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": false,
     "golfLessons": true,
     "teachingPro": false,
@@ -114,13 +125,19 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
+      "greenFee18": 400,
+      "greenFee9": 250,
       "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
-      "greenFeeWeekend": 250,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
       "greenFeeSenior": null,
       "greenFeeJunior": 150,
+      "greenFeeStudent": null,
+      "greenFeeMemberGuest": null,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
       "greenFeeDescription": "9 hull: 250 kr voksen, 150 kr junior. 18 hull: 400 kr voksen, 250 kr junior. Betaling: Kontant eller VIPPS til 101265",
       "cartRental": 200,
       "pullCartRental": null,
@@ -128,10 +145,93 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "VTG kurs inkluderer gratis spill på banen ut 2026"
+      "notes": "Golfbil 18 hull: 350 kr. Med legeerklæring: 150/275 kr. Bestilles via appen Eagl. VIPPS: 101265"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "a_medlem",
+        "name": "A-medlem m/ubegrenset spill",
+        "price": 4700,
+        "clubDues": null,
+        "totalAnnual": 4700,
+        "description": "Ubegrenset spill inkludert",
+        "ageRange": null,
+        "ageMin": null,
+        "ageMax": null,
+        "restrictions": null
+      },
+      {
+        "category": "b_medlem",
+        "name": "B-medlem, betaler 1/2 greenfee",
+        "price": 2900,
+        "clubDues": null,
+        "totalAnnual": 2900,
+        "description": "Betaler 50% greenfee per runde",
+        "ageRange": null,
+        "ageMin": null,
+        "ageMax": null,
+        "restrictions": "Betaler 50% greenfee per runde"
+      },
+      {
+        "category": "greenfee_medlem",
+        "name": "Greenfee medlem",
+        "price": 1500,
+        "clubDues": null,
+        "totalAnnual": 1500,
+        "description": "Betaler full greenfee per runde",
+        "ageRange": null,
+        "ageMin": null,
+        "ageMax": null,
+        "restrictions": "Betaler full greenfee per runde"
+      },
+      {
+        "category": "ung_voksen",
+        "name": "UNG m/ubegrenset spill",
+        "price": 2750,
+        "clubDues": null,
+        "totalAnnual": 2750,
+        "description": "Ubegrenset spill, inkluderer studenter",
+        "ageRange": "20-25",
+        "ageMin": 20,
+        "ageMax": 25,
+        "restrictions": null
+      },
+      {
+        "category": "junior",
+        "name": "Junior m/ubegrenset spill",
+        "price": 1650,
+        "clubDues": null,
+        "totalAnnual": 1650,
+        "description": "Ubegrenset spill inkludert",
+        "ageRange": "16-19",
+        "ageMin": 16,
+        "ageMax": 19,
+        "restrictions": null
+      },
+      {
+        "category": "barn",
+        "name": "Barn m/ubegrenset spill",
+        "price": 600,
+        "clubDues": null,
+        "totalAnnual": 600,
+        "description": "Ubegrenset spill inkludert",
+        "ageRange": "6-15",
+        "ageMin": 6,
+        "ageMax": 15,
+        "restrictions": null
+      }
+    ]
+  },
+  "membershipStatus": {
+    "accepting": true,
+    "status": "open",
+    "waitingListSize": null,
+    "waitingListYears": null,
+    "joiningFee": null,
+    "joiningFeeNote": null
+  },
   "ratings": {
     "google": {
       "rating": 4.2,
@@ -171,6 +271,7 @@
     "pagesScraped": null,
     "scrapedAt": "2025-10-31T05:56:50.371Z",
     "createdAt": "2025-10-31T05:56:50.373Z",
-    "updatedAt": "2025-11-03T09:09:34.786Z"
-  }
+    "updatedAt": "2026-02-14T16:00:00.000Z"
+  },
+  "googlePlaceId": "ChIJNxtUT7UmQUYRHGs4hTOjJb4"
 }

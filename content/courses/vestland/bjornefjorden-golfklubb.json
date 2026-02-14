@@ -116,22 +116,43 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 250,
-      "greenFeeWeekend": 300,
+      "greenFee18": 450,
+      "greenFee9": 315,
+      "greenFee18Weekday": 350,
+      "greenFee9Weekday": 245,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 450,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee 2025: 250-300 kr. Reduserte priser grunnet midlertidig green på hull 8. Golfamore-gjester får rabatt alle hverdager (ingen rabatt helger/helligdager). Golfamore-PLUS gir halv pris på hverdager.",
+      "greenFeeJunior": 225,
+      "greenFeeVinterbane": 150,
+      "greenFeeDescription": "Greenfee 2025 (med rabatt pga provisorisk green hull 8): Hverdager 9 hull 245kr, 18 hull 350kr. Helg/helligdag 9 hull 315kr, 18 hull 450kr. Normale priser i parentes. Junior/student halv pris. Vinterbane 150kr. Pitch & Putt gratis.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
+      "specialOfferPrice": 1600,
+      "specialOfferIncludes": "Greenfee pakke 5 stk",
       "freeTrial": null,
-      "notes": "6-hulls Pitch & Putt-bane tilgjengelig. 18 tees på driving range, 8 med overbygg og lys. Stor putting green med 9 hull. Approach shot-treningsgreen opp til 90m med greenside bunker. 2 simulatorer. Golfamore-rabatt."
+      "notes": "Greenfee pakke 10 stk: 3500kr. 6-hulls Pitch & Putt-bane gratis. Golfamore-gjester rabatt alle dager, Golfamore-PLUS halv pris hverdager. Booking via Golfbox."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "greenfeemedlemskap": 2290,
+      "spillerettTil12": 350,
+      "spillerettTil22": 2290,
+      "spillerett23_29": 4155,
+      "spillerettFra30": 6130,
+      "student": 2290,
+      "andelsmedlem": 4570,
+      "andelsmedlemTil22": 2290,
+      "familie": 11740,
+      "vtg1Aar": 4500,
+      "vtg2Aar": 4155,
+      "dugnadsavgift": 700,
+      "currency": "NOK",
+      "description": "Alle medlemskap 20-74 ar har 700kr dugnadsavgift i tillegg (eller 5 timer dugnad). Ektefellerabatt 300kr. Soskenrabatt 13-18 ar 400kr. Bagskap leie 600kr."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -165,12 +186,16 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
+    "dataQuality": "94.0",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T10:16:53.421Z",
+    "completenessPercentage": 94,
+    "pagesScraped": [
+      "prisliste",
+      "greenfee"
+    ],
+    "scrapedAt": "2026-02-14T16:17:00.000Z",
     "createdAt": "2025-10-31T10:16:53.422Z",
-    "updatedAt": "2025-11-03T09:09:46.154Z"
-  }
+    "updatedAt": "2026-02-14T16:17:00.000Z"
+  },
+  "googlePlaceId": "ChIJSdpfMtNYPEYRxUAAJcoq6Lg"
 }

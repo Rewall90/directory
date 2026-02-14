@@ -46,7 +46,7 @@
     "website": "https://steinkjer-golfklubb.no/",
     "facebook": "https://www.facebook.com/steinkjergolfklubb/",
     "instagram": null,
-    "golfbox": false
+    "golfbox": true
   },
   "phoneNumbers": [
     {
@@ -111,22 +111,89 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 350,
       "greenFeeWeekday": 350,
       "greenFeeWeekend": 350,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Turneringsgreenfee: voksen 175, junior 125, bedriftsgolf 150.",
+      "greenFeeTournament": 175,
+      "greenFeeTournamentJunior": 125,
+      "greenFeeCorporate": 150,
+      "greenFeeDescription": "Greenfee 350 kr. Turneringsgreenfee: voksen 175 kr, junior 125 kr, bedriftsgolf 150 kr. Betales via Vipps 723565.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemsfordeler inkl. rabatter hos ORION Pizza; greenfee-avtaler."
+      "notes": "Greenfeesamarbeid med andre klubber: Austrått GK 175 kr, Frosta GK 250 kr, Namdal GK 175 kr, Røros GK 175 kr, Stiklestad GK 245 kr, Namsos GK 175 kr, Nærøysund GK 175 kr.",
+      "vipps": "723565"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": [
+      {
+        "category": "Hovedmedlem",
+        "price": 3950,
+        "description": "Full spillerett. Fra det året de fyller 21 år.",
+        "ageRange": "21+"
+      },
+      {
+        "category": "Familie",
+        "price": 6200,
+        "description": "Ektefelle/samboer og hjemmeboende barn inntil 21 år på samme adresse.",
+        "ageRange": null
+      },
+      {
+        "category": "Student",
+        "price": 2000,
+        "description": "Fulltidsstudenter fra 21 t.o.m. 28 år. Gyldig studiebevis kreves.",
+        "ageRange": "21-28"
+      },
+      {
+        "category": "Ungdom",
+        "price": 1300,
+        "description": "Fra det året de fyller 17 år t.o.m. 20 år.",
+        "ageRange": "17-20"
+      },
+      {
+        "category": "Barn 12-16",
+        "price": 500,
+        "description": "Barn t.o.m. det året de fyller 16 år.",
+        "ageRange": "12-16"
+      },
+      {
+        "category": "Barn t.o.m 11",
+        "price": 200,
+        "description": "Barn t.o.m. det året de fyller 11 år.",
+        "ageRange": "0-11"
+      },
+      {
+        "category": "Spillerett",
+        "price": 2700,
+        "description": "Krever hovedmedlemskap i annen klubb. Full spillerett.",
+        "ageRange": null
+      },
+      {
+        "category": "Fjernmedlem",
+        "price": 1700,
+        "description": "Bostedsadresse over 40 km fra Steinkjer. Spillerett mot greenfee.",
+        "ageRange": null
+      },
+      {
+        "category": "Prøv igjen",
+        "price": 2300,
+        "description": "For tidligere medlemmer før 2023 som vil prøve golf igjen. Kun sesongen 2025.",
+        "ageRange": null
+      },
+      {
+        "category": "Førsteårsmedlem",
+        "price": null,
+        "description": "50% av medlemskategorien. For nybegynnere som tar VTG kurs hos klubben. Første år som medlem.",
+        "ageRange": null
+      }
+    ]
+  },
   "ratings": {
     "google": {
       "rating": null,
@@ -161,11 +228,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T11:30:53.407Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjestespill",
+      "bli-medlem"
+    ],
+    "scrapedAt": "2026-02-14T16:40:00.000Z",
     "createdAt": "2025-10-31T11:30:53.408Z",
-    "updatedAt": "2025-11-03T09:10:07.961Z"
-  }
+    "updatedAt": "2026-02-14T16:40:00.000Z"
+  },
+  "googlePlaceId": "ChIJwxeKPNWEckYRJ84S1UvAiMY"
 }

@@ -109,24 +109,44 @@
     "discGolfStandard": null
   },
   "pricing": {
-    "2025": {
+    "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Gjester velkommen. Kontakt klubben for priser.",
+      "greenFeeWeekday18Holes": 450,
+      "greenFeeWeekday9Holes": 300,
+      "greenFeeWeekend18Holes": 580,
+      "greenFeeWeekend9Holes": 300,
+      "greenFeeJuniorWeekday18Holes": 200,
+      "greenFeeJuniorWeekday9Holes": 150,
+      "greenFeeJuniorWeekend18Holes": 250,
+      "greenFeeJuniorWeekend9Holes": 150,
+      "greenFeeDescription": "Voksne: Hverdag 450/300 kr, Helg 580/300 kr. Junior/Student: Hverdag 200/150 kr, Helg 250/150 kr. Naboklubber og greenfeemedlemmer får rabatt: Voksne 100 kr (18 hull), Junior 50 kr.",
+      "vtgCourse": 500,
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "NSG medlemmer: kr 835,- (50+ years). Mulighet til å spille for hyggelige 'hverdagspriser' på flere enn 80 baner i Norge"
+      "freeTrial": true,
+      "neighborClubDiscount": 100,
+      "neighborClubDiscountJunior": 50,
+      "notes": "Prøv golf i 30 dager gratis tilgjengelig. NSG medlemmer: kr 835,- (50+ years). VTG kurs fra 500 kr."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "fullMembership": 7300,
+      "distanceMembership": 3900,
+      "juniorMembership": 600,
+      "studentMembership": 2600,
+      "greenfeeOnlyMember": 2300,
+      "introMembershipWithoutCourse": 3900,
+      "introMembershipWithCourse": 4400,
+      "studentIntroWithCourse": 2600,
+      "newMember": 3900,
+      "notes": "Fjernmedlemskap for bosatt utenfor Hedmark/Oppland. Junior fra 600 kr avhengig av alder. Intromedlemskap inkl fritt spill uten kurs: 3900 kr. Med kurs: 4400 kr."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.2,
@@ -161,11 +181,16 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2025-10-31T07:18:13.249Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "home",
+      "gjester",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-02-14T16:07:00.000Z",
     "createdAt": "2025-10-31T07:18:13.251Z",
-    "updatedAt": "2025-11-03T09:09:48.955Z"
-  }
+    "updatedAt": "2026-02-14T16:07:00.000Z"
+  },
+  "googlePlaceId": "ChIJBc7YNy14akYRYpVc3dtRq8M"
 }
