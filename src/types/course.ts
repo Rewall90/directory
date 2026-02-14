@@ -1,5 +1,12 @@
 /**
  * Course data types for JSON file-based storage
+ *
+ * Schema version: 2.0 (Feb 2026)
+ * - Added Booking interface for booking actions
+ * - Enhanced Visitors with handicap/dressCode
+ * - Enhanced Pricing with more price tiers
+ * - Enhanced MembershipTier with proper structure
+ * - Added MembershipStatus for waitlist info
  */
 
 export interface Address {
@@ -12,6 +19,25 @@ export interface Coordinates {
   lat: number;
   lng: number;
   accuracy: string | null;
+}
+
+/**
+ * Booking information for visitors
+ * Enables "Book Now" actions on the course page
+ */
+export interface Booking {
+  /** Dedicated booking email (e.g., booking@klubb.no) */
+  email: string | null;
+  /** Dedicated booking phone */
+  phone: string | null;
+  /** Direct booking URL if available */
+  url: string | null;
+  /** Whether the club uses GolfBox for bookings */
+  golfboxEnabled: boolean;
+  /** How many days in advance guests can book */
+  windowDays: number | null;
+  /** Extra fee for booking more than windowDays in advance */
+  advanceBookingFee: number | null;
 }
 
 export interface CourseDetails {
@@ -64,6 +90,12 @@ export interface Visitors {
   walkingAllowed: boolean | null;
   nearbyCity: string | null;
   distanceFromCenter: string | null;
+  /** Maximum handicap allowed (null = no requirement) */
+  handicapRequired: number | null;
+  /** Dress code requirements (e.g., "Golfklær påkrevd") */
+  dressCode: string | null;
+  /** Typical round duration in minutes */
+  roundTimeMinutes: number | null;
 }
 
 export interface Organization {
@@ -112,11 +144,26 @@ export interface Facilities {
 
 export interface Pricing {
   currency: string;
+  /** Standard 18-hole greenfee (preferred over greenFeeWeekday) */
+  greenFee18: number | null;
+  /** 9-hole greenfee if offered */
+  greenFee9: number | null;
+  /** @deprecated Use greenFee18 instead */
   greenFeeDaily: number | null;
+  /** @deprecated Use greenFee18 instead */
   greenFeeWeekday: number | null;
+  /** Weekend/holiday surcharge if different from standard */
   greenFeeWeekend: number | null;
   greenFeeSenior: number | null;
   greenFeeJunior: number | null;
+  /** Student/military discount price */
+  greenFeeStudent: number | null;
+  /** Price when a member brings a guest */
+  greenFeeMemberGuest: number | null;
+  /** Twilight/evening price */
+  greenFeeTwilight: number | null;
+  /** When twilight pricing starts (e.g., "15:00") */
+  twilightStartTime: string | null;
   greenFeeDescription: string | null;
   cartRental: number | null;
   pullCartRental: number | null;
@@ -128,10 +175,43 @@ export interface Pricing {
 }
 
 export interface MembershipTier {
+  /** Internal category key (e.g., "voksen", "junior", "ung_voksen") */
   category: string;
+  /** Display name (e.g., "Voksen 31-99 år") */
+  name: string | null;
+  /** Full annual membership price (NOT just club dues) */
   price: number;
+  /** Separate club dues/kontingent if applicable */
+  clubDues: number | null;
+  /** Total annual cost (price + clubDues) */
+  totalAnnual: number | null;
   description: string | null;
+  /** Age range as string (e.g., "20-30") */
   ageRange: string | null;
+  /** Minimum age for this tier */
+  ageMin: number | null;
+  /** Maximum age for this tier */
+  ageMax: number | null;
+  /** Any restrictions (e.g., "Kun hverdager", "Maks 3 runder/uke") */
+  restrictions: string | null;
+}
+
+/**
+ * Membership availability and waitlist status
+ */
+export interface MembershipStatus {
+  /** Whether the club is currently accepting new members */
+  accepting: boolean | null;
+  /** Current membership status */
+  status: "open" | "waitlist" | "closed" | null;
+  /** Number of people on waiting list */
+  waitingListSize: number | null;
+  /** Estimated wait time in years */
+  waitingListYears: number | null;
+  /** One-time joining fee (innmeldingsavgift) */
+  joiningFee: number | null;
+  /** Note about joining fee */
+  joiningFeeNote: string | null;
 }
 
 export interface Rating {
@@ -179,6 +259,20 @@ export interface Source {
   scrapedAt: string | null;
 }
 
+/**
+ * Photo from Google Places API (runtime only, not persisted)
+ */
+export interface PlacePhoto {
+  /** Temporary URL from Google (expires after ~1 hour) */
+  url: string;
+  /** Attribution HTML required by Google ToS */
+  attributionHtml: string;
+  /** Photo width in pixels */
+  width: number;
+  /** Photo height in pixels */
+  height: number;
+}
+
 export interface Meta {
   dataQuality: string | null;
   websiteQuality: string | null;
@@ -199,16 +293,22 @@ export interface Course {
   country: string;
   address: Address;
   coordinates: Coordinates | null;
+  /** Google Place ID for fetching photos (optional) */
+  googlePlaceId?: string;
   course: CourseDetails;
   description: string | null;
   contact: Contact;
   phoneNumbers: PhoneNumber[];
+  /** Booking information for visitors (NEW in v2.0) */
+  booking: Booking | null;
   season: Season;
   visitors: Visitors;
   organization: Organization;
   facilities: Facilities | null;
   pricing: Record<string, Pricing>;
   membershipPricing: Record<string, MembershipTier[]>;
+  /** Membership availability and waitlist info (NEW in v2.0) */
+  membershipStatus: MembershipStatus | null;
   ratings: Record<string, Rating>;
   courseRatings: CourseRating[];
   nearbyCourses: NearbyCourse[];
@@ -230,6 +330,10 @@ export interface CourseSummary {
   par: number | null;
   coordinates: Coordinates | null;
   ratings: Record<string, Rating>;
+  /** Standard 18-hole greenfee for quick price comparison */
+  greenFee18: number | null;
+  /** Whether booking info is available (email, phone, or URL) */
+  bookingAvailable: boolean;
 }
 
 /**
