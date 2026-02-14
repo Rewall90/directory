@@ -3,13 +3,18 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getCourse, getAllCourses, calculateAverageRating } from "@/lib/courses";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
-import type { Course, Facilities } from "@/types/course";
+import type { Course, Facilities, Booking } from "@/types/course";
 import { StarRating } from "@/components/courses/StarRating";
 import { ExpandableDescription } from "./_components/ExpandableDescription";
 import { WeatherWidget } from "./_components/WeatherWidget";
 import { ExpandableFeatures } from "./_components/ExpandableFeatures";
 import { RatingCard } from "./_components/RatingCard";
 import { generateCourseBreadcrumb } from "@/lib/schema";
+import { getPlacePhotos } from "@/lib/google-places";
+import { CoursePhotos } from "@/components/courses/CoursePhotos";
+
+// Revalidate every 12 hours to keep photo URLs fresh
+export const revalidate = 43200;
 
 interface CoursePageProps {
   params: Promise<{
@@ -115,6 +120,35 @@ function getPhoneTypeLabel(type: string | null): string {
   return typeMap[type] || type;
 }
 
+/**
+ * Get the best booking action for a course
+ * Returns { type, value } where type is 'email' | 'phone' | 'url' | null
+ */
+function getBookingAction(
+  booking: Booking | null,
+  contact: Course["contact"],
+): {
+  type: "email" | "phone" | "url" | null;
+  value: string | null;
+  label: string;
+} {
+  // Priority: dedicated booking URL > booking email > booking phone > general contact
+  if (booking?.url) {
+    return { type: "url", value: booking.url, label: "Book online" };
+  }
+  if (booking?.email) {
+    return { type: "email", value: booking.email, label: "Book via e-post" };
+  }
+  if (booking?.phone) {
+    return { type: "phone", value: booking.phone, label: "Ring for booking" };
+  }
+  // Fallback to contact email if GolfBox is enabled
+  if (booking?.golfboxEnabled && contact.email) {
+    return { type: "email", value: contact.email, label: "Kontakt for booking" };
+  }
+  return { type: null, value: null, label: "" };
+}
+
 const formatter = new Intl.NumberFormat("no-NO");
 
 export async function generateMetadata({ params }: CoursePageProps): Promise<Metadata> {
@@ -169,6 +203,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
     notFound();
   }
 
+  // Fetch photos if Place ID exists
+  const photos = course.googlePlaceId ? await getPlacePhotos(course.googlePlaceId, 4) : [];
+
   const ratingData = calculateAverageRating(course.ratings);
   const facilityGroups = buildFacilityGroups(course.facilities);
 
@@ -186,6 +223,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
   // Get membership pricing for current year
   const currentYear = new Date().getFullYear().toString();
   const memberships = course.membershipPricing[currentYear] || [];
+
+  // Get booking action
+  const bookingAction = getBookingAction(course.booking ?? null, course.contact);
 
   // Get nearby courses with full data
   const nearbyCoursesData = course.nearbyCourses
@@ -287,6 +327,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
         <span className="text-text-primary">{course.name}</span>
       </nav>
 
+      {/* Course Photos */}
+      {photos.length > 0 && <CoursePhotos photos={photos} courseName={course.name} />}
+
       {/* Hero Section */}
       <section className="border-b border-border-subtle bg-background-surface py-8 md:py-16">
         <div className="container mx-auto max-w-[1170px] px-4">
@@ -325,17 +368,41 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap gap-3">
+            {/* Book Now - Primary CTA when booking is available */}
+            {bookingAction.type === "url" && bookingAction.value && (
+              <a
+                href={bookingAction.value}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                Book starttid
+              </a>
+            )}
+            {bookingAction.type === "email" && bookingAction.value && (
+              <a
+                href={`mailto:${bookingAction.value}?subject=Booking forespørsel - ${course.name}`}
+                className="btn-primary"
+              >
+                Book via e-post
+              </a>
+            )}
+            {bookingAction.type === "phone" && bookingAction.value && (
+              <a href={`tel:${bookingAction.value}`} className="btn-primary">
+                Ring for booking
+              </a>
+            )}
             {course.contact.website && (
               <a
                 href={course.contact.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary"
+                className={bookingAction.type ? "btn-secondary" : "btn-primary"}
               >
                 Besøk Nettside
               </a>
             )}
-            {primaryPhone && (
+            {primaryPhone && !bookingAction.type && (
               <a href={`tel:${primaryPhone.number}`} className="btn-secondary">
                 Ring
               </a>
@@ -584,19 +651,29 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
                   {/* Green Fees - 18 hull */}
                   <div className="mb-6">
-                    <h3 className="mb-3 font-semibold text-text-primary">Greenfee 18 hull</h3>
+                    <h3 className="mb-3 font-semibold text-text-primary">Greenfee</h3>
                     <div className="space-y-2">
-                      {pricing.greenFeeWeekday && (
+                      {/* Use greenFee18 as primary, fallback to greenFeeWeekday */}
+                      {(pricing.greenFee18 || pricing.greenFeeWeekday) && (
                         <div className="flex justify-between text-text-secondary">
-                          <span>Standard:</span>
+                          <span>18 hull:</span>
                           <span className="font-semibold text-text-primary">
-                            {formatter.format(pricing.greenFeeWeekday)} kr
+                            {formatter.format(pricing.greenFee18 ?? pricing.greenFeeWeekday ?? 0)}{" "}
+                            kr
+                          </span>
+                        </div>
+                      )}
+                      {pricing.greenFee9 && (
+                        <div className="flex justify-between text-text-secondary">
+                          <span>9 hull:</span>
+                          <span className="font-semibold text-text-primary">
+                            {formatter.format(pricing.greenFee9)} kr
                           </span>
                         </div>
                       )}
                       {pricing.greenFeeJunior && (
                         <div className="flex justify-between text-text-secondary">
-                          <span>Junior (0-18 år):</span>
+                          <span>Junior:</span>
                           <span className="font-semibold text-text-primary">
                             {formatter.format(pricing.greenFeeJunior)} kr
                           </span>
@@ -607,6 +684,26 @@ export default async function CoursePage({ params }: CoursePageProps) {
                           <span>Senior:</span>
                           <span className="font-semibold text-text-primary">
                             {formatter.format(pricing.greenFeeSenior)} kr
+                          </span>
+                        </div>
+                      )}
+                      {pricing.greenFeeTwilight && (
+                        <div className="flex justify-between text-text-secondary">
+                          <span>
+                            Kveld
+                            {pricing.twilightStartTime ? ` (fra ${pricing.twilightStartTime})` : ""}
+                            :
+                          </span>
+                          <span className="font-semibold text-text-primary">
+                            {formatter.format(pricing.greenFeeTwilight)} kr
+                          </span>
+                        </div>
+                      )}
+                      {pricing.greenFeeMemberGuest && (
+                        <div className="flex justify-between text-text-secondary">
+                          <span>Medlems gjest:</span>
+                          <span className="font-semibold text-text-primary">
+                            {formatter.format(pricing.greenFeeMemberGuest)} kr
                           </span>
                         </div>
                       )}
@@ -661,50 +758,112 @@ export default async function CoursePage({ params }: CoursePageProps) {
               )}
 
               {/* Membership Pricing */}
-              {memberships.length > 0 && (
+              {(memberships.length > 0 || course.membershipStatus) && (
                 <div className="rounded-lg bg-background-surface p-6 shadow-sm">
                   <h2 className="mb-4 text-2xl font-semibold text-text-primary">
                     Medlemskap {currentYear}
                   </h2>
 
-                  {/* Joining Fee */}
-                  <div className="mb-6 rounded-lg border border-border-subtle bg-background-hover p-4">
-                    <div className="font-semibold text-text-primary">Innmeldingsavgift</div>
-                    <div className="mt-1 text-2xl font-bold text-text-primary">70 000 kr</div>
-                    <div className="mt-1 text-sm text-text-secondary">Engangsavgift ved opptak</div>
-                  </div>
-
-                  <div className="space-y-4">
-                    {memberships.map((membership, index) => (
-                      <div
-                        key={index}
-                        className="rounded-lg border border-border-subtle bg-background-hover p-4"
-                      >
-                        <div className="mb-2 flex items-start justify-between">
-                          <div>
-                            <h3 className="font-semibold capitalize text-text-primary">
-                              {membership.category.replace(/_/g, " ")}
-                              {membership.ageRange && (
-                                <span className="ml-2 text-sm font-normal text-text-tertiary">
-                                  ({membership.ageRange})
-                                </span>
-                              )}
-                            </h3>
-                            {membership.description && (
-                              <p className="mt-1 text-sm text-text-secondary">
-                                {membership.description}
-                              </p>
-                            )}
+                  {/* Membership Status - Waitlist info */}
+                  {course.membershipStatus && (
+                    <div className="mb-6">
+                      {course.membershipStatus.status === "waitlist" && (
+                        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 dark:border-amber-800 dark:bg-amber-900/20">
+                          <div className="flex items-center gap-2 font-semibold text-amber-800 dark:text-amber-200">
+                            <span>⏳</span>
+                            <span>Venteliste</span>
                           </div>
-                          <div className="text-right">
-                            <div className="text-xl font-bold text-text-primary">
-                              {formatter.format(membership.price)} NOK
-                            </div>
+                          {course.membershipStatus.waitingListSize && (
+                            <p className="mt-1 text-sm text-amber-700 dark:text-amber-300">
+                              Ca. {formatter.format(course.membershipStatus.waitingListSize)}{" "}
+                              personer på venteliste
+                            </p>
+                          )}
+                          {course.membershipStatus.waitingListYears && (
+                            <p className="mt-1 text-sm text-amber-700 dark:text-amber-300">
+                              Estimert ventetid: {course.membershipStatus.waitingListYears} år
+                            </p>
+                          )}
+                          {course.membershipStatus.joiningFeeNote && (
+                            <p className="mt-1 text-sm text-amber-700 dark:text-amber-300">
+                              {course.membershipStatus.joiningFeeNote}
+                            </p>
+                          )}
+                        </div>
+                      )}
+                      {course.membershipStatus.status === "open" && (
+                        <div className="rounded-lg border border-green-200 bg-green-50 p-4 dark:border-green-800 dark:bg-green-900/20">
+                          <div className="flex items-center gap-2 font-semibold text-green-800 dark:text-green-200">
+                            <span>✓</span>
+                            <span>Åpent for nye medlemmer</span>
                           </div>
                         </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* Joining Fee */}
+                  {course.membershipStatus?.joiningFee && (
+                    <div className="mb-6 rounded-lg border border-border-subtle bg-background-hover p-4">
+                      <div className="font-semibold text-text-primary">Innmeldingsavgift</div>
+                      <div className="mt-1 text-2xl font-bold text-text-primary">
+                        {formatter.format(course.membershipStatus.joiningFee)} kr
                       </div>
-                    ))}
-                  </div>
+                      <div className="mt-1 text-sm text-text-secondary">
+                        Engangsavgift ved opptak
+                      </div>
+                    </div>
+                  )}
+
+                  {memberships.length > 0 && (
+                    <div className="space-y-4">
+                      {memberships.map((membership, index) => {
+                        // Use totalAnnual if available, otherwise calculate or use price
+                        const displayPrice =
+                          membership.totalAnnual ??
+                          (membership.clubDues
+                            ? membership.price + membership.clubDues
+                            : membership.price);
+
+                        return (
+                          <div
+                            key={index}
+                            className="rounded-lg border border-border-subtle bg-background-hover p-4"
+                          >
+                            <div className="mb-2 flex items-start justify-between">
+                              <div>
+                                <h3 className="font-semibold text-text-primary">
+                                  {/* Use name if available, otherwise format category */}
+                                  {membership.name || membership.category.replace(/_/g, " ")}
+                                </h3>
+                                {membership.restrictions && (
+                                  <p className="mt-1 text-sm text-amber-600 dark:text-amber-400">
+                                    {membership.restrictions}
+                                  </p>
+                                )}
+                                {membership.description && !membership.restrictions && (
+                                  <p className="mt-1 text-sm text-text-secondary">
+                                    {membership.description}
+                                  </p>
+                                )}
+                              </div>
+                              <div className="text-right">
+                                <div className="text-xl font-bold text-text-primary">
+                                  {formatter.format(displayPrice)} kr
+                                </div>
+                                {membership.clubDues && membership.price > 0 && (
+                                  <div className="text-xs text-text-tertiary">
+                                    (inkl. {formatter.format(membership.clubDues)} kr klubbavgift)
+                                  </div>
+                                )}
+                                <div className="text-xs text-text-tertiary">per år</div>
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
               )}
 
@@ -898,10 +1057,28 @@ export default async function CoursePage({ params }: CoursePageProps) {
                       <span>Gåing tillatt</span>
                     </div>
                   )}
+                  {course.visitors.handicapRequired && (
+                    <div>
+                      <div className="font-semibold text-text-primary">Handicap-krav</div>
+                      <p>Maks HCP {course.visitors.handicapRequired}</p>
+                    </div>
+                  )}
+                  {course.visitors.dressCode && (
+                    <div>
+                      <div className="font-semibold text-text-primary">Kleskode</div>
+                      <p>{course.visitors.dressCode}</p>
+                    </div>
+                  )}
                   {course.visitors.distanceFromCenter && (
                     <div>
-                      <div className="font-semibold text-text-primary">Avstand</div>
+                      <div className="font-semibold text-text-primary">Avstand fra sentrum</div>
                       <p>{course.visitors.distanceFromCenter}</p>
+                    </div>
+                  )}
+                  {course.booking?.windowDays && (
+                    <div>
+                      <div className="font-semibold text-text-primary">Booking</div>
+                      <p>Book inntil {course.booking.windowDays} dager i forveien</p>
                     </div>
                   )}
                 </div>
