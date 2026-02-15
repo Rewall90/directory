@@ -144,6 +144,22 @@
       "drivingRangeBalls30": 40,
       "drivingRangeSystem": "GolfMore",
       "notes": "Green fee gjelder hele dagen. Golfbil kan kun leies med åpent klubbhus med mindre du har forhåndsbestilt."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18Weekday": 550,
+      "greenFee18Weekend": 650,
+      "greenFee9Weekday": 330,
+      "greenFee9Weekend": 390,
+      "greenFeeJuniorDiscount": "50%",
+      "payAndPlayDaily": 200,
+      "payAndPlayJuniorDiscount": "50%",
+      "payAndPlayClubRentalFree": true,
+      "cartRentalWeekday": 300,
+      "cartRentalWeekend": 400,
+      "drivingRangeBalls30": 40,
+      "drivingRangeSystem": "GolfMore",
+      "notes": "Green fee gjelder hele dagen. Golfbil kan kun leies med åpent klubbhus med mindre du har forhåndsbestilt. Priser hentet fra nettsiden som ikke spesifiserer årstall - identiske med 2025."
     }
   },
   "membershipPricing": {
@@ -255,13 +271,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "gjester/priser",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T15:34:00.000Z",
+    "pagesScraped": ["gjester/priser", "medlemskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:44:56.868Z",
-    "updatedAt": "2026-02-14T15:34:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ_zSAZXbROUYRsf34wxXpDSg"
 }

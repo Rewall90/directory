@@ -134,6 +134,27 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Golfbil 200 kr (maks 4 timer/18h), 50% rabatt med legeerklæring. Traller til utleie. Ballkort/årskort rangeballer 400 kr, etterfylling 500 kr. VTG-kurs deltakere får 50% rabatt på medlemskap de 2 første årene."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 500,
+      "greenFee9": 350,
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 200,
+      "greenFeeBarn": 0,
+      "greenFeeGolfamore": 250,
+      "greenFeeDescription": "Greenfee 2026: Ordinær 18h 500 kr, 9h 350 kr. Junior (13-19 år) 200 kr (gratis for medlemmer hos Tjøme, Sandefjord, Kragerø, Norsjø). Barn (6-12 år) gratis. Golfamore 250 kr/runde (maks 3 runder pr. år). Tee-tid obligatorisk via Golfbox.",
+      "cartRental": 200,
+      "cartRentalMedical": 100,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golfbil 200 kr (maks 4 timer/18h), 50% rabatt med legeerklæring. Traller til utleie. Booking av golfbil må gjøres manuelt til klubbkontoret."
     }
   },
   "membershipPricing": {
@@ -232,14 +253,10 @@
     "dataQuality": "95.0",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "prisliste",
-      "arsavgifter",
-      "medlemsfordeler"
-    ],
-    "scrapedAt": "2026-02-14T17:45:00.000Z",
+    "pagesScraped": ["prisliste", "arsavgifter", "medlemsfordeler", "golfbil"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:10:45.985Z",
-    "updatedAt": "2026-02-14T17:45:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ2ZLeIfTJRkYRfSIFDsGcNIM"
 }

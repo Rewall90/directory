@@ -111,19 +111,35 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 300,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Golfamore: 50% rabatt. Se namsosgolf.no for satser.",
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee gjelder ubegrenset spill hele dagen. Selvbetjening via konvolutt i klubbhus eller Vipps #89460.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfamore halv greenfee; klubbhus med servering."
+      "notes": "Golfamore halv greenfee. Rabattavtaler med Namdal GK, Stiklestad GK, Steinkjer GK og Klæbu GK. Priser hentet fra arkivert nettside (2021-satser, sist bekreftet aug 2022)."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 300,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee gjelder ubegrenset spill hele dagen. Selvbetjening via konvolutt i klubbhus eller Vipps #89460. Ingen bestilling av utslagstid nødvendig.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser basert på sist kjente satser (2021). Nettside namsosgolf.no er nede (domene utløpt). Golfamore tilbyr 50% rabatt. Rabattavtaler med Namdal GK, Stiklestad GK, Steinkjer GK og Klæbu GK."
     }
   },
   "membershipPricing": {},
@@ -163,13 +179,11 @@
     "dataQuality": "good",
     "websiteQuality": "unavailable",
     "completenessPercentage": 70,
-    "pagesScraped": [
-      "facebook-page"
-    ],
-    "scrapedAt": "2026-02-14T16:29:00.000Z",
+    "pagesScraped": ["facebook-page", "wayback-machine-greenfee-2022"],
+    "scrapedAt": "2026-02-15T14:00:00.000Z",
     "createdAt": "2025-10-31T11:30:52.124Z",
-    "updatedAt": "2026-02-14T16:29:00.000Z",
-    "notes": "Website namsosgolf.no is unavailable (DNS not resolving). Only Facebook page accessible."
+    "updatedAt": "2026-02-15T14:00:00.000Z",
+    "notes": "Website namsosgolf.no is unavailable (domain expired). Greenfee prices sourced from Wayback Machine archive (2021 rates, last captured Aug 2022). Facebook page requires login."
   },
   "googlePlaceId": "ChIJ7_39dfLockYRUxGtyrxdP9Y"
 }

@@ -87,10 +87,10 @@
     "proShop": true,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
+    "clubRental": true,
     "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": null,
     "teachingPro": false,
     "clubFitting": null,
@@ -123,7 +123,8 @@
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": 200,
-      "greenFeeDescription": "9 hull: 350 kr, 18 hull: 550 kr (book 2x9 hull). Junior (t.o.m. 19 år): 200/350 kr. Gjest av medlem: 9 hull 225 kr, 18 hull 350 kr.",
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "9 hull: 350 kr, 18 hull: 550 kr (book 2x9 hull, ubenyttet back nine refunderes ikke). Junior (t.o.m. 19 år): 200/350 kr (begrensede starttider). Gjest av medlem: 9 hull 225 kr, 18 hull 350 kr. Alle spillere må reserveres under eget navn i Golfbox.",
       "cartRental": 400,
       "cartRental9": 250,
       "pullCartRental": null,
@@ -131,7 +132,7 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbiler kun til gjester eller medlemmer med legeattest. Traller og golfutstyr/køller kan leies."
+      "notes": "Golfbiler kun til gjester eller medlemmer med legeerklæring. Traller og golfutstyr/køller kan leies. Alle spillere må registrere seg i klubbhuset før spill."
     }
   },
   "membershipPricing": {
@@ -180,14 +181,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "gjester",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T15:55:00.000Z",
+    "pagesScraped": ["homepage", "gjester", "medlemskap", "trening-og-kurs/priser"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:10.556Z",
-    "updatedAt": "2026-02-14T15:55:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJBXdTsx9oQUYR-tgtOHShB6c"
 }

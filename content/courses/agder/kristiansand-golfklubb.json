@@ -135,20 +135,33 @@
     },
     "2026": {
       "currency": "NOK",
+      "greenFee18": 475,
+      "greenFee9": 375,
+      "greenFeeWeekday": 475,
+      "greenFeeWeekend": 475,
+      "greenFeeJunior": null,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
+      "greenFeeDaily": null,
       "greenFee18Season": 475,
       "greenFee18Shoulder": 400,
+      "greenFee9Season": 375,
+      "greenFee9Shoulder": 300,
       "greenFee9Discount": 100,
       "greenFeeKorthullsbane": 0,
       "greenFeeMember18": 300,
       "greenFeeMember9": 200,
       "greenFeeBjaavannDiscount": 100,
       "seasonDates": "1/5 - 15/9",
+      "cartRental": 350,
       "cartRental9": 250,
       "cartRental18": 350,
       "clubRental": 150,
+      "pullCartRental": null,
       "drivingRangeBalls20": 25,
       "drivingRangeBalls40": 45,
-      "notes": "Medlemmer Bjaavann Golfklubb får kr. 100,- i rabatt på gjeldende priser"
+      "greenFeeDescription": "Gjester: 18h 475 NOK (1/5-15/9), 400 NOK skuldersesong. 9h: 100 NOK rabatt. Korthullsbane gratis. Medlemmer: 18h 300 NOK, 9h 200 NOK. Bjaavann-medlemmer 100 NOK rabatt.",
+      "notes": "Medlemmer Bjaavann Golfklubb får kr. 100,- i rabatt på gjeldende priser. Ingen separat helg/ukedag-pris - same pris hele uken i sesong."
     }
   },
   "membershipPricing": {
@@ -349,13 +362,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "gjester/priser",
-      "medlemskap/priser-medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T15:27:00.000Z",
+    "pagesScraped": ["gjester/priser", "medlemskap/priser-medlemskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T13:27:24.035Z",
-    "updatedAt": "2026-02-14T15:27:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJjeoDO5QBOEYR75LPCKEvFao"
 }

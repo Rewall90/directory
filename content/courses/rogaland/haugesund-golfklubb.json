@@ -155,6 +155,28 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "9-hulls bane. Greenfee gjelder hele dagen."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 300,
+      "greenFee9Holes": 300,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "9-hulls Folkebane: 300 kr for hele dagen. 6-hulls Pitch & Putt: 150 kr (gratis for medlemmer). Driving range: halv bøtte 50 kr, full bøtte 100 kr. Simulator: 200 kr/time.",
+      "drivingRangeSmall": 50,
+      "drivingRangeLarge": 100,
+      "simulator": 200,
+      "pitchPutt": 150,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "9-hulls bane. Greenfee gjelder hele dagen. Priser hentet fra nettsiden februar 2026 - nettsiden viser ikke egne 2026-priser, disse er de gjeldende prisene."
     }
   },
   "membershipPricing": {
@@ -381,7 +403,7 @@
     ],
     "scrapedAt": "2026-02-14T15:58:00.000Z",
     "createdAt": "2025-10-31T07:46:22.054Z",
-    "updatedAt": "2026-02-14T15:58:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ7ROkAjyfO0YREAAaU_uSPO8"
 }

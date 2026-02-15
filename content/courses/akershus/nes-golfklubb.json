@@ -84,8 +84,8 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": null,
     "teachingPro": false,
     "clubFitting": null,
@@ -121,7 +121,7 @@
       "greenFeeJuniorMember": 200,
       "greenFeeTwilight": 300,
       "greenFeeTwilightMember": 250,
-      "greenFeeDescription": "Twilight golf etter kl. 19:00. Medlemmer av Norsk Senior Golf får 100 kr rabatt.",
+      "greenFeeDescription": "Twilight golf etter kl. 19:00. Medlemmer av Norsk Senior Golf og NGK-medlemmer får 100 kr rabatt på 18-hull. PGA-kortinnehavere: 1 gratis runde per sesong.",
       "cartRental": 390,
       "pullCartRental": 70,
       "clubRental": null,
@@ -220,15 +220,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "medlemskap",
-      "spillerett",
-      "gjestespill"
-    ],
-    "scrapedAt": "2026-02-14T17:34:00.000Z",
+    "pagesScraped": ["homepage", "medlemskap", "spillerett", "gjestespill"],
+    "scrapedAt": "2026-02-15T14:00:00.000Z",
     "createdAt": "2025-10-31T11:23:13.440Z",
-    "updatedAt": "2026-02-14T17:34:00.000Z"
+    "updatedAt": "2026-02-15T14:00:00.000Z"
   },
   "googlePlaceId": "ChIJcRhPifIrQkYRzl3733MI0wQ"
 }

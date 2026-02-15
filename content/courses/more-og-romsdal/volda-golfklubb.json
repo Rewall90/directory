@@ -236,14 +236,10 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "index",
-      "bana/greenfee",
-      "om-klubben/medlemsskap"
-    ],
+    "pagesScraped": ["index", "bana/greenfee", "om-klubben/medlemsskap"],
     "scrapedAt": "2026-02-14T17:00:00.000Z",
     "createdAt": "2025-10-31T09:31:12.385Z",
-    "updatedAt": "2026-02-14T17:00:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJkVbuFDrlFkYRyZu1432nDr8"
 }

@@ -289,11 +289,7 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "gjestespill/greenfee",
-      "medlemskap-og-priser"
-    ],
+    "pagesScraped": ["homepage", "gjestespill/greenfee", "medlemskap-og-priser"],
     "scrapedAt": "2026-02-14T16:16:00.000Z",
     "createdAt": "2025-10-31T11:30:49.448Z",
     "updatedAt": "2026-02-14T16:16:00.000Z"

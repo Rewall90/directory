@@ -129,6 +129,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Familie greenfee: 600 kr for 2 voksne + 2 barn/junior"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 175,
+      "greenFee18": 350,
+      "greenFee9": 250,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee 2026: 18 hull 350 kr (junior 175 kr), 9 hull 250 kr (junior 125 kr). Familie greenfee 600 kr (2 voksne + 2 barn/junior). Vintergreenfee 01.11-31.03: 250 kr (9 og 18 hull). NSG-medlemmer får halv greenfee hverdager før kl 14:00.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Familie greenfee: 600 kr for 2 voksne + 2 barn/junior. Junior 9 hull: 125 kr."
     }
   },
   "membershipPricing": {
@@ -213,13 +232,10 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": [
-      "https://www.randaberggolf.no/",
-      "https://www.randaberggolf.no/blimedlem"
-    ],
-    "scrapedAt": "2026-02-14T16:11:00.000Z",
+    "pagesScraped": ["https://www.randaberggolf.no/", "https://www.randaberggolf.no/blimedlem"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:26.389Z",
-    "updatedAt": "2026-02-14T16:11:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJCc3cIYe0O0YRcqXE5WSUhtE"
 }

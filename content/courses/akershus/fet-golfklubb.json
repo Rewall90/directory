@@ -134,6 +134,17 @@
       "greenFeeRomerikeDiscount": 50,
       "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Gjestespillere fra Romerike GK får kr 50 rabatt.",
       "notes": "Golfkortet kreves for å spille. Betal med Vipps."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 270,
+      "greenFeeJunior": 100,
+      "greenFeeGreenfeeMember": 100,
+      "greenFeeAksjeeier": 0,
+      "greenFeeJuniorMember": 0,
+      "greenFeeRomerikeDiscount": 50,
+      "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Gjestespillere fra Romerike GK får kr 50 rabatt.",
+      "notes": "Golfkortet kreves for å spille. Betal med Vipps. 9-hulls bane, dagspris gjelder ubegrenset antall runder. 2026-priser ikke offisielt publisert ennå, banen er sesongstengt. Priser hentet fra nettside per feb 2026."
     }
   },
   "membershipPricing": {
@@ -217,9 +228,9 @@
       "https://www.fetgk.no/banen/",
       "https://www.fetgk.no/klubben/"
     ],
-    "scrapedAt": "2026-02-14T15:46:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:09.939Z",
-    "updatedAt": "2026-02-14T15:46:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJTfe9AqpiQUYRjpImZOHV8TQ"
 }

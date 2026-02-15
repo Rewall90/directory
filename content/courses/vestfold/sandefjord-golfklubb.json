@@ -260,10 +260,7 @@
     "dataQuality": "96.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 96,
-    "pagesScraped": [
-      "greenfee",
-      "bli-medlem"
-    ],
+    "pagesScraped": ["greenfee", "bli-medlem"],
     "scrapedAt": "2026-02-14T17:00:00.000Z",
     "createdAt": "2025-10-31T09:10:43.446Z",
     "updatedAt": "2026-02-14T17:00:00.000Z"

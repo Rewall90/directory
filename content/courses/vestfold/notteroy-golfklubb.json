@@ -207,7 +207,7 @@
   "ratings": {
     "google": {
       "rating": 4.2,
-      "reviewCount": 115,
+      "reviewCount": 116,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=7285741566835216422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -240,10 +240,7 @@
     "dataQuality": "96.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 96,
-    "pagesScraped": [
-      "forside",
-      "medlemskap"
-    ],
+    "pagesScraped": ["forside", "medlemskap"],
     "scrapedAt": "2026-02-14T16:35:00.000Z",
     "createdAt": "2025-10-31T09:10:42.986Z",
     "updatedAt": "2026-02-14T16:35:00.000Z"

@@ -127,6 +127,25 @@
       "specialOfferIncludes": "5 stk greenfee via GolfMore-appen",
       "freeTrial": null,
       "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester. Buggy kun for medisinske årsaker."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 850,
+      "greenFeeWeekday": 850,
+      "greenFeeWeekend": 850,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFee9Hole": 510,
+      "greenFeeEarlyBird": 650,
+      "greenFeeTwilight": 650,
+      "greenFeeDescription": "18 hull: 850 kr (hverdager 08:00-19:00 og helg). Early Bird (hverdager før 08:00): 650 kr. Twilight (hverdager etter 19:00): 650 kr. 9 hull: 390 kr (hverdager før 08:00), 510 kr (etter 08:00 og helg). Medlemsrabatt: 5 stk greenfee via GolfMore for 2750 kr.",
+      "cartRental": 350,
+      "pullCartRental": 50,
+      "clubRental": 350,
+      "specialOfferPrice": 2750,
+      "specialOfferIncludes": "5 stk greenfee via GolfMore-appen",
+      "freeTrial": null,
+      "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester. Buggy kun for medisinske årsaker."
     }
   },
   "membershipPricing": {
@@ -265,7 +284,7 @@
     ],
     "scrapedAt": "2026-02-14T16:21:00.000Z",
     "createdAt": "2025-10-31T07:46:27.633Z",
-    "updatedAt": "2026-02-14T16:21:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJBfIuGsBKOkYR4TILVNiVWQk"
 }

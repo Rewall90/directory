@@ -41,10 +41,10 @@
   "description": "Open parkland-style course with long tree-lined fairways, water hazards, and bunkers. All activities centered around the barn. New junior tee (Tee 28, 2,800m) added in 2022.",
   "contact": {
     "phone": "91690904",
-    "email": null,
-    "emailAlt": null,
+    "email": "admin@nesgolf.no",
+    "emailAlt": "proshop@rommengolfpark.no",
     "website": "https://nesgolf.no/",
-    "facebook": null,
+    "facebook": "https://www.facebook.com/NesGolfklubb09",
     "instagram": null,
     "golfbox": false
   },
@@ -89,10 +89,10 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": null,
-    "teachingPro": false,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": null,
     "showers": null,
@@ -100,7 +100,7 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
+    "simulator": true,
     "simulatorType": null,
     "simulatorCourses": null,
     "simulatorNotes": null,
@@ -129,6 +129,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 580,
+      "greenFee9": 300,
+      "greenFeeWeekday": 480,
+      "greenFeeWeekend": 580,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 300,
+      "greenFeeTwilight": 300,
+      "twilightStartTime": "19:00",
+      "greenFeeDescription": "Weekdays 480 NOK, Weekends 580 NOK, 9-hole 300 NOK, Twilight (after 19:00) 300 NOK, Junior (up to 18 years) 300 NOK. Member prices: Weekdays 380, Weekends 480, 9-hole 250, Twilight 250, Junior 200. Members can bring 1 guest with 100 NOK discount on 18-hole greenfee. Norsk Senior Golf members and Nes Golfklubb members get 100 NOK discount on 18-hole greenfee. PGA card holders: 1 free round per season. Golfamore valid all days.",
+      "cartRental": 390,
+      "pullCartRental": 70,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Prices listed on website from 2025 season, likely valid for 2026 until updated. Booking via Golfbox. Guests can book 1 week in advance."
     }
   },
   "membershipPricing": {},
@@ -166,15 +185,13 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": "pending",
-    "completenessPercentage": 90,
-    "pagesScraped": [
-      "homepage"
-    ],
-    "scrapedAt": "2026-02-14T17:45:00.000Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": ["homepage", "gjestespill"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:15.232Z",
-    "updatedAt": "2026-02-14T17:45:00.000Z",
-    "note": "Website (rommengolfpark.no) under construction. Uses same facilities as Nes Golfklubb (nesgolf.no)."
+    "updatedAt": "2026-02-15T12:00:00.000Z",
+    "note": "Website (rommengolfpark.no) under construction. Uses same facilities as Nes Golfklubb (nesgolf.no). Pricing scraped from nesgolf.no/banen/gjestespill."
   },
   "googlePlaceId": "ChIJcRhPifIrQkYRzl3733MI0wQ"
 }

@@ -123,6 +123,17 @@
       "greenFeeDescription": "Greenfee priser for 9 hull. Book 2 runder for 18 hull (minimum 2 timer & 20 min mellom runder). Forhåndsbetaling fra 1. juni 2025.",
       "practiceField": 100,
       "notes": "Hcp krav hovedbane: 54/54. Korthullsbane: Pay & play (ingen). Tidsbestilling 10 dager før i Golfbox."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee9": "330-430",
+      "greenFee9Junior": 280,
+      "greenFeeShortCourse": 100,
+      "greenFeeSeason": 3700,
+      "greenFeeDescription": "Greenfee priser for 9 hull. Book 2 runder for 18 hull. Forhåndsbetaling av greenfee. 2026-priser ikke publisert ennå, 2025-priser videreført inntil oppdatering.",
+      "practiceField": 100,
+      "pullCartRental": "Gratis for sesongkortmedlemmer (Pluss Loyalty)",
+      "notes": "Hcp krav hovedbane: 54/54. Korthullsbane: Pay & play (ingen). Tidsbestilling 10 dager før i Golfbox. Trackman Range åpner våren 2026."
     }
   },
   "membershipPricing": {},
@@ -164,11 +175,13 @@
     "completenessPercentage": 92,
     "pagesScraped": [
       "homepage",
-      "gjester/gjestespill-greenfee"
+      "gjester/gjestespill-greenfee",
+      "medlemmer/prisliste-medlemskap",
+      "trackman-range/trackman-range"
     ],
-    "scrapedAt": "2026-02-14T17:48:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:16.053Z",
-    "updatedAt": "2026-02-14T17:48:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJnWBejTBOQUYR03P_WdbAyXM"
 }

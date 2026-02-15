@@ -84,7 +84,7 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": false,
     "golfLessons": null,
     "teachingPro": false,
@@ -114,8 +114,8 @@
       "greenFee9": 275,
       "greenFee18": 425,
       "greenFeeJunior": "50% rabatt",
-      "greenFeeSenior": "50% rabatt (NSG kort, 3 ganger/år, kl. 08-14)",
-      "greenFeeGolfamore": "50% rabatt på én runde/år",
+      "greenFeeSenior": "50% rabatt (NSG kort, 3 ganger/år, alle dager, kl. 08-14, kun 18 hull)",
+      "greenFeeGolfamore": "50% rabatt på én 18 eller 9 hulls runde/år. Golfamore+ gir mulighet for gjentatt spill til halv pris.",
       "greenFeeDescription": "Greenfee for gjestespillere. Medlemmer av Askim GK, Krokhol GK og Borregaard GK spiller gratis (Askim/Krokhol: 1. mai - 15. okt).",
       "cartRental18": 300,
       "cartRental9": 200,
@@ -131,7 +131,7 @@
   "ratings": {
     "google": {
       "rating": 4.3,
-      "reviewCount": 29,
+      "reviewCount": 30,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=4900697438532936300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -164,13 +164,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "klubb/gjest"
-    ],
-    "scrapedAt": "2026-02-14T17:46:00.000Z",
+    "pagesScraped": ["homepage", "klubb/gjest"],
+    "scrapedAt": "2026-02-15T15:46:00.000Z",
     "createdAt": "2025-10-31T11:23:15.692Z",
-    "updatedAt": "2026-02-14T17:46:00.000Z"
+    "updatedAt": "2026-02-15T15:46:00.000Z"
   },
   "googlePlaceId": "ChIJ85BzJ9BdQUYRbCJs91rGAkQ"
 }

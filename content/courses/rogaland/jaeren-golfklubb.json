@@ -149,6 +149,26 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Greenfee-medlemskap 2200 kr inkluderer 3 greenfees til banen, Golfbox-medlemskap og tilgang til klubbtreninger"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 400,
+      "greenFee9": 300,
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 200,
+      "greenFeeJunior9": 150,
+      "greenFeeTwilight": null,
+      "cartRental": null,
+      "clubRental": null,
+      "pullCartRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "greenFeeDescription": "Greenfee 18 hull: 400 kr, 9 hull: 300 kr. Junior 18 hull: 200 kr, 9 hull: 150 kr. Korthullsbanen: 50 kr/dag (ikke-medlemmer). Greenfee skal betales FØR utslag. Tidsbooking med forhåndsbetaling i Golfbox.",
+      "notes": "Greenfee-medlemskap 2500 kr inkluderer 3 greenfees til banen, Golfbox-medlemskap og tilgang til klubbtreninger. Rabattert greenfee-avtale med Ogna og Egersund Golfklubb for medlemmer."
     }
   },
   "membershipPricing": {
@@ -236,11 +256,13 @@
     "pagesScraped": [
       "https://www.jgk.no/",
       "https://www.jgk.no/kontingent",
-      "https://www.jgk.no/rabattertgreenfee"
+      "https://www.jgk.no/rabattertgreenfee",
+      "https://www.jgk.no/greenfeebooking",
+      "https://www.jgk.no/priser"
     ],
     "scrapedAt": "2026-02-14T16:01:00.000Z",
     "createdAt": "2025-10-31T07:46:23.030Z",
-    "updatedAt": "2026-02-14T16:01:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJtetFTCw_OkYRqKadQIKorD4"
 }

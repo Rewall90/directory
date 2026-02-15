@@ -148,6 +148,41 @@
         "Valdres GK"
       ],
       "notes": "Samarbeidsklubber og greenfeemedlemmer får 20% rabatt. Golfamore: 50% rabatt (1 runde, Plus inntil 3 runder hverdager). Booking via Golfbox eller tlf 61275760. VIPPS betaling til 522701."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeWeekday9Holes": 350,
+      "greenFeeWeekday18Holes": 450,
+      "greenFeeWeekend9Holes": 400,
+      "greenFeeWeekend18Holes": 500,
+      "greenFeeJuniorDiscount": "50%",
+      "greenFeeNSG9Holes": 200,
+      "greenFeeNSG18Holes": 350,
+      "greenFeeDescription": "Man-fre: 350 kr (9 hull), 450 kr (18 hull). Helg: 400 kr (9 hull), 500 kr (18 hull). Juniorer t.o.m. 19 år: halv pris. NSG fordelskort: 200 kr (9), 350 kr (18) hverdager før 15:00, max 3 runder/sesong. 20% rabatt for samarbeidsklubber og greenfeemedlemmer.",
+      "rangeBallCard15": 315,
+      "rangeBallCard30": 560,
+      "rangeBallDeposit": 50,
+      "rangeBallAutomat": 25,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "neighborClubDiscount": "20%",
+      "neighborClubs": [
+        "Skei GK",
+        "Mjøsen GK",
+        "Atlungstad GK",
+        "Elverum GK",
+        "Sorknes GK",
+        "Trysil GK",
+        "Gjøvik & Toten GK",
+        "Kongsvinger GK",
+        "Randsfjorden GK",
+        "Valdres GK"
+      ],
+      "notes": "Priser videreført fra 2025-sesongen. Nettsiden viser per feb 2026 kun 2025-priser (banen vinterstengt). Priser indeksregulert iht KPI. Samarbeidsklubber og greenfeemedlemmer får 20% rabatt. Golfamore: 50% rabatt (1 runde, Plus inntil 3 runder hverdager). Booking via Golfbox eller tlf 61275760. VIPPS betaling til 522701."
     }
   },
   "membershipPricing": {
@@ -201,14 +236,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 98,
-    "pagesScraped": [
-      "bane/booking-greenfee",
-      "medlemmer",
-      "kontakt"
-    ],
-    "scrapedAt": "2026-02-14T16:02:00.000Z",
+    "pagesScraped": ["bane/booking-greenfee", "medlemmer", "kontakt"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:12.405Z",
-    "updatedAt": "2026-02-14T16:02:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJWcqpP6uLakYRZSaCYNPyy-E"
 }

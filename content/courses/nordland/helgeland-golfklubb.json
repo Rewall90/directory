@@ -188,10 +188,7 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "hjem",
-      "klubben"
-    ],
+    "pagesScraped": ["hjem", "klubben"],
     "scrapedAt": "2026-02-14T16:00:00.000Z",
     "createdAt": "2025-10-31T09:43:38.991Z",
     "updatedAt": "2026-02-14T16:00:00.000Z"

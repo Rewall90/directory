@@ -129,6 +129,27 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK. Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFee9Voksen": 350,
+      "greenFee9UngVoksen": 300,
+      "greenFee9Junior": 250,
+      "greenFeeWeekly": 1500,
+      "greenFeeMonthly": 4000,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 250,
+      "greenFeeDescription": "9 hull: Voksen (30+) 350 kr, Ung-voksen (19-29) 300 kr, Junior (t.o.m. 19) 250 kr. Ukegreenfee 1500 kr, Månedsgreenfee 4000 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK. Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien. 2026 priser ikke offisielt publisert ennå, bruker 2025-priser."
     }
   },
   "membershipPricing": {
@@ -226,14 +247,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 98,
-    "pagesScraped": [
-      "homepage",
-      "kontigent-medlemskap",
-      "booking"
-    ],
-    "scrapedAt": "2026-02-14T16:46:00.000Z",
+    "pagesScraped": ["homepage", "kontigent-medlemskap", "booking"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:54.497Z",
-    "updatedAt": "2026-02-14T16:46:00.000Z",
+    "updatedAt": "2026-02-15T12:00:00.000Z",
     "notes": "Norway's most beautiful 9-hole course. Established 1950. Located in Bymarka with views over Trondheim. Golf Total joint membership with Stjørdal GK available."
   },
   "googlePlaceId": "ChIJLZdg6D0ybUYR-Z2MNkW5oKY"

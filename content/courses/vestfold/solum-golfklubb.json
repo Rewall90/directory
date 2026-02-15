@@ -185,7 +185,7 @@
   "ratings": {
     "google": {
       "rating": 3.7,
-      "reviewCount": 82,
+      "reviewCount": 84,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=6576294498974586018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -249,10 +249,7 @@
     "dataQuality": "95.0",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjestespiller",
-      "medlem"
-    ],
+    "pagesScraped": ["gjestespiller", "medlem"],
     "scrapedAt": "2026-02-14T17:20:00.000Z",
     "createdAt": "2025-10-31T09:10:44.982Z",
     "updatedAt": "2026-02-14T17:20:00.000Z"

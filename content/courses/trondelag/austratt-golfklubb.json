@@ -114,6 +114,7 @@
       "greenFeeDaily": null,
       "greenFeeWeekday": 350,
       "greenFeeWeekend": 350,
+      "greenFee9": 250,
       "greenFeeSenior": 350,
       "greenFeeJunior": 175,
       "greenFeeDescription": "Samarbeidsavtaler: Klæbu GK 200 kr/dag, Stiklestad GK 20% rabatt, Steinkjer GK 50% rabatt.",
@@ -124,6 +125,23 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Årlig medlemskap inkluderer 500 kr bidrag til utvikling av 18-hulls bane."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFee9": 250,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 175,
+      "greenFeeDescription": "Greenfee 9 hull kr 250, greenfee mer enn 9 hull kr 350. Junior halv pris. Samarbeidsavtaler: Klæbu GK 200 kr/dag, Stiklestad GK 20% rabatt, Steinkjer GK 50% rabatt.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Årlig medlemskap inkluderer 500 kr bidrag til utvikling av 18-hulls bane. Ingen utleie av golfbil, trillebar eller køller annonsert på nettside."
     }
   },
   "membershipPricing": {},
@@ -167,11 +185,14 @@
       "homepage",
       "golfbane",
       "medlems-sider",
-      "kontakt"
+      "kontakt",
+      "greenfee-gjestespillere",
+      "greenfee-guests",
+      "pro-tilbud"
     ],
-    "scrapedAt": "2026-02-14T16:14:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:48.973Z",
-    "updatedAt": "2026-02-14T16:14:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJy6myYYm-EkYRiwfIa3usqGA"
 }

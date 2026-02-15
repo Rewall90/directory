@@ -124,6 +124,32 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Inntil 10 greenfee kan kjøpes av medlemmer med betalt spilleavgift før 1. april for 400 kr per stykk"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 800,
+      "greenFeeWeekend": 800,
+      "greenFee18": 800,
+      "greenFee9": 500,
+      "greenFeeWithMember18": 700,
+      "greenFeeWithMember9": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee 2026: 18 hull 800 kr (700 kr dersom medlem er med), 9 hull 500 kr (400 kr dersom medlem er med). Inntil 10 greenfee kan kjøpes av de med betalt spilleavgift før 1. april: 400 kr per stykk.",
+      "cartRental": 400,
+      "cartRentalWithMedicalNote": 200,
+      "golfScooterRental": 175,
+      "golfMotorcycleRental": 200,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": 400,
+      "specialOfferIncludes": "Inntil 10 greenfee for medlemmer med betalt spilleavgift før 1. april",
+      "freeTrial": null,
+      "notes": "Leie av golfbil: 400 kr (200 kr med sykemelding). Golfscooter: 175 kr. Golfmotorsykkel: 200 kr. Rangepriser: 2 kr per ball med ulike bonusordninger ved kjøp av større beløp.",
+      "drivingRangePerBall": 2,
+      "drivingRangeBonusOptions": "10% bonus ved kjøp av 600 kr, 20% bonus ved kjøp av 1200 kr, 35% bonus ved kjøp av 5000 kr"
     }
   },
   "membershipPricing": {
@@ -254,11 +280,12 @@
     "completenessPercentage": 88,
     "pagesScraped": [
       "https://www.sandnesgolfklubb.no/",
-      "https://www.sandnesgolfklubb.no/berheim-golfpark/medlemskap-pa-baerheim-golfpark/"
+      "https://www.sandnesgolfklubb.no/berheim-golfpark/medlemskap-pa-baerheim-golfpark/",
+      "https://www.sandnesgolfklubb.no/berheim-golfpark/priser-golfparken/"
     ],
-    "scrapedAt": "2026-02-14T16:12:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:26.645Z",
-    "updatedAt": "2026-02-14T16:12:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJEScKNho2OkYRN3ruh-tZS2c"
 }

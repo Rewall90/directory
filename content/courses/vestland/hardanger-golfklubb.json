@@ -182,9 +182,7 @@
     "dataQuality": "92.0",
     "websiteQuality": null,
     "completenessPercentage": 92,
-    "pagesScraped": [
-      "prisar"
-    ],
+    "pagesScraped": ["prisar"],
     "scrapedAt": "2026-02-14T16:22:00.000Z",
     "createdAt": "2025-10-31T10:16:55.275Z",
     "updatedAt": "2026-02-14T16:22:00.000Z"

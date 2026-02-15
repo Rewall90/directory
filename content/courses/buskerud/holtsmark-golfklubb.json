@@ -186,13 +186,10 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "greenfee",
-      "medlemskap-oversikt"
-    ],
-    "scrapedAt": "2026-02-14T16:02:00.000Z",
+    "pagesScraped": ["greenfee", "medlemskap-oversikt"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:54:17.247Z",
-    "updatedAt": "2026-02-14T16:02:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJc__VOcQVQUYRxQvVtuLkzfE"
 }

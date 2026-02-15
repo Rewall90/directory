@@ -157,7 +157,7 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling til konto 3910.13.81645. Greenfee gjelder hele dagen - spill så mange runder du vil."
+      "notes": "Betaling til konto 3910.13.81645. Greenfee gjelder hele dagen - spill så mange runder du vil. 2026-priser ikke publisert ennå (per feb. 2026), priser videreført fra 2025."
     }
   },
   "membershipPricing": {
@@ -242,14 +242,10 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "greenfeespill",
-      "lokalmedlemskap",
-      "fjernmedlemskap-2"
-    ],
-    "scrapedAt": "2026-02-14T16:20:00.000Z",
+    "pagesScraped": ["greenfeespill", "lokalmedlemskap", "fjernmedlemskap-2"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:31:09.918Z",
-    "updatedAt": "2026-02-14T16:20:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJyUKE5BKZFkYRIB0SwoNh5Ps"
 }

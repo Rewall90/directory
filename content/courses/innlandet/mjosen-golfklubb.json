@@ -19,7 +19,7 @@
   "course": {
     "holes": 18,
     "holesPlayed": 18,
-    "par": null,
+    "par": 70,
     "parPerRound": null,
     "lengthMeters": null,
     "lengthYards": null,
@@ -119,32 +119,49 @@
       "greenFeeJuniorWeekday9Holes": 150,
       "greenFeeJuniorWeekend18Holes": 250,
       "greenFeeJuniorWeekend9Holes": 150,
-      "greenFeeDescription": "Voksne: Hverdag 450/300 kr, Helg 580/300 kr. Junior/Student: Hverdag 200/150 kr, Helg 250/150 kr. Naboklubber og greenfeemedlemmer får rabatt: Voksne 100 kr (18 hull), Junior 50 kr.",
-      "vtgCourse": 500,
+      "greenFeeDescription": "Voksne: Hverdag 450/300 kr, Helg 580/300 kr. Junior/Student: Hverdag 200/150 kr, Helg 250/150 kr. Naboklubber: Voksne 350/480 kr (hverdag/helg 18 hull), Junior 150/200 kr. 5 greenfee-hefte: 1950 kr.",
+      "greenFeeBooklet5Rounds": 1950,
+      "nsgMemberGreenfee": 225,
+      "nsgMemberRoundsLimit": 3,
+      "nsgMemberNotes": "3 runder til halv greenfee, hverdager før kl 15:00",
+      "cooperativeClubWeekday18Holes": 350,
+      "cooperativeClubWeekend18Holes": 480,
+      "cooperativeClubJuniorWeekday18Holes": 150,
+      "cooperativeClubJuniorWeekend18Holes": 200,
+      "vtgCourseAdult": 4400,
+      "vtgCourseStudent": 2600,
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
-      "freeTrial": true,
+      "golfamorePlus": true,
+      "golfamorePlusNotes": "Fordeler til kl 14:00 på hverdager",
       "neighborClubDiscount": 100,
       "neighborClubDiscountJunior": 50,
-      "notes": "Prøv golf i 30 dager gratis tilgjengelig. NSG medlemmer: kr 835,- (50+ years). VTG kurs fra 500 kr."
+      "neighborClubDiscount9Holes": 50,
+      "cooperativeClubs": "Atlungstad, Elverum, Gjøvik & Toten, Hafjell, Kongsvinger, Randsfjorden, Skei, Sorknes, Trysil, Valdres GK",
+      "notes": "NSG medlemmer: kr 225 (3 runder til halv greenfee, hverdager før kl 15:00). 5 greenfee-hefte: 1950 kr. Golfamore Plus tilgjengelig. VTG kurs voksne 4400 kr (inkl. spill og medlemskap), student 2600 kr."
     }
   },
   "membershipPricing": {
     "2026": {
       "currency": "NOK",
-      "fullMembership": 7300,
-      "distanceMembership": 3900,
-      "juniorMembership": 600,
+      "fullMembership": 7500,
+      "familyMembership2Plus": 15500,
+      "familyMembership1Plus": 8000,
+      "distanceMembership": 4000,
+      "juniorMembership0to12": 600,
+      "juniorMembership13to15": 1100,
+      "juniorMembership16to19": 2100,
       "studentMembership": 2600,
-      "greenfeeOnlyMember": 2300,
-      "introMembershipWithoutCourse": 3900,
-      "introMembershipWithCourse": 4400,
-      "studentIntroWithCourse": 2600,
-      "newMember": 3900,
-      "notes": "Fjernmedlemskap for bosatt utenfor Hedmark/Oppland. Junior fra 600 kr avhengig av alder. Intromedlemskap inkl fritt spill uten kurs: 3900 kr. Med kurs: 4400 kr."
+      "greenfeeOnlyMember": 2350,
+      "introMembership": 4000,
+      "beginnerMembership": 4000,
+      "neighborMembership": 4900,
+      "vtgCourseAdultWithMembership": 4400,
+      "vtgCourseStudentWithMembership": 2600,
+      "notes": "Hovedmedlem 7500 kr. Familie 2++: 15500 kr (to voksne + junior). Familie 1++: 8000 kr (en voksen + junior). Fjernmedlem 4000 kr (bosatt utenfor regionen). Nabomedlem 4900 kr. Junior fra 600-2100 kr avhengig av alder. Intromedlemskap/nybegynner: 4000 kr inkl. fritt spill. Greenfeemedlem: 2350 kr (20% rabatt på greenfee). VTG kurs voksen: 4400 kr, student: 2600 kr (inkl. spill og medlemskap)."
     }
   },
   "ratings": {
@@ -183,14 +200,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "home",
-      "gjester",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T16:07:00.000Z",
+    "pagesScraped": ["home", "gjester", "medlemskap", "bane", "kurs"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:13.251Z",
-    "updatedAt": "2026-02-14T16:07:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJBc7YNy14akYRYpVc3dtRq8M"
 }

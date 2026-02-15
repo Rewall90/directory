@@ -186,11 +186,7 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "hjem",
-      "greenfee",
-      "bli-medlem"
-    ],
+    "pagesScraped": ["hjem", "greenfee", "bli-medlem"],
     "scrapedAt": "2026-02-14T16:09:00.000Z",
     "createdAt": "2025-10-31T09:43:41.987Z",
     "updatedAt": "2026-02-14T16:09:00.000Z"

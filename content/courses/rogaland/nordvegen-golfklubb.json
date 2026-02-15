@@ -134,6 +134,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Ta kurs nå og få medlemskap for 2025 og 2026 inkludert. Del av 54-hulls system med Haugaland, Karmøy og Torvastad."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 450,
+      "greenFeeWeekend": 450,
+      "greenFee9": null,
+      "greenFee18": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 200,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee 2026: 450 kr (voksne ≥18 år), 200 kr (junior <18 år). Samme pris hverdag og helg. Handicap 54 påkrevd. Medlemmer av Haugaland GK og Karmøy GK får gratis greenfee. Turneringsavgift: 9-hull 200 kr, 18-hull 300 kr.",
+      "cartRental": 350,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "2026-priser ikke publisert separat på nettsiden (viser kun 2025-priser per 15. feb 2026). Priser videreført fra 2025. Golfbil leie kr 350,- (aldersgrense 20 år). Del av 54-hulls system med Haugaland, Karmøy og Torvastad. Årsmøte planlagt 3. mars 2026."
     }
   },
   "membershipPricing": {
@@ -220,11 +239,12 @@
     "completenessPercentage": 90,
     "pagesScraped": [
       "https://nordvegengolf.no/",
-      "https://nordvegengolf.no/nordvegen-gk/"
+      "https://nordvegengolf.no/nordvegen-gk/",
+      "https://nordvegengolf.no/priser/"
     ],
-    "scrapedAt": "2026-02-14T16:05:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:25.101Z",
-    "updatedAt": "2026-02-14T16:05:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJs4t8FmJ1O0YRxyST5eOdt50"
 }

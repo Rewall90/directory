@@ -208,11 +208,7 @@
     "dataQuality": "97.0",
     "websiteQuality": null,
     "completenessPercentage": 97,
-    "pagesScraped": [
-      "hjem",
-      "medlemmer",
-      "baneguide"
-    ],
+    "pagesScraped": ["hjem", "medlemmer", "baneguide"],
     "scrapedAt": "2026-02-14T15:58:00.000Z",
     "createdAt": "2025-10-31T09:43:41.491Z",
     "updatedAt": "2026-02-14T15:58:00.000Z"

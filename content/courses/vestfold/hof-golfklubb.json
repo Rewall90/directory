@@ -238,10 +238,7 @@
     "dataQuality": "95.0",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjestespill",
-      "medlemskap"
-    ],
+    "pagesScraped": ["gjestespill", "medlemskap"],
     "scrapedAt": "2026-02-14T16:15:00.000Z",
     "createdAt": "2025-10-31T09:10:42.045Z",
     "updatedAt": "2026-02-14T16:15:00.000Z"

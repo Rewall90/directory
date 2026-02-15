@@ -157,7 +157,7 @@
   "ratings": {
     "google": {
       "rating": 4.6,
-      "reviewCount": 202,
+      "reviewCount": 203,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=7751425715857370788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -190,13 +190,10 @@
     "dataQuality": "93.0",
     "websiteQuality": null,
     "completenessPercentage": 93,
-    "pagesScraped": [
-      "medlemskap",
-      "banen/reservasjon-av-spilletid"
-    ],
+    "pagesScraped": ["medlemskap", "banen/reservasjon-av-spilletid"],
     "scrapedAt": "2026-02-14T16:19:00.000Z",
     "createdAt": "2025-10-31T10:16:54.008Z",
-    "updatedAt": "2026-02-14T16:19:00.000Z"
+    "updatedAt": "2026-02-14T20:34:00.000Z"
   },
   "googlePlaceId": "ChIJue2jDlb3PEYRpK6BqJ6Ykms"
 }

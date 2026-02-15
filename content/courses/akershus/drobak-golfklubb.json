@@ -93,7 +93,7 @@
     "restaurantName": "Drøbak Golfkafé",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": false,
     "golfLessons": null,
     "teachingPro": false,
@@ -120,13 +120,21 @@
   "pricing": {
     "2026": {
       "currency": "NOK",
-      "greenFeeVoksen": 700,
+      "greenFee18": 700,
+      "greenFee9": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
       "greenFeeJunior": 350,
+      "greenFeeTwilight": null,
       "greenFeeGuestOfMember": 650,
       "greenFeePakke3Member": 1590,
       "greenFeePakke3NonMember": 1950,
-      "greenFeeDescription": "Greenfee fra kr 700 (voksen), kr 350 (junior 6-20 år). Gjestepris kr 650 alle dager. Pakketilbud: 3 billetter for medlemmer kr 1590, ikke-medlemmer kr 1950.",
-      "notes": "All greenfee forhåndsbetales i GolfBox. Maks 3 gjester per Senior hovedmedlem per runde."
+      "cartRental": 500,
+      "cartRentalMedical": 400,
+      "clubRental": null,
+      "pullCartRental": null,
+      "greenFeeDescription": "Greenfee fra kr 700 (voksen), kr 350 (junior 6-20 år). Gjestepris kr 650 alle dager. Pakketilbud: 3 billetter for medlemmer kr 1590, ikke-medlemmer kr 1950. Priser varierer med ukedag og tidspunkt (dynamisk prising via GolfBox). Golfbilutleie forbeholdt i første omgang de med legeerklæring.",
+      "notes": "All greenfee forhåndsbetales i GolfBox. Maks 3 gjester per Senior hovedmedlem per runde. Den aktuelle prisen vises før du bestiller tid."
     }
   },
   "membershipPricing": {
@@ -241,11 +249,14 @@
       "https://drobakgolf.no/",
       "https://drobakgolf.no/gjester",
       "https://drobakgolf.no/gjester/greenfee",
+      "https://drobakgolf.no/gjester/greenfee-tilbud",
+      "https://drobakgolf.no/gjester/leiepriser-golfbil",
+      "https://drobakgolf.no/gjester/avtalevilkar-forhandsbetaling",
       "https://drobakgolf.no/medlemskap"
     ],
-    "scrapedAt": "2026-02-14T15:44:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:09.640Z",
-    "updatedAt": "2026-02-14T15:44:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJdT634g1EQUYR4I1oRmazXTI"
 }

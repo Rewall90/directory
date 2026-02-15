@@ -117,19 +117,22 @@
     "2026": {
       "currency": "NOK",
       "greenFee9": 300,
+      "greenFee18": 600,
       "greenFeeDaily": null,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "9 hull: ca 300 kr. Medlem uten spillerett: 250 kr (9 hull), 400 kr (18 hull). Samme pris for 9 eller 18 hull da sløyfene bestilles separat i Golfbox.",
+      "greenFeeSenior": 150,
+      "greenFeeJunior": 150,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
+      "greenFeeDescription": "Alle dager, alle tider: Voksne gjester kr 300 (9 hull), Junior-gjester U19 kr 150 (9 hull), Inviterte gjester kr 250 (9 hull), Medlem uten spillerett kr 250 (9 hull). Samme pris alle dager. 18 hull = 2x9 hull (hver sløyfe bestilles og betales separat i Golfbox).",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Utleie av golfbiler og traller tilgjengelig. Døgnåpen drivingrange med ballautomater (tar bankkort). Forhåndsbetaling kreves via Golfbox."
+      "notes": "Forhåndsbetaling kreves via Golfbox. Golfbil og tralle leies via Eagl-appen eller i proshop (18 år for golfbil). NSG-kort: halv greenfee hverdager kl. 10-15 (ubegrenset). Golfamore: 1 runde halv pris per sesong. Døgnåpen drivingrange med ballautomater (tar bankkort)."
     }
   },
   "membershipPricing": {
@@ -189,9 +192,9 @@
       "kontakt",
       "medlemsservice/medlemskap"
     ],
-    "scrapedAt": "2026-02-14T16:06:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:11.618Z",
-    "updatedAt": "2026-02-14T16:06:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ8WTPFOJmQUYRdr1X5Y4JIMU"
 }

@@ -124,6 +124,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Kortbane for trening og nye golfere tilgjengelig"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 400,
+      "greenFee9": 300,
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 200,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee 2026: 400 kr (18 hull), 300 kr (9 hull). Junior -50% rabatt (200 kr for 18 hull, 150 kr for 9 hull).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Kortbane for trening og nye golfere tilgjengelig. Drivingrange tilgjengelig med range servant kort."
     }
   },
   "membershipPricing": {
@@ -218,11 +237,12 @@
     "completenessPercentage": 85,
     "pagesScraped": [
       "https://ognagolf.no/",
-      "https://ognagolf.no/bli-medlem/"
+      "https://ognagolf.no/bli-medlem/",
+      "https://ognagolf.no/greenfee-og-drivingrange-pris/"
     ],
-    "scrapedAt": "2026-02-14T16:06:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:25.725Z",
-    "updatedAt": "2026-02-14T16:06:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJEXcLvtcWOkYRMRSw6_yGfUI"
 }

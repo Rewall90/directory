@@ -182,9 +182,9 @@
     "dataQuality": "good",
     "websiteQuality": "good",
     "completenessPercentage": 85,
-    "pagesScraped": ["homepage", "medlemskap", "banen"],
-    "scrapedAt": "2026-02-14T16:01:00.000Z",
+    "pagesScraped": ["homepage", "medlemskap", "banen", "butikk", "kontakt"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T10:55:18.542Z",
-    "updatedAt": "2026-02-14T16:01:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   }
 }

@@ -89,8 +89,8 @@
     "restaurantName": "Fjøset",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": null,
     "teachingPro": false,
     "clubFitting": null,
@@ -100,7 +100,7 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
+    "simulator": true,
     "simulatorType": null,
     "simulatorCourses": null,
     "simulatorNotes": null,
@@ -123,14 +123,22 @@
       "greenFee9Weekend": 350,
       "greenFeeDayWeekend": 700,
       "greenFeeDescription": "Gjelder lørdag, søndag og røde dager. Gjester kan booke 14 dager i forkant.",
-      "cartRental": null,
-      "pullCartRental": null,
+      "greenFeeJunior18Weekday": 260,
+      "greenFeeJunior18Weekend": 298,
+      "greenFeeJunior9Weekday": 150,
+      "greenFeeJunior9Weekend": 175,
+      "greenFeeJuniorDescription": "Juniorer betaler halv pris alle dager",
+      "cartRental": 500,
+      "cartRentalMember": 400,
+      "cartRentalNotes": "Bestilles via EAGL-appen. Aldersgrense 18 år. Medisinsk fritak gir 20% rabatt.",
+      "pullCartRental": 75,
       "clubRental": null,
       "golfamore": 595,
+      "seniorDiscount": "100 kr rabatt på hverdager (1. juni - 31. oktober). Maks 3 runder per år.",
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfeemedlemmer: 100 kr rabatt ved 18 hull, 50 kr rabatt ved 9 hull"
+      "notes": "Greenfeemedlemmer: 100 kr rabatt ved 18 hull, 50 kr rabatt ved 9 hull. Gjester kan booke 14 dager i forkant."
     }
   },
   "membershipPricing": {
@@ -150,6 +158,18 @@
       "studentMilitaer": {
         "name": "Student/Militær/Lærling",
         "price": 3350
+      },
+      "naermedlem": {
+        "name": "Nærmedlem",
+        "price": 5610
+      },
+      "ung": {
+        "name": "UNG (20+)",
+        "price": 4480
+      },
+      "eldreJunior": {
+        "name": "Eldre junior (13-19)",
+        "price": 2010
       }
     }
   },
@@ -191,11 +211,14 @@
     "completenessPercentage": 95,
     "pagesScraped": [
       "homepage",
-      "medlemskap"
+      "medlemskap",
+      "praktisk-info",
+      "collections/medlemskap",
+      "products/greenfee"
     ],
-    "scrapedAt": "2026-02-14T17:44:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:14.827Z",
-    "updatedAt": "2026-02-14T17:44:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ57Qx6E_QQ0YR5WpBLD4vJKw"
 }

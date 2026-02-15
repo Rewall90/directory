@@ -127,6 +127,26 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Korthullsbanen åpent hele året (snøfritt). Webkamera tilgjengelig. Greenfee-samarbeid med samarbeidsklubber. Booking via GolfBox 3-7 dager før spill avhengig av kategori. Vipps #11891. Norsk Seniorgolf Lojalitetskort: 500 kr pr. runde (maks 3 runder), hverdager før kl. 14:00, ikke juli."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 600,
+      "greenFee9": 350,
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 700,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 300,
+      "greenFeeJuniorWeekend": 350,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee Seasidebanen: Hverdager 600 kr, helg/helligdager 700 kr. Junior (tom. 19 år) hverdager 300 kr, helg 350 kr. 9-hullsrunde hverdager 350 kr, helg 450 kr. Korthullsbanen: Dagsgreenfee senior 200 kr, junior 100 kr.",
+      "cartRental": 450,
+      "pullCartRental": 60,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser per februar 2026 (fortsatt 2025-priser publisert på nettside). El-vogn gratis for gjester med NGF-klassifisering/dispensasjon. Korthullsbanen åpent hele året (snøfritt). Betaling i Pro Shop/Servicepunkt eller Vipps #11891. El-vognutleie krever 18+ år."
     }
   },
   "membershipPricing": {
@@ -232,13 +252,10 @@
     "dataQuality": "96.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 96,
-    "pagesScraped": [
-      "gjester",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T16:25:00.000Z",
+    "pagesScraped": ["gjester", "medlemskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:10:42.497Z",
-    "updatedAt": "2026-02-14T16:25:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ70O4NQ7pRkYRd1I9LjWcK8Y"
 }

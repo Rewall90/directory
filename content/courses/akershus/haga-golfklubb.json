@@ -141,6 +141,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "EAGL keyless technology installed on all golf carts\n\nMember 18-holes: 400 kr\n\nMember 9-holes: 250 kr\n\nGuest 18-holes: 500 kr\n\nGuest 9-holes: 350 kr\n\nMember with doctor cert 18-holes: 300 kr\n\nMember with doctor cert 9-holes: 250 kr\n\nGuest with doctor cert 9-holes: 350 kr\n\n10-round package (member): 2500 kr"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 800,
+      "greenFeeWeekend": 1100,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 50,
+      "greenFeeTwilight": 450,
+      "twilightStartTime": "Varierer ift. solnedgang",
+      "greenFeeDescription": "Junior discount: 50% på gjeldende greenfee\n\nGuest greenfee 2026: Prime time 1100 kr, Other times 800 kr\n\nGuest of shareholder: Prime time 900 kr, Other times 600 kr\n\nPrime time: Helg/helligdag 07:00-14:00, Hverdag etter kl. 14:00\n\nEvening greenfee: 450 kr (varierer ift. solnedgang, se Golfbox)",
+      "cartRental": 500,
+      "cartRental9Holes": 350,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "EAGL keyless technology installed on all golf carts\n\nGolfbil (gjest) 18 hull: 500 kr\n\nGolfbil (gjest) 9 hull: 350 kr\n\nGolfbil (gjest m/legeerklæring) 18 hull: 400 kr\n\nGolfbil (gjest m/legeerklæring) 9 hull: 350 kr\n\nBooking 3 dager i forveien via Gimmie app, Golfbox eller proshop\n\nForhåndsbetaling av greenfee ved booking i Golfbox"
     }
   },
   "membershipPricing": {
@@ -195,11 +214,14 @@
     "pagesScraped": [
       "homepage",
       "medlem/medlemskap",
-      "baner"
+      "baner",
+      "gjest/booking-og-greenfee",
+      "gjest/utleie-av-golfbil",
+      "baner/golfbil"
     ],
-    "scrapedAt": "2026-02-14T15:59:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:24:46.105Z",
-    "updatedAt": "2026-02-14T15:59:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJDd9TXMwSQUYRedj-cXvi07Q"
 }

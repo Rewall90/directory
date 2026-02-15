@@ -84,7 +84,7 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -124,6 +124,26 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 350,
+      "greenFee9": 200,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 175,
+      "greenFeeTwilight": null,
+      "greenFeeDaily": 350,
+      "cartRental": 300,
+      "cartRental9": 200,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "greenFeeDescription": "Greenfee voksen: 350 kr (dag/18 hull), 200 kr (9 hull). Junior/student: 175 kr. Klubbmedlemmer: 250 kr (dag), 150 kr (9 hull). Samarbeidsklubber/NGF-medlemmer: 250 kr (dag), 200 kr (9 hull). Barn 0-12 år: gratis. 2 dager: 550 kr, 1 uke: 950 kr, 1 måned: 2500 kr. Golfbil: 300 kr (18 hull), 200 kr (9 hull).",
+      "notes": "Priser hentet fra raumagolf.no februar 2026. Ingen forskjell mellom hverdag og helg."
     }
   },
   "membershipPricing": {},
@@ -181,14 +201,14 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "87.5",
-    "websiteQuality": "unavailable",
-    "completenessPercentage": 87,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-14T16:07:00.000Z",
+    "dataQuality": "90",
+    "websiteQuality": "good",
+    "completenessPercentage": 90,
+    "pagesScraped": ["hjem", "kontingent-og-greenfee", "utleie"],
+    "scrapedAt": "2026-02-15T15:10:00.000Z",
     "createdAt": "2025-10-31T09:31:09.234Z",
-    "updatedAt": "2026-02-14T16:07:00.000Z",
-    "scrapeNote": "Website SSL certificate error - unable to access raumagolf.no"
+    "updatedAt": "2026-02-15T15:10:00.000Z",
+    "scrapeNote": "SSL cert issue on raumagolf.no (without www). Accessed via www.raumagolf.no. Greenfee and rental prices scraped from kontingent-og-greenfee and utleie pages."
   },
   "googlePlaceId": "ChIJTVsghWUJFEYR27LJd1W8FKw"
 }

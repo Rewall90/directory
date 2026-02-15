@@ -99,7 +99,7 @@
     "restaurantName": "Kafé",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": false,
@@ -138,8 +138,16 @@
       "greenFeeTwilight9Junior": 250,
       "korthullsbaneVoksen": 150,
       "korthullsbaneJunior": 50,
+      "cartRentalMember18": 350,
+      "cartRentalMember18Medical": 300,
+      "cartRentalMember9": 250,
+      "cartRentalGuest18": 500,
+      "cartRentalGuest18Medical": 450,
+      "cartRentalGuest9": 350,
+      "pullCartRental": 60,
+      "drivingRangeBalls20": 35,
       "greenFeeDescription": "Greenfee 2026: Hovedbanen - 18 hull helg kr 850, hverdag kr 650, gjest av medlem kr 500. Twilight/9 hull kr 350. Juniorpris gjelder til og med det året du fyller 19 år.",
-      "notes": "Twilight gjelder fra ettermiddag når man ikke rekker rundt før mørkets frembrudd. Helgpriser gjelder lørdag, søndag og helligdager."
+      "notes": "Twilight gjelder fra ettermiddag når man ikke rekker rundt før mørkets frembrudd. Helgpriser gjelder lørdag, søndag og helligdager. Golfbil med legeerklæring kr 300 (medlem) / kr 450 (gjest) for 18 hull. Elektrisk tralle planlagt for 2026, pris ikke fastsatt enda."
     }
   },
   "membershipPricing": {
@@ -268,11 +276,13 @@
     "pagesScraped": [
       "https://bmgk.no/",
       "https://bmgk.no/gjester",
+      "https://bmgk.no/gjester/greenfee",
+      "https://bmgk.no/gjester/range-og-utleie",
       "https://bmgk.no/klubben/medlemskap"
     ],
-    "scrapedAt": "2026-02-14T15:41:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:09.265Z",
-    "updatedAt": "2026-02-14T15:41:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJNWt6J2kSQUYRm2isBl9fm9w"
 }

@@ -84,7 +84,7 @@
     "restaurantName": "Kjekstad Kafe",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -120,7 +120,11 @@
       "greenFee9WithMemberDiscount": 50,
       "greenFee9x2": 400,
       "greenFeeDescription": "18-hull: hverdag 600 kr, helg 650 kr. 9-hull: 250 kr (alle dager). 18 hull på 9-hullsbanen: 400 kr. Junior: 50% av greenfee. Medlem kan ta med 3 gjester med 100 kr rabatt (18-hull) eller 50 kr rabatt (9-hull).",
-      "notes": "Greenfeemedlemskap gir 50% rabatt på 18-hullsbanen. VIPPS til 515032 utenom åpningstid. Gapahuk ved Stordammen på hull 10."
+      "greenFeeTwilight": null,
+      "cartRental": null,
+      "clubRental": null,
+      "pullCartRental": null,
+      "notes": "Greenfeemedlemskap gir 50% rabatt på 18-hullsbanen. VIPPS til 515032 utenom åpningstid. 13 golfbiler for utleie (pris ikke oppgitt på nett, bestilles via Golfbox eller tlf). Gapahuk ved Stordammen på hull 10."
     }
   },
   "membershipPricing": {
@@ -176,11 +180,14 @@
     "completenessPercentage": 95,
     "pagesScraped": [
       "gjester",
+      "gjester/greenfee-og-booking",
+      "banene",
+      "golfshop-kafe",
       "medlemskap"
     ],
-    "scrapedAt": "2026-02-14T16:05:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:54:18.519Z",
-    "updatedAt": "2026-02-14T16:05:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJqTlgMfM-QUYRP0-q3mPeSp4"
 }

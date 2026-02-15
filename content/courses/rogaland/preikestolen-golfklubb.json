@@ -229,10 +229,7 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": [
-      "https://www.prgk.no/",
-      "https://www.prgk.no/bli-medlem"
-    ],
+    "pagesScraped": ["https://www.prgk.no/", "https://www.prgk.no/bli-medlem"],
     "scrapedAt": "2026-02-14T16:09:00.000Z",
     "createdAt": "2025-10-31T07:46:25.970Z",
     "updatedAt": "2026-02-14T16:09:00.000Z"

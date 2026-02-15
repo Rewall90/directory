@@ -129,6 +129,24 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Fra 1. august 2025 får alle som tegner medlemskap i Fullt medlemskaps kategorier og Fredrikstad Total fritt spill ut hele 2026"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 695,
+      "greenFeeWeekend": 745,
+      "greenFeeWeekendPrime": 845,
+      "greenFeeSenior": 695,
+      "greenFeeJunior": 395,
+      "greenFeeTwilight": 495,
+      "greenFeeDescription": "Greenfee 18 hull: 695 NOK (hverdag), 745 NOK (helg/helligdag), 845 NOK (helg/helligdag primetime). Twilight (etter kl 19:00, alle dager): 495 NOK. Junior: 300 kr rabatt på ordinær greenfee. Medlemsgjest: 150 kr rabatt på ordinær greenfee.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golfpakker tilgjengelig: Hverdag kr 1299/person/dag, Helg kr 1499/person/dag (inkl. overnatting, greenfee, lunsj). Golfbil bookbar via resepsjon eller EAGL-appen."
     }
   },
   "membershipPricing": {},
@@ -222,8 +240,8 @@
     "pagesScraped": null,
     "scrapedAt": "2026-02-14T16:15:00.000Z",
     "createdAt": "2025-10-31T11:42:07.862Z",
-    "updatedAt": "2026-02-14T16:15:00.000Z",
-    "note": "Pricing needs verification from onsoygolfklubb.no"
+    "updatedAt": "2026-02-15T12:00:00.000Z",
+    "note": "2026 pricing scraped from onsoygolfklubb.no/gjester/priser-gjestespill. Cart/club rental prices not listed on website."
   },
   "googlePlaceId": "ChIJr7HakhOpRkYRgoDwpEWyc8Q"
 }

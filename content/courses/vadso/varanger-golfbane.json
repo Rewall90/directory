@@ -280,13 +280,7 @@
     {
       "type": "official_website",
       "url": "https://varangergolf.no/",
-      "dataObtained": [
-        "contact_info",
-        "course_details",
-        "pricing",
-        "facilities",
-        "membership"
-      ],
+      "dataObtained": ["contact_info", "course_details", "pricing", "facilities", "membership"],
       "pagesScraped": 6,
       "scrapedAt": "2026-02-14T16:25:00.000Z"
     }

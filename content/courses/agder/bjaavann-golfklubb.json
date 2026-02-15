@@ -128,10 +128,7 @@
     "tennisCourts": null,
     "discGolf": null,
     "discGolfStandard": null,
-    "paymentMethods": [
-      "Kort",
-      "Vipps"
-    ],
+    "paymentMethods": ["Kort", "Vipps"],
     "cashless": true
   },
   "pricing": {
@@ -156,6 +153,28 @@
       "rangeBallsCard30": 900,
       "rangeBallsCard100": 1800,
       "notes": "Differensierte greenfee-satser - aktuell pris vises i GolfBox. Full greenfee-sats 850 NOK brukes som basis ved fordelskort."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18Weekday": 700,
+      "greenFee18Weekend": 850,
+      "greenFee18HighSeason": 850,
+      "highSeasonPeriod": "10. juni - 18. august",
+      "greenFee9": 475,
+      "greenFeeJunior": "50%",
+      "greenFeeJuniorNote": "Født 2006 eller senere",
+      "greenFeeSenior": 450,
+      "greenFeeSeniorNote": "Norsk Senior Golf - max 3 runder, før kl 14 man-fre, ikke i juli",
+      "cartRental": 500,
+      "pullCartRental": 85,
+      "clubRental9": 150,
+      "clubRental18": 200,
+      "rangeBalls": 45,
+      "rangeBallsNote": "35 baller per bøtte",
+      "rangeBallsCard10": 400,
+      "rangeBallsCard30": 900,
+      "rangeBallsCard100": 1800,
+      "notes": "2026 greenfee-priser er ikke publisert ennå. Prisene er hentet fra 2025-sesongen (gjester/priser-2025). Oppdateres når 2026-priser publiseres."
     }
   },
   "membershipPricing": {
@@ -274,13 +293,15 @@
     "pagesScraped": [
       "gjester/gjestespill",
       "gjester/priser-2025",
+      "gjester/priser-2026 (404 - not published yet)",
       "medlem/medlemskap-og-priser-2026-sesongen",
+      "nyheter/klubben/nytt-ar-nye-muligheter",
       "banen",
       "banen/scorekort"
     ],
-    "scrapedAt": "2026-02-14T15:30:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T13:27:22.761Z",
-    "updatedAt": "2026-02-14T16:30:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJbVs9s0kEOEYRAc15MSFtSek"
 }

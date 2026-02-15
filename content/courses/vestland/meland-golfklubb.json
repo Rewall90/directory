@@ -167,9 +167,7 @@
     "dataQuality": "92.0",
     "websiteQuality": null,
     "completenessPercentage": 92,
-    "pagesScraped": [
-      "om-gjestespill"
-    ],
+    "pagesScraped": ["om-gjestespill"],
     "scrapedAt": "2026-02-14T16:30:00.000Z",
     "createdAt": "2025-10-31T10:16:59.137Z",
     "updatedAt": "2026-02-14T16:30:00.000Z"

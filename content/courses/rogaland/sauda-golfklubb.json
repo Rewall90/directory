@@ -134,6 +134,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Selvbetjent bane. Betaling via VIPPS #100434."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 150,
+      "greenFee18": null,
+      "greenFee9": null,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Dagskort mandag-søndag 300 kr. Junior (t.o.m. 19 år), student, vernepliktig 150 kr. Banen er selvbetjent - betaling via VIPPS #100434.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Selvbetjent bane. Betaling via VIPPS #100434. Ingen utleie av utstyr tilgjengelig - spillere må ta med eget utstyr."
     }
   },
   "membershipPricing": {
@@ -232,11 +251,12 @@
     "completenessPercentage": 85,
     "pagesScraped": [
       "https://www.saudagolf.no/",
-      "https://www.saudagolf.no/priser-og-medlemskap"
+      "https://www.saudagolf.no/priser-og-medlemskap",
+      "https://saudagolf.no/banen"
     ],
-    "scrapedAt": "2026-02-14T16:14:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:27.034Z",
-    "updatedAt": "2026-02-14T16:14:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJgSUgrx7_O0YRRINFv2Jby-0"
 }

@@ -121,6 +121,21 @@
       "pullCartRental": null,
       "clubRental": true,
       "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong, Ungdom 13-19 år 800 kr/sesong, Voksne 20+ 1000 kr/sesong (fredager). Golfpro Thorbjørn Hansen."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18Weekend": 600,
+      "greenFee18Weekday": 500,
+      "greenFee9Weekend": 400,
+      "greenFee9Weekday": 350,
+      "greenFeeJunior": "50%",
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "18 hull: fre-søn 600 kr, hverdager 500 kr. 9 hull: fre-søn 400 kr, hverdager 350 kr. Ungdom under 20 år halv pris. Norsk Seniorgolf og Golfamore: 50% rabatt på hverdags-greenfee 18 hull. Grupper 16+ personer: 10% rabatt.",
+      "golfCartRental": 400,
+      "golfCartRentalNotes": "Bestilles dagen i forveien. Tilgjengelig kl. 09-15. 18 hull/4 timer.",
+      "pullCartRental": null,
+      "clubRental": true,
+      "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong, Ungdom 13-19 år 800 kr/sesong, Voksne 20+ 1000 kr/sesong (fredager). Golfpro Thorbjørn Hansen."
     }
   },
   "membershipPricing": {
@@ -169,13 +184,10 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "greenfee",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T16:12:00.000Z",
+    "pagesScraped": ["priser", "medlemskap", "leie-golfbil", "trening"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:54:19.339Z",
-    "updatedAt": "2026-02-14T16:12:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJByvUxzP0QEYRcCwlVGZC2Do"
 }

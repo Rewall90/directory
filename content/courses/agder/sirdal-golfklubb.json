@@ -131,6 +131,35 @@
       "clubRentalSingle": 30,
       "footballRental": 50,
       "notes": "Medlemmer i Sirdal Fjellgolfklubb får kr. 55,- i rabatt på alle priser. Barn tom 12 år som er medlem spiller gratis."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee9": 300,
+      "greenFeeDaily": 400,
+      "greenFeeJunior9": 150,
+      "greenFeeJuniorDaily": 200,
+      "greenFeeChild": 55,
+      "greenFeeWeekend2Days": 600,
+      "greenFeeWeekend3Days": 800,
+      "greenFeeWeek5Days": 1200,
+      "greenFeeWeek7Days": 1600,
+      "greenFeeJuniorWeekend2Days": 300,
+      "greenFeeJuniorWeekend3Days": 400,
+      "greenFeeJuniorWeek5Days": 600,
+      "greenFeeJuniorWeek7Days": 800,
+      "greenFeeChildWeekend2Days": 85,
+      "greenFeeChildWeekend3Days": 110,
+      "greenFeeChildWeek5Days": 165,
+      "greenFeeChildWeek7Days": 220,
+      "greenFeeMemberDiscount": 55,
+      "trainingAreaDaily": 60,
+      "cartRental9": 250,
+      "cartRental18": 350,
+      "pullCartRental": 50,
+      "clubRental": 200,
+      "clubRentalSingle": 30,
+      "footballRental": 50,
+      "notes": "Priser fra 2025 (2026-priser ikke publisert ennå). Medlemmer i Sirdal Fjellgolfklubb får kr. 55,- i rabatt på alle priser. Barn tom 12 år som er medlem spiller gratis."
     }
   },
   "membershipPricing": {
@@ -272,13 +301,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "greenfee.html",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T15:32:00.000Z",
+    "pagesScraped": ["greenfee.html", "medlemskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T13:27:24.903Z",
-    "updatedAt": "2026-02-14T15:32:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ06R8ESEKOUYR-3GUzyHjrrM"
 }

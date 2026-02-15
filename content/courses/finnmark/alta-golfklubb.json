@@ -231,12 +231,14 @@
     "pagesScraped": [
       "homepage",
       "banen",
-      "om-oss",
-      "medlemspriser"
+      "om-alta-golfklubb",
+      "medlemspriser",
+      "simulator",
+      "baneguide"
     ],
-    "scrapedAt": "2026-02-14T15:55:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T09:36:46.555Z",
-    "updatedAt": "2026-02-14T15:55:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJJ-tKSegSz0URSqV42FViGjQ"
 }

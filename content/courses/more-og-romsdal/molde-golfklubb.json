@@ -140,7 +140,7 @@
       "greenFeeJunior": 200,
       "greenFeeJunior9": 150,
       "twilight": null,
-      "greenFeeDescription": "Greenfee 18 hull: 400 kr, 9 hull: 300 kr. Gjest med medlem/samarbeidsklubb: 300 kr. Juniorer fra samarbeidsklubb: gratis. Studenter/juniorer: 200 kr (18) / 150 kr (9). Greenfee-medlemmer: 300 kr (18) / 200 kr (9).",
+      "greenFeeDescription": "Greenfee 18 hull: 400 kr, 9 hull: 300 kr. Gjest med medlem/samarbeidsklubb: 300 kr (18) / 300 kr (9). Juniorer fra samarbeidsklubb (t.o.m. 19 år): gratis. Studenter/juniorer: 200 kr (18) / 150 kr (9). Greenfee-medlemmer: 300 kr (18) / 200 kr (9). Norsk Senior Golf-rabatter må avtales med daglig leder minst to dager før spill, gjelder kun hverdager før kl. 16.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
@@ -148,7 +148,7 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Booking og betaling via Golfbox. Golfbil via Eagl app."
+      "notes": "Booking og betaling via Golfbox. Golfbil via Eagl app. Samarbeidsklubber: Ålesund, Tingvoll, Kristiansund, Smøla, Surnadal og Rauma. Golfhäftet aksepteres ikke."
     }
   },
   "membershipPricing": {
@@ -245,13 +245,10 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjester",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T16:05:00.000Z",
+    "pagesScraped": ["gjester", "medlemskap", "greenfee", "booking", "proshop"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:31:08.788Z",
-    "updatedAt": "2026-02-14T16:05:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJz5m5zRRWEUYR-Ffn_w-hm3k"
 }

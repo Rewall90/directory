@@ -263,8 +263,8 @@
     "websiteQuality": "good",
     "completenessPercentage": 90,
     "pagesScraped": ["homepage", "gjest", "greenfee", "medlemskap"],
-    "scrapedAt": "2026-02-14T16:04:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T10:55:19.086Z",
-    "updatedAt": "2026-02-14T16:04:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   }
 }

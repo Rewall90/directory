@@ -180,7 +180,7 @@
   },
   "ratings": {
     "google": {
-      "rating": 3.8,
+      "rating": 3.9,
       "reviewCount": 13,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=3206061667359561329&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
@@ -214,11 +214,7 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "om-oss",
-      "priser"
-    ],
+    "pagesScraped": ["homepage", "om-oss", "priser"],
     "scrapedAt": "2026-02-14T16:21:00.000Z",
     "createdAt": "2025-10-31T11:30:50.484Z",
     "updatedAt": "2026-02-14T16:21:00.000Z"

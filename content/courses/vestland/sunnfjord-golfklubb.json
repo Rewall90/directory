@@ -220,11 +220,7 @@
     "dataQuality": "95.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "medlem",
-      "greenfee"
-    ],
+    "pagesScraped": ["homepage", "medlem", "greenfee"],
     "scrapedAt": "2026-02-14T17:42:00.000Z",
     "createdAt": "2025-10-31T10:17:01.783Z",
     "updatedAt": "2026-02-14T17:42:00.000Z"

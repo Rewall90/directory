@@ -128,6 +128,26 @@
       "freeTrial": null,
       "notes": "Greenfeesamarbeid med andre klubber: Austrått GK 175 kr, Frosta GK 250 kr, Namdal GK 175 kr, Røros GK 175 kr, Stiklestad GK 245 kr, Namsos GK 175 kr, Nærøysund GK 175 kr.",
       "vipps": "723565"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 350,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeTournament": 175,
+      "greenFeeTournamentJunior": 125,
+      "greenFeeCorporate": 150,
+      "greenFeeDescription": "Greenfee 350 kr. Turneringsgreenfee: voksen 175 kr, junior 125 kr, bedriftsgolf 150 kr. Betales via Vipps 723565.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Greenfeesamarbeid med andre klubber: Austrått GK 175 kr, Frosta GK 250 kr, Namdal GK 175 kr, Røros GK 175 kr, Stiklestad GK 245 kr, Namsos GK 175 kr, Nærøysund GK 175 kr.",
+      "vipps": "723565"
     }
   },
   "membershipPricing": {
@@ -196,10 +216,10 @@
   },
   "ratings": {
     "google": {
-      "rating": null,
-      "reviewCount": null,
+      "rating": 3.5,
+      "reviewCount": 21,
       "maxRating": 5,
-      "url": null,
+      "url": "https://maps.google.com/?cid=14307193665095785000",
       "likes": null,
       "checkIns": null
     }
@@ -230,14 +250,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "gjestespill",
-      "bli-medlem"
-    ],
-    "scrapedAt": "2026-02-14T16:40:00.000Z",
+    "pagesScraped": ["homepage", "gjestespill", "bli-medlem"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:53.408Z",
-    "updatedAt": "2026-02-14T16:40:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJwxeKPNWEckYRJ84S1UvAiMY"
 }

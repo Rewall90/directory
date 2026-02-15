@@ -124,6 +124,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Aktiv klubb uten permanent bane. Bruker SimuGolf, Årdal Range og Hemsedal Golfklubb. Arrangerer vinterserie på simulator og årlige klubbmesterskap. Medlemskap gir spillerett på baner i Norge/Sverige, golfforsikring og GolfBox-tilgang."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFee9": 400,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 225,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": 3000,
+      "specialOfferIncludes": "Fritt spel hele sommeren på Hemsedal Golfklubb",
+      "freeTrial": null,
+      "greenFeeDescription": "Klubben har ingen egen bane. Medlemmer spiller på Hemsedal Golfklubb: Greenfee 9 hull kr 400 (herre/dame/senior), pensjonister kr 225, junior kr 225. Fritt spel hele sommeren for kr 3000. SimuGolf (Trackman) i Øvre Årdal og GolfSimVest (simulator) er også tilgjengelig.",
+      "notes": "Aktiv klubb uten permanent bane. Spiller på Hemsedal Golfklubb (9 hull). Bruker SimuGolf (Trackman) i Øvre Årdal og GolfSimVest simulator. Arrangerer vinterserie 2025-2026 (12 runder) og årlig klubbmesterskap. Årsmøte 24. feb 2026. Priser hentet fra legk.no, basert på 2025-satser (2026-priser ikke publisert ennå)."
     }
   },
   "membershipPricing": {},
@@ -166,7 +185,7 @@
     "pagesScraped": null,
     "scrapedAt": "2026-02-14T17:48:00.000Z",
     "createdAt": "2025-10-31T10:16:58.673Z",
-    "updatedAt": "2026-02-14T17:48:00.000Z",
+    "updatedAt": "2026-02-15T12:00:00.000Z",
     "statusNotes": "No active golf course in operation. Club uses SimuGolf, Ardal Range, and Hemsedal GK."
   },
   "googlePlaceId": "ChIJOZB-IWcmPkYRK6tqu5HvYc4"

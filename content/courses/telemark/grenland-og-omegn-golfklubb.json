@@ -200,10 +200,7 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjester",
-      "medlemskap"
-    ],
+    "pagesScraped": ["gjester", "medlemskap"],
     "scrapedAt": "2026-02-14T16:00:00.000Z",
     "createdAt": "2025-10-31T12:22:39.203Z",
     "updatedAt": "2026-02-14T16:00:00.000Z"

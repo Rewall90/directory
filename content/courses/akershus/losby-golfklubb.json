@@ -127,6 +127,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Booking via Golfbox, Gimmie app, eller telefon. Betaling med kort, Vipps eller greenfeebillett. Forventet spilletid 18-hull: 4 timer."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18Primetime": 1080,
+      "greenFee18OffPeak": 860,
+      "greenFee9": 345,
+      "greenFeeJunior18": 540,
+      "greenFeeJunior9": 173,
+      "greenFeeMemberNoPlayright18": 680,
+      "greenFeeMemberNoPlayright9": 300,
+      "greenFeeGuestOfAksjonaer": 680,
+      "greenFeeDescription": "Østmork 18-hull: Primetime (hverdager 15-18, helg 09-13): 1080kr. Øvrige tider: 860kr. Juniorer halv pris. Vestmork 9-hull: 345kr alle dager. Juniorer halv pris. Hcp krav 18-hull: 36, 9-hull: 54.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser fra 2025-sesongen - nettsiden viser fortsatt 'Greenfee 2025'. 2026-priser er ikke publisert ennå (sjekket feb 2026). Booking via Golfbox, Gimmie app, eller telefon. Betaling med kort, Vipps eller greenfeebillett. Forventet spilletid 18-hull: 4 timer."
     }
   },
   "membershipPricing": {},
@@ -166,13 +185,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "gjest/booking-greenfee"
-    ],
-    "scrapedAt": "2026-02-14T16:14:00.000Z",
+    "pagesScraped": ["homepage", "gjest/booking-greenfee"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:12.501Z",
-    "updatedAt": "2026-02-14T16:14:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJo0E2KmJkQUYRZ60DY70d2-c"
 }

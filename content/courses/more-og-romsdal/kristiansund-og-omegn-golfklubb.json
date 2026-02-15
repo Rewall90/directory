@@ -148,15 +148,15 @@
       "greenFeeWeekend": 350,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "twilight": null,
-      "greenFeeDescription": "Ordinær greenfee: 350 kr per dag. KOGK fjernmedlemmer, samarbeidsklubber eller gjester av KOGK-medlemmer som spiller i samme flight: 250 kr i greenfee. Betaling via Vipps #115689.",
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Ordinær greenfee: 350 kr per dag (9-hulls bane, dagspass). KOGK fjernmedlemmer, samarbeidsklubber eller gjester av KOGK-medlemmer som spiller i samme flight: 250 kr i greenfee. Betaling via Vipps #115689.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling via Vipps #115689"
+      "notes": "Betaling via Vipps #115689. Banen er en 9-hullsbane, greenfee gjelder som dagspass."
     }
   },
   "membershipPricing": {
@@ -232,13 +232,10 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "booking-greenfee",
-      "bli-medlem"
-    ],
-    "scrapedAt": "2026-02-14T16:00:00.000Z",
+    "pagesScraped": ["bli-medlem", "golfbanen", "homepage"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:31:08.295Z",
-    "updatedAt": "2026-02-14T16:00:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJawAZhEXEE0YRf6YqOdm5jr8"
 }

@@ -124,6 +124,22 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Sesonggreenfee: 2500 NOK - ubegrenset spill hele sesongen. Krever hovedmedlemskap i annen norsk klubb (min 6000 kr i kontingent). Maks 150 plasser."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": null,
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "2026 priser er ikke publisert ennå. Klubben oppgir at 'Info kommer starten på 2026' på nettsiden. Kontakt klubben direkte på 69 13 91 00 eller post@skjeberggk.no for oppdatert prisinformasjon."
     }
   },
   "membershipPricing": {},
@@ -215,10 +231,10 @@
     "websiteQuality": null,
     "completenessPercentage": 90,
     "pagesScraped": null,
-    "scrapedAt": "2026-02-14T16:15:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:42:08.358Z",
-    "updatedAt": "2026-02-14T16:15:00.000Z",
-    "note": "Pricing needs verification from skjeberggk.no"
+    "updatedAt": "2026-02-15T12:00:00.000Z",
+    "note": "2026 pricing not yet published on website as of 2026-02-15. Website indicates pricing info will come 'starten på 2026'. 2025 pricing retained for reference."
   },
   "googlePlaceId": "ChIJ20hxIrIIREYR21BydLesPcg"
 }

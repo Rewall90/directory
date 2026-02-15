@@ -129,6 +129,24 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Del av 54-hulls system med Haugaland, Nordvegen og Torvastad. Medlemskap gir tilgang til alle fire baner."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 350,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": null,
+      "greenFee9": null,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee (dagspass): 350 kr alle dager. Må forhåndbetales FØR spill via Vipps (919427). Spillere må registreres i Golfbox FØR start. Ikke-medlemmer som ikke har betalt greenfee blir belastet 500 kr + greenfee. Pay-to-play ikke tilgjengelig for spillere uten Golfbox.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Del av Sveio Golfpark-systemet med Haugaland, Nordvegen og Torvastad. Medlemskap gir fritt spill på Karmøy, Nordvegen og Haugaland. Driving range: 40 kr per bøtte baller. Klubbutleie ikke tilgjengelig."
     }
   },
   "membershipPricing": {
@@ -225,7 +243,7 @@
     ],
     "scrapedAt": "2026-02-14T16:03:00.000Z",
     "createdAt": "2025-10-31T07:46:24.417Z",
-    "updatedAt": "2026-02-14T16:03:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJn7aVVkOoO0YRMwSsQYbuwWs"
 }

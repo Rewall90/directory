@@ -129,6 +129,26 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 150,
+      "greenFeeJuniorWeekend": 175,
+      "greenFee18": null,
+      "greenFee9": 300,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "GREENFEE 2026 (9 hull):\n• Senior hverdag: 300 kr\n• Senior helg/helligdager: 350 kr\n• Junior (0-19) hverdag: 150 kr\n• Junior (0-19) helg/helligdager: 175 kr\n\nGREENFEEMEDLEMMER (9 hull):\n• Senior hverdag: 250 kr\n• Senior helg/helligdager: 300 kr\n• Junior (0-19) hverdag: 125 kr\n• Junior (0-19) helg/helligdager: 150 kr\n\nTILLEGG 9 ekstra hull samme dag: 150 kr (gjester), 100 kr (greenfeemedlemmer), 50 kr (0-19 år)\n\nNorsk Senior Golf: 250 kr (hverdag før kl. 14), 300 kr (helg/helligdager)\nHauger GK medlemmer (2025-avtale): 250 kr (hverdag), 300 kr (helg/helligdager)\n\nUTSTYR:\n• Bagutleie med køller: 200 kr\n• Tralleutleie: 50 kr\n• Golfbil (krever legeerklæring): 200 kr\n\nSIMULATOR:\n• Medlemmer: 250 kr/time (hverdag), 325 kr/time (helg/helligdager)\n• Ikke-medlemmer: 300 kr/time (hverdag), 375 kr/time (helg/helligdager)\n• 25-klippskort medlemmer: 5000 kr",
+      "cartRental": 200,
+      "pullCartRental": 50,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Prisene er hentet fra klubbens nettside per 15. februar 2026. Banen er 9 hull; greenfee er per 9 hull. Tillegg for ytterligere 9 hull er 150 kr for gjester, 100 kr for greenfeemedlemmer, 50 kr for junior (0-19 år)."
     }
   },
   "membershipPricing": {
@@ -246,15 +266,10 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 92,
-    "pagesScraped": [
-      "gjester",
-      "medlemskap",
-      "klubben",
-      "bane"
-    ],
-    "scrapedAt": "2026-02-14T15:57:00.000Z",
+    "pagesScraped": ["gjester", "medlemskap", "klubben", "bane"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:35:09.472Z",
-    "updatedAt": "2026-02-14T15:57:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJiyLZO5h6QUYR8Z64cLthYCE"
 }

@@ -170,13 +170,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "priser"
-    ],
-    "scrapedAt": "2026-02-14T16:12:00.000Z",
+    "pagesScraped": ["homepage", "priser"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:12.161Z",
-    "updatedAt": "2026-02-14T16:12:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJk63DhBESQUYRVyiBAFLmvcU"
 }

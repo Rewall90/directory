@@ -175,7 +175,7 @@
   "ratings": {
     "google": {
       "rating": 4.6,
-      "reviewCount": 74,
+      "reviewCount": 75,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=16313689070804844352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -219,14 +219,10 @@
     "dataQuality": "94.0",
     "websiteQuality": "good",
     "completenessPercentage": 94,
-    "pagesScraped": [
-      "homepage",
-      "gjester",
-      "medlemskap"
-    ],
+    "pagesScraped": ["homepage", "gjester", "medlemskap"],
     "scrapedAt": "2026-02-14T17:38:00.000Z",
     "createdAt": "2025-10-31T10:17:00.961Z",
-    "updatedAt": "2026-02-14T17:38:00.000Z"
+    "updatedAt": "2026-02-14T20:34:00.000Z"
   },
   "googlePlaceId": "ChIJYbX51k_kPEYRQL9-ucbdZeI"
 }

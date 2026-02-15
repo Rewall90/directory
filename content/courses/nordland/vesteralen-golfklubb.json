@@ -131,19 +131,19 @@
   "pricing": {
     "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 150,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Green-fee betales med Vipps pa banen. Medlemmer spiller gratis pa banen, betaler kun arsavgift. Driving range med kortbetaling.",
+      "greenFeeDescription": "Green-fee betales med Vipps pa banen eller kontanter i postboksen. Medlemmer spiller gratis, betaler kun arsavgift. Driving range med kortbetaling.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Utvidelse til 9-hullsbane pagar (startet 2025). Samfunnsoftet i SNN bidrar med 200.000 kr til prosjektet."
+      "notes": "Flat greenfee-pris for 6-hullsbane. Utvidelse til 9-hullsbane pagar (startet 2025). Samfunnsloftet i SNN bidrar med 200.000 kr til prosjektet."
     }
   },
   "membershipPricing": {
@@ -187,14 +187,10 @@
     "dataQuality": "90.0",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "hjem",
-      "banen",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T16:11:00.000Z",
+    "pagesScraped": ["hjem", "banen", "medlemskap", "apningstider", "kontakt-oss", "bli-medlem"],
+    "scrapedAt": "2026-02-15T14:00:00.000Z",
     "createdAt": "2025-10-31T09:43:42.613Z",
-    "updatedAt": "2026-02-14T16:11:00.000Z"
+    "updatedAt": "2026-02-15T14:00:00.000Z"
   },
   "googlePlaceId": "ChIJ2wIvFZBG3EURFtQFO00VdVY"
 }

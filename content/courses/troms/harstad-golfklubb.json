@@ -139,6 +139,32 @@
       "bookingMethod": "Vipps",
       "vippsNumber": "106369",
       "notes": "Greenfee gjelder per døgn. 27 ulike tee-plasseringer for variasjon. Naturskjønne omgivelser i Troms. Midnattssol-golf mulig om sommeren."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 350,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFee9Holes": 200,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 200,
+      "greenFeeJuniorNote": "Opptil 19 år",
+      "greenFeeChildFree": true,
+      "greenFeeChildNote": "Barn opp til 15 år gratis",
+      "greenFeePartnerClubs": 250,
+      "greenFeePartnerNote": "Medlemmer av naboklubber",
+      "greenFeeDescription": "GREENFEE 2026:\n\nVOKSNE:\n• 18 hull / hele dagen: 350 kr\n• 9 hull: 200 kr\n\nJUNIOR (opptil 19 år):\n• 200 kr\n\nBARN (opptil 15 år):\n• Gratis\n\nNABOKLUBBER:\n• 18 hull / hele dagen: 250 kr\n\nBetaling via Vipps #106369",
+      "cartRental": 400,
+      "cartRentalNote": "Golfbil 18 hull",
+      "cartRental9Holes": 250,
+      "pullCartRental": null,
+      "clubRental": 150,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "bookingMethod": "Vipps",
+      "vippsNumber": "106369",
+      "notes": "Greenfee gjelder per døgn. 27 ulike tee-plasseringer for variasjon. Naturskjønne omgivelser i Troms. Midnattssol-golf mulig om sommeren."
     }
   },
   "membershipPricing": {
@@ -256,16 +282,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 85,
-    "pagesScraped": [
-      "forside",
-      "banen",
-      "greenfee-og-leie",
-      "vtg-og-medlemsskap",
-      "kontakt"
-    ],
-    "scrapedAt": "2026-02-14T16:02:00.000Z",
+    "pagesScraped": ["forside", "banen", "greenfee-og-leie", "vtg-og-medlemsskap", "kontakt"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:13:01.736Z",
-    "updatedAt": "2026-02-14T16:02:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ2TpbJgV93EURXCrqxTWoevA"
 }

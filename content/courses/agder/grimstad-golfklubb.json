@@ -81,8 +81,8 @@
   },
   "facilities": {
     "drivingRange": true,
-    "drivingRangeLength": null,
-    "drivingRangeNotes": "Tilgjengelig for trening",
+    "drivingRangeLength": 275,
+    "drivingRangeNotes": "275 meter, 33 utslagsplasser. Ballmaskin tar kort og ballkort. 30 baller koster 30 kr.",
     "puttingGreen": true,
     "chippingArea": true,
     "practiceBunker": null,
@@ -93,8 +93,8 @@
     "restaurantName": "",
     "clubRental": true,
     "clubRentalNotes": null,
-    "cartRental": null,
-    "pullCartRental": false,
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": false,
     "clubFitting": null,
@@ -138,18 +138,27 @@
       "currency": "NOK",
       "greenFee18": 500,
       "greenFee9": 300,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeJunior": 200,
       "greenFeeJunior18": 200,
       "greenFeeJunior9": 100,
+      "greenFeeDaily": null,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
       "greenFeeWinterDaily": 100,
       "greenFeeWinterJunior": 50,
       "greenFeeBMember": "halv pris",
       "greenFeeBMemberWinter": 50,
-      "cartRental": null,
-      "pullCartRental": null,
+      "cartRental": 400,
+      "cartRental9": 250,
+      "pullCartRental": 75,
       "clubRental": null,
+      "drivingRangeBalls": 30,
+      "drivingRangeBallsCount": 30,
       "seniorGolfAgreement": false,
       "golfheftet": false,
-      "notes": "Grimstad Golfklubb har per i dag ingen avtale med Norsk Seniorgolf og er ikke med i Golfheftet"
+      "notes": "Greenfee er lik alle dager (ingen helgetillegg). Golfbilutleie: 9 hull 250 kr, 18 hull 400 kr. Fører må være 18 år. Grimstad Golfklubb har per i dag ingen avtale med Norsk Seniorgolf og er ikke med i Golfheftet."
     }
   },
   "membershipPricing": {
@@ -269,11 +278,13 @@
     "completenessPercentage": 85,
     "pagesScraped": [
       "gjester/greenfee",
-      "medlemskap"
+      "gjester/golfbil",
+      "gjester/treningsomrade",
+      "medlemskap/medlemskap-og-priser"
     ],
-    "scrapedAt": "2026-02-14T15:22:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T13:27:23.236Z",
-    "updatedAt": "2026-02-14T15:22:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJCXP7CyHsR0YRZL6By-PJ-9c"
 }

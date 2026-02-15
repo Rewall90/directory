@@ -208,10 +208,7 @@
     "dataQuality": "97.0",
     "websiteQuality": null,
     "completenessPercentage": 97,
-    "pagesScraped": [
-      "hjem",
-      "bli-medlem"
-    ],
+    "pagesScraped": ["hjem", "bli-medlem"],
     "scrapedAt": "2026-02-14T16:04:00.000Z",
     "createdAt": "2025-10-31T09:43:40.329Z",
     "updatedAt": "2026-02-14T16:04:00.000Z"

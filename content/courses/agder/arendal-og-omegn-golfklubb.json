@@ -325,13 +325,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "gjester",
-      "bli-medlem"
-    ],
-    "scrapedAt": "2026-02-14T15:20:00.000Z",
+    "pagesScraped": ["gjester", "bli-medlem"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T13:27:21.922Z",
-    "updatedAt": "2026-02-14T15:20:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJLbO0fSWYR0YRZea0baYA2rc"
 }

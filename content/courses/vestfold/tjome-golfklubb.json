@@ -94,7 +94,7 @@
     "restaurantName": "Kafé Rosso",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -138,6 +138,27 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Medlemmer får gratis spill på Tjøme. 20 bøtter driving range-baller inkludert i medlemskap, ubegrenset bruk for 1000 kr. Medlemmer har 7 dagers forhåndsbooking. 10% rabatt på alt i pro shop. 9-hulls treningsbane tilgjengelig. Handicap-grense 36."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": null,
+      "greenFee9": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeJunior": 150,
+      "greenFeeSenior": null,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
+      "greenFeeDaily": null,
+      "greenFeeWinter18": 300,
+      "greenFeeWinter9": 150,
+      "greenFeeJuniorWinter18": 100,
+      "greenFeeJuniorWinter9": 50,
+      "cartRental": null,
+      "clubRental": null,
+      "pullCartRental": null,
+      "greenFeeDescription": "Vintergreener 2025/2026: 18h 300 kr, 9h 150 kr. Junior 18h 100 kr, 9h 50 kr. Forhåndsbetaling påkrevd via Gimmie/Golfbox. Booking 5 dager før. Prebooking utover 5 dager koster 100 kr ekstra pr. person. Greenfee fra 450 kr i sesong (kilde: golfcards.com). Høysesong 23.6-10.8 ingen rabatter. Junior (6-20 år) 150 kr i høysesong. Greenfee-samarbeid med Grini, Nøtterøy, Vestfold, Drammen, Sandefjord, Borre, Tønsberg gk. Golfpakke med Engø Gård fra 1575 kr (overnatting+frokost+spa+greenfee). Vipps-betaling: 74120.",
+      "notes": "Sesongpriser for 2026 er ikke publisert ennå (per feb 2026). Vinterpriser bekreftet fra tjomegolfklubb.no/gjestespill. Greenfee fra 450 kr i sesong basert på golfcards.com (oppdatert mars 2025). Elektrisk golfbil og tralle tilgjengelig for utleie (priser ikke oppgitt). Handicap-grense 36."
     }
   },
   "membershipPricing": {
@@ -203,7 +224,7 @@
   "ratings": {
     "google": {
       "rating": 4.4,
-      "reviewCount": 74,
+      "reviewCount": 75,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=18392593935286203757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -236,13 +257,10 @@
     "dataQuality": "95.0",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjestespill",
-      "bli-medlem"
-    ],
-    "scrapedAt": "2026-02-14T17:35:00.000Z",
+    "pagesScraped": ["gjestespill", "bli-medlem", "banen", "proshop2", "golfpakke-engo"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:10:45.505Z",
-    "updatedAt": "2026-02-14T17:35:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJmQWaLi-8RkYRbfW8aryeP_8"
 }

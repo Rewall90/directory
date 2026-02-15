@@ -169,11 +169,7 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "start/gjest",
-      "start/gjest/greenfee",
-      "start/nytt-medlem-i-klubben"
-    ],
+    "pagesScraped": ["start/gjest", "start/gjest/greenfee", "start/nytt-medlem-i-klubben"],
     "scrapedAt": "2026-02-14T16:06:00.000Z",
     "createdAt": "2025-10-31T11:43:12.658Z",
     "updatedAt": "2026-02-14T16:06:00.000Z"

@@ -152,8 +152,8 @@
   },
   "ratings": {
     "google": {
-      "rating": 4.4,
-      "reviewCount": 149,
+      "rating": 4.6,
+      "reviewCount": 77,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=14428878685097578715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -207,10 +207,7 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjester/greenfee",
-      "medlemmer/medlemsavgift"
-    ],
+    "pagesScraped": ["gjester/greenfee", "medlemmer/medlemsavgift"],
     "scrapedAt": "2026-02-14T15:58:00.000Z",
     "createdAt": "2025-10-31T11:42:03.496Z",
     "updatedAt": "2026-02-14T15:58:00.000Z"

@@ -97,10 +97,10 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Kafe",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "250 kr for 18 hull",
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
     "clubFitting": null,
@@ -143,6 +143,33 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager). Golfbil med legeattest: 350 kr (18 hull), 200 kr (9 hull)."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 800,
+      "greenFeeSenior": 500,
+      "greenFeeJunior": 240,
+      "greenFeeJuniorWeekend": 320,
+      "greenFeeJunior9Holes": 160,
+      "greenFee9Holes": 400,
+      "greenFee18": 600,
+      "greenFee9": 400,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "18 hull: 600 kr hverdag, 800 kr helg. 9 hull: 400 kr. Junior: 40% av ordinær greenfee (240 kr hverdag, 320 kr helg, 160 kr 9 hull). Naboklubber (Mjøsen, Sorknes, Trysil, Skei, Kongsvinger, Elverum, Valdres, Land, Hafjell, Gjøvik & Toten): 100 kr rabatt 18 hull, 50 kr rabatt 9 hull. NSG seniorer: 500 kr (08:00-15:00 hverdager). To runder samme dag: 900 kr hverdag, 1300 kr helg.",
+      "cartRental": 400,
+      "cartRental9Holes": 250,
+      "cartRentalMedical": 350,
+      "cartRentalMedical9Holes": 200,
+      "pullCartRental": 70,
+      "pullCartRentalElectric": 120,
+      "clubRental": 250,
+      "lockerRental": 600,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser fra 2025-sesongen (2026-priser ikke publisert ennå per 15.02.2026). Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager). Golfbil med legeattest: 350 kr (18 hull), 200 kr (9 hull). Golfbil kun tilgjengelig i proshopens åpningstider (08-20 hverdag, 08-18 helg). Aldersgrense 18 år for golfbil."
     }
   },
   "membershipPricing": {
@@ -201,15 +228,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjester",
-      "medlemmer",
-      "kontakt",
-      "utleie"
-    ],
-    "scrapedAt": "2026-02-14T15:55:00.000Z",
+    "pagesScraped": ["gjester", "greenfee", "utleie", "medlemmer", "kontakt"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:10.893Z",
-    "updatedAt": "2026-02-14T15:55:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJe8o5XQDnQUYR9DJhKKpP0Ds"
 }

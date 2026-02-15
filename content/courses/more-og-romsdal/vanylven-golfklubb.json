@@ -82,8 +82,8 @@
     "proShop": false,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
+    "clubRental": true,
+    "clubRentalNotes": "Låner ut køller og utstyr etter behov",
     "cartRental": false,
     "pullCartRental": true,
     "golfLessons": true,
@@ -139,11 +139,11 @@
       "greenFeeDescription": "Greenfee voksne: 200 kr per dag. Junior (13-19 år): 100 kr per dag. Barn opp til og med 12 år spiller gratis.",
       "cartRental": null,
       "pullCartRental": null,
-      "clubRental": null,
+      "clubRental": 0,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser bekreftet fra tidligere data - websiden har ikke prisinfo"
+      "notes": "Priser bekreftet fra vangolf.no BANA-side. Utstyrslån tilgjengelig etter behov (gratis). Websiden viser fortsatt 2024-sesongkort, men dagsgreenfee bekreftet."
     }
   },
   "membershipPricing": {},
@@ -204,13 +204,11 @@
     "dataQuality": "90.0",
     "websiteQuality": "limited",
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "index"
-    ],
-    "scrapedAt": "2026-02-14T16:55:00.000Z",
+    "pagesScraped": ["index", "bana", "om-oss", "gjester"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:31:11.956Z",
-    "updatedAt": "2026-02-14T16:55:00.000Z",
-    "scrapeNote": "Website does not have dedicated pricing pages - using existing data"
+    "updatedAt": "2026-02-15T12:00:00.000Z",
+    "scrapeNote": "Pricing confirmed from vangolf.no BANA page: greenfee 200kr voksne, 100kr junior. Gjester-side under utvikling. Utstyrslån bekreftet fra OM OSS-side."
   },
   "googlePlaceId": "ChIJ3aEPpqAFF0YRWJBA4JHplQY"
 }

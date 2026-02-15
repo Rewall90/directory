@@ -82,10 +82,10 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Mat og drikke",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Utleie av køller: kr 250 per sett",
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
     "clubFitting": null,
@@ -122,6 +122,24 @@
       "neighborClubDiscount": "20%",
       "customFitting": 695,
       "notes": "Custom fitting: 695 kr (fradrag ved kjøp av utstyr). Fri tilgang til poletter på range: 1000 kr for sesongkort-innehavere."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 600,
+      "greenFee9": 400,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 600,
+      "greenFeeJunior": 250,
+      "greenFeeJunior9": 200,
+      "greenFeeJuniorWeekend": 300,
+      "greenFeeTwilight": 300,
+      "twilightStartTime": "18:00",
+      "cartRental": 400,
+      "cartRentalMedical": 175,
+      "pullCartRental": 40,
+      "clubRental": 250,
+      "greenFeeDescription": "Greenfee: 18-hull hverdager (man-tor) kr 500, helg (fre-søn) kr 600. 9-hull alle dager kr 400. Junior halv pris på greenfee. Kvelds-golf alle dager fra kl. 18:00 kr 300. Uregistrert spill belastes dobbel greenfee.",
+      "notes": "Juniorer har halv pris på greenfee (50% rabatt). Helg = fredag-søndag. Kvelds-golf (twilight) fra kl. 18:00 alle dager kr 300. Medisinsk fritak for golfbil: kr 175 (krever gyldig dokumentasjon). Spill uten gyldig medlemskap medfører obligatorisk klubbmedlemskap kr 1100. Avbestilling senest 15 min før starttid."
     }
   },
   "membershipPricing": {
@@ -176,14 +194,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "home",
-      "om/bli-medlem",
-      "proshop"
-    ],
-    "scrapedAt": "2026-02-14T16:15:00.000Z",
+    "pagesScraped": ["home", "om/bli-medlem", "proshop", "banen/greenfee-og-utleie"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:14.396Z",
-    "updatedAt": "2026-02-14T16:15:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJoZgEcekDQEYRsPSphPNuoxc"
 }

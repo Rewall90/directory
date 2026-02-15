@@ -89,7 +89,7 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": false,
     "golfLessons": true,
     "teachingPro": true,
@@ -114,6 +114,29 @@
     "discGolfStandard": null
   },
   "pricing": {
+    "2026": {
+      "currency": "NOK",
+      "greenFeeWeekday": 495,
+      "greenFeeWeekend": 595,
+      "greenFee9Holes": 300,
+      "greenFeeJunior": 250,
+      "greenFeeJuniorWeekend": 300,
+      "greenFeeJunior9Holes": 200,
+      "greenFeeDescription": "Voksne: 495 kr (hverdag), 595 kr (helg). Junior: 250 kr (hverdag), 300 kr (helg). 9 hull: 300 kr (voksen), 200 kr (junior). Greenfee-medlemmer får 50% rabatt. NSG lojalitetskort: 50% rabatt man-fre (inntil 3 ganger). Golfamore: 50% rabatt man-fre (en gang per sesong).",
+      "cartRental": 400,
+      "cartRental9Holes": 250,
+      "pullCartRental": null,
+      "clubRental": null,
+      "minigolf9Holes": 60,
+      "minigolfJunior9Holes": 30,
+      "minigolfExtra9Holes": 30,
+      "minigolfJuniorExtra9Holes": 15,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "neighborClubDiscount": 100,
+      "notes": "Naboklubber får 100 kr rabatt man-fre 18 hull. Gratis medlemskap, trening og utstyr for Ung Start (under 20 år i Elverum kommune)"
+    },
     "2025": {
       "currency": "NOK",
       "greenFeeWeekday": 495,
@@ -192,14 +215,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "greenfee",
-      "medlemsskap",
-      "kontakt"
-    ],
-    "scrapedAt": "2026-02-14T15:58:00.000Z",
+    "pagesScraped": ["greenfee", "medlemsskap", "kontakt"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:11.464Z",
-    "updatedAt": "2026-02-14T15:58:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJR585jBL_aUYRqA3PhRg7A1Y"
 }

@@ -84,8 +84,8 @@
     "restaurantName": "Kafé",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
     "clubFitting": null,
@@ -189,14 +189,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "home",
-      "gjest/greenfee",
-      "kontakt"
-    ],
-    "scrapedAt": "2026-02-14T16:11:00.000Z",
+    "pagesScraped": ["home", "gjest", "gjest/greenfee", "gjest/golfbil", "kontakt"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:13.939Z",
-    "updatedAt": "2026-02-14T16:11:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ4VESzPIWakYRRl9bBvYettE"
 }

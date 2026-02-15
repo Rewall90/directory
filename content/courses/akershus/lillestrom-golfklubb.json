@@ -75,8 +75,8 @@
     "drivingRangeLength": null,
     "drivingRangeNotes": null,
     "puttingGreen": true,
-    "chippingArea": false,
-    "practiceBunker": false,
+    "chippingArea": true,
+    "practiceBunker": true,
     "clubhouse": true,
     "clubhouseName": null,
     "proShop": true,
@@ -172,12 +172,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage"
-    ],
-    "scrapedAt": "2026-02-14T16:09:00.000Z",
+    "pagesScraped": ["homepage", "klubben", "medlemmer", "bane/om-banen"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:11.902Z",
-    "updatedAt": "2026-02-14T16:09:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJk32f32F7QUYRXnX2kYI4AEc"
 }

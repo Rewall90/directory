@@ -208,9 +208,7 @@
     "dataQuality": "94.0",
     "websiteQuality": null,
     "completenessPercentage": 94,
-    "pagesScraped": [
-      "klubb/medlem"
-    ],
+    "pagesScraped": ["klubb/medlem"],
     "scrapedAt": "2026-02-14T16:28:00.000Z",
     "createdAt": "2025-10-31T10:16:58.140Z",
     "updatedAt": "2026-02-14T16:28:00.000Z"

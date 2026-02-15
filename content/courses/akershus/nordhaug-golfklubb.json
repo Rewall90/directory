@@ -114,17 +114,18 @@
       "currency": "NOK",
       "greenFee9": 380,
       "greenFee9Junior": 230,
+      "greenFee18MemberNoFreespill": 600,
       "greenFee9MemberNoFreespill": 330,
       "greenFee9MemberGuest": 330,
       "greenFee9MemberGuestJunior": 200,
-      "greenFeeDescription": "Forhåndsbetaling via GolfBox. Avbestilling innen 24 timer for refusjon.",
+      "greenFeeDescription": "Forhåndsbetaling via GolfBox. Avbestilling innen 24 timer for refusjon. Medlemmer booker 7 dager i forveien, gjester 3 dager.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Snikspill medfører dobbel greenfee + ordinær greenfee"
+      "notes": "Snikspill medfører dobbel greenfee + ordinær greenfee. Spillere skal møte minst 10 minutter før start."
     }
   },
   "membershipPricing": {
@@ -184,14 +185,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "greenfee-priser",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T17:36:00.000Z",
+    "pagesScraped": ["homepage", "greenfee-priser", "medlemskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:13.771Z",
-    "updatedAt": "2026-02-14T17:36:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJPyEQA9ISQUYRXcYpHGV9WIE"
 }

@@ -116,7 +116,7 @@
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee tilgjengelig via medlemskap. Kontakt klubben for gjestespill: post@tysnesgolf.no eller 90551995.",
+      "greenFeeDescription": "Greenfee selges i klubbhuset (låven). Priser ikke oppgitt på nett. Kontakt klubben: post@tysnesgolf.no eller 90551995.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
@@ -190,13 +190,10 @@
     "dataQuality": "75.0",
     "websiteQuality": "basic",
     "completenessPercentage": 75,
-    "pagesScraped": [
-      "homepage",
-      "medlem"
-    ],
-    "scrapedAt": "2026-02-14T17:44:00.000Z",
+    "pagesScraped": ["homepage", "medlem", "om-oss", "bane", "dalen-golf"],
+    "scrapedAt": "2026-02-15T14:00:00.000Z",
     "createdAt": "2025-10-31T10:17:02.178Z",
-    "updatedAt": "2026-02-14T17:44:00.000Z"
+    "updatedAt": "2026-02-15T14:00:00.000Z"
   },
   "googlePlaceId": "ChIJE5vciLxmPEYRpwUf9fBgOQQ"
 }

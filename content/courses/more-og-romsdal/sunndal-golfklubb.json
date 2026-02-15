@@ -143,7 +143,8 @@
       "greenFeeWeekend": 200,
       "greenFeeSenior": 200,
       "greenFeeJunior": 50,
-      "twilight": null,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
       "greenFeeDescription": "Greenfee senior: 200 kr. Greenfee junior: 50 kr. Betales i tillegg til medlemskap med mindre man har spillerettighet.",
       "cartRental": null,
       "pullCartRental": null,
@@ -151,7 +152,7 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling til konto 4035 16 23936 (ikke Vipps). Et av Norges rimeligste medlemskap."
+      "notes": "Priser videreført fra 2025 (nettsiden viser kun 2025-priser per feb 2026). Betaling til konto 4035 16 23936 (ikke Vipps). Et av Norges rimeligste medlemskap."
     }
   },
   "membershipPricing": {
@@ -248,12 +249,10 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "index"
-    ],
+    "pagesScraped": ["index"],
     "scrapedAt": "2026-02-14T16:25:00.000Z",
     "createdAt": "2025-10-31T09:31:10.358Z",
-    "updatedAt": "2026-02-14T16:25:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJSz3Pax2CE0YRPNWdoR54w_w"
 }

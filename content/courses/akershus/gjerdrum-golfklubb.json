@@ -98,9 +98,9 @@
     "proShop": true,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "2 sett (1 herre/1 dame, høyrehendt) kr 350 for 18 hull",
+    "cartRental": true,
     "pullCartRental": false,
     "golfLessons": null,
     "teachingPro": false,
@@ -232,9 +232,9 @@
       "https://gjerdrumgolfklubb.no/gjester",
       "https://gjerdrumgolfklubb.no/medlemskap"
     ],
-    "scrapedAt": "2026-02-14T15:48:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:10.247Z",
-    "updatedAt": "2026-02-14T15:48:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJYQyOwRV5QUYRX7JKZCggEC8"
 }

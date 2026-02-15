@@ -124,6 +124,28 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 700,
+      "greenFeeWeekend": 800,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 350,
+      "greenFee9Weekday": 350,
+      "greenFee9Weekend": 400,
+      "greenFeeTwilight": 600,
+      "twilightStartTime": "18:00",
+      "greenFeeEarlyBird": 500,
+      "earlyBirdEndTime": "09:50",
+      "greenFeeDescription": "GREENFEE 2025/2026 (hentet fra gronmogk.no, 2026-priser ikke publisert ennå - viser gjeldende priser).\n\nHVERDAGER (18 hull):\n• Morgenfugl kl. 06:00-09:50: 500 kr\n• Brunsj kl. 10:00-13:50: 700 kr\n• Ettermiddag kl. 14:00-17:50: 800 kr\n• Twilight kl. 18:00-20:50: 600 kr\n\nHVERDAGER (9 hull):\n• Morgenfugl kl. 06:00-09:50: 250 kr\n• Brunsj kl. 10:00-13:50: 350 kr\n• Ettermiddag kl. 14:00-17:50: 400 kr\n• Twilight kl. 18:00-20:50: 300 kr\n\nHELG OG HELLIGDAGER (18 hull):\n• Morgenfugl kl. 06:00-09:50: 500 kr\n• Brunsj kl. 10:00-13:50: 800 kr\n• Ettermiddag kl. 14:00-17:50: 800 kr\n• Twilight kl. 18:00-20:50: 600 kr\n\nHELG OG HELLIGDAGER (9 hull):\n• Morgenfugl kl. 06:00-09:50: 250 kr\n• Brunsj kl. 10:00-13:50: 400 kr\n• Ettermiddag kl. 14:00-17:50: 400 kr\n• Twilight kl. 18:00-20:50: 300 kr\n\nJULI GREENFEE (redusert, 18 hull):\n• Morgenfugl: 300 kr\n• Brunsj: 500 kr\n• Ettermiddag: 600 kr\n• Twilight: 400 kr\n\nJULI GREENFEE (redusert, 9 hull):\n• Morgenfugl: 150 kr\n• Brunsj: 250 kr\n• Ettermiddag: 300 kr\n• Twilight: 200 kr\n\nRABATTER:\n• Junior (under 20 år): 50% av ordinær pris\n• Grønmo Greenfee medlem: 50% av ordinær pris\n• Grønmo Basis medlem: 50 kr rabatt per 9 hull\n• Vennerabatt: 100 kr rabatt per 9 hull (må spille med aksjemedlem)\n\nUTSTYR:\n• Golfbil: 200 kr (9 hull) / 350 kr (18 hull)\n• Tralle: 50 kr\n\nBestilling inntil 3 dager i forveien via Gimmie-appen eller GolfBox.",
+      "cartRental": 350,
+      "pullCartRental": 50,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "2026-priser ikke publisert ennå per 15. februar 2026. Prisene er basert på gjeldende 2025-priser fra gronmogk.no/gjestespill-2/."
     }
   },
   "membershipPricing": {
@@ -249,14 +271,10 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "gjestespill",
-      "medlemskap",
-      "kontakt"
-    ],
-    "scrapedAt": "2026-02-14T15:55:00.000Z",
+    "pagesScraped": ["gjestespill", "medlemskap", "kontakt"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:36:54.437Z",
-    "updatedAt": "2026-02-14T15:55:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ3Vu2VBlmQUYRyVrhqa77f2s"
 }

@@ -123,6 +123,27 @@
       "clubRental18": 250,
       "drivingRangeBalls": 20,
       "notes": "Sesong mai/juni til uke 40. NSG: 50% rabatt (man-tor), 3 runder. Samarbeidsklubber (20% rabatt man-tor): Hallingdal, Valdres, Gjøvik og Toten, Kongsvinger, Mjøsen, Elverum, Sorknes, Land, Atlungstad, Trysil, Skei, Norefjell, Hafjell."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee9Weekday": 350,
+      "greenFee18Weekday": 450,
+      "greenFee9Weekend": 450,
+      "greenFee18Weekend": 575,
+      "greenFeeJunior": "50%",
+      "seasonPassMember": 4100,
+      "seasonPassOther": 4750,
+      "seasonPassJunior": 1650,
+      "weekendPass": 1500,
+      "threeDayPassWeekday": 1050,
+      "greenFeeDescription": "Helg/ferie (fre-søn, juli, uke 40): 9 hull 450 kr, 18 hull 575 kr. Ukedag (man-tor): 9 hull 350 kr, 18 hull 450 kr. Junior (t.o.m. 19 år) halv pris. 20% klubbrabatt for samarbeidsklubber (man-tor).",
+      "golfCartRental9": 250,
+      "golfCartRental18": 350,
+      "pullCartRental": 75,
+      "clubRental9": 200,
+      "clubRental18": 250,
+      "drivingRangeBalls": 20,
+      "notes": "Priser videreført fra 2025 (2026-priser ikke publisert per februar 2026). Sesong mai/juni til uke 40. NSG: 50% rabatt (man-tor), 3 runder. Samarbeidsklubber (20% rabatt man-tor): Hallingdal, Valdres, Gjøvik og Toten, Kongsvinger, Mjøsen, Elverum, Sorknes, Land, Atlungstad, Trysil, Skei, Norefjell, Hafjell."
     }
   },
   "membershipPricing": {
@@ -168,14 +189,10 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "nesfjellet-golf",
-      "golfklubben",
-      "golfbanen-ny"
-    ],
-    "scrapedAt": "2026-02-14T16:09:00.000Z",
+    "pagesScraped": ["nesfjellet-golf", "golfklubben", "golfbanen-ny", "golfkafe-0"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:54:19.740Z",
-    "updatedAt": "2026-02-14T16:09:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJB_09aB92QEYR4fSc7WKyDmY"
 }

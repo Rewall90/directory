@@ -84,7 +84,7 @@
     "restaurantName": "Østmarka Bistro",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": false,
     "golfLessons": null,
     "teachingPro": false,
@@ -117,7 +117,7 @@
       "greenFee18Weekend": 590,
       "greenFeeJunior": "50% av gjeldende pris",
       "greenFeeMemberGuest18": -100,
-      "greenFeeDescription": "Dagsgreenfee gjelder ved betaling av full greenfee. Ingen handicapkrav, kun klubbhandicap 54.",
+      "greenFeeDescription": "Dagsgreenfee gjelder ved betaling av full greenfee (ingen rabatter). Ingen handicapkrav, kun klubbhandicap 54. Maks hcp 180 i flight.",
       "cartRental18": 390,
       "cartRental9": 250,
       "pullCartRental": null,
@@ -125,7 +125,7 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Norsk Seniorgolf: 100 kr rabatt (3 ganger/år, hverdager før kl. 14:00)"
+      "notes": "Norsk Seniorgolf: 100 kr rabatt (3 ganger/år, hverdager før kl. 14:00). Greenfeemedlemmer: 100 kr rabatt på 18 hull. Gjester med betalende medlem: 100 kr rabatt på 18 hull. Booking via GolfBox eller proshop, 10 dager i forveien."
     }
   },
   "membershipPricing": {
@@ -214,14 +214,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "gjester",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T17:40:00.000Z",
+    "pagesScraped": ["homepage", "gjester", "medlemskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:18.971Z",
-    "updatedAt": "2026-02-14T17:40:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJJ3gEL79fQUYRoFRRLKJrc-I"
 }

@@ -150,6 +150,21 @@
       "pullCartRental": 75,
       "greenFeeDescription": "Greenfee 2025: Hverdager før 14:00 kr 750, etter 14:00 kr 850. Helger før 14:00 kr 850, etter 14:00 kr 750. Twilight kr 500. Junior: 50% av ordinær greenfee. NSG rabatt: kr 100. Spill med medlem: kr 200 rabatt (maks 3 gjester). Kjekstad/Kongsberg medlemmer: kr 400.",
       "notes": "Pull cart rental: kr 75. Vipps no. 17300 for after hours rental."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeWeekdayBefore14": 750,
+      "greenFeeWeekdayAfter14": 850,
+      "greenFeeWeekendBefore14": 850,
+      "greenFeeWeekendAfter14": 750,
+      "greenFeeTwilight": 500,
+      "greenFeeJunior": "50% av ordinær greenfee",
+      "greenFeePartnerClub": 400,
+      "greenFeeNSGDiscount": 100,
+      "greenFeeMemberGuestDiscount": 200,
+      "pullCartRental": 75,
+      "greenFeeDescription": "Greenfee 2026 (foreløpig basert på 2025-priser, 2026-priser ikke publisert ennå): Hverdager før 14:00 kr 750, etter 14:00 kr 850. Helger før 14:00 kr 850, etter 14:00 kr 750. Twilight kr 500. Junior: 50% av ordinær greenfee. NSG rabatt: kr 100. Spill med medlem: kr 200 rabatt (maks 3 gjester). Kjekstad/Kongsberg medlemmer: kr 400.",
+      "notes": "Pull cart rental: kr 75. Vipps no. 17300 for after hours rental. 2026 greenfee-priser er ikke publisert ennå per 15.02.2026 - prisene er basert på gjeldende 2025-priser."
     }
   },
   "membershipPricing": {
@@ -288,9 +303,9 @@
       "https://askergolf.no/gjester/priser-og-booking",
       "https://askergolf.no/medlemskap"
     ],
-    "scrapedAt": "2026-02-14T15:39:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:07.951Z",
-    "updatedAt": "2026-02-14T15:39:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJxf-5o9gVQUYRC9f_lyy9Z44"
 }

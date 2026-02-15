@@ -84,7 +84,7 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": null,
     "teachingPro": false,
@@ -141,12 +141,18 @@
       "fiveRoundPackage": 1955,
       "nsgDiscount": 200,
       "cartRental": 360,
-      "pullCartRental": null,
+      "cartRentalWeekend": 420,
+      "cartRentalPrimeTime": 470,
+      "cartRentalPrimeTimeNote": "Lørdager 10:00-14:00",
+      "cartRental4Seater": 470,
+      "cartRental4SeaterWeekend": 570,
+      "cartRentalMemberDiscount": 100,
+      "pullCartRental": 60,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Sesong-greenfee selges kun til fullt betalende medlemmer. 5 greenfee-billetter for 1955 kr. NSG-rabatt: 3 runder/sesong til halv pris (200 kr) på ukedager, kun 18 hull."
+      "notes": "Sesong-greenfee selges kun til fullt betalende medlemmer. 5 greenfee-billetter for 1955 kr. NSG-rabatt: 3 runder/sesong til halv pris (200 kr) på ukedager, kun 18 hull. Golfbil: Hverdag 360 kr, helg 420 kr, lørdag 10-14: 470 kr. 4-seter: hverdag 470 kr, helg 570 kr. Tralle: 60 kr/runde."
     }
   },
   "membershipPricing": {
@@ -196,12 +202,15 @@
     "completenessPercentage": 95,
     "pagesScraped": [
       "home",
-      "greenfee/priser-2026",
+      "prise-2026",
+      "greenfee-pass-til-salgs",
+      "golfbiler-og-utleietraller",
+      "praksis-og-avtalevilkr-for-bestilling-av-greenfee",
       "medlemskap"
     ],
-    "scrapedAt": "2026-02-14T16:09:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:13.662Z",
-    "updatedAt": "2026-02-14T16:09:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJTSwCklDrakYRQQ1qzx5RLmk"
 }

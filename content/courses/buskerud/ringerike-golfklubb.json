@@ -145,6 +145,22 @@
       "golfCartRental18": 350,
       "pullCartRental": 0,
       "notes": "Golfbiler: 3 stk tilgjengelig. Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Simulatorrabatter: 30% Buskerud Golf AS, 10% Hønefoss Golfsenter."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee9Weekday": 300,
+      "greenFee9Weekend": 338,
+      "greenFee18Weekday": 400,
+      "greenFee18Weekend": 450,
+      "greenFeeJunior9Weekday": 125,
+      "greenFeeJunior9Weekend": 150,
+      "greenFeeJunior18Weekday": 125,
+      "greenFeeJunior18Weekend": 200,
+      "greenFeeDescription": "9 hull: hverdag 300 kr, helg 337,50 kr. 18 hull: hverdag 400 kr, helg 450 kr. Junior (tom 19 år): 9 hull hverdag 125 kr, helg 150 kr; 18 hull hverdag 125 kr, helg 200 kr. Gjester som spiller med medlem får 100 kr rabatt (kun ved booking i Golfbox).",
+      "golfCartRental9": 250,
+      "golfCartRental18": 350,
+      "pullCartRental": 0,
+      "notes": "Golfbiler: 3 stk tilgjengelig. Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Simulatorrabatter: 30% Buskerud Golf AS, 10% Hønefoss Golfsenter. Prisen på 9 hull er 75% av 18 hull. Selvbetjening utenom åpningstidene, kun kontanter eller Vipps."
     }
   },
   "membershipPricing": {
@@ -198,13 +214,10 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T16:14:00.000Z",
+    "pagesScraped": ["homepage", "medlemskap", "banen/greenfee"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:54:20.235Z",
-    "updatedAt": "2026-02-14T16:14:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJUdRj8eVSQEYRo5CNu8wHjSM"
 }

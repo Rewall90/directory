@@ -84,7 +84,7 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": false,
@@ -131,6 +131,31 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Medlem med greenfeerabatt: 9 hull 180 kr, 18 hull 320 kr, dag 380 kr"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee9": 300,
+      "greenFee18": 420,
+      "greenFeeDaily": 480,
+      "greenFeeWeekday": 420,
+      "greenFeeWeekend": 420,
+      "greenFeeSenior": 420,
+      "greenFeeJunior": 150,
+      "greenFeeJuniorDaily": 180,
+      "greenFeeStudent": 320,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
+      "greenFeeDescription": "Voksen: 9 hull 300 kr, 18 hull 420 kr, Dag 480 kr. Barn 0-12 gratis i følge med voksen. Junior tom 18 år: 9 hull 100 kr, 18 hull 150 kr, dag 180 kr. Student <30 / vernepliktig: 9 hull 240 kr, 18 hull 320 kr, dag 380 kr. Medlemmer nordnorske klubber: 9 hull 250 kr, 18 hull 320 kr, dag 380 kr.",
+      "cartRental": 300,
+      "cartRental9": 225,
+      "pullCartRental": 75,
+      "clubRental": null,
+      "rangeBucket": 30,
+      "rangeCard20": 550,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser videreført fra 2025. Klubben har ikke publisert egne 2026-priser per 15.02.2026. Medlem med greenfeerabatt: 9 hull 180 kr, 18 hull 320 kr, dag 380 kr"
     }
   },
   "membershipPricing": {
@@ -194,14 +219,10 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "hovedside",
-      "medlemsskap-2024",
-      "kontakt-oss"
-    ],
+    "pagesScraped": ["hovedside", "medlemsskap-2024", "kontakt-oss"],
     "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-31T09:43:38.381Z",
-    "updatedAt": "2026-02-14T15:55:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJJ4eYRU0930URRFs8HFxi88Q"
 }

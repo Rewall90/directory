@@ -133,19 +133,19 @@
       "greenFeeWeekday": 400,
       "greenFeeWeekend": 400,
       "greenFeeSenior": null,
-      "greenFeeJunior": 150,
+      "greenFeeJunior": 250,
       "greenFeeStudent": null,
       "greenFeeMemberGuest": null,
       "greenFeeTwilight": null,
       "twilightStartTime": null,
-      "greenFeeDescription": "9 hull: 250 kr voksen, 150 kr junior. 18 hull: 400 kr voksen, 250 kr junior. Betaling: Kontant eller VIPPS til 101265",
+      "greenFeeDescription": "Voksen: 9 hull 250 kr, 18 hull 400 kr. Junior: 9 hull 150 kr, 18 hull 250 kr. Betaling: Kontant eller VIPPS til 101265",
       "cartRental": 200,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil 18 hull: 350 kr. Med legeerklæring: 150/275 kr. Bestilles via appen Eagl. VIPPS: 101265"
+      "notes": "Golfbil: 9 hull 200 kr, 18 hull 350 kr. 18 års aldersgrense for golfbil. Med legeerklæring: 150/275 kr. Bestilles via appen Eagl. VIPPS: 101265"
     }
   },
   "membershipPricing": {
@@ -271,7 +271,7 @@
     "pagesScraped": null,
     "scrapedAt": "2025-10-31T05:56:50.371Z",
     "createdAt": "2025-10-31T05:56:50.373Z",
-    "updatedAt": "2026-02-14T16:00:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJNxtUT7UmQUYRHGs4hTOjJb4"
 }

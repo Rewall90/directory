@@ -134,8 +134,8 @@
   "membershipPricing": {},
   "ratings": {
     "google": {
-      "rating": 4,
-      "reviewCount": 11,
+      "rating": 4.1,
+      "reviewCount": 12,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=1630960427188411283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -179,12 +179,10 @@
     "dataQuality": "90.0",
     "websiteQuality": null,
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "homepage"
-    ],
+    "pagesScraped": ["homepage"],
     "scrapedAt": "2026-02-14T16:26:00.000Z",
     "createdAt": "2025-10-31T10:16:57.593Z",
-    "updatedAt": "2026-02-14T16:26:00.000Z"
+    "updatedAt": "2026-02-14T20:34:00.000Z"
   },
   "googlePlaceId": "ChIJO27Je9YfPUYRk9tICd5VohY"
 }

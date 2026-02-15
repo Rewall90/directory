@@ -92,9 +92,9 @@
     "proShop": false,
     "restaurant": false,
     "restaurantName": "Kiosk (selvbetjening med Vipps)",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Golfsett til utleie for 200 kr",
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -145,15 +145,16 @@
       "greenFeeSenior": null,
       "greenFeeJunior": 250,
       "greenFeeChildren": 150,
-      "twilight": null,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
       "greenFeeDescription": "Voksne 400 kr/dag, junior (under 19 år) 250 kr, barn (12 år og yngre) 150 kr. Inkluderer all golf hele dagen.",
       "cartRental": 300,
-      "pullCartRental": null,
+      "pullCartRental": 40,
       "clubRental": 200,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "VTG-kurs med fri spillerett ut året man tar kurset"
+      "notes": "VTG-kurs med fri spillerett ut året man tar kurset. Golfbilutleie forutsetter reelt behov."
     }
   },
   "membershipPricing": {
@@ -225,13 +226,10 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "index",
-      "priser"
-    ],
+    "pagesScraped": ["index", "priser"],
     "scrapedAt": "2026-02-14T16:50:00.000Z",
     "createdAt": "2025-10-31T09:31:11.494Z",
-    "updatedAt": "2026-02-14T16:50:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJrWcb1mjAE0YRF7WBUQ-fuhY"
 }

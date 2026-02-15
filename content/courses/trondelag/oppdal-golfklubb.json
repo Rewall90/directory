@@ -127,6 +127,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Vipps #111000. Halv greenfee med Golfamore. Nybegynner-programmer; gode tilbud i pro shop."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 500,
+      "greenFee9": 300,
+      "greenFeeDaily": 500,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": 500,
+      "greenFeeJunior18": 300,
+      "greenFeeJunior9": 150,
+      "greenFeeDescription": "Senior: 18 hull 500 kr, 9 hull 300 kr. Junior (tom 19 år): 18 hull 300 kr, 9 hull 150 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Vipps #111000. Halv greenfee med Golfamore. Alle runder bestilles via Golfbox."
     }
   },
   "membershipPricing": {
@@ -240,14 +259,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 98,
-    "pagesScraped": [
-      "homepage",
-      "greenfee",
-      "kontigent"
-    ],
-    "scrapedAt": "2026-02-14T16:31:00.000Z",
+    "pagesScraped": ["homepage", "greenfee", "kontigent"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:52.436Z",
-    "updatedAt": "2026-02-14T16:31:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJXT-XffNTE0YRPvFuqyAn9K0"
 }

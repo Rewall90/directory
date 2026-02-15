@@ -189,11 +189,7 @@
     "dataQuality": "93.0",
     "websiteQuality": "good",
     "completenessPercentage": 93,
-    "pagesScraped": [
-      "homepage",
-      "priser-og-medlemskap",
-      "simulator"
-    ],
+    "pagesScraped": ["homepage", "priser-og-medlemskap", "simulator"],
     "scrapedAt": "2026-02-14T17:36:00.000Z",
     "createdAt": "2025-10-31T10:17:00.646Z",
     "updatedAt": "2026-02-14T17:36:00.000Z"

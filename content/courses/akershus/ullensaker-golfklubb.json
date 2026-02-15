@@ -204,14 +204,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "priser",
-      "medlemsskap"
-    ],
-    "scrapedAt": "2026-02-14T17:51:00.000Z",
+    "pagesScraped": ["homepage", "priser", "medlemsskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:16.448Z",
-    "updatedAt": "2026-02-14T17:51:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJs36bs7qBQUYR1o8Lorp4hbA"
 }

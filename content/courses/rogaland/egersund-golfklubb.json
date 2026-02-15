@@ -134,6 +134,22 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 425,
+      "greenFeeWeekend": 425,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 213,
+      "greenFeeDescription": "18 hull: 425 kr (gjest), 350 kr (Egersund-medlem), 367 kr (Ogna/Jæren-medlem). 9 hull: 319 kr (gjest), 263 kr (Egersund-medlem), 275 kr (Ogna/Jæren-medlem). Junior halv pris. Betaling online via Golfbox. Rabatterte pakker via Golfmore: 5 runder kr 2000, 10 runder kr 3400, 15 runder kr 4500.",
+      "cartRental": 300,
+      "pullCartRental": null,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Driving range: liten bøtte kr 25, medium kr 35, stor kr 50. Betaling med kort, Vipps eller Golfmore-app."
     }
   },
   "membershipPricing": {
@@ -267,7 +283,7 @@
     ],
     "scrapedAt": "2026-02-14T15:56:00.000Z",
     "createdAt": "2025-10-31T07:46:21.554Z",
-    "updatedAt": "2026-02-14T15:56:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ2Rf3ATcaOkYRxwydubenNog"
 }

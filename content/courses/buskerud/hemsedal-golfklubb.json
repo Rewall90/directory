@@ -87,9 +87,9 @@
     "proShop": true,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Halvsett per dag: 140 kr. Prøve køller på driving range er gratis.",
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": false,
@@ -108,8 +108,8 @@
     "footgolf": false,
     "footgolfHoles": null,
     "footgolfPar": null,
-    "tennis": null,
-    "tennisCourts": null,
+    "tennis": true,
+    "tennisCourts": 2,
     "discGolf": null,
     "discGolfStandard": null
   },
@@ -118,12 +118,18 @@
       "currency": "NOK",
       "greenFee18": 600,
       "greenFee9": 400,
-      "greenFeeDescription": "Greenfee 9 hull 400 kr, 18 hull 600 kr",
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeJunior": null,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee 9 hull 400 kr, 18 hull 600 kr. Ingen differensiering mellom hverdag/helg. Ingen egen junior- eller twilight-greenfee oppgitt.",
       "golfCartRental9": 200,
       "golfCartRental18": 250,
+      "cartRental": 250,
       "pullCartRental": 50,
       "clubRental": 140,
-      "notes": "Alle medlemmer i Hemsedal GK med Fritt Spill medlemskap får 50% rabatt på Holtsmark. Medlemmer kan leie Golfstua (storhytte med 15-17 sengeplasser, badstue, ski in/out langrenn)."
+      "drivingRangeTrial": "Gratis",
+      "notes": "Alle medlemmer i Hemsedal GK med Fritt Spill medlemskap får 50% rabatt på Holtsmark. Medlemmer kan leie Golfstua (storhytte med 15-17 sengeplasser, badstue, ski in/out langrenn). Priser bekreftet fra hemsedalgolfklubb.no/banen/greenfee/ feb 2026."
     }
   },
   "membershipPricing": {
@@ -171,13 +177,10 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 92,
-    "pagesScraped": [
-      "medlemskap-oversikt",
-      "greenfee"
-    ],
-    "scrapedAt": "2026-02-14T15:58:00.000Z",
+    "pagesScraped": ["medlemskap-oversikt", "greenfee", "priser/tennis"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:54:16.507Z",
-    "updatedAt": "2026-02-14T15:58:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ-885ImLcP0YRk3e06EUzPrQ"
 }

@@ -140,6 +140,22 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 800,
+      "greenFeeWeekday": 800,
+      "greenFeeWeekend": 800,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 350,
+      "greenFeeDescription": "Privat klubb - gjester må være invitert og spille sammen med et medlem",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Privat klubb. Gjester kan kun spille sammen med medlemmer. Hverdager hele dagen, helger/helligdager etter kl. 12:00. Golfbil kun tilgjengelig ved medisinsk dokumentasjon."
     }
   },
   "membershipPricing": {},
@@ -179,14 +195,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 80,
-    "pagesScraped": [
-      "homepage",
-      "kontakt",
-      "banen"
-    ],
+    "pagesScraped": ["homepage", "kontakt", "banen", "gjester", "medlemskap", "teeoff.no"],
     "scrapedAt": "2026-02-14T17:42:00.000Z",
     "createdAt": "2025-10-31T11:23:14.421Z",
-    "updatedAt": "2026-02-14T17:42:00.000Z"
+    "updatedAt": "2026-02-15T14:00:00.000Z"
   },
   "googlePlaceId": "ChIJl9o0XltrQUYRh7NQ7vodpHo"
 }

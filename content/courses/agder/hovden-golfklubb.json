@@ -136,8 +136,14 @@
     },
     "2026": {
       "currency": "NOK",
+      "greenFee18": 300,
+      "greenFee9": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
       "greenFeeDaily": 300,
       "greenFeeJunior": 150,
+      "greenFeeSenior": 300,
+      "greenFeeTwilight": null,
       "greenFeeMemberDaily": 200,
       "greenFeeMemberJunior": 0,
       "greenFeeMemberStudent": 0,
@@ -145,7 +151,7 @@
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
-      "notes": "Medlemmer med andel eller sesongkort har fri spillerett. Ungdom/barn/studenter med betalt medlemskap spiller gratis."
+      "notes": "Priser uendret fra 2025. Medlemmer med andel eller sesongkort har fri spillerett. Ungdom/barn/studenter med betalt medlemskap spiller gratis. Utstyrleie tilgjengelig når proshop er bemannet, men priser ikke oppgitt på nettside."
     }
   },
   "membershipPricing": {
@@ -252,13 +258,10 @@
     "dataQuality": "good",
     "websiteQuality": "good",
     "completenessPercentage": 85,
-    "pagesScraped": [
-      "priser",
-      "medlem"
-    ],
-    "scrapedAt": "2026-02-14T15:24:00.000Z",
+    "pagesScraped": ["priser", "medlem", "banen", "hovden-gk"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T13:27:23.663Z",
-    "updatedAt": "2026-02-14T15:24:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ6fU01R8pOUYRgooVgsS0apc"
 }

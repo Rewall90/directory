@@ -137,6 +137,32 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Golfbil leies via EAGL App. Golfbil 18h 450 kr, 9h 300 kr. Med legeerklæring 200/300 kr. Vipps #802461. Booking 4 dager før for gjester, 14 dager for medlemmer."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 400,
+      "greenFee9": 250,
+      "greenFeeDaily": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeJuniorDescription": "Junior under 12 år med voksen gratis",
+      "greenFeeUngVoksen20-24_18": 300,
+      "greenFeeUngVoksen20-24_9": 200,
+      "greenFeeMedlem18": 300,
+      "greenFeeMedlem9": 175,
+      "greenFeeDescription": "Greenfee 2026: Priser ikke oppdatert på nettside per februar 2026. Medlemmer betaler 300 kr for 18h og 175 kr for 9h. Gjester som spiller med medlem betaler samme pris. Ung voksen (20-24) 18h 300 kr, 9h 200 kr. Junior gratis. Betaling via Vipps #802461 før runde.",
+      "cartRental": 450,
+      "cartRental9": 300,
+      "cartRentalMedical": null,
+      "cartRentalNote": "Med legeerklæring redusert pris",
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Golfbil leies via EAGL App. Medlemmer får redusert pris med rabattkoder. Booking 7 dager før for gjester, 14 dager for medlemmer. Alle må ha gjennomført VTG-kurs eller ha hcp 54 eller bedre."
     }
   },
   "membershipPricing": {
@@ -239,14 +265,10 @@
     "dataQuality": "94.0",
     "websiteQuality": "good",
     "completenessPercentage": 94,
-    "pagesScraped": [
-      "gjester",
-      "medlem",
-      "arsgreenfee"
-    ],
-    "scrapedAt": "2026-02-14T17:10:00.000Z",
+    "pagesScraped": ["gjester", "medlem", "arsgreenfee", "greenfee"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:10:44.025Z",
-    "updatedAt": "2026-02-14T17:10:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJdaMSS_MwQUYRGllnjFbPc7g"
 }

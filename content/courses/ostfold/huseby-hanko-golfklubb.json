@@ -193,10 +193,7 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjester",
-      "medlemskap/info-om-medlemskap-og-spill"
-    ],
+    "pagesScraped": ["gjester", "medlemskap/info-om-medlemskap-og-spill"],
     "scrapedAt": "2026-02-14T16:09:00.000Z",
     "createdAt": "2025-10-31T11:43:13.224Z",
     "updatedAt": "2026-02-14T16:09:00.000Z"

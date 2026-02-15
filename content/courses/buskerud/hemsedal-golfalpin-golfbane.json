@@ -82,9 +82,9 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Hull 19",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "300 kr",
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": false,
@@ -124,6 +124,26 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Twilight green fee mandag-torsdag kl 18-20"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 690,
+      "greenFee9": null,
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 690,
+      "greenFeeWeekend": 690,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 345,
+      "greenFeeTwilight": 500,
+      "twilightStartTime": "18:00",
+      "greenFeeDescription": "18 hull: 690 kr. Junior (t.o.m. 19 år): 345 kr. Twilight (man-tor kl 18-20, ikke helligdager): 500 kr. Norsk Seniorgolf: 400 kr (man-tor, 3 runder per sesong). Golfamore: 50% rabatt (man-fre, ikke uke 27-30, maks 1 gang per sesong). No-show gebyr: full greenfee. Spill uten betalt greenfee: 1000 kr bot",
+      "cartRental": 400,
+      "pullCartRental": 80,
+      "clubRental": 300,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "2026-priser ikke publisert enda, basert på gjeldende 2025-priser. Twilight man-tor kl 18-20 (ikke helligdager). Golfbil med legeattest: 300 kr"
     }
   },
   "membershipPricing": {},
@@ -162,14 +182,11 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": [
-      "green-fee",
-      "gjester"
-    ],
-    "scrapedAt": "2026-02-14T15:56:00.000Z",
+    "completenessPercentage": 92,
+    "pagesScraped": ["green-fee", "gjester", "proshop/utleie"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:56:50.847Z",
-    "updatedAt": "2026-02-14T15:56:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJA23mcLHvP0YR60G5YkyD_-k"
 }

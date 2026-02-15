@@ -137,21 +137,22 @@
     },
     "2026": {
       "currency": "NOK",
-      "greenFee18": 300,
-      "greenFee9": null,
-      "greenFeeWeekday": 300,
-      "greenFeeWeekend": 300,
+      "greenFee18": 500,
+      "greenFee9": 250,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
+      "greenFeeJunior": 250,
       "twilight": null,
-      "greenFeeDescription": "Spel så mykje du vil for 300 kr alle dagar i veka (ubegrensa spel per dag). Golfbil: 200 kr.",
-      "cartRental": 200,
+      "greenFeeDescription": "9 hol: 250 kr, 18 hol: 500 kr. Junior: Halv pris.",
+      "cartRental": 300,
+      "cartRental9": 200,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": 1500,
       "specialOfferIncludes": "Golfkurs og fritt spel første året for nyetablert medlem",
       "freeTrial": null,
-      "notes": "Spelar du meir enn nokre få gongar i året, vil det lønne seg å benytte seg av tilbodet for første års medlemmar."
+      "notes": "Spelar du meir enn nokre få gongar i året, vil det lønne seg å benytte seg av tilbodet for første års medlemmar. Golfbil: 200 kr (9 hol), 300 kr (18 hol)."
     }
   },
   "membershipPricing": {
@@ -169,7 +170,7 @@
       "studentMembershipDescription": "Studentmedlem",
       "secondYearMembership": 2500,
       "secondYearMembershipDescription": "2. års ordinært medlem",
-      "spouseMembership": 3500,
+      "spouseMembership": 3000,
       "spouseMembershipDescription": "Ektefelle til ordinært medlem",
       "thirdYearMembership": 3500,
       "thirdYearMembershipDescription": "3. års ordinært medlem",
@@ -240,14 +241,10 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "index",
-      "klubben/medlemskap",
-      "spele/golf"
-    ],
-    "scrapedAt": "2026-02-14T16:35:00.000Z",
+    "pagesScraped": ["index", "klubben/medlemskap", "spele/golf"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:31:10.838Z",
-    "updatedAt": "2026-02-14T16:35:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJox-hBr7fFkYRLrOzh4qdgRI"
 }

@@ -134,6 +134,27 @@
       "specialOfferIncludes": "2-dagerskort (samme uke). 3-dagerskort 1400 kr.",
       "freeTrial": null,
       "notes": "Greenfeesamarbeid med Austrått, Frosta, Helgeland, Klæbu, Namdal, Namsos, Røros, Sandneset, Steinkjer, Stjørdal, Storsjøbygden, Åre."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 600,
+      "greenFeeWeekday": 600,
+      "greenFeeWeekend": 600,
+      "greenFee9": 350,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 300,
+      "greenFeeStudent": 400,
+      "greenFeeBarn": 0,
+      "greenFeeDescription": "Greenfee 600 kr, 9 hull 350 kr. Student 400 kr (under 30 år). Junior 13-19 år 300 kr. Barn t.o.m. 12 år gratis med betalende voksen. Ektefeller/samboere 1000 kr. Familie (2+2) 1200 kr.",
+      "cartRental": 400,
+      "pullCartRental": 50,
+      "clubRental": null,
+      "cartRentalMedical": 350,
+      "rangeBalls": 30,
+      "specialOfferPrice": 1000,
+      "specialOfferIncludes": "2-dagerskort (samme uke). 3-dagerskort 1400 kr.",
+      "freeTrial": null,
+      "notes": "Greenfeesamarbeid med Austrått, Frosta, Helgeland, Klæbu, Namdal, Namsos, Røros, Sandneset, Steinkjer, Stjørdal, Storsjøbygden, Åre."
     }
   },
   "membershipPricing": {
@@ -248,15 +269,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 98,
-    "pagesScraped": [
-      "homepage",
-      "gjest",
-      "priser",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T16:43:00.000Z",
+    "pagesScraped": ["homepage", "gjest", "priser", "medlemskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:53.752Z",
-    "updatedAt": "2026-02-14T16:43:00.000Z",
+    "updatedAt": "2026-02-15T12:00:00.000Z",
     "notes": "One of Norway's best courses per national survey. Simulator center open 06:00-23:00 daily."
   },
   "googlePlaceId": "ChIJgZ9NXDRjbUYR5RBklhdO0lI"

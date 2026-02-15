@@ -187,9 +187,7 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjester"
-    ],
+    "pagesScraped": ["gjester"],
     "scrapedAt": "2026-02-14T16:11:00.000Z",
     "createdAt": "2025-10-31T11:42:06.532Z",
     "updatedAt": "2026-02-14T16:11:00.000Z"

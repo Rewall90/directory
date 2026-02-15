@@ -84,7 +84,8 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
+    "cartRentalNotes": "4 golfbiler tilgjengelig. Krever legeerklæring (maks 6 mnd gammel), førerkort og alder 18+. Forhåndsbestilling via proshop (321 61 360) eller booking@tyrifjord-golfklubb.no. Tilgjengelighet avhenger av baneforhold (ingen egne kjørestier).",
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -196,13 +197,16 @@
     "pagesScraped": [
       "homepage",
       "gjester",
-      "greenfee-priser",
+      "greenfee-priser-2025",
+      "golfbil-pa-tyrifjord",
       "medlemmer",
-      "medlemskap-2025"
+      "golfshop",
+      "nyheter"
     ],
-    "scrapedAt": "2026-02-14T16:19:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:56:51.563Z",
-    "updatedAt": "2026-02-14T16:19:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z",
+    "pricingNote": "2026 greenfee-priser er ikke publisert ennå per 15.02.2026. 2025-priser bekreftet korrekte. Sjekk igjen nærmere sesongstart (april)."
   },
   "googlePlaceId": "ChIJSYK-6VUEQUYRIsq1rjF5k7w"
 }

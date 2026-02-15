@@ -129,6 +129,27 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Gratis køller. Ubegrenset spill mot dagsgreenfee."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 300,
+      "greenFee18": null,
+      "greenFee9": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 120,
+      "greenFeeTwilight": null,
+      "twilightStartTime": null,
+      "greenFeeMemberWithoutPlayingRights": 200,
+      "greenFeeDescription": "Ubegrenset dagsspill. Gjestespiller 300,-, medlem uten spillerett 200,-, junior 120,-. Selvbetjent anlegg.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser gjeldende fra 01.01.2025 (sist publisert på frostagk.no). 6-hulls bane med ubegrenset dagsspill. Ingen differensiering mellom hverdag/helg. Ingen golfbil eller kølleutleie."
     }
   },
   "membershipPricing": {
@@ -227,13 +248,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "homepage",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T16:19:00.000Z",
+    "pagesScraped": ["homepage", "medlemskap", "greenfee"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:50.008Z",
-    "updatedAt": "2026-02-14T16:19:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJq8j3i89AbUYRXXz6nPza0NE"
 }

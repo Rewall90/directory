@@ -134,6 +134,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Betaling: Vipps #688133 eller bankkonto 4448 13 06210. Overnatting på Grande gård i nærheten."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": 300,
+      "greenFeeJunior": 300,
+      "greenFee18": null,
+      "greenFee9": null,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee 300 kr. Fjernmedlemmer betaler halv greenfee.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Betaling: Vipps #688133 eller bankkonto 4448 13 06210. Overnatting på Grande gård i nærheten."
     }
   },
   "membershipPricing": {
@@ -218,13 +237,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "priser"
-    ],
-    "scrapedAt": "2026-02-14T16:28:00.000Z",
+    "pagesScraped": ["homepage", "priser"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:51.637Z",
-    "updatedAt": "2026-02-14T16:28:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJHV5HeWr5ckYRhNnlHURCO-Q"
 }

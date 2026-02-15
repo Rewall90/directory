@@ -178,14 +178,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "gjester/priser-og-booking",
-      "medlemskap/alle-medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T15:57:00.000Z",
+    "pagesScraped": ["homepage", "gjester/priser-og-booking", "medlemskap/alle-medlemskap"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:10.850Z",
-    "updatedAt": "2026-02-14T15:57:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJh4LFc0FtQUYRzLR6BYMFo9I"
 }

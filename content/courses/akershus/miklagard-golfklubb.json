@@ -113,18 +113,42 @@
     "2025": {
       "currency": "NOK",
       "greenFeeDaily": null,
-      "greenFeeWeekday": null,
-      "greenFeeWeekend": null,
+      "greenFeeWeekday": 1300,
+      "greenFeeWeekend": 1300,
+      "greenFee18": 1300,
+      "greenFee9": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": null,
+      "greenFeeTwilight": 800,
+      "twilightStartTime": "18:00",
+      "greenFeeDescription": "Hverdager: kl. 08-11:50 kr 800, kl. 12-14:50 kr 1000, kl. 15-17:50 kr 1300, kl. 18+ kr 800. Helg/helligdager: kl. 07-12:50 kr 1300, kl. 13-14:50 kr 1000, kl. 15+ kr 800. Forhåndsbetaling via GolfBox.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": "Priser fra offisiell greenfee-side 2025. Dynamisk prising basert på tidspunkt."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 1200,
+      "greenFeeWeekend": 1200,
+      "greenFee18": 1200,
+      "greenFee9": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeTwilight": 750,
+      "twilightStartTime": "18:00",
+      "greenFeeDescription": "Hverdager: kl. 08-11:50 kr 750, kl. 12-14:50 kr 900, kl. 15-17:50 kr 1200, kl. 18+ kr 750. Helg/helligdager: kl. 07-12:50 kr 1200, kl. 13-14:50 kr 900, kl. 15+ kr 750. Forhåndsbetaling via GolfBox.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser fra NordicGolfers.com (2026). Dynamisk prising basert på tidspunkt. Golfpakke via Lily Country Club fra kr 2000 (inkl. overnatting, frokost, greenfee, spa)."
     }
   },
   "membershipPricing": {
@@ -228,11 +252,16 @@
       "homepage",
       "gjest",
       "medlemskap",
-      "bookingregler"
+      "bookingregler",
+      "greenfee",
+      "informasjon-gjester",
+      "avtalevilkar-forhandsbetaling",
+      "samarbeidsklubber-2025",
+      "nordicgolfers"
     ],
-    "scrapedAt": "2026-02-14T17:30:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:24:47.056Z",
-    "updatedAt": "2026-02-14T17:30:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJec5FfgZ_QUYRIvyieuOfOkM"
 }

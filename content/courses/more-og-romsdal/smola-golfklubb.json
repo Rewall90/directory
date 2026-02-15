@@ -76,9 +76,9 @@
     "proShop": false,
     "restaurant": false,
     "restaurantName": "Kiosk (åpent under arrangementer)",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Utleie av golfsett tilgjengelig",
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": false,
     "teachingPro": false,
@@ -220,13 +220,10 @@
     "dataQuality": "93.0",
     "websiteQuality": null,
     "completenessPercentage": 93,
-    "pagesScraped": [
-      "index",
-      "klubb"
-    ],
+    "pagesScraped": ["index", "klubb"],
     "scrapedAt": "2026-02-14T16:10:00.000Z",
     "createdAt": "2025-10-31T09:31:09.606Z",
-    "updatedAt": "2026-02-14T16:10:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJCW7RVnUzEkYRYA55mR7VuXo"
 }

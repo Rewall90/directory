@@ -173,12 +173,11 @@
     "dataQuality": "excellent",
     "websiteQuality": "inaccessible",
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "facebook"
-    ],
-    "scrapedAt": "2026-02-14T00:00:00.000Z",
+    "pagesScraped": ["facebook"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "scrapeNote": "Website (hotellborge.no) was inaccessible during 2026-02-15 scrape attempt (ECONNREFUSED). No 2026 pricing data available online. 2025 pricing retained.",
     "createdAt": "2025-10-31T11:42:06.139Z",
-    "updatedAt": "2026-02-14T00:00:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJHdqBlvCxRkYRfl-_NliYzcg"
 }

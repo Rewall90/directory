@@ -87,8 +87,8 @@
     "proShop": false,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
+    "clubRental": true,
+    "clubRentalNotes": "Fullt sett: 100 kr",
     "cartRental": false,
     "pullCartRental": true,
     "golfLessons": true,
@@ -117,19 +117,19 @@
   "pricing": {
     "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFeeDaily": 300,
       "greenFeeWeekday": null,
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee via medlemskap. Spillerett årskort: Voksen 2150 kr, Ektefelle/samboer 1500 kr, Junior (12-19) gratis, Barn (under 12) gratis. Alternativt betales greenfee per runde.",
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee gjeld for spel heile dagen. Gjester: Voksen 300 kr, Junior 150 kr. Medlemmer: 250 kr. Spillerett årskort: Voksen 2150 kr, Ektefelle/samboer 1500 kr, Junior (12-19) gratis, Barn (under 12) gratis.",
       "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
+      "pullCartRental": 50,
+      "clubRental": 100,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Simulator: 200 kr/time før kl 16, 250 kr/time etter kl 16 og helg. Juniors halv pris. Simulator årskort: 3000 kr (voksen), 1100 kr (junior). VTG kurs: 1500 kr (voksen), 500 kr (junior) inkl. gratis medlemskap og spillerett ut året."
+      "notes": "Driving range: 25 kr per kurv (20 baller), betaling med kort med chip. Simulator: 200 kr/time før kl 16, 250 kr/time etter kl 16 og helg. Juniors halv pris. Simulator årskort: 3000 kr (voksen), 1100 kr (junior). VTG kurs: 1500 kr (voksen), 500 kr (junior) inkl. gratis medlemskap og spillerett ut året."
     }
   },
   "membershipPricing": {
@@ -219,11 +219,12 @@
       "klubben",
       "bli-medlem",
       "baneguide",
+      "baneguide/greenfee",
       "simulator"
     ],
-    "scrapedAt": "2026-02-14T17:34:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T10:17:00.242Z",
-    "updatedAt": "2026-02-14T17:34:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJK-ktEKdcFkYRtlIpcteBuRY"
 }

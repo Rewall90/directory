@@ -134,6 +134,25 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Egen bane avviklet, bruker Stjørdal GK som hjemmebane. Tirsdagsturnering 150 kr for 9 hull for Selbu-medlemmer."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 350,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 350,
+      "greenFee18": null,
+      "greenFee9": null,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee 350 kr pr runde hos Stjørdal GK (hjemmebane). Greenfee-medlemskap hos Stjørdal GK 199 kr/mnd (12 mnd binding = 2388 kr/år).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Egen bane avviklet, bruker Stjørdal GK som hjemmebane. Tirsdagsturnering 150 kr for 9 hull for Selbu-medlemmer. Priser er uendret fra 2023, ingen oppdatert prisinformasjon funnet på nettside."
     }
   },
   "membershipPricing": {
@@ -200,14 +219,11 @@
     "dataQuality": "good",
     "websiteQuality": "poor",
     "completenessPercentage": 75,
-    "pagesScraped": [
-      "homepage",
-      "innmelding"
-    ],
-    "scrapedAt": "2026-02-14T16:35:00.000Z",
+    "pagesScraped": ["homepage", "innmelding", "medlemsskap", "stjordal-golfklubb"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:53.064Z",
-    "updatedAt": "2026-02-14T16:35:00.000Z",
-    "notes": "Website outdated (last news 2021). Club uses Stjørdal GK as home course. Pricing data from 2023."
+    "updatedAt": "2026-02-15T12:00:00.000Z",
+    "notes": "Website outdated (last news 2021). Club uses Stjørdal GK as home course. Pricing data from 2023, no 2026 updates found on website. Club has limited online pricing information."
   },
   "googlePlaceId": "ChIJz2U_q04VbUYRJe8sZgkP_60"
 }

@@ -244,10 +244,7 @@
     "dataQuality": "94.0",
     "websiteQuality": "good",
     "completenessPercentage": 94,
-    "pagesScraped": [
-      "homepage",
-      "medlemskap"
-    ],
+    "pagesScraped": ["homepage", "medlemskap"],
     "scrapedAt": "2026-02-14T17:40:00.000Z",
     "createdAt": "2025-10-31T10:17:01.422Z",
     "updatedAt": "2026-02-14T17:40:00.000Z"

@@ -128,6 +128,26 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Selvbetjening med bankkort eller Vipps i klubbhuset. 24/7 range med ballmaskin; pro shop via Røros Sport."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee9": 400,
+      "greenFee18": 500,
+      "greenFeeDaily": 500,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 500,
+      "greenFeeSenior": 500,
+      "greenFeeJunior9": 200,
+      "greenFeeJunior18": 250,
+      "greenFeePack10x9": 3000,
+      "greenFeeDescription": "Senior: 9h 400 kr, 18h/dag 500 kr. Junior: 9h 200 kr, 18h/dag 250 kr. Greenfee-pakke 10x9h 3000 kr, +100 kr for 18h-runder. Dagspass = spill så mye du vil.",
+      "cartRental": 450,
+      "pullCartRental": 50,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Selvbetjening med bankkort eller Vipps i klubbhuset. 24/7 range med ballmaskin; pro shop via Røros Sport."
     }
   },
   "membershipPricing": {
@@ -230,14 +250,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 98,
-    "pagesScraped": [
-      "homepage",
-      "gjester",
-      "bli-medlem"
-    ],
-    "scrapedAt": "2026-02-14T16:34:00.000Z",
+    "pagesScraped": ["homepage", "gjester", "bli-medlem"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:52.756Z",
-    "updatedAt": "2026-02-14T16:34:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJt1yWrelkbEYR9hbFHyQTcsw"
 }

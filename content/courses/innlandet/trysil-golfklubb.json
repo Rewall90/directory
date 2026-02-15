@@ -84,7 +84,7 @@
     "restaurantName": "Golfamore",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": false,
@@ -134,6 +134,37 @@
       "simulatorOpenHours": "05:00-24:00",
       "simulatorBookingUrl": "https://albaplay.com/",
       "notes": "Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Simulator åpen alle dager 05:00-24:00. Prime-tid: 09:00-14:50. Straffegebyr 1000 kr for spill uten gyldig avtale."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeWeekdayEarlyLate": 490,
+      "greenFeeWeekdayPrime": 590,
+      "greenFeeWeekendEarlyLate": 590,
+      "greenFeeWeekendPrime": 690,
+      "greenFee9HolesWeekday": 325,
+      "greenFee9HolesWeekend": 400,
+      "dagsgreenfeeWeekday": 800,
+      "greenFeeJuniorDiscount": "50%",
+      "greenFeeDescription": "Man-tor tidlig/sent (07:00-08:50, 15:00-21:00): 490 kr, prime (09:00-14:50): 590 kr. Fre-søn tidlig/sent: 590 kr, prime: 690 kr. 9 hull hverdag: 325 kr, helg: 400 kr. Dagsgreenfee (man-tor): 800 kr. Junior t.o.m. 19 år: halv pris. Medlemmer: 15-25% rabatt.",
+      "midweekPackage": 2200,
+      "weekendPackage": 1800,
+      "cartRental18": 500,
+      "cartRental9": 300,
+      "cartRental36": 700,
+      "scooterRental18": 300,
+      "scooterRental9": 180,
+      "pullCartRental18": 65,
+      "pullCartRental9": 45,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "memberDiscount": "15-25%",
+      "penaltyFee": 1000,
+      "simulator": true,
+      "simulatorOpenHours": "05:00-24:00",
+      "simulatorBookingUrl": "https://albaplay.com/",
+      "notes": "Priser per feb 2026 - nettsiden viser fortsatt 2025-priser, sesongen ikke startet. Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Golfbil 9h: 300, 18h: 500, 36h: 700. Scooter 9h: 180, 18h: 300. Tralle 9h: 45, 18h: 65. Golfbil rabatt med legeerklæring: 100 kr. Simulator åpen alle dager 05:00-24:00. Prime-tid: 09:00-14:50. Straffegebyr 1000 kr for spill uten gyldig avtale."
     }
   },
   "membershipPricing": {},
@@ -177,11 +208,13 @@
       "home",
       "gjest",
       "gjest/greenfee",
+      "gjest/golfbiler-scootere-og-traller",
+      "gjest/golfpakker",
       "medlem"
     ],
-    "scrapedAt": "2026-02-14T16:13:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:14.186Z",
-    "updatedAt": "2026-02-14T16:13:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJKUx_N_aQaUYR8Et23E9axts"
 }

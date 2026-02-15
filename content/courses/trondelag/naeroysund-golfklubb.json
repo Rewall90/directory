@@ -125,6 +125,23 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Døgnåpent i sesong. Betaling: Vipps 117315 eller bankkonto 4482.05.18303."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 200,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 200,
+      "greenFeePartnerClub": 100,
+      "greenFeeDescription": "Ordinær greenfee pr dag: 200 kr. Samarbeidsklubber (Namdal, Namsos, Steinkjer GK): 100 kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Døgnåpent i sesong. Betaling: Vipps 117315 eller bankkonto 4482.05.18303."
     }
   },
   "membershipPricing": {
@@ -209,15 +226,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "spill",
-      "greenfee",
-      "medlem-old"
-    ],
+    "pagesScraped": ["homepage", "spill", "greenfee", "medlem-old"],
     "scrapedAt": "2026-02-14T16:26:00.000Z",
     "createdAt": "2025-10-31T11:30:51.425Z",
-    "updatedAt": "2026-02-14T16:26:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJGx2VNwAlc0YRvMzqwag8oTs"
 }

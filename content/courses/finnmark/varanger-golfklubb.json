@@ -111,19 +111,23 @@
   "pricing": {
     "2026": {
       "currency": "NOK",
-      "greenFeeDaily": null,
+      "greenFee18": 400,
+      "greenFee9": 300,
+      "greenFeeDaily": 400,
       "greenFeeWeekday": 400,
       "greenFeeWeekend": 400,
       "greenFeeSenior": 250,
       "greenFeeJunior": null,
+      "greenFeeTwilight": null,
+      "greenFeeWeekPass": 1250,
       "greenFeeDescription": "GREENFEE 2026:\n\nGJESTER:\n• Ukegreenfee: 1.250 kr\n• Dagsgreenfee (18+ hull): 400 kr\n• 9 hull: 300 kr\n\nMEDLEMMER:\n• Dagsgreenfee (18+ hull): 250 kr\n• 9 hull: 200 kr\n• Barn/ungdom (t.o.m. 19 år): Gratis\n• 10-klipp (HCP >36): 1.300 kr\n• 20-klipp (HCP >36): 1.800 kr\n\nSESONGGREENFEE:\n• Med spillerett: 4.000 kr\n• Uten spillerett: 4.500 kr\n• 20-26 år: 3.000 kr\n• Student/militær 20-26 år: 1.500 kr\n\nSpillerett: 7.000 kr (gir eierandel og rabattert sesonggreenfee)",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": "Medlemsfordeler: Redusert greenfee, 20% rabatt på golfutstyr i ProShop (unntatt baller), abonnement på Norsk Golf magasin (ca 8 utgaver/år).",
-      "freeTrial": null,
-      "notes": null
+      "freeTrial": "Nye medlemmer som har gjennomført VTG-kurs: 1 år gratis spill (ekskl. turneringer).",
+      "notes": "Ingen forskjell på hverdag/helg for gjester. Medlemmer spiller til redusert pris (250 kr/18h, 200 kr/9h). Barn/ungdom t.o.m. 19 år spiller gratis som medlemmer."
     }
   },
   "membershipPricing": {
@@ -290,16 +294,10 @@
     "dataQuality": "good",
     "websiteQuality": "good",
     "completenessPercentage": 90,
-    "pagesScraped": [
-      "homepage",
-      "gjest",
-      "greenfee",
-      "bli-medlem",
-      "medlemskontigent"
-    ],
-    "scrapedAt": "2026-02-14T16:08:00.000Z",
+    "pagesScraped": ["homepage", "gjest", "greenfee", "bli-medlem", "medlemskontigent"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T10:55:19.560Z",
-    "updatedAt": "2026-02-14T16:08:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ-2o-xOsPy0URgOkPgDyda0M"
 }

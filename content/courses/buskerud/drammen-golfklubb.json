@@ -99,7 +99,7 @@
     "restaurantName": "Hannes Café og Golfshop",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -134,10 +134,13 @@
       "greenFeeWithMember": 500,
       "greenFeeWithMemberWeekend": 550,
       "greenFeeDescription": "Junior 1/2 pris alle dager. Medlem m/gjest pris kr 500,- hverdager og 550,- helger/helligdager. Gjest må forhåndsbookes samtidig av medlemmet. Maks 3 gjester per fullt betalende medlem per runde.",
-      "cartRental": null,
+      "cartRental": 420,
+      "cartRental9": 250,
+      "cartRentalMember": 350,
+      "cartRentalAnnual": 5000,
       "pullCartRental": null,
       "clubRental": null,
-      "notes": "All greenfee skal forhåndsbetales i Golfbox ved booking. TrackMan simulator tilgjengelig på klubbhuset."
+      "notes": "All greenfee skal forhåndsbetales i Golfbox ved booking. Golfbilleie: 420 kr (18 hull), 250 kr (9 hull), medlemmer 350 kr (18 hull), årskort 5000 kr. 16 elektriske golfbiler tilgjengelig, minstealder 18 år. TrackMan simulator tilgjengelig på klubbhuset."
     }
   },
   "membershipPricing": {
@@ -188,13 +191,10 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "greenfee",
-      "medlemskap"
-    ],
-    "scrapedAt": "2026-02-14T15:53:00.000Z",
+    "pagesScraped": ["greenfee", "medlemskap", "golfbil"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:54:15.769Z",
-    "updatedAt": "2026-02-14T15:53:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ9aCCleM6QUYR_C56GMQPbvg"
 }

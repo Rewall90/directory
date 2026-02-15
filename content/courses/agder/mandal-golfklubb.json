@@ -128,6 +128,24 @@
       "golfamoreDiscount": "50%",
       "golfamoreNotes": "1 greenfee per kalenderår med 50% rabatt. Gjelder ikke i juli.",
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 400,
+      "greenFee9": 300,
+      "greenFeeMemberNoPlayingRight18": 350,
+      "greenFeeMemberNoPlayingRight9": 250,
+      "greenFeeJuniorDiscount": "50%",
+      "clubRental": 100,
+      "pullCartRental": 0,
+      "cartRental18": 200,
+      "cartRental9": 100,
+      "cartRentalRequiresHealthCert": true,
+      "norskSeniorGolfDiscount": 250,
+      "norskSeniorGolfNotes": "Inntil 2 runder a 250 kroner (18 hull) i hele sesongen. Gjelder ikke i juli. Alle hverdager før kl 14:00.",
+      "golfamoreDiscount": "50%",
+      "golfamoreNotes": "1 greenfee per kalenderår med 50% rabatt. Gjelder ikke i juli.",
+      "notes": "2026 priser ikke publisert ennå. Prisene er videreført fra 2025."
     }
   },
   "membershipPricing": {
@@ -252,8 +270,8 @@
     "websiteQuality": "excellent",
     "completenessPercentage": 90,
     "pagesScraped": ["gjester", "klubben", "bli-medlem"],
-    "scrapedAt": "2026-02-14T15:30:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T13:30:17.201Z",
-    "updatedAt": "2026-02-14T15:30:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   }
 }

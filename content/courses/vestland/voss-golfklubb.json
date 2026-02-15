@@ -223,13 +223,7 @@
     "dataQuality": "96.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 96,
-    "pagesScraped": [
-      "homepage",
-      "gjest",
-      "greenfee",
-      "klubb",
-      "innmeldingsskjema"
-    ],
+    "pagesScraped": ["homepage", "gjest", "greenfee", "klubb", "innmeldingsskjema"],
     "scrapedAt": "2026-02-14T17:47:00.000Z",
     "createdAt": "2025-10-31T10:17:02.476Z",
     "updatedAt": "2026-02-14T17:47:00.000Z"

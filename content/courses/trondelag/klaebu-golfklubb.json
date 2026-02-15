@@ -130,6 +130,23 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Årsgreenfee 2700 kr for gjestespillere. Samarbeid: Austrått 200/dag, Røros 250/300, Steinkjer 167, Stiklestad 20% rabatt."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 400,
+      "greenFeeWeekday": 400,
+      "greenFeeWeekend": 400,
+      "greenFeeSenior": 400,
+      "greenFeeJunior": 250,
+      "greenFeeMemberNoPlayright": 250,
+      "greenFeeDescription": "Gjestespiller voksen 400 kr, barn/junior 250 kr, medlem uten spillerett 250 kr. Fritt spill samme dag. Betaling med kort, Vipps eller ApplePay.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Årsgreenfee 2700 kr for gjestespillere. Samarbeid: Austrått 200/dag, Røros 250/300, Steinkjer 167, Stiklestad 20% rabatt."
     }
   },
   "membershipPricing": {
@@ -226,14 +243,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "gjester",
-      "blimedlem"
-    ],
-    "scrapedAt": "2026-02-14T16:24:00.000Z",
+    "pagesScraped": ["homepage", "gjester", "blimedlem"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:51.008Z",
-    "updatedAt": "2026-02-14T16:24:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJH2QXxmQvbUYRnBSnsjyhHyE"
 }

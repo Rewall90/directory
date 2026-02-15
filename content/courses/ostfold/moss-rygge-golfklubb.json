@@ -189,10 +189,7 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "start/gjest",
-      "start/gjest/greenfee"
-    ],
+    "pagesScraped": ["start/gjest", "start/gjest/greenfee"],
     "scrapedAt": "2026-02-14T16:14:00.000Z",
     "createdAt": "2025-10-31T11:42:06.848Z",
     "updatedAt": "2026-02-14T16:14:00.000Z"

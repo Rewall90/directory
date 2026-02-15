@@ -182,11 +182,7 @@
     "dataQuality": "good",
     "websiteQuality": "no-website",
     "completenessPercentage": 78,
-    "pagesScraped": [
-      "golfpass",
-      "1881.no",
-      "hole19"
-    ],
+    "pagesScraped": ["golfpass", "1881.no", "hole19"],
     "scrapedAt": "2026-02-14T00:00:00.000Z",
     "createdAt": "2025-10-31T09:10:46.341Z",
     "updatedAt": "2026-02-14T00:00:00.000Z"

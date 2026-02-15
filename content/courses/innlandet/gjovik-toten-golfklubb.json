@@ -84,7 +84,7 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": false,
     "golfLessons": true,
     "teachingPro": false,
@@ -120,7 +120,10 @@
       "greenFeeGreenfeeMembers18Holes": 300,
       "greenFeeGreenfeeMembers9Holes": 235,
       "greenFeeDescription": "Voksen: Hverdag 450 kr (18), 350 kr (9). Helg 490 kr (18), 380 kr (9). Junior/Student: 325 kr (18), 250 kr (9). Greenfeemedlemmer: 300 kr (18), 235 kr (9). NSG: 100 kr rabatt ukedager før kl. 15:00.",
-      "cartRental": null,
+      "cartRental": 395,
+      "cartRental9Holes": 275,
+      "cartRentalMedical": 300,
+      "cartRentalMedical9Holes": 225,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
@@ -222,12 +225,13 @@
     "completenessPercentage": 98,
     "pagesScraped": [
       "gjestespill",
+      "gjestespill/leie-golfbil",
       "medlemskap/medlemskap-og-priser",
       "kontakt"
     ],
-    "scrapedAt": "2026-02-14T16:00:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:11.866Z",
-    "updatedAt": "2026-02-14T16:00:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJLz8PtbDEQUYRMUmZWfyLvuY"
 }

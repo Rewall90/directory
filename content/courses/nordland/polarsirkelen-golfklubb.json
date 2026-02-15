@@ -190,10 +190,7 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "hjem",
-      "greenfee"
-    ],
+    "pagesScraped": ["hjem", "greenfee"],
     "scrapedAt": "2026-02-14T16:06:00.000Z",
     "createdAt": "2025-10-31T09:43:40.958Z",
     "updatedAt": "2026-02-14T16:06:00.000Z"

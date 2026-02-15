@@ -87,10 +87,10 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Café & Flerbrukshuset",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Gratis utleie av golfutstyr til barn, junior eller voksen",
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": false,
     "clubFitting": null,
@@ -129,6 +129,32 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Accommodation partners with golf packages: Nordfjeld Gjestegård (16 km, 100 kr rabatt greenfee), Finnskogstua (40 km), Festningen Hotell & Resort, Kongsvinger Budget Hotel (100 kr rabatt greenfee, 10% rabatt med kode GOLF25), Sigernessj0en Familiecamping (gjensidig rabattavtale), Vinger Hotell (golfpakke med/uten middag)"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": 630,
+      "greenFee9": 350,
+      "greenFeeWeekday": 630,
+      "greenFeeWeekend": 790,
+      "greenFeeWeekday9": 350,
+      "greenFeeWeekend9": 450,
+      "greenFeePrimetime": 850,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 350,
+      "greenFeeJuniorWeekend": 450,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "18 hull: 630 kr mandag-torsdag, 790 kr fredag-søndag, 850 kr primetime (09.00-15.00 lør-søn). 9 hull: 350 kr mandag-torsdag, 450 kr fredag-søndag. Junior: 350 kr (man-tor), 450 kr (fre-søn)",
+      "cartRental": 495,
+      "cartRental9": 360,
+      "pullCartRental": 40,
+      "clubRental": 0,
+      "clubRentalNotes": "Gratis utleie av golfutstyr til barn, junior eller voksen",
+      "drivingRangeBalls": 50,
+      "drivingRangeBallsNotes": "1 kurv med 30 baller fra kr. 50. Betaling med kort / Golfmore",
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "12 golfbiler til utleie via EAGL-appen eller Pro shop. Medlemmer får 100 kr rabatt på greenfee. ESAG-gruppe (Ett slag av gangen): 200 kr rabatt på golfbil 18 hull. Legeerklæring: 100 kr rabatt på golfbil 18 hull. Overnattingspartnere: Finnskogstua (golfpakke), Kongsvinger Budget Hotel (100 kr rabatt greenfee), Sigernessjøen Familiecamping (gjensidig rabattavtale)"
     }
   },
   "membershipPricing": {},
@@ -167,15 +193,11 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
-    "completenessPercentage": 92,
-    "pagesScraped": [
-      "gjester",
-      "priser",
-      "kontakt"
-    ],
-    "scrapedAt": "2026-02-14T16:05:00.000Z",
+    "completenessPercentage": 95,
+    "pagesScraped": ["gjester", "priser", "kontakt"],
+    "scrapedAt": "2026-02-15T15:10:00.000Z",
     "createdAt": "2025-10-31T07:18:12.730Z",
-    "updatedAt": "2026-02-14T16:05:00.000Z"
+    "updatedAt": "2026-02-15T15:10:00.000Z"
   },
   "googlePlaceId": "ChIJM11B4QNMQkYRRF-xgG5nqzE"
 }

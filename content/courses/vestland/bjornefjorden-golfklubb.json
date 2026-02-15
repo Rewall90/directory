@@ -189,10 +189,7 @@
     "dataQuality": "94.0",
     "websiteQuality": null,
     "completenessPercentage": 94,
-    "pagesScraped": [
-      "prisliste",
-      "greenfee"
-    ],
+    "pagesScraped": ["prisliste", "greenfee"],
     "scrapedAt": "2026-02-14T16:17:00.000Z",
     "createdAt": "2025-10-31T10:16:53.422Z",
     "updatedAt": "2026-02-14T16:17:00.000Z"

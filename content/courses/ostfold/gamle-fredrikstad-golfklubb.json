@@ -148,7 +148,7 @@
   "ratings": {
     "google": {
       "rating": 4.4,
-      "reviewCount": 170,
+      "reviewCount": 171,
       "maxRating": 5,
       "url": "https://maps.google.com/?cid=9001523332950547104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "likes": null,
@@ -222,11 +222,7 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjester",
-      "gjester/greenfee",
-      "bli-medlem/bli-medlem"
-    ],
+    "pagesScraped": ["gjester", "gjester/greenfee", "bli-medlem/bli-medlem"],
     "scrapedAt": "2026-02-14T16:03:00.000Z",
     "createdAt": "2025-10-31T11:42:04.760Z",
     "updatedAt": "2026-02-14T16:03:00.000Z"

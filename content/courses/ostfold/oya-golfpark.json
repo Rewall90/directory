@@ -41,7 +41,7 @@
   "description": "Øya Golfpark er en sentrumsnær pay & play executive kortbane på Hafslundsøy i Sarpsborg, etablert 1988. Opprinnelig gårdseiendom utviklet som kortbane. Par 56 for 18 hull (alle par 3), lengde 2275 meter fra lengste tee. Anlegget kan spilles som 3, 6, 9 eller 18 hull, perfekt for raskt spill og kort-spill-trening. 4 forskjellige tees fra 1640m til 2275m gjør banen tilgjengelig for alle nivåer. Over 200 dekar stort område. Tilbyr også 18-hulls disc golf-bane. Golf for alle - ingen medlemskap nødvendig, bare møt opp og spill!",
   "contact": {
     "phone": "+47 69 14 95 50",
-    "email": null,
+    "email": "oyagolf@online.no",
     "emailAlt": null,
     "website": "https://www.oyagolfpark.no/",
     "facebook": "https://www.facebook.com/oyagolf/",
@@ -165,14 +165,14 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "excellent",
+    "dataQuality": "fair",
     "websiteQuality": null,
-    "completenessPercentage": 90,
+    "completenessPercentage": 80,
     "pagesScraped": null,
-    "scrapedAt": "2026-02-14T16:15:00.000Z",
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:42:08.784Z",
-    "updatedAt": "2026-02-14T16:15:00.000Z",
-    "note": "Pricing needs verification from oyagolfpark.no"
+    "updatedAt": "2026-02-15T12:00:00.000Z",
+    "note": "Website oyagolfpark.no is down (domain not resolving) as of 2026-02-15. Property listed for sale on FINN.no (finnkode 382791304) and landbruksmegling.no for 9,700,000 NOK. Operational status uncertain for 2026 season. 2025 pricing retained but unverified. Email oyagolf@online.no found via visitoestfold.com."
   },
   "googlePlaceId": "ChIJ3YNeNUQGREYRJzlJQZTpjMc"
 }

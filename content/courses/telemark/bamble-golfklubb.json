@@ -211,13 +211,7 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjest",
-      "greenfee",
-      "medlem",
-      "medlemskontingent",
-      "kontakt"
-    ],
+    "pagesScraped": ["gjest", "greenfee", "medlem", "medlemskontingent", "kontakt"],
     "scrapedAt": "2026-02-14T15:55:00.000Z",
     "createdAt": "2025-10-31T12:22:38.477Z",
     "updatedAt": "2026-02-14T15:55:00.000Z"
