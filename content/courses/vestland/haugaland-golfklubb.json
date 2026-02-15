@@ -87,9 +87,9 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Kafé/snackbar",
-    "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRental": true,
+    "clubRentalNotes": "Halvsett 90 kr, fullt sett 150 kr (2026)",
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -101,7 +101,7 @@
     "eventVenue": true,
     "eventCapacity": null,
     "simulator": true,
-    "simulatorType": "Golfsimulatør tilgjengelig, 200 kr per time (maks 4 spillere)",
+    "simulatorType": "TRACKMAN simulator, 250 kr per time (maks 4 spillere, book via Golfbox)",
     "simulatorCourses": null,
     "simulatorNotes": null,
     "bunkers": null,
@@ -129,6 +129,34 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Medlemskap gir gratis spill på alle fire baner: Haugaland, Nordvegen, Karmøy, Torvastad (54 hull totalt). Medlemmer av Haugaland GK og Karmøy GK får gratis greenfee på Nordvegen. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 500,
+      "greenFeeWeekend": 600,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 250,
+      "greenFee9Holes": 200,
+      "greenFee9HolesJunior": 125,
+      "greenFeeDescription": "18-hulls greenfee: 500 kr (hverdager), 600 kr (helg/helligdager), 250 kr (junior alle dager). 9-hulls greenfee: 200 kr (alle dager), 125 kr (junior). Gyldig handicap og handicapbevis påkrevd (max handicap 36).",
+      "cartRental": 350,
+      "pullCartRental": 50,
+      "clubRental": 150,
+      "clubRentalHalf": 90,
+      "rangeBalls": 38,
+      "rangeBallsDescription": "24 baller for 38 kr",
+      "simulatorHourly": 250,
+      "simulatorDescription": "TRACKMAN simulator 250 kr per time (maks 4 spillere, book via Golfbox)",
+      "proLesson30min": 500,
+      "greenCardCourse": 3495,
+      "greenCardCourseYouth20_23": 1995,
+      "greenCardCourseJunior13_19": 1495,
+      "pathToGolf": 1495,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Medlemskap gir gratis spill på Haugaland, Nordvegen og Karmøy. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere. Medlemmer får rabattert greenfee ved diverse golfklubber: 20% rabatt (Sola GK, Fana GK, Meland GK), 50% rabatt (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). VTG Green Card kurs: 3495 kr (inkl. medlemskap, materiell, utstyr, rangeballer). VTG kurs 20-23 år/studenter: 1995 kr. VTG kurs 13-19 år: 1495 kr. Vei til golf (ikke-medlemmer): 1495 kr. Pro time (30 min): 500 kr. Golfvogn krever minimumsalder 20 år og booking via Golfbox."
     }
   },
   "membershipPricing": {
@@ -179,6 +207,60 @@
         "category": "share",
         "price": 6000,
         "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
+        "ageRange": null
+      }
+    ],
+    "2026": [
+      {
+        "category": "adult",
+        "price": 6840,
+        "priceMonthly": 570,
+        "description": "Hovedmedlemskap. Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin. Månedlig betaling via AvtaleGiro tilgjengelig.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 5640,
+        "priceMonthly": 470,
+        "description": "Ektefellemedlemskap. Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin. Månedlig betaling via AvtaleGiro tilgjengelig.",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 3540,
+        "priceMonthly": 295,
+        "description": "Heltidsstudent/militærtjeneste. Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin. Månedlig betaling via AvtaleGiro tilgjengelig.",
+        "ageRange": null
+      },
+      {
+        "category": "youth20_23",
+        "price": 3540,
+        "priceMonthly": 295,
+        "description": "Ungdom 20-23 år. Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin. Månedlig betaling via AvtaleGiro tilgjengelig.",
+        "ageRange": null
+      },
+      {
+        "category": "junior13_19",
+        "price": 1500,
+        "description": "Junior 13-19 år. Ingen innmeldingsavgift. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin.",
+        "ageRange": null
+      },
+      {
+        "category": "child6_12",
+        "price": 500,
+        "description": "Barn 6-12 år. Ingen innmeldingsavgift. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK).",
+        "ageRange": null
+      },
+      {
+        "category": "childUnder6",
+        "price": 100,
+        "description": "Barn under 6 år. Ingen innmeldingsavgift. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK).",
+        "ageRange": null
+      },
+      {
+        "category": "share",
+        "price": 6000,
+        "description": "Andel. Ingen innmeldingsavgift. Avbetalingsplan tilgjengelig. Gratis spill på Haugaland, Nordvegen og Karmøy. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK).",
         "ageRange": null
       }
     ]
@@ -297,13 +379,18 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": ["sveiogolfpark.no"],
-    "scrapedAt": "2026-02-14T16:25:00.000Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "haugalandgolf.no",
+      "haugalandgolf.no/gjestespiller",
+      "haugalandgolf.no/proshop",
+      "haugalandgolf.no/klubb/medlemskap"
+    ],
+    "scrapedAt": "2026-02-15T00:00:00.000Z",
     "createdAt": "2025-10-31T10:16:55.924Z",
-    "updatedAt": "2026-02-14T16:25:00.000Z"
+    "updatedAt": "2026-02-15T00:00:00.000Z"
   },
   "googlePlaceId": "ChIJQQ9fny2DO0YRmP1R_jpCh2U"
 }

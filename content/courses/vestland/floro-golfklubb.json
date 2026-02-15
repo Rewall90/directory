@@ -126,6 +126,24 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer. Golfsimulator tilgjengelig."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeFjernmedlem": 150,
+      "greenFeeSunnfjord": 150,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee 2026: 300kr for gjester fra andre klubber. Fjernmedlemmer og Sunnfjord GK-medlemmer: 150kr. Årlig IT-avgift 100kr.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer. Golfsimulator tilgjengelig."
     }
   },
   "membershipPricing": {
@@ -141,6 +159,27 @@
       "itAvgift": 100,
       "currency": "NOK",
       "description": "Premium medlem inkluderer bagskap og gratis startkontingent pa sondagsturneringer. Fjernmedlem pluss 170kr for Norsk Golf bladet. IT-avgift 100kr/ar."
+    },
+    "2026": {
+      "premiumMedlem": 3900,
+      "premiumEktefelle": 3200,
+      "medlemMedSpillerett": 2300,
+      "ektefelleSpillerett": 1650,
+      "juniorUnder20": 650,
+      "barnGrunnskole": 400,
+      "fjernmedlem": 700,
+      "innmeldingsavgift": 250,
+      "itAvgift": 100,
+      "simulatorArskort": 4250,
+      "simulatorEktefelle": 2650,
+      "simulatorJunior": 2450,
+      "simulatorHalvar": 2650,
+      "simulatorHalvarEktefelle": 1400,
+      "simulatorHalvarJunior": 1300,
+      "simulatorTimeHverdag": 160,
+      "simulatorTimeKveldHelg": 215,
+      "currency": "NOK",
+      "description": "Premium medlem inkluderer bagskap og gratis startkontingent på søndagsturneringer. Fjernmedlem pluss 170kr for Norsk Golf bladet. IT-avgift 100kr/år. Golfsimulator: Årskort gir ubegrenset tilgang (maks 2t/dag). Timepris: 160kr hverdager før kl 16, 215kr etter kl 16 og helger/høytider."
     }
   },
   "ratings": {
@@ -197,13 +236,13 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.0",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 92,
-    "pagesScraped": ["priser"],
-    "scrapedAt": "2026-02-14T16:21:00.000Z",
+    "completenessPercentage": 95,
+    "pagesScraped": ["priser", "golfsimulator", "arrangement"],
+    "scrapedAt": "2026-02-15T00:00:00.000Z",
     "createdAt": "2025-10-31T10:16:54.615Z",
-    "updatedAt": "2026-02-14T16:21:00.000Z"
+    "updatedAt": "2026-02-15T00:00:00.000Z"
   },
   "googlePlaceId": "ChIJJ3fs202VF0YR3lPnXCA1ezU"
 }

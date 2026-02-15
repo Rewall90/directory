@@ -115,39 +115,60 @@
       "greenFee18Weekend": 990,
       "greenFee18Twilight": 550,
       "greenFee18Junior": "50%",
+      "greenFee18AutumnSpecial": 500,
+      "greenFee18MemberNoFreePlay": "50%",
+      "greenFee18JuniorMember": 200,
       "greenFee9Weekday": 250,
       "greenFee9Weekend": 300,
       "greenFee9Junior": 150,
-      "greenFeeDescription": "18-hull gjest: hverdag 750 kr, weekend 990 kr, twilight 550 kr, junior 50%. 9-hull (Eplehagen): hverdag 250 kr, weekend 300 kr, junior 150 kr. Høst-greenfee 10 hull fra kl 15.00: 500 kr (fra 1. sept). Medlemmer uten fritt spill: 50% rabatt.",
+      "greenFee9Member": 0,
+      "greenFeeDescription": "18-hull gjest: hverdag 750 kr, helg/helligdager 990 kr, twilight 550 kr, junior 50% alle dager. Høst-greenfee 10 hull fra kl 15.00: 500 kr (gjelder fra 1. sept og ut sesongen). Medlemmer uten fritt spill: 50% rabatt på gjeldende greenfee. Juniormedlemmer: 200 kr alle dager. 9-hull (Eplehagen): hverdag 250 kr, helg/helligdager 300 kr, junior 150 kr. Gratis for medlemmer (unntatt Greenfee-medlemskap).",
       "golfCartRental18": 500,
       "golfCartRental9": 300,
       "electricTrolleyRental": 175,
       "clubRental": 250,
+      "clubRentalBrand": "Callaway Rogue",
+      "clubRentalNotes": "Ekskluderer baller og tees. Må returneres innen kl 22.00",
       "evCharging": 200,
+      "evChargingNotes": "Fastpris for ladning av elbil",
       "rangeBallBucket": 47,
+      "rangeBallPayment": "Kortbetaling ved automat",
       "rangeCard50": 1750,
       "rangeCard100": 3500,
-      "notes": "All greenfee forhåndsbetales i Golfbox. Kun kort og Vipps i proshop, ingen kontanter. Samarbeidsklubber 2026: Bærum GK, Drammen GK, Hauger GK, Miklagard GK (50% rabatt for Bronse+)"
+      "notes": "All greenfee skal nå forhåndsbetales i Golfbox ved booking av starttid. Gjestepris gjelder kun når medlem booker. Forhåndsbetalt greenfee refunderes ikke, unntatt ved stenging av anlegget eller sykdom. Kun kort og Vipps i proshop, ingen kontanter. Ombestilling mulig inntil 24 timer før starttid (maks to endringer). Samarbeidsklubber 2026: Bærum GK, Drammen GK, Hauger GK, Miklagard GK (50% rabatt for Bronse+ medlemskap)."
     }
   },
   "membershipPricing": {
     "2026": {
       "innmeldingsavgift": 500,
+      "innmeldingsavgiftNotes": "Engangsavgift ved innmelding fra 1. januar 2026. Gjelder ikke juniormedlemskap.",
       "gull": 18500,
+      "gullBenefits": "Fritt spill. 21 dagers booking, 6 simultane startider. 50% gjesterabatt. Ballkort til drivingrange med 50 bøtter. Gratis protime i mai. Fritt spill på Golf Hemsedal. 50% rabatt på greenfee hos samarbeidsklubber. 50% rabatt på golfbilleiebiler.",
       "solv": 14900,
+      "solvBenefits": "Fritt spill. 14 dagers booking, 4 simultane startider. 50% gjesterabatt. Ballkort på drivingrange med 25 bøtter. 20% rabatt på protimer. Fritt spill på Golf Hemsedal. 50% rabatt på greenfee hos samarbeidsklubber.",
       "bronse": 11900,
+      "bronseBenefits": "Fritt spill. 10 dagers booking, 3 simultane startider. 50% gjesterabatt. Fritt spill på Golf Hemsedal. 50% rabatt på greenfee hos samarbeidsklubber.",
       "frittSpill70Plus": 9200,
+      "frittSpill70PlusBenefits": "Fritt spill. 7 dagers booking, 2 simultane startider. 30% gjesterabatt. Fritt spill på Golf Hemsedal.",
       "frittSpillFamilie": 21500,
+      "frittSpillFamilieBenefits": "Fritt spill for 2 voksne + 2 barn på samme adresse. 7 dagers booking, 2 simultane startider. 30% gjesterabatt. Fritt spill på Golf Hemsedal. 50% rabatt på greenfee hos samarbeidsklubber.",
       "frittSpill24_30": 6900,
+      "frittSpill24_30Benefits": "Fritt spill for 24-30 år. 7 dagers booking, 2 simultane startider. 30% gjesterabatt. Fritt spill på Golf Hemsedal.",
       "frittSpill20_23": 5500,
+      "frittSpill20_23Benefits": "Fritt spill for 20-23 år. 7 dagers booking, 2 simultane startider. 30% gjesterabatt. Fritt spill på Golf Hemsedal.",
       "frittSpillJunior": 2900,
+      "frittSpillJuniorBenefits": "Fritt spill gjennom og med det år man fyller 19 år. Fritt spill på Golf Hemsedal.",
       "frittSpillHverdager": 7500,
+      "frittSpillHverdagerBenefits": "Fritt spill hverdager. 50% rabatt på helg-greenfee. Fritt spill på Golf Hemsedal.",
       "greenfeePluss": 4500,
+      "greenfeePlussNotes": "50% rabatt på 18-hulls greenfee. Gratis spill på 9-hulls bane.",
       "greenfeeAdult": 2900,
       "greenfeeJunior6_12": 700,
       "greenfeeJunior13_19": 1200,
       "golfbilAbonnement": 5000,
-      "notes": "Gull: 21 dagers booking, 6 simultane, 50% gjesterabatt, ballkort 50 bøtter, protime mai, fritt Golf Hemsedal, 50% samarbeidsklubber. Sølv: 14 dager, 4 simultane, 25 bøtter, 20% protime. Bronse: 10 dager, 3 simultane. Alle aldersbestemte medlemskap justeres automatisk. Månedsbetaling via ECIT."
+      "golfbilAbonnementNotes": "Personlig sesongkort for fri bruk av golfbil hele sesongen. Ikke overførbart.",
+      "paymentOptions": "Månedsbetaling tilgjengelig via ECIT for de fleste medlemskap. Junior, greenfee og golfbilabonnement krever årlig betaling.",
+      "notes": "Aldersbestemte medlemskap justeres automatisk til tilsvarende kategori ved aldersendring, med mindre oppsigelse skjer før 31. desember. Medlemskap må sies opp innen 31. desember i kalenderåret, ellers fornyes det automatisk. Gull, Sølv og Bronse medlemskap får tilgang til avtalen med samarbeidsklubber uten ekstra kostnad."
     }
   },
   "ratings": {
@@ -184,12 +205,22 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 95,
-    "pagesScraped": ["greenfee", "medlemskap-oversikt"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "greenfee",
+      "medlemskap-oversikt",
+      "oppgrader-golfmedlemskap",
+      "innmelding",
+      "proshop",
+      "protimer",
+      "baneguide"
+    ],
+    "scrapedAt": "2026-02-15T18:30:00.000Z",
+    "scrapingMethod": "deep-scrape",
     "createdAt": "2025-10-31T05:54:17.247Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T18:30:00.000Z"
   },
   "googlePlaceId": "ChIJc__VOcQVQUYRxQvVtuLkzfE"
 }

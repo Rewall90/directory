@@ -42,7 +42,9 @@
   "contact": {
     "phone": "+47 72 59 51 51",
     "email": "nina@bynesetgolf.no",
-    "emailAlt": "alise@bynesetgolf.no",
+    "emailAlt": "reidar@bynesetgolf.no",
+    "emailPro": "larsberg@bynesetgolf.no",
+    "emailProShop": "proshop@bynesetgolf.no",
     "website": "https://www.bynesetgolf.no/",
     "facebook": "https://www.facebook.com/bynesetgolf/",
     "instagram": "https://www.instagram.com/bynesetgolf/",
@@ -69,7 +71,11 @@
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Trondheim",
-    "distanceFromCenter": null
+    "distanceFromCenter": "20 min",
+    "bookingRequired": true,
+    "bookingAdvanceDays": 10,
+    "bookingNotes": "Maks 7 aktive tee times per bane samtidig. Avbestilling minimum 12t før. No-show gebyr: North 700 kr, South 300 kr.",
+    "recommendedHcp": "North: HCP 36 anbefalt. South: alle nivåer."
   },
   "organization": {
     "courseCompany": null,
@@ -78,7 +84,7 @@
   "facilities": {
     "drivingRange": true,
     "drivingRangeLength": 300,
-    "drivingRangeNotes": null,
+    "drivingRangeNotes": "Trackman Range med app-basert betaling. GolfMore-app gir 11-40% rabatt.",
     "puttingGreen": true,
     "chippingArea": true,
     "practiceBunker": true,
@@ -89,10 +95,12 @@
     "restaurantName": "Kafé i klubbhus",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
+    "cartRentalNotes": "Selvbetjent via EAGL-app. 18 år & førerkort påkrevd.",
     "pullCartRental": true,
     "golfLessons": true,
-    "teachingPro": false,
+    "teachingPro": true,
+    "teachingProName": "Lars Martin Berg (Head Pro)",
     "clubFitting": null,
     "lockerRooms": true,
     "showers": null,
@@ -103,7 +111,7 @@
     "simulator": true,
     "simulatorType": "Swing Catalyst studio; Trackman på range (under tak)",
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "Studio åpent daglig kl 06-23 (også i vintersesongen)",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -111,7 +119,8 @@
     "tennis": null,
     "tennisCourts": null,
     "discGolf": null,
-    "discGolfStandard": null
+    "discGolfStandard": null,
+    "golfGym": true
   },
   "pricing": {
     "2025": {
@@ -139,13 +148,15 @@
       "greenFeeWeekend": 700,
       "greenFeeJunior": 350,
       "greenFeeDescription": "Byneset North har differensiert greenfee. Juniorer 50% rabatt. Medlemsgjest 20% rabatt.",
-      "cartRental": null,
+      "cartRental9": 300,
+      "cartRental18": 450,
+      "cartRentalNotes": "Spesialpris ved legeerklæring/klassifisering - kontakt klubben",
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Dynamisk prising på North - sjekk GolfBox for eksakt pris"
+      "freeTrial": "VTG-kurs inkluderer fritt spill på Byneset South hele 2026",
+      "notes": "Dynamisk prising på North - sjekk GolfBox for eksakt pris. GolfMore-app gir 11-40% rabatt på rangeballer."
     }
   },
   "membershipPricing": {
@@ -161,66 +172,77 @@
       {
         "category": "Voksen",
         "price": 9850,
-        "description": "Fritt spill på hele anlegget. B-aksjonærer kr 500 rabatt.",
+        "priceMonthly": 821,
+        "description": "Fritt spill på hele anlegget. B-aksjonærer kr 500 rabatt (780 kr/mnd).",
         "ageRange": "30+"
       },
       {
         "category": "Voksen START",
         "price": 7850,
+        "priceMonthly": 654,
         "description": "Fritt spill på hele anlegget.",
         "ageRange": "26-29"
       },
       {
         "category": "Ung Voksen",
         "price": 6950,
+        "priceMonthly": 580,
         "description": "Fritt spill på hele anlegget.",
         "ageRange": "22-25"
       },
       {
         "category": "Voksen begrenset",
         "price": 6800,
+        "priceMonthly": 567,
         "description": "Fritt spill på South. 20% rabatt på North greenfee.",
         "ageRange": "30+"
       },
       {
         "category": "Greenfeemedlem",
         "price": 2950,
+        "priceMonthly": 209,
         "description": "Betaler greenfee. 20% rabatt.",
         "ageRange": null
       },
       {
         "category": "Junior u/13",
         "price": 1750,
+        "priceMonthly": 146,
         "description": "Juniormedlem under 13 år.",
         "ageRange": "0-12"
       },
       {
         "category": "Junior 13-18",
         "price": 3750,
+        "priceMonthly": 313,
         "description": "Juniormedlem 13-18 år.",
         "ageRange": "13-18"
       },
       {
         "category": "Junior 19-21",
         "price": 4950,
+        "priceMonthly": 413,
         "description": "Juniormedlem 19-21 år.",
         "ageRange": "19-21"
       },
       {
         "category": "Student",
         "price": 5450,
-        "description": "Fritt spill. NTNUI Golf medlemmer kr 500 rabatt.",
+        "priceMonthly": 455,
+        "description": "Fritt spill. NTNUI Golf medlemmer kr 500 rabatt (til alder 25).",
         "ageRange": "0-25"
       },
       {
         "category": "Premium",
         "price": 13850,
+        "priceMonthly": 1155,
         "description": "Fritt spill, 10x golfbil, 20 bøtter range, kaffeavtale.",
         "ageRange": null
       },
       {
         "category": "Familie",
         "price": 18500,
+        "priceMonthly": 1542,
         "description": "2 voksne + inntil 3 barn u/19 år samme husstand.",
         "ageRange": null
       },
@@ -288,11 +310,20 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
-    "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "gjestespill/greenfee", "medlemskap-og-priser"],
-    "scrapedAt": "2026-02-14T16:16:00.000Z",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "medlemskap-og-fordeler/medlemskap-og-priser",
+      "spille-golf/greenfee",
+      "spille-golf",
+      "golfbil/priser",
+      "kurs-og-trening",
+      "driving-range/golfmore",
+      "kontakt-oss"
+    ],
+    "scrapedAt": "2026-02-15T12:30:00.000Z",
     "createdAt": "2025-10-31T11:30:49.448Z",
-    "updatedAt": "2026-02-14T16:16:00.000Z"
+    "updatedAt": "2026-02-15T12:30:00.000Z"
   },
   "googlePlaceId": "ChIJE8p2ESzTEkYRaPdJR1vHizw"
 }

@@ -17,32 +17,32 @@
     "accuracy": null
   },
   "course": {
-    "holes": 18,
+    "holes": 9,
     "holesPlayed": 18,
     "par": null,
     "parPerRound": null,
     "lengthMeters": null,
     "lengthYards": null,
-    "lengthNote": null,
-    "terrain": null,
-    "courseType": null,
+    "lengthNote": "Hulllengder fra 76 til 458 meter",
+    "terrain": "Park/skog",
+    "courseType": "Park/skogsbane",
     "designer": null,
     "yearBuilt": null,
-    "yearRedesigned": null,
-    "waterHazards": null,
+    "yearRedesigned": 2013,
+    "waterHazards": true,
     "signatureHole": null,
     "scenicHole": null,
     "par3Count": null,
     "par4Count": null,
     "par5Count": null,
-    "mountainViews": false,
-    "viewDescription": null
+    "mountainViews": true,
+    "viewDescription": "Banen ligger på 800 meters høyde, 15 min nord for Lillehammer, like ved Hafjell alpinsenter. Store greener, mange bunkere, steinbelagte bekker og tynnet eksisterende skog."
   },
-  "description": "Hafjell golfbane",
+  "description": "9-hulls park- og skogsbane på 800 meters høyde, like ved Hafjell alpinsenter, 15 minutter nord for Lillehammer. Banen har store greener, mange bunkere og utfordringer, med hulllengder fra 76 til 458 meter. Steinbelagte bekker, flere tee-områder og tynnet skog gir en variert og spennende golfopplevelse. 24-stasjoners drivingrange. Sesong tidlig mai til medio oktober.",
   "contact": {
     "phone": "95 17 76 55",
     "email": "klubb@hafjellgolf.no",
-    "emailAlt": null,
+    "emailAlt": "booking@nermohotell.no",
     "website": "https://hafjellgolf.no/",
     "facebook": "https://www.facebook.com/hafjellgolfklubb.no",
     "instagram": null,
@@ -61,9 +61,9 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": "13. oktober",
-    "winterUse": "Vinterstengt bane fra 13. oktober"
+    "start": "Tidlig mai",
+    "end": "Medio oktober",
+    "winterUse": "Vinterstengt bane fra medio oktober (2025: 13. okt bane, 23. okt range)"
   },
   "visitors": {
     "welcome": true,
@@ -78,8 +78,8 @@
   "facilities": {
     "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": null,
-    "puttingGreen": false,
+    "drivingRangeNotes": "24-stasjoners drivingrange. Ballkort: 15 bøtter 315 kr, 30 bøtter 560 kr, depositum 50 kr. Automat: 25 kr per bøtte",
+    "puttingGreen": true,
     "chippingArea": false,
     "practiceBunker": false,
     "clubhouse": true,
@@ -92,19 +92,19 @@
     "cartRental": false,
     "pullCartRental": false,
     "golfLessons": true,
-    "teachingPro": false,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": null,
     "showers": null,
     "lockerRental": null,
     "conferenceRoom": null,
-    "eventVenue": null,
+    "eventVenue": true,
     "eventCapacity": null,
     "simulator": false,
     "simulatorType": null,
     "simulatorCourses": null,
     "simulatorNotes": null,
-    "bunkers": null,
+    "bunkers": true,
     "footgolf": false,
     "footgolfHoles": null,
     "footgolfPar": null,
@@ -151,18 +151,18 @@
     },
     "2026": {
       "currency": "NOK",
-      "greenFeeWeekday9Holes": 350,
-      "greenFeeWeekday18Holes": 450,
-      "greenFeeWeekend9Holes": 400,
-      "greenFeeWeekend18Holes": 500,
-      "greenFeeJuniorDiscount": "50%",
-      "greenFeeNSG9Holes": 200,
-      "greenFeeNSG18Holes": 350,
-      "greenFeeDescription": "Man-fre: 350 kr (9 hull), 450 kr (18 hull). Helg: 400 kr (9 hull), 500 kr (18 hull). Juniorer t.o.m. 19 år: halv pris. NSG fordelskort: 200 kr (9), 350 kr (18) hverdager før 15:00, max 3 runder/sesong. 20% rabatt for samarbeidsklubber og greenfeemedlemmer.",
-      "rangeBallCard15": 315,
-      "rangeBallCard30": 560,
-      "rangeBallDeposit": 50,
-      "rangeBallAutomat": 25,
+      "greenFeeWeekday9Holes": null,
+      "greenFeeWeekday18Holes": null,
+      "greenFeeWeekend9Holes": null,
+      "greenFeeWeekend18Holes": null,
+      "greenFeeJuniorDiscount": null,
+      "greenFeeNSG9Holes": null,
+      "greenFeeNSG18Holes": null,
+      "greenFeeDescription": "2026-priser ikke annonsert ennå per februar 2026 (banen vinterstengt). Basert på historikk forventes 2025-priser videreført med evt. KPI-regulering. Forventede priser: man-fre 350/450 kr (9/18 hull), helg 400/500 kr. Juniorer (t.o.m. 19 år) forventes å betale halv pris. NSG fordelskort forventes å være 200/350 kr (max 3 runder/sesong, hverdager før 15:00). 20% rabatt for samarbeidsklubber og greenfeemedlemmer. Golfamore: 50% rabatt (1 runde Standard, inntil 3 runder Plus på hverdager).",
+      "rangeBallCard15": null,
+      "rangeBallCard30": null,
+      "rangeBallDeposit": null,
+      "rangeBallAutomat": null,
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
@@ -182,7 +182,7 @@
         "Randsfjorden GK",
         "Valdres GK"
       ],
-      "notes": "Priser videreført fra 2025-sesongen. Nettsiden viser per feb 2026 kun 2025-priser (banen vinterstengt). Priser indeksregulert iht KPI. Samarbeidsklubber og greenfeemedlemmer får 20% rabatt. Golfamore: 50% rabatt (1 runde, Plus inntil 3 runder hverdager). Booking via Golfbox eller tlf 61275760. VIPPS betaling til 522701."
+      "notes": "2026-priser ikke publisert per februar 2026 (banen vinterstengt t.o.m. april). Booking via Golfbox eller tlf 61 27 55 80 (banemottak) / 95 17 76 55 (klubb). Kontakt: klubb@hafjellgolf.no. Priser forventes publisert nærmere sesongstart (tidlig mai). Banen normalt åpen tidlig mai t.o.m. medio oktober."
     }
   },
   "membershipPricing": {
@@ -197,7 +197,20 @@
       "vtgWithCourse": 3500,
       "vtgUnder16": 2000,
       "greenfeeOnlyMember": 1900,
-      "notes": "Knøttegolf (t.o.m. 11 år) er gratis. Junior 12-15: 1100 kr. Junior 16-19: 2100 kr. VTG 2025: 3500 kr (voksen), 2000 kr (under 16 år). Priser indeksregulert iht KPI."
+      "notes": "Hovedmedlemskap med ubegrenset spill: 5100 kr. Ektefelle/samboer: 4100 kr. Student (krever dokumentasjon): 2800 kr. Knøttegolf (t.o.m. 11 år, født 2014+): gratis med ubegrenset spill. Junior 12-15 år (født 2010-2013): 1100 kr. Junior 16-19 år (født 2006-2009): 2100 kr. VTG 2025 (voksen): 3500 kr inkl. fritt spill inneværende år. VTG under 16 (født 2010+): 2000 kr inkl. ubegrenset spill. Greenfeemedlemskap: 1900 kr/år gir 20% rabatt på ordinær greenfee. Alle priser indeksregulert iht KPI."
+    },
+    "2026": {
+      "currency": "NOK",
+      "fullMembership": null,
+      "spouseMembership": null,
+      "studentMembership": null,
+      "juniorFree0to11": null,
+      "junior12to15": null,
+      "junior16to19": null,
+      "vtgWithCourse": null,
+      "vtgUnder16": null,
+      "greenfeeOnlyMember": null,
+      "notes": "2026-medlemspriser ikke annonsert ennå per februar 2026 (banen vinterstengt). Priser vil bli publisert nærmere sesongstart."
     }
   },
   "ratings": {
@@ -229,17 +242,35 @@
       "distanceKm": 62.4
     }
   ],
-  "additionalFeatures": [],
+  "additionalFeatures": [
+    "Golfpakker tilgjengelig via Nermo Hotell (ligger på golfbanen)",
+    "Golfpakke 1: 1 natt i dobbeltrom inkl. frokost og greenfee - fra 1200 kr per person",
+    "Golfpakke 2: 2 netter i dobbeltrom inkl. frokost og 2 runder - fra 2400 kr per person",
+    "Samarbeid med Quality Hotel & Resort og Hafjell Hotel & Apartments for overnatting",
+    "Banen ligger 15 min nord for Lillehammer på 800 moh",
+    "9-hulls park/skogsbane med store greener og mange bunkere",
+    "Hulllengder fra 76 til 458 meter",
+    "Nye teeboxer på hull 1, 3, 4, 5 og 6 (slope justert 2013)",
+    "24-stasjoners drivingrange med treningsgreen",
+    "Sesong: tidlig mai til medio oktober"
+  ],
   "sponsors": [],
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
-    "completenessPercentage": 98,
-    "pagesScraped": ["bane/booking-greenfee", "medlemmer", "kontakt"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "bane/booking-greenfee",
+      "medlemmer/medlemskap--avgifter",
+      "hotell/golfpakker",
+      "hotell/nermo-hotell",
+      "bane",
+      "nyheter"
+    ],
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T07:18:12.405Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJWcqpP6uLakYRZSaCYNPyy-E"
 }

@@ -117,14 +117,17 @@
       "greenFeeSenior": 300,
       "greenFeeJunior": 100,
       "greenFeePolarGKMember": 150,
-      "greenFeeDescription": "Senior dagspass: 300 kr, Junior: 100 kr. Medlemmer av Polarsirkelen GK: Dagspass 150 kr, Junior 100 kr.",
+      "greenFeePolarGKJunior": 100,
+      "greenFeeDescription": "Senior dagspass: 300 kr, Junior (0-19 år): 100 kr. Medlemmer av Polarsirkelen GK: Dagspass 150 kr, Junior 100 kr. Turneringsgreenfee gratis for medlemmer.",
+      "drivingRangeBalls": 35,
+      "drivingRangeBallsAmount": 20,
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfeesamarbeid med Polarsirkelen GK"
+      "notes": "Greenfeesamarbeid med Polarsirkelen GK. Betaling via Vipps til konto 111225 eller forhåndsbetaling via Golfbox for greenfee og turneringer."
     }
   },
   "membershipPricing": {
@@ -137,8 +140,7 @@
       "senior67plus": 4000,
       "remote": 1990,
       "vtgPackage": 1990,
-      "vtgSecondYear": 2390,
-      "notes": "VTG-kurs inkl. 1. års medlemskap: 1990 kr. Fjernmedlem: For bosatt utenfor Vefsn kommune. Fri spillrett på Gulljordet, Golfboxkonto, NGF-medlemskap."
+      "notes": "VTG-kurs inkl. 1. års medlemskap: 1990 kr (rabatt for barn og ungdom). Fjernmedlem: For bosatt utenfor Vefsn kommune. Fri spillrett på Gulljordet, Golfboxkonto, NGF-medlemskap. Medlemmer får 50% rabatt på Trackman-tester."
     }
   },
   "ratings": {
@@ -188,10 +190,12 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": ["hjem", "klubben"],
-    "scrapedAt": "2026-02-14T16:00:00.000Z",
+    "pagesScraped": ["hjem", "klubben", "banen", "kontakt-oss"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "pricingYear": "2025",
+    "pricingNote": "2026 priser ikke publisert ennå per 15. feb 2026",
     "createdAt": "2025-10-31T09:43:38.991Z",
-    "updatedAt": "2026-02-14T16:00:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJU7Vg8eJRdEYRFQooJdvHDx4"
 }

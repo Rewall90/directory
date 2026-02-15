@@ -73,7 +73,7 @@
   "facilities": {
     "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": "Haga Golfsenter",
+    "drivingRangeNotes": "Haga Golfsenter - Norges største driving range med TopTracer teknologi og 78 overdekte baser. 20 baser reservert for Haga-medlemmer til enhver tid. Stengt for sesongen - åpner våren 2026.",
     "puttingGreen": true,
     "puttingGreenNotes": "Kunstgress-putting",
     "chippingArea": true,
@@ -82,13 +82,13 @@
     "clubhouseName": "Haga Golfsenter",
     "proShop": true,
     "restaurant": true,
-    "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
+    "restaurantName": "Toppgolf Kafé",
+    "clubRental": true,
+    "clubRentalNotes": "Tilgjengelig - kontakt klubben for pris",
     "cartRental": false,
-    "pullCartRental": false,
-    "golfLessons": null,
-    "teachingPro": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": null,
     "showers": null,
@@ -96,10 +96,10 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
-    "simulatorType": null,
-    "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulator": true,
+    "simulatorType": "1 VIP Trackman iO, 8 Trackman iO, 8 Full Swing Golf, 2 swing studios med Trackman",
+    "simulatorCourses": 12,
+    "simulatorNotes": "Booking via Alba (albaplay.com/venue/haga-golfsenter). Medlemmer i Haga GK og Nordhaug GK får 15% rabatt. Åpningstider: Man-Tors 08:00-22:00, Fre 08:00-20:00, Lør-Søn 09:00-21:00. Dynamiske priser.",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -114,39 +114,50 @@
       "currency": "NOK",
       "greenFee9": 380,
       "greenFee9Junior": 230,
+      "greenFee18": 600,
       "greenFee18MemberNoFreespill": 600,
       "greenFee9MemberNoFreespill": 330,
       "greenFee9MemberGuest": 330,
       "greenFee9MemberGuestJunior": 200,
-      "greenFeeDescription": "Forhåndsbetaling via GolfBox. Avbestilling innen 24 timer for refusjon. Medlemmer booker 7 dager i forveien, gjester 3 dager.",
+      "greenFee9NSGSenior": 270,
+      "greenFeeDescription": "Forhåndsbetaling via GolfBox. Avbestilling innen 24 timer for refusjon. Medlemmer booker 7 dager i forveien, gjester 3 dager. NSG-medlemmer (Norsk Senior Golf) betaler kr 270 for 9 hull.",
       "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
+      "pullCartRental": "Tilgjengelig - kontakt klubben for pris",
+      "clubRental": "Tilgjengelig - kontakt klubben for pris",
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Snikspill medfører dobbel greenfee + ordinær greenfee. Spillere skal møte minst 10 minutter før start."
+      "beginnerCoursePrice": 1495,
+      "beginnerCourseDescription": "Veien til Golf (VTG) - 5 timer nybegynnerkurs inkludert teknikk, regler, sikkerhet, baneetikette og banespill. Obligatorisk for spill på banen. Påmelding via Haga GK.",
+      "simulatorPricing": "Dynamiske priser via Alba booking (albaplay.com/venue/haga-golfsenter). Standard pris Full Swing: kr 345, Trackman: kr 395. Prime-time (hverdager 16-22, helg 11-18): Full Swing kr 395, Trackman kr 445. Drop-in: kr 290. Medlemmer i Haga GK og Nordhaug GK får 15% rabatt.",
+      "drivingRangePricing": "30 baller: kr 79, 45 baller: kr 112, 60 baller: kr 145. Verdikort generelt: 1000 poeng kr 950 (5% rabatt), 3000 poeng kr 2700 (10% rabatt), 5000 poeng kr 4250 (15% rabatt). Haga-medlemmer: 1000 poeng kr 900 (10% rabatt), 3000 poeng kr 2550 (15% rabatt), 5000 poeng kr 4000 (20% rabatt). Betaling via GolfMore app.",
+      "notes": "Snikspill medfører dobbel greenfee + ordinær greenfee (100% straff + standard greenfee betales umiddelbart via Vipps). Spillere skal møte minst 10 minutter før start. Driving range stengt for sesongen - åpner igjen våren 2026."
     }
   },
   "membershipPricing": {
     "2026": {
       "frittSpillVoksen": {
-        "name": "Fritt Spill - Voksen",
-        "price": 4700
+        "name": "Fritt Spill - Voksen (26+)",
+        "price": 4700,
+        "benefits": "100 rangeballer på driving range ute, gratis organisert medlemstrening i utesesongen, gjestetariff på Haga Golfklubbs hovedbane"
       },
       "frittSpill20to25": {
         "name": "Fritt Spill - 20-25 år",
-        "price": 2300
+        "price": 2300,
+        "benefits": "100 rangeballer på driving range ute, gratis organisert medlemstrening i utesesongen, redusert greenfee hos samarbeidsklubber, gjestetariff på Haga Golfklubbs hovedbane"
       },
       "frittSpillJunior": {
-        "name": "Fritt Spill - Junior",
-        "price": 1800
+        "name": "Fritt Spill - Junior (under 19 år)",
+        "price": 1800,
+        "benefits": "100 rangeballer på driving range ute, gratis organisert medlemstrening i utesesongen, redusert greenfee hos samarbeidsklubber, gjestetariff på Haga Golfklubbs hovedbane"
       },
       "utenFrittSpill": {
         "name": "Uten Fritt Spill - Alle aldre",
-        "price": 2100
+        "price": 2100,
+        "greenFees": "9 hull: kr 330, 18 hull: kr 600"
       },
-      "note": "Nordhaug Golfklubb er fulltegnet - nye innmeldinger settes på venteliste"
+      "note": "Nordhaug Golfklubb er fulltegnet - nye innmeldinger settes på venteliste. Medlemmer får tilgang til 36 hull, 12 simulatorer og driving range med 78 baser med TopTracer teknologi gjennom samarbeidet med Haga Golfklubb. Alle medlemmer i Haga Golf mottar også 100 gratis rangeballer hvert år (250 poeng i GolfMore app).",
+      "additionalBenefits": "15% rabatt på simulatorspill ved booking i Alba, 10-20% rabatt på verdikort på driving range via GolfMore app, medlemsfordeler via NGF inkludert rabatter hos Hertz, SAS, Norwegian, Strawberry Hotels, Tryg Forsikring, Verisure og EVO fitness. Viaplay Medium: 30% rabatt i 6 måneder. Rygg & Rehab Fornebu: kr 100 rabatt på behandling."
     }
   },
   "ratings": {
@@ -184,11 +195,22 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
-    "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "greenfee-priser", "medlemskap"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "greenfee-priser",
+      "medlemskap",
+      "nybegynnerkurs-vtg",
+      "om-banen",
+      "simulator-booking",
+      "haga-golfsenter-driving-range",
+      "haga-golfsenter-priser",
+      "haga-medlemsfordeler",
+      "norsk-senior-golf"
+    ],
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:23:13.771Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJPyEQA9ISQUYRXcYpHGV9WIE"
 }

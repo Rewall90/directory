@@ -41,8 +41,8 @@
   "description": "Banen på Mjøsen har sitt særpreg som 18-hulls bane med fine naturopplevelser. VIKTIG: Klubben er i ferd med å konvertere fra en 18-hulls bane til to 9-hulls baner (annonsert 26. september 2025).",
   "contact": {
     "phone": "62 36 95 01",
-    "email": null,
-    "emailAlt": null,
+    "email": "post@msgk.no",
+    "emailAlt": "shop@msgk.no",
     "website": "https://msgk.no/",
     "facebook": null,
     "instagram": null,
@@ -119,17 +119,26 @@
       "greenFeeJuniorWeekday9Holes": 150,
       "greenFeeJuniorWeekend18Holes": 250,
       "greenFeeJuniorWeekend9Holes": 150,
-      "greenFeeDescription": "Voksne: Hverdag 450/300 kr, Helg 580/300 kr. Junior/Student: Hverdag 200/150 kr, Helg 250/150 kr. Naboklubber: Voksne 350/480 kr (hverdag/helg 18 hull), Junior 150/200 kr. 5 greenfee-hefte: 1950 kr.",
+      "greenFeeDescription": "Voksne: Hverdag 450/300 kr, Helg 580/300 kr. Junior/Student: Hverdag 200/150 kr, Helg 250/150 kr. Naboklubber: Voksne 350 kr (hverdag 18 hull), 480 kr (helg 18 hull), 200 kr (hverdag 9 hull), 250 kr (helg 9 hull). Junior naboklubber: 150 kr (hverdag 18 hull), 200 kr (helg 18 hull), 100 kr (9 hull). 5 greenfee-hefte: 1950 kr (ikke overførbart).",
       "greenFeeBooklet5Rounds": 1950,
+      "greenFeeBookletNotes": "Ikke overførbart",
       "nsgMemberGreenfee": 225,
       "nsgMemberRoundsLimit": 3,
-      "nsgMemberNotes": "3 runder til halv greenfee, hverdager før kl 15:00",
+      "nsgMemberNotes": "3 runder per sesong til 225 kr, hverdager før kl 15:00. Krever gyldig NSG-kort og bevis på betalt årsavgift",
       "cooperativeClubWeekday18Holes": 350,
+      "cooperativeClubWeekday9Holes": 200,
       "cooperativeClubWeekend18Holes": 480,
+      "cooperativeClubWeekend9Holes": 250,
       "cooperativeClubJuniorWeekday18Holes": 150,
+      "cooperativeClubJuniorWeekday9Holes": 100,
       "cooperativeClubJuniorWeekend18Holes": 200,
+      "cooperativeClubJuniorWeekend9Holes": 100,
       "vtgCourseAdult": 4400,
       "vtgCourseStudent": 2600,
+      "vtgCourseJunior": null,
+      "vtgCourseJuniorNotes": "Pris avtales, varierer etter alder",
+      "vtgCourseIncludes": "Inkluderer e-læring, praktisk instruksjon, banespill, og ukentlig gratis gruppetrening gjennom sesongen. Kurs avholdes lørdag og søndag kl 10:00-15:00",
+      "vtgCourseDates": "Kurs 1: 18-19. april, Kurs 2: 25-26. april",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
@@ -141,27 +150,39 @@
       "neighborClubDiscountJunior": 50,
       "neighborClubDiscount9Holes": 50,
       "cooperativeClubs": "Atlungstad, Elverum, Gjøvik & Toten, Hafjell, Kongsvinger, Randsfjorden, Skei, Sorknes, Trysil, Valdres GK",
-      "notes": "NSG medlemmer: kr 225 (3 runder til halv greenfee, hverdager før kl 15:00). 5 greenfee-hefte: 1950 kr. Golfamore Plus tilgjengelig. VTG kurs voksne 4400 kr (inkl. spill og medlemskap), student 2600 kr."
+      "notes": "NSG medlemmer: 225 kr per runde (3 runder per sesong, hverdager før kl 15:00, krever gyldig NSG-kort). 5 greenfee-hefte: 1950 kr (ikke overførbart). Golfamore Plus tilgjengelig til kl 14:00 hverdager. VTG kurs: Voksne 4400 kr, Student 2600 kr (inkl. spill, medlemskap og ukentlig gruppetrening). Naboklubber får rabatt med betalt 2025 medlemskap."
     }
   },
   "membershipPricing": {
     "2026": {
       "currency": "NOK",
       "fullMembership": 7500,
+      "fullMembershipIncludes": "Ubegrenset spill",
       "familyMembership2Plus": 15500,
+      "familyMembership2PlusIncludes": "To voksne + avhengige juniorer, ubegrenset spill",
       "familyMembership1Plus": 8000,
+      "familyMembership1PlusIncludes": "En voksen + avhengige juniorer, ubegrenset spill",
       "distanceMembership": 4000,
+      "distanceMembershipNotes": "Bosatt utenfor Innlandet fylke, ubegrenset spill",
       "juniorMembership0to12": 600,
       "juniorMembership13to15": 1100,
       "juniorMembership16to19": 2100,
+      "juniorMembershipIncludes": "Ubegrenset spill for alle junior-kategorier",
       "studentMembership": 2600,
+      "studentMembershipIncludes": "Ubegrenset spill, også for eldre juniorer",
       "greenfeeOnlyMember": 2350,
+      "greenfeeOnlyMemberBenefit": "20% rabatt på greenfee",
       "introMembership": 4000,
+      "introMembershipIncludes": "For nye eller returnerende medlemmer, ubegrenset spill",
       "beginnerMembership": 4000,
+      "beginnerMembershipIncludes": "Første år etter kursdeltakelse, ubegrenset spill",
       "neighborMembership": 4900,
+      "neighborMembershipIncludes": "Ubegrenset spill",
       "vtgCourseAdultWithMembership": 4400,
       "vtgCourseStudentWithMembership": 2600,
-      "notes": "Hovedmedlem 7500 kr. Familie 2++: 15500 kr (to voksne + junior). Familie 1++: 8000 kr (en voksen + junior). Fjernmedlem 4000 kr (bosatt utenfor regionen). Nabomedlem 4900 kr. Junior fra 600-2100 kr avhengig av alder. Intromedlemskap/nybegynner: 4000 kr inkl. fritt spill. Greenfeemedlem: 2350 kr (20% rabatt på greenfee). VTG kurs voksen: 4400 kr, student: 2600 kr (inkl. spill og medlemskap)."
+      "annualMeetingDate": "2026-02-18",
+      "annualMeetingNote": "Styrets forslag til medlemskontingent vedtas på årsmøtet 18. februar 2026",
+      "notes": "Hovedmedlem 7500 kr (ubegrenset spill). Familie 2++: 15500 kr (to voksne + avhengige juniorer, ubegrenset spill). Familie 1++: 8000 kr (en voksen + avhengige juniorer, ubegrenset spill). Fjernmedlem 4000 kr (bosatt utenfor Innlandet fylke, ubegrenset spill). Nabomedlem 4900 kr (ubegrenset spill). Junior: 600 kr (til 12 år), 1100 kr (13-15 år), 2100 kr (16-19 år) - alle med ubegrenset spill. Student og eldre junior: 2600 kr (ubegrenset spill). Intromedlemskap: 4000 kr (nye/returnerende medlemmer, ubegrenset spill). Nybegynner: 4000 kr (første år etter kurs, ubegrenset spill). Greenfeemedlem: 2350 kr (20% rabatt på greenfee). VTG kurs inkl. medlemskap: Voksen 4400 kr, Student 2600 kr. Priser foreslått av styret, vedtas på årsmøte 18. februar 2026."
     }
   },
   "ratings": {
@@ -199,11 +220,11 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
-    "completenessPercentage": 95,
-    "pagesScraped": ["home", "gjester", "medlemskap", "bane", "kurs"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "completenessPercentage": 98,
+    "pagesScraped": ["home", "gjester", "medlemskap", "medlemskap/medlemskap-og-priser", "kurs", "nyheter", "kontakt"],
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T07:18:13.251Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJBc7YNy14akYRYpVc3dtRq8M"
 }

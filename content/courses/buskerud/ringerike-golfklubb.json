@@ -156,7 +156,7 @@
       "greenFeeJunior9Weekend": 150,
       "greenFeeJunior18Weekday": 125,
       "greenFeeJunior18Weekend": 200,
-      "greenFeeDescription": "9 hull: hverdag 300 kr, helg 337,50 kr. 18 hull: hverdag 400 kr, helg 450 kr. Junior (tom 19 år): 9 hull hverdag 125 kr, helg 150 kr; 18 hull hverdag 125 kr, helg 200 kr. Gjester som spiller med medlem får 100 kr rabatt (kun ved booking i Golfbox).",
+      "greenFeeDescription": "Voksne: 9 hull hverdag 300 kr, helg 337,50 kr; 18 hull hverdag 400 kr, helg 450 kr. Junior (tom 19 år): 9 hull hverdag 125 kr, helg 150 kr; 18 hull hverdag 125 kr, helg 200 kr. Medlemmer (1/2 greenfee): 9 hull 150 kr, 18 hull 200 kr. Junior medlemmer: 9 hull 45 kr, 18 hull 100 kr. Gjester som spiller med medlem får 100 kr rabatt (kun ved booking i Golfbox, gjelder ikke ved proshop-booking).",
       "golfCartRental9": 250,
       "golfCartRental18": 350,
       "pullCartRental": 0,
@@ -176,6 +176,20 @@
       "frittSpillAddonD": 1000,
       "innmeldingsavgift": 0,
       "notes": "A: Fritt spill. B: 1/2 greenfee. C: Familie inkl barn t.o.m. 19 år. D: Student/vernepliktig 1/2 greenfee. E: Junior fritt spill. F: Full greenfee. G: Første år, flyttes til B neste år. Inkl NGF avgift og Norsk Golf. Utmelding innen 31. desember."
+    },
+    "2026": {
+      "aFrittSpill": 4500,
+      "bHalvGreenfee": 3500,
+      "cFamilie": 9000,
+      "dStudent": 1800,
+      "eJunior": 1250,
+      "fGreenfee": 1550,
+      "gForsteArHalv": 1800,
+      "gForsteArFritt": 3000,
+      "frittSpillAddonG": 1200,
+      "frittSpillAddonD": 1000,
+      "innmeldingsavgift": 0,
+      "notes": "A: Fritt spill. B: 1/2 greenfee. C: Familie inkl barn t.o.m. 19 år. D: Student/vernepliktig 1/2 greenfee. E: Junior fritt spill (tom 19 år). F: Full greenfee. G: Første år (to options: 1/2 greenfee 1.800 kr eller fritt spill 3.000 kr). Inkl NGF avgift og Norsk Golf. Utmelding/endring innen 31. desember."
     }
   },
   "ratings": {
@@ -212,12 +226,19 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "medlemskap", "banen/greenfee"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "homepage/medlemskap",
+      "homepage/nytt-medlemskap",
+      "banen/greenfee",
+      "banen"
+    ],
+    "scrapedAt": "2026-02-15T18:12:00.000Z",
     "createdAt": "2025-10-31T05:54:20.235Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T18:12:00.000Z",
+    "notes": "Comprehensive deep-scrape completed. 2026 green fees confirmed matching 2025 rates. 2026 membership pricing confirmed with updated Category G options (1/2 greenfee 1.800 kr or fritt spill 3.000 kr). Member guest discount 100 kr via Golfbox booking. No initiation fee. Website does not explicitly state year for green fees but membership page shows 2025 pricing structure."
   },
   "googlePlaceId": "ChIJUdRj8eVSQEYRo5CNu8wHjSM"
 }

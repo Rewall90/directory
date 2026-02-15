@@ -42,10 +42,12 @@
   "contact": {
     "phone": "+47 482 07 111",
     "email": "adm@herdlagk.no",
-    "emailAlt": null,
-    "website": "https://herdlagolf.no/",
+    "emailAlt": "info@herdlagolf.no",
+    "emailMembership": "medlem@herdlagk.no",
+    "website": "https://herdlagolfklubb.no/",
+    "websiteAlt": "https://herdlagolf.no/",
     "facebook": "https://www.facebook.com/HerdlaGK/",
-    "instagram": null,
+    "instagram": "https://www.instagram.com/herdlagk/",
     "golfbox": true
   },
   "phoneNumbers": [
@@ -129,9 +131,55 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Spill 18 hull for kun 290 kr med tee-tider 10:00-11:00 mandag-fredag. Kort avstand mellom green og neste tee - lett å gå. Vennlig bane."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 490,
+      "greenFeeWeekday": 490,
+      "greenFeeWeekend": 490,
+      "greenFee9Holes": 390,
+      "greenFee18Holes": 490,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 250,
+      "greenFeeJunior9Holes": 199,
+      "greenFeeJuniorDescription": "Junior t.o.m 18 år: 9 hull 199 kr, 18 hull 250 kr (25. april - 30. oktober 2025)",
+      "greenFeeDescription": "Greenfee fra 1. juli 2025: Alle dager 9 hull 390 kr, 18 hull 490 kr. Golden Hour (man-fre kl. 10:00-11:00): 9 hull 230 kr, 18 hull 290 kr (t.o.m. 30. oktober 2025, kan ikke kombineres med andre tilbud). Junior t.o.m 18 år: 9 hull 199 kr, 18 hull 250 kr (25.04-30.10.2025). NO SHOW blir fakturert.",
+      "cartRental": 250,
+      "cartRentalNotes": "Golfbil 250-350 kr",
+      "pullCartRental": 70,
+      "clubRental": 250,
+      "rangeBalls": 35,
+      "specialOfferPrice": 290,
+      "specialOfferName": "Golden Hour",
+      "specialOfferIncludes": "18 hull for 290 kr (9 hull 230 kr) med start mellom kl. 10:00-11:00 mandag-fredag",
+      "specialOfferValidUntil": "30. oktober 2025",
+      "specialOfferNotes": "Gjelder t.o.m 30. oktober 2025. Kan ikke kombineres med andre tilbud.",
+      "freeTrial": null,
+      "notes": "Golden Hour tilbud: 18 hull 290 kr / 9 hull 230 kr med tee-tider 10:00-11:00 man-fre (t.o.m. 30. oktober 2025). Spillere med NGF/NGA frikort må sende mail til info@herdlagolf.no senest 48 timer før start."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "mainMember": 6335,
+      "mainMemberDescription": "Hovedmedlem 22-66 år",
+      "spousePartner": 4385,
+      "spousePartnerDescription": "Ektefelle/samboer",
+      "senior": 5085,
+      "seniorDescription": "Senior 67+ og uførepensjonister",
+      "youth": 3470,
+      "youthDescription": "Ungdom 20-21 og student/militær (maks. 27 år)",
+      "junior": 1626,
+      "juniorDescription": "Junior 13-19 år",
+      "child": 500,
+      "childDescription": "Knøtter (t.o.m. 12 år)",
+      "greenfeeMember": 2985,
+      "greenfeeMemberDescription": "Greenfeemedlem, inkluderer 4 greenfee à 18 hull",
+      "membershipBenefits": "Medlemskap gir fritt spill på Herdla Golfbane, nasjonal spillerett, NGF avgift og forsikring, Golfbox tilgang, administrasjon og handicapservice",
+      "validityPeriod": "01.01 til 31.12",
+      "notes": "Kontigenten og spillerett gjelder fra 01.01 til 31.12. Alle kontingentsatser vedtas av klubbens årsmøte i starten av februar. Avgift til NGF + bladet Norsk Golf er inkludert for alle over 19 år. Studenter og militære skal fremvise studentbevis/vernepliktbevis. Utmelding må sendes skriftlig til medlem@herdlagk.no innen 31.12. for å være gjeldende for kommende sesong."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
@@ -176,13 +224,19 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "90.0",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": ["homepage"],
-    "scrapedAt": "2026-02-14T16:26:00.000Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "innmelding",
+      "firmagolf",
+      "nyheter"
+    ],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T10:16:57.593Z",
-    "updatedAt": "2026-02-14T20:34:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJO27Je9YfPUYRk9tICd5VohY"
 }

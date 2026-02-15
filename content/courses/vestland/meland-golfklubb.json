@@ -119,18 +119,110 @@
       "greenFeeWeekend": 925,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
+      "greenFee9Holes": "65% av 18-hullspris",
       "greenFeeDescription": "Greenfee 2026: Ukedag t.o.m kl 13:50: 725kr, fra kl 14:00: 800kr. Helg/helligdag t.o.m 13:50: 925kr, fra kl 14:00: 800kr. 9-hullsrunder: 65% av 18-hullspris.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
+      "cartRental": 490,
+      "pullCartRental": "Tilgjengelig (manuel og elektrisk)",
+      "clubRental": 250,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
       "bobilParkering": 200,
-      "notes": "En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). 3 TrackMan simulatorer. 20 golfbiler. Bobil-parkering 200kr/dogn. Avbestilling 24 timer for refusjon."
+      "drivingRangeBalls": "Kjøpes via GolfMore app, medlemsrabatt tilgjengelig",
+      "notes": "En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). 3 TrackMan simulatorer. 20 golfbiler med egne stier. Bobil-parkering 200kr/dogn. Avbestilling 24 timer for refusjon. Golfbiler: 490kr/runde. Leieklubber: 250kr/runde. Manuel og elektrisk tralle tilgjengelig. Medlemmer får rabatt på golfbil (ukedag), driving range og simulator."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "activeMemberships": {
+        "aktiv_voksen": {
+          "name": "Aktiv Voksen (26+ år)",
+          "price": 10600,
+          "priceWithShare": 10100,
+          "description": "Standard voksenmedlemskap med full spillerett lokalt og nasjonalt. Ubegrenset golf hele sesongen.",
+          "benefits": "Ubegrenset golf, tee-time reservasjon opptil 9 dager frem, rabatt på golfbilleie (ukedag), driving range, simulator og PING utstyr"
+        },
+        "aktiv_ektefelle": {
+          "name": "Aktiv Ektefelle/Samboer",
+          "price": 9300,
+          "priceWithShare": 8800,
+          "description": "Medlemskap for ektefelle/samboer av aktivt medlem"
+        },
+        "aktiv_ung_voksen": {
+          "name": "Aktiv Ung Voksen (20-25 år)",
+          "price": 6100,
+          "priceWithShare": 5800,
+          "description": "Redusert pris for unge voksne 20-25 år"
+        },
+        "aktiv_student": {
+          "name": "Aktiv Student/Vernepliktig (20-25 år)",
+          "price": 4900,
+          "priceWithShare": 4600,
+          "description": "Krever dokumentasjon på heltidsstudier eller militærtjeneste"
+        },
+        "junior": {
+          "name": "Junior (13-19 år)",
+          "price": 1100,
+          "priceWithShare": 800,
+          "description": "Medlemskap for ungdom 13-19 år"
+        },
+        "barn": {
+          "name": "Barn (under 12 år)",
+          "price": 50,
+          "description": "Medlemskap for barn under 12 år"
+        }
+      },
+      "familyMemberships": {
+        "familie_to_voksne": {
+          "name": "Familiemedlemskap (2 voksne)",
+          "price": 18400,
+          "installments": "8000/10400 i to delbetalinger",
+          "description": "Lokal og nasjonal spillerett for to voksne"
+        },
+        "familie_med_barn": {
+          "name": "Familiemedlemskap med barn",
+          "price": 9000,
+          "installments": "4000/5000 i to delbetalinger",
+          "description": "Nasjonal spillerett. Opptil fire familiemedlemmer (2 voksne + 2 barn). Spar 50%!",
+          "note": "Flere enn fire familiemedlemmer: kontakt post@melandgolf.no"
+        }
+      },
+      "greenfeeMembership": {
+        "name": "Greenfee Medlemskap",
+        "price": 2350,
+        "priceWithShare": 2050,
+        "description": "Uten spillerett, men 20% rabatt på greenfee ved Meland Golfklubb"
+      },
+      "vtgMemberships": {
+        "vtg_year1": {
+          "name": "Veien til Golf - År 1 (2026)",
+          "price": 5000,
+          "priceYouth": 3000,
+          "description": "Inkluderer VTG kurs, medlemskap med fri golf resten av 2026, 150kr driving range-penger, Golfbox tilgang",
+          "youthAge": "Født etter 2006"
+        },
+        "vtg_year2": {
+          "name": "Veien til Golf - År 2 (2027)",
+          "price": 7000,
+          "description": "Pris fastsettes på årsmøte mars 2026"
+        },
+        "aktiv_junior_vtg": {
+          "name": "Aktiv Junior VTG (13-19 år)",
+          "price": 3000,
+          "description": "Inkluderer full spillerett og VTG kurs"
+        }
+      },
+      "additionalFees": {
+        "innskuddspremie": {
+          "name": "Innskuddspremie",
+          "price": 1000,
+          "description": "Engangsbetaling ved innmelding. Gjelder ikke junior, barn og andelseierkategorier"
+        }
+      },
+      "notes": "Medlemsavgifter fastsettes årlig på årsmøtet. Aksjeeiere får rabatt på alle kategorier. Medlemskap fornyes automatisk årlig hvis ikke oppsagt skriftlig innen 31. desember til post@melandgolf.no. Månedlig betaling (avtalegiro) tilgjengelig for aktiv voksen medlemskap."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -164,13 +256,20 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.0",
-    "websiteQuality": null,
-    "completenessPercentage": 92,
-    "pagesScraped": ["om-gjestespill"],
-    "scrapedAt": "2026-02-14T16:30:00.000Z",
+    "dataQuality": "98.0",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "om-gjestespill",
+      "medlemmer-1",
+      "bli-medlem",
+      "familiemedlemskap",
+      "kurs-veien-til-golf",
+      "oppdateringer/golfmore-driving-range"
+    ],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T10:16:59.137Z",
-    "updatedAt": "2026-02-14T16:30:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJS23g7igcPUYR4jnnqLy0Woo"
 }

@@ -205,6 +205,62 @@
         "description": "Fritt spill høsten 2025 og hele 2026. Gjelder fom 01.09.2025.",
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "Senior med spillerett",
+        "price": 3700,
+        "description": "Medlemskap med spillerett senior (fra 20 år). Spill så mye du vil hele sesongen!",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Senior uten spillerett",
+        "price": 1700,
+        "description": "Medlemskap uten spillerett senior (fra 20 år). Betaler medlems-greenfee pr gang.",
+        "ageRange": "20+"
+      },
+      {
+        "category": "Familie 2+2",
+        "price": 5700,
+        "description": "Gunstig medlemskap for familier. Gjelder for inntil 2 voksne og 2 barn.",
+        "ageRange": null
+      },
+      {
+        "category": "Barn",
+        "price": 300,
+        "description": "Medlemskap med spillerett barn (tom. 12 år). Spill så mye du vil hele sesongen!",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "Junior",
+        "price": 950,
+        "description": "Medlemskap med spillerett junior (fom. 13 tom. 19 år). Spill så mye du vil hele sesongen!",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "Årsgreenfee gjestespiller",
+        "price": 2700,
+        "description": "For medlemmer av annen klubb som ønsker å besøke hyppig. Betal en fast pris og spill så mye du vil.",
+        "ageRange": null
+      },
+      {
+        "category": "Student",
+        "price": 2200,
+        "description": "Medlemskap med spillerett student. Gyldig studentbevis må fremlegges.",
+        "ageRange": null
+      },
+      {
+        "category": "Student høst+neste sesong",
+        "price": 3200,
+        "description": "Medlemskap student med full spillerett høsten 2026 + hele 2027. Gjelder fom 01.09.2026.",
+        "ageRange": null
+      },
+      {
+        "category": "Høst+neste sesong",
+        "price": 4700,
+        "description": "Fritt spill høsten 2026 og hele 2027. Gjelder fom 01.09.2026.",
+        "ageRange": null
+      }
     ]
   },
   "ratings": {
@@ -243,10 +299,11 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "gjester", "blimedlem"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "pagesScraped": ["homepage", "blimedlem", "golfbox", "klubben", "banen", "nyheter", "kurs"],
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:30:51.008Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z",
+    "scrapingNotes": "Website uses Wix with dynamic content loading. 2026 pricing confirmed via multiple sources including partner club agreements (Austrått GK). Membership pricing appears unchanged from 2025. Greenfee agreements verified with Austrått (200 kr/day), Røros (250/300 kr), Steinkjer (167 kr), and Stiklestad (20% discount)."
   },
   "googlePlaceId": "ChIJH2QXxmQvbUYRnBSnsjyhHyE"
 }

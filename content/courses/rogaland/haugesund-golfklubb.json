@@ -42,7 +42,7 @@
   "contact": {
     "phone": "+47 947 93 971",
     "email": "styret@haugesundgolf.no",
-    "emailAlt": null,
+    "emailAlt": "post@golfparkencatering.no",
     "website": "https://www.haugesundgolf.no/",
     "facebook": "https://www.facebook.com/haugesundgolf/",
     "instagram": "https://www.instagram.com/haugesundgolfpark/",
@@ -52,7 +52,20 @@
     {
       "number": "+47 947 93 971",
       "type": "main",
-      "primary": true
+      "primary": true,
+      "description": "Klubb/Pro - Eirik Grønhaug"
+    },
+    {
+      "number": "+47 993 66 001",
+      "type": "greenkeeper",
+      "primary": false,
+      "description": "Greenkeeper - Jørgen Grønhaug"
+    },
+    {
+      "number": "+47 995 58 866",
+      "type": "catering",
+      "primary": false,
+      "description": "Golfparken Catering"
     },
     {
       "number": "+47 958 11 022",
@@ -82,8 +95,8 @@
   },
   "facilities": {
     "drivingRange": true,
-    "drivingRangeLength": null,
-    "drivingRangeNotes": null,
+    "drivingRangeLength": 240,
+    "drivingRangeNotes": "Norges lengste driving range (240m) med 20+ plasser, 10 under tak, flombelyst, åpen 24/7. Callaway rangeballer med robotball-samler og robotgressklipper.",
     "puttingGreen": true,
     "chippingArea": true,
     "practiceBunker": true,
@@ -92,24 +105,29 @@
     "proShop": true,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
+    "clubRental": true,
+    "clubRentalNotes": "Gratis kølleutlån for nybegynnere på driving range. Inkludert i nybegynnerkurs.",
     "cartRental": false,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
+    "teachingProName": "Eirik Grønhaug",
     "clubFitting": null,
     "lockerRooms": true,
     "showers": false,
     "lockerRental": false,
     "conferenceRoom": false,
-    "eventVenue": false,
+    "eventVenue": true,
     "eventCapacity": null,
+    "eventVenueNotes": "Lokalutleie tilgjengelig for bryllup, dåp, konfirmasjon, jubileum og gravferdsselskap. Inkluderer glass, tallerkener, bestikk og hvitevarer. Golfparken Catering tilgjengelig på stedet.",
     "simulator": true,
-    "simulatorType": "Golfsimulatorer tilgjengelig, booking via nettsiden",
+    "simulatorType": "Trackman simulator",
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "200 kr/time, booking via nettsiden",
     "bunkers": null,
+    "pitchPutt": true,
+    "pitchPuttHoles": 6,
+    "pitchPuttNotes": "6-hulls Pitch & Putt bane, 150 kr (gratis for medlemmer)",
     "footgolf": false,
     "footgolfHoles": null,
     "footgolfPar": null,
@@ -165,18 +183,24 @@
       "greenFeeSenior": null,
       "greenFeeJunior": null,
       "greenFeeTwilight": null,
-      "greenFeeDescription": "9-hulls Folkebane: 300 kr for hele dagen. 6-hulls Pitch & Putt: 150 kr (gratis for medlemmer). Driving range: halv bøtte 50 kr, full bøtte 100 kr. Simulator: 200 kr/time.",
+      "greenFeeDescription": "9-hulls Folkebane: 300 kr for hele dagen. 6-hulls Pitch & Putt: 150 kr (gratis for medlemmer). Driving range: halv bøtte 50 kr, full bøtte 100 kr. Simulator: 200 kr/time. Nybegynnerkurs: 950 kr (500 kr med medlemskap). Lokalutleie: man-tors 2000 kr, man-tors etter kl 16: 4000 kr, fre-søn 5000 kr, bryllup helg 10000 kr.",
       "drivingRangeSmall": 50,
       "drivingRangeLarge": 100,
       "simulator": 200,
       "pitchPutt": 150,
+      "beginnerCourse": 950,
+      "beginnerCourseWithMembership": 500,
+      "venueRentalMonThu": 2000,
+      "venueRentalMonThuAfter4pm": 4000,
+      "venueRentalFriSun": 5000,
+      "venueRentalWeddingWeekend": 10000,
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "9-hulls bane. Greenfee gjelder hele dagen. Priser hentet fra nettsiden februar 2026 - nettsiden viser ikke egne 2026-priser, disse er de gjeldende prisene."
+      "notes": "9-hulls bane. Greenfee gjelder hele dagen. Driving range åpen 24/7 med 240 meter lengde, 20+ plasser (10 under tak), flombelyst, Callaway rangeballer, robotgressklipper og robotball-samler. Trackman simulator tilgjengelig. Gratis kølleutlån for nybegynnere. Nybegynnerkurs inkluderer gratis rangeballer, kølleutlån og gratis spill på kortbanen. Lokalutleie inkluderer glass, tallerkener, bestikk og andre hvitevarer. Priser hentet fra nettsiden februar 2026."
     }
   },
   "membershipPricing": {
@@ -297,6 +321,68 @@
         "description": "Fjernmedlemskap",
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "adult",
+        "price": 4400,
+        "description": "Hovedmedlem",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 3100,
+        "description": "Ektefelle/Samboer",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 2150,
+        "description": "Student/Vernepliktig",
+        "ageRange": null
+      },
+      {
+        "category": "age20_29",
+        "price": 2150,
+        "description": "Alder 20-29 år",
+        "ageRange": "20-29"
+      },
+      {
+        "category": "junior13_19",
+        "price": 1200,
+        "description": "Junior 13-19 år (gratis trening på tirsdager kl 17:00-18:00)",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "barn0_12",
+        "price": 0,
+        "description": "Barn 0-12 år (gratis medlemskap)",
+        "ageRange": "0-12"
+      },
+      {
+        "category": "family",
+        "price": 7500,
+        "description": "Familiemedlemskap (1 hovedmedlem + 1 ektefelle + 1 junior), +500 kr per ekstra junior",
+        "ageRange": null
+      },
+      {
+        "category": "additionalJunior",
+        "price": 500,
+        "description": "Tilleggsjunior til familiemedlemskap",
+        "ageRange": null
+      },
+      {
+        "category": "bMembership",
+        "price": 3300,
+        "description": "B-medlemskap (spillerett i annen klubb)",
+        "ageRange": null
+      },
+      {
+        "category": "remote",
+        "price": 850,
+        "description": "Fjernmedlemskap - et av Norges billigste medlemskap",
+        "ageRange": null
+      }
     ]
   },
   "ratings": {
@@ -393,17 +479,26 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "85.0",
-    "websiteQuality": null,
-    "completenessPercentage": 85,
+    "dataQuality": "95.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
     "pagesScraped": [
       "https://www.haugesundgolf.no/",
       "https://www.haugesundgolf.no/menu-4",
-      "https://www.haugesundgolf.no/9hulls-bane-1"
+      "https://www.haugesundgolf.no/9hulls-bane-1",
+      "https://www.haugesundgolf.no/new-page",
+      "https://www.haugesundgolf.no/simulator",
+      "https://www.haugesundgolf.no/fjernmedlemskap-1",
+      "https://www.haugesundgolf.no/klubben",
+      "https://www.haugesundgolf.no/nybegynnerkurs",
+      "https://www.haugesundgolf.no/junior",
+      "https://www.haugesundgolf.no/lokalutleie",
+      "https://www.haugesundgolf.no/kontakt-oss",
+      "https://www.haugesundgolf.no/grasrot"
     ],
-    "scrapedAt": "2026-02-14T15:58:00.000Z",
+    "scrapedAt": "2026-02-15T13:30:00.000Z",
     "createdAt": "2025-10-31T07:46:22.054Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T13:30:00.000Z"
   },
   "googlePlaceId": "ChIJ7ROkAjyfO0YREAAaU_uSPO8"
 }

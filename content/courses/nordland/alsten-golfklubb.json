@@ -11,15 +11,18 @@
     "postalCode": "8820",
     "area": "Våg"
   },
-  "coordinates": null,
+  "coordinates": {
+    "lat": 66.1167,
+    "lng": 12.5333
+  },
   "course": {
     "holes": 6,
     "holesPlayed": 6,
     "par": 22,
     "parPerRound": 22,
-    "lengthMeters": 1178,
+    "lengthMeters": 1288,
     "lengthYards": null,
-    "lengthNote": null,
+    "lengthNote": "Yellow tees: 1288m, Red tees: 1127m",
     "terrain": "Parkland/Skogsbane",
     "courseType": "6-hulls bane",
     "designer": null,
@@ -36,7 +39,7 @@
   },
   "description": "6-hulls golfbane på Våg i Dønna kommune på Helgelandskysten. Etablert i 2001. Parkland/skogsbane i naturskjønne omgivelser i den ytre, kystnære delen av Helgeland. Åpen for besøkende hver dag.",
   "contact": {
-    "phone": null,
+    "phone": "+47 995 67711",
     "email": "post@alstengolf.com",
     "emailAlt": null,
     "website": "https://www.alstengolf.com/",
@@ -44,7 +47,12 @@
     "instagram": null,
     "golfbox": false
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "type": "main",
+      "number": "+47 995 67711"
+    }
+  ],
   "season": {
     "start": "Mai",
     "end": "September",
@@ -58,7 +66,9 @@
   },
   "organization": {
     "courseCompany": "Alsten Golfklubb",
-    "clubOrganization": "Alsten Golfklubb"
+    "clubOrganization": "Alsten Golfklubb",
+    "memberCount": 17,
+    "memberCountYear": 2024
   },
   "facilities": {
     "drivingRange": true,
@@ -72,14 +82,14 @@
     "proShop": false,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
+    "clubRental": true,
     "clubRentalNotes": null,
     "cartRental": false,
     "pullCartRental": true,
     "golfLessons": false,
-    "teachingPro": false,
+    "teachingPro": true,
     "clubFitting": null,
-    "lockerRooms": false,
+    "lockerRooms": true,
     "showers": false,
     "lockerRental": false,
     "conferenceRoom": false,
@@ -114,6 +124,22 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": null
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 200,
+      "greenFeeWeekend": 200,
+      "greenFeeSenior": 200,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Greenfee for 6-hulls bane. Prisene er estimert basert på tidligere år. Kontakt klubben for bekreftet pris: +47 995 67711 eller post@alstengolf.com",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Alsten er en liten klubb med kun 17 medlemmer. Nettsiden var ikke tilgjengelig ved siste oppdatering. Ring eller send e-post for oppdatert prisinformasjon."
     }
   },
   "membershipPricing": {},
@@ -131,14 +157,18 @@
   "nearbyCourses": [],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://www.golfpass.com/travel-advisor/courses/36956-alsten-golf-club",
+    "https://www.1golf.eu/en/club/alsten-golfklubb/",
+    "https://www.norskgolf.no/her-er-norges-storste-og-minste-klubber/248802"
+  ],
   "meta": {
-    "dataQuality": "75.0",
-    "websiteQuality": null,
-    "completenessPercentage": 75,
+    "dataQuality": "70.0",
+    "websiteQuality": "unavailable",
+    "completenessPercentage": 70,
     "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:37.325Z",
+    "scrapedAt": "2026-02-15T00:00:00.000Z",
     "createdAt": "2025-10-31T09:43:37.327Z",
-    "updatedAt": "2025-10-31T09:43:37.327Z"
+    "updatedAt": "2026-02-15T00:00:00.000Z"
   }
 }

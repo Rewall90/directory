@@ -83,8 +83,8 @@
     "restaurant": true,
     "restaurantName": null,
     "clubRental": false,
-    "clubRentalNotes": null,
-    "cartRental": false,
+    "clubRentalNotes": "Klubber tilbys ikke til leie",
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -95,10 +95,10 @@
     "conferenceRoom": false,
     "eventVenue": true,
     "eventCapacity": null,
-    "simulator": false,
-    "simulatorType": null,
+    "simulator": true,
+    "simulatorType": "6 simulatorer",
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "6 simulatorer tilgjengelig hele året, inntil 4 spillere per simulator, booking via albaplay.no",
     "bunkers": null,
     "footgolf": true,
     "footgolfHoles": null,
@@ -134,13 +134,38 @@
       "greenFeeJunior": 400,
       "greenFee9Hole": 500,
       "greenFeeDescription": "FORUS: Helg og hverdager etter kl 14: 900 kr, Hverdager før kl 14: 700 kr, 9 hull: 500 kr, Junior (under 20 år): 400 kr. SOLASTRANDEN: Alle dager før kl 12: 700 kr, Alle dager etter kl 12: 600 kr, 9 hull: 400 kr, Junior: 300 kr. GOLFPARKEN: Golf/Fotballgolf: 150 kr, Junior: 50 kr.",
-      "cartRental": null,
-      "pullCartRental": null,
+      "cartRental": "Kommer sesongstart 2026",
+      "pullCartRental": 50,
       "clubRental": null,
+      "drivingRangeBallsHalf": 40,
+      "drivingRangeBallsFull": 75,
+      "drivingRangeMemberAnnual": 3600,
+      "drivingRangeGuestAnnual": 4800,
+      "simulatorWeekday": 250,
+      "simulatorWeekdayEvening": 350,
+      "simulatorWeekend": 350,
+      "simulatorMemberCard": 2500,
+      "simulatorMemberCardValue": 3500,
+      "proTime25min": 500,
+      "proTime50min": 900,
+      "coursePlay9holes": 2000,
+      "clubFitting": 900,
+      "captoPutting": 900,
+      "swingCatalyst50min": 1500,
+      "swingCatalyst25min": 800,
+      "clipCard6x25min": 2500,
+      "clipCard6x50min": 4500,
+      "clipCardSwingCatalyst": 5700,
+      "seasonCardProtimes": 13500,
+      "golfClinic": 300,
+      "golfSchoolMember": 3000,
+      "golfSchoolNonMember": 4000,
+      "beginnerCourse": 1500,
+      "summerSchool": 2350,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Tre baner med ulike priser. Sjekk Gimmie og GolfBox for gjeldende greenfee og booking."
+      "notes": "Tre baner med ett medlemskap. Tralle: 50 kr (20 stk Forus, 15 stk Solastranden). Driving range: Halv bøtte ca 25 baller, hel bøtte ca 50 baller. GolfMore prepaid pakker gir bonuskreditt. Simulator: inntil 4 spillere per booking, forhåndsbestilling inntil 14 dager. Medlemmer kan kjøpe verdikort på 3500 kr for 2500 kr (30% rabatt). Golf carts: mer info kommer sesongstart 2026. Sjekk Gimmie og GolfBox for booking."
     }
   },
   "membershipPricing": {
@@ -149,63 +174,91 @@
         "category": "adult",
         "price": 11200,
         "description": "Hovedmedlem: 11 200 kr/år (939 kr/mnd)",
-        "ageRange": null
+        "ageRange": null,
+        "benefits": "Venteliste, ubegrenset spill alle baner, 6 dagers forhåndsbooking, spillegaranti"
       },
       {
         "category": "senior",
         "price": 10000,
         "description": "Senior +67: 10 000 kr/år (839 kr/mnd)",
-        "ageRange": "67+"
+        "ageRange": "67+",
+        "benefits": "Samme fordeler som hovedmedlem"
       },
       {
         "category": "spouse",
         "price": 8500,
         "description": "Samboer/Ektefelle: 8 500 kr/år (719 kr/mnd)",
-        "ageRange": null
+        "ageRange": null,
+        "benefits": "Samme fordeler som hovedmedlem"
       },
       {
         "category": "student",
         "price": 5000,
         "description": "Student: 5 000 kr/år (419 kr/mnd)",
-        "ageRange": null
+        "ageRange": "til og med 28 år",
+        "benefits": "Heltidsstudenter, samme kjernefordeler som hovedmedlem"
       },
       {
         "category": "juniorOlder",
         "price": 3000,
         "description": "Junior 14-21: 3 000 kr/år (259 kr/mnd)",
-        "ageRange": "14-21"
+        "ageRange": "14-21",
+        "benefits": "Ingen venteliste, ubegrenset spill, 6 dagers booking"
       },
       {
         "category": "juniorYounger",
         "price": 990,
         "description": "Junior -13: 990 kr/år (89 kr/mnd)",
-        "ageRange": "0-13"
+        "ageRange": "0-13",
+        "benefits": "Samme fordeler som eldre junior"
       },
       {
         "category": "family",
         "price": 23100,
         "description": "Familiemedlemskap: 23 100 kr/år (1 929 kr/mnd)",
-        "ageRange": null
+        "ageRange": null,
+        "benefits": "2 voksne + barn, inkluderer venteliste og fulle medlemsfordeler"
       },
       {
         "category": "course",
         "price": 3500,
         "description": "Kursmedlem: 3 500 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "benefits": "Deltakere på 'Veien til golf' kurs, spill begrenset til Solastranden, gratis medlemstrening"
       },
       {
         "category": "greenfee",
         "price": 1850,
         "description": "Greenfeemedlem: 1 850 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "benefits": "3 dagers bookingvindu, NGF-avgifter inkludert"
       },
       {
         "category": "passive",
         "price": 2990,
         "description": "Passiv: 2 990 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "benefits": "3 greenfee-spill årlig, 3 dagers bookingtilgang"
       }
-    ]
+    ],
+    "beginnerProgression": {
+      "year1": {
+        "price": 3500,
+        "description": "År 1 etter 'Veien til golf': 3 500 kr/år",
+        "access": "Ubegrenset spill Solastranden og Golfparken, gratis medlemstrening, invitasjon til 'Spill og Grill'"
+      },
+      "year2": {
+        "price": 6290,
+        "alternativePrice": 3500,
+        "description": "År 2: 6 290 kr/år (eller 3 500 kr kun Solastranden)",
+        "access": "Ubegrenset spill begge 18-hulls baner, gratis medlemstrening, eventinvitasjon"
+      },
+      "year3": {
+        "price": 8290,
+        "description": "År 3: 8 290 kr/år",
+        "access": "Ubegrenset spill begge baner, gratis medlemstrening, eventinvitasjon"
+      }
+    }
   },
   "ratings": {
     "google": {
@@ -236,22 +289,70 @@
       "distanceKm": 21.3
     }
   ],
-  "additionalFeatures": [],
+  "additionalFeatures": [
+    {
+      "type": "hotel-packages",
+      "description": "Hotellavtaler med Sola Strand Hotel ('Who's Your Caddy' pakke inkluderer overnatting, frokost og greenfee), Quality Hotel Pond (dobbeltrom med frokost: 1 395 kr, enkeltrom: 1 195 kr, bruk kode SOLAGOLF), Quality Airport Hotel (samme priser som Pond, bruk kode SOLAGOLF)"
+    },
+    {
+      "type": "driving-range-packages",
+      "description": "GolfMore prepaid pakker - Medlemmer: Liten 400 kr (verdi 500 kr), Medium 750 kr (verdi 1000 kr), Stor 1000 kr (verdi 1500 kr). Gjester: Liten 400 kr (verdi 450 kr), Medium 750 kr (verdi 900 kr), Stor 1000 kr (verdi 1300 kr)"
+    },
+    {
+      "type": "simulator-details",
+      "description": "6 simulatorer tilgjengelig, inntil 4 spillere per simulator, booking via albaplay.no, forhåndsbetaling påkrevd, åpent hele året"
+    },
+    {
+      "type": "courses-programs",
+      "description": "Sommerskole 2026: 2 350 kr/uke (22-26 juni, 29 juni-3 juli, 27-31 juli, 3-7 aug), 6-15 år, man-fre 09:00-15:00, inkluderer lunsj, golfbilopplæring, simulator ved dårlig vær. Golfskolen: 3 000 kr medlemmer/4 000 kr ikke-medlemmer, 8 uker før og etter sommerferie"
+    },
+    {
+      "type": "cancellation-policy",
+      "description": "Forhåndsbetaling påkrevd for alle bestillinger. Refusjon kun ved stengt bane eller klubbavlysning. Endringsfrist: Greenfee/simulator 24 timer, turneringer til påmeldingsfrist, grupper til påmeldingsfrist, protimer 48 timer (maks 1 endring)"
+    },
+    {
+      "type": "course-access",
+      "description": "Forus: 18 hull, par 72, 6210m, seks tee-valg. Solastranden: 18 hull, par 68, 4892m (blå)/4126m (rød), åpent hele året, sandjord tåler kraftig nedbør"
+    },
+    {
+      "type": "facilities-details",
+      "description": "Driving range åpent 07:00-23:00 daglig. Forus: overdekt baner. Solastranden: flombelysning. Toaletter på bane: Solastranden hull 13, Forus mellom hull 13-14. Garderober: Forus separate damer/herrer i klubbhus, Solastranden dusj/garderobe ved HCP toalett"
+    }
+  ],
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.0",
-    "websiteQuality": null,
-    "completenessPercentage": 92,
+    "dataQuality": "98.0",
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
     "pagesScraped": [
-      "https://solagk.no/",
-      "https://solagk.no/gjester/greenfee",
-      "https://solagk.no/klubben/medlemskap-og-priser",
-      "https://solagk.no/klubben"
+      "https://www.solagk.no/",
+      "https://www.solagk.no/gjester/greenfee",
+      "https://www.solagk.no/klubben/medlemskap-og-priser",
+      "https://www.solagk.no/klubben",
+      "https://www.solagk.no/gjester/provespill",
+      "https://www.solagk.no/simulator",
+      "https://www.solagk.no/simulator/priser",
+      "https://www.solagk.no/kurs-og-treninger",
+      "https://www.solagk.no/gjester",
+      "https://www.solagk.no/gjester/hotellavtaler",
+      "https://www.solagk.no/gjester/faq",
+      "https://www.solagk.no/gjester/ofte-stilte-sporsmal",
+      "https://www.solagk.no/gjester/avtalevilkar-forhandsbetaling",
+      "https://www.solagk.no/banene",
+      "https://www.solagk.no/kurs-og-treninger/driving-range",
+      "https://www.solagk.no/kurs-og-treninger/veien-til-golf-nybegynnerkurs",
+      "https://www.solagk.no/kurs-og-treninger/instruksjon",
+      "https://www.solagk.no/kurs-og-treninger/golfskolen",
+      "https://www.solagk.no/kurs-og-treninger/sommerskole-2026",
+      "https://www.solagk.no/sola-proshop",
+      "https://www.solagk.no/sola-proshop/golfbiler",
+      "https://www.solagk.no/sola-proshop/gavekort"
     ],
-    "scrapedAt": "2026-02-14T16:19:00.000Z",
+    "scrapedAt": "2026-02-15T00:00:00.000Z",
     "createdAt": "2025-10-31T07:46:27.380Z",
-    "updatedAt": "2026-02-14T16:19:00.000Z"
+    "updatedAt": "2026-02-15T00:00:00.000Z",
+    "notes": "Deep-scrape completed: Comprehensive 2026 pricing including greenfees (3 courses), membership (10 categories), simulator, driving range, instruction (individual/group/packages), beginner courses, summer school, hotel packages, GolfMore prepaid, cancellation policies, facilities details"
   },
   "googlePlaceId": "ChIJEUxIhf81OkYRYr5xFvOX8co"
 }

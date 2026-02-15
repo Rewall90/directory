@@ -132,7 +132,9 @@
       "greenFeeAksjeeier": 0,
       "greenFeeJuniorMember": 0,
       "greenFeeRomerikeDiscount": 50,
-      "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Gjestespillere fra Romerike GK får kr 50 rabatt.",
+      "greenFeeFormiddagMember": 0,
+      "greenFeeFormiddagMemberAfter15": 100,
+      "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Formiddagsmedlemmer spiller gratis før kl. 15 på hverdager, deretter kr 100. Gjestespillere fra Romerike GK får kr 50 rabatt.",
       "notes": "Golfkortet kreves for å spille. Betal med Vipps."
     },
     "2026": {
@@ -143,8 +145,10 @@
       "greenFeeAksjeeier": 0,
       "greenFeeJuniorMember": 0,
       "greenFeeRomerikeDiscount": 50,
-      "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Gjestespillere fra Romerike GK får kr 50 rabatt.",
-      "notes": "Golfkortet kreves for å spille. Betal med Vipps. 9-hulls bane, dagspris gjelder ubegrenset antall runder. 2026-priser ikke offisielt publisert ennå, banen er sesongstengt. Priser hentet fra nettside per feb 2026."
+      "greenFeeFormiddagMember": 0,
+      "greenFeeFormiddagMemberAfter15": 100,
+      "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Formiddagsmedlemmer spiller gratis før kl. 15 på hverdager, deretter kr 100. Gjestespillere fra Romerike GK får kr 50 rabatt.",
+      "notes": "Golfkortet kreves for å spille. Betal med Vipps. 2026-priser ikke offisielt publisert ennå - årsmøte 23. februar 2026 vil behandle budsjett og kontingentfastsettelse. Banen er sesongstengt. Prisene nedenfor er fra 2025 og kan endres."
     }
   },
   "membershipPricing": {
@@ -154,30 +158,79 @@
         {
           "category": "full",
           "name": "Aksjeeiere",
-          "price": 2300
+          "price": 2300,
+          "benefits": "Gratis greenfee hele dagen"
         },
         {
           "category": "limited",
           "name": "Greenfee-medlemmer",
-          "price": 2300
+          "price": 2300,
+          "benefits": "Greenfee kr 100 hele dagen"
         },
         {
           "category": "limited",
           "name": "Formiddagsmedlemmer",
           "price": 2300,
+          "benefits": "Gratis før kl. 15 på hverdager, kr 100 etter kl. 15 og helger/røde dager",
           "note": "Kategori er full"
         },
         {
           "category": "junior",
           "name": "Eldre jr (t.o.m. 20 år)",
           "ageMax": 20,
-          "price": 800
+          "price": 800,
+          "benefits": "Gratis greenfee"
         },
         {
           "category": "junior",
           "name": "Yngre jr (t.o.m. 12 år)",
           "ageMax": 12,
-          "price": 400
+          "price": 400,
+          "benefits": "Gratis greenfee"
+        }
+      ]
+    },
+    "2026": {
+      "currency": "NOK",
+      "notes": "2026-kontingent fastsettes på årsmøtet 23. februar 2026. Priser nedenfor er fra 2025 og kan endres.",
+      "tiers": [
+        {
+          "category": "full",
+          "name": "Aksjeeiere",
+          "price": 2300,
+          "benefits": "Gratis greenfee hele dagen",
+          "tentative": true
+        },
+        {
+          "category": "limited",
+          "name": "Greenfee-medlemmer",
+          "price": 2300,
+          "benefits": "Greenfee kr 100 hele dagen",
+          "tentative": true
+        },
+        {
+          "category": "limited",
+          "name": "Formiddagsmedlemmer",
+          "price": 2300,
+          "benefits": "Gratis før kl. 15 på hverdager, kr 100 etter kl. 15 og helger/røde dager",
+          "note": "Kategori er full (status per 2025)",
+          "tentative": true
+        },
+        {
+          "category": "junior",
+          "name": "Eldre jr (t.o.m. 20 år)",
+          "ageMax": 20,
+          "price": 800,
+          "benefits": "Gratis greenfee",
+          "tentative": true
+        },
+        {
+          "category": "junior",
+          "name": "Yngre jr (t.o.m. 12 år)",
+          "ageMax": 12,
+          "price": 400,
+          "benefits": "Gratis greenfee",
+          "tentative": true
         }
       ]
     }
@@ -226,11 +279,14 @@
       "https://www.fetgk.no/",
       "https://www.fetgk.no/kontakt/",
       "https://www.fetgk.no/banen/",
-      "https://www.fetgk.no/klubben/"
+      "https://www.fetgk.no/klubben/",
+      "https://www.fetgk.no/kurs/",
+      "https://www.fetgk.no/hole-in-one/"
     ],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
+    "notes": "2026-priser ikke offisielt publisert. Årsmøte 23. feb 2026 vil behandle budsjett og kontingenter. Banen sesongstengt ved skrapetidspunkt. Alle 2026-priser er basert på 2025-priser og merket som tentative.",
     "createdAt": "2025-10-31T11:23:09.939Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJTfe9AqpiQUYRjpImZOHV8TQ"
 }

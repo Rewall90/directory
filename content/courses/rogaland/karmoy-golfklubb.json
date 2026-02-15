@@ -77,8 +77,8 @@
   },
   "facilities": {
     "drivingRange": true,
-    "drivingRangeLength": null,
-    "drivingRangeNotes": null,
+    "drivingRangeLength": 180,
+    "drivingRangeNotes": "Ca 180 meter lengde. 10 overdekte slagmatter. Ballmaskin godtar vanlige bankkort, Google Pay, Monyx Wallet og Apple Pay. 40 kr per bøtte baller.",
     "puttingGreen": true,
     "chippingArea": false,
     "practiceBunker": true,
@@ -88,7 +88,7 @@
     "restaurant": false,
     "restaurantName": null,
     "clubRental": false,
-    "clubRentalNotes": null,
+    "clubRentalNotes": "Klubbutleie ikke tilgjengelig - ta med eget utstyr.",
     "cartRental": false,
     "pullCartRental": true,
     "golfLessons": true,
@@ -135,18 +135,20 @@
       "greenFeeDaily": 350,
       "greenFeeWeekday": 350,
       "greenFeeWeekend": 350,
-      "greenFeeSenior": 350,
+      "greenFeeSenior": null,
       "greenFeeJunior": null,
       "greenFee9": null,
       "greenFeeTwilight": null,
-      "greenFeeDescription": "Greenfee (dagspass): 350 kr alle dager. Må forhåndbetales FØR spill via Vipps (919427). Spillere må registreres i Golfbox FØR start. Ikke-medlemmer som ikke har betalt greenfee blir belastet 500 kr + greenfee. Pay-to-play ikke tilgjengelig for spillere uten Golfbox.",
+      "greenFeeDescription": "Greenfee (dagspass): 350 kr alle dager. Må forhåndbetales FØR spill via Vipps (919427). Spillere må registreres i Golfbox FØR start. Pay-to-play ikke tilgjengelig for spillere uten Golfbox. Ikke-medlemmer som ikke har betalt greenfee blir belastet 500 kr + greenfee. Norsk Senior Golf-medlemmer: Gratis spill (vis legitimasjon og bevis på betalt årsavgift).",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
+      "drivingRangePrice": 40,
+      "drivingRangePriceDescription": "40 kr per bøtte baller. Ballmaskin godtar vanlige bankkort, Google Pay, Monyx Wallet og Apple Pay.",
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Del av Sveio Golfpark-systemet med Haugaland, Nordvegen og Torvastad. Medlemskap gir fritt spill på Karmøy, Nordvegen og Haugaland. Driving range: 40 kr per bøtte baller. Klubbutleie ikke tilgjengelig."
+      "notes": "Del av Sveio Golfpark-systemet med Haugaland, Nordvegen og Torvastad. Medlemskap gir fritt spill på alle fire baner. Klubbutleie ikke tilgjengelig - ta med eget utstyr. Driving range ca 180 meter lengde med 10 overdekte slagmatter."
     }
   },
   "membershipPricing": {
@@ -199,6 +201,62 @@
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "remote",
+        "price": 990,
+        "description": "Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland. Andel 6000 kr (kan deles opp i avdragsplan).",
+        "ageRange": null
+      },
+      {
+        "category": "adult",
+        "price": 6840,
+        "description": "Hovedmedlem 6840 kr/år (570 kr/mnd via avtalegiro). Fritt spill på alle tre baner: Haugaland, Nordvegen og Karmøy. Inkluderer NGF-kontingent 362 kr og abonnement på magasinet Norsk Golf. Ingen inngangspenger.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 5640,
+        "description": "Ektefelle/samboer 5640 kr/år (470 kr/mnd via avtalegiro). Fritt spill på alle tre baner. Avtalegiro bindingstid: 12 måneder (januar-januar). Oppsigelse må skje skriftlig innen 31. desember.",
+        "ageRange": null
+      },
+      {
+        "category": "student",
+        "price": 3540,
+        "description": "Student/militær 3540 kr/år (295 kr/mnd via avtalegiro). Fritt spill på alle tre baner.",
+        "ageRange": null
+      },
+      {
+        "category": "youth20_23",
+        "price": 3540,
+        "description": "Ungdom 20-23 år: 3540 kr/år (295 kr/mnd via avtalegiro). Fritt spill på alle tre baner.",
+        "ageRange": "20-23"
+      },
+      {
+        "category": "junior13_19",
+        "price": 1500,
+        "description": "Junior 13-19 år: 1500 kr/år. Fritt spill på alle tre baner.",
+        "ageRange": "13-19"
+      },
+      {
+        "category": "child6_12",
+        "price": 500,
+        "description": "Barn 6-12 år: 500 kr/år. Fritt spill på alle tre baner.",
+        "ageRange": "6-12"
+      },
+      {
+        "category": "childUnder6",
+        "price": 100,
+        "description": "Barn t.o.m 6 år: 100 kr/år. Fritt spill på alle tre baner.",
+        "ageRange": "0-6"
+      },
+      {
+        "category": "share",
+        "price": 6000,
+        "description": "Andel: 6000 kr (kan deles opp i avdragsplan). Andelseiere får 25% rabatt på greenfee for gjestespillere når de spiller sammen på Haugaland GK.",
+        "ageRange": null
+      }
     ]
   },
   "ratings": {
@@ -234,16 +292,21 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "88.0",
+    "dataQuality": "92.0",
     "websiteQuality": null,
-    "completenessPercentage": 88,
+    "completenessPercentage": 92,
     "pagesScraped": [
       "https://www.karmoy-golfklubb.no/",
-      "https://www.karmoy-golfklubb.no/starte-med-golf/"
+      "https://www.karmoy-golfklubb.no/starte-med-golf/",
+      "https://www.karmoy-golfklubb.no/622-2/",
+      "https://haugalandgolf.no/klubb/medlemskap/",
+      "https://haugalandgolf.no/sveio-golfpark-og-karmoy-gk-samarbeid/",
+      "https://nordvegengolf.no/priser/",
+      "https://seniorgolf.no/fordeler/karmoy-gk/"
     ],
-    "scrapedAt": "2026-02-14T16:03:00.000Z",
+    "scrapedAt": "2026-02-15T17:30:00.000Z",
     "createdAt": "2025-10-31T07:46:24.417Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T17:30:00.000Z"
   },
   "googlePlaceId": "ChIJn7aVVkOoO0YRMwSsQYbuwWs"
 }

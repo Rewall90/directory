@@ -27,7 +27,7 @@
     "terrain": null,
     "courseType": null,
     "designer": "Not explicitly stated in extracted text",
-    "yearBuilt": null,
+    "yearBuilt": 2021,
     "yearRedesigned": null,
     "waterHazards": null,
     "signatureHole": null,
@@ -38,7 +38,7 @@
     "mountainViews": false,
     "viewDescription": null
   },
-  "description": "Designed without changes to existing landscape",
+  "description": "9-hulls bane godkjent av Norges Golfforbund, åpnet i 2021. Banen har ca. 900 medlemmer. Designed without changes to existing landscape",
   "contact": {
     "phone": "90623511",
     "email": "post@lilgk.no",
@@ -73,7 +73,7 @@
   "facilities": {
     "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": null,
+    "drivingRangeNotes": "Driving rangen holder åpent 08:00-21:00 i sesong. Priser ikke oppgitt på nettsiden.",
     "puttingGreen": true,
     "chippingArea": true,
     "practiceBunker": true,
@@ -83,11 +83,11 @@
     "restaurant": true,
     "restaurantName": null,
     "clubRental": false,
-    "clubRentalNotes": null,
+    "clubRentalNotes": "Ingen utstyrleie tilgjengelig",
     "cartRental": false,
     "pullCartRental": false,
-    "golfLessons": null,
-    "teachingPro": false,
+    "golfLessons": true,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": true,
     "showers": null,
@@ -98,7 +98,7 @@
     "simulator": true,
     "simulatorType": null,
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "Simulator tilgjengelig, men priser ikke oppgitt på nettsiden",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -124,7 +124,7 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfee under 12 år gratis. Kontonr: 1286.41.22319"
+      "notes": "Greenfee under 12 år gratis. Ingen utstyrleie tilgjengelig. Kontonr: 1286.41.22319"
     }
   },
   "membershipPricing": {
@@ -133,7 +133,15 @@
       "juniorTom19": 1100,
       "juniorTom12": 50,
       "membershipStatus": "Åpent for innmelding",
-      "notes": "Betalt medlemskontingent gir fritt spill på banen."
+      "notes": "Betalt medlemskontingent gir fritt spill på banen. Skriftlig utmelding må være levert innen 31. desember for å unngå fakturering for neste år."
+    }
+  },
+  "trainingPricing": {
+    "2025": {
+      "womensTrainingBeforeSummer": 1000,
+      "womensTrainingAfterSummer": 1000,
+      "womensTrainingBothCourses": 1800,
+      "notes": "Dametrening 2025: 6 økter før sommerferie kr. 1000, 6 økter etter sommerferie kr. 1000, begge kurs samtidig kr. 1800. Undervisning fra klubbens PGA-trener. Betaling i klubbhuset ved første treningsøkt."
     }
   },
   "ratings": {
@@ -171,11 +179,26 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
-    "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "klubben", "medlemmer", "bane/om-banen"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "completenessPercentage": 96,
+    "pagesScraped": [
+      "homepage",
+      "klubben",
+      "medlemmer",
+      "medlemmer/innmelding",
+      "bane/om-banen",
+      "turneringer",
+      "treninger",
+      "kontakt",
+      "nyheter",
+      "om-oss",
+      "anlegg",
+      "priser",
+      "greenfee",
+      "gjester"
+    ],
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:23:11.902Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJk32f32F7QUYRXnX2kYI4AEc"
 }

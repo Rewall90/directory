@@ -145,9 +145,19 @@
       "cartRentalGuest18Medical": 450,
       "cartRentalGuest9": 350,
       "pullCartRental": 60,
+      "electricTrolleyRentalTBA": true,
       "drivingRangeBalls20": 35,
+      "drivingRangeBalls20Guest": 35,
+      "drivingRangeBalls300Member": 395,
+      "drivingRangeBalls500Member": 625,
+      "drivingRangeBalls1000Member": 1000,
+      "drivingRangeBalls3000Member": 2250,
+      "drivingRangeBalls6000Member": 3950,
+      "drivingRangeBalls10000Member": 5000,
+      "bagLockerRentalSeasonMember": 700,
+      "electricCartStorageSeasonMember": 900,
       "greenFeeDescription": "Greenfee 2026: Hovedbanen - 18 hull helg kr 850, hverdag kr 650, gjest av medlem kr 500. Twilight/9 hull kr 350. Juniorpris gjelder til og med det året du fyller 19 år.",
-      "notes": "Twilight gjelder fra ettermiddag når man ikke rekker rundt før mørkets frembrudd. Helgpriser gjelder lørdag, søndag og helligdager. Golfbil med legeerklæring kr 300 (medlem) / kr 450 (gjest) for 18 hull. Elektrisk tralle planlagt for 2026, pris ikke fastsatt enda."
+      "notes": "Twilight gjelder fra ettermiddag når man ikke rekker rundt før mørkets frembrudd. Helgpriser gjelder lørdag, søndag og helligdager. Golfbil med legeerklæring kr 300 (medlem) / kr 450 (gjest) for 18 hull. Elektrisk tralle planlagt for 2026, pris ikke fastsatt enda. Ballkort kan kjøpes via GolfMore-appen og i proshop. Bagskap og elektrisk tralle-lagring har venteliste. Katering via Bærum Catering AS (10% rabatt for medlemmer). 18 års aldersgrense på bruk av golfbil. Bookinger golfbil: ring 67 87 67 01."
     }
   },
   "membershipPricing": {
@@ -271,18 +281,22 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": "good",
-    "completenessPercentage": 95,
+    "websiteQuality": "excellent",
+    "completenessPercentage": 98,
     "pagesScraped": [
       "https://bmgk.no/",
       "https://bmgk.no/gjester",
       "https://bmgk.no/gjester/greenfee",
       "https://bmgk.no/gjester/range-og-utleie",
-      "https://bmgk.no/klubben/medlemskap"
+      "https://bmgk.no/gjester/bookingregler",
+      "https://bmgk.no/klubben/medlemskap",
+      "https://bmgk.no/klubben/klubbhus-og-fasiliteter",
+      "https://bmgk.no/kurs--trening/protimer-og-custom-fitting"
     ],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:23:09.265Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z",
+    "scrapingNotes": "Comprehensive deep-scrape completed. All 2026 pricing verified including greenfees (all categories), golf cart rentals (multiple tiers), driving range ball packages (7 tiers for members), bag locker and cart storage fees. Electric trolley rental planned but pricing TBA. No club rental available. Catering services available through Bærum Catering AS."
   },
   "googlePlaceId": "ChIJNWt6J2kSQUYRm2isBl9fm9w"
 }

@@ -115,17 +115,18 @@
       "greenFee9Weekend": 350,
       "greenFee18Weekday": 490,
       "greenFee18Weekend": 590,
-      "greenFeeJunior": "50% av gjeldende pris",
+      "greenFeeJunior": "Halv pris",
       "greenFeeMemberGuest18": -100,
-      "greenFeeDescription": "Dagsgreenfee gjelder ved betaling av full greenfee (ingen rabatter). Ingen handicapkrav, kun klubbhandicap 54. Maks hcp 180 i flight.",
+      "greenFeeDescription": "Minimum klubbhandicap 54 kreves. Maksimalt handicap i flight: 180. Ingen handicapkrav på hverdag eller helg.",
       "cartRental18": 390,
       "cartRental9": 250,
+      "cartRentalNotes": "Vognutleie kan begrenses ved kraftig nedbør",
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Norsk Seniorgolf: 100 kr rabatt (3 ganger/år, hverdager før kl. 14:00). Greenfeemedlemmer: 100 kr rabatt på 18 hull. Gjester med betalende medlem: 100 kr rabatt på 18 hull. Booking via GolfBox eller proshop, 10 dager i forveien."
+      "notes": "Norsk Seniorgolf: 100 kr rabatt, 3 ganger/år på hverdager før kl. 14:00. Greenfeemedlemmer: 100 kr rabatt på 18 hull. Gjester med betalende medlem: 100 kr rabatt på 18 hull (alle dager, ikke 9-hull). Booking via GolfBox eller proshop (64923840), inntil 10 dager i forveien."
     }
   },
   "membershipPricing": {
@@ -133,49 +134,66 @@
       "barn0to7": {
         "name": "Barn 0-7 år",
         "price": 500,
-        "monthlyPrice": 42
+        "monthlyPrice": 42,
+        "description": "Grunnmedlemskap uten spillerett"
+      },
+      "barn0to7MedSpillerett": {
+        "name": "Barn 0-7 år med spillerett",
+        "price": 500,
+        "monthlyPrice": 42,
+        "description": "Inkluderer spillerett"
       },
       "barnJunior8to19": {
         "name": "Barn/Junior 8-19 år",
         "price": 1740,
-        "monthlyPrice": 145
+        "monthlyPrice": 145,
+        "description": "Medlem barn/junior 8-19 år med spillerett og GRATIS trening med instruktør en gang i uken"
       },
       "ungdom20to29": {
         "name": "Ungdom 20-29 år",
         "price": 3900,
-        "monthlyPrice": 325
+        "monthlyPrice": 325,
+        "description": "Full spillerett til og med fylte 29 år"
       },
       "voksen30Plus": {
         "name": "Voksen 30+",
         "price": 7500,
-        "monthlyPrice": 625
+        "monthlyPrice": 625,
+        "description": "Full spillerett pluss 1 greenfee billett"
       },
       "greenfeeMedlem": {
         "name": "Greenfeemedlem",
         "price": 2640,
-        "monthlyPrice": 220
+        "monthlyPrice": 220,
+        "description": "Inkluderer tre runder og 100 kr rabatt på ordinær greenfee"
       },
       "hverdagsMedlem": {
         "name": "Hverdagsmedlem",
         "price": 5640,
-        "monthlyPrice": 470
+        "monthlyPrice": 470,
+        "description": "Begrenset tilgang: hverdager før 15:00 og ellers ordinær greenfee"
       },
       "familie": {
         "name": "Familie",
         "price": 15000,
-        "monthlyPrice": 1250
+        "monthlyPrice": 1250,
+        "description": "To voksne pluss ubegrenset antall barn/ungdom (under 19 år) på samme adresse"
       },
       "kampanje2026": {
-        "name": "Kampanje 2026",
+        "name": "Kampanje 2026 (Nye medlemmer)",
         "price": 3780,
-        "monthlyPrice": 315
+        "monthlyPrice": 315,
+        "description": "Full spillerett; krever forpliktelse til Voksen-kategori i 2027"
       },
       "vtg2026": {
         "name": "VTG 2026 (Veien til golf)",
         "price": 3780,
-        "monthlyPrice": 315
+        "monthlyPrice": 315,
+        "description": "Spesialpris for tidligere kursdeltagere fra Østmarka"
       },
-      "monthlyAdminFee": 25
+      "monthlyAdminFee": 25,
+      "memberBenefits": "Fullt betalende medlemmer (Junior, Ungdom, og Voksen 30+) får gratis eller rabattert spill på samarbeidsklubber: Sorknes, Gjøvik & Toten, Utsikten, Sotra, Drammen, Norsjø (gratis utvalgte dager/perioder), Borre (150 kr), Romerike, Askim, Sandefjord, Skjeberg, Nes (50% rabatt). Rabatterte medlemskap (greenfee, kampanje, hverdagsmedlem) må oppgradere for å få tilgang.",
+      "cancellationPolicy": "Utmelding må skje skriftlig pr. post eller e-post innen 31. desember, ellers blir medlemmet påfølgende år belastet gjeldende medlemskontingent fastsatt av årsmøtet."
     }
   },
   "ratings": {
@@ -213,11 +231,21 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
-    "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "gjester", "medlemskap"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "completenessPercentage": 98,
+    "pagesScraped": [
+      "homepage",
+      "gjester/greenfee-og-booking",
+      "medlemskap/arskontingent",
+      "medlemskap/medlemsfordeler",
+      "medlemskap/innmeldingsskjema",
+      "nyheter",
+      "turneringer",
+      "ostmarka-bistro",
+      "klubben"
+    ],
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:23:18.971Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJJ3gEL79fQUYRoFRRLKJrc-I"
 }

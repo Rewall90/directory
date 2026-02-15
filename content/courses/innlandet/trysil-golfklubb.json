@@ -148,9 +148,36 @@
       "greenFeeDescription": "Man-tor tidlig/sent (07:00-08:50, 15:00-21:00): 490 kr, prime (09:00-14:50): 590 kr. Fre-søn tidlig/sent: 590 kr, prime: 690 kr. 9 hull hverdag: 325 kr, helg: 400 kr. Dagsgreenfee (man-tor): 800 kr. Junior t.o.m. 19 år: halv pris. Medlemmer: 15-25% rabatt.",
       "midweekPackage": 2200,
       "weekendPackage": 1800,
+      "resortPackages": {
+        "trysilHotellSingleRoom": {
+          "price": 1790,
+          "includes": "1 overnatting enkelrom, 1 greenfee, frokost",
+          "dinnerOption": 595,
+          "campaignCode": "Golf2025"
+        },
+        "trysilHotellDoubleRoom": {
+          "price": 2585,
+          "includes": "1 overnatting dobbeltrom, 2 greenfees, frokost",
+          "dinnerOption": 595,
+          "campaignCode": "Golf2025"
+        },
+        "radissonBluPackage": {
+          "priceFrom": 1095,
+          "includes": "1 overnatting, 1 greenfee per person, frokost, tilgang til opplevelsesbassenget"
+        },
+        "cabinPackage1": {
+          "pricePerPerson": 1590,
+          "includes": "1 overnatting i hytte/leilighet, 1 greenfee"
+        },
+        "cabinPackage2": {
+          "priceFor2Persons": 3570,
+          "includes": "1 overnatting i hytte/leilighet, 2 greenfees, 2 treretter middager"
+        }
+      },
       "cartRental18": 500,
       "cartRental9": 300,
       "cartRental36": 700,
+      "cartRentalMedicalDiscount": 100,
       "scooterRental18": 300,
       "scooterRental9": 180,
       "pullCartRental18": 65,
@@ -162,12 +189,55 @@
       "memberDiscount": "15-25%",
       "penaltyFee": 1000,
       "simulator": true,
+      "simulatorPrice": 200,
+      "simulatorPriceUnit": "per time",
       "simulatorOpenHours": "05:00-24:00",
       "simulatorBookingUrl": "https://albaplay.com/",
-      "notes": "Priser per feb 2026 - nettsiden viser fortsatt 2025-priser, sesongen ikke startet. Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Golfbil 9h: 300, 18h: 500, 36h: 700. Scooter 9h: 180, 18h: 300. Tralle 9h: 45, 18h: 65. Golfbil rabatt med legeerklæring: 100 kr. Simulator åpen alle dager 05:00-24:00. Prime-tid: 09:00-14:50. Straffegebyr 1000 kr for spill uten gyldig avtale."
+      "simulatorType": "Trackman 4 med SIM-lock",
+      "simulatorRequiresMembership": true,
+      "notes": "Priser per feb 2026 - nettsiden viser 2025-priser (Golf2025 kampanjekode). Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Dagsgreenfee ikke tilgjengelig fre-søn. Golfbil 9h: 300, 18h: 500, 36h: 700. Golfbil rabatt med legeerklæring: 100 kr. Scooter 9h: 180, 18h: 300. Tralle 9h: 45, 18h: 65. 14 golfbiler tilgjengelig, må være 18 år for å leie. Simulator Trackman 4: 200 kr/time, kun for medlemmer, booking via albaplay.com. Simulator åpen 05:00-24:00 alle dager. Prime-tid: 09:00-14:50. Tidlig/sent: man-tor 07:00-08:50 og 15:00-21:00, fre-søn 07:00-08:50 og 15:00-21:00. Straffegebyr 1000 kr for spill uten gyldig avtale, meldes til NGF og utestengelse. Resortpakker: Trysil Hotell (enkelt 1790, dobbel 2585), Radisson Blu fra 1095 pp, hyttepakker fra 1590 pp."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2025": {
+      "currency": "NOK",
+      "adultFull": {
+        "clubMembership": 950,
+        "unlimitedPlay": 5100,
+        "total": 6050,
+        "description": "Medlemskap i Trysil Golfklubb + fritt spill på Trysilfjellet Golfbane"
+      },
+      "adultIntroductory": {
+        "clubMembership": 525,
+        "unlimitedPlay": 3900,
+        "total": 4425,
+        "description": "Introduksjonstilbud for nye medlemmer (normalt 6050 kr). Gjelder de som ikke har hatt fritt spill avtale i Trysil tidligere."
+      },
+      "adultGreenfeeDiscount": {
+        "clubMembership": 950,
+        "discount": "15-25%",
+        "description": "Medlemskap med rabatt på greenfee ved hver runde"
+      },
+      "senior": {
+        "clubMembership": 500,
+        "unlimitedPlay": 2550,
+        "total": 3050,
+        "description": "Seniormedlemskap med fritt spill"
+      },
+      "junior": {
+        "clubMembership": 2054,
+        "greenFee": 500,
+        "total": 2554,
+        "ageLimit": "t.o.m. 19 år",
+        "description": "Juniormedlemskap med greenfee avtale"
+      },
+      "juniorUnlimitedPlay": {
+        "price": 2550,
+        "ageLimit": "t.o.m. 19 år",
+        "description": "Junior fritt spill på Trysilfjellet Golfbane"
+      }
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -203,18 +273,29 @@
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
-    "completenessPercentage": 95,
+    "completenessPercentage": 98,
     "pagesScraped": [
       "home",
       "gjest",
       "gjest/greenfee",
       "gjest/golfbiler-scootere-og-traller",
       "gjest/golfpakker",
-      "medlem"
+      "gjest/starttidsbestilling",
+      "medlem",
+      "medlem/medlemskap",
+      "bli-golfspiller",
+      "juniorgolf",
+      "aktuelt/innendørs-golf"
     ],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "externalSources": [
+      "Trysil Hotell golfpakke",
+      "Radisson Blu Resort Trysil",
+      "Alba Play simulator booking",
+      "Trysilfjell.no golf packages"
+    ],
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T07:18:14.186Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJKUx_N_aQaUYR8Et23E9axts"
 }

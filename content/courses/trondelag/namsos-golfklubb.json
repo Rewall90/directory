@@ -9,26 +9,27 @@
   "address": {
     "street": "Klingavegen 611",
     "postalCode": "7820",
-    "area": "Søvik"
+    "area": "Søvik",
+    "mailingAddress": "Postboks 120, 7801 NAMSOS"
   },
   "coordinates": {
-    "lat": 64.429298,
-    "lng": 11.492971,
-    "accuracy": null
+    "lat": 64.429719,
+    "lng": 11.495149,
+    "accuracy": "high"
   },
   "course": {
     "holes": 9,
     "holesPlayed": 18,
     "par": 33,
     "parPerRound": 66,
-    "lengthMeters": null,
-    "lengthYards": null,
-    "lengthNote": null,
+    "lengthMeters": 1947,
+    "lengthYards": 2129,
+    "lengthNote": "1632 yards fra kort tee",
     "terrain": "Parkland",
     "courseType": "9-hulls parklandbane",
     "designer": null,
     "yearBuilt": 1999,
-    "yearRedesigned": null,
+    "yearRedesigned": 2015,
     "waterHazards": true,
     "signatureHole": null,
     "scenicHole": null,
@@ -36,9 +37,9 @@
     "par4Count": 4,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Trivelig klubb 5 km sør for Namsos; klubbhus med servering."
+    "viewDescription": "Trivelig klubb 5 km sør for Namsos; klubbhus med servering. Parkland med skogskledde fairways i frodige omgivelser."
   },
-  "description": "Parkland med skogskledde fairways; 1×par5, 4×par4, 4×par3.",
+  "description": "Parkland med skogskledde fairways i frodige omgivelser; 1×par5, 4×par4, 4×par3. Vann i spill på 4 hull. Banen ligger ved Sævik, 5-7 km sør for Namsos langs FV 17.",
   "contact": {
     "phone": "+47 97 08 57 40",
     "email": "haro@bdo.no",
@@ -68,7 +69,10 @@
   },
   "organization": {
     "courseCompany": null,
-    "clubOrganization": "Namsos Golfklubb"
+    "clubOrganization": "Namsos Golfklubb",
+    "organizationNumber": "920299474",
+    "parentOrganization": "Namsos Golfklubb",
+    "parentOrganizationNumber": "882278972"
   },
   "facilities": {
     "drivingRange": true,
@@ -109,6 +113,22 @@
     "discGolfStandard": null
   },
   "pricing": {
+    "2015": {
+      "currency": "NOK",
+      "greenFeeDaily": 200,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 100,
+      "greenFeeDescription": "Greenfee for heldagsspill.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Priser hentet fra Norsk Golf oversikt (jan 2015). Ny 9-hullsbane planlagt i 2015."
+    },
     "2025": {
       "currency": "NOK",
       "greenFeeDaily": 300,
@@ -123,7 +143,7 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfamore halv greenfee. Rabattavtaler med Namdal GK, Stiklestad GK, Steinkjer GK og Klæbu GK. Priser hentet fra arkivert nettside (2021-satser, sist bekreftet aug 2022)."
+      "notes": "Golfamore halv greenfee. Rabattavtaler med Namdal GK (kr 175), Stiklestad GK, Steinkjer GK (kr 175, 50% rabatt) og Klæbu GK. Priser hentet fra arkivert nettside (2021-satser, sist bekreftet aug 2022)."
     },
     "2026": {
       "currency": "NOK",
@@ -139,7 +159,7 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser basert på sist kjente satser (2021). Nettside namsosgolf.no er nede (domene utløpt). Golfamore tilbyr 50% rabatt. Rabattavtaler med Namdal GK, Stiklestad GK, Steinkjer GK og Klæbu GK."
+      "notes": "Priser basert på sist kjente satser (2021). Nettside namsosgolf.no er nede (domene utløpt feb 2026). Golfamore tilbyr 50% rabatt. Rabattavtaler med Namdal GK (kr 175), Stiklestad GK, Steinkjer GK (kr 175, 50% rabatt) og Klæbu GK. Nye greener på hull 6 og 7 under arbeid sept-okt 2024."
     }
   },
   "membershipPricing": {},
@@ -172,18 +192,77 @@
       "distanceKm": 67.9
     }
   ],
-  "additionalFeatures": [],
+  "additionalFeatures": [
+    {
+      "feature": "green-renovation",
+      "description": "Nye greener og vanningsanlegg på hull 6 og 7",
+      "year": 2024,
+      "notes": "Arbeid pågikk sept-okt 2024. Midlertidige greener i bruk. HC-tellende runder ikke mulig under arbeidet."
+    },
+    {
+      "feature": "reciprocal-agreements",
+      "description": "Rabattavtaler med flere golfklubber i Trøndelag",
+      "clubs": [
+        "Namdal Golfklubb",
+        "Steinkjer Golfklubb (kr 175, 50% rabatt)",
+        "Stiklestad Golfklubb",
+        "Klæbu Golfklubb"
+      ]
+    },
+    {
+      "feature": "golfamore-partner",
+      "description": "Golfamore-avtale med 50% rabatt på greenfee"
+    }
+  ],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    {
+      "title": "Norsk Golf - Alle greenfee-priser klubb for klubb",
+      "url": "https://www.norskgolf.no/oversikt-alle-greenfee-priser-klubb-for-klubb/219169",
+      "date": "2015-01-23",
+      "type": "pricing"
+    },
+    {
+      "title": "Hole19 - Namsos Golfklubb - Sævik Golfbane",
+      "url": "https://www.hole19golf.com/courses/namsos-golfklubb-saevik-golfbane",
+      "date": "2026-02-15",
+      "type": "course-info"
+    },
+    {
+      "title": "Steinkjer Golfklubb - Gjestespill",
+      "url": "https://steinkjer-golfklubb.no/gjestespill/",
+      "date": "2026-02-15",
+      "type": "reciprocal-agreements"
+    },
+    {
+      "title": "Norsk Golf - Jobbes godt med nye greener på Namsos GK",
+      "url": "https://www.norskgolf.no/golfnorge/jobbes-godt-med-nye-greener-pa-namsos-gk/292024",
+      "date": "2024-10-15",
+      "type": "news"
+    },
+    {
+      "title": "Brønnøysundregistrene - Namsos Golfklubb",
+      "url": "https://virksomhet.brreg.no/nb/oppslag/underenheter/920299474",
+      "date": "2026-02-15",
+      "type": "organization"
+    }
+  ],
   "meta": {
     "dataQuality": "good",
     "websiteQuality": "unavailable",
-    "completenessPercentage": 70,
-    "pagesScraped": ["facebook-page", "wayback-machine-greenfee-2022"],
-    "scrapedAt": "2026-02-15T14:00:00.000Z",
+    "completenessPercentage": 75,
+    "pagesScraped": [
+      "norsk-golf-greenfee-2015",
+      "hole19-course-info",
+      "steinkjer-gk-rabattavtaler",
+      "norsk-golf-greener-update-2024",
+      "brreg-virksomhet",
+      "1881-business-listing"
+    ],
+    "scrapedAt": "2026-02-15T16:30:00.000Z",
     "createdAt": "2025-10-31T11:30:52.124Z",
-    "updatedAt": "2026-02-15T14:00:00.000Z",
-    "notes": "Website namsosgolf.no is unavailable (domain expired). Greenfee prices sourced from Wayback Machine archive (2021 rates, last captured Aug 2022). Facebook page requires login."
+    "updatedAt": "2026-02-15T16:30:00.000Z",
+    "notes": "Website namsosgolf.no is unavailable (domain expired/connection refused feb 2026). Historical pricing from Norsk Golf 2015 (200/100 kr) and archived 2021 rates (300/150 kr). Course length from Hole19. Rabattavtaler confirmed via Steinkjer GK website. New greens on holes 6-7 under construction Sept-Oct 2024 per Norsk Golf article. Organization details from Brønnøysundregistrene. Facebook/Instagram not accessible."
   },
   "googlePlaceId": "ChIJ7_39dfLockYRUxGtyrxdP9Y"
 }

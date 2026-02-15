@@ -129,6 +129,22 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakuler utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee": 250,
+      "greenFeeWeekday": 250,
+      "greenFeeWeekend": 250,
+      "greenFeeSenior": null,
+      "greenFeeJunior": 150,
+      "greenFeeDescription": "Greenfee 2026: 250kr vaksen medlem av HGK (gjeld heile dagen). Ungdom under 20 år og medlem av HGK: 150kr. Ikke-medlemmer: 250kr vaksen. Betal gjerne med Vipps 96898. Kortautomat ved ballmaskinen (alle kort, ApplePay).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakulær utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening. Ingen tidsbooking - møt bare opp og spel."
     }
   },
   "membershipPricing": {
@@ -144,6 +160,19 @@
       "serviceavgift": 1400,
       "currency": "NOK",
       "description": "Partsbrev (15000kr) gjev fri spelerett i 5 ar. Serviceavgift 1400kr for andelseigarar. Arskort gjev fri spelerett heile 2025."
+    },
+    "2026": {
+      "vaksen24Plus": 1500,
+      "ektefelleSamboer": 1000,
+      "ungdom20_23": 1000,
+      "barnUngdomUnder20": 300,
+      "arskortVaksen": 2000,
+      "arskortUngdom": 1000,
+      "arskortBarn": 300,
+      "partsbrev": 15000,
+      "serviceavgift": 1400,
+      "currency": "NOK",
+      "description": "Medlemskontingent 2026: Vaksen (24 år+) 1500kr, Ektefelle/sambuar 1000kr, Ungdom (20-23 år) 1000kr, Barn/ungdom (under 20 år) 300kr. Årskort 2026 (fri spelerett heile året): Vaksen 2000kr, Ungdom 1000kr, Barn 300kr. Partsbrev (andelseigarar) 15000kr gjev fri spelerett i 5 år. Serviceavgift 1400kr for andelseigarar med parter til lågare pris enn kr 15000, og for andelar til kr 15000 som har hatt 5 avgiftsfrie år."
     }
   },
   "ratings": {
@@ -179,13 +208,13 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.0",
-    "websiteQuality": null,
-    "completenessPercentage": 92,
-    "pagesScraped": ["prisar"],
-    "scrapedAt": "2026-02-14T16:22:00.000Z",
+    "dataQuality": "95.0",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": ["prisar", "home", "banen"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T10:16:55.275Z",
-    "updatedAt": "2026-02-14T16:22:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJaXWlH4wzPEYRC1SbY40Dmeo"
 }
