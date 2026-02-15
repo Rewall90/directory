@@ -61,9 +61,26 @@ const config = {
           DEFAULT: "var(--info)",
           light: "var(--info-light)",
         },
+        // V3d Editorial Theme
+        v3d: {
+          cream: "var(--v3d-cream)",
+          warm: "var(--v3d-warm)",
+          accent: "var(--v3d-accent)",
+          forest: "var(--v3d-forest)",
+          "forest-light": "var(--v3d-forest-light)",
+          "forest-soft": "var(--v3d-forest-soft)",
+          gold: "var(--v3d-gold)",
+          "gold-light": "var(--v3d-gold-light)",
+          border: "var(--v3d-border)",
+          "text-dark": "var(--v3d-text-dark)",
+          "text-body": "var(--v3d-text-body)",
+          "text-muted": "var(--v3d-text-muted)",
+          "text-light": "var(--v3d-text-light)",
+        },
       },
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        serif: ["var(--font-serif)", "Georgia", "serif"],
         mono: ["var(--font-mono)", "monospace"],
       },
       borderRadius: {

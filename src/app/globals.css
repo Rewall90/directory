@@ -49,6 +49,26 @@
   --font-sans: var(--font-manrope);
 }
 
+/* V3d Editorial Theme - Course Pages */
+.v3d {
+  --v3d-cream: #fdfcf9;
+  --v3d-warm: #f7f5f0;
+  --v3d-accent: #e8e4db;
+  --v3d-forest: #1e5631;
+  --v3d-forest-light: #2d7a45;
+  --v3d-forest-soft: #d4e5d8;
+  --v3d-gold: #b8860b;
+  --v3d-gold-light: #daa520;
+  --v3d-border: #e0ddd5;
+  --v3d-text-dark: #1a1a1a;
+  --v3d-text-body: #3d3d3d;
+  --v3d-text-muted: #767676;
+  --v3d-text-light: #9a9a9a;
+
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-outfit);
+}
+
 [data-theme="dark"] {
   /* Neutrals - Dark Mode */
   --bg-base: oklch(0.15 0.01 160);
