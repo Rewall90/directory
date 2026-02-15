@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
+import { Manrope, Playfair_Display, Outfit } from "next/font/google";
 import Script from "next/script";
 
 import { Footer } from "@/components/layout/Footer";
@@ -15,6 +15,18 @@ const manrope = Manrope({
   variable: "--font-manrope",
   subsets: ["latin"],
   weight: ["200", "300", "400", "600", "700"],
+});
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -36,7 +48,7 @@ export default function RootLayout({
     <html
       lang="nb"
       data-theme="golf"
-      className={`${manrope.variable} bg-background text-text-primary`}
+      className={`${manrope.variable} ${playfair.variable} ${outfit.variable} bg-background text-text-primary`}
     >
       <head>
         <meta charSet="utf-8" />
