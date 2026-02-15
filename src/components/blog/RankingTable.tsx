@@ -17,7 +17,15 @@ interface RankingTableProps {
   courses: RankingTableRow[];
 }
 
-export function RankingTable({ courses }: RankingTableProps) {
+export function RankingTable({ courses = [] }: RankingTableProps) {
+  // Guard against undefined/null courses
+  if (!courses || courses.length === 0) {
+    return (
+      <div className="my-8 rounded-lg border border-border-subtle p-8 text-center text-text-secondary">
+        Ingen golfbaner å vise
+      </div>
+    );
+  }
   const getRankBadge = (rank: number) => {
     if (rank === 1) return "🥇";
     if (rank === 2) return "🥈";

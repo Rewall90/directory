@@ -28,6 +28,14 @@ export function BlogCourseCard({
   imageUrl,
   imageAlt,
 }: BlogCourseCardProps) {
+  // Guard against missing required props
+  if (!name || !courseUrl) {
+    return null;
+  }
+
+  const displayRating = rating ?? 0;
+  const displayReviewCount = reviewCount ?? 0;
+
   return (
     <Link
       href={courseUrl}
@@ -68,7 +76,7 @@ export function BlogCourseCard({
                   <svg
                     key={star}
                     className={`h-4 w-4 ${
-                      star <= Math.round(rating) ? "text-yellow-500" : "text-gray-300"
+                      star <= Math.round(displayRating) ? "text-yellow-500" : "text-gray-300"
                     }`}
                     fill="currentColor"
                     viewBox="0 0 20 20"
@@ -77,9 +85,9 @@ export function BlogCourseCard({
                   </svg>
                 ))}
               </div>
-              <span className="font-medium">{rating.toFixed(1)}</span>
+              <span className="font-medium">{displayRating.toFixed(1)}</span>
               <span className="text-text-tertiary">
-                • {reviewCount} anmeldelse{reviewCount !== 1 ? "r" : ""}
+                • {displayReviewCount} anmeldelse{displayReviewCount !== 1 ? "r" : ""}
               </span>
             </div>
 

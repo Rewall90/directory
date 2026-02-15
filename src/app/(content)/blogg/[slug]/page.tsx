@@ -420,7 +420,11 @@ export default async function BloggPage(props: PageProps) {
           </header>
 
           <div className="prose-lg prose max-w-none">
-            <MDXRemote source={mdxContent.content} components={mdxComponents} />
+            <MDXRemote
+              source={mdxContent.content}
+              components={mdxComponents}
+              options={{ blockJS: false }}
+            />
           </div>
         </article>
       </div>

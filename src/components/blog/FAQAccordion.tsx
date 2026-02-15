@@ -11,8 +11,13 @@ interface FAQAccordionProps {
   items: FAQItem[];
 }
 
-export function FAQAccordion({ items }: FAQAccordionProps) {
+export function FAQAccordion({ items = [] }: FAQAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  // Guard against undefined/null items
+  if (!items || items.length === 0) {
+    return null;
+  }
 
   const toggleItem = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
