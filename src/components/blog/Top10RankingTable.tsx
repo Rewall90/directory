@@ -1,0 +1,111 @@
+"use client";
+
+import { RankingTable } from "./RankingTable";
+
+// Top 10 Norwegian Golf Courses 2026 data
+const top10Courses = [
+  {
+    rank: 1,
+    name: "Stiklestad Golfklubb",
+    region: "Trøndelag",
+    rating: 4.9,
+    reviewCount: 119,
+    score: 4.81,
+    courseSlug: "stiklestad-golfklubb",
+    regionSlug: "trondelag",
+  },
+  {
+    rank: 2,
+    name: "Trondheim Golfklubb",
+    region: "Trøndelag",
+    rating: 4.9,
+    reviewCount: 36,
+    score: 4.69,
+    courseSlug: "trondheim-golfklubb",
+    regionSlug: "trondelag",
+  },
+  {
+    rank: 3,
+    name: "Bjaavann Golfklubb",
+    region: "Agder",
+    rating: 4.7,
+    reviewCount: 108,
+    score: 4.64,
+    courseSlug: "bjaavann-golfklubb",
+    regionSlug: "agder",
+  },
+  {
+    rank: 4,
+    name: "Oustøen Country Club",
+    region: "Akershus",
+    rating: 4.7,
+    reviewCount: 90,
+    score: 4.63,
+    courseSlug: "oustoen-country-club",
+    regionSlug: "akershus",
+  },
+  {
+    rank: 5,
+    name: "Molde Golfklubb",
+    region: "Møre og Romsdal",
+    rating: 4.7,
+    reviewCount: 88,
+    score: 4.63,
+    courseSlug: "molde-golfklubb",
+    regionSlug: "more-og-romsdal",
+  },
+  {
+    rank: 6,
+    name: "Valdres Golfklubb",
+    region: "Innlandet",
+    rating: 4.7,
+    reviewCount: 80,
+    score: 4.62,
+    courseSlug: "valdres-golfklubb",
+    regionSlug: "innlandet",
+  },
+  {
+    rank: 7,
+    name: "Bodø Golfpark",
+    region: "Nordland",
+    rating: 4.7,
+    reviewCount: 70,
+    score: 4.62,
+    courseSlug: "bodo-golfpark",
+    regionSlug: "nordland",
+  },
+  {
+    rank: 8,
+    name: "Krokhol Golfklubb",
+    region: "Akershus",
+    rating: 4.6,
+    reviewCount: 223,
+    score: 4.58,
+    courseSlug: "krokhol-golfklubb",
+    regionSlug: "akershus",
+  },
+  {
+    rank: 9,
+    name: "Kongsvingers Golfklubb",
+    region: "Innlandet",
+    rating: 4.6,
+    reviewCount: 211,
+    score: 4.58,
+    courseSlug: "kongsvinger-golfklubb",
+    regionSlug: "innlandet",
+  },
+  {
+    rank: 10,
+    name: "Lofoten Links",
+    region: "Nordland",
+    rating: 4.6,
+    reviewCount: 279,
+    score: 4.58,
+    courseSlug: "lofoten-links",
+    regionSlug: "nordland",
+  },
+];
+
+export function Top10RankingTable() {
+  return <RankingTable courses={top10Courses} />;
+}

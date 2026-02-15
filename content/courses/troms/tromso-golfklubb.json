@@ -204,7 +204,7 @@
   "ratings": {
     "google": {
       "rating": 4.6,
-      "reviewCount": 436,
+      "reviewCount": 221,
       "maxRating": 5,
       "url": null,
       "likes": null,
@@ -278,12 +278,7 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 92,
-    "pagesScraped": [
-      "hjem",
-      "booking-greenfee",
-      "gjestespill",
-      "baneguide"
-    ],
+    "pagesScraped": ["hjem", "booking-greenfee", "gjestespill", "baneguide"],
     "scrapedAt": "2026-02-14T16:07:00.000Z",
     "createdAt": "2025-10-31T05:13:00.650Z",
     "updatedAt": "2026-02-14T16:07:00.000Z"

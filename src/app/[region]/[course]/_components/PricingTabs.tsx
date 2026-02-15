@@ -51,10 +51,14 @@ export function PricingTabs({
         </div>
 
         {/* Tabs */}
-        <div className="mb-8 flex gap-2 border-b border-v3d-border pb-2">
+        <div role="tablist" className="mb-8 flex gap-2 border-b border-v3d-border pb-2">
           {visibleTabs.map((tab) => (
             <button
               key={tab.id}
+              role="tab"
+              aria-selected={activeTab === tab.id}
+              aria-controls={`panel-${tab.id}`}
+              id={`tab-${tab.id}`}
               onClick={() => setActiveTab(tab.id)}
               className={`relative rounded-t-md px-6 py-3 text-sm font-medium transition-all ${
                 activeTab === tab.id
@@ -72,7 +76,12 @@ export function PricingTabs({
 
         {/* Greenfee Panel */}
         {activeTab === "greenfee" && pricing && (
-          <div className="grid gap-8 md:grid-cols-2">
+          <div
+            role="tabpanel"
+            id="panel-greenfee"
+            aria-labelledby="tab-greenfee"
+            className="grid gap-8 md:grid-cols-2"
+          >
             {/* Standard */}
             <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8">
               <h3 className="mb-6 border-b border-v3d-border pb-4 font-serif text-xl font-medium">
@@ -138,7 +147,12 @@ export function PricingTabs({
 
         {/* Medlemskap Panel */}
         {activeTab === "medlemskap" && (
-          <div className="grid gap-8 md:grid-cols-2">
+          <div
+            role="tabpanel"
+            id="panel-medlemskap"
+            aria-labelledby="tab-medlemskap"
+            className="grid gap-8 md:grid-cols-2"
+          >
             {/* Membership Prices */}
             {memberships.length > 0 && (
               <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8">
@@ -153,7 +167,7 @@ export function PricingTabs({
                     >
                       <span className="text-v3d-text-muted">{m.name || m.category}</span>
                       <span className="font-semibold text-v3d-forest">
-                        {formatter.format(m.totalAnnual ?? m.price)} kr/ar
+                        {formatter.format(m.totalAnnual ?? m.price)} kr/år
                       </span>
                     </div>
                   ))}
@@ -180,7 +194,7 @@ export function PricingTabs({
                     <span className="text-v3d-text-muted">Opptak</span>
                     <span className="font-semibold text-v3d-forest">
                       {membershipStatus.status === "open"
-                        ? "Apent"
+                        ? "Åpent"
                         : membershipStatus.status === "waitlist"
                           ? "Venteliste"
                           : "Stengt"}
@@ -190,7 +204,7 @@ export function PricingTabs({
                     <div className="flex justify-between">
                       <span className="text-v3d-text-muted">Ventetid</span>
                       <span className="font-semibold text-v3d-forest">
-                        Ca. {membershipStatus.waitingListYears} ar
+                        Ca. {membershipStatus.waitingListYears} år
                       </span>
                     </div>
                   )}
@@ -202,7 +216,12 @@ export function PricingTabs({
 
         {/* Utstyr Panel */}
         {activeTab === "utstyr" && pricing && (
-          <div className="grid gap-8 md:grid-cols-2">
+          <div
+            role="tabpanel"
+            id="panel-utstyr"
+            aria-labelledby="tab-utstyr"
+            className="grid gap-8 md:grid-cols-2"
+          >
             <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8">
               <h3 className="mb-6 border-b border-v3d-border pb-4 font-serif text-xl font-medium">
                 Utleie
