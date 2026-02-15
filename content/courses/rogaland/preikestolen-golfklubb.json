@@ -82,8 +82,8 @@
     "proShop": true,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
+    "clubRental": true,
+    "clubRentalNotes": "Gratis utlån av klubber for bruk i treningsområdet",
     "cartRental": false,
     "pullCartRental": true,
     "golfLessons": true,
@@ -124,10 +124,70 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "24 timers innmeldingsgaranti ved nye medlemskap"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 350,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: 350 kr alle dager. Handicap 54 påkrevd med gyldig handicapbevis. 50% rabatt med Golfhäftet og Golfamore Card (1 gang per år).",
+      "cartRental": null,
+      "pullCartRental": true,
+      "clubRental": "free",
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Gratis utlån av klubber for bruk i treningsområdet. Automat i gangen for kjøp av greenfee, tees, golfballer, snacks og mineralvann. 24 timers innmeldingsgaranti ved nye medlemskap."
     }
   },
   "membershipPricing": {
     "2025": [
+      {
+        "category": "adult",
+        "price": 4400,
+        "description": "Hovedmedlem 4400 kr/år. Inkluderer spillerett på Preikestolen GK. 400 kr rabatt for ektefelle.",
+        "ageRange": null
+      },
+      {
+        "category": "spouse",
+        "price": 4000,
+        "description": "Ektefelle/samboer (hovedmedlem minus 400 kr rabatt)",
+        "ageRange": null
+      },
+      {
+        "category": "firstYear",
+        "price": 2700,
+        "description": "Hovedmedlem første år - tilbud for førstegangsmedlemmer som tar VTG gjennom klubben",
+        "ageRange": null
+      },
+      {
+        "category": "noPlayingRight",
+        "price": 795,
+        "description": "Medlem uten spillerett 795 kr/år. Greenfee må betales ved spill. 1 gratis greenfee per år inkludert.",
+        "ageRange": null
+      },
+      {
+        "category": "junior",
+        "price": 495,
+        "description": "Junior 0-19 år: 495 kr/år. Inkluderer spillerett og gratis juniortrening.",
+        "ageRange": "0-19"
+      },
+      {
+        "category": "student",
+        "price": 2100,
+        "description": "Student 2100 kr/år. Inkluderer spillerett. Studentbevis må oversendes til post@prgk.no.",
+        "ageRange": null
+      },
+      {
+        "category": "family",
+        "price": 8700,
+        "description": "Familiemedlemskap 8700 kr/år. Inkluderer alle familiemedlemmer (voksne + barn 0-19 år). Lønnsomt ved 3+ medlemmer.",
+        "ageRange": null
+      }
+    ],
+    "2026": [
       {
         "category": "adult",
         "price": 4400,
@@ -229,10 +289,14 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": ["https://www.prgk.no/", "https://www.prgk.no/bli-medlem"],
-    "scrapedAt": "2026-02-14T16:09:00.000Z",
+    "pagesScraped": [
+      "https://www.prgk.no/",
+      "https://www.prgk.no/bli-medlem",
+      "https://www.nordicgolfers.com/no/preikestolen-gk/"
+    ],
+    "scrapedAt": "2026-02-15T00:00:00.000Z",
     "createdAt": "2025-10-31T07:46:25.970Z",
-    "updatedAt": "2026-02-14T16:09:00.000Z"
+    "updatedAt": "2026-02-15T00:00:00.000Z"
   },
   "googlePlaceId": "ChIJezEe7mLTO0YRghc3Pn8c4ro"
 }

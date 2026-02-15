@@ -134,6 +134,23 @@
       "specialOfferIncludes": "Rabattkupong 8 stk heildags greenfee",
       "freeTrial": null,
       "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Lokalisert i munninga av Hardangerfjorden ved bathavna pa Husnes. Selskapsrom tilgjengelig."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee": 300,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFee9Holes": 200,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee gjestespelar 18 hol: 300kr alle dagar. Greenfee gjestespelar 9 hol: 200kr alle dagar. Greenfee klubbmedlem heildags: 200kr. Betaling via VIPPS: 22507.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Medlemmer betaler 200kr for heildags spel. Betaling via VIPPS nummer 22507 (Kvinnherad Golfklubb Greenfee)."
     }
   },
   "membershipPricing": {
@@ -208,10 +225,10 @@
     "dataQuality": "94.0",
     "websiteQuality": null,
     "completenessPercentage": 94,
-    "pagesScraped": ["klubb/medlem"],
-    "scrapedAt": "2026-02-14T16:28:00.000Z",
+    "pagesScraped": ["klubb/medlem", "bane/gjestespillere", "bane/baneinfo"],
+    "scrapedAt": "2026-02-15T00:00:00.000Z",
     "createdAt": "2025-10-31T10:16:58.140Z",
-    "updatedAt": "2026-02-14T16:28:00.000Z"
+    "updatedAt": "2026-02-15T00:00:00.000Z"
   },
   "googlePlaceId": "ChIJYXCyZYlxPEYRNW-SgAhYAsU"
 }

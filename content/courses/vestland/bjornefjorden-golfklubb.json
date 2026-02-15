@@ -189,10 +189,11 @@
     "dataQuality": "94.0",
     "websiteQuality": null,
     "completenessPercentage": 94,
-    "pagesScraped": ["prisliste", "greenfee"],
-    "scrapedAt": "2026-02-14T16:17:00.000Z",
+    "pagesScraped": ["prisliste", "greenfee", "kurskalender", "aarsmote"],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T10:16:53.422Z",
-    "updatedAt": "2026-02-14T16:17:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z",
+    "notes": "2026 pricing not yet published as of Feb 15, 2026. Website shows 2025 prices approved at March 11, 2025 annual meeting. VTG course fee for 2026 confirmed at 4,500 kr (unchanged from 2025). Annual meeting for 2026 pricing decisions likely in March 2026."
   },
   "googlePlaceId": "ChIJSdpfMtNYPEYRxUAAJcoq6Lg"
 }

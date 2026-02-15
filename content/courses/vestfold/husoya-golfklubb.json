@@ -174,10 +174,10 @@
     "websiteQuality": "inaccessible",
     "completenessPercentage": 90,
     "pagesScraped": ["facebook"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
-    "scrapeNote": "Website (hotellborge.no) was inaccessible during 2026-02-15 scrape attempt (ECONNREFUSED). No 2026 pricing data available online. 2025 pricing retained.",
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
+    "scrapeNote": "Website (hotellborge.no) remains inaccessible (ECONNREFUSED, connection timeout). Extensive search conducted: Norsk Golf greenfee database has no entry for club, Facebook page inaccessible, NGF resources show no specific pricing. Alternative website husoyhavn.no has minimal information. Club not listed in national pricing databases. Contact info verified: Elisabeth Hofer Dahl (golfvertinne) at 33 38 18 50 / 994 56 531. No 2026 pricing data available. 2025 pricing retained as reference.",
     "createdAt": "2025-10-31T11:42:06.139Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJHdqBlvCxRkYRfl-_NliYzcg"
 }

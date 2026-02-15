@@ -227,13 +227,7 @@
     "dataQuality": "95.0",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "homepage",
-      "gjester",
-      "innmelding",
-      "firmagolf",
-      "nyheter"
-    ],
+    "pagesScraped": ["homepage", "gjester", "innmelding", "firmagolf", "nyheter"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T10:16:57.593Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"

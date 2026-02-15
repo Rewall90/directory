@@ -212,6 +212,62 @@
         "description": "50% av medlemskategorien. For nybegynnere som tar VTG kurs hos klubben. Første år som medlem.",
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "Hovedmedlem",
+        "price": 3950,
+        "description": "Full spillerett. Fra det året de fyller 21 år.",
+        "ageRange": "21+"
+      },
+      {
+        "category": "Familie",
+        "price": 6200,
+        "description": "Ektefelle/samboer og hjemmeboende barn inntil 21 år på samme adresse.",
+        "ageRange": null
+      },
+      {
+        "category": "Student",
+        "price": 2000,
+        "description": "Fulltidsstudenter fra 21 t.o.m. 28 år. Gyldig studiebevis kreves.",
+        "ageRange": "21-28"
+      },
+      {
+        "category": "Ungdom",
+        "price": 1300,
+        "description": "Fra det året de fyller 17 år t.o.m. 20 år.",
+        "ageRange": "17-20"
+      },
+      {
+        "category": "Barn 12-16",
+        "price": 500,
+        "description": "Barn t.o.m. det året de fyller 16 år.",
+        "ageRange": "12-16"
+      },
+      {
+        "category": "Barn t.o.m 11",
+        "price": 200,
+        "description": "Barn t.o.m. det året de fyller 11 år.",
+        "ageRange": "0-11"
+      },
+      {
+        "category": "Spillerett",
+        "price": 2700,
+        "description": "Krever hovedmedlemskap i annen klubb. Full spillerett.",
+        "ageRange": null
+      },
+      {
+        "category": "Fjernmedlem",
+        "price": 1700,
+        "description": "Bostedsadresse over 40 km fra Steinkjer. Spillerett mot greenfee.",
+        "ageRange": null
+      },
+      {
+        "category": "Førsteårsmedlem",
+        "price": null,
+        "description": "50% av medlemskategorien. For nybegynnere som tar VTG kurs hos klubben. Første år som medlem.",
+        "ageRange": null
+      }
     ]
   },
   "ratings": {
@@ -250,10 +306,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "gjestespill", "bli-medlem"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "pagesScraped": ["homepage", "gjestespill", "bli-medlem", "medlemsfordeler", "klubben"],
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:30:53.408Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJwxeKPNWEckYRJ84S1UvAiMY"
 }

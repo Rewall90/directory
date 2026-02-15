@@ -221,7 +221,15 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 98,
-    "pagesScraped": ["home", "gjester", "medlemskap", "medlemskap/medlemskap-og-priser", "kurs", "nyheter", "kontakt"],
+    "pagesScraped": [
+      "home",
+      "gjester",
+      "medlemskap",
+      "medlemskap/medlemskap-og-priser",
+      "kurs",
+      "nyheter",
+      "kontakt"
+    ],
     "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T07:18:13.251Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"

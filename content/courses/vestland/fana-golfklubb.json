@@ -138,6 +138,46 @@
       "freeTrial": null,
       "noShowFee": 1850,
       "notes": "Bergens eneste 18-hulls bane. En av Norges mest moderne driving ranges med TrackMan Range. 4 TrackMan-simulatorer for vintertrening. Toalett pa banen ved hull 5, 6, 9, 11 og 17. Bobil-parkering. Gjester booker 4 dager i forveien, medlemmer 6 dager."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFee18": null,
+      "greenFee9": null,
+      "greenFeeWeekday": null,
+      "greenFeeWeekend": null,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeUng18": 475,
+      "greenFeeUng9": 350,
+      "greenFeeDescription": "Greenfee varierer med ukedag/helg, tid pa dagen og sesong. Pris i Golfbox. 9 hull = 65% av 18 hull. Junior 50% rabatt. Unge 20-26 ar: drop-in 475kr (18 hull) / 350kr (9 hull). Medlemmer uten spillerett: 100kr rabatt (18h) / 65kr (9h). Naboklubbjunior med junioravtale: ca 80% rabatt.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "noShowFee": 1850,
+      "simulatorWeekdayDaytime": 240,
+      "simulatorWeekdayEvening": 295,
+      "simulatorWeekendDaytime": 295,
+      "simulatorWeekendEvening": 295,
+      "simulatorDescription": "Simulator 4 TrackMan-simulatorer. Apent 09:00-22:00 hver dag. Reservasjon inntil 3 uker i forveien. Kansellering 6+ timer i forveien gir refusjon minus 13kr gebyr. Hverdager 09:00-16:00: 240kr, 16:00-22:00: 295kr. Helg/helligdager: 295kr hele dagen.",
+      "rangeBalls21": 44,
+      "rangeBalls42": 66,
+      "rangeBallsCredit500Member": 400,
+      "rangeBallsCredit500Guest": 450,
+      "rangeBallsCredit1000Member": 650,
+      "rangeBallsCredit1000Guest": 800,
+      "rangeBallsCredit2500Member": 1400,
+      "rangeBallsCredit2500Guest": 1900,
+      "rangeBallsCredit5000Member": 2300,
+      "rangeBallsDescription": "TrackMan Range. 21 baller: 44kr, 42 baller: 66kr. Klippekort: 500kr (400kr medlem/450kr gjest), 1000kr (650kr/800kr), 2500kr (1400kr/1900kr), 5000kr (2300kr kun medlem). Team Fana Junior: 800 baller for 250kr mnd.",
+      "instructionIndividual50min": 1025,
+      "instructionIndividual50minGuest": 1150,
+      "clubFitting": 1150,
+      "clubFittingGuest": 1250,
+      "instructionDescription": "Individuell instruksjon med Donovan Goosen (Head Pro). 50 min simulator: 1025kr (medlem) / 1150kr (gjest). Clubfitting: 1150kr (medlem) / 1250kr (gjest). Gruppetrening: kontakt administrasjon.",
+      "notes": "Bergens eneste 18-hulls bane. TrackMan Range med 2 radarer, mobil app for swing-analyse. 4 TrackMan-simulatorer (vinter). Toalett pa banen ved hull 5, 6, 9, 11 og 17. Bobil-parkering. Gjester booker 4 dager i forveien, medlemmer 6 dager."
     }
   },
   "membershipPricing": {
@@ -152,6 +192,18 @@
       "registreringsgebyr": 2000,
       "currency": "NOK",
       "description": "Registreringsgebyr 2000kr ved innmelding i Aktiv kategorier. Kontingentene for 2026 vedtas pa arsmotet februar 2026."
+    },
+    "2026": {
+      "aktivVoksen": null,
+      "aktivVoksenEktefelle": null,
+      "aktivUng": null,
+      "aktivJunior": null,
+      "fanaGreenfee": null,
+      "juniorSpesiell": null,
+      "juniorKnotter": null,
+      "registreringsgebyr": 2000,
+      "currency": "NOK",
+      "description": "Kontingentene for 2026 vedtas pa arsmotet 19. februar 2026. Registreringsgebyr 2000kr ved innmelding i Aktiv kategorier eller oppgradering fra Greenfee. Fana Greenfee medlemskap gir 100kr rabatt pa 18 hull, 65kr rabatt pa 9 hull. NGF-avgift og Norsk Golf magasin inkludert for medlemmer 19+."
     }
   },
   "ratings": {
@@ -187,13 +239,20 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "93.0",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 93,
-    "pagesScraped": ["medlemskap", "banen/reservasjon-av-spilletid"],
-    "scrapedAt": "2026-02-14T16:19:00.000Z",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "medlemskap",
+      "banen/reservasjon-av-spilletid",
+      "medlemskap/medlemskap-og-priser",
+      "banen/treningsomrader",
+      "simulatorer/simulatorer",
+      "instruksjon-og-trening/instruksjon"
+    ],
+    "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T10:16:54.008Z",
-    "updatedAt": "2026-02-14T20:34:00.000Z"
+    "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJue2jDlb3PEYRpK6BqJ6Ykms"
 }

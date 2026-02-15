@@ -137,8 +137,12 @@
       "golfbil18Hull": 375,
       "golfbilLegeattestRabatt": 100,
       "clubRental18Hull": 350,
+      "simulatorPrimetime": 275,
+      "simulatorStandard": 250,
+      "beginnerCourseAdult": 4000,
+      "beginnerCourseJunior": 3000,
       "greenFeeDescription": "Voksen 9 hull: kr 280 før 15:00 / kr 350 etter 15:00 og helg. Voksen 18 hull: kr 400 / kr 500. Junior 9 hull: kr 175, 18 hull: kr 250. NSG medlemmer egne priser.",
-      "notes": "Golfbil: 9 hull kr 275, 18 hull kr 375. Kr 100 rabatt med legeattest. Utleiesett: 2 sett (1 herre/1 dame, høyrehendt) kr 350 for 18 hull."
+      "notes": "Golfbil: 9 hull kr 275, 18 hull kr 375. Kr 100 rabatt med legeattest. Utleiesett: 2 sett (1 herre/1 dame, høyrehendt) kr 350 for 18 hull. Simulator: Primetime (15:00-21:00) kr 275, Standard (06:00-15:00, 21:00-24:00) kr 250. Nybegynnerkurs: Voksen (20+) kr 4000, Junior (14-19) kr 3000."
     }
   },
   "membershipPricing": {
@@ -230,11 +234,14 @@
     "pagesScraped": [
       "https://gjerdrumgolfklubb.no/",
       "https://gjerdrumgolfklubb.no/gjester",
-      "https://gjerdrumgolfklubb.no/medlemskap"
+      "https://gjerdrumgolfklubb.no/medlemskap",
+      "https://gjerdrumgolfklubb.no/simulatorsenter",
+      "https://gjerdrumgolfklubb.no/kurs",
+      "https://gjerdrumgolfklubb.no/vtg/kurs/pamelding/veien-til-golf-2026-14-ar-og-eldre/49"
     ],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:23:10.247Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJYQyOwRV5QUYRX7JKZCggEC8"
 }
