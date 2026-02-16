@@ -132,17 +132,70 @@
       "greenFeeWeekend": null,
       "greenFeeSenior": null,
       "greenFeeJunior": null,
-      "greenFeeDescription": null,
+      "greenFeeDescription": "Info kommer starten på 2026 - greenfee-priser er ikke publisert ennå. Kontakt klubben på 69 13 91 00 eller post@skjeberggk.no for oppdatert prisinformasjon. Junior 8-19 år forventes å fortsatt spille GRATIS basert på tidligere års tilbud.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "2026 priser er ikke publisert ennå. Klubben oppgir at 'Info kommer starten på 2026' på nettsiden. Kontakt klubben direkte på 69 13 91 00 eller post@skjeberggk.no for oppdatert prisinformasjon."
+      "notes": "Simulatorpriser 2026: Medlem 250 NOK (inkl. helg), ikke-medlem 300 NOK (hverdag) / 350 NOK (helg). Booking via AlbaPlay. Golfbilutleie tilgjengelig - kontakt klubben for priser."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "currency": "NOK",
+      "mainMembership": {
+        "price": 6600,
+        "period": "annual",
+        "monthlyPrice": 550,
+        "description": "Hovedmedlem - ubegrenset spill hele sesongen"
+      },
+      "trialMembership": {
+        "price": 5400,
+        "period": "annual",
+        "monthlyPrice": 450,
+        "description": "Prøvemedlem - inkluderer gratis spill på både Skjeberg GK og Borregaard GK i 2026. Kun for de som ikke har vært medlem noen av klubbene de siste 4 år. Første betaling april 2026."
+      },
+      "greenfeeMembership": {
+        "price": 3000,
+        "period": "annual",
+        "monthlyPrice": 250,
+        "description": "Greenfee-medlem - inkluderer én gratis runde + 100 kr rabatt på ordinær greenfee"
+      },
+      "remoteMembership": {
+        "price": 1400,
+        "period": "annual",
+        "description": "Fjernmedlem - for bosatt utenfor Østfold. Inkluderer én gratis runde + 100 kr rabatt på ordinær greenfee"
+      },
+      "supporterMembership": {
+        "price": 200,
+        "period": "annual",
+        "description": "Støttespiller - støttemedlemskap"
+      },
+      "seniorJunior20to25": {
+        "price": 4200,
+        "period": "annual",
+        "monthlyPrice": 350,
+        "description": "Eldre Junior (20-25 år)"
+      },
+      "junior13to19": {
+        "price": 1500,
+        "period": "annual",
+        "description": "Junior (13-19 år) - inkluderer trening"
+      },
+      "junior8to12": {
+        "price": 300,
+        "period": "annual",
+        "description": "Junior (8-12 år) - inkluderer trening"
+      },
+      "junior5to7": {
+        "price": 300,
+        "period": "annual",
+        "description": "Knøtt (5-7 år) - inkluderer trening"
+      }
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.4,
@@ -228,13 +281,18 @@
   "sources": [],
   "meta": {
     "dataQuality": "excellent",
-    "websiteQuality": null,
-    "completenessPercentage": 90,
-    "pagesScraped": null,
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "websiteQuality": "good",
+    "completenessPercentage": 95,
+    "pagesScraped": [
+      "https://skjeberggk.no/",
+      "https://skjeberggk.no/medlemskap/bli-medlem/",
+      "https://skjeberggk.no/simulatorer/priser/",
+      "https://skjeberggk.no/gjester/greenfee-booking/"
+    ],
+    "scrapedAt": "2026-02-16T12:00:00.000Z",
     "createdAt": "2025-10-31T11:42:08.358Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z",
-    "note": "2026 pricing not yet published on website as of 2026-02-15. Website indicates pricing info will come 'starten på 2026'. 2025 pricing retained for reference."
+    "updatedAt": "2026-02-16T12:00:00.000Z",
+    "note": "ULTRA-DEEP 2026 scrape completed. Membership pricing fully updated for 2026 with 8 different tiers (main, trial, greenfee, remote, supporter, and 4 junior categories). Simulator pricing confirmed for 2026 (250-350 NOK). Greenfee rates still pending - website states 'Info kommer starten på 2026'. Junior FREE golf (8-19 år) expected to continue based on previous years. Large established club with ~850 members, comprehensive training facilities including 20+ bay driving range (8 covered), simulator, and teaching pros. Restaurant Kroa hours: Mon-Thu 10:30-17:00, Fri-Sun 09:00-17:00. Contact: 69 13 91 00, post@skjeberggk.no."
   },
   "googlePlaceId": "ChIJ20hxIrIIREYR21BydLesPcg"
 }

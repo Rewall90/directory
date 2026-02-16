@@ -196,17 +196,20 @@
     "completenessPercentage": 95,
     "pagesScraped": [
       "homepage",
-      "gjester",
-      "greenfee-priser-2025",
-      "golfbil-pa-tyrifjord",
-      "medlemmer",
-      "golfshop",
-      "nyheter"
+      "info/gjester/381/gjest-informasjon",
+      "info/gjester/559/greenfee-priser-2025",
+      "info/medlemmer",
+      "info/klubben",
+      "info/klubben/bli-medlem",
+      "info/golfshop",
+      "nyheter",
+      "nyhetsarkiv"
     ],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "scrapedAt": "2026-02-16T14:30:00.000Z",
     "createdAt": "2025-10-31T05:56:51.563Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z",
-    "pricingNote": "2026 greenfee-priser er ikke publisert ennå per 15.02.2026. 2025-priser bekreftet korrekte. Sjekk igjen nærmere sesongstart (april)."
+    "updatedAt": "2026-02-16T14:30:00.000Z",
+    "pricingNote": "ULTRA-DEEP SCRAPE ROUND 4 (16.02.2026): 2026 greenfee- og medlemskapspriser er IKKE publisert ennå. Klubbens nettside oppgir at 'Medlemskapsprisene for 2026 vedtas på årsmøtet den 16. februar. Oppdaterte priser vil bli publisert fortløpende.' Årsmøtet var planlagt i dag (16.02.2026), men nye priser er ikke lagt ut ennå. Sjekket 9+ sider inkl. gjester, medlemmer, klubben, nyheter og nyhetsarkiv - ingen 2026-priser funnet. 2025-priser bekreftet korrekte og fullstendige. ANBEFALING: Sjekk igjen om 1-2 uker når nye priser sannsynligvis er publisert.",
+    "scrapeNote": "RETRY SUCCESSFUL - Comprehensive scraping completed. Confirmed 2026 pricing not yet published as of annual meeting date (16.02.2026). Website structure mapped, all pricing pages checked. 2025 pricing fully verified and accurate."
   },
   "googlePlaceId": "ChIJSYK-6VUEQUYRIsq1rjF5k7w"
 }

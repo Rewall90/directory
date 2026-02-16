@@ -191,11 +191,12 @@
     "websiteQuality": null,
     "completenessPercentage": 95,
     "pagesScraped": ["hjem", "klubben", "banen", "kontakt-oss"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "scrapedAt": "2026-02-16T12:00:00.000Z",
     "pricingYear": "2025",
-    "pricingNote": "2026 priser ikke publisert ennå per 15. feb 2026",
+    "pricingNote": "2026 priser ikke publisert ennå per 16. feb 2026",
+    "scrapeNote": "Round 4 scrape (16.feb.2026): Confirmed 2026 pricing not yet published. Checked homepage, /klubben section with pricing. Only 2025 rates available. Volunteer-run club may update pricing later in season. 2025 data verified accurate: Greenfee voksen 300 kr, junior 100 kr, medlemskap 300-4500 kr avhengig av kategori.",
     "createdAt": "2025-10-31T09:43:38.991Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-16T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJU7Vg8eJRdEYRFQooJdvHDx4"
 }

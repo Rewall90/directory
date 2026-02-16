@@ -36,9 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Karmøy Golfklubb er en 9-hulls parkbane i sommerbyen Skudeneshavn, grunnlagt 1989. Par 34 (9 hull), par 68 (18 hull spilt to ganger). Parklandskap med naturskjønne omgivelser. Del av Sveio Golfpark-systemet sammen med Haugaland, Nordvegen og Torvastad (54 hull totalt). Ett medlemskap gir tilgang til alle fire baner. Driving range, putting green, practice bunker, klubbhus, pro shop. Trackman simulator. Turneringer og golftreninger tilgjengelig."
+  "viewDescription": "Karmøy Golfklubb er en 9-hulls parkbane i sommerbyen Skudeneshavn, grunnlagt 1989. Par 34 (9 hull), par 68 (18 hull spilt to ganger). Parklandskap med naturskjønne omgivelser. Del av Sveio Golfpark-systemet (54 hull totalt) med Haugaland GK (18 hull, Sveio), Nordvegen GK (18 hull, Torvastad), Karmøy GK (9 hull, Skudeneshavn) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle fire baner - unik verdi! Driving range 180m med 10 overdekte slagmatter, putting green, practice bunker, klubbhus, pro shop. Trackman simulator. Turneringer og golftreninger tilgjengelig."
   },
-  "description": "Karmøy Golfklubb er en 9-hulls parkbane i Skudeneshavn, Karmøy kommune. Grunnlagt i 1989. Par 34 for 9 hull, par 68 når spilt to ganger. Parklandskap med naturskjønne omgivelser i sommerbyen Skudeneshavn. Del av Sveio Golfpark-systemet sammen med Haugaland og Nordvegen.",
+  "description": "Karmøy Golfklubb er en 9-hulls parkbane i Skudeneshavn, Karmøy kommune. Grunnlagt i 1989. Par 34 for 9 hull, par 68 når spilt to ganger. Parklandskap med naturskjønne omgivelser i sommerbyen Skudeneshavn. Del av Sveio Golfpark-systemet (54 hull totalt) sammen med Haugaland GK (18 hull, Sveio), Nordvegen GK (18 hull, Torvastad) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle fire baner.",
   "contact": {
     "phone": "+47 416 89 114",
     "email": "post@karmoy-golfklubb.no",
@@ -116,30 +116,12 @@
   "pricing": {
     "2025": {
       "currency": "NOK",
-      "greenFeeDaily": null,
-      "greenFeeWeekday": 350,
-      "greenFeeWeekend": 350,
-      "greenFeeSenior": 350,
-      "greenFeeJunior": null,
-      "greenFeeDescription": "Greenfee (dagspass): 350 kr alle dager. Må forhåndbetales FØR spill. Spillere må registreres i Golfbox FØR start. Ikke-medlemmer som ikke har betalt greenfee blir belastet 500 kr + greenfee.",
-      "cartRental": null,
-      "pullCartRental": null,
-      "clubRental": null,
-      "specialOfferPrice": null,
-      "specialOfferIncludes": null,
-      "freeTrial": null,
-      "notes": "Del av 54-hulls system med Haugaland, Nordvegen og Torvastad. Medlemskap gir tilgang til alle fire baner."
-    },
-    "2026": {
-      "currency": "NOK",
       "greenFeeDaily": 350,
       "greenFeeWeekday": 350,
       "greenFeeWeekend": 350,
-      "greenFeeSenior": null,
-      "greenFeeJunior": null,
-      "greenFee9": null,
-      "greenFeeTwilight": null,
-      "greenFeeDescription": "Greenfee (dagspass): 350 kr alle dager. Må forhåndbetales FØR spill via Vipps (919427). Spillere må registreres i Golfbox FØR start. Pay-to-play ikke tilgjengelig for spillere uten Golfbox. Ikke-medlemmer som ikke har betalt greenfee blir belastet 500 kr + greenfee. Norsk Senior Golf-medlemmer: Gratis spill (vis legitimasjon og bevis på betalt årsavgift).",
+      "greenFeeSenior": 350,
+      "greenFeeJunior": 200,
+      "greenFeeDescription": "Greenfee (dagspass): 350 kr alle dager. Junior (<18 år): 200 kr. Må forhåndbetales FØR spill. Spillere må registreres i Golfbox FØR start. Ikke-medlemmer som ikke har betalt greenfee blir belastet 500 kr + greenfee.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
@@ -148,7 +130,27 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Del av Sveio Golfpark-systemet med Haugaland, Nordvegen og Torvastad. Medlemskap gir fritt spill på alle fire baner. Klubbutleie ikke tilgjengelig - ta med eget utstyr. Driving range ca 180 meter lengde med 10 overdekte slagmatter."
+      "notes": "Del av 54-hulls Sveio Golfpark-system med Haugaland GK (18 hull), Nordvegen GK (18 hull), Karmøy GK (9 hull) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle 54 hull. Medlemmer av Haugaland og Nordvegen spiller gratis på Karmøy."
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": 350,
+      "greenFeeWeekday": 350,
+      "greenFeeWeekend": 350,
+      "greenFeeSenior": 0,
+      "greenFeeJunior": 200,
+      "greenFee9": 350,
+      "greenFeeTwilight": null,
+      "greenFeeDescription": "Greenfee (dagspass): 350 kr alle dager. Junior (<18 år): 200 kr. Må forhåndbetales FØR spill via Vipps (919427). Spillere må registreres i Golfbox FØR start. Pay-to-play ikke tilgjengelig for spillere uten Golfbox. Ikke-medlemmer som ikke har betalt greenfee blir belastet 500 kr + greenfee. Norsk Senior Golf-medlemmer: Gratis spill (vis legitimasjon og bevis på betalt årsavgift). Medlemmer av Haugaland GK og Nordvegen GK spiller gratis.",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": null,
+      "drivingRangePrice": 40,
+      "drivingRangePriceDescription": "40 kr per bøtte baller. Ballmaskin godtar vanlige bankkort, Google Pay, Monyx Wallet og Apple Pay.",
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "Del av Sveio Golfpark-systemet (54 hull totalt) med Haugaland GK (18 hull, Sveio), Nordvegen GK (18 hull, Torvastad), Karmøy GK (9 hull, Skudeneshavn) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle fire baner. Klubbutleie ikke tilgjengelig - ta med eget utstyr. Driving range ca 180 meter lengde med 10 overdekte slagmatter. Trackman simulator tilgjengelig."
     }
   },
   "membershipPricing": {
@@ -292,9 +294,9 @@
   "sponsors": [],
   "sources": [],
   "meta": {
-    "dataQuality": "92.0",
+    "dataQuality": "95.0",
     "websiteQuality": null,
-    "completenessPercentage": 92,
+    "completenessPercentage": 95,
     "pagesScraped": [
       "https://www.karmoy-golfklubb.no/",
       "https://www.karmoy-golfklubb.no/starte-med-golf/",
@@ -302,11 +304,13 @@
       "https://haugalandgolf.no/klubb/medlemskap/",
       "https://haugalandgolf.no/sveio-golfpark-og-karmoy-gk-samarbeid/",
       "https://nordvegengolf.no/priser/",
-      "https://seniorgolf.no/fordeler/karmoy-gk/"
+      "https://seniorgolf.no/fordeler/karmoy-gk/",
+      "https://www.sveiogolfpark.no/",
+      "https://www.sveiogolfpark.no/om-oss"
     ],
-    "scrapedAt": "2026-02-15T17:30:00.000Z",
+    "scrapedAt": "2026-02-16T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:24.417Z",
-    "updatedAt": "2026-02-15T17:30:00.000Z"
+    "updatedAt": "2026-02-16T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJn7aVVkOoO0YRMwSsQYbuwWs"
 }

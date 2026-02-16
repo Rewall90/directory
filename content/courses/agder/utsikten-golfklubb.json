@@ -220,6 +220,64 @@
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
         "ageRange": null
       }
+    ],
+    "2026": [
+      {
+        "category": "Medlem uten spillerett",
+        "name": "Medlem uten fri spillerett",
+        "price": 1500,
+        "description": "Mulighet til å spille på hovedbanen, Pay&Play og på andre klubber mot å betale greenfee",
+        "ageRange": null
+      },
+      {
+        "category": "Junior",
+        "name": "Junior med fri spillerett",
+        "price": 1250,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen. Fellestrening inkludert.",
+        "ageRange": "T.o.m. året de fyller 19 år"
+      },
+      {
+        "category": "Ung Voksen",
+        "name": "Ung Voksen med fri spillerett",
+        "price": 4000,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": "T.o.m. året de fyller 24 år"
+      },
+      {
+        "category": "Snart Voksen",
+        "name": "Snart Voksen med fri spillerett",
+        "price": 5500,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": "25-28 år"
+      },
+      {
+        "category": "VTG 1",
+        "name": "VTG 1 - første år etter tatt VTG",
+        "price": 4000,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": null
+      },
+      {
+        "category": "VTG 2",
+        "name": "VTG 2 - andre år etter tatt VTG",
+        "price": 5500,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": null
+      },
+      {
+        "category": "Hovedmedlem",
+        "name": "Hovedmedlem med fri spillerett",
+        "price": 7500,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": null
+      },
+      {
+        "category": "Hovedmedlem Ektefelle/samboer",
+        "name": "Hovedmedlem Ektefelle/samboer med fri spillerett",
+        "price": 7000,
+        "description": "Fritt spill på hovedbanen og Pay&Play banen",
+        "ageRange": null
+      }
     ]
   },
   "membershipStatus": {
@@ -271,10 +329,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 90,
-    "pagesScraped": ["gjester/priser", "medlemskap"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "pagesScraped": ["gjester/priser", "medlemskap/medlemskap-2025"],
+    "scrapedAt": "2026-02-16T12:00:00.000Z",
     "createdAt": "2025-10-31T07:44:56.868Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-02-16T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ_zSAZXbROUYRsf34wxXpDSg"
 }

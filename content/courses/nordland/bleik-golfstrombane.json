@@ -41,9 +41,11 @@
   "description": "Unik 9-hulls linksbane beliggende rett ved den berømte Bleikstranda på Andøya. Banen regnes som en av Norges skjulte perler og ligger på det punktet i Norge som er nærmest Golfstrømmen, noe som holder banen grønn mesteparten av året. Spektakulær natur med strandlinje, klipper, åser og åpent hav. Banen er bygget på sandgrunn av frivillige ildsjeler og ble slope-beregnet av Norges Golfforbund i 2017. Kjent banearkitekt Christian Lundin har uttalt at Bleik Golfstrømbane har potensial til å bli blant de 500 beste banene i verden. Spesielt mikroklima med mildt vær, midnattssol og nordlys.",
   "contact": {
     "phone": "+47 974 303 12",
+    "phoneContactName": "Jostein Stave",
     "email": null,
     "emailAlt": null,
-    "website": null,
+    "website": "http://www.bleikgolf.com",
+    "websiteStatus": "offline",
     "facebook": "https://www.facebook.com/BleikGolf/",
     "instagram": null,
     "golfbox": false
@@ -124,9 +126,37 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "24 timers ubegrenset spill"
+    },
+    "2026": {
+      "currency": "NOK",
+      "greenFeeDaily": null,
+      "greenFeeWeekday": 300,
+      "greenFeeWeekend": 300,
+      "greenFeeSenior": null,
+      "greenFeeJunior": null,
+      "greenFeeDescription": "Greenfee: 250 kr for 9 hull, 300 kr for 18 hull, 500 kr for 24 timers spill. Betaling med Vipps eller kontant (envelope-system i hvit postkasse).",
+      "cartRental": null,
+      "pullCartRental": null,
+      "clubRental": 200,
+      "specialOfferPrice": null,
+      "specialOfferIncludes": null,
+      "freeTrial": null,
+      "notes": "24 timers ubegrenset spill. Krever medlemskap i golfklubb. Sett fra 2020-kilder, ikke bekreftet for 2026."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2018": {
+      "currency": "NOK",
+      "mainMember": 2100,
+      "familyMember": 1100,
+      "youth": 900,
+      "junior": 300,
+      "senior": 1400,
+      "remoteMember": 1100,
+      "supportingMember": 600,
+      "notes": "Historiske priser fra Høken Golfklubb/Sportsklubken Høken (2018). Ingen nyere priser funnet online."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.7,
@@ -158,15 +188,57 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    {
+      "name": "Visit Andøy - Bleik Golfstrømbane",
+      "url": "https://sommeriandoy.visitandoy.info/bleik-golfstrombane",
+      "type": "tourism_site",
+      "date": "2020",
+      "reliability": "high",
+      "notes": "Primary source for greenfee pricing (250/300/500 kr), club rental (200 kr), contact info (Jostein Stave +47 974 303 12), payment methods (Vipps/cash envelope)"
+    },
+    {
+      "name": "FindGlocal - Bleik Golfstrømbane",
+      "url": "http://www.findglocal.com/NO/Bleik/178566622214969/Bleik-Golfstrømbane",
+      "type": "directory",
+      "date": "2020",
+      "reliability": "medium",
+      "notes": "Confirmed membership pricing for 2016 and 2018 from Høken Golfklubb"
+    },
+    {
+      "name": "Norsk Golf - Norges skjulte perle utvider",
+      "url": "https://www.norskgolf.no/norges-skjulte-perle-utvider/161937",
+      "type": "news_article",
+      "date": "2014",
+      "reliability": "high",
+      "notes": "Background info on course development, Christian Lundin architect quote, NGF slope rating 2017"
+    },
+    {
+      "name": "Leading Courses - Bleik Golfstrømsbane",
+      "url": "https://www.leadingcourses.com/clubs/europe+norway+nordland/bleik-golfstr%C3%B8msbane-og-h%C3%B8ken-golfklubb",
+      "type": "golf_database",
+      "date": "unknown",
+      "reliability": "medium",
+      "notes": "Confirmed 400 NOK greenfee for 18 holes (conflicting with other sources)"
+    },
+    {
+      "name": "Sportsklubben Høken",
+      "url": "https://www.hoken.no/",
+      "type": "organization_website",
+      "date": "2026",
+      "reliability": "high",
+      "notes": "Parent organization website - golf section exists but pricing pages not accessible"
+    }
+  ],
   "meta": {
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
     "pagesScraped": null,
-    "scrapedAt": "2025-10-31T09:43:37.794Z",
+    "scrapedAt": "2026-02-16T12:00:00.000Z",
     "createdAt": "2025-10-31T09:43:37.795Z",
-    "updatedAt": "2025-11-03T09:09:35.105Z"
+    "updatedAt": "2026-02-16T12:00:00.000Z",
+    "scrapeNote": "ULTRA-DEEP 2026 PRICING SCRAPE - ROUND 4 (Feb 16, 2026): NO official website - only Facebook presence. Extensive web search conducted across multiple sources. FINDINGS: (1) Greenfee pricing found from 2020 visitandoy.info source: 250 kr/9h, 300 kr/18h, 500 kr/24h, club rental 200 kr. Payment via Vipps or cash envelope system. (2) Historical membership pricing found for 2018: Main 2100 kr, Family 1100 kr, Youth 900 kr, Junior 300 kr, Senior 1400 kr, Remote 1100 kr, Supporting 600 kr. (3) Listed website bleikgolf.com is OFFLINE (ECONNREFUSED). (4) Operated by Sportsklubben Høken (hoken.no) but their golf section has no accessible pricing pages. (5) NO specific 2026 pricing announcements found on Facebook, social media, or Norwegian golf databases. CONCLUSION: Pricing likely unchanged from 2020 based on small volunteer-run club nature, but NOT CONFIRMED for 2026. Contact: Jostein Stave +47 974 303 12. Recommend manual verification. Sources checked: visitandoy.info, TripAdvisor, Hole19, LeadingCourses, Norsk Golf, hoken.no, Facebook (inaccessible to search), multiple golf databases."
   },
   "googlePlaceId": "ChIJl3UHPa3p3EURTCKhTcWIhsU"
 }

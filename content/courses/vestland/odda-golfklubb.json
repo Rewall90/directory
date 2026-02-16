@@ -164,10 +164,11 @@
     "websiteQuality": null,
     "completenessPercentage": 45,
     "pagesScraped": null,
-    "scrapedAt": "2026-02-14T17:48:00.000Z",
+    "scrapedAt": "2026-02-16T12:00:00.000Z",
     "createdAt": "2025-10-31T10:17:00.023Z",
-    "updatedAt": "2026-02-14T17:48:00.000Z",
-    "statusNotes": "No active golf course in operation. Club previously had 6-hole course in industrial area. Working on potential connection to Roldal golf project."
+    "updatedAt": "2026-02-16T12:00:00.000Z",
+    "statusNotes": "No active golf course in operation. Club previously had 6-hole course in industrial area. Working on potential connection to Roldal golf project.",
+    "scrapeNote": "2026-02-16 VERIFICATION: Course CONFIRMED CLOSED due to Boliden expansion. Original 6-hole course at Eitrheimsvågen no longer accessible. Club organization STILL ACTIVE and pursuing Røldal golf course project, which faces opposition from state governor (statsforvaltar) and Vestland fylkeskommune as of Nov 2025. Project leaders refuse to give up (Hardanger Folkeblad Nov 2025). No website or social media found. Phone +47 53 64 24 41 listed but not verified. Historic data: 850 members in 2003, 90% remote members. Current membership unknown. No pricing applicable - course not in operation."
   },
   "googlePlaceId": "ChIJLQzd88GfPkYRRHFSdt_LwIU"
 }
