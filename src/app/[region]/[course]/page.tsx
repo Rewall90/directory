@@ -197,8 +197,8 @@ export default async function CoursePage({ params }: CoursePageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      {/* Navigation */}
-      <nav className="bg-v3d-cream/95 fixed left-0 right-0 top-0 z-50 border-b border-v3d-border backdrop-blur-sm">
+      {/* Breadcrumb Navigation */}
+      <nav className="border-b border-v3d-border bg-v3d-cream">
         <div className="mx-auto flex max-w-[1200px] items-center justify-between px-8 py-4">
           <div className="text-sm text-v3d-text-muted">
             <Link href="/" className="hover:text-v3d-forest">
@@ -230,7 +230,12 @@ export default async function CoursePage({ params }: CoursePageProps) {
       </nav>
 
       {/* Hero */}
-      <CourseHero course={course} ratingData={ratingData} photos={photos} />
+      <CourseHero
+        course={course}
+        ratingData={ratingData}
+        photos={photos}
+        googlePlaceId={course.googlePlaceId}
+      />
 
       {/* Stats Bar */}
       <StatsBar course={course} />

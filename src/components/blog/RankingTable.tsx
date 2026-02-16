@@ -11,6 +11,7 @@ interface RankingTableRow {
   score: number;
   courseSlug: string;
   regionSlug: string;
+  change?: number | "new"; // positive = up, negative = down, 0 = same, "new" = new entry
 }
 
 interface RankingTableProps {
@@ -36,6 +37,29 @@ export function RankingTable({ courses = [] }: RankingTableProps) {
   const getRankColor = (rank: number) => {
     if (rank <= 3) return "bg-yellow-50 border-yellow-200";
     return "bg-background-surface hover:bg-background-elevated";
+  };
+
+  const getChangeIndicator = (change?: number | "new") => {
+    if (change === undefined || change === 0) return null;
+    if (change === "new") {
+      return (
+        <span className="ml-1 rounded bg-green-100 px-1.5 py-0.5 text-xs font-medium text-green-700">
+          NY
+        </span>
+      );
+    }
+    if (change > 0) {
+      return (
+        <span className="ml-1 text-sm text-green-600" title={`Opp ${change} plasser`}>
+          ▲{change}
+        </span>
+      );
+    }
+    return (
+      <span className="ml-1 text-sm text-red-500" title={`Ned ${Math.abs(change)} plasser`}>
+        ▼{Math.abs(change)}
+      </span>
+    );
   };
 
   return (
@@ -75,6 +99,7 @@ export function RankingTable({ courses = [] }: RankingTableProps) {
                   <span className="text-xl font-bold text-primary">
                     {getRankBadge(course.rank)}
                   </span>
+                  {getChangeIndicator(course.change)}
                 </td>
                 <td className="px-4 py-4">
                   <Link
@@ -123,7 +148,10 @@ export function RankingTable({ courses = [] }: RankingTableProps) {
           >
             <div className="mb-3 flex items-start justify-between">
               <div className="flex items-center gap-3">
-                <span className="text-2xl font-bold">{getRankBadge(course.rank)}</span>
+                <div className="flex flex-col items-center">
+                  <span className="text-2xl font-bold">{getRankBadge(course.rank)}</span>
+                  {getChangeIndicator(course.change)}
+                </div>
                 <div>
                   <Link
                     href={`/${course.regionSlug}/${course.courseSlug}`}

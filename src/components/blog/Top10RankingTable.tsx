@@ -3,16 +3,18 @@
 import { RankingTable } from "./RankingTable";
 
 // Top 10 Norwegian Golf Courses 2026 data
+// change: positive = moved up, negative = moved down, 0 = same, "new" = new entry
 const top10Courses = [
   {
     rank: 1,
     name: "Stiklestad Golfklubb",
     region: "Trøndelag",
     rating: 4.9,
-    reviewCount: 119,
+    reviewCount: 118,
     score: 4.81,
     courseSlug: "stiklestad-golfklubb",
     regionSlug: "trondelag",
+    change: 0,
   },
   {
     rank: 2,
@@ -23,6 +25,7 @@ const top10Courses = [
     score: 4.69,
     courseSlug: "trondheim-golfklubb",
     regionSlug: "trondelag",
+    change: 0,
   },
   {
     rank: 3,
@@ -33,6 +36,7 @@ const top10Courses = [
     score: 4.64,
     courseSlug: "bjaavann-golfklubb",
     regionSlug: "agder",
+    change: 0,
   },
   {
     rank: 4,
@@ -43,16 +47,18 @@ const top10Courses = [
     score: 4.63,
     courseSlug: "oustoen-country-club",
     regionSlug: "akershus",
+    change: 0,
   },
   {
     rank: 5,
     name: "Molde Golfklubb",
     region: "Møre og Romsdal",
     rating: 4.7,
-    reviewCount: 88,
+    reviewCount: 89,
     score: 4.63,
     courseSlug: "molde-golfklubb",
     regionSlug: "more-og-romsdal",
+    change: 0,
   },
   {
     rank: 6,
@@ -63,16 +69,18 @@ const top10Courses = [
     score: 4.62,
     courseSlug: "valdres-golfklubb",
     regionSlug: "innlandet",
+    change: 0,
   },
   {
     rank: 7,
     name: "Bodø Golfpark",
     region: "Nordland",
     rating: 4.7,
-    reviewCount: 70,
+    reviewCount: 72,
     score: 4.62,
     courseSlug: "bodo-golfpark",
     regionSlug: "nordland",
+    change: 0,
   },
   {
     rank: 8,
@@ -83,6 +91,7 @@ const top10Courses = [
     score: 4.58,
     courseSlug: "krokhol-golfklubb",
     regionSlug: "akershus",
+    change: 1,
   },
   {
     rank: 9,
@@ -93,16 +102,18 @@ const top10Courses = [
     score: 4.58,
     courseSlug: "kongsvinger-golfklubb",
     regionSlug: "innlandet",
+    change: "new" as const,
   },
   {
     rank: 10,
     name: "Lofoten Links",
     region: "Nordland",
     rating: 4.6,
-    reviewCount: 279,
+    reviewCount: 281,
     score: 4.58,
     courseSlug: "lofoten-links",
     regionSlug: "nordland",
+    change: -2,
   },
 ];
 

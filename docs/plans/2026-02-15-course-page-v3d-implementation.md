@@ -192,37 +192,37 @@ export function CourseHero({ course, ratingData, photos }: CourseHeroProps) {
       <div className="pr-8">
         {/* Eyebrow */}
         {course.course.yearBuilt && (
-          <div className="text-v3d-gold mb-6 flex items-center gap-3 text-sm font-semibold uppercase tracking-widest">
-            <span className="bg-v3d-gold h-px w-10" />
+          <div className="mb-6 flex items-center gap-3 text-sm font-semibold uppercase tracking-widest text-v3d-gold">
+            <span className="h-px w-10 bg-v3d-gold" />
             Etablert {course.course.yearBuilt}
           </div>
         )}
 
         {/* Title */}
-        <h1 className="text-v3d-text-dark mb-6 font-serif text-4xl font-medium leading-tight md:text-5xl">
+        <h1 className="mb-6 font-serif text-4xl font-medium leading-tight text-v3d-text-dark md:text-5xl">
           {course.name}
         </h1>
 
         {/* Subtitle */}
         {course.description && (
-          <p className="text-v3d-text-muted mb-8 text-xl font-light">
+          <p className="mb-8 text-xl font-light text-v3d-text-muted">
             {course.description.split(".")[0]}.
           </p>
         )}
 
         {/* Rating Box */}
         {ratingData && (
-          <div className="border-v3d-border bg-v3d-warm flex items-center gap-4 rounded-lg border p-6">
-            <div className="text-v3d-forest font-serif text-4xl font-semibold">
+          <div className="flex items-center gap-4 rounded-lg border border-v3d-border bg-v3d-warm p-6">
+            <div className="font-serif text-4xl font-semibold text-v3d-forest">
               {ratingData.averageRating.toFixed(1)}
             </div>
-            <div className="border-v3d-border border-l pl-4">
+            <div className="border-l border-v3d-border pl-4">
               <div className="mb-1 flex gap-0.5">
                 {[1, 2, 3, 4, 5].map((star) => (
                   <StarIcon key={star} filled={star <= Math.round(ratingData.averageRating)} />
                 ))}
               </div>
-              <div className="text-v3d-text-muted text-sm">
+              <div className="text-sm text-v3d-text-muted">
                 {ratingData.totalReviews.toLocaleString("no-NO")} anmeldelser på Google
               </div>
             </div>
@@ -233,16 +233,16 @@ export function CourseHero({ course, ratingData, photos }: CourseHeroProps) {
       {/* Right: Images */}
       <div className="relative">
         {/* Main Image */}
-        <div className="border-v3d-border from-v3d-forest-soft to-v3d-accent flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg border border-dashed bg-gradient-to-br">
+        <div className="flex aspect-[4/3] items-center justify-center overflow-hidden rounded-lg border border-dashed border-v3d-border bg-gradient-to-br from-v3d-forest-soft to-v3d-accent">
           {heroPhoto ? (
             <img src={heroPhoto.url} alt={course.name} className="h-full w-full object-cover" />
           ) : (
-            <span className="text-v3d-text-muted text-sm">[ Hovedbilde – 800x600 ]</span>
+            <span className="text-sm text-v3d-text-muted">[ Hovedbilde – 800x600 ]</span>
           )}
         </div>
 
         {/* Accent Image */}
-        <div className="border-v3d-border bg-v3d-warm absolute -bottom-8 -left-8 hidden aspect-[16/10] w-3/5 items-center justify-center overflow-hidden rounded-lg border shadow-lg md:flex">
+        <div className="absolute -bottom-8 -left-8 hidden aspect-[16/10] w-3/5 items-center justify-center overflow-hidden rounded-lg border border-v3d-border bg-v3d-warm shadow-lg md:flex">
           {accentPhoto ? (
             <img
               src={accentPhoto.url}
@@ -250,7 +250,7 @@ export function CourseHero({ course, ratingData, photos }: CourseHeroProps) {
               className="h-full w-full object-cover"
             />
           ) : (
-            <span className="text-v3d-text-light text-xs">[ Sekundærbilde – klubbhus ]</span>
+            <span className="text-xs text-v3d-text-light">[ Sekundærbilde – klubbhus ]</span>
           )}
         </div>
       </div>
@@ -315,7 +315,7 @@ export function StatsBar({ course }: StatsBarProps) {
   if (stats.length === 0) return null;
 
   return (
-    <div className="bg-v3d-forest mt-16 py-8 text-white">
+    <div className="mt-16 bg-v3d-forest py-8 text-white">
       <div className="mx-auto flex max-w-[1200px] flex-wrap justify-between gap-6 px-8">
         {stats.map((stat, index) => (
           <div
@@ -382,18 +382,18 @@ export function StorySection({ course, photos }: StorySectionProps) {
         <div>
           {/* Section Header */}
           <div className="mb-8 flex items-baseline gap-4">
-            <span className="text-v3d-accent font-serif text-6xl font-normal">01</span>
-            <h2 className="text-v3d-text-dark font-serif text-2xl font-medium">Historien</h2>
+            <span className="font-serif text-6xl font-normal text-v3d-accent">01</span>
+            <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Historien</h2>
           </div>
 
           {/* Lead Paragraph */}
-          <p className="border-v3d-gold text-v3d-text-dark mb-8 border-l-[3px] pl-6 text-xl font-light leading-relaxed">
+          <p className="mb-8 border-l-[3px] border-v3d-gold pl-6 text-xl font-light leading-relaxed text-v3d-text-dark">
             {lead}
           </p>
 
           {/* Rest of Description */}
           {rest && (
-            <div className="text-v3d-text-body space-y-6 text-lg leading-relaxed">
+            <div className="space-y-6 text-lg leading-relaxed text-v3d-text-body">
               {rest.split(/\n\n/).map((paragraph, i) => (
                 <p key={i}>{paragraph}</p>
               ))}
@@ -404,7 +404,7 @@ export function StorySection({ course, photos }: StorySectionProps) {
         {/* Right: Gallery */}
         <div className="grid grid-cols-2 gap-4">
           {/* Large image spanning 2 columns */}
-          <div className="border-v3d-border bg-v3d-warm col-span-2 flex aspect-[2/1] items-center justify-center overflow-hidden rounded-lg border border-dashed">
+          <div className="col-span-2 flex aspect-[2/1] items-center justify-center overflow-hidden rounded-lg border border-dashed border-v3d-border bg-v3d-warm">
             {galleryPhotos[0] ? (
               <img
                 src={galleryPhotos[0].url}
@@ -412,21 +412,21 @@ export function StorySection({ course, photos }: StorySectionProps) {
                 className="h-full w-full object-cover"
               />
             ) : (
-              <span className="text-v3d-text-light text-xs">
+              <span className="text-xs text-v3d-text-light">
                 [ Galleribilde 1 – Banen fra luften ]
               </span>
             )}
           </div>
 
           {/* Two smaller images */}
-          <div className="border-v3d-border bg-v3d-warm flex aspect-square items-center justify-center overflow-hidden rounded-lg border border-dashed">
+          <div className="flex aspect-square items-center justify-center overflow-hidden rounded-lg border border-dashed border-v3d-border bg-v3d-warm">
             {galleryPhotos[1] ? (
               <img src={galleryPhotos[1].url} alt="Hull" className="h-full w-full object-cover" />
             ) : (
-              <span className="text-v3d-text-light text-xs">[ Hull 14 ]</span>
+              <span className="text-xs text-v3d-text-light">[ Hull 14 ]</span>
             )}
           </div>
-          <div className="border-v3d-border bg-v3d-warm flex aspect-square items-center justify-center overflow-hidden rounded-lg border border-dashed">
+          <div className="flex aspect-square items-center justify-center overflow-hidden rounded-lg border border-dashed border-v3d-border bg-v3d-warm">
             {galleryPhotos[2] ? (
               <img
                 src={galleryPhotos[2].url}
@@ -434,7 +434,7 @@ export function StorySection({ course, photos }: StorySectionProps) {
                 className="h-full w-full object-cover"
               />
             ) : (
-              <span className="text-v3d-text-light text-xs">[ Klubbhuset ]</span>
+              <span className="text-xs text-v3d-text-light">[ Klubbhuset ]</span>
             )}
           </div>
         </div>
@@ -542,8 +542,8 @@ export function FeaturesGrid({ facilities, winterUse }: FeaturesGridProps) {
     <section className="mx-auto max-w-[1200px] px-8 py-20">
       {/* Section Header */}
       <div className="mb-8 flex items-baseline gap-4">
-        <span className="text-v3d-accent font-serif text-6xl font-normal">02</span>
-        <h2 className="text-v3d-text-dark font-serif text-2xl font-medium">Fasiliteter</h2>
+        <span className="font-serif text-6xl font-normal text-v3d-accent">02</span>
+        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Fasiliteter</h2>
       </div>
 
       {/* Feature Cards */}
@@ -551,24 +551,24 @@ export function FeaturesGrid({ facilities, winterUse }: FeaturesGridProps) {
         {groups.map((group, index) => (
           <div
             key={group.title}
-            className="bg-v3d-warm hover:border-v3d-forest-soft rounded-lg border border-transparent p-8 transition-all hover:-translate-y-1 hover:shadow-lg"
+            className="rounded-lg border border-transparent bg-v3d-warm p-8 transition-all hover:-translate-y-1 hover:border-v3d-forest-soft hover:shadow-lg"
           >
             {/* Icon */}
-            <div className="bg-v3d-forest-soft mb-5 flex h-12 w-12 items-center justify-center rounded-xl text-2xl">
+            <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-v3d-forest-soft text-2xl">
               {group.icon}
             </div>
 
             {/* Title */}
-            <h3 className="text-v3d-text-dark mb-3 font-serif text-xl font-medium">
+            <h3 className="mb-3 font-serif text-xl font-medium text-v3d-text-dark">
               {group.title}
             </h3>
 
             {/* Items */}
-            <ul className="text-v3d-text-muted space-y-2">
+            <ul className="space-y-2 text-v3d-text-muted">
               {group.items.map((item) => (
                 <li
                   key={item}
-                  className="border-v3d-border flex items-center gap-2 border-b pb-2 last:border-b-0"
+                  className="flex items-center gap-2 border-b border-v3d-border pb-2 last:border-b-0"
                 >
                   <span className="text-v3d-forest">✓</span>
                   <span>{item}</span>
@@ -581,9 +581,9 @@ export function FeaturesGrid({ facilities, winterUse }: FeaturesGridProps) {
 
       {/* Winter Use Note */}
       {winterUse && (
-        <div className="border-v3d-border mt-8 border-t pt-6">
-          <h3 className="text-v3d-text-dark mb-3 font-semibold">Vinter</h3>
-          <div className="text-v3d-text-muted flex gap-2">
+        <div className="mt-8 border-t border-v3d-border pt-6">
+          <h3 className="mb-3 font-semibold text-v3d-text-dark">Vinter</h3>
+          <div className="flex gap-2 text-v3d-text-muted">
             <span className="text-v3d-forest">✓</span>
             <span>{winterUse}</span>
           </div>
@@ -661,17 +661,17 @@ export function PricingTabs({
 
   return (
     <section className="mx-auto max-w-[1200px] px-8 py-20">
-      <div className="bg-v3d-warm -mx-8 rounded-2xl px-8 py-12 md:px-16">
+      <div className="-mx-8 rounded-2xl bg-v3d-warm px-8 py-12 md:px-16">
         {/* Section Header */}
         <div className="mb-8 flex items-baseline gap-4">
-          <span className="text-v3d-accent font-serif text-6xl font-normal">03</span>
-          <h2 className="text-v3d-text-dark font-serif text-2xl font-medium">
+          <span className="font-serif text-6xl font-normal text-v3d-accent">03</span>
+          <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">
             Priser {pricingYear || new Date().getFullYear()}
           </h2>
         </div>
 
         {/* Tabs */}
-        <div className="border-v3d-border mb-8 flex gap-2 border-b pb-2">
+        <div className="mb-8 flex gap-2 border-b border-v3d-border pb-2">
           {visibleTabs.map((tab) => (
             <button
               key={tab.id}
@@ -684,7 +684,7 @@ export function PricingTabs({
             >
               {tab.label}
               {activeTab === tab.id && (
-                <span className="bg-v3d-forest absolute -bottom-2 left-0 right-0 h-0.5" />
+                <span className="absolute -bottom-2 left-0 right-0 h-0.5 bg-v3d-forest" />
               )}
             </button>
           ))}
@@ -694,23 +694,23 @@ export function PricingTabs({
         {activeTab === "greenfee" && pricing && (
           <div className="grid gap-8 md:grid-cols-2">
             {/* Standard */}
-            <div className="border-v3d-border bg-v3d-cream rounded-xl border p-8">
-              <h3 className="border-v3d-border mb-6 border-b pb-4 font-serif text-xl font-medium">
+            <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8">
+              <h3 className="mb-6 border-b border-v3d-border pb-4 font-serif text-xl font-medium">
                 Standard
               </h3>
               <div className="space-y-3">
                 {(pricing.greenFee18 || pricing.greenFeeWeekday) && (
-                  <div className="border-v3d-border flex justify-between border-b pb-3">
+                  <div className="flex justify-between border-b border-v3d-border pb-3">
                     <span className="text-v3d-text-muted">18 hull</span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {formatter.format(pricing.greenFee18 ?? pricing.greenFeeWeekday ?? 0)} kr
                     </span>
                   </div>
                 )}
                 {pricing.greenFee9 && (
-                  <div className="border-v3d-border flex justify-between border-b pb-3">
+                  <div className="flex justify-between border-b border-v3d-border pb-3">
                     <span className="text-v3d-text-muted">9 hull</span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {formatter.format(pricing.greenFee9)} kr
                     </span>
                   </div>
@@ -719,34 +719,34 @@ export function PricingTabs({
             </div>
 
             {/* Discounted */}
-            <div className="border-v3d-border bg-v3d-cream rounded-xl border p-8">
-              <h3 className="border-v3d-border mb-6 border-b pb-4 font-serif text-xl font-medium">
+            <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8">
+              <h3 className="mb-6 border-b border-v3d-border pb-4 font-serif text-xl font-medium">
                 Rabattert
               </h3>
               <div className="space-y-3">
                 {pricing.greenFeeJunior && (
-                  <div className="border-v3d-border flex justify-between border-b pb-3">
+                  <div className="flex justify-between border-b border-v3d-border pb-3">
                     <span className="text-v3d-text-muted">Junior (under 18)</span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {formatter.format(pricing.greenFeeJunior)} kr
                     </span>
                   </div>
                 )}
                 {pricing.greenFeeTwilight && (
-                  <div className="border-v3d-border flex justify-between border-b pb-3">
+                  <div className="flex justify-between border-b border-v3d-border pb-3">
                     <span className="text-v3d-text-muted">
                       Kveld
                       {pricing.twilightStartTime ? ` (etter ${pricing.twilightStartTime})` : ""}
                     </span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {formatter.format(pricing.greenFeeTwilight)} kr
                     </span>
                   </div>
                 )}
                 {pricing.greenFeeSenior && (
-                  <div className="border-v3d-border flex justify-between border-b pb-3">
+                  <div className="flex justify-between border-b border-v3d-border pb-3">
                     <span className="text-v3d-text-muted">Senior</span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {formatter.format(pricing.greenFeeSenior)} kr
                     </span>
                   </div>
@@ -761,18 +761,18 @@ export function PricingTabs({
           <div className="grid gap-8 md:grid-cols-2">
             {/* Membership Prices */}
             {memberships.length > 0 && (
-              <div className="border-v3d-border bg-v3d-cream rounded-xl border p-8">
-                <h3 className="border-v3d-border mb-6 border-b pb-4 font-serif text-xl font-medium">
+              <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8">
+                <h3 className="mb-6 border-b border-v3d-border pb-4 font-serif text-xl font-medium">
                   Medlemskap
                 </h3>
                 <div className="space-y-3">
                   {memberships.map((m, i) => (
                     <div
                       key={i}
-                      className="border-v3d-border flex justify-between border-b pb-3 last:border-b-0"
+                      className="flex justify-between border-b border-v3d-border pb-3 last:border-b-0"
                     >
                       <span className="text-v3d-text-muted">{m.name || m.category}</span>
-                      <span className="text-v3d-forest font-semibold">
+                      <span className="font-semibold text-v3d-forest">
                         {formatter.format(m.totalAnnual ?? m.price)} kr/år
                       </span>
                     </div>
@@ -783,22 +783,22 @@ export function PricingTabs({
 
             {/* Status */}
             {membershipStatus && (
-              <div className="border-v3d-border bg-v3d-cream rounded-xl border p-8">
-                <h3 className="border-v3d-border mb-6 border-b pb-4 font-serif text-xl font-medium">
+              <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8">
+                <h3 className="mb-6 border-b border-v3d-border pb-4 font-serif text-xl font-medium">
                   Status
                 </h3>
                 <div className="space-y-3">
                   {membershipStatus.waitingListSize && (
-                    <div className="border-v3d-border flex justify-between border-b pb-3">
+                    <div className="flex justify-between border-b border-v3d-border pb-3">
                       <span className="text-v3d-text-muted">Venteliste</span>
-                      <span className="text-v3d-forest font-semibold">
+                      <span className="font-semibold text-v3d-forest">
                         ~{formatter.format(membershipStatus.waitingListSize)} personer
                       </span>
                     </div>
                   )}
-                  <div className="border-v3d-border flex justify-between border-b pb-3">
+                  <div className="flex justify-between border-b border-v3d-border pb-3">
                     <span className="text-v3d-text-muted">Opptak</span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {membershipStatus.status === "open"
                         ? "Åpent"
                         : membershipStatus.status === "waitlist"
@@ -809,7 +809,7 @@ export function PricingTabs({
                   {membershipStatus.waitingListYears && (
                     <div className="flex justify-between">
                       <span className="text-v3d-text-muted">Ventetid</span>
-                      <span className="text-v3d-forest font-semibold">
+                      <span className="font-semibold text-v3d-forest">
                         Ca. {membershipStatus.waitingListYears} år
                       </span>
                     </div>
@@ -823,23 +823,23 @@ export function PricingTabs({
         {/* Utstyr Panel */}
         {activeTab === "utstyr" && pricing && (
           <div className="grid gap-8 md:grid-cols-2">
-            <div className="border-v3d-border bg-v3d-cream rounded-xl border p-8">
-              <h3 className="border-v3d-border mb-6 border-b pb-4 font-serif text-xl font-medium">
+            <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8">
+              <h3 className="mb-6 border-b border-v3d-border pb-4 font-serif text-xl font-medium">
                 Utleie
               </h3>
               <div className="space-y-3">
                 {pricing.cartRental && (
-                  <div className="border-v3d-border flex justify-between border-b pb-3">
+                  <div className="flex justify-between border-b border-v3d-border pb-3">
                     <span className="text-v3d-text-muted">Golfbil (18 hull)</span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {formatter.format(pricing.cartRental)} kr
                     </span>
                   </div>
                 )}
                 {pricing.pullCartRental && (
-                  <div className="border-v3d-border flex justify-between border-b pb-3">
+                  <div className="flex justify-between border-b border-v3d-border pb-3">
                     <span className="text-v3d-text-muted">Tralle</span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {formatter.format(pricing.pullCartRental)} kr
                     </span>
                   </div>
@@ -847,7 +847,7 @@ export function PricingTabs({
                 {pricing.clubRental && (
                   <div className="flex justify-between">
                     <span className="text-v3d-text-muted">Klubber (sett)</span>
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {formatter.format(pricing.clubRental)} kr
                     </span>
                   </div>
@@ -905,13 +905,13 @@ export function ContactSection({ course }: ContactSectionProps) {
     <section className="mx-auto max-w-[1200px] px-8 py-20">
       {/* Section Header */}
       <div className="mb-8 flex items-baseline gap-4">
-        <span className="text-v3d-accent font-serif text-6xl font-normal">04</span>
-        <h2 className="text-v3d-text-dark font-serif text-2xl font-medium">Finn oss</h2>
+        <span className="font-serif text-6xl font-normal text-v3d-accent">04</span>
+        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Finn oss</h2>
       </div>
 
       <div className="grid gap-12 md:grid-cols-[1.5fr_1fr]">
         {/* Left: Map */}
-        <div className="border-v3d-border bg-v3d-warm overflow-hidden rounded-xl border">
+        <div className="overflow-hidden rounded-xl border border-v3d-border bg-v3d-warm">
           {/* Map Embed */}
           {course.coordinates ? (
             <iframe
@@ -921,7 +921,7 @@ export function ContactSection({ course }: ContactSectionProps) {
               referrerPolicy="no-referrer-when-downgrade"
             />
           ) : (
-            <div className="from-v3d-warm to-v3d-accent text-v3d-text-light flex h-[300px] items-center justify-center bg-gradient-to-br">
+            <div className="flex h-[300px] items-center justify-center bg-gradient-to-br from-v3d-warm to-v3d-accent text-v3d-text-light">
               [ Google Maps embed ]
             </div>
           )}
@@ -929,11 +929,11 @@ export function ContactSection({ course }: ContactSectionProps) {
           {/* Address */}
           <div className="p-6">
             <div className="mb-4">
-              <strong className="text-v3d-text-dark block font-serif text-xl font-medium">
+              <strong className="block font-serif text-xl font-medium text-v3d-text-dark">
                 {course.address.street || course.name}
               </strong>
               {addressLines.map((line, i) => (
-                <span key={i} className="text-v3d-text-body block">
+                <span key={i} className="block text-v3d-text-body">
                   {line}
                 </span>
               ))}
@@ -944,7 +944,7 @@ export function ContactSection({ course }: ContactSectionProps) {
                 href={`https://www.google.com/maps/dir/?api=1&destination=${course.coordinates.lat},${course.coordinates.lng}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-v3d-forest inline-flex items-center gap-2 font-medium transition-all hover:gap-3"
+                className="inline-flex items-center gap-2 font-medium text-v3d-forest transition-all hover:gap-3"
               >
                 Få veibeskrivelse →
               </a>
@@ -955,21 +955,21 @@ export function ContactSection({ course }: ContactSectionProps) {
         {/* Right: Contact Cards + Weather */}
         <div className="space-y-4">
           {/* Contact Card */}
-          <div className="border-v3d-border bg-v3d-warm rounded-xl border p-6">
-            <h3 className="text-v3d-text-dark mb-6 font-serif text-xl font-medium">Kontakt oss</h3>
+          <div className="rounded-xl border border-v3d-border bg-v3d-warm p-6">
+            <h3 className="mb-6 font-serif text-xl font-medium text-v3d-text-dark">Kontakt oss</h3>
 
             <div className="space-y-4">
               {/* Phone */}
               {primaryPhone && (
-                <div className="border-v3d-border flex items-center gap-4 border-b pb-4">
-                  <div className="bg-v3d-forest-soft flex h-10 w-10 items-center justify-center rounded-lg">
+                <div className="flex items-center gap-4 border-b border-v3d-border pb-4">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-v3d-forest-soft">
                     📱
                   </div>
                   <div>
-                    <small className="text-v3d-text-light block text-xs uppercase tracking-wider">
+                    <small className="block text-xs uppercase tracking-wider text-v3d-text-light">
                       Telefon
                     </small>
-                    <a href={`tel:${primaryPhone.number}`} className="text-v3d-forest font-medium">
+                    <a href={`tel:${primaryPhone.number}`} className="font-medium text-v3d-forest">
                       {primaryPhone.number}
                     </a>
                   </div>
@@ -978,17 +978,17 @@ export function ContactSection({ course }: ContactSectionProps) {
 
               {/* Email */}
               {course.contact.email && (
-                <div className="border-v3d-border flex items-center gap-4 border-b pb-4">
-                  <div className="bg-v3d-forest-soft flex h-10 w-10 items-center justify-center rounded-lg">
+                <div className="flex items-center gap-4 border-b border-v3d-border pb-4">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-v3d-forest-soft">
                     ✉️
                   </div>
                   <div>
-                    <small className="text-v3d-text-light block text-xs uppercase tracking-wider">
+                    <small className="block text-xs uppercase tracking-wider text-v3d-text-light">
                       E-post
                     </small>
                     <a
                       href={`mailto:${course.contact.email}`}
-                      className="text-v3d-forest font-medium"
+                      className="font-medium text-v3d-forest"
                     >
                       {course.contact.email}
                     </a>
@@ -999,18 +999,18 @@ export function ContactSection({ course }: ContactSectionProps) {
               {/* Website */}
               {course.contact.website && (
                 <div className="flex items-center gap-4">
-                  <div className="bg-v3d-forest-soft flex h-10 w-10 items-center justify-center rounded-lg">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-v3d-forest-soft">
                     🌐
                   </div>
                   <div>
-                    <small className="text-v3d-text-light block text-xs uppercase tracking-wider">
+                    <small className="block text-xs uppercase tracking-wider text-v3d-text-light">
                       Nettside
                     </small>
                     <a
                       href={course.contact.website}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-v3d-forest font-medium"
+                      className="font-medium text-v3d-forest"
                     >
                       {course.contact.website.replace(/^https?:\/\//, "")}
                     </a>
@@ -1022,7 +1022,7 @@ export function ContactSection({ course }: ContactSectionProps) {
 
           {/* Weather Widget */}
           {course.coordinates && (
-            <div className="from-v3d-forest to-v3d-forest-light rounded-xl bg-gradient-to-br p-6 text-white">
+            <div className="rounded-xl bg-gradient-to-br from-v3d-forest to-v3d-forest-light p-6 text-white">
               <h4 className="mb-4 text-xs uppercase tracking-widest opacity-80">Været på banen</h4>
               <WeatherWidget lat={course.coordinates.lat} lng={course.coordinates.lng} />
             </div>
@@ -1077,8 +1077,8 @@ export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
     <section className="mx-auto max-w-[1200px] px-8 py-20">
       {/* Section Header */}
       <div className="mb-8 flex items-baseline gap-4">
-        <span className="text-v3d-accent font-serif text-6xl font-normal">05</span>
-        <h2 className="text-v3d-text-dark font-serif text-2xl font-medium">Nærliggende baner</h2>
+        <span className="font-serif text-6xl font-normal text-v3d-accent">05</span>
+        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Nærliggende baner</h2>
       </div>
 
       {/* Course Cards */}
@@ -1090,23 +1090,23 @@ export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
             <Link
               key={course.slug}
               href={`/${toRegionSlug(course.region)}/${course.slug}`}
-              className="border-v3d-border bg-v3d-warm group overflow-hidden rounded-xl border transition-all hover:-translate-y-1 hover:shadow-lg"
+              className="group overflow-hidden rounded-xl border border-v3d-border bg-v3d-warm transition-all hover:-translate-y-1 hover:shadow-lg"
             >
               {/* Image Placeholder */}
-              <div className="bg-v3d-accent text-v3d-text-light flex h-[120px] items-center justify-center text-xs">
+              <div className="flex h-[120px] items-center justify-center bg-v3d-accent text-xs text-v3d-text-light">
                 [ Bilde ]
               </div>
 
               {/* Content */}
               <div className="p-5">
-                <h3 className="text-v3d-text-dark group-hover:text-v3d-forest mb-1 font-serif text-lg font-medium">
+                <h3 className="mb-1 font-serif text-lg font-medium text-v3d-text-dark group-hover:text-v3d-forest">
                   {course.name}
                 </h3>
-                <div className="text-v3d-text-muted flex gap-3 text-sm">
+                <div className="flex gap-3 text-sm text-v3d-text-muted">
                   <span>{course.course.holes} hull</span>
                   {ratingData && <span>⭐ {ratingData.averageRating.toFixed(1)}</span>}
                   {distanceKm && (
-                    <span className="text-v3d-forest font-semibold">
+                    <span className="font-semibold text-v3d-forest">
                       {distanceKm.toFixed(1)} km
                     </span>
                   )}
@@ -1197,7 +1197,7 @@ Replace the return statement with:
 
 ```tsx
 return (
-  <div className="v3d bg-v3d-cream text-v3d-text-body font-sans">
+  <div className="v3d bg-v3d-cream font-sans text-v3d-text-body">
     {/* JSON-LD Structured Data */}
     <script
       type="application/ld+json"
@@ -1209,9 +1209,9 @@ return (
     />
 
     {/* Navigation - keep existing */}
-    <nav className="border-v3d-border bg-v3d-cream/95 fixed left-0 right-0 top-0 z-50 border-b backdrop-blur-sm">
+    <nav className="bg-v3d-cream/95 fixed left-0 right-0 top-0 z-50 border-b border-v3d-border backdrop-blur-sm">
       <div className="mx-auto flex max-w-[1200px] items-center justify-between px-8 py-4">
-        <div className="text-v3d-text-muted text-sm">
+        <div className="text-sm text-v3d-text-muted">
           <Link href="/" className="hover:text-v3d-forest">
             Hjem
           </Link>
@@ -1223,7 +1223,7 @@ return (
           <span className="text-v3d-text-dark">{course.name}</span>
         </div>
         <div className="flex gap-4">
-          <button className="border-v3d-border text-v3d-text-dark hover:border-v3d-forest hover:text-v3d-forest rounded border px-6 py-3 text-sm font-medium transition-colors">
+          <button className="rounded border border-v3d-border px-6 py-3 text-sm font-medium text-v3d-text-dark transition-colors hover:border-v3d-forest hover:text-v3d-forest">
             Kontakt
           </button>
           {bookingAction.type === "url" && bookingAction.value && (
@@ -1231,7 +1231,7 @@ return (
               href={bookingAction.value}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-v3d-forest hover:bg-v3d-forest-light rounded px-6 py-3 text-sm font-medium text-white transition-colors"
+              className="rounded bg-v3d-forest px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-v3d-forest-light"
             >
               Book starttid
             </a>

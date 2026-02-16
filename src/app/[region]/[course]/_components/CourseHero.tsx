@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import type { Course, PlacePhoto } from "@/types/course";
 
@@ -10,6 +12,7 @@ interface CourseHeroProps {
   course: Course;
   ratingData: RatingData | null;
   photos: PlacePhoto[];
+  googlePlaceId?: string | null;
 }
 
 function StarIcon({ filled }: { filled: boolean }) {
@@ -20,12 +23,15 @@ function StarIcon({ filled }: { filled: boolean }) {
   );
 }
 
-export function CourseHero({ course, ratingData, photos }: CourseHeroProps) {
+export function CourseHero({ course, ratingData, photos, googlePlaceId }: CourseHeroProps) {
   const heroPhoto = photos[0];
   const accentPhoto = photos[1];
+  const googleReviewsUrl = googlePlaceId
+    ? `https://search.google.com/local/reviews?placeid=${googlePlaceId}`
+    : null;
 
   return (
-    <section className="mx-auto grid max-w-[1200px] gap-16 px-8 pb-16 pt-32 md:grid-cols-2 md:items-center">
+    <section className="mx-auto grid max-w-[1200px] gap-16 px-8 py-16 md:grid-cols-2 md:items-center">
       {/* Left: Content */}
       <div className="pr-8">
         {/* Eyebrow */}
@@ -50,7 +56,17 @@ export function CourseHero({ course, ratingData, photos }: CourseHeroProps) {
 
         {/* Rating Box */}
         {ratingData && (
-          <div className="flex items-center gap-4 rounded-lg border border-v3d-border bg-v3d-warm p-6">
+          <a
+            href={googleReviewsUrl || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`flex items-center gap-4 rounded-lg border border-v3d-border bg-v3d-warm p-6 transition-all ${
+              googleReviewsUrl
+                ? "cursor-pointer hover:border-v3d-gold hover:shadow-md"
+                : "cursor-default"
+            }`}
+            onClick={(e) => !googleReviewsUrl && e.preventDefault()}
+          >
             <div className="font-serif text-4xl font-semibold text-v3d-forest">
               {ratingData.averageRating.toFixed(1)}
             </div>
@@ -60,11 +76,26 @@ export function CourseHero({ course, ratingData, photos }: CourseHeroProps) {
                   <StarIcon key={star} filled={star <= Math.round(ratingData.averageRating)} />
                 ))}
               </div>
-              <div className="text-sm text-v3d-text-muted">
+              <div className="flex items-center gap-1 text-sm text-v3d-text-muted">
                 {ratingData.totalReviews.toLocaleString("no-NO")} anmeldelser på Google
+                {googleReviewsUrl && (
+                  <svg
+                    className="h-3.5 w-3.5 text-v3d-gold"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                    />
+                  </svg>
+                )}
               </div>
             </div>
-          </div>
+          </a>
         )}
       </div>
 

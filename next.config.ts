@@ -25,9 +25,24 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "places.googleapis.com",
+        port: "",
         pathname: "/v1/**",
       },
     ],
+  },
+  async redirects() {
+    return [
+      {
+        source: "/blogg/beste-golfbaner-norge-2025",
+        destination: "/blogg/beste-golfbaner-norge",
+        permanent: true,
+      },
+      {
+        source: "/blogg/beste-golfbaner-norge-2026",
+        destination: "/blogg/beste-golfbaner-norge",
+        permanent: true,
+      },
+    ];
   },
 };
 
