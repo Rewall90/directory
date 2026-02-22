@@ -17,7 +17,7 @@ export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
     <section className="mx-auto max-w-[1200px] px-8 py-20">
       {/* Section Header */}
       <div className="mb-8 flex items-baseline gap-4">
-        <span className="font-serif text-6xl font-normal text-v3d-accent">05</span>
+        <span className="font-serif text-6xl font-normal text-v3d-accent">06</span>
         <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Nærliggende baner</h2>
       </div>
 

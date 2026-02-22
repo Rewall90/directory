@@ -8,9 +8,15 @@ interface RatingData {
   totalReviews: number;
 }
 
+interface SiteReviewData {
+  averageRating: number;
+  reviewCount: number;
+}
+
 interface CourseHeroProps {
   course: Course;
   ratingData: RatingData | null;
+  siteReviews: SiteReviewData | null;
   photos: PlacePhoto[];
   googlePlaceId?: string | null;
 }
@@ -23,7 +29,13 @@ function StarIcon({ filled }: { filled: boolean }) {
   );
 }
 
-export function CourseHero({ course, ratingData, photos, googlePlaceId }: CourseHeroProps) {
+export function CourseHero({
+  course,
+  ratingData,
+  siteReviews,
+  photos,
+  googlePlaceId,
+}: CourseHeroProps) {
   const heroPhoto = photos[0];
   const accentPhoto = photos[1];
   const googleReviewsUrl = googlePlaceId
@@ -54,49 +66,109 @@ export function CourseHero({ course, ratingData, photos, googlePlaceId }: Course
           </p>
         )}
 
-        {/* Rating Box */}
-        {ratingData && (
+        {/* Rating Boxes */}
+        <div className="flex flex-col gap-3">
+          {/* Google Rating */}
+          {ratingData && (
+            <a
+              href={googleReviewsUrl || "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`flex items-center gap-4 rounded-lg border border-v3d-border bg-v3d-warm p-6 transition-all ${
+                googleReviewsUrl
+                  ? "cursor-pointer hover:border-v3d-gold hover:shadow-md"
+                  : "cursor-default"
+              }`}
+              onClick={(e) => !googleReviewsUrl && e.preventDefault()}
+            >
+              <div className="font-serif text-4xl font-semibold text-v3d-forest">
+                {ratingData.averageRating.toFixed(1)}
+              </div>
+              <div className="border-l border-v3d-border pl-4">
+                <div className="mb-1 flex gap-0.5">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <StarIcon key={star} filled={star <= Math.round(ratingData.averageRating)} />
+                  ))}
+                </div>
+                <div className="flex items-center gap-1 text-sm text-v3d-text-muted">
+                  {ratingData.totalReviews.toLocaleString("no-NO")} anmeldelser på Google
+                  {googleReviewsUrl && (
+                    <svg
+                      className="h-3.5 w-3.5 text-v3d-gold"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  )}
+                </div>
+              </div>
+            </a>
+          )}
+
+          {/* Site Reviews */}
           <a
-            href={googleReviewsUrl || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`flex items-center gap-4 rounded-lg border border-v3d-border bg-v3d-warm p-6 transition-all ${
-              googleReviewsUrl
-                ? "cursor-pointer hover:border-v3d-gold hover:shadow-md"
-                : "cursor-default"
-            }`}
-            onClick={(e) => !googleReviewsUrl && e.preventDefault()}
+            href="#anmeldelser"
+            className="flex items-center gap-4 rounded-lg border border-v3d-border bg-v3d-warm p-6 transition-all hover:border-v3d-forest hover:shadow-md"
           >
-            <div className="font-serif text-4xl font-semibold text-v3d-forest">
-              {ratingData.averageRating.toFixed(1)}
-            </div>
-            <div className="border-l border-v3d-border pl-4">
-              <div className="mb-1 flex gap-0.5">
-                {[1, 2, 3, 4, 5].map((star) => (
-                  <StarIcon key={star} filled={star <= Math.round(ratingData.averageRating)} />
-                ))}
+            {siteReviews ? (
+              <>
+                <div className="font-serif text-4xl font-semibold text-v3d-forest">
+                  {siteReviews.averageRating.toFixed(1)}
+                </div>
+                <div className="border-l border-v3d-border pl-4">
+                  <div className="mb-1 flex gap-0.5">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <StarIcon key={star} filled={star <= Math.round(siteReviews.averageRating)} />
+                    ))}
+                  </div>
+                  <div className="flex items-center gap-1 text-sm text-v3d-text-muted">
+                    {siteReviews.reviewCount}{" "}
+                    {siteReviews.reviewCount === 1 ? "anmeldelse" : "anmeldelser"} på Golfkart.no
+                    <svg
+                      className="h-3.5 w-3.5 text-v3d-forest"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div className="flex w-full items-center justify-between">
+                <span className="text-sm text-v3d-text-muted">
+                  Skriv den første anmeldelsen på Golfkart.no
+                </span>
+                <svg
+                  className="h-4 w-4 text-v3d-forest"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
               </div>
-              <div className="flex items-center gap-1 text-sm text-v3d-text-muted">
-                {ratingData.totalReviews.toLocaleString("no-NO")} anmeldelser på Google
-                {googleReviewsUrl && (
-                  <svg
-                    className="h-3.5 w-3.5 text-v3d-gold"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    />
-                  </svg>
-                )}
-              </div>
-            </div>
+            )}
           </a>
-        )}
+        </div>
       </div>
 
       {/* Right: Images */}

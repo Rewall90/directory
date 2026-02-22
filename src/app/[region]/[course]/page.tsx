@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getCourse, getAllCourses, calculateAverageRating } from "@/lib/courses";
+import { getReviews } from "@/lib/reviews";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import type { Course, Booking } from "@/types/course";
 import { generateCourseBreadcrumb } from "@/lib/schema";
@@ -13,6 +14,7 @@ import { FeaturesGrid } from "./_components/FeaturesGrid";
 import { PricingTabs } from "./_components/PricingTabs";
 import { ContactSection } from "./_components/ContactSection";
 import { NearbyCoursesGrid } from "./_components/NearbyCoursesGrid";
+import { ReviewSection } from "./_components/ReviewSection";
 
 // Revalidate every 30 minutes to keep photo URLs fresh (URLs expire after ~1 hour)
 export const revalidate = 1800;
@@ -109,6 +111,16 @@ export default async function CoursePage({ params }: CoursePageProps) {
   const photos = course.googlePlaceId ? await getPlacePhotos(course.googlePlaceId, 4) : [];
 
   const ratingData = calculateAverageRating(course.ratings);
+
+  // Get site reviews summary for hero
+  const reviews = getReviews(course.slug);
+  const siteReviews =
+    reviews.length > 0
+      ? {
+          averageRating: reviews.reduce((sum, r) => sum + r.rating, 0) / reviews.length,
+          reviewCount: reviews.length,
+        }
+      : null;
 
   // Get pricing - year is the key in the Record
   const pricingYears = Object.keys(course.pricing).sort((a, b) => Number(b) - Number(a));
@@ -233,6 +245,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
       <CourseHero
         course={course}
         ratingData={ratingData}
+        siteReviews={siteReviews}
         photos={photos}
         googlePlaceId={course.googlePlaceId}
       />
@@ -256,6 +269,9 @@ export default async function CoursePage({ params }: CoursePageProps) {
 
       {/* Contact Section */}
       <ContactSection course={course} />
+
+      {/* Reviews */}
+      <ReviewSection courseSlug={course.slug} courseName={course.name} />
 
       {/* Nearby Courses */}
       <NearbyCoursesGrid

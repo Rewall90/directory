@@ -319,6 +319,18 @@ export interface Course {
 }
 
 /**
+ * User-submitted review (stored in content/reviews/{slug}.json)
+ */
+export interface Review {
+  author: string;
+  rating: number;
+  text: string;
+  date: string;
+  /** Image paths relative to /public, e.g. ["/reviews/oslo-golfklubb/img1.jpg"] */
+  images?: string[];
+}
+
+/**
  * Lightweight course data for listings and search results
  */
 export interface CourseSummary {
