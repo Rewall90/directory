@@ -1,61 +1,30 @@
-import nodemailer from "nodemailer";
-import type { Transporter } from "nodemailer";
+import { Resend } from "resend";
 
 /**
- * SMTP Email Service for golfkart.no
+ * Email Service for golfkart.no
  *
- * Sends emails via Dedia.no SMTP server
- * Configuration via environment variables
+ * Sends transactional emails via Resend API
+ * Configuration via RESEND_API_KEY environment variable
  */
 
-let transporter: Transporter | null = null;
+let resendClient: Resend | null = null;
 
-/**
- * Get or create SMTP transporter
- */
-function getTransporter(): Transporter {
-  if (transporter) {
-    return transporter;
+function getResend(): Resend {
+  if (resendClient) return resendClient;
+
+  if (!process.env.RESEND_API_KEY) {
+    throw new Error("RESEND_API_KEY is not configured in environment variables.");
   }
 
-  // Validate SMTP configuration
-  if (!process.env.SMTP_HOST || !process.env.SMTP_USER || !process.env.SMTP_PASS) {
-    throw new Error(
-      "SMTP credentials not configured. Please set SMTP_HOST, SMTP_USER, and SMTP_PASS in environment variables.",
-    );
-  }
-
-  transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: parseInt(process.env.SMTP_PORT || "587"),
-    secure: process.env.SMTP_SECURE === "true", // true for 465, false for other ports
-    auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
-    },
-    // Optional: Configure connection timeout
-    connectionTimeout: 10000, // 10 seconds
-    greetingTimeout: 10000,
-  });
-
-  console.log("[SMTP] Transporter created with host:", process.env.SMTP_HOST);
-
-  return transporter;
+  resendClient = new Resend(process.env.RESEND_API_KEY);
+  return resendClient;
 }
 
 /**
- * Verify SMTP connection
+ * Check if email service is configured
  */
-export async function verifySmtpConnection(): Promise<boolean> {
-  try {
-    const smtp = getTransporter();
-    await smtp.verify();
-    console.log("[SMTP] Connection verified successfully");
-    return true;
-  } catch (error) {
-    console.error("[SMTP] Connection verification failed:", error);
-    return false;
-  }
+export function isEmailConfigured(): boolean {
+  return !!process.env.RESEND_API_KEY;
 }
 
 interface EmailAttachment {
@@ -75,7 +44,7 @@ interface SendEmailOptions {
 }
 
 /**
- * Send email via SMTP
+ * Send email via Resend
  */
 export async function sendEmail(options: SendEmailOptions): Promise<{
   success: boolean;
@@ -83,56 +52,38 @@ export async function sendEmail(options: SendEmailOptions): Promise<{
   error?: string;
 }> {
   try {
-    const smtp = getTransporter();
+    const resend = getResend();
 
-    // Default from address
-    const fromName = process.env.SMTP_FROM_NAME || "golfkart.no";
-    const fromEmail = process.env.SMTP_FROM || process.env.SMTP_USER;
-    const fromAddress = options.from || `${fromName} <${fromEmail}>`;
+    const fromAddress = options.from || `golfkart.no <petter@golfkart.no>`;
 
-    // Default reply-to
-    const replyTo = options.replyTo || process.env.SMTP_USER;
+    console.log("[Email] Sending email to:", options.to);
 
-    const mailOptions = {
+    const { data, error } = await resend.emails.send({
       from: fromAddress,
-      replyTo,
-      to: options.to,
+      to: Array.isArray(options.to) ? options.to : [options.to],
       subject: options.subject,
       html: options.html,
       text: options.text,
+      replyTo: options.replyTo,
       attachments: options.attachments?.map((att) => ({
         filename: att.filename,
-        content: att.content,
+        content: Buffer.from(att.content, "base64"),
         contentType: att.contentType,
-        encoding: "base64" as const,
       })),
-    };
+    });
 
-    console.log("[SMTP] Sending email to:", options.to);
+    if (error) {
+      console.error("[Email] Resend API error:", error);
+      return { success: false, error: error.message };
+    }
 
-    const info = await smtp.sendMail(mailOptions);
-
-    console.log("[SMTP] Email sent successfully. Message ID:", info.messageId);
-
-    return {
-      success: true,
-      messageId: info.messageId,
-    };
+    console.log("[Email] Email sent successfully. ID:", data?.id);
+    return { success: true, messageId: data?.id };
   } catch (error: unknown) {
     const typedError = error as Error;
-    console.error("[SMTP] Failed to send email:", typedError);
-    return {
-      success: false,
-      error: typedError.message,
-    };
+    console.error("[Email] Failed to send email:", typedError);
+    return { success: false, error: typedError.message };
   }
-}
-
-/**
- * Check if SMTP is configured
- */
-export function isSmtpConfigured(): boolean {
-  return !!(process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS);
 }
 
 /**
@@ -144,14 +95,7 @@ export async function sendContactFormEmail(data: {
   subject: string;
   message: string;
 }): Promise<{ success: boolean; error?: string }> {
-  const adminEmail = process.env.ADMIN_EMAIL || process.env.SMTP_USER;
-
-  if (!adminEmail) {
-    return {
-      success: false,
-      error: "Admin email not configured. Set ADMIN_EMAIL or SMTP_USER in environment variables.",
-    };
-  }
+  const adminEmail = process.env.ADMIN_EMAIL || "petter@golfkart.no";
 
   const html = `
     <!DOCTYPE html>
@@ -207,7 +151,7 @@ Du kan svare direkte på denne e-posten for å kontakte avsenderen.
     subject: `Kontaktskjema: ${data.subject}`,
     html,
     text,
-    replyTo: data.email, // Allow direct reply to the sender
+    replyTo: data.email,
   });
 }
 
@@ -229,14 +173,7 @@ export async function sendReviewNotificationEmail(data: {
   text: string;
   images?: ReviewImage[];
 }): Promise<{ success: boolean; error?: string }> {
-  const adminEmail = process.env.ADMIN_EMAIL || process.env.SMTP_USER;
-
-  if (!adminEmail) {
-    return {
-      success: false,
-      error: "Admin email not configured.",
-    };
-  }
+  const adminEmail = process.env.ADMIN_EMAIL || "petter@golfkart.no";
 
   const date = new Date().toISOString().split("T")[0];
   const stars = "\u2605".repeat(data.rating) + "\u2606".repeat(5 - data.rating);

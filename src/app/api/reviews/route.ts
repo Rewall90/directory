@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { sendReviewNotificationEmail, isSmtpConfigured } from "@/lib/smtp-email-service";
+import { sendReviewNotificationEmail, isEmailConfigured } from "@/lib/email-service";
 
 interface ImagePayload {
   name: string;
@@ -12,8 +12,8 @@ const MAX_IMAGE_SIZE = 5 * 1024 * 1024; // 5MB
 
 export async function POST(request: Request) {
   try {
-    if (!isSmtpConfigured()) {
-      console.error("[Reviews API] SMTP is not configured");
+    if (!isEmailConfigured()) {
+      console.error("[Reviews API] Email service is not configured");
       return NextResponse.json(
         { error: "E-postkonfigurasjon mangler. Vennligst prøv igjen senere." },
         { status: 500 },

@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server";
-import { sendContactFormEmail, isSmtpConfigured } from "@/lib/smtp-email-service";
+import { sendContactFormEmail, isEmailConfigured } from "@/lib/email-service";
 
 export async function POST(request: Request) {
   try {
     // Check if SMTP is configured
-    if (!isSmtpConfigured()) {
-      console.error("[Contact API] SMTP is not configured");
+    if (!isEmailConfigured()) {
+      console.error("[Contact API] Email service is not configured");
       return NextResponse.json(
         { error: "E-postkonfigurasjon mangler. Vennligst kontakt administrator." },
         { status: 500 },
