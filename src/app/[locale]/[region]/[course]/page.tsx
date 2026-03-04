@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { getCourse, getAllCourses, calculateAverageRating } from "@/lib/courses";
 import { getReviews } from "@/lib/reviews";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
@@ -100,6 +100,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function CoursePage({ params }: Props) {
   const { locale, region: regionSlug, course: courseSlug } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("course");
 
   const course = getCourse(courseSlug);
 
@@ -218,7 +219,7 @@ export default async function CoursePage({ params }: Props) {
         <div className="mx-auto flex max-w-[1200px] items-center justify-between px-8 py-4">
           <div className="text-sm text-v3d-text-muted">
             <Link href="/" className="hover:text-v3d-forest">
-              Hjem
+              {t("breadcrumbHome")}
             </Link>
             <span className="mx-2">/</span>
             <Link href={`/${toRegionSlug(course.region)}`} className="hover:text-v3d-forest">
@@ -229,7 +230,7 @@ export default async function CoursePage({ params }: Props) {
           </div>
           <div className="flex gap-4">
             <button className="rounded border border-v3d-border px-6 py-3 text-sm font-medium text-v3d-text-dark transition-colors hover:border-v3d-forest hover:text-v3d-forest">
-              Kontakt
+              {t("contactButton")}
             </button>
             {bookingAction.type === "url" && bookingAction.value && (
               <a
@@ -238,7 +239,7 @@ export default async function CoursePage({ params }: Props) {
                 rel="noopener noreferrer"
                 className="rounded bg-v3d-forest px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-v3d-forest-light"
               >
-                Book starttid
+                {t("bookTeeTime")}
               </a>
             )}
           </div>

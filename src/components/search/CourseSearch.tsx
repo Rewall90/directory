@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import { SearchResult } from "./SearchResult";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 
@@ -20,10 +21,8 @@ interface CourseSearchProps {
   className?: string;
 }
 
-export function CourseSearch({
-  placeholder = "Søk etter golfbane, sted...",
-  className = "",
-}: CourseSearchProps) {
+export function CourseSearch({ placeholder, className = "" }: CourseSearchProps) {
+  const t = useTranslations("search");
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Course[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -139,13 +138,13 @@ export function CourseSearch({
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
           onFocus={() => query && results.length > 0 && setIsOpen(true)}
-          placeholder={placeholder}
+          placeholder={placeholder || t("placeholder")}
           className="w-full bg-background-surface px-4 py-3 pl-11 pr-4 text-text-primary placeholder-text-tertiary shadow-sm transition-all focus:outline-none"
           style={{
             border: "solid 2px hsl(72, 80%, 20%)",
             borderRadius: "4px",
           }}
-          aria-label="Søk etter golfbaner"
+          aria-label={t("ariaLabel")}
           aria-autocomplete="list"
           aria-controls="search-results"
           aria-expanded={isOpen}
@@ -214,8 +213,8 @@ export function CourseSearch({
                   d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M12 12h.01M12 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              <p className="text-sm">Ingen resultater funnet</p>
-              <p className="mt-1 text-xs text-text-tertiary">Prøv et annet søkeord</p>
+              <p className="text-sm">{t("noResults")}</p>
+              <p className="mt-1 text-xs text-text-tertiary">{t("tryDifferent")}</p>
             </div>
           )}
         </div>

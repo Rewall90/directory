@@ -1,16 +1,8 @@
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { RegionGrid } from "@/components/home/RegionGrid";
 import { NORWAY_MAP_REGIONS } from "@/lib/constants/norway-map-regions";
 import { getRegionsOverviewSchemas, JsonLdMultiple } from "@/lib/schema";
-
-export const metadata: Metadata = {
-  title: "Golfbaner etter fylke - golfkart.no",
-  description: "Utforsk 162 golfbaner fordelt på 15 fylker i Norge. Finn golfbaner i ditt fylke.",
-  alternates: {
-    canonical: "/regions",
-  },
-};
 
 // Use actual fylker data matching the homepage, sorted alphabetically
 const regions = [
@@ -35,9 +27,24 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "regions" });
+  const totalCourses = regions.reduce((sum, r) => sum + r.courseCount, 0);
+
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription", { totalCourses, regionCount: regions.length }),
+    alternates: {
+      canonical: "/regions",
+    },
+  };
+}
+
 export default async function RegionsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("regions");
   const totalCourses = regions.reduce((sum, r) => sum + r.courseCount, 0);
 
   // Generate all schema.org markup for the regions overview page
@@ -52,11 +59,9 @@ export default async function RegionsPage({ params }: Props) {
       <JsonLdMultiple schemas={schemas} />
 
       <div className="container mx-auto max-w-[1170px] px-4 py-12">
-        <h1 className="mb-4 text-center text-3xl font-bold text-text-primary">
-          Golfbaner etter fylke
-        </h1>
+        <h1 className="mb-4 text-center text-3xl font-bold text-text-primary">{t("pageTitle")}</h1>
         <p className="mb-12 text-center text-text-secondary">
-          Utforsk {totalCourses} golfbaner fordelt på {regions.length} fylker i Norge
+          {t("pageSubtitle", { totalCourses, regionCount: regions.length })}
         </p>
 
         <RegionGrid regions={regions} />

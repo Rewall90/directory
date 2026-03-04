@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { CourseSearch } from "@/components/search/CourseSearch";
 import { GolferDotsSVG } from "./GolferDotsSVG";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
@@ -9,8 +10,6 @@ import { StarRating } from "@/components/courses/StarRating";
 import { formatDistance } from "@/lib/geolocation";
 
 interface HeroSectionProps {
-  title?: string;
-  description?: string[];
   courseCount: number;
 }
 
@@ -29,11 +28,9 @@ interface NearbyCourse {
 
 type ViewState = "initial" | "loading" | "success" | "error" | "denied";
 
-export function HeroSection({
-  description = [
-    "Golf Directory tilbyr en komplett oversikt over golfbaner i Norge, med detaljert informasjon og vurderinger.",
-  ],
-}: HeroSectionProps) {
+export function HeroSection({ courseCount }: HeroSectionProps) {
+  const t = useTranslations("hero");
+  const tHome = useTranslations("home");
   const [viewState, setViewState] = useState<ViewState>("initial");
   const [courses, setCourses] = useState<NearbyCourse[]>([]);
   const [errorMessage, setErrorMessage] = useState<string>("");
@@ -41,7 +38,7 @@ export function HeroSection({
   const handleGetLocation = async () => {
     if (!navigator.geolocation) {
       setViewState("error");
-      setErrorMessage("Nettleseren din støtter ikke geolokasjon.");
+      setErrorMessage(t("geolocationNotSupported"));
       return;
     }
 
@@ -59,7 +56,7 @@ export function HeroSection({
           );
 
           if (!response.ok) {
-            throw new Error("Kunne ikke hente golfbaner i nærheten");
+            throw new Error(t("couldNotFetchCourses"));
           }
 
           const data = await response.json();
@@ -69,28 +66,28 @@ export function HeroSection({
             setViewState("success");
           } else {
             setViewState("error");
-            setErrorMessage("Ingen golfbaner funnet i nærheten (innen 50 km)");
+            setErrorMessage(t("noCoursesFound"));
           }
         } catch (error) {
           console.error("Error fetching nearby courses:", error);
           setViewState("error");
-          setErrorMessage("En feil oppstod ved henting av golfbaner");
+          setErrorMessage(t("errorFetchingCourses"));
         }
       },
       (error) => {
         console.error("Geolocation error:", error);
         if (error.code === error.PERMISSION_DENIED) {
           setViewState("denied");
-          setErrorMessage("Du må gi tillatelse til stedstjenester for å se golfbaner i nærheten.");
+          setErrorMessage(t("permissionDeniedMessage"));
         } else if (error.code === error.POSITION_UNAVAILABLE) {
           setViewState("error");
-          setErrorMessage("Kunne ikke bestemme din posisjon.");
+          setErrorMessage(t("positionUnavailable"));
         } else if (error.code === error.TIMEOUT) {
           setViewState("error");
-          setErrorMessage("Tidsavbrudd ved henting av posisjon.");
+          setErrorMessage(t("timeout"));
         } else {
           setViewState("error");
-          setErrorMessage("En feil oppstod ved henting av posisjon.");
+          setErrorMessage(t("genericPositionError"));
         }
       },
       {
@@ -122,20 +119,19 @@ export function HeroSection({
             className="mb-8 text-4xl font-bold drop-shadow-lg md:text-5xl lg:text-6xl xl:text-7xl"
             style={{ color: "hsl(132, 50%, 90%)" }}
           >
-            Finn <span style={{ color: "hsl(192, 80%, 80%)" }}>Din</span> Golfbane
+            {tHome("heroHeadingFind")}{" "}
+            <span style={{ color: "hsl(192, 80%, 80%)" }}>{tHome("heroHeadingYour")}</span>{" "}
+            {tHome("heroHeadingCourse")}
           </h1>
 
           {/* Description */}
           <div className="mb-8 space-y-4">
-            {description.map((paragraph, index) => (
-              <p
-                key={index}
-                className="text-lg font-extralight leading-relaxed md:text-xl"
-                style={{ color: "hsl(132, 50%, 90%)" }}
-              >
-                {paragraph}
-              </p>
-            ))}
+            <p
+              className="text-lg font-extralight leading-relaxed md:text-xl"
+              style={{ color: "hsl(132, 50%, 90%)" }}
+            >
+              {tHome("heroDescription", { count: courseCount })}
+            </p>
           </div>
 
           {/* Search */}
@@ -177,7 +173,7 @@ export function HeroSection({
                     clipRule="evenodd"
                   />
                 </svg>
-                Se baner nær meg
+                {t("findNearMe")}
               </button>
             </div>
           )}
@@ -188,7 +184,7 @@ export function HeroSection({
               <div className="mb-3 flex justify-center">
                 <div className="h-10 w-10 animate-spin rounded-full border-4 border-white/30 border-t-white"></div>
               </div>
-              <p className="text-base text-green-50">Finner golfbaner i nærheten...</p>
+              <p className="text-base text-green-50">{t("findingCourses")}</p>
             </div>
           )}
 
@@ -197,7 +193,7 @@ export function HeroSection({
             <div className="text-center">
               <div className="mb-4 rounded-lg border border-red-300/30 bg-red-900/20 p-4 text-red-100 backdrop-blur-sm">
                 <p className="mb-1 text-base font-semibold">
-                  {viewState === "denied" ? "Tillatelse nektet" : "Kunne ikke hente posisjon"}
+                  {viewState === "denied" ? t("permissionDenied") : t("couldNotGetPosition")}
                 </p>
                 <p className="text-sm">{errorMessage}</p>
               </div>
@@ -205,7 +201,7 @@ export function HeroSection({
                 onClick={handleGetLocation}
                 className="inline-flex items-center gap-2 rounded-lg border-2 border-white/30 bg-transparent px-6 py-3 text-base font-semibold text-white transition hover:bg-white/10"
               >
-                Prøv på nytt
+                {t("tryAgain")}
               </button>
             </div>
           )}
@@ -214,7 +210,7 @@ export function HeroSection({
           {viewState === "success" && courses.length > 0 && (
             <div>
               <div className="mb-4 text-center">
-                <p className="text-lg font-semibold text-green-50">Golfbaner i nærheten</p>
+                <p className="text-lg font-semibold text-green-50">{t("nearbyCourses")}</p>
               </div>
 
               <div className="grid gap-3 sm:grid-cols-3">
@@ -267,11 +263,11 @@ export function HeroSection({
 
                       {/* Course Details */}
                       <div className="flex items-center gap-2 text-xs text-green-100 md:text-sm">
-                        <span>{course.holes} hull</span>
+                        <span>{t("holes", { count: course.holes })}</span>
                         {course.par && (
                           <>
                             <span className="text-green-300">•</span>
-                            <span>Par {course.par}</span>
+                            <span>{t("par", { value: course.par })}</span>
                           </>
                         )}
                       </div>
@@ -290,7 +286,7 @@ export function HeroSection({
                   }}
                   className="text-sm font-medium text-green-100 transition hover:text-white"
                 >
-                  Søk på nytt
+                  {t("searchAgain")}
                 </button>
               </div>
             </div>

@@ -7,7 +7,8 @@
   "header": {
     "regions": "Fylke",
     "about": "Om oss",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "switchLanguage": "English"
   },
   "footer": {
     "aboutTitle": "Om golfkart.no",
@@ -376,8 +377,7 @@
     "section7RightPortabilityText": "Du kan be om å motta opplysningene i et strukturert format",
     "section7RightObjection": "Rett til å protestere:",
     "section7RightObjectionText": "Du kan protestere mot vår behandling av opplysningene dine",
-    "section7ExerciseRights": "For å utøve disse rettighetene, vennligst kontakt oss via {link}.",
-    "section7ContactForm": "kontaktskjemaet",
+    "section7ExerciseRights": "For å utøve disse rettighetene, vennligst kontakt oss via <link>kontaktskjemaet</link>.",
     "section8Title": "8. Lenker til andre nettsteder",
     "section8Text": "Vårt nettsted inneholder lenker til eksterne nettsteder (f.eks. golfbanenes egne nettsider). Vi er ikke ansvarlige for personvernpraksisen eller innholdet på disse eksterne nettstedene. Vi oppfordrer deg til å lese personvernerklæringen til hvert nettsted du besøker.",
     "section9Title": "9. Barns personvern",
@@ -385,10 +385,8 @@
     "section10Title": "10. Endringer i personvernerklæringen",
     "section10Text": "Vi kan oppdatere denne personvernerklæringen fra tid til annen. Vi vil varsle deg om eventuelle endringer ved å legge ut den nye personvernerklæringen på denne siden og oppdatere «Sist oppdatert»-datoen. Vi oppfordrer deg til å gjennomgå denne personvernerklæringen regelmessig for eventuelle endringer.",
     "section11Title": "11. Kontakt oss",
-    "section11Text": "Hvis du har spørsmål om denne personvernerklæringen, vennligst kontakt oss via {link}.",
-    "section11ContactForm": "kontaktskjemaet vårt",
-    "acceptanceNotice": "Ved å bruke golfkart.no godtar du denne personvernerklæringen og vår {link}.",
-    "termsLink": "bruksvilkår"
+    "section11Text": "Hvis du har spørsmål om denne personvernerklæringen, vennligst kontakt oss via <link>kontaktskjemaet vårt</link>.",
+    "acceptanceNotice": "Ved å bruke golfkart.no godtar du denne personvernerklæringen og vår <link>bruksvilkår</link>."
   },
   "terms": {
     "metaTitle": "Bruksvilkår - golfkart.no",
@@ -461,12 +459,10 @@
     "section11Title": "11. Endringer i vilkårene",
     "section11Text": "Vi forbeholder oss retten til å endre disse bruksvilkårene når som helst. Endringer trer i kraft umiddelbart ved publisering på denne siden. Din fortsatte bruk av nettstedet etter endringer utgjør aksept av de nye vilkårene.",
     "section12Title": "12. Kontakt",
-    "section12Text": "Hvis du har spørsmål om disse bruksvilkårene, ønsker tillatelse til spesiell bruk av innholdet, eller ønsker å rapportere mistenkelig aktivitet, vennligst kontakt oss via {link}.",
-    "section12ContactForm": "kontaktskjemaet vårt",
+    "section12Text": "Hvis du har spørsmål om disse bruksvilkårene, ønsker tillatelse til spesiell bruk av innholdet, eller ønsker å rapportere mistenkelig aktivitet, vennligst kontakt oss via <link>kontaktskjemaet vårt</link>.",
     "scrapingNoticeTitle": "Juridisk varsel om scraping",
     "scrapingNoticeText": "Automatisk dataskraping, systematisk nedlasting eller annen uautorisert massekopiering av innhold fra golfkart.no er strengt forbudt og kan medføre juridiske konsekvenser. Alle forsøk på slik aktivitet blir logget og overvåket. For legitim databruk eller API-tilgang, vennligst kontakt oss for tillatelse.",
-    "acceptanceNotice": "Ved å bruke golfkart.no godtar du disse bruksvilkårene og vår {link}.",
-    "privacyLink": "personvernerklæring"
+    "acceptanceNotice": "Ved å bruke golfkart.no godtar du disse bruksvilkårene og vår <link>personvernerklæring</link>."
   },
   "blog": {
     "metaTitle": "Blogg - golfkart.no",

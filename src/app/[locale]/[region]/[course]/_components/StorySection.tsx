@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import type { Course, PlacePhoto } from "@/types/course";
 
 interface StorySectionProps {
@@ -7,6 +8,7 @@ interface StorySectionProps {
 }
 
 export function StorySection({ course, photos }: StorySectionProps) {
+  const t = useTranslations("storySection");
   if (!course.description) return null;
 
   // Split description into lead (first sentence) and rest
@@ -24,8 +26,10 @@ export function StorySection({ course, photos }: StorySectionProps) {
         <div>
           {/* Section Header */}
           <div className="mb-8 flex items-baseline gap-4">
-            <span className="font-serif text-6xl font-normal text-v3d-accent">01</span>
-            <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Historien</h2>
+            <span className="font-serif text-6xl font-normal text-v3d-accent">
+              {t("sectionNumber")}
+            </span>
+            <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">{t("title")}</h2>
           </div>
 
           {/* Lead Paragraph */}
@@ -50,15 +54,13 @@ export function StorySection({ course, photos }: StorySectionProps) {
             {galleryPhotos[0] ? (
               <Image
                 src={galleryPhotos[0].url}
-                alt="Banen fra luften"
+                alt={t("aerialImage")}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 560px"
               />
             ) : (
-              <span className="text-xs text-v3d-text-light">
-                [ Galleribilde 1 - Banen fra luften ]
-              </span>
+              <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder1")}</span>
             )}
           </div>
 
@@ -67,26 +69,26 @@ export function StorySection({ course, photos }: StorySectionProps) {
             {galleryPhotos[1] ? (
               <Image
                 src={galleryPhotos[1].url}
-                alt="Hull"
+                alt={t("holeImage")}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
               />
             ) : (
-              <span className="text-xs text-v3d-text-light">[ Hull 14 ]</span>
+              <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder2")}</span>
             )}
           </div>
           <div className="relative flex aspect-square items-center justify-center overflow-hidden rounded-lg border border-dashed border-v3d-border bg-v3d-warm">
             {galleryPhotos[2] ? (
               <Image
                 src={galleryPhotos[2].url}
-                alt="Klubbhuset"
+                alt={t("clubhouseImage")}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
               />
             ) : (
-              <span className="text-xs text-v3d-text-light">[ Klubbhuset ]</span>
+              <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder3")}</span>
             )}
           </div>
         </div>

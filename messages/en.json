@@ -7,7 +7,8 @@
   "header": {
     "regions": "Regions",
     "about": "About Us",
-    "contact": "Contact"
+    "contact": "Contact",
+    "switchLanguage": "Norsk"
   },
   "footer": {
     "aboutTitle": "About golfkart.no",
@@ -376,8 +377,7 @@
     "section7RightPortabilityText": "You may request to receive your data in a structured format",
     "section7RightObjection": "Right to object:",
     "section7RightObjectionText": "You may object to our processing of your data",
-    "section7ExerciseRights": "To exercise these rights, please contact us via the {link}.",
-    "section7ContactForm": "contact form",
+    "section7ExerciseRights": "To exercise these rights, please contact us via the <link>contact form</link>.",
     "section8Title": "8. Links to Other Websites",
     "section8Text": "Our website contains links to external websites (e.g. golf courses' own websites). We are not responsible for the privacy practices or content of these external websites. We encourage you to read the privacy policy of each website you visit.",
     "section9Title": "9. Children's Privacy",
@@ -385,10 +385,8 @@
     "section10Title": "10. Changes to the Privacy Policy",
     "section10Text": "We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page and updating the \"Last updated\" date. We encourage you to review this privacy policy regularly for any changes.",
     "section11Title": "11. Contact Us",
-    "section11Text": "If you have questions about this privacy policy, please contact us via our {link}.",
-    "section11ContactForm": "contact form",
-    "acceptanceNotice": "By using golfkart.no you accept this privacy policy and our {link}.",
-    "termsLink": "terms of use"
+    "section11Text": "If you have questions about this privacy policy, please contact us via our <link>contact form</link>.",
+    "acceptanceNotice": "By using golfkart.no you accept this privacy policy and our <link>terms of use</link>."
   },
   "terms": {
     "metaTitle": "Terms of Use - golfkart.no",
@@ -461,12 +459,10 @@
     "section11Title": "11. Changes to the Terms",
     "section11Text": "We reserve the right to change these terms of use at any time. Changes take effect immediately upon publication on this page. Your continued use of the website after changes constitutes acceptance of the new terms.",
     "section12Title": "12. Contact",
-    "section12Text": "If you have questions about these terms of use, wish to request permission for special use of the content, or wish to report suspicious activity, please contact us via our {link}.",
-    "section12ContactForm": "contact form",
+    "section12Text": "If you have questions about these terms of use, wish to request permission for special use of the content, or wish to report suspicious activity, please contact us via our <link>contact form</link>.",
     "scrapingNoticeTitle": "Legal Notice on Scraping",
     "scrapingNoticeText": "Automated data scraping, systematic downloading or other unauthorised mass copying of content from golfkart.no is strictly prohibited and may result in legal consequences. All attempts at such activity are logged and monitored. For legitimate data use or API access, please contact us for permission.",
-    "acceptanceNotice": "By using golfkart.no you accept these terms of use and our {link}.",
-    "privacyLink": "privacy policy"
+    "acceptanceNotice": "By using golfkart.no you accept these terms of use and our <link>privacy policy</link>."
   },
   "blog": {
     "metaTitle": "Blog - golfkart.no",

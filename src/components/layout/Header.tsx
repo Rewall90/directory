@@ -1,10 +1,12 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations, useLocale } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
+  const t = useTranslations("header");
+  const locale = useLocale();
   const pathname = usePathname();
   const isHomePage = pathname === "/";
 
@@ -69,7 +71,7 @@ export function Header() {
                 : "text-base font-medium text-white transition-colors hover:text-yellow-400 md:text-lg"
             }
           >
-            Fylke
+            {t("regions")}
           </Link>
           <Link
             href="/about"
@@ -79,7 +81,7 @@ export function Header() {
                 : "text-base font-medium text-white transition-colors hover:text-yellow-400 md:text-lg"
             }
           >
-            Om oss
+            {t("about")}
           </Link>
           <Link
             href="/contact"
@@ -89,7 +91,19 @@ export function Header() {
                 : "text-base font-medium text-white transition-colors hover:text-yellow-400 md:text-lg"
             }
           >
-            Kontakt
+            {t("contact")}
+          </Link>
+
+          <Link
+            href={pathname}
+            locale={locale === "nb" ? "en" : "nb"}
+            className={
+              isHomePage
+                ? "text-base font-medium text-green-100 transition-colors hover:text-yellow-400 md:text-lg"
+                : "text-base font-medium text-white transition-colors hover:text-yellow-400 md:text-lg"
+            }
+          >
+            {t("switchLanguage")}
           </Link>
 
           {/* Theme Toggle */}

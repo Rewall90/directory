@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { getCoursesByRegion, getRegions } from "@/lib/courses";
 import type { Course } from "@/types/course";
 import { CourseCard } from "@/components/courses/CourseCard";
@@ -71,7 +71,8 @@ function adaptCourseForCard(course: Course): CardCourse {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { region } = await params;
+  const { locale, region } = await params;
+  const t = await getTranslations({ locale, namespace: "region" });
   const displayName = resolveDisplayName(region);
 
   // Fetch courses for the region to get count
@@ -79,8 +80,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const courses = getCoursesByRegion(regionSlug);
   const courseCount = courses.length;
 
-  const title = `Golfbaner i ${displayName} - ${courseCount} Klubber`;
-  const description = `Finn alle golfbaner og golfklubber i ${displayName}. Se informasjon om ${courseCount} klubber med kart, priser, åpningstider og fasiliteter.`;
+  const title = t("metaTitle", { region: displayName, count: courseCount });
+  const description = t("metaDescription", { region: displayName, count: courseCount });
 
   return {
     title,
@@ -100,6 +101,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function RegionPage({ params }: Props) {
   const { locale, region } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("region");
 
   // Check if it's a valid region FIRST
   const normalized = toRegionSlug(region);
@@ -142,37 +144,38 @@ export default async function RegionPage({ params }: Props) {
         {/* Breadcrumb */}
         <nav className="mb-6 text-sm text-text-secondary">
           <Link href="/" className="hover:text-primary">
-            Hjem
+            {t("breadcrumbHome")}
           </Link>
           <span className="mx-2">/</span>
           <Link href="/regions" className="hover:text-primary">
-            Fylke
+            {t("breadcrumbRegions")}
           </Link>
           <span className="mx-2">/</span>
           <span className="text-text-primary">{displayName}</span>
         </nav>
 
         {/* Region Header */}
-        <h1 className="mb-4 text-3xl font-bold text-text-primary">Golfbaner i {displayName}</h1>
+        <h1 className="mb-4 text-3xl font-bold text-text-primary">
+          {t("pageTitle", { region: displayName })}
+        </h1>
 
         {sortedCourses.length === 0 ? (
           /* Empty State */
           <div className="mt-8 rounded-lg bg-background-surface p-12 text-center shadow-sm">
             <p className="mb-2 text-lg text-text-primary">
-              Vi har ingen golfbaner registrert i {displayName} ennå.
+              {t("emptyTitle", { region: displayName })}
             </p>
-            <p className="mb-6 text-text-secondary">
-              Vi jobber med å legge til flere baner i denne regionen.
-            </p>
+            <p className="mb-6 text-text-secondary">{t("emptySubtitle")}</p>
             <Link href="/" className="inline-block text-primary hover:underline">
-              ← Tilbake til forsiden
+              {t("backToHome")}
             </Link>
           </div>
         ) : (
           <>
             <p className="mb-8 text-text-secondary">
-              {sortedCourses.length} golfban{sortedCourses.length !== 1 ? "er" : "e"} i{" "}
-              {displayName}
+              {sortedCourses.length !== 1
+                ? t("courseCount", { count: sortedCourses.length, region: displayName })
+                : t("courseCountSingular", { count: sortedCourses.length, region: displayName })}
             </p>
 
             {/* Course List */}

@@ -1,4 +1,7 @@
-import Link from "next/link";
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import { StarRating } from "./StarRating";
 
@@ -26,6 +29,7 @@ interface CourseCardProps {
 }
 
 export function CourseCard({ course }: CourseCardProps) {
+  const t = useTranslations("courseCard");
   // Calculate weighted average rating and total reviews
   const ratingData = calculateRating(course.ratings || []);
 
@@ -72,8 +76,10 @@ export function CourseCard({ course }: CourseCardProps) {
                 <StarRating rating={ratingData.averageRating} />
                 <span className="font-medium">{ratingData.averageRating.toFixed(1)}</span>
                 <span className="text-text-tertiary">
-                  • {ratingData.totalReviews} anmeldelse
-                  {ratingData.totalReviews !== 1 ? "r" : ""}
+                  •{" "}
+                  {ratingData.totalReviews !== 1
+                    ? t("reviews", { count: ratingData.totalReviews })
+                    : t("reviewSingular", { count: ratingData.totalReviews })}
                 </span>
               </div>
             )}
@@ -84,13 +90,13 @@ export function CourseCard({ course }: CourseCardProps) {
             )}
 
             {/* Holes */}
-            {course.holes && <span>{course.holes} hull</span>}
+            {course.holes && <span>{t("holes", { count: course.holes })}</span>}
 
             {/* Par */}
             {course.par && (
               <>
                 <span className="text-text-tertiary">•</span>
-                <span>Par {course.par}</span>
+                <span>{t("par", { value: course.par })}</span>
               </>
             )}
           </div>
@@ -99,7 +105,7 @@ export function CourseCard({ course }: CourseCardProps) {
         {/* Right: Button */}
         <div className="flex-shrink-0">
           <span className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-content transition group-hover:bg-primary-light">
-            Se Bane
+            {t("viewCourse")}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"

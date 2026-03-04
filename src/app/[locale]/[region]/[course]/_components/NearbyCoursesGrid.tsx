@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import type { Course } from "@/types/course";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import { calculateAverageRating } from "@/lib/courses";
@@ -11,14 +12,17 @@ interface NearbyCoursesGridProps {
 }
 
 export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
+  const t = useTranslations("nearbyCourses");
   if (courses.length === 0) return null;
 
   return (
     <section className="mx-auto max-w-[1200px] px-8 py-20">
       {/* Section Header */}
       <div className="mb-8 flex items-baseline gap-4">
-        <span className="font-serif text-6xl font-normal text-v3d-accent">06</span>
-        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Nærliggende baner</h2>
+        <span className="font-serif text-6xl font-normal text-v3d-accent">
+          {t("sectionNumber")}
+        </span>
+        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">{t("title")}</h2>
       </div>
 
       {/* Course Cards */}
@@ -34,7 +38,7 @@ export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
             >
               {/* Image Placeholder */}
               <div className="flex h-[120px] items-center justify-center bg-v3d-accent text-xs text-v3d-text-light">
-                [ Bilde ]
+                {t("imagePlaceholder")}
               </div>
 
               {/* Content */}
@@ -43,7 +47,7 @@ export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
                   {course.name}
                 </h3>
                 <div className="flex gap-3 text-sm text-v3d-text-muted">
-                  <span>{course.course.holes} hull</span>
+                  <span>{t("holes", { count: course.course.holes })}</span>
                   {ratingData && <span>⭐ {ratingData.averageRating.toFixed(1)}</span>}
                   {distanceKm && (
                     <span className="font-semibold text-v3d-forest">

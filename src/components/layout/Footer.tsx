@@ -1,9 +1,11 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { CookieSettingsButton } from "@/components/cookie-consent";
 
 export function Footer() {
+  const t = useTranslations("footer");
   return (
     <footer className="border-border-default bg-background-elevated border-t">
       <div className="container mx-auto max-w-[1170px] px-4 py-8">
@@ -11,33 +13,35 @@ export function Footer() {
           {/* About Section */}
           <div>
             <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">
-              Om golfkart.no
+              {t("aboutTitle")}
             </h3>
-            <p className="text-sm text-text-secondary">Din komplette guide til golfbaner i Norge</p>
+            <p className="text-sm text-text-secondary">{t("aboutDescription")}</p>
           </div>
 
           {/* Navigation Links */}
           <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">Navigasjon</h3>
+            <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">
+              {t("navigationTitle")}
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/regions" className="text-text-secondary hover:text-primary">
-                  Fylke
+                  {t("regions")}
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="text-text-secondary hover:text-primary">
-                  Blogg
+                  {t("blog")}
                 </Link>
               </li>
               <li>
                 <Link href="/about" className="text-text-secondary hover:text-primary">
-                  Om oss
+                  {t("about")}
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-text-secondary hover:text-primary">
-                  Kontakt
+                  {t("contact")}
                 </Link>
               </li>
             </ul>
@@ -45,16 +49,18 @@ export function Footer() {
 
           {/* Legal Links */}
           <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">Juridisk</h3>
+            <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">
+              {t("legalTitle")}
+            </h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/privacy" className="text-text-secondary hover:text-primary">
-                  Personvern
+                  {t("privacy")}
                 </Link>
               </li>
               <li>
                 <Link href="/terms" className="text-text-secondary hover:text-primary">
-                  Bruksvilkår
+                  {t("terms")}
                 </Link>
               </li>
               <li>
@@ -67,7 +73,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 border-t border-border-subtle pt-6 text-center">
           <p className="text-sm text-text-tertiary">
-            © {new Date().getFullYear()} golfkart.no. Alle rettigheter reservert.
+            {t("copyright", { year: new Date().getFullYear() })}
           </p>
         </div>
       </div>

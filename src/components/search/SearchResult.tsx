@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 
 interface SearchResultProps {
@@ -20,6 +23,8 @@ export function SearchResult({
   slug,
   isActive = false,
 }: SearchResultProps) {
+  const t = useTranslations("search");
+
   return (
     <Link
       href={`/${toRegionSlug(region)}/${slug}`}
@@ -37,8 +42,8 @@ export function SearchResult({
           </div>
         </div>
         <div className="flex shrink-0 flex-col items-end text-sm text-text-tertiary">
-          <span>{holes} hull</span>
-          {par && <span className="text-xs">Par {par}</span>}
+          <span>{t("holes", { count: holes })}</span>
+          {par && <span className="text-xs">{t("par", { value: par })}</span>}
         </div>
       </div>
     </Link>

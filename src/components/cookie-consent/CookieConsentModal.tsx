@@ -1,13 +1,31 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 import { useCookieConsent } from "./useCookieConsent";
 import type { CookieConsent } from "./types";
 import { COOKIE_CATEGORIES } from "./types";
 
+const CATEGORY_NAME_KEYS: Record<string, string> = {
+  necessary: "categoryNecessary",
+  functional: "categoryFunctional",
+  analytics: "categoryAnalytics",
+  performance: "categoryPerformance",
+  advertising: "categoryAdvertising",
+};
+
+const CATEGORY_DESC_KEYS: Record<string, string> = {
+  necessary: "categoryNecessaryDesc",
+  functional: "categoryFunctionalDesc",
+  analytics: "categoryAnalyticsDesc",
+  performance: "categoryPerformanceDesc",
+  advertising: "categoryAdvertisingDesc",
+};
+
 export function CookieConsentModal() {
   const { showModal, closeModal, updateConsent, preferences, rejectAll, acceptAll } =
     useCookieConsent();
+  const t = useTranslations("cookieConsent");
   const [selectedCategories, setSelectedCategories] = useState<CookieConsent>({
     necessary: true,
     functional: false,
@@ -17,7 +35,6 @@ export function CookieConsentModal() {
   });
   const [showMoreInfo, setShowMoreInfo] = useState(false);
 
-  // Update local state when preferences change
   useEffect(() => {
     if (preferences) {
       setSelectedCategories(preferences.categories);
@@ -27,7 +44,7 @@ export function CookieConsentModal() {
   if (!showModal) return null;
 
   const handleCategoryToggle = (categoryId: keyof CookieConsent) => {
-    if (categoryId === "necessary") return; // Can't toggle necessary cookies
+    if (categoryId === "necessary") return;
 
     setSelectedCategories((prev) => ({
       ...prev,
@@ -47,14 +64,12 @@ export function CookieConsentModal() {
       aria-modal="true"
     >
       <div className="flex min-h-screen items-center justify-center px-4 pb-20 pt-4 text-center sm:block sm:p-0">
-        {/* Background overlay */}
         <div
           className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
           aria-hidden="true"
           onClick={closeModal}
         ></div>
 
-        {/* Modal panel */}
         <div className="border-border-default inline-block transform overflow-hidden rounded-lg border bg-background text-left align-bottom shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-2xl sm:align-middle">
           <div className="bg-background px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
             <div className="sm:flex sm:items-start">
@@ -64,12 +79,12 @@ export function CookieConsentModal() {
                     className="text-2xl font-semibold leading-6 text-text-primary"
                     id="cookie-modal-title"
                   >
-                    Tilpass samtykkepreferanser
+                    {t("modalTitle")}
                   </h3>
                   <button
                     onClick={closeModal}
                     className="hover:bg-background-elevated rounded-full p-1 text-text-tertiary transition-colors duration-200 hover:text-text-secondary focus:outline-none focus:ring-2 focus:ring-primary"
-                    aria-label="Lukk modal"
+                    aria-label={t("closeModal")}
                   >
                     <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path
@@ -84,25 +99,12 @@ export function CookieConsentModal() {
 
                 <div className="mt-2">
                   <p className="mb-4 text-sm text-text-secondary">
-                    Vi bruker informasjonskapsler for å hjelpe deg med å navigere effektivt og
-                    utføre visse funksjoner. Du finner detaljert informasjon om alle
-                    informasjonskapsler under hver samtykkekategori nedenfor. Informasjonskapslene
-                    som er kategorisert som «Nødvendige» lagres i nettleseren din da de er
-                    avgjørende for å aktivere de grunnleggende funksjonene til nettstedet.
+                    {t("modalIntro")}
                     {showMoreInfo && (
                       <span>
                         <br />
                         <br />
-                        Vi bruker også tredjeparts informasjonskapsler som hjelper oss med å
-                        analysere hvordan du bruker denne nettsiden, lagrer innstillingene dine og
-                        angir innhold og annonser som er relevante for deg. Disse
-                        informasjonskapslene vil kun bli lagret i nettleseren din med ditt
-                        forhåndssamtykke.
-                        <br />
-                        <br />
-                        Du kan velge å aktivere eller deaktivere noen eller alle disse
-                        informasjonskapslene, men deaktivering av noen av dem kan påvirke
-                        nettleseropplevelsen din.
+                        {t("modalIntroExtra")}
                       </span>
                     )}
                   </p>
@@ -111,7 +113,7 @@ export function CookieConsentModal() {
                     onClick={() => setShowMoreInfo(!showMoreInfo)}
                     className="mb-4 rounded px-2 py-1 text-sm text-primary underline transition-colors duration-200 hover:no-underline focus:outline-none focus:ring-2 focus:ring-primary"
                   >
-                    {showMoreInfo ? "Vis mindre" : "Vis mer"}
+                    {showMoreInfo ? t("showLess") : t("showMore")}
                   </button>
 
                   <div className="max-h-96 space-y-4 overflow-y-auto pr-2">
@@ -123,13 +125,17 @@ export function CookieConsentModal() {
                         <div className="flex items-center justify-between">
                           <div className="flex-1">
                             <h4 className="flex items-center gap-2 text-base font-medium text-text-primary">
-                              <span>{category.name}</span>
+                              <span>
+                                {CATEGORY_NAME_KEYS[category.id]
+                                  ? t(CATEGORY_NAME_KEYS[category.id])
+                                  : category.name}
+                              </span>
                             </h4>
                           </div>
                           <div className="ml-3">
                             {category.required ? (
                               <span className="bg-primary/10 rounded-full px-2 py-1 text-sm font-medium text-primary">
-                                Alltid aktiv
+                                {t("alwaysActive")}
                               </span>
                             ) : (
                               <button
@@ -161,10 +167,14 @@ export function CookieConsentModal() {
                         </div>
                         <details className="mt-2">
                           <summary className="cursor-pointer text-sm font-medium text-text-secondary transition-colors duration-200 hover:text-text-primary">
-                            Les mer om denne kategorien
+                            {t("readMore")}
                           </summary>
                           <div className="mt-2 text-sm text-text-secondary">
-                            <p className="mb-3">{category.description}</p>
+                            <p className="mb-3">
+                              {CATEGORY_DESC_KEYS[category.id]
+                                ? t(CATEGORY_DESC_KEYS[category.id])
+                                : category.description}
+                            </p>
                             {category.cookies && category.cookies.length > 0 && (
                               <div className="space-y-3">
                                 {category.cookies.map((cookie, index) => (
@@ -175,7 +185,7 @@ export function CookieConsentModal() {
                                     <div className="grid grid-cols-1 gap-2 text-xs sm:grid-cols-3">
                                       <div>
                                         <span className="font-medium text-text-primary">
-                                          Informasjonskapsel:
+                                          {t("cookieLabel")}
                                         </span>
                                         <div className="bg-background-elevated mt-1 rounded px-2 py-1 font-mono text-text-secondary">
                                           {cookie.name}
@@ -183,14 +193,14 @@ export function CookieConsentModal() {
                                       </div>
                                       <div>
                                         <span className="font-medium text-text-primary">
-                                          Varighet:
+                                          {t("durationLabel")}
                                         </span>
                                         <div className="text-text-secondary">{cookie.duration}</div>
                                       </div>
                                       {cookie.provider && (
                                         <div>
                                           <span className="font-medium text-text-primary">
-                                            Leverandør:
+                                            {t("providerLabel")}
                                           </span>
                                           <div className="text-text-secondary">
                                             {cookie.provider}
@@ -200,7 +210,7 @@ export function CookieConsentModal() {
                                     </div>
                                     <div className="mt-2">
                                       <span className="font-medium text-text-primary">
-                                        Beskrivelse:
+                                        {t("descriptionLabel")}
                                       </span>
                                       <div className="mt-1 text-text-secondary">
                                         {cookie.description}
@@ -226,21 +236,21 @@ export function CookieConsentModal() {
               onClick={acceptAll}
               className="inline-flex w-full justify-center rounded-md border border-transparent bg-primary px-4 py-2 text-base font-medium text-white shadow-sm transition-colors duration-200 hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm"
             >
-              Aksepter alt
+              {t("acceptAll")}
             </button>
             <button
               type="button"
               onClick={handleSavePreferences}
               className="border-border-default hover:bg-background-elevated inline-flex w-full justify-center rounded-md border bg-background px-4 py-2 text-base font-medium text-text-primary shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:ml-3 sm:w-auto sm:text-sm"
             >
-              Lagre mine preferanser
+              {t("savePreferences")}
             </button>
             <button
               type="button"
               onClick={rejectAll}
               className="border-border-default hover:bg-background-elevated mt-3 inline-flex w-full justify-center rounded-md border bg-background px-4 py-2 text-base font-medium text-text-secondary shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:mt-0 sm:w-auto sm:text-sm"
             >
-              Avvis
+              {t("reject")}
             </button>
           </div>
         </div>

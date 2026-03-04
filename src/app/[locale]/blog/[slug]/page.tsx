@@ -405,11 +405,14 @@ export default async function BloggPage(props: PageProps) {
               {mdxContent.frontMatter.publishedAt && (
                 <span>
                   Publisert{" "}
-                  {new Date(mdxContent.frontMatter.publishedAt).toLocaleDateString("nb-NO", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
+                  {new Date(mdxContent.frontMatter.publishedAt).toLocaleDateString(
+                    params.locale === "en" ? "en-GB" : "nb-NO",
+                    {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    },
+                  )}
                 </span>
               )}
             </div>

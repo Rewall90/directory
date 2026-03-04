@@ -1,28 +1,32 @@
-import Link from "next/link";
-import { setRequestLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllMDX } from "@/lib/mdx";
-
-export const metadata = {
-  title: "Blogg - golfkart.no",
-  description: "Les våre blogginnlegg om golfbaner, tips og nyheter fra golfverdenen i Norge",
-};
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
 
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "blog" });
+
+  return {
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+  };
+}
+
 export default async function BloggPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("blog");
   const posts = getAllMDX("blogg");
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
       <header className="mb-12">
-        <h1 className="mb-4 text-4xl font-bold text-primary">Blogg</h1>
-        <p className="text-base-content/70 text-xl">
-          Les våre artikler om golfbaner, tips og nyheter fra golfverdenen
-        </p>
+        <h1 className="mb-4 text-4xl font-bold text-primary">{t("pageTitle")}</h1>
+        <p className="text-base-content/70 text-xl">{t("subtitle")}</p>
       </header>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -49,11 +53,14 @@ export default async function BloggPage({ params }: Props) {
 
               {post.frontMatter.publishedAt && (
                 <span className="text-sm text-text-tertiary">
-                  {new Date(post.frontMatter.publishedAt).toLocaleDateString("nb-NO", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
+                  {new Date(post.frontMatter.publishedAt).toLocaleDateString(
+                    locale === "en" ? "en-GB" : "nb-NO",
+                    {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    },
+                  )}
                 </span>
               )}
             </Link>
@@ -63,7 +70,7 @@ export default async function BloggPage({ params }: Props) {
 
       {posts.length === 0 && (
         <div className="text-center">
-          <p className="text-base-content/60">Ingen blogginnlegg tilgjengelig ennå.</p>
+          <p className="text-base-content/60">{t("noPosts")}</p>
         </div>
       )}
     </div>

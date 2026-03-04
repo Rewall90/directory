@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import type { Course } from "@/types/course";
 import { WeatherWidget } from "./WeatherWidget";
 
@@ -6,6 +7,7 @@ interface ContactSectionProps {
 }
 
 export function ContactSection({ course }: ContactSectionProps) {
+  const t = useTranslations("contactSection");
   const addressLines = [
     [course.address.street, course.address.area].filter(Boolean).join(", "),
     `${course.address.postalCode} ${course.city}`,
@@ -17,8 +19,10 @@ export function ContactSection({ course }: ContactSectionProps) {
     <section className="mx-auto max-w-[1200px] px-8 py-20">
       {/* Section Header */}
       <div className="mb-8 flex items-baseline gap-4">
-        <span className="font-serif text-6xl font-normal text-v3d-accent">04</span>
-        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Finn oss</h2>
+        <span className="font-serif text-6xl font-normal text-v3d-accent">
+          {t("sectionNumber")}
+        </span>
+        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">{t("title")}</h2>
       </div>
 
       <div className="grid gap-12 md:grid-cols-[1.5fr_1fr]">
@@ -34,7 +38,7 @@ export function ContactSection({ course }: ContactSectionProps) {
             />
           ) : (
             <div className="flex h-[300px] items-center justify-center bg-gradient-to-br from-v3d-warm to-v3d-accent text-v3d-text-light">
-              [ Google Maps embed ]
+              {t("mapPlaceholder")}
             </div>
           )}
 
@@ -58,7 +62,7 @@ export function ContactSection({ course }: ContactSectionProps) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-medium text-v3d-forest transition-all hover:gap-3"
               >
-                Få veibeskrivelse →
+                {t("getDirections")}
               </a>
             )}
           </div>
@@ -68,7 +72,9 @@ export function ContactSection({ course }: ContactSectionProps) {
         <div className="space-y-4">
           {/* Contact Card */}
           <div className="rounded-xl border border-v3d-border bg-v3d-warm p-6">
-            <h3 className="mb-6 font-serif text-xl font-medium text-v3d-text-dark">Kontakt oss</h3>
+            <h3 className="mb-6 font-serif text-xl font-medium text-v3d-text-dark">
+              {t("contactUs")}
+            </h3>
 
             <div className="space-y-4">
               {/* Phone */}
@@ -79,7 +85,7 @@ export function ContactSection({ course }: ContactSectionProps) {
                   </div>
                   <div>
                     <small className="block text-xs uppercase tracking-wider text-v3d-text-light">
-                      Telefon
+                      {t("phone")}
                     </small>
                     <a href={`tel:${primaryPhone.number}`} className="font-medium text-v3d-forest">
                       {primaryPhone.number}
@@ -96,7 +102,7 @@ export function ContactSection({ course }: ContactSectionProps) {
                   </div>
                   <div>
                     <small className="block text-xs uppercase tracking-wider text-v3d-text-light">
-                      E-post
+                      {t("email")}
                     </small>
                     <a
                       href={`mailto:${course.contact.email}`}
@@ -116,7 +122,7 @@ export function ContactSection({ course }: ContactSectionProps) {
                   </div>
                   <div>
                     <small className="block text-xs uppercase tracking-wider text-v3d-text-light">
-                      Nettside
+                      {t("website")}
                     </small>
                     <a
                       href={course.contact.website}
@@ -135,7 +141,9 @@ export function ContactSection({ course }: ContactSectionProps) {
           {/* Weather Widget */}
           {course.coordinates && (
             <div className="rounded-xl bg-gradient-to-br from-v3d-forest to-v3d-forest-light p-6 text-white">
-              <h4 className="mb-4 text-xs uppercase tracking-widest opacity-80">Været på banen</h4>
+              <h4 className="mb-4 text-xs uppercase tracking-widest opacity-80">
+                {t("weatherOnCourse")}
+              </h4>
               <WeatherWidget lat={course.coordinates.lat} lng={course.coordinates.lng} />
             </div>
           )}

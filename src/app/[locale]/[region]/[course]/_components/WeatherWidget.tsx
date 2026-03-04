@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import {
   getWeatherEmoji,
   getWindDirection,
@@ -28,6 +29,7 @@ interface WeatherWidgetProps {
 }
 
 export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
+  const t = useTranslations("weather");
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
@@ -85,25 +87,23 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
 
   const formatUpdateTime = () => {
     if (dataAge < 60) {
-      return `${dataAge} minutter siden`;
+      return t("minutesAgo", { count: dataAge });
     } else if (dataAge < 1440) {
       const hours = Math.floor(dataAge / 60);
-      return `${hours} time${hours > 1 ? "r" : ""} siden`;
+      return hours === 1 ? t("hourAgo", { count: hours }) : t("hoursAgo", { count: hours });
     } else {
       const days = Math.floor(dataAge / 1440);
-      return `${days} dag${days > 1 ? "er" : ""} siden`;
+      return days === 1 ? t("dayAgo", { count: days }) : t("daysAgo", { count: days });
     }
   };
 
   return (
     <div>
       <div className="mb-3 flex items-center justify-between">
-        <h3 className="text-sm font-medium uppercase tracking-wide text-white/80">Vær nå</h3>
-        {isStale && (
-          <span className="text-xs text-white/60" title="Værdata kan være utdatert">
-            Utdatert
-          </span>
-        )}
+        <h3 className="text-sm font-medium uppercase tracking-wide text-white/80">
+          {t("currentWeather")}
+        </h3>
+        {isStale && <span className="text-xs text-white/60">{t("outdated")}</span>}
       </div>
 
       {/* Main Weather Display */}
@@ -118,7 +118,7 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
           <div className="text-sm text-white/80">{translatedCondition}</div>
           {weather.feelsLike && weather.feelsLike !== weather.temp && (
             <div className="text-xs text-white/60">
-              Føles som {formatTemperature(weather.feelsLike)}
+              {t("feelsLike", { temp: formatTemperature(weather.feelsLike) })}
             </div>
           )}
         </div>
@@ -131,7 +131,7 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <span>💨</span>
-              <span>Vind</span>
+              <span>{t("wind")}</span>
             </span>
             <span className="font-medium text-white">
               {Math.round(weather.windSpeed)} km/t {windDir}
@@ -144,7 +144,7 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <span>💧</span>
-              <span>Fuktighet</span>
+              <span>{t("humidity")}</span>
             </span>
             <span className="font-medium text-white">{weather.humidity}%</span>
           </div>
@@ -155,7 +155,7 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <span>🌧️</span>
-              <span>Nedbør</span>
+              <span>{t("precipitation")}</span>
             </span>
             <span className="font-medium text-white">{weather.precipChance}%</span>
           </div>
@@ -166,13 +166,15 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <span>☀️</span>
-              <span>UV-indeks</span>
+              <span>{t("uvIndex")}</span>
             </span>
             <span className="font-medium text-white">
               {weather.uvIndex}
-              {weather.uvIndex >= 8 && <span className="ml-1 text-xs text-yellow-200">(Høy)</span>}
+              {weather.uvIndex >= 8 && (
+                <span className="ml-1 text-xs text-yellow-200">{t("uvHigh")}</span>
+              )}
               {weather.uvIndex >= 6 && weather.uvIndex < 8 && (
-                <span className="ml-1 text-xs text-yellow-100">(Moderat)</span>
+                <span className="ml-1 text-xs text-yellow-100">{t("uvModerate")}</span>
               )}
             </span>
           </div>
@@ -181,12 +183,12 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
 
       {/* Last Updated */}
       <div className="mt-3 border-t border-white/20 pt-2 text-center text-xs text-white/50">
-        Oppdatert {formatUpdateTime()}
+        {t("updated", { time: formatUpdateTime() })}
       </div>
 
       {/* Google Attribution */}
       <div className="mt-1 flex items-center justify-center gap-1 text-xs text-white/50">
-        <span>Drevet av</span>
+        <span>{t("poweredBy")}</span>
         <svg className="h-3 w-3" viewBox="0 0 24 24">
           <path
             fill="currentColor"

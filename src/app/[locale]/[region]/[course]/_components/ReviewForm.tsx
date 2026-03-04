@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface ReviewFormProps {
   courseSlug: string;
@@ -16,7 +17,15 @@ interface ImageFile {
 const MAX_IMAGES = 3;
 const MAX_IMAGE_SIZE = 5 * 1024 * 1024; // 5MB
 
-function StarInput({ rating, onRate }: { rating: number; onRate: (rating: number) => void }) {
+function StarInput({
+  rating,
+  onRate,
+  starAriaLabel,
+}: {
+  rating: number;
+  onRate: (rating: number) => void;
+  starAriaLabel: (count: number) => string;
+}) {
   const [hovered, setHovered] = useState(0);
 
   return (
@@ -29,7 +38,7 @@ function StarInput({ rating, onRate }: { rating: number; onRate: (rating: number
           onMouseLeave={() => setHovered(0)}
           onClick={() => onRate(star)}
           className="p-0.5 transition-transform hover:scale-110"
-          aria-label={`${star} stjerner`}
+          aria-label={starAriaLabel(star)}
         >
           <svg
             viewBox="0 0 24 24"
@@ -55,6 +64,7 @@ function fileToBase64(file: File): Promise<string> {
 }
 
 export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
+  const t = useTranslations("reviewForm");
   const [formData, setFormData] = useState({
     author: "",
     rating: 0,
@@ -84,7 +94,7 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
       if (file.size > MAX_IMAGE_SIZE) {
         setStatus({
           type: "error",
-          message: `${file.name} er for stort (maks 5 MB).`,
+          message: t("fileTooLarge", { name: file.name }),
         });
         continue;
       }
@@ -108,11 +118,11 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
     e.preventDefault();
 
     if (formData.rating === 0) {
-      setStatus({ type: "error", message: "Velg en vurdering (1-5 stjerner)." });
+      setStatus({ type: "error", message: t("ratingRequired") });
       return;
     }
 
-    setStatus({ type: "loading", message: "Sender..." });
+    setStatus({ type: "loading", message: t("submitting") });
 
     try {
       // Convert images to base64
@@ -142,7 +152,7 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
       if (response.ok) {
         setStatus({
           type: "success",
-          message: "Takk for din anmeldelse! Den vil bli gjennomgått før publisering.",
+          message: t("successMessage"),
         });
         setFormData({ author: "", rating: 0, text: "" });
         images.forEach((img) => URL.revokeObjectURL(img.preview));
@@ -150,22 +160,20 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
       } else {
         setStatus({
           type: "error",
-          message: data.error || "Noe gikk galt. Vennligst prøv igjen.",
+          message: data.error || t("genericError"),
         });
       }
     } catch {
       setStatus({
         type: "error",
-        message: "Kunne ikke sende anmeldelsen. Vennligst prøv igjen.",
+        message: t("submitError"),
       });
     }
   };
 
   return (
     <div className="rounded-lg border border-v3d-border bg-v3d-warm p-8">
-      <h3 className="mb-6 font-serif text-xl font-medium text-v3d-text-dark">
-        Skriv en anmeldelse
-      </h3>
+      <h3 className="mb-6 font-serif text-xl font-medium text-v3d-text-dark">{t("title")}</h3>
 
       {status.type === "success" ? (
         <div className="rounded-lg bg-green-50 p-4 text-green-800">{status.message}</div>
@@ -181,7 +189,7 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
               htmlFor="review-author"
               className="mb-2 block text-sm font-medium text-v3d-text-dark"
             >
-              Navn *
+              {t("nameLabel")}
             </label>
             <input
               type="text"
@@ -191,16 +199,19 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
               required
               maxLength={50}
               className="focus:ring-v3d-forest/20 w-full rounded-lg border border-v3d-border bg-white px-4 py-3 text-v3d-text-dark placeholder-gray-400 focus:border-v3d-forest focus:outline-none focus:ring-2"
-              placeholder="Ditt navn"
+              placeholder={t("namePlaceholder")}
             />
           </div>
 
           {/* Rating */}
           <div>
-            <label className="mb-2 block text-sm font-medium text-v3d-text-dark">Vurdering *</label>
+            <label className="mb-2 block text-sm font-medium text-v3d-text-dark">
+              {t("ratingLabel")}
+            </label>
             <StarInput
               rating={formData.rating}
               onRate={(rating) => setFormData((prev) => ({ ...prev, rating }))}
+              starAriaLabel={(count) => t("starAriaLabel", { count })}
             />
           </div>
 
@@ -210,7 +221,7 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
               htmlFor="review-text"
               className="mb-2 block text-sm font-medium text-v3d-text-dark"
             >
-              Din anmeldelse *
+              {t("reviewLabel")}
             </label>
             <textarea
               id="review-text"
@@ -220,17 +231,17 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
               maxLength={1000}
               rows={4}
               className="focus:ring-v3d-forest/20 w-full rounded-lg border border-v3d-border bg-white px-4 py-3 text-v3d-text-dark placeholder-gray-400 focus:border-v3d-forest focus:outline-none focus:ring-2"
-              placeholder="Fortell om din opplevelse på banen..."
+              placeholder={t("reviewPlaceholder")}
             />
             <div className="mt-1 text-right text-xs text-v3d-text-muted">
-              {formData.text.length} / 1000
+              {t("charCount", { count: formData.text.length })}
             </div>
           </div>
 
           {/* Images */}
           <div>
             <label className="mb-2 block text-sm font-medium text-v3d-text-dark">
-              Bilder (valgfritt)
+              {t("imagesLabel")}
             </label>
 
             {/* Image previews */}
@@ -241,7 +252,7 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
                     <div className="relative h-20 w-20 overflow-hidden rounded-lg border border-v3d-border">
                       <Image
                         src={img.preview}
-                        alt={`Bilde ${index + 1}`}
+                        alt={t("imageAlt", { index: index + 1 })}
                         fill
                         className="object-cover"
                         unoptimized
@@ -251,7 +262,7 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
                       type="button"
                       onClick={() => removeImage(index)}
                       className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-xs text-white opacity-0 transition-opacity group-hover:opacity-100"
-                      aria-label="Fjern bilde"
+                      aria-label={t("removeImage")}
                     >
                       &times;
                     </button>
@@ -283,11 +294,11 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
                       d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
                     />
                   </svg>
-                  Legg til bilde ({images.length}/{MAX_IMAGES})
+                  {t("addImage", { count: images.length, max: MAX_IMAGES })}
                 </label>
               </>
             )}
-            <p className="mt-1 text-xs text-v3d-text-muted">Maks 3 bilder, 5 MB per bilde</p>
+            <p className="mt-1 text-xs text-v3d-text-muted">{t("imageLimit")}</p>
           </div>
 
           {/* Submit */}
@@ -296,7 +307,7 @@ export function ReviewForm({ courseSlug, courseName }: ReviewFormProps) {
             disabled={status.type === "loading"}
             className="rounded-lg bg-v3d-forest px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-v3d-forest-light disabled:cursor-not-allowed disabled:opacity-50"
           >
-            {status.type === "loading" ? "Sender..." : "Send anmeldelse"}
+            {status.type === "loading" ? t("submitting") : t("submit")}
           </button>
         </form>
       )}

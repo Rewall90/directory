@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import { HeroSection } from "./_components/HeroSection";
 import { RegionGrid } from "@/components/home/RegionGrid";
 import { InteractiveMap } from "./_components/InteractiveMap";
@@ -20,6 +20,7 @@ type Props = {
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("home");
 
   // Get dynamic data from JSON files
   const regionsWithCounts = getRegionsWithCounts();
@@ -47,18 +48,12 @@ export default async function HomePage({ params }: Props) {
       {/* JSON-LD structured data for SEO */}
       <JsonLdMultiple schemas={schemas} />
 
-      <HeroSection
-        title="golfkart.no - Finn golfbaner i Norge"
-        description={[
-          `Utforsk ${totalCourses} golfbaner i hele Norge – med oppdatert informasjon om fasiliteter, tjenester og brukeranmeldelser.`,
-        ]}
-        courseCount={totalCourses}
-      />
+      <HeroSection courseCount={totalCourses} />
 
       <section className="bg-background py-16">
         <div className="container mx-auto max-w-[1170px] px-4">
           <h2 className="mb-8 text-center text-3xl font-bold text-text-primary md:text-4xl">
-            Norges Golfbaner
+            {t("mapTitle")}
           </h2>
           <div className="flex justify-center">
             <InteractiveMap regions={regions} />
@@ -67,7 +62,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       <section className="bg-background py-16">
-        <RegionGrid title="Utforsk fylker" regions={regions} />
+        <RegionGrid title={t("exploreRegions")} regions={regions} />
       </section>
     </>
   );

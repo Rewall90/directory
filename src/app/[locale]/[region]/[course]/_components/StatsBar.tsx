@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import type { Course } from "@/types/course";
 
 interface StatsBarProps {
@@ -7,23 +8,24 @@ interface StatsBarProps {
 const formatter = new Intl.NumberFormat("no-NO");
 
 export function StatsBar({ course }: StatsBarProps) {
+  const t = useTranslations("statsBar");
   const stats = [
-    { value: course.course.holes, label: "Hull" },
-    { value: course.course.par, label: "Par" },
+    { value: course.course.holes, label: t("holes") },
+    { value: course.course.par, label: t("par") },
     {
       value: course.course.lengthMeters
         ? `${formatter.format(course.course.lengthMeters)} m`
         : null,
-      label: "Lengde",
+      label: t("length"),
     },
-    { value: course.course.yearBuilt, label: "Bygget" },
-    { value: course.course.terrain || course.course.courseType, label: "Banetype" },
+    { value: course.course.yearBuilt, label: t("yearBuilt") },
+    { value: course.course.terrain || course.course.courseType, label: t("courseType") },
     {
       value:
         course.season.start && course.season.end
           ? `${course.season.start}–${course.season.end}`
           : null,
-      label: "Sesong",
+      label: t("season"),
     },
   ].filter((stat) => stat.value != null);
 

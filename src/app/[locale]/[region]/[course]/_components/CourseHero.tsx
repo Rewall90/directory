@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import type { Course, PlacePhoto } from "@/types/course";
 
 interface RatingData {
@@ -36,6 +37,7 @@ export function CourseHero({
   photos,
   googlePlaceId,
 }: CourseHeroProps) {
+  const t = useTranslations("courseHero");
   const heroPhoto = photos[0];
   const accentPhoto = photos[1];
   const googleReviewsUrl = googlePlaceId
@@ -50,7 +52,7 @@ export function CourseHero({
         {course.course.yearBuilt && (
           <div className="mb-6 flex items-center gap-3 text-sm font-semibold uppercase tracking-widest text-v3d-gold">
             <span className="h-px w-10 bg-v3d-gold" />
-            Etablert {course.course.yearBuilt}
+            {t("established", { year: course.course.yearBuilt })}
           </div>
         )}
 
@@ -91,7 +93,7 @@ export function CourseHero({
                   ))}
                 </div>
                 <div className="flex items-center gap-1 text-sm text-v3d-text-muted">
-                  {ratingData.totalReviews.toLocaleString("no-NO")} anmeldelser på Google
+                  {t("googleReviews", { count: ratingData.totalReviews })}
                   {googleReviewsUrl && (
                     <svg
                       className="h-3.5 w-3.5 text-v3d-gold"
@@ -129,8 +131,9 @@ export function CourseHero({
                     ))}
                   </div>
                   <div className="flex items-center gap-1 text-sm text-v3d-text-muted">
-                    {siteReviews.reviewCount}{" "}
-                    {siteReviews.reviewCount === 1 ? "anmeldelse" : "anmeldelser"} på Golfkart.no
+                    {siteReviews.reviewCount === 1
+                      ? t("siteReviewSingular", { count: siteReviews.reviewCount })
+                      : t("siteReviews", { count: siteReviews.reviewCount })}
                     <svg
                       className="h-3.5 w-3.5 text-v3d-forest"
                       fill="none"
@@ -149,9 +152,7 @@ export function CourseHero({
               </>
             ) : (
               <div className="flex w-full items-center justify-between">
-                <span className="text-sm text-v3d-text-muted">
-                  Skriv den første anmeldelsen på Golfkart.no
-                </span>
+                <span className="text-sm text-v3d-text-muted">{t("writeFirstReview")}</span>
                 <svg
                   className="h-4 w-4 text-v3d-forest"
                   fill="none"
@@ -184,7 +185,7 @@ export function CourseHero({
               sizes="(max-width: 768px) 100vw, 600px"
             />
           ) : (
-            <span className="text-sm text-v3d-text-muted">[ Hovedbilde – 800x600 ]</span>
+            <span className="text-sm text-v3d-text-muted">{t("mainImagePlaceholder")}</span>
           )}
         </div>
 
@@ -199,7 +200,7 @@ export function CourseHero({
               sizes="360px"
             />
           ) : (
-            <span className="text-xs text-v3d-text-light">[ Sekundærbilde – klubbhus ]</span>
+            <span className="text-xs text-v3d-text-light">{t("accentImagePlaceholder")}</span>
           )}
         </div>
       </div>

@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export function ContactForm() {
+  const t = useTranslations("contactForm");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -20,7 +22,7 @@ export function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus({ type: "loading", message: "Sender..." });
+    setStatus({ type: "loading", message: t("submitting") });
 
     try {
       const response = await fetch("/api/contact", {
@@ -36,7 +38,7 @@ export function ContactForm() {
       if (response.ok) {
         setStatus({
           type: "success",
-          message: "Takk for din melding! Vi tar kontakt snart.",
+          message: t("successMessage"),
         });
         // Reset form
         setFormData({
@@ -48,13 +50,13 @@ export function ContactForm() {
       } else {
         setStatus({
           type: "error",
-          message: data.error || "Noe gikk galt. Vennligst prøv igjen.",
+          message: data.error || t("genericError"),
         });
       }
     } catch {
       setStatus({
         type: "error",
-        message: "Kunne ikke sende melding. Vennligst prøv igjen.",
+        message: t("submitError"),
       });
     }
   };
@@ -88,7 +90,7 @@ export function ContactForm() {
       {/* Name Field */}
       <div>
         <label htmlFor="name" className="mb-2 block font-semibold text-text-primary">
-          Navn *
+          {t("nameLabel")}
         </label>
         <input
           type="text"
@@ -99,14 +101,14 @@ export function ContactForm() {
           required
           maxLength={100}
           className="border-border-default focus:ring-primary/20 w-full rounded-lg border bg-background-surface px-4 py-3 text-text-primary placeholder-text-tertiary focus:border-primary focus:outline-none focus:ring-2"
-          placeholder="Ditt navn"
+          placeholder={t("namePlaceholder")}
         />
       </div>
 
       {/* Email Field */}
       <div>
         <label htmlFor="email" className="mb-2 block font-semibold text-text-primary">
-          E-post *
+          {t("emailLabel")}
         </label>
         <input
           type="email"
@@ -116,14 +118,14 @@ export function ContactForm() {
           onChange={handleChange}
           required
           className="border-border-default focus:ring-primary/20 w-full rounded-lg border bg-background-surface px-4 py-3 text-text-primary placeholder-text-tertiary focus:border-primary focus:outline-none focus:ring-2"
-          placeholder="din@epost.no"
+          placeholder={t("emailPlaceholder")}
         />
       </div>
 
       {/* Subject Field */}
       <div>
         <label htmlFor="subject" className="mb-2 block font-semibold text-text-primary">
-          Emne *
+          {t("subjectLabel")}
         </label>
         <select
           id="subject"
@@ -133,19 +135,19 @@ export function ContactForm() {
           required
           className="border-border-default focus:ring-primary/20 w-full rounded-lg border bg-background-surface px-4 py-3 text-text-primary focus:border-primary focus:outline-none focus:ring-2"
         >
-          <option value="">Velg emne...</option>
-          <option value="Generell henvendelse">Generell henvendelse</option>
-          <option value="Legg til golfbane">Legg til golfbane</option>
-          <option value="Oppdater baneinformasjon">Oppdater baneinformasjon</option>
-          <option value="Teknisk support">Teknisk support</option>
-          <option value="Annet">Annet</option>
+          <option value="">{t("subjectDefault")}</option>
+          <option value="Generell henvendelse">{t("subjectGeneral")}</option>
+          <option value="Legg til golfbane">{t("subjectAddCourse")}</option>
+          <option value="Oppdater baneinformasjon">{t("subjectUpdateCourse")}</option>
+          <option value="Teknisk support">{t("subjectTechnical")}</option>
+          <option value="Annet">{t("subjectOther")}</option>
         </select>
       </div>
 
       {/* Message Field */}
       <div>
         <label htmlFor="message" className="mb-2 block font-semibold text-text-primary">
-          Melding *
+          {t("messageLabel")}
         </label>
         <textarea
           id="message"
@@ -156,9 +158,11 @@ export function ContactForm() {
           maxLength={5000}
           rows={6}
           className="border-border-default focus:ring-primary/20 w-full rounded-lg border bg-background-surface px-4 py-3 text-text-primary placeholder-text-tertiary focus:border-primary focus:outline-none focus:ring-2"
-          placeholder="Skriv din melding her..."
+          placeholder={t("messagePlaceholder")}
         />
-        <div className="mt-1 text-sm text-text-tertiary">{formData.message.length} / 5000 tegn</div>
+        <div className="mt-1 text-sm text-text-tertiary">
+          {t("charCount", { count: formData.message.length })}
+        </div>
       </div>
 
       {/* Submit Button */}
@@ -167,12 +171,10 @@ export function ContactForm() {
         disabled={status.type === "loading"}
         className="w-full rounded-lg bg-primary px-6 py-3 font-semibold text-white transition-colors hover:bg-primary-dark disabled:cursor-not-allowed disabled:opacity-50"
       >
-        {status.type === "loading" ? "Sender..." : "Send melding"}
+        {status.type === "loading" ? t("submitting") : t("submit")}
       </button>
 
-      <p className="text-sm text-text-tertiary">
-        * Alle felt er påkrevd. Vi svarer vanligvis innen 1-2 virkedager.
-      </p>
+      <p className="text-sm text-text-tertiary">{t("requiredFields")}</p>
     </form>
   );
 }

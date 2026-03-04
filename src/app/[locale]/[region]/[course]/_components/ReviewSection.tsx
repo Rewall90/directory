@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import type { Review } from "@/types/course";
 import { getReviews } from "@/lib/reviews";
 import { ReviewForm } from "./ReviewForm";
@@ -25,6 +26,7 @@ function StarRating({ rating }: { rating: number }) {
 }
 
 function ReviewCard({ review }: { review: Review }) {
+  const t = useTranslations("reviewSection");
   const formattedDate = new Date(review.date).toLocaleDateString("no-NO", {
     year: "numeric",
     month: "long",
@@ -50,7 +52,7 @@ function ReviewCard({ review }: { review: Review }) {
             >
               <Image
                 src={src}
-                alt={`Bilde ${i + 1} fra ${review.author}`}
+                alt={t("imageAlt", { index: i + 1, author: review.author })}
                 fill
                 className="object-cover"
                 sizes="80px"
@@ -64,14 +66,17 @@ function ReviewCard({ review }: { review: Review }) {
 }
 
 export function ReviewSection({ courseSlug, courseName }: ReviewSectionProps) {
+  const t = useTranslations("reviewSection");
   const reviews = getReviews(courseSlug);
 
   return (
     <section id="anmeldelser" className="mx-auto max-w-[1200px] scroll-mt-8 px-8 py-20">
       {/* Section Header */}
       <div className="mb-8 flex items-baseline gap-4">
-        <span className="font-serif text-6xl font-normal text-v3d-accent">05</span>
-        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">Anmeldelser</h2>
+        <span className="font-serif text-6xl font-normal text-v3d-accent">
+          {t("sectionNumber")}
+        </span>
+        <h2 className="font-serif text-2xl font-medium text-v3d-text-dark">{t("title")}</h2>
       </div>
 
       <div className="grid gap-8 md:grid-cols-2">
@@ -85,9 +90,7 @@ export function ReviewSection({ courseSlug, courseName }: ReviewSectionProps) {
             </div>
           ) : (
             <div className="flex h-full items-center justify-center rounded-lg border border-dashed border-v3d-border p-12">
-              <p className="text-center text-v3d-text-muted">
-                Ingen anmeldelser ennå. Bli den første!
-              </p>
+              <p className="text-center text-v3d-text-muted">{t("noReviews")}</p>
             </div>
           )}
         </div>
