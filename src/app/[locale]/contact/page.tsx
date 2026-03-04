@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { ContactForm } from "./_components/ContactForm";
 
 export const metadata: Metadata = {
@@ -6,11 +7,17 @@ export const metadata: Metadata = {
   description:
     "Ta kontakt med golfkart.no. Vi vil gjerne høre fra deg om spørsmål, tilbakemeldinger eller oppdatert informasjon om golfbaner.",
   alternates: {
-    canonical: "/kontakt-oss",
+    canonical: "/contact",
   },
 };
 
-export default function ContactPage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function ContactPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <div className="bg-background py-12">
       <div className="container mx-auto max-w-[1170px] px-4">

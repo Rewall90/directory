@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { setRequestLocale } from "next-intl/server";
 import { getAllMDX } from "@/lib/mdx";
 
 export const metadata = {
@@ -6,7 +7,13 @@ export const metadata = {
   description: "Les våre blogginnlegg om golfbaner, tips og nyheter fra golfverdenen i Norge",
 };
 
-export default function BloggPage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function BloggPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const posts = getAllMDX("blogg");
 
   return (
@@ -29,7 +36,7 @@ export default function BloggPage() {
           return (
             <Link
               key={post.slug}
-              href={`/blogg/${post.slug}`}
+              href={`/blog/${post.slug}`}
               className="border-border-default group flex flex-col rounded-lg border bg-background-surface p-6 transition-all hover:border-primary hover:shadow-md"
             >
               <h2 className="mb-3 text-xl font-semibold text-text-primary group-hover:text-primary">

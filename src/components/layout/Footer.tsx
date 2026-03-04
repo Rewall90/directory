@@ -26,17 +26,17 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/blogg" className="text-text-secondary hover:text-primary">
+                <Link href="/blog" className="text-text-secondary hover:text-primary">
                   Blogg
                 </Link>
               </li>
               <li>
-                <Link href="/om-oss" className="text-text-secondary hover:text-primary">
+                <Link href="/about" className="text-text-secondary hover:text-primary">
                   Om oss
                 </Link>
               </li>
               <li>
-                <Link href="/kontakt-oss" className="text-text-secondary hover:text-primary">
+                <Link href="/contact" className="text-text-secondary hover:text-primary">
                   Kontakt
                 </Link>
               </li>
@@ -48,12 +48,12 @@ export function Footer() {
             <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">Juridisk</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/personvern" className="text-text-secondary hover:text-primary">
+                <Link href="/privacy" className="text-text-secondary hover:text-primary">
                   Personvern
                 </Link>
               </li>
               <li>
-                <Link href="/vilkar" className="text-text-secondary hover:text-primary">
+                <Link href="/terms" className="text-text-secondary hover:text-primary">
                   Bruksvilkår
                 </Link>
               </li>

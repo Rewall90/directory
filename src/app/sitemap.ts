@@ -20,25 +20,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${BASE_URL}/om-oss`,
+      url: `${BASE_URL}/about`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,
     },
     {
-      url: `${BASE_URL}/kontakt-oss`,
+      url: `${BASE_URL}/contact`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,
     },
     {
-      url: `${BASE_URL}/personvern`,
+      url: `${BASE_URL}/privacy`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
-      url: `${BASE_URL}/vilkar`,
+      url: `${BASE_URL}/terms`,
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.3,
@@ -71,7 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           const content = fs.readFileSync(path.join(blogDir, file), "utf-8");
           const { data } = matter(content);
           return {
-            url: `${BASE_URL}/blogg/${file.replace(".mdx", "")}`,
+            url: `${BASE_URL}/blog/${file.replace(".mdx", "")}`,
             lastModified: data.updatedAt || data.publishedAt || new Date(),
             changeFrequency: "monthly" as const,
             priority: 0.6,

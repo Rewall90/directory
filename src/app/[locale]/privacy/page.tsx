@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "Personvernerklæring - golfkart.no",
   description: "Personvernerklæring for golfkart.no - hvordan vi samler inn og bruker informasjon.",
 };
 
-export default function PrivacyPolicyPage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function PrivacyPolicyPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <div className="bg-background">
       {/* Breadcrumb */}
@@ -164,7 +171,7 @@ export default function PrivacyPolicyPage() {
             </ul>
             <p className="mt-4 leading-relaxed">
               For å utøve disse rettighetene, vennligst kontakt oss via{" "}
-              <Link href="/kontakt-oss" className="text-primary hover:underline">
+              <Link href="/contact" className="text-primary hover:underline">
                 kontaktskjemaet
               </Link>
               .
@@ -208,7 +215,7 @@ export default function PrivacyPolicyPage() {
             <h2 className="mb-4 text-2xl font-semibold text-text-primary">11. Kontakt oss</h2>
             <p className="leading-relaxed">
               Hvis du har spørsmål om denne personvernerklæringen, vennligst kontakt oss via{" "}
-              <Link href="/kontakt-oss" className="text-primary hover:underline">
+              <Link href="/contact" className="text-primary hover:underline">
                 kontaktskjemaet vårt
               </Link>
               .
@@ -218,7 +225,7 @@ export default function PrivacyPolicyPage() {
           <section className="border-t border-border-subtle pt-8">
             <p className="text-sm text-text-tertiary">
               Ved å bruke golfkart.no godtar du denne personvernerklæringen og vår{" "}
-              <Link href="/vilkar" className="text-primary hover:underline">
+              <Link href="/terms" className="text-primary hover:underline">
                 bruksvilkår
               </Link>
               .

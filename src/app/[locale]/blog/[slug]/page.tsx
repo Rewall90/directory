@@ -1,12 +1,14 @@
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import { setRequestLocale } from "next-intl/server";
 import { getAllSlugs, getMDXBySlug } from "@/lib/mdx";
 import { mdxComponents } from "@/app/mdx-components";
+import { routing } from "@/i18n/routing";
 import Script from "next/script";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 
 interface PageProps {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }
 
 interface FrontMatter {
@@ -20,7 +22,7 @@ interface FrontMatter {
 
 export async function generateStaticParams() {
   const slugs = getAllSlugs("blogg");
-  return slugs.map((slug) => ({ slug }));
+  return routing.locales.flatMap((locale) => slugs.map((slug) => ({ locale, slug })));
 }
 
 export async function generateMetadata(props: PageProps) {
@@ -363,6 +365,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter) {
 
 export default async function BloggPage(props: PageProps) {
   const params = await props.params;
+  setRequestLocale(params.locale);
   const mdxContent = getMDXBySlug("blogg", params.slug);
 
   if (!mdxContent) {
@@ -388,7 +391,7 @@ export default async function BloggPage(props: PageProps) {
         <Breadcrumbs
           items={[
             { label: "Hjem", href: "/" },
-            { label: "Blogg", href: "/blogg" },
+            { label: "Blogg", href: "/blog" },
             { label: mdxContent.frontMatter.title },
           ]}
         />

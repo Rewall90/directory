@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { getCourse, getAllCourses, calculateAverageRating } from "@/lib/courses";
 import { getReviews } from "@/lib/reviews";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import type { Course, Booking } from "@/types/course";
 import { generateCourseBreadcrumb } from "@/lib/schema";
 import { getPlacePhotos } from "@/lib/google-places";
+import { routing } from "@/i18n/routing";
 import { CourseHero } from "./_components/CourseHero";
 import { StatsBar } from "./_components/StatsBar";
 import { StorySection } from "./_components/StorySection";
@@ -19,12 +21,13 @@ import { ReviewSection } from "./_components/ReviewSection";
 // Revalidate every 30 minutes to keep photo URLs fresh (URLs expire after ~1 hour)
 export const revalidate = 1800;
 
-interface CoursePageProps {
+type Props = {
   params: Promise<{
+    locale: string;
     region: string;
     course: string;
   }>;
-}
+};
 
 /**
  * Get the best booking action for a course
@@ -55,7 +58,7 @@ function getBookingAction(
   return { type: null, value: null, label: "" };
 }
 
-export async function generateMetadata({ params }: CoursePageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region: regionSlug, course: courseSlug } = await params;
 
   const course = getCourse(courseSlug);
@@ -94,8 +97,9 @@ export async function generateMetadata({ params }: CoursePageProps): Promise<Met
   };
 }
 
-export default async function CoursePage({ params }: CoursePageProps) {
-  const { region: regionSlug, course: courseSlug } = await params;
+export default async function CoursePage({ params }: Props) {
+  const { locale, region: regionSlug, course: courseSlug } = await params;
+  setRequestLocale(locale);
 
   const course = getCourse(courseSlug);
 
@@ -287,8 +291,11 @@ export default async function CoursePage({ params }: CoursePageProps) {
 export function generateStaticParams() {
   const courses = getAllCourses();
 
-  return courses.map((course) => ({
-    region: toRegionSlug(course.region),
-    course: course.slug,
-  }));
+  return routing.locales.flatMap((locale) =>
+    courses.map((course) => ({
+      locale,
+      region: toRegionSlug(course.region),
+      course: course.slug,
+    })),
+  );
 }

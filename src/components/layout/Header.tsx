@@ -72,7 +72,7 @@ export function Header() {
             Fylke
           </Link>
           <Link
-            href="/om-oss"
+            href="/about"
             className={
               isHomePage
                 ? "text-base font-medium text-green-100 transition-colors hover:text-yellow-400 md:text-lg"
@@ -82,7 +82,7 @@ export function Header() {
             Om oss
           </Link>
           <Link
-            href="/kontakt-oss"
+            href="/contact"
             className={
               isHomePage
                 ? "text-base font-medium text-green-100 transition-colors hover:text-yellow-400 md:text-lg"

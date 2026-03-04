@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "Bruksvilkår - golfkart.no",
   description: "Bruksvilkår for golfkart.no - regler og betingelser for bruk av nettstedet.",
 };
 
-export default function TermsOfServicePage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function TermsOfServicePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <div className="bg-background">
       {/* Breadcrumb */}
@@ -231,7 +238,7 @@ export default function TermsOfServicePage() {
             <p className="leading-relaxed">
               Hvis du har spørsmål om disse bruksvilkårene, ønsker tillatelse til spesiell bruk av
               innholdet, eller ønsker å rapportere mistenkelig aktivitet, vennligst kontakt oss via{" "}
-              <Link href="/kontakt-oss" className="text-primary hover:underline">
+              <Link href="/contact" className="text-primary hover:underline">
                 kontaktskjemaet vårt
               </Link>
               .
@@ -253,7 +260,7 @@ export default function TermsOfServicePage() {
           <section className="border-t border-border-subtle pt-8">
             <p className="text-sm text-text-tertiary">
               Ved å bruke golfkart.no godtar du disse bruksvilkårene og vår{" "}
-              <Link href="/personvern" className="text-primary hover:underline">
+              <Link href="/privacy" className="text-primary hover:underline">
                 personvernerklæring
               </Link>
               .

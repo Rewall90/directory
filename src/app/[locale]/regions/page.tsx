@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { RegionGrid } from "@/components/home/RegionGrid";
 import { NORWAY_MAP_REGIONS } from "@/lib/constants/norway-map-regions";
 import { getRegionsOverviewSchemas, JsonLdMultiple } from "@/lib/schema";
@@ -30,7 +31,13 @@ const regions = [
   { ...NORWAY_MAP_REGIONS.find((r) => r.slug === "finnmark")!, courseCount: 4 },
 ].sort((a, b) => a.name.localeCompare(b.name, "no"));
 
-export default function RegionsPage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function RegionsPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const totalCourses = regions.reduce((sum, r) => sum + r.courseCount, 0);
 
   // Generate all schema.org markup for the regions overview page

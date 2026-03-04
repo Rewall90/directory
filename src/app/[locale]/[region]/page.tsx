@@ -1,17 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
 import { getCoursesByRegion, getRegions } from "@/lib/courses";
 import type { Course } from "@/types/course";
 import { CourseCard } from "@/components/courses/CourseCard";
 import { getCountyNameFromSlug, toRegionSlug } from "@/lib/constants/norway-regions";
 import { getRegionPageSchemas, JsonLdMultiple } from "@/lib/schema";
+import { routing } from "@/i18n/routing";
 
-interface RegionPageProps {
+type Props = {
   params: Promise<{
+    locale: string;
     region: string;
   }>;
-}
+};
 
 const LEGACY_REGION_NAMES: Record<string, string> = {
   "vestfold-og-telemark": "Vestfold og Telemark",
@@ -67,7 +70,7 @@ function adaptCourseForCard(course: Course): CardCourse {
   };
 }
 
-export async function generateMetadata({ params }: RegionPageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { region } = await params;
   const displayName = resolveDisplayName(region);
 
@@ -94,8 +97,9 @@ export async function generateMetadata({ params }: RegionPageProps): Promise<Met
   };
 }
 
-export default async function RegionPage({ params }: RegionPageProps) {
-  const { region } = await params;
+export default async function RegionPage({ params }: Props) {
+  const { locale, region } = await params;
+  setRequestLocale(locale);
 
   // Check if it's a valid region FIRST
   const normalized = toRegionSlug(region);
@@ -187,5 +191,5 @@ export default async function RegionPage({ params }: RegionPageProps) {
 // Generate static params for all regions at build time
 export async function generateStaticParams() {
   const regions = getRegions();
-  return regions.map((region) => ({ region }));
+  return routing.locales.flatMap((locale) => regions.map((region) => ({ locale, region })));
 }

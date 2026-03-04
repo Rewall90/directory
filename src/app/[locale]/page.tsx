@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { HeroSection } from "./_components/HeroSection";
 import { RegionGrid } from "@/components/home/RegionGrid";
 import { InteractiveMap } from "./_components/InteractiveMap";
@@ -12,7 +13,14 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomePage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   // Get dynamic data from JSON files
   const regionsWithCounts = getRegionsWithCounts();
   const totalCourses = getTotalCourseCount();

@@ -1,16 +1,23 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "Om oss - golfkart.no",
   description:
     "Norges mest komplette oversikt over golfbaner. Over 160 golfbaner fra hele Norge, fordelt på alle fylker.",
   alternates: {
-    canonical: "/om-oss",
+    canonical: "/about",
   },
 };
 
-export default function AboutPage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function AboutPage({ params }: Props) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <div className="bg-background">
       {/* Hero Section */}
@@ -222,7 +229,7 @@ export default function AboutPage() {
                   informasjon om en spesifikk bane.
                 </p>
                 <Link
-                  href="/kontakt-oss"
+                  href="/contact"
                   className="hover:bg-background-elevated inline-block rounded-lg bg-white px-4 py-2 text-sm font-semibold text-primary transition-colors"
                 >
                   Kontakt oss
