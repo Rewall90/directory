@@ -20,10 +20,23 @@ export interface MDXContent {
 }
 
 /**
- * Get all MDX files from a specific content type directory
+ * Resolve the content directory path for a given content type and optional locale.
+ * When locale is "en", appends /en to the path.
+ * When locale is "nb" or undefined, uses the base path (no subdirectory).
  */
-export function getAllMDXFiles(contentType: string): string[] {
-  const contentTypePath = path.join(contentDirectory, contentType);
+function resolveContentPath(contentType: string, locale?: string): string {
+  if (locale && locale !== "nb") {
+    return path.join(contentDirectory, contentType, locale);
+  }
+  return path.join(contentDirectory, contentType);
+}
+
+/**
+ * Get all MDX files from a specific content type directory.
+ * Optionally pass a locale ("en") to read from a locale subdirectory.
+ */
+export function getAllMDXFiles(contentType: string, locale?: string): string[] {
+  const contentTypePath = resolveContentPath(contentType, locale);
 
   if (!fs.existsSync(contentTypePath)) {
     return [];
@@ -34,19 +47,26 @@ export function getAllMDXFiles(contentType: string): string[] {
 }
 
 /**
- * Get all slugs for a specific content type
+ * Get all slugs for a specific content type.
+ * Optionally pass a locale ("en") to read from a locale subdirectory.
  */
-export function getAllSlugs(contentType: string): string[] {
-  const files = getAllMDXFiles(contentType);
+export function getAllSlugs(contentType: string, locale?: string): string[] {
+  const files = getAllMDXFiles(contentType, locale);
   return files.map((file) => file.replace(/\.mdx$/, ""));
 }
 
 /**
- * Get MDX content by slug and content type
+ * Get MDX content by slug and content type.
+ * Optionally pass a locale ("en") to read from a locale subdirectory.
  */
-export function getMDXBySlug(contentType: string, slug: string): MDXContent | null {
+export function getMDXBySlug(
+  contentType: string,
+  slug: string,
+  locale?: string,
+): MDXContent | null {
   try {
-    const filePath = path.join(contentDirectory, contentType, `${slug}.mdx`);
+    const dirPath = resolveContentPath(contentType, locale);
+    const filePath = path.join(dirPath, `${slug}.mdx`);
 
     if (!fs.existsSync(filePath)) {
       return null;
@@ -67,13 +87,14 @@ export function getMDXBySlug(contentType: string, slug: string): MDXContent | nu
 }
 
 /**
- * Get all MDX content for a specific content type
+ * Get all MDX content for a specific content type.
+ * Optionally pass a locale ("en") to read from a locale subdirectory.
  */
-export function getAllMDX(contentType: string): MDXContent[] {
-  const slugs = getAllSlugs(contentType);
+export function getAllMDX(contentType: string, locale?: string): MDXContent[] {
+  const slugs = getAllSlugs(contentType, locale);
 
   return slugs
-    .map((slug) => getMDXBySlug(contentType, slug))
+    .map((slug) => getMDXBySlug(contentType, slug, locale))
     .filter((content): content is MDXContent => content !== null)
     .sort((a, b) => {
       // Sort by publishedAt date if available, newest first

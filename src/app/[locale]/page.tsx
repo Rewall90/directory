@@ -7,15 +7,27 @@ import { NORWAY_MAP_REGIONS } from "@/lib/constants/norway-map-regions";
 import { getHomepageSchemas, JsonLdMultiple } from "@/lib/schema";
 import { getRegionsWithCounts, getTotalCourseCount } from "@/lib/courses";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical: "/",
-  },
-};
-
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
+    openGraph: {
+      locale: locale === "en" ? "en_GB" : "nb_NO",
+    },
+    alternates: {
+      canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}`,
+      languages: {
+        nb: "https://golfkart.no",
+        en: "https://golfkart.no/en",
+        "x-default": "https://golfkart.no",
+      },
+    },
+  };
+}
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;

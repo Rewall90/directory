@@ -20,7 +20,7 @@ export default async function BloggPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("blog");
-  const posts = getAllMDX("blogg");
+  const posts = getAllMDX("blogg", locale === "en" ? "en" : undefined);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">

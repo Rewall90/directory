@@ -43,23 +43,23 @@ function getBookingAction(
 } {
   // Priority: dedicated booking URL > booking email > booking phone > general contact
   if (booking?.url) {
-    return { type: "url", value: booking.url, label: "Book online" };
+    return { type: "url", value: booking.url, label: "" };
   }
   if (booking?.email) {
-    return { type: "email", value: booking.email, label: "Book via e-post" };
+    return { type: "email", value: booking.email, label: "" };
   }
   if (booking?.phone) {
-    return { type: "phone", value: booking.phone, label: "Ring for booking" };
+    return { type: "phone", value: booking.phone, label: "" };
   }
   // Fallback to contact email if GolfBox is enabled
   if (booking?.golfboxEnabled && contact.email) {
-    return { type: "email", value: contact.email, label: "Kontakt for booking" };
+    return { type: "email", value: contact.email, label: "" };
   }
   return { type: null, value: null, label: "" };
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { region: regionSlug, course: courseSlug } = await params;
+  const { locale, region: regionSlug, course: courseSlug } = await params;
 
   const course = getCourse(courseSlug);
 
@@ -71,19 +71,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const ratingData = calculateAverageRating(course.ratings);
 
-  const description = course.description
-    ? course.description.substring(0, 160) + "..."
-    : `${course.name} - ${course.course.holes} hull golf course in ${course.city}, ${course.region}. ${ratingData ? `Rated ${ratingData.averageRating.toFixed(1)}/5 by ${ratingData.totalReviews} golfers.` : ""}`;
+  const title =
+    locale === "en"
+      ? `${course.name} - Golf in ${course.region}`
+      : `${course.name} - Golf i ${course.region}`;
+
+  const description =
+    locale === "en" && course.description_en
+      ? course.description_en.substring(0, 160) + "..."
+      : course.description
+        ? course.description.substring(0, 160) + "..."
+        : `${course.name} - ${course.course.holes} hull golf course in ${course.city}, ${course.region}. ${ratingData ? `Rated ${ratingData.averageRating.toFixed(1)}/5 by ${ratingData.totalReviews} golfers.` : ""}`;
+
+  const regionPath = toRegionSlug(course.region);
 
   return {
-    title: `${course.name} - Golf i ${course.region}`,
+    title,
     description,
     openGraph: {
       title: course.name,
       description,
       type: "website",
-      locale: "no_NO",
-      url: `/${toRegionSlug(course.region)}/${course.slug}`,
+      locale: locale === "en" ? "en_GB" : "nb_NO",
+      url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${regionPath}/${course.slug}`,
       siteName: "golfkart.no",
     },
     twitter: {
@@ -92,7 +102,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `/${toRegionSlug(course.region)}/${course.slug}`,
+      canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/${regionPath}/${course.slug}`,
+      languages: {
+        nb: `https://golfkart.no/${regionPath}/${course.slug}`,
+        en: `https://golfkart.no/en/${regionPath}/${course.slug}`,
+        "x-default": `https://golfkart.no/${regionPath}/${course.slug}`,
+      },
     },
   };
 }
@@ -160,9 +175,12 @@ export default async function CoursePage({ params }: Props) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "GolfCourse",
-    name: course.name,
+    name: locale === "en" && course.name_en ? course.name_en : course.name,
     description:
-      course.description || `${course.name} - Golf course in ${course.city}, ${course.region}`,
+      locale === "en" && course.description_en
+        ? course.description_en
+        : course.description || `${course.name} - Golf course in ${course.city}, ${course.region}`,
+    url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${toRegionSlug(course.region)}/${course.slug}`,
     address: {
       "@type": "PostalAddress",
       streetAddress: course.address.street,

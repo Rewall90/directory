@@ -49,18 +49,24 @@ export interface CourseDetails {
   lengthYards: number | null;
   lengthNote: string | null;
   terrain: string | null;
+  terrain_en?: string | null;
   courseType: string | null;
+  courseType_en?: string | null;
   designer: string | null;
+  designer_en?: string | null;
   yearBuilt: number | null;
   yearRedesigned: number | null;
   waterHazards: boolean | null;
   signatureHole: string | null;
+  signatureHole_en?: string | null;
   scenicHole: string | null;
+  scenicHole_en?: string | null;
   par3Count: number | null;
   par4Count: number | null;
   par5Count: number | null;
   mountainViews: boolean | null;
   viewDescription: string | null;
+  viewDescription_en?: string | null;
 }
 
 export interface Contact {
@@ -83,6 +89,7 @@ export interface Season {
   start: string | null;
   end: string | null;
   winterUse: string | null;
+  winterUse_en?: string | null;
 }
 
 export interface Visitors {
@@ -94,6 +101,7 @@ export interface Visitors {
   handicapRequired: number | null;
   /** Dress code requirements (e.g., "Golfklær påkrevd") */
   dressCode: string | null;
+  dressCode_en?: string | null;
   /** Typical round duration in minutes */
   roundTimeMinutes: number | null;
 }
@@ -165,6 +173,7 @@ export interface Pricing {
   /** When twilight pricing starts (e.g., "15:00") */
   twilightStartTime: string | null;
   greenFeeDescription: string | null;
+  greenFeeDescription_en?: string | null;
   cartRental: number | null;
   pullCartRental: number | null;
   clubRental: number | null;
@@ -172,6 +181,7 @@ export interface Pricing {
   specialOfferIncludes: string | null;
   freeTrial: boolean | null;
   notes: string | null;
+  notes_en?: string | null;
 }
 
 export interface MembershipTier {
@@ -179,6 +189,7 @@ export interface MembershipTier {
   category: string;
   /** Display name (e.g., "Voksen 31-99 år") */
   name: string | null;
+  name_en?: string | null;
   /** Full annual membership price (NOT just club dues) */
   price: number;
   /** Separate club dues/kontingent if applicable */
@@ -186,6 +197,7 @@ export interface MembershipTier {
   /** Total annual cost (price + clubDues) */
   totalAnnual: number | null;
   description: string | null;
+  description_en?: string | null;
   /** Age range as string (e.g., "20-30") */
   ageRange: string | null;
   /** Minimum age for this tier */
@@ -194,6 +206,7 @@ export interface MembershipTier {
   ageMax: number | null;
   /** Any restrictions (e.g., "Kun hverdager", "Maks 3 runder/uke") */
   restrictions: string | null;
+  restrictions_en?: string | null;
 }
 
 /**
@@ -212,6 +225,7 @@ export interface MembershipStatus {
   joiningFee: number | null;
   /** Note about joining fee */
   joiningFeeNote: string | null;
+  joiningFeeNote_en?: string | null;
 }
 
 export interface Rating {
@@ -285,7 +299,9 @@ export interface Meta {
 
 export interface Course {
   slug: string;
+  slug_en?: string;
   name: string;
+  name_en?: string;
   formerName: string | null;
   region: string;
   city: string;
@@ -297,6 +313,7 @@ export interface Course {
   googlePlaceId?: string;
   course: CourseDetails;
   description: string | null;
+  description_en?: string | null;
   contact: Contact;
   phoneNumbers: PhoneNumber[];
   /** Booking information for visitors (NEW in v2.0) */
@@ -335,7 +352,9 @@ export interface Review {
  */
 export interface CourseSummary {
   slug: string;
+  slug_en?: string;
   name: string;
+  name_en?: string;
   region: string;
   city: string;
   holes: number;

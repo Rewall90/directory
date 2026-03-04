@@ -21,13 +21,17 @@ interface FrontMatter {
 }
 
 export async function generateStaticParams() {
-  const slugs = getAllSlugs("blogg");
-  return routing.locales.flatMap((locale) => slugs.map((slug) => ({ locale, slug })));
+  return routing.locales.flatMap((locale) => {
+    const localeParam = locale === "en" ? "en" : undefined;
+    const slugs = getAllSlugs("blogg", localeParam);
+    return slugs.map((slug) => ({ locale, slug }));
+  });
 }
 
 export async function generateMetadata(props: PageProps) {
   const params = await props.params;
-  const mdxContent = getMDXBySlug("blogg", params.slug);
+  const localeParam = params.locale === "en" ? "en" : undefined;
+  const mdxContent = getMDXBySlug("blogg", params.slug, localeParam);
 
   if (!mdxContent) {
     return {
@@ -366,7 +370,8 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter) {
 export default async function BloggPage(props: PageProps) {
   const params = await props.params;
   setRequestLocale(params.locale);
-  const mdxContent = getMDXBySlug("blogg", params.slug);
+  const localeParam = params.locale === "en" ? "en" : undefined;
+  const mdxContent = getMDXBySlug("blogg", params.slug, localeParam);
 
   if (!mdxContent) {
     notFound();

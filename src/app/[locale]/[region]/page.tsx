@@ -90,10 +90,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description,
       type: "website",
-      url: `https://golfkart.no/${region}`,
+      locale: locale === "en" ? "en_GB" : "nb_NO",
+      url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${region}`,
     },
     alternates: {
-      canonical: `/${region}`,
+      canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/${region}`,
+      languages: {
+        nb: `https://golfkart.no/${region}`,
+        en: `https://golfkart.no/en/${region}`,
+        "x-default": `https://golfkart.no/${region}`,
+      },
     },
   };
 }
