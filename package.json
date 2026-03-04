@@ -18,6 +18,7 @@
     "@amcharts/amcharts5-geodata": "^5.1.5",
     "gray-matter": "^4.0.3",
     "next": "16.1.6",
+    "next-intl": "^4.8.3",
     "next-mdx-remote": "^6.0.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
