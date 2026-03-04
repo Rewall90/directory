@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Hemsedal Golfklubb ligger midt i Grøndalen med utsikt over fjell. Nær Solheisen Skisenter. Fra Oslo: Kjør mot Hemsedal Sentrum, fortsett gjennom sentrum forbi Hemsedal Skisenter, ta av fra RV 52 på Tuv og følg skilting mot Grøndalen/Solheisen Skisenter. Klubben ligger 6 km fra Tuv på venstre hånd."
+    "viewDescription": "Hemsedal Golfklubb ligger midt i Grøndalen med utsikt over fjell. Nær Solheisen Skisenter. Fra Oslo: Kjør mot Hemsedal Sentrum, fortsett gjennom sentrum forbi Hemsedal Skisenter, ta av fra RV 52 på Tuv og følg skilting mot Grøndalen/Solheisen Skisenter. Klubben ligger 6 km fra Tuv på venstre hånd.",
+    "terrain_en": "Parkland",
+    "courseType_en": "18-hole championship course",
+    "designer_en": "Robert Trent Jones II",
+    "signatureHole_en": "The course is situated at Holtsmark with panoramic views",
+    "scenicHole_en": "The course is situated at Holtsmark with panoramic views",
+    "viewDescription_en": "Hemsedal Golf Club is located in the heart of Grondalen with mountain views. Near Solheisen Ski Centre. From Oslo: Drive towards Hemsedal Centre, continue through the centre past Hemsedal Ski Centre, turn off from RV 52 at Tuv and follow signs towards Grondalen/Solheisen Ski Centre. The club is 6 km from Tuv on the left."
   },
   "description": "Hemsedal Golfklubb ligger midt i Grøndalen, nær Solheisen Skisenter. Klubben er medlem av Holtsmark Golf Eiendomsselskap AS for spillerett. Banen er designet av Robert Trent Jones II og ble kåret til Norges beste bane av GolfDigest i 2019 og 2020. Var NM-bane i 2020. Klubben ble stiftet 15.12.1994. Banen ligger på Holtsmark, 30 minutter fra Sandvika og 20 minutter fra Drammen. Medlem av Norges Golfforbund (NGF) og NIF. 5 tee-alternativer fra nybegynnervennlig 40-tee til elite 63-tee (6300m).",
   "contact": {
@@ -63,7 +69,8 @@
   "season": {
     "start": "Juni",
     "end": "Oktober",
-    "winterUse": "Golfstua kan leies sommer som vinter. Tennis stengt. Golfbane stengt."
+    "winterUse": "Golfstua kan leies sommer som vinter. Tennis stengt. Golfbane stengt.",
+    "winterUse_en": "Golfstua (lodge) can be hired summer and winter. Tennis closed. Golf course closed."
   },
   "visitors": {
     "welcome": true,
@@ -129,7 +136,9 @@
       "pullCartRental": 50,
       "clubRental": 140,
       "drivingRangeTrial": "Gratis",
-      "notes": "Alle medlemmer i Hemsedal GK med Fritt Spill medlemskap får 50% rabatt på Holtsmark. Medlemmer kan leie Golfstua (storhytte med 15-17 sengeplasser, badstue, ski in/out langrenn). Priser bekreftet fra hemsedalgolfklubb.no/banen/greenfee/ feb 2026."
+      "notes": "Alle medlemmer i Hemsedal GK med Fritt Spill medlemskap får 50% rabatt på Holtsmark. Medlemmer kan leie Golfstua (storhytte med 15-17 sengeplasser, badstue, ski in/out langrenn). Priser bekreftet fra hemsedalgolfklubb.no/banen/greenfee/ feb 2026.",
+      "greenFeeDescription_en": "Green fee 9 holes 400 kr, 18 holes 600 kr. No differentiation between weekday/weekend. No separate junior or twilight green fee listed.",
+      "notes_en": "All members of Hemsedal GC with Free Play membership receive 50% discount at Holtsmark. Members can hire Golfstua (large cabin with 15-17 beds, sauna, ski in/out cross-country). Prices confirmed from hemsedalgolfklubb.no/banen/greenfee/ Feb 2026."
     }
   },
   "membershipPricing": {
@@ -182,5 +191,8 @@
     "createdAt": "2025-10-31T05:54:16.507Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ-885ImLcP0YRk3e06EUzPrQ"
+  "googlePlaceId": "ChIJ-885ImLcP0YRk3e06EUzPrQ",
+  "slug_en": "hemsedal-golf-club",
+  "name_en": "Hemsedal Golf Club",
+  "description_en": "Hemsedal Golf Club is situated in the heart of Grondalen, near Solheisen Ski Centre. The club holds membership in Holtsmark Golf Eiendomsselskap AS for playing rights. The course was designed by Robert Trent Jones II and was named Norway's best course by GolfDigest in 2019 and 2020. It hosted the Norwegian Championships in 2020. The club was founded on 15 December 1994. Five tee options from beginner-friendly 40-tee to elite 63-tee (6,300m)."
 }

@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": 2,
     "mountainViews": false,
-    "viewDescription": "Beliggende i enden av det fruktbare Lier-deltaet med lave åsrygger og dype raviner. Utsikt mot greener på hull 6 og 18 fra klubbhusterrassen. Hvert hull har sitt eget særpreg med skjermet plassering."
+    "viewDescription": "Beliggende i enden av det fruktbare Lier-deltaet med lave åsrygger og dype raviner. Utsikt mot greener på hull 6 og 18 fra klubbhusterrassen. Hvert hull har sitt eget særpreg med skjermet plassering.",
+    "terrain_en": "Woodland and parkland with low ridges and deep ravines",
+    "courseType_en": "18-hole championship course + 9-hole Eplehagen",
+    "designer_en": "Robert Trent Jones II",
+    "signatureHole_en": "5 par-3 holes and 2 long par-5 holes (holes 7 and 18). Holes 6 and 18 visible from the terrace.",
+    "scenicHole_en": "5 par-3 holes and 2 long par-5 holes (holes 7 and 18). Holes 6 and 18 visible from the terrace.",
+    "viewDescription_en": "Located at the end of the fertile Lier delta with low ridges and deep ravines. Views towards the greens on holes 6 and 18 from the clubhouse terrace. Each hole has its own distinctive character with sheltered positioning."
   },
   "description": "Holtsmark Golf er en 18-hulls par 72 skog- og parkbane med lave åsrygger og dype raviner i Lier-deltaet, ca. 20 km fra Drammen og ca. 35 km fra Sandvika. Designet av Robert Trent Jones II. Etablert 1998, åpnet 2005. Banen har 6298m fra backtee (tee 63) og appellerer til spillere i alle aldre og på alle ferdighetsnivåer. Designeren fremhever de 5 par 3-hullene og de 2 lange par 5-hullene (hull 7 og 18) som spesielt vellykkede. De 18 hullene ligger skjermet i forhold til hverandre, ofte med eksklusiv følelse av å være alene på banen. Kåret til Norges beste bane i 2020 av GolfDigest. Klubbhuset er Syllings eldste faste skole fra 1859 med proshop, stort allrom, fullverdig kjøkken, gode garderobefasiliteter, og stor skjermet terrasse med utsikt mot grener på hull 6 og 18. I tillegg 9-hulls bane 'Eplehagen' (3 par 4 + 6 par 3) som er åpen og relativ flat, ideell for nybegynnere.",
   "contact": {
@@ -58,7 +64,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Anlegget stengt for sesongen. Velkommen tilbake i 2026."
+    "winterUse": "Anlegget stengt for sesongen. Velkommen tilbake i 2026.",
+    "winterUse_en": "Facility closed for the season. Welcome back in 2026."
   },
   "visitors": {
     "welcome": true,
@@ -135,7 +142,9 @@
       "rangeBallPayment": "Kortbetaling ved automat",
       "rangeCard50": 1750,
       "rangeCard100": 3500,
-      "notes": "All greenfee skal nå forhåndsbetales i Golfbox ved booking av starttid. Gjestepris gjelder kun når medlem booker. Forhåndsbetalt greenfee refunderes ikke, unntatt ved stenging av anlegget eller sykdom. Kun kort og Vipps i proshop, ingen kontanter. Ombestilling mulig inntil 24 timer før starttid (maks to endringer). Samarbeidsklubber 2026: Bærum GK, Drammen GK, Hauger GK, Miklagard GK (50% rabatt for Bronse+ medlemskap)."
+      "notes": "All greenfee skal nå forhåndsbetales i Golfbox ved booking av starttid. Gjestepris gjelder kun når medlem booker. Forhåndsbetalt greenfee refunderes ikke, unntatt ved stenging av anlegget eller sykdom. Kun kort og Vipps i proshop, ingen kontanter. Ombestilling mulig inntil 24 timer før starttid (maks to endringer). Samarbeidsklubber 2026: Bærum GK, Drammen GK, Hauger GK, Miklagard GK (50% rabatt for Bronse+ medlemskap).",
+      "greenFeeDescription_en": "18-hole guest: weekday 750 kr, weekend/public holidays 990 kr, twilight 550 kr, junior 50% all days. Autumn green fee 10 holes from 15:00: 500 kr (applies from 1 Sept to end of season). Members without free play: 50% discount on applicable green fee. Junior members: 200 kr all days. 9-hole (Eplehagen): weekday 250 kr, weekend/public holidays 300 kr, junior 150 kr. Free for members (except Green Fee membership).",
+      "notes_en": "All green fees must now be prepaid in GolfBox when booking tee times. Guest pricing applies only when a member books. Prepaid green fees are non-refundable, except in the event of facility closure or illness. Card and Vipps only in pro shop, no cash. Rebooking possible up to 24 hours before tee time (maximum two changes). Partner clubs 2026: Baerum GC, Drammen GC, Hauger GC, Miklagard GC (50% discount for Bronze+ membership)."
     }
   },
   "membershipPricing": {
@@ -222,5 +231,8 @@
     "createdAt": "2025-10-31T05:54:17.247Z",
     "updatedAt": "2026-02-15T18:30:00.000Z"
   },
-  "googlePlaceId": "ChIJc__VOcQVQUYRxQvVtuLkzfE"
+  "googlePlaceId": "ChIJc__VOcQVQUYRxQvVtuLkzfE",
+  "slug_en": "holtsmark-golf-club",
+  "name_en": "Holtsmark Golf Club",
+  "description_en": "Holtsmark Golf is an 18-hole par-72 woodland and parkland course with low ridges and deep ravines in the Lier delta, approximately 20 km from Drammen and 35 km from Sandvika. Designed by Robert Trent Jones II. Established 1998, opened 2005. The course measures 6,298m from the back tees (tee 63) and appeals to players of all ages and skill levels. The designer highlights the five par-3 holes and the two long par-5 holes (holes 7 and 18) as particularly successful. The 18 holes are sheltered from one another, often giving an exclusive feeling of having the course to oneself. Named Norway's best course in 2020 by GolfDigest. The clubhouse is Sylling's oldest school building from 1859 with pro shop, large common room, fully equipped kitchen, excellent locker room facilities, and a large sheltered terrace with views of the greens on holes 6 and 18. Additionally a 9-hole course \"Eplehagen\" (3 par-4s + 6 par-3s) that is open and relatively flat, ideal for beginners."
 }

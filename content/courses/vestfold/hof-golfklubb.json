@@ -1,6 +1,8 @@
 {
   "slug": "hof-golfklubb",
+  "slug_en": "hof-golf-club",
   "name": "Hof Golfklubb",
+  "name_en": "Hof Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Hof",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Parkland",
+    "terrain_en": "Parkland",
     "courseType": "9-hulls parklandbane",
+    "courseType_en": "9-hole parkland course",
     "designer": null,
     "yearBuilt": 1996,
     "yearRedesigned": 2003,
     "waterHazards": true,
     "signatureHole": "Lett kupert parklandterreng",
+    "signatureHole_en": "Gently undulating parkland terrain",
     "scenicHole": "Lett kupert parklandterreng",
+    "scenicHole_en": "Gently undulating parkland terrain",
     "par3Count": 4,
     "par4Count": 4,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Hof Golfklubb - 'Der golf og hygge går hånd i hånd'. 9-hulls parklandbane i Hof, Holmestrand. Par 66 (18h). Ombygget 2003. Lett kupert terreng med godt plasserte bunkere og vannhindre. Driving range, putting green, chipping green, practice bunker. Klubbhus, pro shop (drevet av Jens Sundby) med enkel servering. El-vogn og tralle-utleie. Juniorgolf-program. Simulator-golf om vinteren. Over 300 medlemmer. Handicap-grense 54."
+    "viewDescription": "Hof Golfklubb - 'Der golf og hygge går hånd i hånd'. 9-hulls parklandbane i Hof, Holmestrand. Par 66 (18h). Ombygget 2003. Lett kupert terreng med godt plasserte bunkere og vannhindre. Driving range, putting green, chipping green, practice bunker. Klubbhus, pro shop (drevet av Jens Sundby) med enkel servering. El-vogn og tralle-utleie. Juniorgolf-program. Simulator-golf om vinteren. Over 300 medlemmer. Handicap-grense 54.",
+    "viewDescription_en": "Hof Golf Club - 'Where golf and good times go hand in hand'. 9-hole parkland course in Hof, Holmestrand. Par 66 (18 holes). Redesigned 2003. Gently undulating terrain with well-placed bunkers and water hazards. Driving range, putting green, chipping green, practice bunker. Clubhouse, pro shop (run by Jens Sundby) with light refreshments. Electric buggy and trolley hire. Junior golf programme. Simulator golf in winter. Over 300 members. Handicap limit 54."
   },
   "description": "Hof Golfklubb - 9-hulls parklandbane i Hof, Holmestrand kommune. Grunnlagt 1996, ombygget 2003. Par 33 for 9 hull (par 66 når spilt 2 ganger). 4 par 3, 4 par 4, 1 par 5. Lett kupert terreng. Bunkere og vannhindre er godt plassert. Over 300 medlemmer. 'Golf er magisk!' - trivelig og hyggelig klubb.",
+  "description_en": "Hof Golf Club - 9-hole parkland course in Hof, Holmestrand municipality. Founded 1996, redesigned 2003. Par 33 for 9 holes (par 66 when played twice). 4 par 3s, 4 par 4s, 1 par 5. Gently undulating terrain. Bunkers and water hazards are well positioned. Over 300 members. 'Golf is magical!' - a friendly and welcoming club.",
   "contact": {
     "phone": "+47 33 05 90 99",
     "email": "post@hofgolfklubb.no",
@@ -68,7 +76,8 @@
   "season": {
     "start": "April",
     "end": "November",
-    "winterUse": "Simulator-golf tilgjengelig"
+    "winterUse": "Simulator-golf tilgjengelig",
+    "winterUse_en": "Simulator golf available"
   },
   "visitors": {
     "welcome": true,
@@ -129,6 +138,7 @@
       "greenFeeSenior": 250,
       "greenFeeJunior": 200,
       "greenFeeDescription": "Greenfee 2026: 18 hull 400 kr, 9 hull 250 kr. Norsk Seniorgolf-medlemmer 18h 250 kr, 9h 200 kr. Junior/student halv pris. Barn t.o.m. 15 år som er medlem spiller gratis.",
+      "greenFeeDescription_en": "Green fee 2026: 18 holes 400 NOK, 9 holes 250 NOK. Norwegian Senior Golf members 18 holes 250 NOK, 9 holes 200 NOK. Junior/student half price. Children up to 15 years who are members play free.",
       "cartRental": 300,
       "cartRental9": 150,
       "pullCartRental": null,
@@ -136,7 +146,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil: 9 hull 150 kr, 18 hull 300 kr. Kategori 1-medlemmer får 50% rabatt på greenfee. Kategori 2-medlemmer får 10% rabatt. Booking via Golfbox. Betal med Vipps 72125."
+      "notes": "Golfbil: 9 hull 150 kr, 18 hull 300 kr. Kategori 1-medlemmer får 50% rabatt på greenfee. Kategori 2-medlemmer får 10% rabatt. Booking via Golfbox. Betal med Vipps 72125.",
+      "notes_en": "Golf buggy: 9 holes 150 NOK, 18 holes 300 NOK. Category 1 members get 50% discount on green fee. Category 2 members get 10% discount. Booking via Golfbox. Pay with Vipps 72125."
     }
   },
   "membershipPricing": {
@@ -148,7 +159,9 @@
         "ngfFee": 391,
         "totalPrice": 2541,
         "description": "Gir mulighet til å kjøpe årsgreenfee (2000 kr). Gir 50% rabatt på greenfee uten årsgreenfee.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Category 1",
+        "description_en": "Enables purchase of annual green fee (2,000 NOK). Gives 50% discount on green fee without annual green fee."
       },
       {
         "category": "kategori2",
@@ -157,7 +170,9 @@
         "ngfFee": 391,
         "totalPrice": 1541,
         "description": "Gir 10% rabatt på greenfee. Kan ikke kjøpe årsgreenfee.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Category 2",
+        "description_en": "Gives 10% discount on green fee. Cannot purchase annual green fee."
       },
       {
         "category": "kategori3",
@@ -166,7 +181,9 @@
         "ngfFee": 391,
         "totalPrice": 1421,
         "description": "For medlemmer 20-24 år. Gir mulighet til å kjøpe årsgreenfee (800 kr). Gir 50% rabatt på greenfee.",
-        "ageRange": "20-24"
+        "ageRange": "20-24",
+        "name_en": "Category 3 (Young Adult)",
+        "description_en": "For members aged 20-24. Enables purchase of annual green fee (800 NOK). Gives 50% discount on green fee."
       },
       {
         "category": "junior",
@@ -175,7 +192,9 @@
         "ngfFee": 0,
         "totalPrice": 650,
         "description": "For ungdom t.o.m. året man fyller 19 år. NGF inkludert.",
-        "ageRange": "15-19"
+        "ageRange": "15-19",
+        "name_en": "Junior",
+        "description_en": "For youth up to the year they turn 19. NGF included."
       },
       {
         "category": "knotter",
@@ -184,21 +203,27 @@
         "ngfFee": 0,
         "totalPrice": 50,
         "description": "For barn t.o.m. året man fyller 15 år. Spiller gratis som medlem.",
-        "ageRange": "0-15"
+        "ageRange": "0-15",
+        "name_en": "Tots",
+        "description_en": "For children up to the year they turn 15. Play free as a member."
       },
       {
         "category": "annualGreenfeeKat1",
         "name": "Arsgreenfee Kategori 1",
         "price": 2000,
         "description": "Ubegrenset spill hele sesongen for Kategori 1-medlemmer.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Annual Green Fee Category 1",
+        "description_en": "Unlimited play for the entire season for Category 1 members."
       },
       {
         "category": "annualGreenfeeKat3Junior",
         "name": "Arsgreenfee Kategori 3/Junior",
         "price": 800,
         "description": "Ubegrenset spill hele sesongen for Kategori 3 og Junior-medlemmer.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Annual Green Fee Category 3/Junior",
+        "description_en": "Unlimited play for the entire season for Category 3 and Junior members."
       }
     ]
   },

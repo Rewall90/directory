@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Trivelig 9-hulls klubb med turneringer og sosiale arrangementer."
+    "viewDescription": "Trivelig 9-hulls klubb med turneringer og sosiale arrangementer.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Riverside setting",
+    "scenicHole_en": "Riverside setting",
+    "viewDescription_en": "Friendly 9-hole club with tournaments and social events."
   },
   "description": "Midjo golfbane ved Ogna-elven; varierte utfordringer og gode baneforhold.",
   "contact": {
@@ -127,7 +132,9 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Greenfeesamarbeid med andre klubber: Austrått GK 175 kr, Frosta GK 250 kr, Namdal GK 175 kr, Røros GK 175 kr, Stiklestad GK 245 kr, Namsos GK 175 kr, Nærøysund GK 175 kr.",
-      "vipps": "723565"
+      "vipps": "723565",
+      "greenFeeDescription_en": "Green fee 350 kr. Tournament green fee: adult 175 kr, junior 125 kr, corporate golf 150 kr. Payable via Vipps 723565.",
+      "notes_en": "Reciprocal green fee agreements with other clubs: Austraat GC 175 kr, Frosta GC 250 kr, Namdal GC 175 kr, Roeros GC 175 kr, Stiklestad GC 245 kr, Namsos GC 175 kr, Naeroysund GC 175 kr."
     },
     "2026": {
       "currency": "NOK",
@@ -147,7 +154,9 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Greenfeesamarbeid med andre klubber: Austrått GK 175 kr, Frosta GK 250 kr, Namdal GK 175 kr, Røros GK 175 kr, Stiklestad GK 245 kr, Namsos GK 175 kr, Nærøysund GK 175 kr.",
-      "vipps": "723565"
+      "vipps": "723565",
+      "greenFeeDescription_en": "Green fee 350 kr. Tournament green fee: adult 175 kr, junior 125 kr, corporate golf 150 kr. Payable via Vipps 723565.",
+      "notes_en": "Reciprocal green fee agreements with other clubs: Austraat GC 175 kr, Frosta GC 250 kr, Namdal GC 175 kr, Roeros GC 175 kr, Stiklestad GC 245 kr, Namsos GC 175 kr, Naeroysund GC 175 kr."
     }
   },
   "membershipPricing": {
@@ -156,61 +165,81 @@
         "category": "Hovedmedlem",
         "price": 3950,
         "description": "Full spillerett. Fra det året de fyller 21 år.",
-        "ageRange": "21+"
+        "ageRange": "21+",
+        "name_en": "Full Member",
+        "description_en": "Full playing rights. From the year you turn 21."
       },
       {
         "category": "Familie",
         "price": 6200,
         "description": "Ektefelle/samboer og hjemmeboende barn inntil 21 år på samme adresse.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Spouse/partner and children living at home up to 21 years at the same address."
       },
       {
         "category": "Student",
         "price": 2000,
         "description": "Fulltidsstudenter fra 21 t.o.m. 28 år. Gyldig studiebevis kreves.",
-        "ageRange": "21-28"
+        "ageRange": "21-28",
+        "name_en": "Student",
+        "description_en": "Full-time students aged 21-28. Valid student ID required."
       },
       {
         "category": "Ungdom",
         "price": 1300,
         "description": "Fra det året de fyller 17 år t.o.m. 20 år.",
-        "ageRange": "17-20"
+        "ageRange": "17-20",
+        "name_en": "Youth",
+        "description_en": "From the year you turn 17 up to age 20."
       },
       {
         "category": "Barn 12-16",
         "price": 500,
         "description": "Barn t.o.m. det året de fyller 16 år.",
-        "ageRange": "12-16"
+        "ageRange": "12-16",
+        "name_en": "Child 12-16",
+        "description_en": "Children up to the year they turn 16."
       },
       {
         "category": "Barn t.o.m 11",
         "price": 200,
         "description": "Barn t.o.m. det året de fyller 11 år.",
-        "ageRange": "0-11"
+        "ageRange": "0-11",
+        "name_en": "Child up to 11",
+        "description_en": "Children up to the year they turn 11."
       },
       {
         "category": "Spillerett",
         "price": 2700,
         "description": "Krever hovedmedlemskap i annen klubb. Full spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Playing rights",
+        "description_en": "Requires full membership in another club. Full playing rights."
       },
       {
         "category": "Fjernmedlem",
         "price": 1700,
         "description": "Bostedsadresse over 40 km fra Steinkjer. Spillerett mot greenfee.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Residential address over 40 km from Steinkjer. Playing rights with green fee."
       },
       {
         "category": "Prøv igjen",
         "price": 2300,
         "description": "For tidligere medlemmer før 2023 som vil prøve golf igjen. Kun sesongen 2025.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Try again",
+        "description_en": "For former members before 2023 who want to try golf again. 2025 season only."
       },
       {
         "category": "Førsteårsmedlem",
         "price": null,
         "description": "50% av medlemskategorien. For nybegynnere som tar VTG kurs hos klubben. Første år som medlem.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "First-year member",
+        "description_en": "50% of the membership category price. For beginners taking a Get Into Golf course at the club. First year as member."
       }
     ],
     "2026": [
@@ -218,55 +247,73 @@
         "category": "Hovedmedlem",
         "price": 3950,
         "description": "Full spillerett. Fra det året de fyller 21 år.",
-        "ageRange": "21+"
+        "ageRange": "21+",
+        "name_en": "Full Member",
+        "description_en": "Full playing rights. From the year you turn 21."
       },
       {
         "category": "Familie",
         "price": 6200,
         "description": "Ektefelle/samboer og hjemmeboende barn inntil 21 år på samme adresse.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Spouse/partner and children living at home up to 21 years at the same address."
       },
       {
         "category": "Student",
         "price": 2000,
         "description": "Fulltidsstudenter fra 21 t.o.m. 28 år. Gyldig studiebevis kreves.",
-        "ageRange": "21-28"
+        "ageRange": "21-28",
+        "name_en": "Student",
+        "description_en": "Full-time students aged 21-28. Valid student ID required."
       },
       {
         "category": "Ungdom",
         "price": 1300,
         "description": "Fra det året de fyller 17 år t.o.m. 20 år.",
-        "ageRange": "17-20"
+        "ageRange": "17-20",
+        "name_en": "Youth",
+        "description_en": "From the year you turn 17 up to age 20."
       },
       {
         "category": "Barn 12-16",
         "price": 500,
         "description": "Barn t.o.m. det året de fyller 16 år.",
-        "ageRange": "12-16"
+        "ageRange": "12-16",
+        "name_en": "Child 12-16",
+        "description_en": "Children up to the year they turn 16."
       },
       {
         "category": "Barn t.o.m 11",
         "price": 200,
         "description": "Barn t.o.m. det året de fyller 11 år.",
-        "ageRange": "0-11"
+        "ageRange": "0-11",
+        "name_en": "Child up to 11",
+        "description_en": "Children up to the year they turn 11."
       },
       {
         "category": "Spillerett",
         "price": 2700,
         "description": "Krever hovedmedlemskap i annen klubb. Full spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Playing rights",
+        "description_en": "Requires full membership in another club. Full playing rights."
       },
       {
         "category": "Fjernmedlem",
         "price": 1700,
         "description": "Bostedsadresse over 40 km fra Steinkjer. Spillerett mot greenfee.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Residential address over 40 km from Steinkjer. Playing rights with green fee."
       },
       {
         "category": "Førsteårsmedlem",
         "price": null,
         "description": "50% av medlemskategorien. For nybegynnere som tar VTG kurs hos klubben. Første år som medlem.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "First-year member",
+        "description_en": "50% of the membership category price. For beginners taking a Get Into Golf course at the club. First year as member."
       }
     ]
   },
@@ -311,5 +358,8 @@
     "createdAt": "2025-10-31T11:30:53.408Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJwxeKPNWEckYRJ84S1UvAiMY"
+  "googlePlaceId": "ChIJwxeKPNWEckYRJ84S1UvAiMY",
+  "slug_en": "steinkjer-golf-club",
+  "name_en": "Steinkjer Golf Club",
+  "description_en": "Midjo golf course by the Ogna river; varied challenges and excellent course conditions."
 }

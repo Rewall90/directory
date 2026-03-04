@@ -36,7 +36,13 @@
     "par4Count": 10,
     "par5Count": 4,
     "mountainViews": true,
-    "viewDescription": "Spektakulær arktisk beliggenhet i Skjomen-dalen med utsikt over den mørkeblå isbreen Frostisen og massive fjell. Midnattssol-golf fra midten av juni til midten av august. Banen ligger ved elven Skjoma og omgitt av bratte fjellsider langs fjorden. Hesterideskole i nærheten."
+    "viewDescription": "Spektakulær arktisk beliggenhet i Skjomen-dalen med utsikt over den mørkeblå isbreen Frostisen og massive fjell. Midnattssol-golf fra midten av juni til midten av august. Banen ligger ved elven Skjoma og omgitt av bratte fjellsider langs fjorden. Hesterideskole i nærheten.",
+    "terrain_en": "Woodland course",
+    "courseType_en": "18-hole championship course",
+    "designer_en": "Jan Sederholm",
+    "signatureHole_en": "Hole 10 -- par-3 with island green (120 metres)",
+    "scenicHole_en": "Hole 5 -- par-5 with elevated tee, water and views of the Frostisen glacier",
+    "viewDescription_en": "Spectacular Arctic setting in the Skjomen valley with views of the deep blue Frostisen glacier and massive mountains. Midnight sun golf from mid-June to mid-August. The course lies by the Skjoma river, surrounded by steep mountainsides along the fjord. Riding school nearby."
   },
   "description": "Utfordrende 18-hulls championship bane i arktisk naturskjønn beliggenhet i Skjomen-dalen, 35 minutter utenfor Narvik by. Banen ligger over polarsirkelen og tilbyr midnattssol-golf fra midten av juni til midten av august. Unikt skogsterreng med nær sagt alle hull som doglegs, noe som gjør presisjon viktigere enn lengde. Spektakulær utsikt mot den mørkeblå isbreen Frostisen og massive fjell. Utfordrende bane der nøyaktighet er nøkkelen til suksess.",
   "contact": {
@@ -68,7 +74,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Banen stenges om vinteren. Resepsjon åpen 12:00-20:00 i sesongen. Golfparken åpen 24 timer under midnattssol."
+    "winterUse": "Banen stenges om vinteren. Resepsjon åpen 12:00-20:00 i sesongen. Golfparken åpen 24 timer under midnattssol.",
+    "winterUse_en": "The course closes for winter. Reception open 12:00-20:00 during the season. The golf park is open 24 hours during the midnight sun period."
   },
   "visitors": {
     "welcome": true,
@@ -137,7 +144,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Midnattssol-golf tilgjengelig fra midten av juni til midten av august"
+      "notes": "Midnattssol-golf tilgjengelig fra midten av juni til midten av august",
+      "greenFeeDescription_en": "Day green fee 18 holes: 500 kr, 9 holes: 300 kr, Junior: 250 kr. Members without playing rights and distance members: 250 kr.",
+      "notes_en": "Midnight sun golf available from mid-June to mid-August"
     }
   },
   "membershipPricing": {
@@ -213,5 +222,8 @@
     "createdAt": "2025-10-31T09:43:40.329Z",
     "updatedAt": "2026-02-14T16:04:00.000Z"
   },
-  "googlePlaceId": "ChIJkcyxiKHD20URb_LzGv8DVc4"
+  "googlePlaceId": "ChIJkcyxiKHD20URb_LzGv8DVc4",
+  "slug_en": "narvik-golf-club",
+  "name_en": "Narvik Golf Club",
+  "description_en": "Challenging 18-hole championship course in a spectacularly scenic Arctic setting in the Skjomen valley, 35 minutes outside Narvik town. The course lies above the Arctic Circle and offers midnight sun golf from mid-June to mid-August. Unique woodland terrain where virtually every hole is a dogleg, making accuracy more important than length. Spectacular views towards the deep blue Frostisen glacier and massive mountains. A challenging course where precision is the key to success."
 }

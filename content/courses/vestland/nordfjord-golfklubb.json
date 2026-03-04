@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Nordfjord Golfklubb - 9-hulls parklandbane på Stokkenes ved Eidselva laksefossen i Nordfjordeid. Par 32, 1513m. Grunnlagt 1999. Ansett som en av de beste og vakreste golfbanene i Vestland. Driving range, putting green. Klubbhus med panoramautsikt over naturskjønne omgivelser. Handicap-grense 54. Ingen booking nødvendig."
+    "viewDescription": "Nordfjord Golfklubb - 9-hulls parklandbane på Stokkenes ved Eidselva laksefossen i Nordfjordeid. Par 32, 1513m. Grunnlagt 1999. Ansett som en av de beste og vakreste golfbanene i Vestland. Driving range, putting green. Klubbhus med panoramautsikt over naturskjønne omgivelser. Handicap-grense 54. Ingen booking nødvendig.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Panoramic views over scenic surroundings by the Eidselva river",
+    "scenicHole_en": "Panoramic views over scenic surroundings by the Eidselva river",
+    "viewDescription_en": "Nordfjord Golf Club - 9-hole parkland course at Stokkenes by the Eidselva salmon falls in Nordfjordeid. Par 32, 1,513m. Established 1999. Regarded as one of the finest and most beautiful golf courses in Vestland. Driving range, putting green. Clubhouse with panoramic views over scenic surroundings. Handicap limit 54. No booking required."
   },
   "description": "Nordfjord Golfklubb - 9-hulls parklandbane på Stokkenes Golfpark ved Eidselva laksefossen, grunnlagt 1999. Par 32 (64 for 18 hull når spilt 2 ganger), 1655 yards (ca 1513m). Ansett av mange som en av de beste og vakreste golfbanene i Vestland. Nordfjordeid ligger i Nordfjord.",
   "contact": {
@@ -129,7 +134,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Barn under 15 år spiller gratis med voksen. Alltid ledige tider. Kølleutleie tilgjengelig (Callaway Rogue & Mavrik). Vipps: 99802."
+      "notes": "Barn under 15 år spiller gratis med voksen. Alltid ledige tider. Kølleutleie tilgjengelig (Callaway Rogue & Mavrik). Vipps: 99802.",
+      "greenFeeDescription_en": "Green fee 2025: Adults and seniors 300 NOK, Junior (15-19 years) 100 NOK, Children under 15 (accompanied by adult) free. Winter greens: 100 NOK / 25 NOK.",
+      "notes_en": "Children under 15 play free when accompanied by an adult. Tee times always available. Club hire available (Callaway Rogue & Mavrik). Vipps: 99802."
     }
   },
   "membershipPricing": {
@@ -138,21 +145,24 @@
         "category": "child",
         "price": 0,
         "description": "Barn under 15 år med bostedsadresse i Nordfjord: Gratis medlemskap og greenfee årskort.",
-        "ageRange": "Under 15 år"
+        "ageRange": "Under 15 år",
+        "description_en": "Children under 15 residing in Nordfjord: Free membership and annual green fee pass."
       },
       {
         "category": "junior",
         "price": 600,
         "greenfeeAnnual": 1000,
         "description": "Junior (15-19 år): Medlemskap 600 kr, Greenfee årskort 1000 kr (valgfritt). Fjernmedlemmer betaler vanlig greenfee per runde.",
-        "ageRange": "15-19 år"
+        "ageRange": "15-19 år",
+        "description_en": "Junior (15-19 years): Membership 600 NOK, Annual green fee pass 1,000 NOK (optional). Distance members pay standard green fee per round."
       },
       {
         "category": "adult",
         "price": 1300,
         "greenfeeAnnual": 2000,
         "description": "Voksen: Medlemskap 1300 kr, Greenfee årskort 2000 kr (valgfritt). Fjernmedlemmer betaler vanlig greenfee per runde. NGF-avgift og Golfkort inkludert.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Adult: Membership 1,300 NOK, Annual green fee pass 2,000 NOK (optional). Distance members pay standard green fee per round. NGF fee and Golf Card included."
       }
     ]
   },
@@ -218,5 +228,8 @@
     "createdAt": "2025-10-31T10:20:26.938Z",
     "updatedAt": "2026-02-14T17:31:00.000Z"
   },
-  "googlePlaceId": "ChIJZXLDwUJWFkYRUEuQQRKXuXw"
+  "googlePlaceId": "ChIJZXLDwUJWFkYRUEuQQRKXuXw",
+  "slug_en": "nordfjord-golf-club",
+  "name_en": "Nordfjord Golf Club",
+  "description_en": "Nordfjord Golf Club - 9-hole parkland course at Stokkenes Golf Park by the Eidselva salmon falls, established in 1999. Par 32 (64 for 18 holes played twice), 1,655 yards (approx. 1,513m). Regarded by many as one of the finest and most beautiful golf courses in Vestland. Nordfjordeid is located in Nordfjord."
 }

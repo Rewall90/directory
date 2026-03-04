@@ -1,6 +1,8 @@
 {
   "slug": "sande-golfklubb",
+  "slug_en": "sande-golf-club",
   "name": "Sande Golfklubb",
+  "name_en": "Sande Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Sande i Vestfold",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Parkland",
+    "terrain_en": "Parkland",
     "courseType": "9-hulls parklandbane",
+    "courseType_en": "9-hole parkland course",
     "designer": null,
     "yearBuilt": 1999,
     "yearRedesigned": null,
     "waterHazards": null,
     "signatureHole": "Klubbhus i historisk låve med utsikt over hull 1 og 9",
+    "signatureHole_en": "Clubhouse in historic barn with views over holes 1 and 9",
     "scenicHole": "Klubbhus i historisk låve med utsikt over hull 1 og 9",
+    "scenicHole_en": "Clubhouse in historic barn with views over holes 1 and 9",
     "par3Count": null,
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Sande Golfklubb - 9-hulls parklandbane på Holsrud Gård grunnlagt 1999. Par 36, 2722m, CR 36.1, Slope 142. 3 tees per hull for variasjon. Driving range, putting green, chipping area, bunker practice. Klubbhus i historisk låve med terrasse over hull 1 og 9. Selvbetjeningskiosk, garderober, dusj, skap til leie. Golftrener tilgjengelig. Selskapsrom. Ca 650 medlemmer. Handicap-grense 54."
+    "viewDescription": "Sande Golfklubb - 9-hulls parklandbane på Holsrud Gård grunnlagt 1999. Par 36, 2722m, CR 36.1, Slope 142. 3 tees per hull for variasjon. Driving range, putting green, chipping area, bunker practice. Klubbhus i historisk låve med terrasse over hull 1 og 9. Selvbetjeningskiosk, garderober, dusj, skap til leie. Golftrener tilgjengelig. Selskapsrom. Ca 650 medlemmer. Handicap-grense 54.",
+    "viewDescription_en": "Sande Golf Club - 9-hole parkland course at Holsrud Farm founded 1999. Par 36, 2,722m, CR 36.1, Slope 142. 3 tees per hole for variety. Driving range, putting green, chipping area, bunker practice. Clubhouse in historic barn with terrace over holes 1 and 9. Self-service kiosk, changing rooms, showers, lockers for hire. Golf instructor available. Function room. Approx. 650 members. Handicap limit 54."
   },
   "description": "Sande Golfklubb - 9-hulls parklandbane på Holsrud Gård, grunnlagt 1999. Par 36, 2976 yards (ca 2722m), CR 36.1, Slope 142. Med 3 forskjellige tees per hull kan spillere gjennomføre 2 ni-hulls runder hvor alle hullene spilles forskjellig. Klubbhus i låve fra Holsrud gård med terrasse med utsikt over hull 1 tee og hull 9 green.",
+  "description_en": "Sande Golf Club - 9-hole parkland course at Holsrud Farm, founded 1999. Par 36, 2,976 yards (approx. 2,722m), CR 36.1, Slope 142. With 3 different tees per hole, players can complete 2 nine-hole rounds where all holes play differently. Clubhouse in a barn from Holsrud farm with a terrace overlooking the 1st tee and 9th green.",
   "contact": {
     "phone": "+47 977 13 766",
     "email": "post@sandegk.no",
@@ -127,6 +135,7 @@
       "greenFeeUngVoksen18": 300,
       "greenFeeUngVoksen9": 200,
       "greenFeeDescription": "Greenfee 2024: Voksen 18h 400 kr, 9h 250 kr. Ung voksen (20-24) 18h 300 kr, 9h 200 kr. Junior 16-19 år 18h 150 kr, 9h 100 kr. Junior under 12 år med voksen gratis. Juniorer fra Vestfold betaler ikke greenfee. NSG-medlemmer redusert pris 15. mai - 15. okt ved spill før kl 14 på hverdager.",
+      "greenFeeDescription_en": "Green fee 2024: Adult 18 holes 400 NOK, 9 holes 250 NOK. Young adult (20-24) 18 holes 300 NOK, 9 holes 200 NOK. Junior 16-19 years 18 holes 150 NOK, 9 holes 100 NOK. Junior under 12 years with adult free. Juniors from Vestfold do not pay green fee. NSG members reduced price 15 May - 15 Oct for play before 14:00 on weekdays.",
       "cartRental": 450,
       "cartRental9": 300,
       "cartRentalMedical": 200,
@@ -136,7 +145,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil leies via EAGL App. Golfbil 18h 450 kr, 9h 300 kr. Med legeerklæring 200/300 kr. Vipps #802461. Booking 4 dager før for gjester, 14 dager for medlemmer."
+      "notes": "Golfbil leies via EAGL App. Golfbil 18h 450 kr, 9h 300 kr. Med legeerklæring 200/300 kr. Vipps #802461. Booking 4 dager før for gjester, 14 dager for medlemmer.",
+      "notes_en": "Golf buggy hired via EAGL App. Golf buggy 18 holes 450 NOK, 9 holes 300 NOK. With medical certificate 200/300 NOK. Vipps #802461. Booking 4 days before for guests, 14 days for members."
     },
     "2026": {
       "currency": "NOK",
@@ -153,6 +163,7 @@
       "greenFeeMedlem18": 300,
       "greenFeeMedlem9": 175,
       "greenFeeDescription": "Greenfee 2026: Priser ikke oppdatert på nettside per februar 2026. Medlemmer betaler 300 kr for 18h og 175 kr for 9h. Gjester som spiller med medlem betaler samme pris. Ung voksen (20-24) 18h 300 kr, 9h 200 kr. Junior gratis. Betaling via Vipps #802461 før runde.",
+      "greenFeeDescription_en": "Green fee 2026: Prices not updated on website as of February 2026. Members pay 300 NOK for 18 holes and 175 NOK for 9 holes. Guests playing with a member pay the same price. Young adult (20-24) 18 holes 300 NOK, 9 holes 200 NOK. Junior free. Payment via Vipps #802461 before the round.",
       "cartRental": 450,
       "cartRental9": 300,
       "cartRentalMedical": null,
@@ -162,7 +173,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil leies via EAGL App. Medlemmer får redusert pris med rabattkoder. Booking 7 dager før for gjester, 14 dager for medlemmer. Alle må ha gjennomført VTG-kurs eller ha hcp 54 eller bedre."
+      "notes": "Golfbil leies via EAGL App. Medlemmer får redusert pris med rabattkoder. Booking 7 dager før for gjester, 14 dager for medlemmer. Alle må ha gjennomført VTG-kurs eller ha hcp 54 eller bedre.",
+      "notes_en": "Golf buggy hired via EAGL App. Members get reduced prices with discount codes. Booking 7 days before for guests, 14 days for members. All must have completed Road to Golf course or have handicap 54 or better."
     }
   },
   "membershipPricing": {
@@ -172,49 +184,63 @@
         "name": "Voksen",
         "price": 1600,
         "description": "Grunnkontingent for voksen medlem. Årsgreenfee kjøpes separat.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Basic membership fee for adult member. Annual green fee purchased separately."
       },
       {
         "category": "junior13-19",
         "name": "Junior 13-19 år",
         "price": 500,
         "description": "Grunnkontingent for junior 13-19 år. Fritt spill på de fleste baner i Vestfold.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19 Years",
+        "description_en": "Basic membership fee for junior 13-19 years. Free play at most courses in Vestfold."
       },
       {
         "category": "juniorUnder12",
         "name": "Junior 12 år og under",
         "price": 200,
         "description": "Grunnkontingent for junior 12 år og under. Fritt spill på de fleste baner i Vestfold.",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Junior 12 Years and Under",
+        "description_en": "Basic membership fee for junior 12 years and under. Free play at most courses in Vestfold."
       },
       {
         "category": "arsgreenfeeVoksen",
         "name": "Årsgreenfee Voksen",
         "price": 3500,
         "description": "Ubegrenset spill hele sesongen for voksne medlemmer. Halvpris etter 1. august (1750 kr).",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Annual Green Fee Adult",
+        "description_en": "Unlimited play for the entire season for adult members. Half price after 1 August (1,750 NOK)."
       },
       {
         "category": "arsgreenfeeUngVoksen",
         "name": "Årsgreenfee Ung Voksen 20-24 år",
         "price": 2000,
         "description": "Ubegrenset spill hele sesongen for ung voksen 20-24 år. Halvpris etter 1. august (1000 kr).",
-        "ageRange": "20-24"
+        "ageRange": "20-24",
+        "name_en": "Annual Green Fee Young Adult 20-24 Years",
+        "description_en": "Unlimited play for the entire season for young adults 20-24 years. Half price after 1 August (1,000 NOK)."
       },
       {
         "category": "golfskapLiten",
         "name": "Golfskap Liten",
         "price": 500,
         "description": "Leie av lite golfskap per år.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Golf Locker Small",
+        "description_en": "Small golf locker hire per year."
       },
       {
         "category": "golfskapStor",
         "name": "Golfskap Stor",
         "price": 1100,
         "description": "Leie av stort golfskap per år.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Golf Locker Large",
+        "description_en": "Large golf locker hire per year."
       }
     ]
   },

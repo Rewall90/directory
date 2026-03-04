@@ -1,6 +1,8 @@
 {
   "slug": "kristiansund-og-omegn-golfklubb",
+  "slug_en": "kristiansund-and-district-golf-club",
   "name": "Kristiansund og Omegn Golfklubb",
+  "name_en": "Kristiansund and District Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Kristiansund",
@@ -36,9 +38,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Beliggenhet i et lite dalføre i Seivika"
+    "viewDescription": "Beliggenhet i et lite dalføre i Seivika",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "9-hole golf course",
+    "viewDescription_en": "Located in a small valley in Seivika"
   },
   "description": "9-hulls skog- og parkbane i Seivika, Kristiansund. Banen har utfordrende fairways og små greener. Idyllisk beliggenhet i et lite dalføre. Grunnlagt i mai 1991 med ca. 300 medlemmer. Klubben tilbyr golfopplevelser hele året med både utendørsbane og innendørs simulator.",
+  "description_en": "9-hole woodland and parkland course in Seivika, Kristiansund. The course features challenging fairways and small greens. Idyllic location in a small valley. Founded in May 1991 with approximately 300 members. The club offers golf experiences all year round with both an outdoor course and indoor simulator.",
   "contact": {
     "phone": "+47 404 08772",
     "email": "kristiansund.golf@gmail.com",
@@ -73,7 +79,8 @@
   "season": {
     "start": "1. april",
     "end": "30. november",
-    "winterUse": "Åpen hele året. Trackman simulator tilgjengelig for vintertrening og spill."
+    "winterUse": "Åpen hele året. Trackman simulator tilgjengelig for vintertrening og spill.",
+    "winterUse_en": "Open all year round. Trackman simulator available for winter training and play."
   },
   "visitors": {
     "welcome": true,
@@ -138,7 +145,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Redusert pris for fjernmedlemmer og partnerklubber"
+      "notes": "Redusert pris for fjernmedlemmer og partnerklubber",
+      "greenFeeDescription_en": "Standard green fee: 350 NOK per day. KOGK distance members, partner clubs or guests of KOGK members playing in the same flight: 250 NOK green fee.",
+      "notes_en": "Reduced price for distance members and partner clubs"
     },
     "2026": {
       "currency": "NOK",
@@ -156,7 +165,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling via Vipps #115689. Banen er en 9-hullsbane, greenfee gjelder som dagspass."
+      "notes": "Betaling via Vipps #115689. Banen er en 9-hullsbane, greenfee gjelder som dagspass.",
+      "greenFeeDescription_en": "Standard green fee: 350 NOK per day (9-hole course, day pass). KOGK distance members, partner clubs or guests of KOGK members playing in the same flight: 250 NOK green fee. Payment via Vipps #115689.",
+      "notes_en": "Payment via Vipps #115689. The course is a 9-hole course; green fee serves as a day pass."
     }
   },
   "membershipPricing": {
@@ -182,7 +193,17 @@
       "vtgKursDescription": "År 1 for nye medlemmer over 25 år (VTG/TTG), inkl. materiell",
       "dugnadsrabatt": "20 timer = 1000 kr rabatt, 60+ timer = 1500 kr rabatt",
       "membershipStatus": "open",
-      "notes": "Utmelding må skje skriftlig innen 31. desember"
+      "notes": "Utmelding må skje skriftlig innen 31. desember",
+      "fullMembershipDescription_en": "Full member 30-79 years with free playing rights. Can be paid monthly or annually.",
+      "distanceMembershipDescription_en": "Distance member, must pay green fee 250 NOK",
+      "juniorMembershipDescription_en": "Junior 13-19 years with free playing rights",
+      "youthMembershipDescription_en": "Youth 20-25 years with free playing rights",
+      "youngAdultMembershipDescription_en": "Young Adult 26-29 years with free playing rights",
+      "childMembershipDescription_en": "Child 0-12 years with free playing rights",
+      "seniorMembershipDescription_en": "Senior 80+ years with free playing rights",
+      "esagMembershipDescription_en": "ESAG membership",
+      "vtgKursDescription_en": "Year 1 for new members over 25 years (VTG/TTG), incl. materials",
+      "notes_en": "Cancellation must be submitted in writing by 31 December"
     }
   },
   "ratings": {

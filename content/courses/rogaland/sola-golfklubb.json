@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Sola Golfklubb er en etablert 18-hulls parkbane i Sola, grunnlagt 1993. Par 72, lengde 5838m. Park- og skogslandskap ved Ræge. Klubben tilbyr tre baner med ett medlemskap: to 18-hulls baner og Golfpark med golf, fotballgolf og Pitch & Putt-løype. Driving range, putting green, chipping green, practice bunker, pro shop, restaurant, garderober."
+    "viewDescription": "Sola Golfklubb er en etablert 18-hulls parkbane i Sola, grunnlagt 1993. Par 72, lengde 5838m. Park- og skogslandskap ved Ræge. Klubben tilbyr tre baner med ett medlemskap: to 18-hulls baner og Golfpark med golf, fotballgolf og Pitch & Putt-løype. Driving range, putting green, chipping green, practice bunker, pro shop, restaurant, garderober.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "18-hole parkland course with 9-hole course and Golf Park",
+    "signatureHole_en": "Parkland and woodland setting at Raege",
+    "scenicHole_en": "Parkland and woodland setting at Raege",
+    "viewDescription_en": "Sola Golf Club is an established 18-hole parkland course in Sola, founded 1993. Par 72, length 5,838 m (yellow), 4,899 m (red). Parkland and woodland setting. The club offers three courses with one membership: two 18-hole courses and a Golf Park with golf, footgolf and a Pitch & Putt trail. Maximum handicap 54 for visitors. Season April-October."
   },
   "description": "Sola Golfklubb er en etablert 18-hulls parkbane i Sola, grunnlagt 1993. Par 72, lengde 5838m (gul), 4899m (rød). Park- og skogslandskap. Klubben tilbyr tre baner med ett medlemskap: to 18-hulls baner og en Golfpark med golf, fotballgolf og Pitch & Putt-løype. Handicapkrav 54 for besøkende. Sesong april-oktober.",
   "contact": {
@@ -123,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Tre baner med ett medlemskap: to 18-hulls baner og Golfpark med golf, fotballgolf og Pitch & Putt-løype"
+      "notes": "Tre baner med ett medlemskap: to 18-hulls baner og Golfpark med golf, fotballgolf og Pitch & Putt-løype",
+      "greenFeeDescription_en": "Green fee 18 holes: 900 kr (with 3 days advance booking), 700 kr (tee-off before 14:00 on weekdays).",
+      "notes_en": "Three courses with one membership: two 18-hole courses and Golf Park with golf, footgolf and Pitch & Putt trail"
     },
     "2026": {
       "currency": "NOK",
@@ -165,7 +172,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Tre baner med ett medlemskap. Tralle: 50 kr (20 stk Forus, 15 stk Solastranden). Driving range: Halv bøtte ca 25 baller, hel bøtte ca 50 baller. GolfMore prepaid pakker gir bonuskreditt. Simulator: inntil 4 spillere per booking, forhåndsbestilling inntil 14 dager. Medlemmer kan kjøpe verdikort på 3500 kr for 2500 kr (30% rabatt). Golf carts: mer info kommer sesongstart 2026. Sjekk Gimmie og GolfBox for booking."
+      "notes": "Tre baner med ett medlemskap. Tralle: 50 kr (20 stk Forus, 15 stk Solastranden). Driving range: Halv bøtte ca 25 baller, hel bøtte ca 50 baller. GolfMore prepaid pakker gir bonuskreditt. Simulator: inntil 4 spillere per booking, forhåndsbestilling inntil 14 dager. Medlemmer kan kjøpe verdikort på 3500 kr for 2500 kr (30% rabatt). Golf carts: mer info kommer sesongstart 2026. Sjekk Gimmie og GolfBox for booking.",
+      "greenFeeDescription_en": "FORUS: Weekend and weekdays after 14:00: 900 kr, Weekdays before 14:00: 700 kr, 9 holes: 500 kr, Junior (under 20 years): 400 kr. SOLASTRANDEN: All days before 12:00: 700 kr, All days after 12:00: 600 kr, 9 holes: 400 kr, Junior: 300 kr. GOLF PARK: Golf/Footgolf: 150 kr, Junior: 50 kr.",
+      "notes_en": "Three courses with one membership. Trolley: 50 kr (20 at Forus, 15 at Solastranden). Driving range: Half bucket approx. 25 balls, full bucket approx. 50 balls. GolfMore prepaid packages give bonus credit. Simulator: up to 4 players per booking, advance booking up to 14 days. Members can buy value card of 3,500 kr for 2,500 kr (30% discount). Golf carts: more info coming at season start 2026. Check Gimmie and GolfBox for booking."
     }
   },
   "membershipPricing": {
@@ -175,70 +184,90 @@
         "price": 11200,
         "description": "Hovedmedlem: 11 200 kr/år (939 kr/mnd)",
         "ageRange": null,
-        "benefits": "Venteliste, ubegrenset spill alle baner, 6 dagers forhåndsbooking, spillegaranti"
+        "benefits": "Venteliste, ubegrenset spill alle baner, 6 dagers forhåndsbooking, spillegaranti",
+        "name_en": "Adult",
+        "description_en": "Full member: 11,200 kr/year (939 kr/month)"
       },
       {
         "category": "senior",
         "price": 10000,
         "description": "Senior +67: 10 000 kr/år (839 kr/mnd)",
         "ageRange": "67+",
-        "benefits": "Samme fordeler som hovedmedlem"
+        "benefits": "Samme fordeler som hovedmedlem",
+        "name_en": "Senior",
+        "description_en": "Senior 67+: 10,000 kr/year (839 kr/month)"
       },
       {
         "category": "spouse",
         "price": 8500,
         "description": "Samboer/Ektefelle: 8 500 kr/år (719 kr/mnd)",
         "ageRange": null,
-        "benefits": "Samme fordeler som hovedmedlem"
+        "benefits": "Samme fordeler som hovedmedlem",
+        "name_en": "Spouse/Partner",
+        "description_en": "Partner/spouse: 8,500 kr/year (719 kr/month)"
       },
       {
         "category": "student",
         "price": 5000,
         "description": "Student: 5 000 kr/år (419 kr/mnd)",
         "ageRange": "til og med 28 år",
-        "benefits": "Heltidsstudenter, samme kjernefordeler som hovedmedlem"
+        "benefits": "Heltidsstudenter, samme kjernefordeler som hovedmedlem",
+        "name_en": "Student",
+        "description_en": "Student: 5,000 kr/year (419 kr/month)"
       },
       {
         "category": "juniorOlder",
         "price": 3000,
         "description": "Junior 14-21: 3 000 kr/år (259 kr/mnd)",
         "ageRange": "14-21",
-        "benefits": "Ingen venteliste, ubegrenset spill, 6 dagers booking"
+        "benefits": "Ingen venteliste, ubegrenset spill, 6 dagers booking",
+        "name_en": "Junior 14-21",
+        "description_en": "Junior 14-21: 3,000 kr/year (259 kr/month)"
       },
       {
         "category": "juniorYounger",
         "price": 990,
         "description": "Junior -13: 990 kr/år (89 kr/mnd)",
         "ageRange": "0-13",
-        "benefits": "Samme fordeler som eldre junior"
+        "benefits": "Samme fordeler som eldre junior",
+        "name_en": "Junior Under 13",
+        "description_en": "Junior under 13: 990 kr/year (89 kr/month)"
       },
       {
         "category": "family",
         "price": 23100,
         "description": "Familiemedlemskap: 23 100 kr/år (1 929 kr/mnd)",
         "ageRange": null,
-        "benefits": "2 voksne + barn, inkluderer venteliste og fulle medlemsfordeler"
+        "benefits": "2 voksne + barn, inkluderer venteliste og fulle medlemsfordeler",
+        "name_en": "Family",
+        "description_en": "Family membership: 23,100 kr/year (1,929 kr/month)"
       },
       {
         "category": "course",
         "price": 3500,
         "description": "Kursmedlem: 3 500 kr/år",
         "ageRange": null,
-        "benefits": "Deltakere på 'Veien til golf' kurs, spill begrenset til Solastranden, gratis medlemstrening"
+        "benefits": "Deltakere på 'Veien til golf' kurs, spill begrenset til Solastranden, gratis medlemstrening",
+        "name_en": "Course Member",
+        "description_en": "Course member: 3,500 kr/year"
       },
       {
         "category": "greenfee",
         "price": 1850,
         "description": "Greenfeemedlem: 1 850 kr/år",
         "ageRange": null,
-        "benefits": "3 dagers bookingvindu, NGF-avgifter inkludert"
+        "benefits": "3 dagers bookingvindu, NGF-avgifter inkludert",
+        "name_en": "Green Fee Member",
+        "description_en": "Green fee member: 1,850 kr/year"
       },
       {
         "category": "passive",
         "price": 2990,
         "description": "Passiv: 2 990 kr/år",
         "ageRange": null,
-        "benefits": "3 greenfee-spill årlig, 3 dagers bookingtilgang"
+        "benefits": "3 greenfee-spill årlig, 3 dagers bookingtilgang",
+        "name_en": "Passive",
+        "description_en": "Passive: 2,990 kr/year"
       }
     ],
     "beginnerProgression": {
@@ -354,5 +383,8 @@
     "updatedAt": "2026-02-15T00:00:00.000Z",
     "notes": "Deep-scrape completed: Comprehensive 2026 pricing including greenfees (3 courses), membership (10 categories), simulator, driving range, instruction (individual/group/packages), beginner courses, summer school, hotel packages, GolfMore prepaid, cancellation policies, facilities details"
   },
-  "googlePlaceId": "ChIJEUxIhf81OkYRYr5xFvOX8co"
+  "googlePlaceId": "ChIJEUxIhf81OkYRYr5xFvOX8co",
+  "slug_en": "sola-golf-club",
+  "name_en": "Sola Golf Club",
+  "description_en": "Sola Golf Club is an established 18-hole parkland course in Sola, founded 1993. Par 72, length 5,838 m (yellow), 4,899 m (red). Parkland and woodland setting. The club offers three courses with one membership: two 18-hole courses and a Golf Park with golf, footgolf and a Pitch & Putt trail. Maximum handicap 54 for visitors. Season April-October."
 }

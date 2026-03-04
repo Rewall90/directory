@@ -36,7 +36,12 @@
     "par4Count": 3,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Selje Golfklubb - 9-hulls parklandbane grunnlagt 1997 (Norges 100. golfklubb). Par 30 (6 par 3, 3 par 4). NGF-godkjent konkurransebane fra 2004. Utfordrende bane ytterst i havgapet på bølgende jordbruksland. Bruker åssider og bekker i terreng til fordel. Driving range. Sommergreener året rundt. Ca 190 medlemmer. Bunkerrenovering 2025."
+    "viewDescription": "Selje Golfklubb - 9-hulls parklandbane grunnlagt 1997 (Norges 100. golfklubb). Par 30 (6 par 3, 3 par 4). NGF-godkjent konkurransebane fra 2004. Utfordrende bane ytterst i havgapet på bølgende jordbruksland. Bruker åssider og bekker i terreng til fordel. Driving range. Sommergreener året rundt. Ca 190 medlemmer. Bunkerrenovering 2025.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "At the mouth of the open sea with a coastal location",
+    "scenicHole_en": "At the mouth of the open sea with a coastal location",
+    "viewDescription_en": "Selje Golf Club - 9-hole parkland course established 1997 (Norway's 100th golf club). Par 30 (6 par 3s, 3 par 4s). NGF-approved competition course from 2004. Challenging course at the mouth of the open sea on undulating farmland. Uses hillsides and streams in the terrain to advantage. Driving range. Summer greens year-round. Approx. 190 members. Bunker renovation 2025."
   },
   "description": "Selje Golfklubb - Utfordrende 9-hulls parklandbane grunnlagt 1997, Norges golfklubb nr. 100. Ble fullverdig NGF-godkjent konkurransebane i november 2004. Par 30 (60 for 18 hull), kun 3 par 4-hull og 6 par 3-hull. Utfordrende bane til tross for at den ikke er veldig lang. Ligger ytterst i havgapet på bølgende jordbruksland fra syv småbruk.",
   "contact": {
@@ -59,7 +64,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Sommergreener året rundt"
+    "winterUse": "Sommergreener året rundt",
+    "winterUse_en": "Summer greens year-round"
   },
   "visitors": {
     "welcome": true,
@@ -125,7 +131,9 @@
       "specialOfferPrice": 1500,
       "specialOfferIncludes": "Ferie greenfee - spill så mye du ønsker i 10 dager",
       "freeTrial": null,
-      "notes": "Simulator: Drop-in 150 kr/time (hverdager før 16), 225 kr/time (etter 16 og helg). Junior halv pris. Sesongkort simulator: 3500-4500 kr. Årskort junior 2500 kr."
+      "notes": "Simulator: Drop-in 150 kr/time (hverdager før 16), 225 kr/time (etter 16 og helg). Junior halv pris. Sesongkort simulator: 3500-4500 kr. Årskort junior 2500 kr.",
+      "greenFeeDescription_en": "Green fee 2026: Adult 350 NOK (full day), Junior 200 NOK (full day). Holiday green fee (10 days) 1,500 NOK. Payment via Vipps #693758 before the round. Register in Gimmie before teeing off.",
+      "notes_en": "Simulator: Drop-in 150 NOK/hour (weekdays before 16:00), 225 NOK/hour (after 16:00 and weekends). Juniors half price. Simulator season pass: 3,500-4,500 NOK. Junior annual pass 2,500 NOK."
     }
   },
   "membershipPricing": {
@@ -135,21 +143,27 @@
         "price": 400,
         "playingRights": 0,
         "description": "Junior medlemskap: 400 kr. Spillerett gratis.",
-        "ageRange": "Under 19 år"
+        "ageRange": "Under 19 år",
+        "name_en": "Junior",
+        "description_en": "Junior membership: 400 NOK. Playing rights free."
       },
       {
         "category": "adult",
         "price": 900,
         "playingRights": 1600,
         "description": "Voksen medlemskap: 900 kr. Spillerett: 1600 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Adult membership: 900 NOK. Playing rights: 1,600 NOK."
       },
       {
         "category": "family",
         "price": 1500,
         "playingRights": 2000,
         "description": "Par/Familie medlemskap: 1500 kr. Spillerett: 2000 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Couple/Family",
+        "description_en": "Couple/Family membership: 1,500 NOK. Playing rights: 2,000 NOK."
       }
     ]
   },
@@ -194,5 +208,8 @@
     "createdAt": "2025-10-31T10:17:00.646Z",
     "updatedAt": "2026-02-14T17:36:00.000Z"
   },
-  "googlePlaceId": "ChIJDaBA_78LF0YR6mviiMweWog"
+  "googlePlaceId": "ChIJDaBA_78LF0YR6mviiMweWog",
+  "slug_en": "selje-golf-club",
+  "name_en": "Selje Golf Club",
+  "description_en": "Selje Golf Club - Challenging 9-hole parkland course established in 1997, Norway's 100th golf club. Became a fully NGF-approved competition course in November 2004. Par 30 (60 for 18 holes), with only 3 par-4 holes and 6 par-3 holes. A challenging course despite its modest length. Located at the mouth of the open sea on undulating farmland from seven smallholdings."
 }

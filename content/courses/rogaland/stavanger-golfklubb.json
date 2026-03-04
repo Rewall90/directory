@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Stavanger Golfklubb - aktiv og tradisjonsrik golfklubb grunnlagt 1956. 18-hulls parkbane designet av Fred Smith, 5 km fra Stavanger sentrum ved Store Stokkavann. Par 71, lett kupert terreng med vannhindringer. Vanskelighetsgrad moderat-utfordrende. Driving range, simulator, Café 19th Hole, Gårdsmat restaurant, treningsområder, pro shop, konferanserom."
+    "viewDescription": "Stavanger Golfklubb - aktiv og tradisjonsrik golfklubb grunnlagt 1956. 18-hulls parkbane designet av Fred Smith, 5 km fra Stavanger sentrum ved Store Stokkavann. Par 71, lett kupert terreng med vannhindringer. Vanskelighetsgrad moderat-utfordrende. Driving range, simulator, Café 19th Hole, Gårdsmat restaurant, treningsområder, pro shop, konferanserom.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "18-hole parkland course",
+    "designer_en": "Fred Smith",
+    "signatureHole_en": "Parkland and woodland setting at Store Stokkavann",
+    "scenicHole_en": "Parkland and woodland setting at Store Stokkavann",
+    "viewDescription_en": "Stavanger Golf Club - An active, tradition-rich golf club for all. 18-hole parkland course designed by Fred Smith, founded 1956. Par 71, length 5,758 m (white), 5,551 m (yellow). Situated 5 km from Stavanger city centre in tranquil surroundings near Store Stokkavann. Gently undulating terrain with water hazards. Moderate to challenging difficulty."
   },
   "description": "Stavanger Golfklubb - En aktiv og tradisjonsrik golfklubb for alle. 18-hulls parkbane designet av Fred Smith, grunnlagt 1956. Par 71, lengde 5758m (hvit), 5551m (gul). Ligger 5 km fra Stavanger sentrum i rolige omgivelser nær Store Stokkavann. Lett kupert terreng med vannhindringer. Vanskelighetsgrad moderat til utfordrende.",
   "contact": {
@@ -126,7 +132,9 @@
       "specialOfferPrice": 2750,
       "specialOfferIncludes": "5 stk greenfee via GolfMore-appen",
       "freeTrial": null,
-      "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester. Buggy kun for medisinske årsaker."
+      "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester. Buggy kun for medisinske årsaker.",
+      "greenFeeDescription_en": "18 holes: 850 kr (weekdays 08:00-19:00 and weekends). Early Bird (weekdays before 08:00): 650 kr. Twilight (weekdays after 19:00): 650 kr. 9 holes: 390 kr (weekdays before 08:00), 510 kr (after 08:00 and weekends). Member discount: 5 green fees via GolfMore for 2,750 kr.",
+      "notes_en": "GolfMore app with green fee offers for members' guests. Buggy for medical reasons only."
     },
     "2026": {
       "currency": "NOK",
@@ -145,7 +153,9 @@
       "specialOfferPrice": 2750,
       "specialOfferIncludes": "5 stk greenfee via GolfMore-appen",
       "freeTrial": null,
-      "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester. Buggy kun for medisinske årsaker."
+      "notes": "GolfMore-app med greenfee-tilbud for medlemmers gjester. Buggy kun for medisinske årsaker.",
+      "greenFeeDescription_en": "18 holes: 850 kr (weekdays 08:00-19:00 and weekends). Early Bird (weekdays before 08:00): 650 kr. Twilight (weekdays after 19:00): 650 kr. 9 holes: 390 kr (weekdays before 08:00), 510 kr (after 08:00 and weekends). Member discount: 5 green fees via GolfMore for 2,750 kr.",
+      "notes_en": "GolfMore app with green fee offers for members' guests. Buggy for medical reasons only."
     }
   },
   "membershipPricing": {
@@ -154,49 +164,65 @@
         "category": "adult",
         "price": 10550,
         "description": "Hovedmedlem (35+ år): 10 550 kr/år (922 kr/mnd)",
-        "ageRange": "35+"
+        "ageRange": "35+",
+        "name_en": "Adult",
+        "description_en": "Full member (35+ years): 10,550 kr/year (922 kr/month)"
       },
       {
         "category": "spouse",
         "price": 8550,
         "description": "Ektefelle/samboer: 8 550 kr/år (755 kr/mnd)",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Spouse/partner: 8,550 kr/year (755 kr/month)"
       },
       {
         "category": "youngAdult",
         "price": 8550,
         "description": "Ung Voksne (20-34 år): 8 550 kr/år (755 kr/mnd)",
-        "ageRange": "20-34"
+        "ageRange": "20-34",
+        "name_en": "Young Adult",
+        "description_en": "Young adult (20-34 years): 8,550 kr/year (755 kr/month)"
       },
       {
         "category": "youngAdultSpouse",
         "price": 6550,
         "description": "Ektefelle/samboer Ung Voksen (20-34 år): 6 550 kr/år (588 kr/mnd)",
-        "ageRange": "20-34"
+        "ageRange": "20-34",
+        "name_en": "Young Adult Spouse",
+        "description_en": "Spouse/partner young adult (20-34 years): 6,550 kr/year (588 kr/month)"
       },
       {
         "category": "student",
         "price": 4800,
         "description": "Student/vernepliktig: 4 800 kr/år (442 kr/mnd). Kun for tidligere SGK junior medlemmer, opp til 26 år.",
-        "ageRange": "0-26"
+        "ageRange": "0-26",
+        "name_en": "Student",
+        "description_en": "Student/military service: 4,800 kr/year (442 kr/month). Only for former SGK junior members, up to 26 years."
       },
       {
         "category": "vtg",
         "price": 5275,
         "description": "VTG I (Nybegynner): 5 275 kr/år (482 kr/mnd). Kun for kursdeltagere hos SGK.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Get Into Golf",
+        "description_en": "Get Into Golf I (Beginner): 5,275 kr/year (482 kr/month). Only for course participants at SGK."
       },
       {
         "category": "remote",
         "price": 6330,
         "description": "Fjernmedlem: 6 330 kr/år (570 kr/mnd). Fast bosted 8+ mil fra klubben. Gir spillerett, men ikke tilgang til TopNordic Golf.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance member: 6,330 kr/year (570 kr/month). Permanent residence 80+ km from the club. Gives playing rights but no access to TopNordic Golf."
       },
       {
         "category": "passive",
         "price": 3000,
         "description": "Passiv medlem: 3 000 kr/år. Inkluderer to greenfee-billetter, men gir ikke full spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Passive",
+        "description_en": "Passive member: 3,000 kr/year. Includes two green fee vouchers but does not give full playing rights."
       }
     ]
   },
@@ -286,5 +312,8 @@
     "createdAt": "2025-10-31T07:46:27.633Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJBfIuGsBKOkYR4TILVNiVWQk"
+  "googlePlaceId": "ChIJBfIuGsBKOkYR4TILVNiVWQk",
+  "slug_en": "stavanger-golf-club",
+  "name_en": "Stavanger Golf Club",
+  "description_en": "Stavanger Golf Club - An active, tradition-rich golf club for all. 18-hole parkland course designed by Fred Smith, founded 1956. Par 71, length 5,758 m (white), 5,551 m (yellow). Situated 5 km from Stavanger city centre in tranquil surroundings near Store Stokkavann. Gently undulating terrain with water hazards. Moderate to challenging difficulty."
 }

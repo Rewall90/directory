@@ -36,7 +36,12 @@
     "par4Count": 5,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Stord Golfklubb - 9-hulls park/skogsbane grunnlagt 1992 på Stord i Sunnhordland, Vestland. Par 34 (68 for 18h), 2060m. Bølgende terreng med vannhindre. Par-fordeling: 1 par 5, 5 par 4, 3 par 3. Driving range, putting/chipping greens, practice bunker. 3 simulatorer. Klubbhus med pro shop. Kølleutleie. Handicap-grense 36. Åpen året rundt."
+    "viewDescription": "Stord Golfklubb - 9-hulls park/skogsbane grunnlagt 1992 på Stord i Sunnhordland, Vestland. Par 34 (68 for 18h), 2060m. Bølgende terreng med vannhindre. Par-fordeling: 1 par 5, 5 par 4, 3 par 3. Driving range, putting/chipping greens, practice bunker. 3 simulatorer. Klubbhus med pro shop. Kølleutleie. Handicap-grense 36. Åpen året rundt.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "9-hole parkland/woodland course",
+    "signatureHole_en": "Undulating parkland/woodland terrain with water hazards",
+    "scenicHole_en": "Undulating parkland/woodland terrain with water hazards",
+    "viewDescription_en": "Stord Golf Club - 9-hole parkland/woodland course established 1992 on Stord in Sunnhordland, Vestland. Par 34 (68 for 18 holes), 2,060m. Undulating terrain with water hazards. Hole composition: 1 par 5, 5 par 4s, 3 par 3s. Driving range, putting/chipping greens, practice bunker. 3 simulators. Clubhouse with pro shop. Club hire. Handicap limit 36. Open year-round."
   },
   "description": "Stord Golfklubb - 9-hulls park/skogsbane grunnlagt 1992 på Stord i Sunnhordland. Par 34 (68 for 18 hull når spilt 2 ganger), 2060 meter. Bølgende terreng med vannhindre. Par-fordeling: 1 par 5, 5 par 4, 3 par 3. Moderat teknisk vanskelighetsgrad.",
   "contact": {
@@ -59,7 +64,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Åpen hele året, 3 golfsimulatore tilgjengelig"
+    "winterUse": "Åpen hele året, 3 golfsimulatore tilgjengelig",
+    "winterUse_en": "Open year-round, 3 golf simulators available"
   },
   "visitors": {
     "welcome": true,
@@ -127,7 +133,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "3 toppmoderne golfsimulatore for innendørsspill via Alba booking. Golfamore Shop. Tildelt 'Godt Tilgjenge 2025' pris for inkludering. Gratis medlemstreninger for barn og unge."
+      "notes": "3 toppmoderne golfsimulatore for innendørsspill via Alba booking. Golfamore Shop. Tildelt 'Godt Tilgjenge 2025' pris for inkludering. Gratis medlemstreninger for barn og unge.",
+      "greenFeeDescription_en": "Green fee 2025: 9 holes 250 NOK, 18 holes 350 NOK. Payment via Vipps #621212 before the round. Golf buggy: 200 NOK (9 holes), 300 NOK (18 holes).",
+      "notes_en": "3 state-of-the-art golf simulators for indoor play via Alba booking. Golfamore Shop. Awarded 'Good Accessibility 2025' prize for inclusion. Free member training sessions for children and young people."
     }
   },
   "membershipPricing": {
@@ -136,54 +144,62 @@
         "category": "child",
         "price": 200,
         "description": "Barn (0-12 år): 200 kr/år",
-        "ageRange": "0-12 år"
+        "ageRange": "0-12 år",
+        "description_en": "Children (0-12 years): 200 NOK/year"
       },
       {
         "category": "junior",
         "price": 900,
         "description": "Junior (13-19 år): 900 kr/år",
-        "ageRange": "13-19 år"
+        "ageRange": "13-19 år",
+        "description_en": "Junior (13-19 years): 900 NOK/year"
       },
       {
         "category": "student",
         "price": 1900,
         "monthlyPrice": 159,
         "description": "Student (med gyldig studentbevis): 1900 kr/år eller 159 kr/mnd",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Student (with valid student ID): 1,900 NOK/year or 159 NOK/month"
       },
       {
         "category": "youngAdult",
         "price": 2990,
         "monthlyPrice": 250,
         "description": "Ung voksen (20-25 år): 2990 kr/år eller 250 kr/mnd",
-        "ageRange": "20-25 år"
+        "ageRange": "20-25 år",
+        "description_en": "Young Adult (20-25 years): 2,990 NOK/year or 250 NOK/month"
       },
       {
         "category": "adult",
         "price": 4700,
         "monthlyPrice": 392,
         "description": "Hovedmedlem (26-66 år): 4700 kr/år eller 392 kr/mnd. Nye medlemmer første år: 3000 kr. 20% rabatt for medlemmer utenfor Stord/Fitjar.",
-        "ageRange": "26-66 år"
+        "ageRange": "26-66 år",
+        "description_en": "Full Member (26-66 years): 4,700 NOK/year or 392 NOK/month. First year for new members: 3,000 NOK. 20% discount for members outside Stord/Fitjar."
       },
       {
         "category": "senior",
         "price": 4200,
         "monthlyPrice": 350,
         "description": "Pensjonist (67+ år): 4200 kr/år eller 350 kr/mnd",
-        "ageRange": "67+ år"
+        "ageRange": "67+ år",
+        "description_en": "Senior (67+ years): 4,200 NOK/year or 350 NOK/month"
       },
       {
         "category": "spouse",
         "price": 4200,
         "monthlyPrice": 350,
         "description": "Samboer/Ektefelle (med hovedmedlem): 4200 kr/år eller 350 kr/mnd",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Partner/Spouse (with full member): 4,200 NOK/year or 350 NOK/month"
       },
       {
         "category": "passive",
         "price": 1200,
         "description": "Uten spillerett (passivt medlemskap): 1200 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Non-playing membership (passive): 1,200 NOK/year"
       }
     ]
   },
@@ -249,5 +265,8 @@
     "createdAt": "2025-10-31T10:17:01.422Z",
     "updatedAt": "2026-02-14T17:40:00.000Z"
   },
-  "googlePlaceId": "ChIJi14WNWZ5PEYR7WLXeOr5TOQ"
+  "googlePlaceId": "ChIJi14WNWZ5PEYR7WLXeOr5TOQ",
+  "slug_en": "stord-golf-club",
+  "name_en": "Stord Golf Club",
+  "description_en": "Stord Golf Club - 9-hole parkland/woodland course established in 1992 on Stord in Sunnhordland. Par 34 (68 for 18 holes played twice), 2,060 metres. Undulating terrain with water hazards. Hole composition: 1 par 5, 5 par 4s, 3 par 3s. Moderate technical difficulty."
 }

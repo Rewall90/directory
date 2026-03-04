@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Nordvegen Golfklubb er en 18-hulls linksbane ved havet i Torvastad, nord på Karmøy, 15 min fra Haugesund. Åpnet 2003, redesignet 2018 av Einar Marius Sæther. Par 71. Klassisk kystlandskap links med spektakulær havutsikt. En klubb ved havet - for alle! Del av Sveio Golfpark-systemet (54 hull totalt: Nordvegen, Haugaland, Karmøy, Torvastad). Ett medlemskap gir tilgang til alle fire baner. Driving range under oppgradering, putting green, chipping green, practice bunker, klubbhus, simulator. Bobil-parkering tilgjengelig. Pro/daglig leder: Gavin Hinds."
+    "viewDescription": "Nordvegen Golfklubb er en 18-hulls linksbane ved havet i Torvastad, nord på Karmøy, 15 min fra Haugesund. Åpnet 2003, redesignet 2018 av Einar Marius Sæther. Par 71. Klassisk kystlandskap links med spektakulær havutsikt. En klubb ved havet - for alle! Del av Sveio Golfpark-systemet (54 hull totalt: Nordvegen, Haugaland, Karmøy, Torvastad). Ett medlemskap gir tilgang til alle fire baner. Driving range under oppgradering, putting green, chipping green, practice bunker, klubbhus, simulator. Bobil-parkering tilgjengelig. Pro/daglig leder: Gavin Hinds.",
+    "terrain_en": "Coastal links",
+    "courseType_en": "18-hole links course",
+    "designer_en": "Einar Marius Sæther",
+    "signatureHole_en": "Links course by the sea with spectacular views",
+    "scenicHole_en": "Links course by the sea with spectacular views",
+    "viewDescription_en": "Nordvegen Golf Club is an 18-hole links course in Torvastad, north Karmoy, just 15 minutes from Haugesund town centre. Opened in 2003, redesigned 2018. Designed by architect Einar Marius Saether. Par 71. Classic links course by the sea in scenic surroundings. A club by the sea - for everyone! Part of the Sveio Golf Park system together with Haugaland, Karmoy and Torvastad (54 holes in total). One membership gives access to all four courses. Maximum handicap 54 for visitors."
   },
   "description": "Nordvegen Golfklubb er en 18-hulls linksbane i Torvastad, nord på Karmøy, kun 15 minutter fra Haugesund sentrum. Åpnet i 2003, redesignet 2018. Designet av arkitekt Einar Marius Sæther. Par 71. Klassisk linksbane ved havet med naturskjønne omgivelser. En klubb ved havet - for alle! Del av Sveio Golfpark-systemet sammen med Haugaland, Karmøy og Torvastad (54 hull totalt). Ett medlemskap gir tilgang til alle fire baner. Handicapkrav 54 for besøkende.",
   "contact": {
@@ -133,7 +139,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Ta kurs nå og få medlemskap for 2025 og 2026 inkludert. Del av 54-hulls system med Haugaland, Karmøy og Torvastad."
+      "notes": "Ta kurs nå og få medlemskap for 2025 og 2026 inkludert. Del av 54-hulls system med Haugaland, Karmøy og Torvastad.",
+      "greenFeeDescription_en": "Green fee 2025: 450 kr (adults >18 years), 200 kr (junior <18 years). Handicap 54 required. Members of Haugaland GC and Karmoy GC get free green fee.",
+      "notes_en": "Take a course now and get membership for 2025 and 2026 included. Part of 54-hole system with Haugaland, Karmoy and Torvastad."
     },
     "2026": {
       "currency": "NOK",
@@ -152,7 +160,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "2026-priser ikke publisert separat på nettsiden (viser kun 2025-priser per 15. feb 2026). Priser videreført fra 2025. Golfbil leie kr 350,- (aldersgrense 20 år). Del av 54-hulls system med Haugaland, Karmøy og Torvastad. Årsmøte planlagt 3. mars 2026."
+      "notes": "2026-priser ikke publisert separat på nettsiden (viser kun 2025-priser per 15. feb 2026). Priser videreført fra 2025. Golfbil leie kr 350,- (aldersgrense 20 år). Del av 54-hulls system med Haugaland, Karmøy og Torvastad. Årsmøte planlagt 3. mars 2026.",
+      "greenFeeDescription_en": "Green fee 2026: 450 kr (adults >=18 years), 200 kr (junior <18 years). Same price weekdays and weekends. Handicap 54 required. Members of Haugaland GC and Karmoy GC get free green fee. Tournament fee: 9 holes 200 kr, 18 holes 300 kr.",
+      "notes_en": "2026 prices not published separately on website (shows only 2025 prices as of 15 Feb 2026). Prices carried forward from 2025. Golf cart hire 350 kr (minimum age 20). Part of 54-hole system with Haugaland, Karmoy and Torvastad. Annual meeting planned 3 March 2026."
     }
   },
   "membershipPricing": {
@@ -161,43 +171,57 @@
         "category": "adult",
         "price": 6840,
         "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Membership 2025: Adult 6,840 kr/year (570 kr/month), spouse/partner 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 7-12 years 500 kr/year, children up to 6 years 100 kr/year. Includes NGF fee and Norsk Golf magazine for members 20+. Free play at Nordvegen, Haugaland and Karmoy."
       },
       {
         "category": "spouse",
         "price": 5640,
         "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Membership 2025: Adult 6,840 kr/year (570 kr/month), spouse/partner 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 7-12 years 500 kr/year, children up to 6 years 100 kr/year. Includes NGF fee and Norsk Golf magazine for members 20+. Free play at Nordvegen, Haugaland and Karmoy."
       },
       {
         "category": "student",
         "price": 3540,
         "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Membership 2025: Adult 6,840 kr/year (570 kr/month), spouse/partner 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 7-12 years 500 kr/year, children up to 6 years 100 kr/year. Includes NGF fee and Norsk Golf magazine for members 20+. Free play at Nordvegen, Haugaland and Karmoy."
       },
       {
         "category": "youth20_23",
         "price": 3540,
         "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "youth20_23",
+        "description_en": "Membership 2025: Adult 6,840 kr/year (570 kr/month), spouse/partner 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 7-12 years 500 kr/year, children up to 6 years 100 kr/year. Includes NGF fee and Norsk Golf magazine for members 20+. Free play at Nordvegen, Haugaland and Karmoy."
       },
       {
         "category": "junior13_19",
         "price": 1500,
         "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Junior 13-19",
+        "description_en": "Membership 2025: Adult 6,840 kr/year (570 kr/month), spouse/partner 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 7-12 years 500 kr/year, children up to 6 years 100 kr/year. Includes NGF fee and Norsk Golf magazine for members 20+. Free play at Nordvegen, Haugaland and Karmoy."
       },
       {
         "category": "child7_12",
         "price": 500,
         "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "child7_12",
+        "description_en": "Membership 2025: Adult 6,840 kr/year (570 kr/month), spouse/partner 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 7-12 years 500 kr/year, children up to 6 years 100 kr/year. Includes NGF fee and Norsk Golf magazine for members 20+. Free play at Nordvegen, Haugaland and Karmoy."
       },
       {
         "category": "childUnder6",
         "price": 100,
         "description": "Medlemskap 2025: Voksen 6840 kr/år (570 kr/mnd), ektefelle/samboer 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 7-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Inkluderer NGF-avgift og Norsk Golf magasin for medlemmer 20 år+. Fritt spill på Nordvegen, Haugaland og Karmøy.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Child Under 6",
+        "description_en": "Membership 2025: Adult 6,840 kr/year (570 kr/month), spouse/partner 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 7-12 years 500 kr/year, children up to 6 years 100 kr/year. Includes NGF fee and Norsk Golf magazine for members 20+. Free play at Nordvegen, Haugaland and Karmoy."
       }
     ]
   },
@@ -246,5 +270,8 @@
     "createdAt": "2025-10-31T07:46:25.101Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJs4t8FmJ1O0YRxyST5eOdt50"
+  "googlePlaceId": "ChIJs4t8FmJ1O0YRxyST5eOdt50",
+  "slug_en": "nordvegen-golf-club",
+  "name_en": "Nordvegen Golf Club",
+  "description_en": "Nordvegen Golf Club is an 18-hole links course in Torvastad, north Karmoy, just 15 minutes from Haugesund town centre. Opened in 2003, redesigned 2018. Designed by architect Einar Marius Saether. Par 71. Classic links course by the sea in scenic surroundings. A club by the sea - for everyone! Part of the Sveio Golf Park system together with Haugaland, Karmoy and Torvastad (54 holes in total). One membership gives access to all four courses. Maximum handicap 54 for visitors."
 }

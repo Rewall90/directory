@@ -1,6 +1,8 @@
 {
   "slug": "halden-golfklubb",
+  "slug_en": "halden-golf-club",
   "name": "Halden Golfklubb",
+  "name_en": "Halden Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Halden",
@@ -36,9 +38,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Variert og morsom 18-hulls skog- og parkbane med flotte naturopplevelser i Halden"
+    "viewDescription": "Variert og morsom 18-hulls skog- og parkbane med flotte naturopplevelser i Halden",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "Woodland and parkland course",
+    "viewDescription_en": "Varied and enjoyable 18-hole woodland and parkland course with wonderful nature experiences in Halden"
   },
   "description": "Variert og morsom 18-hulls bane med flotte naturopplevelser",
+  "description_en": "Varied and enjoyable 18-hole course with wonderful nature experiences.",
   "contact": {
     "phone": "+47 69 17 65 56",
     "email": "kontakt@haldengk.no",
@@ -63,7 +69,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Golfbanen er stengt for sesongen"
+    "winterUse": "Golfbanen er stengt for sesongen",
+    "winterUse_en": "The golf course is closed for the season"
   },
   "visitors": {
     "welcome": true,
@@ -129,7 +136,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Selvbetjent klubbhus med kodelåser. Golfsimulator kun for medlemmer."
+      "notes": "Selvbetjent klubbhus med kodelåser. Golfsimulator kun for medlemmer.",
+      "greenFeeDescription_en": "Weekdays 300 NOK, Weekends/public holidays 400 NOK. Junior 0-19 years: Weekdays 200 NOK, Weekends 250 NOK. Green fee members: Weekdays 250 NOK, Weekends 300 NOK. All junior guests registered with NGF play free! Green fee valid all day.",
+      "notes_en": "Self-service clubhouse with code locks. Golf simulator for members only."
     }
   },
   "membershipPricing": {},

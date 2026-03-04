@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Asker Golfklubb - 18-hulls kombinert park- og skogsbane ved Finnrudvannet, Brendsrudvannet og Hogstadvannet. Par 70, 5100m. Designet av Peter Chamberlain (1993). 7 par 3 hull. Signaturhull: Hull 18 (110m slag over Finnsrudvannet). Driving range, putting/chipping greens. PEGGEN Simulatorsenter. Klubbhus med Høgås Kafe, pro shop, garderober. Vaffelstand på banen"
+    "viewDescription": "Asker Golfklubb - 18-hulls kombinert park- og skogsbane ved Finnrudvannet, Brendsrudvannet og Hogstadvannet. Par 70, 5100m. Designet av Peter Chamberlain (1993). 7 par 3 hull. Signaturhull: Hull 18 (110m slag over Finnsrudvannet). Driving range, putting/chipping greens. PEGGEN Simulatorsenter. Klubbhus med Høgås Kafe, pro shop, garderober. Vaffelstand på banen",
+    "terrain_en": "Combined parkland and woodland course",
+    "courseType_en": "Combined parkland and woodland course",
+    "signatureHole_en": "Hole 18 - Asker's signature hole, a shot of just under 110 metres over Finnrudvannet down to the green in front of the clubhouse's new terrace",
+    "scenicHole_en": "Hole 18 - Asker's signature hole, a shot of just under 110 metres over Finnrudvannet down to the green in front of the clubhouse's new terrace",
+    "viewDescription_en": "Asker Golf Club - 18-hole combined parkland and woodland course by Finnrudvannet, Brendsrudvannet, and Hogstadvannet. Par 70, 5,100m. Designed by Peter Chamberlain (1993). 7 par 3 holes. Signature hole: Hole 18 (110m shot over Finnrudvannet). Driving range, putting/chipping greens. PEGGEN Simulator Centre. Clubhouse with Hogaas Cafe, pro shop, changing rooms. Waffle stand on the course."
   },
   "description": "Asker Golfklubb ligger fint til ved og rundt de tre små vannene Finnrudvannet, Brendsrudvannet og Hogstadvannet utenfor Asker. Den spilles som en kombinert park- og skogsbane og byr på utfordringer av alle typer. Hull 18 - Askers signaturhull, slår knappe 110 meter over Finnsrudvannet og ned på greenen foran klubbhusets nye terasse. 7 par 3 hull, variert bane med naturopplevelser. Vaffelstand (halfway house)",
   "contact": {
@@ -73,7 +78,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Banen er stengt for i år! Takk for en veldig fin sesong! Simulatorsenteret er åpent for sesongen"
+    "winterUse": "Banen er stengt for i år! Takk for en veldig fin sesong! Simulatorsenteret er åpent for sesongen",
+    "winterUse_en": "The course is closed for the year! Thank you for a wonderful season! The simulator centre is open for the season."
   },
   "visitors": {
     "welcome": true,
@@ -149,7 +155,9 @@
       "greenFeeMemberGuestDiscount": 200,
       "pullCartRental": 75,
       "greenFeeDescription": "Greenfee 2025: Hverdager før 14:00 kr 750, etter 14:00 kr 850. Helger før 14:00 kr 850, etter 14:00 kr 750. Twilight kr 500. Junior: 50% av ordinær greenfee. NSG rabatt: kr 100. Spill med medlem: kr 200 rabatt (maks 3 gjester). Kjekstad/Kongsberg medlemmer: kr 400.",
-      "notes": "Pull cart rental: kr 75. Vipps no. 17300 for after hours rental."
+      "notes": "Pull cart rental: kr 75. Vipps no. 17300 for after hours rental.",
+      "greenFeeDescription_en": "Green fee 2025: Weekdays before 14:00 kr 750, after 14:00 kr 850. Weekends before 14:00 kr 850, after 14:00 kr 750. Twilight kr 500. Junior: 50% of standard green fee. NSG discount: kr 100. Play with a member: kr 200 discount (max 3 guests). Kjekstad/Kongsberg members: kr 400.",
+      "notes_en": "Pull cart rental: kr 75. Vipps no. 17300 for after-hours rental."
     },
     "2026": {
       "currency": "NOK",
@@ -164,7 +172,9 @@
       "greenFeeMemberGuestDiscount": 200,
       "pullCartRental": 75,
       "greenFeeDescription": "Greenfee 2026 (foreløpig basert på 2025-priser, 2026-priser ikke publisert ennå): Hverdager før 14:00 kr 750, etter 14:00 kr 850. Helger før 14:00 kr 850, etter 14:00 kr 750. Twilight kr 500. Junior: 50% av ordinær greenfee. NSG rabatt: kr 100. Spill med medlem: kr 200 rabatt (maks 3 gjester). Kjekstad/Kongsberg medlemmer: kr 400.",
-      "notes": "Pull cart rental: kr 75. Vipps no. 17300 for after hours rental. 2026 greenfee-priser er ikke publisert ennå per 15.02.2026 - prisene er basert på gjeldende 2025-priser."
+      "notes": "Pull cart rental: kr 75. Vipps no. 17300 for after hours rental. 2026 greenfee-priser er ikke publisert ennå per 15.02.2026 - prisene er basert på gjeldende 2025-priser.",
+      "greenFeeDescription_en": "Green fee 2026 (provisional based on 2025 prices, 2026 prices not yet published): Weekdays before 14:00 kr 750, after 14:00 kr 850. Weekends before 14:00 kr 850, after 14:00 kr 750. Twilight kr 500. Junior: 50% of standard green fee. NSG discount: kr 100. Play with a member: kr 200 discount (max 3 guests). Kjekstad/Kongsberg members: kr 400.",
+      "notes_en": "Pull cart rental: kr 75. Vipps no. 17300 for after-hours rental. 2026 green fee prices have not been published as of 15 Feb 2026 - prices are based on current 2025 prices."
     }
   },
   "membershipPricing": {
@@ -178,73 +188,84 @@
           "name": "Voksen (32+)",
           "ageMin": 32,
           "ageMax": null,
-          "price": 9900
+          "price": 9900,
+          "name_en": "Adult (32+)"
         },
         {
           "category": "full",
           "name": "Ung voksen (29-31 år)",
           "ageMin": 29,
           "ageMax": 31,
-          "price": 7500
+          "price": 7500,
+          "name_en": "Young Adult (29-31 years)"
         },
         {
           "category": "full",
           "name": "Ung voksen (26-28 år)",
           "ageMin": 26,
           "ageMax": 28,
-          "price": 6200
+          "price": 6200,
+          "name_en": "Young Adult (26-28 years)"
         },
         {
           "category": "full",
           "name": "Ung voksen (23-25 år)",
           "ageMin": 23,
           "ageMax": 25,
-          "price": 5100
+          "price": 5100,
+          "name_en": "Young Adult (23-25 years)"
         },
         {
           "category": "full",
           "name": "Ung voksen (20-22 år)",
           "ageMin": 20,
           "ageMax": 22,
-          "price": 4100
+          "price": 4100,
+          "name_en": "Young Adult (20-22 years)"
         },
         {
           "category": "junior",
           "name": "Junior (15-19 år)",
           "ageMin": 15,
           "ageMax": 19,
-          "price": 2900
+          "price": 2900,
+          "name_en": "Junior (15-19 years)"
         },
         {
           "category": "junior",
           "name": "Junior (11-14 år)",
           "ageMin": 11,
           "ageMax": 14,
-          "price": 2400
+          "price": 2400,
+          "name_en": "Junior (11-14 years)"
         },
         {
           "category": "junior",
           "name": "Junior (0-10 år)",
           "ageMin": 0,
           "ageMax": 10,
-          "price": 1
+          "price": 1,
+          "name_en": "Junior (0-10 years)"
         },
         {
           "category": "family",
           "name": "Familie",
-          "price": 19800
+          "price": 19800,
+          "name_en": "Family"
         },
         {
           "category": "limited",
           "name": "Greenfee+",
           "price": 6500,
-          "note": "Begrenset spillerett"
+          "note": "Begrenset spillerett",
+          "name_en": "Greenfee+"
         },
         {
           "category": "limited",
           "name": "Flex medlemskap",
           "price": 1600,
-          "note": "Begrenset spillerett"
+          "note": "Begrenset spillerett",
+          "name_en": "Flex Membership"
         }
       ],
       "partnerClubs": [
@@ -307,5 +328,8 @@
     "createdAt": "2025-10-31T11:23:07.951Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJxf-5o9gVQUYRC9f_lyy9Z44"
+  "googlePlaceId": "ChIJxf-5o9gVQUYRC9f_lyy9Z44",
+  "slug_en": "asker-golf-club",
+  "name_en": "Asker Golf Club",
+  "description_en": "Asker Golf Club is beautifully situated by and around the three small lakes Finnrudvannet, Brendsrudvannet, and Hogstadvannet outside Asker. It plays as a combined parkland and woodland course and offers challenges of all types. Hole 18 is Asker's signature hole, with a shot of just under 110 metres over Finnrudvannet down to the green in front of the clubhouse's new terrace. 7 par 3 holes, a varied course with wonderful natural surroundings. Waffle stand (halfway house)."
 }

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Vakkert kystlandskap på Ilstad med utsikt over fjell og hav. Lett tilgjengelig bane ca. 20 km fra Bodø sentrum."
+    "viewDescription": "Vakkert kystlandskap på Ilstad med utsikt over fjell og hav. Lett tilgjengelig bane ca. 20 km fra Bodø sentrum.",
+    "terrain_en": "Gently undulating",
+    "courseType_en": "9-hole par-3 course (played twice for 18 holes)",
+    "signatureHole_en": "Coastal landscape with views",
+    "scenicHole_en": "Coastal landscape with views",
+    "viewDescription_en": "Beautiful coastal landscape at Ilstad with views over mountains and sea. Easily accessible course approximately 20 km from Bodo centre."
   },
   "description": "Innbydende og inkluderende 9-hulls par-3 bane på Ilstad, ca. 20 km fra Bodø sentrum. Opprinnelig 9-hullers bane åpnet i 2005, utvidet med nye tee-plasseringer i 2020 slik at banen nå har 18 hull (9 greener). Alle hull er par 3. Fin kortspillplass og overdekket drivingrange. Perfekt for både nybegynnere og erfarne spillere. Vakkert anlagt med utsikt over kystlandskapet.",
   "contact": {
@@ -58,7 +63,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Banen stenges når det er frost. Golf simulator tilgjengelig for vintertrening."
+    "winterUse": "Banen stenges når det er frost. Golf simulator tilgjengelig for vintertrening.",
+    "winterUse_en": "The course closes when there is frost. Golf simulator available for winter training."
   },
   "visitors": {
     "welcome": true,
@@ -130,7 +136,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlem med greenfeerabatt: 9 hull 180 kr, 18 hull 320 kr, dag 380 kr"
+      "notes": "Medlem med greenfeerabatt: 9 hull 180 kr, 18 hull 320 kr, dag 380 kr",
+      "greenFeeDescription_en": "Adult: 9 holes 300 kr, 18 holes 420 kr, Day 480 kr. Children 0-12 free when accompanied by an adult. Junior up to 18 years: 9 holes 100 kr, 18 holes 150 kr, day 180 kr. Student <30 / national service: 9 holes 240 kr, 18 holes 320 kr, day 380 kr. Members of Northern Norwegian clubs: 9 holes 250 kr, 18 holes 320 kr, day 380 kr.",
+      "notes_en": "Member with green fee discount: 9 holes 180 kr, 18 holes 320 kr, day 380 kr"
     },
     "2026": {
       "currency": "NOK",
@@ -155,7 +163,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser videreført fra 2025. Klubben har ikke publisert egne 2026-priser per 15.02.2026. Medlem med greenfeerabatt: 9 hull 180 kr, 18 hull 320 kr, dag 380 kr"
+      "notes": "Priser videreført fra 2025. Klubben har ikke publisert egne 2026-priser per 15.02.2026. Medlem med greenfeerabatt: 9 hull 180 kr, 18 hull 320 kr, dag 380 kr",
+      "greenFeeDescription_en": "Adult: 9 holes 300 kr, 18 holes 420 kr, Day 480 kr. Children 0-12 free when accompanied by an adult. Junior up to 18 years: 9 holes 100 kr, 18 holes 150 kr, day 180 kr. Student <30 / national service: 9 holes 240 kr, 18 holes 320 kr, day 380 kr. Members of Northern Norwegian clubs: 9 holes 250 kr, 18 holes 320 kr, day 380 kr.",
+      "notes_en": "Prices carried over from 2025. The club has not published separate 2026 prices as of 15.02.2026. Member with green fee discount: 9 holes 180 kr, 18 holes 320 kr, day 380 kr"
     }
   },
   "membershipPricing": {
@@ -224,5 +234,8 @@
     "createdAt": "2025-10-31T09:43:38.381Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJJ4eYRU0930URRFs8HFxi88Q"
+  "googlePlaceId": "ChIJJ4eYRU0930URRFs8HFxi88Q",
+  "slug_en": "bodo-golf-club",
+  "name_en": "Bodo Golf Club",
+  "description_en": "Welcoming and inclusive 9-hole par-3 course at Ilstad, approximately 20 km from Bodo centre. The original 9-hole course opened in 2005, expanded with new tee positions in 2020 so that the course now has 18 holes (9 greens). All holes are par 3. A fine short game area and covered driving range. Perfect for both beginners and experienced players. Beautifully laid out with views over the coastal landscape."
 }

@@ -63,7 +63,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Sesongen varer typisk fra april/mai til oktober"
+    "winterUse": "Sesongen varer typisk fra april/mai til oktober",
+    "winterUse_en": "The season typically runs from April/May to October."
   },
   "visitors": {
     "welcome": true,
@@ -131,7 +132,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Booking via Golfbox, Gimmie app, eller telefon. Betaling med kort, Vipps eller greenfeebillett. Forventet spilletid 18-hull: 4 timer."
+      "notes": "Booking via Golfbox, Gimmie app, eller telefon. Betaling med kort, Vipps eller greenfeebillett. Forventet spilletid 18-hull: 4 timer.",
+      "greenFeeDescription_en": "Ostmork 18 holes: Prime time (weekdays 15-18, weekends 09-13): 1080kr. Other times: 860kr. Juniors half price. Vestmork 9 holes: 345kr all days. Juniors half price. Handicap requirement 18 holes: 36, 9 holes: 54.",
+      "notes_en": "Booking via Golfbox, Gimmie app, or telephone. Payment by card, Vipps, or green fee voucher. Expected playing time 18 holes: 4 hours."
     },
     "2026": {
       "currency": "NOK",
@@ -165,7 +168,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser fra 2025-sesongen (nettsiden viser 'Greenfee 2025'). Medlemskapspriser er oppdatert for 2026. Booking via Golfbox, Gimmie app, eller telefon. Betaling med kort, Vipps eller greenfeebillett. Forventet spilletid 18-hull: 4 timer. Aksjonærer får: 10% rabatt i shop, 10% på reparasjoner, 20% på rangeballer, 200kr rabatt på protimer/custom fitting, gratis kaffe i shop. Aksjonærers barn/barnebarn (u19) spiller gratis på Vestmork 5 ganger per sesong. First Class Golf: Gratis spill på 4 partnerklubber (Atlungstad, Hakadal, Kongsvinger, Tyrifjord) hver fredag + lør/søn etter kl 15 (15.mai-30.sep). Top Nordic Golf: Gratis spill på ca. 20 premium nordiske baner (booking via topnordicgolf.bokamera.se)."
+      "notes": "Priser fra 2025-sesongen (nettsiden viser 'Greenfee 2025'). Medlemskapspriser er oppdatert for 2026. Booking via Golfbox, Gimmie app, eller telefon. Betaling med kort, Vipps eller greenfeebillett. Forventet spilletid 18-hull: 4 timer. Aksjonærer får: 10% rabatt i shop, 10% på reparasjoner, 20% på rangeballer, 200kr rabatt på protimer/custom fitting, gratis kaffe i shop. Aksjonærers barn/barnebarn (u19) spiller gratis på Vestmork 5 ganger per sesong. First Class Golf: Gratis spill på 4 partnerklubber (Atlungstad, Hakadal, Kongsvinger, Tyrifjord) hver fredag + lør/søn etter kl 15 (15.mai-30.sep). Top Nordic Golf: Gratis spill på ca. 20 premium nordiske baner (booking via topnordicgolf.bokamera.se).",
+      "greenFeeDescription_en": "Ostmork 18 holes: Prime time (weekdays 15-18, weekends 09-13): 1080kr. Other times: 860kr. Juniors half price. Vestmork 9 holes: 345kr all days. Juniors half price. Handicap requirement 18 holes: 36, 9 holes: 54. Shareholders may bring up to 3 guests at 680kr (incl. prime time). Golf buggy for shareholders: 300kr per round.",
+      "notes_en": "Prices from the 2025 season (website shows 'Greenfee 2025'). Membership prices have been updated for 2026. Booking via Golfbox, Gimmie app, or telephone. Payment by card, Vipps, or green fee voucher. Expected playing time 18 holes: 4 hours. Shareholders receive: 10% discount in shop, 10% on repairs, 20% on range balls, 200kr discount on pro lessons/custom fitting, free coffee in shop. Shareholders' children/grandchildren (U19) play free on Vestmork 5 times per season. First Class Golf: Free play at 4 partner clubs (Atlungstad, Hakadal, Kongsvinger, Tyrifjord) every Friday + Sat/Sun after 15:00 (15 May-30 Sep). Top Nordic Golf: Free play at approx. 20 premium Nordic courses (booking via topnordicgolf.bokamera.se)."
     }
   },
   "membershipPricing": {
@@ -244,5 +249,8 @@
     "createdAt": "2025-10-31T11:23:12.501Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJo0E2KmJkQUYRZ60DY70d2-c"
+  "googlePlaceId": "ChIJo0E2KmJkQUYRZ60DY70d2-c",
+  "slug_en": "losby-golf-club",
+  "name_en": "Losby Golf Club",
+  "description_en": "A complete golf facility with an 18-hole course (Ostmork) and a 9-hole course (Vestmork). 6 Trackman 4 simulators, free Trackman Range, pro shop with custom fitting, restaurant, and PGA instructors. Member of First Class Golf and Top Nordic Golf. Part of the Losby Gods resort with hotel and conference facilities. Ongoing/recent rehabilitation of Ostmork."
 }

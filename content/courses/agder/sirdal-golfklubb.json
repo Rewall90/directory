@@ -36,7 +36,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Fjellgolf 560 m.o.h. i naturskjønne omgivelser"
+    "viewDescription": "Fjellgolf 560 m.o.h. i naturskjønne omgivelser",
+    "terrain_en": "Mountain course 560 m above sea level",
+    "courseType_en": "Mountain course",
+    "designer_en": "Graeme J. Webster",
+    "viewDescription_en": "Mountain golf at 560 metres above sea level in scenic surroundings"
   },
   "description": "9-hulls fjellgolfbane 560 m.o.h. i naturskjønne omgivelser på Kvæven i øvre Sirdal. Designet av Graeme J. Webster fra Skottland. Banen er vakkert designet inn i terrenget. Tee-alternativer: Grønn (nybegynner), Hvit 3828m, Blå 4350m, Rød 4640m.",
   "contact": {
@@ -52,7 +56,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Stengt november-april"
+    "winterUse": "Stengt november-april",
+    "winterUse_en": "Closed November to April"
   },
   "visitors": {
     "welcome": true,
@@ -130,7 +135,8 @@
       "clubRental": 200,
       "clubRentalSingle": 30,
       "footballRental": 50,
-      "notes": "Medlemmer i Sirdal Fjellgolfklubb får kr. 55,- i rabatt på alle priser. Barn tom 12 år som er medlem spiller gratis."
+      "notes": "Medlemmer i Sirdal Fjellgolfklubb får kr. 55,- i rabatt på alle priser. Barn tom 12 år som er medlem spiller gratis.",
+      "notes_en": "Members of Sirdal Mountain Golf Club receive a 55 NOK discount on all prices. Member children up to age 12 play for free."
     },
     "2026": {
       "currency": "NOK",
@@ -159,7 +165,8 @@
       "clubRental": 200,
       "clubRentalSingle": 30,
       "footballRental": 50,
-      "notes": "Priser fra 2025 (2026-priser ikke publisert ennå). Medlemmer i Sirdal Fjellgolfklubb får kr. 55,- i rabatt på alle priser. Barn tom 12 år som er medlem spiller gratis."
+      "notes": "Priser fra 2025 (2026-priser ikke publisert ennå). Medlemmer i Sirdal Fjellgolfklubb får kr. 55,- i rabatt på alle priser. Barn tom 12 år som er medlem spiller gratis.",
+      "notes_en": "Prices from 2025 (2026 prices not yet published). Members of Sirdal Mountain Golf Club receive a 55 NOK discount on all prices. Member children up to age 12 play for free."
     }
   },
   "membershipPricing": {
@@ -169,91 +176,117 @@
         "name": "Medlemskap uten spillerett - Voksen",
         "price": 1600,
         "description": "Greenfeerabatter",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Membership without playing rights - Adult",
+        "description_en": "Green fee discounts"
       },
       {
         "category": "Medlem uten spillerett - Ektefelle/samboer",
         "name": "Medlemskap uten spillerett - Ektefelle/samboer",
         "price": 1200,
         "description": "Greenfeerabatter",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Membership without playing rights - Spouse/Partner",
+        "description_en": "Green fee discounts"
       },
       {
         "category": "Medlem uten spillerett - Junior",
         "name": "Medlemskap uten spillerett - Junior",
         "price": 100,
         "description": "Greenfeerabatter",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Membership without playing rights - Junior",
+        "description_en": "Green fee discounts"
       },
       {
         "category": "Medlem uten spillerett - Student",
         "name": "Medlemskap uten spillerett - Student",
         "price": 500,
         "description": "Greenfeerabatter",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "name_en": "Membership without playing rights - Student",
+        "description_en": "Green fee discounts"
       },
       {
         "category": "Medlem med spillerett - Hovedmedlem",
         "name": "Medlemskap med fri spillerett - Hovedmedlem",
         "price": 3600,
         "description": "Fritt spill",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Membership with unlimited playing rights - Full Member",
+        "description_en": "Unlimited play"
       },
       {
         "category": "Medlem med spillerett - Ektefelle/samboer",
         "name": "Medlemskap med fri spillerett - Ektefelle/samboer",
         "price": 3200,
         "description": "Fritt spill",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Membership with unlimited playing rights - Spouse/Partner",
+        "description_en": "Unlimited play"
       },
       {
         "category": "Medlem med spillerett - Barn",
         "name": "Medlemskap med fri spillerett - Barn",
         "price": 100,
         "description": "Fritt spill",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Membership with unlimited playing rights - Child",
+        "description_en": "Unlimited play"
       },
       {
         "category": "Medlem med spillerett - Junior",
         "name": "Medlemskap med fri spillerett - Junior",
         "price": 500,
         "description": "Fritt spill",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Membership with unlimited playing rights - Junior",
+        "description_en": "Unlimited play"
       },
       {
         "category": "Medlem med spillerett - Student",
         "name": "Medlemskap med fri spillerett - Student",
         "price": 1000,
         "description": "Fritt spill",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "name_en": "Membership with unlimited playing rights - Student",
+        "description_en": "Unlimited play"
       },
       {
         "category": "Andelseier - Voksen",
         "name": "Medlemskap for andelseier - Voksen",
         "price": 2500,
         "description": "Fritt spill for eiere av personlig andel",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Shareholder membership - Adult",
+        "description_en": "Unlimited play for personal share owners"
       },
       {
         "category": "Andelseier - Ektefelle/samboer",
         "name": "Medlemskap for andelseier - Ektefelle/samboer",
         "price": 2100,
         "description": "Fritt spill",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Shareholder membership - Spouse/Partner",
+        "description_en": "Unlimited play"
       },
       {
         "category": "Andelseier - Junior",
         "name": "Medlemskap for andelseier - Junior",
         "price": 300,
         "description": "Fritt spill",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Shareholder membership - Junior",
+        "description_en": "Unlimited play"
       },
       {
         "category": "Andelseier - Student",
         "name": "Medlemskap for andelseier - Student",
         "price": 700,
         "description": "Fritt spill",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "name_en": "Shareholder membership - Student",
+        "description_en": "Unlimited play"
       }
     ]
   },
@@ -306,5 +339,8 @@
     "createdAt": "2025-10-30T13:27:24.903Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ06R8ESEKOUYR-3GUzyHjrrM"
+  "googlePlaceId": "ChIJ06R8ESEKOUYR-3GUzyHjrrM",
+  "slug_en": "sirdal-mountain-golf-club",
+  "name_en": "Sirdal Mountain Golf Club",
+  "description_en": "A 9-hole mountain golf course at 560 metres above sea level in scenic surroundings at Kvaeven in upper Sirdal. Designed by Graeme J. Webster from Scotland. The course is beautifully integrated into the terrain. Tee options: Green (beginners), White 3,828m, Blue 4,350m, Red 4,640m."
 }

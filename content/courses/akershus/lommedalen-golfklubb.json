@@ -122,7 +122,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Alle gjester booker starttid via Golfbox."
+      "notes": "Alle gjester booker starttid via Golfbox.",
+      "greenFeeDescription_en": "Adult: 9 holes 300 kr, 18 holes 450 kr. Junior: 9 holes 150 kr, 18 holes 250 kr. Payment via Vipps before the round.",
+      "notes_en": "All guests book tee times via Golfbox."
     }
   },
   "membershipPricing": {
@@ -175,5 +177,8 @@
     "createdAt": "2025-10-31T11:23:12.161Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJk63DhBESQUYRVyiBAFLmvcU"
+  "googlePlaceId": "ChIJk63DhBESQUYRVyiBAFLmvcU",
+  "slug_en": "lommedalen-golf-club",
+  "name_en": "Lommedalen Golf Club",
+  "description_en": "Pay and Play - Golf for All. A simple and enjoyable golf experience. The concept is based on making golf accessible for both new and experienced golfers at an affordable price."
 }

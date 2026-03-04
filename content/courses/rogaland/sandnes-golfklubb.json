@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Sandnes Golfklubb - Golfbanen for folk flest! 18-hulls parkbane ved Bærheim i Sandnes. Grunnlagt 2004. Par 72. Klubben har også 6-hulls kortbane. Del av Bærheim Golfpark med driving range, putting green, chipping green, practice bunker, indoor golf-anlegg. Klubbkontoret er åpent hverdager 09:00-15:00."
+    "viewDescription": "Sandnes Golfklubb - Golfbanen for folk flest! 18-hulls parkbane ved Bærheim i Sandnes. Grunnlagt 2004. Par 72. Klubben har også 6-hulls kortbane. Del av Bærheim Golfpark med driving range, putting green, chipping green, practice bunker, indoor golf-anlegg. Klubbkontoret er åpent hverdager 09:00-15:00.",
+    "terrain_en": "Parkland",
+    "courseType_en": "18-hole parkland course with 6-hole short course",
+    "signatureHole_en": "Parkland course at Baerheim",
+    "scenicHole_en": "Parkland course at Baerheim",
+    "viewDescription_en": "Sandnes Golf Club - The golf course for everyone! 18-hole parkland course at Baerheim in Sandnes. Founded 2004. Par 72. In addition to the main course, the club has a 6-hole short course. Part of Baerheim Golf Park. Maximum handicap 54 for visitors."
   },
   "description": "Sandnes Golfklubb - Golfbanen for folk flest! 18-hulls parkbane ved Bærheim i Sandnes. Grunnlagt 2004. Par 72. I tillegg til hovedbanen har klubben en 6-hulls kortbane. Del av Bærheim Golfpark. Handicapkrav 54 for besøkende.",
   "contact": {
@@ -123,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Inntil 10 greenfee kan kjøpes av medlemmer med betalt spilleavgift før 1. april for 400 kr per stykk"
+      "notes": "Inntil 10 greenfee kan kjøpes av medlemmer med betalt spilleavgift før 1. april for 400 kr per stykk",
+      "greenFeeDescription_en": "Green fee 2025: 18 holes 750 kr (650 kr if member is present), 9 holes 450 kr (400 kr if member is present). Up to 10 green fees can be purchased by those with paid playing fees before 1 April: 400 kr each.",
+      "notes_en": "Up to 10 green fees can be purchased by members with paid playing fees before 1 April at 400 kr each"
     },
     "2026": {
       "currency": "NOK",
@@ -149,7 +156,9 @@
       "freeTrial": null,
       "notes": "Leie av golfbil: 400 kr (200 kr med sykemelding). Golfscooter: 175 kr. Golfmotorsykkel: 200 kr. Rangepriser: 2 kr per ball med ulike bonusordninger ved kjøp av større beløp.",
       "drivingRangePerBall": 2,
-      "drivingRangeBonusOptions": "10% bonus ved kjøp av 600 kr, 20% bonus ved kjøp av 1200 kr, 35% bonus ved kjøp av 5000 kr"
+      "drivingRangeBonusOptions": "10% bonus ved kjøp av 600 kr, 20% bonus ved kjøp av 1200 kr, 35% bonus ved kjøp av 5000 kr",
+      "greenFeeDescription_en": "Green fee 2026: 18 holes 800 kr (700 kr if member is present), 9 holes 500 kr (400 kr if member is present). Up to 10 green fees can be purchased by those with paid playing fees before 1 April: 400 kr each.",
+      "notes_en": "Golf cart hire: 400 kr (200 kr with medical note). Golf scooter: 175 kr. Golf motorcycle: 200 kr. Range prices: 2 kr per ball with various bonus packages when purchasing larger amounts."
     }
   },
   "membershipPricing": {
@@ -158,25 +167,33 @@
         "category": "adult",
         "price": 1080,
         "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Membership 2025: Sandnes Golf Club membership 1,080 kr (adult), 495 kr (up to 19 years). Baerheim Golf Park playing fee: Full member with playing rights 750 kr/month (9,000 kr/year), Spouse with playing rights 580 kr/month (6,960 kr/year). Without playing rights: Full member 840 kr/month, Spouse 680 kr/month. Monthly billing fee 15 kr. Playing fee includes unlimited play on the main course and short course."
       },
       {
         "category": "junior",
         "price": 495,
         "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Junior",
+        "description_en": "Membership 2025: Sandnes Golf Club membership 1,080 kr (adult), 495 kr (up to 19 years). Baerheim Golf Park playing fee: Full member with playing rights 750 kr/month (9,000 kr/year), Spouse with playing rights 580 kr/month (6,960 kr/year). Without playing rights: Full member 840 kr/month, Spouse 680 kr/month. Monthly billing fee 15 kr. Playing fee includes unlimited play on the main course and short course."
       },
       {
         "category": "adultWithPlayingRights",
         "price": 9000,
         "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult with Playing Rights",
+        "description_en": "Membership 2025: Sandnes Golf Club membership 1,080 kr (adult), 495 kr (up to 19 years). Baerheim Golf Park playing fee: Full member with playing rights 750 kr/month (9,000 kr/year), Spouse with playing rights 580 kr/month (6,960 kr/year). Without playing rights: Full member 840 kr/month, Spouse 680 kr/month. Monthly billing fee 15 kr. Playing fee includes unlimited play on the main course and short course."
       },
       {
         "category": "spouseWithPlayingRights",
         "price": 6960,
         "description": "Medlemskap 2025: Sandnes Golfklubb medlemskap 1080 kr (voksen), 495 kr (t.o.m. 19 år). Bærheim Golfpark spilleavgift: Hovedmedlem med spillerett 750 kr/mnd (9000 kr/år), ektefelle med spillerett 580 kr/mnd (6960 kr/år). Uten spillerett: Hovedmedlem 840 kr/mnd, ektefelle 680 kr/mnd. Månedlig faktureringsgebyr 15 kr. Spilleavgift inkluderer ubegrenset spill på hovedbane og kortbane.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse with Playing Rights",
+        "description_en": "Membership 2025: Sandnes Golf Club membership 1,080 kr (adult), 495 kr (up to 19 years). Baerheim Golf Park playing fee: Full member with playing rights 750 kr/month (9,000 kr/year), Spouse with playing rights 580 kr/month (6,960 kr/year). Without playing rights: Full member 840 kr/month, Spouse 680 kr/month. Monthly billing fee 15 kr. Playing fee includes unlimited play on the main course and short course."
       }
     ],
     "2026": [
@@ -184,61 +201,81 @@
         "category": "adultClubMembership",
         "price": 1080,
         "description": "Sandnes Golfklubb klubbmedlemskap voksne 1080 kr/år",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Adult Club Membership",
+        "description_en": "Sandnes Golf Club membership adult 1,080 kr/year"
       },
       {
         "category": "juniorClubMembership",
         "price": 495,
         "description": "Sandnes Golfklubb klubbmedlemskap t.o.m. 19 år: 495 kr/år",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Junior Club Membership",
+        "description_en": "Sandnes Golf Club membership up to 19 years: 495 kr/year"
       },
       {
         "category": "adultWithPlayingRights",
         "price": 9960,
         "description": "Hovedmedlem MED SPILLERETT 830 kr/mnd (9960 kr/år). Spilleavgift kommer i tillegg til klubbmedlemskap.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult with Playing Rights",
+        "description_en": "Full member WITH playing rights 830 kr/month (9,960 kr/year). Playing fee is in addition to club membership."
       },
       {
         "category": "adultWithoutPlayingRights",
         "price": 11100,
         "description": "Hovedmedlem UTEN SPILLERETT 925 kr/mnd (11100 kr/år). Greenfee må betales ved spill.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult without Playing Rights",
+        "description_en": "Full member WITHOUT playing rights 925 kr/month (11,100 kr/year). Green fee must be paid when playing."
       },
       {
         "category": "spouseWithPlayingRights",
         "price": 8160,
         "description": "Ektefelle MED SPILLERETT 680 kr/mnd (8160 kr/år)",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse with Playing Rights",
+        "description_en": "Spouse WITH playing rights 680 kr/month (8,160 kr/year)"
       },
       {
         "category": "spouseWithoutPlayingRights",
         "price": 9360,
         "description": "Ektefelle UTEN SPILLERETT 780 kr/mnd (9360 kr/år)",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse without Playing Rights",
+        "description_en": "Spouse WITHOUT playing rights 780 kr/month (9,360 kr/year)"
       },
       {
         "category": "juniorUnder19",
         "price": 4740,
         "description": "Junior under 19 år: 395 kr/mnd (4740 kr/år)",
-        "ageRange": "0-18"
+        "ageRange": "0-18",
+        "name_en": "Junior Under 19",
+        "description_en": "Junior under 19 years: 395 kr/month (4,740 kr/year)"
       },
       {
         "category": "juniorOver19",
         "price": 6240,
         "description": "Junior over 19 år: 520 kr/mnd (6240 kr/år)",
-        "ageRange": "19-25"
+        "ageRange": "19-25",
+        "name_en": "Junior Over 19",
+        "description_en": "Junior over 19 years: 520 kr/month (6,240 kr/year)"
       },
       {
         "category": "student",
         "price": 6240,
         "description": "Student (heltidsstudent under 26 år): 520 kr/mnd (6240 kr/år)",
-        "ageRange": "under 26"
+        "ageRange": "under 26",
+        "name_en": "Student",
+        "description_en": "Student (full-time student under 26 years): 520 kr/month (6,240 kr/year)"
       },
       {
         "category": "military",
         "price": 6240,
         "description": "Militær 1. gangstjeneste: 520 kr/mnd (6240 kr/år)",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "military",
+        "description_en": "Military first service: 520 kr/month (6,240 kr/year)"
       }
     ]
   },
@@ -287,5 +324,8 @@
     "createdAt": "2025-10-31T07:46:26.645Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJEScKNho2OkYRN3ruh-tZS2c"
+  "googlePlaceId": "ChIJEScKNho2OkYRN3ruh-tZS2c",
+  "slug_en": "sandnes-golf-club",
+  "name_en": "Sandnes Golf Club",
+  "description_en": "Sandnes Golf Club - The golf course for everyone! 18-hole parkland course at Baerheim in Sandnes. Founded 2004. Par 72. In addition to the main course, the club has a 6-hole short course. Part of Baerheim Golf Park. Maximum handicap 54 for visitors."
 }

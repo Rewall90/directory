@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Variert og spennende bane med godt miljø og hyggelig atmosfære."
+    "viewDescription": "Variert og spennende bane med godt miljø og hyggelig atmosfære.",
+    "terrain_en": "Varied terrain",
+    "courseType_en": "18-hole golf course",
+    "viewDescription_en": "A varied and exciting course with a great atmosphere and friendly environment."
   },
   "description": "Kongsberg Golfbane er en variert og spennende bane med flotte og raske greener. En morsom og velopprettholdt bane som ble stemt frem som den 6. beste klubben i Norge under Medlemsundersøkelsen i 2022. Godt miljø og hyggelig atmosfære. Meget positive tilbakemeldinger fra gjestespillere. Marshalltjeneste under travle tidspunkter for å sikre tempo og hyggelig atmosfære. Slopetabell og baneguide tilgjengelig.",
   "contact": {
@@ -63,7 +66,8 @@
   "season": {
     "start": "April/Mai",
     "end": "September/Oktober",
-    "winterUse": "TrackMan simulatorsenter åpent hele året med variert programmering: turneringer, gruppe- og protrening. Vintersesongen innendørs 2025/2026."
+    "winterUse": "TrackMan simulatorsenter åpent hele året med variert programmering: turneringer, gruppe- og protrening. Vintersesongen innendørs 2025/2026.",
+    "winterUse_en": "TrackMan simulator centre open year-round with varied programming: tournaments, group and pro coaching. Indoor winter season 2025/2026."
   },
   "visitors": {
     "welcome": true,
@@ -128,7 +132,9 @@
       "golfCartRental": 500,
       "golfCartRentalMedical": 400,
       "pullCartRental": 75,
-      "notes": "Kun Kongsberg Golfbanes golfbiler tillatt på banen. Golfbilleie for seniordager (mandager): 200 kr."
+      "notes": "Kun Kongsberg Golfbanes golfbiler tillatt på banen. Golfbilleie for seniordager (mandager): 200 kr.",
+      "greenFeeDescription_en": "18 holes: 590 kr (490 kr before 11:00 on weekdays). 9 holes: 390 kr. Junior: 350/250 kr. 6-hole course: Free. Monthly green fee: 2,900 kr (unlimited play for the current month). NSG members: 100 kr discount.",
+      "notes_en": "Only Kongsberg Golf Course buggies permitted on the course. Buggy hire for senior days (Mondays): 200 kr."
     },
     "2026": {
       "currency": "NOK",
@@ -146,7 +152,9 @@
       "golfCartRentalMedicalMorning": 300,
       "golfCartRentalSeniorMonday": 200,
       "pullCartRental": 75,
-      "notes": "Kun Kongsberg Golfbanes golfbiler tillatt på banen. Golfbil m/legeattest (helg/helligdag/etter kl 12 hverdager): 400 kr. Golfbil m/legeattest (hverdager før kl 12): 300 kr. Golfbilleie seniordager (mandager): 200 kr. 2026-priser ikke publisert ennå, viste priser er basert på 2025-sesongen."
+      "notes": "Kun Kongsberg Golfbanes golfbiler tillatt på banen. Golfbil m/legeattest (helg/helligdag/etter kl 12 hverdager): 400 kr. Golfbil m/legeattest (hverdager før kl 12): 300 kr. Golfbilleie seniordager (mandager): 200 kr. 2026-priser ikke publisert ennå, viste priser er basert på 2025-sesongen.",
+      "greenFeeDescription_en": "18 holes: 590 kr (490 kr before 11:00 on weekdays, excluding public holidays). 9 holes: 390 kr. Junior 18 holes: 350 kr. Junior 9 holes: 250 kr. 6-hole course: Free. Monthly green fee: 2,900 kr (unlimited play for the current month, requires full membership at another club). NSG members: 100 kr discount.",
+      "notes_en": "Only Kongsberg Golf Course buggies permitted on the course. Buggy with medical certificate (weekends/public holidays/after 12:00 weekdays): 400 kr. Buggy with medical certificate (weekdays before 12:00): 300 kr. Buggy hire senior days (Mondays): 200 kr. 2026 prices not yet published, prices shown are based on the 2025 season."
     }
   },
   "membershipPricing": {
@@ -206,5 +214,8 @@
     "createdAt": "2025-10-31T05:54:18.826Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJx5Zc-dLWQEYRVBFpn_7dCoc"
+  "googlePlaceId": "ChIJx5Zc-dLWQEYRVBFpn_7dCoc",
+  "slug_en": "kongsberg-golf-club",
+  "name_en": "Kongsberg Golf Club",
+  "description_en": "Kongsberg Golf Course is a varied and exciting course with superb, fast greens. An enjoyable and well-maintained course that was voted the 6th best club in Norway in the 2022 Members' Survey. Excellent atmosphere and friendly environment. Very positive feedback from visiting players. Marshal service during busy periods to ensure pace of play and a pleasant atmosphere. Slope table and course guide available."
 }

@@ -1,6 +1,8 @@
 {
   "slug": "sunnmore-golfklubb",
+  "slug_en": "sunnmore-golf-club",
   "name": "Sunnmøre Golfklubb",
+  "name_en": "Sunnmore Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Hareid",
@@ -36,9 +38,16 @@
     "par4Count": null,
     "par5Count": 3,
     "mountainViews": true,
-    "viewDescription": "Spektakulær utsikt med Sunnmørsalpane som kulisse. Naturskjønne omgivelser i Hovden."
+    "viewDescription": "Spektakulær utsikt med Sunnmørsalpane som kulisse. Naturskjønne omgivelser i Hovden.",
+    "terrain_en": "Parkland course",
+    "courseType_en": "9-hole parkland course (played two rounds for 18 holes)",
+    "designer_en": "Tor Eia",
+    "signatureHole_en": "Hole 6 is the course's signature hole and the most difficult with much water in play. Long hitters can choose to hit over the river, taking the first pond and river out of play. This offers the opportunity to reach the green in 2 shots. Water to the right and bunker to the left at the approach to the green.",
+    "scenicHole_en": "Hole 7: Beautiful views with the clubhouse and the Sunnmore Alps in the background",
+    "viewDescription_en": "Spectacular views with the Sunnmore Alps as a backdrop. Scenic surroundings at Hovden."
   },
   "description": "Variert og utfordrande 9-hols parkbane designet av Tor Eia. Bana er ei opa og fin parkbane som ligg i fine omgivelsar ved Hovden, ca. 4,5 km fra Hareid sentrum langs veg 61. Bana har 8 vatn i spel, samt fleire elver og sidevannshinder, noko som er med på å auke bana si vanskeligheitsgrad. Med Sunnmørsalpane som kulisse gir banen en unik golfopplevelse. Grunnlagt som Ulstein Pitch & Putt klubb i 1989, skiftet namn til Sunnmøre Golfklubb i 2000 i samband med den nye banen i Hareid kommune.",
+  "description_en": "Varied and challenging 9-hole parkland course designed by Tor Eia. The course is an open and attractive parkland course situated in fine surroundings at Hovden, approximately 4.5 km from Hareid town centre along road 61. The course has 8 water features in play, as well as several streams and lateral water hazards, which increase the course's difficulty. With the Sunnmore Alps as a backdrop, the course offers a unique golf experience. Founded as Ulstein Pitch & Putt club in 1989, renamed to Sunnmore Golf Club in 2000 in connection with the new course in Hareid municipality.",
   "contact": {
     "phone": "+47 479 10 778",
     "email": "post@sunnmoregolf.no",
@@ -68,7 +77,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Simulator tilgjengelig for vintertrening"
+    "winterUse": "Simulator tilgjengelig for vintertrening",
+    "winterUse_en": "Simulator available for winter training"
   },
   "visitors": {
     "welcome": true,
@@ -133,7 +143,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfkurs og fritt spel første året for nyetablert medlem"
+      "notes": "Golfkurs og fritt spel første året for nyetablert medlem",
+      "greenFeeDescription_en": "Play as much as you like for 300 NOK every day of the week (unlimited play per day)",
+      "notes_en": "Golf course and free play the first year for new members"
     },
     "2026": {
       "currency": "NOK",
@@ -152,7 +164,9 @@
       "specialOfferPrice": 1500,
       "specialOfferIncludes": "Golfkurs og fritt spel første året for nyetablert medlem",
       "freeTrial": null,
-      "notes": "Spelar du meir enn nokre få gongar i året, vil det lønne seg å benytte seg av tilbodet for første års medlemmar. Golfbil: 200 kr (9 hol), 300 kr (18 hol)."
+      "notes": "Spelar du meir enn nokre få gongar i året, vil det lønne seg å benytte seg av tilbodet for første års medlemmar. Golfbil: 200 kr (9 hol), 300 kr (18 hol).",
+      "greenFeeDescription_en": "9 holes: 250 NOK, 18 holes: 500 NOK. Junior: Half price.",
+      "notes_en": "If you play more than a few times a year, it will be worthwhile to take advantage of the first-year member offer. Golf buggy: 200 NOK (9 holes), 300 NOK (18 holes)."
     }
   },
   "membershipPricing": {
@@ -181,7 +195,19 @@
       "fullMembership": 5800,
       "fullMembershipDescription": "Ordinært medlem 31-59 år",
       "membershipStatus": "open",
-      "notes": "Trinnvis prismodell over 3 år for nye medlemmer. Fri spel inkludert i alle medlemskap."
+      "notes": "Trinnvis prismodell over 3 år for nye medlemmer. Fri spel inkludert i alle medlemskap.",
+      "juniorMembershipDescription_en": "Junior member",
+      "distanceMembershipDescription_en": "Distance member",
+      "passivMembershipDescription_en": "Passive local member",
+      "firstYearMembershipDescription_en": "1st year membership 'new member' - includes golf course and free play",
+      "studentMembershipDescription_en": "Student member",
+      "secondYearMembershipDescription_en": "2nd year regular member",
+      "spouseMembershipDescription_en": "Spouse of regular member",
+      "thirdYearMembershipDescription_en": "3rd year regular member",
+      "youngAdultMembershipDescription_en": "Regular member 18-30 years",
+      "seniorMembershipDescription_en": "Regular member over 60 years",
+      "fullMembershipDescription_en": "Regular member 31-59 years",
+      "notes_en": "Graduated pricing model over 3 years for new members. Free play included in all memberships."
     }
   },
   "ratings": {

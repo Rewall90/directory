@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Golf course",
+    "courseType_en": "Golf course"
   },
   "description": "18-hullers golfbane",
   "contact": {
@@ -58,7 +60,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Banen stenger for sesongen - siste dag blir fredag 17.10. Nå starter gravingen mellom hull 9 og 18"
+    "winterUse": "Banen stenger for sesongen - siste dag blir fredag 17.10. Nå starter gravingen mellom hull 9 og 18",
+    "winterUse_en": "The course closes for the season - last day is Friday 17 October. Excavation work between holes 9 and 18 will now begin."
   },
   "visitors": {
     "welcome": true,
@@ -143,7 +146,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Avbestilling inntil 2 timer før starttid. Betaling med Vipps utenfor åpningstid. Booking av golfbil via EAGL-appen."
+      "notes": "Avbestilling inntil 2 timer før starttid. Betaling med Vipps utenfor åpningstid. Booking av golfbil via EAGL-appen.",
+      "greenFeeDescription_en": "Juniors up to and including 19 years, half price on the applicable green fee.",
+      "notes_en": "Cancellation up to 2 hours before tee time. Payment via Vipps outside opening hours. Golf buggy booking via the EAGL app."
     }
   },
   "membershipPricing": {
@@ -229,5 +234,8 @@
     "createdAt": "2025-10-31T11:23:14.096Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJjxe2RP1nQUYRceezi5oH0ZY"
+  "googlePlaceId": "ChIJjxe2RP1nQUYRceezi5oH0ZY",
+  "slug_en": "oppegaard-golf-club",
+  "name_en": "Oppegaard Golf Club",
+  "description_en": "18-hole golf course"
 }

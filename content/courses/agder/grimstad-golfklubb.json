@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": null,
-    "viewDescription": "Utsikt over skjærgården"
+    "viewDescription": "Utsikt over skjærgården",
+    "terrain_en": "Parkland/woodland course i varied terrain",
+    "courseType_en": "Parkland/woodland course",
+    "viewDescription_en": "Views over the archipelago"
   },
   "description": "Vakker og intim 9-hulls bane på Norges solkyst. 9-hulls park/skogbane i variert terreng med utsikt over skjærgården. Banen har forskjellige tee-posisjoner for fremre og bakre 9, som gir 18-hulls opplevelse.",
   "contact": {
@@ -63,7 +66,8 @@
   "season": {
     "start": "Mars",
     "end": "Oktober",
-    "winterUse": "Åpen hele året"
+    "winterUse": "Åpen hele året",
+    "winterUse_en": "Open all year round"
   },
   "visitors": {
     "welcome": true,
@@ -73,7 +77,8 @@
     "handicapRequired": true,
     "dressCode": "Golf attire",
     "roundTimeMinutes": 130,
-    "roundTimeNotes": "2 timer og 10 minutter mellom hver 9-hullsrunde"
+    "roundTimeNotes": "2 timer og 10 minutter mellom hver 9-hullsrunde",
+    "dressCode_en": "Golf attire"
   },
   "organization": {
     "courseCompany": null,
@@ -132,7 +137,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Main season: Senior 18h: 500 NOK, 9h: 300 NOK. Junior 18h: 200 NOK, 9h: 100 NOK. Winter season: Senior per day: 100 NOK, Junior: 50 NOK. B-members: half of visitor price."
     },
     "2026": {
       "currency": "NOK",
@@ -158,7 +164,8 @@
       "drivingRangeBallsCount": 30,
       "seniorGolfAgreement": false,
       "golfheftet": false,
-      "notes": "Greenfee er lik alle dager (ingen helgetillegg). Golfbilutleie: 9 hull 250 kr, 18 hull 400 kr. Fører må være 18 år. Grimstad Golfklubb har per i dag ingen avtale med Norsk Seniorgolf og er ikke med i Golfheftet."
+      "notes": "Greenfee er lik alle dager (ingen helgetillegg). Golfbilutleie: 9 hull 250 kr, 18 hull 400 kr. Fører må være 18 år. Grimstad Golfklubb har per i dag ingen avtale med Norsk Seniorgolf og er ikke med i Golfheftet.",
+      "notes_en": "Green fee is the same every day (no weekend surcharge). Buggy hire: 9 holes 250 NOK, 18 holes 400 NOK Driver must be 18 years old. Grimstad Golf Club currently has no agreement with Norsk Seniorgolf og is not included in the Golf Booklet."
     }
   },
   "membershipPricing": {
@@ -200,35 +207,42 @@
         "name": "A-medlem",
         "price": 4750,
         "description": "Full spillerett",
-        "ageRange": "Voksen 26+"
+        "ageRange": "Voksen 26+",
+        "name_en": "A-Member",
+        "description_en": "Full playing rights"
       },
       {
         "category": "B-medlem",
         "name": "B-medlem",
         "price": 3000,
         "description": "Halv greenfee",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "B-Member",
+        "description_en": "Half price green fee"
       },
       {
         "category": "Ungdom/Student",
         "name": "Ungdom/student",
         "price": 1650,
         "description": null,
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "name_en": "Youth/Student"
       },
       {
         "category": "Junior",
         "name": "Junior",
         "price": 650,
         "description": null,
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior"
       },
       {
         "category": "Ung junior",
         "name": "Ung junior",
         "price": 250,
         "description": null,
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Young Junior"
       }
     ]
   },
@@ -286,5 +300,8 @@
     "createdAt": "2025-10-30T13:27:23.236Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJCXP7CyHsR0YRZL6By-PJ-9c"
+  "googlePlaceId": "ChIJCXP7CyHsR0YRZL6By-PJ-9c",
+  "slug_en": "grimstad-golf-club",
+  "name_en": "Grimstad Golf Club",
+  "description_en": "A beautiful and intimate 9-hole course on Norway's sun coast. A 9-hole parkland/woodland course on varied terrain with views over the archipelago. The course has different tee positions for the front and back nine, providing an 18-hole experience."
 }

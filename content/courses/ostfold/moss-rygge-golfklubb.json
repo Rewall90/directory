@@ -1,6 +1,8 @@
 {
   "slug": "moss-rygge-golfklubb",
+  "slug_en": "moss-and-rygge-golf-club",
   "name": "Moss & Rygge Golfklubb",
+  "name_en": "Moss & Rygge Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Dilling",
@@ -36,9 +38,16 @@
     "par4Count": 10,
     "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": "Spektakulær championshipbane ved Evjesund i Oslofjorden, ca 7 minutters kjøretur fra Moss sentrum, mellom Moss og Larkollen. En av Norges best vurderte baner - Peugeot-guiden ga 17 av 20 poeng. Inkludert i Rolex Guide 2008 som en av verdens topp 1000 golfbaner. Variert design med åpne parklandhull på første 9 og mer skog og vann på siste 9. TopTracer Range og moderne simulatorsenter tilgjengelig."
+    "viewDescription": "Spektakulær championshipbane ved Evjesund i Oslofjorden, ca 7 minutters kjøretur fra Moss sentrum, mellom Moss og Larkollen. En av Norges best vurderte baner - Peugeot-guiden ga 17 av 20 poeng. Inkludert i Rolex Guide 2008 som en av verdens topp 1000 golfbaner. Variert design med åpne parklandhull på første 9 og mer skog og vann på siste 9. TopTracer Range og moderne simulatorsenter tilgjengelig.",
+    "terrain_en": "Varied parkland",
+    "courseType_en": "18-hole championship course",
+    "designer_en": "Jeremy Turner",
+    "signatureHole_en": "Beautiful location at Evjesund in the Oslo Fjord",
+    "scenicHole_en": "Beautiful location at Evjesund in the Oslo Fjord",
+    "viewDescription_en": "Spectacular championship course at Evjesund in the Oslo Fjord, approx. 7 minutes' drive from Moss town centre, between Moss and Larkollen. One of Norway's highest-rated courses - the Peugeot Guide awarded 17 out of 20 points. Included in the Rolex Guide 2008 as one of the world's top 1,000 golf courses. Varied design with open parkland holes on the front 9 and more woodland and water on the back 9. TopTracer Range and modern simulator centre available."
   },
   "description": "Variert og interessant 18-hulls championshipbane ved Evjesund i Oslofjorden, designet av Jeremy Turner (2004). En av Norges best vurderte baner. De første ni hullene er lange og plassert i åpent landskap med brede fairways og store greens, mens de siste ni er annerledes med mer skog og vann. Krever presisjon og strategi. Peugeot-guiden ga 17 av 20 poeng. Inkludert i Rolex Guide 2008 som en av verdens topp 1000 golfbaner. Ca 7 minutters kjøretur fra Moss sentrum, mellom Moss og Larkollen.",
+  "description_en": "Varied and interesting 18-hole championship course at Evjesund in the Oslo Fjord, designed by Jeremy Turner (2004). One of Norway's highest-rated courses. The first nine holes are long and set in open landscape with wide fairways and large greens, whilst the back nine are different with more woodland and water. Requires precision and strategy. The Peugeot Guide awarded 17 out of 20 points. Included in the Rolex Guide 2008 as one of the world's top 1,000 golf courses. Approximately 7 minutes' drive from Moss town centre, between Moss and Larkollen.",
   "contact": {
     "phone": "+47 69 26 27 00",
     "email": "post@evjegolf.no",
@@ -68,7 +77,8 @@
   "season": {
     "start": "April",
     "end": "November",
-    "winterUse": "Åpen hele året avhengig av vær og baneforhold"
+    "winterUse": "Åpen hele året avhengig av vær og baneforhold",
+    "winterUse_en": "Open all year depending on weather and course conditions"
   },
   "visitors": {
     "welcome": true,
@@ -138,7 +148,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Gjest av medlem: 250kr rabatt (maks 3 gjester, gjelder ikke junior). Medlem bokker 10 dager i forveien, gjester 6 dager. Greenfee gjelder hele dagen."
+      "notes": "Gjest av medlem: 250kr rabatt (maks 3 gjester, gjelder ikke junior). Medlem bokker 10 dager i forveien, gjester 6 dager. Greenfee gjelder hele dagen.",
+      "greenFeeDescription_en": "Weekdays 750 NOK. Weekend/public holidays prime time (09-14) 900 NOK. Weekend/public holidays (06-09, 14-18) 800 NOK. 9-hole round 400 NOK (weekdays and weekends after 14:00). Junior 8-19 years: 350 NOK (weekday) / 400 NOK (weekend). Twilight from 18:00: 550 NOK (weekday) / 650 NOK (weekend). Pre-payment in GolfBox.",
+      "notes_en": "Guest of member: 250 NOK discount (max 3 guests, does not apply to juniors). Members book 10 days in advance, guests 6 days. Green fee valid all day."
     }
   },
   "membershipPricing": {},

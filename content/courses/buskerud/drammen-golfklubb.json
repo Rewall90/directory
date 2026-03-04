@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Naturskjønn beliggenhet i Skoger, én mil syd for Drammen. Variert og kupert terreng med morsomme utfordringer."
+    "viewDescription": "Naturskjønn beliggenhet i Skoger, én mil syd for Drammen. Variert og kupert terreng med morsomme utfordringer.",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "18-hole woodland and parkland course",
+    "designer_en": "Jeremy Turner",
+    "signatureHole_en": "A varied and undulating course in scenic surroundings in Skoger",
+    "scenicHole_en": "A varied and undulating course in scenic surroundings in Skoger",
+    "viewDescription_en": "Scenic setting in Skoger, ten kilometres south of Drammen. Varied and undulating terrain with enjoyable challenges."
   },
   "description": "Banen er kjent for sin naturskjønne beliggenhet i Skoger, én mil syd for Drammen, og fremstår i dag som en meget attraktiv 18-hulls PAR-71 bane på 5800 m. Banen er variert og kupert, og den byr på morsomme utfordringer for utøvere på alle nivåer. Designet av Jeremy Turner. 9 hull åpnet St. Hans 1997, full 18-hulls bane åpnet 1. august 1998. Klubbhus bygget i 2004.",
   "contact": {
@@ -140,7 +146,9 @@
       "cartRentalAnnual": 5000,
       "pullCartRental": null,
       "clubRental": null,
-      "notes": "All greenfee skal forhåndsbetales i Golfbox ved booking. Golfbilleie: 420 kr (18 hull), 250 kr (9 hull), medlemmer 350 kr (18 hull), årskort 5000 kr. 16 elektriske golfbiler tilgjengelig, minstealder 18 år. TrackMan simulator tilgjengelig på klubbhuset."
+      "notes": "All greenfee skal forhåndsbetales i Golfbox ved booking. Golfbilleie: 420 kr (18 hull), 250 kr (9 hull), medlemmer 350 kr (18 hull), årskort 5000 kr. 16 elektriske golfbiler tilgjengelig, minstealder 18 år. TrackMan simulator tilgjengelig på klubbhuset.",
+      "greenFeeDescription_en": "Juniors half price every day. Member with guest price 500 kr weekdays and 550 kr weekends/public holidays. Guests must be pre-booked at the same time by the member. Maximum 3 guests per full-paying member per round.",
+      "notes_en": "All green fees must be prepaid in GolfBox when booking. Buggy hire: 420 kr (18 holes), 250 kr (9 holes), members 350 kr (18 holes), annual pass 5,000 kr. 16 electric buggies available, minimum age 18. TrackMan simulator available at the clubhouse."
     }
   },
   "membershipPricing": {
@@ -196,5 +204,8 @@
     "createdAt": "2025-10-31T05:54:15.769Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ9aCCleM6QUYR_C56GMQPbvg"
+  "googlePlaceId": "ChIJ9aCCleM6QUYR_C56GMQPbvg",
+  "slug_en": "drammen-golf-club",
+  "name_en": "Drammen Golf Club",
+  "description_en": "The course is renowned for its scenic setting in Skoger, ten kilometres south of Drammen, and stands today as a highly attractive 18-hole par-71 course measuring 5,800 metres. The layout is varied and undulating, offering enjoyable challenges for players of all levels. Designed by Jeremy Turner. Nine holes opened on Midsummer 1997, and the full 18-hole course opened on 1 August 1998. The clubhouse was built in 2004."
 }

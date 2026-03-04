@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Ogna Golfklubb er en 9-hulls parkbane på Jæren, åpnet 21. juni 2003. Klubben grunnlagt 20. februar 2002. Banen ligger mellom Ogna Camping og Ogna sentrum langs fylkesvei 44 i Sirevåg, Hå kommune. Par 35 (9 hull), par 70 (18 hull spilt to ganger). Midt i det varierte kulturlandskapet på Jæren med god eksponering mot vinden. Landskapet skaper en utmerket ramme rundt banen. Kortbane for trening og nye golfere. Klubbhus med kafé og golfutstyr. Driving range, putting green, chipping green, practice bunker. Tralle- og el-cart utleie. Nær Helgåleiren aktivitetssenter for bedrifts- og gruppeaktiviteter."
+    "viewDescription": "Ogna Golfklubb er en 9-hulls parkbane på Jæren, åpnet 21. juni 2003. Klubben grunnlagt 20. februar 2002. Banen ligger mellom Ogna Camping og Ogna sentrum langs fylkesvei 44 i Sirevåg, Hå kommune. Par 35 (9 hull), par 70 (18 hull spilt to ganger). Midt i det varierte kulturlandskapet på Jæren med god eksponering mot vinden. Landskapet skaper en utmerket ramme rundt banen. Kortbane for trening og nye golfere. Klubbhus med kafé og golfutstyr. Driving range, putting green, chipping green, practice bunker. Tralle- og el-cart utleie. Nær Helgåleiren aktivitetssenter for bedrifts- og gruppeaktiviteter.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Scenic course in the Jaeren cultural landscape",
+    "scenicHole_en": "Scenic course in the Jaeren cultural landscape",
+    "viewDescription_en": "Ogna Golf Club is a 9-hole parkland course on Jaeren, opened on 21 June 2003. The course is situated between Ogna Camping and Ogna centre along county road 44. Par 35 for 9 holes, par 70 when played twice. Set in the varied cultural landscape of Jaeren with good wind exposure. The landscape creates an excellent setting around the course. Near the Helgaleiren activity centre. Maximum handicap 54 for visitors."
   },
   "description": "Ogna Golfklubb er en 9-hulls parkbane på Jæren, åpnet 21. juni 2003. Banen ligger mellom Ogna Camping og Ogna sentrum langs fylkesvei 44. Par 35 for 9 hull, par 70 når spilt to ganger. Midt i det varierte kulturlandskapet på Jæren med god eksponering mot vinden. Landskapet skaper en utmerket ramme rundt banen. Nær Helgåleiren aktivitetssenter. Handicapkrav 54 for besøkende.",
   "contact": {
@@ -123,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Kortbane for trening og nye golfere tilgjengelig"
+      "notes": "Kortbane for trening og nye golfere tilgjengelig",
+      "greenFeeDescription_en": "Green fee 2024: 350 kr (18 holes), 250 kr (9 holes). Junior -50% discount. Handicap 54 required with valid handicap certificate.",
+      "notes_en": "Short course for practice and new golfers available"
     },
     "2026": {
       "currency": "NOK",
@@ -142,7 +149,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Kortbane for trening og nye golfere tilgjengelig. Drivingrange tilgjengelig med range servant kort."
+      "notes": "Kortbane for trening og nye golfere tilgjengelig. Drivingrange tilgjengelig med range servant kort.",
+      "greenFeeDescription_en": "Green fee 2026: 400 kr (18 holes), 300 kr (9 holes). Junior -50% discount (200 kr for 18 holes, 150 kr for 9 holes).",
+      "notes_en": "Short course for practice and new golfers available. Driving range available with range servant card."
     }
   },
   "membershipPricing": {
@@ -151,7 +160,9 @@
         "category": "adult",
         "price": 4320,
         "description": "Hovedmedlemskap: 360 kr/måned via Avtalegiro (4320 kr/år). Medlemmer kan velge å betale kontingenten som engangsbeløp eller gjennom avtalegiro. Avtalegiro kun tilgjengelig for hovedmedlemskap. Ulike junior-kategorier tilgjengelig. Kontakt: medlem@ognagolf.no.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full membership: 360 kr/month via direct debit (4,320 kr/year). Members can choose to pay the subscription as a lump sum or via direct debit. Direct debit only available for full membership. Various junior categories available. Contact: medlem@ognagolf.no."
       }
     ],
     "2025": [
@@ -159,43 +170,57 @@
         "category": "adult",
         "price": 4250,
         "description": "Hovedmedlem over 25 år: 4250 kr/år eller avtalegiro 360 kr/mnd (12 mnd binding)",
-        "ageRange": "25+"
+        "ageRange": "25+",
+        "name_en": "Adult",
+        "description_en": "Full membership: 360 kr/month via direct debit (4,320 kr/year). Members may choose to pay the subscription as a lump sum or via direct debit. Direct debit only available for full membership. Various junior categories available. Contact: medlem@ognagolf.no."
       },
       {
         "category": "youth20_25",
         "price": 1800,
         "description": "Hovedmedlem 20-25 år: 1800 kr/år",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "name_en": "youth20_25",
+        "description_en": "Full member over 25 years: 4,250 kr/year or direct debit 360 kr/month (12-month commitment)"
       },
       {
         "category": "greenfee",
         "price": 1800,
         "description": "Greenfeemedlem: 1800 kr/år - uten fritt spill, greenfee betales ved spill",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "greenfee",
+        "description_en": "Full member 20-25 years: 1,800 kr/year"
       },
       {
         "category": "remote",
         "price": 1000,
         "description": "Fjernmedlem: 1000 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Green fee member: 1,800 kr/year - without free play, green fee payable when playing"
       },
       {
         "category": "junior14_19",
         "price": 900,
         "description": "Juniormedlem 14-19 år: 900 kr/år",
-        "ageRange": "14-19"
+        "ageRange": "14-19",
+        "name_en": "Junior14_19",
+        "description_en": "Distance member: 1,000 kr/year"
       },
       {
         "category": "junior0_13",
         "price": 150,
         "description": "Juniormedlem 0-13 år: 150 kr/år",
-        "ageRange": "0-13"
+        "ageRange": "0-13",
+        "name_en": "Junior0_13",
+        "description_en": "Junior member 14-19 years: 900 kr/year"
       },
       {
         "category": "passive",
         "price": 500,
         "description": "Passiv medlem uten spillerett: 500 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Passive",
+        "description_en": "Junior member 0-13 years: 150 kr/year"
       }
     ]
   },
@@ -244,5 +269,8 @@
     "createdAt": "2025-10-31T07:46:25.725Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJEXcLvtcWOkYRMRSw6_yGfUI"
+  "googlePlaceId": "ChIJEXcLvtcWOkYRMRSw6_yGfUI",
+  "slug_en": "ogna-golf-club",
+  "name_en": "Ogna Golf Club",
+  "description_en": "Ogna Golf Club is a 9-hole parkland course on Jaeren, opened on 21 June 2003. The course is situated between Ogna Camping and Ogna centre along county road 44. Par 35 for 9 holes, par 70 when played twice. Set in the varied cultural landscape of Jaeren with good wind exposure. The landscape creates an excellent setting around the course. Near the Helgaleiren activity centre. Maximum handicap 54 for visitors."
 }

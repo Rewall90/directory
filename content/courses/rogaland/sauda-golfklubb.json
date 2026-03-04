@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Sauda Golfklubb er en 9-hulls skogsbane i naturskjønne omgivelser i Saudasjøen, 3 km fra Sauda sentrum, lengst inne i Ryfylkefjorden. Åpnet 2008. Par 30. Selvbetjent bane med klubbhus i hyttestil. Driving range, putting green, simulator. Fantastisk utsikt mot Saudafjorden. Sesong mars-oktober."
+    "viewDescription": "Sauda Golfklubb er en 9-hulls skogsbane i naturskjønne omgivelser i Saudasjøen, 3 km fra Sauda sentrum, lengst inne i Ryfylkefjorden. Åpnet 2008. Par 30. Selvbetjent bane med klubbhus i hyttestil. Driving range, putting green, simulator. Fantastisk utsikt mot Saudafjorden. Sesong mars-oktober.",
+    "terrain_en": "Woodland",
+    "courseType_en": "9-hole woodland course",
+    "signatureHole_en": "Scenic surroundings at Saudasjoeen with views towards the Saudafjord",
+    "scenicHole_en": "Scenic surroundings at Saudasjoeen with views towards the Saudafjord",
+    "viewDescription_en": "Sauda Golf Club is a 9-hole woodland course in scenic surroundings at Saudasjoeen, three kilometres from Sauda town centre, at the head of the Ryfylke fjord. Opened in 2008. Par 30. Self-service course with a cabin-style clubhouse. Stunning views towards the Saudafjord."
   },
   "description": "Sauda Golfklubb er en 9-hulls skogsbane i naturskjønne omgivelser i Saudasjøen, tre kilometer fra Sauda sentrum, lengst inne i Ryfylkefjorden. Åpnet i 2008. Par 30. Selvbetjent bane med klubbhus bygget i hyttestil. Fantastisk utsikt mot Saudafjorden.",
   "contact": {
@@ -117,7 +122,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Veien til Golf (VTG) kurs 990 kr. Deltakere får 50% rabatt på medlemskap og spiller gratis resten av sesongen (gjelder kun første medlemsår)."
+      "notes": "Veien til Golf (VTG) kurs 990 kr. Deltakere får 50% rabatt på medlemskap og spiller gratis resten av sesongen (gjelder kun første medlemsår).",
+      "greenFeeDescription_en": "Green fee (2023 prices): 9 holes/day pass 100 kr (weekdays), 150 kr (weekends and public holidays). Self-service course.",
+      "notes_en": "Get Into Golf (VTG) course 990 kr. Participants get 50% discount on membership and play free for the rest of the season (first membership year only)."
     },
     "2025": {
       "currency": "NOK",
@@ -133,7 +140,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Selvbetjent bane. Betaling via VIPPS #100434."
+      "notes": "Selvbetjent bane. Betaling via VIPPS #100434.",
+      "greenFeeDescription_en": "Day pass Monday-Sunday 300 kr. Junior (up to 19 years), student, military service 150 kr. Self-service course - payment via Vipps #100434.",
+      "notes_en": "Self-service course. Payment via Vipps #100434."
     },
     "2026": {
       "currency": "NOK",
@@ -152,7 +161,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Selvbetjent bane. Betaling via VIPPS #100434. Ingen utleie av utstyr tilgjengelig - spillere må ta med eget utstyr."
+      "notes": "Selvbetjent bane. Betaling via VIPPS #100434. Ingen utleie av utstyr tilgjengelig - spillere må ta med eget utstyr.",
+      "greenFeeDescription_en": "Day pass Monday-Sunday 300 kr. Junior (up to 19 years), student, military service 150 kr. Self-service course - payment via Vipps #100434.",
+      "notes_en": "Self-service course. Payment via Vipps #100434. No equipment hire available - players must bring their own equipment."
     }
   },
   "membershipPricing": {
@@ -161,55 +172,73 @@
         "category": "adultWithLoan",
         "price": 4000,
         "description": "Hovedmedlem MED medlemslån, med fritt spill: 4000 kr/år",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Adult (with member loan)",
+        "description_en": "Full member WITH member loan, with free play: 4,000 kr/year"
       },
       {
         "category": "adultWithoutLoan",
         "price": 4500,
         "description": "Hovedmedlem UTEN medlemslån, med fritt spill: 4500 kr/år",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Adult (without member loan)",
+        "description_en": "Full member WITHOUT member loan, with free play: 4,500 kr/year"
       },
       {
         "category": "adultGreenfee",
         "price": 2400,
         "description": "Hovedmedlem greenfee (fyller 20 år eller mer i inneværende år): 2400 kr/år",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Adult (green fee)",
+        "description_en": "Full member green fee (turning 20 years or older in the current year): 2,400 kr/year"
       },
       {
         "category": "olderJunior",
         "price": 1200,
         "description": "Eldre junior fritt spill (16-19 år) eller student/vernepliktig: 1200 kr/år",
-        "ageRange": "16-19"
+        "ageRange": "16-19",
+        "name_en": "Older Junior",
+        "description_en": "Older junior free play (16-19 years) or student/military service: 1,200 kr/year"
       },
       {
         "category": "olderJuniorGreenfee",
         "price": 600,
         "description": "Eldre junior greenfee (16-19 år) eller student/vernepliktig: 600 kr/år",
-        "ageRange": "16-19"
+        "ageRange": "16-19",
+        "name_en": "Older Junior (green fee)",
+        "description_en": "Older junior green fee (16-19 years) or student/military service: 600 kr/year"
       },
       {
         "category": "youngerJunior",
         "price": 205,
         "description": "Yngre junior (fyller 0-15 år i inneværende år): 205 kr/år",
-        "ageRange": "0-15"
+        "ageRange": "0-15",
+        "name_en": "Younger Junior",
+        "description_en": "Younger junior (turning 0-15 years in the current year): 205 kr/year"
       },
       {
         "category": "cottage",
         "price": 2500,
         "description": "Hyttepakke - Hovedmedlem i annen klubb, bostedsadresse utenfor Sauda: 2500 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Holiday Cottage",
+        "description_en": "Holiday cottage package - Full member in another club, residential address outside Sauda: 2,500 kr/year"
       },
       {
         "category": "remote",
         "price": 1200,
         "description": "Fjernmedlem (bostedsadresse utenfor Sauda): 1200 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance member (residential address outside Sauda): 1,200 kr/year"
       },
       {
         "category": "supporter",
         "price": 600,
         "description": "Støttemedlem: 600 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Supporting Member",
+        "description_en": "Supporting member: 600 kr/year"
       }
     ]
   },
@@ -258,5 +287,8 @@
     "createdAt": "2025-10-31T07:46:27.034Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJgSUgrx7_O0YRRINFv2Jby-0"
+  "googlePlaceId": "ChIJgSUgrx7_O0YRRINFv2Jby-0",
+  "slug_en": "sauda-golf-club",
+  "name_en": "Sauda Golf Club",
+  "description_en": "Sauda Golf Club is a 9-hole woodland course in scenic surroundings at Saudasjoeen, three kilometres from Sauda town centre, at the head of the Ryfylke fjord. Opened in 2008. Par 30. Self-service course with a cabin-style clubhouse. Stunning views towards the Saudafjord."
 }

@@ -32,7 +32,11 @@
     "par4Count": 11,
     "par5Count": 3,
     "mountainViews": true,
-    "viewDescription": "Utsikt over Norskehavet, nordkanten av øya Gims øy med 360° panoramautsikt fra toppen Hoven. Unik arktisk landskap med fjellformasjoner."
+    "viewDescription": "Utsikt over Norskehavet, nordkanten av øya Gims øy med 360° panoramautsikt fra toppen Hoven. Unik arktisk landskap med fjellformasjoner.",
+    "terrain_en": "Variable",
+    "courseType_en": "Links course",
+    "designer_en": "Jeremy Turner",
+    "viewDescription_en": "Views over the Norwegian Sea, the northern edge of Gimsoy island with 360-degree panoramic views from the summit of Hoven. Unique Arctic landscape with mountain formations."
   },
   "description": "Verdensklasse golfbane med unik arktisk lokasjon på 68° nord, over polarsirkelen. Banen tilbyr 24-timers golfing under midnattssolen (mai-juli) og nordlysopplevelse (august-oktober). Hvite sandstrender, utsikt over Norskehavet, og helt unike golfopplevelser.",
   "contact": {
@@ -59,7 +63,8 @@
   "season": {
     "start": "1. mai",
     "end": "21. oktober",
-    "winterUse": "Resepsjon åpen 22. oktober til 30. april på Låven Restaurant på Hov"
+    "winterUse": "Resepsjon åpen 22. oktober til 30. april på Låven Restaurant på Hov",
+    "winterUse_en": "Reception open 22 October to 30 April at Laven Restaurant at Hov"
   },
   "visitors": {
     "welcome": true,
@@ -141,7 +146,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Pull trolley inkludert i greenfee. Resort guests: 9 hull og 24-timers pass kun i tillegg til min. en 18-hulls runde. Regionalt medlemskap krever fullt medlemskap i golfklubb i Nordland, Troms eller Finnmark."
+      "notes": "Pull trolley inkludert i greenfee. Resort guests: 9 hull og 24-timers pass kun i tillegg til min. en 18-hulls runde. Regionalt medlemskap krever fullt medlemskap i golfklubb i Nordland, Troms eller Finnmark.",
+      "greenFeeDescription_en": "2026 Early Birdie Booking: Non-Resort 18 holes: 2,000 kr (9-22 May, 5-18 Oct), 3,000 kr (23 May-4 Oct). Midnight (19:15-02:00): +300/+500 kr. Resort Guests: 1,400/2,500 kr. Regional (Nordland/Troms/Finnmark members): 650/1,150 kr. Junior (u19): 40% discount.",
+      "notes_en": "Pull trolley included in green fee. Resort guests: 9 holes and 24-hour pass available only in addition to a minimum of one 18-hole round. Regional membership requires full membership in a golf club in Nordland, Troms or Finnmark."
     }
   },
   "membershipPricing": {},
@@ -179,5 +186,8 @@
     "scrapedAt": "2026-02-14T16:02:00.000Z",
     "createdAt": "2025-10-31T09:43:39.737Z",
     "updatedAt": "2026-02-14T16:02:00.000Z"
-  }
+  },
+  "slug_en": "lofoten-links",
+  "name_en": "Lofoten Links",
+  "description_en": "World-class golf course with a unique Arctic location at 68 degrees north, above the Arctic Circle. The course offers 24-hour golfing under the midnight sun (May-July) and northern lights experiences (August-October). White sandy beaches, views over the Norwegian Sea, and utterly unique golf experiences."
 }

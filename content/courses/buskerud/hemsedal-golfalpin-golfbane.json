@@ -36,7 +36,11 @@
     "par4Count": 10,
     "par5Count": 4,
     "mountainViews": true,
-    "viewDescription": "Omkranset av høye furutrær og mindre vann, med fjellmassiv og Hydnefossen foss (160 meter høy) som naturlig ramme"
+    "viewDescription": "Omkranset av høye furutrær og mindre vann, med fjellmassiv og Hydnefossen foss (160 meter høy) som naturlig ramme",
+    "terrain_en": "Undulating",
+    "courseType_en": "18-hole golf course",
+    "designer_en": "Jeremy Turner",
+    "viewDescription_en": "Surrounded by tall pine trees and small lakes, with mountain massifs and the 160-metre Hydnefossen waterfall as a natural backdrop"
   },
   "description": "Fjellgolfbane plassert midt mellom Gol og Hemsedal. Banen har varierte terrengutfordringer med naturlige hindringer. 18-hulls golfbane med par 72.",
   "contact": {
@@ -58,7 +62,8 @@
   "season": {
     "start": "27. april",
     "end": "2. oktober",
-    "winterUse": "Stengt"
+    "winterUse": "Stengt",
+    "winterUse_en": "Closed"
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Twilight green fee mandag-torsdag kl 18-20"
+      "notes": "Twilight green fee mandag-torsdag kl 18-20",
+      "greenFeeDescription_en": "18 holes: 690 kr. Junior (up to 19 years): 345 kr. Twilight (Mon-Thu 18:00-20:00): 500 kr. Norwegian Senior Golf: 400 kr (Mon-Thu, 3 rounds per season). Golfamore: 50% discount (Mon-Fri, not weeks 27-30)",
+      "notes_en": "Twilight green fee Monday-Thursday 18:00-20:00"
     },
     "2026": {
       "currency": "NOK",
@@ -143,7 +150,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "2026-priser ikke publisert enda, basert på gjeldende 2025-priser. Twilight man-tor kl 18-20 (ikke helligdager). Golfbil med legeattest: 300 kr"
+      "notes": "2026-priser ikke publisert enda, basert på gjeldende 2025-priser. Twilight man-tor kl 18-20 (ikke helligdager). Golfbil med legeattest: 300 kr",
+      "greenFeeDescription_en": "18 holes: 690 kr. Junior (up to 19 years): 345 kr. Twilight (Mon-Thu 18:00-20:00, not public holidays): 500 kr. Norwegian Senior Golf: 400 kr (Mon-Thu, 3 rounds per season). Golfamore: 50% discount (Mon-Fri, not weeks 27-30, max once per season). No-show fee: full green fee. Playing without paid green fee: 1,000 kr fine",
+      "notes_en": "2026 prices not yet published, based on current 2025 prices. Twilight Mon-Thu 18:00-20:00 (not public holidays). Buggy with medical certificate: 300 kr"
     }
   },
   "membershipPricing": {},
@@ -188,5 +197,8 @@
     "createdAt": "2025-10-31T05:56:50.847Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJA23mcLHvP0YR60G5YkyD_-k"
+  "googlePlaceId": "ChIJA23mcLHvP0YR60G5YkyD_-k",
+  "slug_en": "hemsedal-golfalpin-golf-course",
+  "name_en": "Hemsedal Golfalpin Golf Course",
+  "description_en": "Mountain golf course situated midway between Gol and Hemsedal. The course features varied terrain challenges with natural hazards. 18-hole golf course with par 72."
 }

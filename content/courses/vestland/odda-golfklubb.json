@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Odda Golfklubb - bygget 1996, NGF-godkjent 6-hulls mellombane fra 2000 i Odda, Hardanger. Unik beliggenhet inne i Outokumpu Norzink industriområde ved Sørfjorden. VIKTIG: Banen ikke lenger tilgjengelig på grunn av Bolidens utvidelse. Klubben fortsetter og jobber mot Røldal-prosjekt. Historisk: Åpen for publikum, kølleutleie."
+    "viewDescription": "Odda Golfklubb - bygget 1996, NGF-godkjent 6-hulls mellombane fra 2000 i Odda, Hardanger. Unik beliggenhet inne i Outokumpu Norzink industriområde ved Sørfjorden. VIKTIG: Banen ikke lenger tilgjengelig på grunn av Bolidens utvidelse. Klubben fortsetter og jobber mot Røldal-prosjekt. Historisk: Åpen for publikum, kølleutleie.",
+    "terrain_en": "Industrial/Parkland",
+    "courseType_en": "6-hole intermediate course (no longer in operation)",
+    "signatureHole_en": "By Sorfjorden in Hardanger",
+    "scenicHole_en": "By Sorfjorden in Hardanger",
+    "viewDescription_en": "Odda Golf Club - built 1996, NGF-approved 6-hole intermediate course from 2000 in Odda, Hardanger. Unique location within the Outokumpu Norzink industrial area by Sorfjorden. IMPORTANT: Course no longer available due to Boliden's expansion. The club continues and is working towards the Roldal project. Historical: Open to the public, club hire available."
   },
   "description": "Odda Golfklubb - bygget 1996, godkjent som 6-hulls mellombane av NGF fra 1. januar 2000. Unik beliggenhet inne i Outokumpu Norzink sitt industriområde ved Sørfjorden i Hardanger. VIKTIG: Klubben kan ikke lenger bruke området på grunn av Bolidens utvidelsesplaner. Klubben stemte for fortsatt eksistens og jobber mot kobling til planlagt golfbaneprosjekt i Røldal.",
   "contact": {
@@ -123,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Klubben jobber mot kobling til planlagt golfbaneprosjekt i Røldal. Tidligere hadde klubben unik 6-hulls bane inne i industriområde med omfattende miljøopprydding."
+      "notes": "Klubben jobber mot kobling til planlagt golfbaneprosjekt i Røldal. Tidligere hadde klubben unik 6-hulls bane inne i industriområde med omfattende miljøopprydding.",
+      "greenFeeDescription_en": "Green fee 2025: The club currently has no golf course in operation. Historically, the course had club hire available and was open to the public.",
+      "notes_en": "The club is working towards a connection with a planned golf course project in Roldal. The club previously had a unique 6-hole course within an industrial area with extensive environmental remediation."
     }
   },
   "membershipPricing": {},
@@ -170,5 +177,8 @@
     "statusNotes": "No active golf course in operation. Club previously had 6-hole course in industrial area. Working on potential connection to Roldal golf project.",
     "scrapeNote": "2026-02-16 VERIFICATION: Course CONFIRMED CLOSED due to Boliden expansion. Original 6-hole course at Eitrheimsvågen no longer accessible. Club organization STILL ACTIVE and pursuing Røldal golf course project, which faces opposition from state governor (statsforvaltar) and Vestland fylkeskommune as of Nov 2025. Project leaders refuse to give up (Hardanger Folkeblad Nov 2025). No website or social media found. Phone +47 53 64 24 41 listed but not verified. Historic data: 850 members in 2003, 90% remote members. Current membership unknown. No pricing applicable - course not in operation."
   },
-  "googlePlaceId": "ChIJLQzd88GfPkYRRHFSdt_LwIU"
+  "googlePlaceId": "ChIJLQzd88GfPkYRRHFSdt_LwIU",
+  "slug_en": "odda-golf-club",
+  "name_en": "Odda Golf Club",
+  "description_en": "Odda Golf Club - built 1996, approved as a 6-hole intermediate course by the NGF from 1 January 2000. Unique location within the Outokumpu Norzink industrial area by Sorfjorden in Hardanger. IMPORTANT: The club can no longer use the site due to Boliden's expansion plans. The club voted to continue and is working towards a connection with a planned golf course project in Roldal."
 }

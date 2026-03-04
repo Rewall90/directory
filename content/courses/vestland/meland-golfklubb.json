@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Meland Golfklubb - 18-hulls skogsbane designet av Robert A. Hunt, åpnet 1999. Par 73, 6237m. En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). Lett bølgende terreng med vannhindre. Driving range, putting/chipping greens, practice bunker. 3 TrackMan simulatorer. Klubbhus med garderober, toalett, kafé, pro shop. 20 golfbiler med egne stier. Toalett på bane (hull 8, 13). Bobil-parkering. Handicap-grense 54."
+    "viewDescription": "Meland Golfklubb - 18-hulls skogsbane designet av Robert A. Hunt, åpnet 1999. Par 73, 6237m. En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). Lett bølgende terreng med vannhindre. Driving range, putting/chipping greens, practice bunker. 3 TrackMan simulatorer. Klubbhus med garderober, toalett, kafé, pro shop. 20 golfbiler med egne stier. Toalett på bane (hull 8, 13). Bobil-parkering. Handicap-grense 54.",
+    "terrain_en": "Woodland",
+    "courseType_en": "18-hole woodland course",
+    "designer_en": "Robert A. Hunt (PGA Management)",
+    "signatureHole_en": "Gently undulating woodland terrain with water hazards",
+    "scenicHole_en": "Gently undulating woodland terrain with water hazards",
+    "viewDescription_en": "Meland Golf Club - 18-hole woodland course designed by Robert A. Hunt, opened 1999. Par 73, 6,237m. One of the most challenging courses in Scandinavia. 6 tee options (3,500-6,200m). Gently undulating terrain with water hazards. Driving range, putting/chipping greens, practice bunker. 3 TrackMan simulators. Clubhouse with changing rooms, toilets, cafe, pro shop. 20 golf buggies with dedicated paths. On-course toilets (holes 8, 13). Motorhome parking. Handicap limit 54."
   },
   "description": "Meland Golfklubb - 18-hulls skogsbane designet av Robert A. Hunt (PGA Management), åpnet 1999. Klubb grunnlagt 1995. Par 73, 6823 yards (ca 6237m). Kjent som en av de mest utfordrende golfbanene i Skandinavia. Lett bølgende terreng med vannhindre. 6 forskjellige tee-alternativer fra 3500 til 6200 meter.",
   "contact": {
@@ -58,7 +64,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "3 TrackMan simulatorer tilgjengelig for innendørsspill"
+    "winterUse": "3 TrackMan simulatorer tilgjengelig for innendørsspill",
+    "winterUse_en": "3 TrackMan simulators available for indoor play"
   },
   "visitors": {
     "welcome": true,
@@ -129,7 +136,9 @@
       "freeTrial": null,
       "bobilParkering": 200,
       "drivingRangeBalls": "Kjøpes via GolfMore app, medlemsrabatt tilgjengelig",
-      "notes": "En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). 3 TrackMan simulatorer. 20 golfbiler med egne stier. Bobil-parkering 200kr/dogn. Avbestilling 24 timer for refusjon. Golfbiler: 490kr/runde. Leieklubber: 250kr/runde. Manuel og elektrisk tralle tilgjengelig. Medlemmer får rabatt på golfbil (ukedag), driving range og simulator."
+      "notes": "En av Skandinavias mest utfordrende baner. 6 tee-alternativer (3500-6200m). 3 TrackMan simulatorer. 20 golfbiler med egne stier. Bobil-parkering 200kr/dogn. Avbestilling 24 timer for refusjon. Golfbiler: 490kr/runde. Leieklubber: 250kr/runde. Manuel og elektrisk tralle tilgjengelig. Medlemmer får rabatt på golfbil (ukedag), driving range og simulator.",
+      "greenFeeDescription_en": "Green fee 2026: Weekday up to 13:50: 725 NOK, from 14:00: 800 NOK. Weekend/bank holiday up to 13:50: 925 NOK, from 14:00: 800 NOK. 9-hole rounds: 65% of 18-hole price.",
+      "notes_en": "One of the most challenging courses in Scandinavia. 6 tee options (3,500-6,200m). 3 TrackMan simulators. 20 golf buggies with dedicated paths. Motorhome parking 200 NOK/night. Cancellation 24 hours for refund. Golf buggies: 490 NOK/round. Club hire: 250 NOK/round. Manual and electric trolleys available. Members receive discount on buggy (weekday), driving range and simulator."
     }
   },
   "membershipPricing": {
@@ -271,5 +280,8 @@
     "createdAt": "2025-10-31T10:16:59.137Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJS23g7igcPUYR4jnnqLy0Woo"
+  "googlePlaceId": "ChIJS23g7igcPUYR4jnnqLy0Woo",
+  "slug_en": "meland-golf-club",
+  "name_en": "Meland Golf Club",
+  "description_en": "Meland Golf Club - 18-hole woodland course designed by Robert A. Hunt (PGA Management), opened 1999. Club founded 1995. Par 73, 6,823 yards (approx. 6,237m). Known as one of the most challenging golf courses in Scandinavia. Gently undulating terrain with water hazards. 6 different tee options from 3,500 to 6,200 metres."
 }

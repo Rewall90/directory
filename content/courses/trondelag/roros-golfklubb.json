@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Fjellpanorama; døgndrift range; fotballgolf 7 hull."
+    "viewDescription": "Fjellpanorama; døgndrift range; fotballgolf 7 hull.",
+    "terrain_en": "Woodland/Mountain terrain",
+    "courseType_en": "9-hole course with 18 tee positions",
+    "designer_en": "Jeremy Turner",
+    "signatureHole_en": "Spectacular mountain surroundings",
+    "scenicHole_en": "Spectacular mountain surroundings",
+    "viewDescription_en": "Mountain panorama; 24/7 range; footgolf 7 holes."
   },
   "description": "9-hulls fjell/skogsbane designet av Jeremy Turner med 18 ulike tee-posisjoner.",
   "contact": {
@@ -58,7 +64,8 @@
   "season": {
     "start": "Juni",
     "end": "Oktober",
-    "winterUse": "Stengt utenom sesong"
+    "winterUse": "Stengt utenom sesong",
+    "winterUse_en": "Closed outside season"
   },
   "visitors": {
     "welcome": true,
@@ -127,7 +134,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Selvbetjening med bankkort eller Vipps i klubbhuset. 24/7 range med ballmaskin; pro shop via Røros Sport."
+      "notes": "Selvbetjening med bankkort eller Vipps i klubbhuset. 24/7 range med ballmaskin; pro shop via Røros Sport.",
+      "greenFeeDescription_en": "Adult: 9 holes 400 kr, 18 holes/day 500 kr. Junior: 9 holes 200 kr, 18 holes/day 250 kr. Green fee pack 10x9 holes 3,000 kr. Day pass = play as much as you like.",
+      "notes_en": "Self-service with bank card or Vipps in the clubhouse. 24/7 range with ball machine; pro shop via Roeros Sport."
     },
     "2026": {
       "currency": "NOK",
@@ -147,7 +156,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Selvbetjening med bankkort eller Vipps i klubbhuset. 24/7 range med ballmaskin; pro shop via Røros Sport."
+      "notes": "Selvbetjening med bankkort eller Vipps i klubbhuset. 24/7 range med ballmaskin; pro shop via Røros Sport.",
+      "greenFeeDescription_en": "Adult: 9 holes 400 kr, 18 holes/day 500 kr. Junior: 9 holes 200 kr, 18 holes/day 250 kr. Green fee pack 10x9 holes 3,000 kr, +100 kr for 18-hole rounds. Day pass = play as much as you like.",
+      "notes_en": "Self-service with bank card or Vipps in the clubhouse. 24/7 range with ball machine; pro shop via Roeros Sport."
     }
   },
   "membershipPricing": {
@@ -156,61 +167,81 @@
         "category": "Senior med aksje",
         "price": 4500,
         "description": "Senior med aksje i Røros Golf Park.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Senior with share",
+        "description_en": "Senior med Share i Røros Golf Park."
       },
       {
         "category": "Ektefelle/sambo med aksje",
         "price": 3900,
         "description": "Ektefelle/sambo med aksje.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Spouse/partner with share",
+        "description_en": "Spouse/sambo med Share."
       },
       {
         "category": "Junior med aksje",
         "price": 890,
         "description": "Junior med aksje.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Junior with share",
+        "description_en": "Junior med Share."
       },
       {
         "category": "Senior uten aksje",
         "price": 5100,
         "description": "Senior uten aksje.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Senior uten aksje",
+        "description_en": "Senior uten Share."
       },
       {
         "category": "Ektefelle/sambo uten aksje",
         "price": 4500,
         "description": "Ektefelle/sambo uten aksje.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Spouse/partner without share",
+        "description_en": "Spouse/sambo uten Share."
       },
       {
         "category": "Junior uten aksje",
         "price": 990,
         "description": "Junior uten aksje.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Junior without share",
+        "description_en": "Junior uten Share."
       },
       {
         "category": "Fjernmedlem",
         "price": 1500,
         "description": "Fjernmedlemskap. Bostedsadresse lenger enn 150km fra Røros.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance membership. Residential address more than 150 km from Roeros."
       },
       {
         "category": "Aksje",
         "price": 12500,
         "description": "Aksje i Røros Golf Park (engangskjøp).",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Share",
+        "description_en": "Share i Røros Golf Park (one-off purchase)."
       },
       {
         "category": "VTG-kurs Senior",
         "price": 1750,
         "description": "Veien til golf kurs for voksne.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Get Into Golf course (Adult)",
+        "description_en": "Veien to golf kurs for adults."
       },
       {
         "category": "VTG-kurs Junior",
         "price": 0,
         "description": "Veien til golf kurs for junior (tom 19 år) - gratis.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Get Into Golf course (Junior)",
+        "description_en": "Veien to golf kurs for junior (tom 19 years) - Free."
       }
     ]
   },
@@ -255,5 +286,8 @@
     "createdAt": "2025-10-31T11:30:52.756Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJt1yWrelkbEYR9hbFHyQTcsw"
+  "googlePlaceId": "ChIJt1yWrelkbEYR9hbFHyQTcsw",
+  "slug_en": "roros-golf-club",
+  "name_en": "Røros Golf Club",
+  "description_en": "9-hole mountain/woodland course designed by Jeremy Turner with 18 different tee positions."
 }

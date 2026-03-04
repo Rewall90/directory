@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "TrackMan Range, putting/chipping, klubbhus i gårdsbygning, pro shop, restaurant."
+    "viewDescription": "TrackMan Range, putting/chipping, klubbhus i gårdsbygning, pro shop, restaurant.",
+    "terrain_en": "Parkland",
+    "courseType_en": "18-hole parkland course",
+    "viewDescription_en": "TrackMan Range, putting/chipping, clubhouse in a farm building, pro shop, restaurant."
   },
   "description": "18-hulls parklandbane i Fagerlia med 6-hulls treningsbane. Klubbhus på Østre Stokke gård.",
   "contact": {
@@ -129,7 +132,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "20% rabatt for medlemmer av TGK, Stiklestad, Klæbu, Frosta, Selbu, Byneset og Åre GK. Golf Total 995 kr/mnd: ubegrenset spill på Stjørdal og Trondheim GK."
+      "notes": "20% rabatt for medlemmer av TGK, Stiklestad, Klæbu, Frosta, Selbu, Byneset og Åre GK. Golf Total 995 kr/mnd: ubegrenset spill på Stjørdal og Trondheim GK.",
+      "greenFeeDescription_en": "18 holes adult 600 kr, junior 300 kr. 6-hole course free. Weekly green fee adult 2,200 kr, junior 1,000 kr. Clip card 10 green fees 4,500 kr.",
+      "notes_en": "20% discount for members of TGK, Stiklestad, Klaebu, Frosta, Selbu, Byneset and Aare GC. Golf Total 995 kr/month: unlimited play at Stjoerdal and Trondheim GC."
     }
   },
   "membershipPricing": {
@@ -138,56 +143,72 @@
         "category": "Junior 0-12",
         "price": 500,
         "description": "Fritt spill på 6-hulls bane. Pris per år.",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Junior 0-12",
+        "description_en": "Free play on the 6-hole course. Price per year."
       },
       {
         "category": "Junior 13-19",
         "price": 3228,
         "priceMonthly": 269,
         "description": "Full spillerett. Pris fra 01.03.26: 309 kr/mnd.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19",
+        "description_en": "Full playing rights. Price from 01.03.26: 309 kr/month."
       },
       {
         "category": "Ung voksen 20-25",
         "price": 5388,
         "priceMonthly": 449,
         "description": "Full spillerett. Pris fra 01.03.26: 449 kr/mnd.",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "name_en": "Young Adult 20-25",
+        "description_en": "Full playing rights. Price from 01.03.26: 449 kr/month."
       },
       {
         "category": "Voksen Start 26-29",
         "price": 5388,
         "priceMonthly": 449,
         "description": "Full spillerett. Ny kategori fra 01.03.26: 519 kr/mnd.",
-        "ageRange": "26-29"
+        "ageRange": "26-29",
+        "name_en": "Adult Start 26-29",
+        "description_en": "Full playing rights. New category from 01.03.26: 519 kr/month."
       },
       {
         "category": "Voksen",
         "price": 7788,
         "priceMonthly": 649,
         "description": "Full spillerett. Fra 30 år. Pris fra 01.03.26: 689 kr/mnd.",
-        "ageRange": "30+"
+        "ageRange": "30+",
+        "name_en": "Adult",
+        "description_en": "Full playing rights. From 30 years. Price from 01.03.26: 689 kr/month."
       },
       {
         "category": "Familie",
         "price": 13140,
         "priceMonthly": 1095,
         "description": "Ektefelle/samboer og alle barn under 19 år. Pris fra 01.03.26: 1149 kr/mnd.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Spouse/partner and all children under 19 years. Price from 01.03.26: 1,149 kr/month."
       },
       {
         "category": "Greenfeemedlem",
         "price": 3588,
         "priceMonthly": 299,
         "description": "4 runder inkludert, deretter 400 kr/runde. Kan oppgraderes til fullt medlemskap.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Green Fee Member",
+        "description_en": "4 rounds included, then 400 kr/round. Can be upgraded to full membership."
       },
       {
         "category": "Golf Total",
         "price": 11940,
         "priceMonthly": 995,
         "description": "Ubegrenset spill på både Stjørdal og Trondheim GK.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Golf Total",
+        "description_en": "Unlimited play at both Stjoerdal and Trondheim GC."
       }
     ]
   },
@@ -233,5 +254,8 @@
     "updatedAt": "2026-02-14T16:45:00.000Z",
     "notes": "18-hole main course + 6-hole training course. TrackMan Range. Golf Total joint membership with Trondheim GK. VTG courses at Trondheim Golfsenter."
   },
-  "googlePlaceId": "ChIJq0fK_oQVbUYRiJH_N4vq_z8"
+  "googlePlaceId": "ChIJq0fK_oQVbUYRiJH_N4vq_z8",
+  "slug_en": "stjordal-golf-club",
+  "name_en": "Stjørdal Golf Club",
+  "description_en": "18-hole parkland course in Fagerlia with a 6-hole practice course. Clubhouse at Oestre Stokke farm."
 }

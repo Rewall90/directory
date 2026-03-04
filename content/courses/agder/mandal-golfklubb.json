@@ -32,7 +32,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": null,
-    "viewDescription": "Ved Skogsfjorden"
+    "viewDescription": "Ved Skogsfjorden",
+    "courseType_en": "Parkland course",
+    "viewDescription_en": "By the Skogsfjorden inlet"
   },
   "description": "Norges sydligste golfbane, stiftet i 1993. Mandal Golfklubb har en av Sørlandets beste 9 hullsbaner med treningsområder for nærspill, driving range og putting green, samt et klubbhus med fasiliteter som kafe og garderober, simulatorrom med tre Trackman simulatorer og en hyggelig terrasse.",
   "contact": {
@@ -66,7 +68,8 @@
     "nearbyCity": "Mandal",
     "distanceFromCenter": "3 km vest for Mandal sentrum",
     "handicapRequired": true,
-    "dressCode": "Golf attire"
+    "dressCode": "Golf attire",
+    "dressCode_en": "Golf attire"
   },
   "organization": {
     "courseCompany": null,
@@ -145,7 +148,8 @@
       "norskSeniorGolfNotes": "Inntil 2 runder a 250 kroner (18 hull) i hele sesongen. Gjelder ikke i juli. Alle hverdager før kl 14:00.",
       "golfamoreDiscount": "50%",
       "golfamoreNotes": "1 greenfee per kalenderår med 50% rabatt. Gjelder ikke i juli.",
-      "notes": "2026 priser ikke publisert ennå. Prisene er videreført fra 2025."
+      "notes": "2026 priser ikke publisert ennå. Prisene er videreført fra 2025.",
+      "notes_en": "2026 prices not yet published. Prices carried forward from 2025."
     }
   },
   "membershipPricing": {
@@ -155,63 +159,80 @@
         "name": "Medlemskontingent",
         "price": 1800,
         "description": "Basiskontingent",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Membership fee",
+        "description_en": "Base membership fee"
       },
       {
         "category": "Ektefelle/samboer",
         "name": "Ektefelle / samboer av medlem",
         "price": 1500,
         "description": "Basiskontingent for ektefelle/samboer",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner of member",
+        "description_en": "Base membership fee for spouse/partner"
       },
       {
         "category": "Passivt medlem",
         "name": "Passivt medlem",
         "price": 600,
         "description": "Ingen spillerett",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Passive Member",
+        "description_en": "No playing rights"
       },
       {
         "category": "Spillerett medlem",
         "name": "Spillerett for medlemmer",
         "price": 3300,
         "description": "I tillegg til medlemskontingent",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Playing rights for members",
+        "description_en": "In addition to membership fee"
       },
       {
         "category": "Spillerett andre klubber",
         "name": "Spillerett for medlemmer i andre klubber",
         "price": 3800,
         "description": null,
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Playing rights for members i andre klubber"
       },
       {
         "category": "Student",
         "name": "Student (inkl. spillerett)",
         "price": 1800,
         "description": "Inkludert spillerett",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student (incl. playing rights)",
+        "description_en": "Playing rights included"
       },
       {
         "category": "Junior",
         "name": "Junior (inkl. spillerett)",
         "price": 1500,
         "description": "Inkludert spillerett",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior (incl. playing rights)",
+        "description_en": "Playing rights included"
       },
       {
         "category": "Knøtter",
         "name": "Knøtter (inkl. spillerett)",
         "price": 730,
         "description": "Inkludert spillerett",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Tots (incl. playing rights)",
+        "description_en": "Playing rights included"
       },
       {
         "category": "Medlem over 80",
         "name": "Medlem over 80 år",
         "price": 0,
         "description": "Gratis spillerett",
-        "ageRange": "80+"
+        "ageRange": "80+",
+        "name_en": "Member over 80 years",
+        "description_en": "Free playing rights"
       }
     ]
   },
@@ -273,5 +294,8 @@
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T13:30:17.201Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
-  }
+  },
+  "slug_en": "mandal-golf-club",
+  "name_en": "Mandal Golf Club",
+  "description_en": "Norway's southernmost golf course, established in 1993. Mandal Golf Club has one of the finest 9-hole courses on the southern coast, with short game practice areas, a driving range and putting green, as well as a clubhouse featuring a cafe, changing rooms, a simulator room with three Trackman simulators and a pleasant terrace."
 }

@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Parkland course",
+    "courseType_en": "Parkland course"
   },
   "description": "En flott og åpen parkbane på store deler av banen. Vi har også \"Devils Corner\" på hjørnet av banen med tøffe og utfordrende hull.",
   "contact": {
@@ -138,7 +140,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfeemedlemmer: 100 kr rabatt ved 18 hull, 50 kr rabatt ved 9 hull. Gjester kan booke 14 dager i forkant."
+      "notes": "Greenfeemedlemmer: 100 kr rabatt ved 18 hull, 50 kr rabatt ved 9 hull. Gjester kan booke 14 dager i forkant.",
+      "greenFeeDescription_en": "Applies to Saturday, Sunday, and bank holidays. Guests can book 14 days in advance.",
+      "notes_en": "Green fee members: 100 kr discount on 18 holes, 50 kr discount on 9 holes. Guests can book 14 days in advance."
     }
   },
   "membershipPricing": {
@@ -220,5 +224,8 @@
     "createdAt": "2025-10-31T11:23:14.827Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ57Qx6E_QQ0YR5WpBLD4vJKw"
+  "googlePlaceId": "ChIJ57Qx6E_QQ0YR5WpBLD4vJKw",
+  "slug_en": "romerike-golf-club",
+  "name_en": "Romerike Golf Club",
+  "description_en": "A fine and open parkland course across large parts of the layout. We also have \"Devils Corner\" at the corner of the course with tough and challenging holes."
 }

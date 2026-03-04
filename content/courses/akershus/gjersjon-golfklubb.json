@@ -132,7 +132,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbiler kun til gjester eller medlemmer med legeerklæring. Traller og golfutstyr/køller kan leies. Alle spillere må registrere seg i klubbhuset før spill."
+      "notes": "Golfbiler kun til gjester eller medlemmer med legeerklæring. Traller og golfutstyr/køller kan leies. Alle spillere må registrere seg i klubbhuset før spill.",
+      "greenFeeDescription_en": "9 holes: 350 kr, 18 holes: 550 kr (book 2x9 holes, unused back nine is non-refundable). Junior (up to 19 years): 200/350 kr (limited tee times). Guest of member: 9 holes 225 kr, 18 holes 350 kr. All players must be registered under their own name in Golfbox.",
+      "notes_en": "Golf buggies only for guests or members with a medical certificate. Trolleys and golf equipment/clubs available for hire. All players must register in the clubhouse before play."
     }
   },
   "membershipPricing": {
@@ -186,5 +188,7 @@
     "createdAt": "2025-10-31T11:23:10.556Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJBXdTsx9oQUYR-tgtOHShB6c"
+  "googlePlaceId": "ChIJBXdTsx9oQUYR-tgtOHShB6c",
+  "slug_en": "gjersjon-golf-club",
+  "name_en": "Gjersjon Golf Club"
 }

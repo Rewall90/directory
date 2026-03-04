@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Idyllisk beliggenhet i Tokeruddalen i øvre Groruddalen, Oslo. Naturskjønt område mellom Trondheimsveien og Stovner. Tokerudbekken går langs banen."
+    "viewDescription": "Idyllisk beliggenhet i Tokeruddalen i øvre Groruddalen, Oslo. Naturskjønt område mellom Trondheimsveien og Stovner. Tokerudbekken går langs banen.",
+    "terrain_en": "Sloping course with natural grass",
+    "courseType_en": "9-hole par-3 course",
+    "signatureHole_en": "Northern Europe's longest par-3 hole (230 metres)",
+    "scenicHole_en": "Northern Europe's longest par-3 hole (230 metres)",
+    "viewDescription_en": "Idyllic setting in Tokeruddalen in upper Groruddalen, Oslo. A scenic area between Trondheimsveien and Stovner. The Tokerudbekken stream runs alongside the course."
   },
   "description": "Groruddalen Golfklubb har Norges eneste slopet 9-hulls par 3-bane med hull fra 100 til 230 meter - inkludert det lengste par 3-hullet i Nord-Europa.\n\nBanen ligger sentralt i Oslo, lett tilgjengelig med offentlig transport, og tilbyr en unik golfopplevelse for spillere på alle nivåer. Den er spesielt godt egnet for å trene innspillet og utvikle det korte spillet.\n\nKlubben har et aktivt miljø med turneringer, kurs og sosialt samvær. Fasiliteter inkluderer driving range, putting green, pro shop, klubbhus med servering og 2 golfsimulatorer.\n\nPerfekt for nybegynnere som vil lære spillet, eller erfarne spillere som vil finpusse det korte spillet.",
   "contact": {
@@ -63,7 +68,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Banen stenges om vinteren. Simulatorer åpne hele året."
+    "winterUse": "Banen stenges om vinteren. Simulatorer åpne hele året.",
+    "winterUse_en": "Course closed during winter. Simulators open all year round."
   },
   "visitors": {
     "welcome": true,
@@ -128,7 +134,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee 2025 (9 holes):\n• Senior weekday: 300 NOK\n• Senior weekend: 350 NOK\n• Junior weekday: 150 NOK\n• Junior weekend: 175 NOK\n\nGreen fee MEMBERS (9 holes):\n• Senior weekday: 250 NOK\n• Senior weekend: 300 NOK\n• Junior weekday: 125 NOK\n• Junior weekend: 150 NOK\n\nSUPPLEMENT for additional 9 holes: 150 NOK (visitors), 100 NOK (green fee members), 50 NOK (0-19 years)\n\nNorsk Senior Golf: 250 NOK (weekday before 14:00), 300 NOK (weekend)\nHauger GC members: 250 NOK (weekday), 300 NOK (weekend)\n\nEQUIPMENT:\n• Bag hire: 200 NOK\n• Trolley: 50 NOK\n• Buggy (medical certificate): 200 NOK\n\nSIMULATOR:\n• Members: 250 NOK/hour (weekday), 325 NOK/hour (weekend)\n• Non-members: 300 NOK/hour (weekday), 375 NOK/hour (weekend)\n• 25-clip card members: 5,000 NOK\n\nBAG STORAGE (season):\n• Row 1 and 4: 600 NOK\n• Row 2 and 3: 800 NOK"
     },
     "2026": {
       "currency": "NOK",
@@ -148,7 +155,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Prisene er hentet fra klubbens nettside per 15. februar 2026. Banen er 9 hull; greenfee er per 9 hull. Tillegg for ytterligere 9 hull er 150 kr for gjester, 100 kr for greenfeemedlemmer, 50 kr for junior (0-19 år)."
+      "notes": "Prisene er hentet fra klubbens nettside per 15. februar 2026. Banen er 9 hull; greenfee er per 9 hull. Tillegg for ytterligere 9 hull er 150 kr for gjester, 100 kr for greenfeemedlemmer, 50 kr for junior (0-19 år).",
+      "greenFeeDescription_en": "Green fee 2026 (9 holes):\n• Senior weekday: 300 NOK\n• Senior weekend/bank holidays: 350 NOK\n• Junior (0-19) weekday: 150 NOK\n• Junior (0-19) weekend/bank holidays: 175 NOK\n\nGreen fee MEMBERS (9 holes):\n• Senior weekday: 250 NOK\n• Senior weekend/bank holidays: 300 NOK\n• Junior weekday: 125 NOK\n• Junior weekend/bank holidays: 150 NOK\n\nSUPPLEMENT for additional 9 holes: 150 NOK (visitors), 100 NOK (green fee members), 50 NOK (juniors 0-19 years)\n\nNorsk Senior Golf: 250 NOK (weekday before 14:00), 300 NOK (weekend/bank holidays)\nHauger GC members: 250 NOK (weekday), 300 NOK (weekend/bank holidays)\n\nEQUIPMENT:\n• Bag hire: 200 NOK\n• Trolley: 50 NOK\n• Buggy (medical certificate): 200 NOK\n\nSIMULATOR:\n• Members: 250 NOK/hour (weekday), 325 NOK/hour (weekend)\n• Non-members: 300 NOK/hour (weekday), 375 NOK/hour (weekend)\n• 25-clip card members: 5,000 NOK\n\nBAG STORAGE (season):\n• Row 1 and 4: 600 NOK\n• Row 2 and 3: 800 NOK",
+      "notes_en": "Prices sourced from the club's website per 15 February 2026. The course is 9 holes; green fee is per 9 holes. Supplement for an additional 9 holes is 150 NOK for visitors, 100 NOK for green fee members, 50 NOK for juniors (0-19 years)."
     }
   },
   "membershipPricing": {
@@ -157,43 +166,50 @@
         "category": "Senior m/aktiv spillerett",
         "price": 5300,
         "description": "Fullt medlemskap med fritt spill.",
-        "ageRange": "26+"
+        "ageRange": "26+",
+        "description_en": "Full membership med unlimited play."
       },
       {
         "category": "Ungdom",
         "price": 3100,
         "description": "Fullt medlemskap med fritt spill.",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "description_en": "Full membership med unlimited play."
       },
       {
         "category": "Junior",
         "price": 2400,
         "description": "Fullt medlemskap med fritt spill.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "description_en": "Full membership med unlimited play."
       },
       {
         "category": "Barn",
         "price": 1200,
         "description": "Fullt medlemskap med fritt spill.",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "description_en": "Full membership med unlimited play."
       },
       {
         "category": "Greenfeemedlem Senior/Ungdom",
         "price": 1900,
         "description": "Betaler redusert greenfee. Senior 1900 kr, Ungdom 1800 kr.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "description_en": "Pays reduced green fee. Senior 1900 NOK, Youth 1800 NOK"
       },
       {
         "category": "Greenfeemedlem Junior/Barn",
         "price": 700,
         "description": "Betaler redusert greenfee.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "description_en": "Pays reduced green fee."
       },
       {
         "category": "Barn Introduksjon",
         "price": 150,
         "description": "Ingen spill på banen.",
-        "ageRange": "0-8"
+        "ageRange": "0-8",
+        "description_en": "No on-course play."
       }
     ]
   },
@@ -271,5 +287,8 @@
     "createdAt": "2025-10-31T05:35:09.472Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJiyLZO5h6QUYR8Z64cLthYCE"
+  "googlePlaceId": "ChIJiyLZO5h6QUYR8Z64cLthYCE",
+  "slug_en": "groruddalen-golf-club",
+  "name_en": "Groruddalen Golf Club",
+  "description_en": "Groruddalen Golf Club has Norway's only slope-rated 9-hole par-3 course with holes from 100 to 230 metres - including the longest par-3 hole in Northern Europe.\n\nThe course is centrally located in Oslo, easily accessible by public transport, and offers a unique golfing experience for players of all levels. It is particularly well suited for practising approach shots and developing the short game.\n\nThe club has an active community with tournaments, courses and social events. Facilities include a driving range, putting green, pro shop, clubhouse with catering and 2 golf simulators.\n\nIdeal for beginners wanting to learn the game, or experienced players looking to hone their short game."
 }

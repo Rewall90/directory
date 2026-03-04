@@ -1,6 +1,8 @@
 {
   "slug": "vanylven-golfklubb",
+  "slug_en": "vanylven-golf-club",
   "name": "Vanylven Golfklubb",
+  "name_en": "Vanylven Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Eidsåa",
@@ -36,9 +38,15 @@
     "par4Count": 5,
     "par5Count": 1,
     "mountainViews": true,
-    "viewDescription": "Banen ligger i naturskjønne omgivelser nær Syvdefjorden, omgitt av skog og fjell. Vakre fjordutsikter."
+    "viewDescription": "Banen ligger i naturskjønne omgivelser nær Syvdefjorden, omgitt av skog og fjell. Vakre fjordutsikter.",
+    "terrain_en": "Varied terrain with narrow fairways",
+    "courseType_en": "Compact 9-hole course",
+    "signatureHole_en": "The course is situated near the Syvde Fjord with wonderful nature experiences",
+    "scenicHole_en": "The course is situated near the Syvde Fjord with wonderful nature experiences",
+    "viewDescription_en": "The course is located in scenic surroundings near the Syvde Fjord, surrounded by woodland and mountains. Beautiful fjord views."
   },
   "description": "Variert og morsom 9-hulls kompaktbane i naturskjønne omgivelser ved Syvdefjorden. Banen ble åpnet som 6-hulls i 1999, utvidet til 9 hull i 2004, og redesignet i 2023. Karakterisert av smale fairways, utfordrende bunkere, og omgitt av skog og elver. Tilbyr en spennende og utfordrende golfopplevelse i vakre naturomgivelser. Par 34 per runde (68 for 18 hull).",
+  "description_en": "Varied and enjoyable 9-hole compact course in scenic surroundings by the Syvde Fjord. The course was opened as 6 holes in 1999, extended to 9 holes in 2004, and redesigned in 2023. Characterised by narrow fairways, challenging bunkers, and surrounded by woodland and rivers. Offers an exciting and challenging golf experience in beautiful natural surroundings. Par 34 per round (68 for 18 holes).",
   "contact": {
     "phone": "+47 90473370",
     "email": "post@vangolf.no",
@@ -58,7 +66,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Simulator tilgjengelig, simulatorturnering arrangeres om høsten"
+    "winterUse": "Simulator tilgjengelig, simulatorturnering arrangeres om høsten",
+    "winterUse_en": "Simulator available, simulator tournament held in autumn"
   },
   "visitors": {
     "welcome": true,
@@ -124,7 +133,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee adults: 200 NOK per day. Junior (13-19 years): 100 NOK per day. Children up to and including 12 years play free."
     },
     "2026": {
       "currency": "NOK",
@@ -143,7 +153,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser bekreftet fra vangolf.no BANA-side. Utstyrslån tilgjengelig etter behov (gratis). Websiden viser fortsatt 2024-sesongkort, men dagsgreenfee bekreftet."
+      "notes": "Priser bekreftet fra vangolf.no BANA-side. Utstyrslån tilgjengelig etter behov (gratis). Websiden viser fortsatt 2024-sesongkort, men dagsgreenfee bekreftet.",
+      "greenFeeDescription_en": "Green fee adults: 200 NOK per day. Junior (13-19 years): 100 NOK per day. Children up to and including 12 years play free.",
+      "notes_en": "Prices confirmed from vangolf.no BANA page. Equipment loan available on request (free). Website still shows 2024 season pass, but daily green fee confirmed."
     }
   },
   "membershipPricing": {},

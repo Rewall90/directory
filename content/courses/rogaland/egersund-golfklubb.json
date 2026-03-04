@@ -36,7 +36,13 @@
     "par4Count": 4,
     "par5Count": 2,
     "mountainViews": false,
-    "viewDescription": "Maurholen Golfpark er en fantastisk 9-hulls parkbane ca 10 km nord for Egersund langs fylkesvei 44, åpnet august 2006. Designet av den anerkjente banearkitekten Graeme Webster. Par 35 for 9 hull, par 70 for 18 hull (spilt to ganger). Banen har 3 par-3, 4 par-4 og 2 par-5 hull. Kåret til en av Norges 10 beste golfbaner og har to av Norges 100 beste hull! Unik 9-hulls bane som viser at en bane ikke trenger å være lang for å være vanskelig. Lagt inn i områdets naturlige topografi i åpen parklandskap."
+    "viewDescription": "Maurholen Golfpark er en fantastisk 9-hulls parkbane ca 10 km nord for Egersund langs fylkesvei 44, åpnet august 2006. Designet av den anerkjente banearkitekten Graeme Webster. Par 35 for 9 hull, par 70 for 18 hull (spilt to ganger). Banen har 3 par-3, 4 par-4 og 2 par-5 hull. Kåret til en av Norges 10 beste golfbaner og har to av Norges 100 beste hull! Unik 9-hulls bane som viser at en bane ikke trenger å være lang for å være vanskelig. Lagt inn i områdets naturlige topografi i åpen parklandskap.",
+    "terrain_en": "Open parkland",
+    "courseType_en": "9-hole parkland course",
+    "designer_en": "Graeme Webster",
+    "signatureHole_en": "Two holes ranked among Norway's 100 best holes",
+    "scenicHole_en": "Scenic parkland course at Maurholen",
+    "viewDescription_en": "Maurholen Golf Park is a superb 9-hole parkland course approximately 10 km north of Egersund along county road 44, opened in August 2006. Designed by the renowned course architect Graeme Webster. Par 35 for 9 holes, par 70 for 18 holes (played twice). Length 2,622 m for 9 holes, 5,244 m for 18 holes. The course has 3 par-3, 4 par-4 and 2 par-5 holes. Laid out in the natural topography of the area. A unique 9-hole course by Graeme Webster proving that a course need not be long to be demanding. Voted one of Norway's 10 best golf courses, with two of Norway's 100 best holes! Open all year - from 26 October to 1 April, play is from winter tees. In frost, winter greens may be used without notice."
   },
   "description": "Maurholen Golfpark er en fantastisk 9-hulls parkbane ca 10 km nord for Egersund langs fylkesvei 44, åpnet august 2006. Designet av anerkjente Graeme Webster. Par 35 for 9 hull, par 70 for 18 hull (spilt to ganger). Lengde 2622m for 9 hull, 5244m for 18 hull. Banen har 3 par-3, 4 par-4 og 2 par-5 hull. Lagt inn i områdets naturlige topografi. Unik 9-hulls bane signert Graeme Webster viser at en bane ikke trenger å være lang for å være vanskelig. Kåret til en av Norges 10 beste golfbaner og har to av Norges 100 beste hull! Åpen hele året - fra 26. oktober til 1. april spilles fra vinter tee. Ved frost kan det skiftes til vintergreener uten forvarsel.",
   "contact": {
@@ -68,7 +74,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Banen er åpen hele året. Fra 26. oktober til 1. april spilles fra vinter tee. Ved frost kan det skiftes til vintergreener uten forvarsel. Ikke bruk rangeballer på banen. Vennligst ikke bruk traller mellom bunker og greener."
+    "winterUse": "Banen er åpen hele året. Fra 26. oktober til 1. april spilles fra vinter tee. Ved frost kan det skiftes til vintergreener uten forvarsel. Ikke bruk rangeballer på banen. Vennligst ikke bruk traller mellom bunker og greener.",
+    "winterUse_en": "The course is open all year. From 26 October to 1 April, play is from winter tees. In frost, the club may switch to winter greens without notice. Do not use range balls on the course. Please do not use trolleys between bunkers and greens."
   },
   "visitors": {
     "welcome": true,
@@ -133,7 +140,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "18 holes: 400 kr (adults), 200 kr (junior). 9 holes: 300 kr (adults), 150 kr (junior). Payment via Vipps. Prices valid 2025."
     },
     "2026": {
       "currency": "NOK",
@@ -149,7 +157,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Driving range: liten bøtte kr 25, medium kr 35, stor kr 50. Betaling med kort, Vipps eller Golfmore-app."
+      "notes": "Driving range: liten bøtte kr 25, medium kr 35, stor kr 50. Betaling med kort, Vipps eller Golfmore-app.",
+      "greenFeeDescription_en": "18 holes: 425 kr (visitor), 350 kr (Egersund member), 367 kr (Ogna/Jaeren member). 9 holes: 319 kr (visitor), 263 kr (Egersund member), 275 kr (Ogna/Jaeren member). Juniors half price. Online payment via GolfBox. Discounted packages via GolfMore: 5 rounds 2,000 kr, 10 rounds 3,400 kr, 15 rounds 4,500 kr.",
+      "notes_en": "Driving range: small bucket 25 kr, medium 35 kr, large 50 kr. Payment by card, Vipps or GolfMore app."
     }
   },
   "membershipPricing": {
@@ -158,43 +168,57 @@
         "category": "adult",
         "price": 4900,
         "description": "Hovedmedlemskap 4900 kr/år eller 460 kr/måned (12 måneders binding). Inkluderer full spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full membership 4,900 kr/year or 460 kr/month (12-month commitment). Includes full playing rights."
       },
       {
         "category": "spouse",
         "price": 3400,
         "description": "Ektefelle/Samboer 3400 kr/år eller 320 kr/måned.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Spouse/partner 3,400 kr/year or 320 kr/month."
       },
       {
         "category": "greenfee",
         "price": 1700,
         "description": "Greenfeemedlemskap 1700 kr/år - uten spillerett, greenfee må betales ved spill.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "greenfee",
+        "description_en": "Green fee membership 1,700 kr/year - without playing rights, green fee must be paid when playing."
       },
       {
         "category": "junior",
         "price": 300,
         "description": "Juniormedlemskap 300 kr/år.",
-        "ageRange": "under 19"
+        "ageRange": "under 19",
+        "name_en": "Junior",
+        "description_en": "Junior membership 300 kr/year."
       },
       {
         "category": "student",
         "price": 1500,
         "description": "Heltidsstudent/Militær 1500 kr/år eller 180 kr/måned. Gjelder ikke videreutdanning.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Full-time student/military 1,500 kr/year or 180 kr/month. Valid for non-continuing education."
       },
       {
         "category": "vtg",
         "price": 1500,
         "description": "Veien til golf medlemskap 1500 kr - for kursdeltakere, fri spillerett ut sesongen.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Get Into Golf",
+        "description_en": "Get Into Golf membership 1,500 kr - for course participants, free playing rights for the rest of the season."
       },
       {
         "category": "postVtg",
         "price": 2800,
         "description": "Første år etter VTG 2800 kr/år eller 280 kr/måned.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Post-Get Into Golf",
+        "description_en": "First year after Get Into Golf 2,800 kr/year or 280 kr/month."
       }
     ]
   },
@@ -285,5 +309,8 @@
     "createdAt": "2025-10-31T07:46:21.554Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ2Rf3ATcaOkYRxwydubenNog"
+  "googlePlaceId": "ChIJ2Rf3ATcaOkYRxwydubenNog",
+  "slug_en": "egersund-golf-club",
+  "name_en": "Egersund Golf Club",
+  "description_en": "Maurholen Golf Park is a superb 9-hole parkland course approximately 10 km north of Egersund along county road 44, opened in August 2006. Designed by the renowned course architect Graeme Webster. Par 35 for 9 holes, par 70 for 18 holes (played twice). Length 2,622 m for 9 holes, 5,244 m for 18 holes. The course has 3 par-3, 4 par-4 and 2 par-5 holes. Laid out in the natural topography of the area. A unique 9-hole course by Graeme Webster proving that a course need not be long to be demanding. Voted one of Norway's 10 best golf courses, with two of Norway's 100 best holes! Open all year - from 26 October to 1 April, play is from winter tees. In frost, winter greens may be used without notice."
 }

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Sunnfjord Golfklubb - 9-hulls parklandbane åpnet 2001 i Vassenden, Sunnfjord. Par 36 (72 for 18h med doble tees), 4066m. Lett bølgende med vannhindre. 'Eit golfeventyr mellom fjord og fjell'. Driving range (15 tees, 3 overdekte). Putting/chipping greens, practice bunker. Kortholsbane. Simulator. Klubbhus med pro shop. Teaching pro. Over 500 medlemmer."
+    "viewDescription": "Sunnfjord Golfklubb - 9-hulls parklandbane åpnet 2001 i Vassenden, Sunnfjord. Par 36 (72 for 18h med doble tees), 4066m. Lett bølgende med vannhindre. 'Eit golfeventyr mellom fjord og fjell'. Driving range (15 tees, 3 overdekte). Putting/chipping greens, practice bunker. Kortholsbane. Simulator. Klubbhus med pro shop. Teaching pro. Over 500 medlemmer.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course with double tees",
+    "signatureHole_en": "A golfing experience between fjord and mountain",
+    "scenicHole_en": "A golfing experience between fjord and mountain",
+    "viewDescription_en": "Sunnfjord Golf Club - 9-hole parkland course opened 2001 in Vassenden, Sunnfjord. Par 36 (72 for 18 holes with double tees), 4,066m. Gently undulating with water hazards. 'A golfing adventure between fjord and mountain.' Driving range (15 tees, 3 covered). Putting/chipping greens, practice bunker. Short course. Simulator. Clubhouse with pro shop. Teaching pro. Over 500 members."
   },
   "description": "Sunnfjord Golfklubb - 9-hulls parklandbane med doble tees grunnlagt 1992, bane åpnet sommer 2001 i Vassenden. Par 36 (72 for 18 hull med doble tees), 4449 yards (ca 4066m). Lett bølgende terreng med vannhindre. 'Eit golfeventyr mellom fjord og fjell'. Over 500 medlemmer.",
   "contact": {
@@ -64,7 +69,8 @@
   "season": {
     "start": "1. mai",
     "end": "31. oktober",
-    "winterUse": "Golf simulator tilgjengelig"
+    "winterUse": "Golf simulator tilgjengelig",
+    "winterUse_en": "Golf simulator available"
   },
   "visitors": {
     "welcome": true,
@@ -134,7 +140,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Kortholsbane gratis - trenger ikke medlemskap! 9-hulls bane med doble tees. Golfopplevelse mellom fjord og fjell. Trackman simulator. Teaching pros: Donovan Goosen (club fitting), Arvid Arseth. Fritidskortet godkjent."
+      "notes": "Kortholsbane gratis - trenger ikke medlemskap! 9-hulls bane med doble tees. Golfopplevelse mellom fjord og fjell. Trackman simulator. Teaching pros: Donovan Goosen (club fitting), Arvid Arseth. Fritidskortet godkjent.",
+      "greenFeeDescription_en": "Green fee 2025: Full day 400 NOK, 9 holes 250 NOK. Junior/Student/Military: 200 NOK. Member without playing rights: 250 NOK. Without valid NGF card: 550 NOK. Laerdal/Floro members: 300 NOK. Short course: Free!",
+      "notes_en": "Short course free - no membership required! 9-hole course with double tees. A golfing experience between fjord and mountain. Trackman simulator. Teaching pros: Donovan Goosen (club fitting), Arvid Arseth. Fritidskortet accepted."
     }
   },
   "membershipPricing": {
@@ -143,33 +151,38 @@
         "category": "child",
         "price": 700,
         "description": "Barn under 14 år: 700 kr/år totalt (inkl. spillerett)",
-        "ageRange": "Under 14 år"
+        "ageRange": "Under 14 år",
+        "description_en": "Children under 14: 700 NOK/year total (incl. playing rights)"
       },
       {
         "category": "junior",
         "price": 1650,
         "description": "Junior 15-19 år: 1650 kr/år",
-        "ageRange": "15-19 år"
+        "ageRange": "15-19 år",
+        "description_en": "Junior 15-19 years: 1,650 NOK/year"
       },
       {
         "category": "student",
         "price": 2000,
         "description": "Fulltidsstudent/Militær: 2000 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Full-time student/Military: 2,000 NOK/year"
       },
       {
         "category": "adult",
         "price": 3000,
         "playingRights": 2350,
         "description": "Voksen: Medlemskap 2300 kr + Dugnadsavgift 700 kr = 3000 kr. Årlig spillerett (valgfritt) 2350 kr. Total med spillerett: 5350 kr. Boende utenfor Sunnfjord slipper dugnadsavgift.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Adult: Membership 2,300 NOK + Volunteer levy 700 NOK = 3,000 NOK. Annual playing rights (optional) 2,350 NOK. Total with playing rights: 5,350 NOK. Residents outside Sunnfjord are exempt from volunteer levy."
       },
       {
         "category": "spouse",
         "price": 2100,
         "playingRights": 2000,
         "description": "Ektefelle/Samboer: Medlemskap 1400 kr + Dugnadsavgift 700 kr = 2100 kr. Spillerett 2000 kr. Total: 4100 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Spouse/Partner: Membership 1,400 NOK + Volunteer levy 700 NOK = 2,100 NOK. Playing rights 2,000 NOK. Total: 4,100 NOK."
       }
     ]
   },
@@ -225,5 +238,8 @@
     "createdAt": "2025-10-31T10:17:01.783Z",
     "updatedAt": "2026-02-14T17:42:00.000Z"
   },
-  "googlePlaceId": "ChIJuZMb_IM5FkYRMXfiksxpw9U"
+  "googlePlaceId": "ChIJuZMb_IM5FkYRMXfiksxpw9U",
+  "slug_en": "sunnfjord-golf-club",
+  "name_en": "Sunnfjord Golf Club",
+  "description_en": "Sunnfjord Golf Club - 9-hole parkland course with double tees, club established 1992, course opened summer 2001 in Vassenden. Par 36 (72 for 18 holes with double tees), 4,449 yards (approx. 4,066m). Gently undulating terrain with water hazards. 'A golfing adventure between fjord and mountain.' Over 500 members."
 }

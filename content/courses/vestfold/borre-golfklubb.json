@@ -1,6 +1,8 @@
 {
   "slug": "borre-golfklubb",
+  "slug_en": "borre-golf-club",
   "name": "Borre Golfklubb",
+  "name_en": "Borre Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Horten",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Parkland",
+    "terrain_en": "Parkland",
     "courseType": "18-hulls championship-bane ved Borrevannet",
+    "courseType_en": "18-hole championship course by Lake Borrevannet",
     "designer": "Tommy Nordström",
     "yearBuilt": 1990,
     "yearRedesigned": null,
     "waterHazards": true,
     "signatureHole": "Naturskjønne omgivelser ved Borrevannet",
+    "signatureHole_en": "Scenic surroundings by Lake Borrevannet",
     "scenicHole": "Naturskjønne omgivelser ved Borrevannet",
+    "scenicHole_en": "Scenic surroundings by Lake Borrevannet",
     "par3Count": null,
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Borre Golfklubb - 18-hulls championship-bane designet av Tommy Nordström ved Borrevannet i Horten. Par 72. Strategisk golf i naturskjønne omgivelser. Driving range (07:00-22:00 med ballmaskin), stor putting green, short game-område. Klubbhus med garderober/dusj, liten pro shop, café. Golf Pro: Sander Stavnar. Junior- og voksen-treningsprogrammer. GolfBox booking."
+    "viewDescription": "Borre Golfklubb - 18-hulls championship-bane designet av Tommy Nordström ved Borrevannet i Horten. Par 72. Strategisk golf i naturskjønne omgivelser. Driving range (07:00-22:00 med ballmaskin), stor putting green, short game-område. Klubbhus med garderober/dusj, liten pro shop, café. Golf Pro: Sander Stavnar. Junior- og voksen-treningsprogrammer. GolfBox booking.",
+    "viewDescription_en": "Borre Golf Club - 18-hole championship course designed by Tommy Nordstrom by Lake Borrevannet in Horten. Par 72. Strategic golf in scenic surroundings. Driving range (07:00-22:00 with ball machine), large putting green, short game area. Clubhouse with changing rooms/showers, small pro shop, cafe. Golf Pro: Sander Stavnar. Junior and adult training programmes. GolfBox booking."
   },
   "description": "Borre Golfklubb - 18-hulls championship-bane designet av Tommy Nordström, åpnet 1990. Par 72. Strategisk golf i naturskjønne omgivelser ved Borrevannet i Horten. Trivelig og uformell klubb med flott bane.",
+  "description_en": "Borre Golf Club - 18-hole championship course designed by Tommy Nordstrom, opened 1990. Par 72. Strategic golf in scenic surroundings by Lake Borrevannet in Horten. A pleasant and informal club with a fine course.",
   "contact": {
     "phone": "+47 41 62 70 00",
     "email": "klubben@borregb.no",
@@ -134,13 +142,15 @@
       "greenFeeTwilight": 500,
       "twilightStartTime": "15:00",
       "greenFeeDescription": "Greenfee 2026: 18 hull fra åpning til 15. oktober alle dager 800 kr. Junior (t.o.m. 19 år) 400 kr alle dager. Kveldsgreenfee fra kl 15:00 500 kr. Medlems gjestepris 500 kr.",
+      "greenFeeDescription_en": "Green fee 2026: 18 holes from opening to 15 October all days 800 NOK. Junior (up to 19 years) 400 NOK all days. Twilight green fee from 15:00 500 NOK. Member guest price 500 NOK.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Driving range med ballmaskin åpent 07:00-22:00. Stor putting green, short game-område. Veien Til Golf-kurs for nybegynnere tilgjengelig."
+      "notes": "Driving range med ballmaskin åpent 07:00-22:00. Stor putting green, short game-område. Veien Til Golf-kurs for nybegynnere tilgjengelig.",
+      "notes_en": "Driving range with ball machine open 07:00-22:00. Large putting green, short game area. Road to Golf beginner course available."
     }
   },
   "membershipPricing": {
@@ -155,7 +165,9 @@
         "ageRange": "0-6",
         "ageMin": 0,
         "ageMax": 6,
-        "restrictions": null
+        "restrictions": null,
+        "name_en": "Tots (0-6 years)",
+        "description_en": "Free playing rights for the youngest. Club fee only."
       },
       {
         "category": "junior",
@@ -167,7 +179,9 @@
         "ageRange": "7-19",
         "ageMin": 7,
         "ageMax": 19,
-        "restrictions": null
+        "restrictions": null,
+        "name_en": "Junior (7-19 years)",
+        "description_en": "Full playing rights for juniors."
       },
       {
         "category": "ung_voksen",
@@ -179,7 +193,9 @@
         "ageRange": "20-30",
         "ageMin": 20,
         "ageMax": 30,
-        "restrictions": null
+        "restrictions": null,
+        "name_en": "Young Adult (20-30 years)",
+        "description_en": "Discounted playing rights for young adults."
       },
       {
         "category": "voksen",
@@ -191,7 +207,9 @@
         "ageRange": "31-99",
         "ageMin": 31,
         "ageMax": 99,
-        "restrictions": null
+        "restrictions": null,
+        "name_en": "Adult (31-99 years)",
+        "description_en": "Full playing rights for adults."
       },
       {
         "category": "hverdag",
@@ -203,7 +221,10 @@
         "ageRange": null,
         "ageMin": null,
         "ageMax": null,
-        "restrictions": "Kun hverdager (man-fre)"
+        "restrictions": "Kun hverdager (man-fre)",
+        "name_en": "Weekday Member",
+        "description_en": "Reduced price for weekday play only.",
+        "restrictions_en": "Weekdays only (Mon-Fri)"
       }
     ]
   },

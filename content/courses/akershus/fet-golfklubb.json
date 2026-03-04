@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "9-hole course",
+    "courseType_en": "9-hole course"
   },
   "description": "På vår 9 hulls bane kan du få testet dine ferdigheter på par 3 hull som varierer mellom 85 og 178 m, samt ett par 4 hull på 350 m. Hos oss kan du øve på bunkerslag i sandbunker, presisjon på våre putting- og pitching greener som er strategisk plassert i nærheten av vår driving range. På rangen kan du trene svingen før du går ut på banen.",
   "contact": {
@@ -135,7 +137,9 @@
       "greenFeeFormiddagMember": 0,
       "greenFeeFormiddagMemberAfter15": 100,
       "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Formiddagsmedlemmer spiller gratis før kl. 15 på hverdager, deretter kr 100. Gjestespillere fra Romerike GK får kr 50 rabatt.",
-      "notes": "Golfkortet kreves for å spille. Betal med Vipps."
+      "notes": "Golfkortet kreves for å spille. Betal med Vipps.",
+      "greenFeeDescription_en": "All prices are per day (unlimited rounds). Adult guest kr 270, Junior guest kr 100. Green fee members kr 100. Shareholders and junior members play free. Morning members play free before 15:00 on weekdays, then kr 100. Guest players from Romerike GK receive kr 50 discount.",
+      "notes_en": "Golf card required to play. Pay with Vipps."
     },
     "2026": {
       "currency": "NOK",
@@ -148,7 +152,9 @@
       "greenFeeFormiddagMember": 0,
       "greenFeeFormiddagMemberAfter15": 100,
       "greenFeeDescription": "Alle priser er pr. dag (ubegrenset antall runder). Senior gjest kr 270, Junior gjest kr 100. Greenfee-medlemmer kr 100. Aksjeeiere og juniormedlemmer spiller gratis. Formiddagsmedlemmer spiller gratis før kl. 15 på hverdager, deretter kr 100. Gjestespillere fra Romerike GK får kr 50 rabatt.",
-      "notes": "Golfkortet kreves for å spille. Betal med Vipps. 2026-priser ikke offisielt publisert ennå - årsmøte 23. februar 2026 vil behandle budsjett og kontingentfastsettelse. Banen er sesongstengt. Prisene nedenfor er fra 2025 og kan endres."
+      "notes": "Golfkortet kreves for å spille. Betal med Vipps. 2026-priser ikke offisielt publisert ennå - årsmøte 23. februar 2026 vil behandle budsjett og kontingentfastsettelse. Banen er sesongstengt. Prisene nedenfor er fra 2025 og kan endres.",
+      "greenFeeDescription_en": "All prices are per day (unlimited rounds). Adult guest kr 270, Junior guest kr 100. Green fee members kr 100. Shareholders and junior members play free. Morning members play free before 15:00 on weekdays, then kr 100. Guest players from Romerike GK receive kr 50 discount.",
+      "notes_en": "Golf card required to play. Pay with Vipps. 2026 prices not officially published yet - AGM on 23 February 2026 will consider budget and membership fee levels. The course is closed for the season. Prices below are from 2025 and may change."
     }
   },
   "membershipPricing": {
@@ -159,34 +165,39 @@
           "category": "full",
           "name": "Aksjeeiere",
           "price": 2300,
-          "benefits": "Gratis greenfee hele dagen"
+          "benefits": "Gratis greenfee hele dagen",
+          "name_en": "Shareholders"
         },
         {
           "category": "limited",
           "name": "Greenfee-medlemmer",
           "price": 2300,
-          "benefits": "Greenfee kr 100 hele dagen"
+          "benefits": "Greenfee kr 100 hele dagen",
+          "name_en": "Green Fee Members"
         },
         {
           "category": "limited",
           "name": "Formiddagsmedlemmer",
           "price": 2300,
           "benefits": "Gratis før kl. 15 på hverdager, kr 100 etter kl. 15 og helger/røde dager",
-          "note": "Kategori er full"
+          "note": "Kategori er full",
+          "name_en": "Morning Members"
         },
         {
           "category": "junior",
           "name": "Eldre jr (t.o.m. 20 år)",
           "ageMax": 20,
           "price": 800,
-          "benefits": "Gratis greenfee"
+          "benefits": "Gratis greenfee",
+          "name_en": "Older Junior (up to 20 years)"
         },
         {
           "category": "junior",
           "name": "Yngre jr (t.o.m. 12 år)",
           "ageMax": 12,
           "price": 400,
-          "benefits": "Gratis greenfee"
+          "benefits": "Gratis greenfee",
+          "name_en": "Younger Junior (up to 12 years)"
         }
       ]
     },
@@ -199,14 +210,16 @@
           "name": "Aksjeeiere",
           "price": 2300,
           "benefits": "Gratis greenfee hele dagen",
-          "tentative": true
+          "tentative": true,
+          "name_en": "Shareholders"
         },
         {
           "category": "limited",
           "name": "Greenfee-medlemmer",
           "price": 2300,
           "benefits": "Greenfee kr 100 hele dagen",
-          "tentative": true
+          "tentative": true,
+          "name_en": "Green Fee Members"
         },
         {
           "category": "limited",
@@ -214,7 +227,8 @@
           "price": 2300,
           "benefits": "Gratis før kl. 15 på hverdager, kr 100 etter kl. 15 og helger/røde dager",
           "note": "Kategori er full (status per 2025)",
-          "tentative": true
+          "tentative": true,
+          "name_en": "Morning Members"
         },
         {
           "category": "junior",
@@ -222,7 +236,8 @@
           "ageMax": 20,
           "price": 800,
           "benefits": "Gratis greenfee",
-          "tentative": true
+          "tentative": true,
+          "name_en": "Older Junior (up to 20 years)"
         },
         {
           "category": "junior",
@@ -230,7 +245,8 @@
           "ageMax": 12,
           "price": 400,
           "benefits": "Gratis greenfee",
-          "tentative": true
+          "tentative": true,
+          "name_en": "Younger Junior (up to 12 years)"
         }
       ]
     }
@@ -288,5 +304,8 @@
     "createdAt": "2025-10-31T11:23:09.939Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJTfe9AqpiQUYRjpImZOHV8TQ"
+  "googlePlaceId": "ChIJTfe9AqpiQUYRjpImZOHV8TQ",
+  "slug_en": "fet-golf-club",
+  "name_en": "Fet Golf Club",
+  "description_en": "On our 9-hole course you can test your skills on par 3 holes ranging from 85 to 178 metres, as well as one par 4 hole of 350 metres. With us you can practise bunker shots in sand bunkers, precision on our putting and pitching greens strategically placed near our driving range. On the range you can work on your swing before heading out on the course."
 }

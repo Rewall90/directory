@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Midt-Troms Golfklubb i Finnkroken Golfpark - 9-hulls bane med kunstgressgreener og panoramautsikt over fjell. Par 72 (18h). 2 svært forskjellige tees per hull for variert spill. Driving range, oppvarmingsgreen, practice bunker. Golf cart/køller/tralle til leie. Kafé lør-søn. VTG-kurs. Rimelige priser med familierabatt. Nær E6 i Bardu."
+    "viewDescription": "Midt-Troms Golfklubb i Finnkroken Golfpark - 9-hulls bane med kunstgressgreener og panoramautsikt over fjell. Par 72 (18h). 2 svært forskjellige tees per hull for variert spill. Driving range, oppvarmingsgreen, practice bunker. Golf cart/køller/tralle til leie. Kafé lør-søn. VTG-kurs. Rimelige priser med familierabatt. Nær E6 i Bardu.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course with artificial grass greens",
+    "signatureHole_en": "Panoramic mountain views",
+    "scenicHole_en": "Panoramic mountain views",
+    "viewDescription_en": "Midt-Troms Golf Club at Finnkroken Golf Park - a 9-hole course with artificial grass greens and panoramic mountain views. Par 72 (18 holes). Two very different tees per hole for varied play. Driving range, warm-up green, practice bunker. Buggy/club/trolley hire available. Cafe on Saturdays and Sundays. Introduction to Golf courses. Affordable prices with family discounts. Near the E6 in Bardu."
   },
   "description": "Midt-Troms Golfklubb - 9-hulls parklandbane i Finnkroken Golfpark, Bardu.\n\nPar 36 for 9 hull (par 72 spilt 2 ganger). Banelengde: 2.506m for 9 hull.\n\nBanen har kunstgressgreener som sikrer jevn kvalitet gjennom hele sesongen. Ligger i vakre omgivelser i det arktiske landskapet.\n\nSpill golf under midnattssolen - en unik opplevelse i Midt-Troms!\n\nFamilievennlig klubb med rimelige priser. Seniorrabatt og familiepakker tilgjengelig.",
   "contact": {
@@ -131,7 +136,9 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "bookingMethod": "Gimmie App, GolfBox, Vipps Handlekurv",
-      "notes": "Dagsgreenfee gir ubegrenset spill. Kafé åpen lør-søn 10:00-16:00. Camping/bobil strøm 50 kr/døgn."
+      "notes": "Dagsgreenfee gir ubegrenset spill. Kafé åpen lør-søn 10:00-16:00. Camping/bobil strøm 50 kr/døgn.",
+      "greenFeeDescription_en": "Green fee 2025:\n\nVISITORS:\n• Adult: 9 holes 240 NOK, 18 holes/day 400 NOK\n• Youth (up to 21 years): 9 holes 150 NOK, 18 holes/day 250 NOK\n\nMEMBERS/PARTNER CLUBS/STUDENTS/COOP/MILITARY:\n• Adult: 9 holes 180 NOK, 18 holes/day 300 NOK\n• Youth/military service: 9 holes 120 NOK, 18 holes/day 200 NOK\n\nPayment via Gimmie App, Vipps or in cafe/Pro shop.",
+      "notes_en": "Day green fee gives unlimited play. Cafe open Sat-Sun 10:00-16:00. Camping/motorhome electric hookup 50 NOK/24 hours."
     },
     "2026": {
       "currency": "NOK",
@@ -155,7 +162,9 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "bookingMethod": "Gimmie App, GolfBox, Vipps Handlekurv",
-      "notes": "Dagsgreenfee gir ubegrenset spill. Kafé åpen lør-søn 10:00-16:00. Camping/bobil strøm 50 kr/døgn."
+      "notes": "Dagsgreenfee gir ubegrenset spill. Kafé åpen lør-søn 10:00-16:00. Camping/bobil strøm 50 kr/døgn.",
+      "greenFeeDescription_en": "Green fee 2026:\n\nVISITORS:\n• Adult: 9 holes 240 NOK, 18 holes/day 400 NOK\n• Youth (up to 21 years): 9 holes 150 NOK, 18 holes/day 250 NOK\n\nMEMBERS/PARTNER CLUBS/STUDENTS/COOP/MILITARY:\n• Adult: 9 holes 180 NOK, 18 holes/day 300 NOK\n• Youth/military service: 9 holes 120 NOK, 18 holes/day 200 NOK\n\nStudents, COOP members and military service personnel receive member pricing when paying via Vipps or in the cafe.",
+      "notes_en": "Day green fee gives unlimited play. Cafe open Sat-Sun 10:00-16:00. Camping/motorhome electric hookup 50 NOK/24 hours."
     }
   },
   "membershipPricing": {
@@ -164,61 +173,71 @@
         "category": "Voksen (22+ år) - med spillerett",
         "price": 6000,
         "description": "Medlemskap 2000 kr + Fritt spill 4000 kr",
-        "ageRange": "22+"
+        "ageRange": "22+",
+        "description_en": "Membership 2000 NOK + Unlimited play 4000 NOK"
       },
       {
         "category": "Voksen (22+ år) - uten spillerett",
         "price": 2000,
         "description": "Medlemskap uten spillerett, greenfee kommer i tillegg",
-        "ageRange": "22+"
+        "ageRange": "22+",
+        "description_en": "Membership without playing rights, green fee in addition"
       },
       {
         "category": "Ungdom (14-21 år) - med spillerett",
         "price": 1900,
         "description": "Medlemskap 900 kr + Fritt spill 1000 kr",
-        "ageRange": "14-21"
+        "ageRange": "14-21",
+        "description_en": "Membership 900 NOK + Unlimited play 1000 NOK"
       },
       {
         "category": "Ungdom (14-21 år) - uten spillerett",
         "price": 900,
         "description": "Medlemskap uten spillerett",
-        "ageRange": "14-21"
+        "ageRange": "14-21",
+        "description_en": "Membership without playing rights"
       },
       {
         "category": "Barn (under 14 år) - med spillerett",
         "price": 1000,
         "description": "Medlemskap 500 kr + Fritt spill 500 kr",
-        "ageRange": "0-13"
+        "ageRange": "0-13",
+        "description_en": "Membership 500 NOK + Unlimited play 500 NOK"
       },
       {
         "category": "Barn (under 14 år) - uten spillerett",
         "price": 500,
         "description": "Medlemskap uten spillerett",
-        "ageRange": "0-13"
+        "ageRange": "0-13",
+        "description_en": "Membership without playing rights"
       },
       {
         "category": "Student",
         "price": 1500,
         "description": "Medlemskap, gyldig studentbevis kreves",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Membership, gyldig studentbevis NOKeves"
       },
       {
         "category": "Fjernmedlem",
         "price": 1200,
         "description": "Bostedsadresse utenfor Nordland og Troms",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Residential address outside Nordland and Troms"
       },
       {
         "category": "Aksjonærer - fritt spill",
         "price": 2000,
         "description": "Spillerett for aksjonærer",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Playing rights for aksjonærer"
       },
       {
         "category": "Familierabatt",
         "price": null,
         "description": "Første voksen betaler full pris, resten av familien betaler 60%",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Første adult betaler full pris, resten av familien betaler 60%"
       }
     ],
     "2026": [
@@ -226,61 +245,71 @@
         "category": "Voksen (22+ år) - med spillerett",
         "price": 6000,
         "description": "Medlemskap 2000 kr + Fritt spill 4000 kr",
-        "ageRange": "22+"
+        "ageRange": "22+",
+        "description_en": "Membership 2000 NOK + Unlimited play 4000 NOK"
       },
       {
         "category": "Voksen (22+ år) - uten spillerett",
         "price": 2000,
         "description": "Medlemskap uten spillerett, greenfee kommer i tillegg",
-        "ageRange": "22+"
+        "ageRange": "22+",
+        "description_en": "Membership without playing rights, green fee in addition"
       },
       {
         "category": "Ungdom (14-21 år) - med spillerett",
         "price": 1900,
         "description": "Medlemskap 900 kr + Fritt spill 1000 kr",
-        "ageRange": "14-21"
+        "ageRange": "14-21",
+        "description_en": "Membership 900 NOK + Unlimited play 1000 NOK"
       },
       {
         "category": "Ungdom (14-21 år) - uten spillerett",
         "price": 900,
         "description": "Medlemskap uten spillerett",
-        "ageRange": "14-21"
+        "ageRange": "14-21",
+        "description_en": "Membership without playing rights"
       },
       {
         "category": "Barn (under 14 år) - med spillerett",
         "price": 1000,
         "description": "Medlemskap 500 kr + Fritt spill 500 kr",
-        "ageRange": "0-13"
+        "ageRange": "0-13",
+        "description_en": "Membership 500 NOK + Unlimited play 500 NOK"
       },
       {
         "category": "Barn (under 14 år) - uten spillerett",
         "price": 500,
         "description": "Medlemskap uten spillerett",
-        "ageRange": "0-13"
+        "ageRange": "0-13",
+        "description_en": "Membership without playing rights"
       },
       {
         "category": "Student",
         "price": 1500,
         "description": "Medlemskap, gyldig studentbevis kreves",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Membership, gyldig studentbevis NOKeves"
       },
       {
         "category": "Fjernmedlem",
         "price": 1200,
         "description": "Bostedsadresse utenfor Nordland og Troms",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Residential address outside Nordland and Troms"
       },
       {
         "category": "Aksjonærer - fritt spill",
         "price": 2000,
         "description": "Spillerett for aksjonærer",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Playing rights for aksjonærer"
       },
       {
         "category": "Familierabatt",
         "price": null,
         "description": "Første voksen betaler full pris, resten av familien betaler 60%",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Første adult betaler full pris, resten av familien betaler 60%"
       }
     ]
   },
@@ -370,5 +399,8 @@
     "createdAt": "2025-10-31T05:13:02.273Z",
     "updatedAt": "2026-02-16T10:30:00.000Z"
   },
-  "googlePlaceId": "ChIJIUq-pKUZ20URqA7rzrh71ZY"
+  "googlePlaceId": "ChIJIUq-pKUZ20URqA7rzrh71ZY",
+  "slug_en": "midt-troms-golf-club",
+  "name_en": "Midt-Troms Golf Club",
+  "description_en": "Midt-Troms Golf Club - a 9-hole parkland course at Finnkroken Golf Park, Bardu.\n\nPar 36 for 9 holes (par 72 when played twice). Course length: 2,506m for 9 holes.\n\nThe course has artificial grass greens ensuring consistent quality throughout the season. Set in beautiful surroundings in the Arctic landscape.\n\nPlay golf under the midnight sun - a unique experience in central Troms!\n\nA family-friendly club with affordable prices. Senior discounts and family packages available."
 }

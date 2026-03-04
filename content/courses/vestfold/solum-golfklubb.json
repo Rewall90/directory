@@ -1,6 +1,8 @@
 {
   "slug": "solum-golfklubb",
+  "slug_en": "solum-golf-club",
   "name": "Solum Golfklubb",
+  "name_en": "Solum Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Holmestrand",
@@ -25,7 +27,9 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Parkland",
+    "terrain_en": "Parkland",
     "courseType": "18-hulls parklandbane",
+    "courseType_en": "18-hole parkland course",
     "designer": null,
     "yearBuilt": 2003,
     "yearRedesigned": null,
@@ -36,9 +40,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Solum Golfklubb - 18-hulls parklandbane i Holmestrand. Par 72. Moderat til vanskelig bane med gode ratings/slopes. Driving range, stor putting green (600+ m2), chipping green, practice bunker. Klubbhus sentralt plassert mellom treningsområder, parkering og tee 1. Pro shop. Tralle-utleie. Softspikes anbefalt. Hunder i bånd tillatt. Mobiltelefon og GPS tillatt. Handicap-grense 54."
+    "viewDescription": "Solum Golfklubb - 18-hulls parklandbane i Holmestrand. Par 72. Moderat til vanskelig bane med gode ratings/slopes. Driving range, stor putting green (600+ m2), chipping green, practice bunker. Klubbhus sentralt plassert mellom treningsområder, parkering og tee 1. Pro shop. Tralle-utleie. Softspikes anbefalt. Hunder i bånd tillatt. Mobiltelefon og GPS tillatt. Handicap-grense 54.",
+    "viewDescription_en": "Solum Golf Club - 18-hole parkland course in Holmestrand. Par 72. Moderate to difficult course with good ratings/slopes. Driving range, large putting green (600+ sqm), chipping green, practice bunker. Clubhouse centrally located between practice areas, car park and 1st tee. Pro shop. Trolley hire. Soft spikes recommended. Dogs on lead permitted. Mobile phones and GPS permitted. Handicap limit 54."
   },
   "description": "Solum Golfklubb - 18-hulls parklandbane i Holmestrand. Grunnlagt 2003. Par 72. Hvit tee 5609m (CR 70, Slope 129), gul tee 5508m (CR 69.8, Slope 123), rød tee 5153m (CR 73.4, Slope 128). Moderat til vanskelig bane. Klubbhus sentralt plassert mellom treningsområder, parkering og tee 1.",
+  "description_en": "Solum Golf Club - 18-hole parkland course in Holmestrand. Founded 2003. Par 72. White tee 5,609m (CR 70, Slope 129), yellow tee 5,508m (CR 69.8, Slope 123), red tee 5,153m (CR 73.4, Slope 128). Moderately to difficult course. Clubhouse centrally located between practice areas, car park and 1st tee.",
   "contact": {
     "phone": "+47 976 32 520",
     "email": "post@solumgolfklubb.no",
@@ -123,6 +129,7 @@
       "greenFeeSpring18": 450,
       "greenFeeSpring9": 350,
       "greenFeeDescription": "Greenfee 2025: Ordinær 18h 550 kr, 9h 400 kr. Rabattert vårpris 18h 450 kr, 9h 350 kr. Student/Junior 18h 350 kr, 9h 250 kr. NSG (1. mai - 1. okt, ikke helg/helligdager) 18h 350 kr, 9h 250 kr. Årsgreenfee (ikke-medlemmer) 5700 kr.",
+      "greenFeeDescription_en": "Green fee 2025: Standard 18 holes 550 NOK, 9 holes 400 NOK. Discounted spring price 18 holes 450 NOK, 9 holes 350 NOK. Student/Junior 18 holes 350 NOK, 9 holes 250 NOK. NSG (1 May - 1 Oct, not weekends/public holidays) 18 holes 350 NOK, 9 holes 250 NOK. Annual green fee (non-members) 5,700 NOK.",
       "cartRental": 450,
       "cartRental9": 350,
       "cartRentalMedical": 350,
@@ -133,7 +140,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil med legeattest 18h 350 kr, 9h 250 kr. Golfbil uten legeattest 18h 450 kr, 9h 350 kr. Traller 30 kr. Betaling via Vipps #602091. Medlemmer får 20% rabatt på simulatorsenter."
+      "notes": "Golfbil med legeattest 18h 350 kr, 9h 250 kr. Golfbil uten legeattest 18h 450 kr, 9h 350 kr. Traller 30 kr. Betaling via Vipps #602091. Medlemmer får 20% rabatt på simulatorsenter.",
+      "notes_en": "Golf buggy with medical certificate 18 holes 350 NOK, 9 holes 250 NOK. Golf buggy without medical certificate 18 holes 450 NOK, 9 holes 350 NOK. Trolleys 30 NOK. Payment via Vipps #602091. Members get 20% discount at simulator centre."
     }
   },
   "membershipPricing": {
@@ -143,42 +151,54 @@
         "name": "Knøtter (0-12 år)",
         "price": 300,
         "description": "Medlemskap inkludert trening. Spiller gratis på Solum.",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Tots (0-12 Years)",
+        "description_en": "Membership including training. Play free at Solum."
       },
       {
         "category": "junior",
         "name": "Junior/ungdom (13-19 år)",
         "price": 550,
         "description": "Medlemskap inkludert trening.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior/Youth (13-19 Years)",
+        "description_en": "Membership including training."
       },
       {
         "category": "voksen",
         "name": "Voksen",
         "price": 1100,
         "description": "Grunnmedlemskap for voksne. Årsgreenfee kjøpes separat.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Basic membership for adults. Annual green fee purchased separately."
       },
       {
         "category": "arsgreenfeeVoksen",
         "name": "Årsgreenfee Voksen",
         "price": 5300,
         "description": "Ubegrenset spill hele sesongen for voksne medlemmer. Betales til Solum Invest.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Annual Green Fee Adult",
+        "description_en": "Unlimited play for the entire season for adult members. Paid to Solum Invest."
       },
       {
         "category": "arsgreenfeeStudent",
         "name": "Årsgreenfee Student (20-25 år)",
         "price": 3500,
         "description": "Ubegrenset spill hele sesongen for studenter 20-25 år. Betales til Solum Invest.",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "name_en": "Annual Green Fee Student (20-25 Years)",
+        "description_en": "Unlimited play for the entire season for students aged 20-25. Paid to Solum Invest."
       },
       {
         "category": "arsgreenfeeJunior",
         "name": "Årsgreenfee Junior (13-19 år)",
         "price": 2500,
         "description": "Ubegrenset spill hele sesongen for juniorer 13-19 år. Betales til Solum Invest.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Annual Green Fee Junior (13-19 Years)",
+        "description_en": "Unlimited play for the entire season for juniors aged 13-19. Paid to Solum Invest."
       }
     ]
   },

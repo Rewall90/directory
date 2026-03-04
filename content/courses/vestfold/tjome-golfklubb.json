@@ -1,6 +1,8 @@
 {
   "slug": "tjome-golfklubb",
+  "slug_en": "tjome-golf-club",
   "name": "Tjøme Golfklubb",
+  "name_en": "Tjome Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Tjøme",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Parkland",
+    "terrain_en": "Parkland",
     "courseType": "18-hulls parklandbane med unik double-9 design + 9-hulls treningsbane",
+    "courseType_en": "18-hole parkland course with unique double-9 design plus 9-hole practice course",
     "designer": null,
     "yearBuilt": 1989,
     "yearRedesigned": null,
     "waterHazards": true,
     "signatureHole": "Historisk herregård fra 1865",
+    "signatureHole_en": "Historic manor house from 1865",
     "scenicHole": "Historisk herregård fra 1865",
+    "scenicHole_en": "Historic manor house from 1865",
     "par3Count": null,
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Tjøme Golfklubb - Eneste golfbane i Norden med double-9 design. 18-hulls parklandbane, par 72, 5388m. Valgfrie lengder: 5500m, 5000m, 4400m, 3200m. Bunkere, innsjøer/dammer, smale fairways. Driving range med matter, putting green, 2 chipping greener med bunkere. Herregård fra 1865 som klubbhus. Kafé Rosso. Pro shop. 9-hulls treningsbane. Handicap-grense 36 (strengere enn vanlig)."
+    "viewDescription": "Tjøme Golfklubb - Eneste golfbane i Norden med double-9 design. 18-hulls parklandbane, par 72, 5388m. Valgfrie lengder: 5500m, 5000m, 4400m, 3200m. Bunkere, innsjøer/dammer, smale fairways. Driving range med matter, putting green, 2 chipping greener med bunkere. Herregård fra 1865 som klubbhus. Kafé Rosso. Pro shop. 9-hulls treningsbane. Handicap-grense 36 (strengere enn vanlig).",
+    "viewDescription_en": "Tjome Golf Club - The only golf course in the Nordic region with a double-9 design. 18-hole parkland course, par 72, 5,388m. Optional lengths: 5,500m, 5,000m, 4,400m, 3,200m. Bunkers, lakes/ponds, narrow fairways. Driving range with mats, putting green, 2 chipping greens with bunkers. Manor house from 1865 as clubhouse. Cafe Rosso. Pro shop. 9-hole practice course. Handicap limit 36 (stricter than usual)."
   },
   "description": "Tjøme Golfklubb - 18-hulls parklandbane med par 72 og 5388 meter. Grunnlagt 1989. Eneste golfbane i Norden med double-9 design. Spillere kan velge å spille fra 5500m, 5000m, 4400m eller 3200m. Bunkere, vannhindre med innsjøer og dammer, og smale fairways. Pluss 9-hulls treningsbane. Klubbhus i herregård fra 1865.",
+  "description_en": "Tjome Golf Club - 18-hole parkland course with par 72 and 5,388 metres. Founded 1989. The only golf course in the Nordic region with a double-9 design. Players can choose to play from 5,500m, 5,000m, 4,400m or 3,200m. Bunkers, water hazards with lakes and ponds, and narrow fairways. Plus 9-hole practice course. Clubhouse in a manor house from 1865.",
   "contact": {
     "phone": "+47 33 39 15 10",
     "email": "post@tjomegolfklubb.no",
@@ -131,13 +139,15 @@
       "greenFeeSenior": null,
       "greenFeeJunior": null,
       "greenFeeDescription": "Greenfee 2025 vintergreener: 18h 300 kr, 9h 150 kr. Junior 18h 100 kr, 9h 50 kr. Forhåndsbetaling påkrevd. Booking 5 dager før. Prebooking utover 5 dager koster 100 kr ekstra pr. person. Greenfee-samarbeid med flere klubber (Grini, Nøtterøy, Vestfold, Drammen, Sandefjord, Borre, Tønsberg gk) - rabattene gjelder ikke vintergreenfee eller høysesong 23.6-10.8.",
+      "greenFeeDescription_en": "Green fee 2025 winter greens: 18 holes 300 NOK, 9 holes 150 NOK. Junior 18 holes 100 NOK, 9 holes 50 NOK. Prepayment required. Booking 5 days before. Pre-booking beyond 5 days costs 100 NOK extra per person. Green fee cooperation with several clubs (Grini, Notteroy, Vestfold, Drammen, Sandefjord, Borre, Tonsberg GC) - discounts do not apply to winter green fee or high season 23 June - 10 August.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemmer får gratis spill på Tjøme. 20 bøtter driving range-baller inkludert i medlemskap, ubegrenset bruk for 1000 kr. Medlemmer har 7 dagers forhåndsbooking. 10% rabatt på alt i pro shop. 9-hulls treningsbane tilgjengelig. Handicap-grense 36."
+      "notes": "Medlemmer får gratis spill på Tjøme. 20 bøtter driving range-baller inkludert i medlemskap, ubegrenset bruk for 1000 kr. Medlemmer har 7 dagers forhåndsbooking. 10% rabatt på alt i pro shop. 9-hulls treningsbane tilgjengelig. Handicap-grense 36.",
+      "notes_en": "Members get free play at Tjome. 20 buckets of driving range balls included in membership, unlimited use for 1,000 NOK. Members have 7 days advance booking. 10% discount on everything in pro shop. 9-hole practice course available. Handicap limit 36."
     },
     "2026": {
       "currency": "NOK",
@@ -158,7 +168,9 @@
       "clubRental": null,
       "pullCartRental": null,
       "greenFeeDescription": "Vintergreener 2025/2026: 18h 300 kr, 9h 150 kr. Junior 18h 100 kr, 9h 50 kr. Forhåndsbetaling påkrevd via Gimmie/Golfbox. Booking 5 dager før. Prebooking utover 5 dager koster 100 kr ekstra pr. person. Greenfee fra 450 kr i sesong (kilde: golfcards.com). Høysesong 23.6-10.8 ingen rabatter. Junior (6-20 år) 150 kr i høysesong. Greenfee-samarbeid med Grini, Nøtterøy, Vestfold, Drammen, Sandefjord, Borre, Tønsberg gk. Golfpakke med Engø Gård fra 1575 kr (overnatting+frokost+spa+greenfee). Vipps-betaling: 74120.",
-      "notes": "Sesongpriser for 2026 er ikke publisert ennå (per feb 2026). Vinterpriser bekreftet fra tjomegolfklubb.no/gjestespill. Greenfee fra 450 kr i sesong basert på golfcards.com (oppdatert mars 2025). Elektrisk golfbil og tralle tilgjengelig for utleie (priser ikke oppgitt). Handicap-grense 36."
+      "greenFeeDescription_en": "Winter greens 2025/2026: 18 holes 300 NOK, 9 holes 150 NOK. Junior 18 holes 100 NOK, 9 holes 50 NOK. Prepayment required via Gimmie/Golfbox. Booking 5 days before. Pre-booking beyond 5 days costs 100 NOK extra per person. Green fee from 450 NOK in season (source: golfcards.com). High season 23 June - 10 August no discounts. Junior (6-20 years) 150 NOK in high season. Green fee cooperation with Grini, Notteroy, Vestfold, Drammen, Sandefjord, Borre, Tonsberg GC. Golf package with Engo Gard from 1,575 NOK (accommodation+breakfast+spa+green fee). Vipps payment: 74120.",
+      "notes": "Sesongpriser for 2026 er ikke publisert ennå (per feb 2026). Vinterpriser bekreftet fra tjomegolfklubb.no/gjestespill. Greenfee fra 450 kr i sesong basert på golfcards.com (oppdatert mars 2025). Elektrisk golfbil og tralle tilgjengelig for utleie (priser ikke oppgitt). Handicap-grense 36.",
+      "notes_en": "Season prices for 2026 not yet published (as of Feb 2026). Winter prices confirmed from tjomegolfklubb.no/gjestespill. Green fee from 450 NOK in season based on golfcards.com (updated March 2025). Electric golf buggy and trolley available for hire (prices not specified). Handicap limit 36."
     }
   },
   "membershipPricing": {
@@ -168,56 +180,72 @@
         "name": "Junior t.o.m. 13 år",
         "price": 1000,
         "description": "Junior medlemskap inkludert gratis spill. Ingen innmeldingsavgift eller klubbavgift.",
-        "ageRange": "0-13"
+        "ageRange": "0-13",
+        "name_en": "Junior up to 13 Years",
+        "description_en": "Junior membership including free play. No joining fee or club fee."
       },
       {
         "category": "junior14-19",
         "name": "Junior 14-19 år",
         "price": 2700,
         "description": "Junior medlemskap. Inkluderer 100 kr klubbavgift. Ingen innmeldingsavgift.",
-        "ageRange": "14-19"
+        "ageRange": "14-19",
+        "name_en": "Junior 14-19 Years",
+        "description_en": "Junior membership. Includes 100 NOK club fee. No joining fee."
       },
       {
         "category": "ungVoksen20-30",
         "name": "Ung voksen 20-30 år",
         "price": 3800,
         "description": "Ung voksen medlemskap. Inkluderer 230 kr klubbavgift. Ingen innmeldingsavgift.",
-        "ageRange": "20-30"
+        "ageRange": "20-30",
+        "name_en": "Young Adult 20-30 Years",
+        "description_en": "Young adult membership. Includes 230 NOK club fee. No joining fee."
       },
       {
         "category": "ungVoksen31-40",
         "name": "Ung voksen 31-40 år",
         "price": 4750,
         "description": "Ung voksen medlemskap. Inkluderer 230 kr klubbavgift. Ingen innmeldingsavgift.",
-        "ageRange": "31-40"
+        "ageRange": "31-40",
+        "name_en": "Young Adult 31-40 Years",
+        "description_en": "Young adult membership. Includes 230 NOK club fee. No joining fee."
       },
       {
         "category": "ordinaerSpillerett",
         "name": "Ordinær spillerett",
         "price": 8300,
         "description": "Full spillerett. Inkluderer 230 kr klubbavgift. Ingen innmeldingsavgift.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Standard Playing Rights",
+        "description_en": "Full playing rights. Includes 230 NOK club fee. No joining fee."
       },
       {
         "category": "aksjonaer",
         "name": "Aksjonær",
         "price": 8300,
         "description": "Aksjonær medlemskap. Inkluderer 230 kr klubbavgift. Ingen innmeldingsavgift.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Shareholder",
+        "description_en": "Shareholder membership. Includes 230 NOK club fee. No joining fee."
       },
       {
         "category": "aksjonaerbarn20-40",
         "name": "Aksjonærbarn 20-40 år",
         "price": 4750,
         "description": "Medlemskap for barn av aksjonærer 20-40 år. Inkluderer 230 kr klubbavgift.",
-        "ageRange": "20-40"
+        "ageRange": "20-40",
+        "name_en": "Shareholder's Child 20-40 Years",
+        "description_en": "Membership for children of shareholders aged 20-40. Includes 230 NOK club fee."
       },
       {
         "category": "drivingRangeUnlimited",
         "name": "Ubegrenset driving range",
         "price": 1000,
         "description": "Ubegrenset bruk av driving range hele året. 20 bøtter inkludert i alle medlemskap.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Unlimited Driving Range",
+        "description_en": "Unlimited use of driving range year-round. 20 buckets included in all memberships."
       }
     ]
   },

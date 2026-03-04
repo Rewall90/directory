@@ -36,7 +36,8 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Lommedalen i naturskjønne omgivelser ca 25 min fra Oslo"
+    "viewDescription": "Lommedalen i naturskjønne omgivelser ca 25 min fra Oslo",
+    "viewDescription_en": "Lommedalen in scenic surroundings approximately 25 minutes from Oslo"
   },
   "description": "18 hulls bane i naturskjønne omgivelser\n\nBærum Golfklubb kan i dag fremvise et av landets mest komplette golfanlegg. I tillegg til en 18 hulls bane i naturskjønne omgivelser, disponerer klubben også en 9 hulls korthullbane og et eget stort treningsområde med en flott driving range og nærspiillsområder. Bærum GK tilbyr helårsaktivitet med fire TrackMan simulatorer og et performance svingstudio for undervisning, custom fitting og private selskaper i klubbens egne lokaler.\n\nKorthullsbanen: 9 holes - 9 hulls korthullbane",
   "contact": {
@@ -157,7 +158,9 @@
       "bagLockerRentalSeasonMember": 700,
       "electricCartStorageSeasonMember": 900,
       "greenFeeDescription": "Greenfee 2026: Hovedbanen - 18 hull helg kr 850, hverdag kr 650, gjest av medlem kr 500. Twilight/9 hull kr 350. Juniorpris gjelder til og med det året du fyller 19 år.",
-      "notes": "Twilight gjelder fra ettermiddag når man ikke rekker rundt før mørkets frembrudd. Helgpriser gjelder lørdag, søndag og helligdager. Golfbil med legeerklæring kr 300 (medlem) / kr 450 (gjest) for 18 hull. Elektrisk tralle planlagt for 2026, pris ikke fastsatt enda. Ballkort kan kjøpes via GolfMore-appen og i proshop. Bagskap og elektrisk tralle-lagring har venteliste. Katering via Bærum Catering AS (10% rabatt for medlemmer). 18 års aldersgrense på bruk av golfbil. Bookinger golfbil: ring 67 87 67 01."
+      "notes": "Twilight gjelder fra ettermiddag når man ikke rekker rundt før mørkets frembrudd. Helgpriser gjelder lørdag, søndag og helligdager. Golfbil med legeerklæring kr 300 (medlem) / kr 450 (gjest) for 18 hull. Elektrisk tralle planlagt for 2026, pris ikke fastsatt enda. Ballkort kan kjøpes via GolfMore-appen og i proshop. Bagskap og elektrisk tralle-lagring har venteliste. Katering via Bærum Catering AS (10% rabatt for medlemmer). 18 års aldersgrense på bruk av golfbil. Bookinger golfbil: ring 67 87 67 01.",
+      "greenFeeDescription_en": "Green fee 2026: Main course - 18 holes weekend kr 850, weekday kr 650, guest of member kr 500. Twilight/9 holes kr 350. Junior prices apply up to and including the year you turn 19.",
+      "notes_en": "Twilight applies from the afternoon when there is not enough time to complete a round before dark. Weekend prices apply Saturday, Sunday, and bank holidays. Golf buggy with medical certificate kr 300 (member) / kr 450 (guest) for 18 holes. Electric trolley planned for 2026, price not yet set. Ball cards can be purchased via the GolfMore app and in the pro shop. Bag locker and electric trolley storage have a waiting list. Catering via Baerum Catering AS (10% discount for members). Minimum age 18 for golf buggy use. Buggy bookings: call 67 87 67 01."
     }
   },
   "membershipPricing": {
@@ -298,5 +301,8 @@
     "updatedAt": "2026-02-15T14:30:00.000Z",
     "scrapingNotes": "Comprehensive deep-scrape completed. All 2026 pricing verified including greenfees (all categories), golf cart rentals (multiple tiers), driving range ball packages (7 tiers for members), bag locker and cart storage fees. Electric trolley rental planned but pricing TBA. No club rental available. Catering services available through Bærum Catering AS."
   },
-  "googlePlaceId": "ChIJNWt6J2kSQUYRm2isBl9fm9w"
+  "googlePlaceId": "ChIJNWt6J2kSQUYRm2isBl9fm9w",
+  "slug_en": "baerum-golf-club",
+  "name_en": "Baerum Golf Club",
+  "description_en": "18-hole course in scenic surroundings\n\nBaerum Golf Club can today present one of the country's most complete golf facilities. In addition to an 18-hole course in scenic surroundings, the club also has a 9-hole short course and a large dedicated practice area with an excellent driving range and short game areas. Baerum GK offers year-round activity with four TrackMan simulators and a performance swing studio for coaching, custom fitting, and private functions in the club's own premises.\n\nShort course: 9 holes."
 }

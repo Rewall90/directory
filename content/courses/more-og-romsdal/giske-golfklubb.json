@@ -1,6 +1,8 @@
 {
   "slug": "giske-golfklubb",
+  "slug_en": "giske-golf-club",
   "name": "Giske Golfklubb",
+  "name_en": "Giske Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Vigra",
@@ -36,9 +38,15 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Idyllisk beliggenhet ved Vigrafjorden med vakker utsikt mot fjorden"
+    "viewDescription": "Idyllisk beliggenhet ved Vigrafjorden med vakker utsikt mot fjorden",
+    "terrain_en": "Undulating",
+    "courseType_en": "9-hole golf course",
+    "signatureHole_en": "Hole by the Vigra Fjord with beautiful views",
+    "scenicHole_en": "Hole by the Vigra Fjord with beautiful views",
+    "viewDescription_en": "Idyllic location by the Vigra Fjord with beautiful views towards the fjord"
   },
   "description": "Variert 9-hulls bane beliggende ved Gjøsundneset på Vigra. Idyllisk beliggenhet ved Vigrafjorden med mild klima og åpen hele året. Banen passer veldig fint for nybegynnere som ønsker å lære seg golf i avslappede omgivelser. Dugnadsbasert klubb med fokus på inkluderende og sosialt miljø.",
+  "description_en": "Varied 9-hole course situated at Gjosundneset on Vigra. Idyllic location by the Vigra Fjord with mild climate and open all year round. The course is well suited for beginners who wish to learn golf in relaxed surroundings. Volunteer-run club with a focus on an inclusive and social environment.",
   "contact": {
     "phone": "+47 976 70 501",
     "email": "post@giskegolf.no",
@@ -58,7 +66,8 @@
   "season": {
     "start": "1. januar",
     "end": "31. desember",
-    "winterUse": "Åpen hele året med ordinære greener. Det er kun noen få dager i året det ligger snø på banen. Området er blant det mildeste i landet målt som gjennomsnittstemperatur gjennom vinteren: ca +4,5 grader"
+    "winterUse": "Åpen hele året med ordinære greener. Det er kun noen få dager i året det ligger snø på banen. Området er blant det mildeste i landet målt som gjennomsnittstemperatur gjennom vinteren: ca +4,5 grader",
+    "winterUse_en": "Open all year round with regular greens. There are only a few days each year with snow on the course. The area has some of the mildest winter temperatures in Norway, averaging around +4.5 degrees Celsius."
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +132,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee for adults: 250 NOK, juniors (13-19 years): 150 NOK, children (0-12 years): free. Members of Aalesund GK and Giske GK pay a reduced rate. Green fee must be paid before teeing off. Double green fee if unpaid upon inspection."
     },
     "2026": {
       "currency": "NOK",
@@ -142,7 +152,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Booking via GolfBox, betaling via Vipps #113948"
+      "notes": "Booking via GolfBox, betaling via Vipps #113948",
+      "greenFeeDescription_en": "Green fee 18 holes adult: 250 NOK, junior (13-19 years): 150 NOK, children (0-12 years): free. Members of Aalesund GK and Giske GK receive a discount (adult 200 NOK, junior 120 NOK). Booking via GolfBox, payment via Vipps #113948. Double green fee upon inspection without payment.",
+      "notes_en": "Booking via GolfBox, payment via Vipps #113948"
     }
   },
   "membershipPricing": {},

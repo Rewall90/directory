@@ -1,6 +1,8 @@
 {
   "slug": "volda-golfklubb",
+  "slug_en": "volda-golf-club",
   "name": "Volda Golfklubb",
+  "name_en": "Volda Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Volda",
@@ -36,9 +38,15 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Spektakulær utsikt mot høye fjell og dype fjorder fra banen. Ligger ved Rotevatnet i naturskjønne omgivelser ved Vassbotn."
+    "viewDescription": "Spektakulær utsikt mot høye fjell og dype fjorder fra banen. Ligger ved Rotevatnet i naturskjønne omgivelser ved Vassbotn.",
+    "terrain_en": "Parkland and woodland course",
+    "courseType_en": "9-hole course (played two rounds for 18 holes)",
+    "signatureHole_en": "Views of towering mountains and deep fjords from the course",
+    "scenicHole_en": "Views of towering mountains and deep fjords from the course",
+    "viewDescription_en": "Spectacular views of towering mountains and deep fjords from the course. Situated by Rotevatnet in scenic surroundings at Vassbotn."
   },
   "description": "Variert og morsom 9-hulls bane i naturskjønne omgivelser ved Rotevatnet i Volda. Banen ligger vakkert til ved Vassbotn med utsikt mot høye fjell og dype fjorder. Kurs av park- og skogspreg med utfordrende layout. Volda er sentralt plassert i Sunnmøre med kort veg til Ålesund, Geiranger, fugløya Runde og Strynefjellet. En av Norges vakreste 9-hullsbaner.",
+  "description_en": "Varied and enjoyable 9-hole course in scenic surroundings by Rotevatnet in Volda. The course is beautifully situated at Vassbotn with views of towering mountains and deep fjords. A course of parkland and woodland character with a challenging layout. Volda is centrally located in Sunnmore with short distances to Aalesund, Geiranger, the bird island Runde and Strynefjell. One of Norway's most beautiful 9-hole courses.",
   "contact": {
     "phone": "+47 70 07 69 77",
     "email": "post@voldagolf.no",
@@ -58,7 +66,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Simulator tilgjengelig for vintertrening"
+    "winterUse": "Simulator tilgjengelig for vintertrening",
+    "winterUse_en": "Simulator available for winter training"
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +132,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Fjernmedlemmer må også betale full greenfee 400 kr"
+      "notes": "Fjernmedlemmer må også betale full greenfee 400 kr",
+      "greenFeeDescription_en": "Green fee adults: 400 NOK per day. Junior (up to 19 years): 200 NOK (half price). You can play as many holes as you wish that day.",
+      "notes_en": "Distance members must also pay full green fee 400 NOK"
     },
     "2026": {
       "currency": "NOK",
@@ -141,7 +152,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Fjernmedlemmer må også betale full greenfee 400 kr"
+      "notes": "Fjernmedlemmer må også betale full greenfee 400 kr",
+      "greenFeeDescription_en": "Green fee adults: 400 NOK per day. Junior (up to 19 years): 200 NOK (half price). Unlimited holes per day.",
+      "notes_en": "Distance members must also pay full green fee 400 NOK"
     }
   },
   "membershipPricing": {
@@ -176,7 +189,22 @@
       "vtgCourseJunior": 500,
       "vtgCourseJuniorDescription": "Vegen til Golf kurs for barn under 16 år",
       "membershipStatus": "open",
-      "notes": "Utmelding må skje før 31. desember. Mellom 1. januar og 30. april: 450 kr gebyr. Etter 30. april: full kontingent."
+      "notes": "Utmelding må skje før 31. desember. Mellom 1. januar og 30. april: 450 kr gebyr. Etter 30. april: full kontingent.",
+      "firstYearMembershipDescription_en": "1st year regular membership",
+      "secondYearMembershipDescription_en": "2nd year regular membership",
+      "fullMembershipDescription_en": "Regular membership (3rd year and later)",
+      "pensionistMembershipDescription_en": "Pensioner (67+ years)",
+      "childMembershipFreeDescription_en": "Child up to 10 years - free",
+      "childMembershipDescription_en": "Child 11-16 years",
+      "juniorMembershipDescription_en": "Junior member 17-21 years",
+      "studentMembershipDescription_en": "Student member",
+      "spouseMembershipDescription_en": "Spouse/partner of member",
+      "distanceMembershipDescription_en": "Distance member (must pay green fee 400 NOK)",
+      "passivMembershipDescription_en": "Passive local member (without playing rights)",
+      "neighborMembershipDescription_en": "Neighbour membership",
+      "vtgCourseDescription_en": "Road to Golf course for adults (12 hours)",
+      "vtgCourseJuniorDescription_en": "Road to Golf course for children under 16 years",
+      "notes_en": "Cancellation must be submitted before 31 December. Between 1 January and 30 April: 450 NOK fee. After 30 April: full membership fee."
     }
   },
   "ratings": {

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Preikestolen Golfklubb er en 9-hulls skogsbane med 18 teesteder i Jørpeland, Strand kommune, Rogaland. Grunnlagt 1998. Banen ligger i vakker dal ved Jøssang, ca 40 min fra Stavanger. Par 72 (spilt to ganger). Relativt smal og tett bane i skogslandskap som krever presise slag. Driving range, putting green, chipping green, practice bunker. 24 timers innmeldingsgaranti for nye medlemmer."
+    "viewDescription": "Preikestolen Golfklubb er en 9-hulls skogsbane med 18 teesteder i Jørpeland, Strand kommune, Rogaland. Grunnlagt 1998. Banen ligger i vakker dal ved Jøssang, ca 40 min fra Stavanger. Par 72 (spilt to ganger). Relativt smal og tett bane i skogslandskap som krever presise slag. Driving range, putting green, chipping green, practice bunker. 24 timers innmeldingsgaranti for nye medlemmer.",
+    "terrain_en": "Woodland",
+    "courseType_en": "9-hole woodland course",
+    "signatureHole_en": "Scenic course in woodland setting at Joessang",
+    "scenicHole_en": "Scenic course in woodland setting at Joessang",
+    "viewDescription_en": "Preikestolen Golf Club is a 9-hole woodland course with 18 tee positions in Joerpeland, Strand municipality. Founded in 1998. The course is set in a beautiful valley at Joessang, approximately 40 minutes from Stavanger city centre. Par 72 when played twice. A relatively narrow and tight course requiring accurate shots. Scenic woodland setting. Maximum handicap 54 for visitors."
   },
   "description": "Preikestolen Golfklubb er en 9-hulls skogsbane med 18 teesteder i Jørpeland, Strand kommune. Grunnlagt i 1998. Banen ligger i vakker dal ved Jøssang, ca 40 minutter fra Stavanger sentrum. Par 72 når spilt to ganger. Relativt smal og tett bane som krever presise slag. Naturskjønn beliggenhet i skogslandskap. Handicapkrav 54 for besøkende.",
   "contact": {
@@ -123,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "24 timers innmeldingsgaranti ved nye medlemskap"
+      "notes": "24 timers innmeldingsgaranti ved nye medlemskap",
+      "greenFeeDescription_en": "Green fee: 350 kr. Handicap 54 required with valid handicap certificate. 50% discount with Golfhaeftet.",
+      "notes_en": "24-hour enrolment guarantee for new memberships"
     },
     "2026": {
       "currency": "NOK",
@@ -139,7 +146,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Gratis utlån av klubber for bruk i treningsområdet. Automat i gangen for kjøp av greenfee, tees, golfballer, snacks og mineralvann. 24 timers innmeldingsgaranti ved nye medlemskap."
+      "notes": "Gratis utlån av klubber for bruk i treningsområdet. Automat i gangen for kjøp av greenfee, tees, golfballer, snacks og mineralvann. 24 timers innmeldingsgaranti ved nye medlemskap.",
+      "greenFeeDescription_en": "Green fee: 350 kr all days. Handicap 54 required with valid handicap certificate. 50% discount with Golfhaeftet and Golfamore Card (once per year).",
+      "notes_en": "Free loan of clubs for use in the practice area. Vending machine in the hallway for purchasing green fees, tees, golf balls, snacks and soft drinks. 24-hour enrolment guarantee for new memberships."
     }
   },
   "membershipPricing": {
@@ -148,43 +157,57 @@
         "category": "adult",
         "price": 4400,
         "description": "Hovedmedlem 4400 kr/år. Inkluderer spillerett på Preikestolen GK. 400 kr rabatt for ektefelle.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full member 4,400 kr/year. Includes playing rights at Preikestolen GC. 400 kr discount for spouse."
       },
       {
         "category": "spouse",
         "price": 4000,
         "description": "Ektefelle/samboer (hovedmedlem minus 400 kr rabatt)",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Spouse/partner (full member minus 400 kr discount)"
       },
       {
         "category": "firstYear",
         "price": 2700,
         "description": "Hovedmedlem første år - tilbud for førstegangsmedlemmer som tar VTG gjennom klubben",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "First Year",
+        "description_en": "Full member first year - offer for first-time members taking Get Into Golf through the club"
       },
       {
         "category": "noPlayingRight",
         "price": 795,
         "description": "Medlem uten spillerett 795 kr/år. Greenfee må betales ved spill. 1 gratis greenfee per år inkludert.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "No Playing Rights",
+        "description_en": "Member without playing rights 795 kr/year. Green fee must be paid when playing. 1 free green fee per year included."
       },
       {
         "category": "junior",
         "price": 495,
         "description": "Junior 0-19 år: 495 kr/år. Inkluderer spillerett og gratis juniortrening.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Junior",
+        "description_en": "Junior 0-19 years: 495 kr/year. Includes playing rights and free junior coaching."
       },
       {
         "category": "student",
         "price": 2100,
         "description": "Student 2100 kr/år. Inkluderer spillerett. Studentbevis må oversendes til post@prgk.no.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Student 2,100 kr/year. Includes playing rights. Student ID must be sent to post@prgk.no."
       },
       {
         "category": "family",
         "price": 8700,
         "description": "Familiemedlemskap 8700 kr/år. Inkluderer alle familiemedlemmer (voksne + barn 0-19 år). Lønnsomt ved 3+ medlemmer.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Family membership 8,700 kr/year. Includes all family members (adults + children 0-19 years). Cost-effective with 3+ members."
       }
     ],
     "2026": [
@@ -192,43 +215,57 @@
         "category": "adult",
         "price": 4400,
         "description": "Hovedmedlem 4400 kr/år. Inkluderer spillerett på Preikestolen GK. 400 kr rabatt for ektefelle.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full member 4,400 kr/year. Includes playing rights at Preikestolen GC. 400 kr discount for spouse."
       },
       {
         "category": "spouse",
         "price": 4000,
         "description": "Ektefelle/samboer (hovedmedlem minus 400 kr rabatt)",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Spouse/partner (full member minus 400 kr discount)"
       },
       {
         "category": "firstYear",
         "price": 2700,
         "description": "Hovedmedlem første år - tilbud for førstegangsmedlemmer som tar VTG gjennom klubben",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "First Year",
+        "description_en": "Full member first year - offer for first-time members taking Get Into Golf through the club"
       },
       {
         "category": "noPlayingRight",
         "price": 795,
         "description": "Medlem uten spillerett 795 kr/år. Greenfee må betales ved spill. 1 gratis greenfee per år inkludert.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "No Playing Rights",
+        "description_en": "Member without playing rights 795 kr/year. Green fee must be paid when playing. 1 free green fee per year included."
       },
       {
         "category": "junior",
         "price": 495,
         "description": "Junior 0-19 år: 495 kr/år. Inkluderer spillerett og gratis juniortrening.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Junior",
+        "description_en": "Junior 0-19 years: 495 kr/year. Includes playing rights and free junior coaching."
       },
       {
         "category": "student",
         "price": 2100,
         "description": "Student 2100 kr/år. Inkluderer spillerett. Studentbevis må oversendes til post@prgk.no.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Student 2,100 kr/year. Includes playing rights. Student ID must be sent to post@prgk.no."
       },
       {
         "category": "family",
         "price": 8700,
         "description": "Familiemedlemskap 8700 kr/år. Inkluderer alle familiemedlemmer (voksne + barn 0-19 år). Lønnsomt ved 3+ medlemmer.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Family membership 8,700 kr/year. Includes all family members (adults + children 0-19 years). Cost-effective with 3+ members."
       }
     ]
   },
@@ -298,5 +335,8 @@
     "createdAt": "2025-10-31T07:46:25.970Z",
     "updatedAt": "2026-02-15T00:00:00.000Z"
   },
-  "googlePlaceId": "ChIJezEe7mLTO0YRghc3Pn8c4ro"
+  "googlePlaceId": "ChIJezEe7mLTO0YRghc3Pn8c4ro",
+  "slug_en": "preikestolen-golf-club",
+  "name_en": "Preikestolen Golf Club",
+  "description_en": "Preikestolen Golf Club is a 9-hole woodland course with 18 tee positions in Joerpeland, Strand municipality. Founded in 1998. The course is set in a beautiful valley at Joessang, approximately 40 minutes from Stavanger city centre. Par 72 when played twice. A relatively narrow and tight course requiring accurate shots. Scenic woodland setting. Maximum handicap 54 for visitors."
 }

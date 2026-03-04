@@ -36,7 +36,10 @@
     "par4Count": 5,
     "par5Count": 1,
     "mountainViews": true,
-    "viewDescription": "Omgitt av høye fjell, 725 m.o.h."
+    "viewDescription": "Omgitt av høye fjell, 725 m.o.h.",
+    "terrain_en": "Highland course 725 m above sea level",
+    "courseType_en": "Highland course",
+    "viewDescription_en": "Surrounded by towering mountains, 725 metres above sea level"
   },
   "description": "Ørnefjell golfbane ligger 725 m.o.h. og er en 9-hulls høyfjellsbane med 18 forskjellige tee-plasseringer. Omgitt av høye fjell og mye vann. Alle greener har kunstgress. Beskrevet som utfordrende men morsom av gjester.",
   "contact": {
@@ -63,7 +66,8 @@
   "season": {
     "start": "Juni",
     "end": "September",
-    "winterUse": "Stengt oktober-mai"
+    "winterUse": "Stengt oktober-mai",
+    "winterUse_en": "Closed October to May"
   },
   "visitors": {
     "welcome": true,
@@ -132,7 +136,8 @@
       "specialOfferPrice": 2000,
       "specialOfferIncludes": "10 greenfee-billetter (200 NOK per runde)",
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Visitors og distance members: Adults (19+): 300 NOK, Youth (til 18 years): 150 NOK. Multi-round card 10 rounds: 2000 NOK. Members betaler 200 NOK, youth/children/studenter free."
     },
     "2026": {
       "currency": "NOK",
@@ -151,7 +156,8 @@
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
-      "notes": "Priser uendret fra 2025. Medlemmer med andel eller sesongkort har fri spillerett. Ungdom/barn/studenter med betalt medlemskap spiller gratis. Utstyrleie tilgjengelig når proshop er bemannet, men priser ikke oppgitt på nettside."
+      "notes": "Priser uendret fra 2025. Medlemmer med andel eller sesongkort har fri spillerett. Ungdom/barn/studenter med betalt medlemskap spiller gratis. Utstyrleie tilgjengelig når proshop er bemannet, men priser ikke oppgitt på nettside.",
+      "notes_en": "Prices unchanged from 2025. Members with share or season ticket have free playing rights. Youth/children/students with paid membership play free. Equipment hire available."
     }
   },
   "membershipPricing": {
@@ -181,35 +187,45 @@
         "name": "Medlemskontingent med dugnadsplikt",
         "price": 1000,
         "description": "Dugnadsplikt en weekend i kiosk/proshop (lørdag og søndag)",
-        "ageRange": "19+"
+        "ageRange": "19+",
+        "name_en": "Membership fee with volunteer duty",
+        "description_en": "Volunteer duty one weekend in the kiosk/pro shop (Saturday and Sunday)"
       },
       {
         "category": "Kontingent uten dugnadsplikt",
         "name": "Medlemskontingent uten dugnadsplikt",
         "price": 2300,
         "description": "Fri spillerett hele sesongen",
-        "ageRange": "19+"
+        "ageRange": "19+",
+        "name_en": "Membership fee without volunteer duty",
+        "description_en": "Unlimited playing rights hele sesongen"
       },
       {
         "category": "Junior",
         "name": "Medlemskontingent junior",
         "price": 500,
         "description": "Fri spillerett ved betalt medlemskap. Gjelder barn/ungdom i Valle, Bykle og Vinje kommuner",
-        "ageRange": "0-18"
+        "ageRange": "0-18",
+        "name_en": "Membership fee junior",
+        "description_en": "Unlimited playing rights ved paid membership. Applies to children/youth in Valle, Bykle and Vinje municipalities"
       },
       {
         "category": "Student",
         "name": "Medlemskontingent student",
         "price": 1000,
         "description": "Fri spillerett ved betalt medlemskap. Gjelder studenter i Valle, Bykle og Vinje kommuner som studerer fulltid",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Membership fee student",
+        "description_en": "Unlimited playing rights ved paid membership. Applies to students in Valle, Bykle and Vinje municipalities studying full-time"
       },
       {
         "category": "Fjernmedlem",
         "name": "Fjernmedlemskap junior og senior",
         "price": 850,
         "description": "Betaler ordinær greenfee som gjestespiller. Kan ikke kombineres med spilleandel eller sesongkort.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Membership junior and senior",
+        "description_en": "Pays standard green fee as a guest player. Cannot be combined with playing share or season pass."
       }
     ]
   },
@@ -263,5 +279,8 @@
     "createdAt": "2025-10-30T13:27:23.663Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ6fU01R8pOUYRgooVgsS0apc"
+  "googlePlaceId": "ChIJ6fU01R8pOUYRgooVgsS0apc",
+  "slug_en": "hovden-golf-club",
+  "name_en": "Hovden Golf Club",
+  "description_en": "Ornefjell golf course sits at 725 metres above sea level and is a 9-hole highland course with 18 different tee positions. Surrounded by towering mountains and abundant water features. All greens have artificial grass. Described by visitors as challenging yet enjoyable."
 }

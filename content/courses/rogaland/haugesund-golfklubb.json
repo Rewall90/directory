@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Haugesund Golfklubb er en 9-hulls parkbane ved Kolnes, 5 minutter fra Haugesund sentrum. Grunnlagt 1997, åpnet 2001. Designet av Svein D. Olsnes. Par 35 (9 hull), par 70 (18 hull spilt to ganger). Lengde 2326m (gul), 2007m (rød). Semi-privat bane med naturskjønne omgivelser, gjennomtenkte fairways og velholdte greener. Åpen for besøkende med handicap max 54. Driving range 240m (Norges lengste) med 20+ plasser, 10 under tak, flombelyst, åpent 24/7. Robotgressklipper og robotball-samler. Callaway rangeballer. Golfsimulatorer, putting green, kort spill-område. Teaching pro tilgjengelig. Gratis kølleutlån for nybegynnere. Åpen hele året."
+    "viewDescription": "Haugesund Golfklubb er en 9-hulls parkbane ved Kolnes, 5 minutter fra Haugesund sentrum. Grunnlagt 1997, åpnet 2001. Designet av Svein D. Olsnes. Par 35 (9 hull), par 70 (18 hull spilt to ganger). Lengde 2326m (gul), 2007m (rød). Semi-privat bane med naturskjønne omgivelser, gjennomtenkte fairways og velholdte greener. Åpen for besøkende med handicap max 54. Driving range 240m (Norges lengste) med 20+ plasser, 10 under tak, flombelyst, åpent 24/7. Robotgressklipper og robotball-samler. Callaway rangeballer. Golfsimulatorer, putting green, kort spill-område. Teaching pro tilgjengelig. Gratis kølleutlån for nybegynnere. Åpen hele året.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "designer_en": "Svein D. Olsnes",
+    "signatureHole_en": "Scenic parkland course at Kolnes near Haugesund",
+    "scenicHole_en": "Scenic parkland course at Kolnes near Haugesund",
+    "viewDescription_en": "Haugesund Golf Club (Haugesund Golf Park) is a 9-hole parkland course at Kolnes, approximately 5 minutes from Haugesund town centre. Founded 8 October 1997, opened 2001. Designed by architect Svein D. Olsnes. Par 35 for 9 holes, par 70 for 18 holes (played twice). Length 2,326 m (yellow), 2,007 m (red) for 9 holes. Semi-private course open to visitors with a valid handicap (max 54). Parkland-style course with thoughtfully designed fairways and well-maintained greens in scenic surroundings. Open all year. Facilities include Norway's longest driving range (240 m) with over 20 bays, golf simulators, putting green and short game area."
   },
   "description": "Haugesund Golfklubb (Haugesund Golfpark) er en 9-hulls parkbane ved Kolnes, ca 5 minutter fra Haugesund sentrum. Grunnlagt 08. oktober 1997, åpnet 2001. Designet av arkitekt Svein D. Olsnes. Par 35 for 9 hull, par 70 for 18 hull (spilt to ganger). Lengde 2326m (gul), 2007m (rød) for 9 hull. Semi-privat bane åpen for besøkende med gyldig handicap (max 54). Parkstil bane med gjennomtenkte fairways og velholdte greener i naturskjønne omgivelser. Åpen hele året. Fasiliteter inkluderer Norges lengste driving range (240m) med over 20 plasser, golfsimulatorer, putting green og kort spill-område.",
   "contact": {
@@ -81,7 +87,8 @@
   "season": {
     "start": "Januar",
     "end": "Desember",
-    "winterUse": "Banen er åpen hele året. Driving range åpen 24/7."
+    "winterUse": "Banen er åpen hele året. Driving range åpen 24/7.",
+    "winterUse_en": "The course is open all year. Driving range open 24/7."
   },
   "visitors": {
     "welcome": true,
@@ -151,7 +158,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Gratis kølleutlån for nybegynnere på driving range"
+      "notes": "Gratis kølleutlån for nybegynnere på driving range",
+      "greenFeeDescription_en": "Green fee: 250 kr. Valid handicap and handicap certificate required (max handicap 54). Booking by telephone or website.",
+      "notes_en": "Free club hire for beginners on the driving range"
     },
     "2025": {
       "currency": "NOK",
@@ -172,7 +181,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "9-hulls bane. Greenfee gjelder hele dagen."
+      "notes": "9-hulls bane. Greenfee gjelder hele dagen.",
+      "greenFeeDescription_en": "9-hole People's Course: 300 kr for the whole day. 6-hole Pitch & Putt: 150 kr (free for members). Driving range: half bucket 50 kr, full bucket 100 kr. Simulator: 200 kr/hour.",
+      "notes_en": "9-hole course. Green fee valid all day."
     },
     "2026": {
       "currency": "NOK",
@@ -200,7 +211,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "9-hulls bane. Greenfee gjelder hele dagen. Driving range åpen 24/7 med 240 meter lengde, 20+ plasser (10 under tak), flombelyst, Callaway rangeballer, robotgressklipper og robotball-samler. Trackman simulator tilgjengelig. Gratis kølleutlån for nybegynnere. Nybegynnerkurs inkluderer gratis rangeballer, kølleutlån og gratis spill på kortbanen. Lokalutleie inkluderer glass, tallerkener, bestikk og andre hvitevarer. Priser hentet fra nettsiden februar 2026."
+      "notes": "9-hulls bane. Greenfee gjelder hele dagen. Driving range åpen 24/7 med 240 meter lengde, 20+ plasser (10 under tak), flombelyst, Callaway rangeballer, robotgressklipper og robotball-samler. Trackman simulator tilgjengelig. Gratis kølleutlån for nybegynnere. Nybegynnerkurs inkluderer gratis rangeballer, kølleutlån og gratis spill på kortbanen. Lokalutleie inkluderer glass, tallerkener, bestikk og andre hvitevarer. Priser hentet fra nettsiden februar 2026.",
+      "greenFeeDescription_en": "9-hole People's Course: 300 kr for the whole day. 6-hole Pitch & Putt: 150 kr (free for members). Driving range: half bucket 50 kr, full bucket 100 kr. Simulator: 200 kr/hour. Beginner course: 950 kr (500 kr with membership). Venue hire: Mon-Thu 2,000 kr, Mon-Thu after 16:00 4,000 kr, Fri-Sun 5,000 kr, wedding weekend 10,000 kr.",
+      "notes_en": "9-hole course. Green fee valid all day. Driving range open 24/7, 240 metres long, 20+ bays (10 covered), floodlit, Callaway range balls, robotic mower and ball collector. TrackMan simulator available. Free club hire for beginners. Beginner course includes free range balls, club hire and free play on the short course. Venue hire includes glasses, plates, cutlery and white goods. Prices from website February 2026."
     }
   },
   "membershipPricing": {
@@ -209,61 +222,81 @@
         "category": "adult",
         "price": 4400,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "spouse",
         "price": 3100,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "student",
         "price": 2150,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "age20_29",
         "price": 2150,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Age 20-29",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "junior13_19",
         "price": 1250,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Junior 13-19",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "family",
         "price": 7500,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "additionalJunior",
         "price": 500,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Additional Junior",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "bMembership",
         "price": 3300,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "B-Membership",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "passive",
         "price": 1200,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Passive",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       },
       {
         "category": "remote",
         "price": 850,
         "description": "Hovedmedlem 4400 kr, ektefelle/samboer 3100 kr, student/militær 2150 kr, alder 20-29 år 2150 kr, junior 13-19 år 1250 kr, barn 0-12 år gratis. Familiemedlemskap 7500 kr (1 hovedmedlem + 1 ektefelle + 1 junior), tilleggsjunior 500 kr. B-medlemskap (spillerett i annen klubb) 3300 kr. Passivt medlemskap 1200 kr (ingen spillerett, 3 gratis greenfee). Fjernmedlemskap 850 kr. Ubetalt kontingent fører til blokkering i Golfbox. Oppsigelse må skje skriftlig før 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Full member 4,400 kr, spouse/partner 3,100 kr, student/military 2,150 kr, age 20-29 years 2,150 kr, junior 13-19 years 1,250 kr, children 0-12 years free. Family membership 7,500 kr (1 full member + 1 spouse + 1 junior), additional junior 500 kr. B-membership (playing rights in another club) 3,300 kr. Passive membership 1,200 kr (no playing rights, 3 free green fees). Distance membership 850 kr. Unpaid subscription leads to Golfbox blocking. Cancellation must be in writing before 31 December."
       }
     ],
     "2025": [
@@ -271,55 +304,73 @@
         "category": "adult",
         "price": 4400,
         "description": "Hovedmedlem",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full member"
       },
       {
         "category": "spouse",
         "price": 3100,
         "description": "Ektefelle/Samboer",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Spouse/partner"
       },
       {
         "category": "student",
         "price": 2150,
         "description": "Student/Vernepliktig",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Student/military service"
       },
       {
         "category": "age20_29",
         "price": 2150,
         "description": "Alder 20-29 år",
-        "ageRange": "20-29"
+        "ageRange": "20-29",
+        "name_en": "Age 20-29",
+        "description_en": "Age 20-29 years"
       },
       {
         "category": "junior13_19",
         "price": 1200,
         "description": "Junior 13-19 år",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19",
+        "description_en": "Junior 13-19 years"
       },
       {
         "category": "barn0_12",
         "price": 0,
         "description": "Barn 0-12 år (gratis)",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Child 0-12",
+        "description_en": "Children 0-12 years (free)"
       },
       {
         "category": "family",
         "price": 7500,
         "description": "Familiemedlemskap (1 hovedmedlem + 1 ektefelle + 1 junior), +500 kr per ekstra junior",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Family membership (1 full member + 1 spouse + 1 junior), +500 kr per additional junior"
       },
       {
         "category": "bMembership",
         "price": 3300,
         "description": "B-medlemskap (spillerett i annen klubb)",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "B-Membership",
+        "description_en": "B-membership (playing rights in another club)"
       },
       {
         "category": "remote",
         "price": 850,
         "description": "Fjernmedlemskap",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance membership"
       }
     ],
     "2026": [
@@ -327,61 +378,81 @@
         "category": "adult",
         "price": 4400,
         "description": "Hovedmedlem",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full member"
       },
       {
         "category": "spouse",
         "price": 3100,
         "description": "Ektefelle/Samboer",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Spouse/partner"
       },
       {
         "category": "student",
         "price": 2150,
         "description": "Student/Vernepliktig",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Student/military service"
       },
       {
         "category": "age20_29",
         "price": 2150,
         "description": "Alder 20-29 år",
-        "ageRange": "20-29"
+        "ageRange": "20-29",
+        "name_en": "Age 20-29",
+        "description_en": "Age 20-29 years"
       },
       {
         "category": "junior13_19",
         "price": 1200,
         "description": "Junior 13-19 år (gratis trening på tirsdager kl 17:00-18:00)",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19",
+        "description_en": "Junior 13-19 years (free coaching on Tuesdays 17:00-18:00)"
       },
       {
         "category": "barn0_12",
         "price": 0,
         "description": "Barn 0-12 år (gratis medlemskap)",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Child 0-12",
+        "description_en": "Children 0-12 years (free membership)"
       },
       {
         "category": "family",
         "price": 7500,
         "description": "Familiemedlemskap (1 hovedmedlem + 1 ektefelle + 1 junior), +500 kr per ekstra junior",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Family membership (1 full member + 1 spouse + 1 junior), +500 kr per additional junior"
       },
       {
         "category": "additionalJunior",
         "price": 500,
         "description": "Tilleggsjunior til familiemedlemskap",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Additional Junior",
+        "description_en": "Additional junior for family membership"
       },
       {
         "category": "bMembership",
         "price": 3300,
         "description": "B-medlemskap (spillerett i annen klubb)",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "B-Membership",
+        "description_en": "B-membership (playing rights in another club)"
       },
       {
         "category": "remote",
         "price": 850,
         "description": "Fjernmedlemskap - et av Norges billigste medlemskap",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance membership - one of Norway's cheapest memberships"
       }
     ]
   },
@@ -501,5 +572,8 @@
     "updatedAt": "2026-02-16T10:45:00.000Z",
     "verificationNotes": "2026 Round 5 verification: All pricing confirmed current for 2025/2026 season. Membership rates unchanged from 2025. Greenfee 300 kr, driving range 50-100 kr, simulator 200 kr/hour, beginner course 950 kr (500 kr with membership), venue rental 2000-10000 kr depending on day/time. Website shows 2025 rates still active, no 2026-specific updates published yet."
   },
-  "googlePlaceId": "ChIJ7ROkAjyfO0YREAAaU_uSPO8"
+  "googlePlaceId": "ChIJ7ROkAjyfO0YREAAaU_uSPO8",
+  "slug_en": "haugesund-golf-club",
+  "name_en": "Haugesund Golf Club",
+  "description_en": "Haugesund Golf Club (Haugesund Golf Park) is a 9-hole parkland course at Kolnes, approximately 5 minutes from Haugesund town centre. Founded 8 October 1997, opened 2001. Designed by architect Svein D. Olsnes. Par 35 for 9 holes, par 70 for 18 holes (played twice). Length 2,326 m (yellow), 2,007 m (red) for 9 holes. Semi-private course open to visitors with a valid handicap (max 54). Parkland-style course with thoughtfully designed fairways and well-maintained greens in scenic surroundings. Open all year. Facilities include Norway's longest driving range (240 m) with over 20 bays, golf simulators, putting green and short game area."
 }

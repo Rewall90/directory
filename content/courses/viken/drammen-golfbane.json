@@ -32,7 +32,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": null,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Forest and park course",
+    "courseType_en": "18-hole championship parkland course",
+    "designer_en": "Jeremy Turner"
   },
   "description": "Variert og morsom 18-hulls PAR-71 bane designet av den anerkjente arkitekten Jeremy Turner. Banen er spillbar med både hode og hjerte, og passer for alle nivåer.\n\n📏 LENGDE: 4700-5800 meter avhengig av tee-valg\n\n🏔️ KJENNETEGN:\n• Utfordrende skråninger og betydelige høydeforskjeller\n• Vakre naturopplevelser i skog- og parkterreng\n• Variert vanskelighetsgrad\n• Naturskjønn bane\n\n📍 PLASSERING: Skoger, 1,5 km sør for Drammen sentrum\n\n⚠️ KRAV FOR SPILL: Alle spillere må ha gjennomført VTG-kurs eller ha handicap 54 eller bedre.",
   "contact": {
@@ -159,7 +162,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "GOLFBIL (2026):\n• 18 hull standard: 420 NOK\n• 18 hull medlem: 350 NOK\n• 9 hull: 250 NOK\n• Årskort: 5000 NOK\n• Aldersgrense 18 år\n• Kjøring rundt greener forbudt\n• 16 elektriske golfbiler tilgjengelig\n\nBETALING: All greenfee forhåndsbetales i Golfbox\n\nINNSJEKK: Møt opp minimum 10 minutter før tee time i pro shop\n\nBOOKING:\n• Medlemmer: 10 dager i forveien\n• Gjester: 6 dager i forveien\n\nSTORE GRUPPER: 12-24 greenfee-spillere kontakt 32 88 03 03 eller post@drammen.golf\n\nNYTT: TrackMan Simulator på klubbhuset!"
+      "notes": "GOLFBIL (2026):\n• 18 hull standard: 420 NOK\n• 18 hull medlem: 350 NOK\n• 9 hull: 250 NOK\n• Årskort: 5000 NOK\n• Aldersgrense 18 år\n• Kjøring rundt greener forbudt\n• 16 elektriske golfbiler tilgjengelig\n\nBETALING: All greenfee forhåndsbetales i Golfbox\n\nINNSJEKK: Møt opp minimum 10 minutter før tee time i pro shop\n\nBOOKING:\n• Medlemmer: 10 dager i forveien\n• Gjester: 6 dager i forveien\n\nSTORE GRUPPER: 12-24 greenfee-spillere kontakt 32 88 03 03 eller post@drammen.golf\n\nNYTT: TrackMan Simulator på klubbhuset!",
+      "greenFeeDescription_en": "18 HOLES:\n• Weekday: 550 NOK\n• Weekend: 600 NOK\n• Junior: half price all days\n\n9 HOLES:\n• Weekday: 300 NOK\n• Weekend: 400 NOK\n• Junior: half price\n\nMEMBER WITH GUEST (maximum 3 visitors):\n• Weekday: 500 NOK per guest\n• Weekend: 550 NOK per guest\n• Guest must be pre-booked and paid for by the member",
+      "notes_en": "BUGGY (2026):\n• 18 holes standard: 420 NOK\n• 18 holes member: 350 NOK\n• 9 holes: 250 NOK\n• Annual pass: 5,000 NOK\n• Age limit 18 years\n• Driving around greens prohibited\n• 16 electric buggies available\n\nPAYMENT: All green fee must be pre-paid via GolfBox\n\nCHECK-IN: Arrive minimum 10 minutes before tee time at the pro shop\n\nBOOKING:\n• Members: 10 days in advance\n• Visitors: 6 days in advance\n\nLARGE GROUPS: 12-24 green fee players contact 32 88 03 03 or post@drammen.golf\n\nNEW: TrackMan Simulator at the clubhouse!"
     }
   },
   "membershipPricing": {
@@ -168,37 +173,43 @@
         "category": "voksen",
         "price": 8500,
         "description": "Fullverdig medlem Voksen 2026 - spillerett med fritt spill",
-        "ageRange": "26+"
+        "ageRange": "26+",
+        "description_en": "Full member Adult 2026 - playing rights with free play"
       },
       {
         "category": "ung_voksen",
         "price": 4800,
         "description": "Fullverdig medlem Ung Voksen 2026 - spillerett med fritt spill",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "description_en": "Full member Young Adult 2026 - playing rights with free play"
       },
       {
         "category": "junior",
         "price": 2700,
         "description": "Fullverdig medlem Junior 2026 - spillerett med fritt spill",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "description_en": "Full member Junior 2026 - playing rights with free play"
       },
       {
         "category": "knotter",
         "price": 700,
         "description": "Knøtter 2026 - fritt spill for barn 0-12 år",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "description_en": "Tots 2026 - free play for children 0-12 years"
       },
       {
         "category": "klubbmedlemskap",
         "price": 3000,
         "description": "Klubbmedlemskap uten spillerett m/3 greenfee inkludert. For deg som ikke spiller så mye golf, men ønsker å være medlem av Drammen Golfklubb.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Club membership without playing rights with 3 green fees included. For those who do not play much golf but wish to be a member of Drammen Golf Club."
       },
       {
         "category": "hverdag",
         "price": 6000,
         "description": "Hverdagsmedlemskap 2026 - spillerett på hverdager",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Weekday membership 2026 - playing rights on weekdays"
       }
     ],
     "familiemedlemskap": "Ved 2 fullt betalende voksne med fritt spill, får inntil 2 felles barn gratis medlemskap med fri spillerett t.o.m. 19 år."
@@ -258,5 +269,8 @@
     "scrapedAt": "2026-02-14T16:22:00.000Z",
     "createdAt": "2025-10-10T10:23:39.255Z",
     "updatedAt": "2026-02-14T17:30:00.000Z"
-  }
+  },
+  "slug_en": "drammen-golf-course",
+  "name_en": "Drammen Golf Course",
+  "description_en": "A varied and enjoyable 18-hole par-71 course designed by the acclaimed architect Jeremy Turner. The course can be played with both head and heart, and is suitable for all levels.\n\nLength: 4,700-5,800 metres depending on tee selection.\n\nFeatures include challenging slopes and significant elevation changes, beautiful natural scenery through woodland and parkland terrain, varied difficulty, and scenic views.\n\nLocated in Skoger, 1.5 km south of Drammen town centre.\n\nAll players must have completed an Introduction to Golf course or have a handicap of 54 or better."
 }

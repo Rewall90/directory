@@ -35,7 +35,10 @@
     "par4Count": 2,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Beliggenhet på Våg i Dønna kommune i den ytre, kystnære delen av Helgeland. Naturskjønne omgivelser med utsikt mot kysten og fjell."
+    "viewDescription": "Beliggenhet på Våg i Dønna kommune i den ytre, kystnære delen av Helgeland. Naturskjønne omgivelser med utsikt mot kysten og fjell.",
+    "terrain_en": "Parkland/Woodland course",
+    "courseType_en": "6-hole course",
+    "viewDescription_en": "Located at Vag in Donna municipality in the outer, coastal part of Helgeland. Scenic surroundings with views towards the coast and mountains."
   },
   "description": "6-hulls golfbane på Våg i Dønna kommune på Helgelandskysten. Etablert i 2001. Parkland/skogsbane i naturskjønne omgivelser i den ytre, kystnære delen av Helgeland. Åpen for besøkende hver dag.",
   "contact": {
@@ -56,7 +59,8 @@
   "season": {
     "start": "Mai",
     "end": "September",
-    "winterUse": "Banen stenges om vinteren"
+    "winterUse": "Banen stenges om vinteren",
+    "winterUse_en": "The course closes for winter"
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +127,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee for the 6-hole course. Contact the club for updated prices.",
+      "notes_en": null
     },
     "2026": {
       "currency": "NOK",
@@ -139,7 +145,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Alsten er en liten klubb med kun 17 medlemmer. Nettsiden var ikke tilgjengelig ved siste oppdatering. Ring eller send e-post for oppdatert prisinformasjon."
+      "notes": "Alsten er en liten klubb med kun 17 medlemmer. Nettsiden var ikke tilgjengelig ved siste oppdatering. Ring eller send e-post for oppdatert prisinformasjon.",
+      "greenFeeDescription_en": "Green fee for the 6-hole course. Prices are estimated based on previous years. Contact the club for confirmed prices: +47 995 67711 or post@alstengolf.com",
+      "notes_en": "Alsten is a small club with only 17 members. The website was unavailable at the last update. Ring or email for updated price information."
     }
   },
   "membershipPricing": {},
@@ -170,5 +178,8 @@
     "scrapedAt": "2026-02-15T00:00:00.000Z",
     "createdAt": "2025-10-31T09:43:37.327Z",
     "updatedAt": "2026-02-15T00:00:00.000Z"
-  }
+  },
+  "slug_en": "alsten-golf-club",
+  "name_en": "Alsten Golf Club",
+  "description_en": "6-hole golf course at Vag in Donna municipality on the Helgeland coast. Established in 2001. Parkland/woodland course in scenic surroundings in the outer, coastal part of Helgeland. Open to visitors every day."
 }

@@ -36,7 +36,12 @@
     "par4Count": 4,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Døgnåpent (24/7) i sesong; range, putting green, klubbhus."
+    "viewDescription": "Døgnåpent (24/7) i sesong; range, putting green, klubbhus.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole course",
+    "signatureHole_en": "Scenic Outer Namdal",
+    "scenicHole_en": "Scenic Outer Namdal",
+    "viewDescription_en": "Open 24/7 during season; range, putting green, clubhouse."
   },
   "description": "Vakker 9-hulls bane i Ytre Namdal; døgnåpen i sesong.",
   "contact": {
@@ -124,7 +129,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Døgnåpent i sesong. Betaling: Vipps 117315 eller bankkonto 4482.05.18303."
+      "notes": "Døgnåpent i sesong. Betaling: Vipps 117315 eller bankkonto 4482.05.18303.",
+      "greenFeeDescription_en": "Standard green fee per day: 200 kr. Partner clubs (Namdal, Namsos, Steinkjer GC): 100 kr.",
+      "notes_en": "Open 24/7 during season. Payment: Vipps 117315 or bank account 4482.05.18303."
     },
     "2026": {
       "currency": "NOK",
@@ -141,7 +148,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Døgnåpent i sesong. Betaling: Vipps 117315 eller bankkonto 4482.05.18303."
+      "notes": "Døgnåpent i sesong. Betaling: Vipps 117315 eller bankkonto 4482.05.18303.",
+      "greenFeeDescription_en": "Standard green fee per day: 200 kr. Partner clubs (Namdal, Namsos, Steinkjer GC): 100 kr.",
+      "notes_en": "Open 24/7 during season. Payment: Vipps 117315 or bank account 4482.05.18303."
     }
   },
   "membershipPricing": {
@@ -150,43 +159,57 @@
         "category": "Senior",
         "price": 2700,
         "description": "Medlemskap med spillerett for voksne fra 19 år.",
-        "ageRange": "19+"
+        "ageRange": "19+",
+        "name_en": "Senior",
+        "description_en": "Membership with playing rights for adults from 19 years."
       },
       {
         "category": "Familie",
         "price": 4000,
         "description": "Familiemedlemskap for 2 voksne + 2 barn/junior.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Family membership for 2 adults + 2 children/juniors."
       },
       {
         "category": "Junior",
         "price": 1350,
         "description": "Medlemskap med spillerett for junior 13-18 år.",
-        "ageRange": "13-18"
+        "ageRange": "13-18",
+        "name_en": "Junior",
+        "description_en": "Membership with playing rights for juniors aged 13-18."
       },
       {
         "category": "Student",
         "price": 1350,
         "description": "Medlemskap med spillerett for studenter. Studentbevis kreves.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Membership with playing rights for students. Student ID required."
       },
       {
         "category": "Barn",
         "price": 250,
         "description": "Medlemskap med spillerett for barn t.o.m. 12 år.",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Child",
+        "description_en": "Membership with playing rights for children up to 12 years."
       },
       {
         "category": "Fjernmedlem",
         "price": 750,
         "description": "Fjernmedlemskap.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance membership."
       },
       {
         "category": "VTG-kurs",
         "price": 2700,
         "description": "Veien til golf kurs. Inkluderer spillerett det året kurset tas.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Get Into Golf course",
+        "description_en": "Get Into Golf course. Includes playing rights for the year the course is taken."
       }
     ]
   },
@@ -231,5 +254,8 @@
     "createdAt": "2025-10-31T11:30:51.425Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJGx2VNwAlc0YRvMzqwag8oTs"
+  "googlePlaceId": "ChIJGx2VNwAlc0YRvMzqwag8oTs",
+  "slug_en": "naeroysund-golf-club",
+  "name_en": "Nærøysund Golf Club",
+  "description_en": "Beautiful 9-hole course in Outer Namdal; open 24/7 during season."
 }

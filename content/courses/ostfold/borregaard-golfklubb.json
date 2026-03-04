@@ -1,6 +1,8 @@
 {
   "slug": "borregaard-golfklubb",
+  "slug_en": "borregaard-golf-club",
   "name": "Borregaard Golfklubb",
+  "name_en": "Borregaard Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Sarpsborg",
@@ -36,9 +38,15 @@
     "par4Count": 4,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Variert og morsom bane ved Glommas bredder."
+    "viewDescription": "Variert og morsom bane ved Glommas bredder.",
+    "terrain_en": "Undulating parkland course",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Views over the River Glomma",
+    "scenicHole_en": "Views over the River Glomma",
+    "viewDescription_en": "Varied and enjoyable course on the banks of the River Glomma."
   },
   "description": "Norges nest eldste – 9-hulls parkbane ved Glomma (spilles som 18).",
+  "description_en": "Norway's second oldest golf club - 9-hole parkland course by the River Glomma (played as 18).",
   "contact": {
     "phone": "+47 69 12 15 00",
     "email": "post@borregaardgk.no",
@@ -58,7 +66,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Stengt om vinteren"
+    "winterUse": "Stengt om vinteren",
+    "winterUse_en": "Closed during winter"
   },
   "visitors": {
     "welcome": true,
@@ -127,7 +136,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Spillere med legeerklæring: 100kr rabatt på golfbil"
+      "notes": "Spillere med legeerklæring: 100kr rabatt på golfbil",
+      "greenFeeDescription_en": "18 holes 400 NOK, 9 holes 300 NOK. All juniors play FREE. Payment at reception, Vipps or card terminal. Booking via GolfBox.",
+      "notes_en": "Players with medical certificate: 100 NOK discount on golf buggy"
     }
   },
   "membershipPricing": {
@@ -147,7 +158,10 @@
       "withoutPlayingRights": 500,
       "borregaardEmployee": 4580,
       "currency": "NOK",
-      "membershipStatus": "open"
+      "membershipStatus": "open",
+      "trialDescription_en": "Trial member includes VTG course and free play at Skjeberg GK",
+      "youngAdultDescription_en": "Older Junior 19-25 years",
+      "greenfeeSeasonDescription_en": "Half price on standard green fee"
     }
   },
   "ratings": {

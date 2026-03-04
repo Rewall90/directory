@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "18-hole parkland course",
+    "courseType_en": "18-hole parkland course"
   },
   "description": "Skog- og parkbane",
   "contact": {
@@ -124,7 +126,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Aldersgrense 18 år med førerkort for golfbil. Rabatter kan ikke kombineres."
+      "notes": "Aldersgrense 18 år med førerkort for golfbil. Rabatter kan ikke kombineres.",
+      "greenFeeDescription_en": "Green fee for guest players. Members of Askim GK, Krokhol GK, and Borregaard GK play free of charge (Askim/Krokhol: 1 May - 15 Oct).",
+      "notes_en": "Minimum age 18 with driving licence for golf buggies. Discounts cannot be combined."
     }
   },
   "membershipPricing": {},
@@ -169,5 +173,8 @@
     "createdAt": "2025-10-31T11:23:15.692Z",
     "updatedAt": "2026-02-15T15:46:00.000Z"
   },
-  "googlePlaceId": "ChIJ85BzJ9BdQUYRbCJs91rGAkQ"
+  "googlePlaceId": "ChIJ85BzJ9BdQUYRbCJs91rGAkQ",
+  "slug_en": "ski-golf-club-smerta",
+  "name_en": "Ski Golf Club - Smerta",
+  "description_en": "Woodland and parkland course"
 }

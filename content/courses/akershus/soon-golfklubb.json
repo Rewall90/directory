@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Parkland and woodland course",
+    "courseType_en": "Parkland and woodland course"
   },
   "description": "Soon Golfbane er en 9-hulls Golfbane kjent for sine store, utfordrende og raske greener. Banen virker med sine 5.510 meter fra hvit tee, 5.298 meter fra gul tee og 4.248 meter fra rød tee som en overkommelig utfordring, men skinnet bedrar. Det stilles virkelig krav til kløkt og nøyaktighet dersom man skal spille til sitt handicap på Soon Golfbane. Det er ikke minst de store og ondulerte greenene som krever både rett spillestrategi og dyp konsentrasjon ved putting.",
   "contact": {
@@ -122,7 +124,9 @@
       "greenFeeSeason": 3700,
       "greenFeeDescription": "Greenfee priser for 9 hull. Book 2 runder for 18 hull (minimum 2 timer & 20 min mellom runder). Forhåndsbetaling fra 1. juni 2025.",
       "practiceField": 100,
-      "notes": "Hcp krav hovedbane: 54/54. Korthullsbane: Pay & play (ingen). Tidsbestilling 10 dager før i Golfbox."
+      "notes": "Hcp krav hovedbane: 54/54. Korthullsbane: Pay & play (ingen). Tidsbestilling 10 dager før i Golfbox.",
+      "greenFeeDescription_en": "Green fee prices for 9 holes. Book 2 rounds for 18 holes (minimum 2 hours & 20 min between rounds). Prepayment from 1 June 2025.",
+      "notes_en": "Handicap requirement main course: 54/54. Short course: Pay & play (none). Tee time booking 10 days in advance in Golfbox."
     },
     "2026": {
       "currency": "NOK",
@@ -133,7 +137,9 @@
       "greenFeeDescription": "Greenfee priser for 9 hull. Book 2 runder for 18 hull. Forhåndsbetaling av greenfee. 2026-priser ikke publisert ennå, 2025-priser videreført inntil oppdatering.",
       "practiceField": 100,
       "pullCartRental": "Gratis for sesongkortmedlemmer (Pluss Loyalty)",
-      "notes": "Hcp krav hovedbane: 54/54. Korthullsbane: Pay & play (ingen). Tidsbestilling 10 dager før i Golfbox. Trackman Range åpner våren 2026."
+      "notes": "Hcp krav hovedbane: 54/54. Korthullsbane: Pay & play (ingen). Tidsbestilling 10 dager før i Golfbox. Trackman Range åpner våren 2026.",
+      "greenFeeDescription_en": "Green fee prices for 9 holes. Book 2 rounds for 18 holes. Prepayment of green fee. 2026 prices not yet published, 2025 prices carried forward until updated.",
+      "notes_en": "Handicap requirement main course: 54/54. Short course: Pay & play (none). Tee time booking 10 days in advance in Golfbox. Trackman Range opening spring 2026."
     }
   },
   "membershipPricing": {},
@@ -183,5 +189,8 @@
     "createdAt": "2025-10-31T11:23:16.053Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJnWBejTBOQUYR03P_WdbAyXM"
+  "googlePlaceId": "ChIJnWBejTBOQUYR03P_WdbAyXM",
+  "slug_en": "soon-golf-club",
+  "name_en": "Soon Golf Club",
+  "description_en": "Soon Golf Course is a 9-hole course renowned for its large, challenging, and fast greens. At 5,510 metres from the white tees, 5,298 metres from the yellow tees, and 4,248 metres from the red tees, the course appears to be a manageable challenge, but appearances are deceptive. Real skill and accuracy are required to play to your handicap at Soon Golf Course. Not least, the large and undulating greens demand both the right playing strategy and deep concentration when putting."
 }

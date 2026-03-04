@@ -58,7 +58,8 @@
   "season": {
     "start": null,
     "end": "19. oktober",
-    "winterUse": "Rutiner ved frost tilgjengelig"
+    "winterUse": "Rutiner ved frost tilgjengelig",
+    "winterUse_en": "Frost procedures available"
   },
   "visitors": {
     "welcome": true,
@@ -142,7 +143,9 @@
         "Elverum GK",
         "Valdres GK"
       ],
-      "notes": "Samarbeidsklubber får rabatt. NSG 100 kr rabatt ukedager før 15:00. 9 hull skal maks ta 2:10, 18 hull maks 4:20."
+      "notes": "Samarbeidsklubber får rabatt. NSG 100 kr rabatt ukedager før 15:00. 9 hull skal maks ta 2:10, 18 hull maks 4:20.",
+      "greenFeeDescription_en": "Adult: Weekday 450 kr (18), 350 kr (9). Weekend 490 kr (18), 380 kr (9). Junior/Student: 325 kr (18), 250 kr (9). Green fee members: 300 kr (18), 235 kr (9). NSG: 100 kr discount on weekdays before 15:00.",
+      "notes_en": "Partner clubs receive a discount. NSG 100 kr discount weekdays before 15:00. 9 holes should take a maximum of 2:10, 18 holes a maximum of 4:20."
     }
   },
   "membershipPricing": {
@@ -233,5 +236,8 @@
     "createdAt": "2025-10-31T07:18:11.866Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJLz8PtbDEQUYRMUmZWfyLvuY"
+  "googlePlaceId": "ChIJLz8PtbDEQUYRMUmZWfyLvuY",
+  "slug_en": "gjovik-and-toten-golf-club",
+  "name_en": "Gjovik & Toten Golf Club",
+  "description_en": "Gjovik & Toten Golf Club -- an exciting 18-hole course with varied challenges"
 }

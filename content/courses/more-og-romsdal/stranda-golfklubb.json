@@ -1,6 +1,8 @@
 {
   "slug": "stranda-golfklubb",
+  "slug_en": "stranda-golf-club",
   "name": "Stranda Golfklubb",
+  "name_en": "Stranda Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Stranda",
@@ -36,9 +38,15 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Naturopplevelser i vakker natur med skogslandskap og utsikt over Strandadalen. Nær Geirangerfjorden og Trollstigen."
+    "viewDescription": "Naturopplevelser i vakker natur med skogslandskap og utsikt over Strandadalen. Nær Geirangerfjorden og Trollstigen.",
+    "terrain_en": "Undulating",
+    "courseType_en": "9-hole executive course (played two rounds for 18 holes)",
+    "signatureHole_en": "Scenic surroundings with views over the Stranda valley",
+    "scenicHole_en": "Scenic surroundings with views over the Stranda valley",
+    "viewDescription_en": "Nature experiences in beautiful surroundings with woodland landscape and views over the Stranda valley. Near the Geiranger Fjord and Trollstigen."
   },
   "description": "Idyllisk 9-hulls executive course, Overvoll Golfbane, beliggende ca. 14 km fra Stranda sentrum i retning Stryn. Variert golfbane med naturopplevelser i vakker natur. Banen kombinerer skogslandskap og parkliknende områder med vakre naturomgivelser. Klubben ble grunnlagt i 1991. Banen er tilgjengelig for alle - greenkort er ikke påkrevd, men minst en i flighten bør ha det. Overvoll Retreat tilbyr også overnatting.",
+  "description_en": "Idyllic 9-hole executive course, Overvoll Golf Course, situated approximately 14 km from Stranda town centre towards Stryn. Varied golf course with nature experiences in beautiful surroundings. The course combines woodland and parkland areas with beautiful natural surroundings. The club was founded in 1991. The course is accessible to all - a green card is not required, but at least one player in the flight should have one. Overvoll Retreat also offers accommodation.",
   "contact": {
     "phone": "+47 70 26 21 33",
     "email": "klubbkontor@strandagolf.no",
@@ -68,7 +76,8 @@
   "season": {
     "start": "Mai",
     "end": "September",
-    "winterUse": "Golfsimulator åpen hele året. Vintergolfprogram tilgjengelig gjennom simulator og vinterturnering."
+    "winterUse": "Golfsimulator åpen hele året. Vintergolfprogram tilgjengelig gjennom simulator og vinterturnering.",
+    "winterUse_en": "Golf simulator open all year. Winter golf programme available through simulator and winter tournament."
   },
   "visitors": {
     "welcome": true,
@@ -135,7 +144,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling til konto 3910.13.81645. Greenfee gjelder hele dagen."
+      "notes": "Betaling til konto 3910.13.81645. Greenfee gjelder hele dagen.",
+      "greenFeeDescription_en": "Senior green fee: 300 NOK/day. Children/junior (up to 19 years): 200 NOK/day. Season pass: senior 2,400 NOK, junior 1,500 NOK. Half price from 1 August.",
+      "notes_en": "Payment to account 3910.13.81645. Green fee valid all day."
     },
     "2026": {
       "currency": "NOK",
@@ -157,7 +168,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling til konto 3910.13.81645. Greenfee gjelder hele dagen - spill så mange runder du vil. 2026-priser ikke publisert ennå (per feb. 2026), priser videreført fra 2025."
+      "notes": "Betaling til konto 3910.13.81645. Greenfee gjelder hele dagen - spill så mange runder du vil. 2026-priser ikke publisert ennå (per feb. 2026), priser videreført fra 2025.",
+      "greenFeeDescription_en": "Senior green fee: 300 NOK/day. Children/junior (up to 19 years): 200 NOK/day. Season pass: senior 2,400 NOK, junior 1,500 NOK. Half price from 1 August (1,200 NOK and 750 NOK).",
+      "notes_en": "Payment to account 3910.13.81645. Green fee valid all day - play as many rounds as you wish. 2026 prices not yet published (as of Feb 2026), prices carried forward from 2025."
     }
   },
   "membershipPricing": {
@@ -182,7 +195,17 @@
       "greenfeeSesongkort": 2400,
       "greenfeeSesongkortDescription": "Sesongkort for greenfee (betales i tillegg til medlemskap)",
       "membershipStatus": "open",
-      "notes": "Halv pris fra 1. august. Ingen innmeldingsavgift eller dugnadsavgift. NGF-medlemskap inkludert. Fjernmedlemmer får 2 gratis greenfee-dagskort årlig."
+      "notes": "Halv pris fra 1. august. Ingen innmeldingsavgift eller dugnadsavgift. NGF-medlemskap inkludert. Fjernmedlemmer får 2 gratis greenfee-dagskort årlig.",
+      "fullMembershipDescription_en": "Senior local membership (from 20 years)",
+      "juniorMembershipDescription_en": "Child/junior local membership (up to 19 years)",
+      "familyMembershipDescription_en": "Family local membership (couple + all children/juniors)",
+      "coupleMembershipDescription_en": "Couple local membership",
+      "distanceMembershipDescription_en": "Distance membership senior (outside Stranda municipality). Includes 2 free green fee day passes.",
+      "distanceJuniorMembershipDescription_en": "Distance membership child/junior (up to 19 years)",
+      "distanceFamilyMembershipDescription_en": "Distance membership family (couple + all children/juniors)",
+      "distanceCoupleMembershipDescription_en": "Distance membership couple",
+      "greenfeeSesongkortDescription_en": "Season pass for green fee (paid in addition to membership)",
+      "notes_en": "Half price from 1 August. No joining fee or volunteer fee. NGF membership included. Distance members receive 2 free green fee day passes annually."
     }
   },
   "ratings": {

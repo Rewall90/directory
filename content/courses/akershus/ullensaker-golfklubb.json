@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "9-hole course",
+    "courseType_en": "9-hole course"
   },
   "description": "Midt mellom Jessheim og Gardermoen, kun minutter fra hovedfartsåren E6 finnes det en perle av en golfbane. Med sine flotte og utfordrende 9 hull, legger den til rette for en rask runde før eller etter arbeidstid på hverdagene. Vi har også flott treningsområde, puttinggreen, drivingrange og proshop.\n\nMidt mellom Jessheim og Gardermoen, kun minutter fra hovedfartsåren E6 finnes det en perle av en golfbane.",
   "contact": {
@@ -116,7 +118,9 @@
       "greenFee9Holiday": 300,
       "greenFee18Holiday": 450,
       "greenFeeDescription": "Greenfee betales FØR spill i proshop eller via Vipps.",
-      "notes": "Helligdagspriser gjelder også inneklemte dager."
+      "notes": "Helligdagspriser gjelder også inneklemte dager.",
+      "greenFeeDescription_en": "Green fee must be paid BEFORE play in the pro shop or via Vipps.",
+      "notes_en": "Bank holiday prices also apply on bridging days."
     }
   },
   "membershipPricing": {
@@ -209,5 +213,8 @@
     "createdAt": "2025-10-31T11:23:16.448Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJs36bs7qBQUYR1o8Lorp4hbA"
+  "googlePlaceId": "ChIJs36bs7qBQUYR1o8Lorp4hbA",
+  "slug_en": "ullensaker-golf-club",
+  "name_en": "Ullensaker Golf Club",
+  "description_en": "Situated between Jessheim and Gardermoen, just minutes from the E6 motorway, lies a gem of a golf course. With its superb and challenging 9 holes, it is perfect for a quick round before or after work on weekdays. We also have an excellent practice area, putting green, driving range, and pro shop."
 }

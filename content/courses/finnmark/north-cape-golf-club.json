@@ -32,7 +32,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "North Cape Golf Club - Verdens nordligste linksbane! Banak Links Golfpark - autentisk 9-hulls linksbane i sanddynelandskap ved havet i Lakselv. Par 72 (18h). Åpnet 2010. Omfattende treningsområde: Driving range (15 tees), putting green, pitching green, chipping green, practice bunker. VTG-kurs og juniorprogram. Del av Finnmark Golf Tour."
+    "viewDescription": "North Cape Golf Club - Verdens nordligste linksbane! Banak Links Golfpark - autentisk 9-hulls linksbane i sanddynelandskap ved havet i Lakselv. Par 72 (18h). Åpnet 2010. Omfattende treningsområde: Driving range (15 tees), putting green, pitching green, chipping green, practice bunker. VTG-kurs og juniorprogram. Del av Finnmark Golf Tour.",
+    "terrain_en": "Links - flat with water hazards",
+    "courseType_en": "9-hole links course",
+    "scenicHole_en": "Links course by the sea",
+    "viewDescription_en": "North Cape Golf Club - the world's most northerly links course! Banak Links Golf Park - an authentic 9-hole links course in a sand dune landscape by the sea in Lakselv. Par 72 (18 holes). Opened 2010. Extensive practice facilities: driving range (15 tees), putting green, pitching green, chipping green, practice bunker. Introduction to Golf courses and junior programme. Part of the Finnmark Golf Tour."
   },
   "description": "North Cape Golf Club - Verdens nordligste linksbane!\n\nBanak Links Golfpark ligger vakkert til i sanddynelandskap ved havet, øst for Lakselv lufthavn (Banak) på 70 grader nord.\n\n9-hulls autentisk linksbane med par 36. Lengde: Gul tee 2.800m, Blå tee 2.469m, Rød tee 2.205m.\n\nKlubben ble stiftet 7. juli 1997 som Finnmarks første golfklubb. Dagens bane åpnet 13. august 2010.\n\nSpill golf under midnattssolen på verdens nordligste linksbane - en unik opplevelse i ekte skotsk linkstradisjon.",
   "contact": {
@@ -124,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Lokale medlemmer: årsgreenfee 2000 kr, dag 250 kr, 9-hull 150 kr. Junior under 19 år gratis greenfee."
+      "notes": "Lokale medlemmer: årsgreenfee 2000 kr, dag 250 kr, 9-hull 150 kr. Junior under 19 år gratis greenfee.",
+      "greenFeeDescription_en": "green fee visitors: Adults dag 350 NOK, 9-holes 250 NOK, uke 1000 NOK Junior 15-19: dag 175 NOK, 9-holes 125 NOK, uke 500 NOK 50 NOK discount for distance members og partner Northern Norwegian clubs.",
+      "notes_en": "Local members: annual green fee 2,000 NOK, day 250 NOK, 9 holes 150 NOK. Junior under 19 years free green fee."
     }
   },
   "membershipPricing": {
@@ -266,5 +272,8 @@
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T10:55:19.086Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
-  }
+  },
+  "slug_en": "north-cape-golf-club",
+  "name_en": "North Cape Golf Club",
+  "description_en": "North Cape Golf Club - the world's most northerly links course!\n\nBanak Links Golf Park is beautifully situated in a sand dune landscape by the sea, east of Lakselv Airport (Banak) at 70 degrees north.\n\n9-hole authentic links course with par 36. Length: Yellow tee 2,800m, Blue tee 2,469m, Red tee 2,205m.\n\nThe club was founded on 7 July 1997 as Finnmark's first golf club. The current course opened on 13 August 2010.\n\nPlay golf under the midnight sun on the world's most northerly links course - a unique experience in true Scottish links tradition."
 }

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Golfperle ved havet; klubbhus med lagringsplass; range med mynter."
+    "viewDescription": "Golfperle ved havet; klubbhus med lagringsplass; range med mynter.",
+    "terrain_en": "Links",
+    "courseType_en": "9-hole links course",
+    "signatureHole_en": "Views towards the Trondheimsleia strait and Terningen lighthouse",
+    "scenicHole_en": "Views towards the Trondheimsleia strait and Terningen lighthouse",
+    "viewDescription_en": "A golfing gem by the sea; clubhouse with storage; coin-operated range."
   },
   "description": "9-hulls intim linksbane på Akset ved Hestvika med utsikt mot Trondheimsleia og Terningen fyr.",
   "contact": {
@@ -123,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Banepass inkl. medlemskap + gratis spill + bag/tralle-lagring. Hovedandel 6000 / familieandel 3000."
+      "notes": "Banepass inkl. medlemskap + gratis spill + bag/tralle-lagring. Hovedandel 6000 / familieandel 3000.",
+      "greenFeeDescription_en": "Members 150 kr. Range (30 balls) 20 kr.",
+      "notes_en": "Course pass includes membership + free play + bag/trolley storage. Main share 6,000 / family share 3,000."
     },
     "2026": {
       "currency": "NOK",
@@ -141,7 +148,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Vipps #697864. Kurs 1500 kr inkl. medlemskap og spillerett ut året."
+      "notes": "Vipps #697864. Kurs 1500 kr inkl. medlemskap og spillerett ut året.",
+      "greenFeeDescription_en": "Visitor: 9 holes 200 kr, full day 300 kr. Members 150 kr. Children/youth 12-19 years 75 kr.",
+      "notes_en": "Vipps #697864. Course 1,500 kr includes membership and playing rights for the rest of the year."
     }
   },
   "membershipPricing": {
@@ -150,31 +159,41 @@
         "category": "hovedmedlemskap",
         "price": 1500,
         "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "hovedmembership",
+        "description_en": "Full membership 1,500 kr; youth up to 20 years 1,000 kr. Shares: main share 6,000, family share 3,000. Locker 200 kr/year."
       },
       {
         "category": "youth",
         "price": 1000,
         "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Youth",
+        "description_en": "Full membership 1,500 kr; youth up to 20 years 1,000 kr. Shares: main share 6,000, family share 3,000. Locker 200 kr/year."
       },
       {
         "category": "mainShare",
         "price": 6000,
         "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Main Share",
+        "description_en": "Full membership 1,500 kr; youth up to 20 years 1,000 kr. Shares: main share 6,000, family share 3,000. Locker 200 kr/year."
       },
       {
         "category": "familyShare",
         "price": 3000,
         "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family Share",
+        "description_en": "Full membership 1,500 kr; youth up to 20 years 1,000 kr. Shares: main share 6,000, family share 3,000. Locker 200 kr/year."
       },
       {
         "category": "lockerRental",
         "price": 200,
         "description": "Hovedmedlemskap 1500 kr; ungdom t.o.m. 20 år 1000 kr. Andeler: hovedandel 6000, familieandel 3000. Skap 200 kr/år.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Locker Rental",
+        "description_en": "Full membership 1,500 kr; youth up to 20 years 1,000 kr. Shares: main share 6,000, family share 3,000. Locker 200 kr/year."
       }
     ]
   },
@@ -219,5 +238,8 @@
     "createdAt": "2025-10-31T11:30:50.484Z",
     "updatedAt": "2026-02-14T16:21:00.000Z"
   },
-  "googlePlaceId": "ChIJBe53gzj3EkYRcZb2mhk4fiw"
+  "googlePlaceId": "ChIJBe53gzj3EkYRcZb2mhk4fiw",
+  "slug_en": "hitra-golf-club",
+  "name_en": "Hitra Golf Club",
+  "description_en": "9-hole intimate links course at Akset near Hestvika with views towards the Trondheimsleia strait and Terningen lighthouse."
 }

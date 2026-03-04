@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "En av landets flotteste golfbaner ligger mellom vann og fjell"
+    "viewDescription": "En av landets flotteste golfbaner ligger mellom vann og fjell",
+    "courseType_en": "18-hole course (9-hole option also available)",
+    "viewDescription_en": "One of the country's finest golf courses, situated between water and mountains"
   },
   "description": "En av landets flotteste golfbaner ligger mellom vann og fjell i Vestringsbygda i Aurdal. 18-hulls bane med mulighet for 9-hulls spill (Front 9 og Back 9). Klubben ble etablert 28. november 1997.",
   "contact": {
@@ -58,7 +60,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Golf simulator tilgjengelig november-april"
+    "winterUse": "Golf simulator tilgjengelig november-april",
+    "winterUse_en": "Golf simulator available November-April"
   },
   "visitors": {
     "welcome": true,
@@ -121,7 +124,9 @@
       "freeTrial": null,
       "neighborClubDiscount": "20%",
       "customFitting": 695,
-      "notes": "Custom fitting: 695 kr (fradrag ved kjøp av utstyr). Fri tilgang til poletter på range: 1000 kr for sesongkort-innehavere."
+      "notes": "Custom fitting: 695 kr (fradrag ved kjøp av utstyr). Fri tilgang til poletter på range: 1000 kr for sesongkort-innehavere.",
+      "greenFeeDescription_en": "Green fee paid per visit for non-members and members without a season pass. Season pass holders enjoy unlimited play. 20% discount at other Innlandet courses for green fee members.",
+      "notes_en": "Custom fitting: 695 kr (deducted on equipment purchase). Free range token access: 1,000 kr for season pass holders."
     },
     "2026": {
       "currency": "NOK",
@@ -139,7 +144,9 @@
       "pullCartRental": 40,
       "clubRental": 250,
       "greenFeeDescription": "Greenfee: 18-hull hverdager (man-tor) kr 500, helg (fre-søn) kr 600. 9-hull alle dager kr 400. Junior halv pris på greenfee. Kvelds-golf alle dager fra kl. 18:00 kr 300. Uregistrert spill belastes dobbel greenfee.",
-      "notes": "Juniorer har halv pris på greenfee (50% rabatt). Helg = fredag-søndag. Kvelds-golf (twilight) fra kl. 18:00 alle dager kr 300. Medisinsk fritak for golfbil: kr 175 (krever gyldig dokumentasjon). Spill uten gyldig medlemskap medfører obligatorisk klubbmedlemskap kr 1100. Avbestilling senest 15 min før starttid."
+      "notes": "Juniorer har halv pris på greenfee (50% rabatt). Helg = fredag-søndag. Kvelds-golf (twilight) fra kl. 18:00 alle dager kr 300. Medisinsk fritak for golfbil: kr 175 (krever gyldig dokumentasjon). Spill uten gyldig medlemskap medfører obligatorisk klubbmedlemskap kr 1100. Avbestilling senest 15 min før starttid.",
+      "greenFeeDescription_en": "Green fee: 18 holes weekdays (Mon-Thu) 500 kr, weekends (Fri-Sun) 600 kr. 9 holes all days 400 kr. Juniors half price on green fee. Evening golf all days from 18:00: 300 kr. Unregistered play charged at double green fee.",
+      "notes_en": "Juniors receive half price on green fee (50% discount). Weekend = Friday-Sunday. Evening golf (twilight) from 18:00 all days 300 kr. Medical exemption for buggy: 175 kr (valid documentation required). Playing without valid membership incurs compulsory club membership 1,100 kr. Cancellation at least 15 min before tee time."
     }
   },
   "membershipPricing": {
@@ -199,5 +206,8 @@
     "createdAt": "2025-10-31T07:18:14.396Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJoZgEcekDQEYRsPSphPNuoxc"
+  "googlePlaceId": "ChIJoZgEcekDQEYRsPSphPNuoxc",
+  "slug_en": "valdres-golf-club",
+  "name_en": "Valdres Golf Club",
+  "description_en": "One of the country's finest golf courses, situated between water and mountains in Vestringsbygda, Aurdal. 18-hole course with the option of 9-hole play (Front 9 and Back 9). The club was established on 28 November 1997."
 }

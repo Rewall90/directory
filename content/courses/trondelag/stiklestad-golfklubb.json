@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Internasjonal standard; kåret til en av Norges beste baner."
+    "viewDescription": "Internasjonal standard; kåret til en av Norges beste baner.",
+    "terrain_en": "Woodland/Parkland",
+    "courseType_en": "18-hole course",
+    "signatureHole_en": "Views towards the fjord",
+    "scenicHole_en": "Views towards the fjord",
+    "viewDescription_en": "International standard; voted one of Norway's finest courses."
   },
   "description": "18-hulls skog- og parklandbane på Troneshalvøya ved innerste Trondheimsfjorden.",
   "contact": {
@@ -63,7 +68,8 @@
   "season": {
     "start": "April/mai",
     "end": "Oktober/november",
-    "winterUse": "Simulator hele året"
+    "winterUse": "Simulator hele året",
+    "winterUse_en": "Simulator available year-round"
   },
   "visitors": {
     "welcome": true,
@@ -133,7 +139,9 @@
       "specialOfferPrice": 1000,
       "specialOfferIncludes": "2-dagerskort (samme uke). 3-dagerskort 1400 kr.",
       "freeTrial": null,
-      "notes": "Greenfeesamarbeid med Austrått, Frosta, Helgeland, Klæbu, Namdal, Namsos, Røros, Sandneset, Steinkjer, Stjørdal, Storsjøbygden, Åre."
+      "notes": "Greenfeesamarbeid med Austrått, Frosta, Helgeland, Klæbu, Namdal, Namsos, Røros, Sandneset, Steinkjer, Stjørdal, Storsjøbygden, Åre.",
+      "greenFeeDescription_en": "Green fee 600 kr, 9 holes 350 kr. Student 400 kr (under 30 years). Junior 13-19 years 300 kr. Children up to 12 years free with paying adult. Couples 1,000 kr. Family (2+2) 1,200 kr.",
+      "notes_en": "Reciprocal green fee agreements with Austraat, Frosta, Helgeland, Klaebu, Namdal, Namsos, Roeros, Sandneset, Steinkjer, Stjoerdal, Storsjoebygden, Aare."
     },
     "2026": {
       "currency": "NOK",
@@ -154,7 +162,9 @@
       "specialOfferPrice": 1000,
       "specialOfferIncludes": "2-dagerskort (samme uke). 3-dagerskort 1400 kr.",
       "freeTrial": null,
-      "notes": "Greenfeesamarbeid med Austrått, Frosta, Helgeland, Klæbu, Namdal, Namsos, Røros, Sandneset, Steinkjer, Stjørdal, Storsjøbygden, Åre."
+      "notes": "Greenfeesamarbeid med Austrått, Frosta, Helgeland, Klæbu, Namdal, Namsos, Røros, Sandneset, Steinkjer, Stjørdal, Storsjøbygden, Åre.",
+      "greenFeeDescription_en": "Green fee 600 kr, 9 holes 350 kr. Student 400 kr (under 30 years). Junior 13-19 years 300 kr. Children up to 12 years free with paying adult. Couples 1,000 kr. Family (2+2) 1,200 kr.",
+      "notes_en": "Reciprocal green fee agreements with Austraat, Frosta, Helgeland, Klaebu, Namdal, Namsos, Roeros, Sandneset, Steinkjer, Stjoerdal, Storsjoebygden, Aare."
     }
   },
   "membershipPricing": {
@@ -163,73 +173,97 @@
         "category": "Barn",
         "price": 210,
         "description": "Til og med 12 år.",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Child",
+        "description_en": "Up to and including 12 years."
       },
       {
         "category": "Ungdom",
         "price": 880,
         "description": "13-15 år. Månedlig 105 kr.",
-        "ageRange": "13-15"
+        "ageRange": "13-15",
+        "name_en": "Youth",
+        "description_en": "13-15 years. Monthly 105 kr."
       },
       {
         "category": "Junior",
         "price": 1750,
         "description": "16-19 år. Månedlig 175 kr.",
-        "ageRange": "16-19"
+        "ageRange": "16-19",
+        "name_en": "Junior",
+        "description_en": "16-19 years. Monthly 175 kr."
       },
       {
         "category": "Unge voksne 20-25",
         "price": 4580,
         "description": "20-25 år. Månedlig 410 kr.",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "name_en": "Young Adult 20-25",
+        "description_en": "20-25 years. Monthly 410 kr."
       },
       {
         "category": "Unge voksne 26-30",
         "price": 5510,
         "description": "26-30 år. Månedlig 490 kr.",
-        "ageRange": "26-30"
+        "ageRange": "26-30",
+        "name_en": "Young Adult 26-30",
+        "description_en": "26-30 years. Monthly 490 kr."
       },
       {
         "category": "Voksne",
         "price": 7570,
         "description": "Fra 31 år. Månedlig 660 kr.",
-        "ageRange": "31+"
+        "ageRange": "31+",
+        "name_en": "Adult",
+        "description_en": "From 31 years. Monthly 660 kr."
       },
       {
         "category": "Familie",
         "price": 13340,
         "description": "Ektefeller, samboere og barn t.o.m. 19 år på samme adresse. Månedlig 1140 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Spouses, partners and children up to 19 years at the same address. Monthly 1,140 kr."
       },
       {
         "category": "Fjernmedlem",
         "price": 3810,
         "description": "Bostedsadresse over 50 km fra Trones. Månedlig 350 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Residential address over 50 km from Trones. Monthly 350 kr."
       },
       {
         "category": "Greenfeemedlem",
         "price": 2370,
         "description": "Greenfee 9 hull 200 kr, 18 hull 400 kr. Månedlig 230 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Green Fee Member",
+        "description_en": "Green fee 9 holes 200 kr, 18 holes 400 kr. Monthly 230 kr."
       },
       {
         "category": "Greenfeemedlem+",
         "price": 3610,
         "description": "5x18-hullsrunder eller 10x9-hullsrunder inkludert, deretter 200/400 kr. Månedlig 330 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Green Fee Member+",
+        "description_en": "5x18-hole rounds or 10x9-hole rounds included, then 200/400 kr. Monthly 330 kr."
       },
       {
         "category": "Comeback",
         "price": 4790,
         "description": "Fra 31 år. Gjelder spillere som ikke var medlem i norsk golfklubb foregående år.",
-        "ageRange": "31+"
+        "ageRange": "31+",
+        "name_en": "Comeback",
+        "description_en": "From 31 years. Valid for players who were not members of a Norwegian golf club the previous year."
       },
       {
         "category": "Steinkjermedlemmer",
         "price": 4580,
         "description": "Gjelder hovedmedlemmer i Steinkjer Golfklubb. Månedlig 410 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Steinkjer members",
+        "description_en": "Valid for full members of Steinkjer Golf Club. Monthly 410 kr."
       }
     ]
   },
@@ -275,5 +309,8 @@
     "updatedAt": "2026-02-15T12:00:00.000Z",
     "notes": "One of Norway's best courses per national survey. Simulator center open 06:00-23:00 daily."
   },
-  "googlePlaceId": "ChIJgZ9NXDRjbUYR5RBklhdO0lI"
+  "googlePlaceId": "ChIJgZ9NXDRjbUYR5RBklhdO0lI",
+  "slug_en": "stiklestad-golf-club",
+  "name_en": "Stiklestad Golf Club",
+  "description_en": "18-hole woodland and parkland course on the Trones peninsula at the inner Trondheimsfjord."
 }

@@ -1,6 +1,8 @@
 {
   "slug": "huseby-hanko-golfklubb",
+  "slug_en": "huseby-and-hanko-golf-club",
   "name": "Huseby & Hankø Golfklubb",
+  "name_en": "Huseby & Hanko Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Manstad",
@@ -36,9 +38,15 @@
     "par4Count": 5,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Idyllisk 9-hulls kystbane ved Manstad i Fredrikstad. Etablert 2003 på jordbruksland fra den historiske Huseby gård. Fascinerende design med kystlandskap og variert terreng."
+    "viewDescription": "Idyllisk 9-hulls kystbane ved Manstad i Fredrikstad. Etablert 2003 på jordbruksland fra den historiske Huseby gård. Fascinerende design med kystlandskap og variert terreng.",
+    "terrain_en": "Coastal landscape",
+    "courseType_en": "9-hole coastal course",
+    "signatureHole_en": "Coastal landscape at Manstad",
+    "scenicHole_en": "Coastal landscape at Manstad",
+    "viewDescription_en": "Idyllic 9-hole coastal course at Manstad in Fredrikstad. Established 2003 on farmland from the historic Huseby farm. Fascinating design with coastal landscape and varied terrain."
   },
   "description": "Idyllisk 9-hulls kystbane ved Manstad i Fredrikstad, etablert 2003 på jordbruksland fra den ærverdige Huseby gård. Par 35 med fascinerende design: 3 par-3 hull, 5 par-4 hull og 1 par-5 hull. I tillegg til hovedbanen har anlegget en enkel 6-hulls kortbane, treningsområde for kort spill med målgreen og sandbunker, putting green og driving range med 20 teesteder (10 overdekte). Rating 32.3, Slope 111.",
+  "description_en": "Idyllic 9-hole coastal course at Manstad in Fredrikstad, established 2003 on farmland from the venerable Huseby farm. Par 35 with fascinating design: 3 par-3 holes, 5 par-4 holes and 1 par-5 hole. In addition to the main course, the facility has a simple 6-hole short course, short game practice area with target green and sand bunker, putting green and driving range with 20 tee positions (10 covered). Rating 32.3, Slope 111.",
   "contact": {
     "phone": "+47 909 59 900",
     "email": "gjoril@hhg.no",
@@ -58,7 +66,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Banen stenges om vinteren"
+    "winterUse": "Banen stenges om vinteren",
+    "winterUse_en": "The course is closed during winter"
   },
   "visitors": {
     "welcome": true,
@@ -134,7 +143,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Gjest av medlem: 150kr rabatt (18 hull), 75kr rabatt (9 hull). Betaling i proshop før start."
+      "notes": "Gjest av medlem: 150kr rabatt (18 hull), 75kr rabatt (9 hull). Betaling i proshop før start.",
+      "greenFeeDescription_en": "Adults weekday: 335 NOK (9 holes), 440 NOK (18 holes). Adults weekend/public holidays/July: 390 NOK (9 holes), 545 NOK (18 holes). Junior up to 19 years weekday: 195 NOK (9 holes), 305 NOK (18 holes). Junior weekend/public holidays/July: 270 NOK (9 holes), 405 NOK (18 holes). For 18 holes: book 2 times with 120 min interval. Hcp 54 requirement.",
+      "notes_en": "Guest of member: 150 NOK discount (18 holes), 75 NOK discount (9 holes). Payment in pro shop before start."
     }
   },
   "membershipPricing": {
@@ -143,7 +154,8 @@
       "klubbkontingentJunior": 300,
       "currency": "NOK",
       "membershipStatus": "open",
-      "note": "Klubbkontingent fastsatt av årsmøtet 2026. Spilleavgift kommer i tillegg og fastsettes av Huseby & Hankø Golfbane AS."
+      "note": "Klubbkontingent fastsatt av årsmøtet 2026. Spilleavgift kommer i tillegg og fastsettes av Huseby & Hankø Golfbane AS.",
+      "note_en": "Club membership fee set by 2026 annual meeting. Playing fee is additional and set by Huseby & Hanko Golf Course AS."
     }
   },
   "ratings": {

@@ -36,7 +36,13 @@
     "par4Count": 10,
     "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": "Flott utsikt over Bogstadvannet fra flere hull og klubbhuset. Innsjøen avgrenser banen på to sider. Restauranten har store gulv-til-tak-vinduer med panoramautsikt over vannet. Webkamera tilgjengelig med utsikt fra banen mot vannet."
+    "viewDescription": "Flott utsikt over Bogstadvannet fra flere hull og klubbhuset. Innsjøen avgrenser banen på to sider. Restauranten har store gulv-til-tak-vinduer med panoramautsikt over vannet. Webkamera tilgjengelig med utsikt fra banen mot vannet.",
+    "terrain_en": "Parkland course with significant elevation changes, beautifully situated by Lake Bogstad. Sand-drained fairways with extensive SubAir drainage systems, relatively small but fast greens, and water hazards on several holes. A compact layout of approximately 194 decares with natural boundaries towards the lake on two sides.",
+    "courseType_en": "18-hole championship parkland course",
+    "designer_en": "Steve Forrest (Steve Forrest & Associates / Arthur Hills-Steve Forrest, AHSF). Original layout from 1924-1925 by founding members led by Ragnar Halle.",
+    "signatureHole_en": "Hole 14 (par 4) - voted Norway's best par-4 hole in 2016. Hole 9 (par 5, 512 metres from the black tee) - the most challenging par 5, stroke index 1. Hole 12 (par 4, 323 metres) - a rare waterfall right beside the green.",
+    "scenicHole_en": "Hole 14 (par 4) - voted Norway's best par-4 hole in 2016. Hole 9 (par 5, 512 metres from the black tee) - the most challenging par 5, stroke index 1. Hole 12 (par 4, 323 metres) - a rare waterfall right beside the green.",
+    "viewDescription_en": "Splendid views over Lake Bogstad from several holes and the clubhouse. The lake borders the course on two sides. The restaurant has large floor-to-ceiling windows with panoramic views over the lake. A webcam provides views from the course towards the lake."
   },
   "description": "Norges eldste golfklubb, stiftet 13. juni 1924 som Kristiania Golfklubb av skipsreder Ragnar Halle etter studieopphold i Aberdeen, Skottland. Opprinnelig en 9-hullsbane på sørsiden av Bogstadvannet, på leid grunn fra Nini Egeberg ved Bogstad gård. Banen ble utvidet til 18 hull åtte år senere i 1932. Gjennom årene ble det gjort store endringer i 1940, 1949, 1957 og 1975, men den mest omfattende oppgraderingen kom mellom september 2007 og mai 2009 – en totalrenovering til over 80 millioner kroner ledet av den amerikanske arkitekten Steve Forrest. Under renoveringen ble det importert 4 500 lastebillass med sand fra Danmark, installert omfattende dreneringssystemer, alle 18 greener ble bygd om med moderne SubAir-systemer for fuktighetskontroll, 500 trær ble fjernet, og hele eiendommen ble tilsådd med krypkvein. Banen gjenåpnet våren 2009. Beliggenheten er bare 15 minutter (9 km nordvest) fra Oslo sentrum, ca. 1,5 km nord for Røa. Par 72-mesterskaps-bane på 6 276 meter fra mesterskaps-tee. Banen har lange par 3-hull, flere vannhindre og en unik foss ved greenen på hull 12. Hull 14 ble kåret til Norges beste par 4-hull i 2016. Rangert som nr. 55 i Europa av Golf World (2019), nr. 3 i Norge av Golf Digest (2022), og nr. 155 i Kontinental-Europa (Golf World 2023). Over 30 000 runder spilles per sesong fra mai til midten av oktober. Klubben har over 2 300 medlemmer og en venteliste på ca. 2 450 personer. Har vært arena for Norwegian Masters (Ladies European Tour, 2002 og 2006) og Challenge Tour's Norwegian Challenge (1995–1997). De første golfslagene ble slått høsten 1924, noe som gjør dette til den første golfbanen i norsk historie. Nytt klubbhus åpnet i mars 2020 etter at medlemmene stemte for bygging i 2018.",
   "contact": {
@@ -91,7 +97,8 @@
   "season": {
     "start": "Mai",
     "end": "Midten av oktober",
-    "winterUse": "Golfland simulatorsenter (7 TrackMan-simulatorer) er åpent hele året. Treningsanlegget gjøres om til utendørs skøytebane (Bogstad vinterparadis) med en bandybane og to mindre kunstisbaner."
+    "winterUse": "Golfland simulatorsenter (7 TrackMan-simulatorer) er åpent hele året. Treningsanlegget gjøres om til utendørs skøytebane (Bogstad vinterparadis) med en bandybane og to mindre kunstisbaner.",
+    "winterUse_en": "Golfland simulator centre (7 TrackMan simulators) is open all year. The practice facilities are converted into an outdoor ice rink (Bogstad Winter Paradise) with a bandy rink and two smaller artificial ice rinks."
   },
   "visitors": {
     "welcome": true,
@@ -100,7 +107,8 @@
     "distanceFromCenter": "9 km nordvest",
     "handicapRequired": 36,
     "dressCode": "Golfklær påkrevd",
-    "roundTimeMinutes": null
+    "roundTimeMinutes": null,
+    "dressCode_en": "Golf attire required"
   },
   "organization": {
     "courseCompany": "Oslo Golfklubb",
@@ -165,7 +173,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Forhåndsreservasjon (mer enn 3 dager i forveien): kr 2500 per spiller. Aktive medlemmer kan booke 12 dager i forveien. 9-hulls pris gjelder som twilight-pris: fra 1. sept etter kl. 18:00, fra 15. sept etter kl. 17:00, fra 1. okt etter kl. 16:00. Priser hentet fra oslogk.no februar 2026."
+      "notes": "Forhåndsreservasjon (mer enn 3 dager i forveien): kr 2500 per spiller. Aktive medlemmer kan booke 12 dager i forveien. 9-hulls pris gjelder som twilight-pris: fra 1. sept etter kl. 18:00, fra 15. sept etter kl. 17:00, fra 1. okt etter kl. 16:00. Priser hentet fra oslogk.no februar 2026.",
+      "greenFeeDescription_en": "Private club. Green fee players can book tee times up to 3 days in advance from 07:30. Maximum handicap 36. Visitors limited to 3 per round for active members, 1 per round for passive members.\n\n18 HOLES:\n• Weekday: 1,100 NOK\n• Weekend: 1,400 NOK\n• Junior (up to 21 years): 550/700 NOK\n\n9 HOLES (twilight):\n• Weekday: 700 NOK\n• Weekend: 850 NOK\n\nADVANCE RESERVATION (more than 3 days): 2,500 NOK per player.",
+      "notes_en": "Advance reservation (more than 3 days in advance): 2,500 NOK per player. Active members can book 12 days in advance. 9-hole price applies as twilight price from 16:00. Club hire available: full set 500 NOK, half set 300 NOK. Buggy: 500 NOK (18 holes), 300 NOK (9 holes). Pull cart: 50 NOK."
     }
   },
   "membershipPricing": {},
@@ -175,7 +185,8 @@
     "waitingListSize": 2450,
     "waitingListYears": null,
     "joiningFee": null,
-    "joiningFeeNote": "Over 2 300 medlemmer med venteliste på ca. 2 450 personer."
+    "joiningFeeNote": "Over 2 300 medlemmer med venteliste på ca. 2 450 personer.",
+    "joiningFeeNote_en": "Over 2,300 members with a waiting list of approximately 2,450 people."
   },
   "ratings": {
     "google": {
@@ -218,5 +229,8 @@
     "createdAt": "2025-10-31T05:35:08.774Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJcR1kOl5tQUYRMgmEmZ5sDBU"
+  "googlePlaceId": "ChIJcR1kOl5tQUYRMgmEmZ5sDBU",
+  "slug_en": "oslo-golf-club",
+  "name_en": "Oslo Golf Club",
+  "description_en": "Norway's oldest golf club, founded on 13 June 1924 as Kristiania Golf Club by shipowner Ragnar Halle after a study visit to Aberdeen, Scotland. Originally a 9-hole course on the south side of Lake Bogstad, on land leased from Nini Egeberg of Bogstad Manor. The course was expanded to 18 holes eight years later in 1932. Major changes were made in 1940, 1949, 1957 and 1975, but the most extensive upgrade came between September 2007 and May 2009 - a complete renovation costing over 80 million NOK led by American architect Steve Forrest. During the renovation, 4,500 lorry-loads of sand were imported from Denmark, extensive drainage systems were installed, all 18 greens were rebuilt with modern SubAir moisture control systems, 500 trees were removed, and the entire property was reseeded with creeping bentgrass. The course reopened in spring 2009. Located just 15 minutes (9 km northwest) from Oslo city centre, approximately 1.5 km north of Roa. A par-72 championship course measuring 6,276 metres from the championship tees. The course features long par-3 holes, several water hazards and a unique waterfall beside the green on hole 12. Hole 14 was voted Norway's best par-4 hole in 2016. Ranked 55th in Europe by Golf World (2019), 3rd in Norway by Golf Digest (2022), and 155th in Continental Europe (Golf World 2023). Over 30,000 rounds are played per season from May to mid-October. The club has over 2,300 members and a waiting list of approximately 2,450 people. Has hosted the Norwegian Masters (Ladies European Tour, 2002 and 2006) and the Challenge Tour's Norwegian Challenge (1995-1997). The first golf shots were struck in autumn 1924, making this the first golf course in Norwegian history. A new clubhouse opened in March 2020 after members voted for construction in 2018."
 }

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Bjørnefjorden Golfklubb - 9-hulls park/skogsbane i Os grunnlagt 1994. Par 34 (68 for 18h). Lange par 5, korte par 3, smale fairways på par 4. 6-hulls Pitch & Putt (opp til 100m). Driving range med 18 tees (8 med overbygg/lys). Stor putting green (9 hull). Approach-treningsgreen 90m med bunker. 2 simulatorer (Full Swing Golf). Pro shop, kafeteria, garderober. Juniortrening, Senior-/Dame-/Herre-/Elitegrupper. Handicap-grense 54. Åpent året rundt."
+    "viewDescription": "Bjørnefjorden Golfklubb - 9-hulls park/skogsbane i Os grunnlagt 1994. Par 34 (68 for 18h). Lange par 5, korte par 3, smale fairways på par 4. 6-hulls Pitch & Putt (opp til 100m). Driving range med 18 tees (8 med overbygg/lys). Stor putting green (9 hull). Approach-treningsgreen 90m med bunker. 2 simulatorer (Full Swing Golf). Pro shop, kafeteria, garderober. Juniortrening, Senior-/Dame-/Herre-/Elitegrupper. Handicap-grense 54. Åpent året rundt.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "9-hole parkland/woodland course + 6-hole Pitch & Putt",
+    "signatureHole_en": "Parkland and woodland terrain with varied holes",
+    "scenicHole_en": "Parkland and woodland terrain with varied holes",
+    "viewDescription_en": "Bjornefjorden Golf Club - 9-hole parkland/woodland course in Os, established 1994. Par 34 (68 for 18 holes). Long par 5s, short par 3s, narrow fairways on par 4s. 6-hole Pitch & Putt (up to 100m). Driving range with 18 bays (8 covered/lit). Large putting green (9 holes). Approach practice green 90m with bunker. 2 simulators (Full Swing Golf). Pro shop, cafeteria, changing rooms. Junior training, Senior/Ladies/Men's/Elite groups. Handicap limit 54. Open year-round."
   },
   "description": "Bjørnefjorden Golfklubb - 9-hulls park/skogsbane grunnlagt 1994 i Os. Par 34 (68 for 18 hull). Lange par 5-hull, korte par 3-hull, og smale fairways på par 4-hull som krever presisjon fra utslaget. Pluss 6-hulls Pitch & Putt-bane (hull opp til ca 100 meter). Hull 8 har midlertidig green mens ny green bygges.",
   "contact": {
@@ -63,7 +68,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Vinterbane tilgjengelig fra 20. oktober. Åpent året rundt."
+    "winterUse": "Vinterbane tilgjengelig fra 20. oktober. Åpent året rundt.",
+    "winterUse_en": "Winter course available from 20 October. Open year-round."
   },
   "visitors": {
     "welcome": true,
@@ -132,7 +138,9 @@
       "specialOfferPrice": 1600,
       "specialOfferIncludes": "Greenfee pakke 5 stk",
       "freeTrial": null,
-      "notes": "Greenfee pakke 10 stk: 3500kr. 6-hulls Pitch & Putt-bane gratis. Golfamore-gjester rabatt alle dager, Golfamore-PLUS halv pris hverdager. Booking via Golfbox."
+      "notes": "Greenfee pakke 10 stk: 3500kr. 6-hulls Pitch & Putt-bane gratis. Golfamore-gjester rabatt alle dager, Golfamore-PLUS halv pris hverdager. Booking via Golfbox.",
+      "greenFeeDescription_en": "Green fee 2025 (with discount due to temporary green on hole 8): Weekdays 9 holes 245 NOK, 18 holes 350 NOK. Weekend/bank holiday 9 holes 315 NOK, 18 holes 450 NOK. Normal prices in brackets. Junior/student half price. Winter course 150 NOK. Pitch & Putt free.",
+      "notes_en": "Green fee pack of 10: 3,500 NOK. 6-hole Pitch & Putt course free. Golfamore guests receive discount all days, Golfamore PLUS half price on weekdays. Booking via GolfBox."
     }
   },
   "membershipPricing": {
@@ -195,5 +203,8 @@
     "updatedAt": "2026-02-15T12:00:00.000Z",
     "notes": "2026 pricing not yet published as of Feb 15, 2026. Website shows 2025 prices approved at March 11, 2025 annual meeting. VTG course fee for 2026 confirmed at 4,500 kr (unchanged from 2025). Annual meeting for 2026 pricing decisions likely in March 2026."
   },
-  "googlePlaceId": "ChIJSdpfMtNYPEYRxUAAJcoq6Lg"
+  "googlePlaceId": "ChIJSdpfMtNYPEYRxUAAJcoq6Lg",
+  "slug_en": "bjornefjorden-golf-club",
+  "name_en": "Bjornefjorden Golf Club",
+  "description_en": "Bjornefjorden Golf Club - 9-hole parkland/woodland course established in 1994 in Os. Par 34 (68 for 18 holes). Long par 5 holes, short par 3 holes, and narrow fairways on par 4 holes requiring precision off the tee. Plus a 6-hole Pitch & Putt course (holes up to approx. 100 metres). Hole 8 has a temporary green whilst a new green is being built."
 }

@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Nordens høyest beliggende 18-hulls golfbane på 860 M.O.H."
+    "viewDescription": "Nordens høyest beliggende 18-hulls golfbane på 860 M.O.H.",
+    "terrain_en": "Mountain terrain",
+    "courseType_en": "18-hole highland course",
+    "viewDescription_en": "The Nordic region's highest 18-hole golf course at 860 metres above sea level."
   },
   "description": "Nordens høyest beliggende 18-hulls golfbane på 860 M.O.H. Trysilfjellet Golfbane ligger flott til ved foten av Trysilfjellet.",
   "contact": {
@@ -152,7 +155,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Sesong-greenfee selges kun til fullt betalende medlemmer. 5 greenfee-billetter for 1955 kr. NSG-rabatt: 3 runder/sesong til halv pris (200 kr) på ukedager, kun 18 hull. Golfbil: Hverdag 360 kr, helg 420 kr, lørdag 10-14: 470 kr. 4-seter: hverdag 470 kr, helg 570 kr. Tralle: 60 kr/runde."
+      "notes": "Sesong-greenfee selges kun til fullt betalende medlemmer. 5 greenfee-billetter for 1955 kr. NSG-rabatt: 3 runder/sesong til halv pris (200 kr) på ukedager, kun 18 hull. Golfbil: Hverdag 360 kr, helg 420 kr, lørdag 10-14: 470 kr. 4-seter: hverdag 470 kr, helg 570 kr. Tralle: 60 kr/runde.",
+      "greenFeeDescription_en": "Membership fee does not include free play. Green fee: Adult weekend 480/360 kr, weekday 420/305 kr. Junior weekend 290/230 kr, weekday 230/185 kr. Innlandet club members receive a discount. NSG members: 3 rounds at half price (200 kr) on weekdays.",
+      "notes_en": "Season green fee sold only to full-paying members. 5 green fee tickets for 1,955 kr. NSG discount: 3 rounds/season at half price (200 kr) on weekdays, 18 holes only. Buggy: weekday 360 kr, weekend 420 kr, Saturday 10-14: 470 kr. 4-seater: weekday 470 kr, weekend 570 kr. Trolley: 60 kr/round."
     }
   },
   "membershipPricing": {
@@ -212,5 +217,8 @@
     "createdAt": "2025-10-31T07:18:13.662Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJTSwCklDrakYRQQ1qzx5RLmk"
+  "googlePlaceId": "ChIJTSwCklDrakYRQQ1qzx5RLmk",
+  "slug_en": "skei-golf-club",
+  "name_en": "Skei Golf Club",
+  "description_en": "The Nordic region's highest 18-hole golf course at 860 metres above sea level. Trysilfjellet Golf Course is beautifully situated at the foot of Trysilfjellet."
 }

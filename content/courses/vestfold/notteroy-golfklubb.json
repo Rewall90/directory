@@ -1,6 +1,8 @@
 {
   "slug": "notteroy-golfklubb",
+  "slug_en": "notteroy-golf-club",
   "name": "Nøtterøy Golfklubb",
+  "name_en": "Notteroy Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Nøtterøy",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Parkland/Woodland",
+    "terrain_en": "Parkland/Woodland",
     "courseType": "18-hulls parkland/skogsbane med 6-hulls korthullsbane",
+    "courseType_en": "18-hole parkland/woodland course with 6-hole short course",
     "designer": "Jeremy Turner",
     "yearBuilt": 2003,
     "yearRedesigned": null,
     "waterHazards": null,
     "signatureHole": "Idylliske omgivelser i Hellaskogen på Nøtterøy",
+    "signatureHole_en": "Idyllic surroundings in Hellaskogen on Notteroy",
     "scenicHole": "Idylliske omgivelser i Hellaskogen på Nøtterøy",
+    "scenicHole_en": "Idyllic surroundings in Hellaskogen on Notteroy",
     "par3Count": null,
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Nøtterøy Golfklubb - 18-hulls parkland/skogsbane designet av Jeremy Turner i Hellaskogen, kun 6 km fra Tønsberg. Par 72, 6225m med 7 teesteder. Pluss 6-hulls korthullsbane. Trackman Range med gressutslag. Klubbhus designet av John H. Støre med garderober, pro shop (09:00-16:00), café (09:00-16:00). Toalett på bane, drikkevannstasjoner. Golfbil/tralle-utleie."
+    "viewDescription": "Nøtterøy Golfklubb - 18-hulls parkland/skogsbane designet av Jeremy Turner i Hellaskogen, kun 6 km fra Tønsberg. Par 72, 6225m med 7 teesteder. Pluss 6-hulls korthullsbane. Trackman Range med gressutslag. Klubbhus designet av John H. Støre med garderober, pro shop (09:00-16:00), café (09:00-16:00). Toalett på bane, drikkevannstasjoner. Golfbil/tralle-utleie.",
+    "viewDescription_en": "Notteroy Golf Club - 18-hole parkland/woodland course designed by Jeremy Turner in Hellaskogen, just 6 km from Tonsberg. Par 72, 6,225m with 7 tee positions. Plus 6-hole short course. Trackman Range with grass tee area. Clubhouse designed by John H. Store with changing rooms, pro shop (09:00-16:00), cafe (09:00-16:00). Toilets on course, drinking water stations. Electric buggy/trolley hire."
   },
   "description": "Nøtterøy Golfklubb - 18-hulls parkland/skogsbane designet av Jeremy Turner, åpnet 2003. Par 72, 6225 meter med syv teesteder. Klubbtee herre 5722m, dame 4644m. Pluss 6-hulls korthullsbane. Ligger i Hellaskogen på idylliske Nøtterøy, kun 6 km fra Tønsberg sentrum. Klubbhus designet av arkitekt John H. Støre.",
+  "description_en": "Notteroy Golf Club - 18-hole parkland/woodland course designed by Jeremy Turner, opened 2003. Par 72, 6,225 metres with seven tee positions. Club tee men 5,722m, ladies 4,644m. Plus 6-hole short course. Located in Hellaskogen on idyllic Notteroy, just 6 km from Tonsberg town centre. Clubhouse designed by architect John H. Store.",
   "contact": {
     "phone": "+47 33 40 71 80",
     "email": "proshop@notteroygolf.no",
@@ -119,6 +127,7 @@
       "greenFeeJunior": 240,
       "greenFeeJuniorLocal": 200,
       "greenFeeDescription": "Greenfee 2026: 18 hull 500 kr. Junior 240 kr, Junior lokal (Borre/Vestfold) 200 kr. Norsk Senior Golf hverdager 08:00-15:00 500 kr (ikke juli, max 3 runder). Korthullsbane 99 kr/dag eller 499 kr sesongkort, gratis for juniorer.",
+      "greenFeeDescription_en": "Green fee 2026: 18 holes 500 NOK. Junior 240 NOK, Junior local (Borre/Vestfold) 200 NOK. Norwegian Senior Golf weekdays 08:00-15:00 500 NOK (not July, max 3 rounds). Short course 99 NOK/day or 499 NOK season pass, free for juniors.",
       "cartRental": 500,
       "cartRentalMember": 400,
       "pullCartRental": 75,
@@ -127,7 +136,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil 500 kr (medlemmer 400 kr). Tralle 75 kr. Elektrisk tralle 200 kr. Korthullsbane 99 kr/dag eller 499 kr sesongkort, gratis for juniorer. Vipps #108710. Prebooking utover 6-7 dager koster 100 kr pr. spiller."
+      "notes": "Golfbil 500 kr (medlemmer 400 kr). Tralle 75 kr. Elektrisk tralle 200 kr. Korthullsbane 99 kr/dag eller 499 kr sesongkort, gratis for juniorer. Vipps #108710. Prebooking utover 6-7 dager koster 100 kr pr. spiller.",
+      "notes_en": "Golf buggy 500 NOK (members 400 NOK). Trolley 75 NOK. Electric trolley 200 NOK. Short course 99 NOK/day or 499 NOK season pass, free for juniors. Vipps #108710. Pre-booking beyond 6-7 days costs 100 NOK per player."
     }
   },
   "membershipPricing": {
@@ -137,70 +147,90 @@
         "name": "Voksen",
         "price": 12940,
         "description": "Full spillerett. Forhåndsbooking 7 dager. 30% rabatt greenfee hos Larvik, Sandefjord, Borre (1. mai - 1. okt). 20% rabatt Tjøme (ikke 23. juni - 10. aug). Årskort driving range 3000 kr. Golfbil 400 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full playing rights. Advance booking 7 days. 30% green fee discount at Larvik, Sandefjord, Borre (1 May - 1 Oct). 20% discount Tjome (not 23 June - 10 Aug). Annual driving range pass 3,000 NOK. Golf buggy 400 NOK."
       },
       {
         "category": "ungVoksen",
         "name": "Ung Voksen 20-35 år",
         "price": 8300,
         "description": "Full spillerett for medlemmer 20-35 år.",
-        "ageRange": "20-35"
+        "ageRange": "20-35",
+        "name_en": "Young Adult 20-35 Years",
+        "description_en": "Full playing rights for members aged 20-35."
       },
       {
         "category": "honnor",
         "name": "Honnør 75+",
         "price": 7100,
         "description": "Full spillerett for medlemmer 75 år og eldre.",
-        "ageRange": "75+"
+        "ageRange": "75+",
+        "name_en": "Senior 75+",
+        "description_en": "Full playing rights for members aged 75 and over."
       },
       {
         "category": "studentMilitar",
         "name": "Student/militær 20-26 år",
         "price": 5400,
         "description": "For studenter og militære 20-26 år.",
-        "ageRange": "20-26"
+        "ageRange": "20-26",
+        "name_en": "Student/Military 20-26 Years",
+        "description_en": "For students and military personnel aged 20-26."
       },
       {
         "category": "vtg1",
         "name": "VTG-1",
         "price": 4680,
         "description": "Medlemskap etter nybegynnerkurs 2025.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Road to Golf 1",
+        "description_en": "Membership after beginner course 2025."
       },
       {
         "category": "greenfee",
         "name": "Greenfee-medlemskap",
         "price": 3300,
         "description": "Greenfee-medlemskap uten fast spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Green Fee Membership",
+        "description_en": "Green fee membership without fixed playing rights."
       },
       {
         "category": "junior13-19",
         "name": "Junior 13-19 år",
         "price": 2400,
         "description": "Full spillerett for juniorer 13-19 år.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19 Years",
+        "description_en": "Full playing rights for juniors aged 13-19."
       },
       {
         "category": "junior6-12",
         "name": "Junior 6-12 år",
         "price": 950,
         "description": "Full spillerett for juniorer 6-12 år.",
-        "ageRange": "6-12"
+        "ageRange": "6-12",
+        "name_en": "Junior 6-12 Years",
+        "description_en": "Full playing rights for juniors aged 6-12."
       },
       {
         "category": "innmeldingsavgift",
         "name": "Innmeldingsavgift",
         "price": 1500,
         "description": "Engangsavgift for nye medlemmer (gjelder ikke juniorer).",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Joining Fee",
+        "description_en": "One-off fee for new members (does not apply to juniors)."
       },
       {
         "category": "drivingRangeArskort",
         "name": "Årskort Driving Range",
         "price": 3000,
         "description": "Ubegrenset bruk av driving range hele sesongen.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Annual Driving Range Pass",
+        "description_en": "Unlimited use of the driving range for the entire season."
       }
     ]
   },

@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "International championship course",
+    "courseType_en": "International championship course"
   },
   "description": "Miklagard Golf åpnet i juni 2001 med intensjon om å være en av Europas beste golfanlegg. Banen er tilrettelagt for bruk av golfbiler og vi har 20 moderne biler til utleie. Miklagard er kjent for sine gode greener. Kvaliteten på greener, fairwayer og utslagssteder holder høy europeisk standard.",
   "contact": {
@@ -128,7 +130,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser fra offisiell greenfee-side 2025. Dynamisk prising basert på tidspunkt."
+      "notes": "Priser fra offisiell greenfee-side 2025. Dynamisk prising basert på tidspunkt.",
+      "greenFeeDescription_en": "Weekdays: 08:00-11:50 kr 800, 12:00-14:50 kr 1000, 15:00-17:50 kr 1300, 18:00+ kr 800. Weekends/bank holidays: 07:00-12:50 kr 1300, 13:00-14:50 kr 1000, 15:00+ kr 800. Prepayment via GolfBox.",
+      "notes_en": "Prices from the official 2025 green fee page. Dynamic pricing based on time of day."
     },
     "2026": {
       "currency": "NOK",
@@ -148,7 +152,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser fra NordicGolfers.com (2026). Dynamisk prising basert på tidspunkt. Golfpakke via Lily Country Club fra kr 2000 (inkl. overnatting, frokost, greenfee, spa)."
+      "notes": "Priser fra NordicGolfers.com (2026). Dynamisk prising basert på tidspunkt. Golfpakke via Lily Country Club fra kr 2000 (inkl. overnatting, frokost, greenfee, spa).",
+      "greenFeeDescription_en": "Weekdays: 08:00-11:50 kr 750, 12:00-14:50 kr 900, 15:00-17:50 kr 1200, 18:00+ kr 750. Weekends/bank holidays: 07:00-12:50 kr 1200, 13:00-14:50 kr 900, 15:00+ kr 750. Prepayment via GolfBox.",
+      "notes_en": "Prices from NordicGolfers.com (2026). Dynamic pricing based on time of day. Golf package via Lily Country Club from kr 2000 (incl. accommodation, breakfast, green fee, spa)."
     }
   },
   "membershipPricing": {
@@ -263,5 +269,8 @@
     "createdAt": "2025-10-31T11:24:47.056Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJec5FfgZ_QUYRIvyieuOfOkM"
+  "googlePlaceId": "ChIJec5FfgZ_QUYRIvyieuOfOkM",
+  "slug_en": "miklagard-golf",
+  "name_en": "Miklagard Golf",
+  "description_en": "Miklagard Golf opened in June 2001 with the ambition of becoming one of Europe's finest golf facilities. The course is designed for golf buggy use, and we have 20 modern buggies available for hire. Miklagard is renowned for its excellent greens. The quality of greens, fairways, and tees meets a high European standard."
 }

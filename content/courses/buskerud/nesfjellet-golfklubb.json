@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Midt i hjertet av vakre Nesfjellet med fjellandskapet som kulisse. Naturskjønn fjellbane med utsikt over fjell og natur."
+    "viewDescription": "Midt i hjertet av vakre Nesfjellet med fjellandskapet som kulisse. Naturskjønn fjellbane med utsikt over fjell og natur.",
+    "terrain_en": "Mountain course",
+    "courseType_en": "9-hole mountain course",
+    "signatureHole_en": "A complete mountain experience -- on the green. With the mountain landscape as a backdrop.",
+    "scenicHole_en": "A complete mountain experience -- on the green. With the mountain landscape as a backdrop.",
+    "viewDescription_en": "In the heart of beautiful Nesfjellet with the mountain landscape as a backdrop. Scenic mountain course with views over mountains and nature."
   },
   "description": "Nesfjellet Golf ligger vakkert til midt i hjertet av vakre Nesfjellet i Nesbyen, Hallingdal. Naturskjønn 9-hulls fjellbane med fjellandskapet som kulisse. Banen tilbyr en unik golfopplevelse som kombinerer sport, natur og sosialt samvær. Komplett med drivingrange, to øvingsgreener og fasiliteter tilpasset både nybegynner og erfarne golfere. Nesfjellet Golf er mer enn en bane - det er et samlingspunkt for alle som ønsker å spille golf i gode omgivelser og hyggelig selskap.",
   "contact": {
@@ -122,7 +127,9 @@
       "clubRental9": 200,
       "clubRental18": 250,
       "drivingRangeBalls": 20,
-      "notes": "Sesong mai/juni til uke 40. NSG: 50% rabatt (man-tor), 3 runder. Samarbeidsklubber (20% rabatt man-tor): Hallingdal, Valdres, Gjøvik og Toten, Kongsvinger, Mjøsen, Elverum, Sorknes, Land, Atlungstad, Trysil, Skei, Norefjell, Hafjell."
+      "notes": "Sesong mai/juni til uke 40. NSG: 50% rabatt (man-tor), 3 runder. Samarbeidsklubber (20% rabatt man-tor): Hallingdal, Valdres, Gjøvik og Toten, Kongsvinger, Mjøsen, Elverum, Sorknes, Land, Atlungstad, Trysil, Skei, Norefjell, Hafjell.",
+      "greenFeeDescription_en": "Weekend/holiday (Fri-Sun, July, week 40): 9 holes 450 kr, 18 holes 575 kr. Weekday (Mon-Thu): 9 holes 350 kr, 18 holes 450 kr. Junior (up to 19 years) half price. 20% partner club discount (Mon-Thu).",
+      "notes_en": "Season May/June to week 40. NSG: 50% discount (Mon-Thu), 3 rounds. Partner clubs (20% discount Mon-Thu): Hallingdal, Valdres, Gjovik og Toten, Kongsvinger, Mjosen, Elverum, Sorknes, Land, Atlungstad, Trysil, Skei, Norefjell, Hafjell."
     },
     "2026": {
       "currency": "NOK",
@@ -143,7 +150,9 @@
       "clubRental9": 200,
       "clubRental18": 250,
       "drivingRangeBalls": 20,
-      "notes": "Priser videreført fra 2025 (2026-priser ikke publisert per februar 2026). Sesong mai/juni til uke 40. NSG: 50% rabatt (man-tor), 3 runder. Samarbeidsklubber (20% rabatt man-tor): Hallingdal, Valdres, Gjøvik og Toten, Kongsvinger, Mjøsen, Elverum, Sorknes, Land, Atlungstad, Trysil, Skei, Norefjell, Hafjell."
+      "notes": "Priser videreført fra 2025 (2026-priser ikke publisert per februar 2026). Sesong mai/juni til uke 40. NSG: 50% rabatt (man-tor), 3 runder. Samarbeidsklubber (20% rabatt man-tor): Hallingdal, Valdres, Gjøvik og Toten, Kongsvinger, Mjøsen, Elverum, Sorknes, Land, Atlungstad, Trysil, Skei, Norefjell, Hafjell.",
+      "greenFeeDescription_en": "Weekend/holiday (Fri-Sun, July, week 40): 9 holes 450 kr, 18 holes 575 kr. Weekday (Mon-Thu): 9 holes 350 kr, 18 holes 450 kr. Junior (up to 19 years) half price. 20% partner club discount (Mon-Thu).",
+      "notes_en": "Prices carried over from 2025 (2026 prices not published as of February 2026). Season May/June to week 40. NSG: 50% discount (Mon-Thu), 3 rounds. Partner clubs (20% discount Mon-Thu): Hallingdal, Valdres, Gjovik og Toten, Kongsvinger, Mjosen, Elverum, Sorknes, Land, Atlungstad, Trysil, Skei, Norefjell, Hafjell."
     }
   },
   "membershipPricing": {
@@ -194,5 +203,8 @@
     "createdAt": "2025-10-31T05:54:19.740Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJB_09aB92QEYR4fSc7WKyDmY"
+  "googlePlaceId": "ChIJB_09aB92QEYR4fSc7WKyDmY",
+  "slug_en": "nesfjellet-golf",
+  "name_en": "Nesfjellet Golf",
+  "description_en": "Nesfjellet Golf is beautifully situated in the heart of scenic Nesfjellet in Nesbyen, Hallingdal. A picturesque 9-hole mountain course with the mountain landscape as its backdrop. The course offers a unique golf experience combining sport, nature and social interaction. Complete with driving range, two practice greens and facilities suited to both beginners and experienced golfers. Nesfjellet Golf is more than a course -- it is a gathering place for everyone wishing to play golf in fine surroundings and good company."
 }

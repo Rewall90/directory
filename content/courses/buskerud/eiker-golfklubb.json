@@ -36,7 +36,11 @@
     "par4Count": 5,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Vakre naturomgivelser i åsen, skogkledde åser"
+    "viewDescription": "Vakre naturomgivelser i åsen, skogkledde åser",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "Woodland and parkland course",
+    "designer_en": "Tore Fjeld Olsen",
+    "viewDescription_en": "Beautiful natural surroundings on the hillside, wooded hills"
   },
   "description": "Variert og morsom 9-hulls bane midt i Eikerbygdenes skogkledde åser",
   "contact": {
@@ -71,7 +75,8 @@
   "season": {
     "start": "April",
     "end": "November",
-    "winterUse": "Stengt"
+    "winterUse": "Stengt",
+    "winterUse_en": "Closed"
   },
   "visitors": {
     "welcome": true,
@@ -145,7 +150,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil: 9 hull 200 kr, 18 hull 350 kr. 18 års aldersgrense for golfbil. Med legeerklæring: 150/275 kr. Bestilles via appen Eagl. VIPPS: 101265"
+      "notes": "Golfbil: 9 hull 200 kr, 18 hull 350 kr. 18 års aldersgrense for golfbil. Med legeerklæring: 150/275 kr. Bestilles via appen Eagl. VIPPS: 101265",
+      "greenFeeDescription_en": "Adult: 9 holes 250 kr, 18 holes 400 kr. Junior: 9 holes 150 kr, 18 holes 250 kr. Payment: Cash or Vipps to 101265",
+      "notes_en": "Buggy: 9 holes 200 kr, 18 holes 350 kr. Minimum age 18 for buggies. With medical certificate: 150/275 kr. Book via the Eagl app. Vipps: 101265"
     }
   },
   "membershipPricing": {
@@ -160,7 +167,10 @@
         "ageRange": null,
         "ageMin": null,
         "ageMax": null,
-        "restrictions": null
+        "restrictions": null,
+        "name_en": "A-member with unlimited play",
+        "description_en": "Unlimited play included",
+        "restrictions_en": null
       },
       {
         "category": "b_medlem",
@@ -172,7 +182,10 @@
         "ageRange": null,
         "ageMin": null,
         "ageMax": null,
-        "restrictions": "Betaler 50% greenfee per runde"
+        "restrictions": "Betaler 50% greenfee per runde",
+        "name_en": "B-member, pays half green fee",
+        "description_en": "Pays 50% green fee per round",
+        "restrictions_en": "Pays 50% green fee per round"
       },
       {
         "category": "greenfee_medlem",
@@ -184,7 +197,10 @@
         "ageRange": null,
         "ageMin": null,
         "ageMax": null,
-        "restrictions": "Betaler full greenfee per runde"
+        "restrictions": "Betaler full greenfee per runde",
+        "name_en": "Green fee member",
+        "description_en": "Pays full green fee per round",
+        "restrictions_en": "Pays full green fee per round"
       },
       {
         "category": "ung_voksen",
@@ -196,7 +212,10 @@
         "ageRange": "20-25",
         "ageMin": 20,
         "ageMax": 25,
-        "restrictions": null
+        "restrictions": null,
+        "name_en": "Young adult with unlimited play",
+        "description_en": "Unlimited play, includes students",
+        "restrictions_en": null
       },
       {
         "category": "junior",
@@ -208,7 +227,10 @@
         "ageRange": "16-19",
         "ageMin": 16,
         "ageMax": 19,
-        "restrictions": null
+        "restrictions": null,
+        "name_en": "Junior with unlimited play",
+        "description_en": "Unlimited play included",
+        "restrictions_en": null
       },
       {
         "category": "barn",
@@ -220,7 +242,10 @@
         "ageRange": "6-15",
         "ageMin": 6,
         "ageMax": 15,
-        "restrictions": null
+        "restrictions": null,
+        "name_en": "Child with unlimited play",
+        "description_en": "Unlimited play included",
+        "restrictions_en": null
       }
     ]
   },
@@ -273,5 +298,8 @@
     "createdAt": "2025-10-31T05:56:50.373Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJNxtUT7UmQUYRHGs4hTOjJb4"
+  "googlePlaceId": "ChIJNxtUT7UmQUYRHGs4hTOjJb4",
+  "slug_en": "eiker-golf-club",
+  "name_en": "Eiker Golf Club",
+  "description_en": "A varied and enjoyable 9-hole course set in the wooded hills of Eiker"
 }

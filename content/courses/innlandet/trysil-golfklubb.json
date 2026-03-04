@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Ligger flott til ved foten av Trysilfjellet"
+    "viewDescription": "Ligger flott til ved foten av Trysilfjellet",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "Woodland and parkland course",
+    "viewDescription_en": "Beautifully situated at the foot of Trysilfjellet"
   },
   "description": "En spennende og variert 18 hulls skogsbane, par 72, som ligger fint i terrenget. Mange utfordrende hull både for nybegynnerne og erfarne golfspillere. Trysilfjellet Golfbane ligger flott til ved foten av Trysilfjellet, ca. 2 timers kjøring fra Oslo. Priser: 2024: 'Players Choice', 'Beste Golfbane', 2 plass 'Mest verdi for pengene', 3 plass for beste restaurant (Golfamore gjestestudie). 2020: Norges 5. beste bane (Leadingcourses).",
   "contact": {
@@ -133,7 +136,9 @@
       "simulator": true,
       "simulatorOpenHours": "05:00-24:00",
       "simulatorBookingUrl": "https://albaplay.com/",
-      "notes": "Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Simulator åpen alle dager 05:00-24:00. Prime-tid: 09:00-14:50. Straffegebyr 1000 kr for spill uten gyldig avtale."
+      "notes": "Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Simulator åpen alle dager 05:00-24:00. Prime-tid: 09:00-14:50. Straffegebyr 1000 kr for spill uten gyldig avtale.",
+      "greenFeeDescription_en": "Mon-Thu early/late: 490 kr, prime: 590 kr. Fri-Sun early/late: 590 kr, prime: 690 kr. 9 holes: 325-400 kr. Junior up to 19 years: half price. Members: 15-25% discount.",
+      "notes_en": "Midweek package (Mon-Thu unlimited play): 2,200 kr. Weekend package (Fri-Sun 3x18): 1,800 kr. Simulator open daily 05:00-24:00. Prime time: 09:00-14:50. Penalty fee 1,000 kr for play without a valid agreement."
     },
     "2026": {
       "currency": "NOK",
@@ -195,7 +200,9 @@
       "simulatorBookingUrl": "https://albaplay.com/",
       "simulatorType": "Trackman 4 med SIM-lock",
       "simulatorRequiresMembership": true,
-      "notes": "Priser per feb 2026 - nettsiden viser 2025-priser (Golf2025 kampanjekode). Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Dagsgreenfee ikke tilgjengelig fre-søn. Golfbil 9h: 300, 18h: 500, 36h: 700. Golfbil rabatt med legeerklæring: 100 kr. Scooter 9h: 180, 18h: 300. Tralle 9h: 45, 18h: 65. 14 golfbiler tilgjengelig, må være 18 år for å leie. Simulator Trackman 4: 200 kr/time, kun for medlemmer, booking via albaplay.com. Simulator åpen 05:00-24:00 alle dager. Prime-tid: 09:00-14:50. Tidlig/sent: man-tor 07:00-08:50 og 15:00-21:00, fre-søn 07:00-08:50 og 15:00-21:00. Straffegebyr 1000 kr for spill uten gyldig avtale, meldes til NGF og utestengelse. Resortpakker: Trysil Hotell (enkelt 1790, dobbel 2585), Radisson Blu fra 1095 pp, hyttepakker fra 1590 pp."
+      "notes": "Priser per feb 2026 - nettsiden viser 2025-priser (Golf2025 kampanjekode). Midtukepakke (man-tor spill ubegrenset): 2200 kr. Helgepakke (fre-søn 3x18): 1800 kr. Dagsgreenfee ikke tilgjengelig fre-søn. Golfbil 9h: 300, 18h: 500, 36h: 700. Golfbil rabatt med legeerklæring: 100 kr. Scooter 9h: 180, 18h: 300. Tralle 9h: 45, 18h: 65. 14 golfbiler tilgjengelig, må være 18 år for å leie. Simulator Trackman 4: 200 kr/time, kun for medlemmer, booking via albaplay.com. Simulator åpen 05:00-24:00 alle dager. Prime-tid: 09:00-14:50. Tidlig/sent: man-tor 07:00-08:50 og 15:00-21:00, fre-søn 07:00-08:50 og 15:00-21:00. Straffegebyr 1000 kr for spill uten gyldig avtale, meldes til NGF og utestengelse. Resortpakker: Trysil Hotell (enkelt 1790, dobbel 2585), Radisson Blu fra 1095 pp, hyttepakker fra 1590 pp.",
+      "greenFeeDescription_en": "Mon-Thu early/late (07:00-08:50, 15:00-21:00): 490 kr, prime (09:00-14:50): 590 kr. Fri-Sun early/late: 590 kr, prime: 690 kr. 9 holes weekday: 325 kr, weekend: 400 kr. Day green fee (Mon-Thu): 800 kr. Junior up to 19 years: half price. Members: 15-25% discount.",
+      "notes_en": "Prices as of Feb 2026 -- website shows 2025 prices (Golf2025 campaign code). Midweek package (Mon-Thu unlimited play): 2,200 kr. Weekend package (Fri-Sun 3x18): 1,800 kr. Day green fee not available Fri-Sun. Buggy 9h: 300, 18h: 500, 36h: 700. Buggy discount with medical certificate: 100 kr. Scooter 9h: 180, 18h: 300. Trolley 9h: 45, 18h: 65. 14 buggies available, minimum age 18 to hire. Simulator TrackMan 4: 200 kr/hour, members only, booking via albaplay.com. Simulator open 05:00-24:00 daily. Prime time: 09:00-14:50. Early/late: Mon-Thu 07:00-08:50 and 15:00-21:00, Fri-Sun 07:00-08:50 and 15:00-21:00. Penalty fee 1,000 kr for play without valid agreement, reported to NGF and suspension. Resort packages: Trysil Hotel (single 1,790, double 2,585), Radisson Blu from 1,095 pp, cabin packages from 1,590 pp."
     }
   },
   "membershipPricing": {
@@ -297,5 +304,8 @@
     "createdAt": "2025-10-31T07:18:14.186Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJKUx_N_aQaUYR8Et23E9axts"
+  "googlePlaceId": "ChIJKUx_N_aQaUYR8Et23E9axts",
+  "slug_en": "trysil-golf-club",
+  "name_en": "Trysil Golf Club",
+  "description_en": "An exciting and varied 18-hole woodland course, par 72, beautifully set into the terrain. Many challenging holes for both beginners and experienced golfers. Trysilfjellet Golf Course is splendidly situated at the foot of Trysilfjellet, approximately 2 hours' drive from Oslo. Awards: 2024 \"Players' Choice\", \"Best Golf Course\", 2nd place \"Best Value for Money\", 3rd place for best restaurant (Golfamore guest survey). 2020: Norway's 5th best course (Leadingcourses)."
 }

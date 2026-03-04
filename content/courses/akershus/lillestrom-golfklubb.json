@@ -124,7 +124,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfee under 12 år gratis. Ingen utstyrleie tilgjengelig. Kontonr: 1286.41.22319"
+      "notes": "Greenfee under 12 år gratis. Ingen utstyrleie tilgjengelig. Kontonr: 1286.41.22319",
+      "greenFeeDescription_en": "Weekdays: 9 holes 250kr, 18 holes 350kr. Weekends/bank holidays: 9 holes 300kr, 18 holes 400kr. Under 12 years: free.",
+      "notes_en": "Green fee for under 12s is free. No equipment hire available. Account no.: 1286.41.22319"
     }
   },
   "membershipPricing": {
@@ -200,5 +202,8 @@
     "createdAt": "2025-10-31T11:23:11.902Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJk32f32F7QUYRXnX2kYI4AEc"
+  "googlePlaceId": "ChIJk32f32F7QUYRXnX2kYI4AEc",
+  "slug_en": "lillestrom-golf-club",
+  "name_en": "Lillestrom Golf Club",
+  "description_en": "9-hole course approved by the Norwegian Golf Federation, opened in 2021. The course has approximately 900 members. Designed without changes to the existing landscape."
 }

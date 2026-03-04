@@ -1,6 +1,8 @@
 {
   "slug": "aalesund-golfklubb-solnor-gaard",
+  "slug_en": "aalesund-golf-club-solnor-gaard",
   "name": "Ålesund Golfklubb - Solnør Gaard Golfbane",
+  "name_en": "Aalesund Golf Club - Solnor Gaard Golf Course",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Ålesund",
@@ -36,9 +38,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Vakker skog- og parkbane med naturlig terreng i Skodje. En av Norges vakreste golfbaner, lokalisert ca. 30 minutter fra Ålesund sentrum."
+    "viewDescription": "Vakker skog- og parkbane med naturlig terreng i Skodje. En av Norges vakreste golfbaner, lokalisert ca. 30 minutter fra Ålesund sentrum.",
+    "terrain_en": "Undulating",
+    "courseType_en": "Woodland and parkland course",
+    "viewDescription_en": "Beautiful woodland and parkland course with natural terrain in Skodje. One of Norway's most beautiful golf courses, located approximately 30 minutes from Aalesund town centre."
   },
   "description": "Variert og utfordrende 18-hulls bane med naturlig terreng. Opprinnelig 9-hullers bane åpnet i 1995, utvidet til 18 hull i 2004. Banen byr på flott natur og god variasjon.",
+  "description_en": "Varied and challenging 18-hole course with natural terrain. Originally a 9-hole course opened in 1995, extended to 18 holes in 2004. The course offers stunning scenery and good variety.",
   "contact": {
     "phone": "+47 90 20 55 00",
     "email": "klubbadministrasjon@aalesundgk.no",
@@ -58,7 +64,8 @@
   "season": {
     "start": "April",
     "end": "12. oktober",
-    "winterUse": "Banen er stengt for sesongen fra oktober til vår. Golf simulator tilgjengelig på Moa Golfsenter hele året."
+    "winterUse": "Banen er stengt for sesongen fra oktober til vår. Golf simulator tilgjengelig på Moa Golfsenter hele året.",
+    "winterUse_en": "The course is closed for the season from October to spring. Golf simulator available at Moa Golf Centre all year round."
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +130,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee: 500 NOK for 18 holes, 300 NOK for 9 holes. Juniors pay half price (250 NOK for 18 holes). Members: 350 NOK for 18 holes, 250 NOK for 9 holes."
     },
     "2026": {
       "currency": "NOK",
@@ -144,7 +152,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil bestilles via EAGL-appen. Rabatterte gjestesatser gjelder ved spill sammen med medlemmer med full spillerett."
+      "notes": "Golfbil bestilles via EAGL-appen. Rabatterte gjestesatser gjelder ved spill sammen med medlemmer med full spillerett.",
+      "greenFeeDescription_en": "Green fee: 500 NOK (18 holes), 300 NOK (9 holes). Junior half price. Guest of member: 350 NOK (18 holes), 250 NOK (9 holes).",
+      "notes_en": "Golf buggy booked via the EAGL app. Discounted guest rates apply when playing with members with full playing rights."
     }
   },
   "membershipPricing": {
@@ -180,7 +190,22 @@
       "vtgSecondYearDescription": "VTG medlem 2. år - overgang etter nybegynnerkurs",
       "dugnadsrabatt": "Inntil 1000 kr rabatt for minimum 10 timer dugnad",
       "membershipStatus": "open",
-      "notes": "Priser godkjent på årsmøte 18. mars 2025. Dugnadsrabatt tilgjengelig for kategoriene Medlem 35+, 26-34, 20-25, Familie og Giske."
+      "notes": "Priser godkjent på årsmøte 18. mars 2025. Dugnadsrabatt tilgjengelig for kategoriene Medlem 35+, 26-34, 20-25, Familie og Giske.",
+      "fullMembershipDescription_en": "Member 35+ years - incl. membership fee 2,000 NOK + playing rights 6,000 NOK",
+      "youngAdult26to34MembershipDescription_en": "Member 26-34 years - incl. membership fee 2,000 NOK + playing rights 5,000 NOK",
+      "youngAdult20to25MembershipDescription_en": "Member 20-25 years - incl. membership fee 2,000 NOK + playing rights 4,000 NOK",
+      "juniorMembership13to19Description_en": "Junior 13-19 years - incl. membership fee 500 NOK + playing rights 1,650 NOK",
+      "juniorMembership7to12Description_en": "Junior 7-12 years - incl. membership fee 500 NOK + playing rights 800 NOK",
+      "juniorMembership0to6Description_en": "Junior 0-6 years - membership fee only",
+      "familyMembershipDescription_en": "Family membership - 2 adults (at 6,000 NOK each) + children under 19 years",
+      "moaMembershipDescription_en": "Moa membership - limited to Moa Golf Centre with discount at Solnor",
+      "giskeMembershipDescription_en": "Giske member - incl. membership fee 2,000 NOK + playing rights 5,200 NOK",
+      "distanceMembershipDescription_en": "Distance member - for members outside defined municipalities",
+      "passivMembershipDescription_en": "Membership without golf card/playing rights",
+      "vtgFirstYear20plusDescription_en": "VTG 1st year 20+ - beginners course with playing rights",
+      "vtgFirstYearUnder20Description_en": "VTG 1st year under 20 years - beginners course with playing rights",
+      "vtgSecondYearDescription_en": "VTG member 2nd year - transition after beginners course",
+      "notes_en": "Prices approved at annual meeting 18 March 2025. Volunteer discount available for the Member 35+, 26-34, 20-25, Family and Giske categories."
     }
   },
   "ratings": {

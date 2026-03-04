@@ -36,7 +36,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Varanger Golfklubb - Finnmarks første og verdens nordligste 9-hulls bane godkjent av Norges Golfforbund! Varanger Golfpark i Vestre Jakobselv. Par 70 (18h). Driving range (8 overbygde + 4 udekte baner), putting green, chipping green, practice bunker. Klubbhus med pro shop. Tralle til leie. VTG-kurs. Vadsø Golfsimulator AS. Handicap-grense 54."
+    "viewDescription": "Varanger Golfklubb - Finnmarks første og verdens nordligste 9-hulls bane godkjent av Norges Golfforbund! Varanger Golfpark i Vestre Jakobselv. Par 70 (18h). Driving range (8 overbygde + 4 udekte baner), putting green, chipping green, practice bunker. Klubbhus med pro shop. Tralle til leie. VTG-kurs. Vadsø Golfsimulator AS. Handicap-grense 54.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "9-hole parkland/woodland course",
+    "scenicHole_en": "The world's most northerly 9-hole course approved by the NGF",
+    "viewDescription_en": "Varanger Golf Club - Finnmark's first and the world's most northerly 9-hole course approved by the Norwegian Golf Federation! Varanger Golf Park in Vestre Jakobselv. Par 70 (18 holes). Driving range (8 covered and 4 uncovered bays), putting green, chipping green, practice bunker. Clubhouse with pro shop. Trolley hire available. Introduction to Golf courses. Vadso Golf Simulator. Maximum handicap 54."
   },
   "description": "Varanger Golfklubb - Finnmarks første og verdens nordligste 9-hulls bane godkjent av Norges Golfforbund! Varanger Golfpark i Vestre Jakobselv, ca 15 km vest for Vadsø. Par 35 for 9 hull, par 70 når spilt 2 ganger (18 hull). 9 hull med lengder fra 120-443m. 3 tee-bokser (rød, blå, gul). Grunnlagt 2002. Handicap-grense 54.",
   "contact": {
@@ -127,7 +131,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": "Medlemsfordeler: Redusert greenfee, 20% rabatt på golfutstyr i ProShop (unntatt baller), abonnement på Norsk Golf magasin (ca 8 utgaver/år).",
       "freeTrial": "Nye medlemmer som har gjennomført VTG-kurs: 1 år gratis spill (ekskl. turneringer).",
-      "notes": "Ingen forskjell på hverdag/helg for gjester. Medlemmer spiller til redusert pris (250 kr/18h, 200 kr/9h). Barn/ungdom t.o.m. 19 år spiller gratis som medlemmer."
+      "notes": "Ingen forskjell på hverdag/helg for gjester. Medlemmer spiller til redusert pris (250 kr/18h, 200 kr/9h). Barn/ungdom t.o.m. 19 år spiller gratis som medlemmer.",
+      "greenFeeDescription_en": "Green fee 2026:\n\nVISITORS:\n• Weekly green fee: 1,250 NOK\n• Daily green fee (18+ holes): 400 NOK\n• 9 holes: 300 NOK\n\nMEMBERS:\n• Daily green fee (18+ holes): 250 NOK\n• 9 holes: 200 NOK\n• Children/youth (up to and including 19 years): Free\n• 10-clip card (HCP >36): 1,300 NOK\n• 20-clip card (HCP >36): 1,800 NOK\n\nSEASONAL GREEN FEE:\n• With playing rights: 4,000 NOK\n• Without playing rights: 4,500 NOK\n• 20-26 years: 3,000 NOK\n• Student/military 20-26 years: 1,500 NOK\n\nPlaying rights: 7,000 NOK (gives ownership share and discounted seasonal green fee)",
+      "notes_en": "No difference between weekday/weekend for visitors. Members play at reduced price (250 NOK/18h, 200 NOK/9h). Children/youth up to and including 19 years play free as members."
     }
   },
   "membershipPricing": {
@@ -178,19 +184,22 @@
         "category": "Fjernmedlem",
         "price": 900,
         "description": "Bosatt utenfor Øst-Finnmark",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Residing outside East Finnmark"
       },
       {
         "category": "Nybegynner voksen",
         "price": 1200,
         "description": "Første års medlemskap",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Første yearss membership"
       },
       {
         "category": "Familie maks",
         "price": 3100,
         "description": "Maks pris per husstand",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Maximum price per household"
       }
     ]
   },
@@ -299,5 +308,8 @@
     "createdAt": "2025-10-30T10:55:19.560Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ-2o-xOsPy0URgOkPgDyda0M"
+  "googlePlaceId": "ChIJ-2o-xOsPy0URgOkPgDyda0M",
+  "slug_en": "varanger-golf-club",
+  "name_en": "Varanger Golf Club",
+  "description_en": "Varanger Golf Club - Finnmark's first and the world's most northerly 9-hole course approved by the Norwegian Golf Federation! Varanger Golf Park in Vestre Jakobselv, approximately 15 km west of Vadso. Par 35 for 9 holes, par 70 when played twice (18 holes). 9 holes with lengths from 120-443m. 3 tee boxes (red, blue, yellow). Founded in 2002. Maximum handicap 54."
 }

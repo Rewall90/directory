@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Idyllically located by Norsjø and the Telemark Canal with magnificent forest and park scenery. Two holes ranked in top 100 most spectacular in Norway."
+    "viewDescription": "Idyllically located by Norsjø and the Telemark Canal with magnificent forest and park scenery. Two holes ranked in top 100 most spectacular in Norway.",
+    "terrain_en": "Parkland and woodland",
+    "courseType_en": "Parkland/Woodland",
+    "signatureHole_en": "Hole 11 - One of Norway's most photographed par 3 holes",
+    "scenicHole_en": "Hole 11 - One of Norway's most photographed par 3 holes",
+    "viewDescription_en": "Idyllically located by Norsjø and the Telemark Canal with magnificent forest and park scenery. Two holes ranked in top 100 most spectacular in Norway."
   },
   "description": "En av Norges mest krevende 18-hullsbaner, idyllisk beliggende ved Norsjø og Telemarkkanalen. To hull er rangert blant Norges 100 mest spektakulære. Hull 11 er et av landets mest fotograferte par 3-hull.",
   "contact": {
@@ -131,7 +136,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Hver 4. runde gratis med greenfeekortet. 50% greenfee discount with Golfamore Card."
+      "notes": "Hver 4. runde gratis med greenfeekortet. 50% greenfee discount with Golfamore Card.",
+      "greenFeeDescription_en": "Adult (17+): 18 holes NOK 650, 9 holes NOK 350. Junior (0-16): 18 holes NOK 350, 9 holes NOK 200. Early Bird weekdayer før kl 12: NOK 350 (ikke i juli). Multi-round card 10 green fee: NOK 3500.",
+      "notes_en": "Every 4th round free with the green fee card. 50% green fee discount with Golfamore Card."
     }
   },
   "membershipPricing": {
@@ -194,5 +201,8 @@
     "createdAt": "2025-10-31T12:22:40.080Z",
     "updatedAt": "2026-02-14T16:10:00.000Z"
   },
-  "googlePlaceId": "ChIJFbFq6ZQ5R0YRpOJNbKt3MvY"
+  "googlePlaceId": "ChIJFbFq6ZQ5R0YRpOJNbKt3MvY",
+  "slug_en": "norsjo-golf-club",
+  "name_en": "Norsjø Golf Club",
+  "description_en": "One of Norway's most demanding 18-hole courses, idyllically situated by Lake Norsjo and the Telemark Canal. Two holes are ranked among Norway's 100 most spectacular. Hole 11 is one of the country's most photographed par-3 holes."
 }

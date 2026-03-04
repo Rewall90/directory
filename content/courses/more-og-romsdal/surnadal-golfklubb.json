@@ -1,6 +1,8 @@
 {
   "slug": "surnadal-golfklubb",
+  "slug_en": "surnadal-golf-club",
   "name": "Surnadal Golfklubb",
+  "name_en": "Surnadal Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Surnadal",
@@ -36,9 +38,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Flott utsikt mot både fjord og fjell"
+    "viewDescription": "Flott utsikt mot både fjord og fjell",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "Short course",
+    "viewDescription_en": "Stunning views of both fjord and mountains"
   },
   "description": "Surnadal Golfpark ligger i lett skrånende dyrkamark og skogsterreng i naturskjønne omgivelser med flott utsikt mot fjord og fjell på gården Mo ved Kvanne. Banen har naturlig terreng med variert layout og ble opprinnelig åpnet som 6-hulls bane i 2006, utvidet til 9-hulls i 2008, og videre utviklet i 2019 med doble utslagssteder på alle hull for å kunne spilles som 18-hulls bane.",
+  "description_en": "Surnadal Golf Park is situated on gently sloping cultivated land and woodland terrain in scenic surroundings with stunning views of fjord and mountains on the Mo farm at Kvanne. The course has natural terrain with varied layout and was originally opened as a 6-hole course in 2006, extended to 9 holes in 2008, and further developed in 2019 with dual tee positions on all holes to allow play as an 18-hole course.",
   "contact": {
     "phone": "+47 959 41 102",
     "email": "post@surnadal-golfklubb.no",
@@ -58,7 +64,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Simulator tilgjengelig for vintertrening i nytt bygg ved klubbhuset"
+    "winterUse": "Simulator tilgjengelig for vintertrening i nytt bygg ved klubbhuset",
+    "winterUse_en": "Simulator available for winter training in new building at the clubhouse"
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +130,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Adults 18 holes: 350 NOK, Adults 9 holes: 200 NOK, Children under 13: free, Youth 13-19 years: 100 NOK"
     },
     "2026": {
       "currency": "NOK",
@@ -142,7 +150,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfee inkludert i medlemskap med spillerett"
+      "notes": "Greenfee inkludert i medlemskap med spillerett",
+      "greenFeeDescription_en": "Adults 18 holes: 350 NOK, 9 holes: 200 NOK. Children under 13: free. Youth 13-19 years: 100 NOK.",
+      "notes_en": "Green fee included in membership with playing rights"
     }
   },
   "membershipPricing": {
@@ -169,7 +179,18 @@
       "playingRightsOtherClub": 3200,
       "playingRightsOtherClubDescription": "Spillerett for medlemmer av andre klubber - fri spill",
       "membershipStatus": "open",
-      "notes": "Ingen innmeldingsavgift. Norsk Golf blad inkludert. Aldersgrenser gjelder fra 1. januar årlig."
+      "notes": "Ingen innmeldingsavgift. Norsk Golf blad inkludert. Aldersgrenser gjelder fra 1. januar årlig.",
+      "fullMembershipDescription_en": "Adult with playing rights (annual pass) - free play",
+      "juniorMembershipDescription_en": "Junior under 20 years with playing rights - free play",
+      "studentMembershipDescription_en": "Student under 30 years with playing rights - free play (reduced from 2,500 NOK)",
+      "childMembershipDescription_en": "Child up to 12 years with playing rights - free play",
+      "familyMembershipDescription_en": "Family membership (2 adults + children) with playing rights - free play",
+      "adultNoPlayingRightsDescription_en": "Adult without playing rights - green fee 350 NOK/day",
+      "juniorNoPlayingRightsDescription_en": "Youth under 20 years without playing rights - green fee 200 NOK/day",
+      "studentNoPlayingRightsDescription_en": "Student under 30 years without playing rights - green fee 200 NOK/day",
+      "familyNoPlayingRightsDescription_en": "Family membership without playing rights - green fee 350 NOK/day",
+      "playingRightsOtherClubDescription_en": "Playing rights for members of other clubs - free play",
+      "notes_en": "No joining fee. Norsk Golf magazine included. Age limits apply from 1 January annually."
     }
   },
   "ratings": {

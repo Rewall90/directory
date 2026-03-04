@@ -36,7 +36,12 @@
     "par4Count": 5,
     "par5Count": 2,
     "mountainViews": true,
-    "viewDescription": "Fjellpanorama; elva Ålma; range, putting/chipping, practice bunker."
+    "viewDescription": "Fjellpanorama; elva Ålma; range, putting/chipping, practice bunker.",
+    "terrain_en": "Woodland",
+    "courseType_en": "9-hole woodland course",
+    "signatureHole_en": "Mountain views",
+    "scenicHole_en": "Mountain views",
+    "viewDescription_en": "Mountain panorama; the Aalma river; range, putting/chipping, practice bunker."
   },
   "description": "Skogsbane i bjørke- og furuskog med fjellpanorama; 18 tee-posisjoner slopet som 18-hulls.",
   "contact": {
@@ -126,7 +131,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Vipps #111000. Halv greenfee med Golfamore. Nybegynner-programmer; gode tilbud i pro shop."
+      "notes": "Vipps #111000. Halv greenfee med Golfamore. Nybegynner-programmer; gode tilbud i pro shop.",
+      "greenFeeDescription_en": "Adult: 18 holes 500 kr, 9 holes 300 kr. Junior (up to 19 years): 18 holes 300 kr, 9 holes 150 kr.",
+      "notes_en": "Vipps #111000. Half green fee with Golfamore. Beginner programmes; great offers in pro shop."
     },
     "2026": {
       "currency": "NOK",
@@ -145,7 +152,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Vipps #111000. Halv greenfee med Golfamore. Alle runder bestilles via Golfbox."
+      "notes": "Vipps #111000. Halv greenfee med Golfamore. Alle runder bestilles via Golfbox.",
+      "greenFeeDescription_en": "Adult: 18 holes 500 kr, 9 holes 300 kr. Junior (up to 19 years): 18 holes 300 kr, 9 holes 150 kr.",
+      "notes_en": "Vipps #111000. Half green fee with Golfamore. All rounds booked via GolfBox."
     }
   },
   "membershipPricing": {
@@ -154,61 +163,81 @@
         "category": "Barn",
         "price": 100,
         "description": "Barn tom 14 år - medlemskap og spillerett.",
-        "ageRange": "0-14"
+        "ageRange": "0-14",
+        "name_en": "Child",
+        "description_en": "Children up to 14 years - membership and playing rights."
       },
       {
         "category": "Junior/Ungdom medlemskap",
         "price": 400,
         "description": "Junior/Ungdom tom 19 år - kun medlemskap.",
-        "ageRange": "15-19"
+        "ageRange": "15-19",
+        "name_en": "Junior/Youth membership",
+        "description_en": "Junior/youth up to 19 years - membership only."
       },
       {
         "category": "Junior/Ungdom med spillerett",
         "price": 800,
         "description": "Junior/Ungdom tom 19 år - medlemskap og spillerett.",
-        "ageRange": "15-19"
+        "ageRange": "15-19",
+        "name_en": "Junior/Youth with playing rights",
+        "description_en": "Junior/youth up to 19 years - membership and playing rights."
       },
       {
         "category": "Student/lærling medlemskap",
         "price": 690,
         "description": "Student/lærling (med studentbevis) - kun medlemskap.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student/lærling membership",
+        "description_en": "Student/apprentice (with student ID) - membership only."
       },
       {
         "category": "Student/lærling med spillerett",
         "price": 2490,
         "description": "Student/lærling (med studentbevis) - medlemskap og spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student/lærling with playing rights",
+        "description_en": "Student/apprentice (with student ID) - membership and playing rights."
       },
       {
         "category": "Senior medlemskap",
         "price": 950,
         "description": "Senior 20-66 år - kun medlemskap.",
-        "ageRange": "20-66"
+        "ageRange": "20-66",
+        "name_en": "Senior membership",
+        "description_en": "Adult 20-66 years - membership only."
       },
       {
         "category": "Senior med spillerett",
         "price": 4390,
         "description": "Senior 20-66 år - medlemskap og spillerett.",
-        "ageRange": "20-66"
+        "ageRange": "20-66",
+        "name_en": "Senior with playing rights",
+        "description_en": "Adult 20-66 years - membership and playing rights."
       },
       {
         "category": "Pensjonist medlemskap",
         "price": 800,
         "description": "Pensjonister 67 år - kun medlemskap.",
-        "ageRange": "67+"
+        "ageRange": "67+",
+        "name_en": "Pensioner membership",
+        "description_en": "Pensioners 67+ years - membership only."
       },
       {
         "category": "Pensjonist med spillerett",
         "price": 3690,
         "description": "Pensjonister 67 år - medlemskap og spillerett.",
-        "ageRange": "67+"
+        "ageRange": "67+",
+        "name_en": "Pensioner with playing rights",
+        "description_en": "Pensioners 67+ years - membership and playing rights."
       },
       {
         "category": "Fjernmedlem spillerett",
         "price": 3650,
         "description": "Spillerett for medlem i annen klubb.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member with playing rights",
+        "description_en": "Playing rights for members of another club."
       }
     ]
   },
@@ -264,5 +293,8 @@
     "createdAt": "2025-10-31T11:30:52.436Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJXT-XffNTE0YRPvFuqyAn9K0"
+  "googlePlaceId": "ChIJXT-XffNTE0YRPvFuqyAn9K0",
+  "slug_en": "oppdal-golf-club",
+  "name_en": "Oppdal Golf Club",
+  "description_en": "Woodland course in birch and pine forest with mountain panorama; 18 tee positions slope-rated as an 18-hole course."
 }

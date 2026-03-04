@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Tysnes Golf (tidl. Dalen Golf) - 6-hulls bane + 18-hulls Pitch & Putt (par 63) i Uggdal på Tysnes-øya, Vestland. Klubbhus i sjarmerende låve med stor terrasse og utsikt mot havet i vest. Sjokolade og brus i klubbhuset. Tysnesfest Open turnering. Åpen for publikum."
+    "viewDescription": "Tysnes Golf (tidl. Dalen Golf) - 6-hulls bane + 18-hulls Pitch & Putt (par 63) i Uggdal på Tysnes-øya, Vestland. Klubbhus i sjarmerende låve med stor terrasse og utsikt mot havet i vest. Sjokolade og brus i klubbhuset. Tysnesfest Open turnering. Åpen for publikum.",
+    "terrain_en": "Coastal/Parkland",
+    "courseType_en": "6-hole course + 18-hole Pitch & Putt course",
+    "signatureHole_en": "Sea views to the west from the terraces",
+    "scenicHole_en": "Sea views to the west from the terraces",
+    "viewDescription_en": "Tysnes Golf (formerly Dalen Golf) - 6-hole course + 18-hole Pitch & Putt (par 63) in Uggdal on Tysnes island, Vestland. Clubhouse in a charming barn with large terrace and sea views to the west. Chocolate and soft drinks available in the clubhouse. Tysnesfest Open tournament. Open to the public."
   },
   "description": "Tysnes Golf (tidl. Dalen Golf) - 6-hulls bane med tilleggsbane: 18-hulls Pitch & Putt-bane. Par 63 for 18-hull Pitch & Putt. Lokalisert i Uggdal på Tysnes-øya. Klubbhus i låve med stor terrasse med utsikt mot havet i vest.",
   "contact": {
@@ -123,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "To baner: 6-hulls hovedbane og 18-hulls Pitch & Putt. Klubbhus i låve med stor terrasse og havutsikt. Tysnesfest Open turnering (startavgift 200 kr). Booking via GolfBox."
+      "notes": "To baner: 6-hulls hovedbane og 18-hulls Pitch & Putt. Klubbhus i låve med stor terrasse og havutsikt. Tysnesfest Open turnering (startavgift 200 kr). Booking via GolfBox.",
+      "greenFeeDescription_en": "Green fee sold in the clubhouse (barn). Prices not listed online. Contact the club: post@tysnesgolf.no or 90551995.",
+      "notes_en": "Two courses: 6-hole main course and 18-hole Pitch & Putt. Clubhouse in a barn with large terrace and sea views. Tysnesfest Open tournament (entry fee 200 NOK). Booking via GolfBox."
     }
   },
   "membershipPricing": {
@@ -132,25 +139,29 @@
         "category": "senior",
         "price": 2000,
         "description": "Senior med spillerett: 2000 kr/år. 300 kr rabatt for ekstra husstandsmedlemmer.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Senior with playing rights: 2,000 NOK/year. 300 NOK discount for additional household members."
       },
       {
         "category": "pensjonist",
         "price": 1400,
         "description": "Pensjonist med spillerett: 1400 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Pensioner with playing rights: 1,400 NOK/year"
       },
       {
         "category": "junior",
         "price": 900,
         "description": "Junior/Student med spillerett: 900 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Junior/Student with playing rights: 900 NOK/year"
       },
       {
         "category": "passive",
         "price": 900,
         "description": "Medlemskap uten spillerett: 900 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Membership without playing rights: 900 NOK/year"
       }
     ]
   },
@@ -195,5 +206,8 @@
     "createdAt": "2025-10-31T10:17:02.178Z",
     "updatedAt": "2026-02-15T14:00:00.000Z"
   },
-  "googlePlaceId": "ChIJE5vciLxmPEYRpwUf9fBgOQQ"
+  "googlePlaceId": "ChIJE5vciLxmPEYRpwUf9fBgOQQ",
+  "slug_en": "tysnes-golf",
+  "name_en": "Tysnes Golf",
+  "description_en": "Tysnes Golf (formerly Dalen Golf) - 6-hole course with additional course: 18-hole Pitch & Putt. Par 63 for 18-hole Pitch & Putt. Located in Uggdal on Tysnes island. Clubhouse in a barn with large terrace overlooking the sea to the west."
 }

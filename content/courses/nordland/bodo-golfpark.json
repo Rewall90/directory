@@ -36,7 +36,12 @@
     "par4Count": 10,
     "par5Count": 3,
     "mountainViews": true,
-    "viewDescription": "Utsikt mot havet, Landegode og Lofotveggen. Midnattsol i sommeren."
+    "viewDescription": "Utsikt mot havet, Landegode og Lofotveggen. Midnattsol i sommeren.",
+    "terrain_en": "Varied -- cultural landscape by the sea and woodland course",
+    "courseType_en": "Combined links and woodland course",
+    "signatureHole_en": "The front nine with views towards the sea and the Lofoten Wall",
+    "scenicHole_en": "The front nine with views towards the sea and the Lofoten Wall",
+    "viewDescription_en": "Views towards the sea, Landegode and the Lofoten Wall. Midnight sun in summer."
   },
   "description": "Bare noen få minutter fra Bodø lufthavn og sentrum av byen venter en flott 18-hulls kombinert links og skogsbane. De første ni hullene går i gammelt kulturlandskap langs sjøen. Her er både ei gammel vikingegrav og ei gammel jekestø i spill. Utsikten mot havet, Landegode og Lofotveggen tar pusten fra mange. Ikke minst når midnattsola stråler.",
   "contact": {
@@ -63,7 +68,8 @@
   "season": {
     "start": "1. mai",
     "end": "Oktober",
-    "winterUse": "Simulator tilgjengelig for juniorgruppen om vinteren på Bodø Golfsenter"
+    "winterUse": "Simulator tilgjengelig for juniorgruppen om vinteren på Bodø Golfsenter",
+    "winterUse_en": "Simulator available for the junior group in winter at Bodo Golf Centre"
   },
   "visitors": {
     "welcome": true,
@@ -135,7 +141,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Leie av golfsett med tralle: 220 kr"
+      "notes": "Leie av golfsett med tralle: 220 kr",
+      "greenFeeDescription_en": "Visiting player 18 holes: 650 kr, 9 holes: 450 kr. Junior 18 holes: 325 kr, 9 holes: 225 kr. Birdie member 18 holes: 500 kr, 9 holes: 350 kr.",
+      "notes_en": "Club set hire with trolley: 220 kr"
     }
   },
   "membershipPricing": {
@@ -213,5 +221,8 @@
     "createdAt": "2025-10-31T09:43:41.491Z",
     "updatedAt": "2026-02-14T15:58:00.000Z"
   },
-  "googlePlaceId": "ChIJ98tYEYkQ30URcjrUkC2pOYc"
+  "googlePlaceId": "ChIJ98tYEYkQ30URcjrUkC2pOYc",
+  "slug_en": "bodo-golf-park",
+  "name_en": "Bodo Golf Park",
+  "description_en": "Just a few minutes from Bodo Airport and the city centre, a splendid 18-hole combined links and woodland course awaits. The first nine holes traverse old cultural landscape along the sea. Both an ancient Viking grave and an old boat landing are in play here. The views towards the sea, Landegode and the Lofoten Wall take many visitors' breath away. Especially when the midnight sun is shining."
 }

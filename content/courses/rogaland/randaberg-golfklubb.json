@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Randaberg Golfklubb er en vakker linksbane ved enden av Tungenes i Randaberg, nær Stavanger. Grunnlagt 1998. 9-hulls bane med par 62, samt 6-hulls kortbane. Klassisk linkskarakter ved kysten. Driving range, putting green, practice bunker. Åpen hele året."
+    "viewDescription": "Randaberg Golfklubb er en vakker linksbane ved enden av Tungenes i Randaberg, nær Stavanger. Grunnlagt 1998. 9-hulls bane med par 62, samt 6-hulls kortbane. Klassisk linkskarakter ved kysten. Driving range, putting green, practice bunker. Åpen hele året.",
+    "terrain_en": "Links",
+    "courseType_en": "9-hole links course with 6-hole short course",
+    "signatureHole_en": "Beautiful links course at the tip of Tungenes",
+    "scenicHole_en": "Beautiful links course at the tip of Tungenes",
+    "viewDescription_en": "Randaberg Golf Club is a beautiful links course at the tip of Tungenes in Randaberg. Founded 1998. 9-hole course with par 62, plus a 6-hole short course. Classic links character by the coast near Stavanger. Open all year. Maximum handicap 54 for visitors."
   },
   "description": "Randaberg Golfklubb er en vakker linksbane ved enden av Tungenes i Randaberg. Grunnlagt 1998. 9-hulls bane med par 62, samt 6-hulls kortbane. Klassisk linkskarakter ved kysten nær Stavanger. Åpen hele året. Handicapkrav 54 for besøkende.",
   "contact": {
@@ -63,7 +68,8 @@
   "season": {
     "start": "Januar",
     "end": "Desember",
-    "winterUse": "Åpen hele året. Vintergreenfee 250 kr (01.11-31.03)."
+    "winterUse": "Åpen hele året. Vintergreenfee 250 kr (01.11-31.03).",
+    "winterUse_en": "Open all year. Winter green fee 250 kr (1 Nov - 31 Mar)."
   },
   "visitors": {
     "welcome": true,
@@ -128,7 +134,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Familie greenfee: 600 kr for 2 voksne + 2 barn/junior"
+      "notes": "Familie greenfee: 600 kr for 2 voksne + 2 barn/junior",
+      "greenFeeDescription_en": "Green fee 2025: 18 holes 350 kr (junior 175 kr), 9 holes 250 kr (junior 125 kr). Family green fee 600 kr (2 adults + 2 children/juniors). Winter green fee 1 Nov - 31 Mar: 250 kr (9 and 18 holes). NSG members get half green fee weekdays before 14:00.",
+      "notes_en": "Family green fee: 600 kr for 2 adults + 2 children/juniors"
     },
     "2026": {
       "currency": "NOK",
@@ -147,7 +155,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Familie greenfee: 600 kr for 2 voksne + 2 barn/junior. Junior 9 hull: 125 kr."
+      "notes": "Familie greenfee: 600 kr for 2 voksne + 2 barn/junior. Junior 9 hull: 125 kr.",
+      "greenFeeDescription_en": "Green fee 2026: 18 holes 350 kr (junior 175 kr), 9 holes 250 kr (junior 125 kr). Family green fee 600 kr (2 adults + 2 children/juniors). Winter green fee 1 Nov - 31 Mar: 250 kr (9 and 18 holes). NSG members get half green fee weekdays before 14:00.",
+      "notes_en": "Family green fee: 600 kr for 2 adults + 2 children/juniors. Junior 9 holes: 125 kr."
     }
   },
   "membershipPricing": {
@@ -156,43 +166,57 @@
         "category": "adult",
         "price": 6200,
         "description": "Hovedmedlem 6200 kr/år. Ingen innmeldingsavgift. Betalingsplan over maks 9 måneder tilgjengelig.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full member 6,200 kr/year. No joining fee. Payment plan over max 9 months available."
       },
       {
         "category": "spouse",
         "price": 4000,
         "description": "Hovedmedlem Partner 4000 kr/år. Ektefelle/partner til hovedmedlem.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Full member partner 4,000 kr/year. Spouse/partner of full member."
       },
       {
         "category": "youth25_30",
         "price": 2000,
         "description": "Unge Voksne 2000 kr/år. Året en fyller 25-30.",
-        "ageRange": "25-30"
+        "ageRange": "25-30",
+        "name_en": "Young Adult 25-30",
+        "description_en": "Young adult 2,000 kr/year. The year you turn 25-30."
       },
       {
         "category": "youth20_24",
         "price": 2000,
         "description": "Eldre Junior 2000 kr/år. Året en fyller 20-24.",
-        "ageRange": "20-24"
+        "ageRange": "20-24",
+        "name_en": "Young Adult 20-24",
+        "description_en": "Older junior 2,000 kr/year. The year you turn 20-24."
       },
       {
         "category": "junior13_19",
         "price": 750,
         "description": "Junior 750 kr/år. Året en fyller 13-19.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19",
+        "description_en": "Junior 750 kr/year. The year you turn 13-19."
       },
       {
         "category": "junior6_12",
         "price": 350,
         "description": "Yngre Junior 350 kr/år. Året en fyller 6-12.",
-        "ageRange": "6-12"
+        "ageRange": "6-12",
+        "name_en": "Junior 6-12",
+        "description_en": "Younger junior 350 kr/year. The year you turn 6-12."
       },
       {
         "category": "remote",
         "price": 795,
         "description": "Fjernmedlemskap 795 kr/år. Medlem uten spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance membership 795 kr/year. Member without playing rights."
       }
     ]
   },
@@ -237,5 +261,8 @@
     "createdAt": "2025-10-31T07:46:26.389Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJCc3cIYe0O0YRcqXE5WSUhtE"
+  "googlePlaceId": "ChIJCc3cIYe0O0YRcqXE5WSUhtE",
+  "slug_en": "randaberg-golf-club",
+  "name_en": "Randaberg Golf Club",
+  "description_en": "Randaberg Golf Club is a beautiful links course at the tip of Tungenes in Randaberg. Founded 1998. 9-hole course with par 62, plus a 6-hole short course. Classic links character by the coast near Stavanger. Open all year. Maximum handicap 54 for visitors."
 }

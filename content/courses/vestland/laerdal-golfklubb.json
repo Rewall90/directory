@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": 1,
     "mountainViews": true,
-    "viewDescription": "Lærdal Golfklubb - grunnlagt ca 2000 i Lærdal, Sogn. Hadde ekstremt utfordrende 6-hulls fjellbane med 5 lange par 3-hull (over 170m) mellom 1000m høye fjell. VIKTIG: Ingen permanent bane i drift for tiden. Bruker SimuGolf, Årdal Range og Hemsedal GK. Aktiv klubb med vinterserie og klubbmesterskap. Planlagt ny bane ved Ljøsne avslått."
+    "viewDescription": "Lærdal Golfklubb - grunnlagt ca 2000 i Lærdal, Sogn. Hadde ekstremt utfordrende 6-hulls fjellbane med 5 lange par 3-hull (over 170m) mellom 1000m høye fjell. VIKTIG: Ingen permanent bane i drift for tiden. Bruker SimuGolf, Årdal Range og Hemsedal GK. Aktiv klubb med vinterserie og klubbmesterskap. Planlagt ny bane ved Ljøsne avslått.",
+    "terrain_en": "Mountain/Parkland",
+    "courseType_en": "6-hole mountain course (not permanently in operation)",
+    "signatureHole_en": "Dramatic mountain area between 1,000-metre-high peaks",
+    "scenicHole_en": "Dramatic mountain area between 1,000-metre-high peaks",
+    "viewDescription_en": "Laerdal Golf Club - established approx. 2000 in Laerdal, Sogn. Had an extremely challenging 6-hole mountain course with 5 long par 3 holes (over 170m) between 1,000m-high mountains. IMPORTANT: No permanent course currently in operation. Uses SimuGolf, Aardal Range and Hemsedal GK. Active club with winter series and club championship. Planned new course at Ljosne was declined."
   },
   "description": "Lærdal Golfklubb - grunnlagt rundt 2000. Hadde en ekstremt utfordrende 6-hulls bane mellom 1000-meter høye fjell på alle sider med svært lange hull (5 par 3-hull over 170m). VIKTIG: Klubben har for tiden ikke permanent golfbane i drift. Planlagt bane ved Ljøsne ble avslått. Medlemmer bruker SimuGolf, Årdal Range og Hemsedal Golfklubb.",
   "contact": {
@@ -58,7 +63,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Bruker SimuGolf for vinterserie-turneringer"
+    "winterUse": "Bruker SimuGolf for vinterserie-turneringer",
+    "winterUse_en": "Uses SimuGolf for winter series tournaments"
   },
   "visitors": {
     "welcome": false,
@@ -123,7 +129,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Aktiv klubb uten permanent bane. Bruker SimuGolf, Årdal Range og Hemsedal Golfklubb. Arrangerer vinterserie på simulator og årlige klubbmesterskap. Medlemskap gir spillerett på baner i Norge/Sverige, golfforsikring og GolfBox-tilgang."
+      "notes": "Aktiv klubb uten permanent bane. Bruker SimuGolf, Årdal Range og Hemsedal Golfklubb. Arrangerer vinterserie på simulator og årlige klubbmesterskap. Medlemskap gir spillerett på baner i Norge/Sverige, golfforsikring og GolfBox-tilgang.",
+      "greenFeeDescription_en": "Green fee 2025: The club currently has no permanent course in operation. Members play at Hemsedal Golf Club (green fee 400 NOK) and use SimuGolf/Aardal Range. Historical green fee was 200 NOK.",
+      "notes_en": "Active club without a permanent course. Uses SimuGolf, Aardal Range and Hemsedal Golf Club. Organises winter series on simulator and annual club championships. Membership provides playing rights at courses in Norway/Sweden, golf insurance and GolfBox access."
     },
     "2026": {
       "currency": "NOK",
@@ -142,7 +150,9 @@
       "specialOfferIncludes": "Fritt spel hele sommeren på Hemsedal Golfklubb",
       "freeTrial": null,
       "greenFeeDescription": "Klubben har ingen egen bane. Medlemmer spiller på Hemsedal Golfklubb: Greenfee 9 hull kr 400 (herre/dame/senior), pensjonister kr 225, junior kr 225. Fritt spel hele sommeren for kr 3000. SimuGolf (Trackman) i Øvre Årdal og GolfSimVest (simulator) er også tilgjengelig.",
-      "notes": "Aktiv klubb uten permanent bane. Spiller på Hemsedal Golfklubb (9 hull). Bruker SimuGolf (Trackman) i Øvre Årdal og GolfSimVest simulator. Arrangerer vinterserie 2025-2026 (12 runder) og årlig klubbmesterskap. Årsmøte 24. feb 2026. Priser hentet fra legk.no, basert på 2025-satser (2026-priser ikke publisert ennå)."
+      "notes": "Aktiv klubb uten permanent bane. Spiller på Hemsedal Golfklubb (9 hull). Bruker SimuGolf (Trackman) i Øvre Årdal og GolfSimVest simulator. Arrangerer vinterserie 2025-2026 (12 runder) og årlig klubbmesterskap. Årsmøte 24. feb 2026. Priser hentet fra legk.no, basert på 2025-satser (2026-priser ikke publisert ennå).",
+      "greenFeeDescription_en": "The club has no course of its own. Members play at Hemsedal Golf Club: Green fee 9 holes 400 NOK (men/women/seniors), seniors 225 NOK, junior 225 NOK. Free play all summer for 3,000 NOK. SimuGolf (Trackman) in Ovre Aardal and GolfSimVest (simulator) are also available.",
+      "notes_en": "Active club without a permanent course. Plays at Hemsedal Golf Club (9 holes). Uses SimuGolf (Trackman) in Ovre Aardal and GolfSimVest simulator. Organises winter series 2025-2026 (12 rounds) and annual club championship. Annual meeting 24 Feb 2026. Prices from legk.no, based on 2025 rates (2026 prices not yet published)."
     }
   },
   "membershipPricing": {},
@@ -188,5 +198,8 @@
     "updatedAt": "2026-02-15T12:00:00.000Z",
     "statusNotes": "No active golf course in operation. Club uses SimuGolf, Ardal Range, and Hemsedal GK."
   },
-  "googlePlaceId": "ChIJOZB-IWcmPkYRK6tqu5HvYc4"
+  "googlePlaceId": "ChIJOZB-IWcmPkYRK6tqu5HvYc4",
+  "slug_en": "laerdal-golf-club",
+  "name_en": "Laerdal Golf Club",
+  "description_en": "Laerdal Golf Club - established around 2000. Had an extremely challenging 6-hole course between 1,000-metre-high mountains on all sides with very long holes (5 par 3 holes over 170m). IMPORTANT: The club currently has no permanent golf course in operation. A planned course at Ljosne was declined. Members use SimuGolf, Aardal Range and Hemsedal Golf Club."
 }

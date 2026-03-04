@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Sandane Golfklubb - 9-hulls parklandbane grunnlagt 1999, utvidet 2008. Par 32, 1558m. Smale fairways, små greener. Panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet. Driving range, putting/chipping green, practice bunker. Golf simulator. Klubbhus med arrangement-lokale. Teaching pro. Ca 500 medlemmer. Handicap-grense 54."
+    "viewDescription": "Sandane Golfklubb - 9-hulls parklandbane grunnlagt 1999, utvidet 2008. Par 32, 1558m. Smale fairways, små greener. Panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet. Driving range, putting/chipping green, practice bunker. Golf simulator. Klubbhus med arrangement-lokale. Teaching pro. Ca 500 medlemmer. Handicap-grense 54.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Panoramic views over Eidsfossen, the Gloppenelva river and Ryssdalshornet",
+    "scenicHole_en": "Panoramic views over Eidsfossen, the Gloppenelva river and Ryssdalshornet",
+    "viewDescription_en": "Sandane Golf Club - 9-hole parkland course established 1999, expanded 2008. Par 32, 1,558m. Narrow fairways, small greens. Panoramic views over Eidsfossen waterfall, the Gloppenelva river and Ryssdalshornet mountain. Driving range, putting/chipping green, practice bunker. Golf simulator. Clubhouse with function room. Teaching pro. Approx. 500 members. Handicap limit 54."
   },
   "description": "Sandane Golfklubb - 9-hulls parklandbane grunnlagt 1999, utvidet fra 6 til 9 hull i 2008. Par 32 (64 for 18 hull når spilt 2 ganger), 1704 yards (ca 1558m). Kjent for smale fairways, små greener og panoramautsikt over Eidsfossen, Gloppenelva og Ryssdalshornet.",
   "contact": {
@@ -63,7 +68,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Golf simulator tilgjengelig"
+    "winterUse": "Golf simulator tilgjengelig",
+    "winterUse_en": "Golf simulator available"
   },
   "visitors": {
     "welcome": true,
@@ -129,7 +135,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Driving range: 25 kr per kurv (20 baller), betaling med kort med chip. Simulator: 200 kr/time før kl 16, 250 kr/time etter kl 16 og helg. Juniors halv pris. Simulator årskort: 3000 kr (voksen), 1100 kr (junior). VTG kurs: 1500 kr (voksen), 500 kr (junior) inkl. gratis medlemskap og spillerett ut året."
+      "notes": "Driving range: 25 kr per kurv (20 baller), betaling med kort med chip. Simulator: 200 kr/time før kl 16, 250 kr/time etter kl 16 og helg. Juniors halv pris. Simulator årskort: 3000 kr (voksen), 1100 kr (junior). VTG kurs: 1500 kr (voksen), 500 kr (junior) inkl. gratis medlemskap og spillerett ut året.",
+      "greenFeeDescription_en": "Green fee valid for full day's play. Guests: Adult 300 NOK, Junior 150 NOK. Members: 250 NOK. Season pass playing rights: Adult 2,150 NOK, Spouse/partner 1,500 NOK, Junior (12-19) free, Children (under 12) free.",
+      "notes_en": "Driving range: 25 NOK per basket (20 balls), payment by chip card. Simulator: 200 NOK/hour before 16:00, 250 NOK/hour after 16:00 and weekends. Juniors half price. Simulator season pass: 3,000 NOK (adult), 1,100 NOK (junior). Green Card course: 1,500 NOK (adult), 500 NOK (junior) incl. free membership and playing rights for remainder of year."
     }
   },
   "membershipPricing": {
@@ -139,21 +147,24 @@
         "price": 250,
         "playingRights": 0,
         "description": "Barn (under 12 år): Medlemskap 250 kr, Spillerett gratis.",
-        "ageRange": "Under 12 år"
+        "ageRange": "Under 12 år",
+        "description_en": "Children (under 12): Membership 250 NOK, Playing rights free."
       },
       {
         "category": "junior",
         "price": 500,
         "playingRights": 0,
         "description": "Junior (12-19 år): Medlemskap 500 kr, Spillerett gratis.",
-        "ageRange": "12-19 år"
+        "ageRange": "12-19 år",
+        "description_en": "Junior (12-19 years): Membership 500 NOK, Playing rights free."
       },
       {
         "category": "adult",
         "price": 1300,
         "playingRights": 2150,
         "description": "Voksen (over 20 år): Medlemskap 1300 kr, Spillerett 2150 kr. Ektefelle/samboer spillerett: 1500 kr.",
-        "ageRange": "Over 20 år"
+        "ageRange": "Over 20 år",
+        "description_en": "Adult (over 20): Membership 1,300 NOK, Playing rights 2,150 NOK. Spouse/partner playing rights: 1,500 NOK."
       }
     ]
   },
@@ -226,5 +237,8 @@
     "createdAt": "2025-10-31T10:17:00.242Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJK-ktEKdcFkYRtlIpcteBuRY"
+  "googlePlaceId": "ChIJK-ktEKdcFkYRtlIpcteBuRY",
+  "slug_en": "sandane-golf-club",
+  "name_en": "Sandane Golf Club",
+  "description_en": "Sandane Golf Club - 9-hole parkland course established in 1999, expanded from 6 to 9 holes in 2008. Par 32 (64 for 18 holes played twice), 1,704 yards (approx. 1,558m). Known for narrow fairways, small greens and panoramic views over Eidsfossen waterfall, the Gloppenelva river and Ryssdalshornet mountain."
 }

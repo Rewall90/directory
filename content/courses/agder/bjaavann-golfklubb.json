@@ -39,7 +39,11 @@
     "teeBoxes": 6,
     "mountainViews": null,
     "viewDescription": "Banen ligger i hesteskoform rundt Bjåvannet innerst i Ålefjærfjorden",
-    "courseName": "The Norwegian Beauty"
+    "courseName": "The Norwegian Beauty",
+    "terrain_en": "Parkland course",
+    "courseType_en": "Parkland course",
+    "designer_en": "Robert Trent Jones Jr.",
+    "viewDescription_en": "The course is laid out in a horseshoe shape around Lake Bjaavann at the head of the Aalefjaer fjord"
   },
   "description": "18-hulls mesterksapsbane designet av verdenskjente Robert Trent Jones Jr. Kalles 'Den norske skjønnheten'.",
   "contact": {
@@ -79,7 +83,8 @@
     "dogsAllowed": true,
     "dogsNotes": "Hund må holdes i bånd. Avklar med medspillere.",
     "courseOpenTime": "06:00",
-    "receptionOpenTime": "09:00"
+    "receptionOpenTime": "09:00",
+    "dressCode_en": "Liberal - appropriate sportswear/golf attire"
   },
   "organization": {
     "courseCompany": null,
@@ -152,7 +157,8 @@
       "rangeBallsCard10": 400,
       "rangeBallsCard30": 900,
       "rangeBallsCard100": 1800,
-      "notes": "Differensierte greenfee-satser - aktuell pris vises i GolfBox. Full greenfee-sats 850 NOK brukes som basis ved fordelskort."
+      "notes": "Differensierte greenfee-satser - aktuell pris vises i GolfBox. Full greenfee-sats 850 NOK brukes som basis ved fordelskort.",
+      "notes_en": "Differentiated green fee rates - current price shown in GolfBox. Full green fee-sats 850 NOK used as the basis for discount cards."
     },
     "2026": {
       "currency": "NOK",
@@ -174,7 +180,8 @@
       "rangeBallsCard10": 400,
       "rangeBallsCard30": 900,
       "rangeBallsCard100": 1800,
-      "notes": "2026 greenfee-priser er ikke publisert ennå. Prisene er hentet fra 2025-sesongen (gjester/priser-2025). Oppdateres når 2026-priser publiseres."
+      "notes": "2026 greenfee-priser er ikke publisert ennå. Prisene er hentet fra 2025-sesongen (gjester/priser-2025). Oppdateres når 2026-priser publiseres.",
+      "notes_en": "2026 green fee-prices not yet published. Prices sourced from 2025-sesongen (visitors/prices-2025). Will be updated when 2026-prices are published."
     }
   },
   "membershipPricing": {
@@ -187,7 +194,9 @@
         "description": "Fullt medlemskap med spillerett",
         "ageMin": null,
         "ageMax": null,
-        "birthYearMax": 1997
+        "birthYearMax": 1997,
+        "name_en": "Adult with playing rights",
+        "description_en": "Full membership with playing rights"
       },
       {
         "category": "premium",
@@ -196,7 +205,9 @@
         "monthlyPayment": 1100,
         "description": "Premium medlemskap",
         "ageMin": null,
-        "ageMax": null
+        "ageMax": null,
+        "name_en": "Premium Member",
+        "description_en": "Premium membership"
       },
       {
         "category": "ungvoksen",
@@ -204,7 +215,8 @@
         "price": 4225,
         "description": null,
         "birthYearMin": 1998,
-        "birthYearMax": 2006
+        "birthYearMax": 2006,
+        "name_en": "Ung Adult with playing rights"
       },
       {
         "category": "junior",
@@ -212,14 +224,16 @@
         "price": 1500,
         "description": null,
         "birthYearMin": 2007,
-        "birthYearMax": 2014
+        "birthYearMax": 2014,
+        "name_en": "Junior with playing rights"
       },
       {
         "category": "barn",
         "name": "Barn med spillerett",
         "price": 500,
         "description": null,
-        "birthYearMin": 2015
+        "birthYearMin": 2015,
+        "name_en": "Child with playing rights"
       },
       {
         "category": "vtg",
@@ -227,7 +241,9 @@
         "price": 4125,
         "description": "Veien til Golf medlemskap",
         "ageMin": null,
-        "ageMax": null
+        "ageMax": null,
+        "name_en": "Beginner Course Membership",
+        "description_en": "Introduction to Golf membership"
       },
       {
         "category": "aarsgreenfee",
@@ -235,7 +251,9 @@
         "price": 6450,
         "description": "Årlig greenfee uten medlemskap",
         "ageMin": null,
-        "ageMax": null
+        "ageMax": null,
+        "name_en": "Annual Green Fee",
+        "description_en": "Annual green fee without membership"
       },
       {
         "category": "voksenutenspillerett",
@@ -243,7 +261,8 @@
         "price": 2150,
         "description": null,
         "ageMin": null,
-        "ageMax": null
+        "ageMax": null,
+        "name_en": "Adult without playing rights"
       }
     ]
   },
@@ -303,5 +322,8 @@
     "createdAt": "2025-10-30T13:27:22.761Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJbVs9s0kEOEYRAc15MSFtSek"
+  "googlePlaceId": "ChIJbVs9s0kEOEYRAc15MSFtSek",
+  "slug_en": "bjaavann-golf-club",
+  "name_en": "Bjaavann Golf Club",
+  "description_en": "An 18-hole championship course designed by world-renowned Robert Trent Jones Jr. Known as 'The Norwegian Beauty'."
 }

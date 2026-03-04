@@ -1,6 +1,8 @@
 {
   "slug": "gamle-fredrikstad-golfklubb",
+  "slug_en": "gamle-fredrikstad-golf-club",
   "name": "Gamle Fredrikstad Golfklubb",
+  "name_en": "Gamle Fredrikstad Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Gamle Fredrikstad",
@@ -36,9 +38,16 @@
     "par4Count": 10,
     "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": "Idyllisk ved Gamlebyen/Kongsten – del av Aktivitetsbyen."
+    "viewDescription": "Idyllisk ved Gamlebyen/Kongsten – del av Aktivitetsbyen.",
+    "terrain_en": "Links-style parkland",
+    "courseType_en": "18-hole links-style parkland course",
+    "designer_en": "Paal Midtvaage",
+    "signatureHole_en": "Views towards the Old Town and Kongsten Fort",
+    "scenicHole_en": "Views towards the Old Town and Kongsten Fort",
+    "viewDescription_en": "Idyllic location by the Old Town/Kongsten - part of the Activity Town."
   },
   "description": "Linkspreget parkbane åpnet 2012, tegnet av Paal Midtvaage; dramatisk avslutning langs vann.",
+  "description_en": "Links-style parkland course opened 2012, designed by Paal Midtvaage; dramatic finish along water.",
   "contact": {
     "phone": "+47 406 97 598",
     "email": "njo@gfgk.no",
@@ -58,7 +67,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Stengt om vinteren"
+    "winterUse": "Stengt om vinteren",
+    "winterUse_en": "Closed during winter"
   },
   "visitors": {
     "welcome": true,
@@ -128,7 +138,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Gjest av medlem: 30% rabatt (max 3 gjester). Basismedlemmer: 30% rabatt. Dynekilen-medlemmer: 200kr tirs/tors. NSG-medlemmer: 25% rabatt hverdager før kl 14 (etter 1. mai)."
+      "notes": "Gjest av medlem: 30% rabatt (max 3 gjester). Basismedlemmer: 30% rabatt. Dynekilen-medlemmer: 200kr tirs/tors. NSG-medlemmer: 25% rabatt hverdager før kl 14 (etter 1. mai).",
+      "greenFeeDescription_en": "Main course: Weekday 650 NOK, Weekend prime time (08-13) 845 NOK, Weekend (06-07:50/13:01-18) 745 NOK. Junior 8-19 years: Weekday 455 NOK, Weekend 520 NOK/590 NOK prime time. Flexi Short course: 300 NOK (18 holes), 195 NOK (9 holes).",
+      "notes_en": "Guest of member: 30% discount (max 3 guests). Basic members: 30% discount. Dynekilen members: 200 NOK Tue/Thu. NSG members: 25% discount weekdays before 14:00 (after 1 May)."
     }
   },
   "membershipPricing": {
@@ -142,7 +154,8 @@
       "junior0to12": 850,
       "currency": "NOK",
       "membershipStatus": "open",
-      "note": "Priser for 2025 - nye 2026-priser vedtas på årsmøtet mars 2026"
+      "note": "Priser for 2025 - nye 2026-priser vedtas på årsmøtet mars 2026",
+      "note_en": "Prices for 2025 - new 2026 prices to be decided at annual meeting March 2026"
     }
   },
   "ratings": {

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Utsikten Golfklubb - championship standard skogsbane i spektakulær fjellnatur i Kvinesdal. Kåret til 'Norges beste golfbane' i 2007. Hull 3 har en av verdens vakreste tee-plasseringer. 18-hulls hovedbane og 9-hulls Pay & Play. Utsikt over Kvinesdal bygd og elver. Driving range, putting green, klubbhus, pro shop. Del av Utsikten Golfpark."
+    "viewDescription": "Utsikten Golfklubb - championship standard skogsbane i spektakulær fjellnatur i Kvinesdal. Kåret til 'Norges beste golfbane' i 2007. Hull 3 har en av verdens vakreste tee-plasseringer. 18-hulls hovedbane og 9-hulls Pay & Play. Utsikt over Kvinesdal bygd og elver. Driving range, putting green, klubbhus, pro shop. Del av Utsikten Golfpark.",
+    "terrain_en": "Woodland landscape",
+    "courseType_en": "18-hole championship course with 9-hole Pay & Play",
+    "signatureHole_en": "Hole 3 - described as 'the most beautiful tee I have ever seen on a course anywhere in the world'",
+    "scenicHole_en": "Mountain scenery with views over the Kvinesdal valley and rivers",
+    "viewDescription_en": "Utsikten Golf Club - a championship-standard woodland course in spectacular mountain scenery in Kvinesdal. Voted 'Norway's Best Golf Course' in 2007. Hole 3 has one of the world's most beautiful tee positions. 18-hole main course and 9-hole pay and play. Views over the Kvinesdal valley and rivers. Driving range, putting green, clubhouse, pro shop. Part of Utsikten Golf Park."
   },
   "description": "Utsikten Golfklubb - championship standard skogsbane i fjellnatur med spektakulær utsikt over Kvinesdal bygd og elver. Kåret til 'Norges beste golfbane' i 2007. Hull 3 har en av verdens vakreste tee-plasseringer. 18-hulls hovedbane og 9-hulls Pay & Play kortbane. Del av Utsikten Golfpark.",
   "contact": {
@@ -84,7 +89,8 @@
     "handicapRequiredNotes": "For å spille på hovedbanen må man ha gjennomført grønt kort kurs og medlemskap i en golfklubb",
     "dressCode": "Golf attire",
     "payAndPlayAvailable": true,
-    "payAndPlayNotes": "Pay & Play er en 9 hulls bane der alle kan spille uten kurs eller erfaring kreves"
+    "payAndPlayNotes": "Pay & Play er en 9 hulls bane der alle kan spille uten kurs eller erfaring kreves",
+    "dressCode_en": "Golf attire"
   },
   "organization": {
     "courseCompany": "Utsikten Golfpark",
@@ -143,7 +149,8 @@
       "cartRentalWeekend": 400,
       "drivingRangeBalls30": 40,
       "drivingRangeSystem": "GolfMore",
-      "notes": "Green fee gjelder hele dagen. Golfbil kan kun leies med åpent klubbhus med mindre du har forhåndsbestilt."
+      "notes": "Green fee gjelder hele dagen. Golfbil kan kun leies med åpent klubbhus med mindre du har forhåndsbestilt.",
+      "notes_en": "Green fee valid all day. Buggies can only be hired when the clubhouse is open unless pre-bookd."
     },
     "2026": {
       "currency": "NOK",
@@ -159,7 +166,8 @@
       "cartRentalWeekend": 400,
       "drivingRangeBalls30": 40,
       "drivingRangeSystem": "GolfMore",
-      "notes": "Green fee gjelder hele dagen. Golfbil kan kun leies med åpent klubbhus med mindre du har forhåndsbestilt. Priser hentet fra nettsiden som ikke spesifiserer årstall - identiske med 2025."
+      "notes": "Green fee gjelder hele dagen. Golfbil kan kun leies med åpent klubbhus med mindre du har forhåndsbestilt. Priser hentet fra nettsiden som ikke spesifiserer årstall - identiske med 2025.",
+      "notes_en": "Green fee valid all day. Buggies can only be hired when the clubhouse is open unless pre-bookd. Prices sourced from nettsiden som ikke spesifiserer yearsstall - identiske med 2025."
     }
   },
   "membershipPricing": {
@@ -169,56 +177,72 @@
         "name": "Medlem uten fri spillerett",
         "price": 1500,
         "description": "Mulighet til å spille på hovedbanen, Pay&Play og på andre klubber mot å betale greenfee",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Member without unlimited playing rights",
+        "description_en": "Ability to play on the main course, Pay&Play og at other clubs by paying green fee"
       },
       {
         "category": "Junior",
         "name": "Junior med fri spillerett",
         "price": 1250,
         "description": "Fritt spill på hovedbanen og Pay&Play banen. Fellestrening inkludert.",
-        "ageRange": "T.o.m. året de fyller 19 år"
+        "ageRange": "T.o.m. året de fyller 19 år",
+        "name_en": "Junior with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course. Group training included."
       },
       {
         "category": "Ung Voksen",
         "name": "Ung Voksen med fri spillerett",
         "price": 4000,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": "T.o.m. året de fyller 24 år"
+        "ageRange": "T.o.m. året de fyller 24 år",
+        "name_en": "Young Adult with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "Snart Voksen",
         "name": "Snart Voksen med fri spillerett",
         "price": 5500,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": "25-28 år"
+        "ageRange": "25-28 år",
+        "name_en": "Near Adult with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "VTG 1",
         "name": "VTG 1 - første år etter tatt VTG",
         "price": 4000,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Beginner Course Year 1 - first year after completion",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "VTG 2",
         "name": "VTG 2 - andre år etter tatt VTG",
         "price": 5500,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Beginner Course Year 2 - second year after completion",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "Hovedmedlem",
         "name": "Hovedmedlem med fri spillerett",
         "price": 7500,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Full Member with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "Hovedmedlem Ektefelle/samboer",
         "name": "Hovedmedlem Ektefelle/samboer med fri spillerett",
         "price": 7000,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner Full Member with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       }
     ],
     "2026": [
@@ -227,56 +251,72 @@
         "name": "Medlem uten fri spillerett",
         "price": 1500,
         "description": "Mulighet til å spille på hovedbanen, Pay&Play og på andre klubber mot å betale greenfee",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Member without unlimited playing rights",
+        "description_en": "Ability to play on the main course, Pay&Play og at other clubs by paying green fee"
       },
       {
         "category": "Junior",
         "name": "Junior med fri spillerett",
         "price": 1250,
         "description": "Fritt spill på hovedbanen og Pay&Play banen. Fellestrening inkludert.",
-        "ageRange": "T.o.m. året de fyller 19 år"
+        "ageRange": "T.o.m. året de fyller 19 år",
+        "name_en": "Junior with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course. Group training included."
       },
       {
         "category": "Ung Voksen",
         "name": "Ung Voksen med fri spillerett",
         "price": 4000,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": "T.o.m. året de fyller 24 år"
+        "ageRange": "T.o.m. året de fyller 24 år",
+        "name_en": "Young Adult with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "Snart Voksen",
         "name": "Snart Voksen med fri spillerett",
         "price": 5500,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": "25-28 år"
+        "ageRange": "25-28 år",
+        "name_en": "Near Adult with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "VTG 1",
         "name": "VTG 1 - første år etter tatt VTG",
         "price": 4000,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Beginner Course Year 1 - first year after completion",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "VTG 2",
         "name": "VTG 2 - andre år etter tatt VTG",
         "price": 5500,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Beginner Course Year 2 - second year after completion",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "Hovedmedlem",
         "name": "Hovedmedlem med fri spillerett",
         "price": 7500,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Full Member with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       },
       {
         "category": "Hovedmedlem Ektefelle/samboer",
         "name": "Hovedmedlem Ektefelle/samboer med fri spillerett",
         "price": 7000,
         "description": "Fritt spill på hovedbanen og Pay&Play banen",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner Full Member with unlimited playing rights",
+        "description_en": "Unlimited play on the main course and Pay & Play course"
       }
     ]
   },
@@ -334,5 +374,8 @@
     "createdAt": "2025-10-31T07:44:56.868Z",
     "updatedAt": "2026-02-16T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ_zSAZXbROUYRsf34wxXpDSg"
+  "googlePlaceId": "ChIJ_zSAZXbROUYRsf34wxXpDSg",
+  "slug_en": "utsikten-golf-club",
+  "name_en": "Utsikten Golf Club",
+  "description_en": "Utsikten Golf Club - a championship-standard woodland course set in mountain scenery with spectacular views over the Kvinesdal valley and rivers. Voted 'Norway's Best Golf Course' in 2007. Hole 3 features one of the world's most beautiful tee positions. 18-hole main course and 9-hole pay and play short course. Part of Utsikten Golf Park."
 }

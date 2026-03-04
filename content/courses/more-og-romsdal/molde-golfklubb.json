@@ -1,6 +1,8 @@
 {
   "slug": "molde-golfklubb",
+  "slug_en": "molde-golf-club",
   "name": "Molde Golfklubb",
+  "name_en": "Molde Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Molde",
@@ -36,9 +38,15 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Idyllisk beliggenhet mellom fjord og fjell med flott utsikt over naturlandskapet"
+    "viewDescription": "Idyllisk beliggenhet mellom fjord og fjell med flott utsikt over naturlandskapet",
+    "terrain_en": "Parkland course",
+    "courseType_en": "9-hole championship course (played two rounds for 18 holes)",
+    "signatureHole_en": "Location between fjord and mountains with stunning views",
+    "scenicHole_en": "Location between fjord and mountains with stunning views",
+    "viewDescription_en": "Idyllic location between fjord and mountains with stunning views over the natural landscape"
   },
   "description": "9-hulls mesterkapssbane med par 72 beliggende på Eikrem, bare 10 minutter fra Molde sentrum. Banen er anlagt på gammel jordbruksmark og har strategisk plasserte vannhindringer og bunkere. Banen beskrives som 'kanskje Norges fineste 9-hulls bane' og ligger idyllisk mellom fjord og fjell. Klubben ble grunnlagt i 1990 og banen stod ferdig i 2001. Moderne klubbhus med kafé og proshop. God infrastruktur med korte avstander mellom fasiliteter.",
+  "description_en": "9-hole championship course with par 72 situated at Eikrem, just 10 minutes from Molde town centre. The course is laid out on former farmland and features strategically placed water hazards and bunkers. The course is described as 'perhaps Norway's finest 9-hole course' and is idyllically situated between fjord and mountains. The club was founded in 1990 and the course was completed in 2001. Modern clubhouse with cafe and pro shop. Good infrastructure with short distances between facilities.",
   "contact": {
     "phone": "+47 930 44 744",
     "email": "post@moldegolf.no",
@@ -63,7 +71,8 @@
   "season": {
     "start": "1. april",
     "end": "31. oktober",
-    "winterUse": "Simulator tilgjengelig for vintertrening"
+    "winterUse": "Simulator tilgjengelig for vintertrening",
+    "winterUse_en": "Simulator available for winter training"
   },
   "visitors": {
     "welcome": true,
@@ -128,7 +137,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Redusert greenfee for medlemmer av samarbeidsklubber og gjester av medlemmer"
+      "notes": "Redusert greenfee for medlemmer av samarbeidsklubber og gjester av medlemmer",
+      "greenFeeDescription_en": "Day pass adult: 450 NOK, day pass junior: 225 NOK. Members of partner clubs or guests of members: adult 350 NOK, junior 175 NOK.",
+      "notes_en": "Reduced green fee for members of partner clubs and guests of members"
     },
     "2026": {
       "currency": "NOK",
@@ -148,7 +159,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Booking og betaling via Golfbox. Golfbil via Eagl app. Samarbeidsklubber: Ålesund, Tingvoll, Kristiansund, Smøla, Surnadal og Rauma. Golfhäftet aksepteres ikke."
+      "notes": "Booking og betaling via Golfbox. Golfbil via Eagl app. Samarbeidsklubber: Ålesund, Tingvoll, Kristiansund, Smøla, Surnadal og Rauma. Golfhäftet aksepteres ikke.",
+      "greenFeeDescription_en": "Green fee 18 holes: 400 NOK, 9 holes: 300 NOK. Guest with member/partner club: 300 NOK (18) / 300 NOK (9). Juniors from partner clubs (up to 19 years): free. Students/juniors: 200 NOK (18) / 150 NOK (9). Green fee members: 300 NOK (18) / 200 NOK (9). Norwegian Senior Golf discounts must be arranged with the general manager at least two days before play, weekdays before 16:00 only.",
+      "notes_en": "Booking and payment via Golfbox. Golf buggy via Eagl app. Partner clubs: Aalesund, Tingvoll, Kristiansund, Smoela, Surnadal and Rauma. Golfhaftet not accepted."
     }
   },
   "membershipPricing": {
@@ -175,7 +188,17 @@
       "dugnadsrabatt": "1000 kr rabatt for 10+ timer dugnad",
       "vtgDiscount": "Halv pris første året for VTG-deltakere",
       "membershipStatus": "open",
-      "notes": "Utmelding/endring må meldes skriftlig innen 31. desember"
+      "notes": "Utmelding/endring må meldes skriftlig innen 31. desember",
+      "fullMembershipDescription_en": "Full playing rights (D), volunteer discount available",
+      "youthMembershipDescription_en": "20-25 years incl. student (D)",
+      "juniorMembershipDescription_en": "Under 20 years",
+      "familyMembershipDescription_en": "Family membership (D)",
+      "greenfeeMembershipDescription_en": "Green fee membership (D), pays reduced green fee",
+      "gggMembershipDescription_en": "Golf Green Joy membership",
+      "distanceMembershipDescription_en": "Distance membership",
+      "summerMembershipDescription_en": "Summer membership per month",
+      "childMembershipDescription_en": "Child 0-12 years",
+      "notes_en": "Cancellation/changes must be submitted in writing by 31 December"
     }
   },
   "ratings": {

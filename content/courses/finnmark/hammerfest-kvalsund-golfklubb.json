@@ -32,7 +32,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Hammerfest og Kvalsund Golfklubb - Verdens nordligste golfklubb! 6-hulls bane i Repparfjord, Kvalsund, bygget 2001. Par 20 for 6 hull (par 60 når spilt 3 ganger). Et av Norges billigste golfmedlemskap. Greenfee kun 150 kr."
+    "viewDescription": "Hammerfest og Kvalsund Golfklubb - Verdens nordligste golfklubb! 6-hulls bane i Repparfjord, Kvalsund, bygget 2001. Par 20 for 6 hull (par 60 når spilt 3 ganger). Et av Norges billigste golfmedlemskap. Greenfee kun 150 kr.",
+    "courseType_en": "6-hole course",
+    "scenicHole_en": "Arctic setting in Repparfjord",
+    "viewDescription_en": "Hammerfest and Kvalsund Golf Club - the world's most northerly golf club! A 6-hole course in Repparfjord, Kvalsund, built in 2001. Par 20 for 6 holes (par 60 when played three times). One of Norway's most affordable golf memberships. Green fee only 150 NOK."
   },
   "description": "Hammerfest og Kvalsund Golfklubb - Verdens nordligste golfklubb! 6-hulls bane i Repparfjord, Kvalsund, bygget 2001. Par 20 for 6 hull, par 60 når spilt 3 ganger (18 hull). Lengde 1088m (gul), 933m (rød) for 6 hull - totalt 3369m når spilt 3 ganger. Et av landets billigste golfmedlemskap.",
   "contact": {
@@ -116,7 +119,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": "Et av landets billigste golfmedlemskap. Familiemedlemmer får 50% rabatt på spillerett.",
       "freeTrial": null,
-      "notes": "Simulatormånedskort for HGK-medlemmer: 250 kr/mnd (klubben dekker resterende 250 kr)."
+      "notes": "Simulatormånedskort for HGK-medlemmer: 250 kr/mnd (klubben dekker resterende 250 kr).",
+      "greenFeeDescription_en": "green fee: 200 NOK Ved turneringer over 12 holes: 100 NOK Driving range: 50 NOK/time med free baller. Payment via Vipps 109132.",
+      "notes_en": "Simulator monthly pass for HGC members: 250 NOK/month (the club covers the remaining 250 NOK)."
     }
   },
   "membershipPricing": {
@@ -125,49 +130,57 @@
         "category": "adult",
         "price": 2500,
         "description": "Hovedmedlem voksne med spillerett (750 + 1750)",
-        "ageRange": "19+"
+        "ageRange": "19+",
+        "description_en": "Full member adults med playing rights (750 + 1750)"
       },
       {
         "category": "adultContingent",
         "price": 750,
         "description": "Hovedmedlem voksne (kun medlemskap)",
-        "ageRange": "19+"
+        "ageRange": "19+",
+        "description_en": "Full member adults (kun membership)"
       },
       {
         "category": "adultPlayingRights",
         "price": 1750,
         "description": "Spillerett hovedmedlem (fritt spill hele sesongen)",
-        "ageRange": "19+"
+        "ageRange": "19+",
+        "description_en": "Playing rights full member (unlimited play hele sesongen)"
       },
       {
         "category": "familyMemberPlayingRights",
         "price": 875,
         "description": "Familiemedlem spillerett (50% rabatt)",
-        "ageRange": "19+"
+        "ageRange": "19+",
+        "description_en": "Familiemember playing rights (50% discount)"
       },
       {
         "category": "youth",
         "price": 200,
         "description": "Ungdom medlemskap",
-        "ageRange": "13-18"
+        "ageRange": "13-18",
+        "description_en": "Youth membership"
       },
       {
         "category": "youthPlayingRights",
         "price": 0,
         "description": "Ungdom spillerett (gratis)",
-        "ageRange": "13-18"
+        "ageRange": "13-18",
+        "description_en": "Youth playing rights (free)"
       },
       {
         "category": "junior",
         "price": 200,
         "description": "Barn og juniorer medlemskap",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "description_en": "Children and juniors membership"
       },
       {
         "category": "juniorPlayingRights",
         "price": 0,
         "description": "Barn og juniorer spillerett (gratis)",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "description_en": "Children and juniors playing rights (free)"
       }
     ]
   },
@@ -215,5 +228,8 @@
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T10:55:17.536Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
-  }
+  },
+  "slug_en": "hammerfest-and-kvalsund-golf-club",
+  "name_en": "Hammerfest and Kvalsund Golf Club",
+  "description_en": "Hammerfest and Kvalsund Golf Club - the world's most northerly golf club! A 6-hole course in Repparfjord, Kvalsund, built in 2001. Par 20 for 6 holes, par 60 when played three times (18 holes). Length 1,088m (yellow), 933m (red) for 6 holes - totalling 3,369m when played three times. One of the country's most affordable golf memberships."
 }

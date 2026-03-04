@@ -36,7 +36,12 @@
     "par4Count": 3,
     "par5Count": 1,
     "mountainViews": true,
-    "viewDescription": "Hardanger Golfklubb - 6-hulls bane grunnlagt 2001 på Børve i Øystese, Kvam. Par 23, 1300m. Idyllisk beliggenhet ved Hardangerfjorden mellom Øystese og Norheimsund (1 time fra Bergen). Spektakulær utsikt over Hardangerfjorden. 200m driving range, putting green, chipping area, practice bunker. Lite ubetjent klubbhus med selvbetjening (Vipps 96898). VTG-kurs. Turneringer."
+    "viewDescription": "Hardanger Golfklubb - 6-hulls bane grunnlagt 2001 på Børve i Øystese, Kvam. Par 23, 1300m. Idyllisk beliggenhet ved Hardangerfjorden mellom Øystese og Norheimsund (1 time fra Bergen). Spektakulær utsikt over Hardangerfjorden. 200m driving range, putting green, chipping area, practice bunker. Lite ubetjent klubbhus med selvbetjening (Vipps 96898). VTG-kurs. Turneringer.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "6-hole parkland/woodland course",
+    "signatureHole_en": "Views over the Hardangerfjord",
+    "scenicHole_en": "Views over the Hardangerfjord",
+    "viewDescription_en": "Hardanger Golf Club - 6-hole course established 2001 at Borve in Oystese, Kvam. Par 23, 1,300m. Idyllic location by the Hardangerfjord between Oystese and Norheimsund (1 hour from Bergen). Spectacular views over the Hardangerfjord. 200m driving range, putting green, chipping area, practice bunker. Small unmanned clubhouse with self-service (Vipps 96898). Green Card courses. Tournaments."
   },
   "description": "Hardanger Golfklubb - 6-hulls park/skogsbane grunnlagt 2001 på Børve i Øystese, Kvam. Par 23, 1422 yards (ca 1300m). Idyllisk beliggenhet ved Hardangerfjorden mellom Øystese og Norheimsund, ca 1 time fra Bergen. Spektakulær utsikt over Hardangerfjorden.",
   "contact": {
@@ -128,7 +133,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakuler utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening."
+      "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakuler utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening.",
+      "greenFeeDescription_en": "Green fee 2025: 250 NOK adult (valid all day). Under 20s: 150 NOK. Pay with Vipps 96898. Card machine at the ball dispenser (all cards, Apple Pay).",
+      "notes_en": "Idyllic location by the Hardangerfjord with spectacular views. 200-metre driving range. Small, unmanned clubhouse with self-service."
     },
     "2026": {
       "currency": "NOK",
@@ -144,7 +151,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakulær utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening. Ingen tidsbooking - møt bare opp og spel."
+      "notes": "Idyllisk beliggenhet ved Hardangerfjorden med spektakulær utsikt. 200 meter driving range. Lite, ubetjent klubbhus med selvbetjening. Ingen tidsbooking - møt bare opp og spel.",
+      "greenFeeDescription_en": "Green fee 2026: 250 NOK adult HGK member (valid all day). Under 20s and HGK members: 150 NOK. Non-members: 250 NOK adult. Pay with Vipps 96898. Card machine at the ball dispenser (all cards, Apple Pay).",
+      "notes_en": "Idyllic location by the Hardangerfjord with spectacular views. 200-metre driving range. Small, unmanned clubhouse with self-service. No tee time booking - just turn up and play."
     }
   },
   "membershipPricing": {
@@ -216,5 +225,8 @@
     "createdAt": "2025-10-31T10:16:55.275Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJaXWlH4wzPEYRC1SbY40Dmeo"
+  "googlePlaceId": "ChIJaXWlH4wzPEYRC1SbY40Dmeo",
+  "slug_en": "hardanger-golf-club",
+  "name_en": "Hardanger Golf Club",
+  "description_en": "Hardanger Golf Club - 6-hole parkland/woodland course established in 2001 at Borve in Oystese, Kvam. Par 23, 1,422 yards (approx. 1,300m). Idyllic location by the Hardangerfjord between Oystese and Norheimsund, approximately 1 hour from Bergen. Spectacular views over the Hardangerfjord."
 }

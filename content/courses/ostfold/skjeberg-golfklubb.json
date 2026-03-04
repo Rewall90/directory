@@ -1,6 +1,8 @@
 {
   "slug": "skjeberg-golfklubb",
+  "slug_en": "skjeberg-golf-club",
   "name": "Skjeberg Golfklubb",
+  "name_en": "Skjeberg Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Sarpsborg",
@@ -36,9 +38,15 @@
     "par4Count": 10,
     "par5Count": 3,
     "mountainViews": false,
-    "viewDescription": "Vakker 18-hulls skogs- og parkbane i naturskjønne omgivelser ved Hevingen, Sarpsborg. Etablert 1986, ca 850 medlemmer. Par 72, lengde 5619m. CR 71.9, Slope 135. Banen tar deg gjennom naturlig skog med frodige fairways og varierte hull. 6 forskjellige tee-posisjoner for alle nivåer. Omfattende treningsfasiliteter: driving range med 20+ plasser (8 under tak) med eget studio for pro/juniorer, putting green, chipping area, practice bunker, golfsimulator. Teaching pro tilgjengelig. Restaurant Kroa (Man-Thu 10:30-17:00, Fri-Sun 09:00-17:00). Spesialtilbud: Juniorer 8-19 år spiller GRATIS!"
+    "viewDescription": "Vakker 18-hulls skogs- og parkbane i naturskjønne omgivelser ved Hevingen, Sarpsborg. Etablert 1986, ca 850 medlemmer. Par 72, lengde 5619m. CR 71.9, Slope 135. Banen tar deg gjennom naturlig skog med frodige fairways og varierte hull. 6 forskjellige tee-posisjoner for alle nivåer. Omfattende treningsfasiliteter: driving range med 20+ plasser (8 under tak) med eget studio for pro/juniorer, putting green, chipping area, practice bunker, golfsimulator. Teaching pro tilgjengelig. Restaurant Kroa (Man-Thu 10:30-17:00, Fri-Sun 09:00-17:00). Spesialtilbud: Juniorer 8-19 år spiller GRATIS!",
+    "terrain_en": "Woodland terrain with natural elements",
+    "courseType_en": "18-hole woodland and parkland course",
+    "signatureHole_en": "Scenic woodland and parkland course",
+    "scenicHole_en": "Scenic woodland and parkland course",
+    "viewDescription_en": "Beautiful 18-hole woodland and parkland course in scenic surroundings at Hevingen, Sarpsborg. Established 1986, approx. 850 members. Par 72, length 5,619m. CR 71.9, Slope 135. The course takes you through natural woodland with lush fairways and varied holes. 6 different tee positions for all levels. Comprehensive practice facilities: driving range with 20+ bays (8 covered) with dedicated studio for pro/juniors, putting green, chipping area, practice bunker, golf simulator. Teaching pro available. Restaurant Kroa (Mon-Thu 10:30-17:00, Fri-Sun 09:00-17:00). Special offer: Juniors 8-19 years play FREE!"
   },
   "description": "Velkommen til Skjeberg Golfklubb, en vakker 18-hulls skogs- og parkbane i naturskjønne omgivelser ved Hevingen i Sarpsborg, etablert 1986. Par 72, lengde 5619 meter fra lengste tee. Banen tar deg gjennom naturlig skog med frodige fairways og varierte hull som utfordrer spillere på alle nivåer. Ca 850 medlemmer. 6 forskjellige tee-posisjoner gjør banen tilgjengelig for alle. Driving range med over 20 plasser (8 under tak) med eget studio brukt av pro og juniorer. Velholdt bane i fredelige omgivelser.",
+  "description_en": "Welcome to Skjeberg Golf Club, a beautiful 18-hole woodland and parkland course in scenic surroundings at Hevingen in Sarpsborg, established 1986. Par 72, length 5,619 metres from the longest tee. The course takes you through natural woodland with lush fairways and varied holes that challenge players of all levels. Approximately 850 members. 6 different tee positions make the course accessible for everyone. Driving range with over 20 bays (8 covered) with a dedicated studio used by the pro and juniors. Well-maintained course in peaceful surroundings.",
   "contact": {
     "phone": "+47 69 13 91 00",
     "email": "post@skjeberggk.no",
@@ -58,7 +66,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Banen stenges om vinteren"
+    "winterUse": "Banen stenges om vinteren",
+    "winterUse_en": "The course is closed during winter"
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +132,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Sesonggreenfee: 2500 NOK - ubegrenset spill hele sesongen. Krever hovedmedlemskap i annen norsk klubb (min 6000 kr i kontingent). Maks 150 plasser."
+      "notes": "Sesonggreenfee: 2500 NOK - ubegrenset spill hele sesongen. Krever hovedmedlemskap i annen norsk klubb (min 6000 kr i kontingent). Maks 150 plasser.",
+      "greenFeeDescription_en": "Green fee 18 holes: 495 NOK (weekday), 625 NOK (weekend/public holiday). Junior 8-19 years: FREE! Green fee valid all day - you can play multiple rounds if tee times are available. Payment outside opening hours: SMS 'Skjeberg' to 1988 or Vipps 514311.",
+      "notes_en": "Season green fee: 2,500 NOK - unlimited play for the entire season. Requires main membership at another Norwegian club (min 6,000 NOK in fees). Maximum 150 places."
     },
     "2026": {
       "currency": "NOK",
@@ -139,7 +150,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Simulatorpriser 2026: Medlem 250 NOK (inkl. helg), ikke-medlem 300 NOK (hverdag) / 350 NOK (helg). Booking via AlbaPlay. Golfbilutleie tilgjengelig - kontakt klubben for priser."
+      "notes": "Simulatorpriser 2026: Medlem 250 NOK (inkl. helg), ikke-medlem 300 NOK (hverdag) / 350 NOK (helg). Booking via AlbaPlay. Golfbilutleie tilgjengelig - kontakt klubben for priser.",
+      "greenFeeDescription_en": "Information coming at the start of 2026 - green fee prices not yet published. Contact the club on 69 13 91 00 or post@skjeberggk.no for updated price information. Juniors 8-19 years expected to continue playing FREE based on previous years' offers.",
+      "notes_en": "Simulator prices 2026: Member 250 NOK (incl. weekend), non-member 300 NOK (weekday) / 350 NOK (weekend). Booking via AlbaPlay. Golf buggy rental available - contact the club for prices."
     }
   },
   "membershipPricing": {
@@ -149,50 +162,59 @@
         "price": 6600,
         "period": "annual",
         "monthlyPrice": 550,
-        "description": "Hovedmedlem - ubegrenset spill hele sesongen"
+        "description": "Hovedmedlem - ubegrenset spill hele sesongen",
+        "description_en": "Full member - unlimited play for the entire season"
       },
       "trialMembership": {
         "price": 5400,
         "period": "annual",
         "monthlyPrice": 450,
-        "description": "Prøvemedlem - inkluderer gratis spill på både Skjeberg GK og Borregaard GK i 2026. Kun for de som ikke har vært medlem noen av klubbene de siste 4 år. Første betaling april 2026."
+        "description": "Prøvemedlem - inkluderer gratis spill på både Skjeberg GK og Borregaard GK i 2026. Kun for de som ikke har vært medlem noen av klubbene de siste 4 år. Første betaling april 2026.",
+        "description_en": "Trial member - includes free play at both Skjeberg GK and Borregaard GK in 2026. Only for those who have not been members of either club in the last 4 years. First payment April 2026."
       },
       "greenfeeMembership": {
         "price": 3000,
         "period": "annual",
         "monthlyPrice": 250,
-        "description": "Greenfee-medlem - inkluderer én gratis runde + 100 kr rabatt på ordinær greenfee"
+        "description": "Greenfee-medlem - inkluderer én gratis runde + 100 kr rabatt på ordinær greenfee",
+        "description_en": "Green fee member - includes one free round + 100 NOK discount on standard green fee"
       },
       "remoteMembership": {
         "price": 1400,
         "period": "annual",
-        "description": "Fjernmedlem - for bosatt utenfor Østfold. Inkluderer én gratis runde + 100 kr rabatt på ordinær greenfee"
+        "description": "Fjernmedlem - for bosatt utenfor Østfold. Inkluderer én gratis runde + 100 kr rabatt på ordinær greenfee",
+        "description_en": "Distance member - for residents outside Ostfold. Includes one free round + 100 NOK discount on standard green fee"
       },
       "supporterMembership": {
         "price": 200,
         "period": "annual",
-        "description": "Støttespiller - støttemedlemskap"
+        "description": "Støttespiller - støttemedlemskap",
+        "description_en": "Supporter - support membership"
       },
       "seniorJunior20to25": {
         "price": 4200,
         "period": "annual",
         "monthlyPrice": 350,
-        "description": "Eldre Junior (20-25 år)"
+        "description": "Eldre Junior (20-25 år)",
+        "description_en": "Older Junior (20-25 years)"
       },
       "junior13to19": {
         "price": 1500,
         "period": "annual",
-        "description": "Junior (13-19 år) - inkluderer trening"
+        "description": "Junior (13-19 år) - inkluderer trening",
+        "description_en": "Junior (13-19 years) - includes training"
       },
       "junior8to12": {
         "price": 300,
         "period": "annual",
-        "description": "Junior (8-12 år) - inkluderer trening"
+        "description": "Junior (8-12 år) - inkluderer trening",
+        "description_en": "Junior (8-12 years) - includes training"
       },
       "junior5to7": {
         "price": 300,
         "period": "annual",
-        "description": "Knøtt (5-7 år) - inkluderer trening"
+        "description": "Knøtt (5-7 år) - inkluderer trening",
+        "description_en": "Toddler (5-7 years) - includes training"
       }
     }
   },

@@ -1,6 +1,8 @@
 {
   "slug": "veierland-golfklubb",
+  "slug_en": "veierland-golf-club",
   "name": "Veierland Golfklubb",
+  "name_en": "Veierland Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Veierland",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Coastal/Seaside",
+    "terrain_en": "Coastal/Seaside",
     "courseType": "6-hulls kortbane",
+    "courseType_en": "6-hole short course",
     "designer": null,
     "yearBuilt": 2005,
     "yearRedesigned": null,
     "waterHazards": null,
     "signatureHole": "Kystlandskap og skjærgård rundt banen",
+    "signatureHole_en": "Coastal landscape and archipelago surrounding the course",
     "scenicHole": "Kystlandskap og skjærgård rundt banen",
+    "scenicHole_en": "Coastal landscape and archipelago surrounding the course",
     "par3Count": 6,
     "par4Count": 0,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Veierland Golfklubb - 6-hulls kortbane på idylliske Veierland øy i Færder. Banen åpnet i 2005, klubben stiftet i 2008. Omgitt av rolig kystlandskap og skjærgård ved Albykilen. Hyggelig klubbhus. NGF og NIF-medlem. Egnet for nybegynnere og trening til grønt kort. Åpent for publikum."
+    "viewDescription": "Veierland Golfklubb - 6-hulls kortbane på idylliske Veierland øy i Færder. Banen åpnet i 2005, klubben stiftet i 2008. Omgitt av rolig kystlandskap og skjærgård ved Albykilen. Hyggelig klubbhus. NGF og NIF-medlem. Egnet for nybegynnere og trening til grønt kort. Åpent for publikum.",
+    "viewDescription_en": "Veierland Golf Club - 6-hole short course on the idyllic island of Veierland in Faerder. Course opened in 2005, club founded in 2008. Surrounded by peaceful coastal landscape and archipelago at Albykilen. Pleasant clubhouse. NGF and NIF member. Suitable for beginners and practising towards green card. Open to the public."
   },
   "description": "Veierland Golfklubb - 6-hulls kortbane på idylliske Veierland øy i Færder. Banen åpnet i 2005, klubben stiftet i 2008. NGF og NIF-medlem som utsteder HCP-kort. Omgitt av rolig kystlandskap ved Albykilen. Kun 5-10 minutter å gå fra fergeleiet ved Vestgården. Overraskende og hyggelig å finne en golfbane midt i skjærgårdsparadiset. Ypperlig for trening til grønt kort. Alle velkommen med følge av person med gyldig grønt kort. Åpent for publikum april-oktober.",
+  "description_en": "Veierland Golf Club - 6-hole short course on the idyllic island of Veierland in Faerder. The course opened in 2005, the club was founded in 2008. NGF and NIF member that issues handicap cards. Surrounded by peaceful coastal landscape at Albykilen. Just 5-10 minutes' walk from the ferry landing at Vestgarden. Surprisingly delightful to find a golf course in the midst of the archipelago paradise. Excellent for practising towards your green card. Everyone welcome accompanied by a person with a valid green card. Open to the public April-October.",
   "contact": {
     "phone": "+47 970 05 737",
     "email": null,
@@ -123,13 +131,15 @@
       "greenFeeSenior": null,
       "greenFeeJunior": null,
       "greenFeeDescription": "Kontakt klubben for greenfee-priser. Telefon: 970 05 737 eller 907 39 401.",
+      "greenFeeDescription_en": "Contact the club for green fee prices. Telephone: 970 05 737 or 907 39 401.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "6-hulls kortbane på idyllisk øy. Egnet for alle nivåer og trening til grønt kort. Kun kontant betaling - kredittkort aksepteres ikke."
+      "notes": "6-hulls kortbane på idyllisk øy. Egnet for alle nivåer og trening til grønt kort. Kun kontant betaling - kredittkort aksepteres ikke.",
+      "notes_en": "6-hole short course on an idyllic island. Suitable for all levels and practising towards green card. Cash payment only - credit cards not accepted."
     }
   },
   "membershipPricing": {},

@@ -36,7 +36,10 @@
     "par4Count": 8,
     "par5Count": 5,
     "mountainViews": false,
-    "viewDescription": "Photo gallery: https://aasgaardgolfpark.no/klubben/bane/bane/klubben/bildearkiv"
+    "viewDescription": "Photo gallery: https://aasgaardgolfpark.no/klubben/bane/bane/klubben/bildearkiv",
+    "terrain_en": "Parkland course",
+    "courseType_en": "Parkland course",
+    "viewDescription_en": "Photo gallery: https://aasgaardgolfpark.no/klubben/bane/bane/klubben/bildearkiv"
   },
   "description": "Samarbeidet mellom Hakadal Golfklubb og grunneier har resultert i et baneprosjekt både klubb, grunneier og kommune slår ring om. Målsetningen har vært å skape et golf- og friluftstilbud med lokal tilknytning. Banen er bygget etter USGA-standard, tilpasset skandinaviske forhold. Første 9 hull åpnet juni 2005, ytterligere 9 hull august 2006. Golf passer for alle - uansett alder. Golf er en familie- og selskapssport. Golf er frisk luft og mosjon, helse og trivsel. Golf er relasjonsskapende.",
   "contact": {
@@ -73,7 +76,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Sesong avsluttet, driving range stengt grunnet sprinkler vintergjøring. Mandager: Banen spilles fra hull 10. Må sjekke inn på proshop. Tee-tid intervaller: 10 minutter. Anbefalt spilletid: 4.5 timer. Gjester velkomne. Må booke tee-tid. Sjekk inn på proshop/starter minst 10 minutter før avslag. Avbestilling kreves innen kl 22:00 dagen før, ellers mistes bookingrettigheter i 14 dager. No-show gjester faktureres full greenfee til hjemmeklubb."
+    "winterUse": "Sesong avsluttet, driving range stengt grunnet sprinkler vintergjøring. Mandager: Banen spilles fra hull 10. Må sjekke inn på proshop. Tee-tid intervaller: 10 minutter. Anbefalt spilletid: 4.5 timer. Gjester velkomne. Må booke tee-tid. Sjekk inn på proshop/starter minst 10 minutter før avslag. Avbestilling kreves innen kl 22:00 dagen før, ellers mistes bookingrettigheter i 14 dager. No-show gjester faktureres full greenfee til hjemmeklubb.",
+    "winterUse_en": "Season ended, driving range closed due to sprinkler winterisation. Mondays: the course is played from hole 10. Must check in at the pro shop. Tee time intervals: 10 minutes. Recommended playing time: 4.5 hours. Guests welcome. Must book a tee time. Check in at the pro shop/starter at least 10 minutes before tee-off. Cancellation required by 22:00 the day before, otherwise booking privileges are lost for 14 days. No-show guests are invoiced full green fee to their home club."
   },
   "visitors": {
     "welcome": true,
@@ -137,7 +141,9 @@
       "cartRentalDescription": "Golfbil bookes via Proshop i åpningstiden. Utenfor åpningstid benyttes Eagle-løsningen (6 biler tilgjengelig). Sjåfør må være minst 18 år med gyldig førerkort. Bil kan hentes maks 30 min før starttid.",
       "longTermBookingSurcharge": 100,
       "longTermBookingDescription": "Langtidsbookingsavgift kr 100,- per person for venneturneringer og grupper. Booking må skje minimum 13 dager i forkant.",
-      "notes": "Booking via GolfBox 24/7 eller telefon (hverdager 08:00-20:00, helg 08:00-17:00, tlf 906 11 116). Startintervall: 10 min. Avbestilling senest kl 22:00 dagen før, ellers 14 dagers tap av bookingrett. Oppmøte i Proshop minst 10 min før tee-off. Anbefalt spilletid ved full bane: 4,5 timer. Mandager spilles banen fra hull 10. Banevert/Marshall til stede hver helg. Spill uten registrering og betaling faktureres med dobbel greenfee."
+      "notes": "Booking via GolfBox 24/7 eller telefon (hverdager 08:00-20:00, helg 08:00-17:00, tlf 906 11 116). Startintervall: 10 min. Avbestilling senest kl 22:00 dagen før, ellers 14 dagers tap av bookingrett. Oppmøte i Proshop minst 10 min før tee-off. Anbefalt spilletid ved full bane: 4,5 timer. Mandager spilles banen fra hull 10. Banevert/Marshall til stede hver helg. Spill uten registrering og betaling faktureres med dobbel greenfee.",
+      "greenFeeDescription_en": "Weekdays: kr 700. Weekends/bank holidays before 15:00: kr 900, from 15:00: kr 700. Junior up to the year you turn 19: kr 450. 9 holes all days: kr 450 (must be arranged with the pro shop in advance; spontaneous 9-hole play at weekends is not possible without prior arrangement). Payment via Vipps or in person.",
+      "notes_en": "Booking via GolfBox 24/7 or telephone (weekdays 08:00-20:00, weekends 08:00-17:00, tel. 906 11 116). Start interval: 10 min. Cancellation by 22:00 the day before at the latest, otherwise 14-day loss of booking rights. Check in at the pro shop at least 10 min before tee-off. Recommended playing time at full course: 4.5 hours. Mondays the course is played from hole 10. Course marshal present every weekend. Play without registration and payment is invoiced at double green fee."
     }
   },
   "membershipPricing": {
@@ -260,5 +266,8 @@
     "createdAt": "2025-10-31T11:23:19.350Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ3agzFAR2QUYRlRyJAKdL9X0"
+  "googlePlaceId": "ChIJ3agzFAR2QUYRlRyJAKdL9X0",
+  "slug_en": "hakadal-golf-club-aas-gaard-golf-park",
+  "name_en": "Hakadal Golf Club - Aas Gaard Golf Park",
+  "description_en": "The collaboration between Hakadal Golf Club and the landowner has resulted in a course project that the club, landowner, and municipality all support. The aim has been to create a golf and outdoor recreation facility with local roots. The course is built to USGA standard, adapted for Scandinavian conditions. The first 9 holes opened in June 2005, with a further 9 holes in August 2006. Golf is for everyone - regardless of age. Golf is a family and social sport. Golf is fresh air and exercise, health and well-being. Golf builds relationships."
 }

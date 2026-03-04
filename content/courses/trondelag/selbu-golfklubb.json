@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Range, putting/chipping, klubbhus m/restaurant og pro shop; tralle-utleie."
+    "viewDescription": "Range, putting/chipping, klubbhus m/restaurant og pro shop; tralle-utleie.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "viewDescription_en": "Range, putting/chipping, clubhouse with restaurant and pro shop; pull trolley hire."
   },
   "description": "9-hulls parklandbane i Selbu (egen bane avviklet); bruker Stjørdal GK som hjemmebane.",
   "contact": {
@@ -133,7 +136,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Egen bane avviklet, bruker Stjørdal GK som hjemmebane. Tirsdagsturnering 150 kr for 9 hull for Selbu-medlemmer."
+      "notes": "Egen bane avviklet, bruker Stjørdal GK som hjemmebane. Tirsdagsturnering 150 kr for 9 hull for Selbu-medlemmer.",
+      "greenFeeDescription_en": "Green fee 350 kr per round at Stjoerdal GC (home course). Green fee membership at Stjoerdal GC 199 kr/month (12-month commitment = 2,388 kr/year).",
+      "notes_en": "Own course discontinued, uses Stjoerdal GC as home course. Tuesday tournament 150 kr for 9 holes for Selbu members."
     },
     "2026": {
       "currency": "NOK",
@@ -152,7 +157,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Egen bane avviklet, bruker Stjørdal GK som hjemmebane. Tirsdagsturnering 150 kr for 9 hull for Selbu-medlemmer. Priser er uendret fra 2023, ingen oppdatert prisinformasjon funnet på nettside."
+      "notes": "Egen bane avviklet, bruker Stjørdal GK som hjemmebane. Tirsdagsturnering 150 kr for 9 hull for Selbu-medlemmer. Priser er uendret fra 2023, ingen oppdatert prisinformasjon funnet på nettside.",
+      "greenFeeDescription_en": "Green fee 350 kr per round at Stjoerdal GC (home course). Green fee membership at Stjoerdal GC 199 kr/month (12-month commitment = 2,388 kr/year).",
+      "notes_en": "Own course discontinued, uses Stjoerdal GC as home course. Tuesday tournament 150 kr for 9 holes for Selbu members. Prices unchanged from 2023, no updated pricing found on website."
     }
   },
   "membershipPricing": {
@@ -161,25 +168,33 @@
         "category": "Barn/Junior",
         "price": 350,
         "description": "Barn/Junior tom 19 år.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Child/Junior",
+        "description_en": "Children/Junior tom 19 years."
       },
       {
         "category": "Senior",
         "price": 950,
         "description": "Senior fra fylte 20 år.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Senior",
+        "description_en": "Senior from fylte 20 years."
       },
       {
         "category": "Par",
         "price": 1300,
         "description": "Par (gift/sambo).",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Couple",
+        "description_en": "Par (gift/sambo)."
       },
       {
         "category": "Familie",
         "price": 1900,
         "description": "Familie (par + alle barn under 18 år).",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Familie (par + alle Children under 18 years)."
       }
     ]
   },
@@ -225,5 +240,8 @@
     "updatedAt": "2026-02-15T12:00:00.000Z",
     "notes": "Website outdated (last news 2021). Club uses Stjørdal GK as home course. Pricing data from 2023, no 2026 updates found on website. Club has limited online pricing information."
   },
-  "googlePlaceId": "ChIJz2U_q04VbUYRJe8sZgkP_60"
+  "googlePlaceId": "ChIJz2U_q04VbUYRJe8sZgkP_60",
+  "slug_en": "selbu-golf-club",
+  "name_en": "Selbu Golf Club",
+  "description_en": "9-hole parkland course in Selbu (own course discontinued); uses Stjoerdal Golf Club as home course."
 }

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Jæren Golfklubb er en 9-hulls parkbane i Bryne, Time kommune, Rogaland. Stiftet 1995, åpnet som 9-hulls bane med tilleggsbane på 6 hull for øving. Banen ligger på Grødemsvegen 150 mellom Hognestad og Fosse, ca 240 mål med parkbane, øvingsbane, driving range og parkeringsplass. Parklandskap egnet for både erfarne og nybegynnere. Par 35 (9 hull), par 70 (spilt to ganger). Klubben tilbyr 3D flyover-videoer av alle hull for spillplanlegging. Driving range, putting green, chipping green, practice bunker, simulator (300 kr/time). Teaching pro tilgjengelig (Pro Jan Egil). Klubbhus med proshop. Tralle- og el-cart utleie."
+    "viewDescription": "Jæren Golfklubb er en 9-hulls parkbane i Bryne, Time kommune, Rogaland. Stiftet 1995, åpnet som 9-hulls bane med tilleggsbane på 6 hull for øving. Banen ligger på Grødemsvegen 150 mellom Hognestad og Fosse, ca 240 mål med parkbane, øvingsbane, driving range og parkeringsplass. Parklandskap egnet for både erfarne og nybegynnere. Par 35 (9 hull), par 70 (spilt to ganger). Klubben tilbyr 3D flyover-videoer av alle hull for spillplanlegging. Driving range, putting green, chipping green, practice bunker, simulator (300 kr/time). Teaching pro tilgjengelig (Pro Jan Egil). Klubbhus med proshop. Tralle- og el-cart utleie.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Scenic parkland course on Jaeren",
+    "scenicHole_en": "Scenic parkland course on Jaeren",
+    "viewDescription_en": "Jaeren Golf Club is a 9-hole parkland course in Bryne, Time municipality, Rogaland. The club was founded on 20 November 1995, formally registered on 28 October 1999. The course is located on Groedemsvegen 150 between Hognestad and Fosse. The club leases approximately 240,000 sq m for a high-quality 9-hole course, 6-hole practice course, parking, practice area and driving range. The course suits both experienced players and beginners. Par 35 for 9 holes, played twice gives par 70. The club offers 3D flyover videos of all holes for planning playing strategies. Maximum handicap 54 for visitors."
   },
   "description": "Jæren Golfklubb er en 9-hulls parkbane i Bryne, Time kommune, Rogaland. Klubben ble stiftet 20. november 1995, formelt registrert 28. oktober 1999. Banen ligger på Grødemsvegen 150 mellom Hognestad og Fosse. Klubben leier ca 240 mål for 9-hulls bane av høy kvalitet, 6-hulls øvingsbane, parkering, øvingsområde og driving range. Banen egner seg både for erfarne spillere og nybegynnere. Par 35 for 9 hull, spilt to ganger gir par 70. Klubben tilbyr 3D flyover-video av alle hullene for å planlegge spillstrategier. Handicapkrav 54 for besøkende.",
   "contact": {
@@ -83,7 +88,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Proshop stengt for sesongen, driving range forblir åpen"
+    "winterUse": "Proshop stengt for sesongen, driving range forblir åpen",
+    "winterUse_en": "Pro shop closed for the season, driving range remains open"
   },
   "visitors": {
     "welcome": true,
@@ -148,7 +154,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfee-medlemskap 2200 kr inkluderer 3 greenfees til banen, Golfbox-medlemskap og tilgang til klubbtreninger"
+      "notes": "Greenfee-medlemskap 2200 kr inkluderer 3 greenfees til banen, Golfbox-medlemskap og tilgang til klubbtreninger",
+      "greenFeeDescription_en": "Green fee: 300 kr day pass (approx. 26 EUR), 200 kr for 9 holes (approx. 17 EUR). Simulator: 300 kr per hour shared between players. Handicap 54 required.",
+      "notes_en": "Green fee membership 2,200 kr includes 3 green fees for the course, GolfBox membership and access to club training sessions"
     },
     "2026": {
       "currency": "NOK",
@@ -168,7 +176,9 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "greenFeeDescription": "Greenfee 18 hull: 400 kr, 9 hull: 300 kr. Junior 18 hull: 200 kr, 9 hull: 150 kr. Korthullsbanen: 50 kr/dag (ikke-medlemmer). Greenfee skal betales FØR utslag. Tidsbooking med forhåndsbetaling i Golfbox.",
-      "notes": "Greenfee-medlemskap 2500 kr inkluderer 3 greenfees til banen, Golfbox-medlemskap og tilgang til klubbtreninger. Rabattert greenfee-avtale med Ogna og Egersund Golfklubb for medlemmer."
+      "notes": "Greenfee-medlemskap 2500 kr inkluderer 3 greenfees til banen, Golfbox-medlemskap og tilgang til klubbtreninger. Rabattert greenfee-avtale med Ogna og Egersund Golfklubb for medlemmer.",
+      "greenFeeDescription_en": "Green fee 18 holes: 400 kr, 9 holes: 300 kr. Junior 18 holes: 200 kr, 9 holes: 150 kr. Short course: 50 kr/day (non-members). Green fee must be paid BEFORE teeing off. Tee time booking with advance payment in GolfBox.",
+      "notes_en": "Green fee membership 2,500 kr includes 3 green fees for the course, GolfBox membership and access to club training sessions. Discounted green fee agreement with Ogna and Egersund Golf Club for members."
     }
   },
   "membershipPricing": {
@@ -177,43 +187,57 @@
         "category": "adult",
         "price": 5450,
         "description": "Hovedmedlem voksen 5450 kr/år eller avtalegiro 490 kr/mnd (12 mnd binding). Med andel 415 kr/mnd. Halv kontingent fra 1. august.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Adult",
+        "description_en": "Full member adult 5,450 kr/year or direct debit 490 kr/month (12-month commitment). With share 415 kr/month. Half subscription from 1 August."
       },
       {
         "category": "spouse",
         "price": 3950,
         "description": "Ektefelle 3950 kr/år eller avtalegiro 335 kr/mnd (12 mnd binding). Halv kontingent fra 1. august.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Spouse 3,950 kr/year or direct debit 335 kr/month (12-month commitment). Half subscription from 1 August."
       },
       {
         "category": "junior",
         "price": 600,
         "description": "Barn/junior medlem 600 kr/år. 0-19 år (inkludert året man fyller 19).",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "name_en": "Junior",
+        "description_en": "Child/junior member 600 kr/year. 0-19 years (including the year you turn 19)."
       },
       {
         "category": "greenfee",
         "price": 2500,
         "description": "Greenfeemedlem 2500 kr/år. Inkluderer 3 greenfee til banen, Golfbox-medlemskap og tilgang til klubbtreninger.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Green Fee Member",
+        "description_en": "Green fee member 2,500 kr/year. Includes 3 green fees, Golfbox membership and access to club coaching sessions."
       },
       {
         "category": "student",
         "price": 2850,
         "description": "Student 2850 kr/år eller avtalegiro 240 kr/mnd (12 mnd binding). Studentbevis kreves (fulltidsstudent).",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Student 2,850 kr/year or direct debit 240 kr/month (12-month commitment). Student ID required (full-time student)."
       },
       {
         "category": "ggg",
         "price": 1000,
         "description": "Golf Grønn Glede/Golf Som Terapi 1000 kr/år. Tilbud via Time, Klepp og Gjesdal kommune.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Golf Groenn Glede",
+        "description_en": "Golf Groenn Glede/Golf as Therapy 1,000 kr/year. Offered via Time, Klepp and Gjesdal municipalities."
       },
       {
         "category": "passive",
         "price": 800,
         "description": "Passivt/Støttemedlem 800 kr/år. Gir ikke spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Passive",
+        "description_en": "Passive/supporting member 800 kr/year. Does not include playing rights."
       }
     ]
   },
@@ -264,5 +288,8 @@
     "createdAt": "2025-10-31T07:46:23.030Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJtetFTCw_OkYRqKadQIKorD4"
+  "googlePlaceId": "ChIJtetFTCw_OkYRqKadQIKorD4",
+  "slug_en": "jaeren-golf-club",
+  "name_en": "Jæren Golf Club",
+  "description_en": "Jaeren Golf Club is a 9-hole parkland course in Bryne, Time municipality, Rogaland. The club was founded on 20 November 1995, formally registered on 28 October 1999. The course is located on Groedemsvegen 150 between Hognestad and Fosse. The club leases approximately 240,000 sq m for a high-quality 9-hole course, 6-hole practice course, parking, practice area and driving range. The course suits both experienced players and beginners. Par 35 for 9 holes, played twice gives par 70. The club offers 3D flyover videos of all holes for planning playing strategies. Maximum handicap 54 for visitors."
 }

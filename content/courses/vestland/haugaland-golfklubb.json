@@ -36,7 +36,13 @@
     "par4Count": 10,
     "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": "Haugaland Golfklubb (Sveio Golfpark) er en 18-hulls golfbane ca 20 min nord for Haugesund. Grunnlagt 1987, første 9 hull åpnet 2001, utvidet til 18 hull i 2008. Designet av Svein D. Olsnes. Par 72, lengde 6127m (hvit tee). Banen kombinerer skogsterreng på første 9 med åpent lynghei-landskap på siste 9. Moderat til krevende bane med lett kupering og vannhindringer. Semi-privat klubb åpen for besøkende. Tilliggende Albatross Spa med dampbad, boblebad, tecaldarium, fotbad og avslapningsrom. Del av 54-hulls system med Nordvegen (2018), Karmøy (2024) og Torvastad. Ett medlemskap dekker alle fire baner."
+    "viewDescription": "Haugaland Golfklubb (Sveio Golfpark) er en 18-hulls golfbane ca 20 min nord for Haugesund. Grunnlagt 1987, første 9 hull åpnet 2001, utvidet til 18 hull i 2008. Designet av Svein D. Olsnes. Par 72, lengde 6127m (hvit tee). Banen kombinerer skogsterreng på første 9 med åpent lynghei-landskap på siste 9. Moderat til krevende bane med lett kupering og vannhindringer. Semi-privat klubb åpen for besøkende. Tilliggende Albatross Spa med dampbad, boblebad, tecaldarium, fotbad og avslapningsrom. Del av 54-hulls system med Nordvegen (2018), Karmøy (2024) og Torvastad. Ett medlemskap dekker alle fire baner.",
+    "terrain_en": "Woodland on the front 9, open heathland on the back 9",
+    "courseType_en": "18-hole parkland course",
+    "designer_en": "Svein D. Olsnes",
+    "signatureHole_en": "Hole 4 (par 4) ranked as Norway's 11th best golf hole - S-shaped fairway with water, requiring precision. Hole 12 (par 4) ranked #60 - risk/reward hole with a potential shortcut over woodland.",
+    "scenicHole_en": "The course combines woodland terrain and open heathland",
+    "viewDescription_en": "Haugaland Golf Club (Sveio Golf Park) is an 18-hole course approx. 20 min north of Haugesund. Founded 1987, first 9 holes opened 2001, expanded to 18 holes in 2008. Designed by Svein D. Olsnes. Par 72, 6,127m (white tees). The course combines woodland on the front 9 with open heathland on the back 9. Moderately challenging with gentle undulations and water hazards. Semi-private club open to visitors. Adjacent Albatross Spa with steam room, hot tub, tecaldarium, foot bath and relaxation room. Part of 54-hole system with Nordvegen (2018), Karmoy (2024) and Torvastad. One membership covers all four courses."
   },
   "description": "Haugaland Golfklubb, også kjent som Sveio Golfpark, er en 18-hulls golfbane i Sveio, Vestland (tidligere Hordaland), ca 20 minutter nord for Haugesund. Klubben ble grunnlagt i 1987, første 9 hull åpnet i 2001, utvidet til 18 hull i 2008. Designet av arkitekt Svein D. Olsnes. Par 72, lengde 6127m fra hvite tees. Banen har 4 par-3, 10 par-4 og 4 par-5 hull. Første 9 hull går gjennom skogsterreng, mens siste 9 har åpent lynghei-landskap. Moderat til krevende bane med lett kupering og vannhindringer. Semi-privat bane åpen for besøkende med gyldig handicap (max 36). Nå del av et system med 54 hull over fire baner inkludert Nordvegen Golfbane (2018) og Karmøy Golfklubb (2024).",
   "contact": {
@@ -63,7 +69,8 @@
   "season": {
     "start": "April",
     "end": "November",
-    "winterUse": "Banen er åpen hele året når værforholdene tillater det (snøfritt). Besøkende velkomne daglig med gyldig handicap (maks 36)."
+    "winterUse": "Banen er åpen hele året når værforholdene tillater det (snøfritt). Besøkende velkomne daglig med gyldig handicap (maks 36).",
+    "winterUse_en": "The course is open year-round when weather conditions permit (snow-free). Visitors welcome daily with a valid handicap (max 36)."
   },
   "visitors": {
     "welcome": true,
@@ -128,7 +135,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemskap gir gratis spill på alle fire baner: Haugaland, Nordvegen, Karmøy, Torvastad (54 hull totalt). Medlemmer av Haugaland GK og Karmøy GK får gratis greenfee på Nordvegen. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere."
+      "notes": "Medlemskap gir gratis spill på alle fire baner: Haugaland, Nordvegen, Karmøy, Torvastad (54 hull totalt). Medlemmer av Haugaland GK og Karmøy GK får gratis greenfee på Nordvegen. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere.",
+      "greenFeeDescription_en": "Green fee: 450 NOK (adults), 200 NOK (junior under 18). Valid handicap and handicap certificate required (max handicap 36).",
+      "notes_en": "Membership provides free play at all four courses: Haugaland, Nordvegen, Karmoy, Torvastad (54 holes total). Members of Haugaland GK and Karmoy GK receive free green fee at Nordvegen. Shareholders receive 25% green fee discount for guest players."
     },
     "2026": {
       "currency": "NOK",
@@ -156,7 +165,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemskap gir gratis spill på Haugaland, Nordvegen og Karmøy. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere. Medlemmer får rabattert greenfee ved diverse golfklubber: 20% rabatt (Sola GK, Fana GK, Meland GK), 50% rabatt (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). VTG Green Card kurs: 3495 kr (inkl. medlemskap, materiell, utstyr, rangeballer). VTG kurs 20-23 år/studenter: 1995 kr. VTG kurs 13-19 år: 1495 kr. Vei til golf (ikke-medlemmer): 1495 kr. Pro time (30 min): 500 kr. Golfvogn krever minimumsalder 20 år og booking via Golfbox."
+      "notes": "Medlemskap gir gratis spill på Haugaland, Nordvegen og Karmøy. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere. Medlemmer får rabattert greenfee ved diverse golfklubber: 20% rabatt (Sola GK, Fana GK, Meland GK), 50% rabatt (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). VTG Green Card kurs: 3495 kr (inkl. medlemskap, materiell, utstyr, rangeballer). VTG kurs 20-23 år/studenter: 1995 kr. VTG kurs 13-19 år: 1495 kr. Vei til golf (ikke-medlemmer): 1495 kr. Pro time (30 min): 500 kr. Golfvogn krever minimumsalder 20 år og booking via Golfbox.",
+      "greenFeeDescription_en": "18-hole green fee: 500 NOK (weekdays), 600 NOK (weekends/bank holidays), 250 NOK (junior all days). 9-hole green fee: 200 NOK (all days), 125 NOK (junior). Valid handicap and handicap certificate required (max handicap 36).",
+      "notes_en": "Membership provides free play at Haugaland, Nordvegen and Karmoy. Shareholders receive 25% green fee discount for guest players. Members receive discounted green fees at various golf clubs: 20% discount (Sola GK, Fana GK, Meland GK), 50% discount (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Green Card course: 3,495 NOK (incl. membership, materials, equipment, range balls). Green Card course 20-23 years/students: 1,995 NOK. Green Card course 13-19 years: 1,495 NOK. Path to Golf (non-members): 1,495 NOK. Pro lesson (30 min): 500 NOK. Golf buggy requires minimum age 20 and booking via GolfBox."
     }
   },
   "membershipPricing": {
@@ -165,7 +176,8 @@
         "category": "adult",
         "price": 6840,
         "description": "Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert for medlemmer 20 år og eldre. Medlemskap kan sies opp skriftlig før 31. desember. Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee ved diverse golfklubber (20-50% avslag).",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "No joining fee. NGF fee 362 NOK included for members aged 20+. Membership can be cancelled in writing before 31 December. Free play at Haugaland, Nordvegen and Karmoy. Discounted green fee at various clubs (20-50% discount)."
       },
       {
         "category": "spouse",
@@ -216,52 +228,60 @@
         "price": 6840,
         "priceMonthly": 570,
         "description": "Hovedmedlemskap. Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin. Månedlig betaling via AvtaleGiro tilgjengelig.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Full membership. No joining fee. NGF fee 362 NOK included. 12-month commitment (January-January). Free play at Haugaland, Nordvegen and Karmoy. Discounted green fee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Membership includes NGF fee and Norsk Golf magazine subscription. Monthly payment via direct debit available."
       },
       {
         "category": "spouse",
         "price": 5640,
         "priceMonthly": 470,
         "description": "Ektefellemedlemskap. Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin. Månedlig betaling via AvtaleGiro tilgjengelig.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Spouse membership. No joining fee. NGF fee 362 NOK included. 12-month commitment (January-January). Free play at Haugaland, Nordvegen and Karmoy. Discounted green fee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Membership includes NGF fee and Norsk Golf magazine subscription. Monthly payment via direct debit available."
       },
       {
         "category": "student",
         "price": 3540,
         "priceMonthly": 295,
         "description": "Heltidsstudent/militærtjeneste. Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin. Månedlig betaling via AvtaleGiro tilgjengelig.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Full-time student/military service. No joining fee. NGF fee 362 NOK included. 12-month commitment (January-January). Free play at Haugaland, Nordvegen and Karmoy."
       },
       {
         "category": "youth20_23",
         "price": 3540,
         "priceMonthly": 295,
         "description": "Ungdom 20-23 år. Ingen innmeldingsavgift. NGF-avgift 362 kr inkludert. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin. Månedlig betaling via AvtaleGiro tilgjengelig.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Youth 20-23 years. No joining fee. NGF fee 362 NOK included. 12-month commitment (January-January). Free play at Haugaland, Nordvegen and Karmoy."
       },
       {
         "category": "junior13_19",
         "price": 1500,
         "description": "Junior 13-19 år. Ingen innmeldingsavgift. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK). Medlemskap inkluderer NGF-avgift og abonnement på Norsk Golf magasin.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Junior 13-19 years. No joining fee. 12-month commitment (January-January). Free play at Haugaland, Nordvegen and Karmoy."
       },
       {
         "category": "child6_12",
         "price": 500,
         "description": "Barn 6-12 år. Ingen innmeldingsavgift. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK).",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Children 6-12 years. No joining fee. 12-month commitment (January-January). Free play at Haugaland, Nordvegen and Karmoy."
       },
       {
         "category": "childUnder6",
         "price": 100,
         "description": "Barn under 6 år. Ingen innmeldingsavgift. Bindingstid 12 mnd (januar-januar). Gratis spill på Haugaland, Nordvegen og Karmøy. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK).",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Children under 6. No joining fee. 12-month commitment (January-January). Free play at Haugaland, Nordvegen and Karmoy."
       },
       {
         "category": "share",
         "price": 6000,
         "description": "Andel. Ingen innmeldingsavgift. Avbetalingsplan tilgjengelig. Gratis spill på Haugaland, Nordvegen og Karmøy. Andelsinnehavere får 25% greenfee-rabatt for gjestespillere. Rabattert greenfee: 20% (Sola GK, Fana GK, Meland GK), 50% (Byneset GK, Gamle Fredrikstad GK, Sandefjord GK, Holtsmark GK).",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Share. No joining fee. Instalment plan available. Free play at Haugaland, Nordvegen and Karmoy. Shareholders receive 25% green fee discount for guest players."
       }
     ]
   },
@@ -392,5 +412,8 @@
     "createdAt": "2025-10-31T10:16:55.924Z",
     "updatedAt": "2026-02-15T00:00:00.000Z"
   },
-  "googlePlaceId": "ChIJQQ9fny2DO0YRmP1R_jpCh2U"
+  "googlePlaceId": "ChIJQQ9fny2DO0YRmP1R_jpCh2U",
+  "slug_en": "haugaland-golf-club",
+  "name_en": "Haugaland Golf Club",
+  "description_en": "Haugaland Golf Club, also known as Sveio Golf Park, is an 18-hole golf course in Sveio, Vestland (formerly Hordaland), approximately 20 minutes north of Haugesund. The club was founded in 1987, the first 9 holes opened in 2001, expanded to 18 holes in 2008. Designed by architect Svein D. Olsnes. Par 72, length 6,127m from the white tees. The course has 4 par 3s, 10 par 4s and 4 par 5 holes. The front 9 runs through woodland, whilst the back 9 features open heathland. A moderately challenging course with gentle undulations and water hazards. Semi-private course open to visitors with a valid handicap (max 36). Now part of a 54-hole system across four courses including Nordvegen Golf Course (2018) and Karmoy Golf Club (2024)."
 }

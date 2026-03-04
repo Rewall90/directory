@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "Woodland and parkland course"
   },
   "description": "9 spennende og varierte hull med USGA-standard. Den mest tilgjengelige banen på østsiden av Oslo. Spilles som 9-hullsbane siden 2011. Har også disc golf-bane.",
   "contact": {
@@ -132,7 +134,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Forhåndsbetaling kreves via Golfbox. Golfbil og tralle leies via Eagl-appen eller i proshop (18 år for golfbil). NSG-kort: halv greenfee hverdager kl. 10-15 (ubegrenset). Golfamore: 1 runde halv pris per sesong. Døgnåpen drivingrange med ballautomater (tar bankkort)."
+      "notes": "Forhåndsbetaling kreves via Golfbox. Golfbil og tralle leies via Eagl-appen eller i proshop (18 år for golfbil). NSG-kort: halv greenfee hverdager kl. 10-15 (ubegrenset). Golfamore: 1 runde halv pris per sesong. Døgnåpen drivingrange med ballautomater (tar bankkort).",
+      "greenFeeDescription_en": "All days, all times: Adult guests kr 300 (9 holes), Junior guests U19 kr 150 (9 holes), Invited guests kr 250 (9 holes), Member without playing rights kr 250 (9 holes). Same price every day. 18 holes = 2x9 holes (each loop booked and paid separately in Golfbox).",
+      "notes_en": "Prepayment required via Golfbox. Golf buggies and trolleys available via the Eagl app or in the pro shop (18 years for buggies). NSG card: half green fee on weekdays 10:00-15:00 (unlimited). Golfamore: 1 round at half price per season. 24-hour driving range with ball dispensers (accepts bank cards)."
     }
   },
   "membershipPricing": {
@@ -196,5 +200,8 @@
     "createdAt": "2025-10-31T11:23:11.618Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ8WTPFOJmQUYRdr1X5Y4JIMU"
+  "googlePlaceId": "ChIJ8WTPFOJmQUYRdr1X5Y4JIMU",
+  "slug_en": "krokhol-golf-club",
+  "name_en": "Krokhol Golf Club",
+  "description_en": "9 exciting and varied holes built to USGA standard. The most accessible course on the east side of Oslo. Played as a 9-hole course since 2011. Also has a disc golf course."
 }

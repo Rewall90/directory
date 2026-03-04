@@ -36,7 +36,10 @@
     "par4Count": 9,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Surrounded by mountain views in pretty area with natural streams and river beds"
+    "viewDescription": "Surrounded by mountain views in pretty area with natural streams and river beds",
+    "terrain_en": "Parkland",
+    "courseType_en": "Parkland",
+    "viewDescription_en": "Surrounded by mountain views in pretty area with natural streams and river beds"
   },
   "description": "6-hulls parkbane med store greener og bunkere. Banen spilles 3 ganger for å gi 18 hull. Beliggende i naturskjønne omgivelser ca 10 km øst for Rjukan. Familievennlig golfklubb for lokalbefolkning, hytteeiere og turister.",
   "contact": {
@@ -131,7 +134,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "6-hulls bane som spilles 3 ganger for 18 hull. Selvbetjent bane."
+      "notes": "6-hulls bane som spilles 3 ganger for 18 hull. Selvbetjent bane.",
+      "greenFeeDescription_en": "Green fee adult: 250 NOK. Junior/children: 125 NOK. Family (same address): 500 NOK. Members' guests: 200 NOK. Payment via Vipps #25354.",
+      "notes_en": "6-hole course played 3 times for 18 holes. Self-service course."
     }
   },
   "membershipPricing": {
@@ -237,5 +242,8 @@
     "createdAt": "2025-10-31T12:22:40.601Z",
     "updatedAt": "2026-02-14T16:15:00.000Z"
   },
-  "googlePlaceId": "ChIJc3MSah1gP0YRM8w6SOB1k2w"
+  "googlePlaceId": "ChIJc3MSah1gP0YRM8w6SOB1k2w",
+  "slug_en": "rjukan-golf-club",
+  "name_en": "Rjukan Golf Club",
+  "description_en": "A 6-hole parkland course with large greens and bunkers. The course is played three times to make up 18 holes. Situated in scenic surroundings approximately 10 km east of Rjukan. A family-friendly golf club for locals, cabin owners and tourists."
 }

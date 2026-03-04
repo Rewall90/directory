@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": null,
-    "viewDescription": "Naturskjønne omgivelser ved Sukkevann"
+    "viewDescription": "Naturskjønne omgivelser ved Sukkevann",
+    "terrain_en": "Woodland course, undulating terrain",
+    "courseType_en": "Woodland course",
+    "viewDescription_en": "Scenic surroundings by Sukkevann lake"
   },
   "description": "9-hulls skogsbane ved Sukkevann i Randesund. Åpnet i 1974, en av Norges eldste golfanlegg. Banen har 18 forskjellige tee-posisjoner. Utfordringer er mange i naturskjønne omgivelser. 6-hulls korthullsbane med kunstgreener åpnet i 2014.",
   "contact": {
@@ -62,7 +65,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Innendørs simulatorer tilgjengelig hele året"
+    "winterUse": "Innendørs simulatorer tilgjengelig hele året",
+    "winterUse_en": "Indoor simulators available all year round"
   },
   "visitors": {
     "welcome": true,
@@ -72,7 +76,8 @@
     "handicapRequired": true,
     "dressCode": "Golf attire",
     "bjaavannDiscount": true,
-    "bjaavannDiscountAmount": 100
+    "bjaavannDiscountAmount": 100,
+    "dressCode_en": "Golf attire"
   },
   "organization": {
     "courseCompany": null,
@@ -131,7 +136,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Visitors: 18h 475 NOK (May-15 Sept), 400 NOK shoulder season. 9h: 100 NOK discount. Short course free. Members: 18h 300 NOK, 9h 200 NOK."
     },
     "2026": {
       "currency": "NOK",
@@ -161,7 +167,9 @@
       "drivingRangeBalls20": 25,
       "drivingRangeBalls40": 45,
       "greenFeeDescription": "Gjester: 18h 475 NOK (1/5-15/9), 400 NOK skuldersesong. 9h: 100 NOK rabatt. Korthullsbane gratis. Medlemmer: 18h 300 NOK, 9h 200 NOK. Bjaavann-medlemmer 100 NOK rabatt.",
-      "notes": "Medlemmer Bjaavann Golfklubb får kr. 100,- i rabatt på gjeldende priser. Ingen separat helg/ukedag-pris - same pris hele uken i sesong."
+      "notes": "Medlemmer Bjaavann Golfklubb får kr. 100,- i rabatt på gjeldende priser. Ingen separat helg/ukedag-pris - same pris hele uken i sesong.",
+      "greenFeeDescription_en": "Visitors: 18h 475 NOK (1 May-15 Sept), 400 NOK shoulder season. 9h: 100 NOK discount. Short course free. Members: 18h 300 NOK, 9h 200 NOK. Bjaavann members: 100 NOK discount on current prices.",
+      "notes_en": "Members of Bjaavann Golf Club receive 100 NOK discount on current prices. No separate weekend/weekday pricing - same price all week in season."
     }
   },
   "membershipPricing": {
@@ -234,77 +242,94 @@
         "price": 5350,
         "monthlyPrice": 445,
         "description": "Full spillerett",
-        "ageRange": "25+"
+        "ageRange": "25+",
+        "name_en": "Adult with playing rights",
+        "description_en": "Full playing rights"
       },
       {
         "category": "Voksen u/spillerett",
         "name": "Voksen u/spillerett",
         "price": 2250,
         "description": "Betaler greenfee",
-        "ageRange": "25+"
+        "ageRange": "25+",
+        "name_en": "Adult without playing rights",
+        "description_en": "Pays green fee"
       },
       {
         "category": "Junior 0-10",
         "name": "Junior 0 - 10 år",
         "price": 800,
         "description": null,
-        "ageRange": "0-10"
+        "ageRange": "0-10",
+        "name_en": "Junior 0 - 10 years"
       },
       {
         "category": "Junior 11-14",
         "name": "Junior 11 - 14 år",
         "price": 1450,
         "description": null,
-        "ageRange": "11-14"
+        "ageRange": "11-14",
+        "name_en": "Junior 11 - 14 years"
       },
       {
         "category": "Junior 15-19",
         "name": "Junior 15 - 19 år",
         "price": 1750,
         "description": null,
-        "ageRange": "15-19"
+        "ageRange": "15-19",
+        "name_en": "Junior 15 - 19 years"
       },
       {
         "category": "Ungdom 20-24",
         "name": "Ungdom 20 - 24 år",
         "price": 2850,
         "description": null,
-        "ageRange": "20-24"
+        "ageRange": "20-24",
+        "name_en": "Youth 20 - 24 years"
       },
       {
         "category": "Student",
         "name": "Student",
         "price": 2850,
         "description": null,
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student"
       },
       {
         "category": "Årsgreenfee utenfor Agder",
         "name": "Årsgreenfee - Utenfor Agder",
         "price": 3050,
         "description": "For medlemmer bosatt utenfor Agder",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Annual Green Fee - Utenfor Agder",
+        "description_en": "For members bosatt utenfor Agder"
       },
       {
         "category": "Årsgreenfee Agder",
         "name": "Årsgreenfee - Agder",
         "price": 3550,
         "description": "For medlemmer bosatt i Agder",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Annual Green Fee - Agder",
+        "description_en": "For members bosatt i Agder"
       },
       {
         "category": "VTG Voksen",
         "name": "Veien til Golf (VTG) - f.o.m. 20 år",
         "price": 1750,
         "description": "Nybegynnerkurs",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Introduction to Golf (VTG) - f.o.m. 20 years",
+        "description_en": "Beginners course"
       },
       {
         "category": "VTG Junior",
         "name": "Veien til Golf (VTG) - under 20 år",
         "price": 875,
         "description": "Nybegynnerkurs",
-        "ageRange": "Under 20"
+        "ageRange": "Under 20",
+        "name_en": "Introduction to Golf (VTG) - under 20 years",
+        "description_en": "Beginners course"
       }
     ]
   },
@@ -367,5 +392,8 @@
     "createdAt": "2025-10-30T13:27:24.035Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJjeoDO5QBOEYR75LPCKEvFao"
+  "googlePlaceId": "ChIJjeoDO5QBOEYR75LPCKEvFao",
+  "slug_en": "kristiansand-golf-club",
+  "name_en": "Kristiansand Golf Club",
+  "description_en": "A 9-hole woodland course by Sukkevann lake in Randesund. Opened in 1974, it is one of Norway's oldest golf facilities. The course has 18 different tee positions. Challenges abound in scenic surroundings. A 6-hole short course with artificial greens opened in 2014."
 }

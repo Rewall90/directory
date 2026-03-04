@@ -36,7 +36,10 @@
     "par4Count": 2,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Beliggenhet på Kjerringnes i Sigerfjord, 10 minutter fra Sortland sentrum. Kupert og utfordrende terreng i naturskjønne omgivelser på Vesterålen."
+    "viewDescription": "Beliggenhet på Kjerringnes i Sigerfjord, 10 minutter fra Sortland sentrum. Kupert og utfordrende terreng i naturskjønne omgivelser på Vesterålen.",
+    "terrain_en": "Undulating and challenging",
+    "courseType_en": "6-hole course (expanding to 9 holes)",
+    "viewDescription_en": "Located at Kjerringnes in Sigerfjord, 10 minutes from Sortland centre. Undulating and challenging terrain in scenic surroundings in Vesteraalen."
   },
   "description": "6-hulls bane på Kjerringnes i Sigerfjord. Klubben holder til 10 minutter utenfor Sortland sentrum. Utvidelse til 9 hull startet våren 2025.",
   "contact": {
@@ -78,7 +81,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Banen er åpen hele døgnet i sommersesongen. Stengt om vinteren."
+    "winterUse": "Banen er åpen hele døgnet i sommersesongen. Stengt om vinteren.",
+    "winterUse_en": "The course is open around the clock during the summer season. Closed in winter."
   },
   "visitors": {
     "welcome": true,
@@ -143,7 +147,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Flat greenfee-pris for 6-hullsbane. Utvidelse til 9-hullsbane pagar (startet 2025). Samfunnsloftet i SNN bidrar med 200.000 kr til prosjektet."
+      "notes": "Flat greenfee-pris for 6-hullsbane. Utvidelse til 9-hullsbane pagar (startet 2025). Samfunnsloftet i SNN bidrar med 200.000 kr til prosjektet.",
+      "greenFeeDescription_en": "Green fee payable by Vipps on the course or cash in the letterbox. Members play for free, paying only their annual subscription. Driving range with card payment.",
+      "notes_en": "Flat green fee price for the 6-hole course. Expansion to a 9-hole course underway (started 2025). Samfunnsloftet at SNN contributed 200,000 kr to the project."
     }
   },
   "membershipPricing": {
@@ -192,5 +198,8 @@
     "createdAt": "2025-10-31T09:43:42.613Z",
     "updatedAt": "2026-02-15T14:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ2wIvFZBG3EURFtQFO00VdVY"
+  "googlePlaceId": "ChIJ2wIvFZBG3EURFtQFO00VdVY",
+  "slug_en": "vesteraalen-golf-club",
+  "name_en": "Vesteraalen Golf Club",
+  "description_en": "6-hole course at Kjerringnes in Sigerfjord. The club is situated 10 minutes outside Sortland centre. Expansion to 9 holes started in spring 2025."
 }

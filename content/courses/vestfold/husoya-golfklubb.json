@@ -1,6 +1,8 @@
 {
   "slug": "husoya-golfklubb",
+  "slug_en": "husoya-golf-club",
   "name": "Husøy Golfklubb",
+  "name_en": "Husoya Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Husøysund",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Variert terreng med bakker",
+    "terrain_en": "Varied terrain with hills",
     "courseType": "9-hulls pitch and putt kortbane",
+    "courseType_en": "9-hole pitch and putt short course",
     "designer": null,
     "yearBuilt": 1999,
     "yearRedesigned": null,
     "waterHazards": null,
     "signatureHole": "Putting-bane blant epletre i kupert terreng",
+    "signatureHole_en": "Putting course among apple trees on undulating terrain",
     "scenicHole": "Putting-bane blant epletre i kupert terreng",
+    "scenicHole_en": "Putting course among apple trees on undulating terrain",
     "par3Count": 7,
     "par4Count": 2,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Idyllisk 9-hulls pitch and putt kortbane ved Husøysund i Tønsberg/Nøtterøy-skjærgården, etablert 1999. NGF-medlem. Perfekt for kort spill og raske runder. Liten, aktiv klubb med hyggelig og inkluderende miljø. Vintergreenener for spill nesten hele året. Smal fairway og kuperte greener. Putting-bane blant epletre. Arrangerer lokale turneringer, inkludert nissegolf i desember. Senior-gruppe med ukentlige mandagsturneringer. Ofte sosiale arrangement etter turneringer som grilling eller rekekvelder ved Borge Hotell. Tilknyttet Borge Hotell i Husøysundet."
+    "viewDescription": "Idyllisk 9-hulls pitch and putt kortbane ved Husøysund i Tønsberg/Nøtterøy-skjærgården, etablert 1999. NGF-medlem. Perfekt for kort spill og raske runder. Liten, aktiv klubb med hyggelig og inkluderende miljø. Vintergreenener for spill nesten hele året. Smal fairway og kuperte greener. Putting-bane blant epletre. Arrangerer lokale turneringer, inkludert nissegolf i desember. Senior-gruppe med ukentlige mandagsturneringer. Ofte sosiale arrangement etter turneringer som grilling eller rekekvelder ved Borge Hotell. Tilknyttet Borge Hotell i Husøysundet.",
+    "viewDescription_en": "Idyllic 9-hole pitch and putt short course at Husoysund in the Tonsberg/Notteroy archipelago, established 1999. NGF member. Perfect for short game and quick rounds. Small, active club with a friendly and inclusive atmosphere. Winter greens for play almost year-round. Narrow fairway and undulating greens. Putting course among apple trees. Hosts local tournaments, including Christmas golf in December. Senior group with weekly Monday tournaments. Often social events after tournaments such as barbecues or prawn evenings at Borge Hotel. Associated with Borge Hotel in Husoysund."
   },
   "description": "Husøy Golfklubb er en spennende 9-hulls pitch and putt kortbane etablert i 1999, beliggende ved Husøysund i Tønsberg/Nøtterøy-skjærgården. Perfekt for de som verdsetter en rask golfrunde med mye kort spill. Banen har par 3 og par 4 hull i idylliske omgivelser. Klubben har vintergreenener som gjør det mulig å spille nesten hele året. Liten men aktiv klubb med hyggelig og inkluderende miljø som ønsker alle spillere velkommen, uavhengig av alder og nivå. Tilknyttet Borge Hotell.",
+  "description_en": "Husoya Golf Club is an exciting 9-hole pitch and putt short course established in 1999, located at Husoysund in the Tonsberg/Notteroy archipelago. Perfect for those who value a quick round of golf with plenty of short game. The course has par 3 and par 4 holes in idyllic surroundings. The club has winter greens making it possible to play almost year-round. A small but active club with a friendly and inclusive atmosphere that welcomes all players, regardless of age and level. Associated with Borge Hotel.",
   "contact": {
     "phone": "+47 33 38 18 50",
     "email": null,
@@ -68,7 +76,8 @@
   "season": {
     "start": "Mars/April",
     "end": "November",
-    "winterUse": "Vintergreener tilgjengelig for spill nesten hele året"
+    "winterUse": "Vintergreener tilgjengelig for spill nesten hele året",
+    "winterUse_en": "Winter greens available for play almost year-round"
   },
   "visitors": {
     "welcome": true,
@@ -127,13 +136,15 @@
       "greenFeeSenior": 200,
       "greenFeeJunior": 100,
       "greenFeeDescription": "Greenfee for 9-hulls pitch and putt bane. Kontakt klubben for oppdaterte priser. Medlemskap 2023: Under 18 år 1500 NOK, Over 18 år 2600 NOK, Over 65 år 2200 NOK.",
+      "greenFeeDescription_en": "Green fee for 9-hole pitch and putt course. Contact the club for updated prices. Membership 2023: Under 18 years 1,500 NOK, Over 18 years 2,600 NOK, Over 65 years 2,200 NOK.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": 150,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Vintergreener gjør det mulig å spille nesten hele året"
+      "notes": "Vintergreener gjør det mulig å spille nesten hele året",
+      "notes_en": "Winter greens make it possible to play almost year-round"
     }
   },
   "membershipPricing": {},

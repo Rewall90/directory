@@ -36,7 +36,11 @@
     "par4Count": 6,
     "par5Count": 2,
     "mountainViews": false,
-    "viewDescription": "Naturskjønne omgivelser, nærheten til Mosjoøen og dagslys hele døgnet fra slutten av juni hele juli"
+    "viewDescription": "Naturskjønne omgivelser, nærheten til Mosjoøen og dagslys hele døgnet fra slutten av juni hele juli",
+    "terrain_en": "Undulating",
+    "courseType_en": "9-hole golf course",
+    "signatureHole_en": "Hole 6 -- par-5, the easiest hole on the course with a chance of birdie",
+    "viewDescription_en": "Scenic surroundings, proximity to Mosjoen and daylight around the clock from late June through July"
   },
   "description": "Spill golf i naturskjønne omgivelser rett utenfor Mosjoøen. Fra slutten av juni og hele juli kan du spille døgnet rundt i dagslys. Banen er dugnadsdrevet, men vi kan skilte med flotte greener med bra fart! Vi har automatisk vanningsanlegg på alle greener, så når det er tørt og varmt kan du risikere en aldri så liten dusj.",
   "contact": {
@@ -58,7 +62,8 @@
   "season": {
     "start": "15.mai",
     "end": "15.oktober",
-    "winterUse": "Golfbanen har åpent så lenge det er lys til å spille"
+    "winterUse": "Golfbanen har åpent så lenge det er lys til å spille",
+    "winterUse_en": "The golf course is open as long as there is enough light to play"
   },
   "visitors": {
     "welcome": true,
@@ -127,7 +132,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfeesamarbeid med Polarsirkelen GK. Betaling via Vipps til konto 111225 eller forhåndsbetaling via Golfbox for greenfee og turneringer."
+      "notes": "Greenfeesamarbeid med Polarsirkelen GK. Betaling via Vipps til konto 111225 eller forhåndsbetaling via Golfbox for greenfee og turneringer.",
+      "greenFeeDescription_en": "Senior day pass: 300 kr, Junior (0-19 years): 100 kr. Members of Polarsirkelen GC: Day pass 150 kr, Junior 100 kr. Tournament green fee free for members.",
+      "notes_en": "Green fee partnership with Polarsirkelen GC. Payment via Vipps to account 111225 or prepayment via GolfBox for green fees and tournaments."
     }
   },
   "membershipPricing": {
@@ -198,5 +205,8 @@
     "createdAt": "2025-10-31T09:43:38.991Z",
     "updatedAt": "2026-02-16T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJU7Vg8eJRdEYRFQooJdvHDx4"
+  "googlePlaceId": "ChIJU7Vg8eJRdEYRFQooJdvHDx4",
+  "slug_en": "helgeland-golf-club",
+  "name_en": "Helgeland Golf Club",
+  "description_en": "Play golf in scenic surroundings just outside Mosjoen. From late June and throughout July you can play around the clock in daylight. The course is volunteer-run, but we can boast excellent greens with good pace! We have an automatic irrigation system on all greens, so when it is dry and warm you may get a light shower."
 }

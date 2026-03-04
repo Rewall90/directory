@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Parkland course",
+    "courseType_en": "Parkland course"
   },
   "description": "Gjerdrum golfbane er en parkbane med par 66, men har sine helt klare utfordringer. Det bølgende ravinelandskapet gjør at man på flere hull må spille strategisk fremfor å slå langt. Banen avsluttes med signaturhullet, et kort par tre hull over vann. Malerisk og trivelig.",
   "contact": {
@@ -142,7 +144,9 @@
       "beginnerCourseAdult": 4000,
       "beginnerCourseJunior": 3000,
       "greenFeeDescription": "Voksen 9 hull: kr 280 før 15:00 / kr 350 etter 15:00 og helg. Voksen 18 hull: kr 400 / kr 500. Junior 9 hull: kr 175, 18 hull: kr 250. NSG medlemmer egne priser.",
-      "notes": "Golfbil: 9 hull kr 275, 18 hull kr 375. Kr 100 rabatt med legeattest. Utleiesett: 2 sett (1 herre/1 dame, høyrehendt) kr 350 for 18 hull. Simulator: Primetime (15:00-21:00) kr 275, Standard (06:00-15:00, 21:00-24:00) kr 250. Nybegynnerkurs: Voksen (20+) kr 4000, Junior (14-19) kr 3000."
+      "notes": "Golfbil: 9 hull kr 275, 18 hull kr 375. Kr 100 rabatt med legeattest. Utleiesett: 2 sett (1 herre/1 dame, høyrehendt) kr 350 for 18 hull. Simulator: Primetime (15:00-21:00) kr 275, Standard (06:00-15:00, 21:00-24:00) kr 250. Nybegynnerkurs: Voksen (20+) kr 4000, Junior (14-19) kr 3000.",
+      "greenFeeDescription_en": "Adult 9 holes: kr 280 before 15:00 / kr 350 after 15:00 and weekends. Adult 18 holes: kr 400 / kr 500. Junior 9 holes: kr 175, 18 holes: kr 250. NSG members have special rates.",
+      "notes_en": "Golf buggy: 9 holes kr 275, 18 holes kr 375. Kr 100 discount with medical certificate. Hire set: 2 sets (1 men's/1 ladies', right-handed) kr 350 for 18 holes. Simulator: Prime time (15:00-21:00) kr 275, Standard (06:00-15:00, 21:00-24:00) kr 250. Beginner course: Adult (20+) kr 4000, Junior (14-19) kr 3000."
     }
   },
   "membershipPricing": {
@@ -154,40 +158,47 @@
           "category": "membership",
           "name": "Medlemskontingent Voksen",
           "price": 1400,
-          "note": "Fritt spill kjøpes i tillegg"
+          "note": "Fritt spill kjøpes i tillegg",
+          "name_en": "Adult Membership Fee"
         },
         {
           "category": "membership",
           "name": "Medlemskontingent Eldre junior",
           "price": 1200,
-          "note": "Fritt spill kjøpes i tillegg"
+          "note": "Fritt spill kjøpes i tillegg",
+          "name_en": "Older Junior Membership Fee"
         },
         {
           "category": "membership",
           "name": "Medlemskontingent Yngre junior inkl fritt spill",
-          "price": 1000
+          "price": 1000,
+          "name_en": "Younger Junior Membership Fee incl. unlimited play"
         },
         {
           "category": "playingRights",
           "name": "Årskort Fritt spill voksen (medlem)",
-          "price": 3850
+          "price": 3850,
+          "name_en": "Season Ticket Unlimited Play Adult (member)"
         },
         {
           "category": "playingRights",
           "name": "Årskort Fritt spill ung voksen 20-24 år (medlem)",
           "ageMin": 20,
           "ageMax": 24,
-          "price": 3500
+          "price": 3500,
+          "name_en": "Season Ticket Unlimited Play Young Adult 20-24 years (member)"
         },
         {
           "category": "playingRights",
           "name": "Årskort Fritt spill eldre junior",
-          "price": 1500
+          "price": 1500,
+          "name_en": "Season Ticket Unlimited Play Older Junior"
         },
         {
           "category": "playingRights",
           "name": "Årskort Fritt spill (ikke medlem)",
-          "price": 4500
+          "price": 4500,
+          "name_en": "Season Ticket Unlimited Play (non-member)"
         }
       ]
     }
@@ -243,5 +254,8 @@
     "createdAt": "2025-10-31T11:23:10.247Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJYQyOwRV5QUYRX7JKZCggEC8"
+  "googlePlaceId": "ChIJYQyOwRV5QUYRX7JKZCggEC8",
+  "slug_en": "gjerdrum-golf-club",
+  "name_en": "Gjerdrum Golf Club",
+  "description_en": "Gjerdrum golf course is a parkland course with par 66, but it certainly has its challenges. The undulating ravine landscape means that on several holes you need to play strategically rather than hitting long. The course finishes with the signature hole, a short par three over water. Picturesque and delightful."
 }

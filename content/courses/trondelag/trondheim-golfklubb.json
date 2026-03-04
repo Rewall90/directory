@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Sommersætra i Bymarka; idyllisk utsikt over byen."
+    "viewDescription": "Sommersætra i Bymarka; idyllisk utsikt over byen.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "9-hole course with 18 tee positions",
+    "signatureHole_en": "Views over Trondheim",
+    "scenicHole_en": "Views over Trondheim",
+    "viewDescription_en": "Sommersaetra in Bymarka; idyllic views over the city."
   },
   "description": "'Norges vakreste 9-hullsbane' i Bymarka med 18 ulike tee-posisjoner.",
   "contact": {
@@ -128,7 +133,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK. Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien."
+      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK. Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien.",
+      "greenFeeDescription_en": "9 holes: Adult (30+) 350 kr, Young Adult (19-29) 300 kr, Junior (up to 19) 250 kr. Weekly green fee 1,500 kr, Monthly green fee 4,000 kr.",
+      "notes_en": "Golf Total 995 kr/month: unlimited play at Trondheim and Stjoerdal GC. Advance payment when booking in GolfBox. Guests can book 3 days in advance."
     },
     "2026": {
       "currency": "NOK",
@@ -149,7 +156,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK. Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien. 2026 priser ikke offisielt publisert ennå, bruker 2025-priser."
+      "notes": "Golf Total 995 kr/mnd: ubegrenset spill på Trondheim og Stjørdal GK. Forhåndsbetaling ved booking i GolfBox. Gjester kan booke 3 dager i forveien. 2026 priser ikke offisielt publisert ennå, bruker 2025-priser.",
+      "greenFeeDescription_en": "9 holes: Adult (30+) 350 kr, Young Adult (19-29) 300 kr, Junior (up to 19) 250 kr. Weekly green fee 1,500 kr, Monthly green fee 4,000 kr.",
+      "notes_en": "Golf Total 995 kr/month: unlimited play at Trondheim and Stjoerdal GC. Advance payment when booking in GolfBox. Guests can book 3 days in advance. 2026 prices not officially published yet, using 2025 prices."
     }
   },
   "membershipPricing": {
@@ -158,56 +167,74 @@
         "category": "Barn",
         "price": 650,
         "description": "Under 12 år. Kan være med foreldre/foresatte ut på banen eller treningsfeltet.",
-        "ageRange": "0-11"
+        "ageRange": "0-11",
+        "name_en": "Child",
+        "description_en": "Under 12 years. May accompany parents/guardians on the course or practice area."
       },
       {
         "category": "Junior",
         "price": 3600,
         "description": "12-19 år. Full spillerett. Kan deles opp i rater.",
-        "ageRange": "12-19"
+        "ageRange": "12-19",
+        "name_en": "Junior",
+        "description_en": "12-19 years. Full playing rights. Can be paid in instalments."
       },
       {
         "category": "Ung voksen 19-26",
         "price": 5150,
         "description": "Født 2000-2006. Full spillerett. Kan deles opp i rater.",
-        "ageRange": "19-26"
+        "ageRange": "19-26",
+        "name_en": "Young Adult 19-26",
+        "description_en": "Born 2000-2006. Full playing rights. Can be paid in instalments."
       },
       {
         "category": "Ung voksen 27-29",
         "price": 6000,
         "description": "Født 1997-1999. Full spillerett. Kan deles opp i rater.",
-        "ageRange": "27-29"
+        "ageRange": "27-29",
+        "name_en": "Young Adult 27-29",
+        "description_en": "Born 1997-1999. Full playing rights. Can be paid in instalments."
       },
       {
         "category": "Voksen",
         "price": 7700,
         "description": "30 år eller eldre. Full spillerett 7 dager i uka.",
-        "ageRange": "30+"
+        "ageRange": "30+",
+        "name_en": "Adult",
+        "description_en": "30 years or older. Full playing rights 7 days a week."
       },
       {
         "category": "Familie",
         "price": 15000,
         "description": "Maks 2 voksne + 2 juniorer/barn i samme husstand. Kan deles opp i rater.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Max 2 adults + 2 juniors/children in the same household. Can be paid in instalments."
       },
       {
         "category": "Formiddag",
         "price": 5670,
         "description": "Spillerett før kl 15:00 på ukedager (man-fre). Må betale greenfee i helg/helligdag. Kan delta i klubbturneringer uten greenfee.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Morning",
+        "description_en": "Playing rights before 15:00 on weekdays (Mon-Fri). Must pay green fee at weekends/public holidays. May participate in club tournaments without green fee."
       },
       {
         "category": "Greenfee",
         "price": 2550,
         "description": "For de som er usikre på spillemengde. Må betale greenfee for å spille. Inkluderer 1 greenfee.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Green Fee",
+        "description_en": "For those unsure about how much they will play. Must pay green fee to play. Includes 1 green fee."
       },
       {
         "category": "Golf Total",
         "price": 11940,
         "priceMonthly": 995,
         "description": "Ubegrenset spill på både Trondheim og Stjørdal GK.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Golf Total",
+        "description_en": "Unlimited play at both Trondheim and Stjoerdal GC."
       }
     ]
   },
@@ -253,5 +280,8 @@
     "updatedAt": "2026-02-15T12:00:00.000Z",
     "notes": "Norway's most beautiful 9-hole course. Established 1950. Located in Bymarka with views over Trondheim. Golf Total joint membership with Stjørdal GK available."
   },
-  "googlePlaceId": "ChIJLZdg6D0ybUYR-Z2MNkW5oKY"
+  "googlePlaceId": "ChIJLZdg6D0ybUYR-Z2MNkW5oKY",
+  "slug_en": "trondheim-golf-club",
+  "name_en": "Trondheim Golf Club",
+  "description_en": "'Norway's most beautiful 9-hole course' in Bymarka with 18 different tee positions."
 }

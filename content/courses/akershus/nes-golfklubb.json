@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Golf course",
+    "courseType_en": "Golf course"
   },
   "description": "Open park course that is good to walk, but long to play. 5 different tee positions, sloped for both men and women. New junior tee (Tee 28) added in 2022 measuring 2,800 meters.",
   "contact": {
@@ -128,7 +130,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfamore gyldig alle dager fra uke 19"
+      "notes": "Golfamore gyldig alle dager fra uke 19",
+      "greenFeeDescription_en": "Twilight golf after 19:00. Members of Norwegian Senior Golf and NGK members receive 100 kr discount on 18 holes. PGA card holders: 1 free round per season.",
+      "notes_en": "Golfamore valid all days from week 19."
     }
   },
   "membershipPricing": {
@@ -225,5 +229,8 @@
     "createdAt": "2025-10-31T11:23:13.440Z",
     "updatedAt": "2026-02-15T14:00:00.000Z"
   },
-  "googlePlaceId": "ChIJcRhPifIrQkYRzl3733MI0wQ"
+  "googlePlaceId": "ChIJcRhPifIrQkYRzl3733MI0wQ",
+  "slug_en": "nes-golf-club",
+  "name_en": "Nes Golf Club",
+  "description_en": "Open parkland course that is good to walk, but long to play. 5 different tee positions, sloped for both men and women. New junior tee (Tee 28) added in 2022 measuring 2,800 metres."
 }

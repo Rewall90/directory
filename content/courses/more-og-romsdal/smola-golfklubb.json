@@ -1,6 +1,8 @@
 {
   "slug": "smola-golfklubb",
+  "slug_en": "smoela-golf-club",
   "name": "Smøla Golfklubb",
+  "name_en": "Smoela Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Smøla",
@@ -36,9 +38,15 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Kystnært landskap med naturskjønne omgivelser i skogsterreng, godt beskyttet mot vind"
+    "viewDescription": "Kystnært landskap med naturskjønne omgivelser i skogsterreng, godt beskyttet mot vind",
+    "terrain_en": "Woodland course",
+    "courseType_en": "9-hole golf course",
+    "signatureHole_en": "Coastal landscape with scenic surroundings",
+    "scenicHole_en": "Coastal landscape with scenic surroundings",
+    "viewDescription_en": "Coastal landscape with scenic surroundings in woodland terrain, well sheltered from wind"
   },
   "description": "9-hulls utfordrende skogsbane i Dyrnesdalen på vestsiden av Smøla. Banen er godt beskyttet mot vær og vind. Klubben ble grunnlagt i 2001 av Nils Baadnes og Frode Roksvåg, og Dyrnesvågen Golfbane åpnet i påsken 2003. Banen ble offisielt slope-beregnet av Norges Golfforbund i 2005 og godkjent som klubb #168. Røde og gule teer er tilgjengelige på alle hull. Benker er plassert ved tee-stedene. Nylig oppgradert med ny design.",
+  "description_en": "9-hole challenging woodland course in Dyrnesdalen on the west side of Smoela. The course is well sheltered from weather and wind. The club was founded in 2001 by Nils Baadnes and Frode Roksvag, and Dyrnesvagen Golf Course opened at Easter 2003. The course was officially slope-rated by the Norwegian Golf Federation in 2005 and approved as club #168. Red and yellow tees are available on all holes. Benches are placed at the tee areas. Recently upgraded with new design.",
   "contact": {
     "phone": null,
     "email": "post@smolagolfklubb.no",
@@ -52,7 +60,8 @@
   "season": {
     "start": "Påsken",
     "end": "Oktober",
-    "winterUse": "Simulator tilgjengelig for vintertrening"
+    "winterUse": "Simulator tilgjengelig for vintertrening",
+    "winterUse_en": "Simulator available for winter training"
   },
   "visitors": {
     "welcome": true,
@@ -117,7 +126,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Redusert pris for samarbeidsklubber"
+      "notes": "Redusert pris for samarbeidsklubber",
+      "greenFeeDescription_en": "Senior/adult: 300 NOK/day. Junior: 150 NOK/day (free for club juniors). Partner clubs: 150 NOK. Club members: 100 NOK/day.",
+      "notes_en": "Reduced price for partner clubs"
     },
     "2026": {
       "currency": "NOK",
@@ -140,7 +151,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Utleie av golfbil for de som er dårlige til beins. Utleie av golfsett."
+      "notes": "Utleie av golfbil for de som er dårlige til beins. Utleie av golfsett.",
+      "greenFeeDescription_en": "Senior/adult: 300 NOK/day. Junior: 150 NOK/day (club juniors free). Partner clubs: 150 NOK. Junior partner club: 100 NOK. Club members: 100 NOK/day.",
+      "notes_en": "Golf buggy rental for those with mobility difficulties. Golf set rental available."
     }
   },
   "membershipPricing": {
@@ -160,7 +173,14 @@
       "supportMembershipDescription": "Støttemedlem (kun støtte, ikke spillerett)",
       "spilleavgift": "Årlig avgift for fri spill hele sesongen",
       "membershipStatus": "open",
-      "notes": "Spilleavgift gir fri spill hele sesongen. Junior spiller gratis t.o.m. året man fyller 18 år."
+      "notes": "Spilleavgift gir fri spill hele sesongen. Junior spiller gratis t.o.m. året man fyller 18 år.",
+      "fullMembershipDescription_en": "Member (+ playing fee 500 NOK for free play)",
+      "familyMembershipDescription_en": "Family (1 adult + min 2 children / 2 adults + children), playing fee 0 NOK",
+      "seniorMembershipDescription_en": "Senior member (+ playing fee 300 NOK)",
+      "spouseMembershipDescription_en": "Spouse/partner (+ playing fee 300 NOK)",
+      "juniorMembershipDescription_en": "Junior under 19 years, free play on the course",
+      "supportMembershipDescription_en": "Support member (support only, no playing rights)",
+      "notes_en": "Playing fee provides free play for the entire season. Juniors play free until the year they turn 18."
     }
   },
   "ratings": {

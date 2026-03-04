@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Golf course",
+    "courseType_en": "Golf course"
   },
   "description": "Grini er en 9-hulls golfbane som passer golfspillere i alle kategorier. Banen er par 35 og måler 2591 meter. Den er designet av Jeremy Turner og ligger i et relativt åpent landskap, men med en layout som gir en rekke utfordringer. Varierte hull og flott utsikt til bl.a. Holmenkollen setter hyggelig preg på golfopplevelsen.",
   "contact": {
@@ -120,7 +122,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil krever legeattest. Proshop: Man-Tor 08:00-20:00, Fre-Søn 08:00-18:00. Gjestespillere må ha hcp 36 eller bedre."
+      "notes": "Golfbil krever legeattest. Proshop: Man-Tor 08:00-20:00, Fre-Søn 08:00-18:00. Gjestespillere må ha hcp 36 eller bedre.",
+      "greenFeeDescription_en": "9 holes: 460 kr. Members' guests: 360 kr. Junior (19 years or younger): 225 kr. Green fee member: 360 kr. Green fee member junior: 175 kr. For 18 holes you must book 2 tee times with 2.5 hours between them.",
+      "notes_en": "Golf buggies require a medical certificate. Pro shop: Mon-Thu 08:00-20:00, Fri-Sun 08:00-18:00. Guest players must have handicap 36 or better."
     }
   },
   "membershipPricing": {
@@ -183,5 +187,8 @@
     "createdAt": "2025-10-31T11:23:10.850Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJh4LFc0FtQUYRzLR6BYMFo9I"
+  "googlePlaceId": "ChIJh4LFc0FtQUYRzLR6BYMFo9I",
+  "slug_en": "grini-golf-club",
+  "name_en": "Grini Golf Club",
+  "description_en": "Grini is a 9-hole golf course suitable for golfers of all standards. The course is par 35 and measures 2,591 metres. Designed by Jeremy Turner, it is set in a relatively open landscape, but with a layout that presents a range of challenges. Varied holes and fine views towards Holmenkollen, among others, make for a delightful golfing experience."
 }

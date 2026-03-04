@@ -36,7 +36,8 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "designer_en": "Henrik Jacobsen (Danish)"
   },
   "description": "Haga Golfklubb har 27 flotte hull. Disse deles opp i 3 sløyfer, Rød, Gul & Blå, og spilles til en hver tid som en 18-hullsbane, åpen for alle, og en 9-hullsbane, kun åpen for klubbens aksjonærer og juniorer\n\nCourse consists of 27 holes divided into 3 loops: Rød, Gul, Blå",
   "contact": {
@@ -140,7 +141,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "EAGL keyless technology installed on all golf carts\n\nMember 18-holes: 400 kr\n\nMember 9-holes: 250 kr\n\nGuest 18-holes: 500 kr\n\nGuest 9-holes: 350 kr\n\nMember with doctor cert 18-holes: 300 kr\n\nMember with doctor cert 9-holes: 250 kr\n\nGuest with doctor cert 9-holes: 350 kr\n\n10-round package (member): 2500 kr"
+      "notes": "EAGL keyless technology installed on all golf carts\n\nMember 18-holes: 400 kr\n\nMember 9-holes: 250 kr\n\nGuest 18-holes: 500 kr\n\nGuest 9-holes: 350 kr\n\nMember with doctor cert 18-holes: 300 kr\n\nMember with doctor cert 9-holes: 250 kr\n\nGuest with doctor cert 9-holes: 350 kr\n\n10-round package (member): 2500 kr",
+      "greenFeeDescription_en": "Junior discount: 50% on applicable green fee\n\nGuest green fee 2025: Prime time 1100 kr, Other times 800 kr\n\nGuest of shareholder: Prime time 900 kr, Other times 600 kr\n\nPrime time: Weekend 07:00-14:00, Weekday after 14:00\n\nEvening green fee: 450 kr (varies according to sunset)",
+      "notes_en": "EAGL keyless technology installed on all golf buggies\n\nMember 18 holes: 400 kr\n\nMember 9 holes: 250 kr\n\nGuest 18 holes: 500 kr\n\nGuest 9 holes: 350 kr\n\nMember with medical certificate 18 holes: 300 kr\n\nMember with medical certificate 9 holes: 250 kr\n\nGuest with medical certificate 9 holes: 350 kr\n\n10-round package (member): 2500 kr"
     },
     "2026": {
       "currency": "NOK",
@@ -159,7 +162,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "EAGL keyless technology installed on all golf carts\n\nGolfbil (gjest) 18 hull: 500 kr\n\nGolfbil (gjest) 9 hull: 350 kr\n\nGolfbil (gjest m/legeerklæring) 18 hull: 400 kr\n\nGolfbil (gjest m/legeerklæring) 9 hull: 350 kr\n\nBooking 3 dager i forveien via Gimmie app, Golfbox eller proshop\n\nForhåndsbetaling av greenfee ved booking i Golfbox"
+      "notes": "EAGL keyless technology installed on all golf carts\n\nGolfbil (gjest) 18 hull: 500 kr\n\nGolfbil (gjest) 9 hull: 350 kr\n\nGolfbil (gjest m/legeerklæring) 18 hull: 400 kr\n\nGolfbil (gjest m/legeerklæring) 9 hull: 350 kr\n\nBooking 3 dager i forveien via Gimmie app, Golfbox eller proshop\n\nForhåndsbetaling av greenfee ved booking i Golfbox",
+      "greenFeeDescription_en": "Junior discount: 50% on applicable green fee\n\nGuest green fee 2026: Prime time 1100 kr, Other times 800 kr\n\nGuest of shareholder: Prime time 900 kr, Other times 600 kr\n\nPrime time: Weekend/bank holiday 07:00-14:00, Weekday after 14:00\n\nEvening green fee: 450 kr (varies according to sunset, see Golfbox)",
+      "notes_en": "EAGL keyless technology installed on all golf buggies\n\nGolf buggy (guest) 18 holes: 500 kr\n\nGolf buggy (guest) 9 holes: 350 kr\n\nGolf buggy (guest with medical certificate) 18 holes: 400 kr\n\nGolf buggy (guest with medical certificate) 9 holes: 350 kr\n\nBooking 3 days in advance via the Gimmie app, Golfbox, or pro shop\n\nPrepayment of green fee when booking in Golfbox"
     }
   },
   "membershipPricing": {
@@ -223,5 +228,8 @@
     "createdAt": "2025-10-31T11:24:46.105Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJDd9TXMwSQUYRedj-cXvi07Q"
+  "googlePlaceId": "ChIJDd9TXMwSQUYRedj-cXvi07Q",
+  "slug_en": "haga-golf-club",
+  "name_en": "Haga Golf Club",
+  "description_en": "Haga Golf Club has 27 superb holes. These are divided into 3 loops: Red, Yellow, and Blue, and are played at any time as an 18-hole course open to all, plus a 9-hole course open only to the club's shareholders and juniors.\n\nThe course consists of 27 holes divided into 3 loops: Red, Yellow, Blue."
 }

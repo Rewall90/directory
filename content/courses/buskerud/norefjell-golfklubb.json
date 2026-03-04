@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "18 hulls skogsbane på Norefjell med naturskjønne omgivelser."
+    "viewDescription": "18 hulls skogsbane på Norefjell med naturskjønne omgivelser.",
+    "terrain_en": "Woodland course",
+    "courseType_en": "18-hole woodland course",
+    "viewDescription_en": "18-hole woodland course at Norefjell in scenic surroundings."
   },
   "description": "Norefjell Golfklubb er et fullverdig anlegg med 18 hulls skogsbane, øvingsfelt med drivingrange, putting green og klubbhus. Grunnlagt 7. september 1993. Organisert som Norefjell Golfbane AS, medlem av Norges Golfforbund. Utleie av golfkøller, traller og bil. Årlig dugnad i mai for sesongåpning. Opphavshederlige medlemmer: Terje Løkkeberg og Anne Haug. Norefjell Golfklubbs hederstegn tildelt: Harry Eull (2016), Rolf Heia (2017), Erik Svendsen (2018), Astri Tove Heia (2019), Odd Rustad Nilsen (2024). Klubbmestere 2025: Herrer - Jostein Kjernaas (73 slag), Damer - Reidun Svendsen (93 slag), Junior - Leo Sikkut Berger (78 slag). Hole-in-one register vedlikeholdt.",
   "contact": {
@@ -58,7 +61,8 @@
   "season": {
     "start": "Mai",
     "end": "Oktober",
-    "winterUse": "Banen stenges for vinteren"
+    "winterUse": "Banen stenges for vinteren",
+    "winterUse_en": "The course closes for the winter"
   },
   "visitors": {
     "welcome": true,
@@ -120,7 +124,9 @@
       "golfCartRental": 400,
       "pullCartRental": null,
       "clubRental": true,
-      "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong, Ungdom 13-19 år 800 kr/sesong, Voksne 20+ 1000 kr/sesong (fredager). Golfpro Thorbjørn Hansen."
+      "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong, Ungdom 13-19 år 800 kr/sesong, Voksne 20+ 1000 kr/sesong (fredager). Golfpro Thorbjørn Hansen.",
+      "greenFeeDescription_en": "18 holes: Fri-Sun 600 kr, weekdays 500 kr. 9 holes: Fri-Sun 300 kr, weekdays 250 kr. Juniors half price.",
+      "notes_en": "Coaching 2025: Children up to 12 years 500 kr/season, Youth 13-19 years 800 kr/season, Adults 20+ 1,000 kr/season (Fridays). Golf pro Thorbjorn Hansen."
     },
     "2026": {
       "currency": "NOK",
@@ -135,7 +141,9 @@
       "golfCartRentalNotes": "Bestilles dagen i forveien. Tilgjengelig kl. 09-15. 18 hull/4 timer.",
       "pullCartRental": null,
       "clubRental": true,
-      "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong, Ungdom 13-19 år 800 kr/sesong, Voksne 20+ 1000 kr/sesong (fredager). Golfpro Thorbjørn Hansen."
+      "notes": "Trening 2025: Barn t.o.m. 12 år 500 kr/sesong, Ungdom 13-19 år 800 kr/sesong, Voksne 20+ 1000 kr/sesong (fredager). Golfpro Thorbjørn Hansen.",
+      "greenFeeDescription_en": "18 holes: Fri-Sun 600 kr, weekdays 500 kr. 9 holes: Fri-Sun 400 kr, weekdays 350 kr. Under 20s half price. Norwegian Senior Golf and Golfamore: 50% discount on weekday 18-hole green fee. Groups of 16+ persons: 10% discount.",
+      "notes_en": "Coaching 2025: Children up to 12 years 500 kr/season, Youth 13-19 years 800 kr/season, Adults 20+ 1,000 kr/season (Fridays). Golf pro Thorbjorn Hansen."
     }
   },
   "membershipPricing": {
@@ -189,5 +197,8 @@
     "createdAt": "2025-10-31T05:54:19.339Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJByvUxzP0QEYRcCwlVGZC2Do"
+  "googlePlaceId": "ChIJByvUxzP0QEYRcCwlVGZC2Do",
+  "slug_en": "norefjell-golf-club",
+  "name_en": "Norefjell Golf Club",
+  "description_en": "Norefjell Golf Club is a complete facility with an 18-hole woodland course, practice area with driving range, putting green and clubhouse. Founded on 7 September 1993. Organised as Norefjell Golfbane AS, member of the Norwegian Golf Federation. Club, trolley and buggy hire available. Annual volunteer working day in May for season opening."
 }

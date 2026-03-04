@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Kvinnherad Golfklubb - 9-hulls park/skogsbane i Husnes grunnlagt 1999. Par 34 (68 for 18h), 2404m. Ved munninga av Hardangerfjorden, midt på Vestlandet. Driving range, putting/chipping greens, practice bunker. Klubbhus med dusj, pro shop, selskapsrom. Teaching pro. Tralle-utleie. Handicap-grense 54. Åpent året rundt."
+    "viewDescription": "Kvinnherad Golfklubb - 9-hulls park/skogsbane i Husnes grunnlagt 1999. Par 34 (68 for 18h), 2404m. Ved munninga av Hardangerfjorden, midt på Vestlandet. Driving range, putting/chipping greens, practice bunker. Klubbhus med dusj, pro shop, selskapsrom. Teaching pro. Tralle-utleie. Handicap-grense 54. Åpent året rundt.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "9-hole parkland/woodland course",
+    "signatureHole_en": "At the mouth of the Hardangerfjord",
+    "scenicHole_en": "At the mouth of the Hardangerfjord",
+    "viewDescription_en": "Kvinnherad Golf Club - 9-hole parkland/woodland course in Husnes, established 1999. Par 34 (68 for 18 holes), 2,404m. At the mouth of the Hardangerfjord, in the heart of Western Norway. Driving range, putting/chipping greens, practice bunker. Clubhouse with showers, pro shop, function room. Teaching pro. Trolley hire. Handicap limit 54. Open year-round."
   },
   "description": "Kvinnherad Golfklubb - 9-hulls park/skogsbane grunnlagt 1999 i Husnes. Par 34 (68 for 18 hull når spilt 2 ganger), 2404 meter. Banen kan spilles to ganger for å gjøre 18 hull. I munninga av Hardangerfjorden, rett ved båthavna på Husnes. Midt på Vestlandet.",
   "contact": {
@@ -68,7 +73,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Åpent året rundt"
+    "winterUse": "Åpent året rundt",
+    "winterUse_en": "Open year-round"
   },
   "visitors": {
     "welcome": true,
@@ -133,7 +139,9 @@
       "specialOfferPrice": 1200,
       "specialOfferIncludes": "Rabattkupong 8 stk heildags greenfee",
       "freeTrial": null,
-      "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Lokalisert i munninga av Hardangerfjorden ved bathavna pa Husnes. Selskapsrom tilgjengelig."
+      "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Lokalisert i munninga av Hardangerfjorden ved bathavna pa Husnes. Selskapsrom tilgjengelig.",
+      "greenFeeDescription_en": "Green fee 2025: Full-day green fee all days 200 NOK. Junior up to 19 years: 150 NOK. Discount book of 8: 1,200 NOK.",
+      "notes_en": "9-hole course that can be played twice for 18 holes. Located at the mouth of the Hardangerfjord by the marina in Husnes. Function room available."
     },
     "2026": {
       "currency": "NOK",
@@ -150,7 +158,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Medlemmer betaler 200kr for heildags spel. Betaling via VIPPS nummer 22507 (Kvinnherad Golfklubb Greenfee)."
+      "notes": "9-hulls bane som kan spilles 2 ganger for 18 hull. Medlemmer betaler 200kr for heildags spel. Betaling via VIPPS nummer 22507 (Kvinnherad Golfklubb Greenfee).",
+      "greenFeeDescription_en": "Green fee visitor 18 holes: 300 NOK all days. Green fee visitor 9 holes: 200 NOK all days. Green fee club member full day: 200 NOK. Payment via VIPPS: 22507.",
+      "notes_en": "9-hole course that can be played twice for 18 holes. Members pay 200 NOK for full-day play. Payment via VIPPS number 22507 (Kvinnherad Golfklubb Greenfee)."
     }
   },
   "membershipPricing": {
@@ -230,5 +240,8 @@
     "createdAt": "2025-10-31T10:16:58.140Z",
     "updatedAt": "2026-02-15T00:00:00.000Z"
   },
-  "googlePlaceId": "ChIJYXCyZYlxPEYRNW-SgAhYAsU"
+  "googlePlaceId": "ChIJYXCyZYlxPEYRNW-SgAhYAsU",
+  "slug_en": "kvinnherad-golf-club",
+  "name_en": "Kvinnherad Golf Club",
+  "description_en": "Kvinnherad Golf Club - 9-hole parkland/woodland course established in 1999 in Husnes. Par 34 (68 for 18 holes played twice), 2,404 metres. The course can be played twice for 18 holes. At the mouth of the Hardangerfjord, right by the marina in Husnes. In the heart of Western Norway."
 }

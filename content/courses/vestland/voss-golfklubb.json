@@ -36,7 +36,13 @@
     "par4Count": 5,
     "par5Count": 2,
     "mountainViews": true,
-    "viewDescription": "Voss Golf og Aktivitetspark - 9-hulls fjellbane designet av Jeremy Turner (2005) ved Lønavatnet i Skulestadmo. Par 36 (72 for 18h), 6154m (18h). 4 tee-alternativer (2510-3361m). Driving range, putting/chipping greens. 2 simulatorer. Klubbhus (08-20 daglig) med kafé (daglig sommer Jun-Aug, helg/turnering ellers), pro shop. Cart/tralle/kølleutleie. Golfkurs."
+    "viewDescription": "Voss Golf og Aktivitetspark - 9-hulls fjellbane designet av Jeremy Turner (2005) ved Lønavatnet i Skulestadmo. Par 36 (72 for 18h), 6154m (18h). 4 tee-alternativer (2510-3361m). Driving range, putting/chipping greens. 2 simulatorer. Klubbhus (08-20 daglig) med kafé (daglig sommer Jun-Aug, helg/turnering ellers), pro shop. Cart/tralle/kølleutleie. Golfkurs.",
+    "terrain_en": "Mountain/Parkland",
+    "courseType_en": "9-hole mountain course",
+    "designer_en": "Jeremy Turner",
+    "signatureHole_en": "Idyllically situated by Lonavatnet lake in mountain scenery",
+    "scenicHole_en": "Idyllically situated by Lonavatnet lake in mountain scenery",
+    "viewDescription_en": "Voss Golf and Activity Park - 9-hole mountain course designed by Jeremy Turner (2005) by Lonavatnet lake in Skulestadmo. Par 36 (72 for 18 holes), 6,154m (18 holes). 4 tee options (2,510-3,361m). Driving range, putting/chipping greens. 2 simulators. Clubhouse (08:00-20:00 daily) with cafe (daily in summer Jun-Aug, weekends/tournaments otherwise), pro shop. Buggy/trolley/club hire. Golf lessons."
   },
   "description": "Voss Golf og Aktivitetspark - 9-hulls fjellbane designet av Jeremy Turner, åpnet 2005 ved Lønavatnet i Skulestadmo. Par 36 (72 for 18 hull), 6154m for 18 hull. 4 tee-alternativer (hvit 3361m, gul 3180m, blå 2665m, rød 2510m for 9 hull). Idyllisk plassert ved Lønavatnet i fjellandskap.",
   "contact": {
@@ -59,7 +65,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "2 golfsimulatore, simulator sesongkort tilgjengelig (12.10-30.04): Voksen 3500 kr, Junior 1750 kr"
+    "winterUse": "2 golfsimulatore, simulator sesongkort tilgjengelig (12.10-30.04): Voksen 3500 kr, Junior 1750 kr",
+    "winterUse_en": "2 golf simulators, simulator season pass available (12 Oct-30 Apr): Adult 3,500 NOK, Junior 1,750 NOK"
   },
   "visitors": {
     "welcome": true,
@@ -132,7 +139,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Trackman simulator: Sesongkort 3500kr (voksen), 1750kr (junior 13-19). Bobil parkering 150-200kr. Designet av Jeremy Turner (2005). Seimen Cup turnering. HCP-regler: Damer HCP 20+ fra lengde 46, Herrer HCP 20+ fra lengde 52."
+      "notes": "Trackman simulator: Sesongkort 3500kr (voksen), 1750kr (junior 13-19). Bobil parkering 150-200kr. Designet av Jeremy Turner (2005). Seimen Cup turnering. HCP-regler: Damer HCP 20+ fra lengde 46, Herrer HCP 20+ fra lengde 52.",
+      "greenFeeDescription_en": "Green fee 2025: Mon-Fri 9 holes 350 NOK / 18 holes 500 NOK. Sat-Sun 9 holes 400 NOK / 18 holes 600 NOK. Full day 700 NOK (weekdays), 800 NOK (weekends). Junior (under 18) 150 NOK all days. Vipps #141899.",
+      "notes_en": "Trackman simulator: Season pass 3,500 NOK (adult), 1,750 NOK (junior 13-19). Motorhome parking 150-200 NOK. Designed by Jeremy Turner (2005). Seimen Cup tournament. HCP rules: Ladies HCP 20+ from tee 46, Men HCP 20+ from tee 52."
     }
   },
   "membershipPricing": {
@@ -141,49 +150,57 @@
         "category": "child",
         "price": 600,
         "description": "Fritt spel opp til 13 år: 600 kr/år",
-        "ageRange": "Opp til 13 år"
+        "ageRange": "Opp til 13 år",
+        "description_en": "Free play up to 13 years: 600 NOK/year"
       },
       {
         "category": "junior",
         "price": 1000,
         "description": "Fritt spel 14-20 år: 1000 kr/år",
-        "ageRange": "14-20 år"
+        "ageRange": "14-20 år",
+        "description_en": "Free play 14-20 years: 1,000 NOK/year"
       },
       {
         "category": "youngAdult",
         "price": 2600,
         "description": "Fritt spel 21-25 år: 2600 kr/år",
-        "ageRange": "21-25 år"
+        "ageRange": "21-25 år",
+        "description_en": "Free play 21-25 years: 2,600 NOK/year"
       },
       {
         "category": "adult",
         "price": 5175,
         "description": "Fritt spel voksen med medlemsandel: 5175 kr/år. Uten andel: 6200 kr/år. Medlemsandel: 10000 kr (engangsbeløp).",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Free play adult with membership share: 5,175 NOK/year. Without share: 6,200 NOK/year. Membership share: 10,000 NOK (one-off payment)."
       },
       {
         "category": "spouse",
         "price": 4350,
         "description": "Fritt spel ektefelle/samboer med medlemsandel: 4350 kr/år. Medlemsandel: 7500 kr.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Free play spouse/partner with membership share: 4,350 NOK/year. Membership share: 7,500 NOK."
       },
       {
         "category": "senior",
         "price": 4350,
         "description": "Fritt spel pensjonist (67+ eller ufør) med medlemsandel: 4350 kr/år. Uten andel: 5375 kr/år.",
-        "ageRange": "67+ år"
+        "ageRange": "67+ år",
+        "description_en": "Free play senior (67+ or disabled) with membership share: 4,350 NOK/year. Without share: 5,375 NOK/year."
       },
       {
         "category": "greenfee",
         "price": 1350,
         "description": "C-medlem greenfee vaksen: 1350 kr/år. Junior 14-20 år: 600 kr/år. Betaler greenfee per runde.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "C-member green fee adult: 1,350 NOK/year. Junior 14-20 years: 600 NOK/year. Pay green fee per round."
       },
       {
         "category": "support",
         "price": 1000,
         "description": "Støttemedlem: 1000 kr/år",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Supporting member: 1,000 NOK/year"
       }
     ]
   },
@@ -228,5 +245,8 @@
     "createdAt": "2025-10-31T10:17:02.476Z",
     "updatedAt": "2026-02-14T17:47:00.000Z"
   },
-  "googlePlaceId": "ChIJC0qhiKLbPUYR5ScBnp5aMg4"
+  "googlePlaceId": "ChIJC0qhiKLbPUYR5ScBnp5aMg4",
+  "slug_en": "voss-golf-club",
+  "name_en": "Voss Golf Club",
+  "description_en": "Voss Golf and Activity Park - 9-hole mountain course designed by Jeremy Turner, opened 2005 by Lonavatnet lake in Skulestadmo. Par 36 (72 for 18 holes), 6,154m for 18 holes. 4 tee options (white 3,361m, yellow 3,180m, blue 2,665m, red 2,510m for 9 holes). Idyllically situated by Lonavatnet lake in mountain scenery."
 }

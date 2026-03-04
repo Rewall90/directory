@@ -37,7 +37,10 @@
     "par4Count": 4,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Trivelig klubb 5 km sør for Namsos; klubbhus med servering. Parkland med skogskledde fairways i frodige omgivelser."
+    "viewDescription": "Trivelig klubb 5 km sør for Namsos; klubbhus med servering. Parkland med skogskledde fairways i frodige omgivelser.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "viewDescription_en": "Friendly club 5 km south of Namsos; clubhouse with catering. Parkland with tree-lined fairways in lush surroundings."
   },
   "description": "Parkland med skogskledde fairways i frodige omgivelser; 1×par5, 4×par4, 4×par3. Vann i spill på 4 hull. Banen ligger ved Sævik, 5-7 km sør for Namsos langs FV 17.",
   "contact": {
@@ -127,7 +130,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser hentet fra Norsk Golf oversikt (jan 2015). Ny 9-hullsbane planlagt i 2015."
+      "notes": "Priser hentet fra Norsk Golf oversikt (jan 2015). Ny 9-hullsbane planlagt i 2015.",
+      "greenFeeDescription_en": "Green fee for full day play.",
+      "notes_en": "Prices from Norsk Golf overview (Jan 2015). New 9-hole course planned for 2015."
     },
     "2025": {
       "currency": "NOK",
@@ -143,7 +148,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfamore halv greenfee. Rabattavtaler med Namdal GK (kr 175), Stiklestad GK, Steinkjer GK (kr 175, 50% rabatt) og Klæbu GK. Priser hentet fra arkivert nettside (2021-satser, sist bekreftet aug 2022)."
+      "notes": "Golfamore halv greenfee. Rabattavtaler med Namdal GK (kr 175), Stiklestad GK, Steinkjer GK (kr 175, 50% rabatt) og Klæbu GK. Priser hentet fra arkivert nettside (2021-satser, sist bekreftet aug 2022).",
+      "greenFeeDescription_en": "Green fee covers unlimited play all day. Self-service via envelope in clubhouse or Vipps #89460.",
+      "notes_en": "Golfamore half green fee. Reciprocal agreements with Namdal GC (175 kr), Stiklestad GC, Steinkjer GC (175 kr, 50% discount) and Klaebu GC. Prices from archived website (2021 rates, last confirmed Aug 2022)."
     },
     "2026": {
       "currency": "NOK",
@@ -159,7 +166,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser basert på sist kjente satser (2021). Nettside namsosgolf.no er nede (domene utløpt feb 2026). Golfamore tilbyr 50% rabatt. Rabattavtaler med Namdal GK (kr 175), Stiklestad GK, Steinkjer GK (kr 175, 50% rabatt) og Klæbu GK. Nye greener på hull 6 og 7 under arbeid sept-okt 2024."
+      "notes": "Priser basert på sist kjente satser (2021). Nettside namsosgolf.no er nede (domene utløpt feb 2026). Golfamore tilbyr 50% rabatt. Rabattavtaler med Namdal GK (kr 175), Stiklestad GK, Steinkjer GK (kr 175, 50% rabatt) og Klæbu GK. Nye greener på hull 6 og 7 under arbeid sept-okt 2024.",
+      "greenFeeDescription_en": "Green fee covers unlimited play all day. Self-service via envelope in clubhouse or Vipps #89460. No tee time booking required.",
+      "notes_en": "Prices based on last known rates (2021). Website namsosgolf.no is down (domain expired Feb 2026). Golfamore offers 50% discount. Reciprocal agreements with Namdal GC (175 kr), Stiklestad GC, Steinkjer GC (175 kr, 50% discount) and Klaebu GC. New greens on holes 6 and 7 under construction Sept-Oct 2024."
     }
   },
   "membershipPricing": {},
@@ -264,5 +273,8 @@
     "updatedAt": "2026-02-15T16:30:00.000Z",
     "notes": "Website namsosgolf.no is unavailable (domain expired/connection refused feb 2026). Historical pricing from Norsk Golf 2015 (200/100 kr) and archived 2021 rates (300/150 kr). Course length from Hole19. Rabattavtaler confirmed via Steinkjer GK website. New greens on holes 6-7 under construction Sept-Oct 2024 per Norsk Golf article. Organization details from Brønnøysundregistrene. Facebook/Instagram not accessible."
   },
-  "googlePlaceId": "ChIJ7_39dfLockYRUxGtyrxdP9Y"
+  "googlePlaceId": "ChIJ7_39dfLockYRUxGtyrxdP9Y",
+  "slug_en": "namsos-golf-club",
+  "name_en": "Namsos Golf Club",
+  "description_en": "Parkland course with tree-lined fairways in lush surroundings; 1 par-5, 4 par-4, 4 par-3 holes. Water in play on 4 holes. The course is located at Saevik, 5-7 km south of Namsos along county road 17."
 }

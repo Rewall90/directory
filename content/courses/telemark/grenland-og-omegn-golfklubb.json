@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Parkland and woodland",
+    "courseType_en": "Parkland/Woodland",
+    "designer_en": "Jan Sederholm"
   },
   "description": "Slag i slag for trivsel og helse! 18-hulls parkbane/skogbane.",
   "contact": {
@@ -129,7 +132,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Samarbeid med flere klubber i regionen for greenfee-rabatter"
+      "notes": "Samarbeid med flere klubber i regionen for greenfee-rabatter",
+      "greenFeeDescription_en": "Weekend 18 holes: NOK 600, 9 holes: NOK 400. Weekdays 18 holes: NOK 400 (før kl 12), NOK 500 (fra kl 12). 9 holes: NOK 300. Junior half price.",
+      "notes_en": "Cooperation with several clubs in the region for green fee discounts"
     }
   },
   "membershipPricing": {
@@ -205,5 +210,8 @@
     "createdAt": "2025-10-31T12:22:39.203Z",
     "updatedAt": "2026-02-14T16:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ1yBe-XcmR0YRKJ4cbc6y-k8"
+  "googlePlaceId": "ChIJ1yBe-XcmR0YRKJ4cbc6y-k8",
+  "slug_en": "grenland-omegn-golf-club",
+  "name_en": "Grenland & Omegn Golf Club",
+  "description_en": "Shot by shot for wellbeing and health! An 18-hole parkland/woodland course."
 }

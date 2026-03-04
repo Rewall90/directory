@@ -131,7 +131,9 @@
       "beginnerCourseDescription": "Veien til Golf (VTG) - 5 timer nybegynnerkurs inkludert teknikk, regler, sikkerhet, baneetikette og banespill. Obligatorisk for spill på banen. Påmelding via Haga GK.",
       "simulatorPricing": "Dynamiske priser via Alba booking (albaplay.com/venue/haga-golfsenter). Standard pris Full Swing: kr 345, Trackman: kr 395. Prime-time (hverdager 16-22, helg 11-18): Full Swing kr 395, Trackman kr 445. Drop-in: kr 290. Medlemmer i Haga GK og Nordhaug GK får 15% rabatt.",
       "drivingRangePricing": "30 baller: kr 79, 45 baller: kr 112, 60 baller: kr 145. Verdikort generelt: 1000 poeng kr 950 (5% rabatt), 3000 poeng kr 2700 (10% rabatt), 5000 poeng kr 4250 (15% rabatt). Haga-medlemmer: 1000 poeng kr 900 (10% rabatt), 3000 poeng kr 2550 (15% rabatt), 5000 poeng kr 4000 (20% rabatt). Betaling via GolfMore app.",
-      "notes": "Snikspill medfører dobbel greenfee + ordinær greenfee (100% straff + standard greenfee betales umiddelbart via Vipps). Spillere skal møte minst 10 minutter før start. Driving range stengt for sesongen - åpner igjen våren 2026."
+      "notes": "Snikspill medfører dobbel greenfee + ordinær greenfee (100% straff + standard greenfee betales umiddelbart via Vipps). Spillere skal møte minst 10 minutter før start. Driving range stengt for sesongen - åpner igjen våren 2026.",
+      "greenFeeDescription_en": "Prepayment via GolfBox. Cancellation within 24 hours for a refund. Members book 7 days in advance, guests 3 days. NSG members (Norwegian Senior Golf) pay kr 270 for 9 holes.",
+      "notes_en": "Playing without booking results in double green fee + standard green fee (100% penalty + standard green fee paid immediately via Vipps). Players should arrive at least 10 minutes before their tee time. Driving range closed for the season - reopening spring 2026."
     }
   },
   "membershipPricing": {
@@ -212,5 +214,7 @@
     "createdAt": "2025-10-31T11:23:13.771Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJPyEQA9ISQUYRXcYpHGV9WIE"
+  "googlePlaceId": "ChIJPyEQA9ISQUYRXcYpHGV9WIE",
+  "slug_en": "nordhaug-golf-club",
+  "name_en": "Nordhaug Golf Club"
 }

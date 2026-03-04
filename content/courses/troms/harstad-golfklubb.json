@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Harstad Golfklubb - 9-hulls park/skogsbane grunnlagt 1986, 7 km utenfor Harstad sentrum i Troms. Par 68 (uvanlig høy for 9 hull), 4026m. 27 tee-plasseringer for variasjon. Driving range, putting green, practice bunker. Klubbhus med restaurant og pro shop. Tralle og kølleutleie. Handicap-grense 36 (strengere enn vanlig)."
+    "viewDescription": "Harstad Golfklubb - 9-hulls park/skogsbane grunnlagt 1986, 7 km utenfor Harstad sentrum i Troms. Par 68 (uvanlig høy for 9 hull), 4026m. 27 tee-plasseringer for variasjon. Driving range, putting green, practice bunker. Klubbhus med restaurant og pro shop. Tralle og kølleutleie. Handicap-grense 36 (strengere enn vanlig).",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Scenic surroundings 7 km from Harstad",
+    "scenicHole_en": "Scenic surroundings 7 km from Harstad",
+    "viewDescription_en": "Harstad Golf Club - a 9-hole parkland/woodland course founded in 1986, 7 km from Harstad town centre in Troms. Par 68 (unusually high for 9 holes), 4,026m. 27 tee positions for variety. Driving range, putting green, practice bunker. Clubhouse with restaurant and pro shop. Trolley and club hire available. Maximum handicap 36 (stricter than usual)."
   },
   "description": "Harstad Golfklubb - 9-hulls park/skogsbane grunnlagt 1986, 7 km utenfor Harstad sentrum.\n\nPar 68 for 18 hull (spilt 2 ganger). Banelengde: 4.026m for 18 hull.\n\nBanen ligger i naturskjønne omgivelser med skog og parklandskap. En variert bane som passer både nybegynnere og erfarne spillere.\n\nSpill golf under midnattssolen fra mai til juli - en unik opplevelse i Nord-Norge!\n\nFasiliteter inkluderer driving range, putting green, klubbhus med garderober og pro shop. Greenfee-automat med Vipps gjør det enkelt å betale døgnet rundt.",
   "contact": {
@@ -138,7 +143,9 @@
       "freeTrial": null,
       "bookingMethod": "Vipps",
       "vippsNumber": "106369",
-      "notes": "Greenfee gjelder per døgn. 27 ulike tee-plasseringer for variasjon. Naturskjønne omgivelser i Troms. Midnattssol-golf mulig om sommeren."
+      "notes": "Greenfee gjelder per døgn. 27 ulike tee-plasseringer for variasjon. Naturskjønne omgivelser i Troms. Midnattssol-golf mulig om sommeren.",
+      "greenFeeDescription_en": "Green fee 2025:\n\nADULTS:\n• 18 holes / full day: 350 NOK\n• 9 holes: 200 NOK\n\nJUNIOR (up to 19 years):\n• 200 NOK\n\nCHILDREN (up to 15 years):\n• Free\n\nPARTNER CLUBS:\n• 18 holes / full day: 250 NOK\n\nPayment via Vipps #106369",
+      "notes_en": "Green fee is valid per 24 hours. 27 different tee positions for variety. Scenic surroundings in Troms. Midnight sun golf possible in summer."
     },
     "2026": {
       "currency": "NOK",
@@ -164,7 +171,9 @@
       "freeTrial": null,
       "bookingMethod": "Vipps",
       "vippsNumber": "106369",
-      "notes": "Greenfee gjelder per døgn. 27 ulike tee-plasseringer for variasjon. Naturskjønne omgivelser i Troms. Midnattssol-golf mulig om sommeren."
+      "notes": "Greenfee gjelder per døgn. 27 ulike tee-plasseringer for variasjon. Naturskjønne omgivelser i Troms. Midnattssol-golf mulig om sommeren.",
+      "greenFeeDescription_en": "Green fee 2026:\n\nADULTS:\n• 18 holes / full day: 350 NOK\n• 9 holes: 200 NOK\n\nJUNIOR (up to 19 years):\n• 200 NOK\n\nCHILDREN (up to 15 years):\n• Free\n\nPARTNER CLUBS:\n• 18 holes / full day: 250 NOK\n\nPayment via Vipps #106369",
+      "notes_en": "Green fee is valid per 24 hours. 27 different tee positions for variety. Scenic surroundings in Troms. Midnight sun golf possible in summer."
     }
   },
   "membershipPricing": {
@@ -173,43 +182,50 @@
         "category": "Voksen (fullt medlemskap)",
         "price": 5200,
         "description": "Fullt medlemskap med spillerett",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "description_en": "Full membership with playing rights"
       },
       {
         "category": "Barn (opptil 14 år)",
         "price": 500,
         "description": "Fullt medlemskap med spillerett",
-        "ageRange": "0-14"
+        "ageRange": "0-14",
+        "description_en": "Full membership with playing rights"
       },
       {
         "category": "Ungdom (15-19 år)",
         "price": 1000,
         "description": "Fullt medlemskap med spillerett",
-        "ageRange": "15-19"
+        "ageRange": "15-19",
+        "description_en": "Full membership with playing rights"
       },
       {
         "category": "Student/førstegangstjeneste",
         "price": 1500,
         "description": "Fullt medlemskap med spillerett",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Full membership with playing rights"
       },
       {
         "category": "Familie",
         "price": 10000,
         "description": "To fullt betalende voksne gir fritt spill for hjemmeboende barn med samme adresse",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Two fully paying adults give free play for children living at the same address"
       },
       {
         "category": "Fjernmedlemskap uten spillerett",
         "price": 800,
         "description": "Greenfee 200 kr (9 hull) / 350 kr (18 hull) kommer i tillegg",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Green fee 200 NOK (9 holes) / 350 NOK (18 holes) in addition"
       },
       {
         "category": "Medlemskap uten spillerett",
         "price": 1000,
         "description": "Greenfee 200 kr (9 hull) / 350 kr (18 hull) kommer i tillegg",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Green fee 200 NOK (9 holes) / 350 NOK (18 holes) in addition"
       }
     ]
   },
@@ -287,5 +303,8 @@
     "createdAt": "2025-10-31T05:13:01.736Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ2TpbJgV93EURXCrqxTWoevA"
+  "googlePlaceId": "ChIJ2TpbJgV93EURXCrqxTWoevA",
+  "slug_en": "harstad-golf-club",
+  "name_en": "Harstad Golf Club",
+  "description_en": "Harstad Golf Club - a 9-hole parkland/woodland course founded in 1986, 7 km from Harstad town centre.\n\nPar 68 for 18 holes (played twice). Course length: 4,026m for 18 holes.\n\nThe course is set in scenic surroundings with woodland and parkland. A varied course suitable for both beginners and experienced players.\n\nPlay golf under the midnight sun from May to July - a unique experience in Northern Norway!\n\nFacilities include a driving range, putting green, clubhouse with changing rooms and a pro shop. A green fee machine with Vipps makes it easy to pay around the clock."
 }

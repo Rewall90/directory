@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Karmøy Golfklubb er en 9-hulls parkbane i sommerbyen Skudeneshavn, grunnlagt 1989. Par 34 (9 hull), par 68 (18 hull spilt to ganger). Parklandskap med naturskjønne omgivelser. Del av Sveio Golfpark-systemet (54 hull totalt) med Haugaland GK (18 hull, Sveio), Nordvegen GK (18 hull, Torvastad), Karmøy GK (9 hull, Skudeneshavn) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle fire baner - unik verdi! Driving range 180m med 10 overdekte slagmatter, putting green, practice bunker, klubbhus, pro shop. Trackman simulator. Turneringer og golftreninger tilgjengelig."
+    "viewDescription": "Karmøy Golfklubb er en 9-hulls parkbane i sommerbyen Skudeneshavn, grunnlagt 1989. Par 34 (9 hull), par 68 (18 hull spilt to ganger). Parklandskap med naturskjønne omgivelser. Del av Sveio Golfpark-systemet (54 hull totalt) med Haugaland GK (18 hull, Sveio), Nordvegen GK (18 hull, Torvastad), Karmøy GK (9 hull, Skudeneshavn) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle fire baner - unik verdi! Driving range 180m med 10 overdekte slagmatter, putting green, practice bunker, klubbhus, pro shop. Trackman simulator. Turneringer og golftreninger tilgjengelig.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Scenic course in Skudeneshavn",
+    "scenicHole_en": "Scenic course in Skudeneshavn",
+    "viewDescription_en": "Karmoy Golf Club is a 9-hole parkland course in Skudeneshavn, Karmoy municipality. Founded in 1989. Par 34 for 9 holes, par 68 when played twice. Parkland course in scenic surroundings in the summer town of Skudeneshavn. Part of the Sveio Golf Park system (54 holes in total) together with Haugaland GC (18 holes, Sveio), Nordvegen GC (18 holes, Torvastad) and Sveio (9 holes). One membership gives free play at all four courses."
   },
   "description": "Karmøy Golfklubb er en 9-hulls parkbane i Skudeneshavn, Karmøy kommune. Grunnlagt i 1989. Par 34 for 9 hull, par 68 når spilt to ganger. Parklandskap med naturskjønne omgivelser i sommerbyen Skudeneshavn. Del av Sveio Golfpark-systemet (54 hull totalt) sammen med Haugaland GK (18 hull, Sveio), Nordvegen GK (18 hull, Torvastad) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle fire baner.",
   "contact": {
@@ -130,7 +135,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Del av 54-hulls Sveio Golfpark-system med Haugaland GK (18 hull), Nordvegen GK (18 hull), Karmøy GK (9 hull) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle 54 hull. Medlemmer av Haugaland og Nordvegen spiller gratis på Karmøy."
+      "notes": "Del av 54-hulls Sveio Golfpark-system med Haugaland GK (18 hull), Nordvegen GK (18 hull), Karmøy GK (9 hull) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle 54 hull. Medlemmer av Haugaland og Nordvegen spiller gratis på Karmøy.",
+      "greenFeeDescription_en": "Green fee (day pass): 350 kr all days. Junior (<18 years): 200 kr. Must be prepaid BEFORE play. Players must be registered in GolfBox BEFORE starting. Non-members who have not paid green fee will be charged 500 kr + green fee.",
+      "notes_en": "Part of the 54-hole Sveio Golf Park system with Haugaland GC (18 holes), Nordvegen GC (18 holes), Karmoy GC (9 holes) and Sveio (9 holes). One membership gives free play at all 54 holes. Members of Haugaland and Nordvegen play free at Karmoy."
     },
     "2026": {
       "currency": "NOK",
@@ -150,7 +157,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Del av Sveio Golfpark-systemet (54 hull totalt) med Haugaland GK (18 hull, Sveio), Nordvegen GK (18 hull, Torvastad), Karmøy GK (9 hull, Skudeneshavn) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle fire baner. Klubbutleie ikke tilgjengelig - ta med eget utstyr. Driving range ca 180 meter lengde med 10 overdekte slagmatter. Trackman simulator tilgjengelig."
+      "notes": "Del av Sveio Golfpark-systemet (54 hull totalt) med Haugaland GK (18 hull, Sveio), Nordvegen GK (18 hull, Torvastad), Karmøy GK (9 hull, Skudeneshavn) og Sveio (9 hull). Ett medlemskap gir fritt spill på alle fire baner. Klubbutleie ikke tilgjengelig - ta med eget utstyr. Driving range ca 180 meter lengde med 10 overdekte slagmatter. Trackman simulator tilgjengelig.",
+      "greenFeeDescription_en": "Green fee (day pass): 350 kr all days. Junior (<18 years): 200 kr. Must be prepaid BEFORE play via Vipps (919427). Players must be registered in GolfBox BEFORE starting. Pay-to-play not available for players without GolfBox. Non-members who have not paid green fee will be charged 500 kr + green fee. Norwegian Senior Golf members: Free play (show ID and proof of paid annual fee). Members of Haugaland GC and Nordvegen GC play free.",
+      "notes_en": "Part of the Sveio Golf Park system (54 holes total) with Haugaland GC (18 holes, Sveio), Nordvegen GC (18 holes, Torvastad), Karmoy GC (9 holes, Skudeneshavn) and Sveio (9 holes). One membership gives free play at all four courses. Club hire not available - bring your own equipment. Driving range approx. 180 metres long with 10 covered hitting mats. TrackMan simulator available."
     }
   },
   "membershipPricing": {
@@ -159,49 +168,65 @@
         "category": "remote",
         "price": 990,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance member 990 kr/year. Free play at Karmoy, Nordvegen and Haugaland. Share 6,000 kr (can be paid in instalments)."
       },
       {
         "category": "adult",
         "price": 6840,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Full member 6,840 kr/year (570 kr/month), spouse 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 6-12 years 500 kr/year, children up to 6 years 100 kr/year. Distance member 990 kr/year. Free play at Karmoy, Nordvegen and Haugaland."
       },
       {
         "category": "spouse",
         "price": 5640,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Full member 6,840 kr/year (570 kr/month), spouse 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 6-12 years 500 kr/year, children up to 6 years 100 kr/year. Distance member 990 kr/year. Free play at Karmoy, Nordvegen and Haugaland."
       },
       {
         "category": "student",
         "price": 3540,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Full member 6,840 kr/year (570 kr/month), spouse 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 6-12 years 500 kr/year, children up to 6 years 100 kr/year. Distance member 990 kr/year. Free play at Karmoy, Nordvegen and Haugaland."
       },
       {
         "category": "youth20_23",
         "price": 3540,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "youth20_23",
+        "description_en": "Full member 6,840 kr/year (570 kr/month), spouse 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 6-12 years 500 kr/year, children up to 6 years 100 kr/year. Distance member 990 kr/year. Free play at Karmoy, Nordvegen and Haugaland."
       },
       {
         "category": "junior13_19",
         "price": 1500,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Junior 13-19",
+        "description_en": "Full member 6,840 kr/year (570 kr/month), spouse 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 6-12 years 500 kr/year, children up to 6 years 100 kr/year. Distance member 990 kr/year. Free play at Karmoy, Nordvegen and Haugaland."
       },
       {
         "category": "child6_12",
         "price": 500,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "child6_12",
+        "description_en": "Full member 6,840 kr/year (570 kr/month), spouse 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 6-12 years 500 kr/year, children up to 6 years 100 kr/year. Distance member 990 kr/year. Free play at Karmoy, Nordvegen and Haugaland."
       },
       {
         "category": "childUnder6",
         "price": 100,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd), ektefelle 5640 kr/år (470 kr/mnd), student/militær 3540 kr/år (295 kr/mnd), ungdom 20-23 år 3540 kr/år (295 kr/mnd), junior 13-19 år 1500 kr/år, barn 6-12 år 500 kr/år, barn t.o.m 6 år 100 kr/år. Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Child Under 6",
+        "description_en": "Full member 6,840 kr/year (570 kr/month), spouse 5,640 kr/year (470 kr/month), student/military 3,540 kr/year (295 kr/month), youth 20-23 years 3,540 kr/year (295 kr/month), junior 13-19 years 1,500 kr/year, children 6-12 years 500 kr/year, children up to 6 years 100 kr/year. Distance member 990 kr/year. Free play at Karmoy, Nordvegen and Haugaland."
       }
     ],
     "2026": [
@@ -209,55 +234,73 @@
         "category": "remote",
         "price": 990,
         "description": "Fjernmedlem 990 kr/år. Fritt spill på Karmøy, Nordvegen og Haugaland. Andel 6000 kr (kan deles opp i avdragsplan).",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Full member 6,840 kr/year (570 kr/month via direct debit). Free play at all three courses: Haugaland, Nordvegen and Karmoy. Includes NGF subscription 362 kr and subscription to Norsk Golf magazine. No joining fee."
       },
       {
         "category": "adult",
         "price": 6840,
         "description": "Hovedmedlem 6840 kr/år (570 kr/mnd via avtalegiro). Fritt spill på alle tre baner: Haugaland, Nordvegen og Karmøy. Inkluderer NGF-kontingent 362 kr og abonnement på magasinet Norsk Golf. Ingen inngangspenger.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Spouse/partner 5,640 kr/year (470 kr/month via direct debit). Free play at all three courses. Direct debit commitment period: 12 months (January-January). Cancellation must be in writing by 31 December."
       },
       {
         "category": "spouse",
         "price": 5640,
         "description": "Ektefelle/samboer 5640 kr/år (470 kr/mnd via avtalegiro). Fritt spill på alle tre baner. Avtalegiro bindingstid: 12 måneder (januar-januar). Oppsigelse må skje skriftlig innen 31. desember.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse/Partner",
+        "description_en": "Student/military 3,540 kr/year (295 kr/month via direct debit). Free play at all three courses."
       },
       {
         "category": "student",
         "price": 3540,
         "description": "Student/militær 3540 kr/år (295 kr/mnd via avtalegiro). Fritt spill på alle tre baner.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "Youth 20-23 years: 3,540 kr/year (295 kr/month via direct debit). Free play at all three courses."
       },
       {
         "category": "youth20_23",
         "price": 3540,
         "description": "Ungdom 20-23 år: 3540 kr/år (295 kr/mnd via avtalegiro). Fritt spill på alle tre baner.",
-        "ageRange": "20-23"
+        "ageRange": "20-23",
+        "name_en": "youth20_23",
+        "description_en": "Junior 13-19 years: 1,500 kr/year. Free play at all three courses."
       },
       {
         "category": "junior13_19",
         "price": 1500,
         "description": "Junior 13-19 år: 1500 kr/år. Fritt spill på alle tre baner.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19",
+        "description_en": "Children 6-12 years: 500 kr/year. Free play at all three courses."
       },
       {
         "category": "child6_12",
         "price": 500,
         "description": "Barn 6-12 år: 500 kr/år. Fritt spill på alle tre baner.",
-        "ageRange": "6-12"
+        "ageRange": "6-12",
+        "name_en": "child6_12",
+        "description_en": "Children up to 6 years: 100 kr/year. Free play at all three courses."
       },
       {
         "category": "childUnder6",
         "price": 100,
         "description": "Barn t.o.m 6 år: 100 kr/år. Fritt spill på alle tre baner.",
-        "ageRange": "0-6"
+        "ageRange": "0-6",
+        "name_en": "Child Under 6",
+        "description_en": "Share: 6,000 kr (can be paid in instalments). Shareholders get 25% discount on green fees for visiting players when playing together at Haugaland GC."
       },
       {
         "category": "share",
         "price": 6000,
         "description": "Andel: 6000 kr (kan deles opp i avdragsplan). Andelseiere får 25% rabatt på greenfee for gjestespillere når de spiller sammen på Haugaland GK.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "share",
+        "description_en": "Share: 6,000 kr (can be paid in instalments). Shareholders get 25% discount on green fees for visiting players when playing together at Haugaland GC."
       }
     ]
   },
@@ -312,5 +355,8 @@
     "createdAt": "2025-10-31T07:46:24.417Z",
     "updatedAt": "2026-02-16T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJn7aVVkOoO0YRMwSsQYbuwWs"
+  "googlePlaceId": "ChIJn7aVVkOoO0YRMwSsQYbuwWs",
+  "slug_en": "karmoy-golf-club",
+  "name_en": "Karmøy Golf Club",
+  "description_en": "Karmoy Golf Club is a 9-hole parkland course in Skudeneshavn, Karmoy municipality. Founded in 1989. Par 34 for 9 holes, par 68 when played twice. Parkland course in scenic surroundings in the summer town of Skudeneshavn. Part of the Sveio Golf Park system (54 holes in total) together with Haugaland GC (18 holes, Sveio), Nordvegen GC (18 holes, Torvastad) and Sveio (9 holes). One membership gives free play at all four courses."
 }

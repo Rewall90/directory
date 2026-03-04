@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Bergen Golfklubb - 9-hulls parklandbane grunnlagt 1937 i Øvre Ervik. Par 68 (18 hull), 4173m, CR 66.0, Slope 118. Nær Bergen sentrum (10 min taxi/30 min buss). Treningsområde med nett, putting green, chipping area, practice bunker. Golf simulator. Klubbhus med garderober, restaurant/bar, pro shop. Handicap-grense 54. Vinterbane oktober-april."
+    "viewDescription": "Bergen Golfklubb - 9-hulls parklandbane grunnlagt 1937 i Øvre Ervik. Par 68 (18 hull), 4173m, CR 66.0, Slope 118. Nær Bergen sentrum (10 min taxi/30 min buss). Treningsområde med nett, putting green, chipping area, practice bunker. Golf simulator. Klubbhus med garderober, restaurant/bar, pro shop. Handicap-grense 54. Vinterbane oktober-april.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "signatureHole_en": "Close to Bergen city centre with excellent accessibility",
+    "scenicHole_en": "Close to Bergen city centre with excellent accessibility",
+    "viewDescription_en": "Bergen Golf Club - 9-hole parkland course established in 1937 in Ovre Ervik. Par 68 (18 holes), 4,173m, CR 66.0, Slope 118. Close to Bergen city centre (10 min taxi/30 min bus). Practice area with nets, putting green, chipping area, practice bunker. Golf simulator. Clubhouse with changing rooms, restaurant/bar, pro shop. Handicap limit 54. Winter course October-April."
   },
   "description": "Bergen Golfklubb - 9-hulls parklandbane grunnlagt 1937 i Øvre Ervik, Bergen. Par 68 (spilt 2 ganger), 4563 yards (ca 4173m), CR 66.0, Slope 118. Nær Bergen sentrum - 10 minutter med taxi eller 30 minutter med buss. En av Norges eldste golfklubber.",
   "contact": {
@@ -63,7 +68,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Vinterbane med vintergreener oktober-april, gratis for medlemmer"
+    "winterUse": "Vinterbane med vintergreener oktober-april, gratis for medlemmer",
+    "winterUse_en": "Winter course with winter greens October-April, free for members"
   },
   "visitors": {
     "welcome": true,
@@ -131,7 +137,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlemskap inkluderer lokal spillerett (Bergen GK) og nasjonal spillerett (greenfee på andre klubber). Alle medlemmer kan booke tee-tider 7 dager i forveien, gjester 3 dager i forveien. Gratis vinterbane (vintergreener okt-april), og tilgang til golf simulator."
+      "notes": "Medlemskap inkluderer lokal spillerett (Bergen GK) og nasjonal spillerett (greenfee på andre klubber). Alle medlemmer kan booke tee-tider 7 dager i forveien, gjester 3 dager i forveien. Gratis vinterbane (vintergreener okt-april), og tilgang til golf simulator.",
+      "greenFeeDescription_en": "Green fee 2025: Weekdays from 12:00, weekends/bank holidays: 9 holes 405 NOK, 18 holes 675 NOK. Weekdays up to 11:50: 9 holes 345 NOK, 18 holes 575 NOK. Juniors receive 50% discount. Prepayment required when booking via GolfBox.",
+      "notes_en": "Membership includes local playing rights (Bergen GK) and national playing rights (green fee at other clubs). All members can book tee times 7 days in advance, guests 3 days in advance. Free winter course (winter greens Oct-April) and access to golf simulator."
     }
   },
   "membershipPricing": {
@@ -201,5 +209,8 @@
     "createdAt": "2025-10-31T10:16:52.396Z",
     "updatedAt": "2026-02-14T16:15:00.000Z"
   },
-  "googlePlaceId": "ChIJU1a-WMP9PEYRfn77QQ7Jlyw"
+  "googlePlaceId": "ChIJU1a-WMP9PEYRfn77QQ7Jlyw",
+  "slug_en": "bergen-golf-club",
+  "name_en": "Bergen Golf Club",
+  "description_en": "Bergen Golf Club - 9-hole parkland course established in 1937 in Ovre Ervik, Bergen. Par 68 (played twice), 4,563 yards (approx. 4,173m), CR 66.0, Slope 118. Close to Bergen city centre - 10 minutes by taxi or 30 minutes by bus. One of Norway's oldest golf clubs."
 }

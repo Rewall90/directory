@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Idyllisk 6-hulls kortbane i naturskjønne omgivelser helt sør i Rogaland, etablert 2000. Designet av arkitekt Svein D. Olsnes. Beliggende ved Kjelland, nær Sogndalstrand i Sokndal kommune. Par 20 (alle 6 hull par 3), lengde 1152m. CR 20.1, Slope 116. Kort men utfordrende bane som passer både nybegynnere og erfarne spillere. Slope-vurdert og godkjent av Norges Golfforbund. Fantastiske omgivelser med relativt lavpriset spill. Driving range, putting green, teaching pro, restaurant. Perfekt for kort spill-trening og raske runder i vakkert naturmiljø."
+    "viewDescription": "Idyllisk 6-hulls kortbane i naturskjønne omgivelser helt sør i Rogaland, etablert 2000. Designet av arkitekt Svein D. Olsnes. Beliggende ved Kjelland, nær Sogndalstrand i Sokndal kommune. Par 20 (alle 6 hull par 3), lengde 1152m. CR 20.1, Slope 116. Kort men utfordrende bane som passer både nybegynnere og erfarne spillere. Slope-vurdert og godkjent av Norges Golfforbund. Fantastiske omgivelser med relativt lavpriset spill. Driving range, putting green, teaching pro, restaurant. Perfekt for kort spill-trening og raske runder i vakkert naturmiljø.",
+    "terrain_en": "Scenic surroundings",
+    "courseType_en": "6-hole short course",
+    "designer_en": "Svein D. Olsnes",
+    "signatureHole_en": "Scenic surroundings at Kjelland",
+    "scenicHole_en": "Scenic surroundings at Kjelland",
+    "viewDescription_en": "Dalane Golf Club is an idyllic 6-hole short course in scenic surroundings in the far south of Rogaland, established in 2000. Designed by architect Svein D. Olsnes. The course is situated at Kjelland, near Sogndalstrand in Sokndal municipality. Par 20, length 1,152 metres from the yellow tees. All 6 holes are par 3. Short but challenging course suitable for both beginners and experienced players. Slope-rated and approved by the Norwegian Golf Federation. Wonderful surroundings with relatively affordable play. Perfect for short game practice and quick rounds."
   },
   "description": "Dalane Golfklubb er en idyllisk 6-hulls kortbane i naturskjønne omgivelser helt sør i Rogaland, etablert 2000. Designet av arkitekt Svein D. Olsnes. Banen ligger ved Kjelland, nær Sogndalstrand i Sokndal kommune. Par 20, lengde 1152 meter fra gule tees. Alle 6 hullene er par 3. Kort men utfordrende bane som passer både nybegynnere og erfarne spillere. Slope-vurdert og godkjent av Norges Golfforbund. Fantastiske omgivelser med relativt lavpriset spill. Perfekt for kort spill-trening og raske runder.",
   "contact": {
@@ -64,7 +70,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Banen stenges om vinteren"
+    "winterUse": "Banen stenges om vinteren",
+    "winterUse_en": "The course closes in winter"
   },
   "visitors": {
     "welcome": true,
@@ -129,7 +136,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee for 6-hole short course. Relatively affordable play. Contact the club for exact 2025 prices."
     }
   },
   "membershipPricing": {},
@@ -215,5 +223,8 @@
     "createdAt": "2025-10-31T07:46:20.974Z",
     "updatedAt": "2026-02-14T15:54:00.000Z"
   },
-  "googlePlaceId": "ChIJjX_vonX7OUYRqiayQNkfKEo"
+  "googlePlaceId": "ChIJjX_vonX7OUYRqiayQNkfKEo",
+  "slug_en": "dalane-golf-club",
+  "name_en": "Dalane Golf Club",
+  "description_en": "Dalane Golf Club is an idyllic 6-hole short course in scenic surroundings in the far south of Rogaland, established in 2000. Designed by architect Svein D. Olsnes. The course is situated at Kjelland, near Sogndalstrand in Sokndal municipality. Par 20, length 1,152 metres from the yellow tees. All 6 holes are par 3. Short but challenging course suitable for both beginners and experienced players. Slope-rated and approved by the Norwegian Golf Federation. Wonderful surroundings with relatively affordable play. Perfect for short game practice and quick rounds."
 }

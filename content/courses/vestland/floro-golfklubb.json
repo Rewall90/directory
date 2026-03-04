@@ -36,7 +36,12 @@
     "par4Count": 2,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Florø Golfklubb - 6-hulls kort bane på Brandsøy ved Florø. Par 22, 1014m. Godkjent og slopet av NGF. Omgitt av fantastisk fjord- og kystlandskap. Driving range, putting green med sandbunker, chipping-område, ballmaskin, golf simulator. Avslappet atmosfære, familievennlig, ingen streng klesskode. Dugnadsdrevet klubb. Søndagsturneringer. Bedriftsarrangementer tilgjengelig."
+    "viewDescription": "Florø Golfklubb - 6-hulls kort bane på Brandsøy ved Florø. Par 22, 1014m. Godkjent og slopet av NGF. Omgitt av fantastisk fjord- og kystlandskap. Driving range, putting green med sandbunker, chipping-område, ballmaskin, golf simulator. Avslappet atmosfære, familievennlig, ingen streng klesskode. Dugnadsdrevet klubb. Søndagsturneringer. Bedriftsarrangementer tilgjengelig.",
+    "terrain_en": "Coastal",
+    "courseType_en": "6-hole short course",
+    "signatureHole_en": "Hole 4 (364 yards, par 5) - the most difficult hole on the course",
+    "scenicHole_en": "Stunning fjord and coastal scenery",
+    "viewDescription_en": "Floro Golf Club - 6-hole short course on Brandsoy near Floro. Par 22, 1,014m. Approved and slope-rated by the NGF. Surrounded by stunning fjord and coastal scenery. Driving range, putting green with sand bunker, chipping area, ball machine, golf simulator. Relaxed atmosphere, family-friendly, no strict dress code. Volunteer-run club. Sunday tournaments. Corporate events available."
   },
   "description": "Florø Golfklubb - 6-hulls kort bane på Brandsøy noen minutter kjøretur fra Florø sentrum. Par 22, 1109 yards (ca 1014m). Godkjent og slopet av Norges Golfforbund. Omgitt av fantastisk fjordlandskap og frodige kystlandskaper. Hull 4 (364y par 5) er banens vanskeligste hull. Avslappet atmosfære, vennlig for familier.",
   "contact": {
@@ -58,7 +63,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Golf simulator tilgjengelig"
+    "winterUse": "Golf simulator tilgjengelig",
+    "winterUse_en": "Golf simulator available"
   },
   "visitors": {
     "welcome": true,
@@ -125,7 +131,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer. Golfsimulator tilgjengelig."
+      "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer. Golfsimulator tilgjengelig.",
+      "greenFeeDescription_en": "Green fee 2025: 300 NOK for guests from other clubs. Distance members and Sunnfjord GK members: 150 NOK. Annual IT fee 100 NOK.",
+      "notes_en": "Relaxed atmosphere, no strict dress code. Wonderful recreational area for the whole family. Suitable for all skill levels. Golf simulator available."
     },
     "2026": {
       "currency": "NOK",
@@ -143,7 +151,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer. Golfsimulator tilgjengelig."
+      "notes": "Avslappet atmosfære, ingen streng klesskode. Fantastisk rekreasjonsområde for hele familien. Egnet for alle ferdighetsnivåer. Golfsimulator tilgjengelig.",
+      "greenFeeDescription_en": "Green fee 2026: 300 NOK for guests from other clubs. Distance members and Sunnfjord GK members: 150 NOK. Annual IT fee 100 NOK.",
+      "notes_en": "Relaxed atmosphere, no strict dress code. Wonderful recreational area for the whole family. Suitable for all skill levels. Golf simulator available."
     }
   },
   "membershipPricing": {
@@ -244,5 +254,8 @@
     "createdAt": "2025-10-31T10:16:54.615Z",
     "updatedAt": "2026-02-15T00:00:00.000Z"
   },
-  "googlePlaceId": "ChIJJ3fs202VF0YR3lPnXCA1ezU"
+  "googlePlaceId": "ChIJJ3fs202VF0YR3lPnXCA1ezU",
+  "slug_en": "floro-golf-club",
+  "name_en": "Floro Golf Club",
+  "description_en": "Floro Golf Club - 6-hole short course on Brandsoy, a few minutes' drive from Floro town centre. Par 22, 1,109 yards (approx. 1,014m). Approved and slope-rated by the Norwegian Golf Federation. Surrounded by stunning fjord scenery and lush coastal landscapes. Hole 4 (364 yards, par 5) is the most difficult hole on the course. Relaxed atmosphere, family-friendly."
 }

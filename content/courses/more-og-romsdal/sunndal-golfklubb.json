@@ -1,6 +1,8 @@
 {
   "slug": "sunndal-golfklubb",
+  "slug_en": "sunndal-golf-club",
   "name": "Sunndal Golfklubb",
+  "name_en": "Sunndal Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Sunndalsøra",
@@ -36,9 +38,15 @@
     "par4Count": 2,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Majestetisk beliggenhet omgitt av fjell og naturskjønne omgivelser rundt idylliske Pollen"
+    "viewDescription": "Majestetisk beliggenhet omgitt av fjell og naturskjønne omgivelser rundt idylliske Pollen",
+    "terrain_en": "Parkland course",
+    "courseType_en": "Short 6-hole course (played 3 rounds for 18 holes)",
+    "signatureHole_en": "Holes 4 and 6 (challenging par 4 holes)",
+    "scenicHole_en": "Idyllic location at Pollen with views towards the mountains",
+    "viewDescription_en": "Majestic location surrounded by mountains and scenic surroundings around the idyllic Pollen"
   },
   "description": "Banen ligger rundt idylliske Pollen, et par kilometer vest for Sunndalsøra sentrum, på Trædal gård like under Trædal Hotell og Turistsenter. Den består av 6 hull med par 20, og tre runder gir 18 hull med par 60. To av hullene, hull 4 og 6, er krevende par 4-hull, noe som gir relativt høy slope når de kommer igjen tre ganger. Banen ble påbegynt i 1999 med dugnad av medlemmer, og fra 2003 ble hullene omorganisert. Majestetisk beliggenhet omgitt av fjell og naturskjønn natur.",
+  "description_en": "The course is situated around the idyllic Pollen, a couple of kilometres west of Sunndalsora town centre, on Traedal farm just below Traedal Hotel and Tourist Centre. It consists of 6 holes with par 20, and three rounds give 18 holes with par 60. Two of the holes, holes 4 and 6, are challenging par 4 holes, which gives a relatively high slope when they recur three times. The course was started in 1999 through volunteer work by members, and from 2003 the holes were reorganised. Majestic location surrounded by mountains and scenic nature.",
   "contact": {
     "phone": "+47 957 26 500",
     "email": "post@sunndal-golfklubb.no",
@@ -68,7 +76,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Sesongbasert. Litjdalsvinden pleier å dra med seg plussgrader, mye vind og rask tining, noe som gir tidlig sesongstart."
+    "winterUse": "Sesongbasert. Litjdalsvinden pleier å dra med seg plussgrader, mye vind og rask tining, noe som gir tidlig sesongstart.",
+    "winterUse_en": "Seasonal. The Litjdal wind typically brings mild temperatures, strong winds and rapid thawing, allowing an early season start."
   },
   "visitors": {
     "welcome": true,
@@ -133,7 +142,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling til konto 4035 16 23936 (ikke Vipps)"
+      "notes": "Betaling til konto 4035 16 23936 (ikke Vipps)",
+      "greenFeeDescription_en": "Green fee senior: 200 NOK. Green fee junior: 50 NOK. Paid in addition to membership unless holding playing rights.",
+      "notes_en": "Payment to account 4035 16 23936 (not Vipps)"
     },
     "2026": {
       "currency": "NOK",
@@ -152,7 +163,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser videreført fra 2025 (nettsiden viser kun 2025-priser per feb 2026). Betaling til konto 4035 16 23936 (ikke Vipps). Et av Norges rimeligste medlemskap."
+      "notes": "Priser videreført fra 2025 (nettsiden viser kun 2025-priser per feb 2026). Betaling til konto 4035 16 23936 (ikke Vipps). Et av Norges rimeligste medlemskap.",
+      "greenFeeDescription_en": "Green fee senior: 200 NOK. Green fee junior: 50 NOK. Paid in addition to membership unless holding playing rights.",
+      "notes_en": "Prices carried forward from 2025 (website shows only 2025 prices as of Feb 2026). Payment to account 4035 16 23936 (not Vipps). One of Norway's most affordable memberships."
     }
   },
   "membershipPricing": {
@@ -179,7 +192,18 @@
       "otherClubJunior": 1330,
       "otherClubJuniorDescription": "Medlem av andre klubber - junior/student, spillerettighet (ingen greenfee)",
       "membershipStatus": "open",
-      "notes": "Utmelding må skje innen 31. desember. Junior: fra 13 til 19 år."
+      "notes": "Utmelding må skje innen 31. desember. Junior: fra 13 til 19 år.",
+      "fullMembershipDescription_en": "Local membership senior (20 years+), green fee 200 NOK",
+      "juniorMembershipDescription_en": "Local membership junior (<20 years), green fee 50 NOK",
+      "localPlayingRightsSeniorDescription_en": "Local member senior with playing rights (no green fee)",
+      "localPlayingRightsJuniorDescription_en": "Local member junior with playing rights (no green fee)",
+      "distanceMembershipDescription_en": "Distance member senior (20 years+), green fee 200 NOK",
+      "distanceJuniorMembershipDescription_en": "Distance member junior (<20 years), green fee 50 NOK, without Norsk Golf",
+      "distancePlayingRightsSeniorDescription_en": "Distance member senior with playing rights (no green fee)",
+      "distancePlayingRightsJuniorDescription_en": "Distance member junior with playing rights (no green fee)",
+      "otherClubSeniorDescription_en": "Member of other clubs - senior, playing rights (no green fee)",
+      "otherClubJuniorDescription_en": "Member of other clubs - junior/student, playing rights (no green fee)",
+      "notes_en": "Cancellation must be submitted by 31 December. Junior: from 13 to 19 years."
     }
   },
   "ratings": {

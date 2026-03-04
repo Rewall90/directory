@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Naturskjønn bane i variert terreng med skog, fjell og vann. Gapahuk ved Stordammen gir flott mulighet til pause med utsikt over vannet. Bare kort kjøretur fra Oslo og Drammen."
+    "viewDescription": "Naturskjønn bane i variert terreng med skog, fjell og vann. Gapahuk ved Stordammen gir flott mulighet til pause med utsikt over vannet. Bare kort kjøretur fra Oslo og Drammen.",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "18-hole woodland course + 9-hole pay and play short course",
+    "signatureHole_en": "Varied and scenic golf course in woodland terrain with rock and water. Shelter at Stordammen on hole 10.",
+    "scenicHole_en": "Varied and scenic golf course in woodland terrain with rock and water. Shelter at Stordammen on hole 10.",
+    "viewDescription_en": "Scenic course in varied terrain with woodland, rock and water. A shelter at Stordammen provides a splendid opportunity for a break with views over the water. Just a short drive from Oslo and Drammen."
   },
   "description": "Kjekstad Golfklubb ble stiftet i 1976 og ligger vakkert til i variert terreng med skog, fjell og vann, bare en kort kjøretur fra Oslo og Drammen. Klubben har en 18-hulls skogsbane og en 9-hulls Pay & Play korthullsbane, ideell for både nybegynnere og erfarne spillere. Naturskjønn bane i variert terreng. Full 18-hulls bane åpnet i 1988. Klubben har rundt 2000 medlemmer.",
   "contact": {
@@ -58,7 +63,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Simulator-senter åpent hele året"
+    "winterUse": "Simulator-senter åpent hele året",
+    "winterUse_en": "Simulator centre open year-round"
   },
   "visitors": {
     "welcome": true,
@@ -124,7 +130,9 @@
       "cartRental": null,
       "clubRental": null,
       "pullCartRental": null,
-      "notes": "Greenfeemedlemskap gir 50% rabatt på 18-hullsbanen. VIPPS til 515032 utenom åpningstid. 13 golfbiler for utleie (pris ikke oppgitt på nett, bestilles via Golfbox eller tlf). Gapahuk ved Stordammen på hull 10."
+      "notes": "Greenfeemedlemskap gir 50% rabatt på 18-hullsbanen. VIPPS til 515032 utenom åpningstid. 13 golfbiler for utleie (pris ikke oppgitt på nett, bestilles via Golfbox eller tlf). Gapahuk ved Stordammen på hull 10.",
+      "greenFeeDescription_en": "18 holes: weekday 600 kr, weekend 650 kr. 9 holes: 250 kr (all days). 18 holes on the 9-hole course: 400 kr. Junior: 50% of green fee. Members can bring up to 3 guests with 100 kr discount (18 holes) or 50 kr discount (9 holes).",
+      "notes_en": "Green fee membership gives 50% discount on the 18-hole course. Vipps to 515032 outside opening hours. 13 buggies available for hire (price not listed online, book via GolfBox or phone). Shelter at Stordammen on hole 10."
     }
   },
   "membershipPricing": {
@@ -189,5 +197,8 @@
     "createdAt": "2025-10-31T05:54:18.519Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJqTlgMfM-QUYRP0-q3mPeSp4"
+  "googlePlaceId": "ChIJqTlgMfM-QUYRP0-q3mPeSp4",
+  "slug_en": "kjekstad-golf-club",
+  "name_en": "Kjekstad Golf Club",
+  "description_en": "Kjekstad Golf Club was founded in 1976 and is beautifully situated in varied terrain with woodland, rock and water, just a short drive from Oslo and Drammen. The club has an 18-hole woodland course and a 9-hole pay and play short course, ideal for both beginners and experienced players. Scenic course in varied terrain. The full 18-hole course opened in 1988. The club has approximately 2,000 members."
 }

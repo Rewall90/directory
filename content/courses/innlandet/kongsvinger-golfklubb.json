@@ -36,7 +36,8 @@
     "par4Count": 9,
     "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "courseType_en": "18-hole championship course"
   },
   "description": "Vårt 18-hulls anlegg, gir muligheter for en unik golfopplevelse for alle, uansett ambisjoner og nivå. 18-hole championship course med varierte tee-systemer.",
   "contact": {
@@ -63,7 +64,8 @@
   "season": {
     "start": null,
     "end": "20. oktober 2025",
-    "winterUse": "Indoor golf available from November 2025 at Golfern"
+    "winterUse": "Indoor golf available from November 2025 at Golfern",
+    "winterUse_en": "Indoor golf available from November 2025 at Golfern"
   },
   "visitors": {
     "welcome": true,
@@ -128,7 +130,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Accommodation partners with golf packages: Nordfjeld Gjestegård (16 km, 100 kr rabatt greenfee), Finnskogstua (40 km), Festningen Hotell & Resort, Kongsvinger Budget Hotel (100 kr rabatt greenfee, 10% rabatt med kode GOLF25), Sigernessj0en Familiecamping (gjensidig rabattavtale), Vinger Hotell (golfpakke med/uten middag)"
+      "notes": "Accommodation partners with golf packages: Nordfjeld Gjestegård (16 km, 100 kr rabatt greenfee), Finnskogstua (40 km), Festningen Hotell & Resort, Kongsvinger Budget Hotel (100 kr rabatt greenfee, 10% rabatt med kode GOLF25), Sigernessj0en Familiecamping (gjensidig rabattavtale), Vinger Hotell (golfpakke med/uten middag)",
+      "greenFeeDescription_en": "18 holes: 590 kr Monday-Thursday, 750 kr Friday-Sunday, 800 kr prime time. 9 holes: 300 kr Monday-Thursday, 400 kr Friday-Sunday",
+      "notes_en": "Accommodation partners with golf packages: Nordfjeld Gjestegard (16 km, 100 kr green fee discount), Finnskogstua (40 km), Festningen Hotell & Resort, Kongsvinger Budget Hotel (100 kr green fee discount, 10% discount with code GOLF25), Sigernessj0en Family Camping (reciprocal discount agreement), Vinger Hotell (golf package with/without dinner)"
     },
     "2026": {
       "currency": "NOK",
@@ -154,7 +158,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "12 golfbiler til utleie via EAGL-appen eller Pro shop. Medlemmer får 100 kr rabatt på greenfee. ESAG-gruppe (Ett slag av gangen): 200 kr rabatt på golfbil 18 hull. Legeerklæring: 100 kr rabatt på golfbil 18 hull. Overnattingspartnere: Finnskogstua (golfpakke), Kongsvinger Budget Hotel (100 kr rabatt greenfee), Sigernessjøen Familiecamping (gjensidig rabattavtale)"
+      "notes": "12 golfbiler til utleie via EAGL-appen eller Pro shop. Medlemmer får 100 kr rabatt på greenfee. ESAG-gruppe (Ett slag av gangen): 200 kr rabatt på golfbil 18 hull. Legeerklæring: 100 kr rabatt på golfbil 18 hull. Overnattingspartnere: Finnskogstua (golfpakke), Kongsvinger Budget Hotel (100 kr rabatt greenfee), Sigernessjøen Familiecamping (gjensidig rabattavtale)",
+      "greenFeeDescription_en": "18 holes: 630 kr Monday-Thursday, 790 kr Friday-Sunday, 850 kr prime time (09:00-15:00 Sat-Sun). 9 holes: 350 kr Monday-Thursday, 450 kr Friday-Sunday. Junior: 350 kr (Mon-Thu), 450 kr (Fri-Sun)",
+      "notes_en": "12 buggies available for hire via the EAGL app or pro shop. Members receive 100 kr discount on green fee. ESAG group (One Shot at a Time): 200 kr discount on buggy 18 holes. Medical certificate: 100 kr discount on buggy 18 holes. Accommodation partners: Finnskogstua (golf package), Kongsvinger Budget Hotel (100 kr green fee discount), Sigernessj0en Family Camping (reciprocal discount agreement)"
     }
   },
   "membershipPricing": {},
@@ -199,5 +205,8 @@
     "createdAt": "2025-10-31T07:18:12.730Z",
     "updatedAt": "2026-02-15T15:10:00.000Z"
   },
-  "googlePlaceId": "ChIJM11B4QNMQkYRRF-xgG5nqzE"
+  "googlePlaceId": "ChIJM11B4QNMQkYRRF-xgG5nqzE",
+  "slug_en": "kongsvinger-golf-club",
+  "name_en": "Kongsvinger Golf Club",
+  "description_en": "Our 18-hole facility provides opportunities for a unique golf experience for everyone, regardless of ambitions and skill level. 18-hole championship course with varied tee systems."
 }

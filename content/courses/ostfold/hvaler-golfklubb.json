@@ -1,6 +1,8 @@
 {
   "slug": "hvaler-golfklubb",
+  "slug_en": "hvaler-golf-club",
   "name": "Hvaler Golfklubb",
+  "name_en": "Hvaler Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Skjærhalden",
@@ -36,9 +38,15 @@
     "par4Count": 8,
     "par5Count": 6,
     "mountainViews": false,
-    "viewDescription": "Pittoresk kystbane på øya Kirkeøy i Skjærhalden. Vakker øykommune med skjærgårdslandskap. Norges mest langvarige golfsesong. 6-hulls kortbane tilgjengelig. Restaurant Golfkroa. Parkering for bobiler."
+    "viewDescription": "Pittoresk kystbane på øya Kirkeøy i Skjærhalden. Vakker øykommune med skjærgårdslandskap. Norges mest langvarige golfsesong. 6-hulls kortbane tilgjengelig. Restaurant Golfkroa. Parkering for bobiler.",
+    "terrain_en": "Coastal landscape",
+    "courseType_en": "9-hole dual-tee course",
+    "signatureHole_en": "Coastal landscape on Kirkeoy",
+    "scenicHole_en": "Coastal landscape on Kirkeoy",
+    "viewDescription_en": "Picturesque coastal course on the island of Kirkeoy in Skjaerhalden. Beautiful island municipality with archipelago landscape. Norway's longest-lasting golf season. 6-hole short course available. Restaurant Golfkroa. Motorhome parking available."
   },
   "description": "9-hulls dobbel-tee bane på den pittoreske øya Kirkeøy i Skjærhalden, etablert 2002. Par 34 for 9 hull (68 for 18 hull). Banen spilles to ganger fra forskjellige tees. Slope 134. Norges mest langvarige sesong. I tillegg har anlegget en 6-hulls kortbane (par 18, 360 meter).",
+  "description_en": "9-hole dual-tee course on the picturesque island of Kirkeoy in Skjaerhalden, established 2002. Par 34 for 9 holes (68 for 18 holes). The course is played twice from different tees. Slope 134. Norway's longest-lasting season. The facility also has a 6-hole short course (par 18, 360 metres).",
   "contact": {
     "phone": "+47 909 59 900",
     "email": "post@hvalergk.no",
@@ -58,7 +66,8 @@
   "season": {
     "start": "Mars/April",
     "end": "27. oktober 2025",
-    "winterUse": "Norges mest langvarige golfsesong - lang sesong fra tidlig vår til sent på høsten"
+    "winterUse": "Norges mest langvarige golfsesong - lang sesong fra tidlig vår til sent på høsten",
+    "winterUse_en": "Norway's longest-lasting golf season - long season from early spring to late autumn"
   },
   "visitors": {
     "welcome": true,
@@ -136,7 +145,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Bestilling via GolfBox eller tlf 909 59 900, Innvalg 2. Betaling i proshop før start."
+      "notes": "Bestilling via GolfBox eller tlf 909 59 900, Innvalg 2. Betaling i proshop før start.",
+      "greenFeeDescription_en": "Senior weekday: 335 NOK (9 holes), 440 NOK (18 holes). Senior weekend/public holidays/July: 390 NOK (9 holes), 545 NOK (18 holes). Junior weekday: 195 NOK (9 holes), 305 NOK (18 holes). Junior weekend/public holidays/July: 270 NOK (9 holes), 405 NOK (18 holes). Short course (Pay & Play): Adult 125 NOK, Junior 75 NOK. Hcp 54 requirement for main course.",
+      "notes_en": "Booking via GolfBox or tel 909 59 900, option 2. Payment in pro shop before start."
     }
   },
   "membershipPricing": {},

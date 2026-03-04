@@ -36,7 +36,11 @@
     "par4Count": 5,
     "par5Count": 2,
     "mountainViews": null,
-    "viewDescription": "Banen ligger vakkert til i kanten av Østmarka med utsikt over skog og natur. Klubbhuset har panoramautsikt over området."
+    "viewDescription": "Banen ligger vakkert til i kanten av Østmarka med utsikt over skog og natur. Klubbhuset har panoramautsikt over området.",
+    "terrain_en": "Parkland/woodland course with broad fairways, large greens and tees on gently undulating terrain",
+    "courseType_en": "Park/Forest",
+    "designer_en": "Peter Nordwall",
+    "viewDescription_en": "The course is beautifully situated on the edge of Ostmarka with views over forest and nature. The clubhouse has panoramic views over the area."
   },
   "description": "Grønmo Golfklubb ligger vakkert til i kanten av Østmarka, nær Ryenkrysset i Oslo - Oslos mest sentrale golfbane innenfor bygrensen.\n\nKlubben har en flott 9-hulls park/skogbane med bred fairways, store greener og tees i lett kupert terreng. Banen er designet for spillere på alle nivåer.\n\nFasiliteter inkluderer en stor driving range med 30 utslagssteder (200 meter lang), nærspillområde med tre soner, putting greens, moderne klubbhus med pro shop (drevet av Golfshopen AS) og Grønmo Kafé.\n\nKlubben driver også Grønmo Indoor Golf ved Skullerud med TrackMan-simulatorer og over 300 virtuelle baner, åpent hele året.\n\nMed 5 PGA-instruktører og et aktivt sosialt miljø tilbyr Grønmo Golf Academy skreddersydd instruksjon for alle nivåer. Klubben arrangerer turneringer, gruppetreninger, nybegynnerkurs og golfreiser til Spania.\n\nKlubben er kjent for sitt inkluderende miljø uansett alder, kjønn, funksjonalitet og sosial bakgrunn - \"Klubben med det store hjertet\".",
   "contact": {
@@ -58,7 +62,8 @@
   "season": {
     "start": "Medio april",
     "end": "Medio/slutten av oktober",
-    "winterUse": "Innendørs golf med TrackMan simulatorer tilgjengelig året rundt på Skullerud Park"
+    "winterUse": "Innendørs golf med TrackMan simulatorer tilgjengelig året rundt på Skullerud Park",
+    "winterUse_en": "Indoor golf with TrackMan simulators available year-round at Skullerud Park"
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +128,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee 2025 - WEEKDAYS (18 holes):\n• Early bird 06:00-09:50: 500 NOK\n• Brunch 10:00-13:50: 700 NOK\n• Afternoon 14:00-17:50: 800 NOK\n• Twilight from 18:00: 500 NOK\n\nWEEKENDS/BANK HOLIDAYS (18 holes):\n• Morning 06:00-09:50: 700 NOK\n• Day 10:00-13:50: 900 NOK\n• Afternoon 14:00-17:50: 800 NOK\n• Twilight from 18:00: 500 NOK\n\n9 HOLES: Half price all days\n\nJUNIOR (0-21 years): Always 200 NOK (9 holes 100 NOK)"
     },
     "2026": {
       "currency": "NOK",
@@ -145,7 +151,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "2026-priser ikke publisert ennå per 15. februar 2026. Prisene er basert på gjeldende 2025-priser fra gronmogk.no/gjestespill-2/."
+      "notes": "2026-priser ikke publisert ennå per 15. februar 2026. Prisene er basert på gjeldende 2025-priser fra gronmogk.no/gjestespill-2/.",
+      "greenFeeDescription_en": "Green fee 2025/2026 (taken from gronmogk.no, 2026 prices not yet published - showing current prices).\n\nWEEKDAYS (18 holes):\n• Early bird 06:00-09:50: 500 NOK\n• Brunch 10:00-13:50: 700 NOK\n• Afternoon 14:00-17:50: 800 NOK\n• Twilight from 18:00: 500 NOK\n\nWEEKENDS/BANK HOLIDAYS (18 holes):\n• Morning 06:00-09:50: 700 NOK\n• Day 10:00-13:50: 900 NOK\n• Afternoon 14:00-17:50: 800 NOK\n• Twilight from 18:00: 500 NOK\n\n9 HOLES: Half price all days\n\nJUNIOR (0-21 years): Always 200 NOK (9 holes 100 NOK)",
+      "notes_en": "2026 prices not yet published per 15. February 2026. Prices based on current 2025 prices from gronmogk.no/guestespill-2/."
     }
   },
   "membershipPricing": {
@@ -154,43 +162,50 @@
         "category": "Aksje",
         "price": 6900,
         "description": "Fritt spill, starttidsbestilling 7 dager før, 2 gratis 9-hulls runder på Grini GK, 100 kr rabatt for gjest. Krever kjøp av aksje (2500 kr fra klubben).",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Unlimited play, tee time booking 7 days in advance, 2 free 9-holes rounds at Grini GC, 100 NOK discount for guest. Requires purchase of share (2500 NOK from the club)."
       },
       {
         "category": "Greenfee medlem",
         "price": 4050,
         "description": "Halv pris greenfee på Grønmo GK, starttidsbestilling 3 dager før, Norsk Golf hjem i posten.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "description_en": "Half price green fee på Gronmo GC, tee time booking 3 days in advance, Norwegian Golf magazine delivered by post."
       },
       {
         "category": "Basis",
         "price": 1730,
         "description": "50 kr rabatt per 9 hull på Grønmo GK, starttidsbestilling 3 dager før, Norsk Golf hjem i posten.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "description_en": "50 NOK discount per 9 holes at Gronmo GC, tee time booking 3 days in advance, Norwegian Golf magazine delivered by post."
       },
       {
         "category": "Voksen",
         "price": 3860,
         "description": "Fritt spill på Grønmo GK, starttidsbestilling 7 dager før, Norsk Golf hjem i posten.",
-        "ageRange": "20-26"
+        "ageRange": "20-26",
+        "description_en": "Unlimited play på Gronmo GC, tee time booking 7 days in advance, Norwegian Golf magazine delivered by post."
       },
       {
         "category": "Junior 16-19",
         "price": 1950,
         "description": "Fritt spill på Grønmo GK, starttidsbestilling 7 dager før. 50% familierabatt hvis foresatt er aksjemedlem.",
-        "ageRange": "16-19"
+        "ageRange": "16-19",
+        "description_en": "Unlimited play på Gronmo GC, tee time booking 7 days in advance. 50% familiediscount hvis foresatt er sharemember."
       },
       {
         "category": "Junior 9-15",
         "price": 775,
         "description": "Fritt spill på Grønmo GK, starttidsbestilling 7 dager før. 50% familierabatt hvis foresatt er aksjemedlem.",
-        "ageRange": "9-15"
+        "ageRange": "9-15",
+        "description_en": "Unlimited play på Gronmo GC, tee time booking 7 days in advance. 50% familiediscount hvis foresatt er sharemember."
       },
       {
         "category": "Junior Knøtt",
         "price": 260,
         "description": "Fritt spill på Grønmo GK med ledsager over 18 år eller med hcp under 15. 50% familierabatt hvis foresatt er aksjemedlem.",
-        "ageRange": "5-8"
+        "ageRange": "5-8",
+        "description_en": "Unlimited play på Gronmo GC med ledsager over 18 years eller med hcp under 15. 50% familiediscount hvis foresatt er sharemember."
       }
     ]
   },
@@ -276,5 +291,8 @@
     "createdAt": "2025-10-31T05:36:54.437Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ3Vu2VBlmQUYRyVrhqa77f2s"
+  "googlePlaceId": "ChIJ3Vu2VBlmQUYRyVrhqa77f2s",
+  "slug_en": "gronmo-golf-club",
+  "name_en": "Grønmo Golf Club",
+  "description_en": "Gronmo Golf Club is beautifully situated on the edge of Ostmarka, near the Ryen junction in Oslo - the most centrally located golf course within the Oslo city limits.\n\nThe club has a splendid 9-hole parkland/woodland course with broad fairways, large greens and tees on gently undulating terrain. The course is designed for players of all levels.\n\nFacilities include a large driving range with 30 bays (200 metres long), a short game area with three zones, putting greens, a modern clubhouse with a pro shop (run by Golfshopen AS) and Gronmo Cafe.\n\nThe club also operates Gronmo Indoor Golf at Skullerud with TrackMan simulators and over 300 virtual courses, open all year round.\n\nWith 5 PGA instructors and an active social scene, Gronmo Golf Academy offers tailored instruction for all levels. The club organises tournaments, group training, beginner courses and golf trips to Spain.\n\nThe club is known for its inclusive ethos regardless of age, gender, ability or social background - 'The Club with the Big Heart'."
 }

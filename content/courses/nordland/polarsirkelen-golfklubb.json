@@ -36,7 +36,10 @@
     "par4Count": 5,
     "par5Count": 2,
     "mountainViews": true,
-    "viewDescription": "Banen tilbyr utsikt over fjorden og fjellene i Helgeland-området"
+    "viewDescription": "Banen tilbyr utsikt over fjorden og fjellene i Helgeland-området",
+    "terrain_en": "Natural area between the fjord and the mountains",
+    "courseType_en": "9-hole golf course",
+    "viewDescription_en": "The course offers views over the fjord and mountains in the Helgeland area"
   },
   "description": "Flott 9-hulls golfbane som strekker seg over et stort naturområde mellom fjorden og fjellene. Banen ble oppstartet på 1990-tallet og utviklet gradvis fra et treningsfelt til dagens ni-hulls anlegg. Banen er kjent for sin unike plassering og naturlige terraeng.",
   "contact": {
@@ -68,7 +71,8 @@
   "season": {
     "start": "02.05.2025",
     "end": null,
-    "winterUse": "Innendørstrening på simulatorer ved Selfors åpen hele året"
+    "winterUse": "Innendørstrening på simulatorer ved Selfors åpen hele året",
+    "winterUse_en": "Indoor training on simulators at Selfors open year-round"
   },
   "visitors": {
     "welcome": true,
@@ -139,7 +143,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Medlem av Golfamore-samarbeidet med rabatter. Greenfee kan betales online eller Vipps."
+      "notes": "Medlem av Golfamore-samarbeidet med rabatter. Greenfee kan betales online eller Vipps.",
+      "greenFeeDescription_en": "Day green fee adult: 400 kr, 9 holes: 250 kr. Green fee members: Day 250 kr, 9 holes 150 kr. Junior (18-25): Day 250 kr, 9 holes 150 kr. Partner clubs in Northern Norway: 300 kr.",
+      "notes_en": "Member of the Golfamore partnership with discounts. Green fee can be paid online or by Vipps."
     }
   },
   "membershipPricing": {},
@@ -195,5 +201,8 @@
     "createdAt": "2025-10-31T09:43:40.958Z",
     "updatedAt": "2026-02-14T16:06:00.000Z"
   },
-  "googlePlaceId": "ChIJSzKm9m2_dUYRw7Q2f6K_sck"
+  "googlePlaceId": "ChIJSzKm9m2_dUYRw7Q2f6K_sck",
+  "slug_en": "arctic-circle-golf-club",
+  "name_en": "Arctic Circle Golf Club",
+  "description_en": "Splendid 9-hole golf course stretching across a large natural area between the fjord and the mountains. The course was started in the 1990s and developed gradually from a practice field to the present nine-hole facility. The course is known for its unique location and natural terrain."
 }

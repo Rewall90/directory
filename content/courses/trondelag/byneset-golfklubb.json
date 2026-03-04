@@ -36,7 +36,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "27 hull nær Trondheim; omfattende treningsfasiliteter og studio."
+    "viewDescription": "27 hull nær Trondheim; omfattende treningsfasiliteter og studio.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "18-hole + 9-hole parkland/woodland course",
+    "designer_en": "Donald Steel (Nord)",
+    "viewDescription_en": "27 holes near Trondheim; comprehensive practice facilities and studio."
   },
   "description": "27 hull totalt: 18-hulls Nord (par 72) + 9-hulls Syd (par 32). 20 min fra Trondheim.",
   "contact": {
@@ -137,7 +141,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Ubegrenset spill på Nord (18h) og Syd (9h) samme dag"
+      "notes": "Ubegrenset spill på Nord (18h) og Syd (9h) samme dag",
+      "greenFeeDescription_en": "Day green fee 750 kr (unlimited play on both courses).",
+      "notes_en": "Unlimited play on North (18 holes) and South (9 holes) same day"
     },
     "2026": {
       "currency": "NOK",
@@ -156,7 +162,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": "VTG-kurs inkluderer fritt spill på Byneset South hele 2026",
-      "notes": "Dynamisk prising på North - sjekk GolfBox for eksakt pris. GolfMore-app gir 11-40% rabatt på rangeballer."
+      "notes": "Dynamisk prising på North - sjekk GolfBox for eksakt pris. GolfMore-app gir 11-40% rabatt på rangeballer.",
+      "greenFeeDescription_en": "Byneset North has differentiated green fees. Juniors 50% discount. Member's guest 20% discount.",
+      "notes_en": "Dynamic pricing on North - check GolfBox for exact pricing. GolfMore app gives 11-40% discount on range balls."
     }
   },
   "membershipPricing": {
@@ -165,7 +173,9 @@
         "category": "clubContingent",
         "price": 800,
         "description": "Alle priser inkluderer klubbkontingent 800 kr (19+).",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Club Subscription",
+        "description_en": "All prices include club subscription 800 kr (19+)."
       }
     ],
     "2026": [
@@ -174,83 +184,107 @@
         "price": 9850,
         "priceMonthly": 821,
         "description": "Fritt spill på hele anlegget. B-aksjonærer kr 500 rabatt (780 kr/mnd).",
-        "ageRange": "30+"
+        "ageRange": "30+",
+        "name_en": "Adult",
+        "description_en": "Free play at the full facility. B-shareholders get 500 kr discount (780 kr/month)."
       },
       {
         "category": "Voksen START",
         "price": 7850,
         "priceMonthly": 654,
         "description": "Fritt spill på hele anlegget.",
-        "ageRange": "26-29"
+        "ageRange": "26-29",
+        "name_en": "Adult START",
+        "description_en": "Free play at the full facility."
       },
       {
         "category": "Ung Voksen",
         "price": 6950,
         "priceMonthly": 580,
         "description": "Fritt spill på hele anlegget.",
-        "ageRange": "22-25"
+        "ageRange": "22-25",
+        "name_en": "Young Adult",
+        "description_en": "Free play at the full facility."
       },
       {
         "category": "Voksen begrenset",
         "price": 6800,
         "priceMonthly": 567,
         "description": "Fritt spill på South. 20% rabatt på North greenfee.",
-        "ageRange": "30+"
+        "ageRange": "30+",
+        "name_en": "Adult Limited",
+        "description_en": "Free play on the South course. 20% discount on North course green fee."
       },
       {
         "category": "Greenfeemedlem",
         "price": 2950,
         "priceMonthly": 209,
         "description": "Betaler greenfee. 20% rabatt.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Green Fee Member",
+        "description_en": "Pays green fee. 20% discount."
       },
       {
         "category": "Junior u/13",
         "price": 1750,
         "priceMonthly": 146,
         "description": "Juniormedlem under 13 år.",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Junior Under 13",
+        "description_en": "Junior member under 13 years."
       },
       {
         "category": "Junior 13-18",
         "price": 3750,
         "priceMonthly": 313,
         "description": "Juniormedlem 13-18 år.",
-        "ageRange": "13-18"
+        "ageRange": "13-18",
+        "name_en": "Junior 13-18",
+        "description_en": "Junior member 13-18 years."
       },
       {
         "category": "Junior 19-21",
         "price": 4950,
         "priceMonthly": 413,
         "description": "Juniormedlem 19-21 år.",
-        "ageRange": "19-21"
+        "ageRange": "19-21",
+        "name_en": "Junior 19-21",
+        "description_en": "Junior member 19-21 years."
       },
       {
         "category": "Student",
         "price": 5450,
         "priceMonthly": 455,
         "description": "Fritt spill. NTNUI Golf medlemmer kr 500 rabatt (til alder 25).",
-        "ageRange": "0-25"
+        "ageRange": "0-25",
+        "name_en": "Student",
+        "description_en": "Free play. NTNUI Golf members get 500 kr discount (up to age 25)."
       },
       {
         "category": "Premium",
         "price": 13850,
         "priceMonthly": 1155,
         "description": "Fritt spill, 10x golfbil, 20 bøtter range, kaffeavtale.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Premium",
+        "description_en": "Free play, 10x buggy, 20 buckets of range balls, coffee deal."
       },
       {
         "category": "Familie",
         "price": 18500,
         "priceMonthly": 1542,
         "description": "2 voksne + inntil 3 barn u/19 år samme husstand.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "2 adults + up to 3 children under 19 in the same household."
       },
       {
         "category": "clubContingent",
         "price": 800,
         "description": "Inkludert i alle priser for 19+.",
-        "ageRange": "19+"
+        "ageRange": "19+",
+        "name_en": "Club Subscription",
+        "description_en": "Included in all prices for 19+."
       }
     ]
   },
@@ -325,5 +359,8 @@
     "createdAt": "2025-10-31T11:30:49.448Z",
     "updatedAt": "2026-02-15T12:30:00.000Z"
   },
-  "googlePlaceId": "ChIJE8p2ESzTEkYRaPdJR1vHizw"
+  "googlePlaceId": "ChIJE8p2ESzTEkYRaPdJR1vHizw",
+  "slug_en": "byneset-golf-club",
+  "name_en": "Byneset Golf Club",
+  "description_en": "27 holes in total: 18-hole North course (par 72) + 9-hole South course (par 32). 20 minutes from Trondheim."
 }

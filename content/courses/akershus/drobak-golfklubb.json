@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "18-hole parkland course",
+    "courseType_en": "18-hole parkland course"
   },
   "description": "Variert og innbydende 18-hulls parkbane som kombinerer vakre omgivelser, sosialt miljø og akkurat passe utfordringer. Banen er kjent for å være relativt kort og innbydende, men den lurer fortsatt mange - også de beste. En hyggelig bane med godt vedlikeholdte fairwayer og greener.",
   "contact": {
@@ -134,7 +136,9 @@
       "clubRental": null,
       "pullCartRental": null,
       "greenFeeDescription": "Greenfee fra kr 700 (voksen), kr 350 (junior 6-20 år). Gjestepris kr 650 alle dager. Pakketilbud: 3 billetter for medlemmer kr 1590, ikke-medlemmer kr 1950. Priser varierer med ukedag og tidspunkt (dynamisk prising via GolfBox). Golfbilutleie forbeholdt i første omgang de med legeerklæring.",
-      "notes": "All greenfee forhåndsbetales i GolfBox. Maks 3 gjester per Senior hovedmedlem per runde. Den aktuelle prisen vises før du bestiller tid."
+      "notes": "All greenfee forhåndsbetales i GolfBox. Maks 3 gjester per Senior hovedmedlem per runde. Den aktuelle prisen vises før du bestiller tid.",
+      "greenFeeDescription_en": "Green fee from kr 700 (adult), kr 350 (junior 6-20 years). Guest price kr 650 all days. Package deals: 3 tickets for members kr 1590, non-members kr 1950. Prices vary by day and time (dynamic pricing via GolfBox). Golf buggy hire reserved primarily for those with a medical certificate.",
+      "notes_en": "All green fees prepaid in GolfBox. Max 3 guests per Senior full member per round. The applicable price is shown before you book."
     }
   },
   "membershipPricing": {
@@ -146,19 +150,22 @@
           "category": "full",
           "name": "Senior Hovedmedlem m/PlussTotal",
           "price": 17900,
-          "monthlyPrice": 1495
+          "monthlyPrice": 1495,
+          "name_en": "Senior Full Member with PlusTotal"
         },
         {
           "category": "full",
           "name": "Senior Hovedmedlem m/PlussMedlemskap",
           "price": 13900,
-          "monthlyPrice": 1195
+          "monthlyPrice": 1195,
+          "name_en": "Senior Full Member with PlusMembership"
         },
         {
           "category": "full",
           "name": "Senior Hovedmedlem",
           "price": 11500,
-          "monthlyPrice": 995
+          "monthlyPrice": 995,
+          "name_en": "Senior Full Member"
         },
         {
           "category": "student",
@@ -166,7 +173,8 @@
           "ageMin": 21,
           "ageMax": 28,
           "price": 5100,
-          "monthlyPrice": 450
+          "monthlyPrice": 450,
+          "name_en": "Student 21-28 years"
         },
         {
           "category": "junior",
@@ -174,7 +182,8 @@
           "ageMin": 17,
           "ageMax": 20,
           "price": 4400,
-          "monthlyPrice": 395
+          "monthlyPrice": 395,
+          "name_en": "Junior 17-20 years"
         },
         {
           "category": "junior",
@@ -182,25 +191,29 @@
           "ageMin": 13,
           "ageMax": 16,
           "price": 2200,
-          "monthlyPrice": 195
+          "monthlyPrice": 195,
+          "name_en": "Junior 13-16 years"
         },
         {
           "category": "junior",
           "name": "Barn 0-12 år",
           "ageMin": 0,
           "ageMax": 12,
-          "price": 800
+          "price": 800,
+          "name_en": "Child 0-12 years"
         },
         {
           "category": "limited",
           "name": "Greenfee/Passiv medlem",
           "price": 2950,
-          "monthlyPrice": 250
+          "monthlyPrice": 250,
+          "name_en": "Green Fee/Passive Member"
         },
         {
           "category": "supporter",
           "name": "Støttemedlem",
-          "price": 500
+          "price": 500,
+          "name_en": "Supporting Member"
         }
       ]
     }
@@ -258,5 +271,8 @@
     "createdAt": "2025-10-31T11:23:09.640Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJdT634g1EQUYR4I1oRmazXTI"
+  "googlePlaceId": "ChIJdT634g1EQUYR4I1oRmazXTI",
+  "slug_en": "drobak-golf-club",
+  "name_en": "Drobak Golf Club",
+  "description_en": "A varied and inviting 18-hole parkland course that combines beautiful surroundings, a sociable atmosphere, and just the right level of challenge. The course is known for being relatively short and welcoming, but it still catches out many - including the best players. A pleasant course with well-maintained fairways and greens."
 }

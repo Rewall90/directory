@@ -36,7 +36,9 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "18-hole course",
+    "courseType_en": "18-hole course"
   },
   "description": "Vi har gjort endringer på hullrekkefølge og front/back de siste årene, senest våren 2020. I sesongen er vi totalt 6 personer og enda flere frivillige som gjør vårt beste for at du som spiller skal få best mulig spilleforhold.",
   "contact": {
@@ -126,7 +128,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Norsk Seniorgolf: 100 kr rabatt, 3 ganger/år på hverdager før kl. 14:00. Greenfeemedlemmer: 100 kr rabatt på 18 hull. Gjester med betalende medlem: 100 kr rabatt på 18 hull (alle dager, ikke 9-hull). Booking via GolfBox eller proshop (64923840), inntil 10 dager i forveien."
+      "notes": "Norsk Seniorgolf: 100 kr rabatt, 3 ganger/år på hverdager før kl. 14:00. Greenfeemedlemmer: 100 kr rabatt på 18 hull. Gjester med betalende medlem: 100 kr rabatt på 18 hull (alle dager, ikke 9-hull). Booking via GolfBox eller proshop (64923840), inntil 10 dager i forveien.",
+      "greenFeeDescription_en": "Minimum club handicap of 54 required. Maximum handicap in a flight: 180. No handicap requirement on weekdays or weekends.",
+      "notes_en": "Norwegian Senior Golf: 100 kr discount, 3 times per year on weekdays before 14:00. Green fee members: 100 kr discount on 18 holes. Guests with a paying member: 100 kr discount on 18 holes (all days, not 9 holes). Booking via GolfBox or pro shop (64923840), up to 10 days in advance."
     }
   },
   "membershipPricing": {
@@ -247,5 +251,8 @@
     "createdAt": "2025-10-31T11:23:18.971Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJJ3gEL79fQUYRoFRRLKJrc-I"
+  "googlePlaceId": "ChIJJ3gEL79fQUYRoFRRLKJrc-I",
+  "slug_en": "ostmarka-golf-club",
+  "name_en": "Ostmarka Golf Club - Ostmarka Golf Course",
+  "description_en": "We have changed the hole sequence and front/back in recent years, most recently in spring 2020. During the season we have a total of 6 staff and even more volunteers doing our best to provide you as a player with the best possible playing conditions."
 }

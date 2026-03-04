@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Driving range (gjenåpnet mai 2025), treningsgreen. Regelmessige turneringer inkl. scramble, fourball, klubbmesterskap og nattgolf."
+    "viewDescription": "Driving range (gjenåpnet mai 2025), treningsgreen. Regelmessige turneringer inkl. scramble, fourball, klubbmesterskap og nattgolf.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "9-hole parkland/woodland course",
+    "signatureHole_en": "Views over the Trondheimsfjord",
+    "scenicHole_en": "Views over the Trondheimsfjord",
+    "viewDescription_en": "Driving range (reopened May 2025), practice green. Regular tournaments including scramble, fourball, club championship and night golf."
   },
   "description": "9-hulls parkland/skogsbane i historiske Austrått-området med utsikt over Trondheimsfjorden. Planer om utvidelse til 18 hull.",
   "contact": {
@@ -124,7 +129,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Årlig medlemskap inkluderer 500 kr bidrag til utvikling av 18-hulls bane."
+      "notes": "Årlig medlemskap inkluderer 500 kr bidrag til utvikling av 18-hulls bane.",
+      "greenFeeDescription_en": "Reciprocal agreements: Klaebu GC 200 kr/day, Stiklestad GC 20% discount, Steinkjer GC 50% discount.",
+      "notes_en": "Annual membership includes a 500 kr contribution towards development of the 18-hole course."
     },
     "2026": {
       "currency": "NOK",
@@ -141,7 +148,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Årlig medlemskap inkluderer 500 kr bidrag til utvikling av 18-hulls bane. Ingen utleie av golfbil, trillebar eller køller annonsert på nettside."
+      "notes": "Årlig medlemskap inkluderer 500 kr bidrag til utvikling av 18-hulls bane. Ingen utleie av golfbil, trillebar eller køller annonsert på nettside.",
+      "greenFeeDescription_en": "Green fee 9 holes 250 kr, green fee more than 9 holes 350 kr. Juniors half price. Reciprocal agreements: Klaebu GC 200 kr/day, Stiklestad GC 20% discount, Steinkjer GC 50% discount.",
+      "notes_en": "Annual membership includes a 500 kr contribution towards development of the 18-hole course. No golf cart, pull trolley or club hire advertised on website."
     }
   },
   "membershipPricing": {},
@@ -194,5 +203,8 @@
     "createdAt": "2025-10-31T11:30:48.973Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJy6myYYm-EkYRiwfIa3usqGA"
+  "googlePlaceId": "ChIJy6myYYm-EkYRiwfIa3usqGA",
+  "slug_en": "austratt-golf-club",
+  "name_en": "Austrått Golf Club",
+  "description_en": "9-hole parkland/woodland course in the historic Austraat area with views over the Trondheimsfjord. Plans to expand to 18 holes."
 }

@@ -36,7 +36,12 @@
     "par4Count": 5,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Variert terreng ved Fjøsviken, nær Ringmoen. Flere vannhindere og raviner."
+    "viewDescription": "Variert terreng ved Fjøsviken, nær Ringmoen. Flere vannhindere og raviner.",
+    "terrain_en": "Varied terrain",
+    "courseType_en": "9-hole golf course",
+    "signatureHole_en": "Hole 7/16 (Par 5, 441/399m) - Long hole with the green 9m below the fairway, lateral water hazard and 2 greenside bunkers.",
+    "scenicHole_en": "Hole 7/16 (Par 5, 441/399m) - Long hole with the green 9m below the fairway, lateral water hazard and 2 greenside bunkers.",
+    "viewDescription_en": "Varied terrain at Fjoesviken, near Ringmoen. Several water hazards and ravines."
   },
   "description": "Ringerike Golfklubb ble stiftet 15. mars 2001 av grunneier Einar Trygve Lie ved Fjøsviken gård. Klubben ble tatt opp i NIF 19. juni 2001 og NGF 4. juli 2001 som klubb nr. 169. Ringerike Golfbane AS ble dannet 7. oktober 2001. 6-hulls bane åpnet juli 2003, offisiell åpning 16. august 2003. Full 9-hulls bane åpnet 29. august 2004. Baneguide hull for hull: Hull 1/10 (Par 4, Index 7, 289/252m) - Smalt med OB venstre. Hull 2/11 (Par 5, Index 5, 470/406m) - Dogleg høyre med bunker venstre, 2 greenbunkere. Hull 3/12 (Par 4, Index 1, 354/336m) - Dogleg venstre, OB venstre siste 100m. Hull 4/13 (Par 3, Index 17, 113/108m) - Over vannhinder, bratt bakke til green. Hull 5/14 (Par 3, Index 13, 152/133m) - Green 5m høyere, bunker høyre, sidevann venstre. Hull 6/15 (Par 4, Index 9, 295/273m) - Dogleg venstre, bunkere begge sider fairway. Hull 7/16 (Par 5, Index 3, 441/399m) - Langt hull, green 9m lavere, sidevann venstre, 2 greenbunkere. Hull 8/17 (Par 4, Index 11, 282/222m) - Dogleg høyre, fade foretrukket, bunker i banen og greenbunker. Hull 9/18 (Par 3, Index 15, 101/92m) - Over ravine/straffeområde, stor green.",
   "contact": {
@@ -83,7 +88,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Range: Åpent"
+    "winterUse": "Range: Åpent",
+    "winterUse_en": "Range: Open"
   },
   "visitors": {
     "welcome": true,
@@ -144,7 +150,9 @@
       "golfCartRental9": 250,
       "golfCartRental18": 350,
       "pullCartRental": 0,
-      "notes": "Golfbiler: 3 stk tilgjengelig. Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Simulatorrabatter: 30% Buskerud Golf AS, 10% Hønefoss Golfsenter."
+      "notes": "Golfbiler: 3 stk tilgjengelig. Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Simulatorrabatter: 30% Buskerud Golf AS, 10% Hønefoss Golfsenter.",
+      "greenFeeDescription_en": "9 holes: weekday 300 kr, weekend 337.50 kr. 18 holes: weekday 400 kr, weekend 450 kr.",
+      "notes_en": "Buggies: 3 available. Must be 18 to book, 16 to drive alone. Trolley hire free. Simulator discounts: 30% Buskerud Golf AS, 10% Honefoss Golf Centre."
     },
     "2026": {
       "currency": "NOK",
@@ -160,7 +168,9 @@
       "golfCartRental9": 250,
       "golfCartRental18": 350,
       "pullCartRental": 0,
-      "notes": "Golfbiler: 3 stk tilgjengelig. Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Simulatorrabatter: 30% Buskerud Golf AS, 10% Hønefoss Golfsenter. Prisen på 9 hull er 75% av 18 hull. Selvbetjening utenom åpningstidene, kun kontanter eller Vipps."
+      "notes": "Golfbiler: 3 stk tilgjengelig. Må være 18 år for å booke, 16 år for å kjøre alene. Trolleyutleie gratis. Simulatorrabatter: 30% Buskerud Golf AS, 10% Hønefoss Golfsenter. Prisen på 9 hull er 75% av 18 hull. Selvbetjening utenom åpningstidene, kun kontanter eller Vipps.",
+      "greenFeeDescription_en": "Adults: 9 holes weekday 300 kr, weekend 337.50 kr; 18 holes weekday 400 kr, weekend 450 kr. Junior (up to 19 years): 9 holes weekday 125 kr, weekend 150 kr; 18 holes weekday 125 kr, weekend 200 kr. Members (half green fee): 9 holes 150 kr, 18 holes 200 kr. Junior members: 9 holes 45 kr, 18 holes 100 kr. Guests playing with a member receive 100 kr discount (GolfBox booking only, not available for pro shop bookings).",
+      "notes_en": "Buggies: 3 available. Must be 18 to book, 16 to drive alone. Trolley hire free. Simulator discounts: 30% Buskerud Golf AS, 10% Honefoss Golf Centre. 9-hole price is 75% of 18 holes. Self-service outside opening hours, cash or Vipps only."
     }
   },
   "membershipPricing": {
@@ -240,5 +250,8 @@
     "updatedAt": "2026-02-15T18:12:00.000Z",
     "notes": "Comprehensive deep-scrape completed. 2026 green fees confirmed matching 2025 rates. 2026 membership pricing confirmed with updated Category G options (1/2 greenfee 1.800 kr or fritt spill 3.000 kr). Member guest discount 100 kr via Golfbox booking. No initiation fee. Website does not explicitly state year for green fees but membership page shows 2025 pricing structure."
   },
-  "googlePlaceId": "ChIJUdRj8eVSQEYRo5CNu8wHjSM"
+  "googlePlaceId": "ChIJUdRj8eVSQEYRo5CNu8wHjSM",
+  "slug_en": "ringerike-golf-club",
+  "name_en": "Ringerike Golf Club",
+  "description_en": "Ringerike Golf Club was founded on 15 March 2001 by landowner Einar Trygve Lie at Fjoesviken farm. The club was admitted to NIF on 19 June 2001 and the Norwegian Golf Federation on 4 July 2001 as club number 169. A 6-hole course opened in July 2003, with the official opening on 16 August 2003. The full 9-hole course opened on 29 August 2004."
 }

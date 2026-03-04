@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Kun 10 minutter fra Oslo. Intimt golfanlegg med fokus på trening og nærspill. Høy kvalitet. Terrassekafé med god utsikt."
+    "viewDescription": "Kun 10 minutter fra Oslo. Intimt golfanlegg med fokus på trening og nærspill. Høy kvalitet. Terrassekafé med god utsikt.",
+    "terrain_en": "Parkland course",
+    "courseType_en": "9-hole par 3 short course",
+    "viewDescription_en": "Just 10 minutes from Oslo. An intimate golf facility focused on practice and the short game. High quality. Terrace cafe with fine views."
   },
   "description": "Golfbane og treningsanlegg kun 10 minutter fra Oslo. Ballerud er det perfekte golfanlegget for travle mennesker. Vi har fokusert på trening og nærspill og har skapt et intimt golfanlegg med høy kvalitet. Parkbane med raske velholdte greener. Perfekt for nybegynnere som for elitespillere. Godkjent for regulering av HCP fra august 2024.",
   "contact": {
@@ -78,7 +81,8 @@
   "season": {
     "start": null,
     "end": "Oktober",
-    "winterUse": "Driving range åpen med lys. Kiosk og bane stengt for sesongen."
+    "winterUse": "Driving range åpen med lys. Kiosk og bane stengt for sesongen.",
+    "winterUse_en": "Driving range open with floodlights. Kiosk and course closed for the season."
   },
   "visitors": {
     "welcome": true,
@@ -153,7 +157,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Godkjent for regulering av HCP fra august 2024. Driving range 270m med 115 plasser. TTM Golf Academy kurser tilgjengelig. Booking via Golfbox eller tlf 67106110. Gjester kan booke inntil 2 dager i forveien."
+      "notes": "Godkjent for regulering av HCP fra august 2024. Driving range 270m med 115 plasser. TTM Golf Academy kurser tilgjengelig. Booking via Golfbox eller tlf 67106110. Gjester kan booke inntil 2 dager i forveien.",
+      "greenFeeDescription_en": "green fee 2026: 9 holes guest 285 NOK, member 250 NOK Junior guest 175 NOK, member 140 NOK For 18 holess spill må det books 2 rounds av 9 holes.",
+      "notes_en": "Approved for handicap adjustment from August 2024. Driving range 270m with 115 bays. TTM Golf Academy courses available. Booking via GolfBox or tel 67106110. Visitors kan book inntil 2 days in advance."
     }
   },
   "membershipPricing": {
@@ -162,37 +168,43 @@
         "category": "senior",
         "price": 3950,
         "description": "Hovedmedlem 2026 - Voksen/Senior (fom. året du fyller 26 år). Ingen innmeldingsavgift, aksje, andel eller binding. Inkluderer NGF-medlemskap, Norsk Golf-bladet og Golfbox tilgang. Automatisk fornyelse hvis ikke skriftlig utmelding innen 31/12.",
-        "ageRange": "26+"
+        "ageRange": "26+",
+        "description_en": "Full member 2026 - Adult/Senior (fom. yearset du fyller 26 years). No innmeldingsavgift, share, andel eller binding. Inkluderer NGF-membership, Norsk Golf-bladet og GolfBox tilgang. Automatisk fornyelse hvis ikke skriftlig utmelding innen 31/12."
       },
       {
         "category": "youth",
         "price": 2900,
         "description": "Hovedmedlem 2026 - Ungdom/Student (20-25 år). Ingen innmeldingsavgift.",
-        "ageRange": "20-25"
+        "ageRange": "20-25",
+        "description_en": "Full member 2026 - Youth/Student (20-25 years). No innmeldingsavgift."
       },
       {
         "category": "junior",
         "price": 1995,
         "description": "Hovedmedlem 2026 - Junior (tom. året du fyller 19 år). Venteliste. Ingen innmeldingsavgift.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "description_en": "Full member 2026 - Junior (up to and including yearset du fyller 19 years). Venteliste. No innmeldingsavgift."
       },
       {
         "category": "greenfee_vtg_senior",
         "price": 1100,
         "description": "Greenfee medlemskap (VTG) 2026 - Senior/ungdom. Kun tilgjengelig for de som har gjennomført VTG-kurs på Ballerud Golf.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "description_en": "Green fee membership (VTG) 2026 - Senior/yoyouth. Kun tilgjengelig for de som har gjennomført VTG-kurs på Ballerud Golf."
       },
       {
         "category": "greenfee_vtg_junior",
         "price": 600,
         "description": "Greenfee medlemskap (VTG) 2026 - Junior. Kun tilgjengelig for de som har gjennomført VTG-kurs på Ballerud Golf.",
-        "ageRange": "0-19"
+        "ageRange": "0-19",
+        "description_en": "Green fee membership (VTG) 2026 - Junior. Kun tilgjengelig for de som har gjennomført VTG-kurs på Ballerud Golf."
       },
       {
         "category": "familie",
         "price": 8745,
         "description": "Familiemedlemskap 2026. Ingen nye for 2026.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Familiemembership 2026. No nye for 2026."
       }
     ]
   },
@@ -237,5 +249,8 @@
     "createdAt": "2025-10-31T11:23:08.551Z",
     "updatedAt": "2026-02-14T16:20:00.000Z"
   },
-  "googlePlaceId": "ChIJ33uXOclsQUYR-WkHJjavvfM"
+  "googlePlaceId": "ChIJ33uXOclsQUYR-WkHJjavvfM",
+  "slug_en": "ballerud-golf",
+  "name_en": "Ballerud Golf",
+  "description_en": "A golf course and practice facility just 10 minutes from Oslo. Ballerud is the perfect golf facility for busy people. We have focused on practice and the short game and have created an intimate golf facility of high quality. A parkland course with fast, well-maintained greens. Ideal for beginners and elite players alike. Approved for handicap adjustment from August 2024."
 }

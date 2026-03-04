@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": 1,
     "mountainViews": true,
-    "viewDescription": "Surrounded by breathtaking natural landscapes with serene lakes and majestic mountains. Located on island (Fossøy) in Vrådal."
+    "viewDescription": "Surrounded by breathtaking natural landscapes with serene lakes and majestic mountains. Located on island (Fossøy) in Vrådal.",
+    "terrain_en": "Island setting with mountains and lake",
+    "courseType_en": "Parkland",
+    "viewDescription_en": "Surrounded by breathtaking natural landscapes with serene lakes and majestic mountains. Located on island (Fossøy) in Vrådal."
   },
   "description": "En av Norges vakreste 9-hullers baner, beliggende på en øy i Vrådal. Omgitt av storslått naturlandskap med fjell og innsjø. Åpnet i 2013.",
   "contact": {
@@ -146,7 +149,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golf packages available through Straand Hotel. 9-hulls bane som spilles 2 ganger for 18 hull."
+      "notes": "Golf packages available through Straand Hotel. 9-hulls bane som spilles 2 ganger for 18 hull.",
+      "greenFeeDescription_en": "Tors-søn high season: Guest 9 holes NOK 380, 18 holes NOK 530. Member 9 holes NOK 330, 18 holes NOK 480. Man-ons low season: Guest 9 holes NOK 330, dagskort NOK 450. Member 9 holes NOK 230, dagskort NOK 350. Junior 13-19 half price. Children 0-12 free.",
+      "notes_en": "Golf packages available through Straand Hotel. 9-hole course played twice for 18 holes."
     },
     "2026": {
       "currency": "NOK",
@@ -181,7 +186,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Gratis juniorgolf for lokale juniorer tom 19 år fra Fyresdal, Kviteseid, Nissedal, Seljord, Hjartdal eller elever på Kvitsund skole, eller barn av årskorteiere. 9-hulls bane som spilles 2 ganger for 18 hull."
+      "notes": "Gratis juniorgolf for lokale juniorer tom 19 år fra Fyresdal, Kviteseid, Nissedal, Seljord, Hjartdal eller elever på Kvitsund skole, eller barn av årskorteiere. 9-hulls bane som spilles 2 ganger for 18 hull.",
+      "greenFeeDescription_en": "Tors-søn high season og 8. juni - 18. august: Guest 9 holes NOK 380, 18 holes NOK 530. Member 9 holes NOK 330, 18 holes NOK 480. Man-ons low season: Guest 9 holes NOK 330, dagskort NOK 450. Member 9 holes NOK 230, dagskort NOK 350. Junior 13-19 half price. Children up to 12 free.",
+      "notes_en": "Free junior golf for local juniors up to age 19 from Fyresdal, Kviteseid, Nissedal, Seljord, Hjartdal or pupils at Kvitsund School, or children of season pass holders. 9-hole course played twice for 18 holes."
     }
   },
   "membershipPricing": {
@@ -263,5 +270,8 @@
     "createdAt": "2025-10-31T12:22:41.183Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ7aGggOumOEYRJuy2JN3wqTQ"
+  "googlePlaceId": "ChIJ7aGggOumOEYRJuy2JN3wqTQ",
+  "slug_en": "vradal-golf-club",
+  "name_en": "Vrådal Golf Club",
+  "description_en": "One of Norway's most beautiful 9-hole courses, situated on an island in Vraadal. Surrounded by magnificent natural scenery with mountains and lakes. Opened in 2013."
 }

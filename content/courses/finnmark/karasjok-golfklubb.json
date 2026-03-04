@@ -32,7 +32,11 @@
     "par4Count": 5,
     "par5Count": 2,
     "mountainViews": false,
-    "viewDescription": "Karasjok Golfklubb - 9-hulls parklandbane på elvebredden ved Finlandsveien. Par 36 (9h), par 72 (18h). Bygget 2001. Svært rimelig medlemskap (749-799 kr) med god service for fjernmedlemmer. Greenfee kun 150 kr (18h). Golfkurs tilgjengelig."
+    "viewDescription": "Karasjok Golfklubb - 9-hulls parklandbane på elvebredden ved Finlandsveien. Par 36 (9h), par 72 (18h). Bygget 2001. Svært rimelig medlemskap (749-799 kr) med god service for fjernmedlemmer. Greenfee kun 150 kr (18h). Golfkurs tilgjengelig.",
+    "terrain_en": "Parkland",
+    "courseType_en": "9-hole parkland course",
+    "scenicHole_en": "9 holes on the riverbank",
+    "viewDescription_en": "Karasjok Golf Club - a 9-hole parkland course on the riverbank along Finlandsveien. Par 36 (9 holes), par 72 (18 holes). Built in 2001. Very affordable membership (749-799 NOK) with excellent service for distance members. Green fee only 150 NOK (18 holes). Golf tuition available."
   },
   "description": "Karasjok Golfklubb (Kárášjoga golfsearvi) - 9 vakre hull på elvebredden ved Finlandsveien.\n\nBanen ligger langs den lakserike Karasjohka-elven og tilbyr en unik golfopplevelse i samisk kulturlandskap. Med midnattssol om sommeren kan du spille golf døgnet rundt.\n\nPar 36 for 9 hull (par 72 når spilt 2 ganger). Banen har varierte hull fra 132 til 446 meter, med vannhindre, bunkere og dog-legs.\n\nLengde: Gul tee 2.311m, Rød tee 2.080m.\n\nKlubben er tospråklig (norsk/samisk) og har historisk tilknytning til Samuel Balto, den berømte samiske polarfareren som deltok på Fridtjof Nansens Grønlands-ekspedisjon.\n\nRimelige priser gjør dette til en familievennlig bane: Voksen 150 kr, Junior 75 kr for 18 hull.",
   "contact": {
@@ -120,7 +124,8 @@
       "specialOfferPrice": 2000,
       "specialOfferIncludes": "Begynner/Veien til Golf-kurs: 2000 kr inkludert kursmateriell og kølleutleie, minimum 12 timer opplæring med instruktør Jan Skoglund Paltto",
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee: Senior/Adult 150 NOK (18 holes), Junior 75 NOK (18 holes). One of Norway's most affordable golf facilities with excellent service for distance members."
     }
   },
   "membershipPricing": {
@@ -129,13 +134,15 @@
         "category": "regular",
         "price": 749,
         "description": "Fjern- og lokalmedlemskap",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Distance and local membership"
       },
       {
         "category": "priority",
         "price": 799,
         "description": "Medlemskap med høy prioritet",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Membership with high priority"
       }
     ]
   },
@@ -186,5 +193,8 @@
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-30T10:55:18.542Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
-  }
+  },
+  "slug_en": "karasjok-golf-club",
+  "name_en": "Karasjok Golf Club",
+  "description_en": "Karasjok Golf Club (Karasjoga golfsearvi) - 9 beautiful holes on the riverbank along Finlandsveien.\n\nThe course runs alongside the salmon-rich Karasjohka River, offering a unique golfing experience in the Sami cultural landscape. With the midnight sun in summer, you can play golf around the clock.\n\nPar 36 for 9 holes (par 72 when played twice). The course features varied holes from 132 to 446 metres, with water hazards, bunkers and doglegs.\n\nLength: Yellow tee 2,311m, Red tee 2,080m.\n\nThe club is bilingual (Norwegian/Sami) and has a historical connection to Samuel Balto, the famous Sami polar explorer who took part in Fridtjof Nansen's Greenland expedition.\n\nAffordable prices make this a family-friendly course: Adult 150 NOK, Junior 75 NOK for 18 holes."
 }

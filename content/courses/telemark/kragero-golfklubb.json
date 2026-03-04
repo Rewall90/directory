@@ -36,7 +36,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Set high and free surrounded by forests"
+    "viewDescription": "Set high and free surrounded by forests",
+    "terrain_en": "Woodland and parkland med undulating terrain",
+    "courseType_en": "Parkland",
+    "designer_en": "Kim Von Essen & Per Haugsrud",
+    "viewDescription_en": "Set high and free surrounded by forests"
   },
   "description": "Voted 'Norway's Best Golf Course' and set within a large 1,700-acre wooded property. Tree-lined parkland course with undulating terrain, surrounded by forests and rocky outcrops. Opened in 2003 with international standard quality.",
   "contact": {
@@ -133,7 +137,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Europe's Best Golf Hotel 2023. Golf packages available through Kragerø Resort. Golfbil: helg/høysesong kr 580, hverdag lavsesong kr 470."
+      "notes": "Europe's Best Golf Hotel 2023. Golf packages available through Kragerø Resort. Golfbil: helg/høysesong kr 580, hverdag lavsesong kr 470.",
+      "greenFeeDescription_en": "Low season weekdayer: 18 holes NOK 690, 9 holes NOK 400. Low season weekend: 18 holes NOK 980, 9 holes NOK 650. High season (23/6-3/8): 18 holes NOK 1290, 9 holes NOK 750. Junior (t.o.m 19 years) half price.",
+      "notes_en": "Europe's Best Golf Hotel 2023. Golf packages available through Kragerø Resort. Buggy: weekend/høysesong NOK 580, weekday lavsesong NOK 470."
     },
     "2026": {
       "currency": "NOK",
@@ -159,7 +165,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Europe's Best Golf Hotel 2023. Golf packages available through Kragerø Resort. Golfbil: helg/høysesong kr 580, hverdag lavsesong kr 470."
+      "notes": "Europe's Best Golf Hotel 2023. Golf packages available through Kragerø Resort. Golfbil: helg/høysesong kr 580, hverdag lavsesong kr 470.",
+      "greenFeeDescription_en": "Low season weekdayer: 18 holes NOK 690, 9 holes NOK 400. Low season weekend: 18 holes NOK 980, 9 holes NOK 650. High season (23/6-3/8): 18 holes NOK 1290, 9 holes NOK 750. Junior (t.o.m 19 years) half price.",
+      "notes_en": "Europe's Best Golf Hotel 2023. Golf packages available through Kragerø Resort. Buggy: weekend/høysesong NOK 580, weekday lavsesong NOK 470."
     }
   },
   "membershipPricing": {
@@ -237,5 +245,8 @@
     "createdAt": "2025-10-31T12:22:39.690Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ-cH2oa8GR0YR4z3LLiH2Mbs"
+  "googlePlaceId": "ChIJ-cH2oa8GR0YR4z3LLiH2Mbs",
+  "slug_en": "kragero-golf-club",
+  "name_en": "Kragerø Golf Club",
+  "description_en": "Voted 'Norway's Best Golf Course' and set within a large 1,700-acre wooded property. A tree-lined parkland course with undulating terrain, surrounded by forests and rocky outcrops. Opened in 2003 with international-standard quality."
 }

@@ -36,7 +36,13 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Tromsø Golfklubb - Verdens nordligste 18-hulls golfbane! 18-hulls parklandbane par 71 + 9-hulls par-3 bane (27 hull totalt). Designet av Jan Sederholm. Driving range, putting green, chipping green, practice bunker. Klubbhus med pro shop og kafé. Utleie av køller (Titleist/TaylorMade), tralle og 5 golfbiler. Garderober. Handicap-grense 54. Camping-parkering tilgjengelig."
+    "viewDescription": "Tromsø Golfklubb - Verdens nordligste 18-hulls golfbane! 18-hulls parklandbane par 71 + 9-hulls par-3 bane (27 hull totalt). Designet av Jan Sederholm. Driving range, putting green, chipping green, practice bunker. Klubbhus med pro shop og kafé. Utleie av køller (Titleist/TaylorMade), tralle og 5 golfbiler. Garderober. Handicap-grense 54. Camping-parkering tilgjengelig.",
+    "terrain_en": "Parkland",
+    "courseType_en": "18-hole parkland course + 9-hole par-3 course (27 holes total)",
+    "designer_en": "Jan Sederholm",
+    "signatureHole_en": "The world's most northerly 18-hole course",
+    "scenicHole_en": "The world's most northerly 18-hole course",
+    "viewDescription_en": "Tromso Golf Club - the world's most northerly 18-hole golf course! 18-hole parkland course par 71 plus 9-hole par-3 course (27 holes total). Designed by Jan Sederholm. Driving range, putting green, chipping green, practice bunker. Clubhouse with pro shop and cafe. Club hire (Titleist/TaylorMade), trolley and 5 buggies available. Changing rooms. Maximum handicap 54. Camping available."
   },
   "description": "Tromsø Golfklubb - Verdens nordligste 18-hulls golfbane!\n\nBeliggende på 69°39'30\" N ved foten av Lyngsalpene, ca. 45 minutter fra Tromsø sentrum.\n\n18-hulls parklandbane par 71 designet av svenske Jan Sederholm. Banen åpnet i 2002, klubben ble stiftet i 1996. Over 550 medlemmer.\n\nSpill golf under midnattssolen - en helt unik opplevelse hvor du kan slå ut godt etter midnatt!\n\nFasiliteter inkluderer driving range, putting green, nærspillområde, klubbhus med kafé, og innendørs golfsenter (Tromsø Golfsenter) med TrackMan-simulatorer - utvides til 5 simulatorer fra 2026.\n\nUtstyrsutleie: Hele sett 300 kr, tralle 50 kr, golfbil 400-500 kr.",
   "contact": {
@@ -140,7 +146,9 @@
       "bookingMethod": "Golfbox, telefon, e-post",
       "bookingPhone": "+47 776 33260",
       "bookingEmail": "info@tromsogolf.com",
-      "notes": "Camping/bobil med strøm: 200 kr. Uten strøm: 100 kr. Enkeltklubber gratis å låne."
+      "notes": "Camping/bobil med strøm: 200 kr. Uten strøm: 100 kr. Enkeltklubber gratis å låne.",
+      "greenFeeDescription_en": "Green fee 2026:\n\nVISITORS (via GolfBox/email/phone):\n• 18 holes: 500-950 NOK (depending on day)\n• 9 holes: 350-500 NOK\n\nSTUDENT/JUNIOR:\n• 18 holes: 250-475 NOK\n• 9 holes: 175-250 NOK\n\nPAR-3 COURSE:\n• Adult: 250 NOK\n• Junior: 125 NOK",
+      "notes_en": "Camping/motorhome with electricity: 200 NOK. Without electricity: 100 NOK. Individual clubs free to borrow."
     }
   },
   "membershipPricing": {
@@ -149,55 +157,64 @@
         "category": "Barn (0-12 år)",
         "price": 750,
         "description": "Kontingent 750 kr, gratis greenfee og årsgreenfee",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "description_en": "Membership fee 750 NOK, free green fee and annual green fee"
       },
       {
         "category": "Junior (13-19 år)",
         "price": 750,
         "description": "Kontingent 750 kr, gratis greenfee og årsgreenfee",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "description_en": "Membership fee 750 NOK, free green fee and annual green fee"
       },
       {
         "category": "Student/Ung voksen (20-27 år)",
         "price": 2250,
         "description": "Kontingent 2250 kr, årsgreenfee 1000 kr, greenfee 200/100 kr",
-        "ageRange": "20-27"
+        "ageRange": "20-27",
+        "description_en": "Membership fee 2250 NOK, yearssgreen fee 1000 NOK, green fee 200/100 NOK"
       },
       {
         "category": "Senior (28-66 år)",
         "price": 3400,
         "description": "Kontingent 3400 kr, årsgreenfee 3200 kr, greenfee 325/200 kr",
-        "ageRange": "28-66"
+        "ageRange": "28-66",
+        "description_en": "Membership fee 3400 NOK, yearssgreen fee 3200 NOK, green fee 325/200 NOK"
       },
       {
         "category": "Pensjonist (67+ år)",
         "price": 3400,
         "description": "Kontingent 3400 kr, årsgreenfee 1800 kr, greenfee 325/200 kr",
-        "ageRange": "67+"
+        "ageRange": "67+",
+        "description_en": "Membership fee 3400 NOK, yearssgreen fee 1800 NOK, green fee 325/200 NOK"
       },
       {
         "category": "Ektefelle/Samboer",
         "price": 2300,
         "description": "Kontingent 2300 kr, årsgreenfee 1800 kr, greenfee 325/200 kr",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Membership fee 2300 NOK, yearssgreen fee 1800 NOK, green fee 325/200 NOK"
       },
       {
         "category": "Familie (2 voksne + 2 barn u/20 år)",
         "price": 6650,
         "description": "Kontingent 6650 kr, årsgreenfee 4000 kr, greenfee 325/200 kr",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Membership fee 6650 NOK, yearssgreen fee 4000 NOK, green fee 325/200 NOK"
       },
       {
         "category": "Fjernmedlem",
         "price": 1250,
         "description": "Kontingent 1250 kr, greenfee 325/200 kr",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Membership fee 1250 NOK, green fee 325/200 NOK"
       },
       {
         "category": "Støttemedlem (uten spillerett)",
         "price": 1000,
         "description": "Ingen spillerett",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "No playing rights"
       }
     ]
   },
@@ -283,5 +300,8 @@
     "createdAt": "2025-10-31T05:13:00.650Z",
     "updatedAt": "2026-02-14T16:07:00.000Z"
   },
-  "googlePlaceId": "ChIJ8SZZ5pwgxUURUvU7l6hqKOU"
+  "googlePlaceId": "ChIJ8SZZ5pwgxUURUvU7l6hqKOU",
+  "slug_en": "tromso-golf-club",
+  "name_en": "Tromsø Golf Club",
+  "description_en": "Tromso Golf Club - the world's most northerly 18-hole golf course!\n\nSituated at 69 degrees 39'30\" N at the foot of the Lyngen Alps, approximately 45 minutes from Tromso city centre.\n\n18-hole parkland course, par 71, designed by Swedish course architect Jan Sederholm. The course opened in 2002; the club was founded in 1996. Over 550 members.\n\nPlay golf under the midnight sun - a truly unique experience where you can tee off well after midnight!\n\nFacilities include a driving range, putting green, short game area, clubhouse with cafe, and an indoor golf centre (Tromso Golf Centre) with TrackMan simulators - expanding to 5 simulators from 2026.\n\nEquipment hire: Full set 300 NOK, trolley 50 NOK, buggy 400-500 NOK."
 }

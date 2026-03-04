@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Selvbetjent anlegg uten teetidsbooking. Driving range, putting/chipping, practice bunker."
+    "viewDescription": "Selvbetjent anlegg uten teetidsbooking. Driving range, putting/chipping, practice bunker.",
+    "terrain_en": "Parkland",
+    "courseType_en": "6-hole parkland course",
+    "signatureHole_en": "Seaside location on the Korsnes peninsula",
+    "scenicHole_en": "Seaside location on the Korsnes peninsula",
+    "viewDescription_en": "Self-service facility with no tee time booking required. Driving range, putting/chipping, practice bunker."
   },
   "description": "6-hulls parklandbane ved sjøen i Vågen på Korsneshalvøya. Selvbetjent, ubegrenset dagsspill.",
   "contact": {
@@ -128,7 +133,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Gratis køller. Ubegrenset spill mot dagsgreenfee."
+      "notes": "Gratis køller. Ubegrenset spill mot dagsgreenfee.",
+      "greenFeeDescription_en": "Unlimited play for one day (self-service). Payment by cash, Vipps or card terminal when clubhouse is open.",
+      "notes_en": "Free clubs. Unlimited play with day green fee."
     },
     "2026": {
       "currency": "NOK",
@@ -149,7 +156,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser gjeldende fra 01.01.2025 (sist publisert på frostagk.no). 6-hulls bane med ubegrenset dagsspill. Ingen differensiering mellom hverdag/helg. Ingen golfbil eller kølleutleie."
+      "notes": "Priser gjeldende fra 01.01.2025 (sist publisert på frostagk.no). 6-hulls bane med ubegrenset dagsspill. Ingen differensiering mellom hverdag/helg. Ingen golfbil eller kølleutleie.",
+      "greenFeeDescription_en": "Unlimited day play. Visitor 300 kr, member without playing rights 200 kr, junior 120 kr. Self-service facility.",
+      "notes_en": "Prices valid from 01.01.2025 (last published on frostagk.no). 6-hole course with unlimited day play. No differentiation between weekday/weekend. No golf cart or club hire."
     }
   },
   "membershipPricing": {
@@ -158,19 +167,25 @@
         "category": "junior6to12",
         "price": 600,
         "description": "Priser fra 2022 – verifiser gjeldende satser på frostagk.no.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Junior 6-12",
+        "description_en": "Prices from 2022 - verify current rates at frostagk.no."
       },
       {
         "category": "junior13to19",
         "price": 1200,
         "description": "Priser fra 2022 – verifiser gjeldende satser på frostagk.no.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Junior 13-19",
+        "description_en": "Prices from 2022 - verify current rates at frostagk.no."
       },
       {
         "category": "adult",
         "price": 2700,
         "description": "Priser fra 2022 – verifiser gjeldende satser på frostagk.no.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Adult",
+        "description_en": "Prices from 2022 - verify current rates at frostagk.no."
       }
     ],
     "2026": [
@@ -178,37 +193,49 @@
         "category": "Senior med spillerett",
         "price": 3200,
         "description": "Medlem med spillerett, 20 år og eldre.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Senior with playing rights",
+        "description_en": "Medlem med Playing rights, 20 years and eldre."
       },
       {
         "category": "Junior 13-19",
         "price": 1500,
         "description": "Juniormedlem 13-19 år.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19",
+        "description_en": "Junior member 13-19 years."
       },
       {
         "category": "Junior 6-12",
         "price": 900,
         "description": "Juniormedlem 6-12 år.",
-        "ageRange": "6-12"
+        "ageRange": "6-12",
+        "name_en": "Junior 6-12",
+        "description_en": "Junior member 6-12 years."
       },
       {
         "category": "Senior uten spillerett",
         "price": 1900,
         "description": "Må løse greenfee ved spill.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Senior without playing rights",
+        "description_en": "Må løse green fee when playing."
       },
       {
         "category": "Long distance",
         "price": 1300,
         "description": "Må løse greenfee. Postnummer utenfor 7000-7999.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Long distance",
+        "description_en": "Må løse green fee. Postcode outside 7000-7999."
       },
       {
         "category": "Deltidsfrosting",
         "price": 2400,
         "description": "Må være hovedmedlem i annen klubb. Løser ikke greenfee.",
-        "ageRange": "20+"
+        "ageRange": "20+",
+        "name_en": "Part-time member",
+        "description_en": "Must be Full member in another club. Løser ikke green fee."
       }
     ]
   },
@@ -253,5 +280,8 @@
     "createdAt": "2025-10-31T11:30:50.008Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJq8j3i89AbUYRXXz6nPza0NE"
+  "googlePlaceId": "ChIJq8j3i89AbUYRXXz6nPza0NE",
+  "slug_en": "frosta-golf-club",
+  "name_en": "Frosta Golf Club",
+  "description_en": "6-hole parkland course by the sea at Vaagen on the Korsnes peninsula. Self-service, unlimited day play."
 }

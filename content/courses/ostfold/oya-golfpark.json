@@ -1,6 +1,8 @@
 {
   "slug": "oya-golfpark",
+  "slug_en": "oya-golf-park",
   "name": "Øya Golfpark",
+  "name_en": "Oya Golf Park",
   "formerName": null,
   "region": "Østfold",
   "city": "Hafslundsøy",
@@ -36,9 +38,15 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Sentrumsnær pay & play executive kortbane på Hafslundsøy i Sarpsborg, etablert 1988 på tidligere gårdseiendom. Over 200 dekar stort område. Par 56 (18 par-3 hull), lengde 2275m. 4 forskjellige tees gjør banen tilgjengelig for alle. Fleksibelt oppsett: spill 3, 6, 9 eller 18 hull etter ønske. Perfekt for raskt spill, kort-spill-trening og familiegolf. Driving range, putting green, chipping area, teaching pro. I tillegg 18-hulls disc golf-bane. Pay & Play - ingen medlemskap nødvendig, kjøp starttid i pro shop eller selvbetjeningsautomat. Golf for alle!"
+    "viewDescription": "Sentrumsnær pay & play executive kortbane på Hafslundsøy i Sarpsborg, etablert 1988 på tidligere gårdseiendom. Over 200 dekar stort område. Par 56 (18 par-3 hull), lengde 2275m. 4 forskjellige tees gjør banen tilgjengelig for alle. Fleksibelt oppsett: spill 3, 6, 9 eller 18 hull etter ønske. Perfekt for raskt spill, kort-spill-trening og familiegolf. Driving range, putting green, chipping area, teaching pro. I tillegg 18-hulls disc golf-bane. Pay & Play - ingen medlemskap nødvendig, kjøp starttid i pro shop eller selvbetjeningsautomat. Golf for alle!",
+    "terrain_en": "Varied terrain on former farmland",
+    "courseType_en": "18-hole executive pay & play short course",
+    "signatureHole_en": "Scenic area on former farmland",
+    "scenicHole_en": "Scenic area on former farmland",
+    "viewDescription_en": "Centrally located pay & play executive short course on Hafslundsoy in Sarpsborg, established 1988 on former farmland. Over 200 decares of grounds. Par 56 (18 par-3 holes), length 2,275m. 4 different tees make the course accessible for all. Flexible setup: play 3, 6, 9 or 18 holes as desired. Perfect for quick rounds, short game practice and family golf. Driving range, putting green, chipping area, teaching pro. Also features an 18-hole disc golf course. Pay & Play - no membership required, purchase tee time in pro shop or self-service kiosk. Golf for everyone!"
   },
   "description": "Øya Golfpark er en sentrumsnær pay & play executive kortbane på Hafslundsøy i Sarpsborg, etablert 1988. Opprinnelig gårdseiendom utviklet som kortbane. Par 56 for 18 hull (alle par 3), lengde 2275 meter fra lengste tee. Anlegget kan spilles som 3, 6, 9 eller 18 hull, perfekt for raskt spill og kort-spill-trening. 4 forskjellige tees fra 1640m til 2275m gjør banen tilgjengelig for alle nivåer. Over 200 dekar stort område. Tilbyr også 18-hulls disc golf-bane. Golf for alle - ingen medlemskap nødvendig, bare møt opp og spill!",
+  "description_en": "Oya Golf Park is a centrally located pay & play executive short course on Hafslundsoy in Sarpsborg, established 1988. Originally farmland developed as a short course. Par 56 for 18 holes (all par 3), length 2,275 metres from the longest tee. The facility can be played as 3, 6, 9 or 18 holes, perfect for quick rounds and short game practice. 4 different tees from 1,640m to 2,275m make the course accessible for all levels. Over 200 decares of grounds. Also offers an 18-hole disc golf course. Golf for everyone - no membership required, just turn up and play!",
   "contact": {
     "phone": "+47 69 14 95 50",
     "email": "oyagolf@online.no",
@@ -63,7 +71,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Banen stenges om vinteren"
+    "winterUse": "Banen stenges om vinteren",
+    "winterUse_en": "The course is closed during winter"
   },
   "visitors": {
     "welcome": true,
@@ -128,7 +137,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Pay & Play - ingen medlemskap nødvendig"
+      "notes": "Pay & Play - ingen medlemskap nødvendig",
+      "greenFeeDescription_en": "Pay & Play green fee for short course. Purchase tee time in pro shop or self-service kiosk at entrance. The facility can be played as 3, 6, 9 or 18 holes. Contact the club for exact 2025 prices.",
+      "notes_en": "Pay & Play - no membership required"
     }
   },
   "membershipPricing": {},

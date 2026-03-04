@@ -36,7 +36,11 @@
     "par4Count": 1,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Naturskjønne omgivelser på øya Sleneset langt ute i havet på Helgelandskysten. Tilgjengelig med ferje fra Stokkvågen eller hurtigbåt."
+    "viewDescription": "Naturskjønne omgivelser på øya Sleneset langt ute i havet på Helgelandskysten. Tilgjengelig med ferje fra Stokkvågen eller hurtigbåt.",
+    "terrain_en": "Undulating",
+    "courseType_en": "Par-3 course",
+    "designer_en": "Stein Isaksen",
+    "viewDescription_en": "Scenic surroundings on the island of Sleneset far out at sea on the Helgeland coast. Accessible by ferry from Stokkvaagen or express boat."
   },
   "description": "Sleneset Golfpark ligger i naturskjønne omgivelser på øya Sleneset på Helgelandskysten. Banen er en par 3-bane med 6 hull som utbygges og utbedres kontinuerlig.",
   "contact": {
@@ -73,7 +77,8 @@
   "season": {
     "start": "Mai",
     "end": "September",
-    "winterUse": "Banen stenges om vinteren"
+    "winterUse": "Banen stenges om vinteren",
+    "winterUse_en": "The course closes for winter"
   },
   "visitors": {
     "welcome": true,
@@ -138,7 +143,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Greenfee loses for utgang pa forste tee. Pro Shop har utstyr til leie og salg."
+      "notes": "Greenfee loses for utgang pa forste tee. Pro Shop har utstyr til leie og salg.",
+      "greenFeeDescription_en": "Day green fee NOK 100 for the whole day. Members without agreed playing rights and other visitors.",
+      "notes_en": "Green fee payable at the exit on the first tee. Pro shop has equipment for hire and sale."
     }
   },
   "membershipPricing": {
@@ -191,5 +198,8 @@
     "createdAt": "2025-10-31T09:43:41.987Z",
     "updatedAt": "2026-02-14T16:09:00.000Z"
   },
-  "googlePlaceId": "ChIJd9LVyegWdUYRGekYMh3rMLg"
+  "googlePlaceId": "ChIJd9LVyegWdUYRGekYMh3rMLg",
+  "slug_en": "sleneset-golf-club",
+  "name_en": "Sleneset Golf Club",
+  "description_en": "Sleneset Golf Park is set in scenic surroundings on the island of Sleneset on the Helgeland coast. The course is a par-3 course with 6 holes that is continuously being expanded and improved."
 }

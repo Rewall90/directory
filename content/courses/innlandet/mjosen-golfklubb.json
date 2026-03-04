@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Ved Moelven med fine naturopplevelser"
+    "viewDescription": "Ved Moelven med fine naturopplevelser",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "Woodland and parkland course (being converted to two 9-hole courses)",
+    "viewDescription_en": "Near Moelv with fine nature experiences"
   },
   "description": "Banen på Mjøsen har sitt særpreg som 18-hulls bane med fine naturopplevelser. VIKTIG: Klubben er i ferd med å konvertere fra en 18-hulls bane til to 9-hulls baner (annonsert 26. september 2025).",
   "contact": {
@@ -150,7 +153,9 @@
       "neighborClubDiscountJunior": 50,
       "neighborClubDiscount9Holes": 50,
       "cooperativeClubs": "Atlungstad, Elverum, Gjøvik & Toten, Hafjell, Kongsvinger, Randsfjorden, Skei, Sorknes, Trysil, Valdres GK",
-      "notes": "NSG medlemmer: 225 kr per runde (3 runder per sesong, hverdager før kl 15:00, krever gyldig NSG-kort). 5 greenfee-hefte: 1950 kr (ikke overførbart). Golfamore Plus tilgjengelig til kl 14:00 hverdager. VTG kurs: Voksne 4400 kr, Student 2600 kr (inkl. spill, medlemskap og ukentlig gruppetrening). Naboklubber får rabatt med betalt 2025 medlemskap."
+      "notes": "NSG medlemmer: 225 kr per runde (3 runder per sesong, hverdager før kl 15:00, krever gyldig NSG-kort). 5 greenfee-hefte: 1950 kr (ikke overførbart). Golfamore Plus tilgjengelig til kl 14:00 hverdager. VTG kurs: Voksne 4400 kr, Student 2600 kr (inkl. spill, medlemskap og ukentlig gruppetrening). Naboklubber får rabatt med betalt 2025 medlemskap.",
+      "greenFeeDescription_en": "Adults: Weekday 450/300 kr, Weekend 580/300 kr. Junior/Student: Weekday 200/150 kr, Weekend 250/150 kr. Partner clubs: Adults 350 kr (weekday 18 holes), 480 kr (weekend 18 holes), 200 kr (weekday 9 holes), 250 kr (weekend 9 holes). Junior partner clubs: 150 kr (weekday 18 holes), 200 kr (weekend 18 holes), 100 kr (9 holes). 5-round green fee booklet: 1,950 kr (non-transferable).",
+      "notes_en": "NSG members: 225 kr per round (3 rounds per season, weekdays before 15:00, requires valid NSG card). 5-round green fee booklet: 1,950 kr (non-transferable). Golfamore Plus available until 14:00 weekdays. VTG course: Adults 4,400 kr, Students 2,600 kr (incl. play, membership and weekly group coaching). Partner clubs receive a discount with paid 2025 membership."
     }
   },
   "membershipPricing": {
@@ -234,5 +239,8 @@
     "createdAt": "2025-10-31T07:18:13.251Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJBc7YNy14akYRYpVc3dtRq8M"
+  "googlePlaceId": "ChIJBc7YNy14akYRYpVc3dtRq8M",
+  "slug_en": "mjosen-golf-club",
+  "name_en": "Mjosen Golf Club",
+  "description_en": "The course at Mjosen has its own distinctive character as an 18-hole course offering fine nature experiences. IMPORTANT: The club is in the process of converting from an 18-hole course to two 9-hole courses (announced 26 September 2025)."
 }

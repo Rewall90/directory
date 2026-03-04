@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Beautiful coastal nature with old rock formations and views from the clubhouse terrace overlooking the course and driving range"
+    "viewDescription": "Beautiful coastal nature with old rock formations and views from the clubhouse terrace overlooking the course and driving range",
+    "terrain_en": "Woodland and parkland with rock formations",
+    "courseType_en": "Forest/Parkland",
+    "viewDescription_en": "Beautiful coastal nature with old rock formations and views from the clubhouse terrace overlooking the course and driving range"
   },
   "description": "En utfordrende 9-hulls skog- og parkbane som slynger seg gjennom gamle fjellformasjoner i vakker kystlig natur. Beskrevet som et lite golfparadis på den solrike Telemarkkysten.",
   "contact": {
@@ -130,7 +133,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Selvbetjening via Vipps #98862 utenom åpningstid"
+      "notes": "Selvbetjening via Vipps #98862 utenom åpningstid",
+      "greenFeeDescription_en": "9-holess runde adult: NOK 350, dagsgreen fee: NOK 480. Junior/student: 9 holes NOK 180, dagsgreen fee NOK 280.",
+      "notes_en": "Self-service via Vipps #98862 outside opening hours"
     }
   },
   "membershipPricing": {
@@ -216,5 +221,8 @@
     "createdAt": "2025-10-31T12:22:38.477Z",
     "updatedAt": "2026-02-14T15:55:00.000Z"
   },
-  "googlePlaceId": "ChIJtXRSgGXhRkYR92MDrfz5BYg"
+  "googlePlaceId": "ChIJtXRSgGXhRkYR92MDrfz5BYg",
+  "slug_en": "bamble-golf-club",
+  "name_en": "Bamble Golf Club",
+  "description_en": "A challenging 9-hole woodland and parkland course winding through ancient rock formations in beautiful coastal scenery. Described as a little golfing paradise on the sunny Telemark coast."
 }

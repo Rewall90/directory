@@ -1,6 +1,8 @@
 {
   "slug": "mork-golfklubb",
+  "slug_en": "mork-golf-club",
   "name": "Mørk Golfklubb",
+  "name_en": "Mork Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Spydeberg",
@@ -36,9 +38,15 @@
     "par4Count": 10,
     "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": "Fantastisk 18-hulls park- og skogsbane i naturskjønne omgivelser ved Spydeberg. Grunnlagt 1989, hovedbane bygget 2000. Totalt 33 hull tilgjengelig: 18-hulls hovedbane (par 72), 9-hulls bane (par 31, bygget 1999) og 6-hulls kortbane. Fredelig beliggenhet med bare fuglekvitter og rolige elvestryk. Populær blant både amatører og profesjonelle (Ecco Tour). Omfattende treningsfasiliteter med driving range, putting green, chipping area og practice bunker. Teaching pro Fraser Mudie. Restaurant Mørk Golfkro tilgjengelig ved klubbhuset."
+    "viewDescription": "Fantastisk 18-hulls park- og skogsbane i naturskjønne omgivelser ved Spydeberg. Grunnlagt 1989, hovedbane bygget 2000. Totalt 33 hull tilgjengelig: 18-hulls hovedbane (par 72), 9-hulls bane (par 31, bygget 1999) og 6-hulls kortbane. Fredelig beliggenhet med bare fuglekvitter og rolige elvestryk. Populær blant både amatører og profesjonelle (Ecco Tour). Omfattende treningsfasiliteter med driving range, putting green, chipping area og practice bunker. Teaching pro Fraser Mudie. Restaurant Mørk Golfkro tilgjengelig ved klubbhuset.",
+    "terrain_en": "Parkland and woodland landscape",
+    "courseType_en": "18-hole parkland and woodland course",
+    "signatureHole_en": "Scenic surroundings with woodland and parkland",
+    "scenicHole_en": "Scenic surroundings with woodland and parkland",
+    "viewDescription_en": "Fantastic 18-hole parkland and woodland course in scenic surroundings near Spydeberg. Founded 1989, main course built 2000. 33 holes in total: 18-hole main course (par 72), 9-hole course (par 31, built 1999) and 6-hole short course. Peaceful setting with only birdsong and gentle streams. Popular with both amateurs and professionals (Ecco Tour). Comprehensive practice facilities with driving range, putting green, chipping area and practice bunker. Teaching pro Fraser Mudie. Restaurant Mork Golfkro available at the clubhouse."
   },
   "description": "Fantastisk 18-hulls park- og skogsbane i naturskjønne omgivelser ved Spydeberg, etablert 2000. Par 72, lengde 5545 meter fra gule tees. Klubben grunnlagt 1989. I tillegg til hovedbanen har anlegget også en 9-hulls bane (par 31, bygget 1999) og en 6-hulls kortbane - totalt 33 hull! Utrolig morsom og utfordrende bane lagt i fredelige omgivelser hvor bare fuglekvitter og rolige elvestryk kan forstyrre konsentrasjonen. Variert utforming som gir alle en utfordring etter hvor aggressivt man ønsker å spille. Selv proffene på Ecco Tour storkoser seg her! Banen vender tilbake til klubbhuset etter 9 hull, slik at man kan få forfriskninger ved Mørk Golfkro før de siste 9 hullene.",
+  "description_en": "Fantastic 18-hole parkland and woodland course in scenic surroundings near Spydeberg, established 2000. Par 72, length 5,545 metres from yellow tees. Club founded 1989. In addition to the main course, the facility also has a 9-hole course (par 31, built 1999) and a 6-hole short course - 33 holes in total! Incredibly enjoyable and challenging course set in peaceful surroundings where only birdsong and gentle streams can disturb your concentration. Varied layout that challenges everyone depending on how aggressively one wishes to play. Even the professionals on the Ecco Tour thoroughly enjoy themselves here! The course returns to the clubhouse after 9 holes, so you can get refreshments at Mork Golfkro before the final 9 holes.",
   "contact": {
     "phone": "+47 69 83 33 30",
     "email": "post@morkgolf.no",
@@ -63,7 +71,8 @@
   "season": {
     "start": "April",
     "end": "November",
-    "winterUse": "Anlegget stenges om vinteren. Skiløyper tilgjengelig i vintersesongen."
+    "winterUse": "Anlegget stenges om vinteren. Skiløyper tilgjengelig i vintersesongen.",
+    "winterUse_en": "The facility is closed during winter. Cross-country ski trails available in the winter season."
   },
   "visitors": {
     "welcome": true,
@@ -133,7 +142,9 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Medlemsgjest: 150kr rabatt. Skjeberg GK: Gratis spill torsdager + 150kr rabatt. Moss & Rygge, Oppegård GK: 150kr rabatt. Borregaard GK: 100kr rabatt. Hakadal GK Plus: Gratis spill hverdager, helg etter 14:00. NSG: 150kr rabatt hverdager.",
-      "vipps": "136281"
+      "vipps": "136281",
+      "greenFeeDescription_en": "18 holes: 495 NOK (weekday), 595 NOK (weekend/public holiday). Junior up to 19 years: 250 NOK (weekday), 295 NOK (weekend). 9-hole course: 295 NOK (adult), 150 NOK (junior). Hcp 54 requirement. Vipps 136281 when pro shop is closed.",
+      "notes_en": "Guest of member: 150 NOK discount. Skjeberg GK: Free play Thursdays + 150 NOK discount. Moss & Rygge, Oppegaard GK: 150 NOK discount. Borregaard GK: 100 NOK discount. Hakadal GK Plus: Free play weekdays, weekends after 14:00. NSG: 150 NOK discount weekdays."
     },
     "2026": {
       "currency": "NOK",
@@ -154,7 +165,9 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "notes": "Medlemsgjest: 150kr rabatt. Skjeberg GK: Gratis spill torsdager + 150kr rabatt. Moss & Rygge, Oppegård GK: 150kr rabatt. Borregaard GK: 100kr rabatt. Hakadal GK Plus: Gratis spill hverdager, helg etter 14:00. NSG: 150kr rabatt hverdager.",
-      "vipps": "136281"
+      "vipps": "136281",
+      "greenFeeDescription_en": "18 holes: 495 NOK (weekday), 595 NOK (weekend/public holiday). Junior up to 19 years: 250 NOK (weekday), 295 NOK (weekend). 9-hole course: 295 NOK (adult), 150 NOK (junior). Hcp 54 requirement. Vipps 136281 when pro shop is closed.",
+      "notes_en": "Guest of member: 150 NOK discount. Skjeberg GK: Free play Thursdays + 150 NOK discount. Moss & Rygge, Oppegaard GK: 150 NOK discount. Borregaard GK: 100 NOK discount. Hakadal GK Plus: Free play weekdays, weekends after 14:00. NSG: 150 NOK discount weekdays."
     }
   },
   "membershipPricing": {},

@@ -36,7 +36,13 @@
     "par4Count": 2,
     "par5Count": 1,
     "mountainViews": false,
-    "viewDescription": "Herdla Golfklubb - 9-hulls parkland/linksbane på idylliske Herdla, Askøy. Par 31 (62 for 18h), 1752m. Designet av skotsk arkitekt Graeme Webster. Flat til lett bølgende. Driving range med 22 utslag, putting/pitching/chipping greens, practice bunker. Teaching pro. Kort avstand mellom hull. Vennlig bane. 45 min fra Bergen. Åpent året rundt unntatt frost/snø."
+    "viewDescription": "Herdla Golfklubb - 9-hulls parkland/linksbane på idylliske Herdla, Askøy. Par 31 (62 for 18h), 1752m. Designet av skotsk arkitekt Graeme Webster. Flat til lett bølgende. Driving range med 22 utslag, putting/pitching/chipping greens, practice bunker. Teaching pro. Kort avstand mellom hull. Vennlig bane. 45 min fra Bergen. Åpent året rundt unntatt frost/snø.",
+    "terrain_en": "Parkland/Links",
+    "courseType_en": "9-hole parkland/links course",
+    "designer_en": "Graeme Webster (Scottish architect)",
+    "signatureHole_en": "Idyllic location on Herdla, Askoy",
+    "scenicHole_en": "Idyllic location on Herdla, Askoy",
+    "viewDescription_en": "Herdla Golf Club - 9-hole parkland/links course on idyllic Herdla, Askoy. Par 31 (62 for 18 holes), 1,752m. Designed by Scottish architect Graeme Webster. Flat to gently undulating. Driving range with 22 bays, putting/pitching/chipping greens, practice bunker. Teaching pro. Short distances between holes. Friendly course. 45 min from Bergen. Open year-round except frost/snow."
   },
   "description": "Herdla Golfklubb - 9-hulls parkland/linksbane på idylliske Herdla, Askøy. Startet som 6-hulls bane i 2001, fullført med 9 hull i 2009 designet av skotsk arkitekt Graeme Webster. Par 31 (62 for 18 hull), 1752 meter. Flat til lett bølgende terreng. Kort avstand mellom green og neste tee. Typisk 'vennlig bane'. Ca 45 min fra Bergen sentrum og Bergen lufthavn Flesland.",
   "contact": {
@@ -65,7 +71,8 @@
   "season": {
     "start": null,
     "end": null,
-    "winterUse": "Vanligvis åpent med sommergreener året rundt, unntatt ved frost, snø og is"
+    "winterUse": "Vanligvis åpent med sommergreener året rundt, unntatt ved frost, snø og is",
+    "winterUse_en": "Usually open with summer greens year-round, except during frost, snow and ice"
   },
   "visitors": {
     "welcome": true,
@@ -130,7 +137,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Spill 18 hull for kun 290 kr med tee-tider 10:00-11:00 mandag-fredag. Kort avstand mellom green og neste tee - lett å gå. Vennlig bane."
+      "notes": "Spill 18 hull for kun 290 kr med tee-tider 10:00-11:00 mandag-fredag. Kort avstand mellom green og neste tee - lett å gå. Vennlig bane.",
+      "greenFeeDescription_en": "Green fee 2025: Weekday 18 holes 250 NOK / 9 holes 200 NOK. Weekend/bank holiday 18 holes 350 NOK / 9 holes 250 NOK. Special offer: Play 18 holes for just 290 NOK with tee times 10:00-11:00 Monday-Friday. Junior (up to 18 years) discount available. Golfamore partners receive half-price green fee.",
+      "notes_en": "Play 18 holes for just 290 NOK with tee times 10:00-11:00 Monday-Friday. Short distances between green and next tee - easy to walk. Friendly course."
     },
     "2026": {
       "currency": "NOK",
@@ -155,7 +164,9 @@
       "specialOfferValidUntil": "30. oktober 2025",
       "specialOfferNotes": "Gjelder t.o.m 30. oktober 2025. Kan ikke kombineres med andre tilbud.",
       "freeTrial": null,
-      "notes": "Golden Hour tilbud: 18 hull 290 kr / 9 hull 230 kr med tee-tider 10:00-11:00 man-fre (t.o.m. 30. oktober 2025). Spillere med NGF/NGA frikort må sende mail til info@herdlagolf.no senest 48 timer før start."
+      "notes": "Golden Hour tilbud: 18 hull 290 kr / 9 hull 230 kr med tee-tider 10:00-11:00 man-fre (t.o.m. 30. oktober 2025). Spillere med NGF/NGA frikort må sende mail til info@herdlagolf.no senest 48 timer før start.",
+      "greenFeeDescription_en": "Green fee from 1 July 2025: All days 9 holes 390 NOK, 18 holes 490 NOK. Golden Hour (Mon-Fri 10:00-11:00): 9 holes 230 NOK, 18 holes 290 NOK (until 30 October 2025, cannot be combined with other offers). Junior up to 18 years: 9 holes 199 NOK, 18 holes 250 NOK (25 Apr-30 Oct 2025). NO SHOW will be invoiced.",
+      "notes_en": "Golden Hour offer: 18 holes 290 NOK / 9 holes 230 NOK with tee times 10:00-11:00 Mon-Fri (until 30 October 2025). Players with NGF/NGA free pass must email info@herdlagolf.no at least 48 hours before start."
     }
   },
   "membershipPricing": {
@@ -232,5 +243,8 @@
     "createdAt": "2025-10-31T10:16:57.593Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJO27Je9YfPUYRk9tICd5VohY"
+  "googlePlaceId": "ChIJO27Je9YfPUYRk9tICd5VohY",
+  "slug_en": "herdla-golf-club",
+  "name_en": "Herdla Golf Club",
+  "description_en": "Herdla Golf Club - 9-hole parkland/links course on idyllic Herdla, Askoy. Started as a 6-hole course in 2001, completed with 9 holes in 2009 designed by Scottish architect Graeme Webster. Par 31 (62 for 18 holes), 1,752 metres. Flat to gently undulating terrain. Short distances between green and next tee. A typically 'friendly course'. Approx. 45 minutes from Bergen city centre and Bergen Airport Flesland."
 }

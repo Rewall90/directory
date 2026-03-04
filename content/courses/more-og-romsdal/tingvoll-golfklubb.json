@@ -1,6 +1,8 @@
 {
   "slug": "tingvoll-golfklubb",
+  "slug_en": "tingvoll-golf-club",
   "name": "Tingvoll Golfklubb",
+  "name_en": "Tingvoll Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Tingvoll",
@@ -36,9 +38,15 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Sørvendt beliggenhet ned mot fjorden med naturskjønne omgivelser. Idyllisk plassering ved Øydegård."
+    "viewDescription": "Sørvendt beliggenhet ned mot fjorden med naturskjønne omgivelser. Idyllisk plassering ved Øydegård.",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "9-hole course (played two rounds for 18 holes)",
+    "signatureHole_en": "South-facing location towards the fjord with scenic surroundings",
+    "scenicHole_en": "South-facing location towards the fjord with scenic surroundings",
+    "viewDescription_en": "South-facing location towards the fjord with scenic surroundings. Idyllic setting at Oydegard."
   },
   "description": "Idyllisk 9-hulls golfbane ved Øydegård som spilles to ganger for 18 hull med par 62. Banen ligger sørvendt ned mot fjorden, noe som gir tidlig vår og sein høst = lang golfsesong. Variert terreng med naturlige hindringer og godt vedlikeholdte fairways. Klubben ble grunnlagt 18. mai 2006 med visjonen 'Golf – en folkesport' og mottot 'kultur – miljø – folkelig'. Banen er i stadig utvikling med hjelp av engasjerte dugnadsgjengar.",
+  "description_en": "Idyllic 9-hole golf course at Oydegard played twice for 18 holes with par 62. The course faces south towards the fjord, providing an early spring and late autumn for a long golf season. Varied terrain with natural hazards and well-maintained fairways. The club was founded on 18 May 2006 with the vision 'Golf - a people's sport' and the motto 'culture - environment - popular'. The course is continuously being developed with help from dedicated volunteers.",
   "contact": {
     "phone": "+47 944 34 133",
     "email": "post@tingvollgolf.no",
@@ -68,7 +76,8 @@
   "season": {
     "start": "Mars",
     "end": "Oktober",
-    "winterUse": "Simulator tilgjengelig for medlemmer. Sørvendt beliggenhet gir tidlig sesongstart og sein avslutning."
+    "winterUse": "Simulator tilgjengelig for medlemmer. Sørvendt beliggenhet gir tidlig sesongstart og sein avslutning.",
+    "winterUse_en": "Simulator available for members. South-facing location provides early season start and late finish."
   },
   "visitors": {
     "welcome": true,
@@ -134,7 +143,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "VTG-kurs med fri spillerett ut året man tar kurset"
+      "notes": "VTG-kurs med fri spillerett ut året man tar kurset",
+      "greenFeeDescription_en": "Adults 400 NOK/day, junior (under 19 years) 250 NOK, children (12 years and younger) 150 NOK",
+      "notes_en": "VTG course with free playing rights for the remainder of the year the course is taken"
     },
     "2026": {
       "currency": "NOK",
@@ -154,7 +165,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "VTG-kurs med fri spillerett ut året man tar kurset. Golfbilutleie forutsetter reelt behov."
+      "notes": "VTG-kurs med fri spillerett ut året man tar kurset. Golfbilutleie forutsetter reelt behov.",
+      "greenFeeDescription_en": "Adults 400 NOK/day, junior (under 19 years) 250 NOK, children (12 years and younger) 150 NOK. Includes all golf for the entire day.",
+      "notes_en": "VTG course with free playing rights for the remainder of the year the course is taken. Golf buggy rental requires genuine need."
     }
   },
   "membershipPricing": {
@@ -176,7 +189,15 @@
       "distanceMembershipDescription": "Fjernmedlem - uten spillerett",
       "dugnadsrabatt": "10 timer dugnad gir 1000 kr rabatt på neste års medlemskap",
       "membershipStatus": "open",
-      "notes": "Utmelding eller endring av medlemskap må sendes til klubben senest 31. desember."
+      "notes": "Utmelding eller endring av medlemskap må sendes til klubben senest 31. desember.",
+      "fullMembershipDescription_en": "Adult member without volunteer obligation - includes playing rights",
+      "seniorMembershipDescription_en": "Senior 80+ years without volunteer obligation - includes playing rights",
+      "studentMembershipDescription_en": "Full-time student up to 26 years - includes playing rights",
+      "juniorMembershipDescription_en": "Youth 12-19 years - includes playing rights",
+      "childMembershipDescription_en": "Child under 12 years - includes playing rights",
+      "familyMembershipDescription_en": "Family membership (2 adults + children under 19 at the same address) - includes playing rights",
+      "distanceMembershipDescription_en": "Distance member - without playing rights",
+      "notes_en": "Cancellation or changes to membership must be sent to the club by 31 December at the latest."
     }
   },
   "ratings": {

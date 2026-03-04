@@ -1,6 +1,8 @@
 {
   "slug": "ekholtbruket-golfklubb",
+  "slug_en": "ekholtbruket-golf-club",
   "name": "Ekholtbruket Golfklubb",
+  "name_en": "Ekholtbruket Golf Club",
   "formerName": null,
   "region": "Østfold",
   "city": "Moss",
@@ -36,9 +38,13 @@
     "par4Count": 3,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Flatt og tilgjengelig nær Moss; hyggelig atmosfære."
+    "viewDescription": "Flatt og tilgjengelig nær Moss; hyggelig atmosfære.",
+    "terrain_en": "Flat parkland",
+    "courseType_en": "9-hole parkland course (short)",
+    "viewDescription_en": "Flat and accessible near Moss; pleasant atmosphere."
   },
   "description": "Liten og trivelig 9-hulls parkbane; par 30.",
+  "description_en": "Small and pleasant 9-hole parkland course; par 30.",
   "contact": {
     "phone": "+47 415 48 995",
     "email": "post@ekholtgolf.no",
@@ -123,7 +129,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Tirsdager 16-18: Reservert damespillere. Torsdager 17:30-19:30: Kun for egne medlemmer."
+      "notes": "Tirsdager 16-18: Reservert damespillere. Torsdager 17:30-19:30: Kun for egne medlemmer.",
+      "greenFeeDescription_en": "Green fee 300 NOK, Junior 150 NOK. Payment via Vipps #518274. Not pay-and-play - valid playing licence required. All guests must sign the guest book at the clubhouse.",
+      "notes_en": "Tuesdays 16-18: Reserved for ladies. Thursdays 17:30-19:30: Members only."
     }
   },
   "membershipPricing": {
@@ -136,7 +144,8 @@
       "junior0to12": 850,
       "currency": "NOK",
       "membershipStatus": "open",
-      "vipps": "518274"
+      "vipps": "518274",
+      "studentDescription_en": "Full-time student 20-23 years with playing rights"
     }
   },
   "ratings": {

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Sotra Golfklubb - 9-hulls park/skogsbane grunnlagt 2000 i Kolltveit på Sotra, Øygarden. Par 30 (60 for 18h), 2728m. Pitch & Putt-bane (9h, 42-73m). Driving range åpen hele året (24h, flomlys til kl 22). 2 simulatorer. Putting green, practice bunker. Klubbhus med pro shop og kiosk. Tralle-utleie. Besøkende må være gjest av medlem i helgene."
+    "viewDescription": "Sotra Golfklubb - 9-hulls park/skogsbane grunnlagt 2000 i Kolltveit på Sotra, Øygarden. Par 30 (60 for 18h), 2728m. Pitch & Putt-bane (9h, 42-73m). Driving range åpen hele året (24h, flomlys til kl 22). 2 simulatorer. Putting green, practice bunker. Klubbhus med pro shop og kiosk. Tralle-utleie. Besøkende må være gjest av medlem i helgene.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "9-hole parkland/woodland course with Pitch & Putt course",
+    "signatureHole_en": "Parkland/woodland course in Kolltveit on Sotra",
+    "scenicHole_en": "Parkland/woodland course in Kolltveit on Sotra",
+    "viewDescription_en": "Sotra Golf Club - 9-hole parkland/woodland course established 2000 in Kolltveit on Sotra, Oygarden. Par 30 (60 for 18 holes), 2,728m. Pitch & Putt course (9 holes, 42-73m). Driving range open year-round (24h, floodlights until 22:00). 2 simulators. Putting green, practice bunker. Clubhouse with pro shop and kiosk. Pull trolley hire. Visitors must be guests of a member at weekends."
   },
   "description": "Sotra Golfklubb - 9-hulls park/skogsbane grunnlagt 2000 i Kolltveit. Hovedbane: par 30 (60 for 18 hull når spilt 2 ganger), 2984 yards (ca 2728m). I tillegg har klubben en 9-hulls Pitch & Putt-bane for trening med hulllengder fra 42 til 73 meter. Ligger på Sotra, kort kjøretur fra Bergen.",
   "contact": {
@@ -58,7 +63,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Driving range åpen hele året, 2 simulatorer tilgjengelig for bestilling"
+    "winterUse": "Driving range åpen hele året, 2 simulatorer tilgjengelig for bestilling",
+    "winterUse_en": "Driving range open year-round, 2 simulators available for booking"
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +129,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Driving range åpen 24/7 med flomlys til 22:00. Pitch & Putt åpen alle dager. Simulator booking via Alba. Medlemmer booker 5 dager før, gjester 4 dager før. No-show faktureres full greenfee."
+      "notes": "Driving range åpen 24/7 med flomlys til 22:00. Pitch & Putt åpen alle dager. Simulator booking via Alba. Medlemmer booker 5 dager før, gjester 4 dager før. No-show faktureres full greenfee.",
+      "greenFeeDescription_en": "Green fee 2025: Guests 330 NOK (all days), 230 NOK (weekdays 07:00-11:50 May-Sept). Members 280/180 NOK. Junior 150/100 NOK. 50% discount on additional rounds. Max HCP per flight: 160, max 2 players with HCP 36+.",
+      "notes_en": "Driving range open 24/7 with floodlights until 22:00. Pitch & Putt open every day. Simulator booking via Alba. Members book 5 days ahead, guests 4 days ahead. No-show is charged full green fee."
     }
   },
   "membershipPricing": {
@@ -132,43 +140,50 @@
         "category": "child",
         "price": 500,
         "description": "Junior (0-9 år): 500 kr/år inkl. årskort.",
-        "ageRange": "0-9 år"
+        "ageRange": "0-9 år",
+        "description_en": "Junior (0-9 years): 500 NOK/year incl. season pass."
       },
       {
         "category": "junior",
         "price": 1000,
         "description": "Junior (10-15 år): 1000 kr/år inkl. årskort.",
-        "ageRange": "10-15 år"
+        "ageRange": "10-15 år",
+        "description_en": "Junior (10-15 years): 1,000 NOK/year incl. season pass."
       },
       {
         "category": "junior",
         "price": 1500,
         "description": "Junior (16-19 år): 1500 kr/år inkl. årskort.",
-        "ageRange": "16-19 år"
+        "ageRange": "16-19 år",
+        "description_en": "Junior (16-19 years): 1,500 NOK/year incl. season pass."
       },
       {
         "category": "youngAdult",
         "price": 4400,
         "description": "Ung voksen (20-25 år): 4400 kr/år inkl. årskort.",
-        "ageRange": "20-25 år"
+        "ageRange": "20-25 år",
+        "description_en": "Young Adult (20-25 years): 4,400 NOK/year incl. season pass."
       },
       {
         "category": "youngAdult",
         "price": 5800,
         "description": "Ung voksen (26-29 år): 5800 kr/år inkl. årskort.",
-        "ageRange": "26-29 år"
+        "ageRange": "26-29 år",
+        "description_en": "Young Adult (26-29 years): 5,800 NOK/year incl. season pass."
       },
       {
         "category": "adult",
         "price": 7200,
         "description": "Voksen (30+ år): 7200 kr/år inkl. årskort.",
-        "ageRange": "30+ år"
+        "ageRange": "30+ år",
+        "description_en": "Adult (30+ years): 7,200 NOK/year incl. season pass."
       },
       {
         "category": "greenfee",
         "price": 2000,
         "description": "Greenfee-medlemskap uten spillerett: 2000 kr/år. Betaler greenfee per runde.",
-        "ageRange": null
+        "ageRange": null,
+        "description_en": "Green fee membership without playing rights: 2,000 NOK/year. Pay green fee per round."
       }
     ]
   },
@@ -224,5 +239,8 @@
     "createdAt": "2025-10-31T10:17:00.961Z",
     "updatedAt": "2026-02-14T20:34:00.000Z"
   },
-  "googlePlaceId": "ChIJYbX51k_kPEYRQL9-ucbdZeI"
+  "googlePlaceId": "ChIJYbX51k_kPEYRQL9-ucbdZeI",
+  "slug_en": "sotra-golf-club",
+  "name_en": "Sotra Golf Club",
+  "description_en": "Sotra Golf Club - 9-hole parkland/woodland course established in 2000 in Kolltveit. Main course: par 30 (60 for 18 holes played twice), 2,984 yards (approx. 2,728m). The club also has a 9-hole Pitch & Putt course for practice with hole lengths from 42 to 73 metres. Located on Sotra, a short drive from Bergen."
 }

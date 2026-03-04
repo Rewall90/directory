@@ -1,6 +1,8 @@
 {
   "slug": "tonsberg-golfklubb",
+  "slug_en": "tonsberg-golf-club",
   "name": "Tønsberg Golfklubb",
+  "name_en": "Tonsberg Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Ramnes",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Parkland/Woodland",
+    "terrain_en": "Parkland/Woodland",
     "courseType": "9-hulls park- og skogsbane",
+    "courseType_en": "9-hole parkland and woodland course",
     "designer": null,
     "yearBuilt": null,
     "yearRedesigned": null,
     "waterHazards": null,
     "signatureHole": "Intim og landlig bane på Reine Gård",
+    "signatureHole_en": "Intimate and rural course at Reine Farm",
     "scenicHole": "Intim og landlig bane på Reine Gård",
+    "scenicHole_en": "Intimate and rural course at Reine Farm",
     "par3Count": null,
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Tønsberg Golfklubb - Re Golfbane på Reine Gård i Ramnes. 9-hulls intim og landlig park/skogsbane. Vennlig og folkelig miljø, enkel kontakt med andre spillere. Lett adkomst, gode parkeringsforhold. Sjelden stor og spennende driving range, stor putting green, sandbunkere. Klubbhus med touchskjerm for tee-tid booking. Pro shop med enkelt golfutstyr. Servering av pølser, toast, vafler. VTG-kurs for alle aldre."
+    "viewDescription": "Tønsberg Golfklubb - Re Golfbane på Reine Gård i Ramnes. 9-hulls intim og landlig park/skogsbane. Vennlig og folkelig miljø, enkel kontakt med andre spillere. Lett adkomst, gode parkeringsforhold. Sjelden stor og spennende driving range, stor putting green, sandbunkere. Klubbhus med touchskjerm for tee-tid booking. Pro shop med enkelt golfutstyr. Servering av pølser, toast, vafler. VTG-kurs for alle aldre.",
+    "viewDescription_en": "Tonsberg Golf Club - Re Golf Course at Reine Farm in Ramnes. 9-hole intimate and rural parkland/woodland course. Friendly and welcoming atmosphere, easy contact with other players. Easy access, good parking. Notably large and exciting driving range, large putting green, sand bunkers. Clubhouse with touchscreen for tee time booking. Pro shop with basic golf equipment. Serving hot dogs, toasties, waffles. Road to Golf course for all ages."
   },
   "description": "Tønsberg Golfklubb - Re Golfbane. 9-hulls park- og skogsbane på Reine Gård i Ramnes. Tilrettelagt for både erfarne og uerfarne spillere. Intim og landlig bane med vennlig og folkelig miljø. Enkel kontakt med andre golfspillere. Lett adkomst og gode parkeringsforhold.",
+  "description_en": "Tonsberg Golf Club - Re Golf Course. 9-hole parkland and woodland course at Reine Farm in Ramnes. Designed for both experienced and inexperienced players. An intimate and rural course with a friendly and welcoming atmosphere. Easy contact with other golfers. Easy access and good parking facilities.",
   "contact": {
     "phone": "+47 33 39 63 24",
     "email": "post@tonsberggolf.no",
@@ -126,6 +134,7 @@
       "greenFeeBarn": 0,
       "greenFeeGolfamore": 250,
       "greenFeeDescription": "Greenfee 2025: Ordinær 18h 500 kr, 9h 350 kr. Junior (13-19 år) 200 kr (gratis for medlemmer hos Tjøme, Sandefjord, Kragerø, Norsjø). Barn (6-12 år) gratis. Golfamore 250 kr/runde (maks 3 runder pr. år). NSG-medlemmer: kontakt klubbkontoret for avtale. Tee-tid obligatorisk via Golfbox.",
+      "greenFeeDescription_en": "Green fee 2025: Standard 18 holes 500 NOK, 9 holes 350 NOK. Junior (13-19 years) 200 NOK (free for members at Tjome, Sandefjord, Kragero, Norsjo). Children (6-12 years) free. Golfamore 250 NOK/round (max 3 rounds per year). NSG members: contact the club office for rates. Tee time required via Golfbox.",
       "cartRental": 200,
       "cartRentalMedical": 100,
       "pullCartRental": null,
@@ -133,7 +142,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil 200 kr (maks 4 timer/18h), 50% rabatt med legeerklæring. Traller til utleie. Ballkort/årskort rangeballer 400 kr, etterfylling 500 kr. VTG-kurs deltakere får 50% rabatt på medlemskap de 2 første årene."
+      "notes": "Golfbil 200 kr (maks 4 timer/18h), 50% rabatt med legeerklæring. Traller til utleie. Ballkort/årskort rangeballer 400 kr, etterfylling 500 kr. VTG-kurs deltakere får 50% rabatt på medlemskap de 2 første årene.",
+      "notes_en": "Golf buggy 200 NOK (max 4 hours/18 holes), 50% discount with medical certificate. Trolleys for hire. Ball card/annual range ball pass 400 NOK, refill 500 NOK. Road to Golf participants get 50% discount on membership for the first 2 years."
     },
     "2026": {
       "currency": "NOK",
@@ -147,6 +157,7 @@
       "greenFeeBarn": 0,
       "greenFeeGolfamore": 250,
       "greenFeeDescription": "Greenfee 2026: Ordinær 18h 500 kr, 9h 350 kr. Junior (13-19 år) 200 kr (gratis for medlemmer hos Tjøme, Sandefjord, Kragerø, Norsjø). Barn (6-12 år) gratis. Golfamore 250 kr/runde (maks 3 runder pr. år). Tee-tid obligatorisk via Golfbox.",
+      "greenFeeDescription_en": "Green fee 2026: Standard 18 holes 500 NOK, 9 holes 350 NOK. Junior (13-19 years) 200 NOK (free for members at Tjome, Sandefjord, Kragero, Norsjo). Children (6-12 years) free. Golfamore 250 NOK/round (max 3 rounds per year). Tee time required via Golfbox.",
       "cartRental": 200,
       "cartRentalMedical": 100,
       "pullCartRental": null,
@@ -154,7 +165,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Golfbil 200 kr (maks 4 timer/18h), 50% rabatt med legeerklæring. Traller til utleie. Booking av golfbil må gjøres manuelt til klubbkontoret."
+      "notes": "Golfbil 200 kr (maks 4 timer/18h), 50% rabatt med legeerklæring. Traller til utleie. Booking av golfbil må gjøres manuelt til klubbkontoret.",
+      "notes_en": "Golf buggy 200 NOK (max 4 hours/18 holes), 50% discount with medical certificate. Trolleys for hire. Golf buggy must be booked manually with the club office."
     }
   },
   "membershipPricing": {
@@ -164,56 +176,72 @@
         "name": "Ordinær",
         "price": 5800,
         "description": "Full spillerett og fritt bruk av treningsanlegget.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Standard",
+        "description_en": "Full playing rights and free use of the practice facility."
       },
       {
         "category": "nyttMedlemMai",
         "name": "Nytt medlem fra 01.05",
         "price": 2900,
         "description": "For nye medlemmer fra 1. mai. Forutsetter ingen medlemskap i golfklubb 2022-2024.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "New Member from 1 May",
+        "description_en": "For new members from 1 May. Requires no golf club membership 2022-2024."
       },
       {
         "category": "nyttMedlemSept",
         "name": "Nytt medlem fra 01.09",
         "price": 2200,
         "description": "For nye medlemmer fra 1. september. Forutsetter ingen medlemskap i golfklubb 2022-2024.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "New Member from 1 September",
+        "description_en": "For new members from 1 September. Requires no golf club membership 2022-2024."
       },
       {
         "category": "klubb2",
         "name": "Klubb 2-medlemskap",
         "price": 2400,
         "description": "For de med ordinært medlemskap i annen klubb (minimum 5000 kr/år). Inkluderer spillerett og fritt bruk av anlegget.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Club 2 Membership",
+        "description_en": "For those with standard membership at another club (minimum 5,000 NOK/year). Includes playing rights and free use of the facility."
       },
       {
         "category": "ung20-29",
         "name": "Ung 20-29 år",
         "price": 2900,
         "description": "Medlemskap for unge 20-29 år. 50% rabatt for nye VTG-spillere år 1+2.",
-        "ageRange": "20-29"
+        "ageRange": "20-29",
+        "name_en": "Young 20-29 Years",
+        "description_en": "Membership for young members aged 20-29. 50% discount for new Road to Golf players years 1+2."
       },
       {
         "category": "junior13-19",
         "name": "Junior 13-19 år",
         "price": 1700,
         "description": "Junior medlemskap. 50% rabatt for nye VTG-spillere år 1+2.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19 Years",
+        "description_en": "Junior membership. 50% discount for new Road to Golf players years 1+2."
       },
       {
         "category": "barn6-12",
         "name": "Barn 6-12 år",
         "price": 250,
         "description": "Barnemedlemskap.",
-        "ageRange": "6-12"
+        "ageRange": "6-12",
+        "name_en": "Children 6-12 Years",
+        "description_en": "Children's membership."
       },
       {
         "category": "fjernmedlem",
         "name": "Fjernmedlemskap",
         "price": 1000,
         "description": "Uten spillerett og øvrige medlemsfordeler. Bosted minimum 60 km fra Re Golfbane.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Membership",
+        "description_en": "Without playing rights and other member benefits. Residence minimum 60 km from Re Golf Course."
       }
     ]
   },

@@ -36,7 +36,12 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Fine naturopplevelser med utsikt over hull 18 med hjerteformet green fra klubbhusterrassen"
+    "viewDescription": "Fine naturopplevelser med utsikt over hull 18 med hjerteformet green fra klubbhusterrassen",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "Woodland and parkland course",
+    "signatureHole_en": "Hole 18 with its heart-shaped green",
+    "scenicHole_en": "Hole 18 with its heart-shaped green",
+    "viewDescription_en": "Fine nature experiences with views of hole 18's heart-shaped green from the clubhouse terrace"
   },
   "description": "Banen på Sorknes har sitt særpreg som 18-hulls bane med fine naturopplevelser. Skog- og parkbane med elv som vannhinder.",
   "contact": {
@@ -149,7 +154,9 @@
       "nsgDiscountOther": 100,
       "golfamoreDiscount": "50%",
       "vippsNumber": 100510,
-      "notes": "Parkering for bobiler/campingvogner: 200 kr/døgn med tilgang til garderobe og toaletter. Startintervall 10 min. Vipps betaling tilgjengelig."
+      "notes": "Parkering for bobiler/campingvogner: 200 kr/døgn med tilgang til garderobe og toaletter. Startintervall 10 min. Vipps betaling tilgjengelig.",
+      "greenFeeDescription_en": "Mon-Thu: 475 kr, Fri-Sun: 550 kr, 9 holes: 300 kr. Junior 6-19 years: 50% discount. Tournament green fee: 400 kr. Student/military: 375/200 kr. Golf Innlandet 20% discount. NSG: Half price Mon-Tue (240 kr), 100 kr discount other days.",
+      "notes_en": "Motorhome/caravan parking: 200 kr/day with access to changing rooms and toilets. 10 min tee time intervals. Vipps payment available."
     }
   },
   "membershipPricing": {},
@@ -194,5 +201,8 @@
     "createdAt": "2025-10-31T07:18:13.939Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ4VESzPIWakYRRl9bBvYettE"
+  "googlePlaceId": "ChIJ4VESzPIWakYRRl9bBvYettE",
+  "slug_en": "sorknes-golf-club",
+  "name_en": "Sorknes Golf Club",
+  "description_en": "The course at Sorknes has its own distinctive character as an 18-hole course offering fine nature experiences. A woodland and parkland course with a river as a water hazard."
 }

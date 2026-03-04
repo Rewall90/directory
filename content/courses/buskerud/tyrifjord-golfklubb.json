@@ -36,7 +36,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Øyutsikter over Tyrifjorden med naturskjønne omgivelser"
+    "viewDescription": "Øyutsikter over Tyrifjorden med naturskjønne omgivelser",
+    "terrain_en": "Parkland and woodland",
+    "courseType_en": "Parkland and woodland course on an island",
+    "designer_en": "Jan Sederholm and Tor Eia",
+    "viewDescription_en": "Island views over Tyrifjorden with scenic surroundings"
   },
   "description": "Tyrifjord Golfklubb er en fantastisk 18-hulls golfbane lokalisert på Storøya i Tyrifjorden, Buskerud. Åpnet i to faser med 9 hull i 1994 og full 18 hull i 1996. Banen ligger vakkert til på øya i Tyrifjorden, med fairways som buktiger seg gjennom skog og parklandskap nær vannet. En unik blanding av parkland og skogsterreng med fredelige øyutsikter og naturskjønne omgivelser.",
   "contact": {
@@ -58,7 +62,8 @@
   "season": {
     "start": "April",
     "end": "Oktober",
-    "winterUse": "Stengt for vinteren"
+    "winterUse": "Stengt for vinteren",
+    "winterUse_en": "Closed for the winter"
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +128,9 @@
       "greenFeeDescription": "Hverdag (man-fre 07:00-20:50): 815 kr. Weekend (lør/søn 07:00-08:50 og 12:00-20:50): 915 kr. Weekend Prime (lør/søn 09:00-11:50): 1030 kr. 9 hull (drop-in): 550 kr. Medlem/gjest: 715/815 kr. PLUSS medlem/gjest: 550 kr. Junior (t.o.m. 19): 50%.",
       "weekPass": 3495,
       "monthPass": 6500,
-      "notes": "9 hull kun drop-in. PLUSS medlem/gjest kan ikke bookes via Golfbox - må ringes inn. Ubegrenset Golf ikke tilgjengelig lør/søn/helligdager 09:00-11:50."
+      "notes": "9 hull kun drop-in. PLUSS medlem/gjest kan ikke bookes via Golfbox - må ringes inn. Ubegrenset Golf ikke tilgjengelig lør/søn/helligdager 09:00-11:50.",
+      "greenFeeDescription_en": "Weekday (Mon-Fri 07:00-20:50): 815 kr. Weekend (Sat/Sun 07:00-08:50 and 12:00-20:50): 915 kr. Weekend Prime (Sat/Sun 09:00-11:50): 1,030 kr. 9 holes (drop-in): 550 kr. Member/guest: 715/815 kr. PLUS member/guest: 550 kr. Junior (up to 19): 50%.",
+      "notes_en": "9 holes drop-in only. PLUS member/guest cannot be booked via GolfBox -- must be phoned in. Unlimited Golf not available Sat/Sun/public holidays 09:00-11:50."
     }
   },
   "membershipPricing": {
@@ -211,5 +218,8 @@
     "pricingNote": "ULTRA-DEEP SCRAPE ROUND 4 (16.02.2026): 2026 greenfee- og medlemskapspriser er IKKE publisert ennå. Klubbens nettside oppgir at 'Medlemskapsprisene for 2026 vedtas på årsmøtet den 16. februar. Oppdaterte priser vil bli publisert fortløpende.' Årsmøtet var planlagt i dag (16.02.2026), men nye priser er ikke lagt ut ennå. Sjekket 9+ sider inkl. gjester, medlemmer, klubben, nyheter og nyhetsarkiv - ingen 2026-priser funnet. 2025-priser bekreftet korrekte og fullstendige. ANBEFALING: Sjekk igjen om 1-2 uker når nye priser sannsynligvis er publisert.",
     "scrapeNote": "RETRY SUCCESSFUL - Comprehensive scraping completed. Confirmed 2026 pricing not yet published as of annual meeting date (16.02.2026). Website structure mapped, all pricing pages checked. 2025 pricing fully verified and accurate."
   },
-  "googlePlaceId": "ChIJSYK-6VUEQUYRIsq1rjF5k7w"
+  "googlePlaceId": "ChIJSYK-6VUEQUYRIsq1rjF5k7w",
+  "slug_en": "tyrifjord-golf-club",
+  "name_en": "Tyrifjord Golf Club",
+  "description_en": "Tyrifjord Golf Club is a superb 18-hole golf course located on Storoeya island in Tyrifjorden, Buskerud. Opened in two phases with 9 holes in 1994 and full 18 holes in 1996. The course is beautifully situated on the island in Tyrifjorden, with fairways winding through woodland and parkland near the water. A unique blend of parkland and woodland terrain with peaceful island views and scenic surroundings."
 }

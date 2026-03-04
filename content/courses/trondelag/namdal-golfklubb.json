@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Klubbhus alltid åpent; tralle til leie; nær Grande gård."
+    "viewDescription": "Klubbhus alltid åpent; tralle til leie; nær Grande gård.",
+    "terrain_en": "Parkland/Woodland",
+    "courseType_en": "9-hole course",
+    "viewDescription_en": "Clubhouse always open; pull trolley hire; near Grande farm."
   },
   "description": "Parkland/skogsbane ved lakseelven Namsen; klubbhus med veranda.",
   "contact": {
@@ -133,7 +136,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling: Vipps #688133 eller bankkonto 4448 13 06210. Overnatting på Grande gård i nærheten."
+      "notes": "Betaling: Vipps #688133 eller bankkonto 4448 13 06210. Overnatting på Grande gård i nærheten.",
+      "greenFeeDescription_en": "Green fee 300 kr. Distance members pay half green fee.",
+      "notes_en": "Payment: Vipps #688133 or bank account 4448 13 06210. Accommodation at Grande farm nearby."
     },
     "2026": {
       "currency": "NOK",
@@ -152,7 +157,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Betaling: Vipps #688133 eller bankkonto 4448 13 06210. Overnatting på Grande gård i nærheten."
+      "notes": "Betaling: Vipps #688133 eller bankkonto 4448 13 06210. Overnatting på Grande gård i nærheten.",
+      "greenFeeDescription_en": "Green fee 300 kr. Distance members pay half green fee.",
+      "notes_en": "Payment: Vipps #688133 or bank account 4448 13 06210. Accommodation at Grande farm nearby."
     }
   },
   "membershipPricing": {
@@ -161,43 +168,57 @@
         "category": "Hovedmedlem",
         "price": 3000,
         "description": "Hovedmedlemskap med full spillerett.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Full Member",
+        "description_en": "Full membership med Full playing rights."
       },
       {
         "category": "Ektefelle",
         "price": 2000,
         "description": "Ektefellemedlemskap.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Spouse",
+        "description_en": "SpouseMembership."
       },
       {
         "category": "Familie",
         "price": 5000,
         "description": "Familiemedlemskap.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Family",
+        "description_en": "Family membership."
       },
       {
         "category": "Junior",
         "price": 500,
         "description": "Junior 13-19 år.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior",
+        "description_en": "Junior 13-19 years."
       },
       {
         "category": "Barn",
         "price": 200,
         "description": "Barn t.o.m. 12 år.",
-        "ageRange": "0-12"
+        "ageRange": "0-12",
+        "name_en": "Child",
+        "description_en": "Children up to 12 years."
       },
       {
         "category": "Fjernmedlem",
         "price": 1500,
         "description": "Fjernmedlemskap. Halv greenfee ved spill.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Distance Member",
+        "description_en": "Distance membership. Half green fee when playing."
       },
       {
         "category": "Student",
         "price": 1300,
         "description": "Studentmedlemskap.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Student",
+        "description_en": "StudentMembership."
       }
     ]
   },
@@ -242,5 +263,8 @@
     "createdAt": "2025-10-31T11:30:51.637Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJHV5HeWr5ckYRhNnlHURCO-Q"
+  "googlePlaceId": "ChIJHV5HeWr5ckYRhNnlHURCO-Q",
+  "slug_en": "namdal-golf-club",
+  "name_en": "Namdal Golf Club",
+  "description_en": "Parkland/woodland course by the salmon river Namsen; clubhouse with veranda."
 }

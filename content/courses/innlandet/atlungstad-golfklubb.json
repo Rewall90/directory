@@ -36,7 +36,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Banen ligger ved Mjøsa med Atlungstad Brenneri som landemerke"
+    "viewDescription": "Banen ligger ved Mjøsa med Atlungstad Brenneri som landemerke",
+    "terrain_en": "Woodland and parkland course",
+    "courseType_en": "Woodland and parkland course",
+    "designer_en": "Dave Thomas LTD",
+    "viewDescription_en": "The course is situated by Lake Mjosa with the Atlungstad Distillery as a landmark"
   },
   "description": "Atlungstad Golf er et 18-hulls golfanlegg designet av den kjente golfbanearkitekten Dave Thomas LTD. De første 9 hullene nede ved Mjøsa ble tatt i bruk i 2006, og hele 18-hullsanlegget åpnet for spill sommeren 2007. Banen er anlagt i det bølgende kulturlandskapet ned mot Mjøsa sør for Atlungstad Brenneri. Pipa på brenneriet blir et godt siktemerke mot greenen på flere av hullene på banen.",
   "contact": {
@@ -142,7 +146,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager). Golfbil med legeattest: 350 kr (18 hull), 200 kr (9 hull)."
+      "notes": "Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager). Golfbil med legeattest: 350 kr (18 hull), 200 kr (9 hull).",
+      "greenFeeDescription_en": "18 holes: max 600 kr weekday, max 800 kr weekend. 9 holes: 400 kr. Junior discount 40%. Partner clubs (Mjosen, Sorknes, Trysil, Skei, Kongsvinger, Elverum, Valdres, Land, Hafjell, Gjovik & Toten): 100 kr discount 18 holes, 50 kr discount 9 holes. NSG seniors: 500 kr (08:00-15:00 weekdays). Two rounds same day: 900 kr weekday, 1,300 kr weekend.",
+      "notes_en": "Partner clubs receive a discount. NSG seniors: 500 kr (08:00-15:00 weekdays). Buggy with medical certificate: 350 kr (18 holes), 200 kr (9 holes)."
     },
     "2026": {
       "currency": "NOK",
@@ -169,7 +175,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Priser fra 2025-sesongen (2026-priser ikke publisert ennå per 15.02.2026). Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager). Golfbil med legeattest: 350 kr (18 hull), 200 kr (9 hull). Golfbil kun tilgjengelig i proshopens åpningstider (08-20 hverdag, 08-18 helg). Aldersgrense 18 år for golfbil."
+      "notes": "Priser fra 2025-sesongen (2026-priser ikke publisert ennå per 15.02.2026). Naboklubber får rabatt. NSG seniorer: 500 kr (08:00-15:00 hverdager). Golfbil med legeattest: 350 kr (18 hull), 200 kr (9 hull). Golfbil kun tilgjengelig i proshopens åpningstider (08-20 hverdag, 08-18 helg). Aldersgrense 18 år for golfbil.",
+      "greenFeeDescription_en": "18 holes: 600 kr weekday, 800 kr weekend. 9 holes: 400 kr. Junior: 40% of standard green fee (240 kr weekday, 320 kr weekend, 160 kr 9 holes). Partner clubs (Mjosen, Sorknes, Trysil, Skei, Kongsvinger, Elverum, Valdres, Land, Hafjell, Gjovik & Toten): 100 kr discount 18 holes, 50 kr discount 9 holes. NSG seniors: 500 kr (08:00-15:00 weekdays). Two rounds same day: 900 kr weekday, 1,300 kr weekend.",
+      "notes_en": "Prices from the 2025 season (2026 prices not yet published as of 15.02.2026). Partner clubs receive a discount. NSG seniors: 500 kr (08:00-15:00 weekdays). Buggy with medical certificate: 350 kr (18 holes), 200 kr (9 holes). Buggies available only during pro shop opening hours (08-20 weekday, 08-18 weekend). Minimum age 18 for buggies."
     }
   },
   "membershipPricing": {
@@ -233,5 +241,8 @@
     "createdAt": "2025-10-31T07:18:10.893Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJe8o5XQDnQUYR9DJhKKpP0Ds"
+  "googlePlaceId": "ChIJe8o5XQDnQUYR9DJhKKpP0Ds",
+  "slug_en": "atlungstad-golf-club",
+  "name_en": "Atlungstad Golf Club",
+  "description_en": "Atlungstad Golf is an 18-hole facility designed by the renowned golf course architect Dave Thomas LTD. The first 9 holes down by Lake Mjosa were brought into play in 2006, and the full 18-hole facility opened for play in the summer of 2007. The course is laid out in the rolling cultural landscape down towards Lake Mjosa, south of the Atlungstad Distillery. The distillery's chimney serves as a useful aiming point towards the green on several holes."
 }

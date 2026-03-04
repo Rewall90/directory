@@ -1,6 +1,8 @@
 {
   "slug": "sandefjord-golfklubb",
+  "slug_en": "sandefjord-golf-club",
   "name": "Sandefjord Golfklubb",
+  "name_en": "Sandefjord Golf Club",
   "formerName": null,
   "region": "Vestfold",
   "city": "Sandefjord",
@@ -25,20 +27,26 @@
     "lengthYards": null,
     "lengthNote": null,
     "terrain": "Parkland/Woodland",
+    "terrain_en": "Parkland/Woodland",
     "courseType": "18-hulls park- og skogsbane med 6-hulls treningsbane",
+    "courseType_en": "18-hole parkland and woodland course with 6-hole practice course",
     "designer": null,
     "yearBuilt": 2008,
     "yearRedesigned": null,
     "waterHazards": true,
     "signatureHole": "Vannhindre på 8 hull skaper utfordringer",
+    "signatureHole_en": "Water hazards on 8 holes create challenges",
     "scenicHole": "Vannhindre på 8 hull skaper utfordringer",
+    "scenicHole_en": "Water hazards on 8 holes create challenges",
     "par3Count": null,
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": "Sandefjord Golfklubb - Utfordrende og vakker 18-hulls park- og skogsbane i Marum/Jåberg, 5 km fra Sandefjord. Bygget 2008. Relativt flat med mange dammer/bekker - vann i spill på 8 hull. 6-hulls treningsbane (gratis alle). Stor driving range, chipping/bunker-treningsområde, stor øvingsgreen. Pro shop (John Drummond). Golf simulator. Kiosk. Tralle-utleie. VTG-kurs, handicap-kurs, juniortrening."
+    "viewDescription": "Sandefjord Golfklubb - Utfordrende og vakker 18-hulls park- og skogsbane i Marum/Jåberg, 5 km fra Sandefjord. Bygget 2008. Relativt flat med mange dammer/bekker - vann i spill på 8 hull. 6-hulls treningsbane (gratis alle). Stor driving range, chipping/bunker-treningsområde, stor øvingsgreen. Pro shop (John Drummond). Golf simulator. Kiosk. Tralle-utleie. VTG-kurs, handicap-kurs, juniortrening.",
+    "viewDescription_en": "Sandefjord Golf Club - Challenging and beautiful 18-hole parkland and woodland course in Marum/Jaberg, 5 km from Sandefjord. Built 2008. Relatively flat with many ponds/streams - water in play on 8 holes. 6-hole practice course (free for all). Large driving range, chipping/bunker practice area, large practice green. Pro shop (John Drummond). Golf simulator. Kiosk. Trolley hire. Road to Golf course, handicap course, junior training."
   },
   "description": "Sandefjord Golfklubb - Utfordrende og vakker 18-hulls park- og skogsbane bygget 2008 i Marum/Jåberg-området, 5 km fra Sandefjord sentrum. Klubb grunnlagt 1995. Relativt flat bane med mange dammer og bekker - vann i spill på hele 8 hull. Pluss 6-hulls treningsbane (gratis for alle).",
+  "description_en": "Sandefjord Golf Club - Challenging and beautiful 18-hole parkland and woodland course built 2008 in the Marum/Jaberg area, 5 km from Sandefjord town centre. Club founded 1995. Relatively flat course with many ponds and streams - water in play on as many as 8 holes. Plus 6-hole practice course (free for everyone).",
   "contact": {
     "phone": "+47 908 96 000",
     "email": "post@sandefjordgolf.no",
@@ -120,13 +128,15 @@
       "greenFeeJunior": 200,
       "greenFeeMember": 550,
       "greenFeeDescription": "Greenfee 2026: Standard 650 kr, Greenfee-medlem 550 kr, Gjest med medlem 100 kr rabatt. Junior (t.o.m. 19 år) 200 kr (gratis ved enkelte samarbeidsklubber). Norsk Seniorgolf: 550 kr (hverdager 08-15, ikke juli, maks 3 runder). 9-hulls: 400 kr.",
+      "greenFeeDescription_en": "Green fee 2026: Standard 650 NOK, Green fee member 550 NOK, Guest with member 100 NOK discount. Junior (up to 19 years) 200 NOK (free at certain partner clubs). Norwegian Senior Golf: 550 NOK (weekdays 08-15, not July, max 3 rounds). 9 holes: 400 NOK.",
       "cartRental": null,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "6-hulls treningsbane gratis for alle. Greenfee-samarbeid med flere klubber (25-30% rabatt). Stor driving range og omfattende treningsområder. Greenfee-medlemmer kan bestille starttider 5 dager før."
+      "notes": "6-hulls treningsbane gratis for alle. Greenfee-samarbeid med flere klubber (25-30% rabatt). Stor driving range og omfattende treningsområder. Greenfee-medlemmer kan bestille starttider 5 dager før.",
+      "notes_en": "6-hole practice course free for everyone. Green fee cooperation with several clubs (25-30% discount). Large driving range and comprehensive practice areas. Green fee members can book tee times 5 days in advance."
     }
   },
   "membershipPricing": {
@@ -136,84 +146,108 @@
         "name": "Hovedmedlem",
         "price": 10150,
         "description": "Full spillerett på banen alle dager. Tilgang til klubbens greenfee-samarbeid med reduserte priser. Starttider kan bestilles 9 dager før spill. NGF-avgift 480 kr inkludert.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Full Member",
+        "description_en": "Full playing rights on the course all days. Access to the club's green fee cooperation with reduced prices. Tee times can be booked 9 days before play. NGF fee 480 NOK included."
       },
       {
         "category": "ungVoksen",
         "name": "Ung Voksen 20-35 år",
         "price": 5350,
         "description": "Full spillerett for medlemmer 20-35 år. Starttider kan bestilles 7 dager før spill.",
-        "ageRange": "20-35"
+        "ageRange": "20-35",
+        "name_en": "Young Adult 20-35 Years",
+        "description_en": "Full playing rights for members aged 20-35. Tee times can be booked 7 days before play."
       },
       {
         "category": "ungVoksenVTG2025",
         "name": "Ung Voksen 20-35 år (VTG 2025)",
         "price": 4350,
         "description": "For ung voksen som gjennomførte VTG i 2025.",
-        "ageRange": "20-35"
+        "ageRange": "20-35",
+        "name_en": "Young Adult 20-35 Years (Road to Golf 2025)",
+        "description_en": "For young adults who completed Road to Golf in 2025."
       },
       {
         "category": "vtgAr1",
         "name": "VTG år 1 Innmelding",
         "price": 3900,
         "description": "Første års medlemskap etter VTG-kurs.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Road to Golf Year 1 Enrolment",
+        "description_en": "First year membership after Road to Golf course."
       },
       {
         "category": "vtgAr2",
         "name": "VTG år 2 (gjennomført 2025)",
         "price": 5100,
         "description": "Andre års medlemskap etter VTG-kurs gjennomført 2025.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Road to Golf Year 2 (completed 2025)",
+        "description_en": "Second year membership after Road to Golf course completed 2025."
       },
       {
         "category": "vtgAr3",
         "name": "VTG år 3 (gjennomført 2024)",
         "price": 7650,
         "description": "Tredje års medlemskap etter VTG-kurs gjennomført 2024.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Road to Golf Year 3 (completed 2024)",
+        "description_en": "Third year membership after Road to Golf course completed 2024."
       },
       {
         "category": "junior13-19",
         "name": "Junior 13-19 år",
         "price": 1700,
         "description": "Full spillerett for juniorer 13-19 år. Starttider 7 dager før.",
-        "ageRange": "13-19"
+        "ageRange": "13-19",
+        "name_en": "Junior 13-19 Years",
+        "description_en": "Full playing rights for juniors aged 13-19. Tee times 7 days before."
       },
       {
         "category": "junior6-12",
         "name": "Junior 6-12 år",
         "price": 850,
         "description": "Full spillerett for juniorer 6-12 år.",
-        "ageRange": "6-12"
+        "ageRange": "6-12",
+        "name_en": "Junior 6-12 Years",
+        "description_en": "Full playing rights for juniors aged 6-12."
       },
       {
         "category": "junior0-5",
         "name": "Junior 0-5 år",
         "price": 400,
         "description": "Medlemskap for barn 0-5 år.",
-        "ageRange": "0-5"
+        "ageRange": "0-5",
+        "name_en": "Junior 0-5 Years",
+        "description_en": "Membership for children aged 0-5."
       },
       {
         "category": "greenfee",
         "name": "Greenfee medlemskap",
         "price": 3500,
         "description": "100 kr rabatt på greenfee. Starttider kan bestilles 5 dager før.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Green Fee Membership",
+        "description_en": "100 NOK discount on green fee. Tee times can be booked 5 days before."
       },
       {
         "category": "sommerGreenfee",
         "name": "Sommer greenfee avtale",
         "price": 5200,
         "description": "Forutsetter fullt medlemskap i en 18-hulls golfklubb. Gjelder ikke for medlemmer av klubber i Vestfold eller med adresse i Vestfold.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Summer Green Fee Agreement",
+        "description_en": "Requires full membership at an 18-hole golf club. Does not apply to members of clubs in Vestfold or those with an address in Vestfold."
       },
       {
         "category": "stotteMedlem",
         "name": "Støtte medlem",
         "price": 1650,
         "description": "Støttemedlemskap uten spillerett. Kan innvilges ved sykdom, flytting til utlandet eller annen landsdel.",
-        "ageRange": null
+        "ageRange": null,
+        "name_en": "Support Member",
+        "description_en": "Support membership without playing rights. May be granted in case of illness, relocation abroad or to another part of the country."
       },
       {
         "category": "esag",

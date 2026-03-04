@@ -36,7 +36,10 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Banen ligger på 800 meters høyde, 15 min nord for Lillehammer, like ved Hafjell alpinsenter. Store greener, mange bunkere, steinbelagte bekker og tynnet eksisterende skog."
+    "viewDescription": "Banen ligger på 800 meters høyde, 15 min nord for Lillehammer, like ved Hafjell alpinsenter. Store greener, mange bunkere, steinbelagte bekker og tynnet eksisterende skog.",
+    "terrain_en": "Parkland/woodland",
+    "courseType_en": "Parkland/woodland course",
+    "viewDescription_en": "The course is situated at 800 metres elevation, 15 minutes north of Lillehammer, next to Hafjell Alpine Centre. Large greens, many bunkers, stone-lined streams and thinned woodland."
   },
   "description": "9-hulls park- og skogsbane på 800 meters høyde, like ved Hafjell alpinsenter, 15 minutter nord for Lillehammer. Banen har store greener, mange bunkere og utfordringer, med hulllengder fra 76 til 458 meter. Steinbelagte bekker, flere tee-områder og tynnet skog gir en variert og spennende golfopplevelse. 24-stasjoners drivingrange. Sesong tidlig mai til medio oktober.",
   "contact": {
@@ -63,7 +66,8 @@
   "season": {
     "start": "Tidlig mai",
     "end": "Medio oktober",
-    "winterUse": "Vinterstengt bane fra medio oktober (2025: 13. okt bane, 23. okt range)"
+    "winterUse": "Vinterstengt bane fra medio oktober (2025: 13. okt bane, 23. okt range)",
+    "winterUse_en": "Course closed for winter from mid-October (2025: 13 Oct course, 23 Oct range)"
   },
   "visitors": {
     "welcome": true,
@@ -147,7 +151,9 @@
         "Randsfjorden GK",
         "Valdres GK"
       ],
-      "notes": "Samarbeidsklubber og greenfeemedlemmer får 20% rabatt. Golfamore: 50% rabatt (1 runde, Plus inntil 3 runder hverdager). Booking via Golfbox eller tlf 61275760. VIPPS betaling til 522701."
+      "notes": "Samarbeidsklubber og greenfeemedlemmer får 20% rabatt. Golfamore: 50% rabatt (1 runde, Plus inntil 3 runder hverdager). Booking via Golfbox eller tlf 61275760. VIPPS betaling til 522701.",
+      "greenFeeDescription_en": "Mon-Fri: 350 kr (9 holes), 450 kr (18 holes). Weekend: 400 kr (9 holes), 500 kr (18 holes). Juniors up to 19 years: half price. NSG loyalty card: 200 kr (9), 350 kr (18) weekdays before 15:00, max 3 rounds/season. 20% discount for partner clubs and green fee members.",
+      "notes_en": "Partner clubs and green fee members receive 20% discount. Golfamore: 50% discount (1 round, Plus up to 3 rounds on weekdays). Booking via GolfBox or tel 61275760. Vipps payment to 522701."
     },
     "2026": {
       "currency": "NOK",
@@ -182,7 +188,9 @@
         "Randsfjorden GK",
         "Valdres GK"
       ],
-      "notes": "2026-priser ikke publisert per februar 2026 (banen vinterstengt t.o.m. april). Booking via Golfbox eller tlf 61 27 55 80 (banemottak) / 95 17 76 55 (klubb). Kontakt: klubb@hafjellgolf.no. Priser forventes publisert nærmere sesongstart (tidlig mai). Banen normalt åpen tidlig mai t.o.m. medio oktober."
+      "notes": "2026-priser ikke publisert per februar 2026 (banen vinterstengt t.o.m. april). Booking via Golfbox eller tlf 61 27 55 80 (banemottak) / 95 17 76 55 (klubb). Kontakt: klubb@hafjellgolf.no. Priser forventes publisert nærmere sesongstart (tidlig mai). Banen normalt åpen tidlig mai t.o.m. medio oktober.",
+      "greenFeeDescription_en": "2026 prices not yet announced as of February 2026 (course closed for winter). Based on historical data, 2025 prices expected to be continued with possible CPI adjustment. Expected prices: Mon-Fri 350/450 kr (9/18 holes), weekend 400/500 kr. Juniors (up to 19 years) expected to pay half price. NSG loyalty card expected at 200/350 kr (max 3 rounds/season, weekdays before 15:00). 20% discount for partner clubs and green fee members. Golfamore: 50% discount (1 round Standard, up to 3 rounds Plus on weekdays).",
+      "notes_en": "2026 prices not published as of February 2026 (course closed for winter through April). Booking via GolfBox or tel 61 27 55 80 (course reception) / 95 17 76 55 (club). Contact: klubb@hafjellgolf.no. Prices expected to be published closer to season start (early May). Course normally open early May through mid-October."
     }
   },
   "membershipPricing": {
@@ -272,5 +280,8 @@
     "createdAt": "2025-10-31T07:18:12.405Z",
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
-  "googlePlaceId": "ChIJWcqpP6uLakYRZSaCYNPyy-E"
+  "googlePlaceId": "ChIJWcqpP6uLakYRZSaCYNPyy-E",
+  "slug_en": "hafjell-golf-club",
+  "name_en": "Hafjell Golf Club",
+  "description_en": "9-hole parkland and woodland course at 800 metres elevation, next to Hafjell Alpine Centre, 15 minutes north of Lillehammer. The course features large greens, many bunkers and challenges, with hole lengths from 76 to 458 metres. Stone-lined streams, multiple tee areas and thinned woodland provide a varied and exciting golf experience. 24-station driving range. Season from early May to mid-October."
 }

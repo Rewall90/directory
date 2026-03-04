@@ -36,9 +36,11 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": null,
+    "terrain_en": "Private club - invitation required",
+    "courseType_en": "Private club - invitation required"
   },
-  "description": "18-hole par 72 golf course located in a nature reserve on an island with scenic views of the Oslofjord",
+  "description": "Oustøen Country Club - Eksklusiv privat 18-hulls bane med par 72 på Oustøya, en øy i naturreservat med vakker utsikt over Oslofjorden. Grunnlagt 1966. Kun tilgjengelig for medlemmer og inviterte gjester. Klubbhus med restaurant.",
   "contact": {
     "phone": "+47 67 83 23 83",
     "email": "occ@occ.no",
@@ -155,7 +157,9 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Privat klubb. Gjester kan kun spille sammen med medlemmer. Hverdager hele dagen, helger/helligdager etter kl. 12:00. Golfbil kun tilgjengelig ved medisinsk dokumentasjon."
+      "notes": "Privat klubb. Gjester kan kun spille sammen med medlemmer. Hverdager hele dagen, helger/helligdager etter kl. 12:00. Golfbil kun tilgjengelig ved medisinsk dokumentasjon.",
+      "greenFeeDescription_en": "Private club - guests must be invited and play alongside a member",
+      "notes_en": "Private club. Guests may only play with members. Weekdays all day, weekends/bank holidays after 12:00. Golf buggies only available with medical documentation."
     }
   },
   "membershipPricing": {},
@@ -200,5 +204,8 @@
     "createdAt": "2025-10-31T11:23:14.421Z",
     "updatedAt": "2026-02-15T14:00:00.000Z"
   },
-  "googlePlaceId": "ChIJl9o0XltrQUYRh7NQ7vodpHo"
+  "googlePlaceId": "ChIJl9o0XltrQUYRh7NQ7vodpHo",
+  "slug_en": "oustoen-country-club",
+  "name_en": "Oustoen Country Club",
+  "description_en": "Oustoen Country Club - Exclusive private 18-hole par 72 course on Oustoya, an island within a nature reserve offering splendid views across the Oslofjord. Founded 1966. Available to members and invited guests only. Clubhouse with restaurant."
 }

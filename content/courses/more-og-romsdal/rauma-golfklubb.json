@@ -1,6 +1,8 @@
 {
   "slug": "rauma-golfklubb",
+  "slug_en": "rauma-golf-club",
   "name": "Rauma Golfklubb",
+  "name_en": "Rauma Golf Club",
   "formerName": null,
   "region": "Møre og Romsdal",
   "city": "Åndalsnes",
@@ -36,9 +38,15 @@
     "par4Count": null,
     "par5Count": null,
     "mountainViews": true,
-    "viewDescription": "Naturskjønne omgivelser med spektakulær utsikt over Romsdalen og fjellene. Beliggenhet ved Setnesmoen nær Åndalsnes."
+    "viewDescription": "Naturskjønne omgivelser med spektakulær utsikt over Romsdalen og fjellene. Beliggenhet ved Setnesmoen nær Åndalsnes.",
+    "terrain_en": "Natural course",
+    "courseType_en": "9-hole course (played two rounds for 18 holes)",
+    "signatureHole_en": "Scenic surroundings with views over the Romsdal valley",
+    "scenicHole_en": "Scenic surroundings with views over the Romsdal valley",
+    "viewDescription_en": "Scenic surroundings with spectacular views over the Romsdal valley and the mountains. Located at Setnesmoen near Aandalsnes."
   },
   "description": "9-hulls golfbane i naturskjønne omgivelser på Setnesmoen, kun 3 km fra Åndalsnes sentrum. Hvert av hullene har tre utslagssteder og kan spilles som en fullverdig 18-hulls bane med lang løype (Tee 42) og kort løype (Tee 37). Historisk sett er dette stedet der golf i Norge begynte - engelske lakselorder arrangerte golfturneringer her allerede i 1905. Den moderne klubben ble grunnlagt 3. juli 1997 og fortsetter den historiske golftradisjonen på samme sted. Banen beskrives som 'kanskje Norges flotteste golfopplevelse' med fantastiske omgivelser.",
+  "description_en": "9-hole golf course in scenic surroundings at Setnesmoen, only 3 km from Aandalsnes town centre. Each hole has three tee positions and can be played as a full 18-hole course with long loop (Tee 42) and short loop (Tee 37). Historically, this is where golf in Norway began - English salmon lords organised golf tournaments here as early as 1905. The modern club was founded on 3 July 1997 and continues the historic golf tradition at the same location. The course is described as 'perhaps Norway's most beautiful golf experience' with fantastic surroundings.",
   "contact": {
     "phone": "+47 920 31 073",
     "email": "post@raumagolf.no",
@@ -58,7 +66,8 @@
   "season": {
     "start": "Hele året",
     "end": "Hele året",
-    "winterUse": "Åpen hele året, værforhold tillatt. Simulator tilgjengelig for vintertrening."
+    "winterUse": "Åpen hele året, værforhold tillatt. Simulator tilgjengelig for vintertrening.",
+    "winterUse_en": "Open all year, weather permitting. Simulator available for winter training."
   },
   "visitors": {
     "welcome": true,
@@ -123,7 +132,8 @@
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": null
+      "notes": null,
+      "greenFeeDescription_en": "Green fee: approx. 200 NOK per day. Contact the club for updated prices and special offers."
     },
     "2026": {
       "currency": "NOK",
@@ -143,7 +153,9 @@
       "specialOfferIncludes": null,
       "freeTrial": null,
       "greenFeeDescription": "Greenfee voksen: 350 kr (dag/18 hull), 200 kr (9 hull). Junior/student: 175 kr. Klubbmedlemmer: 250 kr (dag), 150 kr (9 hull). Samarbeidsklubber/NGF-medlemmer: 250 kr (dag), 200 kr (9 hull). Barn 0-12 år: gratis. 2 dager: 550 kr, 1 uke: 950 kr, 1 måned: 2500 kr. Golfbil: 300 kr (18 hull), 200 kr (9 hull).",
-      "notes": "Priser hentet fra raumagolf.no februar 2026. Ingen forskjell mellom hverdag og helg."
+      "notes": "Priser hentet fra raumagolf.no februar 2026. Ingen forskjell mellom hverdag og helg.",
+      "greenFeeDescription_en": "Green fee adult: 350 NOK (day/18 holes), 200 NOK (9 holes). Junior/student: 175 NOK. Club members: 250 NOK (day), 150 NOK (9 holes). Partner clubs/NGF members: 250 NOK (day), 200 NOK (9 holes). Children 0-12 years: free. 2 days: 550 NOK, 1 week: 950 NOK, 1 month: 2,500 NOK. Golf buggy: 300 NOK (18 holes), 200 NOK (9 holes).",
+      "notes_en": "Prices from raumagolf.no February 2026. No difference between weekday and weekend."
     }
   },
   "membershipPricing": {},
