@@ -4,3 +4,5 @@ out
 dist
 .playwright-cli
 playwright
+*.yaml
+mockups
