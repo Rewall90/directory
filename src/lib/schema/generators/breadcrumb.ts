@@ -49,10 +49,11 @@ export function generateBreadcrumbSchema(
  * Helper: Generate homepage breadcrumb (just "Home")
  * Use this for the homepage itself
  *
+ * @param locale - Language code ("en" or "nb")
  * @returns BreadcrumbListSchema object
  */
-export function generateHomeBreadcrumb(): BreadcrumbListSchema {
-  return generateBreadcrumbSchema([{ name: "Hjem", url: "/" }], "/");
+export function generateHomeBreadcrumb(locale?: string): BreadcrumbListSchema {
+  return generateBreadcrumbSchema([{ name: locale === "en" ? "Home" : "Hjem", url: "/" }], "/");
 }
 
 /**
@@ -61,15 +62,17 @@ export function generateHomeBreadcrumb(): BreadcrumbListSchema {
  *
  * @param regionName - Display name of the region
  * @param regionSlug - URL slug of the region
+ * @param locale - Language code ("en" or "nb")
  * @returns BreadcrumbListSchema object
  */
 export function generateRegionBreadcrumb(
   regionName: string,
   regionSlug: string,
+  locale?: string,
 ): BreadcrumbListSchema {
   return generateBreadcrumbSchema(
     [
-      { name: "Hjem", url: "/" },
+      { name: locale === "en" ? "Home" : "Hjem", url: "/" },
       { name: regionName, url: `/${regionSlug}` },
     ],
     `/${regionSlug}`,
@@ -84,6 +87,7 @@ export function generateRegionBreadcrumb(
  * @param regionSlug - URL slug of the region
  * @param courseName - Display name of the course
  * @param courseSlug - URL slug of the course
+ * @param locale - Language code ("en" or "nb")
  * @returns BreadcrumbListSchema object
  */
 export function generateCourseBreadcrumb(
@@ -91,10 +95,11 @@ export function generateCourseBreadcrumb(
   regionSlug: string,
   courseName: string,
   courseSlug: string,
+  locale?: string,
 ): BreadcrumbListSchema {
   return generateBreadcrumbSchema(
     [
-      { name: "Hjem", url: "/" },
+      { name: locale === "en" ? "Home" : "Hjem", url: "/" },
       { name: regionName, url: `/${regionSlug}` },
       { name: courseName, url: `/${regionSlug}/${courseSlug}` },
     ],
@@ -104,15 +109,16 @@ export function generateCourseBreadcrumb(
 
 /**
  * Helper: Generate search page breadcrumb
- * Format: Home > Søk
+ * Format: Home > Search
  *
+ * @param locale - Language code ("en" or "nb")
  * @returns BreadcrumbListSchema object
  */
-export function generateSearchBreadcrumb(): BreadcrumbListSchema {
+export function generateSearchBreadcrumb(locale?: string): BreadcrumbListSchema {
   return generateBreadcrumbSchema(
     [
-      { name: "Hjem", url: "/" },
-      { name: "Søk", url: "/search" },
+      { name: locale === "en" ? "Home" : "Hjem", url: "/" },
+      { name: locale === "en" ? "Search" : "Søk", url: "/search" },
     ],
     "/search",
   );
@@ -120,15 +126,16 @@ export function generateSearchBreadcrumb(): BreadcrumbListSchema {
 
 /**
  * Helper: Generate regions overview page breadcrumb
- * Format: Home > Fylke
+ * Format: Home > Regions
  *
+ * @param locale - Language code ("en" or "nb")
  * @returns BreadcrumbListSchema object
  */
-export function generateRegionsOverviewBreadcrumb(): BreadcrumbListSchema {
+export function generateRegionsOverviewBreadcrumb(locale?: string): BreadcrumbListSchema {
   return generateBreadcrumbSchema(
     [
-      { name: "Hjem", url: "/" },
-      { name: "Fylke", url: "/regions" },
+      { name: locale === "en" ? "Home" : "Hjem", url: "/" },
+      { name: locale === "en" ? "Regions" : "Fylke", url: "/regions" },
     ],
     "/regions",
   );

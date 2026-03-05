@@ -12,10 +12,10 @@ interface RegionGridProps {
   regions: Region[];
 }
 
-export function RegionGrid({ title = "FYLKE / REGION", regions }: RegionGridProps) {
+export function RegionGrid({ title, regions }: RegionGridProps) {
   return (
     <div className="container mx-auto max-w-[1170px] px-4">
-      <h2 className="mb-6 text-2xl font-semibold text-text-primary">{title}</h2>
+      {title && <h2 className="mb-6 text-2xl font-semibold text-text-primary">{title}</h2>}
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-4">
         {regions.map((region) => (

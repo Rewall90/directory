@@ -106,7 +106,17 @@
     "siteReviewSingular": "{count} review on Golfkart.no",
     "writeFirstReview": "Write the first review on Golfkart.no",
     "mainImagePlaceholder": "[ Main image – 800x600 ]",
-    "accentImagePlaceholder": "[ Secondary image – clubhouse ]"
+    "accentImagePlaceholder": "[ Secondary image – clubhouse ]",
+    "accentImageAlt": "{name} clubhouse"
+  },
+  "coursePhotos": {
+    "heroAlt": "{name} - main image",
+    "galleryAlt": "{name} - image {index}",
+    "photoCredit": "Photo:"
+  },
+  "interactiveMap": {
+    "tooltip": "{name}: {courseCount} courses",
+    "loading": "Loading map..."
   },
   "statsBar": {
     "holes": "Holes",
@@ -180,7 +190,9 @@
     "golfCart": "Golf Cart (18 holes)",
     "pullCart": "Pull Cart",
     "clubSet": "Clubs (set)",
-    "currency": "NOK"
+    "currency": "NOK",
+    "aboutPricing": "About pricing",
+    "notes": "Notes"
   },
   "contactSection": {
     "sectionNumber": "04",
@@ -209,7 +221,8 @@
     "hourAgo": "{count} hour ago",
     "daysAgo": "{count} days ago",
     "dayAgo": "{count} day ago",
-    "poweredBy": "Powered by"
+    "poweredBy": "Powered by",
+    "windUnit": "km/h"
   },
   "reviewSection": {
     "sectionNumber": "05",
@@ -464,12 +477,35 @@
     "scrapingNoticeText": "Automated data scraping, systematic downloading or other unauthorised mass copying of content from golfkart.no is strictly prohibited and may result in legal consequences. All attempts at such activity are logged and monitored. For legitimate data use or API access, please contact us for permission.",
     "acceptanceNotice": "By using golfkart.no you accept these terms of use and our <link>privacy policy</link>."
   },
+  "blogCourseCard": {
+    "reviewsSingular": "{count} review",
+    "reviewsPlural": "{count} reviews",
+    "holes": "{count} holes",
+    "viewCourse": "View Course"
+  },
+  "rankingTable": {
+    "empty": "No golf courses to show",
+    "new": "NEW",
+    "upPlaces": "Up {count} places",
+    "downPlaces": "Down {count} places",
+    "rank": "Rank",
+    "course": "Golf Course",
+    "region": "Region",
+    "rating": "Rating",
+    "reviews": "Reviews",
+    "score": "Score"
+  },
   "blog": {
     "metaTitle": "Blog - golfkart.no",
     "metaDescription": "Read our blog posts about golf courses, tips and news from the world of golf in Norway",
     "pageTitle": "Blog",
     "subtitle": "Read our articles about golf courses, tips and news from the world of golf",
-    "noPosts": "No blog posts available yet."
+    "noPosts": "No blog posts available yet.",
+    "breadcrumbHome": "Home",
+    "breadcrumbBlog": "Blog",
+    "byAuthor": "By {author}",
+    "publishedDate": "Published {date}",
+    "notFound": "Not found"
   },
   "cookieConsent": {
     "bannerTitle": "We respect your privacy",

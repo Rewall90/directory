@@ -106,7 +106,17 @@
     "siteReviewSingular": "{count} anmeldelse på Golfkart.no",
     "writeFirstReview": "Skriv den første anmeldelsen på Golfkart.no",
     "mainImagePlaceholder": "[ Hovedbilde – 800x600 ]",
-    "accentImagePlaceholder": "[ Sekundærbilde – klubbhus ]"
+    "accentImagePlaceholder": "[ Sekundærbilde – klubbhus ]",
+    "accentImageAlt": "{name} klubbhus"
+  },
+  "coursePhotos": {
+    "heroAlt": "{name} - hovedbilde",
+    "galleryAlt": "{name} - bilde {index}",
+    "photoCredit": "Foto:"
+  },
+  "interactiveMap": {
+    "tooltip": "{name}: {courseCount} baner",
+    "loading": "Laster kart..."
   },
   "statsBar": {
     "holes": "Hull",
@@ -180,7 +190,9 @@
     "golfCart": "Golfbil (18 hull)",
     "pullCart": "Tralle",
     "clubSet": "Klubber (sett)",
-    "currency": "kr"
+    "currency": "kr",
+    "aboutPricing": "Om priser",
+    "notes": "Merknader"
   },
   "contactSection": {
     "sectionNumber": "04",
@@ -209,7 +221,8 @@
     "hourAgo": "{count} time siden",
     "daysAgo": "{count} dager siden",
     "dayAgo": "{count} dag siden",
-    "poweredBy": "Drevet av"
+    "poweredBy": "Drevet av",
+    "windUnit": "km/t"
   },
   "reviewSection": {
     "sectionNumber": "05",
@@ -464,12 +477,35 @@
     "scrapingNoticeText": "Automatisk dataskraping, systematisk nedlasting eller annen uautorisert massekopiering av innhold fra golfkart.no er strengt forbudt og kan medføre juridiske konsekvenser. Alle forsøk på slik aktivitet blir logget og overvåket. For legitim databruk eller API-tilgang, vennligst kontakt oss for tillatelse.",
     "acceptanceNotice": "Ved å bruke golfkart.no godtar du disse bruksvilkårene og vår <link>personvernerklæring</link>."
   },
+  "blogCourseCard": {
+    "reviewsSingular": "{count} anmeldelse",
+    "reviewsPlural": "{count} anmeldelser",
+    "holes": "{count} hull",
+    "viewCourse": "Se Bane"
+  },
+  "rankingTable": {
+    "empty": "Ingen golfbaner å vise",
+    "new": "NY",
+    "upPlaces": "Opp {count} plasser",
+    "downPlaces": "Ned {count} plasser",
+    "rank": "Plass",
+    "course": "Golfbane",
+    "region": "Region",
+    "rating": "Rating",
+    "reviews": "Anmeldelser",
+    "score": "Score"
+  },
   "blog": {
     "metaTitle": "Blogg - golfkart.no",
     "metaDescription": "Les våre blogginnlegg om golfbaner, tips og nyheter fra golfverdenen i Norge",
     "pageTitle": "Blogg",
     "subtitle": "Les våre artikler om golfbaner, tips og nyheter fra golfverdenen",
-    "noPosts": "Ingen blogginnlegg tilgjengelig ennå."
+    "noPosts": "Ingen blogginnlegg tilgjengelig ennå.",
+    "breadcrumbHome": "Hjem",
+    "breadcrumbBlog": "Blogg",
+    "byAuthor": "Av {author}",
+    "publishedDate": "Publisert {date}",
+    "notFound": "Ikke funnet"
   },
   "cookieConsent": {
     "bannerTitle": "Vi respekterer personvernet ditt",

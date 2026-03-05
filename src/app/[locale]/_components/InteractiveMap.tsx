@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 import * as am5 from "@amcharts/amcharts5";
 import * as am5map from "@amcharts/amcharts5/map";
 import am5geodata_norwayLow from "@amcharts/amcharts5-geodata/norwayLow";
@@ -18,13 +19,15 @@ interface InteractiveMapProps {
   regions: Region[];
   onRegionClick?: (slug: string) => void;
   className?: string;
+  locale?: string;
 }
 
-export function InteractiveMap({ regions, onRegionClick, className }: InteractiveMapProps) {
+export function InteractiveMap({ regions, onRegionClick, className, locale }: InteractiveMapProps) {
   const chartRef = useRef<HTMLDivElement>(null);
   const chartInstanceRef = useRef<am5map.MapChart | null>(null);
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
+  const t = useTranslations("interactiveMap");
 
   useEffect(() => {
     if (!chartRef.current) return;
@@ -75,7 +78,8 @@ export function InteractiveMap({ regions, onRegionClick, className }: Interactiv
 
     // Style polygons
     polygonSeries.mapPolygons.template.setAll({
-      tooltipText: "{name}: {courseCount} baner", // Norwegian: "courses" = "baner"
+      tooltipText:
+        locale === "en" ? "{name}: {courseCount} courses" : "{name}: {courseCount} baner",
       interactive: true,
       fill: am5.color(0x047857), // Primary green #047857
       stroke: am5.color(0xbac8c0), // Border default color
@@ -137,13 +141,13 @@ export function InteractiveMap({ regions, onRegionClick, className }: Interactiv
       root.dispose();
       chartInstanceRef.current = null;
     };
-  }, [regions, onRegionClick, router]);
+  }, [regions, onRegionClick, router, locale]);
 
   return (
     <div className="relative w-full max-w-2xl">
       {isLoading && (
         <div className="bg-background-elevated absolute inset-0 flex items-center justify-center">
-          <div className="text-text-tertiary">Laster kart...</div>
+          <div className="text-text-tertiary">{t("loading")}</div>
         </div>
       )}
       <div

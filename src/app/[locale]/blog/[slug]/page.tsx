@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllSlugs, getMDXBySlug } from "@/lib/mdx";
 import { mdxComponents } from "@/app/mdx-components";
 import { routing } from "@/i18n/routing";
@@ -30,12 +30,14 @@ export async function generateStaticParams() {
 
 export async function generateMetadata(props: PageProps) {
   const params = await props.params;
-  const localeParam = params.locale === "en" ? "en" : undefined;
-  const mdxContent = getMDXBySlug("blogg", params.slug, localeParam);
+  const { locale, slug } = params;
+  const t = await getTranslations({ locale, namespace: "blog" });
+  const localeParam = locale === "en" ? "en" : undefined;
+  const mdxContent = getMDXBySlug("blogg", slug, localeParam);
 
   if (!mdxContent) {
     return {
-      title: "Ikke funnet",
+      title: t("notFound"),
     };
   }
 
@@ -51,22 +53,28 @@ export async function generateMetadata(props: PageProps) {
   return {
     title: metaTitle,
     description: metaDescription,
-    alternates: {
-      canonical: `https://golfkart.no/blogg/${params.slug}`,
-    },
     openGraph: {
       title: metaTitle,
       description: metaDescription,
       type: "article",
+      locale: locale === "en" ? "en_GB" : "nb_NO",
       publishedTime: mdxContent.frontMatter.publishedAt,
       authors: [mdxContent.frontMatter.author || "golfkart.no"],
-      url: `https://golfkart.no/blogg/${params.slug}`,
+      url: `https://golfkart.no${locale === "en" ? "/en" : ""}/blog/${slug}`,
+    },
+    alternates: {
+      canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/blog/${slug}`,
+      languages: {
+        nb: `https://golfkart.no/blog/${slug}`,
+        en: `https://golfkart.no/en/blog/${slug}`,
+        "x-default": `https://golfkart.no/blog/${slug}`,
+      },
     },
   };
 }
 
 // Generate structured data for SEO
-function generateStructuredData(slug: string, frontMatter: FrontMatter) {
+function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: string) {
   const baseUrl = "https://golfkart.no";
 
   // Use seoTitle if available, otherwise fall back to title
@@ -82,7 +90,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter) {
     "@type": "Article",
     headline: structuredTitle,
     description: structuredDescription,
-    inLanguage: "no",
+    inLanguage: locale === "en" ? "en" : "no",
     articleSection: "Golf Rankings",
     author: {
       "@type": "Organization",
@@ -98,7 +106,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter) {
     dateModified: frontMatter.publishedAt,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${baseUrl}/blogg/${slug}`,
+      "@id": `${baseUrl}${locale === "en" ? "/en" : ""}/blog/${slug}`,
     },
   };
 
@@ -369,15 +377,17 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter) {
 
 export default async function BloggPage(props: PageProps) {
   const params = await props.params;
-  setRequestLocale(params.locale);
-  const localeParam = params.locale === "en" ? "en" : undefined;
-  const mdxContent = getMDXBySlug("blogg", params.slug, localeParam);
+  const { locale, slug } = params;
+  setRequestLocale(locale);
+  const t = await getTranslations("blog");
+  const localeParam = locale === "en" ? "en" : undefined;
+  const mdxContent = getMDXBySlug("blogg", slug, localeParam);
 
   if (!mdxContent) {
     notFound();
   }
 
-  const schemas = generateStructuredData(params.slug, mdxContent.frontMatter);
+  const schemas = generateStructuredData(slug, mdxContent.frontMatter, locale);
 
   return (
     <>
@@ -395,8 +405,8 @@ export default async function BloggPage(props: PageProps) {
         {/* Breadcrumbs */}
         <Breadcrumbs
           items={[
-            { label: "Hjem", href: "/" },
-            { label: "Blogg", href: "/blog" },
+            { label: t("breadcrumbHome"), href: "/" },
+            { label: t("breadcrumbBlog"), href: "/blog" },
             { label: mdxContent.frontMatter.title },
           ]}
         />
@@ -406,18 +416,21 @@ export default async function BloggPage(props: PageProps) {
             <h1 className="mb-4 text-4xl font-bold text-primary">{mdxContent.frontMatter.title}</h1>
 
             <div className="text-base-content/60 mb-4 flex flex-wrap items-center gap-4 text-sm">
-              {mdxContent.frontMatter.author && <span>Av {mdxContent.frontMatter.author}</span>}
+              {mdxContent.frontMatter.author && (
+                <span>{t("byAuthor", { author: mdxContent.frontMatter.author })}</span>
+              )}
               {mdxContent.frontMatter.publishedAt && (
                 <span>
-                  Publisert{" "}
-                  {new Date(mdxContent.frontMatter.publishedAt).toLocaleDateString(
-                    params.locale === "en" ? "en-GB" : "nb-NO",
-                    {
-                      year: "numeric",
-                      month: "long",
-                      day: "numeric",
-                    },
-                  )}
+                  {t("publishedDate", {
+                    date: new Date(mdxContent.frontMatter.publishedAt).toLocaleDateString(
+                      locale === "en" ? "en-GB" : "nb-NO",
+                      {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
+                      },
+                    ),
+                  })}
                 </span>
               )}
             </div>

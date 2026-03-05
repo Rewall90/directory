@@ -26,13 +26,16 @@ function StarRating({ rating }: { rating: number }) {
   );
 }
 
-function ReviewCard({ review }: { review: Review }) {
+function ReviewCard({ review, locale }: { review: Review; locale: string }) {
   const t = useTranslations("reviewSection");
-  const formattedDate = new Date(review.date).toLocaleDateString("no-NO", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
+  const formattedDate = new Date(review.date).toLocaleDateString(
+    locale === "en" ? "en-GB" : "nb-NO",
+    {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    },
+  );
 
   return (
     <div className="rounded-lg border border-v3d-border bg-v3d-warm p-6">
@@ -86,7 +89,11 @@ export function ReviewSection({ courseSlug, courseName, locale }: ReviewSectionP
           {reviews.length > 0 ? (
             <div className="space-y-4">
               {reviews.map((review, index) => (
-                <ReviewCard key={`${review.author}-${review.date}-${index}`} review={review} />
+                <ReviewCard
+                  key={`${review.author}-${review.date}-${index}`}
+                  review={review}
+                  locale={locale}
+                />
               ))}
             </div>
           ) : (

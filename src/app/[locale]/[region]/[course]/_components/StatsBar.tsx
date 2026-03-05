@@ -7,9 +7,8 @@ interface StatsBarProps {
   locale: "nb" | "en";
 }
 
-const formatter = new Intl.NumberFormat("no-NO");
-
 export function StatsBar({ course, locale }: StatsBarProps) {
+  const formatter = new Intl.NumberFormat(locale === "en" ? "en-GB" : "nb-NO");
   const t = useTranslations("statsBar");
   const localizedTerrain = getLocalizedCourseField(course, "terrain", locale);
   const localizedCourseType = getLocalizedCourseField(course, "courseType", locale);

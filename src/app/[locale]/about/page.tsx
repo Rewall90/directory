@@ -13,8 +13,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("metaTitle"),
     description: t("metaDescription"),
+    openGraph: {
+      locale: locale === "en" ? "en_GB" : "nb_NO",
+    },
     alternates: {
-      canonical: "/about",
+      canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/about`,
+      languages: {
+        nb: "https://golfkart.no/about",
+        en: "https://golfkart.no/en/about",
+        "x-default": "https://golfkart.no/about",
+      },
     },
   };
 }

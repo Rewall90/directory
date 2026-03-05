@@ -143,6 +143,7 @@ export default async function RegionPage({ params }: Props) {
       slug: course.slug,
       description: course.description || undefined,
     })),
+    locale,
   });
 
   return (

@@ -37,9 +37,13 @@ export function generateWebPageSchema(
      * Set to false if page doesn't have breadcrumb schema
      */
     includeBreadcrumb?: boolean;
+    /**
+     * Language of the page content ("nb" for Norwegian, "en" for English)
+     */
+    locale?: string;
   },
 ): WebPageSchema {
-  const { includeBreadcrumb = true } = options || {};
+  const { includeBreadcrumb = true, locale } = options || {};
 
   // Ensure we have a full URL
   const fullUrl = metadata.url.startsWith("http") ? metadata.url : createFullUrl(metadata.url);
@@ -58,7 +62,7 @@ export function generateWebPageSchema(
     isPartOf: getWebsiteReference(),
 
     // Language
-    inLanguage: "nb",
+    inLanguage: locale === "en" ? "en" : "nb",
 
     // Image (if provided)
     ...(metadata.image && {
@@ -84,12 +88,21 @@ export function generateWebPageSchema(
  * @param courseCount - Total number of courses (for description)
  * @returns WebPageSchema object
  */
-export function generateHomePageSchema(courseCount: number): WebPageSchema {
-  return generateWebPageSchema({
-    title: "golfkart.no - Finn golfbaner i Norge",
-    description: `Utforsk ${courseCount} golfbaner i hele Norge – med oppdatert informasjon om fasiliteter, tjenester og brukeranmeldelser.`,
-    url: "/",
-  });
+export function generateHomePageSchema(courseCount: number, locale?: string): WebPageSchema {
+  return generateWebPageSchema(
+    {
+      title:
+        locale === "en"
+          ? "golfkart.no - Find Golf Courses in Norway"
+          : "golfkart.no - Finn golfbaner i Norge",
+      description:
+        locale === "en"
+          ? `Explore ${courseCount} golf courses across Norway – with updated information about facilities, services and user reviews.`
+          : `Utforsk ${courseCount} golfbaner i hele Norge – med oppdatert informasjon om fasiliteter, tjenester og brukeranmeldelser.`,
+      url: "/",
+    },
+    { locale },
+  );
 }
 
 /**
@@ -104,12 +117,22 @@ export function generateRegionPageSchema(
   regionName: string,
   regionSlug: string,
   courseCount: number,
+  locale?: string,
 ): WebPageSchema {
-  return generateWebPageSchema({
-    title: `Golfbaner i ${regionName} | golfkart.no`,
-    description: `Utforsk ${courseCount} golfbaner i ${regionName}. Finn informasjon om fasiliteter, tjenester og anmeldelser.`,
-    url: `/${regionSlug}`,
-  });
+  return generateWebPageSchema(
+    {
+      title:
+        locale === "en"
+          ? `Golf Courses in ${regionName} | golfkart.no`
+          : `Golfbaner i ${regionName} | golfkart.no`,
+      description:
+        locale === "en"
+          ? `Explore ${courseCount} golf courses in ${regionName}. Find information about facilities, services and reviews.`
+          : `Utforsk ${courseCount} golfbaner i ${regionName}. Finn informasjon om fasiliteter, tjenester og anmeldelser.`,
+      url: `/${regionSlug}`,
+    },
+    { locale },
+  );
 }
 
 /**
@@ -117,10 +140,19 @@ export function generateRegionPageSchema(
  *
  * @returns WebPageSchema object
  */
-export function generateSearchPageSchema(): WebPageSchema {
-  return generateWebPageSchema({
-    title: "Søk etter golfbaner | golfkart.no",
-    description: "Søk og finn golfbaner i Norge. Filtrer etter region, fasiliteter og tjenester.",
-    url: "/search",
-  });
+export function generateSearchPageSchema(locale?: string): WebPageSchema {
+  return generateWebPageSchema(
+    {
+      title:
+        locale === "en"
+          ? "Search for Golf Courses | golfkart.no"
+          : "Søk etter golfbaner | golfkart.no",
+      description:
+        locale === "en"
+          ? "Search and find golf courses in Norway. Filter by region, facilities and services."
+          : "Søk og finn golfbaner i Norge. Filtrer etter region, fasiliteter og tjenester.",
+      url: "/search",
+    },
+    { locale },
+  );
 }

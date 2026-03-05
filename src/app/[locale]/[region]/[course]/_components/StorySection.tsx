@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import type { Course, PlacePhoto } from "@/types/course";
-import { getLocalizedDescription, getLocalizedCourseField } from "@/lib/i18n-courses";
+import { getLocalizedDescription } from "@/lib/i18n-courses";
 
 interface StorySectionProps {
   course: Course;

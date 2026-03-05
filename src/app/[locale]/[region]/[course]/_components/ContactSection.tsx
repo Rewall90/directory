@@ -32,7 +32,7 @@ export function ContactSection({ course, locale }: ContactSectionProps) {
           {/* Map Embed */}
           {course.coordinates ? (
             <iframe
-              src={`https://www.google.com/maps?q=${course.coordinates.lat},${course.coordinates.lng}&hl=no&z=14&output=embed`}
+              src={`https://www.google.com/maps?q=${course.coordinates.lat},${course.coordinates.lng}&hl=${locale === "en" ? "en" : "no"}&z=14&output=embed`}
               className="h-[300px] w-full border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -145,11 +145,7 @@ export function ContactSection({ course, locale }: ContactSectionProps) {
               <h4 className="mb-4 text-xs uppercase tracking-widest opacity-80">
                 {t("weatherOnCourse")}
               </h4>
-              <WeatherWidget
-                lat={course.coordinates.lat}
-                lng={course.coordinates.lng}
-                locale={locale}
-              />
+              <WeatherWidget lat={course.coordinates.lat} lng={course.coordinates.lng} />
             </div>
           )}
         </div>

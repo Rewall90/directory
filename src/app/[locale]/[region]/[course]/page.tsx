@@ -9,11 +9,7 @@ import type { Course, Booking } from "@/types/course";
 import { generateCourseBreadcrumb } from "@/lib/schema";
 import { getPlacePhotos } from "@/lib/google-places";
 import { routing } from "@/i18n/routing";
-import {
-  getLocalizedName,
-  getLocalizedDescription,
-  getLocalizedSeasonField,
-} from "@/lib/i18n-courses";
+import { getLocalizedName, getLocalizedDescription } from "@/lib/i18n-courses";
 import { CourseHero } from "./_components/CourseHero";
 import { StatsBar } from "./_components/StatsBar";
 import { StorySection } from "./_components/StorySection";
@@ -174,6 +170,7 @@ export default async function CoursePage({ params }: Props) {
     toRegionSlug(course.region),
     course.name,
     course.slug,
+    locale,
   );
 
   // Structured data for SEO - GolfCourse schema
@@ -181,6 +178,7 @@ export default async function CoursePage({ params }: Props) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "GolfCourse",
+    inLanguage: locale === "en" ? "en" : "nb",
     name: getLocalizedName(course, localeType),
     description:
       getLocalizedDescription(course, localeType) ||

@@ -12,8 +12,6 @@ interface PricingTabsProps {
   locale: "nb" | "en";
 }
 
-const formatter = new Intl.NumberFormat("no-NO");
-
 type TabId = "greenfee" | "medlemskap" | "utstyr";
 
 export function PricingTabs({
@@ -23,6 +21,7 @@ export function PricingTabs({
   membershipStatus,
   locale,
 }: PricingTabsProps) {
+  const formatter = new Intl.NumberFormat(locale === "en" ? "en-GB" : "nb-NO");
   const t = useTranslations("pricingTabs");
   const [activeTab, setActiveTab] = useState<TabId>("greenfee");
 

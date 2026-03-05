@@ -35,8 +35,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: t("metaTitle"),
     description: t("metaDescription", { totalCourses, regionCount: regions.length }),
+    openGraph: {
+      locale: locale === "en" ? "en_GB" : "nb_NO",
+    },
     alternates: {
-      canonical: "/regions",
+      canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/regions`,
+      languages: {
+        nb: "https://golfkart.no/regions",
+        en: "https://golfkart.no/en/regions",
+        "x-default": "https://golfkart.no/regions",
+      },
     },
   };
 }
@@ -51,6 +59,7 @@ export default async function RegionsPage({ params }: Props) {
   const schemas = getRegionsOverviewSchemas({
     regions,
     totalCourses,
+    locale,
   });
 
   return (

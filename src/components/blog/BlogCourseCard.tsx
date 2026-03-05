@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface BlogCourseCardProps {
   name: string;
@@ -28,6 +29,7 @@ export function BlogCourseCard({
   imageUrl,
   imageAlt,
 }: BlogCourseCardProps) {
+  const t = useTranslations("blogCourseCard");
   // Guard against missing required props
   if (!name || !courseUrl) {
     return null;
@@ -87,7 +89,10 @@ export function BlogCourseCard({
               </div>
               <span className="font-medium">{displayRating.toFixed(1)}</span>
               <span className="text-text-tertiary">
-                • {displayReviewCount} anmeldelse{displayReviewCount !== 1 ? "r" : ""}
+                •{" "}
+                {displayReviewCount !== 1
+                  ? t("reviewsPlural", { count: displayReviewCount })
+                  : t("reviewsSingular", { count: displayReviewCount })}
               </span>
             </div>
 
@@ -95,7 +100,7 @@ export function BlogCourseCard({
             {holes && (
               <>
                 <span className="text-text-tertiary">•</span>
-                <span>{holes} hull</span>
+                <span>{t("holes", { count: holes })}</span>
               </>
             )}
 
@@ -111,7 +116,7 @@ export function BlogCourseCard({
         {/* Right: Button */}
         <div className="flex-shrink-0">
           <span className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-content transition group-hover:bg-primary-light">
-            Se Bane
+            {t("viewCourse")}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"

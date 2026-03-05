@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface RankingTableRow {
   rank: number;
@@ -19,11 +20,12 @@ interface RankingTableProps {
 }
 
 export function RankingTable({ courses = [] }: RankingTableProps) {
+  const t = useTranslations("rankingTable");
   // Guard against undefined/null courses
   if (!courses || courses.length === 0) {
     return (
       <div className="my-8 rounded-lg border border-border-subtle p-8 text-center text-text-secondary">
-        Ingen golfbaner å vise
+        {t("empty")}
       </div>
     );
   }
@@ -44,19 +46,22 @@ export function RankingTable({ courses = [] }: RankingTableProps) {
     if (change === "new") {
       return (
         <span className="ml-1 rounded bg-green-100 px-1.5 py-0.5 text-xs font-medium text-green-700">
-          NY
+          {t("new")}
         </span>
       );
     }
     if (change > 0) {
       return (
-        <span className="ml-1 text-sm text-green-600" title={`Opp ${change} plasser`}>
+        <span className="ml-1 text-sm text-green-600" title={t("upPlaces", { count: change })}>
           ▲{change}
         </span>
       );
     }
     return (
-      <span className="ml-1 text-sm text-red-500" title={`Ned ${Math.abs(change)} plasser`}>
+      <span
+        className="ml-1 text-sm text-red-500"
+        title={t("downPlaces", { count: Math.abs(change) })}
+      >
         ▼{Math.abs(change)}
       </span>
     );
@@ -69,21 +74,23 @@ export function RankingTable({ courses = [] }: RankingTableProps) {
         <table className="w-full">
           <thead>
             <tr className="bg-primary/10 border-b border-border-subtle">
-              <th className="px-4 py-3 text-left text-sm font-semibold text-text-primary">Plass</th>
               <th className="px-4 py-3 text-left text-sm font-semibold text-text-primary">
-                Golfbane
+                {t("rank")}
               </th>
               <th className="px-4 py-3 text-left text-sm font-semibold text-text-primary">
-                Region
+                {t("course")}
+              </th>
+              <th className="px-4 py-3 text-left text-sm font-semibold text-text-primary">
+                {t("region")}
               </th>
               <th className="px-4 py-3 text-center text-sm font-semibold text-text-primary">
-                Rating
+                {t("rating")}
               </th>
               <th className="px-4 py-3 text-center text-sm font-semibold text-text-primary">
-                Anmeldelser
+                {t("reviews")}
               </th>
               <th className="px-4 py-3 text-center text-sm font-semibold text-text-primary">
-                Score
+                {t("score")}
               </th>
             </tr>
           </thead>
@@ -170,18 +177,18 @@ export function RankingTable({ courses = [] }: RankingTableProps) {
             </div>
             <div className="grid grid-cols-3 gap-4 border-t border-border-subtle pt-3">
               <div className="text-center">
-                <div className="mb-1 text-xs uppercase text-text-tertiary">Rating</div>
+                <div className="mb-1 text-xs uppercase text-text-tertiary">{t("rating")}</div>
                 <div className="flex items-center justify-center gap-1">
                   <span className="font-semibold text-text-primary">{course.rating}</span>
                   <span className="text-sm text-yellow-500">⭐</span>
                 </div>
               </div>
               <div className="text-center">
-                <div className="mb-1 text-xs uppercase text-text-tertiary">Anmeldelser</div>
+                <div className="mb-1 text-xs uppercase text-text-tertiary">{t("reviews")}</div>
                 <div className="font-medium text-text-secondary">{course.reviewCount}</div>
               </div>
               <div className="text-center">
-                <div className="mb-1 text-xs uppercase text-text-tertiary">Score</div>
+                <div className="mb-1 text-xs uppercase text-text-tertiary">{t("score")}</div>
                 <div className="bg-primary/10 inline-block rounded-full px-2 py-1 text-sm font-semibold text-primary">
                   {course.score}
                 </div>

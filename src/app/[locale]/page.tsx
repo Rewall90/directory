@@ -53,6 +53,7 @@ export default async function HomePage({ params }: Props) {
   const schemas = getHomepageSchemas({
     regions,
     totalCourses,
+    locale,
   });
 
   return (
@@ -68,7 +69,7 @@ export default async function HomePage({ params }: Props) {
             {t("mapTitle")}
           </h2>
           <div className="flex justify-center">
-            <InteractiveMap regions={regions} />
+            <InteractiveMap regions={regions} locale={locale} />
           </div>
         </div>
       </section>

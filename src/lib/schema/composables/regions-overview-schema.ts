@@ -48,6 +48,10 @@ export function getRegionsOverviewSchemas(data: {
    * Total number of courses across all regions
    */
   totalCourses: number;
+  /**
+   * Page locale ("nb" or "en")
+   */
+  locale?: string;
 }): Schema[] {
   const schemas: Schema[] = [];
 
@@ -57,8 +61,8 @@ export function getRegionsOverviewSchemas(data: {
   // 2. WebSite - The website itself with search capability
   schemas.push(generateWebSiteSchema());
 
-  // 3. BreadcrumbList - Navigation (Home > Fylke)
-  schemas.push(generateRegionsOverviewBreadcrumb());
+  // 3. BreadcrumbList - Navigation (Home > Fylke/Regions)
+  schemas.push(generateRegionsOverviewBreadcrumb(data.locale));
 
   // 4. ItemList - List of regions displayed on this page
   schemas.push(generateRegionListSchema(data.regions));

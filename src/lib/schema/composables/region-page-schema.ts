@@ -49,6 +49,10 @@ export function getRegionPageSchemas(data: {
    * List of courses in this region
    */
   courses: Array<{ name: string; slug: string; description?: string }>;
+  /**
+   * Page locale ("nb" or "en")
+   */
+  locale?: string;
 }): Schema[] {
   const schemas: Schema[] = [];
 
@@ -56,10 +60,12 @@ export function getRegionPageSchemas(data: {
   schemas.push(generateOrganizationSchema());
 
   // 2. WebPage - This specific page on YOUR site
-  schemas.push(generateRegionPageSchema(data.region.name, data.region.slug, data.courses.length));
+  schemas.push(
+    generateRegionPageSchema(data.region.name, data.region.slug, data.courses.length, data.locale),
+  );
 
   // 3. BreadcrumbList - Navigation structure
-  schemas.push(generateRegionBreadcrumb(data.region.name, data.region.slug));
+  schemas.push(generateRegionBreadcrumb(data.region.name, data.region.slug, data.locale));
 
   // 4. ItemList - The main content: list of courses in this region
   // This is the KEY schema for directories - it shows you're curating a collection

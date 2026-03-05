@@ -29,7 +29,7 @@ export function generateWebSiteSchema(): WebSiteSchema {
     publisher: getOrganizationReference(),
 
     // Language
-    inLanguage: ["nb", "no"],
+    inLanguage: ["nb", "no", "en"],
 
     // SearchAction - enables sitelinks search box in Google
     // This allows users to search your site directly from Google results

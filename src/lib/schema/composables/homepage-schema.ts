@@ -50,6 +50,10 @@ export function getHomepageSchemas(data: {
    * Total number of courses across all regions
    */
   totalCourses: number;
+  /**
+   * Page locale ("nb" or "en")
+   */
+  locale?: string;
 }): Schema[] {
   const schemas: Schema[] = [];
 
@@ -60,10 +64,10 @@ export function getHomepageSchemas(data: {
   schemas.push(generateWebSiteSchema());
 
   // 3. WebPage - This specific page (homepage)
-  schemas.push(generateHomePageSchema(data.totalCourses));
+  schemas.push(generateHomePageSchema(data.totalCourses, data.locale));
 
   // 4. BreadcrumbList - Navigation (just "Home" for homepage)
-  schemas.push(generateHomeBreadcrumb());
+  schemas.push(generateHomeBreadcrumb(data.locale));
 
   // 5. ItemList - List of regions displayed on homepage
   schemas.push(generateRegionListSchema(data.regions));

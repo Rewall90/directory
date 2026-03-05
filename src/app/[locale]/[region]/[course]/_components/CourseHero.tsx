@@ -199,7 +199,7 @@ export function CourseHero({
           {accentPhoto ? (
             <Image
               src={accentPhoto.url}
-              alt={`${localizedName} klubbhus`}
+              alt={t("accentImageAlt", { name: localizedName })}
               fill
               className="object-cover"
               sizes="360px"

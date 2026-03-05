@@ -29,7 +29,7 @@ export const SITE_CONFIG = {
   contact: {
     contactType: "customer service" as const,
     email: "petter@tegnogfarge.no",
-    availableLanguage: ["no", "nb"],
+    availableLanguage: ["no", "nb", "en"],
   },
 
   // Social media profiles (add when available)

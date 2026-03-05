@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import type { PlacePhoto } from "@/types/course";
 
 interface CoursePhotosProps {
@@ -19,6 +20,7 @@ interface CoursePhotosProps {
 export function CoursePhotos({ photos, courseName }: CoursePhotosProps) {
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
   const [heroFailed, setHeroFailed] = useState(false);
+  const t = useTranslations("coursePhotos");
 
   if (photos.length === 0) {
     return null;
@@ -45,7 +47,7 @@ export function CoursePhotos({ photos, courseName }: CoursePhotosProps) {
         <div className="relative aspect-[16/9] w-full overflow-hidden rounded-xl">
           <Image
             src={heroPhoto.url}
-            alt={`${courseName} - hovedbilde`}
+            alt={t("heroAlt", { name: courseName })}
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
@@ -57,7 +59,7 @@ export function CoursePhotos({ photos, courseName }: CoursePhotosProps) {
             <p
               className="text-xs text-white/80"
               dangerouslySetInnerHTML={{
-                __html: `Foto: ${heroPhoto.attributionHtml}`,
+                __html: `${t("photoCredit")} ${heroPhoto.attributionHtml}`,
               }}
             />
           </div>
@@ -70,7 +72,7 @@ export function CoursePhotos({ photos, courseName }: CoursePhotosProps) {
               <div key={photo.url} className="relative aspect-[4/3] overflow-hidden rounded-lg">
                 <Image
                   src={photo.url}
-                  alt={`${courseName} - bilde ${index + 2}`}
+                  alt={t("galleryAlt", { name: courseName, index: index + 2 })}
                   fill
                   className="object-cover transition-transform hover:scale-105"
                   sizes="(max-width: 768px) 33vw, 300px"
