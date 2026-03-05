@@ -9,6 +9,11 @@ import type { Course, Booking } from "@/types/course";
 import { generateCourseBreadcrumb } from "@/lib/schema";
 import { getPlacePhotos } from "@/lib/google-places";
 import { routing } from "@/i18n/routing";
+import {
+  getLocalizedName,
+  getLocalizedDescription,
+  getLocalizedSeasonField,
+} from "@/lib/i18n-courses";
 import { CourseHero } from "./_components/CourseHero";
 import { StatsBar } from "./_components/StatsBar";
 import { StorySection } from "./_components/StorySection";
@@ -70,18 +75,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const ratingData = calculateAverageRating(course.ratings);
+  const localeType = locale as "nb" | "en";
 
+  const name = getLocalizedName(course, localeType);
   const title =
-    locale === "en"
-      ? `${course.name} - Golf in ${course.region}`
-      : `${course.name} - Golf i ${course.region}`;
+    locale === "en" ? `${name} - Golf in ${course.region}` : `${name} - Golf i ${course.region}`;
 
-  const description =
-    locale === "en" && course.description_en
-      ? course.description_en.substring(0, 160) + "..."
-      : course.description
-        ? course.description.substring(0, 160) + "..."
-        : `${course.name} - ${course.course.holes} hull golf course in ${course.city}, ${course.region}. ${ratingData ? `Rated ${ratingData.averageRating.toFixed(1)}/5 by ${ratingData.totalReviews} golfers.` : ""}`;
+  const descriptionContent = getLocalizedDescription(course, localeType);
+  const description = descriptionContent
+    ? descriptionContent.substring(0, 160) + "..."
+    : locale === "en"
+      ? `${name} - ${course.course.holes} hole golf course in ${course.city}, ${course.region}. ${ratingData ? `Rated ${ratingData.averageRating.toFixed(1)}/5 by ${ratingData.totalReviews} golfers.` : ""}`
+      : `${name} - ${course.course.holes} hull golfbane i ${course.city}, ${course.region}. ${ratingData ? `Vurdert til ${ratingData.averageRating.toFixed(1)}/5 av ${ratingData.totalReviews} golfere.` : ""}`;
 
   const regionPath = toRegionSlug(course.region);
 
@@ -172,14 +177,16 @@ export default async function CoursePage({ params }: Props) {
   );
 
   // Structured data for SEO - GolfCourse schema
+  const localeType = locale as "nb" | "en";
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "GolfCourse",
-    name: locale === "en" && course.name_en ? course.name_en : course.name,
+    name: getLocalizedName(course, localeType),
     description:
-      locale === "en" && course.description_en
-        ? course.description_en
-        : course.description || `${course.name} - Golf course in ${course.city}, ${course.region}`,
+      getLocalizedDescription(course, localeType) ||
+      (locale === "en"
+        ? `${getLocalizedName(course, localeType)} - Golf course in ${course.city}, ${course.region}`
+        : `${getLocalizedName(course, localeType)} - Golfbane i ${course.city}, ${course.region}`),
     url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${toRegionSlug(course.region)}/${course.slug}`,
     address: {
       "@type": "PostalAddress",
@@ -271,16 +278,22 @@ export default async function CoursePage({ params }: Props) {
         siteReviews={siteReviews}
         photos={photos}
         googlePlaceId={course.googlePlaceId}
+        locale={locale as "nb" | "en"}
       />
 
       {/* Stats Bar */}
-      <StatsBar course={course} />
+      <StatsBar course={course} locale={locale as "nb" | "en"} />
 
       {/* Story Section */}
-      <StorySection course={course} photos={photos} />
+      <StorySection course={course} photos={photos} locale={locale as "nb" | "en"} />
 
       {/* Features Grid */}
-      <FeaturesGrid facilities={course.facilities} winterUse={course.season.winterUse} />
+      <FeaturesGrid
+        facilities={course.facilities}
+        winterUse={course.season.winterUse}
+        winterUse_en={course.season.winterUse_en}
+        locale={locale as "nb" | "en"}
+      />
 
       {/* Pricing Tabs */}
       <PricingTabs
@@ -288,13 +301,18 @@ export default async function CoursePage({ params }: Props) {
         pricingYear={pricingYear}
         memberships={memberships}
         membershipStatus={course.membershipStatus}
+        locale={locale as "nb" | "en"}
       />
 
       {/* Contact Section */}
-      <ContactSection course={course} />
+      <ContactSection course={course} locale={locale as "nb" | "en"} />
 
       {/* Reviews */}
-      <ReviewSection courseSlug={course.slug} courseName={course.name} />
+      <ReviewSection
+        courseSlug={course.slug}
+        courseName={getLocalizedName(course, locale as "nb" | "en")}
+        locale={locale as "nb" | "en"}
+      />
 
       {/* Nearby Courses */}
       <NearbyCoursesGrid
@@ -302,6 +320,7 @@ export default async function CoursePage({ params }: Props) {
           course: nearbyCourse,
           distanceKm,
         }))}
+        locale={locale as "nb" | "en"}
       />
     </div>
   );

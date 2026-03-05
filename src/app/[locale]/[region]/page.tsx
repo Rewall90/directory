@@ -33,7 +33,9 @@ function resolveDisplayName(slug: string): string {
  */
 interface CardCourse {
   slug: string;
+  slug_en?: string;
   name: string;
+  name_en?: string;
   region: string;
   city: string;
   postalCode: string;
@@ -58,7 +60,9 @@ function adaptCourseForCard(course: Course): CardCourse {
 
   return {
     slug: course.slug,
+    slug_en: course.slug_en,
     name: course.name,
+    name_en: course.name_en,
     region: course.region,
     city: course.city,
     addressStreet: course.address.street,
@@ -187,7 +191,11 @@ export default async function RegionPage({ params }: Props) {
             {/* Course List */}
             <div className="grid gap-8 md:grid-cols-2">
               {sortedCourses.map((course) => (
-                <CourseCard key={course.slug} course={adaptCourseForCard(course)} />
+                <CourseCard
+                  key={course.slug}
+                  course={adaptCourseForCard(course)}
+                  locale={locale as "nb" | "en"}
+                />
               ))}
             </div>
           </>

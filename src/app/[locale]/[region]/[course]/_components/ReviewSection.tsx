@@ -7,6 +7,7 @@ import { ReviewForm } from "./ReviewForm";
 interface ReviewSectionProps {
   courseSlug: string;
   courseName: string;
+  locale: "nb" | "en";
 }
 
 function StarRating({ rating }: { rating: number }) {
@@ -65,7 +66,7 @@ function ReviewCard({ review }: { review: Review }) {
   );
 }
 
-export function ReviewSection({ courseSlug, courseName }: ReviewSectionProps) {
+export function ReviewSection({ courseSlug, courseName, locale }: ReviewSectionProps) {
   const t = useTranslations("reviewSection");
   const reviews = getReviews(courseSlug);
 

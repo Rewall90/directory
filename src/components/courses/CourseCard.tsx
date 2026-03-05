@@ -13,7 +13,9 @@ interface CardRating {
 
 interface CardCourse {
   slug: string;
+  slug_en?: string;
   name: string;
+  name_en?: string;
   region: string;
   city: string;
   postalCode: string;
@@ -26,15 +28,22 @@ interface CardCourse {
 
 interface CourseCardProps {
   course: CardCourse;
+  locale?: "nb" | "en";
 }
 
-export function CourseCard({ course }: CourseCardProps) {
+export function CourseCard({ course, locale }: CourseCardProps) {
   const t = useTranslations("courseCard");
   // Calculate weighted average rating and total reviews
   const ratingData = calculateRating(course.ratings || []);
 
+  // Get locale-aware course name
+  const displayName = locale && locale === "en" && course.name_en ? course.name_en : course.name;
+
+  // Get locale-aware course slug
+  const courseSlug = locale && locale === "en" && course.slug_en ? course.slug_en : course.slug;
+
   // Build the course URL
-  const courseUrl = `/${toRegionSlug(course.region)}/${course.slug}`;
+  const courseUrl = `/${toRegionSlug(course.region)}/${courseSlug}`;
 
   // Determine if we have a full address or placeholder
   const hasFullAddress = course.addressStreet && course.addressStreet !== "TBD";
@@ -49,7 +58,7 @@ export function CourseCard({ course }: CourseCardProps) {
         <div className="flex-1">
           {/* Course Name */}
           <h3 className="mb-2 text-xl font-semibold text-text-primary group-hover:text-primary">
-            {course.name}
+            {displayName}
           </h3>
 
           {/* Address */}

@@ -9,6 +9,7 @@ interface PricingTabsProps {
   pricingYear: string | null;
   memberships: MembershipTier[];
   membershipStatus: MembershipStatus | null;
+  locale: "nb" | "en";
 }
 
 const formatter = new Intl.NumberFormat("no-NO");
@@ -20,6 +21,7 @@ export function PricingTabs({
   pricingYear,
   memberships,
   membershipStatus,
+  locale,
 }: PricingTabsProps) {
   const t = useTranslations("pricingTabs");
   const [activeTab, setActiveTab] = useState<TabId>("greenfee");
@@ -148,6 +150,34 @@ export function PricingTabs({
                 )}
               </div>
             </div>
+
+            {/* Description and Notes */}
+            {(pricing.greenFeeDescription || pricing.notes) && (
+              <div className="rounded-xl border border-v3d-border bg-v3d-cream p-8 md:col-span-2">
+                {pricing.greenFeeDescription && (
+                  <div className="mb-6">
+                    <h4 className="mb-3 font-serif text-lg font-medium text-v3d-text-dark">
+                      {t("aboutPricing")}
+                    </h4>
+                    <p className="text-v3d-text-body">
+                      {locale === "en" && pricing.greenFeeDescription_en
+                        ? pricing.greenFeeDescription_en
+                        : pricing.greenFeeDescription}
+                    </p>
+                  </div>
+                )}
+                {pricing.notes && (
+                  <div>
+                    <h4 className="mb-3 font-serif text-lg font-medium text-v3d-text-dark">
+                      {t("notes")}
+                    </h4>
+                    <p className="text-v3d-text-body">
+                      {locale === "en" && pricing.notes_en ? pricing.notes_en : pricing.notes}
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         )}
 
@@ -165,18 +195,24 @@ export function PricingTabs({
                 <h3 className="mb-6 border-b border-v3d-border pb-4 font-serif text-xl font-medium">
                   {t("membership")}
                 </h3>
-                <div className="space-y-3">
-                  {memberships.map((m, i) => (
-                    <div
-                      key={i}
-                      className="flex justify-between border-b border-v3d-border pb-3 last:border-b-0"
-                    >
-                      <span className="text-v3d-text-muted">{m.name || m.category}</span>
-                      <span className="font-semibold text-v3d-forest">
-                        {formatter.format(m.totalAnnual ?? m.price)} {t("perYear")}
-                      </span>
-                    </div>
-                  ))}
+                <div className="space-y-4">
+                  {memberships.map((m, i) => {
+                    const tierName =
+                      locale === "en" && m.name_en ? m.name_en : m.name || m.category;
+                    const tierDesc =
+                      locale === "en" && m.description_en ? m.description_en : m.description;
+                    return (
+                      <div key={i} className="border-b border-v3d-border pb-4 last:border-b-0">
+                        <div className="mb-2 flex justify-between">
+                          <span className="font-medium text-v3d-text-dark">{tierName}</span>
+                          <span className="font-semibold text-v3d-forest">
+                            {formatter.format(m.totalAnnual ?? m.price)} {t("perYear")}
+                          </span>
+                        </div>
+                        {tierDesc && <p className="text-sm text-v3d-text-muted">{tierDesc}</p>}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}

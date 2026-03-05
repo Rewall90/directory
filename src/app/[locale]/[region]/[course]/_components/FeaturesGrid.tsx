@@ -6,6 +6,8 @@ import type { Facilities } from "@/types/course";
 interface FeaturesGridProps {
   facilities: Facilities | null;
   winterUse: string | null;
+  winterUse_en?: string | null;
+  locale: "nb" | "en";
 }
 
 interface FeatureGroup {
@@ -14,8 +16,11 @@ interface FeatureGroup {
   items: string[];
 }
 
-export function FeaturesGrid({ facilities, winterUse }: FeaturesGridProps) {
+export function FeaturesGrid({ facilities, winterUse, winterUse_en, locale }: FeaturesGridProps) {
   const t = useTranslations("featuresGrid");
+
+  // Select localized winter use text
+  const winterUseText = locale === "en" && winterUse_en ? winterUse_en : winterUse;
 
   function buildFeatureGroups(facilities: Facilities | null): FeatureGroup[] {
     if (!facilities) return [];
@@ -124,12 +129,12 @@ export function FeaturesGrid({ facilities, winterUse }: FeaturesGridProps) {
       </div>
 
       {/* Winter Use Note */}
-      {winterUse && (
+      {winterUseText && (
         <div className="mt-8 border-t border-v3d-border pt-6">
           <h3 className="mb-3 font-semibold text-v3d-text-dark">{t("winter")}</h3>
           <div className="flex gap-2 text-v3d-text-muted">
             <span className="text-v3d-forest">{"\u2713"}</span>
-            <span>{winterUse}</span>
+            <span>{winterUseText}</span>
           </div>
         </div>
       )}

@@ -1,18 +1,22 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import type { Course, PlacePhoto } from "@/types/course";
+import { getLocalizedDescription, getLocalizedCourseField } from "@/lib/i18n-courses";
 
 interface StorySectionProps {
   course: Course;
   photos: PlacePhoto[];
+  locale: "nb" | "en";
 }
 
-export function StorySection({ course, photos }: StorySectionProps) {
+export function StorySection({ course, photos, locale }: StorySectionProps) {
   const t = useTranslations("storySection");
-  if (!course.description) return null;
+
+  const description = getLocalizedDescription(course, locale);
+  if (!description) return null;
 
   // Split description into lead (first sentence) and rest
-  const sentences = course.description.split(/(?<=\.)\s+/);
+  const sentences = description.split(/(?<=\.)\s+/);
   const lead = sentences[0];
   const rest = sentences.slice(1).join(" ");
 

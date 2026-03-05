@@ -4,9 +4,10 @@ import { WeatherWidget } from "./WeatherWidget";
 
 interface ContactSectionProps {
   course: Course;
+  locale: "nb" | "en";
 }
 
-export function ContactSection({ course }: ContactSectionProps) {
+export function ContactSection({ course, locale }: ContactSectionProps) {
   const t = useTranslations("contactSection");
   const addressLines = [
     [course.address.street, course.address.area].filter(Boolean).join(", "),
@@ -144,7 +145,11 @@ export function ContactSection({ course }: ContactSectionProps) {
               <h4 className="mb-4 text-xs uppercase tracking-widest opacity-80">
                 {t("weatherOnCourse")}
               </h4>
-              <WeatherWidget lat={course.coordinates.lat} lng={course.coordinates.lng} />
+              <WeatherWidget
+                lat={course.coordinates.lat}
+                lng={course.coordinates.lng}
+                locale={locale}
+              />
             </div>
           )}
         </div>

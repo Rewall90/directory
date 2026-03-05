@@ -3,15 +3,17 @@ import { Link } from "@/i18n/navigation";
 import type { Course } from "@/types/course";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import { calculateAverageRating } from "@/lib/courses";
+import { getLocalizedName } from "@/lib/i18n-courses";
 
 interface NearbyCoursesGridProps {
   courses: Array<{
     course: Course;
     distanceKm: number | null;
   }>;
+  locale: "nb" | "en";
 }
 
-export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
+export function NearbyCoursesGrid({ courses, locale }: NearbyCoursesGridProps) {
   const t = useTranslations("nearbyCourses");
   if (courses.length === 0) return null;
 
@@ -29,6 +31,7 @@ export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {courses.map(({ course, distanceKm }) => {
           const ratingData = calculateAverageRating(course.ratings);
+          const name = getLocalizedName(course, locale);
 
           return (
             <Link
@@ -44,7 +47,7 @@ export function NearbyCoursesGrid({ courses }: NearbyCoursesGridProps) {
               {/* Content */}
               <div className="p-5">
                 <h3 className="mb-1 font-serif text-lg font-medium text-v3d-text-dark group-hover:text-v3d-forest">
-                  {course.name}
+                  {name}
                 </h3>
                 <div className="flex gap-3 text-sm text-v3d-text-muted">
                   <span>{t("holes", { count: course.course.holes })}</span>

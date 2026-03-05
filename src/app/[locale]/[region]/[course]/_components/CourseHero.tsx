@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import type { Course, PlacePhoto } from "@/types/course";
+import { getLocalizedName, getLocalizedDescription } from "@/lib/i18n-courses";
 
 interface RatingData {
   averageRating: number;
@@ -20,6 +21,7 @@ interface CourseHeroProps {
   siteReviews: SiteReviewData | null;
   photos: PlacePhoto[];
   googlePlaceId?: string | null;
+  locale: "nb" | "en";
 }
 
 function StarIcon({ filled }: { filled: boolean }) {
@@ -36,6 +38,7 @@ export function CourseHero({
   siteReviews,
   photos,
   googlePlaceId,
+  locale,
 }: CourseHeroProps) {
   const t = useTranslations("courseHero");
   const heroPhoto = photos[0];
@@ -43,6 +46,8 @@ export function CourseHero({
   const googleReviewsUrl = googlePlaceId
     ? `https://search.google.com/local/reviews?placeid=${googlePlaceId}`
     : null;
+  const localizedName = getLocalizedName(course, locale);
+  const localizedDescription = getLocalizedDescription(course, locale);
 
   return (
     <section className="mx-auto grid max-w-[1200px] gap-16 px-8 py-16 md:grid-cols-2 md:items-center">
@@ -58,13 +63,13 @@ export function CourseHero({
 
         {/* Title */}
         <h1 className="mb-6 font-serif text-4xl font-medium leading-tight text-v3d-text-dark md:text-5xl">
-          {course.name}
+          {localizedName}
         </h1>
 
         {/* Subtitle */}
-        {course.description && (
+        {localizedDescription && (
           <p className="mb-8 text-xl font-light text-v3d-text-muted">
-            {course.description.split(".")[0]}.
+            {localizedDescription.split(".")[0]}.
           </p>
         )}
 
@@ -179,7 +184,7 @@ export function CourseHero({
           {heroPhoto ? (
             <Image
               src={heroPhoto.url}
-              alt={course.name}
+              alt={localizedName}
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 600px"
@@ -194,7 +199,7 @@ export function CourseHero({
           {accentPhoto ? (
             <Image
               src={accentPhoto.url}
-              alt={`${course.name} klubbhus`}
+              alt={`${localizedName} klubbhus`}
               fill
               className="object-cover"
               sizes="360px"

@@ -1,14 +1,18 @@
 import { useTranslations } from "next-intl";
 import type { Course } from "@/types/course";
+import { getLocalizedCourseField } from "@/lib/i18n-courses";
 
 interface StatsBarProps {
   course: Course;
+  locale: "nb" | "en";
 }
 
 const formatter = new Intl.NumberFormat("no-NO");
 
-export function StatsBar({ course }: StatsBarProps) {
+export function StatsBar({ course, locale }: StatsBarProps) {
   const t = useTranslations("statsBar");
+  const localizedTerrain = getLocalizedCourseField(course, "terrain", locale);
+  const localizedCourseType = getLocalizedCourseField(course, "courseType", locale);
   const stats = [
     { value: course.course.holes, label: t("holes") },
     { value: course.course.par, label: t("par") },
@@ -19,7 +23,7 @@ export function StatsBar({ course }: StatsBarProps) {
       label: t("length"),
     },
     { value: course.course.yearBuilt, label: t("yearBuilt") },
-    { value: course.course.terrain || course.course.courseType, label: t("courseType") },
+    { value: localizedTerrain || localizedCourseType, label: t("courseType") },
     {
       value:
         course.season.start && course.season.end

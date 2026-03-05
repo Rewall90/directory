@@ -26,9 +26,10 @@ interface WeatherData {
 interface WeatherWidgetProps {
   lat: number;
   lng: number;
+  locale: "nb" | "en";
 }
 
-export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
+export function WeatherWidget({ lat, lng, locale }: WeatherWidgetProps) {
   const t = useTranslations("weather");
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [loading, setLoading] = useState(true);
