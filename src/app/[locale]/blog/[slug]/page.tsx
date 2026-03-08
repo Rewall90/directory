@@ -50,6 +50,11 @@ export async function generateMetadata(props: PageProps) {
     mdxContent.frontMatter.description?.replace(/<[^>]*>/g, "") ||
     "";
 
+  // Resolve the alternate locale slug for hreflang
+  const alternateSlug = (mdxContent.frontMatter.alternateSlug as string) || slug;
+  const nbSlug = locale === "en" ? alternateSlug : slug;
+  const enSlug = locale === "en" ? slug : alternateSlug;
+
   return {
     title: metaTitle,
     description: metaDescription,
@@ -65,9 +70,9 @@ export async function generateMetadata(props: PageProps) {
     alternates: {
       canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/blog/${slug}`,
       languages: {
-        nb: `https://golfkart.no/blog/${slug}`,
-        en: `https://golfkart.no/en/blog/${slug}`,
-        "x-default": `https://golfkart.no/blog/${slug}`,
+        nb: `https://golfkart.no/blog/${nbSlug}`,
+        en: `https://golfkart.no/en/blog/${enSlug}`,
+        "x-default": `https://golfkart.no/blog/${nbSlug}`,
       },
     },
   };

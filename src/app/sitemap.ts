@@ -125,34 +125,65 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   const blogDir = path.join(process.cwd(), "content/blogg");
-  const blogPages: MetadataRoute.Sitemap = fs.existsSync(blogDir)
-    ? fs
-        .readdirSync(blogDir)
-        .filter((file) => file.endsWith(".mdx"))
-        .flatMap((file) => {
-          const content = fs.readFileSync(path.join(blogDir, file), "utf-8");
-          const { data } = matter(content);
-          const slug = file.replace(".mdx", "");
-          const lastModified = data.updatedAt || data.publishedAt || new Date();
-          const blogPath = `/blog/${slug}`;
-          return [
-            {
-              url: `${BASE_URL}${blogPath}`,
-              lastModified,
-              changeFrequency: "monthly" as const,
-              priority: 0.6,
-              alternates: langAlternates(blogPath),
-            },
-            {
-              url: `${BASE_URL}/en${blogPath}`,
-              lastModified,
-              changeFrequency: "monthly" as const,
-              priority: 0.5,
-              alternates: langAlternates(blogPath),
-            },
-          ];
-        })
+  const blogEnDir = path.join(blogDir, "en");
+
+  // Read Norwegian blog posts and pair with their English alternates
+  const nbBlogFiles = fs.existsSync(blogDir)
+    ? fs.readdirSync(blogDir).filter((file) => file.endsWith(".mdx"))
     : [];
 
-  return [...staticPages, ...regionPages, ...coursePages, ...blogPages];
+  const blogPages: MetadataRoute.Sitemap = nbBlogFiles.flatMap((file) => {
+    const content = fs.readFileSync(path.join(blogDir, file), "utf-8");
+    const { data } = matter(content);
+    const nbSlug = file.replace(".mdx", "");
+    const enSlug = (data.alternateSlug as string) || nbSlug;
+    const lastModified = data.updatedAt || data.publishedAt || new Date();
+
+    const blogAlternates = {
+      languages: {
+        nb: `${BASE_URL}/blog/${nbSlug}`,
+        en: `${BASE_URL}/en/blog/${enSlug}`,
+        "x-default": `${BASE_URL}/blog/${nbSlug}`,
+      },
+    };
+
+    return [
+      {
+        url: `${BASE_URL}/blog/${nbSlug}`,
+        lastModified,
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+        alternates: blogAlternates,
+      },
+    ];
+  });
+
+  // Read English blog posts separately
+  const enBlogFiles = fs.existsSync(blogEnDir)
+    ? fs.readdirSync(blogEnDir).filter((file) => file.endsWith(".mdx"))
+    : [];
+
+  const enBlogPages: MetadataRoute.Sitemap = enBlogFiles.map((file) => {
+    const content = fs.readFileSync(path.join(blogEnDir, file), "utf-8");
+    const { data } = matter(content);
+    const enSlug = file.replace(".mdx", "");
+    const nbSlug = (data.alternateSlug as string) || enSlug;
+    const lastModified = data.updatedAt || data.publishedAt || new Date();
+
+    return {
+      url: `${BASE_URL}/en/blog/${enSlug}`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
+      alternates: {
+        languages: {
+          nb: `${BASE_URL}/blog/${nbSlug}`,
+          en: `${BASE_URL}/en/blog/${enSlug}`,
+          "x-default": `${BASE_URL}/blog/${nbSlug}`,
+        },
+      },
+    };
+  });
+
+  return [...staticPages, ...regionPages, ...coursePages, ...blogPages, ...enBlogPages];
 }
