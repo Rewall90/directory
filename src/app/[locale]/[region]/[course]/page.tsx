@@ -90,7 +90,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     openGraph: {
-      title: course.name,
+      title: name,
       description,
       type: "website",
       locale: locale === "en" ? "en_GB" : "nb_NO",
@@ -99,7 +99,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary",
-      title: course.name,
+      title: name,
       description,
     },
     alternates: {

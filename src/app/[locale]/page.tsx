@@ -13,8 +13,11 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations("metadata");
 
   return {
+    title: t("title"),
+    description: t("description"),
     openGraph: {
       locale: locale === "en" ? "en_GB" : "nb_NO",
     },

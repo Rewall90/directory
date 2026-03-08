@@ -13,6 +13,7 @@ function langAlternates(pagePath: string) {
     languages: {
       nb: `${BASE_URL}${pagePath}`,
       en: `${BASE_URL}/en${pagePath}`,
+      "x-default": `${BASE_URL}${pagePath}`,
     },
   };
 }
@@ -27,14 +28,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
-      alternates: { languages: { nb: BASE_URL, en: `${BASE_URL}/en` } },
+      alternates: { languages: { nb: BASE_URL, en: `${BASE_URL}/en`, "x-default": BASE_URL } },
     },
     {
       url: `${BASE_URL}/en`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
-      alternates: { languages: { nb: BASE_URL, en: `${BASE_URL}/en` } },
+      alternates: { languages: { nb: BASE_URL, en: `${BASE_URL}/en`, "x-default": BASE_URL } },
     },
     ...["/about", "/contact"].flatMap((p) => [
       {
