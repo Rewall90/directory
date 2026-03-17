@@ -222,16 +222,21 @@ export default async function CoursePage({ params }: Props) {
         worstRating: "1",
       },
     }),
-    ...(pricing && {
-      priceRange: `${Math.min(
-        pricing.greenFeeWeekday || Infinity,
-        pricing.greenFeeWeekend || Infinity,
-        pricing.greenFeeJunior || Infinity,
-      )} - ${Math.max(
-        pricing.greenFeeWeekday || 0,
-        pricing.greenFeeWeekend || 0,
-      )} ${pricing.currency}`,
-    }),
+    ...(() => {
+      if (!pricing) return {};
+      const fees = [
+        pricing.greenFeeWeekday,
+        pricing.greenFeeWeekend,
+        pricing.greenFeeJunior,
+      ].filter((f): f is number => typeof f === "number" && f > 0);
+      if (fees.length === 0) return {};
+      const min = Math.min(...fees);
+      const max = Math.max(...fees);
+      return {
+        priceRange:
+          min === max ? `${min} ${pricing.currency}` : `${min} - ${max} ${pricing.currency}`,
+      };
+    })(),
   };
 
   return (
