@@ -19,11 +19,12 @@ export const getRegions = cache((): string[] => {
 });
 
 /**
- * Load single course by slug
+ * Load single course by slug (supports both Norwegian slug and English slug_en)
  */
 export const getCourse = cache((slug: string): Course | null => {
   const regions = getRegions();
 
+  // First try to find by filename (Norwegian slug)
   for (const region of regions) {
     const filePath = path.join(COURSES_DIR, region, `${slug}.json`);
     if (fs.existsSync(filePath)) {
@@ -31,6 +32,21 @@ export const getCourse = cache((slug: string): Course | null => {
       return JSON.parse(content) as Course;
     }
   }
+
+  // If not found by filename, search by slug_en field
+  for (const region of regions) {
+    const regionDir = path.join(COURSES_DIR, region);
+    const files = fs.readdirSync(regionDir).filter((f) => f.endsWith(".json"));
+
+    for (const file of files) {
+      const content = fs.readFileSync(path.join(regionDir, file), "utf-8");
+      const course = JSON.parse(content) as Course;
+      if (course.slug_en === slug) {
+        return course;
+      }
+    }
+  }
+
   return null;
 });
 

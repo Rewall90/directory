@@ -9,7 +9,7 @@ import type { Course, Booking } from "@/types/course";
 import { generateCourseBreadcrumb } from "@/lib/schema";
 import { getPlacePhotos } from "@/lib/google-places";
 import { routing } from "@/i18n/routing";
-import { getLocalizedName, getLocalizedDescription } from "@/lib/i18n-courses";
+import { getLocalizedName, getLocalizedDescription, getLocalizedSlug } from "@/lib/i18n-courses";
 import { CourseHero } from "./_components/CourseHero";
 import { StatsBar } from "./_components/StatsBar";
 import { StorySection } from "./_components/StorySection";
@@ -331,7 +331,7 @@ export function generateStaticParams() {
     courses.map((course) => ({
       locale,
       region: toRegionSlug(course.region),
-      course: course.slug,
+      course: getLocalizedSlug(course, locale as "nb" | "en"),
     })),
   );
 }
