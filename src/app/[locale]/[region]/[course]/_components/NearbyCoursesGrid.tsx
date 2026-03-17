@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import type { Course } from "@/types/course";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import { calculateAverageRating } from "@/lib/courses";
-import { getLocalizedName } from "@/lib/i18n-courses";
+import { getLocalizedName, getLocalizedSlug } from "@/lib/i18n-courses";
 
 interface NearbyCoursesGridProps {
   courses: Array<{
@@ -36,7 +36,7 @@ export function NearbyCoursesGrid({ courses, locale }: NearbyCoursesGridProps) {
           return (
             <Link
               key={course.slug}
-              href={`/${toRegionSlug(course.region)}/${course.slug}`}
+              href={`/${toRegionSlug(course.region)}/${getLocalizedSlug(course, locale)}`}
               className="group overflow-hidden rounded-xl border border-v3d-border bg-v3d-warm transition-all hover:-translate-y-1 hover:shadow-lg"
             >
               {/* Image Placeholder */}

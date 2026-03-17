@@ -105,21 +105,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const coursePages: MetadataRoute.Sitemap = courses.flatMap((course) => {
     const regionSlug = toRegionSlug(course.region);
     const lastModified = course.meta.updatedAt ? new Date(course.meta.updatedAt) : new Date();
-    const coursePath = `/${regionSlug}/${course.slug}`;
+    const nbPath = `/${regionSlug}/${course.slug}`;
+    const enSlug = course.slug_en || course.slug;
+    const enPath = `/${regionSlug}/${enSlug}`;
+    const courseAlternates = {
+      languages: {
+        nb: `${BASE_URL}${nbPath}`,
+        en: `${BASE_URL}/en${enPath}`,
+        "x-default": `${BASE_URL}${nbPath}`,
+      },
+    };
     return [
       {
-        url: `${BASE_URL}${coursePath}`,
+        url: `${BASE_URL}${nbPath}`,
         lastModified,
         changeFrequency: "weekly" as const,
         priority: 0.7,
-        alternates: langAlternates(coursePath),
+        alternates: courseAlternates,
       },
       {
-        url: `${BASE_URL}/en${coursePath}`,
+        url: `${BASE_URL}/en${enPath}`,
         lastModified,
         changeFrequency: "weekly" as const,
         priority: 0.6,
-        alternates: langAlternates(coursePath),
+        alternates: courseAlternates,
       },
     ];
   });

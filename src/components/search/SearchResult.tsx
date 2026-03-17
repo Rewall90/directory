@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 
 interface SearchResultProps {
@@ -11,6 +11,7 @@ interface SearchResultProps {
   holes: number;
   par: number | null;
   slug: string;
+  slugEn?: string | null;
   isActive?: boolean;
 }
 
@@ -21,13 +22,16 @@ export function SearchResult({
   holes,
   par,
   slug,
+  slugEn,
   isActive = false,
 }: SearchResultProps) {
   const t = useTranslations("search");
+  const locale = useLocale();
+  const localizedSlug = locale === "en" && slugEn ? slugEn : slug;
 
   return (
     <Link
-      href={`/${toRegionSlug(region)}/${slug}`}
+      href={`/${toRegionSlug(region)}/${localizedSlug}`}
       className={`block px-4 py-3 transition-colors ${
         isActive
           ? "bg-primary-lighter text-primary-dark"

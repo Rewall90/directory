@@ -1,13 +1,14 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { SearchResult } from "./SearchResult";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 
 interface Course {
   id: string;
   slug: string;
+  slug_en?: string | null;
   name: string;
   city: string;
   region: string;
@@ -23,6 +24,7 @@ interface CourseSearchProps {
 
 export function CourseSearch({ placeholder, className = "" }: CourseSearchProps) {
   const t = useTranslations("search");
+  const locale = useLocale();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<Course[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -97,7 +99,9 @@ export function CourseSearch({ placeholder, className = "" }: CourseSearchProps)
         e.preventDefault();
         if (activeIndex >= 0 && results[activeIndex]) {
           const course = results[activeIndex];
-          window.location.href = `/${toRegionSlug(course.region)}/${course.slug}`;
+          const navSlug = locale === "en" && course.slug_en ? course.slug_en : course.slug;
+          const prefix = locale === "en" ? "/en" : "";
+          window.location.href = `${prefix}/${toRegionSlug(course.region)}/${navSlug}`;
         }
         break;
     }
@@ -192,6 +196,7 @@ export function CourseSearch({ placeholder, className = "" }: CourseSearchProps)
                     holes={course.holes}
                     par={course.par}
                     slug={course.slug}
+                    slugEn={course.slug_en}
                     isActive={index === activeIndex}
                   />
                 </div>

@@ -95,7 +95,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
     "@type": "Article",
     headline: structuredTitle,
     description: structuredDescription,
-    inLanguage: locale === "en" ? "en" : "no",
+    inLanguage: locale === "en" ? "en" : "nb",
     articleSection: "Golf Rankings",
     author: {
       "@type": "Organization",
@@ -116,12 +116,21 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
   };
 
   // Add ranking-specific schema if this is the best courses post
-  if (slug === "beste-golfbaner-norge-2025") {
+  const isEn = locale === "en";
+  const isBestCoursesPost =
+    slug === "beste-golfbaner-norge-2025" || slug === "best-golf-courses-norway";
+
+  if (isBestCoursesPost) {
+    const courseUrl = (region: string, nbSlug: string, enSlug: string) =>
+      `${baseUrl}${isEn ? "/en" : ""}/${region}/${isEn ? enSlug : nbSlug}`;
+
     const itemListSchema = {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      name: "Norges 10 beste golfbaner 2025",
-      description: "De 10 beste golfbanene i Norge rangert etter Google-anmeldelser",
+      name: isEn ? "Norway's 10 Best Golf Courses 2025" : "Norges 10 beste golfbaner 2025",
+      description: isEn
+        ? "The 10 best golf courses in Norway ranked by Google reviews"
+        : "De 10 beste golfbanene i Norge rangert etter Google-anmeldelser",
       numberOfItems: 10,
       itemListOrder: "https://schema.org/ItemListOrderDescending",
       itemListElement: [
@@ -137,7 +146,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Trøndelag",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.9, reviewCount: 119 },
-            url: `${baseUrl}/trondelag/stiklestad-golfklubb`,
+            url: courseUrl("trondelag", "stiklestad-golfklubb", "stiklestad-golf-club"),
           },
         },
         {
@@ -152,7 +161,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Trøndelag",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.9, reviewCount: 36 },
-            url: `${baseUrl}/trondelag/trondheim-golfklubb`,
+            url: courseUrl("trondelag", "trondheim-golfklubb", "trondheim-golf-club"),
           },
         },
         {
@@ -167,7 +176,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Agder",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.7, reviewCount: 108 },
-            url: `${baseUrl}/agder/bjaavann-golfklubb`,
+            url: courseUrl("agder", "bjaavann-golfklubb", "bjaavann-golf-club"),
           },
         },
         {
@@ -182,7 +191,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Akershus",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.7, reviewCount: 90 },
-            url: `${baseUrl}/akershus/oustoen-country-club`,
+            url: courseUrl("akershus", "oustoen-country-club", "oustoen-country-club"),
           },
         },
         {
@@ -197,7 +206,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Møre og Romsdal",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.7, reviewCount: 88 },
-            url: `${baseUrl}/more-og-romsdal/molde-golfklubb`,
+            url: courseUrl("more-og-romsdal", "molde-golfklubb", "molde-golf-club"),
           },
         },
         {
@@ -212,7 +221,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Innlandet",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.7, reviewCount: 80 },
-            url: `${baseUrl}/innlandet/valdres-golfklubb`,
+            url: courseUrl("innlandet", "valdres-golfklubb", "valdres-golf-club"),
           },
         },
         {
@@ -227,7 +236,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Nordland",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.7, reviewCount: 70 },
-            url: `${baseUrl}/nordland/bodo-golfpark`,
+            url: courseUrl("nordland", "bodo-golfpark", "bodo-golf-park"),
           },
         },
         {
@@ -242,7 +251,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Nordland",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.6, reviewCount: 279 },
-            url: `${baseUrl}/nordland/lofoten-links`,
+            url: courseUrl("nordland", "lofoten-links", "lofoten-links"),
           },
         },
         {
@@ -257,7 +266,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Akershus",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.6, reviewCount: 223 },
-            url: `${baseUrl}/akershus/krokhol-golfklubb`,
+            url: courseUrl("akershus", "krokhol-golfklubb", "krokhol-golf-club"),
           },
         },
         {
@@ -272,7 +281,7 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
               addressRegion: "Troms",
             },
             aggregateRating: { "@type": "AggregateRating", ratingValue: 4.6, reviewCount: 215 },
-            url: `${baseUrl}/troms/tromso-golfklubb`,
+            url: courseUrl("troms", "tromso-golfklubb", "tromso-golf-club"),
           },
         },
       ],
@@ -285,20 +294,20 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
         {
           "@type": "ListItem",
           position: 1,
-          name: "Hjem",
-          item: baseUrl,
+          name: isEn ? "Home" : "Hjem",
+          item: isEn ? `${baseUrl}/en` : baseUrl,
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Blogg",
-          item: `${baseUrl}/blogg`,
+          name: isEn ? "Blog" : "Blogg",
+          item: `${baseUrl}${isEn ? "/en" : ""}/blog`,
         },
         {
           "@type": "ListItem",
           position: 3,
-          name: "Beste Golfbaner i Norge 2025",
-          item: `${baseUrl}/blogg/beste-golfbaner-norge-2025`,
+          name: isEn ? "Best Golf Courses in Norway 2025" : "Beste Golfbaner i Norge 2025",
+          item: `${baseUrl}${isEn ? "/en" : ""}/blog/${slug}`,
         },
       ],
     };
@@ -306,72 +315,139 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
     const faqSchema = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Hvilken golfbane er best i Norge?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Stiklestad Golfklubb i Trøndelag er rangert som Norges beste golfbane i 2025, med en imponerende 4.9-stjerner rating basert på 119 Google-anmeldelser. Golfbanen ligger i Verdal og kombinerer høy kvalitet med konsistent god service.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Hvor mange golfbaner finnes det i Norge?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Det finnes over 160 golfbaner fordelt over hele Norge. I vår analyse har vi rangert 152 norske golfklubber som alle har minimum 5 Google-anmeldelser, noe som gir et pålitelig grunnlag for sammenligningen.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Hvordan rangeres golfbaner objektivt?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Vi bruker Bayesian Average, samme statistiske metode som IMDb bruker for å rangere filmer. Formelen balanserer antall anmeldelser med gjennomsnittsrating, slik at baner med mange positive anmeldelser rangeres høyere enn de med bare få (selv om de er perfekte).",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Hvilken region i Norge har flest gode golfbaner?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Trøndelag dominerer med 2 av de 10 beste golfbanene i Norge, inkludert førsteplassen (Stiklestad). Akershus og Nordland har også 2 baner hver i topp 10. Oslo-området (Akershus) er spesielt populært for golfere som søker kvalitetsbaner nær hovedstaden.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Hva koster det å spille golf på Norges beste baner?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Greenfee på topp-rangerte norske golfbaner varierer typisk fra 400-900 kr avhengig av dag og sesong. Medlemskap gir betydelig rabatt. De fleste av topp 10-banene tilbyr også driving range, klubbhus med restaurant, og klubbutleie.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Er Lofoten Links verdt besøket?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Absolutt! Lofoten Links er den mest anmeldte banen i vår topp 10 med 279 Google-anmeldelser og 4.6-stjerner. Golfbanen er verdenskjent for sin spektakulære beliggenhet og unike nordnorske landskap. Perfekt for golfferie.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Hvilke golfbaner er best for nybegynnere?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Mange av de høyt rangerte banene har både 18-hulls og kortere baner som passer nybegynnere. Vi anbefaler å kontakte golfklubbene direkte for informasjon om kurs, driving range-fasiliteter og begynnervennlige tilbud.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Når er beste tid å spille golf i Norge?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Golfsesongen i Norge går typisk fra april til oktober, med best forhold i juni-august. Nordnorske baner som Tromsø og Bodø tilbyr unike midnattssol-opplevelser i juni-juli.",
-          },
-        },
-      ],
+      mainEntity: isEn
+        ? [
+            {
+              "@type": "Question",
+              name: "Which golf course is best in Norway?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Stiklestad Golf Club in Trøndelag is ranked as Norway's best golf course in 2025, with an impressive 4.9-star rating based on 119 Google reviews. The course is located in Verdal and combines high quality with consistently excellent service.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "How many golf courses are there in Norway?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "There are over 160 golf courses across Norway. In our analysis, we've ranked 152 Norwegian golf clubs that all have at least 5 Google reviews, providing a reliable basis for comparison.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "How are golf courses ranked objectively?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "We use Bayesian Average, the same statistical method IMDb uses to rank films. The formula balances the number of reviews with the average rating, so courses with many positive reviews rank higher than those with just a few (even if they're perfect).",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Which region in Norway has the most good golf courses?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Trøndelag dominates with 2 of the 10 best golf courses in Norway, including first place (Stiklestad). Akershus and Nordland also have 2 courses each in the top 10. The Oslo area (Akershus) is especially popular for golfers seeking quality courses near the capital.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "What does it cost to play golf at Norway's best courses?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Green fees at top-ranked Norwegian golf courses typically range from 400-900 NOK depending on day and season. Membership offers significant discounts. Most top 10 courses also offer driving ranges, clubhouses with restaurants, and club rentals.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Is Lofoten Links worth visiting?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Absolutely! Lofoten Links is the most reviewed course in our top 10 with 279 Google reviews and 4.6 stars. The course is world-famous for its spectacular location and unique Northern Norwegian landscape. Perfect for a golf holiday.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Which golf courses are best for beginners?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Many of the highly ranked courses have both 18-hole and shorter courses suitable for beginners. We recommend contacting the golf clubs directly for information about lessons, driving range facilities, and beginner-friendly offers.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "When is the best time to play golf in Norway?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "The golf season in Norway typically runs from April to October, with best conditions in June-August. Northern Norwegian courses like Tromsø and Bodø offer unique midnight sun experiences in June-July.",
+              },
+            },
+          ]
+        : [
+            {
+              "@type": "Question",
+              name: "Hvilken golfbane er best i Norge?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Stiklestad Golfklubb i Trøndelag er rangert som Norges beste golfbane i 2025, med en imponerende 4.9-stjerner rating basert på 119 Google-anmeldelser. Golfbanen ligger i Verdal og kombinerer høy kvalitet med konsistent god service.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Hvor mange golfbaner finnes det i Norge?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Det finnes over 160 golfbaner fordelt over hele Norge. I vår analyse har vi rangert 152 norske golfklubber som alle har minimum 5 Google-anmeldelser, noe som gir et pålitelig grunnlag for sammenligningen.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Hvordan rangeres golfbaner objektivt?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Vi bruker Bayesian Average, samme statistiske metode som IMDb bruker for å rangere filmer. Formelen balanserer antall anmeldelser med gjennomsnittsrating, slik at baner med mange positive anmeldelser rangeres høyere enn de med bare få (selv om de er perfekte).",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Hvilken region i Norge har flest gode golfbaner?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Trøndelag dominerer med 2 av de 10 beste golfbanene i Norge, inkludert førsteplassen (Stiklestad). Akershus og Nordland har også 2 baner hver i topp 10. Oslo-området (Akershus) er spesielt populært for golfere som søker kvalitetsbaner nær hovedstaden.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Hva koster det å spille golf på Norges beste baner?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Greenfee på topp-rangerte norske golfbaner varierer typisk fra 400-900 kr avhengig av dag og sesong. Medlemskap gir betydelig rabatt. De fleste av topp 10-banene tilbyr også driving range, klubbhus med restaurant, og klubbutleie.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Er Lofoten Links verdt besøket?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Absolutt! Lofoten Links er den mest anmeldte banen i vår topp 10 med 279 Google-anmeldelser og 4.6-stjerner. Golfbanen er verdenskjent for sin spektakulære beliggenhet og unike nordnorske landskap. Perfekt for golfferie.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Hvilke golfbaner er best for nybegynnere?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Mange av de høyt rangerte banene har både 18-hulls og kortere baner som passer nybegynnere. Vi anbefaler å kontakte golfklubbene direkte for informasjon om kurs, driving range-fasiliteter og begynnervennlige tilbud.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Når er beste tid å spille golf i Norge?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Golfsesongen i Norge går typisk fra april til oktober, med best forhold i juni-august. Nordnorske baner som Tromsø og Bodø tilbyr unike midnattssol-opplevelser i juni-juli.",
+              },
+            },
+          ],
     };
 
     return [articleSchema, itemListSchema, faqSchema, breadcrumbSchema];

@@ -26,6 +26,7 @@ export async function GET(request: NextRequest) {
         courses.slice(0, 10).map((c) => ({
           id: c.slug,
           slug: c.slug,
+          slug_en: c.slug_en || null,
           name: c.name,
           city: c.city,
           region: c.region,
@@ -51,6 +52,7 @@ export async function GET(request: NextRequest) {
       .map((c) => ({
         id: c.slug,
         slug: c.slug,
+        slug_en: c.slug_en || null,
         name: c.name,
         city: c.city,
         region: c.region,

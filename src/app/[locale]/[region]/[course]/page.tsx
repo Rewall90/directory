@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -85,6 +85,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : `${name} - ${course.course.holes} hull golfbane i ${course.city}, ${course.region}. ${ratingData ? `Vurdert til ${ratingData.averageRating.toFixed(1)}/5 av ${ratingData.totalReviews} golfere.` : ""}`;
 
   const regionPath = toRegionSlug(course.region);
+  const localizedSlug = getLocalizedSlug(course, localeType);
+  const enSlug = getLocalizedSlug(course, "en");
 
   return {
     title,
@@ -94,7 +96,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       type: "website",
       locale: locale === "en" ? "en_GB" : "nb_NO",
-      url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${regionPath}/${course.slug}`,
+      url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${regionPath}/${localizedSlug}`,
       siteName: "golfkart.no",
     },
     twitter: {
@@ -103,10 +105,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     alternates: {
-      canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/${regionPath}/${course.slug}`,
+      canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/${regionPath}/${localizedSlug}`,
       languages: {
         nb: `https://golfkart.no/${regionPath}/${course.slug}`,
-        en: `https://golfkart.no/en/${regionPath}/${course.slug}`,
+        en: `https://golfkart.no/en/${regionPath}/${enSlug}`,
         "x-default": `https://golfkart.no/${regionPath}/${course.slug}`,
       },
     },
@@ -126,6 +128,14 @@ export default async function CoursePage({ params }: Props) {
 
   if (toRegionSlug(regionSlug) !== toRegionSlug(course.region)) {
     notFound();
+  }
+
+  // Redirect if URL slug doesn't match the expected localized slug
+  const localeType = locale as "nb" | "en";
+  const expectedSlug = getLocalizedSlug(course, localeType);
+  if (courseSlug !== expectedSlug) {
+    const prefix = locale === "en" ? "/en" : "";
+    permanentRedirect(`${prefix}/${toRegionSlug(course.region)}/${expectedSlug}`);
   }
 
   // Fetch photos if Place ID exists
@@ -168,13 +178,12 @@ export default async function CoursePage({ params }: Props) {
   const breadcrumbSchema = generateCourseBreadcrumb(
     course.region,
     toRegionSlug(course.region),
-    course.name,
-    course.slug,
+    getLocalizedName(course, localeType),
+    getLocalizedSlug(course, localeType),
     locale,
   );
 
   // Structured data for SEO - GolfCourse schema
-  const localeType = locale as "nb" | "en";
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "GolfCourse",
@@ -185,7 +194,7 @@ export default async function CoursePage({ params }: Props) {
       (locale === "en"
         ? `${getLocalizedName(course, localeType)} - Golf course in ${course.city}, ${course.region}`
         : `${getLocalizedName(course, localeType)} - Golfbane i ${course.city}, ${course.region}`),
-    url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${toRegionSlug(course.region)}/${course.slug}`,
+    url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${toRegionSlug(course.region)}/${getLocalizedSlug(course, localeType)}`,
     address: {
       "@type": "PostalAddress",
       streetAddress: course.address.street,
@@ -203,7 +212,7 @@ export default async function CoursePage({ params }: Props) {
     }),
     ...(course.contact.phone && { telephone: course.contact.phone }),
     ...(course.contact.email && { email: course.contact.email }),
-    ...(course.contact.website && { url: course.contact.website }),
+    ...(course.contact.website && { sameAs: course.contact.website }),
     ...(ratingData && {
       aggregateRating: {
         "@type": "AggregateRating",
