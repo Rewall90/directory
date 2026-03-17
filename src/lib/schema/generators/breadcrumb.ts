@@ -70,12 +70,13 @@ export function generateRegionBreadcrumb(
   regionSlug: string,
   locale?: string,
 ): BreadcrumbListSchema {
+  const prefix = locale === "en" ? "/en" : "";
   return generateBreadcrumbSchema(
     [
-      { name: locale === "en" ? "Home" : "Hjem", url: "/" },
-      { name: regionName, url: `/${regionSlug}` },
+      { name: locale === "en" ? "Home" : "Hjem", url: `${prefix}/` },
+      { name: regionName, url: `${prefix}/${regionSlug}` },
     ],
-    `/${regionSlug}`,
+    `${prefix}/${regionSlug}`,
   );
 }
 
@@ -97,13 +98,14 @@ export function generateCourseBreadcrumb(
   courseSlug: string,
   locale?: string,
 ): BreadcrumbListSchema {
+  const prefix = locale === "en" ? "/en" : "";
   return generateBreadcrumbSchema(
     [
-      { name: locale === "en" ? "Home" : "Hjem", url: "/" },
-      { name: regionName, url: `/${regionSlug}` },
-      { name: courseName, url: `/${regionSlug}/${courseSlug}` },
+      { name: locale === "en" ? "Home" : "Hjem", url: `${prefix}/` },
+      { name: regionName, url: `${prefix}/${regionSlug}` },
+      { name: courseName, url: `${prefix}/${regionSlug}/${courseSlug}` },
     ],
-    `/${regionSlug}/${courseSlug}`,
+    `${prefix}/${regionSlug}/${courseSlug}`,
   );
 }
 
