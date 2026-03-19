@@ -287,6 +287,17 @@ export interface PlacePhoto {
   height: number;
 }
 
+export interface CourseImage {
+  /** Path relative to /public, e.g. "/courses/hovden-golfklubb/hero.webp" */
+  src: string;
+  /** Descriptive alt text (Norwegian) */
+  alt: string;
+  /** English alt text */
+  alt_en?: string;
+  /** Attribution/credit */
+  credit?: string;
+}
+
 export interface Meta {
   dataQuality: string | null;
   websiteQuality: string | null;
@@ -311,6 +322,8 @@ export interface Course {
   coordinates: Coordinates | null;
   /** Google Place ID for fetching photos (optional) */
   googlePlaceId?: string;
+  /** Local course images (preferred over Google photos when available) */
+  images?: CourseImage[];
   course: CourseDetails;
   description: string | null;
   description_en?: string | null;

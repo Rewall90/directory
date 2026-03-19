@@ -352,6 +352,38 @@
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJLbO0fSWYR0YRZea0baYA2rc",
+  "images": [
+    {
+      "src": "/courses/arendal-og-omegn-golfklubb/arendal-og-omegn-golfklubb-flyfoto-bane.webp",
+      "alt": "Flyfoto av Arendal & Omegn Golfklubb med kupert skogsterreng og fairways ved Nes Verk",
+      "alt_en": "Aerial view of Arendal & Omegn Golf Club with undulating forest terrain and fairways at Nes Verk",
+      "credit": "Arendal & Omegn Golfklubb"
+    },
+    {
+      "src": "/courses/arendal-og-omegn-golfklubb/arendal-og-omegn-golfklubb-spillere-fairway.webp",
+      "alt": "Golfere på fairway omgitt av trær på Arendal & Omegn Golfklubb en sommerdag",
+      "alt_en": "Golfers on a tree-lined fairway at Arendal & Omegn Golf Club on a summer day",
+      "credit": "Arendal & Omegn Golfklubb"
+    },
+    {
+      "src": "/courses/arendal-og-omegn-golfklubb/arendal-og-omegn-golfklubb-fairway-golfere.webp",
+      "alt": "Bred fairway med golfere og grønne åser i bakgrunnen på Arendal & Omegn Golfklubb",
+      "alt_en": "Wide fairway with golfers and green hills in the background at Arendal & Omegn Golf Club",
+      "credit": "Arendal & Omegn Golfklubb"
+    },
+    {
+      "src": "/courses/arendal-og-omegn-golfklubb/arendal-og-omegn-golfklubb-flyfoto-innsjoe.webp",
+      "alt": "Flyfoto av Arendal & Omegn Golfklubb med innsjøer og skog sett fra luften",
+      "alt_en": "Aerial view of Arendal & Omegn Golf Club with lakes and forest from above",
+      "credit": "Arendal & Omegn Golfklubb"
+    },
+    {
+      "src": "/courses/arendal-og-omegn-golfklubb/arendal-og-omegn-golfklubb-klubbhus.webp",
+      "alt": "Klubbhuset på Arendal & Omegn Golfklubb med røde og gule trebygninger ved Nes Verk",
+      "alt_en": "Clubhouse at Arendal & Omegn Golf Club with red and yellow wooden buildings at Nes Verk",
+      "credit": "Arendal & Omegn Golfklubb"
+    }
+  ],
   "slug_en": "arendal-omegn-golf-club",
   "name_en": "Arendal & Omegn Golf Club",
   "description_en": "The golf facility at Nes Verk ranks among the best in Norway. Several buildings in the area have been restored and new ones added. This allows the club to offer guests and members the very best facilities including dining, meeting rooms, changing rooms, a pro shop and more. The atmosphere is welcoming and friendly. The course is described as a high-standard layout over undulating terrain with strategic challenges."

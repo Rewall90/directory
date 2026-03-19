@@ -305,6 +305,38 @@
     "updatedAt": "2026-02-15T14:30:00.000Z"
   },
   "googlePlaceId": "ChIJTfe9AqpiQUYRjpImZOHV8TQ",
+  "images": [
+    {
+      "src": "/courses/fet-golfklubb/fet-golfklubb-spillere-golfbil-fairway.webp",
+      "alt": "Golfspillere med golfbil på fairway på Fet Golfklubb med vid himmel og grønt landskap",
+      "alt_en": "Golfers with golf cart on the fairway at Fet Golf Club with wide sky and green landscape",
+      "credit": "Fet Golfklubb"
+    },
+    {
+      "src": "/courses/fet-golfklubb/fet-golfklubb-hull-4-fairway.webp",
+      "alt": "Fairway på hull 4 på Fet Golfklubb med grønne omgivelser",
+      "alt_en": "Fairway on hole 4 at Fet Golf Club with lush green surroundings",
+      "credit": "Fet Golfklubb"
+    },
+    {
+      "src": "/courses/fet-golfklubb/fet-golfklubb-hull-5-green.webp",
+      "alt": "Green med flagg på hull 5 på Fet Golfklubb med bølgende åser i bakgrunnen",
+      "alt_en": "Green with flag on hole 5 at Fet Golf Club with rolling hills in the background",
+      "credit": "Fet Golfklubb"
+    },
+    {
+      "src": "/courses/fet-golfklubb/fet-golfklubb-utsikt-kirke-blomster.webp",
+      "alt": "Utsikt fra Fet Golfklubb med kirketårn og blomster i forgrunnen",
+      "alt_en": "View from Fet Golf Club with church spire and flowers in the foreground",
+      "credit": "Fet Golfklubb"
+    },
+    {
+      "src": "/courses/fet-golfklubb/fet-golfklubb-green-golfbil-skyer.webp",
+      "alt": "Golfspillere ved green på Fet Golfklubb med golfbil og dramatisk skydekke",
+      "alt_en": "Golfers at the green at Fet Golf Club with golf cart and dramatic cloud formations",
+      "credit": "Fet Golfklubb"
+    }
+  ],
   "slug_en": "fet-golf-club",
   "name_en": "Fet Golf Club",
   "description_en": "On our 9-hole course you can test your skills on par 3 holes ranging from 85 to 178 metres, as well as one par 4 hole of 350 metres. With us you can practise bunker shots in sand bunkers, precision on our putting and pitching greens strategically placed near our driving range. On the range you can work on your swing before heading out on the course."

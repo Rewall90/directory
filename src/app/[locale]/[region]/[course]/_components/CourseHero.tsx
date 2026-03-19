@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import type { Course, PlacePhoto } from "@/types/course";
+import type { Course } from "@/types/course";
+import type { DisplayPhoto } from "../page";
 import { getLocalizedName, getLocalizedDescription } from "@/lib/i18n-courses";
 
 interface RatingData {
@@ -19,7 +20,7 @@ interface CourseHeroProps {
   course: Course;
   ratingData: RatingData | null;
   siteReviews: SiteReviewData | null;
-  photos: PlacePhoto[];
+  photos: DisplayPhoto[];
   googlePlaceId?: string | null;
   locale: "nb" | "en";
 }
@@ -184,10 +185,11 @@ export function CourseHero({
           {heroPhoto ? (
             <Image
               src={heroPhoto.url}
-              alt={localizedName}
+              alt={heroPhoto.alt}
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 600px"
+              priority
             />
           ) : (
             <span className="text-sm text-v3d-text-muted">{t("mainImagePlaceholder")}</span>
@@ -199,7 +201,7 @@ export function CourseHero({
           {accentPhoto ? (
             <Image
               src={accentPhoto.url}
-              alt={t("accentImageAlt", { name: localizedName })}
+              alt={accentPhoto.alt}
               fill
               className="object-cover"
               sizes="360px"

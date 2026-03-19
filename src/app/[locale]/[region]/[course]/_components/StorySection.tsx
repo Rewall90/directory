@@ -1,11 +1,12 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import type { Course, PlacePhoto } from "@/types/course";
+import type { Course } from "@/types/course";
+import type { DisplayPhoto } from "../page";
 import { getLocalizedDescription } from "@/lib/i18n-courses";
 
 interface StorySectionProps {
   course: Course;
-  photos: PlacePhoto[];
+  photos: DisplayPhoto[];
   locale: "nb" | "en";
 }
 
@@ -58,7 +59,7 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
             {galleryPhotos[0] ? (
               <Image
                 src={galleryPhotos[0].url}
-                alt={t("aerialImage")}
+                alt={galleryPhotos[0].alt}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 560px"
@@ -73,7 +74,7 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
             {galleryPhotos[1] ? (
               <Image
                 src={galleryPhotos[1].url}
-                alt={t("holeImage")}
+                alt={galleryPhotos[1].alt}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
@@ -86,7 +87,7 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
             {galleryPhotos[2] ? (
               <Image
                 src={galleryPhotos[2].url}
-                alt={t("clubhouseImage")}
+                alt={galleryPhotos[2].alt}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"

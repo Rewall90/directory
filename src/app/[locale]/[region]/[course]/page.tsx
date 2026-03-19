@@ -19,6 +19,13 @@ import { ContactSection } from "./_components/ContactSection";
 import { NearbyCoursesGrid } from "./_components/NearbyCoursesGrid";
 import { ReviewSection } from "./_components/ReviewSection";
 
+/** Unified photo type for both local images and Google Places photos */
+export interface DisplayPhoto {
+  url: string;
+  alt: string;
+  credit?: string;
+}
+
 // Revalidate every 30 minutes to keep photo URLs fresh (URLs expire after ~1 hour)
 export const revalidate = 1800;
 
@@ -88,6 +95,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const localizedSlug = getLocalizedSlug(course, localeType);
   const enSlug = getLocalizedSlug(course, "en");
 
+  // Use first local image for OG if available
+  const ogImage = course.images?.[0]
+    ? {
+        url: `https://golfkart.no${course.images[0].src}`,
+        width: 1600,
+        height: 1064,
+        alt:
+          localeType === "en" && course.images[0].alt_en
+            ? course.images[0].alt_en
+            : course.images[0].alt,
+      }
+    : undefined;
+
   return {
     title,
     description,
@@ -98,6 +118,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: locale === "en" ? "en_GB" : "nb_NO",
       url: `https://golfkart.no${locale === "en" ? "/en" : ""}/${regionPath}/${localizedSlug}`,
       siteName: "golfkart.no",
+      ...(ogImage && { images: [ogImage] }),
     },
     twitter: {
       card: "summary",
@@ -138,8 +159,21 @@ export default async function CoursePage({ params }: Props) {
     permanentRedirect(`${prefix}/${toRegionSlug(course.region)}/${expectedSlug}`);
   }
 
-  // Fetch photos if Place ID exists
-  const photos = course.googlePlaceId ? await getPlacePhotos(course.googlePlaceId, 4) : [];
+  // Build display photos: prefer local images, fall back to Google Places
+  let displayPhotos: DisplayPhoto[];
+  if (course.images && course.images.length > 0) {
+    displayPhotos = course.images.map((img) => ({
+      url: img.src,
+      alt: localeType === "en" && img.alt_en ? img.alt_en : img.alt,
+      credit: img.credit,
+    }));
+  } else {
+    const placePhotos = course.googlePlaceId ? await getPlacePhotos(course.googlePlaceId, 4) : [];
+    displayPhotos = placePhotos.map((p) => ({
+      url: p.url,
+      alt: getLocalizedName(course, localeType),
+    }));
+  }
 
   const ratingData = calculateAverageRating(course.ratings);
 
@@ -209,6 +243,9 @@ export default async function CoursePage({ params }: Props) {
         latitude: course.coordinates.lat,
         longitude: course.coordinates.lng,
       },
+    }),
+    ...(course.images?.[0] && {
+      image: `https://golfkart.no${course.images[0].src}`,
     }),
     ...(course.contact.phone && { telephone: course.contact.phone }),
     ...(course.contact.email && { email: course.contact.email }),
@@ -288,7 +325,7 @@ export default async function CoursePage({ params }: Props) {
         course={course}
         ratingData={ratingData}
         siteReviews={siteReviews}
-        photos={photos}
+        photos={displayPhotos}
         googlePlaceId={course.googlePlaceId}
         locale={locale as "nb" | "en"}
       />
@@ -297,7 +334,7 @@ export default async function CoursePage({ params }: Props) {
       <StatsBar course={course} locale={locale as "nb" | "en"} />
 
       {/* Story Section */}
-      <StorySection course={course} photos={photos} locale={locale as "nb" | "en"} />
+      <StorySection course={course} photos={displayPhotos} locale={locale as "nb" | "en"} />
 
       {/* Features Grid */}
       <FeaturesGrid

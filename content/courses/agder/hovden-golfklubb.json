@@ -280,6 +280,38 @@
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ6fU01R8pOUYRgooVgsS0apc",
+  "images": [
+    {
+      "src": "/courses/hovden-golfklubb/hovden-golfklubb-hull-5-fairway.webp",
+      "alt": "Golfere på fairway hull 5 på Hovden Golfklubb med fjellpanorama og vann",
+      "alt_en": "Golfers on hole 5 fairway at Hovden Golf Club with mountain panorama and water",
+      "credit": "Hovden Golfklubb"
+    },
+    {
+      "src": "/courses/hovden-golfklubb/hovden-golfklubb-hull-7-bunkerspill.webp",
+      "alt": "Bunkerspill på hull 7 på Hovden Golfklubb med snøkledde fjell i bakgrunnen",
+      "alt_en": "Bunker shot on hole 7 at Hovden Golf Club with snow-capped mountains in the background",
+      "credit": "Hovden Golfklubb"
+    },
+    {
+      "src": "/courses/hovden-golfklubb/hovden-golfklubb-oversiktsbilde.webp",
+      "alt": "Flyfoto av Hovden Golfklubb med fjellbane omgitt av vann og snøkledde fjell i Setesdal",
+      "alt_en": "Aerial view of Hovden Golf Club highland course surrounded by lakes and snow-capped mountains in Setesdal",
+      "credit": "Hovden Golfklubb"
+    },
+    {
+      "src": "/courses/hovden-golfklubb/hovden-golfklubb-hull-8-green.webp",
+      "alt": "Green på hull 8 på Hovden Golfklubb omgitt av furutrær og blå himmel",
+      "alt_en": "Green on hole 8 at Hovden Golf Club surrounded by pine trees and blue sky",
+      "credit": "Hovden Golfklubb"
+    },
+    {
+      "src": "/courses/hovden-golfklubb/hovden-golfklubb-hull-3-juniorer.webp",
+      "alt": "Tre juniorgolfere med bager på hull 3 på Hovden Golfklubb med fjell i bakgrunnen",
+      "alt_en": "Three junior golfers with bags on hole 3 at Hovden Golf Club with mountains in the background",
+      "credit": "Hovden Golfklubb"
+    }
+  ],
   "slug_en": "hovden-golf-club",
   "name_en": "Hovden Golf Club",
   "description_en": "Ornefjell golf course sits at 725 metres above sea level and is a 9-hole highland course with 18 different tee positions. Surrounded by towering mountains and abundant water features. All greens have artificial grass. Described by visitors as challenging yet enjoyable."
