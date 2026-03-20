@@ -9,7 +9,11 @@ export function CookieSettingsButton() {
   const t = useTranslations("footer");
 
   return (
-    <button onClick={openModal} className="text-text-secondary hover:text-primary">
+    <button
+      onClick={openModal}
+      className="transition-colors hover:text-white"
+      style={{ color: "hsl(132, 30%, 70%)" }}
+    >
       {t("cookieSettings")}
     </button>
   );

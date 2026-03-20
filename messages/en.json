@@ -34,6 +34,17 @@
     "heroHeadingYour": "Your",
     "heroHeadingCourse": "Golf Course"
   },
+  "popularCourses": {
+    "label": "Popular golf courses",
+    "reviews": "reviews"
+  },
+  "featuredCourses": {
+    "label": "Featured",
+    "reviews": "reviews"
+  },
+  "trustBadge": {
+    "reviewSummary": "{count} Google reviews across {courseCount} courses"
+  },
   "hero": {
     "findNearMe": "See courses near me",
     "findingCourses": "Finding nearby golf courses...",

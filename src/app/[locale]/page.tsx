@@ -5,7 +5,15 @@ import { RegionGrid } from "@/components/home/RegionGrid";
 import { InteractiveMap } from "./_components/InteractiveMap";
 import { NORWAY_MAP_REGIONS } from "@/lib/constants/norway-map-regions";
 import { getHomepageSchemas, JsonLdMultiple } from "@/lib/schema";
-import { getRegionsWithCounts, getTotalCourseCount } from "@/lib/courses";
+import {
+  getRegionsWithCounts,
+  getTotalCourseCount,
+  getAggregateRatingStats,
+  getPopularCourses,
+  getFeaturedCourses,
+} from "@/lib/courses";
+import { PopularCourses } from "@/components/home/PopularCourses";
+import { FeaturedCourses } from "@/components/home/FeaturedCourses";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -40,6 +48,9 @@ export default async function HomePage({ params }: Props) {
   // Get dynamic data from JSON files
   const regionsWithCounts = getRegionsWithCounts();
   const totalCourses = getTotalCourseCount();
+  const ratingStats = getAggregateRatingStats();
+  const popularCourses = getPopularCourses(4);
+  const featuredCourses = getFeaturedCourses(4);
 
   // Merge with polygon data for interactive map
   const regions = regionsWithCounts.map((region) => {
@@ -64,7 +75,15 @@ export default async function HomePage({ params }: Props) {
       {/* JSON-LD structured data for SEO */}
       <JsonLdMultiple schemas={schemas} />
 
-      <HeroSection courseCount={totalCourses} />
+      <HeroSection
+        courseCount={totalCourses}
+        totalReviews={ratingStats.totalReviews}
+        averageRating={ratingStats.averageRating}
+      />
+
+      <PopularCourses courses={popularCourses} />
+
+      <FeaturedCourses courses={featuredCourses} />
 
       <section className="bg-background py-16">
         <div className="container mx-auto max-w-[1170px] px-4">

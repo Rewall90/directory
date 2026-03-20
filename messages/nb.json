@@ -34,6 +34,17 @@
     "heroHeadingYour": "Din",
     "heroHeadingCourse": "Golfbane"
   },
+  "popularCourses": {
+    "label": "Populære golfbaner",
+    "reviews": "anmeldelser"
+  },
+  "featuredCourses": {
+    "label": "Fremhevet",
+    "reviews": "anmeldelser"
+  },
+  "trustBadge": {
+    "reviewSummary": "{count} Google-anmeldelser på {courseCount} baner"
+  },
   "hero": {
     "findNearMe": "Se baner nær meg",
     "findingCourses": "Finner golfbaner i nærheten...",

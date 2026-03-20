@@ -8,9 +8,12 @@ import { GolferDotsSVG } from "./GolferDotsSVG";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import { StarRating } from "@/components/courses/StarRating";
 import { formatDistance } from "@/lib/geolocation";
+import { TrustBadge } from "@/components/home/TrustBadge";
 
 interface HeroSectionProps {
   courseCount: number;
+  totalReviews: number;
+  averageRating: number;
 }
 
 interface NearbyCourse {
@@ -28,7 +31,7 @@ interface NearbyCourse {
 
 type ViewState = "initial" | "loading" | "success" | "error" | "denied";
 
-export function HeroSection({ courseCount }: HeroSectionProps) {
+export function HeroSection({ courseCount, totalReviews, averageRating }: HeroSectionProps) {
   const t = useTranslations("hero");
   const tHome = useTranslations("home");
   const [viewState, setViewState] = useState<ViewState>("initial");
@@ -132,6 +135,15 @@ export function HeroSection({ courseCount }: HeroSectionProps) {
             >
               {tHome("heroDescription", { count: courseCount })}
             </p>
+          </div>
+
+          {/* Trust Badge */}
+          <div className="mb-8">
+            <TrustBadge
+              totalReviews={totalReviews}
+              averageRating={averageRating}
+              courseCount={courseCount}
+            />
           </div>
 
           {/* Search */}

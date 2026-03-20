@@ -7,40 +7,64 @@ import { CookieSettingsButton } from "@/components/cookie-consent";
 export function Footer() {
   const t = useTranslations("footer");
   return (
-    <footer className="border-border-default bg-background-elevated border-t">
-      <div className="container mx-auto max-w-[1170px] px-4 py-8">
+    <footer className="bg-gradient-to-br from-green-900 to-green-950">
+      <div className="container mx-auto max-w-[1170px] px-4 py-10">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* About Section */}
           <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">
+            <h3
+              className="mb-3 text-sm font-semibold uppercase"
+              style={{ color: "hsl(132, 50%, 85%)" }}
+            >
               {t("aboutTitle")}
             </h3>
-            <p className="text-sm text-text-secondary">{t("aboutDescription")}</p>
+            <p className="text-sm" style={{ color: "hsl(132, 30%, 70%)" }}>
+              {t("aboutDescription")}
+            </p>
           </div>
 
           {/* Navigation Links */}
           <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">
+            <h3
+              className="mb-3 text-sm font-semibold uppercase"
+              style={{ color: "hsl(132, 50%, 85%)" }}
+            >
               {t("navigationTitle")}
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/regions" className="text-text-secondary hover:text-primary">
+                <Link
+                  href="/regions"
+                  className="transition-colors hover:text-white"
+                  style={{ color: "hsl(132, 30%, 70%)" }}
+                >
                   {t("regions")}
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-text-secondary hover:text-primary">
+                <Link
+                  href="/blog"
+                  className="transition-colors hover:text-white"
+                  style={{ color: "hsl(132, 30%, 70%)" }}
+                >
                   {t("blog")}
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-text-secondary hover:text-primary">
+                <Link
+                  href="/about"
+                  className="transition-colors hover:text-white"
+                  style={{ color: "hsl(132, 30%, 70%)" }}
+                >
                   {t("about")}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-text-secondary hover:text-primary">
+                <Link
+                  href="/contact"
+                  className="transition-colors hover:text-white"
+                  style={{ color: "hsl(132, 30%, 70%)" }}
+                >
                   {t("contact")}
                 </Link>
               </li>
@@ -49,17 +73,28 @@ export function Footer() {
 
           {/* Legal Links */}
           <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase text-text-primary">
+            <h3
+              className="mb-3 text-sm font-semibold uppercase"
+              style={{ color: "hsl(132, 50%, 85%)" }}
+            >
               {t("legalTitle")}
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/privacy" className="text-text-secondary hover:text-primary">
+                <Link
+                  href="/privacy"
+                  className="transition-colors hover:text-white"
+                  style={{ color: "hsl(132, 30%, 70%)" }}
+                >
                   {t("privacy")}
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="text-text-secondary hover:text-primary">
+                <Link
+                  href="/terms"
+                  className="transition-colors hover:text-white"
+                  style={{ color: "hsl(132, 30%, 70%)" }}
+                >
                   {t("terms")}
                 </Link>
               </li>
@@ -71,8 +106,8 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-8 border-t border-border-subtle pt-6 text-center">
-          <p className="text-sm text-text-tertiary">
+        <div className="mt-8 border-t border-white/10 pt-6 text-center">
+          <p className="text-sm" style={{ color: "hsl(132, 20%, 55%)" }}>
             {t("copyright", { year: new Date().getFullYear() })}
           </p>
         </div>

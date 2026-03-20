@@ -112,6 +112,118 @@ export const getTotalCourseCount = cache((): number => {
 });
 
 /**
+ * Get aggregate rating stats across all courses (for trust badge)
+ */
+export const getAggregateRatingStats = cache(
+  (): { totalReviews: number; averageRating: number } => {
+    const courses = getAllCourses();
+    let totalReviews = 0;
+    let weightedScore = 0;
+
+    for (const course of courses) {
+      const google = course.ratings?.google;
+      if (google?.rating && google.reviewCount && google.reviewCount > 0) {
+        totalReviews += google.reviewCount;
+        weightedScore += google.rating * google.reviewCount;
+      }
+    }
+
+    return {
+      totalReviews,
+      averageRating: totalReviews > 0 ? weightedScore / totalReviews : 0,
+    };
+  },
+);
+
+export interface PopularCourse {
+  name: string;
+  slug: string;
+  city: string;
+  regionSlug: string;
+  rating: number;
+  reviewCount: number;
+  holes: number;
+  imageSrc: string;
+  imageAlt: string;
+}
+
+/**
+ * Get most popular courses that have images, sorted by review count (for homepage)
+ */
+export const getPopularCourses = cache((limit = 4): PopularCourse[] => {
+  const courses = getAllCourses();
+  const regionSlugs = getRegions();
+
+  const results: PopularCourse[] = [];
+
+  for (const course of courses) {
+    const google = course.ratings?.google;
+    if (!google?.rating || !google.reviewCount || google.reviewCount === 0) continue;
+    if (!course.images || course.images.length === 0) continue;
+
+    const regionSlug =
+      regionSlugs.find((r) => {
+        const regionDir = path.join(COURSES_DIR, r);
+        return fs.existsSync(path.join(regionDir, `${course.slug}.json`));
+      }) || "";
+
+    results.push({
+      name: course.name,
+      slug: course.slug,
+      city: course.city,
+      regionSlug,
+      rating: google.rating,
+      reviewCount: google.reviewCount,
+      holes: course.course?.holes || 0,
+      imageSrc: course.images[0].src,
+      imageAlt: course.images[0].alt,
+    });
+  }
+
+  return results.sort((a, b) => b.reviewCount - a.reviewCount).slice(0, limit);
+});
+
+/**
+ * Get featured courses with images, excluding the popular ones (for homepage)
+ */
+export const getFeaturedCourses = cache((limit = 4): PopularCourse[] => {
+  const popular = getPopularCourses(4);
+  const popularSlugs = new Set(popular.map((c) => c.slug));
+
+  const courses = getAllCourses();
+  const regionSlugs = getRegions();
+
+  const results: PopularCourse[] = [];
+
+  for (const course of courses) {
+    if (popularSlugs.has(course.slug)) continue;
+    if (!course.images || course.images.length === 0) continue;
+
+    const google = course.ratings?.google;
+
+    const regionSlug =
+      regionSlugs.find((r) => {
+        const regionDir = path.join(COURSES_DIR, r);
+        return fs.existsSync(path.join(regionDir, `${course.slug}.json`));
+      }) || "";
+
+    results.push({
+      name: course.name,
+      slug: course.slug,
+      city: course.city,
+      regionSlug,
+      rating: google?.rating || 0,
+      reviewCount: google?.reviewCount || 0,
+      holes: course.course?.holes || 0,
+      imageSrc: course.images[0].src,
+      imageAlt: course.images[0].alt,
+    });
+  }
+
+  return results.sort((a, b) => b.reviewCount - a.reviewCount).slice(0, limit);
+});
+
+/**
  * Calculate average rating from multiple rating sources
  */
 export function calculateAverageRating(
