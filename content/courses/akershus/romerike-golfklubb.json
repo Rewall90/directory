@@ -224,6 +224,38 @@
     "createdAt": "2025-10-31T11:23:14.827Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
+  "images": [
+    {
+      "src": "/courses/romerike-golfklubb/romerike-golfklubb-fairway-hull-1-klubbhus.webp",
+      "alt": "Fairway på hull 1 på Romerike Golfklubb med klubbhus og blå himmel i Aurskog",
+      "alt_en": "Fairway on hole 1 at Romerike Golf Club with clubhouse and blue sky in Aurskog",
+      "credit": "Romerike Golfklubb"
+    },
+    {
+      "src": "/courses/romerike-golfklubb/romerike-golfklubb-green-hull-2-panorama.webp",
+      "alt": "Panoramautsikt over green og bunkere på hull 2 på Romerike Golfklubb med jordbrukslandskap og skog",
+      "alt_en": "Panoramic view of green and bunkers on hole 2 at Romerike Golf Club with farmland and forest",
+      "credit": "Romerike Golfklubb"
+    },
+    {
+      "src": "/courses/romerike-golfklubb/romerike-golfklubb-green-hull-8-solnedgang.webp",
+      "alt": "Golfer ved green på hull 8 på Romerike Golfklubb i solnedgang med flagg og lange skygger",
+      "alt_en": "Golfer at the green on hole 8 at Romerike Golf Club at sunset with flag and long shadows",
+      "credit": "Romerike Golfklubb"
+    },
+    {
+      "src": "/courses/romerike-golfklubb/romerike-golfklubb-hull-12-bro-vannhinder.webp",
+      "alt": "Hvit bro over vannhinder ved hull 12 på Romerike Golfklubb med bjørketrær og grønn fairway",
+      "alt_en": "White bridge over water hazard at hole 12 at Romerike Golf Club with birch trees and green fairway",
+      "credit": "Romerike Golfklubb"
+    },
+    {
+      "src": "/courses/romerike-golfklubb/romerike-golfklubb-nytt-klubbhus.webp",
+      "alt": "Nytt klubbhus på Romerike Golfklubb med terrasse og utsikt over banen",
+      "alt_en": "New clubhouse at Romerike Golf Club with terrace and view over the course",
+      "credit": "Romerike Golfklubb"
+    }
+  ],
   "googlePlaceId": "ChIJ57Qx6E_QQ0YR5WpBLD4vJKw",
   "slug_en": "romerike-golf-club",
   "name_en": "Romerike Golf Club",
