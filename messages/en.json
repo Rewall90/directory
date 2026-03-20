@@ -105,6 +105,10 @@
     "siteReviews": "{count} reviews on Golfkart.no",
     "siteReviewSingular": "{count} review on Golfkart.no",
     "writeFirstReview": "Write the first review on Golfkart.no",
+    "rankedBest": "#{rank} best golf course in Norway 2026",
+    "seeFullRanking": "See the full ranking →",
+    "readFullGuide": "Read the full guide",
+    "readFullGuideDescription": "Prices, best holes, travel guide and tips",
     "mainImagePlaceholder": "[ Main image – 800x600 ]",
     "accentImagePlaceholder": "[ Secondary image – clubhouse ]",
     "accentImageAlt": "{name} clubhouse"

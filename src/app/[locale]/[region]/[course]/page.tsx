@@ -3,6 +3,11 @@ import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getCourse, getAllCourses, calculateAverageRating } from "@/lib/courses";
+import {
+  getCourseRanking,
+  RANKING_BLOG_SLUG,
+  getCourseBlogArticle,
+} from "@/lib/constants/top-ranked-courses";
 import { getReviews } from "@/lib/reviews";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import type { Course, Booking } from "@/types/course";
@@ -208,6 +213,15 @@ export default async function CoursePage({ params }: Props) {
     })
     .filter((item): item is { nearbyCourse: Course; distanceKm: number | null } => item !== null);
 
+  // Check if this course is in the top 10 ranking
+  const rankingPosition = getCourseRanking(course.slug);
+  const ranking = rankingPosition
+    ? { position: rankingPosition, blogSlug: RANKING_BLOG_SLUG[localeType] }
+    : null;
+
+  // Check if this course has a dedicated blog article
+  const blogArticleSlug = getCourseBlogArticle(course.slug, localeType);
+
   // Generate BreadcrumbList schema
   const breadcrumbSchema = generateCourseBreadcrumb(
     course.region,
@@ -328,6 +342,8 @@ export default async function CoursePage({ params }: Props) {
         photos={displayPhotos}
         googlePlaceId={course.googlePlaceId}
         locale={locale as "nb" | "en"}
+        ranking={ranking}
+        blogArticleSlug={blogArticleSlug}
       />
 
       {/* Stats Bar */}

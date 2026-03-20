@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import type { Course } from "@/types/course";
 import type { DisplayPhoto } from "../page";
 import { getLocalizedName, getLocalizedDescription } from "@/lib/i18n-courses";
@@ -23,6 +24,8 @@ interface CourseHeroProps {
   photos: DisplayPhoto[];
   googlePlaceId?: string | null;
   locale: "nb" | "en";
+  ranking?: { position: number; blogSlug: string } | null;
+  blogArticleSlug?: string | null;
 }
 
 function StarIcon({ filled }: { filled: boolean }) {
@@ -40,6 +43,8 @@ export function CourseHero({
   photos,
   googlePlaceId,
   locale,
+  ranking,
+  blogArticleSlug,
 }: CourseHeroProps) {
   const t = useTranslations("courseHero");
   const heroPhoto = photos[0];
@@ -175,6 +180,65 @@ export function CourseHero({
               </div>
             )}
           </a>
+
+          {/* Top 10 Ranking Badge */}
+          {ranking && (
+            <Link
+              href={`/blog/${ranking.blogSlug}`}
+              className="border-v3d-gold/30 from-v3d-gold/5 to-v3d-gold/10 flex items-center gap-4 rounded-lg border bg-gradient-to-r p-6 transition-all hover:border-v3d-gold hover:shadow-md"
+            >
+              <div className="font-serif text-4xl font-semibold text-v3d-gold">
+                #{ranking.position}
+              </div>
+              <div className="border-v3d-gold/30 border-l pl-4">
+                <div className="text-sm font-medium text-v3d-text-dark">
+                  {t("rankedBest", { rank: ranking.position })}
+                </div>
+                <div className="text-xs text-v3d-text-muted">{t("seeFullRanking")}</div>
+              </div>
+            </Link>
+          )}
+
+          {/* Blog Article Link */}
+          {blogArticleSlug && (
+            <Link
+              href={`/blog/${blogArticleSlug}`}
+              className="flex items-center gap-4 rounded-lg border border-v3d-border bg-v3d-warm p-6 transition-all hover:border-v3d-forest hover:shadow-md"
+            >
+              <div className="bg-v3d-forest/10 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg">
+                <svg
+                  className="h-5 w-5 text-v3d-forest"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                  />
+                </svg>
+              </div>
+              <div className="min-w-0 flex-1">
+                <div className="text-sm font-medium text-v3d-text-dark">{t("readFullGuide")}</div>
+                <div className="text-xs text-v3d-text-muted">{t("readFullGuideDescription")}</div>
+              </div>
+              <svg
+                className="h-4 w-4 flex-shrink-0 text-v3d-forest"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </Link>
+          )}
         </div>
       </div>
 

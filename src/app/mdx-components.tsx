@@ -2,7 +2,12 @@ import type { MDXComponents } from "mdx/types";
 import { FAQAccordion } from "@/components/blog/FAQAccordion";
 import { RankingTable } from "@/components/blog/RankingTable";
 import { Top10RankingTable } from "@/components/blog/Top10RankingTable";
+import { HonorableMentionsTable } from "@/components/blog/HonorableMentionsTable";
 import { BlogCourseCard } from "@/components/blog/BlogCourseCard";
+import { CourseStats } from "@/components/blog/CourseStats";
+import { InfoBox } from "@/components/blog/InfoBox";
+import { PriceTable } from "@/components/blog/PriceTable";
+import { HeroImage } from "@/components/blog/HeroImage";
 
 // MDX components configuration for styling
 export const mdxComponents: MDXComponents = {
@@ -10,7 +15,12 @@ export const mdxComponents: MDXComponents = {
   FAQAccordion,
   RankingTable,
   Top10RankingTable,
+  HonorableMentionsTable,
   BlogCourseCard,
+  CourseStats,
+  InfoBox,
+  PriceTable,
+  HeroImage,
   // Headings with custom styling
   h1: ({ children }) => <h1 className="mb-6 mt-8 text-4xl font-bold text-primary">{children}</h1>,
   h2: ({ children }) => (
@@ -67,6 +77,12 @@ export const mdxComponents: MDXComponents = {
   thead: ({ children }) => <thead className="bg-base-200">{children}</thead>,
   th: ({ children }) => <th className="font-semibold">{children}</th>,
   td: ({ children }) => <td>{children}</td>,
+
+  // Images
+  img: ({ src, alt }) => (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img src={src} alt={alt || ""} className="mb-6 w-full rounded-lg shadow-md" loading="lazy" />
+  ),
 
   // Horizontal rule
   hr: () => <hr className="my-8 border-base-300" />,

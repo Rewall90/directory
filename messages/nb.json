@@ -105,6 +105,10 @@
     "siteReviews": "{count} anmeldelser på Golfkart.no",
     "siteReviewSingular": "{count} anmeldelse på Golfkart.no",
     "writeFirstReview": "Skriv den første anmeldelsen på Golfkart.no",
+    "rankedBest": "#{rank} beste golfbane i Norge 2026",
+    "seeFullRanking": "Se hele rangeringen →",
+    "readFullGuide": "Les komplett guide",
+    "readFullGuideDescription": "Priser, beste hull, reiseguide og tips",
     "mainImagePlaceholder": "[ Hovedbilde – 800x600 ]",
     "accentImagePlaceholder": "[ Sekundærbilde – klubbhus ]",
     "accentImageAlt": "{name} klubbhus"

@@ -17,7 +17,30 @@ interface FrontMatter {
   description?: string;
   seoDescription?: string;
   publishedAt?: string;
+  updatedAt?: string;
   author?: string;
+  tags?: string[];
+  image?: string;
+  imageAlt?: string;
+}
+
+// Extract FAQ items from MDX source for FAQPage schema
+function extractFAQItems(mdxSource: string): { question: string; answer: string }[] {
+  const faqMatch = mdxSource.match(/<FAQAccordion\s+items=\{(\[[\s\S]*?\])}\s*\/>/);
+  if (!faqMatch) return [];
+
+  try {
+    // Clean the JS object literal into valid JSON
+    const cleaned = faqMatch[1]
+      .replace(/\n\s*/g, " ")
+      .replace(/question:\s*"/g, '"question": "')
+      .replace(/answer:\s*"/g, '"answer": "')
+      .replace(/,\s*}/g, "}")
+      .replace(/,\s*]/g, "]");
+    return JSON.parse(cleaned);
+  } catch {
+    return [];
+  }
 }
 
 export async function generateStaticParams() {
@@ -66,6 +89,18 @@ export async function generateMetadata(props: PageProps) {
       publishedTime: mdxContent.frontMatter.publishedAt,
       authors: [mdxContent.frontMatter.author || "golfkart.no"],
       url: `https://golfkart.no${locale === "en" ? "/en" : ""}/blog/${slug}`,
+      ...(typeof mdxContent.frontMatter.image === "string"
+        ? {
+            images: [
+              {
+                url: `https://golfkart.no${mdxContent.frontMatter.image.replace(".webp", "-og.jpg")}`,
+                width: 1200,
+                height: 630,
+                alt: mdxContent.frontMatter.imageAlt || metaTitle,
+              },
+            ],
+          }
+        : {}),
     },
     alternates: {
       canonical: `https://golfkart.no${locale === "en" ? "/en" : ""}/blog/${slug}`,
@@ -79,8 +114,14 @@ export async function generateMetadata(props: PageProps) {
 }
 
 // Generate structured data for SEO
-function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: string) {
+function generateStructuredData(
+  slug: string,
+  frontMatter: FrontMatter,
+  locale: string,
+  mdxSource: string,
+) {
   const baseUrl = "https://golfkart.no";
+  const isEn = locale === "en";
 
   // Use seoTitle if available, otherwise fall back to title
   const structuredTitle = frontMatter.seoTitle || frontMatter.title;
@@ -89,14 +130,42 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
   const structuredDescription =
     frontMatter.seoDescription || frontMatter.description?.replace(/<[^>]*>/g, "") || "";
 
-  // Article Schema
+  // Determine articleSection from tags
+  const tagToSection: Record<string, string> = {
+    reiseguide: "Golf Travel",
+    "travel-guide": "Golf Travel",
+    golfbaner: "Golf Courses",
+    "golf-courses": "Golf Courses",
+    rangering: "Golf Rankings",
+    ranking: "Golf Rankings",
+  };
+  const articleSection =
+    frontMatter.tags?.reduce<string | null>(
+      (found, tag) => found || tagToSection[tag] || null,
+      null,
+    ) || "Golf";
+
+  // Format date with timezone for ISO 8601 compliance
+  const formatDate = (date?: string) => (date ? `${date}T00:00:00+01:00` : undefined);
+
+  // Build image array with multiple aspect ratios (16:9, 4:3, 1:1) per Google recommendations
+  const imageBaseName = frontMatter.image?.replace(".webp", "");
+  const imageArray = frontMatter.image
+    ? [
+        `${baseUrl}${imageBaseName}-og.jpg`,
+        `${baseUrl}${imageBaseName}-4x3.jpg`,
+        `${baseUrl}${imageBaseName}-1x1.jpg`,
+      ]
+    : undefined;
+
+  // Article Schema (BlogPosting for blog content)
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: structuredTitle,
     description: structuredDescription,
-    inLanguage: locale === "en" ? "en" : "nb",
-    articleSection: "Golf Rankings",
+    inLanguage: isEn ? "en" : "nb",
+    articleSection,
     author: {
       "@type": "Organization",
       name: frontMatter.author || "golfkart.no",
@@ -107,16 +176,63 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
       name: "golfkart.no",
       url: baseUrl,
     },
-    datePublished: frontMatter.publishedAt,
-    dateModified: frontMatter.publishedAt,
+    datePublished: formatDate(frontMatter.publishedAt),
+    dateModified: formatDate(frontMatter.updatedAt || frontMatter.publishedAt),
+    ...(imageArray && { image: imageArray }),
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${baseUrl}${locale === "en" ? "/en" : ""}/blog/${slug}`,
+      "@id": `${baseUrl}${isEn ? "/en" : ""}/blog/${slug}`,
     },
   };
 
+  // BreadcrumbList schema — all blog posts
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: isEn ? "Home" : "Hjem",
+        item: isEn ? `${baseUrl}/en` : baseUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: isEn ? "Blog" : "Blogg",
+        item: `${baseUrl}${isEn ? "/en" : ""}/blog`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: frontMatter.title,
+      },
+    ],
+  };
+
+  // FAQPage schema — auto-extracted from MDX content
+  const faqItems = extractFAQItems(mdxSource);
+  const faqSchema =
+    faqItems.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqItems.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        }
+      : null;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const schemas: any[] = [articleSchema, breadcrumbSchema];
+  if (faqSchema) schemas.push(faqSchema);
+
   // Add ranking-specific schema if this is the best courses post
-  const isEn = locale === "en";
   const isBestCoursesPost =
     slug === "beste-golfbaner-norge-2025" || slug === "best-golf-courses-norway";
 
@@ -287,173 +403,10 @@ function generateStructuredData(slug: string, frontMatter: FrontMatter, locale: 
       ],
     };
 
-    const breadcrumbSchema = {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: isEn ? "Home" : "Hjem",
-          item: isEn ? `${baseUrl}/en` : baseUrl,
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: isEn ? "Blog" : "Blogg",
-          item: `${baseUrl}${isEn ? "/en" : ""}/blog`,
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
-          name: isEn ? "Best Golf Courses in Norway 2025" : "Beste Golfbaner i Norge 2025",
-          item: `${baseUrl}${isEn ? "/en" : ""}/blog/${slug}`,
-        },
-      ],
-    };
-
-    const faqSchema = {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: isEn
-        ? [
-            {
-              "@type": "Question",
-              name: "Which golf course is best in Norway?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Stiklestad Golf Club in Trøndelag is ranked as Norway's best golf course in 2025, with an impressive 4.9-star rating based on 119 Google reviews. The course is located in Verdal and combines high quality with consistently excellent service.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "How many golf courses are there in Norway?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "There are over 160 golf courses across Norway. In our analysis, we've ranked 152 Norwegian golf clubs that all have at least 5 Google reviews, providing a reliable basis for comparison.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "How are golf courses ranked objectively?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "We use Bayesian Average, the same statistical method IMDb uses to rank films. The formula balances the number of reviews with the average rating, so courses with many positive reviews rank higher than those with just a few (even if they're perfect).",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Which region in Norway has the most good golf courses?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Trøndelag dominates with 2 of the 10 best golf courses in Norway, including first place (Stiklestad). Akershus and Nordland also have 2 courses each in the top 10. The Oslo area (Akershus) is especially popular for golfers seeking quality courses near the capital.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "What does it cost to play golf at Norway's best courses?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Green fees at top-ranked Norwegian golf courses typically range from 400-900 NOK depending on day and season. Membership offers significant discounts. Most top 10 courses also offer driving ranges, clubhouses with restaurants, and club rentals.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Is Lofoten Links worth visiting?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Absolutely! Lofoten Links is the most reviewed course in our top 10 with 279 Google reviews and 4.6 stars. The course is world-famous for its spectacular location and unique Northern Norwegian landscape. Perfect for a golf holiday.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Which golf courses are best for beginners?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Many of the highly ranked courses have both 18-hole and shorter courses suitable for beginners. We recommend contacting the golf clubs directly for information about lessons, driving range facilities, and beginner-friendly offers.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "When is the best time to play golf in Norway?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "The golf season in Norway typically runs from April to October, with best conditions in June-August. Northern Norwegian courses like Tromsø and Bodø offer unique midnight sun experiences in June-July.",
-              },
-            },
-          ]
-        : [
-            {
-              "@type": "Question",
-              name: "Hvilken golfbane er best i Norge?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Stiklestad Golfklubb i Trøndelag er rangert som Norges beste golfbane i 2025, med en imponerende 4.9-stjerner rating basert på 119 Google-anmeldelser. Golfbanen ligger i Verdal og kombinerer høy kvalitet med konsistent god service.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Hvor mange golfbaner finnes det i Norge?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Det finnes over 160 golfbaner fordelt over hele Norge. I vår analyse har vi rangert 152 norske golfklubber som alle har minimum 5 Google-anmeldelser, noe som gir et pålitelig grunnlag for sammenligningen.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Hvordan rangeres golfbaner objektivt?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Vi bruker Bayesian Average, samme statistiske metode som IMDb bruker for å rangere filmer. Formelen balanserer antall anmeldelser med gjennomsnittsrating, slik at baner med mange positive anmeldelser rangeres høyere enn de med bare få (selv om de er perfekte).",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Hvilken region i Norge har flest gode golfbaner?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Trøndelag dominerer med 2 av de 10 beste golfbanene i Norge, inkludert førsteplassen (Stiklestad). Akershus og Nordland har også 2 baner hver i topp 10. Oslo-området (Akershus) er spesielt populært for golfere som søker kvalitetsbaner nær hovedstaden.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Hva koster det å spille golf på Norges beste baner?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Greenfee på topp-rangerte norske golfbaner varierer typisk fra 400-900 kr avhengig av dag og sesong. Medlemskap gir betydelig rabatt. De fleste av topp 10-banene tilbyr også driving range, klubbhus med restaurant, og klubbutleie.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Er Lofoten Links verdt besøket?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Absolutt! Lofoten Links er den mest anmeldte banen i vår topp 10 med 279 Google-anmeldelser og 4.6-stjerner. Golfbanen er verdenskjent for sin spektakulære beliggenhet og unike nordnorske landskap. Perfekt for golfferie.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Hvilke golfbaner er best for nybegynnere?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Mange av de høyt rangerte banene har både 18-hulls og kortere baner som passer nybegynnere. Vi anbefaler å kontakte golfklubbene direkte for informasjon om kurs, driving range-fasiliteter og begynnervennlige tilbud.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Når er beste tid å spille golf i Norge?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Golfsesongen i Norge går typisk fra april til oktober, med best forhold i juni-august. Nordnorske baner som Tromsø og Bodø tilbyr unike midnattssol-opplevelser i juni-juli.",
-              },
-            },
-          ],
-    };
-
-    return [articleSchema, itemListSchema, faqSchema, breadcrumbSchema];
+    schemas.push(itemListSchema);
   }
 
-  return [articleSchema];
+  return schemas;
 }
 
 export default async function BloggPage(props: PageProps) {
@@ -468,7 +421,7 @@ export default async function BloggPage(props: PageProps) {
     notFound();
   }
 
-  const schemas = generateStructuredData(slug, mdxContent.frontMatter, locale);
+  const schemas = generateStructuredData(slug, mdxContent.frontMatter, locale, mdxContent.content);
 
   return (
     <>
