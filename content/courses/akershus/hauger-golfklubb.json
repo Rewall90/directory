@@ -215,6 +215,38 @@
     "createdAt": "2025-10-31T11:23:11.175Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
+  "images": [
+    {
+      "src": "/courses/hauger-golfklubb/hauger-golfklubb-oversikt-klubbhus-bunkere.webp",
+      "alt": "Oversiktsbilde av Hauger Golfklubb med klubbhus, bunkere, vannhinder og grønne fairwayer i kveldssol på Slattum",
+      "alt_en": "Overview of Hauger Golf Club with clubhouse, bunkers, water hazard and green fairways in evening sunlight at Slattum",
+      "credit": "Hauger Golfklubb"
+    },
+    {
+      "src": "/courses/hauger-golfklubb/hauger-golfklubb-soloppgang-green-vannhinder.webp",
+      "alt": "Soloppgang over Hauger Golfklubb med morgendis, green, vannhinder og bunkere i gyllent lys",
+      "alt_en": "Sunrise over Hauger Golf Club with morning mist, green, water hazard and bunkers in golden light",
+      "credit": "Hauger Golfklubb / Daniel Heredero"
+    },
+    {
+      "src": "/courses/hauger-golfklubb/hauger-golfklubb-hostfarger-panorama.webp",
+      "alt": "Hauger Golfklubb i høstfarger med gule løvtrær, fairwayer og vannhinder sett fra åsen",
+      "alt_en": "Hauger Golf Club in autumn colours with golden leaves, fairways and water hazard seen from the hillside",
+      "credit": "Hauger Golfklubb"
+    },
+    {
+      "src": "/courses/hauger-golfklubb/hauger-golfklubb-kveldslys-utsikt-klubbhus.webp",
+      "alt": "Utsikt fra klubbhuset på Hauger Golfklubb med kveldslys over fairwayer, vannhinder og åser i bakgrunnen",
+      "alt_en": "View from the clubhouse at Hauger Golf Club with evening light over fairways, water hazard and hills in the background",
+      "credit": "Hauger Golfklubb"
+    },
+    {
+      "src": "/courses/hauger-golfklubb/hauger-golfklubb-solnedgang-green-bunkere.webp",
+      "alt": "Solnedgang over green og bunkere på Hauger Golfklubb med solstråler og dramatisk himmel",
+      "alt_en": "Sunset over green and bunkers at Hauger Golf Club with sunrays and dramatic sky",
+      "credit": "Hauger Golfklubb"
+    }
+  ],
   "googlePlaceId": "ChIJERGEW0x6QUYRUS7DHnsAY8U",
   "slug_en": "hauger-golf-club",
   "name_en": "Hauger Golf Club",
