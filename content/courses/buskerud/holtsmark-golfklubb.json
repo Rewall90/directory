@@ -231,6 +231,38 @@
     "createdAt": "2025-10-31T05:54:17.247Z",
     "updatedAt": "2026-02-15T18:30:00.000Z"
   },
+  "images": [
+    {
+      "src": "/courses/holtsmark-golfklubb/holtsmark-golfklubb-flyfoto-skogbane.webp",
+      "alt": "Flyfoto av Holtsmark Golfklubb med skogkledde fairwayer, bunkere og raviner i Lier",
+      "alt_en": "Aerial view of Holtsmark Golf Club with tree-lined fairways, bunkers and ravines in Lier",
+      "credit": "Holtsmark Golfklubb"
+    },
+    {
+      "src": "/courses/holtsmark-golfklubb/holtsmark-golfklubb-bunkere-kveldssol-fjellutsikt.webp",
+      "alt": "Bunkere og fairway på Holtsmark Golfklubb i kveldssol med bjørketrær og åser i bakgrunnen",
+      "alt_en": "Bunkers and fairway at Holtsmark Golf Club in evening sun with birch trees and hills in the background",
+      "credit": "Holtsmark Golfklubb"
+    },
+    {
+      "src": "/courses/holtsmark-golfklubb/holtsmark-golfklubb-fairway-bunkere-aaser.webp",
+      "alt": "Fairway med bunkere omgitt av skog og åser på Holtsmark Golfklubb designet av Robert Trent Jones II",
+      "alt_en": "Fairway with bunkers surrounded by forest and hills at Holtsmark Golf Club designed by Robert Trent Jones II",
+      "credit": "Holtsmark Golfklubb"
+    },
+    {
+      "src": "/courses/holtsmark-golfklubb/holtsmark-golfklubb-golfer-bunkere-morgenlys.webp",
+      "alt": "Golfer ved bunkere på Holtsmark Golfklubb i morgenlys med skogkledde åser",
+      "alt_en": "Golfer near bunkers at Holtsmark Golf Club in morning light with forested hills",
+      "credit": "Holtsmark Golfklubb"
+    },
+    {
+      "src": "/courses/holtsmark-golfklubb/holtsmark-golfklubb-green-flagg-fjellpanorama.webp",
+      "alt": "Green med flagg på Holtsmark Golfklubb sett gjennom løvverk med fjellpanorama i bakgrunnen",
+      "alt_en": "Green with flag at Holtsmark Golf Club seen through foliage with mountain panorama in the background",
+      "credit": "Holtsmark Golfklubb"
+    }
+  ],
   "googlePlaceId": "ChIJc__VOcQVQUYRxQvVtuLkzfE",
   "slug_en": "holtsmark-golf-club",
   "name_en": "Holtsmark Golf Club",
