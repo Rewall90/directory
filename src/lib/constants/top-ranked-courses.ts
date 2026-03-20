@@ -46,6 +46,18 @@ export const COURSE_BLOG_ARTICLES: Record<string, { nb: string; en: string }> = 
     nb: "lofoten-links-norges-mest-spektakulaere-golfbane",
     en: "lofoten-links-norways-most-spectacular-golf-course",
   },
+  "bodo-golfpark": {
+    nb: "golf-i-nord-norge-midnattssol-og-arktisk-golf",
+    en: "golf-in-northern-norway-midnight-sun-and-arctic-golf",
+  },
+  "tromso-golfklubb": {
+    nb: "golf-i-nord-norge-midnattssol-og-arktisk-golf",
+    en: "golf-in-northern-norway-midnight-sun-and-arctic-golf",
+  },
+  "hafjell-golfklubb": {
+    nb: "golf-paa-hafjell-komplett-guide",
+    en: "golf-at-hafjell-complete-guide",
+  },
 };
 
 export function getCourseBlogArticle(slug: string, locale: "nb" | "en"): string | null {

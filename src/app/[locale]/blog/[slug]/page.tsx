@@ -233,8 +233,7 @@ function generateStructuredData(
   if (faqSchema) schemas.push(faqSchema);
 
   // Add ranking-specific schema if this is the best courses post
-  const isBestCoursesPost =
-    slug === "beste-golfbaner-norge-2025" || slug === "best-golf-courses-norway";
+  const isBestCoursesPost = slug === "beste-golfbaner-norge" || slug === "best-golf-courses-norway";
 
   if (isBestCoursesPost) {
     const courseUrl = (region: string, nbSlug: string, enSlug: string) =>

@@ -36,13 +36,13 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/blogg/beste-golfbaner-norge-2025",
-        destination: "/blogg/beste-golfbaner-norge",
+        source: "/blog/beste-golfbaner-norge-2025",
+        destination: "/blog/beste-golfbaner-norge",
         permanent: true,
       },
       {
-        source: "/blogg/beste-golfbaner-norge-2026",
-        destination: "/blogg/beste-golfbaner-norge",
+        source: "/blog/beste-golfbaner-norge-2026",
+        destination: "/blog/beste-golfbaner-norge",
         permanent: true,
       },
     ];
