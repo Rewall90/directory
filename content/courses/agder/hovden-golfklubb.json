@@ -64,10 +64,10 @@
   },
   "phoneNumbers": [],
   "season": {
-    "start": "Juni",
-    "end": "September",
-    "winterUse": "Stengt oktober-mai",
-    "winterUse_en": "Closed October to May"
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Stengt november-april",
+    "winterUse_en": "Closed November to April"
   },
   "visitors": {
     "welcome": true,
@@ -97,7 +97,7 @@
     "restaurantName": "Kiosk",
     "clubRental": true,
     "clubRentalNotes": null,
-    "cartRental": null,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": false,
     "teachingPro": false,
