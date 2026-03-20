@@ -228,6 +228,32 @@
     "createdAt": "2025-10-31T11:24:46.105Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
+  "images": [
+    {
+      "src": "/courses/haga-golfklubb/haga-golfklubb-flyfoto-fontener-klubbhus.webp",
+      "alt": "Flyfoto av Haga Golfklubb med fontener i vannhinder, bunkere, klubbhus og grønne fairwayer i Bærum",
+      "alt_en": "Aerial view of Haga Golf Club with fountains in water hazards, bunkers, clubhouse and green fairways in Bærum",
+      "credit": "Haga Golfklubb"
+    },
+    {
+      "src": "/courses/haga-golfklubb/haga-golfklubb-golfer-fairway-klubbhus.webp",
+      "alt": "Golfer på fairway ved Haga Golfklubb med klubbhus, bunkere og skog i bakgrunnen",
+      "alt_en": "Golfer on fairway at Haga Golf Club with clubhouse, bunkers and forest in the background",
+      "credit": "Haga Golfklubb"
+    },
+    {
+      "src": "/courses/haga-golfklubb/haga-golfklubb-flyfoto-bunkere-vannhinder-oslofjorden.webp",
+      "alt": "Flyfoto av Haga Golfklubb med bunkere, vannhinder og utsikt mot Oslofjorden",
+      "alt_en": "Aerial view of Haga Golf Club with bunkers, water hazards and view towards the Oslo Fjord",
+      "credit": "Haga Golfklubb"
+    },
+    {
+      "src": "/courses/haga-golfklubb/haga-golfklubb-green-fontene-panorama.webp",
+      "alt": "Green med flagg og fontene på Haga Golfklubb med panoramautsikt over fairwayer og vannhinder",
+      "alt_en": "Green with flag and fountain at Haga Golf Club with panoramic view over fairways and water hazards",
+      "credit": "Haga Golfklubb"
+    }
+  ],
   "googlePlaceId": "ChIJDd9TXMwSQUYRedj-cXvi07Q",
   "slug_en": "haga-golf-club",
   "name_en": "Haga Golf Club",
