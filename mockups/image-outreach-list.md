@@ -7,9 +7,9 @@ Sist oppdatert: 2026-03-19
 - Totalt: 167 klubber
 - Med e-post: 160
 - Mangler e-post: 7
-- Sendt: 20
-- Svar mottatt: 3
-- Bilder mottatt: 3
+- Sendt: 40
+- Svar mottatt: 4
+- Bilder mottatt: 4
 
 ## Allerede kontaktet (fra tidligere utsendelse)
 Disse 10 klubbene ble kontaktet i den tidligere "Beste golfbaner"-utsendelsen:
@@ -54,37 +54,37 @@ Disse 10 klubbene ble kontaktet i den tidligere "Beste golfbaner"-utsendelsen:
 | 6 | Gjersjøen golfklubb | kontakt@gjersjoengolf.no | https://gjersjoengolf.no/ | ✅ | ⬜ | ⬜ |
 | 7 | Grini Golfklubb | post@grinigolfklubb.no | https://grinigolfklubb.no/ | ✅ | ⬜ | ⬜ |
 | 8 | Haga Golfklubb | susan@hagagolf.no | https://hagagolf.no/ | ✅ | ⬜ | ⬜ |
-| 9 | Hakadal Golfklubb - Aas Gaard Golfpark | torve@hakadalgolf.no | https://aasgaardgolfpark.no/ | ✅ | ⬜ | ⬜ |
+| 9 | Hakadal Golfklubb - Aas Gaard Golfpark | torve@hakadalgolf.no | https://aasgaardgolfpark.no/ | ✅ | ✅ | ✅ |
 | 10 | Hauger Golfklubb | post@haugergolf.no | https://hauger-golfklubb.no/ | ✅ | ⬜ | ⬜ |
 | 11 | Krokhol Golfklubb | kontor@krokhol.no | https://krokhol.no/ | ✅ | ⬜ | ⬜ |
 | 12 | Lillestrøm Golfklubb | post@lilgk.no | https://lilgk.no/ | ✅ | ⬜ | ⬜ |
-| 13 | Lommedalen Golfklubb | kontakt@lommedalengolf.no | https://lommedalengk.no/ | ⬜ | ⬜ | ⬜ |
-| 14 | Losby Golfklubb | info@losby.no | https://losby.no/ | ⬜ | ⬜ | ⬜ |
-| 15 | Miklagard Golf | elias@miklagardgolf.no | https://miklagardgolf.no/ | ⬜ | ⬜ | ⬜ |
-| 16 | Nes Golfklubb | admin@nesgolf.no | https://nesgolf.no/ | ⬜ | ⬜ | ⬜ |
-| 17 | Nes Golfklubb (also known as Rommen Golfklubb) | admin@nesgolf.no | https://nesgolf.no/ | ⬜ | ⬜ | ⬜ |
-| 18 | Nordhaug Golfklubb | Carina@hagagolf.no | https://nordhauggk.no/ | ⬜ | ⬜ | ⬜ |
-| 19 | Oppegård Golfklubb | post@opgk.no | https://oppegardgk.no/ | ⬜ | ⬜ | ⬜ |
-| 20 | Oustøen Country Club | occ@occ.no | https://occ.no/ | ⬜ | ⬜ | ⬜ |
-| 21 | Romerike Golfklubb | post@romerikegk.no | https://romerikegk.no/ | ⬜ | ⬜ | ⬜ |
-| 22 | Ski Golfklubb - Smerta | postkasse@skigk.no | https://skigk.no/ | ⬜ | ⬜ | ⬜ |
-| 23 | Soon Golfklubb | post@soongolf.no | https://soongolf.no/ | ⬜ | ⬜ | ⬜ |
-| 24 | Ullensaker Golfklubb | kontakt.ugk@gmail.com | https://ugk.no/ | ⬜ | ⬜ | ⬜ |
-| 25 | Østmarka Golfklubb - Østmarka golfbane | dagligleder@ostmarkagolf.no | https://ostmarkagolf.no/ | ⬜ | ⬜ | ⬜ |
+| 13 | Lommedalen Golfklubb | kontakt@lommedalengolf.no | https://lommedalengk.no/ | ✅ | ⬜ | ⬜ |
+| 14 | Losby Golfklubb | info@losby.no | https://losby.no/ | ✅ | ⬜ | ⬜ |
+| 15 | Miklagard Golf | elias@miklagardgolf.no | https://miklagardgolf.no/ | ✅ | ⬜ | ⬜ |
+| 16 | Nes Golfklubb | admin@nesgolf.no | https://nesgolf.no/ | ✅ | ⬜ | ⬜ |
+| 17 | Nes Golfklubb (also known as Rommen Golfklubb) | admin@nesgolf.no | https://nesgolf.no/ | ✅ | ⬜ | ⬜ |
+| 18 | Nordhaug Golfklubb | Carina@hagagolf.no | https://nordhauggk.no/ | ✅ | ⬜ | ⬜ |
+| 19 | Oppegård Golfklubb | post@opgk.no | https://oppegardgk.no/ | ✅ | ⬜ | ⬜ |
+| 20 | Oustøen Country Club | occ@occ.no | https://occ.no/ | ✅ | ⬜ | ⬜ |
+| 21 | Romerike Golfklubb | post@romerikegk.no | https://romerikegk.no/ | ✅ | ⬜ | ⬜ |
+| 22 | Ski Golfklubb - Smerta | postkasse@skigk.no | https://skigk.no/ | ✅ | ⬜ | ⬜ |
+| 23 | Soon Golfklubb | post@soongolf.no | https://soongolf.no/ | ✅ | ⬜ | ⬜ |
+| 24 | Ullensaker Golfklubb | kontakt.ugk@gmail.com | https://ugk.no/ | ✅ | ⬜ | ⬜ |
+| 25 | Østmarka Golfklubb - Østmarka golfbane | dagligleder@ostmarkagolf.no | https://ostmarkagolf.no/ | ✅ | ⬜ | ⬜ |
 
 ### Buskerud (11 klubber)
 
 | # | Klubb | E-post | Nettside | Sendt | Svar | Bilder |
 |---|-------|--------|----------|-------|------|--------|
-| 1 | Drammen Golfklubb | post@drammengk.no | https://drammengk.no/ | ⬜ | ⬜ | ⬜ |
-| 2 | Eiker Golfklubb | post@eikergolf.no | https://eikergolf.no/ | ⬜ | ⬜ | ⬜ |
-| 3 | Hemsedal Golfalpin Golfbane | bent@golfalpin.no | https://golfalpingolfbane.no/ | ⬜ | ⬜ | ⬜ |
-| 4 | Hemsedal Golfklubb | post@golfhemsedal.no | https://hemsedalgolfklubb.no/ | ⬜ | ⬜ | ⬜ |
-| 5 | Holtsmark Golfklubb | post@holtsmarkgolf.no | https://holtsmarkgolf.no/ | ⬜ | ⬜ | ⬜ |
-| 6 | Kjekstad Golfklubb | post@kjekstad-gk.no | https://kjekstad-gk.no/ | ⬜ | ⬜ | ⬜ |
-| 7 | Kongsberg Golfklubb | kontor@kongsberggolf.no | https://kongsberggolf.no/ | ⬜ | ⬜ | ⬜ |
+| 1 | Drammen Golfklubb | post@drammengk.no | https://drammengk.no/ | ✅ | ⬜ | ⬜ |
+| 2 | Eiker Golfklubb | post@eikergolf.no | https://eikergolf.no/ | ✅ | ⬜ | ⬜ |
+| 3 | Hemsedal Golfalpin Golfbane | bent@golfalpin.no | https://golfalpingolfbane.no/ | ✅ | ⬜ | ⬜ |
+| 4 | Hemsedal Golfklubb | post@golfhemsedal.no | https://hemsedalgolfklubb.no/ | ✅ | ⬜ | ⬜ |
+| 5 | Holtsmark Golfklubb | post@holtsmarkgolf.no | https://holtsmarkgolf.no/ | ✅ | ⬜ | ⬜ |
+| 6 | Kjekstad Golfklubb | post@kjekstad-gk.no | https://kjekstad-gk.no/ | ✅ | ⬜ | ⬜ |
+| 7 | Kongsberg Golfklubb | kontor@kongsberggolf.no | https://kongsberggolf.no/ | ✅ | ⬜ | ⬜ |
 | 8 | Nesfjellet Golf | ❌ MANGLER | https://nesfjelletgolf.no/ | ⬜ | ⬜ | ⬜ |
-| 9 | Norefjell Golfklubb | info@norefjell-golf.no | https://norefjell-golf.no/ | ⬜ | ⬜ | ⬜ |
+| 9 | Norefjell Golfklubb | info@norefjell-golf.no | https://norefjell-golf.no/ | ✅ | ⬜ | ⬜ |
 | 10 | Ringerike Golfklubb | post@ringerikegk.no | https://www.ringerikegk.no/ | ⬜ | ⬜ | ⬜ |
 | 11 | Tyrifjord Golfklubb | post@tyrifjord-golfklubb.no | https://tyrifjord-golfklubb.no/ | ⬜ | ⬜ | ⬜ |
 

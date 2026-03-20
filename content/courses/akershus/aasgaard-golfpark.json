@@ -267,6 +267,38 @@
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ3agzFAR2QUYRlRyJAKdL9X0",
+  "images": [
+    {
+      "src": "/courses/aasgaard-golfpark/aasgaard-golfpark-oversiktsbilde-klubbhus.webp",
+      "alt": "Flyfoto av Aas Gaard Golfpark med klubbhus, bunkere og høstfarger i Hakadal",
+      "alt_en": "Aerial view of Aas Gaard Golf Park with clubhouse, bunkers and autumn colours in Hakadal",
+      "credit": "Hakadal Golfklubb / Kjetil Larsen"
+    },
+    {
+      "src": "/courses/aasgaard-golfpark/aasgaard-golfpark-hull-15-16-flyfoto.webp",
+      "alt": "Flyfoto av hull 15 og 16 på Aas Gaard Golfpark med vannhindre og bunkere",
+      "alt_en": "Aerial view of holes 15 and 16 at Aas Gaard Golf Park with water hazards and bunkers",
+      "credit": "Hakadal Golfklubb"
+    },
+    {
+      "src": "/courses/aasgaard-golfpark/aasgaard-golfpark-hull-17-green-fjellpanorama.webp",
+      "alt": "Green på hull 17 på Aas Gaard Golfpark med flagg og panoramautsikt mot åser og blå himmel",
+      "alt_en": "Green on hole 17 at Aas Gaard Golf Park with flag and panoramic view of hills and blue sky",
+      "credit": "Hakadal Golfklubb"
+    },
+    {
+      "src": "/courses/aasgaard-golfpark/aasgaard-golfpark-hull-7-green-bunkere.webp",
+      "alt": "Golfere ved bunkere på hull 7 på Aas Gaard Golfpark med røde gårdsbygninger og åser",
+      "alt_en": "Golfers near bunkers on hole 7 at Aas Gaard Golf Park with red farm buildings and hills",
+      "credit": "Hakadal Golfklubb"
+    },
+    {
+      "src": "/courses/aasgaard-golfpark/aasgaard-golfpark-hull-8-spillere-putting.webp",
+      "alt": "To golfere på putting green på hull 8 på Aas Gaard Golfpark med røde hus og skog",
+      "alt_en": "Two golfers on the putting green on hole 8 at Aas Gaard Golf Park with red houses and forest",
+      "credit": "Hakadal Golfklubb"
+    }
+  ],
   "slug_en": "hakadal-golf-club-aas-gaard-golf-park",
   "name_en": "Hakadal Golf Club - Aas Gaard Golf Park",
   "description_en": "The collaboration between Hakadal Golf Club and the landowner has resulted in a course project that the club, landowner, and municipality all support. The aim has been to create a golf and outdoor recreation facility with local roots. The course is built to USGA standard, adapted for Scandinavian conditions. The first 9 holes opened in June 2005, with a further 9 holes in August 2006. Golf is for everyone - regardless of age. Golf is a family and social sport. Golf is fresh air and exercise, health and well-being. Golf builds relationships."
