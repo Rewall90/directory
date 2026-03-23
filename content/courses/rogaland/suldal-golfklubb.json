@@ -8,7 +8,7 @@
   "country": "Norway",
   "address": {
     "street": "TBD",
-    "postalCode": "0000",
+    "postalCode": "4230",
     "area": null
   },
   "coordinates": {
@@ -39,7 +39,7 @@
     "viewDescription": "Suldal Golfklubb ligger i Suldal kommune i Ryfylke-regionen, nordøst i Rogaland. En av Norges minste golfklubber med 18 medlemmer (2014). Svært begrenset online tilstedeværelse og ingen offentlig tilgjengelig kontaktinformasjon. For informasjon, kontakt Suldal Reiselivslag eller Norges Golfforbund.",
     "viewDescription_en": "Suldal Golf Club is one of Norway's smallest golf clubs with 18 members (as of 2014). Located in Suldal municipality in Ryfylke, Rogaland. Very limited online presence."
   },
-  "description": "Suldal Golfklubb er en av Norges minste golfklubber med 18 medlemmer (per 2014). Ligger i Suldal kommune i Ryfylke, Rogaland. Svært begrenset online tilstedeværelse.",
+  "description": "Suldal Golfklubb er en av Norges minste golfklubber med 18 medlemmer (per 2014). Ligger i Sand i Ryfylke, Suldal kommune, Rogaland. Klubben har svært begrenset online tilstedeværelse og er ikke registrert i Brønnøysundregistrene eller på Norges Golfforbunds oversikt, noe som tyder på at klubben kan være nedlagt eller drevet på et svært uformelt nivå.",
   "contact": {
     "phone": null,
     "email": null,
@@ -162,11 +162,11 @@
     "pagesScraped": [],
     "scrapedAt": "2026-02-14T16:22:00.000Z",
     "createdAt": "2025-10-31T07:46:28.041Z",
-    "updatedAt": "2026-02-14T16:22:00.000Z",
-    "notes": "No website available. One of Norway's smallest golf clubs with limited online presence. Unable to scrape pricing information."
+    "updatedAt": "2026-03-23T12:00:00.000Z",
+    "notes": "No website available. One of Norway's smallest golf clubs with limited online presence. Unable to scrape pricing information. Not found in Brønnøysundregistrene, Norges Golfforbund directories, municipal sports organizations, or any golf platform. Likely defunct or extremely informal."
   },
   "googlePlaceId": "ChIJgSUgrx7_O0YRRINFv2Jby-0",
   "slug_en": "suldal-golf-club",
   "name_en": "Suldal Golf Club",
-  "description_en": "Suldal Golf Club is one of Norway's smallest golf clubs with 18 members (as of 2014). Located in Suldal municipality in Ryfylke, Rogaland. Very limited online presence."
+  "description_en": "Suldal Golf Club is one of Norway's smallest golf clubs with 18 members (as of 2014). Located in Sand i Ryfylke, Suldal municipality, Rogaland. The club has a very limited online presence and is not registered in the Brønnøysund Register or listed by the Norwegian Golf Federation, suggesting it may be defunct or operating at a very informal level."
 }
