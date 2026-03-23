@@ -161,6 +161,38 @@
       "distanceKm": 9.8
     }
   ],
+  "images": [
+    {
+      "src": "/courses/ski-golfklubb/ski-golfklubb-hull-2-fairway-sommer.webp",
+      "alt": "Hull 2 på Ski Golfklubb Smerta med bred fairway omgitt av barskog en sommerdag",
+      "alt_en": "Hole 2 at Ski Golf Club Smerta with wide fairway surrounded by conifer forest on a summer day",
+      "credit": "Ski Golfklubb"
+    },
+    {
+      "src": "/courses/ski-golfklubb/ski-golfklubb-klubbhus-sommer.webp",
+      "alt": "Klubbhuset på Ski Golfklubb med rødt trehus, lupiner og klubbflagg om sommeren",
+      "alt_en": "Clubhouse at Ski Golf Club with red wooden building, lupins and club banner in summer",
+      "credit": "Ski Golfklubb"
+    },
+    {
+      "src": "/courses/ski-golfklubb/ski-golfklubb-sensommer-green-solnedgang.webp",
+      "alt": "Green på Ski Golfklubb Smerta i sensommerlys med trær og lange skygger ved solnedgang",
+      "alt_en": "Green at Ski Golf Club Smerta in late summer light with trees and long shadows at sunset",
+      "credit": "Ski Golfklubb"
+    },
+    {
+      "src": "/courses/ski-golfklubb/ski-golfklubb-hostfarger-parkbane.webp",
+      "alt": "Høstfarger på Ski Golfklubb Smerta med gule og oransje løvtrær langs parkbanen",
+      "alt_en": "Autumn colours at Ski Golf Club Smerta with yellow and orange foliage along the parkland course",
+      "credit": "Ski Golfklubb"
+    },
+    {
+      "src": "/courses/ski-golfklubb/ski-golfklubb-hull-5-solnedgang.webp",
+      "alt": "Hull 5 på Ski Golfklubb sett fra tee med driver og golfball i kveldslys",
+      "alt_en": "Hole 5 at Ski Golf Club seen from the tee with driver and golf ball in evening light",
+      "credit": "Ski Golfklubb"
+    }
+  ],
   "additionalFeatures": [],
   "sponsors": [],
   "sources": [],

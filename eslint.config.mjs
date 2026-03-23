@@ -24,6 +24,8 @@ export default [
       "next.config.ts",
       "tailwind.config.ts",
       "src/types/**/*.d.ts",
+      "automation-golf-images/**",
+      "data/**",
     ],
   },
 

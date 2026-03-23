@@ -6,3 +6,4 @@ dist
 playwright
 *.yaml
 mockups
+data
