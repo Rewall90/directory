@@ -4,12 +4,12 @@
   "formerName": null,
   "region": "Akershus",
   "city": "Ski",
-  "municipality": "Ski",
+  "municipality": "Nordre Follo",
   "country": "Norway",
   "address": {
     "street": "Oppsandveien 94",
     "postalCode": "1400",
-    "area": null
+    "area": "Smerta"
   },
   "coordinates": {
     "lat": 59.7205144,
@@ -21,26 +21,32 @@
     "holesPlayed": 18,
     "par": 70,
     "parPerRound": 70,
-    "lengthMeters": null,
-    "lengthYards": null,
-    "lengthNote": null,
-    "terrain": "18-hulls parkbane",
-    "courseType": "18-hulls parkbane",
-    "designer": null,
-    "yearBuilt": null,
-    "yearRedesigned": null,
-    "waterHazards": null,
+    "lengthMeters": 4569,
+    "lengthYards": 4640,
+    "lengthNote": "9 fysiske hull med doble teesteder som gir 18-hulls opplevelse",
+    "terrain": "Skog- og parkbane med kunstgressgreener",
+    "courseType": "18-hulls skog- og parkbane",
+    "designer": "Klubben (2000), reGolf design (2014 redesign), Jeff Lynch/EIGCA (2017)",
+    "yearBuilt": 2000,
+    "yearRedesigned": 2017,
+    "waterHazards": true,
     "signatureHole": null,
     "scenicHole": null,
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "par3Count": 6,
+    "par4Count": 8,
+    "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": null,
-    "terrain_en": "18-hole parkland course",
-    "courseType_en": "18-hole parkland course"
+    "viewDescription": "Skog- og parklandskap i Smerta-området, ca. 5 km øst for Ski sentrum",
+    "slopeRating": 133,
+    "courseRating": 66.6,
+    "slopeRatingWomen": 132,
+    "courseRatingWomen": 71.1,
+    "greensType": "Kunstgress (helårsgreener)",
+    "terrain_en": "Woodland and parkland course with artificial greens",
+    "courseType_en": "18-hole woodland and parkland course",
+    "lengthNote_en": "9 physical holes with dual tee boxes providing an 18-hole experience"
   },
-  "description": "Skog- og parkbane",
+  "description": "Skog- og parkbane med 9 hull som spilles som 18 med doble teesteder. Kunstgressgreener gir Østlandets lengste sesong. Grunnlagt 1994, bane godkjent av NGF i 2000. Redesignet av reGolf design (2014) og Jeff Lynch (2017). Kafé, driving range og treningsfasiliteter.",
   "contact": {
     "phone": "+47 64 88 99 42",
     "email": "postkasse@skigk.no",
@@ -58,38 +64,39 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": null,
-    "winterUse": null
+    "start": "Mars/April",
+    "end": "November",
+    "winterUse": "Vinterspill mulig når snøfritt takket være kunstgressgreener (okt-mars)"
   },
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "handicapLimit": 54,
+    "nearbyCity": "Ski (25 min fra Oslo)",
+    "distanceFromCenter": "7 min med bil fra Ski sentrum"
   },
   "organization": {
     "courseCompany": "Norge",
     "clubOrganization": "Org.nr: 980 947 211\n\nTournaments hosted: Klubbmestere - Championships, NSG Landsfinalen, Alf Henriks Winter Challenge"
   },
   "facilities": {
-    "drivingRange": false,
+    "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": null,
-    "puttingGreen": false,
-    "chippingArea": false,
+    "drivingRangeNotes": "Selvbetjent ballmaskin. Overdekte utslagsplasser planlagt 2025.",
+    "puttingGreen": true,
+    "chippingArea": true,
     "practiceBunker": false,
     "clubhouse": true,
     "clubhouseName": null,
-    "proShop": false,
-    "restaurant": false,
-    "restaurantName": null,
-    "clubRental": false,
-    "clubRentalNotes": null,
+    "proShop": true,
+    "restaurant": true,
+    "restaurantName": "Kafé (kaffe, vafler, pølser, toast, baguetter)",
+    "clubRental": true,
+    "clubRentalNotes": "Utleie av køller og sko tilgjengelig",
     "cartRental": true,
     "pullCartRental": false,
-    "golfLessons": null,
-    "teachingPro": false,
+    "golfLessons": true,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": null,
     "showers": null,
@@ -97,11 +104,11 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
+    "simulator": true,
     "simulatorType": null,
     "simulatorCourses": null,
-    "simulatorNotes": null,
-    "bunkers": null,
+    "simulatorNotes": "Klubbmesterskap i simulator arrangeres i januar",
+    "bunkers": true,
     "footgolf": false,
     "footgolfHoles": null,
     "footgolfPar": null,
@@ -113,25 +120,41 @@
   "pricing": {
     "2026": {
       "currency": "NOK",
-      "greenFee9": 275,
-      "greenFee18": 425,
+      "greenFee9": 300,
+      "greenFee18": 430,
+      "greenFee9Weekend": 350,
+      "greenFee18Weekend": 500,
       "greenFeeJunior": "50% rabatt",
       "greenFeeSenior": "50% rabatt (NSG kort, 3 ganger/år, alle dager, kl. 08-14, kun 18 hull)",
       "greenFeeGolfamore": "50% rabatt på én 18 eller 9 hulls runde/år. Golfamore+ gir mulighet for gjentatt spill til halv pris.",
-      "greenFeeDescription": "Greenfee for gjestespillere. Medlemmer av Askim GK, Krokhol GK og Borregaard GK spiller gratis (Askim/Krokhol: 1. mai - 15. okt).",
-      "cartRental18": 300,
-      "cartRental9": 200,
+      "greenFeeDescription": "Greenfee for gjestespillere. Hverdag: 9 hull 300 kr / 18 hull 430 kr. Helg: 9 hull 350 kr / 18 hull 500 kr. Medlemmer av Askim GK, Krokhol GK og Borregaard GK spiller gratis (Askim/Krokhol: 1. mai - 15. okt).",
+      "cartRental18": 450,
+      "cartRental9": 280,
+      "cartRentalMedical18": 325,
+      "cartRentalMedical9": 200,
       "pullCartRental": null,
       "clubRental": null,
       "specialOfferPrice": null,
       "specialOfferIncludes": null,
       "freeTrial": null,
-      "notes": "Aldersgrense 18 år med førerkort for golfbil. Rabatter kan ikke kombineres.",
-      "greenFeeDescription_en": "Green fee for guest players. Members of Askim GK, Krokhol GK, and Borregaard GK play free of charge (Askim/Krokhol: 1 May - 15 Oct).",
-      "notes_en": "Minimum age 18 with driving licence for golf buggies. Discounts cannot be combined."
+      "notes": "3 golfbiler tilgjengelig. Aldersgrense 18 år med førerkort for golfbil. Rabatter kan ikke kombineres. Legeattest gir redusert pris på golfbil.",
+      "greenFeeDescription_en": "Green fee for guest players. Weekday: 9 holes 300 NOK / 18 holes 430 NOK. Weekend: 9 holes 350 NOK / 18 holes 500 NOK. Members of Askim GK, Krokhol GK, and Borregaard GK play free (Askim/Krokhol: 1 May - 15 Oct).",
+      "notes_en": "3 golf carts available. Minimum age 18 with driving licence for golf buggies. Discounts cannot be combined. Medical certificate gives reduced cart rental price."
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "adult30plus": 5990,
+      "youth20_29": 2790,
+      "junior13_19": 2190,
+      "children0_12": 890,
+      "greenfeemedlem": 2250,
+      "medlemUtenSpillerett": 1440,
+      "membershipStatus": "Åpent for innmelding",
+      "notes": "Familierabatt: 2. voksen 25% avslag, barn 0-12 gratis med betalende voksen, junior 13-19 50% avslag. Maks 2 voksne + ubegrenset barn 0-19. Veien til Golf-kurs 1600 kr (8 samlinger). Treningsavgift 600 kr per semester.",
+      "notes_en": "Family discount: 2nd adult 25% off, children 0-12 free with paying adult, junior 13-19 50% off. Max 2 adults + unlimited children 0-19. Beginner course 1600 NOK (8 sessions). Training fee 600 NOK per semester."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.3,
@@ -142,7 +165,32 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Yellow",
+      "gender": "men",
+      "courseRating": 66.6,
+      "slopeRating": 133
+    },
+    {
+      "tee": "Red",
+      "gender": "men",
+      "courseRating": 64.7,
+      "slopeRating": 126
+    },
+    {
+      "tee": "Yellow",
+      "gender": "women",
+      "courseRating": 71.1,
+      "slopeRating": 132
+    },
+    {
+      "tee": "Red",
+      "gender": "women",
+      "courseRating": 68.3,
+      "slopeRating": 126
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "ostmarka-golfklubb",
@@ -195,18 +243,38 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://skigk.no/",
+    "https://skigk.no/klubb/gjest",
+    "https://skigk.no/klubb/historie",
+    "https://skigk.no/klubb/medlemskap",
+    "https://skigk.no/bane/scorekort",
+    "https://skigk.no/bane/lokale-regler",
+    "https://skigk.no/klubb/handlingsplan-2025-2030",
+    "https://eigca.org/projects/ski-golfklubb/",
+    "https://www.hole19golf.com/norway/ski-golfklubb"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "klubb/gjest"],
-    "scrapedAt": "2026-02-15T15:46:00.000Z",
+    "pagesScraped": [
+      "homepage",
+      "klubb/gjest",
+      "klubb/historie",
+      "klubb/medlemskap",
+      "bane/scorekort",
+      "bane/lokale-regler",
+      "klubb/handlingsplan-2025-2030",
+      "klubb/veien-til-golf-kurs",
+      "klubb/leie-av-golfbiler"
+    ],
+    "scrapedAt": "2026-03-23T07:00:00.000Z",
     "createdAt": "2025-10-31T11:23:15.692Z",
-    "updatedAt": "2026-02-15T15:46:00.000Z"
+    "updatedAt": "2026-03-23T07:00:00.000Z"
   },
   "googlePlaceId": "ChIJ85BzJ9BdQUYRbCJs91rGAkQ",
   "slug_en": "ski-golf-club-smerta",
   "name_en": "Ski Golf Club - Smerta",
-  "description_en": "Woodland and parkland course"
+  "description_en": "Woodland and parkland course with 9 holes played as 18 using dual tee boxes. Artificial greens provide the longest season in Eastern Norway. Founded 1994, course approved by NGF in 2000. Redesigned by reGolf design (2014) and Jeff Lynch (2017). Café, driving range and training facilities."
 }
