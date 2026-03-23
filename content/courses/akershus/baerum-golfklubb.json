@@ -279,6 +279,38 @@
       "distanceKm": 7.4
     }
   ],
+  "images": [
+    {
+      "src": "/courses/baerum-golfklubb/baerum-golfklubb-flyfoto-oversikt.webp",
+      "alt": "Flyfoto av Bærum Golfklubb med oversikt over banen, fairways og grønne omgivelser i Lommedalen",
+      "alt_en": "Aerial view of Baerum Golf Club showing the course layout, fairways and green surroundings in Lommedalen",
+      "credit": "Bærum Golfklubb"
+    },
+    {
+      "src": "/courses/baerum-golfklubb/baerum-golfklubb-green-flagg-fjellutsikt.webp",
+      "alt": "Green med flaggstang på Bærum Golfklubb med fjellutsikt i bakgrunnen",
+      "alt_en": "Green with flag pin at Baerum Golf Club with mountain views in the background",
+      "credit": "Bærum Golfklubb"
+    },
+    {
+      "src": "/courses/baerum-golfklubb/baerum-golfklubb-bunkere-fjellpanorama.webp",
+      "alt": "Bunkere på Bærum Golfklubb med fjellpanorama og velstelt fairway",
+      "alt_en": "Bunkers at Baerum Golf Club with mountain panorama and well-maintained fairway",
+      "credit": "Bærum Golfklubb"
+    },
+    {
+      "src": "/courses/baerum-golfklubb/baerum-golfklubb-bunker-solstreif-bjorketre.webp",
+      "alt": "Bunker med solstreif gjennom bjørketrær på Bærum Golfklubb",
+      "alt_en": "Bunker with sun rays through birch trees at Baerum Golf Club",
+      "credit": "Bærum Golfklubb"
+    },
+    {
+      "src": "/courses/baerum-golfklubb/baerum-golfklubb-green-bunkere-skogomgivelser.webp",
+      "alt": "Green omgitt av bunkere og skog på Bærum Golfklubb sett fra forhøyet posisjon",
+      "alt_en": "Green surrounded by bunkers and forest at Baerum Golf Club seen from elevated position",
+      "credit": "Bærum Golfklubb"
+    }
+  ],
   "additionalFeatures": [],
   "sponsors": [],
   "sources": [],
@@ -298,7 +330,7 @@
     ],
     "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:23:09.265Z",
-    "updatedAt": "2026-02-15T14:30:00.000Z",
+    "updatedAt": "2026-03-23T10:30:00.000Z",
     "scrapingNotes": "Comprehensive deep-scrape completed. All 2026 pricing verified including greenfees (all categories), golf cart rentals (multiple tiers), driving range ball packages (7 tiers for members), bag locker and cart storage fees. Electric trolley rental planned but pricing TBA. No club rental available. Catering services available through Bærum Catering AS."
   },
   "googlePlaceId": "ChIJNWt6J2kSQUYRm2isBl9fm9w",

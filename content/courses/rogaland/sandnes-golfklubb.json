@@ -308,6 +308,32 @@
       "distanceKm": 19
     }
   ],
+  "images": [
+    {
+      "src": "/courses/sandnes-golfklubb/sandnes-golfklubb-oversikt-klubbhus-baerheim.webp",
+      "alt": "Oversiktsbilde av Sandnes Golfklubb med klubbhus, fairways og bunkere på Bærheim Golfpark",
+      "alt_en": "Overview of Sandnes Golf Club with clubhouse, fairways and bunkers at Baerheim Golf Park",
+      "credit": "Sandnes Golfklubb"
+    },
+    {
+      "src": "/courses/sandnes-golfklubb/sandnes-golfklubb-utsikt-fra-baerheimsnuten.webp",
+      "alt": "Utsikt fra Bærheimsnuten over Sandnes Golfklubb med bunkere, greener og Jæren-landskapet",
+      "alt_en": "View from Baerheimsnuten over Sandnes Golf Club with bunkers, greens and the Jaeren landscape",
+      "credit": "Sandnes Golfklubb"
+    },
+    {
+      "src": "/courses/sandnes-golfklubb/sandnes-golfklubb-spillere-klubbhus.webp",
+      "alt": "Golfspillere på Sandnes Golfklubb med klubbhuset og driving range i bakgrunnen",
+      "alt_en": "Golfers at Sandnes Golf Club with the clubhouse and driving range in the background",
+      "credit": "Sandnes Golfklubb"
+    },
+    {
+      "src": "/courses/sandnes-golfklubb/sandnes-golfklubb-innendorssenter.webp",
+      "alt": "Innendørssenteret ved Sandnes Golfklubb på Bærheim Golfpark",
+      "alt_en": "The indoor centre at Sandnes Golf Club at Baerheim Golf Park",
+      "credit": "Sandnes Golfklubb"
+    }
+  ],
   "additionalFeatures": [],
   "sponsors": [],
   "sources": [],
@@ -322,7 +348,7 @@
     ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:26.645Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-03-23T10:33:00.000Z"
   },
   "googlePlaceId": "ChIJEScKNho2OkYRN3ruh-tZS2c",
   "slug_en": "sandnes-golf-club",
