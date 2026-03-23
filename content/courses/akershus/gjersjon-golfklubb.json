@@ -4,12 +4,12 @@
   "formerName": null,
   "region": "Akershus",
   "city": "Svartskog",
-  "municipality": "Svartskog",
+  "municipality": "Nordre Follo",
   "country": "Norway",
   "address": {
     "street": "Gamle Mossevei 100",
     "postalCode": "1420",
-    "area": null
+    "area": "Svartskog"
   },
   "coordinates": {
     "lat": 59.7710604,
@@ -21,24 +21,28 @@
     "holesPlayed": 18,
     "par": 71,
     "parPerRound": 71,
-    "lengthMeters": null,
+    "lengthMeters": 5226,
     "lengthYards": null,
-    "lengthNote": null,
-    "terrain": null,
-    "courseType": null,
+    "lengthNote": "5226 m fra gul tee (18 hull). Rød tee: 4652m. 9 fysiske hull med doble utslagssteder.",
+    "terrain": "Park- og skogsbane",
+    "courseType": "9 hull med doble utslagssteder (spilles som 18 hull)",
     "designer": null,
-    "yearBuilt": null,
-    "yearRedesigned": null,
-    "waterHazards": null,
+    "yearBuilt": 2004,
+    "yearRedesigned": 2011,
+    "waterHazards": true,
     "signatureHole": null,
     "scenicHole": null,
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "par3Count": 5,
+    "par4Count": 9,
+    "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": null
+    "viewDescription": "Omgitt av skog med utsikt mot Gjersjøen. Historisk kulturlandskap ved middelalder-gården Kurud.",
+    "lengthNote_en": "5226 m from yellow tee (18 holes). Red tee: 4652m. 9 physical holes with dual tee boxes.",
+    "terrain_en": "Parkland and forest course",
+    "courseType_en": "9 holes with dual tees (played as 18 holes)",
+    "viewDescription_en": "Surrounded by forest with views of Gjersjøen lake. Historic cultural landscape at the medieval farm Kurud."
   },
-  "description": null,
+  "description": "Gjersjøen er en vakker og utfordrende park- og skogsbane i det historiske kulturlandskapet ved middelalder-gården Kurud. 9 hull med doble utslagssteder gir en autentisk 18-hulls opplevelse. Norges ledende miljøbane med totalforbud mot plantevernmidler. Ligger i Svartskog, bare 16 km fra Oslo sentrum.",
   "contact": {
     "phone": "400 70 964",
     "email": "kontakt@gjersjoengolf.no",
@@ -61,15 +65,16 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": null,
-    "winterUse": null
+    "start": "April",
+    "end": "Oktober",
+    "winterUse": "Golfsimulator tilgjengelig for helårsgolf",
+    "winterUse_en": "Golf simulator available for year-round golf"
   },
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Oslo",
+    "distanceFromCenter": "Ca. 16 km fra Oslo sentrum"
   },
   "organization": {
     "courseCompany": "Norge",
@@ -81,7 +86,7 @@
     "drivingRangeNotes": null,
     "puttingGreen": true,
     "chippingArea": true,
-    "practiceBunker": false,
+    "practiceBunker": true,
     "clubhouse": true,
     "clubhouseName": null,
     "proShop": true,
@@ -91,7 +96,7 @@
     "clubRentalNotes": null,
     "cartRental": true,
     "pullCartRental": true,
-    "golfLessons": null,
+    "golfLessons": true,
     "teachingPro": false,
     "clubFitting": null,
     "lockerRooms": true,
@@ -100,10 +105,10 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
+    "simulator": true,
     "simulatorType": null,
     "simulatorCourses": null,
-    "simulatorNotes": null,
+    "simulatorNotes": "Kinolignende skjerm. Kan spille baner fra Skottland, USA og Gjersjøens egen bane.",
     "bunkers": null,
     "footgolf": false,
     "footgolfHoles": null,
@@ -157,7 +162,40 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Gul",
+      "gender": "male",
+      "courseRating": 69.4,
+      "slopeRating": 132,
+      "par": 71,
+      "lengthMeters": 5226
+    },
+    {
+      "tee": "Gul",
+      "gender": "female",
+      "courseRating": 74.4,
+      "slopeRating": 143,
+      "par": 71,
+      "lengthMeters": 5226
+    },
+    {
+      "tee": "Rød",
+      "gender": "male",
+      "courseRating": 66.6,
+      "slopeRating": 128,
+      "par": 71,
+      "lengthMeters": 4652
+    },
+    {
+      "tee": "Rød",
+      "gender": "female",
+      "courseRating": 70.8,
+      "slopeRating": 138,
+      "par": 71,
+      "lengthMeters": 4652
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "oppegard-golfklubb",
@@ -178,7 +216,13 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://gjersjoengolf.no/",
+    "https://gjersjoengolf.no/banen/banen",
+    "https://gjersjoengolf.no/banen/lokale-regler",
+    "https://www.hole19golf.com/norway/gjersjoen-golfklubb",
+    "https://ettslagavgangen.no/gjersjoen-golfklubb/"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
@@ -186,9 +230,10 @@
     "pagesScraped": ["homepage", "gjester", "medlemskap", "trening-og-kurs/priser"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:10.556Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJBXdTsx9oQUYR-tgtOHShB6c",
   "slug_en": "gjersjon-golf-club",
-  "name_en": "Gjersjon Golf Club"
+  "name_en": "Gjersjon Golf Club",
+  "description_en": "Gjersjøen is a beautiful and challenging parkland and forest course set in the historic cultural landscape of the medieval farm Kurud. 9 holes with dual tee boxes provide an authentic 18-hole experience. Norway's leading environmental course with a complete ban on pesticides. Located in Svartskog, just 16 km from Oslo city centre."
 }

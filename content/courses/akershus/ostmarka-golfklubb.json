@@ -3,8 +3,8 @@
   "name": "Østmarka Golfklubb - Østmarka golfbane",
   "formerName": "Østmarka Golfklubb - Østmarka golfbane",
   "region": "Akershus",
-  "city": "",
-  "municipality": "",
+  "city": "Ytre Enebakk",
+  "municipality": "Enebakk",
   "country": "Norway",
   "address": {
     "street": "Kjellgårdveien 35",
@@ -21,26 +21,28 @@
     "holesPlayed": 18,
     "par": 72,
     "parPerRound": 72,
-    "lengthMeters": null,
+    "lengthMeters": 5560,
     "lengthYards": null,
-    "lengthNote": null,
-    "terrain": "18-hulls bane",
-    "courseType": "18-hulls bane",
+    "lengthNote": "5560 m fra gul tee. Rød tee: 4704m.",
+    "terrain": "Parkland/skogsbane",
+    "courseType": "18-hulls parkland/skogsbane",
     "designer": null,
-    "yearBuilt": null,
+    "yearBuilt": 1995,
     "yearRedesigned": null,
-    "waterHazards": null,
+    "waterHazards": true,
     "signatureHole": null,
     "scenicHole": null,
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
     "mountainViews": false,
-    "viewDescription": null,
-    "terrain_en": "18-hole course",
-    "courseType_en": "18-hole course"
+    "viewDescription": "Idyllisk beliggende mellom Vågsjøen og Mjærvatnet i Ytre Enebakk, svakt kupert parkland/skogsterreng med vannhindre.",
+    "lengthNote_en": "5560 m from yellow tee. Red tee: 4704m.",
+    "terrain_en": "Parkland/woodland course",
+    "courseType_en": "18-hole parkland/woodland course",
+    "viewDescription_en": "Idyllically located between lakes Vågsjøen and Mjærvatnet in Ytre Enebakk, slightly undulating parkland/woodland terrain with water hazards."
   },
-  "description": "Vi har gjort endringer på hullrekkefølge og front/back de siste årene, senest våren 2020. I sesongen er vi totalt 6 personer og enda flere frivillige som gjør vårt beste for at du som spiller skal få best mulig spilleforhold.",
+  "description": "Østmarka Golfklubb ble stiftet i 1989 og har siden 1995 hatt sin egen 18-hulls bane som ligger idyllisk mellom Vågsjøen og Mjærvatnet i Ytre Enebakk, bare 25 minutter fra Oslo. Banen er en parkland/skogsbane med par 72 på 5560 meter, svakt kupert terreng og vannhindre. Klubben har ca. 1300 medlemmer og tilbyr driving range med 30 utslagsplasser (8 under tak), putting green, chipping-område, øvingsbunker, proshop og Østmarka Bistro.",
   "contact": {
     "phone": "64 92 38 40",
     "email": "dagligleder@ostmarkagolf.no",
@@ -58,38 +60,38 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": null,
+    "start": "April",
+    "end": "Oktober",
     "winterUse": null
   },
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Oslo",
+    "distanceFromCenter": "Ca. 30 km fra Oslo sentrum (25 min)"
   },
   "organization": {
     "courseCompany": null,
     "clubOrganization": "Org.nr: 97098164\n\nTournaments hosted: Østmarka Matchplay 2025, Lag NM 2025\n\nMajor events:\n- undefined (date TBD)\n- undefined (date TBD)"
   },
   "facilities": {
-    "drivingRange": false,
+    "drivingRange": true,
     "drivingRangeLength": null,
-    "drivingRangeNotes": null,
-    "puttingGreen": false,
-    "chippingArea": false,
-    "practiceBunker": false,
-    "clubhouse": false,
+    "drivingRangeNotes": "30 utslagsplasser, 8 under tak",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
+    "clubhouse": true,
     "clubhouseName": null,
-    "proShop": false,
+    "proShop": true,
     "restaurant": true,
     "restaurantName": "Østmarka Bistro",
     "clubRental": false,
     "clubRentalNotes": null,
     "cartRental": true,
     "pullCartRental": false,
-    "golfLessons": null,
-    "teachingPro": false,
+    "golfLessons": true,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": null,
     "showers": null,
@@ -102,7 +104,7 @@
     "simulatorCourses": null,
     "simulatorNotes": null,
     "bunkers": null,
-    "footgolf": false,
+    "footgolf": true,
     "footgolfHoles": null,
     "footgolfPar": null,
     "tennis": null,
@@ -210,7 +212,24 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Gul",
+      "gender": "male",
+      "courseRating": 71.6,
+      "slopeRating": 130,
+      "par": 72,
+      "lengthMeters": 5560
+    },
+    {
+      "tee": "Rød",
+      "gender": "female",
+      "courseRating": 72.5,
+      "slopeRating": 120,
+      "par": 72,
+      "lengthMeters": 4704
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "ski-golfklubb",
@@ -231,7 +250,12 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://ostmarkagolf.no/",
+    "https://ostmarkagolf.no/klubben/om-klubben",
+    "https://www.1golf.eu/en/club/ostmarka-golfklubb/",
+    "https://www.golfpass.com/travel-advisor/courses/36885-ostmarka-golf-club"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
@@ -249,10 +273,24 @@
     ],
     "scrapedAt": "2026-02-15T14:30:00.000Z",
     "createdAt": "2025-10-31T11:23:18.971Z",
-    "updatedAt": "2026-02-15T14:30:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJJ3gEL79fQUYRoFRRLKJrc-I",
   "slug_en": "ostmarka-golf-club",
   "name_en": "Ostmarka Golf Club - Ostmarka Golf Course",
-  "description_en": "We have changed the hole sequence and front/back in recent years, most recently in spring 2020. During the season we have a total of 6 staff and even more volunteers doing our best to provide you as a player with the best possible playing conditions."
+  "description_en": "Østmarka Golf Club was founded in 1989 and has had its own 18-hole course since 1995, located idyllically between lakes Vågsjøen and Mjærvatnet in Ytre Enebakk, just 25 minutes from Oslo. The course is a parkland/woodland layout with par 72 at 5,560 metres, slightly undulating terrain and water hazards. The club has approximately 1,300 members and offers a driving range with 30 tees (8 covered), putting green, chipping area, practice bunker, pro shop and Østmarka Bistro.",
+  "images": [
+    {
+      "src": "/courses/ostmarka-golfklubb/ostmarka-golfklubb-oversiktsbilde.webp",
+      "alt": "Østmarka Golfklubb i Ytre Enebakk med bunkere og skogsterreng",
+      "alt_en": "Østmarka Golf Club in Ytre Enebakk with bunkers and forest terrain",
+      "credit": "Østmarka Golfklubb - Østmarka golfbane"
+    },
+    {
+      "src": "/courses/ostmarka-golfklubb/ostmarka-golfklubb-banekart-oversikt.webp",
+      "alt": "Banekart med oversikt over 18-hulls banen på Østmarka Golfklubb",
+      "alt_en": "Course map showing overview of the 18-hole course at Østmarka Golf Club",
+      "credit": "Østmarka Golfklubb - Østmarka golfbane"
+    }
+  ]
 }

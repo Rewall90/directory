@@ -1,7 +1,7 @@
 {
   "slug": "utsikten-golfklubb",
   "name": "Utsikten Golfklubb",
-  "formerName": null,
+  "formerName": "Kvinesdal & Omegn Golfklubb",
   "region": "Agder",
   "city": "Kvinesdal",
   "municipality": "Kvinesdal",
@@ -9,7 +9,7 @@
   "address": {
     "street": "Skaren 26",
     "postalCode": "4480",
-    "area": null
+    "area": "Skaren"
   },
   "coordinates": {
     "lat": 58.3111202,
@@ -19,22 +19,22 @@
   "course": {
     "holes": 18,
     "holesPlayed": 18,
-    "par": null,
-    "parPerRound": null,
-    "lengthMeters": null,
+    "par": 70,
+    "parPerRound": 70,
+    "lengthMeters": 5306,
     "lengthYards": null,
-    "lengthNote": null,
+    "lengthNote": "Fra hvite (championship) teer. Gule: 5106m, Blå: 4796m, Røde: 4548m.",
     "terrain": "Skogslandskap",
     "courseType": "18-hulls championship-bane med 9-hulls Pay & Play",
-    "designer": null,
-    "yearBuilt": null,
+    "designer": "Graeme Webster / Team Niblick",
+    "yearBuilt": 2004,
     "yearRedesigned": null,
     "waterHazards": true,
     "signatureHole": "Hull 3 - beskrevet som 'den vakreste tee jeg noen gang har sett på en bane noe sted i verden'",
     "scenicHole": "Fjellnatur med utsikt over Kvinesdal bygd og elver",
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "par3Count": 4,
+    "par4Count": 12,
+    "par5Count": 2,
     "mountainViews": true,
     "viewDescription": "Utsikten Golfklubb - championship standard skogsbane i spektakulær fjellnatur i Kvinesdal. Kåret til 'Norges beste golfbane' i 2007. Hull 3 har en av verdens vakreste tee-plasseringer. 18-hulls hovedbane og 9-hulls Pay & Play. Utsikt over Kvinesdal bygd og elver. Driving range, putting green, klubbhus, pro shop. Del av Utsikten Golfpark.",
     "terrain_en": "Woodland landscape",
@@ -84,7 +84,7 @@
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Kvinesdal",
-    "distanceFromCenter": null,
+    "distanceFromCenter": "Ca. 5 km fra Kvinesdal sentrum",
     "handicapRequired": true,
     "handicapRequiredNotes": "For å spille på hovedbanen må man ha gjennomført grønt kort kurs og medlemskap i en golfklubb",
     "dressCode": "Golf attire",
@@ -108,9 +108,9 @@
     "proShop": true,
     "restaurant": true,
     "restaurantName": null,
-    "clubRental": false,
+    "clubRental": true,
     "clubRentalNotes": null,
-    "cartRental": false,
+    "cartRental": true,
     "pullCartRental": true,
     "golfLessons": true,
     "teachingPro": true,
@@ -118,7 +118,7 @@
     "lockerRooms": true,
     "showers": true,
     "lockerRental": true,
-    "conferenceRoom": false,
+    "conferenceRoom": true,
     "eventVenue": true,
     "eventCapacity": null,
     "simulator": false,
@@ -126,7 +126,7 @@
     "simulatorCourses": null,
     "simulatorNotes": null,
     "bunkers": null,
-    "footgolf": false,
+    "footgolf": true,
     "footgolfHoles": null,
     "footgolfPar": null,
     "tennis": null,
@@ -343,7 +343,64 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Hvit",
+      "gender": "male",
+      "courseRating": 69.6,
+      "slopeRating": 147,
+      "par": 70,
+      "lengthMeters": 5306
+    },
+    {
+      "tee": "Gul",
+      "gender": "male",
+      "courseRating": 68.7,
+      "slopeRating": 145,
+      "par": 70,
+      "lengthMeters": 5106
+    },
+    {
+      "tee": "Gul",
+      "gender": "female",
+      "courseRating": 74.4,
+      "slopeRating": 140,
+      "par": 70,
+      "lengthMeters": 5106
+    },
+    {
+      "tee": "Blå",
+      "gender": "male",
+      "courseRating": 67.0,
+      "slopeRating": 142,
+      "par": 70,
+      "lengthMeters": 4796
+    },
+    {
+      "tee": "Blå",
+      "gender": "female",
+      "courseRating": 72.4,
+      "slopeRating": 136,
+      "par": 70,
+      "lengthMeters": 4796
+    },
+    {
+      "tee": "Rød",
+      "gender": "male",
+      "courseRating": 65.8,
+      "slopeRating": 139,
+      "par": 70,
+      "lengthMeters": 4548
+    },
+    {
+      "tee": "Rød",
+      "gender": "female",
+      "courseRating": 70.9,
+      "slopeRating": 133,
+      "par": 70,
+      "lengthMeters": 4548
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "dalane-golfklubb",
@@ -364,7 +421,13 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://utsiktengolf.no/",
+    "https://utsiktengolf.no/gjester/priser",
+    "https://utsiktengolf.no/klubben/om-utsikten-golfpark",
+    "https://offcourse.co/courses/scorecard/utsikten-golfklubb",
+    "https://www.golfpass.com/travel-advisor/courses/36923-utsikten-golfpark"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
@@ -372,7 +435,7 @@
     "pagesScraped": ["gjester/priser", "medlemskap/medlemskap-2025"],
     "scrapedAt": "2026-02-16T12:00:00.000Z",
     "createdAt": "2025-10-31T07:44:56.868Z",
-    "updatedAt": "2026-02-16T12:00:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ_zSAZXbROUYRsf34wxXpDSg",
   "slug_en": "utsikten-golf-club",

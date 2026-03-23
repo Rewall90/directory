@@ -3,8 +3,8 @@
   "name": "Nes Golfklubb",
   "formerName": null,
   "region": "Akershus",
-  "city": "",
-  "municipality": "",
+  "city": "Vormsund",
+  "municipality": "Nes",
   "country": "Norway",
   "address": {
     "street": "Eidsvollveien 35",
@@ -21,26 +21,27 @@
     "holesPlayed": 18,
     "par": 72,
     "parPerRound": 72,
-    "lengthMeters": null,
+    "lengthMeters": 6356,
     "lengthYards": null,
-    "lengthNote": null,
-    "terrain": "Golfbane",
-    "courseType": "Golfbane",
+    "lengthNote": "6356 m fra tee 63 (lengste). Tee 59: 5897m, Tee 54: 5463m, Tee 48: 4818m.",
+    "terrain": "Parkbane",
+    "courseType": "18-hulls mesterskapsbane",
     "designer": null,
-    "yearBuilt": null,
-    "yearRedesigned": null,
-    "waterHazards": null,
+    "yearBuilt": 1992,
+    "yearRedesigned": 1996,
+    "waterHazards": true,
     "signatureHole": null,
     "scenicHole": null,
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "par3Count": 4,
+    "par4Count": 10,
+    "par5Count": 4,
     "mountainViews": false,
     "viewDescription": null,
-    "terrain_en": "Golf course",
-    "courseType_en": "Golf course"
+    "lengthNote_en": "6356 m from tee 63 (longest). Tee 59: 5897m, Tee 54: 5463m, Tee 48: 4818m.",
+    "terrain_en": "Parkland",
+    "courseType_en": "18-hole championship course"
   },
-  "description": "Open park course that is good to walk, but long to play. 5 different tee positions, sloped for both men and women. New junior tee (Tee 28) added in 2022 measuring 2,800 meters.",
+  "description": "Åpen parkbane på Rommen Golfpark i Vormsund, bygget på tidligere jordbruksland. 18-hulls mesterskapsbane (par 72) over 6356 meter fra de lengste utslagene. Sørvendt bane som ofte åpner 2-4 uker tidligere enn andre baner på Romerike. Første 9 hull åpnet i 1992, utvidet til 18 hull i 1996. 5 tee-posisjoner med slope for både herrer og damer. Også 6-hulls Pay & Play kortbane.",
   "contact": {
     "phone": "91690904",
     "email": "admin@nesgolf.no",
@@ -58,15 +59,15 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": null,
+    "start": "April",
+    "end": "Oktober",
     "winterUse": null
   },
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Oslo",
+    "distanceFromCenter": "Ca. 50 km fra Oslo (E6)"
   },
   "organization": {
     "courseCompany": "Norwegian",
@@ -76,20 +77,20 @@
     "drivingRange": true,
     "drivingRangeLength": null,
     "drivingRangeNotes": null,
-    "puttingGreen": false,
-    "chippingArea": false,
-    "practiceBunker": false,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
     "clubhouse": true,
     "clubhouseName": null,
     "proShop": true,
     "restaurant": false,
     "restaurantName": null,
-    "clubRental": false,
+    "clubRental": true,
     "clubRentalNotes": null,
     "cartRental": true,
     "pullCartRental": true,
-    "golfLessons": null,
-    "teachingPro": false,
+    "golfLessons": true,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": null,
     "showers": null,
@@ -97,7 +98,7 @@
     "conferenceRoom": null,
     "eventVenue": null,
     "eventCapacity": null,
-    "simulator": false,
+    "simulator": true,
     "simulatorType": null,
     "simulatorCourses": null,
     "simulatorNotes": null,
@@ -198,7 +199,16 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Tee 63 Hvit",
+      "gender": "male",
+      "courseRating": 73.6,
+      "slopeRating": 137,
+      "par": 72,
+      "lengthMeters": 6356
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "rommen-golfklubb",
@@ -219,7 +229,13 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://nesgolf.no/",
+    "https://nesgolf.no/banen/scorekort",
+    "https://nesgolf.no/banen/lokale-regler",
+    "https://www.golfpass.com/travel-advisor/courses/36873-nes-golf-club",
+    "https://www.1golf.eu/en/club/nes-golfklubb-09/"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
@@ -227,7 +243,7 @@
     "pagesScraped": ["homepage", "medlemskap", "spillerett", "gjestespill"],
     "scrapedAt": "2026-02-15T14:00:00.000Z",
     "createdAt": "2025-10-31T11:23:13.440Z",
-    "updatedAt": "2026-02-15T14:00:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJcRhPifIrQkYRzl3733MI0wQ",
   "slug_en": "nes-golf-club",

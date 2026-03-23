@@ -4,7 +4,7 @@
   "formerName": null,
   "region": "Akershus",
   "city": "Oppegård",
-  "municipality": "Oppegård",
+  "municipality": "Nordre Follo",
   "country": "Norway",
   "address": {
     "street": "Kongeveien 198",
@@ -21,26 +21,30 @@
     "holesPlayed": 18,
     "par": 71,
     "parPerRound": 71,
-    "lengthMeters": null,
+    "lengthMeters": 5584,
     "lengthYards": null,
-    "lengthNote": null,
-    "terrain": "Golfbane",
-    "courseType": "Golfbane",
-    "designer": null,
-    "yearBuilt": null,
-    "yearRedesigned": null,
-    "waterHazards": null,
-    "signatureHole": null,
-    "scenicHole": null,
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "lengthNote": "5584 m fra tee 56 (hvit). Gul: 5289m, Blå: 5004m, Rød: 4361m.",
+    "terrain": "Skogs- og parkbane",
+    "courseType": "18-hulls skogs- og parkbane",
+    "designer": "Gerold og Gunther Hauser",
+    "yearBuilt": 1990,
+    "yearRedesigned": 1997,
+    "waterHazards": true,
+    "signatureHole": "Hull 7 (par 3, 144m) - Over vann til en godt beskyttet green",
+    "scenicHole": "Hull 16 (par 4, 418m) - Banens vanskeligste hull (HCP 1)",
+    "par3Count": 4,
+    "par4Count": 11,
+    "par5Count": 3,
     "mountainViews": false,
-    "viewDescription": null,
-    "terrain_en": "Golf course",
-    "courseType_en": "Golf course"
+    "viewDescription": "Kupert skogsterreng med bekk og dam. Tett, trekledd front nine og mer åpen, parklandskap-stil back nine.",
+    "lengthNote_en": "5584 m from tee 56 (white). Yellow: 5289m, Blue: 5004m, Red: 4361m.",
+    "terrain_en": "Woodland/parkland",
+    "courseType_en": "18-hole woodland and parkland course",
+    "signatureHole_en": "Hole 7 (par 3, 144m) - Over water to a well-guarded green",
+    "scenicHole_en": "Hole 16 (par 4, 418m) - Course's toughest hole (HCP 1)",
+    "viewDescription_en": "Rolling forest terrain with stream and pond. Tight, tree-lined front nine and more open, parkland-style back nine."
   },
-  "description": "18-hullers golfbane",
+  "description": "Oppegård Golfklubb ligger på Østre Greverud i Nordre Follo, bare 20 km sør for Oslo. Designet av Gerold og Gunther Hauser med første 9 hull i 1990 og utvidet til 18 hull i 1997. Par 71 over 5584 meter med variert terreng - tett, trekledd front nine etterfulgt av åpen parklandskap-stil back nine. Vannhindre, kupert terreng og strategiske bunkere.",
   "contact": {
     "phone": "66 81 59 90",
     "email": "post@opgk.no",
@@ -58,39 +62,39 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": null,
-    "winterUse": "Banen stenger for sesongen - siste dag blir fredag 17.10. Nå starter gravingen mellom hull 9 og 18",
-    "winterUse_en": "The course closes for the season - last day is Friday 17 October. Excavation work between holes 9 and 18 will now begin."
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Skiforeningen drifter lysløype på nordre del av banen om vinteren",
+    "winterUse_en": "Skiforeningen operates cross-country ski trails on the northern part of the course in winter"
   },
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Oslo",
+    "distanceFromCenter": "Ca. 20 km sør for Oslo sentrum"
   },
   "organization": {
     "courseCompany": "Norge",
     "clubOrganization": "Org.nr: 952710745"
   },
   "facilities": {
-    "drivingRange": false,
+    "drivingRange": true,
     "drivingRangeLength": null,
     "drivingRangeNotes": null,
-    "puttingGreen": false,
-    "chippingArea": false,
-    "practiceBunker": false,
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
     "clubhouse": true,
     "clubhouseName": null,
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Birdiekokken",
-    "clubRental": false,
+    "clubRental": true,
     "clubRentalNotes": null,
     "cartRental": true,
-    "pullCartRental": false,
-    "golfLessons": null,
-    "teachingPro": false,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": null,
     "showers": null,
@@ -203,7 +207,64 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Tee 56 Hvit",
+      "gender": "male",
+      "courseRating": 72.1,
+      "slopeRating": 137,
+      "par": 71,
+      "lengthMeters": 5584
+    },
+    {
+      "tee": "Tee 53 Gul",
+      "gender": "male",
+      "courseRating": 70.7,
+      "slopeRating": 133,
+      "par": 71,
+      "lengthMeters": 5289
+    },
+    {
+      "tee": "Tee 53 Gul",
+      "gender": "female",
+      "courseRating": 75.4,
+      "slopeRating": 136,
+      "par": 71,
+      "lengthMeters": 5289
+    },
+    {
+      "tee": "Tee 50 Blå",
+      "gender": "male",
+      "courseRating": 69.5,
+      "slopeRating": 126,
+      "par": 71,
+      "lengthMeters": 5004
+    },
+    {
+      "tee": "Tee 50 Blå",
+      "gender": "female",
+      "courseRating": 73.6,
+      "slopeRating": 132,
+      "par": 71,
+      "lengthMeters": 5004
+    },
+    {
+      "tee": "Tee 44 Rød",
+      "gender": "male",
+      "courseRating": 66.1,
+      "slopeRating": 124,
+      "par": 71,
+      "lengthMeters": 4361
+    },
+    {
+      "tee": "Tee 44 Rød",
+      "gender": "female",
+      "courseRating": 69.7,
+      "slopeRating": 124,
+      "par": 71,
+      "lengthMeters": 4361
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "gjersjon-golfklubb",
@@ -224,7 +285,13 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://oppegardgk.no/",
+    "https://oppegardgk.no/banen/scorekort",
+    "https://oppegardgk.no/banen/beliggenhet",
+    "https://oppegardgk.no/gjester",
+    "https://oppegardgk.no/medlemskap"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
@@ -232,10 +299,36 @@
     "pagesScraped": ["homepage", "gjester", "gjester/leie-av-golfbil", "medlemskap"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:14.096Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJjxe2RP1nQUYRceezi5oH0ZY",
   "slug_en": "oppegaard-golf-club",
   "name_en": "Oppegaard Golf Club",
-  "description_en": "18-hole golf course"
+  "description_en": "Oppegaard Golf Club is located at Østre Greverud in Nordre Follo, just 20 km south of Oslo. Designed by Austrian architects Gerold and Gunther Hauser, the first 9 holes opened in 1990 with expansion to 18 holes in 1997. Par 71 over 5,584 metres with varied terrain - a tight, tree-lined front nine followed by a more open, parkland-style back nine. Water hazards, rolling hills and strategic bunkers.",
+  "images": [
+    {
+      "src": "/courses/oppegard-golfklubb/oppegard-golfklubb-vannhinder-bro-kupert-terreng.webp",
+      "alt": "Oppegård Golfklubb med vannhinder, trefotgjengerbro og kupert bane i naturskjønt skogsterreng",
+      "alt_en": "Oppegård Golf Club with water hazard, wooden footbridge and rolling course in scenic forest terrain",
+      "credit": "Oppegård Golfklubb"
+    },
+    {
+      "src": "/courses/oppegard-golfklubb/oppegard-golfklubb-green-vannhinder-solnedgang.webp",
+      "alt": "Grønn ved Oppegård Golfklubb med vannhinder i forgrunnen og tett skog i bakgrunnen",
+      "alt_en": "Green at Oppegård Golf Club with water hazard in foreground and dense forest in background",
+      "credit": "Oppegård Golfklubb"
+    },
+    {
+      "src": "/courses/oppegard-golfklubb/oppegard-golfklubb-green-flagg-skogsterreng.webp",
+      "alt": "Utsikt gjennom trær mot grønn med flagg på Oppegård Golfklubb i naturskjønt skogsterreng",
+      "alt_en": "View through trees toward green with flag at Oppegård Golf Club in scenic forest terrain",
+      "credit": "Oppegård Golfklubb"
+    },
+    {
+      "src": "/courses/oppegard-golfklubb/oppegard-golfklubb-utslag-fairway-utsikt.webp",
+      "alt": "Utslagsplass med utsikt over fairway og skog på Oppegård Golfklubb i Akershus",
+      "alt_en": "Tee box with view over fairway and forest at Oppegård Golf Club in Akershus",
+      "credit": "Oppegård Golfklubb"
+    }
+  ]
 }

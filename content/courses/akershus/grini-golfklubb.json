@@ -4,12 +4,12 @@
   "formerName": null,
   "region": "Akershus",
   "city": "Eiksmarka",
-  "municipality": "Eiksmarka",
+  "municipality": "Bærum",
   "country": "Norway",
   "address": {
     "street": "Griniveien 159",
     "postalCode": "1359",
-    "area": null
+    "area": "Eiksmarka"
   },
   "coordinates": {
     "lat": 59.95064,
@@ -21,24 +21,27 @@
     "holesPlayed": 9,
     "par": 35,
     "parPerRound": 35,
-    "lengthMeters": null,
+    "lengthMeters": 2592,
     "lengthYards": null,
-    "lengthNote": null,
-    "terrain": "Golfbane",
-    "courseType": "Golfbane",
+    "lengthNote": "2592 m fra gul tee (Tee 52). Rød tee (Tee 45): 2241m.",
+    "terrain": "Åpent landskap med utsikt",
+    "courseType": "9-hulls bane",
     "designer": "Jeremy Turner",
-    "yearBuilt": null,
+    "yearBuilt": 2002,
     "yearRedesigned": null,
-    "waterHazards": null,
-    "signatureHole": null,
+    "waterHazards": true,
+    "signatureHole": "Hull 7 (par 5, 475m) - Banens lengste hull og eneste par 5",
     "scenicHole": null,
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
-    "mountainViews": false,
-    "viewDescription": null,
-    "terrain_en": "Golf course",
-    "courseType_en": "Golf course"
+    "par3Count": 2,
+    "par4Count": 6,
+    "par5Count": 1,
+    "mountainViews": true,
+    "viewDescription": "Utsikt mot Holmenkollen og det omkringliggende landskapet.",
+    "lengthNote_en": "2592 m from yellow tee (Tee 52). Red tee (Tee 45): 2241m.",
+    "terrain_en": "Open landscape with views",
+    "courseType_en": "9-hole course",
+    "signatureHole_en": "Hole 7 (par 5, 475m) - The longest hole on the course and only par 5",
+    "viewDescription_en": "Views toward Holmenkollen and the surrounding landscape."
   },
   "description": "Grini er en 9-hulls golfbane som passer golfspillere i alle kategorier. Banen er par 35 og måler 2591 meter. Den er designet av Jeremy Turner og ligger i et relativt åpent landskap, men med en layout som gir en rekke utfordringer. Varierte hull og flott utsikt til bl.a. Holmenkollen setter hyggelig preg på golfopplevelsen.",
   "contact": {
@@ -51,17 +54,24 @@
     "youtube": "https://www.youtube.com/channel/UC-DcxYAPH4n6tSd5hbEotfQ",
     "golfbox": true
   },
-  "phoneNumbers": [],
+  "phoneNumbers": [
+    {
+      "number": "+47 67 16 70 80",
+      "type": "proshop",
+      "primary": true
+    }
+  ],
   "season": {
-    "start": null,
-    "end": null,
-    "winterUse": null
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Vintertrening via SdS Golf Academy",
+    "winterUse_en": "Winter training via SdS Golf Academy"
   },
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Oslo",
+    "distanceFromCenter": "Ca. 13 km fra Oslo sentrum"
   },
   "organization": {
     "courseCompany": "Norge",
@@ -69,22 +79,22 @@
   },
   "facilities": {
     "drivingRange": true,
-    "drivingRangeLength": null,
-    "drivingRangeNotes": null,
-    "puttingGreen": false,
-    "chippingArea": false,
-    "practiceBunker": false,
+    "drivingRangeLength": "150m",
+    "drivingRangeNotes": "4 matter på rangen, 3 matter ved klubbhuset. 1-piece baller.",
+    "puttingGreen": true,
+    "chippingArea": true,
+    "practiceBunker": true,
     "clubhouse": true,
     "clubhouseName": null,
     "proShop": true,
-    "restaurant": false,
-    "restaurantName": null,
+    "restaurant": true,
+    "restaurantName": "Grini Golf Cafe",
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
-    "golfLessons": null,
-    "teachingPro": false,
+    "cartRental": true,
+    "pullCartRental": true,
+    "golfLessons": true,
+    "teachingPro": true,
     "clubFitting": null,
     "lockerRooms": null,
     "showers": null,
@@ -156,7 +166,40 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Gul (Tee 52)",
+      "gender": "male",
+      "courseRating": 68.3,
+      "slopeRating": 134,
+      "par": 70,
+      "lengthMeters": 2592
+    },
+    {
+      "tee": "Gul (Tee 52)",
+      "gender": "female",
+      "courseRating": 73.6,
+      "slopeRating": 135,
+      "par": 70,
+      "lengthMeters": 2592
+    },
+    {
+      "tee": "Rød (Tee 45)",
+      "gender": "male",
+      "courseRating": 64.7,
+      "slopeRating": 126,
+      "par": 70,
+      "lengthMeters": 2241
+    },
+    {
+      "tee": "Rød (Tee 45)",
+      "gender": "female",
+      "courseRating": 69.2,
+      "slopeRating": 126,
+      "par": 70,
+      "lengthMeters": 2241
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "oslo-golfklubb",
@@ -177,7 +220,13 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://grinigolfklubb.no/",
+    "https://grinigolfklubb.no/banen/scorekort",
+    "https://grinigolfklubb.no/banen/treningsanlegg",
+    "https://grinigolfklubb.no/banen/lokale-regler",
+    "https://offcourse.co/courses/scorecard/grini-golfklubb"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
@@ -185,7 +234,7 @@
     "pagesScraped": ["homepage", "gjester/priser-og-booking", "medlemskap/alle-medlemskap"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:10.850Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJh4LFc0FtQUYRzLR6BYMFo9I",
   "slug_en": "grini-golf-club",
