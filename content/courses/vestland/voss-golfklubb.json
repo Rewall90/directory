@@ -240,7 +240,13 @@
     "dataQuality": "96.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 96,
-    "pagesScraped": ["homepage", "gjest", "greenfee", "klubb", "innmeldingsskjema"],
+    "pagesScraped": [
+      "homepage",
+      "gjest",
+      "greenfee",
+      "klubb",
+      "innmeldingsskjema"
+    ],
     "scrapedAt": "2026-02-14T17:47:00.000Z",
     "createdAt": "2025-10-31T10:17:02.476Z",
     "updatedAt": "2026-02-14T17:47:00.000Z"
@@ -248,5 +254,28 @@
   "googlePlaceId": "ChIJC0qhiKLbPUYR5ScBnp5aMg4",
   "slug_en": "voss-golf-club",
   "name_en": "Voss Golf Club",
-  "description_en": "Voss Golf and Activity Park - 9-hole mountain course designed by Jeremy Turner, opened 2005 by Lonavatnet lake in Skulestadmo. Par 36 (72 for 18 holes), 6,154m for 18 holes. 4 tee options (white 3,361m, yellow 3,180m, blue 2,665m, red 2,510m for 9 holes). Idyllically situated by Lonavatnet lake in mountain scenery."
+  "description_en": "Voss Golf and Activity Park - 9-hole mountain course designed by Jeremy Turner, opened 2005 by Lonavatnet lake in Skulestadmo. Par 36 (72 for 18 holes), 6,154m for 18 holes. 4 tee options (white 3,361m, yellow 3,180m, blue 2,665m, red 2,510m for 9 holes). Idyllically situated by Lonavatnet lake in mountain scenery.",
+  "images": [
+    {
+      "src": "/courses/voss-golfklubb/voss-golfklubb-oversikt-lonavatnet-lonafossen.webp",
+      "alt": "Voss Golfklubb ved Lønavatnet med 9-hulls bane og idyllisk fjellnatur i Vestland",
+      "alt_en": "Voss Golf Club by Lake Løna with 9-hole course and idyllic mountain nature in Vestland",
+      "credit": "Voss Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoKAAcABUB8JYgCdAELWgeqfUAA4mMel8yPFjdqqkEsGDFSqw0k5SYaUfXSj/x2VKP2wAAA"
+    },
+    {
+      "src": "/courses/voss-golfklubb/voss-golfklubb-flyfoto-bane-oversikt.webp",
+      "alt": "Flyfoto av Voss Golfklubb med 9-hulls bane omgitt av skog og fjell på Voss",
+      "alt_en": "Aerial view of Voss Golf Club with 9-hole course surrounded by forest and mountains at Voss",
+      "credit": "Voss Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAABQAQCdASoJAAcABUB8JZwABAAAAP7tpMUrmohs0hhyERp7wgA="
+    },
+    {
+      "src": "/courses/voss-golfklubb/voss-golfklubb-treningsomraade-puttgreen.webp",
+      "alt": "Treningsområde med putting green og utsikt mot Lønavatnet ved Voss Golfklubb",
+      "alt_en": "Practice area with putting green and view towards Lake Løna at Voss Golf Club",
+      "credit": "Voss Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoKAAYABUB8JaAAAkq/4AAA94wVt0lemE03i2jJs/t+h+TnVF/8GgWQ3gAAAA=="
+    }
+  ]
 }

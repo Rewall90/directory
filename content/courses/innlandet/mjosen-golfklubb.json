@@ -242,5 +242,35 @@
   "googlePlaceId": "ChIJBc7YNy14akYRYpVc3dtRq8M",
   "slug_en": "mjosen-golf-club",
   "name_en": "Mjosen Golf Club",
-  "description_en": "The course at Mjosen has its own distinctive character as an 18-hole course offering fine nature experiences. IMPORTANT: The club is in the process of converting from an 18-hole course to two 9-hole courses (announced 26 September 2025)."
+  "description_en": "The course at Mjosen has its own distinctive character as an 18-hole course offering fine nature experiences. IMPORTANT: The club is in the process of converting from an 18-hole course to two 9-hole courses (announced 26 September 2025).",
+  "images": [
+    {
+      "src": "/courses/mjosen-golfklubb/mjosen-golfklubb-banekart-oversikt.webp",
+      "alt": "Banekart over Mjøsen Golfklubbs 18-hulls bane ved Mjøsa med fairways og greener",
+      "alt_en": "Course map of Mjøsen Golf Club's 18-hole course by Lake Mjøsa with fairways and greens",
+      "credit": "Mjøsen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoKAAYABUB8JQBdgBucqewAAP7tgtAf6Q1sEFcm2UXRvKVznESeVvSAAAA="
+    },
+    {
+      "src": "/courses/mjosen-golfklubb/mjosen-golfklubb-vinterdag-bane.webp",
+      "alt": "Mjøsen Golfklubb på en vinterdag med snø på fairways og greener",
+      "alt_en": "Mjøsen Golf Club on a winter day with snow on fairways and greens",
+      "credit": "Mjøsen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACQAQCdASoJAAcABUB8JYwCdADXGAAA4Zrhe6aLmucecxJRr40AAA=="
+    },
+    {
+      "src": "/courses/mjosen-golfklubb/mjosen-golfklubb-utsikt-mjosa-solnedgang.webp",
+      "alt": "Utsikt over Mjøsen Golfklubb mot Mjøsa i solnedgang med fairway i forgrunnen",
+      "alt_en": "View over Mjøsen Golf Club towards Lake Mjøsa at sunset with fairway in foreground",
+      "credit": "Mjøsen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoKAAYABUB8JQBOgCHannXwAPzZT1JGbEQLZTXw/+ed8UdTl4F6ayuFhRjXsPU4AAA="
+    },
+    {
+      "src": "/courses/mjosen-golfklubb/mjosen-golfklubb-webkamera-direkte.webp",
+      "alt": "Direktebilde fra webkamera på Mjøsen Golfklubb som viser banen og omgivelsene",
+      "alt_en": "Live webcam image from Mjøsen Golf Club showing the course and surroundings",
+      "credit": "Mjøsen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACQAQCdASoJAAcABUB8JZQAAuWtZ/AA+4gkfve62orN06YHO54AAA=="
+    }
+  ]
 }

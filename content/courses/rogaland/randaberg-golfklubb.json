@@ -256,7 +256,10 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": ["https://www.randaberggolf.no/", "https://www.randaberggolf.no/blimedlem"],
+    "pagesScraped": [
+      "https://www.randaberggolf.no/",
+      "https://www.randaberggolf.no/blimedlem"
+    ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:26.389Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
@@ -264,5 +267,35 @@
   "googlePlaceId": "ChIJCc3cIYe0O0YRcqXE5WSUhtE",
   "slug_en": "randaberg-golf-club",
   "name_en": "Randaberg Golf Club",
-  "description_en": "Randaberg Golf Club is a beautiful links course at the tip of Tungenes in Randaberg. Founded 1998. 9-hole course with par 62, plus a 6-hole short course. Classic links character by the coast near Stavanger. Open all year. Maximum handicap 54 for visitors."
+  "description_en": "Randaberg Golf Club is a beautiful links course at the tip of Tungenes in Randaberg. Founded 1998. 9-hole course with par 62, plus a 6-hole short course. Classic links character by the coast near Stavanger. Open all year. Maximum handicap 54 for visitors.",
+  "images": [
+    {
+      "src": "/courses/randaberg-golfklubb/randaberg-golfklubb-tungenes-golfbane-utsikt.webp",
+      "alt": "Tungenes golfbane ved Randaberg Golfklubb med havet og naturskjønne omgivelser",
+      "alt_en": "Tungenes golf course at Randaberg Golf Club with ocean and scenic natural surroundings",
+      "credit": "Randaberg Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoKAAYABUB8JagCdAEO+mGsAADLQmDATnQVOeXLSuYJv03qvRAAAA=="
+    },
+    {
+      "src": "/courses/randaberg-golfklubb/randaberg-golfklubb-9-hulls-bane-tungenes.webp",
+      "alt": "9-hullsbanen på Randaberg Golfklubb ved Tungenes i skotsk linkstradisjon",
+      "alt_en": "9-hole course at Randaberg Golf Club at Tungenes in Scottish links tradition",
+      "credit": "Randaberg Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoFAAcABUB8JagCdAEUoPBAAPzKA+ANo5vkxxGXYLi+ZssF/AA="
+    },
+    {
+      "src": "/courses/randaberg-golfklubb/randaberg-golfklubb-korthullsbane-pay-and-play.webp",
+      "alt": "Pay & Play korthullsbane med 6 hull på Randaberg Golfklubb for nærspillstrening",
+      "alt_en": "Pay & Play short course with 6 holes at Randaberg Golf Club for short game practice",
+      "credit": "Randaberg Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoKAAYABUB8JagAAlRwrHAA91BXL7IYyOcPe0pZMFb3w14+f7wAAA=="
+    },
+    {
+      "src": "/courses/randaberg-golfklubb/randaberg-golfklubb-driving-range-sande.webp",
+      "alt": "Sande Driving Range på Randaberg Golfklubb med overdekket treningsområde",
+      "alt_en": "Sande Driving Range at Randaberg Golf Club with covered practice area",
+      "credit": "Randaberg Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoJAAcABUB8JbACdADdjIerwADfzAr2FJbs0FRQznya+D0S9UhAVkOLbeb+EuKbifsAAA=="
+    }
+  ]
 }

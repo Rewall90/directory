@@ -312,5 +312,28 @@
   "googlePlaceId": "ChIJ2Rf3ATcaOkYRxwydubenNog",
   "slug_en": "egersund-golf-club",
   "name_en": "Egersund Golf Club",
-  "description_en": "Maurholen Golf Park is a superb 9-hole parkland course approximately 10 km north of Egersund along county road 44, opened in August 2006. Designed by the renowned course architect Graeme Webster. Par 35 for 9 holes, par 70 for 18 holes (played twice). Length 2,622 m for 9 holes, 5,244 m for 18 holes. The course has 3 par-3, 4 par-4 and 2 par-5 holes. Laid out in the natural topography of the area. A unique 9-hole course by Graeme Webster proving that a course need not be long to be demanding. Voted one of Norway's 10 best golf courses, with two of Norway's 100 best holes! Open all year - from 26 October to 1 April, play is from winter tees. In frost, winter greens may be used without notice."
+  "description_en": "Maurholen Golf Park is a superb 9-hole parkland course approximately 10 km north of Egersund along county road 44, opened in August 2006. Designed by the renowned course architect Graeme Webster. Par 35 for 9 holes, par 70 for 18 holes (played twice). Length 2,622 m for 9 holes, 5,244 m for 18 holes. The course has 3 par-3, 4 par-4 and 2 par-5 holes. Laid out in the natural topography of the area. A unique 9-hole course by Graeme Webster proving that a course need not be long to be demanding. Voted one of Norway's 10 best golf courses, with two of Norway's 100 best holes! Open all year - from 26 October to 1 April, play is from winter tees. In frost, winter greens may be used without notice.",
+  "images": [
+    {
+      "src": "/courses/egersund-golfklubb/egersund-golfklubb-flyfoto-maurholen.webp",
+      "alt": "Flyfoto av Egersund Golfklubb ved Maurholen, med oversikt over fairways og greener",
+      "alt_en": "Aerial view of Egersund Golf Club at Maurholen, showing fairways and greens",
+      "credit": "Egersund Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoKAAYABUB8JbACdADdoReIAAD9j+dkAcyXS0a5/2tnpSXg8/RcYd33ws8AAA=="
+    },
+    {
+      "src": "/courses/egersund-golfklubb/egersund-golfklubb-klubbhus.webp",
+      "alt": "Klubbhuset til Egersund Golfklubb ved Maurholen Golfpark",
+      "alt_en": "Clubhouse of Egersund Golf Club at Maurholen Golf Park",
+      "credit": "Egersund Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAMABUB8JaQAAuyR9b6HAAD+a10Tdc+oxuha9YC9IrYZIsavvAYAAAA="
+    },
+    {
+      "src": "/courses/egersund-golfklubb/egersund-golfklubb-proshop-fasade.webp",
+      "alt": "Proshopen til Egersund Golfklubb ved klubbhuset",
+      "alt_en": "Pro shop at Egersund Golf Club by the clubhouse",
+      "credit": "Egersund Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAAAQAgCdASoKAAUABUB8JagCdH8AGBwXCBmAAP4nngiaFhypCtrhIiAma938ZdfzS4AAAA=="
+    }
+  ]
 }

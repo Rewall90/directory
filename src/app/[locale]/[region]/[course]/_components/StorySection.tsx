@@ -63,6 +63,13 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 560px"
+                loading="lazy"
+                {...((galleryPhotos[0] as any).placeholder
+                  ? {
+                      placeholder: "blur" as const,
+                      blurDataURL: (galleryPhotos[0] as any).placeholder,
+                    }
+                  : {})}
               />
             ) : (
               <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder1")}</span>
@@ -78,6 +85,13 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
+                loading="lazy"
+                {...((galleryPhotos[1] as any).placeholder
+                  ? {
+                      placeholder: "blur" as const,
+                      blurDataURL: (galleryPhotos[1] as any).placeholder,
+                    }
+                  : {})}
               />
             ) : (
               <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder2")}</span>
@@ -91,6 +105,13 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
+                loading="lazy"
+                {...((galleryPhotos[2] as any).placeholder
+                  ? {
+                      placeholder: "blur" as const,
+                      blurDataURL: (galleryPhotos[2] as any).placeholder,
+                    }
+                  : {})}
               />
             ) : (
               <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder3")}</span>

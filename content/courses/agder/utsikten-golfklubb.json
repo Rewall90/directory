@@ -371,7 +371,7 @@
     {
       "tee": "Blå",
       "gender": "male",
-      "courseRating": 67.0,
+      "courseRating": 67,
       "slopeRating": 142,
       "par": 70,
       "lengthMeters": 4796
@@ -440,5 +440,13 @@
   "googlePlaceId": "ChIJ_zSAZXbROUYRsf34wxXpDSg",
   "slug_en": "utsikten-golf-club",
   "name_en": "Utsikten Golf Club",
-  "description_en": "Utsikten Golf Club - a championship-standard woodland course set in mountain scenery with spectacular views over the Kvinesdal valley and rivers. Voted 'Norway's Best Golf Course' in 2007. Hole 3 features one of the world's most beautiful tee positions. 18-hole main course and 9-hole pay and play short course. Part of Utsikten Golf Park."
+  "description_en": "Utsikten Golf Club - a championship-standard woodland course set in mountain scenery with spectacular views over the Kvinesdal valley and rivers. Voted 'Norway's Best Golf Course' in 2007. Hole 3 features one of the world's most beautiful tee positions. 18-hole main course and 9-hole pay and play short course. Part of Utsikten Golf Park.",
+  "images": [
+    {
+      "src": "/courses/utsikten-golfklubb/utsikten-golfklubb-oversikt-bane.webp",
+      "alt": "Oversiktsbilde av Utsikten Golfklubb med fairways og greener i skogsterreng i Kvinesdal",
+      "alt_en": "Overview of Utsikten Golf Club with fairways and greens in forest terrain in Kvinesdal",
+      "credit": "Utsikten Golfklubb"
+    }
+  ]
 }

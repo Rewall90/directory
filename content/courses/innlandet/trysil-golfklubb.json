@@ -307,5 +307,13 @@
   "googlePlaceId": "ChIJKUx_N_aQaUYR8Et23E9axts",
   "slug_en": "trysil-golf-club",
   "name_en": "Trysil Golf Club",
-  "description_en": "An exciting and varied 18-hole woodland course, par 72, beautifully set into the terrain. Many challenging holes for both beginners and experienced golfers. Trysilfjellet Golf Course is splendidly situated at the foot of Trysilfjellet, approximately 2 hours' drive from Oslo. Awards: 2024 \"Players' Choice\", \"Best Golf Course\", 2nd place \"Best Value for Money\", 3rd place for best restaurant (Golfamore guest survey). 2020: Norway's 5th best course (Leadingcourses)."
+  "description_en": "An exciting and varied 18-hole woodland course, par 72, beautifully set into the terrain. Many challenging holes for both beginners and experienced golfers. Trysilfjellet Golf Course is splendidly situated at the foot of Trysilfjellet, approximately 2 hours' drive from Oslo. Awards: 2024 \"Players' Choice\", \"Best Golf Course\", 2nd place \"Best Value for Money\", 3rd place for best restaurant (Golfamore guest survey). 2020: Norway's 5th best course (Leadingcourses).",
+  "images": [
+    {
+      "src": "/courses/trysil-golfklubb/trysil-golfklubb-banekart-oversikt.webp",
+      "alt": "Banekart over Trysil Golfklubb med alle 18 hull og layout av par 72-banen",
+      "alt_en": "Course map of Trysil Golf Club showing all 18 holes and layout of the par 72 course",
+      "credit": "Trysil Golfklubb"
+    }
+  ]
 }

@@ -288,5 +288,31 @@
     "createdAt": "2025-10-31T09:10:42.497Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ70O4NQ7pRkYRd1I9LjWcK8Y"
+  "googlePlaceId": "ChIJ70O4NQ7pRkYRd1I9LjWcK8Y",
+  "images": [
+    {
+      "src": "/courses/larvik-golfklubb/larvik-golfklubb-flyfoto-oversikt-seasidebanen.webp",
+      "alt": "Flyfoto av Larvik Golfklubb med Seasidebanen, klubbhus og omkringliggende landskap i Vestfold",
+      "alt_en": "Aerial view of Larvik Golf Club with Seasidebanen course, clubhouse and surrounding landscape in Vestfold",
+      "credit": "Larvik Golfklubb"
+    },
+    {
+      "src": "/courses/larvik-golfklubb/larvik-golfklubb-flyfoto-baneomraade.webp",
+      "alt": "Flyfoto av golfbanen ved Larvik Golfklubb med fairways, greener og naturskjønne omgivelser",
+      "alt_en": "Aerial photo of the golf course at Larvik Golf Club with fairways, greens and scenic natural surroundings",
+      "credit": "Larvik Golfklubb"
+    },
+    {
+      "src": "/courses/larvik-golfklubb/larvik-golfklubb-webkamera-direktesending.webp",
+      "alt": "Direktesending fra webkamera ved Larvik Golfklubb som viser aktuell banestand og værforhold",
+      "alt_en": "Live webcam feed from Larvik Golf Club showing current course conditions and weather",
+      "credit": "Larvik Golfklubb"
+    },
+    {
+      "src": "/courses/larvik-golfklubb/larvik-golfklubb-putting-green-trening.webp",
+      "alt": "Putting green ved Larvik Golfklubb med golfspiller som øver på kortspillet",
+      "alt_en": "Putting green at Larvik Golf Club with golfer practicing short game",
+      "credit": "Larvik Golfklubb"
+    }
+  ]
 }

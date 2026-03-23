@@ -239,5 +239,21 @@
   "googlePlaceId": "ChIJLz8PtbDEQUYRMUmZWfyLvuY",
   "slug_en": "gjovik-and-toten-golf-club",
   "name_en": "Gjovik & Toten Golf Club",
-  "description_en": "Gjovik & Toten Golf Club -- an exciting 18-hole course with varied challenges"
+  "description_en": "Gjovik & Toten Golf Club -- an exciting 18-hole course with varied challenges",
+  "images": [
+    {
+      "src": "/courses/gjovik-toten-golfklubb/gjovik-toten-golfklubb-oversiktsbilde-klubbhus.webp",
+      "alt": "Gjøvik & Toten Golfklubb med klubbhus og naturskjønne omgivelser på Sillongen i Toten",
+      "alt_en": "Gjøvik & Toten Golf Club with clubhouse and scenic nature surroundings at Sillongen in Toten",
+      "credit": "Gjøvik & Toten Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoKAAcABUB8JZACdADc4dvAAP62G8649i+M05V3pajTLqL9cwNzyyGwZWoAAA=="
+    },
+    {
+      "src": "/courses/gjovik-toten-golfklubb/gjovik-toten-golfklubb-hull-1-baneguide.webp",
+      "alt": "Hull 1 på Gjøvik & Toten Golfklubb med oversikt over banen og naturterreng",
+      "alt_en": "Hole 1 at Gjøvik & Toten Golf Club with course overview and natural terrain",
+      "credit": "Gjøvik & Toten Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoEAAcABUB8JZgCw7EO/ae0AAD+ZHI8d7NFyAF1TXuWii8AAAA="
+    }
+  ]
 }

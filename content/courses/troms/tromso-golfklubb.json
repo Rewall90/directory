@@ -295,7 +295,12 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 92,
-    "pagesScraped": ["hjem", "booking-greenfee", "gjestespill", "baneguide"],
+    "pagesScraped": [
+      "hjem",
+      "booking-greenfee",
+      "gjestespill",
+      "baneguide"
+    ],
     "scrapedAt": "2026-02-14T16:07:00.000Z",
     "createdAt": "2025-10-31T05:13:00.650Z",
     "updatedAt": "2026-02-14T16:07:00.000Z"
@@ -303,5 +308,28 @@
   "googlePlaceId": "ChIJ8SZZ5pwgxUURUvU7l6hqKOU",
   "slug_en": "tromso-golf-club",
   "name_en": "Tromsø Golf Club",
-  "description_en": "Tromso Golf Club - the world's most northerly 18-hole golf course!\n\nSituated at 69 degrees 39'30\" N at the foot of the Lyngen Alps, approximately 45 minutes from Tromso city centre.\n\n18-hole parkland course, par 71, designed by Swedish course architect Jan Sederholm. The course opened in 2002; the club was founded in 1996. Over 550 members.\n\nPlay golf under the midnight sun - a truly unique experience where you can tee off well after midnight!\n\nFacilities include a driving range, putting green, short game area, clubhouse with cafe, and an indoor golf centre (Tromso Golf Centre) with TrackMan simulators - expanding to 5 simulators from 2026.\n\nEquipment hire: Full set 300 NOK, trolley 50 NOK, buggy 400-500 NOK."
+  "description_en": "Tromso Golf Club - the world's most northerly 18-hole golf course!\n\nSituated at 69 degrees 39'30\" N at the foot of the Lyngen Alps, approximately 45 minutes from Tromso city centre.\n\n18-hole parkland course, par 71, designed by Swedish course architect Jan Sederholm. The course opened in 2002; the club was founded in 1996. Over 550 members.\n\nPlay golf under the midnight sun - a truly unique experience where you can tee off well after midnight!\n\nFacilities include a driving range, putting green, short game area, clubhouse with cafe, and an indoor golf centre (Tromso Golf Centre) with TrackMan simulators - expanding to 5 simulators from 2026.\n\nEquipment hire: Full set 300 NOK, trolley 50 NOK, buggy 400-500 NOK.",
+  "images": [
+    {
+      "src": "/courses/tromso-golfklubb/tromso-golfklubb-flyfoto-lyngsalpene-fjord.webp",
+      "alt": "Flyfoto av Tromsø Golfklubb med Lyngsalpene og fjord i bakgrunnen, verdens nordligste 18-hulls golfbane",
+      "alt_en": "Aerial view of Tromsø Golf Club with Lyngsalpene mountains and fjord in the background, world's northernmost 18-hole golf course",
+      "credit": "Tromsø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoKAAUABUB8JagC7ADbIP9MAAD9sI/UVstFL13cvXy/m8hcfRc6i04pjAAAAA=="
+    },
+    {
+      "src": "/courses/tromso-golfklubb/tromso-golfklubb-hull-1-par-5.webp",
+      "alt": "Hull 1 på Tromsø Golfklubb, par 5 med utsikt over arktisk landskap og fjell",
+      "alt_en": "Hole 1 at Tromsø Golf Club, par 5 with views over Arctic landscape and mountains",
+      "credit": "Tromsø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoGAAcABUB8JYwAAp1c05MAAP7YSdFyoxaN4pGYVjsOdAFGl0AAAA=="
+    },
+    {
+      "src": "/courses/tromso-golfklubb/tromso-golfklubb-hull-18-avslutning.webp",
+      "alt": "Hull 18 på Tromsø Golfklubb, avsluttende hull med klubbhus og spektakulær fjordutsikt",
+      "alt_en": "Hole 18 at Tromsø Golf Club, finishing hole with clubhouse and spectacular fjord views",
+      "credit": "Tromsø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoGAAcABUB8JYwAAp2X2ZEAAP4JbU1lVXfewc3nqpUM3DwAZasAAA=="
+    }
+  ]
 }

@@ -201,5 +201,14 @@
   "googlePlaceId": "ChIJOZB-IWcmPkYRK6tqu5HvYc4",
   "slug_en": "laerdal-golf-club",
   "name_en": "Laerdal Golf Club",
-  "description_en": "Laerdal Golf Club - established around 2000. Had an extremely challenging 6-hole course between 1,000-metre-high mountains on all sides with very long holes (5 par 3 holes over 170m). IMPORTANT: The club currently has no permanent golf course in operation. A planned course at Ljosne was declined. Members use SimuGolf, Aardal Range and Hemsedal Golf Club."
+  "description_en": "Laerdal Golf Club - established around 2000. Had an extremely challenging 6-hole course between 1,000-metre-high mountains on all sides with very long holes (5 par 3 holes over 170m). IMPORTANT: The club currently has no permanent golf course in operation. A planned course at Ljosne was declined. Members use SimuGolf, Aardal Range and Hemsedal Golf Club.",
+  "images": [
+    {
+      "src": "/courses/laerdal-golfklubb/laerdal-golfklubb-hull-4-aspen-flyfoto.webp",
+      "alt": "Flyfoto av hull 4 (Aspen) på Lærdal Golfklubb med par 3-green og bunkere omgitt av landbruksterreng",
+      "alt_en": "Aerial view of hole 4 (Aspen) at Lærdal Golf Club with par 3 green and bunkers surrounded by farmland terrain",
+      "credit": "Lærdal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoKAAYABUB8JbAAAluWFjAAzXgSXycBLkrTYO4Jf9VaWi3uAAA="
+    }
+  ]
 }

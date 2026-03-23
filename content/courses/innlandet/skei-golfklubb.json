@@ -220,5 +220,28 @@
   "googlePlaceId": "ChIJTSwCklDrakYRQQ1qzx5RLmk",
   "slug_en": "skei-golf-club",
   "name_en": "Skei Golf Club",
-  "description_en": "The Nordic region's highest 18-hole golf course at 860 metres above sea level. Trysilfjellet Golf Course is beautifully situated at the foot of Trysilfjellet."
+  "description_en": "The Nordic region's highest 18-hole golf course at 860 metres above sea level. Trysilfjellet Golf Course is beautifully situated at the foot of Trysilfjellet.",
+  "images": [
+    {
+      "src": "/courses/skei-golfklubb/skei-golfklubb-flyfoto-bane-860-moh.webp",
+      "alt": "Flyfoto av Skei Golfklubb, Nordens høyest beliggende 18-hulls golfbane på 860 meter over havet",
+      "alt_en": "Aerial view of Skei Golf Club, the Nordic region's highest 18-hole golf course at 860 meters above sea level",
+      "credit": "Skei Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoKAAcABUB8JZgCdH8AFcrA5fQA9nSWLl4ffo1ApmnhHExmgaQwZwFngvgAAA=="
+    },
+    {
+      "src": "/courses/skei-golfklubb/skei-golfklubb-hull-6-skeikampen.webp",
+      "alt": "Hull 6 på Skei Golfklubb med nærbilde av green og Skeikampen i bakgrunnen",
+      "alt_en": "Hole 6 at Skei Golf Club with close-up of green and Skeikampen mountain in the background",
+      "credit": "Skei Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoJAAcABUB8JbACdAEf3QJVGwAAyXXSNcEvM4si8eVlckP7DShMwDGSFAA="
+    },
+    {
+      "src": "/courses/skei-golfklubb/skei-golfklubb-vinter-landskap.webp",
+      "alt": "Vinterlandskap ved Skei Golfklubb med snødekt bane og fjellterreng i Innlandet",
+      "alt_en": "Winter landscape at Skei Golf Club with snow-covered course and mountain terrain in Innlandet",
+      "credit": "Skei Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACQAQCdASoJAAcABUB8JZACdADXGAAA/ni/mCjyigSvh9shM1McHDWxDj8HhjYA"
+    }
+  ]
 }

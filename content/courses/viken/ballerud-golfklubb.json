@@ -252,5 +252,14 @@
   "googlePlaceId": "ChIJ33uXOclsQUYR-WkHJjavvfM",
   "slug_en": "ballerud-golf",
   "name_en": "Ballerud Golf",
-  "description_en": "A golf course and practice facility just 10 minutes from Oslo. Ballerud is the perfect golf facility for busy people. We have focused on practice and the short game and have created an intimate golf facility of high quality. A parkland course with fast, well-maintained greens. Ideal for beginners and elite players alike. Approved for handicap adjustment from August 2024."
+  "description_en": "A golf course and practice facility just 10 minutes from Oslo. Ballerud is the perfect golf facility for busy people. We have focused on practice and the short game and have created an intimate golf facility of high quality. A parkland course with fast, well-maintained greens. Ideal for beginners and elite players alike. Approved for handicap adjustment from August 2024.",
+  "images": [
+    {
+      "src": "/courses/ballerud-golfklubb/ballerud-golfklubb-putting-green-utsikt.webp",
+      "alt": "Putting green på Ballerud Golf med fairway og klubbhus i bakgrunnen",
+      "alt_en": "Putting green at Ballerud Golf with fairway and clubhouse in the background",
+      "credit": "Ballerud Golf",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoKAAYABUB8JbACdAEU8XxBoVAA999LbTTXpjeSSGrPProDvxFTvPZZio6MY7SF8j4AAA=="
+    }
+  ]
 }

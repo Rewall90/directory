@@ -254,6 +254,12 @@ export function CourseHero({
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 600px"
               priority
+              {...(heroPhoto.credit && (heroPhoto as any).placeholder
+                ? {
+                    placeholder: "blur" as const,
+                    blurDataURL: (heroPhoto as any).placeholder,
+                  }
+                : {})}
             />
           ) : (
             <span className="text-sm text-v3d-text-muted">{t("mainImagePlaceholder")}</span>
@@ -269,6 +275,13 @@ export function CourseHero({
               fill
               className="object-cover"
               sizes="360px"
+              loading="lazy"
+              {...((accentPhoto as any).placeholder
+                ? {
+                    placeholder: "blur" as const,
+                    blurDataURL: (accentPhoto as any).placeholder,
+                  }
+                : {})}
             />
           ) : (
             <span className="text-xs text-v3d-text-light">{t("accentImagePlaceholder")}</span>

@@ -277,5 +277,28 @@
     "createdAt": "2025-10-31T09:10:41.024Z",
     "updatedAt": "2026-02-14T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJU_0pccK0RkYRQnHMZQDa1VY"
+  "googlePlaceId": "ChIJU_0pccK0RkYRQnHMZQDa1VY",
+  "images": [
+    {
+      "src": "/courses/borre-golfklubb/borre-golfklubb-klubbhus-oversikt.webp",
+      "alt": "Borre Golfklubb sitt klubbhus og bane i naturskjønne omgivelser ved Horten",
+      "alt_en": "Borre Golf Club's clubhouse and course in scenic surroundings near Horten",
+      "credit": "Borre Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoJAAcABUB8JQBOgBszGSTgAP6Jqmm1I0I1Kng65topqHjI69ooBT9QIrl3oSXIAAA="
+    },
+    {
+      "src": "/courses/borre-golfklubb/borre-golfklubb-hull-10.webp",
+      "alt": "Hull 10 på Borre Golfklubb med fairway, bekk og skogsterreng",
+      "alt_en": "Hole 10 at Borre Golf Club with fairway, stream and forest terrain",
+      "credit": "Borre Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAABwAQCdASoFAAcABUB8JYgCdAF1AAD+73ForBuXxy6yWgM1k+JCNXH1Z8mAAA=="
+    },
+    {
+      "src": "/courses/borre-golfklubb/borre-golfklubb-banebilde.webp",
+      "alt": "Golfbane på Borre Golfklubb med grønne fairways og naturlandskap",
+      "alt_en": "Golf course at Borre Golf Club with green fairways and natural landscape",
+      "credit": "Borre Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoFAAcABUB8JaACsADxtQAA+ntHVjpx4QHAQgZgo483g6jZgAA="
+    }
+  ]
 }

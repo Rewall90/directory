@@ -216,5 +216,31 @@
   },
   "googlePlaceId": "ChIJPyEQA9ISQUYRXcYpHGV9WIE",
   "slug_en": "nordhaug-golf-club",
-  "name_en": "Nordhaug Golf Club"
+  "name_en": "Nordhaug Golf Club",
+  "images": [
+    {
+      "src": "/courses/nordhaug-golfklubb/nordhaug-golfklubb-flyfoto-bane-klubbhus.webp",
+      "alt": "Flyfoto av Nordhaug Golfklubb sin 9-hulls golfbane med klubbhus og fairways i skogsterreng ved Bærum",
+      "alt_en": "Aerial view of Nordhaug Golf Club's 9-hole course with clubhouse and fairways in forest terrain near Bærum",
+      "credit": "Nordhaug Golfklubb"
+    },
+    {
+      "src": "/courses/nordhaug-golfklubb/nordhaug-golfklubb-flyfoto-morgenlys.webp",
+      "alt": "Flyfoto av Nordhaug Golfklubb i morgenlys med grønne fairways og Bærumsmarka i bakgrunnen",
+      "alt_en": "Aerial photo of Nordhaug Golf Club in morning light with green fairways and Bærumsmarka forest in the background",
+      "credit": "Nordhaug Golfklubb"
+    },
+    {
+      "src": "/courses/nordhaug-golfklubb/nordhaug-golfklubb-fairway-utsikt.webp",
+      "alt": "Fairway på Nordhaug Golfklubb med naturlig skogsterreng og åpent landskap",
+      "alt_en": "Fairway at Nordhaug Golf Club with natural forest terrain and open landscape",
+      "credit": "Nordhaug Golfklubb"
+    },
+    {
+      "src": "/courses/nordhaug-golfklubb/nordhaug-golfklubb-green-bunkere.webp",
+      "alt": "Green med bunkere på Nordhaug Golfklubb omgitt av naturskjønn beliggenhet",
+      "alt_en": "Green with bunkers at Nordhaug Golf Club surrounded by scenic natural setting",
+      "credit": "Nordhaug Golfklubb"
+    }
+  ]
 }

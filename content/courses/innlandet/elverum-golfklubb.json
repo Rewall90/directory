@@ -230,5 +230,31 @@
   "googlePlaceId": "ChIJR585jBL_aUYRqA3PhRg7A1Y",
   "slug_en": "elverum-golf-club",
   "name_en": "Elverum Golf Club",
-  "description_en": "Elverum Golf Club offers a splendid 18-hole golf course in scenic surroundings. A woodland course with varied difficulty."
+  "description_en": "Elverum Golf Club offers a splendid 18-hole golf course in scenic surroundings. A woodland course with varied difficulty.",
+  "images": [
+    {
+      "src": "/courses/elverum-golfklubb/elverum-golfklubb-oversikt-bane-landskap.webp",
+      "alt": "Elverum Golfklubb med grønne fairways og naturskjønt landskap i Innlandet",
+      "alt_en": "Elverum Golf Club with green fairways and scenic landscape in Innlandet",
+      "credit": "Elverum Golfklubb"
+    },
+    {
+      "src": "/courses/elverum-golfklubb/elverum-golfklubb-hull-1-flyfoto.webp",
+      "alt": "Flyfoto av hull 1 på Elverum Golfklubb med fairway og grønn",
+      "alt_en": "Aerial photo of hole 1 at Elverum Golf Club with fairway and green",
+      "credit": "Elverum Golfklubb"
+    },
+    {
+      "src": "/courses/elverum-golfklubb/elverum-golfklubb-hull-14-flyfoto.webp",
+      "alt": "Flyfoto av hull 14 på Elverum Golfklubb med strategiske bunkere",
+      "alt_en": "Aerial photo of hole 14 at Elverum Golf Club with strategic bunkers",
+      "credit": "Elverum Golfklubb"
+    },
+    {
+      "src": "/courses/elverum-golfklubb/elverum-golfklubb-hull-8-flyfoto.webp",
+      "alt": "Flyfoto av hull 8 på Elverum Golfklubb omgitt av skog",
+      "alt_en": "Aerial photo of hole 8 at Elverum Golf Club surrounded by forest",
+      "credit": "Elverum Golfklubb"
+    }
+  ]
 }

@@ -285,10 +285,46 @@
     "dataQuality": "95.0",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": ["gjestespill", "bli-medlem", "banen", "proshop2", "golfpakke-engo"],
+    "pagesScraped": [
+      "gjestespill",
+      "bli-medlem",
+      "banen",
+      "proshop2",
+      "golfpakke-engo"
+    ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:10:45.505Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJmQWaLi-8RkYRbfW8aryeP_8"
+  "googlePlaceId": "ChIJmQWaLi-8RkYRbfW8aryeP_8",
+  "images": [
+    {
+      "src": "/courses/tjome-golfklubb/tjome-golfklubb-green-vannhinder-bro.webp",
+      "alt": "Grønn med vannhinder og trebro på Tjøme Golfklubb i Vestfold",
+      "alt_en": "Green with water hazard and wooden bridge at Tjøme Golf Club in Vestfold",
+      "credit": "Tjøme Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoKAAYABUB8JbACw7CQrKQAAPulbg2rQJ9RTi0Jf6aM9OX0DumW+UjvBxwHWhzShFGgAA=="
+    },
+    {
+      "src": "/courses/tjome-golfklubb/tjome-golfklubb-klubbhus-fasade.webp",
+      "alt": "Klubbhuset på Tjøme Golfklubb med utsikt over banen",
+      "alt_en": "The clubhouse at Tjøme Golf Club with view over the course",
+      "credit": "Tjøme Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoKAAYABUB8JbACdAEU9w5rXQAAzd8iTiQORA5CIdrlxyS/SYJthlofD66a/YAA"
+    },
+    {
+      "src": "/courses/tjome-golfklubb/tjome-golfklubb-fairway-skogsterreng.webp",
+      "alt": "Fairway på Tjøme Golfklubb omgitt av frodig skogsterreng",
+      "alt_en": "Fairway at Tjøme Golf Club surrounded by lush forest terrain",
+      "credit": "Tjøme Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoKAAYABUB8JYgCdH8AF8MFovAA/WtnpIwT4ethB4eZ3ABcom5VlbCrtXMvkjIJgAA="
+    },
+    {
+      "src": "/courses/tjome-golfklubb/tjome-golfklubb-hull-vannhinder.webp",
+      "alt": "Golfhull med vannhinder og grønn på Tjøme Golfklubb",
+      "alt_en": "Golf hole with water hazard and green at Tjøme Golf Club",
+      "credit": "Tjøme Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoKAAYABUB8JbACdAELYmh9oAD2pxglnGGxyVRVLIphl7HmCdA0AMaCJCgAAA=="
+    }
+  ]
 }

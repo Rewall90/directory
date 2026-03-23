@@ -257,5 +257,35 @@
     "updatedAt": "2026-03-23T12:00:00.000Z",
     "note": "2026 pricing scraped from onsoygolfklubb.no/gjester/priser-gjestespill. Cart/club rental prices not listed on website. Southwest Greens upgrade info provided by club (2026-03-23)."
   },
-  "googlePlaceId": "ChIJr7HakhOpRkYRgoDwpEWyc8Q"
+  "googlePlaceId": "ChIJr7HakhOpRkYRgoDwpEWyc8Q",
+  "images": [
+    {
+      "src": "/courses/onsoy-golfklubb/onsoy-golfklubb-oversikt-klubbhus-hull-18.webp",
+      "alt": "Oversiktsbilde av Onsøy Golfklubb med klubbhus og hull 18 i naturskonn omgivelse ved Fredrikstad",
+      "alt_en": "Overview of Onsøy Golf Club with clubhouse and hole 18 in scenic natural surroundings near Fredrikstad",
+      "credit": "Onsøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoKAAYABUB8JaAAAuVNPPnYAMsg8ZXWpYtspv6imO2n8Ecy6oAAAA=="
+    },
+    {
+      "src": "/courses/onsoy-golfklubb/onsoy-golfklubb-bane-vinterbilde.webp",
+      "alt": "Onsøy Golfklubb i vinterlandskap med snø over fairways og skogsterreng i Østfold",
+      "alt_en": "Onsøy Golf Club in winter landscape with snow over fairways and forest terrain in Østfold",
+      "credit": "Onsøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABwAQCdASoKAAQABUB8JagAAuWWUADdAuT8BrGj9/gxVYQ+5C7AAA=="
+    },
+    {
+      "src": "/courses/onsoy-golfklubb/onsoy-golfklubb-fairway-utsikt.webp",
+      "alt": "Fairway på Onsøy Golfklubb med grønne omgivelser og variert skogsterreng",
+      "alt_en": "Fairway at Onsøy Golf Club with green surroundings and varied forest terrain",
+      "credit": "Onsøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRioAAABXRUJQVlA4IB4AAABwAQCdASoFAAcABUB8JZQCdAFAAAD+7+4LaewAAAA="
+    },
+    {
+      "src": "/courses/onsoy-golfklubb/onsoy-golfklubb-green-sommerbilde.webp",
+      "alt": "Grønn på Onsøy Golfklubb omgitt av naturskjønne skogsområder i sommersesongen",
+      "alt_en": "Green at Onsøy Golf Club surrounded by scenic forest areas in summer season",
+      "credit": "Onsøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRioAAABXRUJQVlA4IB4AAABwAQCdASoFAAcABUB8JZQCdAFAAAD+7+4LaewAAAA="
+    }
+  ]
 }

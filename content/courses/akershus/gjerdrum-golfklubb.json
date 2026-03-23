@@ -257,5 +257,31 @@
   "googlePlaceId": "ChIJYQyOwRV5QUYRX7JKZCggEC8",
   "slug_en": "gjerdrum-golf-club",
   "name_en": "Gjerdrum Golf Club",
-  "description_en": "Gjerdrum golf course is a parkland course with par 66, but it certainly has its challenges. The undulating ravine landscape means that on several holes you need to play strategically rather than hitting long. The course finishes with the signature hole, a short par three over water. Picturesque and delightful."
+  "description_en": "Gjerdrum golf course is a parkland course with par 66, but it certainly has its challenges. The undulating ravine landscape means that on several holes you need to play strategically rather than hitting long. The course finishes with the signature hole, a short par three over water. Picturesque and delightful.",
+  "images": [
+    {
+      "src": "/courses/gjerdrum-golfklubb/gjerdrum-golfklubb-oversiktsbilde-bane.webp",
+      "alt": "Oversiktsbilde av Gjerdrum Golfklubb sin 9-hulls golfbane i ravinelandskap",
+      "alt_en": "Overview image of Gjerdrum Golf Club's 9-hole golf course in ravine landscape",
+      "credit": "Gjerdrum Golfklubb"
+    },
+    {
+      "src": "/courses/gjerdrum-golfklubb/gjerdrum-golfklubb-hull-1-green.webp",
+      "alt": "Hull 1 på Gjerdrum Golfklubb, par 3 hull med gressbunker på venstre side av green",
+      "alt_en": "Hole 1 at Gjerdrum Golf Club, par 3 hole with grass bunker on the left side of the green",
+      "credit": "Gjerdrum Golfklubb"
+    },
+    {
+      "src": "/courses/gjerdrum-golfklubb/gjerdrum-golfklubb-hull-2-fairway.webp",
+      "alt": "Hull 2 på Gjerdrum Golfklubb med fairway gjennom bølgende ravinelandskap",
+      "alt_en": "Hole 2 at Gjerdrum Golf Club with fairway through rolling ravine landscape",
+      "credit": "Gjerdrum Golfklubb"
+    },
+    {
+      "src": "/courses/gjerdrum-golfklubb/gjerdrum-golfklubb-klubbhus.webp",
+      "alt": "Klubbhuset til Gjerdrum Golfklubb med uteservering og tilhørende fasiliteter",
+      "alt_en": "Clubhouse at Gjerdrum Golf Club with outdoor seating and facilities",
+      "credit": "Gjerdrum Golfklubb"
+    }
+  ]
 }

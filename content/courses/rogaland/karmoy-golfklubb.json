@@ -358,5 +358,28 @@
   "googlePlaceId": "ChIJn7aVVkOoO0YRMwSsQYbuwWs",
   "slug_en": "karmoy-golf-club",
   "name_en": "Karmøy Golf Club",
-  "description_en": "Karmoy Golf Club is a 9-hole parkland course in Skudeneshavn, Karmoy municipality. Founded in 1989. Par 34 for 9 holes, par 68 when played twice. Parkland course in scenic surroundings in the summer town of Skudeneshavn. Part of the Sveio Golf Park system (54 holes in total) together with Haugaland GC (18 holes, Sveio), Nordvegen GC (18 holes, Torvastad) and Sveio (9 holes). One membership gives free play at all four courses."
+  "description_en": "Karmoy Golf Club is a 9-hole parkland course in Skudeneshavn, Karmoy municipality. Founded in 1989. Par 34 for 9 holes, par 68 when played twice. Parkland course in scenic surroundings in the summer town of Skudeneshavn. Part of the Sveio Golf Park system (54 holes in total) together with Haugaland GC (18 holes, Sveio), Nordvegen GC (18 holes, Torvastad) and Sveio (9 holes). One membership gives free play at all four courses.",
+  "images": [
+    {
+      "src": "/courses/karmoy-golfklubb/karmoy-golfklubb-solnedgang-skudeneshavn.webp",
+      "alt": "Karmøy Golfklubb ved solnedgang med dramatisk himmel over Skudeneshavn",
+      "alt_en": "Karmøy Golf Club at sunset with dramatic sky over Skudeneshavn",
+      "credit": "Karmøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoKAAUABUB8JQBdgB9D+AzAAPffU4N3nZ7T6tNHislsfLi3QAA="
+    },
+    {
+      "src": "/courses/karmoy-golfklubb/karmoy-golfklubb-vinter-fairway-kystlandskap.webp",
+      "alt": "Golfbanen på Karmøy Golfklubb i vinterdrakt med utsikt mot kysten",
+      "alt_en": "Golf course at Karmøy Golf Club in winter with coastal views",
+      "credit": "Karmøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoKAAUABUB8JZAC7AEQCQHqgADiA6uQgv0HTbjKendOvsdYIyAAAA=="
+    },
+    {
+      "src": "/courses/karmoy-golfklubb/karmoy-golfklubb-vinterlandskap-kyst.webp",
+      "alt": "Vinterutsikt over Karmøy Golfklubb med kystnatur og trær",
+      "alt_en": "Winter view over Karmøy Golf Club with coastal nature and trees",
+      "credit": "Karmøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoKAAUABUB8JYwCdAEO9s4sAAD2O+SHkgfxoCZ1QAoH8fwW2e8tUAAA"
+    }
+  ]
 }

@@ -338,5 +338,35 @@
   "googlePlaceId": "ChIJezEe7mLTO0YRghc3Pn8c4ro",
   "slug_en": "preikestolen-golf-club",
   "name_en": "Preikestolen Golf Club",
-  "description_en": "Preikestolen Golf Club is a 9-hole woodland course with 18 tee positions in Joerpeland, Strand municipality. Founded in 1998. The course is set in a beautiful valley at Joessang, approximately 40 minutes from Stavanger city centre. Par 72 when played twice. A relatively narrow and tight course requiring accurate shots. Scenic woodland setting. Maximum handicap 54 for visitors."
+  "description_en": "Preikestolen Golf Club is a 9-hole woodland course with 18 tee positions in Joerpeland, Strand municipality. Founded in 1998. The course is set in a beautiful valley at Joessang, approximately 40 minutes from Stavanger city centre. Par 72 when played twice. A relatively narrow and tight course requiring accurate shots. Scenic woodland setting. Maximum handicap 54 for visitors.",
+  "images": [
+    {
+      "src": "/courses/preikestolen-golfklubb/preikestolen-golfklubb-oversikt-bane-dal.webp",
+      "alt": "Oversikt over Preikestolen Golfklubb i vakker dal ved Jøssang i Strand kommune, Rogaland",
+      "alt_en": "Overview of Preikestolen Golf Club in beautiful valley at Jøssang in Strand municipality, Rogaland",
+      "credit": "Preikestolen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoKAAUABUB8JQBOgBsqWmgAAP5JQazpgPG2DuJqIjsQcQUqJavyEmAAAAA="
+    },
+    {
+      "src": "/courses/preikestolen-golfklubb/preikestolen-golfklubb-bro-hull-6-7.webp",
+      "alt": "Bro mellom hull 6 og 7 på Preikestolen Golfklubb med naturskjønn omgivelser",
+      "alt_en": "Bridge between hole 6 and 7 at Preikestolen Golf Club with scenic natural surroundings",
+      "credit": "Preikestolen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoKAAUABUB8JbAAAu0SP+AA3lVsEPHYoFXvbk3x605gvS1PH/gxUQ5pOgAAAA=="
+    },
+    {
+      "src": "/courses/preikestolen-golfklubb/preikestolen-golfklubb-panorama-bane.webp",
+      "alt": "Panoramautsikt over Preikestolen Golfklubb sin 9-hulls bane på veien til Preikestolen",
+      "alt_en": "Panoramic view of Preikestolen Golf Club's 9-hole course on the road to Preikestolen",
+      "credit": "Preikestolen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACQAQCdASoKAAIABUB8JQAAU6jkagAA/sE+j8Dj90U0jLqAAAA="
+    },
+    {
+      "src": "/courses/preikestolen-golfklubb/preikestolen-golfklubb-fairway-natur.webp",
+      "alt": "Fairway på Preikestolen Golfklubb med utfordrende terreng og naturskjønne omgivelser",
+      "alt_en": "Fairway at Preikestolen Golf Club with challenging terrain and scenic natural surroundings",
+      "credit": "Preikestolen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoKAAUABUB8JbACdADy/WyAAM3xSm3C3scZF35xZG47oMaKgy6c04dMzm3X6AAA"
+    }
+  ]
 }

@@ -274,7 +274,11 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 98,
-    "pagesScraped": ["homepage", "kontigent-medlemskap", "booking"],
+    "pagesScraped": [
+      "homepage",
+      "kontigent-medlemskap",
+      "booking"
+    ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:54.497Z",
     "updatedAt": "2026-02-15T12:00:00.000Z",
@@ -283,5 +287,35 @@
   "googlePlaceId": "ChIJLZdg6D0ybUYR-Z2MNkW5oKY",
   "slug_en": "trondheim-golf-club",
   "name_en": "Trondheim Golf Club",
-  "description_en": "'Norway's most beautiful 9-hole course' in Bymarka with 18 different tee positions."
+  "description_en": "'Norway's most beautiful 9-hole course' in Bymarka with 18 different tee positions.",
+  "images": [
+    {
+      "src": "/courses/trondheim-golfklubb/trondheim-golfklubb-flyfoto-bane-skog-vann.webp",
+      "alt": "Flyfoto av Trondheim Golfklubb på Sommersetra med fairways omgitt av skog og vann i Bymarka",
+      "alt_en": "Aerial view of Trondheim Golf Club at Sommersetra with fairways surrounded by forest and lake in Bymarka",
+      "credit": "Trondheim Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAQCdASoKAAcABUB8JbACdAD5WsAA4nmKj839sXBE1GbCcCn3F+P25rePYXJq09/+rHlIAAA="
+    },
+    {
+      "src": "/courses/trondheim-golfklubb/trondheim-golfklubb-solnedgang-fairway-green.webp",
+      "alt": "Solnedgang over Trondheim Golfklubb med fairway og green i forgrunnen",
+      "alt_en": "Sunset over Trondheim Golf Club with fairway and green in the foreground",
+      "credit": "Trondheim Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACQAQCdASoJAAcABUB8JaACdADXGAAA/PGx1xVfnmEB6uJ6xUyIuR4d3mypmsAA"
+    },
+    {
+      "src": "/courses/trondheim-golfklubb/trondheim-golfklubb-fairway-kveldslys-skog.webp",
+      "alt": "Fairway på Trondheim Golfklubb i kveldslys med trær og skogsterreng",
+      "alt_en": "Fairway at Trondheim Golf Club in evening light with trees and forest terrain",
+      "credit": "Trondheim Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABwAQCdASoJAAcABUB8JQAAXLV4UAD2pdkmR9e+K9stl+nq3i4AAA=="
+    },
+    {
+      "src": "/courses/trondheim-golfklubb/trondheim-golfklubb-kveldssol-bane-utsikt.webp",
+      "alt": "Trondheim Golfklubb i kveldssol med utsikt over banen og Bymarka",
+      "alt_en": "Trondheim Golf Club in evening sun with view over the course and Bymarka forest",
+      "credit": "Trondheim Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoJAAcABUB8JbACdAEWPVK5RY+gAOHwCTHsTSzMW9JWB1/ECFi9FRvKw7RDFfGfefIAAA=="
+    }
+  ]
 }

@@ -236,7 +236,13 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": ["gjester", "greenfee", "utleie", "medlemmer", "kontakt"],
+    "pagesScraped": [
+      "gjester",
+      "greenfee",
+      "utleie",
+      "medlemmer",
+      "kontakt"
+    ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:10.893Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
@@ -244,5 +250,35 @@
   "googlePlaceId": "ChIJe8o5XQDnQUYR9DJhKKpP0Ds",
   "slug_en": "atlungstad-golf-club",
   "name_en": "Atlungstad Golf Club",
-  "description_en": "Atlungstad Golf is an 18-hole facility designed by the renowned golf course architect Dave Thomas LTD. The first 9 holes down by Lake Mjosa were brought into play in 2006, and the full 18-hole facility opened for play in the summer of 2007. The course is laid out in the rolling cultural landscape down towards Lake Mjosa, south of the Atlungstad Distillery. The distillery's chimney serves as a useful aiming point towards the green on several holes."
+  "description_en": "Atlungstad Golf is an 18-hole facility designed by the renowned golf course architect Dave Thomas LTD. The first 9 holes down by Lake Mjosa were brought into play in 2006, and the full 18-hole facility opened for play in the summer of 2007. The course is laid out in the rolling cultural landscape down towards Lake Mjosa, south of the Atlungstad Distillery. The distillery's chimney serves as a useful aiming point towards the green on several holes.",
+  "images": [
+    {
+      "src": "/courses/atlungstad-golfklubb/atlungstad-golfklubb-green-mjosa-utsikt.webp",
+      "alt": "Green ved Mjøsa på Atlungstad Golfklubb med vannhinder og bjørketrær i Innlandet",
+      "alt_en": "Green at Lake Mjøsa at Atlungstad Golf Club with water hazard and birch trees in Innlandet",
+      "credit": "Atlungstad Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoKAAYABUB8JZgCdADzAgAA/eJaXfFDlr1tDBIrwCpwHcRuz3wAAA=="
+    },
+    {
+      "src": "/courses/atlungstad-golfklubb/atlungstad-golfklubb-hull-10-fairway-fjell.webp",
+      "alt": "Hull 10 på Atlungstad Golfklubb med fairway, bjørketrær og fjellutsikt på sommerdag",
+      "alt_en": "Hole 10 at Atlungstad Golf Club with fairway, birch trees and mountain view on a summer day",
+      "credit": "Atlungstad Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoKAAYABUB8JZACdH8AE1vX0cAA/GMYbHlO2zkrBMwHpDFyCK3wehvJ7XervreJ/kwMakAfwAA="
+    },
+    {
+      "src": "/courses/atlungstad-golfklubb/atlungstad-golfklubb-flagg-green-mjosa.webp",
+      "alt": "Golfgreen med flagg og panoramautsikt over Mjøsa på Atlungstad Golfklubb",
+      "alt_en": "Golf green with flag and panoramic view over Lake Mjøsa at Atlungstad Golf Club",
+      "credit": "Atlungstad Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoKAAcABUB8JagCdAEQDlGtgAD+si0OHrNKmJ4EIPdrYSQeWEk+gVNQg8X0AAAA"
+    },
+    {
+      "src": "/courses/atlungstad-golfklubb/atlungstad-golfklubb-fairway-furetre-mjosa.webp",
+      "alt": "Fairway med furetre og utsikt over Mjøsa på Atlungstad Golfklubb i Innlandet",
+      "alt_en": "Fairway with pine trees and view over Lake Mjøsa at Atlungstad Golf Club in Innlandet",
+      "credit": "Atlungstad Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACQAQCdASoFAAcABUB8JQAAXNNEoAAA/soGgx3E/zz+laSo/VrcucD8Uwy5/CebgAA="
+    }
+  ]
 }

@@ -362,5 +362,42 @@
   "googlePlaceId": "ChIJE8p2ESzTEkYRaPdJR1vHizw",
   "slug_en": "byneset-golf-club",
   "name_en": "Byneset Golf Club",
-  "description_en": "27 holes in total: 18-hole North course (par 72) + 9-hole South course (par 32). 20 minutes from Trondheim."
+  "description_en": "27 holes in total: 18-hole North course (par 72) + 9-hole South course (par 32). 20 minutes from Trondheim.",
+  "images": [
+    {
+      "src": "/courses/byneset-golfklubb/byneset-golfklubb-solnedgang-golfspiller-siluett.webp",
+      "alt": "Golfspiller i siluett mot solnedgang på Byneset Golfklubb med åpent landskap",
+      "alt_en": "Golfer silhouette against sunset at Byneset Golf Club with open landscape",
+      "credit": "Byneset Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoJAAcABUB8JYgCdAEXfpXhGgAA+Rnp56HLHXtAgg3Wq9/8lNYx2a4gAAA="
+    },
+    {
+      "src": "/courses/byneset-golfklubb/byneset-golfklubb-green-flagg-klubbhus.webp",
+      "alt": "Grønn med flagg og klubbhus på Byneset Golfklubb i landlig terreng nær Trondheim",
+      "alt_en": "Green with flag and clubhouse at Byneset Golf Club in rural terrain near Trondheim",
+      "credit": "Byneset Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAABwAQCdASoGAAcABUB8JbACdAAtIAD4Q/G1n2Z8z8dfTrX6jrgO4x62e4oP0qdf0ASdAAAA"
+    },
+    {
+      "src": "/courses/byneset-golfklubb/byneset-golfklubb-bane-oversikt-flagg.webp",
+      "alt": "Byneset Golfklubb med flagg og baneområde i forgrunn og bakgrunn",
+      "alt_en": "Byneset Golf Club with flag and course area in foreground and background",
+      "credit": "Byneset Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoJAAcABUB8JbACdADFFOhAAPd/egfhNlvkRuIZBecd0H2n62dTAAAA"
+    },
+    {
+      "src": "/courses/byneset-golfklubb/byneset-golfklubb-solnedgang-spillere-bane.webp",
+      "alt": "Solnedgang over Byneset Golfklubb med spillere på banen i siluett",
+      "alt_en": "Sunset over Byneset Golf Club with players on the course in silhouette",
+      "credit": "Byneset Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoKAAUABUB8JbACdAEO9p5AAPY9t9wevSxhxvlR+uLm5Et4+QAAAA=="
+    },
+    {
+      "src": "/courses/byneset-golfklubb/byneset-golfklubb-spillere-fairway.webp",
+      "alt": "To golfspillere på fairway på Byneset Golfklubb med åpent landskap",
+      "alt_en": "Two golfers on fairway at Byneset Golf Club with open landscape",
+      "credit": "Byneset Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAwAgCdASoFAAcABUB8JYwCdH8GJ/gegBlIAAD3UPWMI8VoDhGfNyGbNn/HuBj+AAA="
+    }
+  ]
 }

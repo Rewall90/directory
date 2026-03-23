@@ -296,6 +296,8 @@ export interface CourseImage {
   alt_en?: string;
   /** Attribution/credit */
   credit?: string;
+  /** Base64-encoded blur placeholder (10x7 thumbnail) */
+  placeholder?: string;
 }
 
 export interface Meta {

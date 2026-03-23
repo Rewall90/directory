@@ -205,7 +205,10 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": ["gjester", "medlemskap"],
+    "pagesScraped": [
+      "gjester",
+      "medlemskap"
+    ],
     "scrapedAt": "2026-02-14T16:00:00.000Z",
     "createdAt": "2025-10-31T12:22:39.203Z",
     "updatedAt": "2026-02-14T16:00:00.000Z"
@@ -213,5 +216,14 @@
   "googlePlaceId": "ChIJ1yBe-XcmR0YRKJ4cbc6y-k8",
   "slug_en": "grenland-omegn-golf-club",
   "name_en": "Grenland & Omegn Golf Club",
-  "description_en": "Shot by shot for wellbeing and health! An 18-hole parkland/woodland course."
+  "description_en": "Shot by shot for wellbeing and health! An 18-hole parkland/woodland course.",
+  "images": [
+    {
+      "src": "/courses/grenland-og-omegn-golfklubb/grenland-og-omegn-golfklubb-klubbhus-hull-10.webp",
+      "alt": "Klubbhuset ved Grenland & Omegn Golfklubb sett fra hull 10 med fairway, greens og fjell i bakgrunnen",
+      "alt_en": "The clubhouse at Grenland & Omegn Golf Club viewed from hole 10 with fairway, greens and mountains in the background",
+      "credit": "Grenland & Omegn Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoKAAcABUB8JYgC7AELSBHEAP39M/W3E1wbBSdPN4mg1yDG+ENiJQLxF/rNPxCSLXijAAAA"
+    }
+  ]
 }

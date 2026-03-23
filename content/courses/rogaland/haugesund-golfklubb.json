@@ -575,5 +575,31 @@
   "googlePlaceId": "ChIJ7ROkAjyfO0YREAAaU_uSPO8",
   "slug_en": "haugesund-golf-club",
   "name_en": "Haugesund Golf Club",
-  "description_en": "Haugesund Golf Club (Haugesund Golf Park) is a 9-hole parkland course at Kolnes, approximately 5 minutes from Haugesund town centre. Founded 8 October 1997, opened 2001. Designed by architect Svein D. Olsnes. Par 35 for 9 holes, par 70 for 18 holes (played twice). Length 2,326 m (yellow), 2,007 m (red) for 9 holes. Semi-private course open to visitors with a valid handicap (max 54). Parkland-style course with thoughtfully designed fairways and well-maintained greens in scenic surroundings. Open all year. Facilities include Norway's longest driving range (240 m) with over 20 bays, golf simulators, putting green and short game area."
+  "description_en": "Haugesund Golf Club (Haugesund Golf Park) is a 9-hole parkland course at Kolnes, approximately 5 minutes from Haugesund town centre. Founded 8 October 1997, opened 2001. Designed by architect Svein D. Olsnes. Par 35 for 9 holes, par 70 for 18 holes (played twice). Length 2,326 m (yellow), 2,007 m (red) for 9 holes. Semi-private course open to visitors with a valid handicap (max 54). Parkland-style course with thoughtfully designed fairways and well-maintained greens in scenic surroundings. Open all year. Facilities include Norway's longest driving range (240 m) with over 20 bays, golf simulators, putting green and short game area.",
+  "images": [
+    {
+      "src": "/courses/haugesund-golfklubb/haugesund-golfklubb-fairway-utsikt.webp",
+      "alt": "Fairway på Haugesund Golfklubb med grønt terreng og trær i bakgrunnen",
+      "alt_en": "Fairway at Haugesund Golf Club with green terrain and trees in the background",
+      "credit": "Haugesund Golfklubb"
+    },
+    {
+      "src": "/courses/haugesund-golfklubb/haugesund-golfklubb-bane-oversikt.webp",
+      "alt": "Oversiktsbilde av golfbanen på Haugesund Golfklubb med fairways og naturlig terreng",
+      "alt_en": "Overview of the golf course at Haugesund Golf Club with fairways and natural terrain",
+      "credit": "Haugesund Golfklubb"
+    },
+    {
+      "src": "/courses/haugesund-golfklubb/haugesund-golfklubb-driving-range.webp",
+      "alt": "Driving range på Haugesund Golfklubb med utslagsmatter og 240 meters treningsområde",
+      "alt_en": "Driving range at Haugesund Golf Club with hitting bays and 240-meter practice area",
+      "credit": "Haugesund Golfklubb"
+    },
+    {
+      "src": "/courses/haugesund-golfklubb/haugesund-golfklubb-bane-detalj.webp",
+      "alt": "Detalj fra golfbanen på Haugesund Golfklubb med green og naturskjønne omgivelser",
+      "alt_en": "Detail from the golf course at Haugesund Golf Club with green and scenic surroundings",
+      "credit": "Haugesund Golfklubb"
+    }
+  ]
 }

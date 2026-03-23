@@ -294,10 +294,50 @@
     "dataQuality": "96.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 96,
-    "pagesScraped": ["greenfee", "bli-medlem"],
+    "pagesScraped": [
+      "greenfee",
+      "bli-medlem"
+    ],
     "scrapedAt": "2026-02-14T17:00:00.000Z",
     "createdAt": "2025-10-31T09:10:43.446Z",
     "updatedAt": "2026-02-14T17:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ34PK30TARkYRsLO7Ouq3JtY"
+  "googlePlaceId": "ChIJ34PK30TARkYRsLO7Ouq3JtY",
+  "images": [
+    {
+      "src": "/courses/sandefjord-golfklubb/sandefjord-golfklubb-flyfoto-bane-oversikt.webp",
+      "alt": "Flyfoto av Sandefjord Golfklubb med 18-hulls park- og skogsbane i naturskjønne omgivelser",
+      "alt_en": "Aerial view of Sandefjord Golf Club with 18-hole park and forest course in scenic natural surroundings",
+      "credit": "Sandefjord Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACQAQCdASoJAAcABUB8JbAAApepxIAA/eObNZXvFhBNCcbmA+HUeZK8VjPz9k6SHAA="
+    },
+    {
+      "src": "/courses/sandefjord-golfklubb/sandefjord-golfklubb-fairway-skogsterreng.webp",
+      "alt": "Fairway på Sandefjord Golfklubb omgitt av frodig skogsterreng og naturlige bunkere",
+      "alt_en": "Fairway at Sandefjord Golf Club surrounded by lush forest terrain and natural bunkers",
+      "credit": "Sandefjord Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoKAAcABUB8JYgC7AELKV4XOAAA/pGoFTrdMjGV6s3fpyrEjmDdbH6SchJk5FtxsMbkOoAA"
+    },
+    {
+      "src": "/courses/sandefjord-golfklubb/sandefjord-golfklubb-green-vannhinder.webp",
+      "alt": "Grønn med flagg på Sandefjord Golfklubb med vannhinder og bunkere i forgrunnen",
+      "alt_en": "Green with flag at Sandefjord Golf Club with water hazard and bunkers in the foreground",
+      "credit": "Sandefjord Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAAAwAQCdASoKAAYABUB8JZwAA3AA/vCXK9PG46AA"
+    },
+    {
+      "src": "/courses/sandefjord-golfklubb/sandefjord-golfklubb-hull-utsikt-skog.webp",
+      "alt": "Spektakulær utsikt over hull på Sandefjord Golfklubb med skog og åpent landskap",
+      "alt_en": "Spectacular view over hole at Sandefjord Golf Club with forest and open landscape",
+      "credit": "Sandefjord Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoKAAcABUB8JagCdAELIQ7AAM3S6filt3xkuPM/igNL8mjneh6aleJY23CbigSgAAA="
+    },
+    {
+      "src": "/courses/sandefjord-golfklubb/sandefjord-golfklubb-klubbhus-fasiliteter.webp",
+      "alt": "Klubbhus og fasiliteter ved Sandefjord Golfklubb med bane i bakgrunnen",
+      "alt_en": "Clubhouse and facilities at Sandefjord Golf Club with course in the background",
+      "credit": "Sandefjord Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoKAAcABUB8JYgCdIExGY2Km2twAP7vTEid/2/OJ9zMvnCXfomLQjrXpnKJmxVOjZcSAAAA"
+    }
+  ]
 }

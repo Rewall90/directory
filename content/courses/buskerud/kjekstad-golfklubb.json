@@ -189,7 +189,7 @@
     {
       "tee": "Rød (Dame)",
       "gender": "female",
-      "courseRating": 67.0,
+      "courseRating": 67,
       "slopeRating": 123,
       "par": 68,
       "lengthMeters": 3850
@@ -241,5 +241,35 @@
   "googlePlaceId": "ChIJqTlgMfM-QUYRP0-q3mPeSp4",
   "slug_en": "kjekstad-golf-club",
   "name_en": "Kjekstad Golf Club",
-  "description_en": "Kjekstad Golf Club was founded in 1976 and is beautifully situated in varied terrain with woodland, rock and water, just a short drive from Oslo and Drammen. The club has an 18-hole woodland course and a 9-hole pay and play short course, ideal for both beginners and experienced players. Scenic course in varied terrain. The full 18-hole course opened in 1988. The club has approximately 2,000 members."
+  "description_en": "Kjekstad Golf Club was founded in 1976 and is beautifully situated in varied terrain with woodland, rock and water, just a short drive from Oslo and Drammen. The club has an 18-hole woodland course and a 9-hole pay and play short course, ideal for both beginners and experienced players. Scenic course in varied terrain. The full 18-hole course opened in 1988. The club has approximately 2,000 members.",
+  "images": [
+    {
+      "src": "/courses/kjekstad-golfklubb/kjekstad-golfklubb-flyfoto-oversikt-skogsbane.webp",
+      "alt": "Flyfoto av Kjekstad Golfklubb med 18-hulls skogsbane i vekslende terreng ved Røyken i Asker",
+      "alt_en": "Aerial view of Kjekstad Golf Club with 18-hole forest course in varied terrain near Røyken in Asker",
+      "credit": "Kjekstad Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoKAAYABUB8JYwAAudfS34EAAD7pYd+WakebVs9DLlxteA8U8E4wAAA"
+    },
+    {
+      "src": "/courses/kjekstad-golfklubb/kjekstad-golfklubb-green-vintersesongslutt.webp",
+      "alt": "Green på Kjekstad Golfklubb tidlig på sesongen med naturskjønt skogsterreng rundt banen",
+      "alt_en": "Green at Kjekstad Golf Club early in the season with scenic forest terrain around the course",
+      "credit": "Kjekstad Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoKAAYABUB8JaAAAp0JGAAA/I6HVSBQCNCJlP9Td4lzIbwAAAA="
+    },
+    {
+      "src": "/courses/kjekstad-golfklubb/kjekstad-golfklubb-driving-range-treningsomrade.webp",
+      "alt": "Driving range på Kjekstad Golfklubb med moderne treningsfasiliteter i skogsmiljø",
+      "alt_en": "Driving range at Kjekstad Golf Club with modern practice facilities in forest setting",
+      "credit": "Kjekstad Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoKAAYABUB8JZAAAuWrwoAA8pbNXQc9Vyf8VQ4L9fv1E33FVSkAAA=="
+    },
+    {
+      "src": "/courses/kjekstad-golfklubb/kjekstad-golfklubb-bane-fairway-naturopplevelse.webp",
+      "alt": "Fairway på Kjekstad Golfklubb omgitt av frodig skogsvegetasjon i Buskerud",
+      "alt_en": "Fairway at Kjekstad Golf Club surrounded by lush forest vegetation in Buskerud",
+      "credit": "Kjekstad Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoKAAcABUB8JaQAAunDHspEsQAA/tUWqHpWzVAHvjzJSsI/jCf9U3fUvfDQAAAA"
+    }
+  ]
 }

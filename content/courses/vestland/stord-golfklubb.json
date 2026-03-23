@@ -260,7 +260,10 @@
     "dataQuality": "94.0",
     "websiteQuality": "good",
     "completenessPercentage": 94,
-    "pagesScraped": ["homepage", "medlemskap"],
+    "pagesScraped": [
+      "homepage",
+      "medlemskap"
+    ],
     "scrapedAt": "2026-02-14T17:40:00.000Z",
     "createdAt": "2025-10-31T10:17:01.422Z",
     "updatedAt": "2026-02-14T17:40:00.000Z"
@@ -268,5 +271,14 @@
   "googlePlaceId": "ChIJi14WNWZ5PEYR7WLXeOr5TOQ",
   "slug_en": "stord-golf-club",
   "name_en": "Stord Golf Club",
-  "description_en": "Stord Golf Club - 9-hole parkland/woodland course established in 1992 on Stord in Sunnhordland. Par 34 (68 for 18 holes played twice), 2,060 metres. Undulating terrain with water hazards. Hole composition: 1 par 5, 5 par 4s, 3 par 3s. Moderate technical difficulty."
+  "description_en": "Stord Golf Club - 9-hole parkland/woodland course established in 1992 on Stord in Sunnhordland. Par 34 (68 for 18 holes played twice), 2,060 metres. Undulating terrain with water hazards. Hole composition: 1 par 5, 5 par 4s, 3 par 3s. Moderate technical difficulty.",
+  "images": [
+    {
+      "src": "/courses/stord-golfklubb/stord-golfklubb-fairway-skog.webp",
+      "alt": "Fairway på Stord Golfklubb med trær og naturterreng ved Stord",
+      "alt_en": "Fairway at Stord Golf Club with trees and natural terrain near Stord",
+      "credit": "Stord Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACQAQCdASoHAAcABUB8JZwAAppZdAAA/urq5qpX9UpvuzncTJnwXAVWe2AFkAAA"
+    }
+  ]
 }

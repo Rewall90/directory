@@ -205,5 +205,19 @@
   "googlePlaceId": "ChIJk32f32F7QUYRXnX2kYI4AEc",
   "slug_en": "lillestrom-golf-club",
   "name_en": "Lillestrom Golf Club",
-  "description_en": "9-hole course approved by the Norwegian Golf Federation, opened in 2021. The course has approximately 900 members. Designed without changes to the existing landscape."
+  "description_en": "9-hole course approved by the Norwegian Golf Federation, opened in 2021. The course has approximately 900 members. Designed without changes to the existing landscape.",
+  "images": [
+    {
+      "src": "/courses/lillestrom-golfklubb/lillestrom-golfklubb-driving-range-klubbhus.webp",
+      "alt": "Driving range på Lillestrøm Golfklubb med spillere og klubbhus i bakgrunnen",
+      "alt_en": "Driving range at Lillestrøm Golf Club with players and clubhouse in the background",
+      "credit": "Lillestrøm Golfklubb"
+    },
+    {
+      "src": "/courses/lillestrom-golfklubb/lillestrom-golfklubb-fairway-spillere-skog.webp",
+      "alt": "Fairway på Lillestrøm Golfklubb med spillere på green omgitt av skogsterreng",
+      "alt_en": "Fairway at Lillestrøm Golf Club with players on green surrounded by forest terrain",
+      "credit": "Lillestrøm Golfklubb"
+    }
+  ]
 }

@@ -197,7 +197,12 @@
     "dataQuality": "94.0",
     "websiteQuality": null,
     "completenessPercentage": 94,
-    "pagesScraped": ["prisliste", "greenfee", "kurskalender", "aarsmote"],
+    "pagesScraped": [
+      "prisliste",
+      "greenfee",
+      "kurskalender",
+      "aarsmote"
+    ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T10:16:53.422Z",
     "updatedAt": "2026-02-15T12:00:00.000Z",
@@ -206,5 +211,35 @@
   "googlePlaceId": "ChIJSdpfMtNYPEYRxUAAJcoq6Lg",
   "slug_en": "bjornefjorden-golf-club",
   "name_en": "Bjornefjorden Golf Club",
-  "description_en": "Bjornefjorden Golf Club - 9-hole parkland/woodland course established in 1994 in Os. Par 34 (68 for 18 holes). Long par 5 holes, short par 3 holes, and narrow fairways on par 4 holes requiring precision off the tee. Plus a 6-hole Pitch & Putt course (holes up to approx. 100 metres). Hole 8 has a temporary green whilst a new green is being built."
+  "description_en": "Bjornefjorden Golf Club - 9-hole parkland/woodland course established in 1994 in Os. Par 34 (68 for 18 holes). Long par 5 holes, short par 3 holes, and narrow fairways on par 4 holes requiring precision off the tee. Plus a 6-hole Pitch & Putt course (holes up to approx. 100 metres). Hole 8 has a temporary green whilst a new green is being built.",
+  "images": [
+    {
+      "src": "/courses/bjornefjorden-golfklubb/bjornefjorden-golfklubb-fairway-fjord-mountain-view.webp",
+      "alt": "Fairway på Bjørnefjorden Golfklubb med utsikt til fjord, fjell og Folgefonna i bakgrunnen",
+      "alt_en": "Fairway at Bjørnefjorden Golf Club with view of fjord, mountains and Folgefonna glacier in the background",
+      "credit": "Bjørnefjorden Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoJAAcABUB8JbACdAEO5LmiHgDiegZ7Wpa+Hm2KIg83w/oW/4u27T2avg1vDhykAAA="
+    },
+    {
+      "src": "/courses/bjornefjorden-golfklubb/bjornefjorden-golfklubb-green-folgefonna.webp",
+      "alt": "Green med utsikt til Folgefonna på Bjørnefjorden Golfklubb i park- og skogsterreng",
+      "alt_en": "Green with view of Folgefonna glacier at Bjørnefjorden Golf Club in park and forest terrain",
+      "credit": "Bjørnefjorden Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoJAAcABUB8JbAAAlr/3eMAAP3wesxhL82M3AwzlQ+L/c6yqv4VHRjHaQooAA=="
+    },
+    {
+      "src": "/courses/bjornefjorden-golfklubb/bjornefjorden-golfklubb-park-forest-course.webp",
+      "alt": "Bjørnefjorden Golfklubbs 9-hulls park- og skogsbane med utslag og fjordutsikt",
+      "alt_en": "Bjørnefjorden Golf Club's 9-hole park and forest course with tee boxes and fjord view",
+      "credit": "Bjørnefjorden Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoJAAcABUB8JbACw7EWTsgYaAAA/al8AltRyfq4Yjv0Fl5utpljDL2ON3JB/gAA"
+    },
+    {
+      "src": "/courses/bjornefjorden-golfklubb/bjornefjorden-golfklubb-course-overview.webp",
+      "alt": "Golfbanen på Bjørnefjorden Golfklubb sentralt ved Os sentrum med bunkere og grønne fairways",
+      "alt_en": "Golf course at Bjørnefjorden Golf Club centrally located by Os town center with bunkers and green fairways",
+      "credit": "Bjørnefjorden Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoHAAcABUB8JYwCdAEPDMCn4AD+rGRjWTduQIV+qcQTBnAjaaqH7z9nAAA="
+    }
+  ]
 }

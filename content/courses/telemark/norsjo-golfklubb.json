@@ -204,5 +204,37 @@
   "googlePlaceId": "ChIJFbFq6ZQ5R0YRpOJNbKt3MvY",
   "slug_en": "norsjo-golf-club",
   "name_en": "Norsjø Golf Club",
-  "description_en": "One of Norway's most demanding 18-hole courses, idyllically situated by Lake Norsjo and the Telemark Canal. Two holes are ranked among Norway's 100 most spectacular. Hole 11 is one of the country's most photographed par-3 holes."
+  "description_en": "One of Norway's most demanding 18-hole courses, idyllically situated by Lake Norsjo and the Telemark Canal. Two holes are ranked among Norway's 100 most spectacular. Hole 11 is one of the country's most photographed par-3 holes.",
+  "images": [
+    {
+      "src": "/courses/norsjo-golfklubb/norsjo-golfklubb-flyfoto-klubbhus-bane.webp",
+      "alt": "Flyfoto av Norsjø Golfklubb med klubbhus og golfbane omgitt av grønne skoger i Telemark",
+      "alt_en": "Aerial view of Norsjø Golf Club with clubhouse and golf course surrounded by green forests in Telemark",
+      "credit": "Norsjø Golfklubb"
+    },
+    {
+      "src": "/courses/norsjo-golfklubb/norsjo-golfklubb-flyfoto-fairways-naturomgivelser.webp",
+      "alt": "Flyfoto av Norsjø Golfklubb med oversikt over fairways og naturskjønne omgivelser",
+      "alt_en": "Aerial view of Norsjø Golf Club showing fairways and scenic natural surroundings",
+      "credit": "Norsjø Golfklubb"
+    },
+    {
+      "src": "/courses/norsjo-golfklubb/norsjo-golfklubb-hull-15-flyfoto.webp",
+      "alt": "Hull 15 på Norsjø Golfklubb sett fra luften med fairway og grønn omgitt av skog",
+      "alt_en": "Hole 15 at Norsjø Golf Club from aerial view with fairway and green surrounded by forest",
+      "credit": "Norsjø Golfklubb"
+    },
+    {
+      "src": "/courses/norsjo-golfklubb/norsjo-golfklubb-hull-11-flyfoto.webp",
+      "alt": "Hull 11 på Norsjø Golfklubb sett fra luften med fairway gjennom skogsterreng",
+      "alt_en": "Hole 11 at Norsjø Golf Club from aerial view with fairway through forest terrain",
+      "credit": "Norsjø Golfklubb"
+    },
+    {
+      "src": "/courses/norsjo-golfklubb/norsjo-golfklubb-hull-13-flyfoto.webp",
+      "alt": "Hull 13 på Norsjø Golfklubb med flyfoto av fairway og strategiske bunkere",
+      "alt_en": "Hole 13 at Norsjø Golf Club with aerial view of fairway and strategic bunkers",
+      "credit": "Norsjø Golfklubb"
+    }
+  ]
 }

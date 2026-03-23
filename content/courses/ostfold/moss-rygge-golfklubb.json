@@ -201,10 +201,29 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": ["start/gjest", "start/gjest/greenfee"],
+    "pagesScraped": [
+      "start/gjest",
+      "start/gjest/greenfee"
+    ],
     "scrapedAt": "2026-02-14T16:14:00.000Z",
     "createdAt": "2025-10-31T11:42:06.848Z",
     "updatedAt": "2026-02-14T16:14:00.000Z"
   },
-  "googlePlaceId": "ChIJa7Gr8w2tRkYRr2ZCY3XGLJ8"
+  "googlePlaceId": "ChIJa7Gr8w2tRkYRr2ZCY3XGLJ8",
+  "images": [
+    {
+      "src": "/courses/moss-rygge-golfklubb/moss-rygge-golfklubb-flyfoto-evje-golfpark.webp",
+      "alt": "Flyfoto av Moss & Rygge Golfklubb ved Evjesund i Oslofjorden med fairways og greener i skogsterreng",
+      "alt_en": "Aerial photo of Moss & Rygge Golf Club by Evjesund in the Oslo Fjord with fairways and greens in forested terrain",
+      "credit": "Moss & Rygge Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoKAAYABUB8JZgCdADbQahcAADwOQg/IwhbAH7kGZFNgGYjvadA4OC6VGgTuE8Om4tvLB5GQAA="
+    },
+    {
+      "src": "/courses/moss-rygge-golfklubb/moss-rygge-golfklubb-evje-golfpark-oversikt.webp",
+      "alt": "Oversiktsbilde av Evje Golfpark med golfbane, fairway og utsikt over fjorden nær Moss",
+      "alt_en": "Overview of Evje Golf Park with golf course, fairway and view over the fjord near Moss",
+      "credit": "Moss & Rygge Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoKAAYABUB8JbAAApy7C0V5gAD+qhyet15dOBjZwjdydwa1+zLLRycbs7DImH17ki+KP0ricQAAAA=="
+    }
+  ]
 }

@@ -204,5 +204,31 @@
   "googlePlaceId": "ChIJ4VESzPIWakYRRl9bBvYettE",
   "slug_en": "sorknes-golf-club",
   "name_en": "Sorknes Golf Club",
-  "description_en": "The course at Sorknes has its own distinctive character as an 18-hole course offering fine nature experiences. A woodland and parkland course with a river as a water hazard."
+  "description_en": "The course at Sorknes has its own distinctive character as an 18-hole course offering fine nature experiences. A woodland and parkland course with a river as a water hazard.",
+  "images": [
+    {
+      "src": "/courses/sorknes-golfklubb/sorknes-golfklubb-oversiktsbilde-klubbhus-bane.webp",
+      "alt": "Oversiktsbilde av Sorknes Golfklubb med klubbhus og golfbane i furuskogsterreng ved Rena",
+      "alt_en": "Overview of Sorknes Golf Club with clubhouse and golf course in pine forest terrain near Rena",
+      "credit": "Sorknes Golfklubb"
+    },
+    {
+      "src": "/courses/sorknes-golfklubb/sorknes-golfklubb-hull-18-klubbhus.webp",
+      "alt": "Hull 18 på Sorknes Golfklubb med klubbhus i bakgrunnen omgitt av furuskog",
+      "alt_en": "Hole 18 at Sorknes Golf Club with clubhouse in the background surrounded by pine forest",
+      "credit": "Sorknes Golfklubb"
+    },
+    {
+      "src": "/courses/sorknes-golfklubb/sorknes-golfklubb-tjern-vannhinder.webp",
+      "alt": "Tjern som vannhinder ved hull 3, 4 og 5 på Sorknes Golfklubb i Innlandet",
+      "alt_en": "Pond water hazard at holes 3, 4 and 5 at Sorknes Golf Club in Innlandet",
+      "credit": "Sorknes Golfklubb"
+    },
+    {
+      "src": "/courses/sorknes-golfklubb/sorknes-golfklubb-klubbhus-inngang.webp",
+      "alt": "Hovedinngangen til klubbhuset på Sorknes Golfklubb med terrasse og utsikt mot banen",
+      "alt_en": "Main entrance to the clubhouse at Sorknes Golf Club with terrace and view of the course",
+      "credit": "Sorknes Golfklubb"
+    }
+  ]
 }

@@ -208,7 +208,11 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": ["homepage", "priser", "medlemsskap"],
+    "pagesScraped": [
+      "homepage",
+      "priser",
+      "medlemsskap"
+    ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:16.448Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
@@ -216,5 +220,35 @@
   "googlePlaceId": "ChIJs36bs7qBQUYR1o8Lorp4hbA",
   "slug_en": "ullensaker-golf-club",
   "name_en": "Ullensaker Golf Club",
-  "description_en": "Situated between Jessheim and Gardermoen, just minutes from the E6 motorway, lies a gem of a golf course. With its superb and challenging 9 holes, it is perfect for a quick round before or after work on weekdays. We also have an excellent practice area, putting green, driving range, and pro shop."
+  "description_en": "Situated between Jessheim and Gardermoen, just minutes from the E6 motorway, lies a gem of a golf course. With its superb and challenging 9 holes, it is perfect for a quick round before or after work on weekdays. We also have an excellent practice area, putting green, driving range, and pro shop.",
+  "images": [
+    {
+      "src": "/courses/ullensaker-golfklubb/ullensaker-golfklubb-oversikt-bane.webp",
+      "alt": "Oversiktsbilde av Ullensaker Golfklubb med fairway og grønne omgivelser ved Jessheim",
+      "alt_en": "Overview of Ullensaker Golf Club with fairway and green surroundings near Jessheim",
+      "credit": "Ullensaker Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoKAAcABUB8JaAAApxW8JAA/sBtKNiTE9nEL/+CYnj7IAAA"
+    },
+    {
+      "src": "/courses/ullensaker-golfklubb/ullensaker-golfklubb-bane-detalj.webp",
+      "alt": "Ullensaker Golfklubb golfbane med flotte spilleforhold i naturskjønne omgivelser",
+      "alt_en": "Ullensaker Golf Club course with excellent playing conditions in scenic natural surroundings",
+      "credit": "Ullensaker Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoJAAcABUB8JbACdAD0tPcrwADyZC3pr9dezz4VGUkh4fLOLW9+ZspiXpNxeF91B3cntAAAAAA="
+    },
+    {
+      "src": "/courses/ullensaker-golfklubb/ullensaker-golfklubb-kveldssol-bane.webp",
+      "alt": "Nydelig kveldsstemning på Ullensaker Golfklubb med solnedgang over fairways",
+      "alt_en": "Beautiful evening atmosphere at Ullensaker Golf Club with sunset over the fairways",
+      "credit": "Martin Kopperud",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoGAAcABUB8JYwC7ADzd7/AAN+NEyFBbJ+pl4jRwwJJt1uuAAA="
+    },
+    {
+      "src": "/courses/ullensaker-golfklubb/ullensaker-golfklubb-spillere-sommervaer.webp",
+      "alt": "Golfspillere på Ullensaker Golfklubb under Jessheim Open i strålende sommervær",
+      "alt_en": "Golfers at Ullensaker Golf Club during Jessheim Open in brilliant summer weather",
+      "credit": "Ullensaker Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoGAAcABUB8JQBOgCHcVnguAAD2HFRXUkdGyAxQD4p4KWYOGgAAAA=="
+    }
+  ]
 }

@@ -53,6 +53,7 @@ export function BlogCourseCard({
               width={120}
               height={120}
               className="rounded-lg object-cover"
+              loading="lazy"
             />
           </div>
         )}

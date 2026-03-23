@@ -180,5 +180,31 @@
   "googlePlaceId": "ChIJk63DhBESQUYRVyiBAFLmvcU",
   "slug_en": "lommedalen-golf-club",
   "name_en": "Lommedalen Golf Club",
-  "description_en": "Pay and Play - Golf for All. A simple and enjoyable golf experience. The concept is based on making golf accessible for both new and experienced golfers at an affordable price."
+  "description_en": "Pay and Play - Golf for All. A simple and enjoyable golf experience. The concept is based on making golf accessible for both new and experienced golfers at an affordable price.",
+  "images": [
+    {
+      "src": "/courses/lommedalen-golfklubb/lommedalen-golfklubb-green-sandbunker-skog.webp",
+      "alt": "Green på Lommedalen Golfklubb med sandbunker omgitt av tett skog under blå himmel",
+      "alt_en": "Green at Lommedalen Golf Club with sand bunker surrounded by dense forest under blue sky",
+      "credit": "Lommedalen Golfklubb"
+    },
+    {
+      "src": "/courses/lommedalen-golfklubb/lommedalen-golfklubb-fairway-golfbag-skogsterreng.webp",
+      "alt": "Fairway på Lommedalen Golfklubb med golfbag, gressplen og trær under blå himmel med skyer",
+      "alt_en": "Fairway at Lommedalen Golf Club with golf bag, grass and trees under blue sky with clouds",
+      "credit": "Lommedalen Golfklubb"
+    },
+    {
+      "src": "/courses/lommedalen-golfklubb/lommedalen-golfklubb-bane-skoglandskap-oversikt.webp",
+      "alt": "Lommedalen Golfklubb med grønt landskap, tett skog i bakgrunnen og blå himmel med spredte skyer",
+      "alt_en": "Lommedalen Golf Club with green landscape, dense forest in background and blue sky with scattered clouds",
+      "credit": "Lommedalen Golfklubb"
+    },
+    {
+      "src": "/courses/lommedalen-golfklubb/lommedalen-golfklubb-spiller-utslag-solskinnsdag.webp",
+      "alt": "Golfspiller på Lommedalen Golfklubb med utslag på solfylt dag med trær i bakgrunnen",
+      "alt_en": "Golf player at Lommedalen Golf Club teeing off on sunny day with trees in background",
+      "credit": "Lommedalen Golfklubb"
+    }
+  ]
 }

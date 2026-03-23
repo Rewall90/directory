@@ -270,10 +270,50 @@
     "dataQuality": "96.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 96,
-    "pagesScraped": ["forside", "medlemskap"],
+    "pagesScraped": [
+      "forside",
+      "medlemskap"
+    ],
     "scrapedAt": "2026-02-14T16:35:00.000Z",
     "createdAt": "2025-10-31T09:10:42.986Z",
     "updatedAt": "2026-02-14T16:35:00.000Z"
   },
-  "googlePlaceId": "ChIJAQAAAJC5RkYRJtCCgFonHGU"
+  "googlePlaceId": "ChIJAQAAAJC5RkYRJtCCgFonHGU",
+  "images": [
+    {
+      "src": "/courses/notteroy-golfklubb/notteroy-golfklubb-flyfoto-fairways-oversikt.webp",
+      "alt": "Flyfoto av Nøtterøy Golfklubb med fairways og greener i skogslandskap på Nøtterøy",
+      "alt_en": "Aerial view of Nøtterøy Golf Club with fairways and greens in forest landscape on Nøtterøy",
+      "credit": "Nøtterøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoKAAYABUB8JbACdADyM1kAAP5VJkRNsf9Hrc/4LyMRfQthxQf5bD781t4TAAAA"
+    },
+    {
+      "src": "/courses/notteroy-golfklubb/notteroy-golfklubb-hull-13-vannhinder-drone.webp",
+      "alt": "Hull 13 på Nøtterøy Golfklubb sett ovenfra, par 3 med vannhinder foran green",
+      "alt_en": "Hole 13 at Nøtterøy Golf Club seen from above, par 3 with water hazard in front of green",
+      "credit": "Nøtterøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoKAAYABUB8JQBOgB5XTcRUAP4Zrd7znkG64BL2URmuxChclO5kcAAA"
+    },
+    {
+      "src": "/courses/notteroy-golfklubb/notteroy-golfklubb-hull-8-par3-drone.webp",
+      "alt": "Hull 8 på Nøtterøy Golfklubb sett ovenfra, par 3 med green omgitt av skog",
+      "alt_en": "Hole 8 at Nøtterøy Golf Club from above, par 3 with green surrounded by forest",
+      "credit": "Nøtterøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoKAAYABUB8JbAC7ADxuKAA/oN+/g2E0Ib//ikCu9Pbm3W/iD0VQHYlY3gAAA=="
+    },
+    {
+      "src": "/courses/notteroy-golfklubb/notteroy-golfklubb-putting-green-flagg.webp",
+      "alt": "Spiller gjør seg klar til putting på green ved Nøtterøy Golfklubb med flagg",
+      "alt_en": "Player preparing to putt on green at Nøtterøy Golf Club with flag",
+      "credit": "Nøtterøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAYABUB8JbAC7AD5djplAAD+wFEFv4bbJxgohJURB/ZZqeqqebAsQAA="
+    },
+    {
+      "src": "/courses/notteroy-golfklubb/notteroy-golfklubb-treningsomrade-chipping.webp",
+      "alt": "Treningsområdet for chipping ved Nøtterøy Golfklubb sett ovenfra med øvingsgreener",
+      "alt_en": "Chipping practice area at Nøtterøy Golf Club from above with practice greens",
+      "credit": "Nøtterøy Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoKAAYABUB8JZgC7AEO9tfL0AD2JTeanXx7lvNl6cNXDoULyAA="
+    }
+  ]
 }

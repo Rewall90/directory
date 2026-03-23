@@ -234,7 +234,11 @@
     "dataQuality": "94.0",
     "websiteQuality": "good",
     "completenessPercentage": 94,
-    "pagesScraped": ["homepage", "gjester", "medlemskap"],
+    "pagesScraped": [
+      "homepage",
+      "gjester",
+      "medlemskap"
+    ],
     "scrapedAt": "2026-02-14T17:38:00.000Z",
     "createdAt": "2025-10-31T10:17:00.961Z",
     "updatedAt": "2026-02-14T20:34:00.000Z"
@@ -242,5 +246,35 @@
   "googlePlaceId": "ChIJYbX51k_kPEYRQL9-ucbdZeI",
   "slug_en": "sotra-golf-club",
   "name_en": "Sotra Golf Club",
-  "description_en": "Sotra Golf Club - 9-hole parkland/woodland course established in 2000 in Kolltveit. Main course: par 30 (60 for 18 holes played twice), 2,984 yards (approx. 2,728m). The club also has a 9-hole Pitch & Putt course for practice with hole lengths from 42 to 73 metres. Located on Sotra, a short drive from Bergen."
+  "description_en": "Sotra Golf Club - 9-hole parkland/woodland course established in 2000 in Kolltveit. Main course: par 30 (60 for 18 holes played twice), 2,984 yards (approx. 2,728m). The club also has a 9-hole Pitch & Putt course for practice with hole lengths from 42 to 73 metres. Located on Sotra, a short drive from Bergen.",
+  "images": [
+    {
+      "src": "/courses/sotra-golfklubb/sotra-golfklubb-hull-3-green-flagg.webp",
+      "alt": "Hull 3 på Sotra Golfklubb med green, flagg og skogsterreng på Sotra i Vestland",
+      "alt_en": "Hole 3 at Sotra Golf Club with green, flag and forest terrain on Sotra in Vestland",
+      "credit": "Sotra Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoHAAcABUB8JaACdADzHMkAAOICikS9xvfvHBkIFs8E0mFad0ZWDhr7QGlxD8IcAAA="
+    },
+    {
+      "src": "/courses/sotra-golfklubb/sotra-golfklubb-hull-7-fairway-utsikt.webp",
+      "alt": "Hull 7 på Sotra Golfklubb med fairway gjennom naturskjønn skogsterreng",
+      "alt_en": "Hole 7 at Sotra Golf Club with fairway through scenic forest terrain",
+      "credit": "Sotra Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACQAQCdASoKAAcABUB8JbAC7ADyN4AA/CFDgh8gdfF3KPOYFhdrAp3cI5XmlQBgAAA="
+    },
+    {
+      "src": "/courses/sotra-golfklubb/sotra-golfklubb-hull-8-oversikt.webp",
+      "alt": "Hull 8 på Sotra Golfklubb med oversikt over fairway og naturterreng",
+      "alt_en": "Hole 8 at Sotra Golf Club with overview of fairway and natural terrain",
+      "credit": "Sotra Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoKAAYABUB8JZAAAu0QEYnAAM3xQv8Zho/q9HxLqATX06nN/LAAAA=="
+    },
+    {
+      "src": "/courses/sotra-golfklubb/sotra-golfklubb-pitch-putt-bane-oversikt.webp",
+      "alt": "Pitch & Putt-banen på Sotra Golfklubb med greener og fairways i skogsterreng",
+      "alt_en": "Pitch & Putt course at Sotra Golf Club with greens and fairways in forest terrain",
+      "credit": "Sotra Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoKAAcABUB8JZAAAmirJhU4AAD+P1x5qyx7se3BCx4k81nRfgwPbI6vyt4q+AAA"
+    }
+  ]
 }

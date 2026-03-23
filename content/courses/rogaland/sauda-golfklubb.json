@@ -290,5 +290,35 @@
   "googlePlaceId": "ChIJgSUgrx7_O0YRRINFv2Jby-0",
   "slug_en": "sauda-golf-club",
   "name_en": "Sauda Golf Club",
-  "description_en": "Sauda Golf Club is a 9-hole woodland course in scenic surroundings at Saudasjoeen, three kilometres from Sauda town centre, at the head of the Ryfylke fjord. Opened in 2008. Par 30. Self-service course with a cabin-style clubhouse. Stunning views towards the Saudafjord."
+  "description_en": "Sauda Golf Club is a 9-hole woodland course in scenic surroundings at Saudasjoeen, three kilometres from Sauda town centre, at the head of the Ryfylke fjord. Opened in 2008. Par 30. Self-service course with a cabin-style clubhouse. Stunning views towards the Saudafjord.",
+  "images": [
+    {
+      "src": "/courses/sauda-golfklubb/sauda-golfklubb-flyfoto-oversikt-gronsdal.webp",
+      "alt": "Flyfoto av Sauda Golfklubb med oversikt over banen i naturskjønne Grønsdal ved Ryfylkefjorden",
+      "alt_en": "Aerial view of Sauda Golf Club with overview of the course in scenic Grønsdal by the Ryfylke Fjord",
+      "credit": "Sauda Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAgCdASoKAAcABUB8JYgCdADdY1X7WcQAAP4+Gkp8ocDABZpWdaST+8B9GKjazsKQ+AAA"
+    },
+    {
+      "src": "/courses/sauda-golfklubb/sauda-golfklubb-hull-9-klubbhus.webp",
+      "alt": "Hull 9 på Sauda Golfklubb med klubbhus og utsikt over Saudasjøen",
+      "alt_en": "Hole 9 at Sauda Golf Club with clubhouse and view over Saudasjøen",
+      "credit": "Sauda Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoJAAcABUB8JYwAAppyY4AA/Z1WfBIRjScD/K9beX1992Bwo8PvjjgkbAAAAA=="
+    },
+    {
+      "src": "/courses/sauda-golfklubb/sauda-golfklubb-flyfoto-hull-3-4-5-6.webp",
+      "alt": "Flyfoto av hull 3, 4, 5 og 6 på Sauda Golfklubb i kupert skogsterreng",
+      "alt_en": "Aerial view of holes 3, 4, 5 and 6 at Sauda Golf Club in hilly forest terrain",
+      "credit": "Sauda Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoKAAcABUB8JaACdAELGuCAAP6VCLeuUBM2g3SPGeQHvBdjhxaxj0AA"
+    },
+    {
+      "src": "/courses/sauda-golfklubb/sauda-golfklubb-hull-2-panorama.webp",
+      "alt": "Hull 2 på Sauda Golfklubb med utsikt over fjord og fjell i Ryfylke",
+      "alt_en": "Hole 2 at Sauda Golf Club with view of fjord and mountains in Ryfylke",
+      "credit": "Sauda Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoKAAcABUB8JYgAAubl4JfAAP7XLiGMVDkDam9zcZTGO55p8eL9eAAA"
+    }
+  ]
 }

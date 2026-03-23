@@ -240,7 +240,12 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 95,
-    "pagesScraped": ["gjest", "medlem", "greenfeepriser", "golfbil"],
+    "pagesScraped": [
+      "gjest",
+      "medlem",
+      "greenfeepriser",
+      "golfbil"
+    ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T12:22:39.690Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
@@ -248,5 +253,35 @@
   "googlePlaceId": "ChIJ-cH2oa8GR0YR4z3LLiH2Mbs",
   "slug_en": "kragero-golf-club",
   "name_en": "Kragerø Golf Club",
-  "description_en": "Voted 'Norway's Best Golf Course' and set within a large 1,700-acre wooded property. A tree-lined parkland course with undulating terrain, surrounded by forests and rocky outcrops. Opened in 2003 with international-standard quality."
+  "description_en": "Voted 'Norway's Best Golf Course' and set within a large 1,700-acre wooded property. A tree-lined parkland course with undulating terrain, surrounded by forests and rocky outcrops. Opened in 2003 with international-standard quality.",
+  "images": [
+    {
+      "src": "/courses/kragero-golfklubb/kragero-golfklubb-flyfoto-bane-skog.webp",
+      "alt": "Flyfoto av Kragerø Golfklubb med fairways, grønne og skogsterreng ved kysten",
+      "alt_en": "Aerial view of Kragerø Golf Club with fairways, greens and forest terrain by the coast",
+      "credit": "Kragerø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoGAAcABUB8JQBdgCHdFDswAM3qtQoY3Xgs+pjoMop11D9yw8DFMAAA"
+    },
+    {
+      "src": "/courses/kragero-golfklubb/kragero-golfklubb-bunker-spiller-sand.webp",
+      "alt": "Golfspiller slår fra bunker på Kragerø Golfklubb med sandsprut og golfbane i bakgrunnen",
+      "alt_en": "Golfer hitting from bunker at Kragerø Golf Club with sand spray and golf course in the background",
+      "credit": "Haakon Sundbø / Kragerø Resort",
+      "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoKAAcABUB8JbACdAEVjFrQAP5b1bZ3CWy6Ma93w6p2aRtgiTd2u9smt8NHn/uGc8SAUXA8AAA="
+    },
+    {
+      "src": "/courses/kragero-golfklubb/kragero-golfklubb-putting-green-spiller.webp",
+      "alt": "Putting green på Kragerø Golfklubb med golfspillere og klubbhus i bakgrunnen",
+      "alt_en": "Putting green at Kragerø Golf Club with golfers and clubhouse in the background",
+      "credit": "Kragerø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoKAAcABUB8JbACdADcAumAAP7FFGiHp2DW/JERCEeDGbRnIIhhZLL1hJB5YST6BRygkwjpwAA="
+    },
+    {
+      "src": "/courses/kragero-golfklubb/kragero-golfklubb-oversiktsbilde-bane-klubbhus.webp",
+      "alt": "Oversiktsbilde av Kragerø Golfklubb med klubbhus, fairways og naturskjønt landskap",
+      "alt_en": "Overview of Kragerø Golf Club with clubhouse, fairways and scenic landscape",
+      "credit": "Kragerø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoKAAYABUB8JbAC7ADdJI5CrAAA/uBlA6bzSQMbfNOHtMxvDyG+AAAA"
+    }
+  ]
 }

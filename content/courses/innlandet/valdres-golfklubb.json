@@ -209,5 +209,19 @@
   "googlePlaceId": "ChIJoZgEcekDQEYRsPSphPNuoxc",
   "slug_en": "valdres-golf-club",
   "name_en": "Valdres Golf Club",
-  "description_en": "One of the country's finest golf courses, situated between water and mountains in Vestringsbygda, Aurdal. 18-hole course with the option of 9-hole play (Front 9 and Back 9). The club was established on 28 November 1997."
+  "description_en": "One of the country's finest golf courses, situated between water and mountains in Vestringsbygda, Aurdal. 18-hole course with the option of 9-hole play (Front 9 and Back 9). The club was established on 28 November 1997.",
+  "images": [
+    {
+      "src": "/courses/valdres-golfklubb/valdres-golfklubb-regnbue-landskap.webp",
+      "alt": "Valdres Golfklubb med regnbue over banen og fjellene i bakgrunnen",
+      "alt_en": "Valdres Golf Club with rainbow over the course and mountains in the background",
+      "credit": "Valdres Golfklubb"
+    },
+    {
+      "src": "/courses/valdres-golfklubb/valdres-golfklubb-bane-utsikt.webp",
+      "alt": "Golfbanen til Valdres Golfklubb i naturskjønt terreng ved Aurdalsvannet",
+      "alt_en": "Golf course at Valdres Golf Club in scenic terrain by Lake Aurdal",
+      "credit": "Valdres Golfklubb"
+    }
+  ]
 }

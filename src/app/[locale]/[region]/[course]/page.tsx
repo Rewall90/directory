@@ -29,6 +29,7 @@ export interface DisplayPhoto {
   url: string;
   alt: string;
   credit?: string;
+  placeholder?: string;
 }
 
 // Revalidate every 30 minutes to keep photo URLs fresh (URLs expire after ~1 hour)
@@ -171,6 +172,7 @@ export default async function CoursePage({ params }: Props) {
       url: img.src,
       alt: localeType === "en" && img.alt_en ? img.alt_en : img.alt,
       credit: img.credit,
+      placeholder: img.placeholder,
     }));
   } else {
     const placePhotos = course.googlePlaceId ? await getPlacePhotos(course.googlePlaceId, 4) : [];
