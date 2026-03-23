@@ -19,28 +19,29 @@
   "course": {
     "holes": 18,
     "holesPlayed": 18,
-    "par": null,
-    "parPerRound": null,
-    "lengthMeters": null,
+    "par": 68,
+    "parPerRound": 68,
+    "lengthMeters": 4852,
     "lengthYards": null,
-    "lengthNote": null,
+    "lengthNote": "4852 m fra hvit tee (lengste). Banen har 4 tee-sett.",
     "terrain": "Skog- og parkbane",
     "courseType": "18-hulls skogsbane + 9-hulls Pay & Play korthullsbane",
-    "designer": null,
+    "designer": "Jan Sederholm",
     "yearBuilt": 1976,
     "yearRedesigned": 1988,
-    "waterHazards": null,
-    "signatureHole": "Variert og naturskjønn golfbane i skogsterreng med fjell og vann. Gapahuk ved Stordammen på hull 10.",
-    "scenicHole": "Variert og naturskjønn golfbane i skogsterreng med fjell og vann. Gapahuk ved Stordammen på hull 10.",
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "waterHazards": true,
+    "signatureHole": "Hull 10 (par 4) - Dramatisk utslag over Stordammen med gapahuk og flott utsikt over vannet",
+    "scenicHole": "Hull 14 (par 3) - Naturskjønt hull i skogsterreng med vann og fjell",
+    "par3Count": 7,
+    "par4Count": 8,
+    "par5Count": 3,
     "mountainViews": false,
     "viewDescription": "Naturskjønn bane i variert terreng med skog, fjell og vann. Gapahuk ved Stordammen gir flott mulighet til pause med utsikt over vannet. Bare kort kjøretur fra Oslo og Drammen.",
+    "lengthNote_en": "4852 m from white tee (longest). The course has 4 tee sets.",
     "terrain_en": "Woodland and parkland course",
     "courseType_en": "18-hole woodland course + 9-hole pay and play short course",
-    "signatureHole_en": "Varied and scenic golf course in woodland terrain with rock and water. Shelter at Stordammen on hole 10.",
-    "scenicHole_en": "Varied and scenic golf course in woodland terrain with rock and water. Shelter at Stordammen on hole 10.",
+    "signatureHole_en": "Hole 10 (par 4) - Dramatic tee shot across Stordammen lake with shelter and great views over the water",
+    "scenicHole_en": "Hole 14 (par 3) - Scenic hole in woodland terrain with water and rock",
     "viewDescription_en": "Scenic course in varied terrain with woodland, rock and water. A shelter at Stordammen provides a splendid opportunity for a break with views over the water. Just a short drive from Oslo and Drammen."
   },
   "description": "Kjekstad Golfklubb ble stiftet i 1976 og ligger vakkert til i variert terreng med skog, fjell og vann, bare en kort kjøretur fra Oslo og Drammen. Klubben har en 18-hulls skogsbane og en 9-hulls Pay & Play korthullsbane, ideell for både nybegynnere og erfarne spillere. Naturskjønn bane i variert terreng. Full 18-hulls bane åpnet i 1988. Klubben har rundt 2000 medlemmer.",
@@ -61,8 +62,8 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": null,
+    "start": "April",
+    "end": "November",
     "winterUse": "Simulator-senter åpent hele året",
     "winterUse_en": "Simulator centre open year-round"
   },
@@ -70,7 +71,7 @@
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Oslo, Drammen",
-    "distanceFromCenter": null
+    "distanceFromCenter": "Ca. 30-35 min fra Oslo, 10-15 min fra Drammen"
   },
   "organization": {
     "courseCompany": null,
@@ -160,7 +161,40 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Hvit (Herre)",
+      "gender": "male",
+      "courseRating": 66.9,
+      "slopeRating": 131,
+      "par": 68,
+      "lengthMeters": 4852
+    },
+    {
+      "tee": "Gul (Herre)",
+      "gender": "male",
+      "courseRating": 65.3,
+      "slopeRating": 127,
+      "par": 68,
+      "lengthMeters": 4530
+    },
+    {
+      "tee": "Blå (Dame)",
+      "gender": "female",
+      "courseRating": 69.2,
+      "slopeRating": 128,
+      "par": 68,
+      "lengthMeters": 4200
+    },
+    {
+      "tee": "Rød (Dame)",
+      "gender": "female",
+      "courseRating": 67.0,
+      "slopeRating": 123,
+      "par": 68,
+      "lengthMeters": 3850
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "asker-golfklubb",
@@ -181,7 +215,14 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://kjekstad-gk.no/",
+    "https://kjekstad-gk.no/gjester/",
+    "https://kjekstad-gk.no/gjester/greenfee-og-booking/",
+    "https://kjekstad-gk.no/banene/",
+    "https://kjekstad-gk.no/golfshop-kafe/",
+    "https://kjekstad-gk.no/medlemskap/"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": null,
@@ -195,7 +236,7 @@
     ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T05:54:18.519Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJqTlgMfM-QUYRP0-q3mPeSp4",
   "slug_en": "kjekstad-golf-club",

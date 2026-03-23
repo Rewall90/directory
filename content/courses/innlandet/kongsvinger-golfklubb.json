@@ -3,13 +3,13 @@
   "name": "Kongsvingers Golfklubb",
   "formerName": null,
   "region": "Innlandet",
-  "city": "Granli",
-  "municipality": "Granli",
+  "city": "Kongsvinger",
+  "municipality": "Kongsvinger",
   "country": "Norway",
   "address": {
     "street": "Strengelsrudvegen 99",
     "postalCode": "2210",
-    "area": null
+    "area": "Granli"
   },
   "coordinates": {
     "lat": 60.1291351,
@@ -24,22 +24,26 @@
     "lengthMeters": 6248,
     "lengthYards": null,
     "lengthNote": null,
-    "terrain": null,
-    "courseType": "18-hole championship course",
-    "designer": null,
-    "yearBuilt": null,
+    "terrain": "Skogsbane",
+    "courseType": "18-hulls mesterskapsbane i skogsterreng",
+    "designer": "Peter Nordwall",
+    "yearBuilt": 2005,
     "yearRedesigned": null,
-    "waterHazards": null,
-    "signatureHole": null,
-    "scenicHole": null,
+    "waterHazards": true,
+    "signatureHole": "Hull 9 (par 5) - Spektakulært slag over Fløytasjøen til green på andre siden",
+    "scenicHole": "Hull 13 (par 3) - Vakker utsikt over skogsterreng og vann",
     "par3Count": 5,
-    "par4Count": 9,
-    "par5Count": 4,
+    "par4Count": 8,
+    "par5Count": 5,
     "mountainViews": false,
-    "viewDescription": null,
-    "courseType_en": "18-hole championship course"
+    "viewDescription": "Variert skogsbane med sjøer, bekker og kupert terreng. Fløytasjøen er et sentralt landskapselement. Ca. 8 km sør for Kongsvinger sentrum.",
+    "terrain_en": "Woodland course",
+    "courseType_en": "18-hole championship course in woodland terrain",
+    "signatureHole_en": "Hole 9 (par 5) - Spectacular shot across Fløytasjøen lake to green on the other side",
+    "scenicHole_en": "Hole 13 (par 3) - Beautiful view over woodland terrain and water",
+    "viewDescription_en": "Varied woodland course with lakes, streams and hilly terrain. Fløytasjøen lake is a central landscape feature. About 8 km south of Kongsvinger town centre."
   },
-  "description": "Vårt 18-hulls anlegg, gir muligheter for en unik golfopplevelse for alle, uansett ambisjoner og nivå. 18-hole championship course med varierte tee-systemer.",
+  "description": "18-hulls mesterskapsbane i naturskjønt skogsterreng ved Fløytasjøen, ca. 8 km sør for Kongsvinger. Designet av Peter Nordwall (2005). Banen byr på variert terreng med sjøer, bekker og kupert skog. Gratis utleie av golfutstyr og fokus på rekruttering. Cafe, konferanserom og overnattingspartnere i nærheten.",
   "contact": {
     "phone": "90 62 92 00",
     "email": "post@kongsvingergolf.no",
@@ -62,16 +66,16 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": "20. oktober 2025",
-    "winterUse": "Indoor golf available from November 2025 at Golfern",
-    "winterUse_en": "Indoor golf available from November 2025 at Golfern"
+    "start": "Mai",
+    "end": "Oktober",
+    "winterUse": "Indoor golf tilgjengelig hos Golfern i vintersesongen",
+    "winterUse_en": "Indoor golf available at Golfern during winter season"
   },
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
     "nearbyCity": "Kongsvinger",
-    "distanceFromCenter": null
+    "distanceFromCenter": "Ca. 8 km sør for Kongsvinger sentrum"
   },
   "organization": {
     "courseCompany": null,
@@ -163,7 +167,21 @@
       "notes_en": "12 buggies available for hire via the EAGL app or pro shop. Members receive 100 kr discount on green fee. ESAG group (One Shot at a Time): 200 kr discount on buggy 18 holes. Medical certificate: 100 kr discount on buggy 18 holes. Accommodation partners: Finnskogstua (golf package), Kongsvinger Budget Hotel (100 kr green fee discount), Sigernessj0en Family Camping (reciprocal discount agreement)"
     }
   },
-  "membershipPricing": {},
+  "membershipPricing": {
+    "2026": {
+      "voksen": 7500,
+      "ungdom20_25": 4500,
+      "junior13_19": 2250,
+      "barn0_12": 750,
+      "familie": 15000,
+      "greenfeemedlem": 3000,
+      "passiv": 1500,
+      "ngfAvgift": 401,
+      "innmeldingsgebyr": 0,
+      "membershipStatus": "Åpent for innmelding",
+      "notes": "Gratis utleie av golfutstyr til barn, junior og voksen. Familiemedlemskap inkl. 2 voksne + barn t.o.m. 19 år."
+    }
+  },
   "ratings": {
     "google": {
       "rating": 4.6,
@@ -174,7 +192,40 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Tee Hvit (Herre)",
+      "gender": "male",
+      "courseRating": 74.0,
+      "slopeRating": 143,
+      "par": 72,
+      "lengthMeters": 6248
+    },
+    {
+      "tee": "Tee Gul (Herre)",
+      "gender": "male",
+      "courseRating": 72.0,
+      "slopeRating": 138,
+      "par": 72,
+      "lengthMeters": 5850
+    },
+    {
+      "tee": "Tee Blå (Herre)",
+      "gender": "male",
+      "courseRating": 69.5,
+      "slopeRating": 132,
+      "par": 72,
+      "lengthMeters": 5350
+    },
+    {
+      "tee": "Tee Rød (Dame)",
+      "gender": "female",
+      "courseRating": 73.5,
+      "slopeRating": 135,
+      "par": 72,
+      "lengthMeters": 5150
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "rommen-golfklubb",
@@ -195,7 +246,13 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://kongsvingergolf.no/",
+    "https://kongsvingergolf.no/gjester/",
+    "https://kongsvingergolf.no/priser/",
+    "https://kongsvingergolf.no/kontakt/",
+    "https://kongsvingergolf.no/medlemskap/"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
@@ -203,10 +260,10 @@
     "pagesScraped": ["gjester", "priser", "kontakt"],
     "scrapedAt": "2026-02-15T15:10:00.000Z",
     "createdAt": "2025-10-31T07:18:12.730Z",
-    "updatedAt": "2026-02-15T15:10:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJM11B4QNMQkYRRF-xgG5nqzE",
   "slug_en": "kongsvinger-golf-club",
   "name_en": "Kongsvinger Golf Club",
-  "description_en": "Our 18-hole facility provides opportunities for a unique golf experience for everyone, regardless of ambitions and skill level. 18-hole championship course with varied tee systems."
+  "description_en": "18-hole championship course in scenic woodland terrain by Fløytasjøen lake, about 8 km south of Kongsvinger. Designed by Peter Nordwall (2005). The course offers varied terrain with lakes, streams and hilly forest. Free equipment rental with focus on recruitment. Cafe, conference facilities and accommodation partners nearby."
 }

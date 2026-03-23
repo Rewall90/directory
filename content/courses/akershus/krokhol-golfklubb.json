@@ -3,8 +3,8 @@
   "name": "Krokhol Golfklubb",
   "formerName": "Krokhol Golfklubb",
   "region": "Akershus",
-  "city": "Asker",
-  "municipality": "Asker",
+  "city": "Siggerud",
+  "municipality": "Nordre Follo",
   "country": "Norway",
   "address": {
     "street": "Enebakkveien 640 C",
@@ -19,26 +19,29 @@
   "course": {
     "holes": 9,
     "holesPlayed": 9,
-    "par": null,
-    "parPerRound": null,
-    "lengthMeters": null,
-    "lengthYards": null,
-    "lengthNote": null,
+    "par": 36,
+    "parPerRound": 36,
+    "lengthMeters": 2746,
+    "lengthYards": 5492,
+    "lengthNote": "2746 m fra tee 52 (lengste). 9 hull kan spilles som 18 med ulike teeposisjoner (par 72).",
     "terrain": "Skog- og parkbane",
-    "courseType": "Skog- og parkbane",
-    "designer": null,
-    "yearBuilt": null,
+    "courseType": "9-hulls skog- og parkbane (USGA-standard)",
+    "designer": "Graeme Webster (Team Niblick / Niblick Golfdesign)",
+    "yearBuilt": 2004,
     "yearRedesigned": null,
-    "waterHazards": null,
-    "signatureHole": null,
-    "scenicHole": null,
-    "par3Count": null,
-    "par4Count": null,
-    "par5Count": null,
+    "waterHazards": true,
+    "signatureHole": "Hull 5 (par 5) - Lengste hull med panoramautsikt fra tee, dam og tre bunkere i halvsirkel rundt green",
+    "scenicHole": "Hull 9 (par 4) - Vakker utsikt mot klubbhuset, Lusetjern på venstre side",
+    "par3Count": 2,
+    "par4Count": 5,
+    "par5Count": 2,
     "mountainViews": false,
-    "viewDescription": null,
+    "viewDescription": "Kupert skogsterreng med bekker, dammer og Lusetjern. Ca. 20 km sørøst for Oslo sentrum.",
     "terrain_en": "Woodland and parkland course",
-    "courseType_en": "Woodland and parkland course"
+    "courseType_en": "9-hole woodland and parkland course (USGA standard)",
+    "lengthNote_en": "2746 m from tee 52 (longest). 9 holes can be played as 18 with different tee positions (par 72).",
+    "signatureHole_en": "Hole 5 (par 5) - Longest hole with panoramic views from tee, dam and three bunkers in semicircle around green",
+    "scenicHole_en": "Hole 9 (par 4) - Beautiful view toward clubhouse, Lusetjern lake on left side"
   },
   "description": "9 spennende og varierte hull med USGA-standard. Den mest tilgjengelige banen på østsiden av Oslo. Spilles som 9-hullsbane siden 2011. Har også disc golf-bane.",
   "contact": {
@@ -63,15 +66,15 @@
     }
   ],
   "season": {
-    "start": null,
-    "end": null,
+    "start": "Mai",
+    "end": "Oktober",
     "winterUse": null
   },
   "visitors": {
     "welcome": true,
     "walkingAllowed": true,
-    "nearbyCity": null,
-    "distanceFromCenter": null
+    "nearbyCity": "Ski / Oslo (~20 km)",
+    "distanceFromCenter": "Ca. 20 min med bil fra Oslo sentrum"
   },
   "organization": {
     "courseCompany": "Norwegian",
@@ -91,8 +94,8 @@
     "restaurantName": null,
     "clubRental": false,
     "clubRentalNotes": null,
-    "cartRental": false,
-    "pullCartRental": false,
+    "cartRental": true,
+    "pullCartRental": true,
     "golfLessons": null,
     "teachingPro": false,
     "clubFitting": null,
@@ -163,7 +166,24 @@
       "checkIns": null
     }
   },
-  "courseRatings": [],
+  "courseRatings": [
+    {
+      "tee": "Tee 52 (Herre)",
+      "gender": "male",
+      "courseRating": 69.1,
+      "slopeRating": 131,
+      "par": 72,
+      "lengthMeters": 2746
+    },
+    {
+      "tee": "Tee 49 (Dame)",
+      "gender": "female",
+      "courseRating": 70.7,
+      "slopeRating": 130,
+      "par": 72,
+      "lengthMeters": 2468
+    }
+  ],
   "nearbyCourses": [
     {
       "slug": "gronmo-golfklubb",
@@ -184,7 +204,13 @@
   ],
   "additionalFeatures": [],
   "sponsors": [],
-  "sources": [],
+  "sources": [
+    "https://krokhol.no/",
+    "https://krokhol.no/gjester/",
+    "https://krokhol.no/gjester/greenfee/",
+    "https://krokhol.no/kontakt/",
+    "https://krokhol.no/medlemsservice/medlemskap/"
+  ],
   "meta": {
     "dataQuality": "excellent",
     "websiteQuality": "good",
@@ -198,7 +224,7 @@
     ],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:23:11.618Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-03-23T12:00:00.000Z"
   },
   "googlePlaceId": "ChIJ8WTPFOJmQUYRdr1X5Y4JIMU",
   "slug_en": "krokhol-golf-club",
