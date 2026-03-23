@@ -331,5 +331,19 @@
   "googlePlaceId": "ChIJxf-5o9gVQUYRC9f_lyy9Z44",
   "slug_en": "asker-golf-club",
   "name_en": "Asker Golf Club",
-  "description_en": "Asker Golf Club is beautifully situated by and around the three small lakes Finnrudvannet, Brendsrudvannet, and Hogstadvannet outside Asker. It plays as a combined parkland and woodland course and offers challenges of all types. Hole 18 is Asker's signature hole, with a shot of just under 110 metres over Finnrudvannet down to the green in front of the clubhouse's new terrace. 7 par 3 holes, a varied course with wonderful natural surroundings. Waffle stand (halfway house)."
+  "description_en": "Asker Golf Club is beautifully situated by and around the three small lakes Finnrudvannet, Brendsrudvannet, and Hogstadvannet outside Asker. It plays as a combined parkland and woodland course and offers challenges of all types. Hole 18 is Asker's signature hole, with a shot of just under 110 metres over Finnrudvannet down to the green in front of the clubhouse's new terrace. 7 par 3 holes, a varied course with wonderful natural surroundings. Waffle stand (halfway house).",
+  "images": [
+    {
+      "src": "/courses/asker-golfklubb/asker-golfklubb-flyfoto-finnrudvannet.webp",
+      "alt": "Flyfoto av Asker Golfklubb med fairways rundt Finnrudvannet, Brendsrudvannet og Hogstadvannet",
+      "alt_en": "Aerial view of Asker Golf Club with fairways around Lake Finnrud, Lake Brendsrud and Lake Hogstad",
+      "credit": "Asker Golfklubb"
+    },
+    {
+      "src": "/courses/asker-golfklubb/asker-golfklubb-bane-skogsterreng.webp",
+      "alt": "Asker Golfklubb med park- og skogsbane rundt småvann utenfor Asker",
+      "alt_en": "Asker Golf Club with parkland and forest course around small lakes outside Asker",
+      "credit": "Asker Golfklubb"
+    }
+  ]
 }

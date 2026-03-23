@@ -294,5 +294,19 @@
   "googlePlaceId": "ChIJ3Vu2VBlmQUYRyVrhqa77f2s",
   "slug_en": "gronmo-golf-club",
   "name_en": "Grønmo Golf Club",
-  "description_en": "Gronmo Golf Club is beautifully situated on the edge of Ostmarka, near the Ryen junction in Oslo - the most centrally located golf course within the Oslo city limits.\n\nThe club has a splendid 9-hole parkland/woodland course with broad fairways, large greens and tees on gently undulating terrain. The course is designed for players of all levels.\n\nFacilities include a large driving range with 30 bays (200 metres long), a short game area with three zones, putting greens, a modern clubhouse with a pro shop (run by Golfshopen AS) and Gronmo Cafe.\n\nThe club also operates Gronmo Indoor Golf at Skullerud with TrackMan simulators and over 300 virtual courses, open all year round.\n\nWith 5 PGA instructors and an active social scene, Gronmo Golf Academy offers tailored instruction for all levels. The club organises tournaments, group training, beginner courses and golf trips to Spain.\n\nThe club is known for its inclusive ethos regardless of age, gender, ability or social background - 'The Club with the Big Heart'."
+  "description_en": "Gronmo Golf Club is beautifully situated on the edge of Ostmarka, near the Ryen junction in Oslo - the most centrally located golf course within the Oslo city limits.\n\nThe club has a splendid 9-hole parkland/woodland course with broad fairways, large greens and tees on gently undulating terrain. The course is designed for players of all levels.\n\nFacilities include a large driving range with 30 bays (200 metres long), a short game area with three zones, putting greens, a modern clubhouse with a pro shop (run by Golfshopen AS) and Gronmo Cafe.\n\nThe club also operates Gronmo Indoor Golf at Skullerud with TrackMan simulators and over 300 virtual courses, open all year round.\n\nWith 5 PGA instructors and an active social scene, Gronmo Golf Academy offers tailored instruction for all levels. The club organises tournaments, group training, beginner courses and golf trips to Spain.\n\nThe club is known for its inclusive ethos regardless of age, gender, ability or social background - 'The Club with the Big Heart'.",
+  "images": [
+    {
+      "src": "/courses/gronmo-golfklubb/gronmo-golfklubb-hull-3-fairway-skogsterreng.webp",
+      "alt": "Hull 3 på Grønmo Golfklubb med fairway gjennom skogsterreng ved Østmarka",
+      "alt_en": "Hole 3 at Grønmo Golf Club with fairway through forest terrain near Østmarka",
+      "credit": "Grønmo Golfklubb"
+    },
+    {
+      "src": "/courses/gronmo-golfklubb/gronmo-golfklubb-scorekort-banebilde.webp",
+      "alt": "Scorekort for Grønmo Golfklubb med bakgrunnsbilde av golfbanen",
+      "alt_en": "Scorecard for Grønmo Golf Club with background image of the golf course",
+      "credit": "Grønmo Golfklubb"
+    }
+  ]
 }

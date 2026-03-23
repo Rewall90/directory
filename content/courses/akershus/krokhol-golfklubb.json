@@ -229,5 +229,25 @@
   "googlePlaceId": "ChIJ8WTPFOJmQUYRdr1X5Y4JIMU",
   "slug_en": "krokhol-golf-club",
   "name_en": "Krokhol Golf Club",
-  "description_en": "9 exciting and varied holes built to USGA standard. The most accessible course on the east side of Oslo. Played as a 9-hole course since 2011. Also has a disc golf course."
+  "description_en": "9 exciting and varied holes built to USGA standard. The most accessible course on the east side of Oslo. Played as a 9-hole course since 2011. Also has a disc golf course.",
+  "images": [
+    {
+      "src": "/courses/krokhol-golfklubb/krokhol-golfklubb-oversikt-bane-skog.webp",
+      "alt": "Oversiktsbilde av Krokhol Golfklubb med fairways og greener i skogsterreng",
+      "alt_en": "Overview of Krokhol Golf Club with fairways and greens in forest terrain",
+      "credit": "Krokhol Golfklubb"
+    },
+    {
+      "src": "/courses/krokhol-golfklubb/krokhol-golfklubb-fairway-hostvutsikt.webp",
+      "alt": "Fairway på Krokhol Golfklubb med høstfarger og naturskjønt terreng",
+      "alt_en": "Fairway at Krokhol Golf Club with autumn colors and scenic natural terrain",
+      "credit": "Krokhol Golfklubb"
+    },
+    {
+      "src": "/courses/krokhol-golfklubb/krokhol-golfklubb-hull-utsikt.webp",
+      "alt": "Hull på Krokhol Golfklubb med panoramautsikt over skogsterreng",
+      "alt_en": "Hole at Krokhol Golf Club with panoramic view over forest terrain",
+      "credit": "Krokhol Golfklubb"
+    }
+  ]
 }

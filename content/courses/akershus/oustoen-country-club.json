@@ -207,5 +207,37 @@
   "googlePlaceId": "ChIJl9o0XltrQUYRh7NQ7vodpHo",
   "slug_en": "oustoen-country-club",
   "name_en": "Oustoen Country Club",
-  "description_en": "Oustoen Country Club - Exclusive private 18-hole par 72 course on Oustoya, an island within a nature reserve offering splendid views across the Oslofjord. Founded 1966. Available to members and invited guests only. Clubhouse with restaurant."
+  "description_en": "Oustoen Country Club - Exclusive private 18-hole par 72 course on Oustoya, an island within a nature reserve offering splendid views across the Oslofjord. Founded 1966. Available to members and invited guests only. Clubhouse with restaurant.",
+  "images": [
+    {
+      "src": "/courses/oustoen-country-club/oustoen-country-club-hull-11-green-klubbhus-oslofjord.webp",
+      "alt": "Hull 11 på Oustøen Country Club med grønn og klubbhuset i bakgrunnen ved Oslofjorden",
+      "alt_en": "Hole 11 at Oustøen Country Club with green and clubhouse in the background by the Oslo Fjord",
+      "credit": "Oustøen Country Club"
+    },
+    {
+      "src": "/courses/oustoen-country-club/oustoen-country-club-hull-3-fairway-trestamme.webp",
+      "alt": "Hull 3 på Oustøen Country Club med fairway og karakteristisk trestamme på øya i Bærum",
+      "alt_en": "Hole 3 at Oustøen Country Club with fairway and distinctive tree trunk on the island in Bærum",
+      "credit": "Oustøen Country Club"
+    },
+    {
+      "src": "/courses/oustoen-country-club/oustoen-country-club-hull-7-vannhinder-green.webp",
+      "alt": "Hull 7 på Oustøen Country Club med vannhinder og grønn ved Oslofjorden",
+      "alt_en": "Hole 7 at Oustøen Country Club with water hazard and green by the Oslo Fjord",
+      "credit": "Oustøen Country Club"
+    },
+    {
+      "src": "/courses/oustoen-country-club/oustoen-country-club-klubbhus-utsikt-fjord.webp",
+      "alt": "Klubbhuset på Oustøen Country Club med fantastisk utsikt over Oslofjorden",
+      "alt_en": "The clubhouse at Oustøen Country Club with fantastic view over the Oslo Fjord",
+      "credit": "Oustøen Country Club"
+    },
+    {
+      "src": "/courses/oustoen-country-club/oustoen-country-club-hull-2-fairway-naturreservat.webp",
+      "alt": "Hull 2 på Oustøen Country Club i naturreservatet på øya i Bærum",
+      "alt_en": "Hole 2 at Oustøen Country Club in the nature reserve on the island in Bærum",
+      "credit": "Oustøen Country Club"
+    }
+  ]
 }

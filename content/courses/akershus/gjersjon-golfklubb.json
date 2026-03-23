@@ -235,5 +235,13 @@
   "googlePlaceId": "ChIJBXdTsx9oQUYR-tgtOHShB6c",
   "slug_en": "gjersjon-golf-club",
   "name_en": "Gjersjon Golf Club",
-  "description_en": "Gjersjøen is a beautiful and challenging parkland and forest course set in the historic cultural landscape of the medieval farm Kurud. 9 holes with dual tee boxes provide an authentic 18-hole experience. Norway's leading environmental course with a complete ban on pesticides. Located in Svartskog, just 16 km from Oslo city centre."
+  "description_en": "Gjersjøen is a beautiful and challenging parkland and forest course set in the historic cultural landscape of the medieval farm Kurud. 9 holes with dual tee boxes provide an authentic 18-hole experience. Norway's leading environmental course with a complete ban on pesticides. Located in Svartskog, just 16 km from Oslo city centre.",
+  "images": [
+    {
+      "src": "/courses/gjersjon-golfklubb/gjersjon-golfklubb-bane-vannhinder-klubbhus.webp",
+      "alt": "Gjersjøen golfklubb med vannhinder, fairway og klubbhus i skogsterreng ved Gjersjøen",
+      "alt_en": "Gjersjøen Golf Club with water hazard, fairway and clubhouse in forest terrain by Lake Gjersjøen",
+      "credit": "Gjersjøen golfklubb"
+    }
+  ]
 }

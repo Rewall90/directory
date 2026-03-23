@@ -257,5 +257,31 @@
   "googlePlaceId": "ChIJq0fK_oQVbUYRiJH_N4vq_z8",
   "slug_en": "stjordal-golf-club",
   "name_en": "Stjørdal Golf Club",
-  "description_en": "18-hole parkland course in Fagerlia with a 6-hole practice course. Clubhouse at Oestre Stokke farm."
+  "description_en": "18-hole parkland course in Fagerlia with a 6-hole practice course. Clubhouse at Oestre Stokke farm.",
+  "images": [
+    {
+      "src": "/courses/stjordal-golfklubb/stjordal-golfklubb-fairway-oversikt.webp",
+      "alt": "Oversiktsbilde av fairway på Stjørdal Golfklubb med grønne greener og skogsterreng",
+      "alt_en": "Overview of fairway at Stjørdal Golf Club with green greens and forested terrain",
+      "credit": "Stjørdal Golfklubb"
+    },
+    {
+      "src": "/courses/stjordal-golfklubb/stjordal-golfklubb-green-bunker.webp",
+      "alt": "Green med bunker på Stjørdal Golfklubb omgitt av skog og naturlig terreng",
+      "alt_en": "Green with bunker at Stjørdal Golf Club surrounded by forest and natural terrain",
+      "credit": "Stjørdal Golfklubb"
+    },
+    {
+      "src": "/courses/stjordal-golfklubb/stjordal-golfklubb-bane-utsikt.webp",
+      "alt": "Utsikt over golfbanen på Stjørdal Golfklubb med fairways og skogkledde åser",
+      "alt_en": "View over the golf course at Stjørdal Golf Club with fairways and forested hills",
+      "credit": "Stjørdal Golfklubb"
+    },
+    {
+      "src": "/courses/stjordal-golfklubb/stjordal-golfklubb-fairway-skog.webp",
+      "alt": "Fairway på Stjørdal Golfklubb i naturskjønt skogsterreng i Trøndelag",
+      "alt_en": "Fairway at Stjørdal Golf Club in scenic forested terrain in Trøndelag",
+      "credit": "Stjørdal Golfklubb"
+    }
+  ]
 }

@@ -312,5 +312,31 @@
   "googlePlaceId": "ChIJgZ9NXDRjbUYR5RBklhdO0lI",
   "slug_en": "stiklestad-golf-club",
   "name_en": "Stiklestad Golf Club",
-  "description_en": "18-hole woodland and parkland course on the Trones peninsula at the inner Trondheimsfjord."
+  "description_en": "18-hole woodland and parkland course on the Trones peninsula at the inner Trondheimsfjord.",
+  "images": [
+    {
+      "src": "/courses/stiklestad-golfklubb/stiklestad-golfklubb-hull-18-green-trondheimsfjorden.webp",
+      "alt": "Hull 18 på Stiklestad Golfklubb med grønn og utsikt over Trondheimsfjorden på Trones",
+      "alt_en": "Hole 18 at Stiklestad Golf Club with green and view over the Trondheim Fjord at Trones",
+      "credit": "Stiklestad Golfklubb"
+    },
+    {
+      "src": "/courses/stiklestad-golfklubb/stiklestad-golfklubb-hull-14-fairway-skogsterreng.webp",
+      "alt": "Hull 14 på Stiklestad Golfklubb med fairway gjennom naturskjønt skogsterreng",
+      "alt_en": "Hole 14 at Stiklestad Golf Club with fairway through scenic forest terrain",
+      "credit": "Stiklestad Golfklubb"
+    },
+    {
+      "src": "/courses/stiklestad-golfklubb/stiklestad-golfklubb-hull-9-green-bunkere.webp",
+      "alt": "Hull 9 på Stiklestad Golfklubb med grønn omgitt av bunkere i vakre omgivelser",
+      "alt_en": "Hole 9 at Stiklestad Golf Club with green surrounded by bunkers in beautiful surroundings",
+      "credit": "Stiklestad Golfklubb"
+    },
+    {
+      "src": "/courses/stiklestad-golfklubb/stiklestad-golfklubb-hull-2-fairway-skog.webp",
+      "alt": "Hull 2 på Stiklestad Golfklubb med fairway omgitt av skog på Trones i Verdal",
+      "alt_en": "Hole 2 at Stiklestad Golf Club with fairway surrounded by forest at Trones in Verdal",
+      "credit": "Stiklestad Golfklubb"
+    }
+  ]
 }

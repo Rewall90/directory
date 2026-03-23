@@ -273,5 +273,25 @@
   "googlePlaceId": "ChIJs4t8FmJ1O0YRxyST5eOdt50",
   "slug_en": "nordvegen-golf-club",
   "name_en": "Nordvegen Golf Club",
-  "description_en": "Nordvegen Golf Club is an 18-hole links course in Torvastad, north Karmoy, just 15 minutes from Haugesund town centre. Opened in 2003, redesigned 2018. Designed by architect Einar Marius Saether. Par 71. Classic links course by the sea in scenic surroundings. A club by the sea - for everyone! Part of the Sveio Golf Park system together with Haugaland, Karmoy and Torvastad (54 holes in total). One membership gives access to all four courses. Maximum handicap 54 for visitors."
+  "description_en": "Nordvegen Golf Club is an 18-hole links course in Torvastad, north Karmoy, just 15 minutes from Haugesund town centre. Opened in 2003, redesigned 2018. Designed by architect Einar Marius Saether. Par 71. Classic links course by the sea in scenic surroundings. A club by the sea - for everyone! Part of the Sveio Golf Park system together with Haugaland, Karmoy and Torvastad (54 holes in total). One membership gives access to all four courses. Maximum handicap 54 for visitors.",
+  "images": [
+    {
+      "src": "/courses/nordvegen-golfklubb/nordvegen-golfklubb-drivingrange-ny-platting.webp",
+      "alt": "Nordvegen Golfklubb sitt treningsområde med ny platting og fairways i bakgrunnen",
+      "alt_en": "Nordvegen Golf Club's practice area with new concrete pad and fairways in the background",
+      "credit": "Nordvegen Golfklubb"
+    },
+    {
+      "src": "/courses/nordvegen-golfklubb/nordvegen-golfklubb-drivingrange-oversikt.webp",
+      "alt": "Oversiktsbilde av treningsområdet på Nordvegen Golfklubb med drivingrange og bane",
+      "alt_en": "Overview of the practice area at Nordvegen Golf Club with driving range and course",
+      "credit": "Nordvegen Golfklubb"
+    },
+    {
+      "src": "/courses/nordvegen-golfklubb/nordvegen-golfklubb-green-vedlikehold.webp",
+      "alt": "Green på Nordvegen Golfklubb under vedlikehold med spillere og skogsterreng",
+      "alt_en": "Green at Nordvegen Golf Club during maintenance with players and forest terrain",
+      "credit": "Nordvegen Golfklubb"
+    }
+  ]
 }

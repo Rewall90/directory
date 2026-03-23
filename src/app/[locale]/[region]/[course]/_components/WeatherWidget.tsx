@@ -2,31 +2,41 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import {
-  getWeatherEmoji,
-  getWindDirection,
-  formatTemperature,
-  translateWeatherCondition,
-} from "@/lib/google-weather";
+import { getWindDirection, formatTemperature, translateWeatherCondition } from "@/lib/weather";
 
 interface WeatherData {
   temp: number;
   feelsLike: number;
   condition: string;
   conditionOriginal: string;
-  emoji: string;
+  icon: string;
   windSpeed: number;
+  windGust: number;
   windDirection: number;
   humidity: number;
-  precipChance: number;
+  precipAmount: number;
+  precipProbability: number;
+  thunderProbability: number;
   uvIndex: number;
   updatedAt: string;
+  sunrise: string | null;
+  sunset: string | null;
+  daylightMinutes: number | null;
+  polarNight: boolean;
+  midnightSun: boolean;
+}
+
+/** Official MET Norway weather icon URL from their GitHub repo */
+function getWeatherIconUrl(symbolCode: string): string {
+  return `https://raw.githubusercontent.com/metno/weathericons/main/weather/svg/${symbolCode}.svg`;
 }
 
 interface WeatherWidgetProps {
   lat: number;
   lng: number;
 }
+
+const STALE_THRESHOLD_MINUTES = 720; // 12 hours
 
 export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
   const t = useTranslations("weather");
@@ -35,13 +45,18 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
   const [error, setError] = useState(false);
 
   useEffect(() => {
+    const controller = new AbortController();
+
     async function fetchWeather() {
       try {
-        const response = await fetch(`/api/weather?lat=${lat}&lng=${lng}`);
+        const response = await fetch(`/api/weather?lat=${lat}&lng=${lng}`, {
+          signal: controller.signal,
+        });
         if (!response.ok) throw new Error("Failed to fetch");
         const data = await response.json();
         setWeather(data);
-      } catch {
+      } catch (e) {
+        if (e instanceof DOMException && e.name === "AbortError") return;
         setError(true);
       } finally {
         setLoading(false);
@@ -49,6 +64,7 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
     }
 
     void fetchWeather();
+    return () => controller.abort();
   }, [lat, lng]);
 
   if (loading) {
@@ -74,16 +90,15 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
     return null;
   }
 
-  const weatherEmoji = weather.emoji || getWeatherEmoji(weather.conditionOriginal);
-  const windDir = weather.windDirection ? getWindDirection(weather.windDirection) : "N";
+  const windDir = weather.windDirection != null ? getWindDirection(weather.windDirection) : "N";
   const translatedCondition =
     weather.condition || translateWeatherCondition(weather.conditionOriginal);
 
-  // Calculate how old the data is
+  // Calculate how old the data is (guard against negative from clock skew)
   const updatedAt = new Date(weather.updatedAt);
   const now = new Date();
-  const dataAge = Math.floor((now.getTime() - updatedAt.getTime()) / 1000 / 60);
-  const isStale = dataAge > 720;
+  const dataAge = Math.max(0, Math.floor((now.getTime() - updatedAt.getTime()) / 1000 / 60));
+  const isStale = dataAge > STALE_THRESHOLD_MINUTES;
 
   const formatUpdateTime = () => {
     if (dataAge < 60) {
@@ -99,24 +114,28 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
 
   return (
     <div>
-      <div className="mb-3 flex items-center justify-between">
-        <h3 className="text-sm font-medium uppercase tracking-wide text-white/80">
-          {t("currentWeather")}
-        </h3>
-        {isStale && <span className="text-xs text-white/60">{t("outdated")}</span>}
-      </div>
+      {isStale && (
+        <div className="mb-3 text-right">
+          <span className="text-xs text-white/60">{t("outdated")}</span>
+        </div>
+      )}
 
       {/* Main Weather Display */}
       <div className="mb-3 flex items-center gap-3">
-        <div className="text-4xl" role="img" aria-label={translatedCondition}>
-          {weatherEmoji}
-        </div>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={getWeatherIconUrl(weather.icon)}
+          alt={translatedCondition}
+          width={48}
+          height={48}
+          className="h-12 w-12 drop-shadow-md"
+        />
         <div className="flex-1">
           <div className="font-serif text-3xl font-bold text-white">
             {formatTemperature(weather.temp)}
           </div>
           <div className="text-sm text-white/80">{translatedCondition}</div>
-          {weather.feelsLike && weather.feelsLike !== weather.temp && (
+          {weather.feelsLike !== weather.temp && (
             <div className="text-xs text-white/60">
               {t("feelsLike", { temp: formatTemperature(weather.feelsLike) })}
             </div>
@@ -127,7 +146,7 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
       {/* Weather Details Grid */}
       <div className="space-y-2 border-t border-white/20 pt-3">
         {/* Wind */}
-        {weather.windSpeed !== null && weather.windSpeed > 0 && (
+        {weather.windSpeed != null && weather.windSpeed > 0 && (
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <span>💨</span>
@@ -135,12 +154,18 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
             </span>
             <span className="font-medium text-white">
               {Math.round(weather.windSpeed)} {t("windUnit")} {windDir}
+              {weather.windGust > 0 && weather.windGust > weather.windSpeed && (
+                <span className="text-white/60">
+                  {" "}
+                  ({t("gusts")} {Math.round(weather.windGust)})
+                </span>
+              )}
             </span>
           </div>
         )}
 
         {/* Humidity */}
-        {weather.humidity !== null && (
+        {weather.humidity != null && (
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <span>💧</span>
@@ -150,64 +175,125 @@ export function WeatherWidget({ lat, lng }: WeatherWidgetProps) {
           </div>
         )}
 
-        {/* Precipitation Chance */}
-        {weather.precipChance !== null && weather.precipChance > 0 && (
+        {/* Precipitation */}
+        {(weather.precipAmount > 0 || weather.precipProbability > 0) && (
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <span>🌧️</span>
               <span>{t("precipitation")}</span>
             </span>
-            <span className="font-medium text-white">{weather.precipChance}%</span>
+            <span className="font-medium text-white">
+              {weather.precipAmount > 0
+                ? `${weather.precipAmount} mm`
+                : `${weather.precipProbability}%`}
+              {weather.precipAmount > 0 && weather.precipProbability > 0 && (
+                <span className="text-white/60"> ({weather.precipProbability}%)</span>
+              )}
+            </span>
           </div>
         )}
 
         {/* UV Index */}
-        {weather.uvIndex !== null && weather.uvIndex > 0 && (
+        {weather.uvIndex > 0 && (
           <div className="flex items-center justify-between text-sm">
             <span className="flex items-center gap-2 text-white/70">
               <span>☀️</span>
               <span>{t("uvIndex")}</span>
             </span>
             <span className="font-medium text-white">
-              {weather.uvIndex}
-              {weather.uvIndex >= 8 && (
-                <span className="ml-1 text-xs text-yellow-200">{t("uvHigh")}</span>
-              )}
-              {weather.uvIndex >= 6 && weather.uvIndex < 8 && (
-                <span className="ml-1 text-xs text-yellow-100">{t("uvModerate")}</span>
+              {Math.round(weather.uvIndex * 10) / 10}
+              {weather.uvIndex >= 6 && <span className="ml-1 text-yellow-200">{t("uvHigh")}</span>}
+              {weather.uvIndex >= 3 && weather.uvIndex < 6 && (
+                <span className="ml-1 text-white/60">{t("uvModerate")}</span>
               )}
             </span>
           </div>
         )}
+
+        {/* Thunder Warning */}
+        {weather.thunderProbability >= 1 && (
+          <div className="flex items-center justify-between text-sm">
+            <span className="flex items-center gap-2 text-yellow-200">
+              <span>⚡</span>
+              <span>{t("thunder")}</span>
+            </span>
+            <span className="font-medium text-yellow-200">{weather.thunderProbability}%</span>
+          </div>
+        )}
       </div>
+
+      {/* Sunrise / Sunset */}
+      {(weather.sunrise || weather.polarNight || weather.midnightSun) && (
+        <div className="space-y-2 border-t border-white/20 pt-3">
+          {weather.sunrise && (
+            <div className="flex items-center justify-between text-sm">
+              <span className="flex items-center gap-2 text-white/70">
+                <span>🌅</span>
+                <span>{t("sunrise")}</span>
+              </span>
+              <span className="font-medium text-white">{weather.sunrise}</span>
+            </div>
+          )}
+
+          {weather.sunset && (
+            <div className="flex items-center justify-between text-sm">
+              <span className="flex items-center gap-2 text-white/70">
+                <span>🌇</span>
+                <span>{t("sunset")}</span>
+              </span>
+              <span className="font-medium text-white">{weather.sunset}</span>
+            </div>
+          )}
+
+          {weather.daylightMinutes != null && (
+            <div className="flex items-center justify-between text-sm">
+              <span className="flex items-center gap-2 text-white/70">
+                <span>☀️</span>
+                <span>{t("daylight")}</span>
+              </span>
+              <span className="font-medium text-white">
+                {t("daylightFormat", {
+                  hours: Math.floor(weather.daylightMinutes / 60),
+                  minutes: weather.daylightMinutes % 60,
+                })}
+              </span>
+            </div>
+          )}
+
+          {weather.polarNight && (
+            <div className="flex items-center justify-center text-sm">
+              <span className="rounded-full bg-blue-500/20 px-3 py-1 text-blue-200">
+                🌑 {t("polarNight")}
+              </span>
+            </div>
+          )}
+
+          {weather.midnightSun && (
+            <div className="flex items-center justify-center text-sm">
+              <span className="rounded-full bg-yellow-500/20 px-3 py-1 text-yellow-200">
+                ☀️ {t("midnightSun")}
+              </span>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Last Updated */}
       <div className="mt-3 border-t border-white/20 pt-2 text-center text-xs text-white/50">
         {t("updated", { time: formatUpdateTime() })}
       </div>
 
-      {/* Google Attribution */}
-      <div className="mt-1 flex items-center justify-center gap-1 text-xs text-white/50">
+      {/* MET Norway Attribution */}
+      <div className="mt-1 flex items-center justify-center gap-1 text-xs text-white/70">
         <span>{t("poweredBy")}</span>
-        <svg className="h-3 w-3" viewBox="0 0 24 24">
-          <path
-            fill="currentColor"
-            d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-          />
-          <path
-            fill="currentColor"
-            d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-          />
-          <path
-            fill="currentColor"
-            d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
-          />
-          <path
-            fill="currentColor"
-            d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
-          />
-        </svg>
-        <span>Google</span>
+        <a
+          href="https://www.met.no/en"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline decoration-white/40 underline-offset-2 transition-colors hover:text-white"
+        >
+          MET Norway
+        </a>
       </div>
     </div>
   );

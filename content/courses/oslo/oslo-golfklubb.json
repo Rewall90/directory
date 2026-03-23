@@ -232,5 +232,31 @@
   "googlePlaceId": "ChIJcR1kOl5tQUYRMgmEmZ5sDBU",
   "slug_en": "oslo-golf-club",
   "name_en": "Oslo Golf Club",
-  "description_en": "Norway's oldest golf club, founded on 13 June 1924 as Kristiania Golf Club by shipowner Ragnar Halle after a study visit to Aberdeen, Scotland. Originally a 9-hole course on the south side of Lake Bogstad, on land leased from Nini Egeberg of Bogstad Manor. The course was expanded to 18 holes eight years later in 1932. Major changes were made in 1940, 1949, 1957 and 1975, but the most extensive upgrade came between September 2007 and May 2009 - a complete renovation costing over 80 million NOK led by American architect Steve Forrest. During the renovation, 4,500 lorry-loads of sand were imported from Denmark, extensive drainage systems were installed, all 18 greens were rebuilt with modern SubAir moisture control systems, 500 trees were removed, and the entire property was reseeded with creeping bentgrass. The course reopened in spring 2009. Located just 15 minutes (9 km northwest) from Oslo city centre, approximately 1.5 km north of Roa. A par-72 championship course measuring 6,276 metres from the championship tees. The course features long par-3 holes, several water hazards and a unique waterfall beside the green on hole 12. Hole 14 was voted Norway's best par-4 hole in 2016. Ranked 55th in Europe by Golf World (2019), 3rd in Norway by Golf Digest (2022), and 155th in Continental Europe (Golf World 2023). Over 30,000 rounds are played per season from May to mid-October. The club has over 2,300 members and a waiting list of approximately 2,450 people. Has hosted the Norwegian Masters (Ladies European Tour, 2002 and 2006) and the Challenge Tour's Norwegian Challenge (1995-1997). The first golf shots were struck in autumn 1924, making this the first golf course in Norwegian history. A new clubhouse opened in March 2020 after members voted for construction in 2018."
+  "description_en": "Norway's oldest golf club, founded on 13 June 1924 as Kristiania Golf Club by shipowner Ragnar Halle after a study visit to Aberdeen, Scotland. Originally a 9-hole course on the south side of Lake Bogstad, on land leased from Nini Egeberg of Bogstad Manor. The course was expanded to 18 holes eight years later in 1932. Major changes were made in 1940, 1949, 1957 and 1975, but the most extensive upgrade came between September 2007 and May 2009 - a complete renovation costing over 80 million NOK led by American architect Steve Forrest. During the renovation, 4,500 lorry-loads of sand were imported from Denmark, extensive drainage systems were installed, all 18 greens were rebuilt with modern SubAir moisture control systems, 500 trees were removed, and the entire property was reseeded with creeping bentgrass. The course reopened in spring 2009. Located just 15 minutes (9 km northwest) from Oslo city centre, approximately 1.5 km north of Roa. A par-72 championship course measuring 6,276 metres from the championship tees. The course features long par-3 holes, several water hazards and a unique waterfall beside the green on hole 12. Hole 14 was voted Norway's best par-4 hole in 2016. Ranked 55th in Europe by Golf World (2019), 3rd in Norway by Golf Digest (2022), and 155th in Continental Europe (Golf World 2023). Over 30,000 rounds are played per season from May to mid-October. The club has over 2,300 members and a waiting list of approximately 2,450 people. Has hosted the Norwegian Masters (Ladies European Tour, 2002 and 2006) and the Challenge Tour's Norwegian Challenge (1995-1997). The first golf shots were struck in autumn 1924, making this the first golf course in Norwegian history. A new clubhouse opened in March 2020 after members voted for construction in 2018.",
+  "images": [
+    {
+      "src": "/courses/oslo-golfklubb/oslo-golfklubb-oversiktsbilde-bane-bogstad.webp",
+      "alt": "Oversiktsbilde av Oslo Golfklubb på Bogstad med fairways, greener og Marka i bakgrunnen",
+      "alt_en": "Overview of Oslo Golf Club at Bogstad with fairways, greens and Marka forest in the background",
+      "credit": "Oslo Golfklubb"
+    },
+    {
+      "src": "/courses/oslo-golfklubb/oslo-golfklubb-green-bunkere-skogsterreng.webp",
+      "alt": "Green med bunkere på Oslo Golfklubb omgitt av vakker norsk skogsnatur",
+      "alt_en": "Green with bunkers at Oslo Golf Club surrounded by beautiful Norwegian forest nature",
+      "credit": "Oslo Golfklubb"
+    },
+    {
+      "src": "/courses/oslo-golfklubb/oslo-golfklubb-hull-14-fairway-skog.webp",
+      "alt": "Hull 14 på Oslo Golfklubb med fairway som strekker seg gjennom skogsterreng",
+      "alt_en": "Hole 14 at Oslo Golf Club with fairway stretching through forest terrain",
+      "credit": "Oslo Golfklubb"
+    },
+    {
+      "src": "/courses/oslo-golfklubb/oslo-golfklubb-fairway-kuppert-terreng.webp",
+      "alt": "Fairway på Oslo Golfklubb med karakteristisk kuppert terreng og naturskjønne omgivelser",
+      "alt_en": "Fairway at Oslo Golf Club with characteristic rolling terrain and scenic natural surroundings",
+      "credit": "Oslo Golfklubb"
+    }
+  ]
 }

@@ -290,5 +290,31 @@
   "googlePlaceId": "ChIJiyLZO5h6QUYR8Z64cLthYCE",
   "slug_en": "groruddalen-golf-club",
   "name_en": "Groruddalen Golf Club",
-  "description_en": "Groruddalen Golf Club has Norway's only slope-rated 9-hole par-3 course with holes from 100 to 230 metres - including the longest par-3 hole in Northern Europe.\n\nThe course is centrally located in Oslo, easily accessible by public transport, and offers a unique golfing experience for players of all levels. It is particularly well suited for practising approach shots and developing the short game.\n\nThe club has an active community with tournaments, courses and social events. Facilities include a driving range, putting green, pro shop, clubhouse with catering and 2 golf simulators.\n\nIdeal for beginners wanting to learn the game, or experienced players looking to hone their short game."
+  "description_en": "Groruddalen Golf Club has Norway's only slope-rated 9-hole par-3 course with holes from 100 to 230 metres - including the longest par-3 hole in Northern Europe.\n\nThe course is centrally located in Oslo, easily accessible by public transport, and offers a unique golfing experience for players of all levels. It is particularly well suited for practising approach shots and developing the short game.\n\nThe club has an active community with tournaments, courses and social events. Facilities include a driving range, putting green, pro shop, clubhouse with catering and 2 golf simulators.\n\nIdeal for beginners wanting to learn the game, or experienced players looking to hone their short game.",
+  "images": [
+    {
+      "src": "/courses/groruddalen-golfklubb/groruddalen-golfklubb-oversiktsbilde-bane.webp",
+      "alt": "Oversiktsbilde av Groruddalen Golfklubb med green og fairway omgitt av trær",
+      "alt_en": "Overview of Groruddalen Golf Club with green and fairway surrounded by trees",
+      "credit": "Groruddalen Golfklubb"
+    },
+    {
+      "src": "/courses/groruddalen-golfklubb/groruddalen-golfklubb-hull-8-vinter.webp",
+      "alt": "Hull 8 på Groruddalen Golfklubb med snø og vinterforhold",
+      "alt_en": "Hole 8 at Groruddalen Golf Club with snow and winter conditions",
+      "credit": "Groruddalen Golfklubb"
+    },
+    {
+      "src": "/courses/groruddalen-golfklubb/groruddalen-golfklubb-hull-1-baneguide.webp",
+      "alt": "Hull 1 på Groruddalen Golfklubb, åpningshull par 3 med green og fairway",
+      "alt_en": "Hole 1 at Groruddalen Golf Club, opening hole par 3 with green and fairway",
+      "credit": "Groruddalen Golfklubb"
+    },
+    {
+      "src": "/courses/groruddalen-golfklubb/groruddalen-golfklubb-bane-oversikt.webp",
+      "alt": "Groruddalen Golfklubb golfbane med fairways og greener i urbant område",
+      "alt_en": "Groruddalen Golf Club course with fairways and greens in urban area",
+      "credit": "Groruddalen Golfklubb"
+    }
+  ]
 }

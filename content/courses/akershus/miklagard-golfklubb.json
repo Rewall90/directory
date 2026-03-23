@@ -272,5 +272,31 @@
   "googlePlaceId": "ChIJec5FfgZ_QUYRIvyieuOfOkM",
   "slug_en": "miklagard-golf",
   "name_en": "Miklagard Golf",
-  "description_en": "Miklagard Golf opened in June 2001 with the ambition of becoming one of Europe's finest golf facilities. The course is designed for golf buggy use, and we have 20 modern buggies available for hire. Miklagard is renowned for its excellent greens. The quality of greens, fairways, and tees meets a high European standard."
+  "description_en": "Miklagard Golf opened in June 2001 with the ambition of becoming one of Europe's finest golf facilities. The course is designed for golf buggy use, and we have 20 modern buggies available for hire. Miklagard is renowned for its excellent greens. The quality of greens, fairways, and tees meets a high European standard.",
+  "images": [
+    {
+      "src": "/courses/miklagard-golfklubb/miklagard-golfklubb-hull-6-solnedgang.webp",
+      "alt": "Hull 6 på Miklagard Golf i varmt kveldslys med fairway og bunkere i Ullensaker",
+      "alt_en": "Hole 6 at Miklagard Golf in warm evening light with fairway and bunkers in Ullensaker",
+      "credit": "Miklagard Golf"
+    },
+    {
+      "src": "/courses/miklagard-golfklubb/miklagard-golfklubb-bane-oversikt.webp",
+      "alt": "Panoramautsikt over Miklagard Golf med fairways og grønne omgivelser i Akershus",
+      "alt_en": "Panoramic view of Miklagard Golf with fairways and green surroundings in Akershus",
+      "credit": "Miklagard Golf"
+    },
+    {
+      "src": "/courses/miklagard-golfklubb/miklagard-golfklubb-klubbhus.webp",
+      "alt": "Klubbhuset på Miklagard Golf med karakteristisk norrøn arkitektur i Kløfta",
+      "alt_en": "Clubhouse at Miklagard Golf with characteristic Norse architecture in Kløfta",
+      "credit": "Miklagard Golf"
+    },
+    {
+      "src": "/courses/miklagard-golfklubb/miklagard-golfklubb-bane-detalj.webp",
+      "alt": "Miklagard Golf med fairway og naturskjønne omgivelser designet av Robert Trent Jones Jr",
+      "alt_en": "Miklagard Golf with fairway and scenic surroundings designed by Robert Trent Jones Jr",
+      "credit": "Bugten Film"
+    }
+  ]
 }

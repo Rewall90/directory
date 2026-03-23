@@ -201,5 +201,31 @@
   "googlePlaceId": "ChIJcRhPifIrQkYRzl3733MI0wQ",
   "slug_en": "nes-golf-club-rommen",
   "name_en": "Nes Golf Club (also known as Rommen Golf Club)",
-  "description_en": "Open parkland-style course with long tree-lined fairways, water hazards, and bunkers. All activities centred around the barn. New junior tee (Tee 28, 2,800m) added in 2022."
+  "description_en": "Open parkland-style course with long tree-lined fairways, water hazards, and bunkers. All activities centred around the barn. New junior tee (Tee 28, 2,800m) added in 2022.",
+  "images": [
+    {
+      "src": "/courses/rommen-golfklubb/rommen-golfklubb-oversikt-parkbane.webp",
+      "alt": "Oversiktsbilde av Rommen Golfpark ved Nes Golfklubb med åpen parkbane og grønne fairways",
+      "alt_en": "Overview of Rommen Golf Park at Nes Golf Club with open park course and green fairways",
+      "credit": "Nes Golfklubb"
+    },
+    {
+      "src": "/courses/rommen-golfklubb/rommen-golfklubb-hull-1-par-5.webp",
+      "alt": "Hull 1 på Rommen Golfpark, et utfordrende par 5 åpningshull med fairway og utslag",
+      "alt_en": "Hole 1 at Rommen Golf Park, a challenging par 5 opening hole with fairway and tee",
+      "credit": "Nes Golfklubb"
+    },
+    {
+      "src": "/courses/rommen-golfklubb/rommen-golfklubb-hull-10-bane.webp",
+      "alt": "Hull 10 på Rommen Golfpark med fairway og grønn i åpent parklandskap",
+      "alt_en": "Hole 10 at Rommen Golf Park with fairway and green in open parkland setting",
+      "credit": "Nes Golfklubb"
+    },
+    {
+      "src": "/courses/rommen-golfklubb/rommen-golfklubb-hull-18-avslutning.webp",
+      "alt": "Hull 18 på Rommen Golfpark, avslutningshullet med grønn ved låven og proshop",
+      "alt_en": "Hole 18 at Rommen Golf Park, the finishing hole with green by the barn and pro shop",
+      "credit": "Nes Golfklubb"
+    }
+  ]
 }

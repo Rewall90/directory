@@ -325,5 +325,37 @@
   "googlePlaceId": "ChIJbVs9s0kEOEYRAc15MSFtSek",
   "slug_en": "bjaavann-golf-club",
   "name_en": "Bjaavann Golf Club",
-  "description_en": "An 18-hole championship course designed by world-renowned Robert Trent Jones Jr. Known as 'The Norwegian Beauty'."
+  "description_en": "An 18-hole championship course designed by world-renowned Robert Trent Jones Jr. Known as 'The Norwegian Beauty'.",
+  "images": [
+    {
+      "src": "/courses/bjaavann-golfklubb/bjaavann-golfklubb-flyfoto-bjavannet.webp",
+      "alt": "Flyfoto av Bjaavann Golfklubb som viser banen rundt Bjåvannet med fairways, greener, bunkere og skogslandskap",
+      "alt_en": "Aerial view of Bjaavann Golf Club showing the course around Lake Bjåvann with fairways, greens, bunkers and forest landscape",
+      "credit": "Bjaavann golfklubb"
+    },
+    {
+      "src": "/courses/bjaavann-golfklubb/bjaavann-golfklubb-speilblankt-vann-utsikt.webp",
+      "alt": "Bjaavann Golfklubb med speilblankt vann som reflekterer skyer, fairways og skogkledde åser",
+      "alt_en": "Bjaavann Golf Club with mirror-smooth water reflecting clouds, fairways and forested hills",
+      "credit": "Bjaavann golfklubb"
+    },
+    {
+      "src": "/courses/bjaavann-golfklubb/bjaavann-golfklubb-oversikt-fjord-bane.webp",
+      "alt": "Oversiktsbilde av Bjaavann Golfklubb med Bjåvannet, fairways og klubbhus i skogsterreng ved Ålefjærfjorden",
+      "alt_en": "Overview of Bjaavann Golf Club with Lake Bjåvann, fairways and clubhouse in forest terrain by Ålefjær Fjord",
+      "credit": "Bjaavann golfklubb"
+    },
+    {
+      "src": "/courses/bjaavann-golfklubb/bjaavann-golfklubb-green-bunkere-vann.webp",
+      "alt": "Green med bunkere på Bjaavann Golfklubb med utsikt over Bjåvannet og skogslandskap",
+      "alt_en": "Green with bunkers at Bjaavann Golf Club overlooking Lake Bjåvann and forest landscape",
+      "credit": "Bjaavann golfklubb"
+    },
+    {
+      "src": "/courses/bjaavann-golfklubb/bjaavann-golfklubb-fairway-skogsterreng.webp",
+      "alt": "Fairway på Bjaavann Golfklubb i kupert skogsterreng med grønne bakkelandskap og bjørketre",
+      "alt_en": "Fairway at Bjaavann Golf Club in rolling forest terrain with green hillside landscape and birch trees",
+      "credit": "Bjaavann golfklubb"
+    }
+  ]
 }

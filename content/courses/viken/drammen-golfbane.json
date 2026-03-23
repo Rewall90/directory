@@ -272,5 +272,31 @@
   },
   "slug_en": "drammen-golf-course",
   "name_en": "Drammen Golf Course",
-  "description_en": "A varied and enjoyable 18-hole par-71 course designed by the acclaimed architect Jeremy Turner. The course can be played with both head and heart, and is suitable for all levels.\n\nLength: 4,700-5,800 metres depending on tee selection.\n\nFeatures include challenging slopes and significant elevation changes, beautiful natural scenery through woodland and parkland terrain, varied difficulty, and scenic views.\n\nLocated in Skoger, 1.5 km south of Drammen town centre.\n\nAll players must have completed an Introduction to Golf course or have a handicap of 54 or better."
+  "description_en": "A varied and enjoyable 18-hole par-71 course designed by the acclaimed architect Jeremy Turner. The course can be played with both head and heart, and is suitable for all levels.\n\nLength: 4,700-5,800 metres depending on tee selection.\n\nFeatures include challenging slopes and significant elevation changes, beautiful natural scenery through woodland and parkland terrain, varied difficulty, and scenic views.\n\nLocated in Skoger, 1.5 km south of Drammen town centre.\n\nAll players must have completed an Introduction to Golf course or have a handicap of 54 or better.",
+  "images": [
+    {
+      "src": "/courses/drammen-golfbane/drammen-golfbane-oversikt-fairways-vannhinder.webp",
+      "alt": "Oversiktsbilde av Drammen Golfbane med flere fairways, vannhinder og skogsterreng i Viken",
+      "alt_en": "Overview of Drammen Golf Course with multiple fairways, water hazards and forest terrain in Viken",
+      "credit": "Drammen Golfbane"
+    },
+    {
+      "src": "/courses/drammen-golfbane/drammen-golfbane-fairway-dam-skogsterreng.webp",
+      "alt": "Fairway på Drammen Golfbane med dam i forgrunnen, trær og green i bakgrunnen",
+      "alt_en": "Fairway at Drammen Golf Course with pond in foreground, trees and green in background",
+      "credit": "Drammen Golfbane"
+    },
+    {
+      "src": "/courses/drammen-golfbane/drammen-golfbane-green-hoydeforskjeller.webp",
+      "alt": "Green på Drammen Golfbane med markante høydeforskjeller og naturskjønn skogkant",
+      "alt_en": "Green at Drammen Golf Course with significant elevation changes and scenic forest edge",
+      "credit": "Drammen Golfbane"
+    },
+    {
+      "src": "/courses/drammen-golfbane/drammen-golfbane-tee-morgentime-dis.webp",
+      "alt": "Utsikt fra tee på Drammen Golfbane i morgendis med fairway og skogsterreng",
+      "alt_en": "View from tee at Drammen Golf Course in morning mist with fairway and forest terrain",
+      "credit": "Drammen Golfbane"
+    }
+  ]
 }

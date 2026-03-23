@@ -248,5 +248,19 @@
   "googlePlaceId": "ChIJcRhPifIrQkYRzl3733MI0wQ",
   "slug_en": "nes-golf-club",
   "name_en": "Nes Golf Club",
-  "description_en": "Open parkland course that is good to walk, but long to play. 5 different tee positions, sloped for both men and women. New junior tee (Tee 28) added in 2022 measuring 2,800 metres."
+  "description_en": "Open parkland course that is good to walk, but long to play. 5 different tee positions, sloped for both men and women. New junior tee (Tee 28) added in 2022 measuring 2,800 metres.",
+  "images": [
+    {
+      "src": "/courses/nes-golfklubb/nes-golfklubb-fairway-parkbane.webp",
+      "alt": "Fairway på Nes Golfklubb Rommen Golfpark, en åpen parkbane i Vormsund",
+      "alt_en": "Fairway at Nes Golf Club Rommen Golf Park, an open parkland course in Vormsund",
+      "credit": "Nes Golfklubb"
+    },
+    {
+      "src": "/courses/nes-golfklubb/nes-golfklubb-bane-oversikt.webp",
+      "alt": "Oversiktsbilde av banen på Nes Golfklubb i Akershus med grønne fairways",
+      "alt_en": "Overview of the course at Nes Golf Club in Akershus with green fairways",
+      "credit": "Nes Golfklubb"
+    }
+  ]
 }

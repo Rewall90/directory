@@ -415,5 +415,37 @@
   "googlePlaceId": "ChIJQQ9fny2DO0YRmP1R_jpCh2U",
   "slug_en": "haugaland-golf-club",
   "name_en": "Haugaland Golf Club",
-  "description_en": "Haugaland Golf Club, also known as Sveio Golf Park, is an 18-hole golf course in Sveio, Vestland (formerly Hordaland), approximately 20 minutes north of Haugesund. The club was founded in 1987, the first 9 holes opened in 2001, expanded to 18 holes in 2008. Designed by architect Svein D. Olsnes. Par 72, length 6,127m from the white tees. The course has 4 par 3s, 10 par 4s and 4 par 5 holes. The front 9 runs through woodland, whilst the back 9 features open heathland. A moderately challenging course with gentle undulations and water hazards. Semi-private course open to visitors with a valid handicap (max 36). Now part of a 54-hole system across four courses including Nordvegen Golf Course (2018) and Karmoy Golf Club (2024)."
+  "description_en": "Haugaland Golf Club, also known as Sveio Golf Park, is an 18-hole golf course in Sveio, Vestland (formerly Hordaland), approximately 20 minutes north of Haugesund. The club was founded in 1987, the first 9 holes opened in 2001, expanded to 18 holes in 2008. Designed by architect Svein D. Olsnes. Par 72, length 6,127m from the white tees. The course has 4 par 3s, 10 par 4s and 4 par 5 holes. The front 9 runs through woodland, whilst the back 9 features open heathland. A moderately challenging course with gentle undulations and water hazards. Semi-private course open to visitors with a valid handicap (max 36). Now part of a 54-hole system across four courses including Nordvegen Golf Course (2018) and Karmoy Golf Club (2024).",
+  "images": [
+    {
+      "src": "/courses/haugaland-golfklubb/haugaland-golfklubb-hull-1-utslag-panorama.webp",
+      "alt": "Panoramautsikt fra hull 1 på Haugaland Golfklubb med fairway, skog og fjell i bakgrunnen",
+      "alt_en": "Panoramic view from hole 1 at Haugaland Golf Club with fairway, forest and mountains in the background",
+      "credit": "Haugaland Golfklubb"
+    },
+    {
+      "src": "/courses/haugaland-golfklubb/haugaland-golfklubb-hull-3-green.webp",
+      "alt": "Green på hull 3 ved Haugaland Golfklubb i skogsterreng med naturskjønne omgivelser",
+      "alt_en": "Green at hole 3 at Haugaland Golf Club in forest terrain with scenic natural surroundings",
+      "credit": "Haugaland Golfklubb"
+    },
+    {
+      "src": "/courses/haugaland-golfklubb/haugaland-golfklubb-hull-4-utslag.webp",
+      "alt": "Utslag fra hull 4 på Haugaland Golfklubb med bred fairway i vestlandsnatur",
+      "alt_en": "Tee shot from hole 4 at Haugaland Golf Club with wide fairway in Western Norway nature",
+      "credit": "Haugaland Golfklubb"
+    },
+    {
+      "src": "/courses/haugaland-golfklubb/haugaland-golfklubb-hull-5-utslag-utsikt.webp",
+      "alt": "Hull 5 på Haugaland Golfklubb med spektakulær utsikt over åpent lynglandskap",
+      "alt_en": "Hole 5 at Haugaland Golf Club with spectacular view over open heather landscape",
+      "credit": "Haugaland Golfklubb"
+    },
+    {
+      "src": "/courses/haugaland-golfklubb/haugaland-golfklubb-hull-2-fairway.webp",
+      "alt": "Fairway på hull 2 ved Haugaland Golfklubb omgitt av skog og naturlig terreng",
+      "alt_en": "Fairway at hole 2 at Haugaland Golf Club surrounded by forest and natural terrain",
+      "credit": "Haugaland Golfklubb"
+    }
+  ]
 }

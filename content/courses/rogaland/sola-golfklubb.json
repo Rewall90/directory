@@ -386,5 +386,25 @@
   "googlePlaceId": "ChIJEUxIhf81OkYRYr5xFvOX8co",
   "slug_en": "sola-golf-club",
   "name_en": "Sola Golf Club",
-  "description_en": "Sola Golf Club is an established 18-hole parkland course in Sola, founded 1993. Par 72, length 5,838 m (yellow), 4,899 m (red). Parkland and woodland setting. The club offers three courses with one membership: two 18-hole courses and a Golf Park with golf, footgolf and a Pitch & Putt trail. Maximum handicap 54 for visitors. Season April-October."
+  "description_en": "Sola Golf Club is an established 18-hole parkland course in Sola, founded 1993. Par 72, length 5,838 m (yellow), 4,899 m (red). Parkland and woodland setting. The club offers three courses with one membership: two 18-hole courses and a Golf Park with golf, footgolf and a Pitch & Putt trail. Maximum handicap 54 for visitors. Season April-October.",
+  "images": [
+    {
+      "src": "/courses/sola-golfklubb/sola-golfklubb-flyfoto-kystlandskap.webp",
+      "alt": "Flyfoto av Sola Golfklubb med hav og kystlandskap i Rogaland",
+      "alt_en": "Aerial view of Sola Golf Club with ocean and coastal landscape in Rogaland",
+      "credit": "Sola Golfklubb"
+    },
+    {
+      "src": "/courses/sola-golfklubb/sola-golfklubb-fairway-parklandskap.webp",
+      "alt": "Fairway på Sola Golfklubb med trær og grønt parklandskap",
+      "alt_en": "Fairway at Sola Golf Club with trees and green parkland",
+      "credit": "Sola Golfklubb"
+    },
+    {
+      "src": "/courses/sola-golfklubb/sola-golfklubb-solastranden-links-bunkere.webp",
+      "alt": "Solastranden bane på Sola Golfklubb med links-preg og strategisk plasserte bunkere",
+      "alt_en": "Solastranden course at Sola Golf Club with links-style terrain and strategically placed bunkers",
+      "credit": "Sola Golfklubb"
+    }
+  ]
 }

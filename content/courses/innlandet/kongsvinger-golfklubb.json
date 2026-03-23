@@ -196,7 +196,7 @@
     {
       "tee": "Tee Hvit (Herre)",
       "gender": "male",
-      "courseRating": 74.0,
+      "courseRating": 74,
       "slopeRating": 143,
       "par": 72,
       "lengthMeters": 6248
@@ -204,7 +204,7 @@
     {
       "tee": "Tee Gul (Herre)",
       "gender": "male",
-      "courseRating": 72.0,
+      "courseRating": 72,
       "slopeRating": 138,
       "par": 72,
       "lengthMeters": 5850
@@ -265,5 +265,25 @@
   "googlePlaceId": "ChIJM11B4QNMQkYRRF-xgG5nqzE",
   "slug_en": "kongsvinger-golf-club",
   "name_en": "Kongsvinger Golf Club",
-  "description_en": "18-hole championship course in scenic woodland terrain by Fløytasjøen lake, about 8 km south of Kongsvinger. Designed by Peter Nordwall (2005). The course offers varied terrain with lakes, streams and hilly forest. Free equipment rental with focus on recruitment. Cafe, conference facilities and accommodation partners nearby."
+  "description_en": "18-hole championship course in scenic woodland terrain by Fløytasjøen lake, about 8 km south of Kongsvinger. Designed by Peter Nordwall (2005). The course offers varied terrain with lakes, streams and hilly forest. Free equipment rental with focus on recruitment. Cafe, conference facilities and accommodation partners nearby.",
+  "images": [
+    {
+      "src": "/courses/kongsvinger-golfklubb/kongsvinger-golfklubb-hull-3-utslag-skogsterreng.webp",
+      "alt": "Hull 3 på Kongsvingers Golfklubb med utslagssted omgitt av høye bartrær i naturlig skogsterreng",
+      "alt_en": "Hole 3 at Kongsvinger Golf Club with tee box surrounded by tall pine trees in natural forest terrain",
+      "credit": "Kongsvingers Golfklubb"
+    },
+    {
+      "src": "/courses/kongsvinger-golfklubb/kongsvinger-golfklubb-hull-2-fairway-skog.webp",
+      "alt": "Hull 2 på Kongsvingers Golfklubb med fairway gjennom tett granskog i Innlandet",
+      "alt_en": "Hole 2 at Kongsvinger Golf Club with fairway through dense spruce forest in Innlandet",
+      "credit": "Kongsvingers Golfklubb"
+    },
+    {
+      "src": "/courses/kongsvinger-golfklubb/kongsvinger-golfklubb-hull-1-aapningshull.webp",
+      "alt": "Hull 1 åpningshull på Kongsvingers Golfklubb med bredt fairway og naturlig skogsterreng",
+      "alt_en": "Hole 1 opening hole at Kongsvinger Golf Club with wide fairway and natural forest terrain",
+      "credit": "Kongsvingers Golfklubb"
+    }
+  ]
 }

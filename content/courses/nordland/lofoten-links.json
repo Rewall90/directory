@@ -189,5 +189,37 @@
   },
   "slug_en": "lofoten-links",
   "name_en": "Lofoten Links",
-  "description_en": "World-class golf course with a unique Arctic location at 68 degrees north, above the Arctic Circle. The course offers 24-hour golfing under the midnight sun (May-July) and northern lights experiences (August-October). White sandy beaches, views over the Norwegian Sea, and utterly unique golf experiences."
+  "description_en": "World-class golf course with a unique Arctic location at 68 degrees north, above the Arctic Circle. The course offers 24-hour golfing under the midnight sun (May-July) and northern lights experiences (August-October). White sandy beaches, views over the Norwegian Sea, and utterly unique golf experiences.",
+  "images": [
+    {
+      "src": "/courses/lofoten-links/lofoten-links-flyfoto-nordlys-fjell-kysten.webp",
+      "alt": "Flyfoto av Lofoten Links golfbane ved kysten med fjell og nordlys i Lofoten",
+      "alt_en": "Aerial view of Lofoten Links golf course by the coast with mountains and northern lights in Lofoten",
+      "credit": "Jacob Sjöman"
+    },
+    {
+      "src": "/courses/lofoten-links/lofoten-links-hull-2-nordlys-signaturhull.webp",
+      "alt": "Hull 2 på Lofoten Links med nordlys over signaturhullet ved kysten",
+      "alt_en": "Hole 2 at Lofoten Links with northern lights over the signature hole by the coast",
+      "credit": "Jacob Sjöman"
+    },
+    {
+      "src": "/courses/lofoten-links/lofoten-links-flyfoto-fairways-fjell-hav.webp",
+      "alt": "Flyfoto av Lofoten Links med fairways, bunkere og dramatisk fjelllandskap ved havet",
+      "alt_en": "Aerial view of Lofoten Links with fairways, bunkers and dramatic mountain landscape by the sea",
+      "credit": "Lofoten Links"
+    },
+    {
+      "src": "/courses/lofoten-links/lofoten-links-linksbane-fairway-fjordlandskap.webp",
+      "alt": "Lofoten Links linksbane med bølgende fairway og spektakulært fjordlandskap",
+      "alt_en": "Lofoten Links course with rolling fairway and spectacular fjord landscape",
+      "credit": "Jacob Sjöman"
+    },
+    {
+      "src": "/courses/lofoten-links/lofoten-links-bane-oversikt-kystlinje-fjell.webp",
+      "alt": "Oversiktsbilde av Lofoten Links golfbane langs kystlinjen med fjell i bakgrunnen",
+      "alt_en": "Overview of Lofoten Links golf course along the coastline with mountains in the background",
+      "credit": "Jacob Sjöman"
+    }
+  ]
 }

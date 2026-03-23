@@ -239,5 +239,25 @@
   "googlePlaceId": "ChIJh4LFc0FtQUYRzLR6BYMFo9I",
   "slug_en": "grini-golf-club",
   "name_en": "Grini Golf Club",
-  "description_en": "Grini is a 9-hole golf course suitable for golfers of all standards. The course is par 35 and measures 2,591 metres. Designed by Jeremy Turner, it is set in a relatively open landscape, but with a layout that presents a range of challenges. Varied holes and fine views towards Holmenkollen, among others, make for a delightful golfing experience."
+  "description_en": "Grini is a 9-hole golf course suitable for golfers of all standards. The course is par 35 and measures 2,591 metres. Designed by Jeremy Turner, it is set in a relatively open landscape, but with a layout that presents a range of challenges. Varied holes and fine views towards Holmenkollen, among others, make for a delightful golfing experience.",
+  "images": [
+    {
+      "src": "/courses/grini-golfklubb/grini-golfklubb-flyfoto-bane-landskap.webp",
+      "alt": "Flyfoto av Grini Golfklubb sin 9-hulls golfbane med fairways i åpent terreng",
+      "alt_en": "Aerial view of Grini Golf Club's 9-hole golf course with fairways in open terrain",
+      "credit": "Grini Golfklubb"
+    },
+    {
+      "src": "/courses/grini-golfklubb/grini-golfklubb-oversikt-hull-fairway.webp",
+      "alt": "Oversiktsbilde av fairway på Grini Golfklubb med grønn og omgivelser",
+      "alt_en": "Overview of fairway at Grini Golf Club with green and surroundings",
+      "credit": "Grini Golfklubb"
+    },
+    {
+      "src": "/courses/grini-golfklubb/grini-golfklubb-klubbhus-fasade.webp",
+      "alt": "Grini Golfklubb sitt klubbhus med omgivende landskap og parkeringsplass",
+      "alt_en": "Grini Golf Club clubhouse with surrounding landscape and parking area",
+      "credit": "Grini Golfklubb"
+    }
+  ]
 }

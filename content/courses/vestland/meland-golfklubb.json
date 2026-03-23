@@ -283,5 +283,31 @@
   "googlePlaceId": "ChIJS23g7igcPUYR4jnnqLy0Woo",
   "slug_en": "meland-golf-club",
   "name_en": "Meland Golf Club",
-  "description_en": "Meland Golf Club - 18-hole woodland course designed by Robert A. Hunt (PGA Management), opened 1999. Club founded 1995. Par 73, 6,823 yards (approx. 6,237m). Known as one of the most challenging golf courses in Scandinavia. Gently undulating terrain with water hazards. 6 different tee options from 3,500 to 6,200 metres."
+  "description_en": "Meland Golf Club - 18-hole woodland course designed by Robert A. Hunt (PGA Management), opened 1999. Club founded 1995. Par 73, 6,823 yards (approx. 6,237m). Known as one of the most challenging golf courses in Scandinavia. Gently undulating terrain with water hazards. 6 different tee options from 3,500 to 6,200 metres.",
+  "images": [
+    {
+      "src": "/courses/meland-golfklubb/meland-golfklubb-fairway-vannhinder-fjell.webp",
+      "alt": "Fairway på Meland Golfklubb med vannhinder og fjelllandskap i bakgrunnen under blå himmel",
+      "alt_en": "Fairway at Meland Golf Club with water hazard and mountain landscape in the background under blue sky",
+      "credit": "Meland Golfklubb"
+    },
+    {
+      "src": "/courses/meland-golfklubb/meland-golfklubb-fairway-bunker-fjell.webp",
+      "alt": "Golfbane ved Meland Golfklubb med sandbanker, grønne fairways og fjell i bakgrunnen",
+      "alt_en": "Golf course at Meland Golf Club with bunkers, green fairways and mountains in the background",
+      "credit": "Meland Golfklubb"
+    },
+    {
+      "src": "/courses/meland-golfklubb/meland-golfklubb-oversikt-skogsterreng.webp",
+      "alt": "Oversiktsbilde av Meland Golfklubb med fairways omgitt av frodig skog og naturlige omgivelser",
+      "alt_en": "Overview of Meland Golf Club with fairways surrounded by lush forest and natural surroundings",
+      "credit": "Meland Golfklubb"
+    },
+    {
+      "src": "/courses/meland-golfklubb/meland-golfklubb-hull-17.webp",
+      "alt": "Hull 17 på Meland Golfklubb med green og naturskjønne omgivelser i vestlandsnatur",
+      "alt_en": "Hole 17 at Meland Golf Club with green and scenic surroundings in western Norwegian nature",
+      "credit": "Meland Golfklubb"
+    }
+  ]
 }

@@ -252,5 +252,31 @@
   "googlePlaceId": "ChIJo0E2KmJkQUYRZ60DY70d2-c",
   "slug_en": "losby-golf-club",
   "name_en": "Losby Golf Club",
-  "description_en": "A complete golf facility with an 18-hole course (Ostmork) and a 9-hole course (Vestmork). 6 Trackman 4 simulators, free Trackman Range, pro shop with custom fitting, restaurant, and PGA instructors. Member of First Class Golf and Top Nordic Golf. Part of the Losby Gods resort with hotel and conference facilities. Ongoing/recent rehabilitation of Ostmork."
+  "description_en": "A complete golf facility with an 18-hole course (Ostmork) and a 9-hole course (Vestmork). 6 Trackman 4 simulators, free Trackman Range, pro shop with custom fitting, restaurant, and PGA instructors. Member of First Class Golf and Top Nordic Golf. Part of the Losby Gods resort with hotel and conference facilities. Ongoing/recent rehabilitation of Ostmork.",
+  "images": [
+    {
+      "src": "/courses/losby-golfklubb/losby-golfklubb-flyfoto-bane-svart-hvitt.webp",
+      "alt": "Flyfoto av Losby Golfklubb med golfbane, fairways og greener i naturskjønt terreng ved Finstadjordet",
+      "alt_en": "Aerial photo of Losby Golf Club with golf course, fairways and greens in scenic terrain near Finstadjordet",
+      "credit": "Losby Golfklubb"
+    },
+    {
+      "src": "/courses/losby-golfklubb/losby-golfklubb-hull-10-par-tre-vannhinder.webp",
+      "alt": "Hull 10 på Østmork, Losby Golfklubb - langt par tre med vann rundt greenen og bunker",
+      "alt_en": "Hole 10 on Østmork, Losby Golf Club - long par three with water around the green and bunker",
+      "credit": "Losby Golfklubb"
+    },
+    {
+      "src": "/courses/losby-golfklubb/losby-golfklubb-green-flagg-bunker-svart-hvitt.webp",
+      "alt": "Green med flagg og bunker på Losby Golfklubb i svart-hvitt, omgitt av trær og naturlig terreng",
+      "alt_en": "Green with flag and bunker at Losby Golf Club in black and white, surrounded by trees and natural terrain",
+      "credit": "Losby Golfklubb"
+    },
+    {
+      "src": "/courses/losby-golfklubb/losby-golfklubb-vestmork-hull-5-teested.webp",
+      "alt": "Hull 5 på Vestmork 9-hulls banen, Losby Golfklubb - utsikt fra teestedet med fairway og skog",
+      "alt_en": "Hole 5 on Vestmork 9-hole course, Losby Golf Club - view from the tee with fairway and forest",
+      "credit": "Losby Golfklubb"
+    }
+  ]
 }
