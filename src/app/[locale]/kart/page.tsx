@@ -27,9 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = "/kart";
 
   const description =
-    actualCount > 0
-      ? t("description", { count: actualCount })
-      : t("descriptionFallback");
+    actualCount > 0 ? t("description", { count: actualCount }) : t("descriptionFallback");
 
   return {
     title: t("title"),

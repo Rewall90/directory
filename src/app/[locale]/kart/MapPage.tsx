@@ -234,7 +234,12 @@ export function MapPage({ courses, locale }: MapPageProps) {
         </div>
 
         {/* Results count */}
-        <p className="text-base-content/70 mt-4 text-sm" role="status" aria-live="polite" aria-atomic="true">
+        <p
+          className="text-base-content/70 mt-4 text-sm"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        >
           {t("showingCourses", {
             filtered: filteredCourses.length,
             total: courses.length,
