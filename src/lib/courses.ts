@@ -18,7 +18,7 @@ function parseJSONCourse(filePath: string, content: string): Course | null {
     // Basic validation - check required fields
     if (!course.slug || !course.name || !course.region) {
       logger.warn(
-        `Invalid course data in ${filePath}: missing required fields (slug, name, or region)`
+        `Invalid course data in ${filePath}: missing required fields (slug, name, or region)`,
       );
       return null;
     }
@@ -179,6 +179,43 @@ export interface PopularCourse {
   imageSrc: string;
   imageAlt: string;
 }
+
+export interface TopRatedCourse {
+  name: string;
+  slug: string;
+  regionSlug: string;
+  rating: number;
+}
+
+/**
+ * Get top-rated courses by Google rating (for footer)
+ */
+export const getTopRatedCourses = cache((limit = 5): TopRatedCourse[] => {
+  const courses = getAllCourses();
+  const regionSlugs = getRegions();
+
+  const results: TopRatedCourse[] = [];
+
+  for (const course of courses) {
+    const google = course.ratings?.google;
+    if (!google?.rating || !google.reviewCount || google.reviewCount < 10) continue;
+
+    const regionSlug =
+      regionSlugs.find((r) => {
+        const regionDir = path.join(COURSES_DIR, r);
+        return fs.existsSync(path.join(regionDir, `${course.slug}.json`));
+      }) || "";
+
+    results.push({
+      name: course.name,
+      slug: course.slug,
+      regionSlug,
+      rating: google.rating,
+    });
+  }
+
+  return results.sort((a, b) => b.rating - a.rating).slice(0, limit);
+});
 
 /**
  * Get most popular courses that have images, sorted by review count (for homepage)
@@ -359,7 +396,7 @@ export const getAllCoursesForMap = cache((): MapCourse[] => {
           typeof c.coordinates.lat === "number" &&
           typeof c.coordinates.lng === "number" &&
           !Number.isNaN(c.coordinates.lat) &&
-          !Number.isNaN(c.coordinates.lng)
+          !Number.isNaN(c.coordinates.lng),
       )
       .map((course) => {
         const regionSlug = slugToRegion.get(course.slug) || "";

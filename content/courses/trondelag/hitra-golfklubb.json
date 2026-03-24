@@ -241,5 +241,35 @@
   "googlePlaceId": "ChIJBe53gzj3EkYRcZb2mhk4fiw",
   "slug_en": "hitra-golf-club",
   "name_en": "Hitra Golf Club",
-  "description_en": "9-hole intimate links course at Akset near Hestvika with views towards the Trondheimsleia strait and Terningen lighthouse."
+  "description_en": "9-hole intimate links course at Akset near Hestvika with views towards the Trondheimsleia strait and Terningen lighthouse.",
+  "images": [
+    {
+      "src": "/courses/hitra-golfklubb/hitra-golfklubb-fairway-regnbue-trondheimsleia.webp",
+      "alt": "Fairway på Hitra Golfklubb med regnbue og utsikt over Trondheimsleia og kystlandskap",
+      "alt_en": "Fairway at Hitra Golf Club with rainbow and view over Trondheimsleia and coastal landscape",
+      "credit": "Hitra Frøya Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoHAAcABUB8JZAC7AD0ZtbVBAAA/fxY+II49NexRFRfRzE1iSAiaTboYYAAAA=="
+    },
+    {
+      "src": "/courses/hitra-golfklubb/hitra-golfklubb-green-cruiseskip-trondheimsleia.webp",
+      "alt": "Golfere på green ved Hitra Golfklubb med cruiseskip i Trondheimsleia og kystlandskap",
+      "alt_en": "Golfers on green at Hitra Golf Club with cruise ship in Trondheimsleia and coastal landscape",
+      "credit": "Hitra Frøya Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoKAAYABUB8JagC7AEUU5DI4AD+W9SiqxlXB3KV9OFIQfASTr07ZrAA"
+    },
+    {
+      "src": "/courses/hitra-golfklubb/hitra-golfklubb-solnedgang-utsikt.webp",
+      "alt": "Solnedgang over Hitra Golfklubb med utsikt mot Terningen fyr og Trondheimsleia",
+      "alt_en": "Sunset over Hitra Golf Club with view towards Terningen lighthouse and Trondheimsleia",
+      "credit": "Hitra Frøya Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoFAAcABUB8JQBOgCHM5ugA/lYA1icQzzwuWom+4qBgMO5EJQAAAA=="
+    },
+    {
+      "src": "/courses/hitra-golfklubb/hitra-golfklubb-sommerbilde-bane.webp",
+      "alt": "Sommerbilde av Hitra Golfklubb med grønne fairways og kystlandskap i bakgrunnen",
+      "alt_en": "Summer photo of Hitra Golf Club with green fairways and coastal landscape in the background",
+      "credit": "Hitra Frøya Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADQAQCdASoEAAcABUB8JaACw7EUpOR9AAD2aKXWK4ewyJ0+WAw7nAkIAAA="
+    }
+  ]
 }

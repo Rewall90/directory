@@ -297,5 +297,28 @@
   },
   "slug_en": "mandal-golf-club",
   "name_en": "Mandal Golf Club",
-  "description_en": "Norway's southernmost golf course, established in 1993. Mandal Golf Club has one of the finest 9-hole courses on the southern coast, with short game practice areas, a driving range and putting green, as well as a clubhouse featuring a cafe, changing rooms, a simulator room with three Trackman simulators and a pleasant terrace."
+  "description_en": "Norway's southernmost golf course, established in 1993. Mandal Golf Club has one of the finest 9-hole courses on the southern coast, with short game practice areas, a driving range and putting green, as well as a clubhouse featuring a cafe, changing rooms, a simulator room with three Trackman simulators and a pleasant terrace.",
+  "images": [
+    {
+      "src": "/courses/mandal-golfklubb/mandal-golfklubb-flyfoto-fairway-fjellterreng.webp",
+      "alt": "Flyfoto av fairway på Mandal Golfklubb omgitt av barskog og fjell i Agder",
+      "alt_en": "Aerial view of fairway at Mandal Golf Club surrounded by coniferous forest and mountains in Agder",
+      "credit": "Mandal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoKAAYABUB8JYgCw7Dcdf1EAAD2Rhk2ZMgc0GRB36j7eEB4uEP4yITuYFucUIXUlAAAAA=="
+    },
+    {
+      "src": "/courses/mandal-golfklubb/mandal-golfklubb-fairway-mandalselva-utsikt.webp",
+      "alt": "Fairway med utsikt over Mandalselva og skogsterreng på Mandal Golfklubb",
+      "alt_en": "Fairway with view over the Mandal River and forest terrain at Mandal Golf Club",
+      "credit": "Mandal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAUABUB8JagCdAEQCTfxoADxQrPHowuYkAcSlH4/wMHLzIrVYBfwAAA="
+    },
+    {
+      "src": "/courses/mandal-golfklubb/mandal-golfklubb-utslag-spiller-barskog.webp",
+      "alt": "Golfspiller i utslag på Mandal Golfklubb med barskog og åpent terreng",
+      "alt_en": "Golfer teeing off at Mandal Golf Club with coniferous forest and open terrain",
+      "credit": "Mandal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoGAAcABUB8JQBYdh6GNbUAAOIF0yOR1sCnVO9CXJdTNfxB3a4D8YAA"
+    }
+  ]
 }
