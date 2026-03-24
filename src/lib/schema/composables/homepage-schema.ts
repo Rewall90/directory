@@ -6,6 +6,7 @@
 
 import type { Schema } from "../types/schema.types";
 import type { RegionData } from "../types/site-config.types";
+import { SITE_CONFIG } from "../config/site-config";
 
 // Import generators
 import { generateOrganizationSchema } from "../generators/organization";
@@ -71,6 +72,24 @@ export function getHomepageSchemas(data: {
 
   // 5. ItemList - List of regions displayed on homepage
   schemas.push(generateRegionListSchema(data.regions));
+
+  // 6. Map - Interactive map feature for discovery
+  schemas.push({
+    "@context": "https://schema.org",
+    "@type": "Map",
+    "@id": `${SITE_CONFIG.baseUrl}/#map`,
+    name:
+      data.locale === "en"
+        ? "Golf Courses in Norway - Interactive Map"
+        : "Norges Golfbaner - Interaktivt Kart",
+    description:
+      data.locale === "en"
+        ? `Interactive map showing ${data.totalCourses} golf courses across Norway`
+        : `Interaktivt kart som viser ${data.totalCourses} golfbaner i hele Norge`,
+    mapType: "https://schema.org/VenueMap",
+    url: `${SITE_CONFIG.baseUrl}${data.locale === "en" ? "/en" : ""}/kart`,
+    isPartOf: { "@id": `${SITE_CONFIG.baseUrl}/#website` },
+  } as unknown as Schema);
 
   return schemas;
 }

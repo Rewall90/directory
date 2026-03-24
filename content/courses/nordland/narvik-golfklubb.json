@@ -225,5 +225,35 @@
   "googlePlaceId": "ChIJkcyxiKHD20URb_LzGv8DVc4",
   "slug_en": "narvik-golf-club",
   "name_en": "Narvik Golf Club",
-  "description_en": "Challenging 18-hole championship course in a spectacularly scenic Arctic setting in the Skjomen valley, 35 minutes outside Narvik town. The course lies above the Arctic Circle and offers midnight sun golf from mid-June to mid-August. Unique woodland terrain where virtually every hole is a dogleg, making accuracy more important than length. Spectacular views towards the deep blue Frostisen glacier and massive mountains. A challenging course where precision is the key to success."
+  "description_en": "Challenging 18-hole championship course in a spectacularly scenic Arctic setting in the Skjomen valley, 35 minutes outside Narvik town. The course lies above the Arctic Circle and offers midnight sun golf from mid-June to mid-August. Unique woodland terrain where virtually every hole is a dogleg, making accuracy more important than length. Spectacular views towards the deep blue Frostisen glacier and massive mountains. A challenging course where precision is the key to success.",
+  "images": [
+    {
+      "src": "/courses/narvik-golfklubb/narvik-golfklubb-hull-6-fairway-skjomen.webp",
+      "alt": "Hull 6 på Narvik Golfklubb med fairway og dramatisk natur i Skjomen",
+      "alt_en": "Hole 6 at Narvik Golf Club with fairway and dramatic nature in Skjomen",
+      "credit": "Narvik Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoKAAUABUB8JZQAAtw2tgAA/uDK5yB7nqtjFxWg+3DQoMyEAAA="
+    },
+    {
+      "src": "/courses/narvik-golfklubb/narvik-golfklubb-hull-3-bane-oversikt.webp",
+      "alt": "Hull 3 på Narvik Golfklubb med utsikt over golfbanen i nordnorsk natur",
+      "alt_en": "Hole 3 at Narvik Golf Club with view over the golf course in Northern Norwegian nature",
+      "credit": "Narvik Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACwAQCdASoKAAUABUB8JZQAAxZTTSQAAP7V7GX9EWxPI8B+mgAAAA=="
+    },
+    {
+      "src": "/courses/narvik-golfklubb/narvik-golfklubb-hull-9-green-fjell.webp",
+      "alt": "Hull 9 på Narvik Golfklubb med grønn og fjellterreng i bakgrunnen",
+      "alt_en": "Hole 9 at Narvik Golf Club with green and mountain terrain in the background",
+      "credit": "Narvik Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAACwAQCdASoKAAUABUB8JZwAAxf+5/AAAP7qqmXyVy9jKCoAAAA="
+    },
+    {
+      "src": "/courses/narvik-golfklubb/narvik-golfklubb-hull-14-bane-utsikt.webp",
+      "alt": "Hull 14 på Narvik Golfklubb med panoramautsikt over banen og omgivelsene",
+      "alt_en": "Hole 14 at Narvik Golf Club with panoramic view over the course and surroundings",
+      "credit": "Narvik Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoKAAUABUB8JZQAAvrRA3oAAP7G+MGTe/olR6Z1sWVaRIAQAAA="
+    }
+  ]
 }

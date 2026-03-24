@@ -257,5 +257,35 @@
   "googlePlaceId": "ChIJJ3fs202VF0YR3lPnXCA1ezU",
   "slug_en": "floro-golf-club",
   "name_en": "Floro Golf Club",
-  "description_en": "Floro Golf Club - 6-hole short course on Brandsoy, a few minutes' drive from Floro town centre. Par 22, 1,109 yards (approx. 1,014m). Approved and slope-rated by the Norwegian Golf Federation. Surrounded by stunning fjord scenery and lush coastal landscapes. Hole 4 (364 yards, par 5) is the most difficult hole on the course. Relaxed atmosphere, family-friendly."
+  "description_en": "Floro Golf Club - 6-hole short course on Brandsoy, a few minutes' drive from Floro town centre. Par 22, 1,109 yards (approx. 1,014m). Approved and slope-rated by the Norwegian Golf Federation. Surrounded by stunning fjord scenery and lush coastal landscapes. Hole 4 (364 yards, par 5) is the most difficult hole on the course. Relaxed atmosphere, family-friendly.",
+  "images": [
+    {
+      "src": "/courses/floro-golfklubb/floro-golfklubb-hull-4-green-haasteinen-fjell.webp",
+      "alt": "Hull 4 på Florø Golfklubb med grønn, flagg og Håsteinen fjell i bakgrunnen",
+      "alt_en": "Hole 4 at Florø Golf Club with green, flag and Håsteinen mountain in the background",
+      "credit": "Florø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoJAAcABUB8JbACdAEUnfXNKAD6TlYdLpHYPOzxTUpmHWKeQ3hkrOFFdkGKiLYbyCTAAA=="
+    },
+    {
+      "src": "/courses/floro-golfklubb/floro-golfklubb-green-flagg-fjellterreng.webp",
+      "alt": "Grønn med gult flagg på Florø Golfklubb omgitt av skog og fjellterreng",
+      "alt_en": "Green with yellow flag at Florø Golf Club surrounded by forest and mountain terrain",
+      "credit": "Florø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoJAAcABUB8JbACdADzHF0AAP7R/rUK7YXYiSIF2m9uwkFmzqj0K4zhT4GlbfGPQAA="
+    },
+    {
+      "src": "/courses/floro-golfklubb/floro-golfklubb-fairway-par-5-fjordutsikt.webp",
+      "alt": "Fairway på par 5-hullet ved Florø Golfklubb med utsikt over fjord og fjell",
+      "alt_en": "Fairway on the par 5 hole at Florø Golf Club with views of fjord and mountains",
+      "credit": "Florø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoFAAcABUB8JZgCdAEPDcqdWADNVR+UoRqy94ydYNS5a4MJqpW6AAAA"
+    },
+    {
+      "src": "/courses/floro-golfklubb/floro-golfklubb-utslag-skogsterreng-spillere.webp",
+      "alt": "Spillere på utslag ved Florø Golfklubb i frodig skogsterreng med fjell",
+      "alt_en": "Players on tee box at Florø Golf Club in lush forest terrain with mountains",
+      "credit": "Florø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoFAAcABUB8JbACdAEUl9EgAPk/fbpCn+IskPlpM1ZmfS3TYL+XKAAA"
+    }
+  ]
 }

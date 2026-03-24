@@ -246,5 +246,28 @@
   "googlePlaceId": "ChIJO27Je9YfPUYRk9tICd5VohY",
   "slug_en": "herdla-golf-club",
   "name_en": "Herdla Golf Club",
-  "description_en": "Herdla Golf Club - 9-hole parkland/links course on idyllic Herdla, Askoy. Started as a 6-hole course in 2001, completed with 9 holes in 2009 designed by Scottish architect Graeme Webster. Par 31 (62 for 18 holes), 1,752 metres. Flat to gently undulating terrain. Short distances between green and next tee. A typically 'friendly course'. Approx. 45 minutes from Bergen city centre and Bergen Airport Flesland."
+  "description_en": "Herdla Golf Club - 9-hole parkland/links course on idyllic Herdla, Askoy. Started as a 6-hole course in 2001, completed with 9 holes in 2009 designed by Scottish architect Graeme Webster. Par 31 (62 for 18 holes), 1,752 metres. Flat to gently undulating terrain. Short distances between green and next tee. A typically 'friendly course'. Approx. 45 minutes from Bergen city centre and Bergen Airport Flesland.",
+  "images": [
+    {
+      "src": "/courses/herdla-golfklubb/herdla-golfklubb-flyfoto-herdla-sjolandskap.webp",
+      "alt": "Flyfoto av Herdla Golfklubb med 9-hulls bane på Herdla-øya omgitt av Hjeltefjorden og Herdlefjorden",
+      "alt_en": "Aerial view of Herdla Golf Club with 9-hole course on Herdla island surrounded by Hjeltefjorden and Herdlefjorden",
+      "credit": "Herdla Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACQAQCdASoKAAYABUB8JQAAW4wBciAA8qIx929yfTn9AnRCWXh3h8YFC6gAAA=="
+    },
+    {
+      "src": "/courses/herdla-golfklubb/herdla-golfklubb-solnedgang-utsikt-fjord.webp",
+      "alt": "Solnedgang over Herdla Golfklubb med utsikt over fjorden og kystlandskapet ved Bergen",
+      "alt_en": "Sunset over Herdla Golf Club with view of the fjord and coastal landscape near Bergen",
+      "credit": "Herdla Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoKAAcABUB8JYgAAuWtZHAA/eNgaW6KZRahviQ8D/Pf+aAA"
+    },
+    {
+      "src": "/courses/herdla-golfklubb/herdla-golfklubb-golfbil-kystbane-askoy.webp",
+      "alt": "Golfbil på Herdla Golfklubb med sjøutsikt over den seaside golfbanen på Askøy",
+      "alt_en": "Golf cart at Herdla Golf Club with ocean view of the seaside golf course on Askøy",
+      "credit": "Herdla Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoJAAcABUB8JbACdAEQCTQWAAD+YU2geWrUlHqoaxkOaInQqAk9x+DQIypdd9XjgAA="
+    }
+  ]
 }

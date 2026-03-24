@@ -296,5 +296,35 @@
   "googlePlaceId": "ChIJXT-XffNTE0YRPvFuqyAn9K0",
   "slug_en": "oppdal-golf-club",
   "name_en": "Oppdal Golf Club",
-  "description_en": "Woodland course in birch and pine forest with mountain panorama; 18 tee positions slope-rated as an 18-hole course."
+  "description_en": "Woodland course in birch and pine forest with mountain panorama; 18 tee positions slope-rated as an 18-hole course.",
+  "images": [
+    {
+      "src": "/courses/oppdal-golfklubb/oppdal-golfklubb-flyfoto-bane-fjell.webp",
+      "alt": "Flyfoto av Oppdal Golfklubb med 9-hulls skogsbane, elva Ålma og Oppdalsfjellene i bakgrunnen",
+      "alt_en": "Aerial view of Oppdal Golf Club with 9-hole forest course, Ålma river and Oppdal mountains in the background",
+      "credit": "Oppdal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACQAQCdASoKAAYABUB8JaAAAjbVEsAA+kavVO13lgrS/E/q5aJPeK+/6qOxiMAA"
+    },
+    {
+      "src": "/courses/oppdal-golfklubb/oppdal-golfklubb-fairway-fjellsutsikt.webp",
+      "alt": "Fairway på Oppdal Golfklubb med majestetiske Oppdalsfjell og bjørk- og furuskog",
+      "alt_en": "Fairway at Oppdal Golf Club with majestic Oppdal mountains and birch and pine forest",
+      "credit": "Oppdal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAcABUB8JagCdAEOlj24gAD4MwHvlLRw9gqI5EBjGazf4b1IkuUAAAA="
+    },
+    {
+      "src": "/courses/oppdal-golfklubb/oppdal-golfklubb-green-fjellpanorama.webp",
+      "alt": "Green på Oppdal Golfklubb med spektakulær utsikt over fjellene i Oppdal Fritidspark",
+      "alt_en": "Green at Oppdal Golf Club with spectacular view over the mountains in Oppdal Fritidspark",
+      "credit": "Oppdal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoKAAcABUB8JQBOgB5T7T5LAADh6GyhYLTTyMQIs8pryHSIxaQI7moBITZjSkQA"
+    },
+    {
+      "src": "/courses/oppdal-golfklubb/oppdal-golfklubb-almaelva-vannhinder.webp",
+      "alt": "Elva Ålma renner gjennom Oppdal Golfbane og er i spill på 7 av 9 hull",
+      "alt_en": "Ålma river runs through Oppdal Golf Course and is in play on 7 of 9 holes",
+      "credit": "Oppdal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAcABUB8JagCdAEOlj24gAD4MwHvlLRw9gqI5EBjGazf4b1IkuUAAAA="
+    }
+  ]
 }

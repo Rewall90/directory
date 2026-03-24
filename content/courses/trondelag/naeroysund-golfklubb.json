@@ -257,5 +257,28 @@
   "googlePlaceId": "ChIJGx2VNwAlc0YRvMzqwag8oTs",
   "slug_en": "naeroysund-golf-club",
   "name_en": "Nærøysund Golf Club",
-  "description_en": "Beautiful 9-hole course in Outer Namdal; open 24/7 during season."
+  "description_en": "Beautiful 9-hole course in Outer Namdal; open 24/7 during season.",
+  "images": [
+    {
+      "src": "/courses/naeroysund-golfklubb/naeroysund-golfklubb-flyfoto-baneoversikt.webp",
+      "alt": "Flyfoto av Nærøysund Golfklubb med baneoversikt over den 9-hulls banen i Ytre Namdal",
+      "alt_en": "Aerial view of Nærøysund Golf Club with course overview of the 9-hole course in Ytre Namdal",
+      "credit": "Nærøysund Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoGAAcABUB8JYwAAvxQNfP/gAD+CdyQ8VihQuX094McMaIgYqH7xA512NEwWBLAQAA="
+    },
+    {
+      "src": "/courses/naeroysund-golfklubb/naeroysund-golfklubb-spillere-bane-skog.webp",
+      "alt": "Spillere på Nærøysund Golfklubb sin bane med frodig skogsterreng i bakgrunnen",
+      "alt_en": "Players on Nærøysund Golf Club's course with lush forest terrain in the background",
+      "credit": "Nærøysund Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAABwAQCdASoFAAcABUB8JagAAuZggAD330GGrJNU4lf/srv7Uy4XsingAAA="
+    },
+    {
+      "src": "/courses/naeroysund-golfklubb/naeroysund-golfklubb-gruppe-bane-fjell.webp",
+      "alt": "Golfare på Nærøysund Golfklubb med fjellformasjoner i bakgrunnen i Ytre Namdal",
+      "alt_en": "Golfers at Nærøysund Golf Club with mountain formations in the background in Ytre Namdal",
+      "credit": "Nærøysund Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoFAAcABUB8JagAAvd7O5AA+RK8XQaLrEqzBIZ76d2HcicQCAA="
+    }
+  ]
 }

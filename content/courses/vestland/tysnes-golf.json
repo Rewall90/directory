@@ -209,5 +209,21 @@
   "googlePlaceId": "ChIJE5vciLxmPEYRpwUf9fBgOQQ",
   "slug_en": "tysnes-golf",
   "name_en": "Tysnes Golf",
-  "description_en": "Tysnes Golf (formerly Dalen Golf) - 6-hole course with additional course: 18-hole Pitch & Putt. Par 63 for 18-hole Pitch & Putt. Located in Uggdal on Tysnes island. Clubhouse in a barn with large terrace overlooking the sea to the west."
+  "description_en": "Tysnes Golf (formerly Dalen Golf) - 6-hole course with additional course: 18-hole Pitch & Putt. Par 63 for 18-hole Pitch & Putt. Located in Uggdal on Tysnes island. Clubhouse in a barn with large terrace overlooking the sea to the west.",
+  "images": [
+    {
+      "src": "/courses/tysnes-golf/tysnes-golf-fairway-gront-terreng.webp",
+      "alt": "Tysnes Golf med grønt fairway, trær og naturskonn beliggenhet på Tysnes i Vestland",
+      "alt_en": "Tysnes Golf with green fairway, trees and scenic natural location on Tysnes in Vestland",
+      "credit": "Tysnes Golf",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoKAAcABUB8JbACdAEUlQIL4AAAzizW2eudBYsMbaeAGlAZ8z5Xl356MOPME4tj7QAAAA=="
+    },
+    {
+      "src": "/courses/tysnes-golf/tysnes-golf-spillere-banen-fjell.webp",
+      "alt": "Golfspillere på Tysnes Golf med fjell og landskap i bakgrunnen",
+      "alt_en": "Golf players at Tysnes Golf with mountains and landscape in the background",
+      "credit": "Tysnes Golf",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoKAAMABUB8JbAAAvwckVOVgAD9PFSKeaV4EWnwFuHsr+k+5anJpoAA"
+    }
+  ]
 }

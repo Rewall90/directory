@@ -8,7 +8,7 @@ const HomePageMapClient = dynamic(
   {
     ssr: false,
     loading: () => (
-      <div className="flex h-[300px] w-full max-w-2xl items-center justify-center rounded-lg bg-base-200 shadow-lg md:h-[400px] lg:h-[500px]">
+      <div className="flex h-[300px] w-full items-center justify-center rounded-xl bg-background-surface shadow-md md:h-[400px] lg:h-[460px]">
         <span className="loading loading-spinner loading-lg"></span>
         <p className="ml-4">Laster kart...</p>
       </div>

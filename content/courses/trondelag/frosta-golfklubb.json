@@ -283,5 +283,14 @@
   "googlePlaceId": "ChIJq8j3i89AbUYRXXz6nPza0NE",
   "slug_en": "frosta-golf-club",
   "name_en": "Frosta Golf Club",
-  "description_en": "6-hole parkland course by the sea at Vaagen on the Korsnes peninsula. Self-service, unlimited day play."
+  "description_en": "6-hole parkland course by the sea at Vaagen on the Korsnes peninsula. Self-service, unlimited day play.",
+  "images": [
+    {
+      "src": "/courses/frosta-golfklubb/frosta-golfklubb-oversiktsbilde-bane.webp",
+      "alt": "Frosta Golfklubb ved Korsneshalvøya i Trøndelag med utsikt over Trondheimsfjorden",
+      "alt_en": "Frosta Golf Club at Korsnes Peninsula in Trøndelag overlooking the Trondheim Fjord",
+      "credit": "Frosta Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoKAAQABUB8JbAC7AEDffCJncAA4Zc8VqqIRh6H+NwfK95Ktlu8Q28AAAA="
+    }
+  ]
 }

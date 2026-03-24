@@ -266,5 +266,28 @@
   "googlePlaceId": "ChIJHV5HeWr5ckYRhNnlHURCO-Q",
   "slug_en": "namdal-golf-club",
   "name_en": "Namdal Golf Club",
-  "description_en": "Parkland/woodland course by the salmon river Namsen; clubhouse with veranda."
+  "description_en": "Parkland/woodland course by the salmon river Namsen; clubhouse with veranda.",
+  "images": [
+    {
+      "src": "/courses/namdal-golfklubb/namdal-golfklubb-flyfoto-bane-namsen-fjell.webp",
+      "alt": "Flyfoto av Namdal Golfklubb med 9-hulls bane ved elva Namsen og fjell i bakgrunnen",
+      "alt_en": "Aerial view of Namdal Golf Club with 9-hole course by the Namsen river and mountains in the background",
+      "credit": "Namdal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACQAQCdASoKAAcABUB8JYgAAuTqcsAA/dmpqPFSHJTCNattyjEaDe8r+oBJGhAAAAA="
+    },
+    {
+      "src": "/courses/namdal-golfklubb/namdal-golfklubb-fairway-green-bunker-fjell.webp",
+      "alt": "Fairway og green på Namdal Golfklubb med bunkere og utsikt mot fjellene",
+      "alt_en": "Fairway and green at Namdal Golf Club with bunkers and mountain views",
+      "credit": "Namdal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoIAAcABUB8JagCdH8AGAU+AAD30x1MfSNUyGmyi3QmpVSkCCYAAA=="
+    },
+    {
+      "src": "/courses/namdal-golfklubb/namdal-golfklubb-klubbhus-veranda-golfere.webp",
+      "alt": "Klubbhuset på Namdal Golfklubb med golfere på verandaen i naturskjønne omgivelser",
+      "alt_en": "The clubhouse at Namdal Golf Club with golfers on the veranda in scenic natural surroundings",
+      "credit": "Namdal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoHAAcABUB8JZQAApy+p8AA+yK9lUAD1rEZCtGFF8PGbZoAAAA="
+    }
+  ]
 }

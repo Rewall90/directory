@@ -56,6 +56,10 @@ export function MapPage({ courses, locale }: MapPageProps) {
     setMapCenter(center);
   }, []);
 
+  const handleZoomChange = useCallback((zoom: number) => {
+    setMapZoom(zoom);
+  }, []);
+
   // Extract unique regions and cities (optimized - single pass)
   const { regions, cities } = useMemo(() => extractFilterOptions(courses), [courses]);
 
@@ -297,6 +301,7 @@ export function MapPage({ courses, locale }: MapPageProps) {
             onZoomIn={handleZoomIn}
             onZoomOut={handleZoomOut}
             onCenterChange={handleCenterChange}
+            onZoomChange={handleZoomChange}
           />
         </ErrorBoundary>
       </div>

@@ -217,5 +217,21 @@
   "googlePlaceId": "ChIJx5Zc-dLWQEYRVBFpn_7dCoc",
   "slug_en": "kongsberg-golf-club",
   "name_en": "Kongsberg Golf Club",
-  "description_en": "Kongsberg Golf Course is a varied and exciting course with superb, fast greens. An enjoyable and well-maintained course that was voted the 6th best club in Norway in the 2022 Members' Survey. Excellent atmosphere and friendly environment. Very positive feedback from visiting players. Marshal service during busy periods to ensure pace of play and a pleasant atmosphere. Slope table and course guide available."
+  "description_en": "Kongsberg Golf Course is a varied and exciting course with superb, fast greens. An enjoyable and well-maintained course that was voted the 6th best club in Norway in the 2022 Members' Survey. Excellent atmosphere and friendly environment. Very positive feedback from visiting players. Marshal service during busy periods to ensure pace of play and a pleasant atmosphere. Slope table and course guide available.",
+  "images": [
+    {
+      "src": "/courses/kongsberg-golfklubb/kongsberg-golfklubb-klubbhus-fairway-oversikt.webp",
+      "alt": "Kongsberg Golfklubb med klubbhus, fairways og grønne omgivelser i Buskerud",
+      "alt_en": "Kongsberg Golf Club with clubhouse, fairways and green surroundings in Buskerud",
+      "credit": "Kongsberg Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoJAAcABUB8JbACdADTAAD4tTFdGsCLGeNpgkKjsGaKcnqHm3/1AAAA"
+    },
+    {
+      "src": "/courses/kongsberg-golfklubb/kongsberg-golfklubb-bane-utsikt.webp",
+      "alt": "Utsikt over Kongsberg Golfklubbs 18-hulls bane med varierende terreng",
+      "alt_en": "View over Kongsberg Golf Club's 18-hole course with varied terrain",
+      "credit": "Kongsberg Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoKAAcABUB8JagC7AEWo6cojIAAyvOlSJ9Q9KIHIxGdJm///sRrZMbWWNbWWQ2TeY0AAA=="
+    }
+  ]
 }
