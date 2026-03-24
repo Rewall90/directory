@@ -23,6 +23,14 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "cookieSettings": "Cookie Settings",
+    "regionsTitle": "Golf courses by region",
+    "popularCoursesTitle": "Popular golf courses",
+    "allCourses": "All golf courses",
+    "map": "Golf course map",
+    "allRegions": "All regions →",
+    "badgeCourses": "{count} courses",
+    "badgeRegions": "{count} regions",
+    "trustBadge": "{courses} courses · {regions} regions",
     "copyright": "© {year} golfkart.no. All rights reserved."
   },
   "home": {

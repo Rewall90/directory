@@ -23,6 +23,14 @@
     "privacy": "Personvern",
     "terms": "Bruksvilkår",
     "cookieSettings": "Informasjonskapselinnstillinger",
+    "regionsTitle": "Golfbaner etter fylke",
+    "popularCoursesTitle": "Populære golfbaner",
+    "allCourses": "Alle golfbaner",
+    "map": "Golfbanekart",
+    "allRegions": "Alle fylker →",
+    "badgeCourses": "{count} baner",
+    "badgeRegions": "{count} fylker",
+    "trustBadge": "{courses} baner · {regions} fylker",
     "copyright": "© {year} golfkart.no. Alle rettigheter reservert."
   },
   "home": {
