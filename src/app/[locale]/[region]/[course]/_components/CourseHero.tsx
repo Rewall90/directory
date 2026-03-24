@@ -254,12 +254,18 @@ export function CourseHero({
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 600px"
               priority
-              {...(heroPhoto.credit && "placeholder" in heroPhoto && heroPhoto.placeholder
-                ? {
-                    placeholder: "blur" as const,
-                    blurDataURL: heroPhoto.placeholder as string,
-                  }
-                : {})}
+              placeholder={
+                heroPhoto.credit && "placeholder" in heroPhoto && heroPhoto.placeholder
+                  ? "blur"
+                  : undefined
+              }
+              blurDataURL={
+                heroPhoto.credit &&
+                "placeholder" in heroPhoto &&
+                typeof heroPhoto.placeholder === "string"
+                  ? heroPhoto.placeholder
+                  : undefined
+              }
             />
           ) : (
             <span className="text-sm text-v3d-text-muted">{t("mainImagePlaceholder")}</span>
@@ -276,12 +282,14 @@ export function CourseHero({
               className="object-cover"
               sizes="360px"
               loading="lazy"
-              {...("placeholder" in accentPhoto && accentPhoto.placeholder
-                ? {
-                    placeholder: "blur" as const,
-                    blurDataURL: accentPhoto.placeholder as string,
-                  }
-                : {})}
+              placeholder={
+                "placeholder" in accentPhoto && accentPhoto.placeholder ? "blur" : undefined
+              }
+              blurDataURL={
+                "placeholder" in accentPhoto && typeof accentPhoto.placeholder === "string"
+                  ? accentPhoto.placeholder
+                  : undefined
+              }
             />
           ) : (
             <span className="text-xs text-v3d-text-light">{t("accentImagePlaceholder")}</span>

@@ -64,13 +64,17 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 560px"
                 loading="lazy"
-                {...("placeholder" in galleryPhotos[0] && galleryPhotos[0].placeholder
-                  ? {
-                      placeholder: "blur" as const,
-                      blurDataURL:
-                        "placeholder" in galleryPhotos[0] && galleryPhotos[0].placeholder,
-                    }
-                  : {})}
+                placeholder={
+                  "placeholder" in galleryPhotos[0] && galleryPhotos[0].placeholder
+                    ? "blur"
+                    : undefined
+                }
+                blurDataURL={
+                  "placeholder" in galleryPhotos[0] &&
+                  typeof galleryPhotos[0].placeholder === "string"
+                    ? galleryPhotos[0].placeholder
+                    : undefined
+                }
               />
             ) : (
               <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder1")}</span>
@@ -87,13 +91,17 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
                 loading="lazy"
-                {...("placeholder" in galleryPhotos[1] && galleryPhotos[1].placeholder
-                  ? {
-                      placeholder: "blur" as const,
-                      blurDataURL:
-                        "placeholder" in galleryPhotos[1] && galleryPhotos[1].placeholder,
-                    }
-                  : {})}
+                placeholder={
+                  "placeholder" in galleryPhotos[1] && galleryPhotos[1].placeholder
+                    ? "blur"
+                    : undefined
+                }
+                blurDataURL={
+                  "placeholder" in galleryPhotos[1] &&
+                  typeof galleryPhotos[1].placeholder === "string"
+                    ? galleryPhotos[1].placeholder
+                    : undefined
+                }
               />
             ) : (
               <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder2")}</span>
@@ -108,13 +116,17 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
                 loading="lazy"
-                {...("placeholder" in galleryPhotos[2] && galleryPhotos[2].placeholder
-                  ? {
-                      placeholder: "blur" as const,
-                      blurDataURL:
-                        "placeholder" in galleryPhotos[2] && galleryPhotos[2].placeholder,
-                    }
-                  : {})}
+                placeholder={
+                  "placeholder" in galleryPhotos[2] && galleryPhotos[2].placeholder
+                    ? "blur"
+                    : undefined
+                }
+                blurDataURL={
+                  "placeholder" in galleryPhotos[2] &&
+                  typeof galleryPhotos[2].placeholder === "string"
+                    ? galleryPhotos[2].placeholder
+                    : undefined
+                }
               />
             ) : (
               <span className="text-xs text-v3d-text-light">{t("galleryPlaceholder3")}</span>
