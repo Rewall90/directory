@@ -273,5 +273,35 @@
   "googlePlaceId": "ChIJ7aGggOumOEYRJuy2JN3wqTQ",
   "slug_en": "vradal-golf-club",
   "name_en": "Vrådal Golf Club",
-  "description_en": "One of Norway's most beautiful 9-hole courses, situated on an island in Vraadal. Surrounded by magnificent natural scenery with mountains and lakes. Opened in 2013."
+  "description_en": "One of Norway's most beautiful 9-hole courses, situated on an island in Vraadal. Surrounded by magnificent natural scenery with mountains and lakes. Opened in 2013.",
+  "images": [
+    {
+      "src": "/courses/vradal-golfklubb/vradal-golfklubb-flyfoto-hull-5-nisser.webp",
+      "alt": "Flyfoto av hull 5 på Vrådal Golfklubb med Nisser-innsjøen og Telemarksfjellene i bakgrunnen",
+      "alt_en": "Aerial view of hole 5 at Vrådal Golf Club with Lake Nisser and the Telemark mountains in the background",
+      "credit": "Vrådal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoJAAcABUB8JaAAAucdTxAAAP6U+zgUJGxBSvu8O4mcJRM+T1sT309HtLHc5kAA"
+    },
+    {
+      "src": "/courses/vradal-golfklubb/vradal-golfklubb-hull-5-utsikt-teeboks.webp",
+      "alt": "Utsikt fra teeboks på hull 5 ved Vrådal Golfklubb med fairway gjennom skogsterreng",
+      "alt_en": "View from tee box on hole 5 at Vrådal Golf Club with fairway through forest terrain",
+      "credit": "Vrådal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoKAAYABUB8JbACdAEUkR+QAPfeWjFLumwSqH7wzmlcD1UFw1DebNShth7YS+wA"
+    },
+    {
+      "src": "/courses/vradal-golfklubb/vradal-golfklubb-solnedgang-nisser-banen.webp",
+      "alt": "Solnedgang over Vrådal Golfklubb med utsikt mot innsjøen Nisser og banen på Fossøy",
+      "alt_en": "Sunset over Vrådal Golf Club with view of Lake Nisser and the course at Fossøy island",
+      "credit": "Vrådal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoJAAcABUB8JQBOgCIBJQzAAPhhMqZfpE1lf62MCbQSWAm2mYyDwAAA"
+    },
+    {
+      "src": "/courses/vradal-golfklubb/vradal-golfklubb-hull-1-vannhinder-teeboks.webp",
+      "alt": "Hull 1 på Vrådal Golfklubb med utfordrende teeslag over vann til øya Fossøy",
+      "alt_en": "Hole 1 at Vrådal Golf Club with challenging tee shot over water to Fossøy island",
+      "credit": "Vrådal Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoKAAQABUB8JbAAAup37FLyAAD+rDcmXlNmHFBHRY8f4MULssAAAA=="
+    }
+  ]
 }

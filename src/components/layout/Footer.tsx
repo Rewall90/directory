@@ -192,7 +192,8 @@ export async function Footer() {
         </div>
       </div>
 
-      {/* Organization JSON-LD */}
+      {/* Organization JSON-LD — also emitted by page-level composables on homepage/region pages.
+          Retained here to cover about, contact, kart, privacy, terms, blog pages. */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
