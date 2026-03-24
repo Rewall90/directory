@@ -200,5 +200,28 @@
   "googlePlaceId": "ChIJByvUxzP0QEYRcCwlVGZC2Do",
   "slug_en": "norefjell-golf-club",
   "name_en": "Norefjell Golf Club",
-  "description_en": "Norefjell Golf Club is a complete facility with an 18-hole woodland course, practice area with driving range, putting green and clubhouse. Founded on 7 September 1993. Organised as Norefjell Golfbane AS, member of the Norwegian Golf Federation. Club, trolley and buggy hire available. Annual volunteer working day in May for season opening."
+  "description_en": "Norefjell Golf Club is a complete facility with an 18-hole woodland course, practice area with driving range, putting green and clubhouse. Founded on 7 September 1993. Organised as Norefjell Golfbane AS, member of the Norwegian Golf Federation. Club, trolley and buggy hire available. Annual volunteer working day in May for season opening.",
+  "images": [
+    {
+      "src": "/courses/norefjell-golfklubb/norefjell-golfklubb-oversiktskart-18-hull.webp",
+      "alt": "Flyfoto oversiktskart over Norefjell Golfklubb med alle 18 hull i skogsterreng ved Krøderfjorden",
+      "alt_en": "Aerial overview map of Norefjell Golf Club showing all 18 holes in forest terrain by Lake Krøderen",
+      "credit": "Norefjell Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoEAAcABUB8JYwAAudFtmAA/rWhy63RYjqdMYNhtoC6poCAAAA="
+    },
+    {
+      "src": "/courses/norefjell-golfklubb/norefjell-golfklubb-green-spillere-skog.webp",
+      "alt": "Spillere på green omgitt av høy furu- og granskog på Norefjell Golfklubb",
+      "alt_en": "Players on green surrounded by tall pine and spruce forest at Norefjell Golf Club",
+      "credit": "Norefjell Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoKAAQABUB8JbAAAt0DD0/wAP4YDe/vIMy+5mIf+0zBOHuDLQAAAA=="
+    },
+    {
+      "src": "/courses/norefjell-golfklubb/norefjell-golfklubb-norefjell-open-vinnere.webp",
+      "alt": "Vinnere av Norefjell Open med pokaler på fairway omgitt av skog og fjell",
+      "alt_en": "Winners of Norefjell Open with trophies on fairway surrounded by forest and mountains",
+      "credit": "Norefjell Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoKAAcABUB8JbACdADZkQoAAPlg9Kv2N4+YuQ1vUlEJ7FRBR5KT0GD5KLDyDyMpKKRlrgAA"
+    }
+  ]
 }

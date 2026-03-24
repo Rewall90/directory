@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { CookieSettingsButton } from "@/components/cookie-consent";
 import { getRegionsWithCounts, getTopRatedCourses } from "@/lib/courses";
-import { generateOrganizationSchema } from "@/lib/schema";
+import { JsonLd, generateOrganizationSchema } from "@/lib/schema";
 
 export async function Footer() {
   const t = await getTranslations("footer");
@@ -15,7 +15,7 @@ export async function Footer() {
       <div className="mx-auto max-w-[1170px] px-4 py-12">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-[1.5fr_2fr_1fr_1fr_1fr]">
           {/* Brand */}
-          <div>
+          <div className="sm:order-1 md:order-none">
             <h2 className="mb-3 text-xl font-bold text-white">golfkart.no</h2>
             <p className="mb-5 text-sm leading-relaxed text-white/55">{t("aboutDescription")}</p>
             <div className="flex flex-wrap gap-3">
@@ -28,6 +28,7 @@ export async function Footer() {
                   stroke="currentColor"
                   strokeWidth="2"
                   className="text-emerald-400"
+                  aria-hidden="true"
                 >
                   <circle cx="12" cy="12" r="10" />
                   <path d="M12 6v6l4 2" />
@@ -43,6 +44,7 @@ export async function Footer() {
                   stroke="currentColor"
                   strokeWidth="2"
                   className="text-emerald-400"
+                  aria-hidden="true"
                 >
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
                   <circle cx="12" cy="10" r="3" />
@@ -53,7 +55,10 @@ export async function Footer() {
           </div>
 
           {/* Regions Grid */}
-          <nav aria-label={t("regionsTitle")}>
+          <nav
+            className="sm:order-3 sm:col-span-2 md:order-none md:col-span-1"
+            aria-label={t("regionsTitle")}
+          >
             <h2 className="mb-4 text-xs font-bold uppercase tracking-wider text-white/50">
               {t("regionsTitle")}
             </h2>
@@ -74,7 +79,7 @@ export async function Footer() {
           </nav>
 
           {/* Popular Courses */}
-          <nav aria-label={t("popularCoursesTitle")}>
+          <nav className="sm:order-2 md:order-none" aria-label={t("popularCoursesTitle")}>
             <h2 className="mb-4 text-xs font-bold uppercase tracking-wider text-white/50">
               {t("popularCoursesTitle")}
             </h2>
@@ -94,7 +99,7 @@ export async function Footer() {
           </nav>
 
           {/* Navigation */}
-          <nav aria-label={t("navigationTitle")}>
+          <nav className="sm:order-4 md:order-none" aria-label={t("navigationTitle")}>
             <h2 className="mb-4 text-xs font-bold uppercase tracking-wider text-white/50">
               {t("navigationTitle")}
             </h2>
@@ -143,7 +148,7 @@ export async function Footer() {
           </nav>
 
           {/* Legal */}
-          <nav aria-label={t("legalTitle")}>
+          <nav className="sm:order-5 md:order-none" aria-label={t("legalTitle")}>
             <h2 className="mb-4 text-xs font-bold uppercase tracking-wider text-white/50">
               {t("legalTitle")}
             </h2>
@@ -184,6 +189,7 @@ export async function Footer() {
               fill="none"
               stroke="currentColor"
               strokeWidth="2"
+              aria-hidden="true"
             >
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
@@ -192,14 +198,8 @@ export async function Footer() {
         </div>
       </div>
 
-      {/* Organization JSON-LD — also emitted by page-level composables on homepage/region pages.
-          Retained here to cover about, contact, kart, privacy, terms, blog pages. */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(generateOrganizationSchema()),
-        }}
-      />
+      {/* Organization JSON-LD — single site-wide source for Organization schema */}
+      <JsonLd schema={generateOrganizationSchema()} />
     </footer>
   );
 }

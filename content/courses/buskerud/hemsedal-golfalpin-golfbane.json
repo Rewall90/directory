@@ -200,5 +200,28 @@
   "googlePlaceId": "ChIJA23mcLHvP0YR60G5YkyD_-k",
   "slug_en": "hemsedal-golfalpin-golf-course",
   "name_en": "Hemsedal Golfalpin Golf Course",
-  "description_en": "Mountain golf course situated midway between Gol and Hemsedal. The course features varied terrain challenges with natural hazards. 18-hole golf course with par 72."
+  "description_en": "Mountain golf course situated midway between Gol and Hemsedal. The course features varied terrain challenges with natural hazards. 18-hole golf course with par 72.",
+  "images": [
+    {
+      "src": "/courses/hemsedal-golfalpin-golfbane/hemsedal-golfalpin-golfbane-fjelllandskap-fairway.webp",
+      "alt": "Hemsedal Golfalpin Golfbane med panoramautsikt over fjell, grønne fairways og furuskog i Hallingdal",
+      "alt_en": "Hemsedal Golfalpin Golf Course with panoramic view of mountains, green fairways and pine forest in Hallingdal",
+      "credit": "Hemsedal Golfalpin Golfbane",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoKAAUABUB8JbACdADZlgtAAP2h6d9kTGe/ki97nsGy1VHyMLsrwWorHjU/pyB+sDUkAAAA"
+    },
+    {
+      "src": "/courses/hemsedal-golfalpin-golfbane/hemsedal-golfalpin-golfbane-green-flagg-fjell.webp",
+      "alt": "Grønn med flagg på Hemsedal Golfalpin Golfbane omgitt av skog med dramatisk fjellutsikt i bakgrunnen",
+      "alt_en": "Green with flag at Hemsedal Golfalpin Golf Course surrounded by forest with dramatic mountain view in the background",
+      "credit": "Hemsedal Golfalpin Golfbane",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoKAAUABUB8JbACdAEWObwAAPKgwRGqZbYBL1ePq1/E9A1kXx74cNBKGrGI9PClrNgAAA=="
+    },
+    {
+      "src": "/courses/hemsedal-golfalpin-golfbane/hemsedal-golfalpin-golfbane-spiller-fairway-skog.webp",
+      "alt": "Golfspiller på fairway ved Hemsedal Golfalpin Golfbane med tette granskoger og fjell i Hallingdal",
+      "alt_en": "Golfer on fairway at Hemsedal Golfalpin Golf Course with dense spruce forests and mountains in Hallingdal",
+      "credit": "Hemsedal Golfalpin Golfbane",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoFAAcABUB8JbAAAucKO7+AAP3jsLIH+VStAIBQL7/sthxfOgVuHYfi1fwAAA=="
+    }
+  ]
 }

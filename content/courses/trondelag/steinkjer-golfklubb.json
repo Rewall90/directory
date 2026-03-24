@@ -361,5 +361,35 @@
   "googlePlaceId": "ChIJwxeKPNWEckYRJ84S1UvAiMY",
   "slug_en": "steinkjer-golf-club",
   "name_en": "Steinkjer Golf Club",
-  "description_en": "Midjo golf course by the Ogna river; varied challenges and excellent course conditions."
+  "description_en": "Midjo golf course by the Ogna river; varied challenges and excellent course conditions.",
+  "images": [
+    {
+      "src": "/courses/steinkjer-golfklubb/steinkjer-golfklubb-oversiktsbilde-fairway-klubbhus.webp",
+      "alt": "Oversiktsbilde av Steinkjer Golfklubb med fairway, klubbhus og åpent landskap ved Steinkjer",
+      "alt_en": "Overview of Steinkjer Golf Club with fairway, clubhouse and open landscape near Steinkjer",
+      "credit": "Steinkjer Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoKAAcABUB8JZACdAEOZ/JwAADOK2jur0cQPM1nrelHzkzoxmZpMyLZM8QBQFkQEe1oAA=="
+    },
+    {
+      "src": "/courses/steinkjer-golfklubb/steinkjer-golfklubb-fairway-utsikt-skog-fjell.webp",
+      "alt": "Fairway på Steinkjer Golfklubb med utsikt mot skogskledd fjellside i Trøndelag",
+      "alt_en": "Fairway at Steinkjer Golf Club with view towards forested mountainside in Trøndelag",
+      "credit": "Steinkjer Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoKAAcABUB8JagCdAEOv/uAAPjlf0groOMsX9/H5PDHAF+CXxOs0Y/EUTKyAAAA"
+    },
+    {
+      "src": "/courses/steinkjer-golfklubb/steinkjer-golfklubb-green-bunker-solnedgang.webp",
+      "alt": "Green med bunker på Steinkjer Golfklubb i solnedgangslys med tett skog rundt banen",
+      "alt_en": "Green with bunker at Steinkjer Golf Club in sunset light with dense forest surrounding the course",
+      "credit": "Steinkjer Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoKAAcABUB8JbACdADzfH1ZgAD+W3Urg5RF8R4o14BF1MgI7MBCXxNJunvYKIgA"
+    },
+    {
+      "src": "/courses/steinkjer-golfklubb/steinkjer-golfklubb-oversiktsbilde-flere-fairways-daler.webp",
+      "alt": "Oversiktsbilde med flere fairways på Steinkjer Golfklubb i dalføre med skogskledd terreng",
+      "alt_en": "Overview with multiple fairways at Steinkjer Golf Club in valley with forested terrain",
+      "credit": "Steinkjer Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoKAAcABUB8JZgC7AEOZ8m4AAD+eSWXeRqj94xPG5RcRzWPCNDD7S5V2xrDFmAA"
+    }
+  ]
 }

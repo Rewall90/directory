@@ -7,7 +7,6 @@ import type { Schema } from "../types/schema.types";
 import type { RegionData } from "../types/site-config.types";
 
 // Import generators
-import { generateOrganizationSchema } from "../generators/organization";
 import { generateWebSiteSchema } from "../generators/website";
 import { generateRegionsOverviewBreadcrumb } from "../generators/breadcrumb";
 import { generateRegionListSchema } from "../generators/itemlist";
@@ -55,16 +54,15 @@ export function getRegionsOverviewSchemas(data: {
 }): Schema[] {
   const schemas: Schema[] = [];
 
-  // 1. Organization - Who owns/operates this site
-  schemas.push(generateOrganizationSchema());
+  // Organization schema is emitted site-wide by the Footer component
 
-  // 2. WebSite - The website itself with search capability
+  // 1. WebSite - The website itself with search capability
   schemas.push(generateWebSiteSchema());
 
-  // 3. BreadcrumbList - Navigation (Home > Fylke/Regions)
+  // 2. BreadcrumbList - Navigation (Home > Fylke/Regions)
   schemas.push(generateRegionsOverviewBreadcrumb(data.locale));
 
-  // 4. ItemList - List of regions displayed on this page
+  // 3. ItemList - List of regions displayed on this page
   schemas.push(generateRegionListSchema(data.regions));
 
   return schemas;

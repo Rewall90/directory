@@ -8,7 +8,6 @@ import type { Schema } from "../types/schema.types";
 import type { RegionData } from "../types/site-config.types";
 
 // Import generators
-import { generateOrganizationSchema } from "../generators/organization";
 import { generateRegionPageSchema } from "../generators/webpage";
 import { generateRegionBreadcrumb } from "../generators/breadcrumb";
 import { generateCourseListSchema } from "../generators/itemlist";
@@ -56,22 +55,21 @@ export function getRegionPageSchemas(data: {
 }): Schema[] {
   const schemas: Schema[] = [];
 
-  // 1. Organization - YOUR directory as the site owner
-  schemas.push(generateOrganizationSchema());
+  // Organization schema is emitted site-wide by the Footer component
 
-  // 2. WebPage - This specific page on YOUR site
+  // 1. WebPage - This specific page on YOUR site
   schemas.push(
     generateRegionPageSchema(data.region.name, data.region.slug, data.courses.length, data.locale),
   );
 
-  // 3. BreadcrumbList - Navigation structure
+  // 2. BreadcrumbList - Navigation structure
   schemas.push(generateRegionBreadcrumb(data.region.name, data.region.slug, data.locale));
 
-  // 4. ItemList - The main content: list of courses in this region
+  // 3. ItemList - The main content: list of courses in this region
   // This is the KEY schema for directories - it shows you're curating a collection
   schemas.push(generateCourseListSchema(data.courses, data.region.slug, data.region.name));
 
-  // 5. Place (AdministrativeArea) - The region as a geographic entity
+  // 4. Place (AdministrativeArea) - The region as a geographic entity
   // This helps with local SEO and entity recognition
   schemas.push(generateRegionPlaceSchema(data.region, data.courses));
 

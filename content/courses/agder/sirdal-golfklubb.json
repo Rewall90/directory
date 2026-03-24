@@ -342,5 +342,35 @@
   "googlePlaceId": "ChIJ06R8ESEKOUYR-3GUzyHjrrM",
   "slug_en": "sirdal-mountain-golf-club",
   "name_en": "Sirdal Mountain Golf Club",
-  "description_en": "A 9-hole mountain golf course at 560 metres above sea level in scenic surroundings at Kvaeven in upper Sirdal. Designed by Graeme J. Webster from Scotland. The course is beautifully integrated into the terrain. Tee options: Green (beginners), White 3,828m, Blue 4,350m, Red 4,640m."
+  "description_en": "A 9-hole mountain golf course at 560 metres above sea level in scenic surroundings at Kvaeven in upper Sirdal. Designed by Graeme J. Webster from Scotland. The course is beautifully integrated into the terrain. Tee options: Green (beginners), White 3,828m, Blue 4,350m, Red 4,640m.",
+  "images": [
+    {
+      "src": "/courses/sirdal-golfklubb/sirdal-golfklubb-oversiktsbilde-bane-fjell.webp",
+      "alt": "Oversiktsbilde av Sirdal Fjellgolfklubb med fairways og greener i fjellterreng 560 moh",
+      "alt_en": "Overview of Sirdal Fjellgolfklubb with fairways and greens in mountain terrain at 560m elevation",
+      "credit": "Sirdal Fjellgolfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAUABUB8JZACsAEOJNt6gAD0dk7g345wIJGfSwn67xKHxVwY7iQQAAA="
+    },
+    {
+      "src": "/courses/sirdal-golfklubb/sirdal-golfklubb-hull-5-fairway-fjellnatur.webp",
+      "alt": "Hull 5 på Sirdal Fjellgolfklubb med fairway gjennom naturskjønn fjellnatur",
+      "alt_en": "Hole 5 at Sirdal Fjellgolfklubb with fairway through scenic mountain nature",
+      "credit": "Sirdal Fjellgolfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAQCdASoKAAMABUB8JaACdH8AF7ZLTgAA/Y8w6JQK0uhDkdnWF0tydmheuwAA"
+    },
+    {
+      "src": "/courses/sirdal-golfklubb/sirdal-golfklubb-klubbhus-driving-range.webp",
+      "alt": "Klubbhus og driving range på Sirdal Fjellgolfklubb i Kvæven, Sirdal",
+      "alt_en": "Clubhouse and driving range at Sirdal Fjellgolfklubb in Kvæven, Sirdal",
+      "credit": "Sirdal Fjellgolfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoJAAcABUB8JaACdAEOumsAAP5m3wdl5En+mUydqQDeHqd2HZBF6MAA"
+    },
+    {
+      "src": "/courses/sirdal-golfklubb/sirdal-golfklubb-hull-1-utslag-green.webp",
+      "alt": "Hull 1 på Sirdal Fjellgolfklubb med oversikt fra utslag til green i fjellterreng",
+      "alt_en": "Hole 1 at Sirdal Fjellgolfklubb with overview from tee to green in mountain terrain",
+      "credit": "Sirdal Fjellgolfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoKAAUABUB8JagCdADZkL0AAP54Txt1Xv76LoxAvGXLH0eV7o7o0AAA"
+    }
+  ]
 }

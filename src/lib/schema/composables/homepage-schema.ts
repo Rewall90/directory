@@ -9,7 +9,6 @@ import type { RegionData } from "../types/site-config.types";
 import { SITE_CONFIG } from "../config/site-config";
 
 // Import generators
-import { generateOrganizationSchema } from "../generators/organization";
 import { generateWebSiteSchema } from "../generators/website";
 import { generateHomePageSchema } from "../generators/webpage";
 import { generateHomeBreadcrumb } from "../generators/breadcrumb";
@@ -58,22 +57,21 @@ export function getHomepageSchemas(data: {
 }): Schema[] {
   const schemas: Schema[] = [];
 
-  // 1. Organization - Who owns/operates this site
-  schemas.push(generateOrganizationSchema());
+  // Organization schema is emitted site-wide by the Footer component
 
-  // 2. WebSite - The website itself with search capability
+  // 1. WebSite - The website itself with search capability
   schemas.push(generateWebSiteSchema());
 
-  // 3. WebPage - This specific page (homepage)
+  // 2. WebPage - This specific page (homepage)
   schemas.push(generateHomePageSchema(data.totalCourses, data.locale));
 
-  // 4. BreadcrumbList - Navigation (just "Home" for homepage)
+  // 3. BreadcrumbList - Navigation (just "Home" for homepage)
   schemas.push(generateHomeBreadcrumb(data.locale));
 
-  // 5. ItemList - List of regions displayed on homepage
+  // 4. ItemList - List of regions displayed on homepage
   schemas.push(generateRegionListSchema(data.regions));
 
-  // 6. Map - Interactive map feature for discovery
+  // 5. Map - Interactive map feature for discovery
   schemas.push({
     "@context": "https://schema.org",
     "@type": "Map",
