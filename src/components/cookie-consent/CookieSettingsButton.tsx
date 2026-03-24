@@ -11,8 +11,7 @@ export function CookieSettingsButton() {
   return (
     <button
       onClick={openModal}
-      className="transition-colors hover:text-white"
-      style={{ color: "hsl(132, 30%, 70%)" }}
+      className="text-sm text-white/65 transition-colors hover:text-white"
     >
       {t("cookieSettings")}
     </button>
