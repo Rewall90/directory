@@ -9,11 +9,14 @@ import { useTranslations } from "next-intl";
 import { MAP_CONFIG, TILE_CONFIG } from "@/lib/constants/map-config";
 import { MapControls } from "./MapControls";
 import { MapCoordinates } from "./MapCoordinates";
+import { getLocalizedName, getLocalizedSlug } from "@/lib/utils/locale-helpers";
+import { buildCourseUrl } from "@/lib/utils/url-helpers";
 import "leaflet/dist/leaflet.css";
 
 // Fix Leaflet default icon issue with Webpack
-// @ts-expect-error - Leaflet internal property not in type definitions
-delete L.Icon.Default.prototype._getIconUrl;
+if ("_getIconUrl" in L.Icon.Default.prototype) {
+  delete (L.Icon.Default.prototype as Record<string, unknown>)._getIconUrl;
+}
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: "/leaflet/marker-icon-2x.png",
   iconUrl: "/leaflet/marker-icon.png",
@@ -58,17 +61,41 @@ export function GolfMap({
   const [isClient, setIsClient] = useState(false);
   const mapRef = useRef<L.Map | null>(null);
 
+  // Stable refs for callbacks to avoid re-attaching event listeners
+  const onCenterChangeRef = useRef(onCenterChange);
+  const onSelectCourseRef = useRef(onSelectCourse);
+
   useEffect(() => {
     setIsClient(true);
   }, []);
 
-  // Cleanup on unmount
+  // Keep callback refs up to date
+  useEffect(() => {
+    onCenterChangeRef.current = onCenterChange;
+    onSelectCourseRef.current = onSelectCourse;
+  }, [onCenterChange, onSelectCourse]);
+
+  // Event listener management with proper cleanup
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    const handleMoveEnd = () => {
+      const center = map.getCenter();
+      onCenterChangeRef.current([center.lat, center.lng]);
+    };
+
+    map.on("moveend", handleMoveEnd);
+
+    return () => {
+      map.off("moveend", handleMoveEnd);
+    };
+  }, []);
+
+  // Cleanup on unmount - let react-leaflet handle map disposal
   useEffect(() => {
     return () => {
-      if (mapRef.current) {
-        mapRef.current.remove();
-        mapRef.current = null;
-      }
+      mapRef.current = null;
     };
   }, []);
 
@@ -87,11 +114,6 @@ export function GolfMap({
         ref={(map) => {
           if (map) {
             mapRef.current = map;
-            // Listen for map move events to update center
-            map.on("moveend", () => {
-              const center = map.getCenter();
-              onCenterChange([center.lat, center.lng]);
-            });
           }
         }}
       >
@@ -116,10 +138,10 @@ export function GolfMap({
               key={course.slug}
               position={[course.coordinates.lat, course.coordinates.lng]}
               eventHandlers={{
-                click: () => onSelectCourse(course),
+                click: () => onSelectCourseRef.current(course),
                 keypress: (e) => {
                   if (e.originalEvent.key === "Enter" || e.originalEvent.key === " ") {
-                    onSelectCourse(course);
+                    onSelectCourseRef.current(course);
                   }
                 },
               }}
@@ -127,9 +149,9 @@ export function GolfMap({
               <Popup>
                 <div className="p-2">
                   <h3 className="font-semibold">
-                    {locale === "en" && course.name_en ? course.name_en : course.name}
+                    {getLocalizedName(course.name, course.name_en, locale)}
                   </h3>
-                  <p className="text-sm text-gray-600">{course.city}</p>
+                  <p className="text-base-content/70 text-sm">{course.city}</p>
                   <p className="text-sm">
                     {course.holes} {t("holes")} • {course.par ? `${t("par")} ${course.par}` : "—"}
                   </p>
@@ -142,8 +164,12 @@ export function GolfMap({
                     <p className="mt-1 text-sm font-medium text-primary">{course.greenFee18} kr</p>
                   )}
                   <a
-                    href={`/${course.regionSlug}/${locale === "en" && course.slug_en ? course.slug_en : course.slug}`}
-                    className="mt-2 inline-block text-sm text-blue-600 hover:underline"
+                    href={buildCourseUrl(
+                      course.regionSlug,
+                      getLocalizedSlug(course.slug, course.slug_en, locale),
+                      locale,
+                    )}
+                    className="mt-2 inline-block text-sm text-primary hover:underline"
                   >
                     {t("viewDetails")} →
                   </a>

@@ -7,3 +7,13 @@ playwright
 *.yaml
 mockups
 data
+# Temporary files and scraping artifacts
+*.html
+!src/**/*.html
+!public/**/*.html
+*.png
+*.jpg
+*.jpeg
+*.gif
+temp_*
+*-source.html

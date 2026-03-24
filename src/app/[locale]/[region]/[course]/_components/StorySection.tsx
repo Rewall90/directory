@@ -64,10 +64,11 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 560px"
                 loading="lazy"
-                {...((galleryPhotos[0] as any).placeholder
+                {...("placeholder" in galleryPhotos[0] && galleryPhotos[0].placeholder
                   ? {
                       placeholder: "blur" as const,
-                      blurDataURL: (galleryPhotos[0] as any).placeholder,
+                      blurDataURL:
+                        "placeholder" in galleryPhotos[0] && galleryPhotos[0].placeholder,
                     }
                   : {})}
               />
@@ -86,10 +87,11 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
                 loading="lazy"
-                {...((galleryPhotos[1] as any).placeholder
+                {...("placeholder" in galleryPhotos[1] && galleryPhotos[1].placeholder
                   ? {
                       placeholder: "blur" as const,
-                      blurDataURL: (galleryPhotos[1] as any).placeholder,
+                      blurDataURL:
+                        "placeholder" in galleryPhotos[1] && galleryPhotos[1].placeholder,
                     }
                   : {})}
               />
@@ -106,10 +108,11 @@ export function StorySection({ course, photos, locale }: StorySectionProps) {
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 270px"
                 loading="lazy"
-                {...((galleryPhotos[2] as any).placeholder
+                {...("placeholder" in galleryPhotos[2] && galleryPhotos[2].placeholder
                   ? {
                       placeholder: "blur" as const,
-                      blurDataURL: (galleryPhotos[2] as any).placeholder,
+                      blurDataURL:
+                        "placeholder" in galleryPhotos[2] && galleryPhotos[2].placeholder,
                     }
                   : {})}
               />

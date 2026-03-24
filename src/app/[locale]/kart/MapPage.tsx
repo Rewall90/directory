@@ -1,19 +1,18 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useCallback, useRef } from "react";
 import { useTranslations } from "next-intl";
 import type { MapCourse } from "@/lib/courses";
 import { MAP_CONFIG } from "@/lib/constants/map-config";
 import dynamic from "next/dynamic";
+import { MapLoading } from "./MapLoading";
+import { ErrorBoundary } from "@/components/error-boundary/ErrorBoundary";
+import { extractFilterOptions } from "@/lib/utils/map-filters";
+import { getLocalizedName } from "@/lib/utils/locale-helpers";
 
 const DynamicMap = dynamic(() => import("./GolfMap").then((mod) => mod.GolfMap), {
   ssr: false,
-  loading: () => (
-    <div className="flex h-full items-center justify-center bg-base-200">
-      <span className="loading loading-spinner loading-lg"></span>
-      <p className="ml-4">Laster kart...</p>
-    </div>
-  ),
+  loading: () => <MapLoading />,
 });
 
 interface MapPageProps {
@@ -23,6 +22,8 @@ interface MapPageProps {
 
 export function MapPage({ courses, locale }: MapPageProps) {
   const t = useTranslations("map");
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
   const [selectedCourse, setSelectedCourse] = useState<MapCourse | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState<string>("all");
@@ -43,25 +44,20 @@ export function MapPage({ courses, locale }: MapPageProps) {
   }, [selectedCourse]);
 
   // Zoom handlers
-  const handleZoomIn = () => {
+  const handleZoomIn = useCallback(() => {
     setMapZoom((z) => Math.min(z + 1, MAP_CONFIG.MAX_ZOOM));
-  };
+  }, []);
 
-  const handleZoomOut = () => {
+  const handleZoomOut = useCallback(() => {
     setMapZoom((z) => Math.max(z - 1, MAP_CONFIG.MIN_ZOOM));
-  };
+  }, []);
 
-  const handleCenterChange = (center: [number, number]) => {
+  const handleCenterChange = useCallback((center: [number, number]) => {
     setMapCenter(center);
-  };
+  }, []);
 
-  // Extract unique regions and cities
-  const regions = useMemo(
-    () => Array.from(new Set(courses.map((c) => c.region))).sort(),
-    [courses],
-  );
-
-  const cities = useMemo(() => Array.from(new Set(courses.map((c) => c.city))).sort(), [courses]);
+  // Extract unique regions and cities (optimized - single pass)
+  const { regions, cities } = useMemo(() => extractFilterOptions(courses), [courses]);
 
   // Filter courses
   const filteredCourses = useMemo(() => {
@@ -117,6 +113,7 @@ export function MapPage({ courses, locale }: MapPageProps) {
             {t("searchPlaceholder")}
           </label>
           <input
+            ref={searchInputRef}
             id="course-search"
             type="text"
             placeholder={t("searchPlaceholder")}
@@ -227,6 +224,7 @@ export function MapPage({ courses, locale }: MapPageProps) {
                 setMinHoles(null);
                 setMaxPrice(null);
                 setSelectedCourse(null);
+                searchInputRef.current?.focus();
               }}
               className="btn btn-outline btn-sm w-full"
             >
@@ -236,7 +234,7 @@ export function MapPage({ courses, locale }: MapPageProps) {
         </div>
 
         {/* Results count */}
-        <p className="text-base-content/70 mt-4 text-sm">
+        <p className="text-base-content/70 mt-4 text-sm" role="status" aria-live="polite" aria-atomic="true">
           {t("showingCourses", {
             filtered: filteredCourses.length,
             total: courses.length,
@@ -245,18 +243,30 @@ export function MapPage({ courses, locale }: MapPageProps) {
 
         {/* Course list */}
         <div className="mt-4 space-y-2">
+          {filteredCourses.length === 0 && (
+            <div className="mt-8 text-center" role="status" aria-live="polite">
+              <p className="text-base-content/70">{t("noResults")}</p>
+            </div>
+          )}
           {filteredCourses.map((course) => (
             <button
               key={course.slug}
               onClick={() => setSelectedCourse(course)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setSelectedCourse(course);
+                }
+              }}
               className={`w-full rounded-lg border p-3 text-left transition-colors ${
                 selectedCourse?.slug === course.slug
                   ? "bg-primary/10 border-primary"
                   : "border-base-300 hover:bg-base-200"
               }`}
+              aria-label={`Select ${getLocalizedName(course.name, course.name_en, locale)}`}
             >
               <h3 className="font-semibold">
-                {locale === "en" && course.name_en ? course.name_en : course.name}
+                {getLocalizedName(course.name, course.name_en, locale)}
               </h3>
               <p className="text-base-content/70 text-sm">{course.city}</p>
               <p className="text-sm">
@@ -272,16 +282,18 @@ export function MapPage({ courses, locale }: MapPageProps) {
 
       {/* Map */}
       <div className="order-1 h-1/2 flex-1 md:order-2 md:h-full">
-        <DynamicMap
-          courses={filteredCourses}
-          onSelectCourse={setSelectedCourse}
-          locale={locale}
-          mapCenter={mapCenter}
-          mapZoom={mapZoom}
-          onZoomIn={handleZoomIn}
-          onZoomOut={handleZoomOut}
-          onCenterChange={handleCenterChange}
-        />
+        <ErrorBoundary>
+          <DynamicMap
+            courses={filteredCourses}
+            onSelectCourse={setSelectedCourse}
+            locale={locale}
+            mapCenter={mapCenter}
+            mapZoom={mapZoom}
+            onZoomIn={handleZoomIn}
+            onZoomOut={handleZoomOut}
+            onCenterChange={handleCenterChange}
+          />
+        </ErrorBoundary>
       </div>
     </div>
   );

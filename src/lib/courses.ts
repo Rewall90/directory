@@ -3,8 +3,32 @@ import path from "path";
 import { cache } from "react";
 import type { Course, RegionWithCount } from "@/types/course";
 import { getCountyNameFromSlug } from "@/lib/constants/norway-regions";
+import { logger } from "@/lib/utils/logger";
 
 const COURSES_DIR = path.join(process.cwd(), "content/courses");
+
+/**
+ * Safely parse JSON course file with validation
+ * Returns null if parsing fails or data is invalid
+ */
+function parseJSONCourse(filePath: string, content: string): Course | null {
+  try {
+    const course = JSON.parse(content) as Course;
+
+    // Basic validation - check required fields
+    if (!course.slug || !course.name || !course.region) {
+      logger.warn(
+        `Invalid course data in ${filePath}: missing required fields (slug, name, or region)`
+      );
+      return null;
+    }
+
+    return course;
+  } catch (error) {
+    logger.error(`Failed to parse course JSON in ${filePath}:`, error);
+    return null;
+  }
+}
 
 /**
  * Get all region folder names
@@ -29,7 +53,8 @@ export const getCourse = cache((slug: string): Course | null => {
     const filePath = path.join(COURSES_DIR, region, `${slug}.json`);
     if (fs.existsSync(filePath)) {
       const content = fs.readFileSync(filePath, "utf-8");
-      return JSON.parse(content) as Course;
+      const course = parseJSONCourse(filePath, content);
+      if (course) return course;
     }
   }
 
@@ -39,9 +64,10 @@ export const getCourse = cache((slug: string): Course | null => {
     const files = fs.readdirSync(regionDir).filter((f) => f.endsWith(".json"));
 
     for (const file of files) {
-      const content = fs.readFileSync(path.join(regionDir, file), "utf-8");
-      const course = JSON.parse(content) as Course;
-      if (course.slug_en === slug) {
+      const filePath = path.join(regionDir, file);
+      const content = fs.readFileSync(filePath, "utf-8");
+      const course = parseJSONCourse(filePath, content);
+      if (course && course.slug_en === slug) {
         return course;
       }
     }
@@ -62,8 +88,12 @@ export const getAllCourses = cache((): Course[] => {
     const files = fs.readdirSync(regionDir).filter((f) => f.endsWith(".json"));
 
     for (const file of files) {
-      const content = fs.readFileSync(path.join(regionDir, file), "utf-8");
-      courses.push(JSON.parse(content) as Course);
+      const filePath = path.join(regionDir, file);
+      const content = fs.readFileSync(filePath, "utf-8");
+      const course = parseJSONCourse(filePath, content);
+      if (course) {
+        courses.push(course);
+      }
     }
   }
 
@@ -82,10 +112,13 @@ export const getCoursesByRegion = cache((regionSlug: string): Course[] => {
 
   const files = fs.readdirSync(regionDir).filter((f) => f.endsWith(".json"));
 
-  return files.map((file) => {
-    const content = fs.readFileSync(path.join(regionDir, file), "utf-8");
-    return JSON.parse(content) as Course;
-  });
+  return files
+    .map((file) => {
+      const filePath = path.join(regionDir, file);
+      const content = fs.readFileSync(filePath, "utf-8");
+      return parseJSONCourse(filePath, content);
+    })
+    .filter((course): course is Course => course !== null);
 });
 
 /**
@@ -258,3 +291,103 @@ export function calculateAverageRating(
     totalReviews,
   };
 }
+
+/**
+ * Lightweight course data for map display
+ */
+export interface MapCourse {
+  slug: string;
+  slug_en?: string;
+  name: string;
+  name_en?: string;
+  region: string;
+  regionSlug: string;
+  city: string;
+  coordinates: {
+    lat: number;
+    lng: number;
+  };
+  holes: number;
+  par: number | null;
+  rating: number | null;
+  reviewCount: number | null;
+  greenFee18: number | null;
+}
+
+/**
+ * Get all courses formatted for the interactive map
+ *
+ * Returns a simplified course structure optimized for map markers:
+ * - Only includes courses with valid coordinates
+ * - Includes both Norwegian and English names/slugs
+ * - Includes current pricing and ratings
+ * - Validates coordinate data with type predicates
+ *
+ * @returns Array of courses with map-specific data structure
+ * @throws Never throws - returns empty array on error
+ *
+ * @example
+ * ```ts
+ * const courses = getAllCoursesForMap();
+ * // Returns: [{ slug: "oslo-golfklubb", name: "Oslo Golfklubb", coordinates: {...}, ... }]
+ * ```
+ */
+export const getAllCoursesForMap = cache((): MapCourse[] => {
+  try {
+    const courses = getAllCourses();
+    const regions = getRegions();
+
+    // Build a slug-to-region map once for efficiency
+    const slugToRegion = new Map<string, string>();
+    for (const region of regions) {
+      const regionDir = path.join(COURSES_DIR, region);
+      if (fs.existsSync(regionDir)) {
+        const files = fs.readdirSync(regionDir).filter((f) => f.endsWith(".json"));
+        for (const file of files) {
+          const slug = file.replace(".json", "");
+          slugToRegion.set(slug, region);
+        }
+      }
+    }
+
+    const currentYear = new Date().getFullYear().toString();
+
+    return courses
+      .filter(
+        (c): c is Course & { coordinates: { lat: number; lng: number } } =>
+          c.coordinates != null &&
+          typeof c.coordinates.lat === "number" &&
+          typeof c.coordinates.lng === "number" &&
+          !Number.isNaN(c.coordinates.lat) &&
+          !Number.isNaN(c.coordinates.lng)
+      )
+      .map((course) => {
+        const regionSlug = slugToRegion.get(course.slug) || "";
+
+        const google = course.ratings?.google;
+        const pricing = course.pricing?.[currentYear] || course.pricing?.["2026"] || null;
+
+        return {
+          slug: course.slug,
+          slug_en: course.slug_en,
+          name: course.name,
+          name_en: course.name_en,
+          region: course.region,
+          regionSlug,
+          city: course.city,
+          coordinates: {
+            lat: course.coordinates.lat,
+            lng: course.coordinates.lng,
+          },
+          holes: course.course?.holes || 18,
+          par: course.course?.par || null,
+          rating: google?.rating || null,
+          reviewCount: google?.reviewCount || null,
+          greenFee18: pricing?.greenFee18 || pricing?.greenFeeWeekday || null,
+        };
+      });
+  } catch (error) {
+    logger.error("Failed to load courses for map", error);
+    return [];
+  }
+});

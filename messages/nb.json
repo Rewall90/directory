@@ -6,6 +6,7 @@
   },
   "header": {
     "regions": "Fylke",
+    "map": "Kart",
     "about": "Om oss",
     "contact": "Kontakt",
     "switchLanguage": "English"
@@ -562,5 +563,31 @@
     "categoryPerformanceDesc": "Ytelsesinformasjonskapsler brukes til å forstå og analysere de viktigste ytelsesindeksene til nettstedet som hjelper til med å gi en bedre brukeropplevelse for de besøkende.",
     "categoryAdvertising": "Annonse",
     "categoryAdvertisingDesc": "Annonseinformasjonskapsler brukes til å levere besøkende med tilpassede annonser basert på sidene de besøkte før og analysere effektiviteten av annonsekampanjen."
+  },
+  "map": {
+    "title": "Kart over Golfbaner i Norge",
+    "description": "Interaktivt kart med {count} golfbaner",
+    "descriptionFallback": "Utforsk golfbaner i Norge på et interaktivt kart",
+    "loading": "Laster kart...",
+    "searchPlaceholder": "Søk etter bane eller by...",
+    "filterByRegion": "Filtrer på fylke",
+    "filterByCity": "Filtrer på by",
+    "filterByHoles": "Hull",
+    "filterByPrice": "Maks pris",
+    "allRegions": "Alle fylker",
+    "allCities": "Alle byer",
+    "showingCourses": "Viser {filtered} av {total} baner",
+    "findMyLocation": "Finn min posisjon",
+    "viewDetails": "Se detaljer",
+    "getDirections": "Veibeskrivelse",
+    "clearFilters": "Nullstill filtre",
+    "noResults": "Ingen baner matcher filtrene",
+    "locationDenied": "Plasseringstilgang nektet",
+    "locationError": "Kunne ikke finne din posisjon",
+    "holes": "hull",
+    "par": "par",
+    "maxPrice500": "Maks 500 kr",
+    "maxPrice750": "Maks 750 kr",
+    "maxPrice1000": "Maks 1000 kr"
   }
 }

@@ -6,6 +6,7 @@
   },
   "header": {
     "regions": "Regions",
+    "map": "Map",
     "about": "About Us",
     "contact": "Contact",
     "switchLanguage": "Norsk"
@@ -562,5 +563,31 @@
     "categoryPerformanceDesc": "Performance cookies are used to understand and analyse the key performance indexes of the website, which helps to deliver a better user experience for visitors.",
     "categoryAdvertising": "Advertising",
     "categoryAdvertisingDesc": "Advertising cookies are used to deliver visitors with customised advertisements based on the pages they visited before and to analyse the effectiveness of the advertising campaign."
+  },
+  "map": {
+    "title": "Map of Golf Courses in Norway",
+    "description": "Interactive map with {count} golf courses",
+    "descriptionFallback": "Explore golf courses in Norway on an interactive map",
+    "loading": "Loading map...",
+    "searchPlaceholder": "Search for course or city...",
+    "filterByRegion": "Filter by region",
+    "filterByCity": "Filter by city",
+    "filterByHoles": "Holes",
+    "filterByPrice": "Max price",
+    "allRegions": "All regions",
+    "allCities": "All cities",
+    "showingCourses": "Showing {filtered} of {total} courses",
+    "findMyLocation": "Find my location",
+    "viewDetails": "View details",
+    "getDirections": "Get directions",
+    "clearFilters": "Clear filters",
+    "noResults": "No courses match the filters",
+    "locationDenied": "Location access denied",
+    "locationError": "Could not find your location",
+    "holes": "holes",
+    "par": "par",
+    "maxPrice500": "Max 500 NOK",
+    "maxPrice750": "Max 750 NOK",
+    "maxPrice1000": "Max 1000 NOK"
   }
 }
