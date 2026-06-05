@@ -315,6 +315,14 @@ export interface Course {
   slug_en?: string;
   name: string;
   name_en?: string;
+  /** SEO override for Norwegian <title>. Used verbatim. */
+  seo_title?: string;
+  /** SEO override for Norwegian meta description. Used verbatim. */
+  seo_description?: string;
+  /** SEO override for English <title>. Used verbatim. */
+  seo_title_en?: string;
+  /** SEO override for English meta description. Used verbatim. */
+  seo_description_en?: string;
   formerName: string | null;
   region: string;
   city: string;

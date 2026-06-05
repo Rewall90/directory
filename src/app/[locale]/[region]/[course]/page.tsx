@@ -87,15 +87,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const localeType = locale as "nb" | "en";
 
   const name = getLocalizedName(course, localeType);
+
+  // SEO overrides take precedence over the template. nb uses seo_title/seo_description;
+  // en uses seo_title_en/seo_description_en. Falls back to existing template if unset.
+  const titleOverride = locale === "en" ? course.seo_title_en : course.seo_title;
+  const descriptionOverride = locale === "en" ? course.seo_description_en : course.seo_description;
+
   const title =
-    locale === "en" ? `${name} - Golf in ${course.region}` : `${name} - Golf i ${course.region}`;
+    titleOverride ||
+    (locale === "en" ? `${name} - Golf in ${course.region}` : `${name} - Golf i ${course.region}`);
 
   const descriptionContent = getLocalizedDescription(course, localeType);
-  const description = descriptionContent
-    ? descriptionContent.substring(0, 160) + "..."
-    : locale === "en"
-      ? `${name} - ${course.course.holes} hole golf course in ${course.city}, ${course.region}. ${ratingData ? `Rated ${ratingData.averageRating.toFixed(1)}/5 by ${ratingData.totalReviews} golfers.` : ""}`
-      : `${name} - ${course.course.holes} hull golfbane i ${course.city}, ${course.region}. ${ratingData ? `Vurdert til ${ratingData.averageRating.toFixed(1)}/5 av ${ratingData.totalReviews} golfere.` : ""}`;
+  const description =
+    descriptionOverride ||
+    (descriptionContent
+      ? descriptionContent.substring(0, 160) + "..."
+      : locale === "en"
+        ? `${name} - ${course.course.holes} hole golf course in ${course.city}, ${course.region}. ${ratingData ? `Rated ${ratingData.averageRating.toFixed(1)}/5 by ${ratingData.totalReviews} golfers.` : ""}`
+        : `${name} - ${course.course.holes} hull golfbane i ${course.city}, ${course.region}. ${ratingData ? `Vurdert til ${ratingData.averageRating.toFixed(1)}/5 av ${ratingData.totalReviews} golfere.` : ""}`);
 
   const regionPath = toRegionSlug(course.region);
   const localizedSlug = getLocalizedSlug(course, localeType);
