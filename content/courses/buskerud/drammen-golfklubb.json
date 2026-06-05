@@ -207,5 +207,37 @@
   "googlePlaceId": "ChIJ9aCCleM6QUYR_C56GMQPbvg",
   "slug_en": "drammen-golf-club",
   "name_en": "Drammen Golf Club",
-  "description_en": "The course is renowned for its scenic setting in Skoger, ten kilometres south of Drammen, and stands today as a highly attractive 18-hole par-71 course measuring 5,800 metres. The layout is varied and undulating, offering enjoyable challenges for players of all levels. Designed by Jeremy Turner. Nine holes opened on Midsummer 1997, and the full 18-hole course opened on 1 August 1998. The clubhouse was built in 2004."
+  "description_en": "The course is renowned for its scenic setting in Skoger, ten kilometres south of Drammen, and stands today as a highly attractive 18-hole par-71 course measuring 5,800 metres. The layout is varied and undulating, offering enjoyable challenges for players of all levels. Designed by Jeremy Turner. Nine holes opened on Midsummer 1997, and the full 18-hole course opened on 1 August 1998. The clubhouse was built in 2004.",
+  "images": [
+    {
+      "src": "/courses/drammen-golfklubb/drammen-golfklubb-oversikt-bane.webp",
+      "alt": "Oversiktsbilde av Drammen Golfklubb sin parkbane i skogsterreng ved Skoger",
+      "alt_en": "Overview of Drammen Golf Club's parkland course in forest terrain at Skoger",
+      "credit": "Drammen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoKAAcABUB8JbACsAEQ+WeBAADiBdNvnk7DBTGrmDiUxtkHYPDrQpTLSN7DzB4AAAA="
+    },
+    {
+      "src": "/courses/drammen-golfklubb/drammen-golfklubb-fairway-skog.webp",
+      "alt": "Fairway på Drammen Golfklubb omgitt av frodig skog og naturlig terreng",
+      "alt_en": "Fairway at Drammen Golf Club surrounded by lush forest and natural terrain",
+      "credit": "Drammen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoKAAcABUB8JbAC7AEQEH1AAAD45PblgtNFZsmKOG/ex0XxFEOAXTf358DSuIPAAAA="
+    },
+    {
+      "src": "/courses/drammen-golfklubb/drammen-golfklubb-green-hoydeskille.webp",
+      "alt": "Green med flagg på Drammen Golfklubb, kjent for store høydeforskjeller og variert terreng",
+      "alt_en": "Green with flag at Drammen Golf Club, known for significant elevation changes and varied terrain",
+      "credit": "Drammen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACQAQCdASoKAAcABUB8JagAAln1gAAA/ADwgy0qMtLSNT/etGuWgLPt4se/xKlwQ3E8qAAA"
+    },
+    {
+      "src": "/courses/drammen-golfklubb/drammen-golfklubb-hull-1.webp",
+      "alt": "Hull 1 på Drammen Golfklubb sin 18-hulls PAR-71 bane designet av Jeremy Turner",
+      "alt_en": "Hole 1 at Drammen Golf Club's 18-hole PAR-71 course designed by Jeremy Turner",
+      "credit": "Drammen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoKAAcABUB8JbACdAEIhY6wAOJihrQFXWDzc6obN9HRwGqHCzOUYRyDeGYRSXfRorQhmQAA"
+    }
+  ],
+  "seo_title": "Drammen Golfklubb — 18 hull i Drammen: greenfee og kart",
+  "seo_description": "18-hulls bane (par 71) i Drammen grunnlagt 1997. Se baneinfo, greenfee, omtaler og kontakt."
 }

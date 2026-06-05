@@ -306,5 +306,23 @@
     "createdAt": "2025-10-31T09:31:12.700Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ4VvXTPLaFkYRLG38tNRD65M"
+  "googlePlaceId": "ChIJ4VvXTPLaFkYRLG38tNRD65M",
+  "images": [
+    {
+      "src": "/courses/aalesund-golfklubb-solnor-gaard/aalesund-golfklubb-solnor-gaard-green-flagg-solnedgang.webp",
+      "alt": "Grønn med flagg på Ålesund Golfklubb Solnør Gaard ved solnedgang med fjell i bakgrunnen",
+      "alt_en": "Green with flag at Ålesund Golf Club Solnør Gaard at sunset with mountains in the background",
+      "credit": "Ålesund Golfklubb - Solnør Gaard Golfbane",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoKAAcABUB8JYgAAvacemrAAP7XwWYzAXP/3VMgZq46nanODAm0/UBYRuAAAA=="
+    },
+    {
+      "src": "/courses/aalesund-golfklubb-solnor-gaard/aalesund-golfklubb-solnor-gaard-webkamera-bane.webp",
+      "alt": "Webkamera-utsikt over Ålesund Golfklubb Solnør Gaard med fairway og grønn",
+      "alt_en": "Webcam view of Ålesund Golf Club Solnør Gaard with fairway and green",
+      "credit": "Ålesund Golfklubb - Solnør Gaard Golfbane",
+      "placeholder": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACwAQCdASoKAAYABUB8JZwAAxa+3QrAAP7AZr9GxtJ17gydDGn9AAAA"
+    }
+  ],
+  "seo_title": "Ålesund Golfklubb — 18 hull, greenfee fra 500 kr",
+  "seo_description": "18-hulls bane (par 72) i Ålesund grunnlagt 1995. Greenfee fra 500 kr ukedag. Sesong April–oktober. Se baneinfo, omtaler og kontakt."
 }

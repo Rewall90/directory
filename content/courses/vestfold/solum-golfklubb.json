@@ -274,5 +274,37 @@
     "createdAt": "2025-10-31T09:10:44.982Z",
     "updatedAt": "2026-02-14T17:20:00.000Z"
   },
-  "googlePlaceId": "ChIJ11ts6Rw1QUYRolS8DQGxQ1s"
+  "googlePlaceId": "ChIJ11ts6Rw1QUYRolS8DQGxQ1s",
+  "images": [
+    {
+      "src": "/courses/solum-golfklubb/solum-golfklubb-flyfoto-bane-oversikt.webp",
+      "alt": "Flyfoto av Solum Golfklubb i Holmestrand med 18-hulls bane og naturskjønt terreng",
+      "alt_en": "Aerial photo of Solum Golf Club in Holmestrand with 18-hole course and scenic natural terrain",
+      "credit": "Solum Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoKAAYABUB8JbAC7AEOKiAA/rXyrgSMu061X8G5G3yRiQAA"
+    },
+    {
+      "src": "/courses/solum-golfklubb/solum-golfklubb-hull-14-bunker.webp",
+      "alt": "Bunker på hull 14 ved Solum Golfklubb med grønn og flagg",
+      "alt_en": "Bunker at hole 14 at Solum Golf Club with green and flag",
+      "credit": "Solum Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAACwAQCdASoJAAcABUB8JbACdAEO4woAAN5lMc+vrszUpfsN4npbS8M7BySIAA=="
+    },
+    {
+      "src": "/courses/solum-golfklubb/solum-golfklubb-hull-10-fairway.webp",
+      "alt": "Hull 10 på Solum Golfklubb med fairway og naturskjønt landskap",
+      "alt_en": "Hole 10 at Solum Golf Club with fairway and scenic landscape",
+      "credit": "Solum Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoJAAcABUB8JZACdAEQD08GQADhnWW0jZ4wieIWtiqcFAZA/DhmaWeAAAA="
+    },
+    {
+      "src": "/courses/solum-golfklubb/solum-golfklubb-golfer-solnedgang.webp",
+      "alt": "Golfspiller på Solum Golfklubb i solnedgang med utsikt over banen",
+      "alt_en": "Golfer at Solum Golf Club at sunset with view over the course",
+      "credit": "Solum Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoJAAcABUB8JbACdAEOun0HAADiBDcphElGYs9rPadiSru1afAG5AAA"
+    }
+  ],
+  "seo_title": "Solum Golfklubb — 18 hull, greenfee fra 550 kr",
+  "seo_description": "18-hulls bane (par 72) i Holmestrand grunnlagt 2003. Greenfee fra 550 kr ukedag. Sesong Mars–Desember. Se baneinfo, omtaler og kontakt."
 }

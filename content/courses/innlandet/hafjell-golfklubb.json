@@ -283,5 +283,30 @@
   "googlePlaceId": "ChIJWcqpP6uLakYRZSaCYNPyy-E",
   "slug_en": "hafjell-golf-club",
   "name_en": "Hafjell Golf Club",
-  "description_en": "9-hole parkland and woodland course at 800 metres elevation, next to Hafjell Alpine Centre, 15 minutes north of Lillehammer. The course features large greens, many bunkers and challenges, with hole lengths from 76 to 458 metres. Stone-lined streams, multiple tee areas and thinned woodland provide a varied and exciting golf experience. 24-station driving range. Season from early May to mid-October."
+  "description_en": "9-hole parkland and woodland course at 800 metres elevation, next to Hafjell Alpine Centre, 15 minutes north of Lillehammer. The course features large greens, many bunkers and challenges, with hole lengths from 76 to 458 metres. Stone-lined streams, multiple tee areas and thinned woodland provide a varied and exciting golf experience. 24-station driving range. Season from early May to mid-October.",
+  "images": [
+    {
+      "src": "/courses/hafjell-golfklubb/hafjell-golfklubb-oversiktsbilde-bane.webp",
+      "alt": "Oversiktsbilde av Hafjell Golfklubb, 9-hulls skogs- og parkbane i Gudbrandsdalen",
+      "alt_en": "Overview of Hafjell Golf Club, 9-hole forest and parkland course in Gudbrandsdalen",
+      "credit": "Hafjell Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACQAQCdASoKAAUABUB8JQAAWNKBCIAA+UJLlFin/PuJERsVb9ksix0swAA="
+    },
+    {
+      "src": "/courses/hafjell-golfklubb/hafjell-golfklubb-bane-skog-terreng.webp",
+      "alt": "Hafjell Golfklubb med fairways gjennom naturskjønt skogsterreng ved Hafjell Alpinsenter",
+      "alt_en": "Hafjell Golf Club with fairways through scenic forest terrain near Hafjell Alpine Center",
+      "credit": "Hafjell Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoKAAYABUB8JbACdAELWZd0oAD6nBdd2wPukqSmPbqVc+z1x4a5SQUCer+UdC5yqoAAAA=="
+    },
+    {
+      "src": "/courses/hafjell-golfklubb/hafjell-golfklubb-golfbane-gudbrandsdalen.webp",
+      "alt": "Golfbane ved Hafjell med utsikt over Gudbrandsdalen og alpelandskap",
+      "alt_en": "Golf course at Hafjell with views over Gudbrandsdalen valley and alpine landscape",
+      "credit": "Hafjell Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoKAAUABUB8JbACw7DZlgtAAP5BJZJzol69ZcmbTUokubsK91oVTXbSkc7Q2JUjWvQHJgAA"
+    }
+  ],
+  "seo_title": "Hafjell Golfklubb — 9 hull i Øyer: greenfee og kart",
+  "seo_description": "9-hulls bane (par 67) i Øyer ved Hafjell, grunnlagt 2002. Sesong mai–oktober. Se baneinfo, greenfee, omtaler og kontakt."
 }

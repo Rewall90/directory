@@ -274,11 +274,7 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 98,
-    "pagesScraped": [
-      "homepage",
-      "kontigent-medlemskap",
-      "booking"
-    ],
+    "pagesScraped": ["homepage", "kontigent-medlemskap", "booking"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T11:30:54.497Z",
     "updatedAt": "2026-02-15T12:00:00.000Z",
@@ -317,5 +313,7 @@
       "credit": "Trondheim Golfklubb",
       "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoJAAcABUB8JbACdAEWPVK5RY+gAOHwCTHsTSzMW9JWB1/ECFi9FRvKw7RDFfGfefIAAA=="
     }
-  ]
+  ],
+  "seo_title": "Trondheim Golfklubb — 9 hull, greenfee fra 350 kr",
+  "seo_description": "9-hulls bane (par 36) i Trondheim grunnlagt 1950. Greenfee fra 350 kr ukedag. Sesong Mai–Oktober. Se baneinfo, omtaler og kontakt."
 }

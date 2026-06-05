@@ -237,5 +237,37 @@
   "googlePlaceId": "ChIJJ4eYRU0930URRFs8HFxi88Q",
   "slug_en": "bodo-golf-club",
   "name_en": "Bodo Golf Club",
-  "description_en": "Welcoming and inclusive 9-hole par-3 course at Ilstad, approximately 20 km from Bodo centre. The original 9-hole course opened in 2005, expanded with new tee positions in 2020 so that the course now has 18 holes (9 greens). All holes are par 3. A fine short game area and covered driving range. Perfect for both beginners and experienced players. Beautifully laid out with views over the coastal landscape."
+  "description_en": "Welcoming and inclusive 9-hole par-3 course at Ilstad, approximately 20 km from Bodo centre. The original 9-hole course opened in 2005, expanded with new tee positions in 2020 so that the course now has 18 holes (9 greens). All holes are par 3. A fine short game area and covered driving range. Perfect for both beginners and experienced players. Beautifully laid out with views over the coastal landscape.",
+  "images": [
+    {
+      "src": "/courses/bodo-golfklubb/bodo-golfklubb-flyfoto-oversikt-ilstad.webp",
+      "alt": "Flyfoto av Bodø Golfklubb på Ilstad med 9-hulls bane og nordnorsk natur",
+      "alt_en": "Aerial view of Bodø Golf Club at Ilstad with 9-hole course and Northern Norwegian nature",
+      "credit": "Bodø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACQAQCdASoKAAcABUB8JQBOgBuRo5wA/kCD0U8hci3csV0qu2QAAA=="
+    },
+    {
+      "src": "/courses/bodo-golfklubb/bodo-golfklubb-bane-fjell-utsikt.webp",
+      "alt": "Golfbane ved Bodø Golfklubb med utsikt over fjell og nordnorsk landskap",
+      "alt_en": "Golf course at Bodø Golf Club with mountain views and Northern Norwegian landscape",
+      "credit": "Bodø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoJAAcABUB8JbAAAueJJiEgwAD+WzCPWrGpripEDsd/W+IzUZey+edveDgAAA=="
+    },
+    {
+      "src": "/courses/bodo-golfklubb/bodo-golfklubb-flyfoto-fairways-greens.webp",
+      "alt": "Flyfoto av Bodø Golfklubb som viser fairways, greener og omgivelsene",
+      "alt_en": "Aerial photo of Bodø Golf Club showing fairways, greens and surroundings",
+      "credit": "Bodø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjAAAABXRUJQVlA4ICQAAADQAQCdASoKAAcABUB8JZgCdAD0QvTOAAC9AXIDm0etMUB9gAA="
+    },
+    {
+      "src": "/courses/bodo-golfklubb/bodo-golfklubb-bane-oversikt.webp",
+      "alt": "Oversiktsbilde av golfbanen ved Bodø Golfklubb i nordnorsk terreng",
+      "alt_en": "Overview image of the golf course at Bodø Golf Club in Northern Norwegian terrain",
+      "credit": "Bodø Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoKAAQABUB8JZgCdAEPAKligADiZ7lCKk6tZhwjDGfR8Rir6PVAAA=="
+    }
+  ],
+  "seo_title": "Bodø Golfklubb — 9 hull, greenfee fra 420 kr",
+  "seo_description": "9-hulls bane (par 27) i Tverlandet, Bodø, grunnlagt 2005. Greenfee fra 420 kr ukedag. Sesong Mai–Oktober. Se baneinfo og omtaler."
 }

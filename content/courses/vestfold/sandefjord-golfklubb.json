@@ -294,10 +294,7 @@
     "dataQuality": "96.0",
     "websiteQuality": "excellent",
     "completenessPercentage": 96,
-    "pagesScraped": [
-      "greenfee",
-      "bli-medlem"
-    ],
+    "pagesScraped": ["greenfee", "bli-medlem"],
     "scrapedAt": "2026-02-14T17:00:00.000Z",
     "createdAt": "2025-10-31T09:10:43.446Z",
     "updatedAt": "2026-02-14T17:00:00.000Z"
@@ -339,5 +336,7 @@
       "credit": "Sandefjord Golfklubb",
       "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAgCdASoKAAcABUB8JYgCdIExGY2Km2twAP7vTEid/2/OJ9zMvnCXfomLQjrXpnKJmxVOjZcSAAAA"
     }
-  ]
+  ],
+  "seo_title": "Sandefjord Golfklubb — 18 hull, greenfee fra 650 kr",
+  "seo_description": "18-hulls bane (par 72) i Sandefjord grunnlagt 2008. Greenfee fra 650 kr ukedag. Sesong Februar–Oktober. Se baneinfo, omtaler og kontakt."
 }

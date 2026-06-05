@@ -226,5 +226,37 @@
     "createdAt": "2025-10-31T11:42:02.862Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJ_4-vqHjjQ0YROxLTFi0bQ-A"
+  "googlePlaceId": "ChIJ_4-vqHjjQ0YROxLTFi0bQ-A",
+  "images": [
+    {
+      "src": "/courses/askim-golfklubb/askim-golfklubb-oversikt-anlegg-flyfoto.webp",
+      "alt": "Oversiktsbilde av Askim Golfklubb sitt anlegg med fairways og greener i skogsterreng",
+      "alt_en": "Overview of Askim Golf Club facility with fairways and greens in forest terrain",
+      "credit": "Askim Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAABwAQCdASoJAAcABUB8JZgAAlAQAAD33FzT1uJZaaSrKBv8Jo6tJ98A3ERgAAAA"
+    },
+    {
+      "src": "/courses/askim-golfklubb/askim-golfklubb-oversikt-anlegg-2.webp",
+      "alt": "Flyfoto av Askim Golfklubb med klubbhus og golfbane omgitt av skog",
+      "alt_en": "Aerial photo of Askim Golf Club with clubhouse and golf course surrounded by forest",
+      "credit": "Askim Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAABwAQCdASoJAAcABUB8JaAAAlEK+AD8Z58V5HXWoYQ0nv/VVPX36AAA"
+    },
+    {
+      "src": "/courses/askim-golfklubb/askim-golfklubb-green-4-utsikt.webp",
+      "alt": "Nydelig utsikt over green 4 på Askim Golfklubb med flagg og fairway",
+      "alt_en": "Beautiful view of green 4 at Askim Golf Club with flag and fairway",
+      "credit": "Askim Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAQCdASoJAAcABUB8JYgCw7EQFRWS0xwA/plC8en2OzhC5Ncc0pdXkAgI9NAutwAAAA=="
+    },
+    {
+      "src": "/courses/askim-golfklubb/askim-golfklubb-fairway-skogsterreng.webp",
+      "alt": "Fairway på Askim Golfklubb med tett skog på begge sider av banen",
+      "alt_en": "Fairway at Askim Golf Club with dense forest on both sides of the course",
+      "credit": "Askim Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAQCdASoJAAcABUB8JZACdH8AGBpAo1AAyyJmsALDt2UOZH5whOl15wAAAA=="
+    }
+  ],
+  "seo_title": "Askim Golfklubb — 18 hull, greenfee fra 400 kr",
+  "seo_description": "18-hulls bane (par 69) i Askim grunnlagt 1997. Greenfee fra 400 kr ukedag. Sesong April–November. Se baneinfo, omtaler og kontakt."
 }

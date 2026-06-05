@@ -268,5 +268,37 @@
     "createdAt": "2025-10-31T09:10:42.045Z",
     "updatedAt": "2026-02-14T16:15:00.000Z"
   },
-  "googlePlaceId": "ChIJK9fhN-YtQUYRrNvUNLLprxY"
+  "googlePlaceId": "ChIJK9fhN-YtQUYRrNvUNLLprxY",
+  "images": [
+    {
+      "src": "/courses/hof-golfklubb/hof-golfklubb-hull-7-par-5-fairway.webp",
+      "alt": "Hull 7 på Hof Golfklubb, par 5-hull med fairway og grønn i kupert terreng",
+      "alt_en": "Hole 7 at Hof Golf Club, par 5 hole with fairway and green in undulating terrain",
+      "credit": "Hof Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoKAAcABUB8JYwCdADcloVUAAD9458mntpIAEYhkFnllgxup9CFs+AFbcQAAA=="
+    },
+    {
+      "src": "/courses/hof-golfklubb/hof-golfklubb-hull-16-par-5-utslag.webp",
+      "alt": "Hull 16 på Hof Golfklubb, par 5-hull med utslagsted og trær langs fairway",
+      "alt_en": "Hole 16 at Hof Golf Club, par 5 hole with tee box and trees along the fairway",
+      "credit": "Hof Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAQCdASoKAAcABUB8JQBOgBuPBu8gAP39JLaZVqsljQjw1v+sz1WGeLCMRY0AAAA="
+    },
+    {
+      "src": "/courses/hof-golfklubb/hof-golfklubb-hull-14-par-3-green.webp",
+      "alt": "Hull 14 på Hof Golfklubb, par 3-hull med grønn omgitt av skog",
+      "alt_en": "Hole 14 at Hof Golf Club, par 3 hole with green surrounded by forest",
+      "credit": "Hof Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAcABUB8JYwCdAD0INdrAADiBAsXa3CxDTgegzovzs/yEV9JDERAAAA="
+    },
+    {
+      "src": "/courses/hof-golfklubb/hof-golfklubb-hull-8-par-4-fairway-skog.webp",
+      "alt": "Hull 8 på Hof Golfklubb, par 4-hull med fairway gjennom skogsterreng",
+      "alt_en": "Hole 8 at Hof Golf Club, par 4 hole with fairway through forested terrain",
+      "credit": "Hof Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoKAAcABUB8JYwCdAD0INdrAAD82TA5OPz9FAK74z1NsRM8fwEJRTvrE9fgAA=="
+    }
+  ],
+  "seo_title": "Hof Golfklubb — 9 hull, greenfee fra 400 kr",
+  "seo_description": "9-hulls bane (par 33) i Hof, Vestfold, grunnlagt 1996. Greenfee fra 400 kr ukedag. Sesong April–November. Se baneinfo, omtaler og kontakt."
 }

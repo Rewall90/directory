@@ -201,10 +201,7 @@
     "dataQuality": "excellent",
     "websiteQuality": null,
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "start/gjest",
-      "start/gjest/greenfee"
-    ],
+    "pagesScraped": ["start/gjest", "start/gjest/greenfee"],
     "scrapedAt": "2026-02-14T16:14:00.000Z",
     "createdAt": "2025-10-31T11:42:06.848Z",
     "updatedAt": "2026-02-14T16:14:00.000Z"
@@ -225,5 +222,7 @@
       "credit": "Moss & Rygge Golfklubb",
       "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoKAAYABUB8JbAAApy7C0V5gAD+qhyet15dOBjZwjdydwa1+zLLRycbs7DImH17ki+KP0ricQAAAA=="
     }
-  ]
+  ],
+  "seo_title": "Moss & Rygge Golfklubb — 18 hull, greenfee fra 750 kr",
+  "seo_description": "18-hulls bane (par 72) i Dilling, Rygge, grunnlagt 2004. Greenfee fra 750 kr ukedag, 800 kr helg. Sesong April–November. Se baneinfo og omtaler."
 }

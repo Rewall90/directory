@@ -285,13 +285,7 @@
     "dataQuality": "95.0",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjestespill",
-      "bli-medlem",
-      "banen",
-      "proshop2",
-      "golfpakke-engo"
-    ],
+    "pagesScraped": ["gjestespill", "bli-medlem", "banen", "proshop2", "golfpakke-engo"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T09:10:45.505Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
@@ -326,5 +320,7 @@
       "credit": "Tjøme Golfklubb",
       "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoKAAYABUB8JbACdAELYmh9oAD2pxglnGGxyVRVLIphl7HmCdA0AMaCJCgAAA=="
     }
-  ]
+  ],
+  "seo_title": "Tjøme Golfklubb — 18 hull i Tjøme: greenfee og kart",
+  "seo_description": "18-hulls bane (par 72) på Tjøme grunnlagt 1989. Sesong April–November. Se baneinfo, greenfee, omtaler og kontakt."
 }

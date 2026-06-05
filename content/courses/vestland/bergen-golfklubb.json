@@ -212,5 +212,37 @@
   "googlePlaceId": "ChIJU1a-WMP9PEYRfn77QQ7Jlyw",
   "slug_en": "bergen-golf-club",
   "name_en": "Bergen Golf Club",
-  "description_en": "Bergen Golf Club - 9-hole parkland course established in 1937 in Ovre Ervik, Bergen. Par 68 (played twice), 4,563 yards (approx. 4,173m), CR 66.0, Slope 118. Close to Bergen city centre - 10 minutes by taxi or 30 minutes by bus. One of Norway's oldest golf clubs."
+  "description_en": "Bergen Golf Club - 9-hole parkland course established in 1937 in Ovre Ervik, Bergen. Par 68 (played twice), 4,563 yards (approx. 4,173m), CR 66.0, Slope 118. Close to Bergen city centre - 10 minutes by taxi or 30 minutes by bus. One of Norway's oldest golf clubs.",
+  "images": [
+    {
+      "src": "/courses/bergen-golfklubb/bergen-golfklubb-oversiktsbilde-bane-landskap.webp",
+      "alt": "Oversiktsbilde av Bergen Golfklubb med grønne fairways og naturskjønt terreng ved Bergen",
+      "alt_en": "Overview of Bergen Golf Club with green fairways and scenic terrain near Bergen",
+      "credit": "Bergen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoKAAcABUB8JZACdAEQ/Vpe4QAAy09/H2PnFyzDTWGJaA5COja0ScDxhOdEXt8bEAA="
+    },
+    {
+      "src": "/courses/bergen-golfklubb/bergen-golfklubb-fairway-skog-utsikt.webp",
+      "alt": "Fairway på Bergen Golfklubb omkranset av skog og åpent landskap",
+      "alt_en": "Fairway at Bergen Golf Club surrounded by forest and open landscape",
+      "credit": "Bergen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRiwAAABXRUJQVlA4ICAAAAAwAQCdASoJAAcABUB8JaQAA3AA/vDbMufHj+HtIUSAAA=="
+    },
+    {
+      "src": "/courses/bergen-golfklubb/bergen-golfklubb-bane-oversikt-natur.webp",
+      "alt": "Bergen Golfklubb golfbane med naturlige omgivelser og karakteristisk vestlandsterreng",
+      "alt_en": "Bergen Golf Club course with natural surroundings and characteristic western Norway terrain",
+      "credit": "Bergen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoJAAcABUB8JaQAAt0LPz5gAP64Mq4SWLAOqa2cpaWInNivcOAT5FGOVU5RwAAA"
+    },
+    {
+      "src": "/courses/bergen-golfklubb/bergen-golfklubb-featured-bilde.webp",
+      "alt": "Bergen Golfklubb med grønne baner og utsikt over omgivelsene nær Øvre Ervik",
+      "alt_en": "Bergen Golf Club with green courses and views of the surroundings near Øvre Ervik",
+      "credit": "Bergen Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACQAQCdASoJAAcABUB8JbACdADzAgAA/ZqcIHb9wQ+HRnLNzLdspSAVoD/hui62aFpmpEAA"
+    }
+  ],
+  "seo_title": "Bergen Golfklubb — 9 hull, greenfee fra 575 kr",
+  "seo_description": "9-hulls bane (par 34) i Bergen grunnlagt 1937. Greenfee fra 575 kr ukedag, 675 kr helg. Sesong April–Oktober. Se baneinfo, omtaler og kontakt."
 }

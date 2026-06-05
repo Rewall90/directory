@@ -296,5 +296,30 @@
     "createdAt": "2025-10-31T09:10:44.025Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"
   },
-  "googlePlaceId": "ChIJdaMSS_MwQUYRGllnjFbPc7g"
+  "googlePlaceId": "ChIJdaMSS_MwQUYRGllnjFbPc7g",
+  "images": [
+    {
+      "src": "/courses/sande-golfklubb/sande-golfklubb-oversikt-mot-nord.webp",
+      "alt": "Oversiktsbilde av Sande Golfklubb med 9-hulls banen i jordbruksområde ved Sandeelva",
+      "alt_en": "Overview of Sande Golf Club with the 9-hole course in agricultural terrain by Sandeelva river",
+      "credit": "Sande Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAYABUB8JYgCdAEOegr0kAD44tV0Wi5GhwsUizYQyElNquuoJ8pAAAA="
+    },
+    {
+      "src": "/courses/sande-golfklubb/sande-golfklubb-bane-ragnar-weberg.webp",
+      "alt": "Sande Golfklubb med fairways og greener i kupert jordbrukslandskap med Bremsa elv",
+      "alt_en": "Sande Golf Club with fairways and greens in rolling agricultural landscape with Bremsa river",
+      "credit": "Ragnar Weberg",
+      "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAQCdASoKAAUABUB8JYgC7AEU85OmsAD9s9I6Ha9hhftJN/Auj9RHirzirbWAAAA="
+    },
+    {
+      "src": "/courses/sande-golfklubb/sande-golfklubb-utsikt-fra-tee-7.webp",
+      "alt": "Utsikt fra utslag hull 7 på Sande Golfklubb med fairway og grønn i åpent terreng",
+      "alt_en": "View from tee 7 at Sande Golf Club with fairway and green in open terrain",
+      "credit": "Ragnar Weberg",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoKAAYABUB8JaACdADzDGAA8qVSq7aQzJLtPbSZjA0arW08+wM0v0X9rgAAAA=="
+    }
+  ],
+  "seo_title": "Sande Golfklubb — 9 hull i Vestfold: greenfee og kart",
+  "seo_description": "9-hulls bane (par 36) i Sande, Vestfold, grunnlagt 1999. Sesong April–November. Se baneinfo, greenfee, omtaler og kontakt."
 }
