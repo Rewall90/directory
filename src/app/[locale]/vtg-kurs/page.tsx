@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { getVtgClubs, getVtgRegions } from "@/lib/courses";
 import { formatMonthYear, groupClubsByRegion, latestLastChecked, vtgPriceRange } from "@/lib/vtg";
 import { VtgClubCard } from "@/components/vtg/VtgClubCard";
+import { VtgClubFilter, type FilterableGroup } from "@/components/vtg/VtgClubFilter";
 import {
   generateFAQPageSchema,
   generateItemListSchema,
@@ -111,6 +112,49 @@ export default async function VtgKursPage({ params }: Props) {
       })
     : t("ledeNoPrices");
 
+  // Server-rendered region groups for the client-side filter: headings and
+  // cards are built here (server-authored anchors/links), the client component
+  // only toggles their visibility based on the query.
+  const filterGroups: FilterableGroup[] = groups.map((group) => {
+    const groupRange = vtgPriceRange(group.clubs);
+    return {
+      regionSlug: group.regionSlug,
+      regionName: group.regionName,
+      heading: (
+        <>
+          <h2
+            id={group.regionSlug}
+            className="scroll-mt-20 text-xl font-semibold text-text-primary"
+          >
+            {group.regionName}
+          </h2>
+          <p className="mb-3 mt-1 text-sm text-text-tertiary">
+            {groupRange
+              ? t("regionSubtitleWithPrice", {
+                  count: group.clubs.length,
+                  min: groupRange.min,
+                })
+              : t("regionSubtitle", { count: group.clubs.length })}
+            {locale === "nb" && regionPages.has(group.regionSlug) && (
+              <Link
+                href={`/vtg-kurs/${group.regionSlug}`}
+                className="ml-2 text-primary hover:underline"
+              >
+                {t("regionPageLink", { region: group.regionName })}
+              </Link>
+            )}
+          </p>
+        </>
+      ),
+      clubs: group.clubs.map((club) => ({
+        slug: club.slug,
+        searchText:
+          `${club.name} ${club.name_en ?? ""} ${club.city} ${group.regionName}`.toLowerCase(),
+        card: <VtgClubCard club={club} />,
+      })),
+    };
+  });
+
   return (
     <>
       {/* JSON-LD structured data for SEO */}
@@ -167,41 +211,8 @@ export default async function VtgKursPage({ params }: Props) {
           ))}
         </p>
 
-        {/* Region groups */}
-        {groups.map((group) => {
-          const groupRange = vtgPriceRange(group.clubs);
-          return (
-            <section key={group.regionSlug} className="mb-10">
-              <h2
-                id={group.regionSlug}
-                className="scroll-mt-20 text-xl font-semibold text-text-primary"
-              >
-                {group.regionName}
-              </h2>
-              <p className="mb-3 mt-1 text-sm text-text-tertiary">
-                {groupRange
-                  ? t("regionSubtitleWithPrice", {
-                      count: group.clubs.length,
-                      min: groupRange.min,
-                    })
-                  : t("regionSubtitle", { count: group.clubs.length })}
-                {locale === "nb" && regionPages.has(group.regionSlug) && (
-                  <Link
-                    href={`/vtg-kurs/${group.regionSlug}`}
-                    className="ml-2 text-primary hover:underline"
-                  >
-                    {t("regionPageLink", { region: group.regionName })}
-                  </Link>
-                )}
-              </p>
-              <div className="space-y-2.5">
-                {group.clubs.map((club) => (
-                  <VtgClubCard key={club.slug} club={club} />
-                ))}
-              </div>
-            </section>
-          );
-        })}
+        {/* Club filter + region groups (cards are server-rendered, filtering is client-side) */}
+        <VtgClubFilter groups={filterGroups} totalCount={clubs.length} />
 
         {/* FAQ */}
         <section className="mt-12 max-w-2xl">

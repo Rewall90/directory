@@ -7,6 +7,7 @@ import {
   groupClubsByRegion,
   latestLastChecked,
   formatMonthYear,
+  matchesClubQuery,
   type VtgClub,
 } from "./vtg";
 import type { Course } from "@/types/course";
@@ -211,6 +212,40 @@ describe("latestLastChecked", () => {
     const noData = toVtgClub(makeCourse({ vtg: null }), "r");
     expect(latestLastChecked([noData])).toBe(null);
     expect(latestLastChecked([])).toBe(null);
+  });
+});
+
+describe("matchesClubQuery", () => {
+  // Mirrors how the hub page builds searchText: name + name_en + city + region, lowercased
+  const searchText = "stavanger golfklubb stavanger golf club stavanger rogaland";
+
+  it("matches everything on an empty or whitespace-only query", () => {
+    expect(matchesClubQuery(searchText, "")).toBe(true);
+    expect(matchesClubQuery(searchText, "   ")).toBe(true);
+  });
+
+  it("is case-insensitive", () => {
+    expect(matchesClubQuery(searchText, "STAVANGER")).toBe(true);
+    expect(matchesClubQuery(searchText, "GoLfKlUbB")).toBe(true);
+  });
+
+  it("matches on city and region name", () => {
+    expect(matchesClubQuery("oslo golfklubb  bogstad oslo", "bogstad")).toBe(true);
+    expect(matchesClubQuery(searchText, "rogaland")).toBe(true);
+  });
+
+  it("matches partial substrings", () => {
+    expect(matchesClubQuery(searchText, "stava")).toBe(true);
+    expect(matchesClubQuery(searchText, "golfklu")).toBe(true);
+  });
+
+  it("lowercases Norwegian characters on both sides", () => {
+    expect(matchesClubQuery("Ålesund Golfklubb Ålesund Møre og Romsdal", "ålesund")).toBe(true);
+    expect(matchesClubQuery("ålesund golfklubb ålesund møre og romsdal", "Ålesund")).toBe(true);
+  });
+
+  it("returns false when nothing matches", () => {
+    expect(matchesClubQuery(searchText, "trondheim")).toBe(false);
   });
 });
 

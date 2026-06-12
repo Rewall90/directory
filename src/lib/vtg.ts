@@ -107,6 +107,19 @@ export function vtgPriceRange(clubs: VtgClub[]): { min: number; max: number } | 
   return { min: Math.min(...prices), max: Math.max(...prices) };
 }
 
+/**
+ * Case-insensitive substring match for the hub page club filter.
+ *
+ * An empty (or whitespace-only) query matches everything. Both sides are
+ * lowercased here so callers don't have to pre-normalize, although the hub
+ * page builds `searchText` pre-lowercased.
+ */
+export function matchesClubQuery(searchText: string, query: string): boolean {
+  const normalized = query.trim().toLowerCase();
+  if (normalized === "") return true;
+  return searchText.toLowerCase().includes(normalized);
+}
+
 /** Group clubs by region for the hub page; clubs with data sort first, then by name */
 export function groupClubsByRegion(
   clubs: VtgClub[],
