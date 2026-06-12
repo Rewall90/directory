@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllCourses, getRegions } from "@/lib/courses";
+import { getAllCourses, getRegions, getVtgRegions } from "@/lib/courses";
 import { toRegionSlug } from "@/lib/constants/norway-regions";
 import fs from "fs";
 import path from "path";
@@ -102,6 +102,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]);
 
+  const vtgPages: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/vtg-kurs`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+      alternates: langAlternates("/vtg-kurs"),
+    },
+    {
+      url: `${BASE_URL}/en/vtg-kurs`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.7,
+      alternates: langAlternates("/vtg-kurs"),
+    },
+    // Region pages are Norwegian-only — no /en/ entries and no en hreflang
+    ...getVtgRegions().map((region) => ({
+      url: `${BASE_URL}/vtg-kurs/${region}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+      alternates: {
+        languages: {
+          nb: `${BASE_URL}/vtg-kurs/${region}`,
+          "x-default": `${BASE_URL}/vtg-kurs/${region}`,
+        },
+      },
+    })),
+  ];
+
   const coursePages: MetadataRoute.Sitemap = courses.flatMap((course) => {
     const regionSlug = toRegionSlug(course.region);
     const lastModified = course.meta.updatedAt ? new Date(course.meta.updatedAt) : new Date();
@@ -194,5 +224,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  return [...staticPages, ...regionPages, ...coursePages, ...blogPages, ...enBlogPages];
+  return [
+    ...staticPages,
+    ...regionPages,
+    ...vtgPages,
+    ...coursePages,
+    ...blogPages,
+    ...enBlogPages,
+  ];
 }

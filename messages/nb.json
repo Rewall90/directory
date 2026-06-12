@@ -7,6 +7,7 @@
   "header": {
     "regions": "Fylke",
     "map": "Kart",
+    "vtg": "VTG-kurs",
     "about": "Om oss",
     "contact": "Kontakt",
     "switchLanguage": "English"
@@ -27,6 +28,7 @@
     "popularCoursesTitle": "Populære golfbaner",
     "allCourses": "Alle golfbaner",
     "map": "Golfbanekart",
+    "vtg": "VTG-kurs",
     "badgeCourses": "{count} baner",
     "badgeRegions": "{count} fylker",
     "trustBadge": "{courses} baner · {regions} fylker",

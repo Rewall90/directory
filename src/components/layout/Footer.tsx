@@ -122,6 +122,14 @@ export async function Footer() {
               </li>
               <li>
                 <Link
+                  href="/vtg-kurs"
+                  className="block py-1 text-sm text-white/65 transition-colors hover:text-white"
+                >
+                  {t("vtg")}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/blog"
                   className="block py-1 text-sm text-white/65 transition-colors hover:text-white"
                 >

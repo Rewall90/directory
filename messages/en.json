@@ -7,6 +7,7 @@
   "header": {
     "regions": "Regions",
     "map": "Map",
+    "vtg": "VTG courses",
     "about": "About Us",
     "contact": "Contact",
     "switchLanguage": "Norsk"
@@ -27,6 +28,7 @@
     "popularCoursesTitle": "Popular golf courses",
     "allCourses": "All golf courses",
     "map": "Golf course map",
+    "vtg": "VTG courses",
     "badgeCourses": "{count} courses",
     "badgeRegions": "{count} regions",
     "trustBadge": "{courses} courses · {regions} regions",

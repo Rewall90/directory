@@ -74,6 +74,16 @@ export function Header() {
             {t("regions")}
           </Link>
           <Link
+            href="/vtg-kurs"
+            className={
+              isHomePage
+                ? "text-base font-medium text-green-100 transition-colors hover:text-yellow-400 md:text-lg"
+                : "text-base font-medium text-white transition-colors hover:text-yellow-400 md:text-lg"
+            }
+          >
+            {t("vtg")}
+          </Link>
+          <Link
             href="/about"
             className={
               isHomePage
