@@ -283,6 +283,14 @@
     "hasWaitlist": true,
     "waitlistUrl": "https://askergolf.no/medlemskap/regler-for-venteliste"
   },
+  "vtg": {
+    "offered": true,
+    "price": 1995,
+    "priceYouth": null,
+    "signupUrl": "https://askergolf.no/kurs/prov-golf-2026-vtg-nybegynnerkurs",
+    "seasonInfo": "Kurs annenhver uke mai til september",
+    "lastChecked": "2026-06-12"
+  },
   "ratings": {
     "google": {
       "rating": 4.4,

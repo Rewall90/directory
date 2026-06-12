@@ -250,6 +250,14 @@
     "waitlistNote": "Venteliste for voksne medlemmer 20+ på hovedbanen. Juniorer og korthullsbane har ledige plasser. Korthullsbanemedlemmer prioriteres ved inntak.",
     "hasWaitlist": true
   },
+  "vtg": {
+    "offered": true,
+    "price": 1795,
+    "priceYouth": null,
+    "signupUrl": "https://bmgk.no/kurs--trening/nybegynnerkurs-vtg",
+    "seasonInfo": "Kursdatoer i juni, august og september",
+    "lastChecked": "2026-06-12"
+  },
   "ratings": {
     "google": {
       "rating": 4.5,

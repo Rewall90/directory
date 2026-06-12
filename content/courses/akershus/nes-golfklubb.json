@@ -189,6 +189,14 @@
       }
     }
   },
+  "vtg": {
+    "offered": true,
+    "price": 1795,
+    "priceYouth": 990,
+    "signupUrl": "https://nesgolf.no/kurs-og-trening/nybegynnerkurs-vtg",
+    "seasonInfo": "Kurs på lørdager april til juli",
+    "lastChecked": "2026-06-12"
+  },
   "ratings": {
     "google": {
       "rating": 4.1,
