@@ -13,7 +13,8 @@
     "format:check": "prettier --check .",
     "prepare": "husky",
     "fetch-place-ids": "tsx scripts/fetch-place-ids.ts",
-    "validate:translations": "tsx scripts/validate-translations.ts"
+    "validate:translations": "tsx scripts/validate-translations.ts",
+    "validate:vtg": "tsx scripts/validate-vtg-data.ts"
   },
   "dependencies": {
     "@amcharts/amcharts5": "^5.14.3",

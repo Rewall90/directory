@@ -57,6 +57,13 @@ const RELEVANT_PAGE_KEYWORDS = [
   "cafe",
   "kafé",
   "spise",
+  // VTG / beginner courses
+  "vtg",
+  "veien til golf",
+  "nybegynner",
+  "nybegynnerkurs",
+  "golfkurs",
+  "grønt kort",
 ];
 
 async function waitForPageLoad(page: Page): Promise<void> {

@@ -71,6 +71,7 @@ Read the scraped content and extract relevant information.
 | 3        | Facilities  | drivingRange, simulator, restaurant, proShop, clubRental                     |
 | 4        | Course      | holes, par, lengthMeters, terrain                                            |
 | 5        | Description | Marketing text, history                                                      |
+| 6        | VTG         | vtg.offered, vtg.price, vtg.priceYouth, vtg.signupUrl, vtg.seasonInfo        |
 
 **Norwegian pattern recognition:**
 
@@ -85,6 +86,31 @@ Read the scraped content and extract relevant information.
 | `Simulator`, `Innendørs golf`          | Golf simulator |
 | `Golfbil`, `Golfcart`                  | Golf cart      |
 | `Tralle`, `Trolley`                    | Pull cart      |
+
+**VTG (Veien til Golf) extraction:**
+
+Look for pages/sections about beginner courses: `VTG`, `Veien til Golf`, `nybegynnerkurs`, `golfkurs`, `grønt kort`.
+
+Extract into the top-level `vtg` block (type `VtgInfo` in `src/types/course.ts`):
+
+| Field         | Type              | Notes                                                                                |
+| ------------- | ----------------- | ------------------------------------------------------------------------------------ |
+| `offered`     | `boolean \| null` | `true` if club clearly offers VTG courses, `false` if clearly not, `null` if unclear |
+| `price`       | `number \| null`  | Adult VTG course price in NOK                                                        |
+| `priceYouth`  | `number \| null`  | Junior/youth price in NOK, if listed separately                                      |
+| `signupUrl`   | `string \| null`  | URL of the club's own VTG/kurs/signup page (http(s) URL)                             |
+| `seasonInfo`  | `string \| null`  | Free text, e.g. "Kurs hver uke mai–august"                                           |
+| `lastChecked` | `string`          | Scrape date as ISO date `YYYY-MM-DD` (always set)                                    |
+
+**Rule: when unsure, write `null` — never guess.** A stale or missing value is better than an invented one. Merge like other fields: only overwrite existing vtg values with non-null scraped values, but always update `lastChecked`.
+
+After updating any `vtg` block, run the validator:
+
+```bash
+pnpm validate:vtg
+```
+
+It must pass before the session is considered done.
 
 **Phone patterns:**
 
