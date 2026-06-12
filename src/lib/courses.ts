@@ -4,6 +4,7 @@ import { cache } from "react";
 import type { Course, RegionWithCount } from "@/types/course";
 import { getCountyNameFromSlug } from "@/lib/constants/norway-regions";
 import { logger } from "@/lib/utils/logger";
+import { toVtgClub, selectVtgRegions, type VtgClub } from "@/lib/vtg";
 
 const COURSES_DIR = path.join(process.cwd(), "content/courses");
 
@@ -293,41 +294,28 @@ export const getFeaturedCourses = cache((limit = 4): PopularCourse[] => {
   return results.sort((a, b) => b.reviewCount - a.reviewCount).slice(0, limit);
 });
 
+// Re-exported from courses-utils so existing imports keep working.
+// The implementation lives there to avoid an import cycle with vtg.ts.
+export { calculateAverageRating } from "@/lib/courses-utils";
+
 /**
- * Calculate average rating from multiple rating sources
+ * All courses as VTG club entries, with their region slug.
  */
-export function calculateAverageRating(
-  ratings: Record<
-    string,
-    { rating: number | null; reviewCount: number | null; maxRating: number | null }
-  >,
-): { averageRating: number; totalReviews: number } | null {
-  const entries = Object.values(ratings).filter((r) => r.rating !== null);
-  if (entries.length === 0) return null;
-
-  let weightedScore = 0;
-  let totalReviews = 0;
-
-  for (const rating of entries) {
-    if (!rating.rating) continue;
-    const normalized = (rating.rating / (rating.maxRating || 5)) * 5;
-
-    if (rating.reviewCount && rating.reviewCount > 0) {
-      weightedScore += normalized * rating.reviewCount;
-      totalReviews += rating.reviewCount;
-    } else {
-      weightedScore += normalized;
-      totalReviews += 1;
+export const getVtgClubs = cache((): VtgClub[] => {
+  const regions = getRegions();
+  const clubs: VtgClub[] = [];
+  for (const region of regions) {
+    for (const course of getCoursesByRegion(region)) {
+      clubs.push(toVtgClub(course, region));
     }
   }
+  return clubs;
+});
 
-  if (totalReviews === 0) return null;
-
-  return {
-    averageRating: weightedScore / totalReviews,
-    totalReviews,
-  };
-}
+/**
+ * Region slugs that qualify for a /vtg-kurs/[region] page (≥3 clubs with data).
+ */
+export const getVtgRegions = cache((): string[] => selectVtgRegions(getVtgClubs()));
 
 /**
  * Lightweight course data for map display

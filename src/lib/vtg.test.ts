@@ -162,4 +162,13 @@ describe("groupClubsByRegion", () => {
       "Stavanger GK",
     ]);
   });
+
+  it("sorts Norwegian letters after Z within a group (Norwegian collation)", () => {
+    const clubs = [
+      toVtgClub(makeCourse({ name: "Ålesund Golfklubb", region: "Rogaland", vtg: null }), "r"),
+      toVtgClub(makeCourse({ name: "Ziersborg GK", region: "Rogaland", vtg: null }), "r"),
+    ];
+    const groups = groupClubsByRegion(clubs);
+    expect(groups[0].clubs.map((c) => c.name)).toEqual(["Ziersborg GK", "Ålesund Golfklubb"]);
+  });
 });

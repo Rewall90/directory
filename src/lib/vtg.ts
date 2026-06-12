@@ -1,5 +1,5 @@
 import type { Course, VtgInfo } from "@/types/course";
-import { calculateAverageRating } from "@/lib/courses";
+import { calculateAverageRating } from "@/lib/courses-utils";
 
 /** Club entry for VTG listing pages */
 export interface VtgClub {
@@ -25,6 +25,9 @@ export interface VtgClub {
 /**
  * A club's vtg data is usable when the club has confirmed it offers the course
  * AND we have at least a price or a signup link to show.
+ *
+ * Note: as a type predicate this is unsound in the negative branch — a
+ * non-usable vtg may still be a VtgInfo object.
  */
 export function hasUsableVtgData(vtg: VtgInfo | null | undefined): vtg is VtgInfo {
   if (!vtg || vtg.offered !== true) return false;
