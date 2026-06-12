@@ -13,10 +13,13 @@
 
 import fs from "fs";
 import path from "path";
+import type { VtgInfo } from "../src/types/course";
 
 const COURSES_DIR = path.join(process.cwd(), "content", "courses");
 
-const KNOWN_KEYS = new Set([
+// Typed against VtgInfo so a renamed/removed field is flagged in the editor.
+// (scripts/ is excluded from tsconfig, so `tsc --noEmit` won't catch it.)
+const KNOWN_KEYS: ReadonlySet<keyof VtgInfo> = new Set<keyof VtgInfo>([
   "offered",
   "price",
   "priceYouth",
@@ -31,6 +34,36 @@ interface ValidationError {
 }
 
 const errors: ValidationError[] = [];
+const warnings: ValidationError[] = [];
+
+/** Local YYYY-MM-DD for "today", comparable lexicographically with ISO dates. */
+function todayIsoLocal(): string {
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, "0");
+  const d = String(now.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
+/** True if value is YYYY-MM-DD AND a real calendar date (rejects 2026-99-99). */
+function isValidIsoDate(value: string): boolean {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
+  if (!match) return false;
+  const [, y, m, d] = match.map(Number);
+  const date = new Date(Date.UTC(y, m - 1, d));
+  return date.getUTCFullYear() === y && date.getUTCMonth() === m - 1 && date.getUTCDate() === d;
+}
+
+/** True if value parses as an http(s) URL with a non-empty host. */
+function isValidHttpUrl(value: string): boolean {
+  let url: URL;
+  try {
+    url = new URL(value);
+  } catch {
+    return false;
+  }
+  return (url.protocol === "http:" || url.protocol === "https:") && url.hostname.length > 0;
+}
 
 function validateVtgBlocks() {
   console.log("Validating VTG data...\n");
@@ -71,7 +104,7 @@ function validateVtgBlocks() {
       const block = vtg as Record<string, unknown>;
 
       for (const key of Object.keys(block)) {
-        if (!KNOWN_KEYS.has(key)) {
+        if (!KNOWN_KEYS.has(key as keyof VtgInfo)) {
           errors.push({ file: where, message: `vtg has unknown key: ${key}` });
         }
       }
@@ -92,19 +125,44 @@ function validateVtgBlocks() {
 
       if (
         block.signupUrl !== null &&
-        (typeof block.signupUrl !== "string" || !/^https?:\/\//.test(block.signupUrl))
+        (typeof block.signupUrl !== "string" || !isValidHttpUrl(block.signupUrl))
       ) {
-        errors.push({ file: where, message: "vtg.signupUrl must be null or an http(s) URL" });
-      }
-
-      if (block.seasonInfo !== null && typeof block.seasonInfo !== "string") {
-        errors.push({ file: where, message: "vtg.seasonInfo must be string or null" });
-      }
-
-      if (typeof block.lastChecked !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(block.lastChecked)) {
         errors.push({
           file: where,
-          message: "vtg.lastChecked must be an ISO date (YYYY-MM-DD)",
+          message: "vtg.signupUrl must be null or a valid http(s) URL with a host",
+        });
+      }
+
+      if (
+        block.seasonInfo !== null &&
+        (typeof block.seasonInfo !== "string" || block.seasonInfo.trim().length === 0)
+      ) {
+        errors.push({
+          file: where,
+          message: "vtg.seasonInfo must be null or a non-empty string",
+        });
+      }
+
+      if (typeof block.lastChecked !== "string" || !isValidIsoDate(block.lastChecked)) {
+        errors.push({
+          file: where,
+          message: "vtg.lastChecked must be a valid ISO calendar date (YYYY-MM-DD)",
+        });
+      } else if (block.lastChecked > todayIsoLocal()) {
+        errors.push({
+          file: where,
+          message: `vtg.lastChecked must not be in the future (got ${block.lastChecked})`,
+        });
+      }
+
+      // Cross-field sanity check: a club that doesn't offer VTG (or where we
+      // don't know) shouldn't have a price or signup URL — likely a confused
+      // extraction. Warning only, does not fail the run.
+      if (block.offered !== true && (block.price !== null || block.signupUrl !== null)) {
+        warnings.push({
+          file: where,
+          message:
+            "vtg.offered is not true but price/signupUrl is set — possible confused extraction",
         });
       }
     }
@@ -119,7 +177,12 @@ function main() {
   validateVtgBlocks();
 
   console.log("\n" + "=".repeat(40));
-  console.log(`\nResults: ${errors.length} errors\n`);
+  console.log(`\nResults: ${errors.length} errors, ${warnings.length} warnings\n`);
+
+  if (warnings.length > 0) {
+    console.error("WARNINGS:");
+    warnings.forEach((w) => console.error(`  ! [${w.file}] ${w.message}`));
+  }
 
   if (errors.length > 0) {
     console.log("ERRORS:");
