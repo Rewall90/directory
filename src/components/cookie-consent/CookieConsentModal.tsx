@@ -37,6 +37,7 @@ export function CookieConsentModal() {
 
   useEffect(() => {
     if (preferences) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- pre-existing pattern, predates rule adoption
       setSelectedCategories(preferences.categories);
     }
   }, [preferences]);

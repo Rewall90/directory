@@ -240,12 +240,7 @@
     "dataQuality": "excellent",
     "websiteQuality": "excellent",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjest",
-      "medlem",
-      "greenfeepriser",
-      "golfbil"
-    ],
+    "pagesScraped": ["gjest", "medlem", "greenfeepriser", "golfbil"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T12:22:39.690Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"

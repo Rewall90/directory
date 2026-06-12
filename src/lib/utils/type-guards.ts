@@ -5,7 +5,7 @@ import type { Course } from "@/types/course";
  * Ensures coordinates exist and are valid numbers
  */
 export function hasValidCoordinates(
-  course: Course
+  course: Course,
 ): course is Course & { coordinates: { lat: number; lng: number } } {
   return (
     course.coordinates != null &&

@@ -15,6 +15,7 @@
 ### Task 1: Add Vitest
 
 **Files:**
+
 - Modify: `package.json` (devDependency + script)
 - Create: `vitest.config.ts`
 
@@ -64,6 +65,7 @@ git commit -m "chore: add vitest for unit testing"
 ### Task 2: Add `vtg` field to the Course type
 
 **Files:**
+
 - Modify: `src/types/course.ts`
 
 **Step 1: Add the interface and field**
@@ -115,6 +117,7 @@ git commit -m "feat: add VtgInfo type to Course"
 The fs loaders are thin wrappers; all decision logic lives in pure functions that take `Course[]` so tests need no filesystem.
 
 **Files:**
+
 - Create: `src/lib/vtg.ts`
 - Test: `src/lib/vtg.test.ts`
 
@@ -298,6 +301,7 @@ git commit -m "feat: add pure VTG club selection logic"
 ### Task 4: Region gate logic (TDD)
 
 **Files:**
+
 - Modify: `src/lib/vtg.ts`
 - Test: `src/lib/vtg.test.ts`
 
@@ -413,6 +417,7 @@ git commit -m "feat: add VTG region gate and price-range helpers"
 ### Task 5: Cached fs loaders
 
 **Files:**
+
 - Modify: `src/lib/courses.ts`
 
 **Step 1: Add loaders (mirror existing `cache()` + fs patterns in this file)**
@@ -457,6 +462,7 @@ git commit -m "feat: add cached VTG club and region loaders"
 ### Task 6: Translations
 
 **Files:**
+
 - Modify: `messages/nb.json`, `messages/en.json`
 
 **Step 1: Add a `vtg` namespace to `messages/nb.json`**
@@ -528,6 +534,7 @@ git commit -m "feat: add vtg translation namespace"
 ### Task 7: FAQPage schema generator (TDD)
 
 **Files:**
+
 - Create: `src/lib/schema/generators/faq.ts`
 - Modify: `src/lib/schema/index.ts` (export)
 - Test: `src/lib/schema/generators/faq.test.ts`
@@ -599,6 +606,7 @@ git commit -m "feat: add FAQPage schema generator"
 ### Task 8: GA4 signup button (client component)
 
 **Files:**
+
 - Create: `src/components/vtg/VtgSignupButton.tsx`
 
 **Step 1: Implement**
@@ -663,6 +671,7 @@ git commit -m "feat: add VTG signup button with GA4 click event"
 ### Task 9: VtgClubCard component
 
 **Files:**
+
 - Create: `src/components/vtg/VtgClubCard.tsx`
 
 **Step 1: Implement (server component)**
@@ -764,6 +773,7 @@ git commit -m "feat: add VTG club card component"
 ### Task 10: Hub page `/vtg-kurs`
 
 **Files:**
+
 - Create: `src/app/[locale]/vtg-kurs/page.tsx`
 
 **Step 1: Implement**
@@ -815,6 +825,7 @@ git commit -m "feat: add VTG-kurs hub page"
 ### Task 11: Gated region pages `/vtg-kurs/[region]`
 
 **Files:**
+
 - Create: `src/app/[locale]/vtg-kurs/[region]/page.tsx`
 
 **Step 1: Implement**
@@ -862,6 +873,7 @@ git commit -m "feat: add gated VTG region pages"
 ### Task 12: Sitemap + navigation links
 
 **Files:**
+
 - Modify: `src/app/sitemap.ts`
 - Modify: `src/components/layout/Header.tsx`, `src/components/layout/Footer.tsx`
 
@@ -923,6 +935,7 @@ git commit -m "feat: add VTG pages to sitemap and navigation"
 ### Task 13: Seed initial VTG data + verify gate end-to-end
 
 **Files:**
+
 - Modify: 4+ files in `content/courses/` (verified data only)
 
 **Step 1: Seed verified clubs**
@@ -952,6 +965,7 @@ Format:
 **Step 2: Verify the gate opens**
 
 Run: `pnpm dev`
+
 - `http://localhost:3000/vtg-kurs` — seeded clubs now show prices and primary buttons, and sort first in their region; lede shows the computed price range.
 - `http://localhost:3000/vtg-kurs/akershus` — renders (if ≥3 Akershus clubs seeded).
 - `http://localhost:3000/vtg-kurs/finnmark` — still 404.
@@ -969,6 +983,7 @@ git commit -m "data: seed verified VTG data for initial clubs"
 ### Task 14: Scraper extension + data validation script
 
 **Files:**
+
 - Modify: `scripts/scrape-course.ts` (keywords)
 - Create: `scripts/validate-vtg-data.ts`
 - Modify: `package.json` (script)

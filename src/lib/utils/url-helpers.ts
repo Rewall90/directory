@@ -9,7 +9,7 @@
 export function buildCourseUrl(
   regionSlug: string,
   courseSlug: string,
-  locale: string = "nb"
+  locale: string = "nb",
 ): string {
   const localePrefix = locale === "en" ? "/en" : "";
   return `${localePrefix}/${regionSlug}/${courseSlug}`;

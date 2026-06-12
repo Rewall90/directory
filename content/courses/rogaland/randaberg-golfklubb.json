@@ -256,10 +256,7 @@
     "dataQuality": "85.0",
     "websiteQuality": null,
     "completenessPercentage": 85,
-    "pagesScraped": [
-      "https://www.randaberggolf.no/",
-      "https://www.randaberggolf.no/blimedlem"
-    ],
+    "pagesScraped": ["https://www.randaberggolf.no/", "https://www.randaberggolf.no/blimedlem"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:46:26.389Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"

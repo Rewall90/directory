@@ -10,6 +10,7 @@ export function ThemeToggle() {
     // Get theme from localStorage or default to light
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
     const initialTheme = savedTheme || "light";
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- pre-existing pattern, predates rule adoption
     setTheme(initialTheme);
     document.documentElement.setAttribute("data-theme", initialTheme);
     setMounted(true);

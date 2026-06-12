@@ -2,24 +2,26 @@
 // Keyword analysis from fresh GSC export (last 3 months, 2026-06-05).
 // Focus: (1) striking-distance opportunities, (2) page-family / fylke performance.
 
-import fs from 'node:fs';
-import path from 'node:path';
+import fs from "node:fs";
+import path from "node:path";
 
-const DIR = 'gsc-export/2026-06-05';
-const OUT = 'docs/keyword-analysis-2026-06.md';
+const DIR = "gsc-export/2026-06-05";
+const OUT = "docs/keyword-analysis-2026-06.md";
 
 const parseCsv = (file) => {
-  const text = fs.readFileSync(path.join(DIR, file), 'utf8').replace(/﻿/, '');
+  const text = fs.readFileSync(path.join(DIR, file), "utf8").replace(/﻿/, "");
   const lines = text.split(/\r?\n/).filter(Boolean);
-  const header = lines.shift().split(',');
+  const header = lines.shift().split(",");
   return lines.map((line) => {
     const cols = [];
-    let cur = '';
+    let cur = "";
     let q = false;
     for (const c of line) {
       if (c === '"') q = !q;
-      else if (c === ',' && !q) { cols.push(cur); cur = ''; }
-      else cur += c;
+      else if (c === "," && !q) {
+        cols.push(cur);
+        cur = "";
+      } else cur += c;
     }
     cols.push(cur);
     const o = {};
@@ -28,19 +30,19 @@ const parseCsv = (file) => {
   });
 };
 
-const num = (s) => Number(String(s).replace('%', ''));
+const num = (s) => Number(String(s).replace("%", ""));
 
-const queries = parseCsv('Queries.csv').map((r) => ({
-  q: r['Top queries'],
+const queries = parseCsv("Queries.csv").map((r) => ({
+  q: r["Top queries"],
   clicks: num(r.Clicks),
   imps: num(r.Impressions),
   ctr: num(r.CTR),
   pos: num(r.Position),
 }));
 
-const pages = parseCsv('Pages.csv').map((r) => ({
-  url: r['Top pages'],
-  path: new URL(r['Top pages']).pathname,
+const pages = parseCsv("Pages.csv").map((r) => ({
+  url: r["Top pages"],
+  path: new URL(r["Top pages"]).pathname,
   clicks: num(r.Clicks),
   imps: num(r.Impressions),
   ctr: num(r.CTR),
@@ -58,8 +60,26 @@ const tP = total(pages);
 
 // --- Striking distance: position 5-20, impressions >= 50 ---
 const ctrAtPos = {
-  1: 28, 2: 15, 3: 11, 4: 8, 5: 6, 6: 4.5, 7: 3.5, 8: 3, 9: 2.5, 10: 2,
-  11: 1.5, 12: 1.2, 13: 1.0, 14: 0.9, 15: 0.8, 16: 0.7, 17: 0.6, 18: 0.5, 19: 0.45, 20: 0.4,
+  1: 28,
+  2: 15,
+  3: 11,
+  4: 8,
+  5: 6,
+  6: 4.5,
+  7: 3.5,
+  8: 3,
+  9: 2.5,
+  10: 2,
+  11: 1.5,
+  12: 1.2,
+  13: 1.0,
+  14: 0.9,
+  15: 0.8,
+  16: 0.7,
+  17: 0.6,
+  18: 0.5,
+  19: 0.45,
+  20: 0.4,
 };
 const top3Ctr = ctrAtPos[3];
 
@@ -75,31 +95,49 @@ const striking = queries
 // --- Page family classification ---
 // Norwegian fylker (regions) — pages first path segment for golf course pages
 const FYLKE_SLUGS = new Set([
-  'oslo', 'viken', 'innlandet', 'vestfold', 'telemark', 'ostfold', 'akershus', 'buskerud',
-  'agder', 'rogaland', 'vestland', 'more-og-romsdal', 'trondelag', 'nordland', 'troms',
-  'finnmark', 'troms-og-finnmark', 'vestfold-og-telemark',
+  "oslo",
+  "viken",
+  "innlandet",
+  "vestfold",
+  "telemark",
+  "ostfold",
+  "akershus",
+  "buskerud",
+  "agder",
+  "rogaland",
+  "vestland",
+  "more-og-romsdal",
+  "trondelag",
+  "nordland",
+  "troms",
+  "finnmark",
+  "troms-og-finnmark",
+  "vestfold-og-telemark",
 ]);
 
 const classifyPath = (p) => {
-  if (p === '/' || p === '') return 'home (NO)';
-  if (p === '/en' || p === '/en/') return 'home (EN)';
-  if (p === '/kart' || p === '/kart/') return 'kart (NO)';
-  if (p === '/en/kart' || p === '/en/kart/') return 'kart (EN)';
-  if (p.startsWith('/blog/')) return 'blog (NO)';
-  if (p.startsWith('/en/blog/')) return 'blog (EN)';
-  if (p.startsWith('/en/')) {
-    const segs = p.replace(/^\/en\//, '').split('/').filter(Boolean);
-    if (segs.length === 1) return 'fylke pages (EN)';
-    if (segs.length === 2) return 'course pages (EN)';
-    return 'other (EN)';
+  if (p === "/" || p === "") return "home (NO)";
+  if (p === "/en" || p === "/en/") return "home (EN)";
+  if (p === "/kart" || p === "/kart/") return "kart (NO)";
+  if (p === "/en/kart" || p === "/en/kart/") return "kart (EN)";
+  if (p.startsWith("/blog/")) return "blog (NO)";
+  if (p.startsWith("/en/blog/")) return "blog (EN)";
+  if (p.startsWith("/en/")) {
+    const segs = p
+      .replace(/^\/en\//, "")
+      .split("/")
+      .filter(Boolean);
+    if (segs.length === 1) return "fylke pages (EN)";
+    if (segs.length === 2) return "course pages (EN)";
+    return "other (EN)";
   }
-  const segs = p.split('/').filter(Boolean);
+  const segs = p.split("/").filter(Boolean);
   if (segs.length === 1) {
-    if (FYLKE_SLUGS.has(segs[0])) return 'fylke pages (NO)';
-    return 'other (NO)';
+    if (FYLKE_SLUGS.has(segs[0])) return "fylke pages (NO)";
+    return "other (NO)";
   }
-  if (segs.length === 2) return 'course pages (NO)';
-  return 'other (NO)';
+  if (segs.length === 2) return "course pages (NO)";
+  return "other (NO)";
 };
 
 const families = {};
@@ -126,13 +164,14 @@ const familyRows = Object.values(families)
 // --- Fylke rollup (NO course pages + fylke hub) ---
 const fylker = {};
 for (const r of pages) {
-  if (r.path.startsWith('/en/')) continue;
-  const segs = r.path.split('/').filter(Boolean);
+  if (r.path.startsWith("/en/")) continue;
+  const segs = r.path.split("/").filter(Boolean);
   if (segs.length < 1) continue;
   if (!FYLKE_SLUGS.has(segs[0])) continue;
   if (segs.length > 2) continue;
   const f = segs[0];
-  if (!fylker[f]) fylker[f] = { fylke: f, hub: null, coursePages: 0, clicks: 0, imps: 0, ctrSum: 0, posSum: 0 };
+  if (!fylker[f])
+    fylker[f] = { fylke: f, hub: null, coursePages: 0, clicks: 0, imps: 0, ctrSum: 0, posSum: 0 };
   if (segs.length === 1) fylker[f].hub = r;
   else fylker[f].coursePages += 1;
   fylker[f].clicks += r.clicks;
@@ -165,11 +204,13 @@ const lowCtrPages = pages
   .sort((a, b) => b.imps - a.imps);
 
 // --- Dormant pages: 0 clicks, ≥100 imps ---
-const dormantPages = pages.filter((p) => p.clicks === 0 && p.imps >= 100).sort((a, b) => b.imps - a.imps);
+const dormantPages = pages
+  .filter((p) => p.clicks === 0 && p.imps >= 100)
+  .sort((a, b) => b.imps - a.imps);
 
 // --- Format helpers ---
-const pct = (n) => n.toFixed(1) + '%';
-const num0 = (n) => Math.round(n).toLocaleString('no-NO');
+const pct = (n) => n.toFixed(1) + "%";
+const num0 = (n) => Math.round(n).toLocaleString("no-NO");
 
 let md = `# Keyword analysis — golfkart.no\n\n`;
 md += `**Source:** GSC export, last 3 months (2026-03-05 → 2026-06-05). **Pulled:** 2026-06-05.\n\n`;
@@ -179,8 +220,8 @@ md += `| Metric | Value |\n|---|---|\n`;
 md += `| Total clicks (top 1000 queries) | ${num0(tQ.clicks)} |\n`;
 md += `| Total impressions (top 1000 queries) | ${num0(tQ.imps)} |\n`;
 md += `| Avg CTR | ${pct((tQ.clicks / Math.max(tQ.imps, 1)) * 100)} |\n`;
-md += `| Tracked queries | ${queries.length.toLocaleString('no-NO')} (GSC cap 1000) |\n`;
-md += `| Tracked pages | ${pages.length.toLocaleString('no-NO')} |\n\n`;
+md += `| Tracked queries | ${queries.length.toLocaleString("no-NO")} (GSC cap 1000) |\n`;
+md += `| Tracked pages | ${pages.length.toLocaleString("no-NO")} |\n\n`;
 
 md += `### Brand vs non-brand\n\n`;
 const tB = total(brand);
@@ -229,7 +270,7 @@ for (const p of dormantPages.slice(0, 30)) {
 }
 md += `\n`;
 
-fs.mkdirSync('docs', { recursive: true });
+fs.mkdirSync("docs", { recursive: true });
 fs.writeFileSync(OUT, md);
 console.log(`Wrote ${OUT} (${md.length.toLocaleString()} bytes)`);
 console.log(`- ${queries.length} queries, ${pages.length} pages`);

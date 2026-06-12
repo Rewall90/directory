@@ -22,6 +22,7 @@ export function CookieConsentProvider({ children }: CookieConsentProviderProps) 
     const storedPreferences = cookieManager.getPreferences();
 
     if (storedPreferences) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- pre-existing pattern, predates rule adoption
       setPreferences(storedPreferences);
       setShowBanner(false);
     } else {

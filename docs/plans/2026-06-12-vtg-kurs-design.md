@@ -11,13 +11,13 @@ VTG (Veien til Golf) is the mandatory beginner course every new Norwegian golfer
 
 ## Decisions made
 
-| Decision | Choice |
-|---|---|
-| Data sourcing | Scrape club websites (extend existing scraper); refresh per season |
-| Page structure | Hub + region pages, phased rollout; **no per-club VTG pages** |
-| Region page gate | Region page exists only when ≥3 clubs in the region have real VTG data |
-| Lead handling v1 | Link out to club signup pages + GA4 click tracking (no lead forms yet) |
-| Monetization v1 | "Sponset" placement (top of region, white card, discreet label), sold per season |
+| Decision         | Choice                                                                           |
+| ---------------- | -------------------------------------------------------------------------------- |
+| Data sourcing    | Scrape club websites (extend existing scraper); refresh per season               |
+| Page structure   | Hub + region pages, phased rollout; **no per-club VTG pages**                    |
+| Region page gate | Region page exists only when ≥3 clubs in the region have real VTG data           |
+| Lead handling v1 | Link out to club signup pages + GA4 click tracking (no lead forms yet)           |
+| Monetization v1  | "Sponset" placement (top of region, white card, discreet label), sold per season |
 
 ## Google policy research (why this structure)
 
@@ -56,6 +56,7 @@ vtg: {
 Scraper rule: **when unsure, write null — never guess.** A missing price is acceptable; a wrong one destroys trust.
 
 New loaders in `src/lib/courses.ts`:
+
 - `getVtgClubs()` — all courses with their vtg data (null-safe)
 - `getVtgRegions()` — regions where ≥3 clubs have `offered: true` and (price or signupUrl)
 

@@ -236,13 +236,7 @@
     "dataQuality": "excellent",
     "websiteQuality": "good",
     "completenessPercentage": 95,
-    "pagesScraped": [
-      "gjester",
-      "greenfee",
-      "utleie",
-      "medlemmer",
-      "kontakt"
-    ],
+    "pagesScraped": ["gjester", "greenfee", "utleie", "medlemmer", "kontakt"],
     "scrapedAt": "2026-02-15T12:00:00.000Z",
     "createdAt": "2025-10-31T07:18:10.893Z",
     "updatedAt": "2026-02-15T12:00:00.000Z"

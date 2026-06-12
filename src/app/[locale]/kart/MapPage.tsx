@@ -38,6 +38,7 @@ export function MapPage({ courses, locale }: MapPageProps) {
   // Update map center and zoom when a course is selected
   useEffect(() => {
     if (selectedCourse) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- pre-existing pattern, predates rule adoption
       setMapCenter([selectedCourse.coordinates.lat, selectedCourse.coordinates.lng]);
       setMapZoom(MAP_CONFIG.DETAIL_ZOOM);
     }

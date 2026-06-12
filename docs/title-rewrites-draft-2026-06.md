@@ -15,6 +15,7 @@
 **Performance:** 7 091 imps · 20 clicks · 0.28% CTR · pos 6.5
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -36,6 +37,7 @@
 **Performance:** 3 002 imps · 8 clicks · 0.27% CTR · pos 8.0
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -57,6 +59,7 @@
 **Performance:** 2 435 imps · 1 clicks · 0.04% CTR · pos 7.3
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `haga golf` — 1122 imps, 1 clicks, 0.1% CTR, pos 7.2
@@ -78,6 +81,7 @@
 **Performance:** 2 246 imps · 2 clicks · 0.09% CTR · pos 7.8
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `losby golf` — 1378 imps, 1 clicks, 0.1% CTR, pos 7.8
@@ -99,6 +103,7 @@
 **Performance:** 2 325 imps · 9 clicks · 0.39% CTR · pos 6.5
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `solum golf` — 988 imps, 4 clicks, 0.4% CTR, pos 6.1
@@ -120,6 +125,7 @@
 **Performance:** 1 869 imps · 7 clicks · 0.37% CTR · pos 9.4
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -141,6 +147,7 @@
 **Performance:** 1 433 imps · 1 clicks · 0.07% CTR · pos 7.4
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -162,6 +169,7 @@
 **Performance:** 1 272 imps · 1 clicks · 0.08% CTR · pos 8.3
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -183,6 +191,7 @@
 **Performance:** 1 436 imps · 6 clicks · 0.42% CTR · pos 8.2
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -204,6 +213,7 @@
 **Performance:** 1 073 imps · 0 clicks · 0.00% CTR · pos 8.2
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -225,6 +235,7 @@
 **Performance:** 1 126 imps · 2 clicks · 0.18% CTR · pos 7.9
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -246,6 +257,7 @@
 **Performance:** 1 523 imps · 12 clicks · 0.79% CTR · pos 7.8
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -267,6 +279,7 @@
 **Performance:** 1 171 imps · 5 clicks · 0.43% CTR · pos 7.2
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -288,6 +301,7 @@
 **Performance:** 1 154 imps · 5 clicks · 0.43% CTR · pos 7.4
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -309,6 +323,7 @@
 **Performance:** 952 imps · 1 clicks · 0.11% CTR · pos 8.8
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -330,6 +345,7 @@
 **Performance:** 1 178 imps · 7 clicks · 0.59% CTR · pos 7.7
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -351,6 +367,7 @@
 **Performance:** 893 imps · 1 clicks · 0.11% CTR · pos 13.6
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -372,6 +389,7 @@
 **Performance:** 1 113 imps · 8 clicks · 0.72% CTR · pos 7.4
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -393,6 +411,7 @@
 **Performance:** 983 imps · 5 clicks · 0.51% CTR · pos 10.0
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -414,6 +433,7 @@
 **Performance:** 1 041 imps · 7 clicks · 0.67% CTR · pos 7.4
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -435,6 +455,7 @@
 **Performance:** 992 imps · 6 clicks · 0.60% CTR · pos 6.4
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -456,6 +477,7 @@
 **Performance:** 751 imps · 1 clicks · 0.13% CTR · pos 7.8
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -477,6 +499,7 @@
 **Performance:** 735 imps · 1 clicks · 0.14% CTR · pos 7.8
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -498,6 +521,7 @@
 **Performance:** 915 imps · 6 clicks · 0.66% CTR · pos 9.1
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -519,6 +543,7 @@
 **Performance:** 754 imps · 3 clicks · 0.40% CTR · pos 8.5
 
 **Top landing queries (heuristic match by name tokens):**
+
 - `sola golfklubb` — 3595 imps, 3 clicks, 0.1% CTR, pos 6.0
 - `ålesund golfklubb` — 1551 imps, 3 clicks, 0.2% CTR, pos 6.9
 - `bergen golfklubb` — 961 imps, 1 clicks, 0.1% CTR, pos 7.1
@@ -534,4 +559,3 @@
 **Proposed meta:** 9-hulls bane (par 67) i Lommedalen grunnlagt 2003. Se baneinfo, omtaler og kontakt. _(83 chars)_
 
 ---
-

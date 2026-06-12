@@ -9,7 +9,7 @@
 export function getLocalizedName(
   name: string,
   nameEn: string | null | undefined,
-  locale: string
+  locale: string,
 ): string {
   if (locale === "en" && nameEn) {
     return nameEn;
@@ -24,7 +24,7 @@ export function getLocalizedName(
 export function getLocalizedSlug(
   slug: string,
   slugEn: string | null | undefined,
-  locale: string
+  locale: string,
 ): string {
   if (locale === "en" && slugEn) {
     return slugEn;

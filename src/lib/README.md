@@ -30,20 +30,24 @@ Main API for loading golf course data from JSON files.
 #### Key Functions
 
 **`getAllCourses(): Course[]`**
+
 - Loads all 168 courses from JSON files
 - Cached with React's `cache()` for performance
 - Returns full course data structure
 
 **`getCourse(slug: string): Course | null`**
+
 - Load a single course by slug (Norwegian or English)
 - Supports both filename lookup and `slug_en` field search
 - Returns `null` if not found
 
 **`getCoursesByRegion(regionSlug: string): Course[]`**
+
 - Load all courses in a specific region (e.g., "oslo", "rogaland")
 - Returns empty array if region doesn't exist
 
 **`getAllCoursesForMap(): MapCourse[]`**
+
 - Optimized for map display (simplified data structure)
 - Only includes courses with valid coordinates
 - Includes current pricing and ratings
@@ -110,7 +114,7 @@ error: (message: string, error?: unknown) => {
       tags: { message },
     });
   }
-}
+};
 ```
 
 ---
@@ -164,11 +168,7 @@ if (isValidNumber(value)) {
 Handle Norwegian/English content gracefully.
 
 ```typescript
-import {
-  getLocalizedName,
-  getLocalizedSlug,
-  isEnglishLocale,
-} from "@/lib/utils/locale-helpers";
+import { getLocalizedName, getLocalizedSlug, isEnglishLocale } from "@/lib/utils/locale-helpers";
 
 // Get localized course name
 const name = getLocalizedName(course.name, course.name_en, locale);
@@ -218,24 +218,24 @@ All map-related constants in one place.
 import { MAP_CONFIG, TILE_CONFIG, MAP_UI_CONFIG } from "@/lib/constants/map-config";
 
 // Zoom levels
-MAP_CONFIG.NORWAY_CENTER;     // [65, 13]
-MAP_CONFIG.INITIAL_ZOOM;      // 5
-MAP_CONFIG.DETAIL_ZOOM;       // 13
-MAP_CONFIG.MIN_ZOOM;          // 3
-MAP_CONFIG.MAX_ZOOM;          // 18
+MAP_CONFIG.NORWAY_CENTER; // [65, 13]
+MAP_CONFIG.INITIAL_ZOOM; // 5
+MAP_CONFIG.DETAIL_ZOOM; // 13
+MAP_CONFIG.MIN_ZOOM; // 3
+MAP_CONFIG.MAX_ZOOM; // 18
 
 // Clustering
-MAP_CONFIG.CLUSTER.MAX_RADIUS;        // 80 pixels
-MAP_CONFIG.CLUSTER.DISABLE_AT_ZOOM;   // 13
+MAP_CONFIG.CLUSTER.MAX_RADIUS; // 80 pixels
+MAP_CONFIG.CLUSTER.DISABLE_AT_ZOOM; // 13
 
 // Tile layer
-TILE_CONFIG.URL;              // CartoDB Voyager tiles
-TILE_CONFIG.ATTRIBUTION;      // OpenStreetMap + CARTO
-TILE_CONFIG.MAX_ZOOM;         // 20
+TILE_CONFIG.URL; // CartoDB Voyager tiles
+TILE_CONFIG.ATTRIBUTION; // OpenStreetMap + CARTO
+TILE_CONFIG.MAX_ZOOM; // 20
 
 // UI constants
-MAP_UI_CONFIG.COORDINATE_PRECISION;   // 4 decimal places
-MAP_UI_CONFIG.CONTROLS_Z_INDEX;       // 1000
+MAP_UI_CONFIG.COORDINATE_PRECISION; // 4 decimal places
+MAP_UI_CONFIG.CONTROLS_Z_INDEX; // 1000
 ```
 
 ---
@@ -316,8 +316,8 @@ Use optimized utilities when processing arrays:
 
 ```typescript
 // ❌ Don't (O(2n))
-const regions = Array.from(new Set(courses.map(c => c.region)));
-const cities = Array.from(new Set(courses.map(c => c.city)));
+const regions = Array.from(new Set(courses.map((c) => c.region)));
+const cities = Array.from(new Set(courses.map((c) => c.city)));
 
 // ✅ Do (O(n))
 import { extractFilterOptions } from "@/lib/utils/map-filters";
@@ -413,6 +413,7 @@ When adding new utilities:
 ## Questions?
 
 For more details, see:
+
 - `src/types/course.ts` - Full Course type definition
 - `content/courses/` - Course JSON file structure
 - `CLAUDE.md` - Project architecture overview

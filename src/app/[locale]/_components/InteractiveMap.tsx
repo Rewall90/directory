@@ -134,6 +134,7 @@ export function InteractiveMap({ regions, onRegionClick, className, locale }: In
     polygonSeries.data.setAll(polygonData);
 
     // Map is loaded
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- pre-existing pattern, predates rule adoption
     setIsLoading(false);
 
     // Cleanup function
