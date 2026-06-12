@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mockup: VTG-kurs — golfkart.no</title>
+<style>
+  :root {
+    --bg-base: oklch(0.98 0.005 160);
+    --bg-surface: oklch(0.96 0.006 160);
+    --text-primary: oklch(0.2 0.002 0);
+    --text-secondary: oklch(0.4 0.002 0);
+    --text-tertiary: oklch(0.55 0.002 0);
+    --border-default: oklch(0.82 0.01 160);
+    --primary-dark: oklch(0.35 0.14 155);
+    --primary: oklch(0.48 0.16 155);
+    --primary-light: oklch(0.58 0.14 155);
+    --primary-lighter: oklch(0.88 0.08 155);
+    --primary-content: oklch(0.98 0.02 155);
+    --accent: oklch(0.68 0.18 40);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg-base); color: var(--text-primary); line-height:1.6; }
+  a { color: var(--primary); }
+  .container { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+
+  .mockup-label { background:#2b2b2b; color:#ddd; padding:8px 20px; font-size:12px; }
+  .mockup-label b { color:#fff; }
+  .page-divider { background:#2b2b2b; color:#ddd; padding:16px 20px; text-align:center; font-size:13px; margin-top:60px; }
+  .note { border:1px dashed var(--border-default); background:#fff; color:var(--text-tertiary); font-size:12.5px; padding:8px 14px; margin:18px 0; }
+
+  header.site { background:#fff; border-bottom:1px solid var(--border-default); }
+  header.site .container { display:flex; align-items:center; justify-content:space-between; height:58px; }
+  .logo { font-weight:700; font-size:19px; color:var(--primary-dark); text-decoration:none; }
+  nav.main a { margin-left:20px; text-decoration:none; color:var(--text-secondary); font-size:14.5px; }
+  nav.main a.active { color:var(--primary); font-weight:600; }
+
+  .breadcrumbs { font-size:13px; color:var(--text-tertiary); padding:16px 0 0; }
+  .breadcrumbs a { color:var(--text-tertiary); }
+
+  h1 { font-size:28px; line-height:1.25; margin:18px 0 10px; }
+  .lede { font-size:16px; color:var(--text-secondary); max-width:44em; margin-bottom:6px; }
+
+  article.intro { max-width:44em; margin:26px 0 34px; font-size:15px; color:var(--text-secondary); }
+  article.intro h2 { font-size:19px; color:var(--text-primary); margin:22px 0 6px; }
+  article.intro p { margin-bottom:10px; }
+  article.intro ol { margin:6px 0 10px 22px; }
+  article.intro li { margin-bottom:4px; }
+
+  .region-index { font-size:14.5px; color:var(--text-secondary); max-width:44em; margin-bottom:30px; }
+  .region-index a { white-space:nowrap; }
+
+  h2.region { font-size:20px; margin:30px 0 4px; }
+  h2.region a { font-size:13.5px; font-weight:normal; margin-left:8px; }
+  .region-sub { font-size:13.5px; color:var(--text-tertiary); margin-bottom:12px; }
+
+  .club { display:block; background:var(--bg-surface); border:1px solid var(--border-default); border-radius:8px; padding:18px 22px; margin-bottom:10px; box-shadow:0 1px 2px rgba(0,0,0,.04); }
+  .club .row { display:flex; justify-content:space-between; gap:18px; align-items:flex-start; }
+  .club h3 { font-size:17px; font-weight:600; margin-bottom:2px; }
+  .club h3 a { color:var(--text-primary); text-decoration:none; }
+  .club h3 a:hover { color:var(--primary); }
+  .club .addr { font-size:13.5px; color:var(--text-secondary); }
+  .club .meta { font-size:13.5px; color:var(--text-secondary); margin-top:4px; }
+  .club .stars { color:var(--accent); }
+  .right { text-align:right; flex-shrink:0; }
+  .right .price { font-size:16px; font-weight:600; }
+  .right .pricesub { font-size:12.5px; color:var(--text-tertiary); }
+  .btn { display:inline-block; margin-top:8px; background:var(--primary); color:var(--primary-content); padding:8px 16px; border-radius:6px; font-size:13.5px; font-weight:600; text-decoration:none; }
+  .btn:hover { background:var(--primary-dark); }
+  .btn.secondary { background:transparent; color:var(--primary); border:1px solid var(--border-default); font-weight:500; }
+  .sponsored-tag { font-size:11px; text-transform:uppercase; letter-spacing:.7px; color:var(--text-tertiary); margin-bottom:4px; }
+  .club.sponsored { background:#fff; border-color:var(--primary-light); }
+
+  section.faq { max-width:44em; margin:40px 0; }
+  section.faq h2 { font-size:20px; margin-bottom:12px; }
+  section.faq h3 { font-size:15.5px; margin:16px 0 4px; }
+  section.faq p { font-size:14.5px; color:var(--text-secondary); }
+
+  .updated-note { font-size:12.5px; color:var(--text-tertiary); margin:34px 0 50px; }
+
+  footer.site { background:var(--primary-dark); color:var(--primary-content); padding:26px 0; margin-top:40px; font-size:13.5px; }
+
+  .nearby { font-size:14.5px; color:var(--text-secondary); max-width:44em; margin:4px 0 24px; }
+
+  @media (max-width:640px){ .club .row { flex-direction:column; } .right { text-align:left; } }
+</style>
+</head>
+<body>
+
+<div class="mockup-label">Mockup 1/2 — <b>golfkart.no/vtg-kurs</b> (hub, fase 1)</div>
+
+<header class="site">
+  <div class="container">
+    <a class="logo" href="#">golfkart.no</a>
+    <nav class="main">
+      <a href="#">Baner</a>
+      <a href="#">Kart</a>
+      <a href="#" class="active">VTG-kurs</a>
+      <a href="#">Blogg</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <div class="breadcrumbs"><a href="#">Hjem</a> / VTG-kurs</div>
+
+  <h1>VTG-kurs i Norge</h1>
+  <p class="lede">Veien til Golf er nybegynnerkurset du må ta for å spille på norske golfbaner. Under finner du kursene hos 168 klubber over hele landet, med priser og påmelding. Prisene i 2026 ligger mellom 995 og 1 795 kr.</p>
+
+  <article class="intro">
+    <h2>Slik fungerer Veien til Golf</h2>
+    <p>Kurset er Norges Golfforbunds opplæringsprogram og består av tre deler:</p>
+    <ol>
+      <li><strong>E-læring</strong> – teoridelen tar du hjemme, og den må være fullført før praksiskurset.</li>
+      <li><strong>Praktisk kurs</strong> – rundt 5 timer på klubben med grunnteknikk, slag og regler.</li>
+      <li><strong>Banespill</strong> – du spiller noen runder på banen, ofte sammen med en fadder fra klubben.</li>
+    </ol>
+    <p>Det er ingen eksamen lenger. Når du er ferdig får du golfkort og kan spille på alle baner i Norge. De fleste klubber låner ut utstyr under kurset, så du trenger ikke kjøpe noe før du vet om golf er noe for deg.</p>
+  </article>
+
+  <div class="note">Mockup-notat: introen skrives én gang for hånd. Prisspennet i ingressen regnes ut fra kursdataene og oppdaterer seg selv.</div>
+
+  <p class="region-index">
+    <strong>Hopp til fylke:</strong>
+    <a href="#region-page">Akershus (25)</a> ·
+    <a href="#">Vestland (19)</a> ·
+    <a href="#">Trøndelag (15)</a> ·
+    <a href="#">Rogaland (14)</a> ·
+    <a href="#">Møre og Romsdal (13)</a> ·
+    <a href="#">Østfold (12)</a> ·
+    <a href="#">Vestfold (11)</a> ·
+    <a href="#">Buskerud (11)</a> ·
+    <a href="#">Nordland (10)</a> ·
+    <a href="#">Innlandet (10)</a> ·
+    <a href="#">Agder (8)</a> ·
+    <a href="#">Telemark (6)</a> ·
+    <a href="#">Finnmark (5)</a> ·
+    <a href="#">Oslo (3)</a> ·
+    <a href="#">Troms (3)</a>
+  </p>
+
+  <h2 class="region">Rogaland <a href="#region-page">Egen side for Rogaland</a></h2>
+  <p class="region-sub">6 klubber med VTG-kurs, priser fra 995 kr</p>
+
+  <div class="club sponsored">
+    <div class="sponsored-tag">Sponset</div>
+    <div class="row">
+      <div>
+        <h3><a href="#">Jæren Golfklubb</a></h3>
+        <div class="addr">Bryne, Rogaland</div>
+        <div class="meta"><span class="stars">★</span> 4,5 (212 anmeldelser) · Kurs hver uke mai–august</div>
+      </div>
+      <div class="right">
+        <div class="price">1 295 kr</div>
+        <div class="pricesub">Ungdom 795 kr</div>
+        <a class="btn" href="#">Meld deg på</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="club">
+    <div class="row">
+      <div>
+        <h3><a href="#">Haugesund Golfklubb</a></h3>
+        <div class="addr">Kolnes, Rogaland</div>
+        <div class="meta"><span class="stars">★</span> 4,4 (180 anmeldelser) · Helgekurs juni–august</div>
+      </div>
+      <div class="right">
+        <div class="price">1 195 kr</div>
+        <div class="pricesub">Inkluderer e-læring</div>
+        <a class="btn" href="#">Meld deg på</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="club">
+    <div class="row">
+      <div>
+        <h3><a href="#">Egersund Golfklubb</a></h3>
+        <div class="addr">Hellvik, Rogaland</div>
+        <div class="meta"><span class="stars">★</span> 4,6 (95 anmeldelser)</div>
+      </div>
+      <div class="right">
+        <div class="price">995 kr</div>
+        <div class="pricesub">Ungdom 595 kr</div>
+        <a class="btn" href="#">Meld deg på</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="club">
+    <div class="row">
+      <div>
+        <h3><a href="#">Karmøy Golfklubb</a></h3>
+        <div class="addr">Skudeneshavn, Rogaland</div>
+        <div class="meta">Klubben oppgir ikke pris på nett – se kurssiden deres</div>
+      </div>
+      <div class="right">
+        <a class="btn secondary" href="#">Klubbens kursside</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">Mockup-notat: «Sponset»-kortet (hvit bakgrunn, diskré merking, øverst i sitt fylke) er det klubbene betaler for. «Meld deg på» sender GA4-eventet vtg_signup_click med klubb og fylke. Klubber uten skrapte data listes likevel, uten pris.</div>
+
+  <h2 class="region">Oslo</h2>
+  <p class="region-sub">3 klubber med VTG-kurs</p>
+
+  <div class="club">
+    <div class="row">
+      <div>
+        <h3><a href="#">Oslo Golfklubb</a></h3>
+        <div class="addr">Bogstad, Oslo</div>
+        <div class="meta"><span class="stars">★</span> 4,7 (450 anmeldelser)</div>
+      </div>
+      <div class="right">
+        <div class="price">1 795 kr</div>
+        <div class="pricesub">Ungdom 990 kr</div>
+        <a class="btn" href="#">Meld deg på</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="club">
+    <div class="row">
+      <div>
+        <h3><a href="#">Grønmo Golfklubb</a></h3>
+        <div class="addr">Oslo</div>
+        <div class="meta"><span class="stars">★</span> 4,3 (310 anmeldelser) · Utstyr inkludert</div>
+      </div>
+      <div class="right">
+        <div class="price">1 495 kr</div>
+        <a class="btn" href="#">Meld deg på</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="faq">
+    <h2>Vanlige spørsmål</h2>
+    <h3>Hva koster et VTG-kurs?</h3>
+    <p>Mellom 995 og 1 795 kr hos klubbene i denne oversikten (2026). Mange klubber har lavere pris for barn og ungdom, og noen inkluderer medlemskap det første året.</p>
+    <h3>Må jeg være medlem av en golfklubb?</h3>
+    <p>Ja. For å få golfkort må du være medlem i en klubb tilknyttet Norges Golfforbund. Mange klubber tilbyr rabattert førsteårsmedlemskap sammen med kurset.</p>
+    <h3>Hvor lang tid tar kurset?</h3>
+    <p>E-læringen tar et par timer hjemme. Praksisdelen er rundt 5 timer, ofte fordelt på to eller tre økter. Banespillet avtaler du med klubben etterpå.</p>
+    <h3>Er det eksamen?</h3>
+    <p>Nei. Den gamle grønt kort-prøven er fjernet. Du fullfører e-læring, praksiskurs og banespill, og er klar til å spille.</p>
+  </section>
+
+  <p class="updated-note">Priser og kursinfo er hentet fra klubbenes egne nettsider. Sist oppdatert juni 2026. Funnet en feil? <a href="#">Si ifra her.</a></p>
+</div>
+
+<footer class="site"><div class="container">golfkart.no – kart, info og brukeranmeldelser for norske golfbaner</div></footer>
+
+<div class="page-divider" id="region-page">Mockup 2/2 — <b style="color:#fff">golfkart.no/vtg-kurs/rogaland</b> (fylkesside, fase 2 — lages når minst 3 klubber i fylket har kursdata)</div>
+
+<header class="site">
+  <div class="container">
+    <a class="logo" href="#">golfkart.no</a>
+    <nav class="main">
+      <a href="#">Baner</a>
+      <a href="#">Kart</a>
+      <a href="#" class="active">VTG-kurs</a>
+      <a href="#">Blogg</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <div class="breadcrumbs"><a href="#">Hjem</a> / <a href="#">VTG-kurs</a> / Rogaland</div>
+
+  <h1>Golfkurs i Rogaland</h1>
+  <p class="lede">Seks klubber i Rogaland tilbyr Veien til Golf-kurs, med priser fra 995 til 1 295 kr. Bor du i Stavanger er Stavanger Golfklubb og Sola Golfklubb nærmest. Fra Haugesund er det rundt ti minutter til banen på Kolnes.</p>
+  <p class="nearby">Alle klubbene under har egen baneomtale på golfkart.no med anmeldelser, banefakta og veibeskrivelse.</p>
+
+  <div class="note">Mockup-notat: ingressen genereres fra ekte data (avstander fra koordinater, priser, byer), så hver fylkesside får genuint ulikt innhold. Det er dette som gjør at sidene ikke regnes som doorway pages av Google.</div>
+
+  <div class="club sponsored">
+    <div class="sponsored-tag">Sponset</div>
+    <div class="row">
+      <div>
+        <h3><a href="#">Jæren Golfklubb</a></h3>
+        <div class="addr">Bryne, Rogaland</div>
+        <div class="meta"><span class="stars">★</span> 4,5 (212 anmeldelser) · Kurs hver uke mai–august · Neste ledige kurs 22. juni</div>
+      </div>
+      <div class="right">
+        <div class="price">1 295 kr</div>
+        <div class="pricesub">Ungdom 795 kr</div>
+        <a class="btn" href="#">Meld deg på</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="club">
+    <div class="row">
+      <div>
+        <h3><a href="#">Haugesund Golfklubb</a></h3>
+        <div class="addr">Kolnes, Rogaland</div>
+        <div class="meta"><span class="stars">★</span> 4,4 (180 anmeldelser) · Helgekurs juni–august</div>
+      </div>
+      <div class="right">
+        <div class="price">1 195 kr</div>
+        <div class="pricesub">Inkluderer e-læring</div>
+        <a class="btn" href="#">Meld deg på</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="club">
+    <div class="row">
+      <div>
+        <h3><a href="#">Egersund Golfklubb</a></h3>
+        <div class="addr">Hellvik, Rogaland</div>
+        <div class="meta"><span class="stars">★</span> 4,6 (95 anmeldelser) · Kurs settes opp ved behov</div>
+      </div>
+      <div class="right">
+        <div class="price">995 kr</div>
+        <div class="pricesub">Ungdom 595 kr</div>
+        <a class="btn" href="#">Meld deg på</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="updated-note">Priser hentet fra klubbenes nettsider, sist oppdatert juni 2026.</p>
+</div>
+
+<footer class="site"><div class="container">golfkart.no – kart, info og brukeranmeldelser for norske golfbaner</div></footer>
+
+</body>
+</html>
