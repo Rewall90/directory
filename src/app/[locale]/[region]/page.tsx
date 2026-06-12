@@ -5,7 +5,11 @@ import { Link } from "@/i18n/navigation";
 import { getCoursesByRegion, getRegions } from "@/lib/courses";
 import type { Course } from "@/types/course";
 import { CourseCard } from "@/components/courses/CourseCard";
-import { getCountyNameFromSlug, toRegionSlug } from "@/lib/constants/norway-regions";
+import {
+  getCountyNameFromSlug,
+  toRegionSlug,
+  LEGACY_REGION_NAMES,
+} from "@/lib/constants/norway-regions";
 import { getRegionPageSchemas, JsonLdMultiple } from "@/lib/schema";
 import { routing } from "@/i18n/routing";
 
@@ -14,12 +18,6 @@ type Props = {
     locale: string;
     region: string;
   }>;
-};
-
-const LEGACY_REGION_NAMES: Record<string, string> = {
-  "vestfold-og-telemark": "Vestfold og Telemark",
-  "troms-og-finnmark": "Troms og Finnmark",
-  viken: "Viken",
 };
 
 function resolveDisplayName(slug: string): string {

@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { cache } from "react";
 import type { Course, RegionWithCount } from "@/types/course";
-import { getCountyNameFromSlug } from "@/lib/constants/norway-regions";
+import { getCountyNameFromSlug, LEGACY_REGION_NAMES } from "@/lib/constants/norway-regions";
 import { logger } from "@/lib/utils/logger";
 import { toVtgClub, selectVtgRegions, type VtgClub } from "@/lib/vtg";
 
@@ -132,7 +132,7 @@ export const getRegionsWithCounts = cache((): RegionWithCount[] => {
     .map((slug) => {
       const regionDir = path.join(COURSES_DIR, slug);
       const count = fs.readdirSync(regionDir).filter((f) => f.endsWith(".json")).length;
-      const name = getCountyNameFromSlug(slug) || slug;
+      const name = getCountyNameFromSlug(slug) || LEGACY_REGION_NAMES[slug] || slug;
       return { name, slug, count };
     })
     .sort((a, b) => a.name.localeCompare(b.name, "no"));
