@@ -21,7 +21,7 @@ export function VtgSignupButton({ href, clubSlug, region, label, variant = "prim
   const className =
     variant === "primary"
       ? "inline-block rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-content hover:bg-primary-dark"
-      : "inline-block rounded-md border border-border-default px-4 py-2 text-sm text-primary hover:border-primary";
+      : "inline-block rounded-md border border-border px-4 py-2 text-sm text-primary hover:border-primary";
 
   return (
     <a
