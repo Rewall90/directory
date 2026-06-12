@@ -7,11 +7,15 @@
   "municipality": "Porsanger",
   "country": "Norway",
   "address": {
-    "street": "9711 Lakselv",
-    "postalCode": "9711",
+    "street": "Flyplassveien",
+    "postalCode": "9700",
     "area": "Banak"
   },
-  "coordinates": null,
+  "coordinates": {
+    "lat": 70.0646,
+    "lng": 24.9872,
+    "accuracy": null
+  },
   "course": {
     "holes": 9,
     "holesPlayed": 18,
@@ -68,7 +72,7 @@
   },
   "organization": {
     "courseCompany": "Banak Links Golfpark",
-    "clubOrganization": "North Cape Golf Club (Grunnlagt 1997)"
+    "clubOrganization": "North Cape Golf Club (Organisasjonsnummer: 981 261 313, Grunnlagt 7. juli 1997)"
   },
   "facilities": {
     "drivingRange": true,
@@ -227,7 +231,16 @@
       "par": 36
     }
   ],
-  "nearbyCourses": [],
+  "nearbyCourses": [
+    {
+      "slug": "alta-golfklubb",
+      "distanceKm": 73.9
+    },
+    {
+      "slug": "varanger-golfklubb",
+      "distanceKm": 166.2
+    }
+  ],
   "additionalFeatures": [
     {
       "feature": "Verdens nordligste linksbane",
@@ -267,13 +280,51 @@
   "meta": {
     "dataQuality": "good",
     "websiteQuality": "good",
-    "completenessPercentage": 90,
-    "pagesScraped": ["homepage", "gjest", "greenfee", "medlemskap"],
-    "scrapedAt": "2026-02-15T12:00:00.000Z",
+    "completenessPercentage": 92,
+    "pagesScraped": [
+      "homepage",
+      "banak-links",
+      "klubben",
+      "kontakt",
+      "gjest",
+      "greenfee",
+      "medlemskap"
+    ],
+    "scrapedAt": "2026-06-12T12:00:00.000Z",
     "createdAt": "2025-10-30T10:55:19.086Z",
-    "updatedAt": "2026-02-15T12:00:00.000Z"
+    "updatedAt": "2026-06-12T12:00:00.000Z"
   },
   "slug_en": "north-cape-golf-club",
   "name_en": "North Cape Golf Club",
-  "description_en": "North Cape Golf Club - the world's most northerly links course!\n\nBanak Links Golf Park is beautifully situated in a sand dune landscape by the sea, east of Lakselv Airport (Banak) at 70 degrees north.\n\n9-hole authentic links course with par 36. Length: Yellow tee 2,800m, Blue tee 2,469m, Red tee 2,205m.\n\nThe club was founded on 7 July 1997 as Finnmark's first golf club. The current course opened on 13 August 2010.\n\nPlay golf under the midnight sun on the world's most northerly links course - a unique experience in true Scottish links tradition."
+  "description_en": "North Cape Golf Club - the world's most northerly links course!\n\nBanak Links Golf Park is beautifully situated in a sand dune landscape by the sea, east of Lakselv Airport (Banak) at 70 degrees north.\n\n9-hole authentic links course with par 36. Length: Yellow tee 2,800m, Blue tee 2,469m, Red tee 2,205m.\n\nThe club was founded on 7 July 1997 as Finnmark's first golf club. The current course opened on 13 August 2010.\n\nPlay golf under the midnight sun on the world's most northerly links course - a unique experience in true Scottish links tradition.",
+  "images": [
+    {
+      "src": "/courses/north-cape-golf-club/north-cape-golf-club-banak-links-hull-6-flyfoto.webp",
+      "alt": "Flyfoto av Banak Links - hull 6 og klubbhuset langs Porsangerfjorden ved Lakselv",
+      "alt_en": "Aerial view of Banak Links - hole 6 and the clubhouse along the Porsanger fjord at Lakselv",
+      "credit": "North Cape Golf Club",
+      "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoMAAcAA8BgJagC7AEOgj80PAAA+p9R7z1beWcZtC/gPoheVNvHDfldyJkGi+F8IAA="
+    },
+    {
+      "src": "/courses/north-cape-golf-club/north-cape-golf-club-klubbhus-porsangerfjorden.webp",
+      "alt": "Flyfoto av klubbhuset og linksbanen ved Banak Links med Porsangerfjorden",
+      "alt_en": "Aerial view of the clubhouse and links course at Banak Links with the Porsanger fjord",
+      "credit": "North Cape Golf Club",
+      "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoMAAcAA8BgJbACdAEQFLvW7YAA/gTRT2PHO2sYYM3OLwkbmABarlpF8SqMynrGQJFRJDC48EaLrGAAAAA="
+    },
+    {
+      "src": "/courses/north-cape-golf-club/north-cape-golf-club-green-finnmarksvidda.webp",
+      "alt": "Green ved Banak Links med gult flagg og Finnmarks fjellandskap i bakgrunnen",
+      "alt_en": "Green at Banak Links with a yellow pin flag and the Finnmark mountain landscape in the background",
+      "credit": "North Cape Golf Club",
+      "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoMAAcAA8BgJagCdAEOeCwAAPffKZp1b2JfjdpKWtrpZW1qDD7+5Z7wtIAAAA=="
+    },
+    {
+      "src": "/courses/north-cape-golf-club/north-cape-golf-club-anno-1997-midnattssol.webp",
+      "alt": "Banner med North Cape Golf Club Anno 1997-logo foran linksbanen under midnattssolen",
+      "alt_en": "North Cape Golf Club Anno 1997 banner in front of the links course under the midnight sun",
+      "credit": "North Cape Golf Club",
+      "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoMAAcAA8BgJagCw7EQzT6c1csAAP7YH5ehvnbS2i9ctzQkgPUN+48KbgNmbYcvq/476XMEYljdNxxSxoAAAA="
+    }
+  ]
 }

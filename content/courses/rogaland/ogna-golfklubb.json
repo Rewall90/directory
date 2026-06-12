@@ -83,7 +83,7 @@
     "chippingArea": true,
     "practiceBunker": true,
     "clubhouse": true,
-    "clubhouseName": null,
+    "clubhouseName": "Jæren Sparebank Golf Arena",
     "proShop": true,
     "restaurant": true,
     "restaurantName": "Kafé i klubbhus",
@@ -273,5 +273,34 @@
   "slug_en": "ogna-golf-club",
   "name_en": "Ogna Golf Club",
   "description_en": "Ogna Golf Club is a 9-hole parkland course on Jaeren, opened on 21 June 2003. The course is situated between Ogna Camping and Ogna centre along county road 44. Par 35 for 9 holes, par 70 when played twice. Set in the varied cultural landscape of Jaeren with good wind exposure. The landscape creates an excellent setting around the course. Near the Helgaleiren activity centre. Maximum handicap 54 for visitors.",
-  "images": []
+  "images": [
+    {
+      "src": "/courses/ogna-golfklubb/ogna-golfklubb-flyfoto-jaerkysten.webp",
+      "alt": "Flyfoto av Ogna Golfklubb på Jæren med banen, dammer og Jærkysten i bakgrunnen",
+      "alt_en": "Aerial view of Ogna Golf Club on Jaeren with the course, ponds and the Jaeren coastline in the background",
+      "credit": "Ogna Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoMAAkAA8BgJagC7AEfvxch1wAA/eO+m4V6Hc9IpmeVGVca5nuvJWRK9D2bb5OmwcdicYcSxxvdhqAAAAA="
+    },
+    {
+      "src": "/courses/ogna-golfklubb/ogna-golfklubb-klubbhus-flyfoto.webp",
+      "alt": "Flyfoto av klubbhuset og puttinggreen ved Ogna Golfklubb",
+      "alt_en": "Aerial view of the clubhouse and putting green at Ogna Golf Club",
+      "credit": "Ogna Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoMAAYAA8BgJbAAAup28ctl4AAA/bW0zpa2LriQQ7s1da7yMkfLCl1FupV8TTf8Xaw68HAA"
+    },
+    {
+      "src": "/courses/ogna-golfklubb/ogna-golfklubb-driving-range-og-klubbhus.webp",
+      "alt": "Driving range og klubbhus ved Ogna Golfklubb med Jærens karakteristiske fjellformasjoner",
+      "alt_en": "Driving range and clubhouse at Ogna Golf Club with the characteristic rock formations of Jaeren",
+      "credit": "Ogna Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoMAAgAA8BgJbAC7AEU6zUA4lAA/I/L4chDDjh2//tbE5kNVqWO2CRN1Ua/3vbYvwpDR5/w6eDfI4AA"
+    },
+    {
+      "src": "/courses/ogna-golfklubb/ogna-golfklubb-jaeren-sparebank-golf-arena.webp",
+      "alt": "Klubbhuset Jæren Sparebank Golf Arena ved Ogna Golfklubb med uteservering",
+      "alt_en": "The Jaeren Sparebank Golf Arena clubhouse at Ogna Golf Club with outdoor seating",
+      "credit": "Ogna Golfklubb",
+      "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoMAAwAA8BgJagCdAEWULIbeiAAAPe6Uh/BQ+KO+Ez97FmBGvhwnyul0R6HCZVftt7SAXrog+kyYOV6iAA="
+    }
+  ]
 }

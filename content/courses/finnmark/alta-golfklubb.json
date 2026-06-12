@@ -238,7 +238,12 @@
     }
   },
   "courseRatings": [],
-  "nearbyCourses": [],
+  "nearbyCourses": [
+    {
+      "slug": "north-cape-golf-club",
+      "distanceKm": 73.9
+    }
+  ],
   "additionalFeatures": [],
   "sponsors": [],
   "sources": [],
