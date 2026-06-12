@@ -78,12 +78,16 @@ export default async function VtgKursPage({ params }: Props) {
     ...(clubsWithData.length > 0
       ? [
           generateItemListSchema(
+            // Item URLs must match what the visible cards link to per locale
             clubsWithData.map((club) => ({
               name: club.name,
-              url: `/${club.regionSlug}/${club.slug}`,
+              url:
+                locale === "en"
+                  ? `/en/${club.regionSlug}/${club.slug_en || club.slug}`
+                  : `/${club.regionSlug}/${club.slug}`,
             })),
             {
-              listId: createCourseListId("/vtg-kurs"),
+              listId: createCourseListId(locale === "en" ? "/en/vtg-kurs" : "/vtg-kurs"),
               name: t("title"),
               description: t("metaDescription"),
             },
@@ -92,7 +96,9 @@ export default async function VtgKursPage({ params }: Props) {
       : []),
   ];
 
-  // Latest lastChecked across clubs with data, formatted as month + year per locale
+  // Latest lastChecked across clubs with data, formatted as month + year per locale.
+  // Deliberately scans only clubs with usable data (not all clubs, as the plan's literal
+  // "across clubs" suggests) since the note describes when displayed prices were checked.
   const latestChecked = clubsWithData.reduce<string | null>(
     (latest, club) =>
       club.lastChecked && (latest === null || club.lastChecked > latest)
@@ -100,12 +106,17 @@ export default async function VtgKursPage({ params }: Props) {
         : latest,
     null,
   );
-  const updatedDate = latestChecked
-    ? new Date(latestChecked).toLocaleDateString(locale === "en" ? "en-GB" : "nb-NO", {
-        month: "long",
-        year: "numeric",
-      })
-    : null;
+  // Format from the ISO string parts directly — new Date("YYYY-MM-DD") parses as UTC
+  // midnight, which can shift the month in non-UTC timezones.
+  let updatedDate: string | null = null;
+  if (latestChecked) {
+    const [y, m] = latestChecked.split("-").map(Number);
+    const monthName = new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "nb-NO", {
+      month: "long",
+      timeZone: "UTC",
+    }).format(new Date(Date.UTC(y, m - 1, 1)));
+    updatedDate = `${monthName} ${y}`;
+  }
 
   const lede = range
     ? t("ledeWithPrices", {
@@ -153,7 +164,7 @@ export default async function VtgKursPage({ params }: Props) {
           {groups.map((group, index) => (
             <span key={group.regionSlug}>
               {index > 0 && " · "}
-              {regionPages.has(group.regionSlug) ? (
+              {locale === "nb" && regionPages.has(group.regionSlug) ? (
                 <Link
                   href={`/vtg-kurs/${group.regionSlug}`}
                   className="whitespace-nowrap text-primary hover:underline"
@@ -182,14 +193,6 @@ export default async function VtgKursPage({ params }: Props) {
                 className="scroll-mt-20 text-xl font-semibold text-text-primary"
               >
                 {group.regionName}
-                {regionPages.has(group.regionSlug) && (
-                  <Link
-                    href={`/vtg-kurs/${group.regionSlug}`}
-                    className="ml-2 text-sm font-normal text-primary hover:underline"
-                  >
-                    {t("regionPageLink", { region: group.regionName })}
-                  </Link>
-                )}
               </h2>
               <p className="mb-3 mt-1 text-sm text-text-tertiary">
                 {groupRange
@@ -198,6 +201,14 @@ export default async function VtgKursPage({ params }: Props) {
                       min: groupRange.min,
                     })
                   : t("regionSubtitle", { count: group.clubs.length })}
+                {locale === "nb" && regionPages.has(group.regionSlug) && (
+                  <Link
+                    href={`/vtg-kurs/${group.regionSlug}`}
+                    className="ml-2 text-primary hover:underline"
+                  >
+                    {t("regionPageLink", { region: group.regionName })}
+                  </Link>
+                )}
               </p>
               <div className="space-y-2.5">
                 {group.clubs.map((club) => (

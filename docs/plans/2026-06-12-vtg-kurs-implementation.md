@@ -798,7 +798,7 @@ const year = new Date().getFullYear();
 ```
 
 - Lede: `range ? t("ledeWithPrices", { count: clubs.length, year, min: range.min, max: range.max }) : t("ledeNoPrices")` — **the page must render correctly with zero VTG data** (day-one state).
-- Jump index: one line of links — `regionPages.has(slug)` → `<Link href={`/vtg-kurs/${slug}`}>` else anchor `#${slug}`.
+- Jump index: one line of links — `regionPages.has(slug)` → `<Link href={`/vtg-kurs/${slug}`}>` (nb locale only — on en always use the anchor, since region pages are Norwegian-only) else anchor `#${slug}`.
 - Each region group: `<h2 id={regionSlug}>` + (if region page exists) link `t("regionPageLink")` + subtitle + cards.
 - FAQ JSON-LD: build entries from the same translated strings used in the visible FAQ (only include Q1 with numbers when `range` exists).
 - ItemList JSON-LD via existing `generateItemListSchema` for clubs with data.
