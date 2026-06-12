@@ -228,6 +228,24 @@ export interface MembershipStatus {
   joiningFeeNote_en?: string | null;
 }
 
+/**
+ * VTG (Veien til Golf) beginner-course info, scraped from club websites.
+ * Scraper rule: when unsure, write null — never guess.
+ */
+export interface VtgInfo {
+  /** null = unknown (not yet scraped or not found on club site) */
+  offered: boolean | null;
+  /** Adult price in NOK */
+  price: number | null;
+  priceYouth: number | null;
+  /** URL of the club's own VTG/kurs page */
+  signupUrl: string | null;
+  /** Free text, e.g. "Kurs hver uke mai–august" */
+  seasonInfo: string | null;
+  /** ISO date of last scrape/check, e.g. "2026-06-12" */
+  lastChecked: string;
+}
+
 export interface Rating {
   rating: number | null;
   reviewCount: number | null;
@@ -349,6 +367,8 @@ export interface Course {
   membershipPricing: Record<string, MembershipTier[]>;
   /** Membership availability and waitlist info (NEW in v2.0) */
   membershipStatus: MembershipStatus | null;
+  /** VTG (Veien til Golf) beginner-course info (optional, scraped) */
+  vtg?: VtgInfo | null;
   ratings: Record<string, Rating>;
   courseRatings: CourseRating[];
   nearbyCourses: NearbyCourse[];
