@@ -27,6 +27,7 @@ export default [
       "src/types/**/*.d.ts",
       "automation-golf-images/**",
       "data/**",
+      ".worktrees/**",
     ],
   },
 
