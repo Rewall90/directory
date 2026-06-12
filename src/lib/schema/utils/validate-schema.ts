@@ -71,6 +71,14 @@ export function validateSchema(schema: Schema): ValidationResult {
         errors.push("ItemList missing required 'itemListElement'");
       break;
 
+    case "FAQPage":
+      if (!("mainEntity" in schema)) {
+        errors.push("FAQPage missing required 'mainEntity'");
+      } else if (Array.isArray(schema.mainEntity) && schema.mainEntity.length === 0) {
+        warnings.push("FAQPage 'mainEntity' is an empty array");
+      }
+      break;
+
     case "GolfCourse":
       if (!("name" in schema)) errors.push("GolfCourse missing required 'name'");
       if (!("address" in schema))
