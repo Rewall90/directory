@@ -698,7 +698,9 @@ export function VtgClubCard({ club, sponsored = false }: Props) {
   return (
     <div
       className={`rounded-lg border p-5 shadow-sm ${
-        sponsored ? "border-primary-light bg-white" : "border-border bg-background-surface"
+        sponsored
+          ? "border-primary-light bg-background-surface"
+          : "border-border bg-background-surface"
       }`}
     >
       {sponsored && (

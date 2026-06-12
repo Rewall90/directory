@@ -25,8 +25,8 @@ export function VtgClubCard({ club, sponsored = false }: Props) {
 
   return (
     <div
-      className={`rounded-lg border p-5 shadow-sm ${
-        sponsored ? "border-primary-light bg-white" : "border-border bg-background-surface"
+      className={`rounded-lg border bg-background-surface p-5 shadow-sm ${
+        sponsored ? "border-primary-light" : "border-border"
       }`}
     >
       {sponsored && (
@@ -49,7 +49,10 @@ export function VtgClubCard({ club, sponsored = false }: Props) {
             <p className="mt-1 text-sm text-text-secondary">
               {rating !== null && (
                 <>
-                  <span className="text-accent">★</span> {rating}
+                  <span className="text-accent" aria-hidden="true">
+                    ★
+                  </span>{" "}
+                  {rating}
                   {club.reviewCount !== null && <> ({t("reviews", { count: club.reviewCount })})</>}
                 </>
               )}
