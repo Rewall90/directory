@@ -13,10 +13,11 @@ export function VtgClubCard({ club, sponsored = false }: Props) {
   const locale = useLocale();
   const name = locale === "en" && club.name_en ? club.name_en : club.name;
   const courseSlug = locale === "en" && club.slug_en ? club.slug_en : club.slug;
+  const numberLocale = locale === "en" ? "en-GB" : "nb-NO";
 
   const rating =
     club.rating !== null
-      ? club.rating.toLocaleString(locale === "en" ? "en-GB" : "nb-NO", {
+      ? club.rating.toLocaleString(numberLocale, {
           minimumFractionDigits: 1,
           maximumFractionDigits: 1,
         })
@@ -64,12 +65,12 @@ export function VtgClubCard({ club, sponsored = false }: Props) {
         <div className="shrink-0 sm:text-right">
           {club.price !== null && (
             <div className="text-base font-semibold text-text-primary">
-              {club.price.toLocaleString("nb-NO")} kr
+              {club.price.toLocaleString(numberLocale)} kr
             </div>
           )}
           {club.priceYouth !== null && (
             <div className="text-xs text-text-tertiary">
-              {t("youthPrice", { price: club.priceYouth.toLocaleString("nb-NO") })}
+              {t("youthPrice", { price: club.priceYouth.toLocaleString(numberLocale) })}
             </div>
           )}
           {club.signupUrl && (

@@ -48,6 +48,9 @@ importers:
       '@eslint/eslintrc':
         specifier: ^3
         version: 3.3.1
+      '@next/eslint-plugin-next':
+        specifier: 16.1.6
+        version: 16.1.6
       '@types/leaflet':
         specifier: 1.9.21
         version: 1.9.21
@@ -90,6 +93,12 @@ importers:
       eslint-plugin-import:
         specifier: ^2.32.0
         version: 2.32.0(@typescript-eslint/parser@8.46.0(eslint@9.37.0(jiti@1.21.7))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@9.37.0(jiti@1.21.7))
+      eslint-plugin-react:
+        specifier: 7.37.5
+        version: 7.37.5(eslint@9.37.0(jiti@1.21.7))
+      eslint-plugin-react-hooks:
+        specifier: 7.0.1
+        version: 7.0.1(eslint@9.37.0(jiti@1.21.7))
       husky:
         specifier: ^9.1.7
         version: 9.1.7
