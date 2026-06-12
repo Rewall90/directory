@@ -57,3 +57,4 @@ build.log
 *.backup.json
 *-backup-*.json
 scrape-results-*.json
+.worktrees/
