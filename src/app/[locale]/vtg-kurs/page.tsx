@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getVtgClubs, getVtgRegions } from "@/lib/courses";
-import { groupClubsByRegion, vtgPriceRange } from "@/lib/vtg";
+import { formatMonthYear, groupClubsByRegion, latestLastChecked, vtgPriceRange } from "@/lib/vtg";
 import { VtgClubCard } from "@/components/vtg/VtgClubCard";
 import {
   generateFAQPageSchema,
@@ -97,26 +97,10 @@ export default async function VtgKursPage({ params }: Props) {
   ];
 
   // Latest lastChecked across clubs with data, formatted as month + year per locale.
-  // Deliberately scans only clubs with usable data (not all clubs, as the plan's literal
-  // "across clubs" suggests) since the note describes when displayed prices were checked.
-  const latestChecked = clubsWithData.reduce<string | null>(
-    (latest, club) =>
-      club.lastChecked && (latest === null || club.lastChecked > latest)
-        ? club.lastChecked
-        : latest,
-    null,
-  );
-  // Format from the ISO string parts directly — new Date("YYYY-MM-DD") parses as UTC
-  // midnight, which can shift the month in non-UTC timezones.
-  let updatedDate: string | null = null;
-  if (latestChecked) {
-    const [y, m] = latestChecked.split("-").map(Number);
-    const monthName = new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "nb-NO", {
-      month: "long",
-      timeZone: "UTC",
-    }).format(new Date(Date.UTC(y, m - 1, 1)));
-    updatedDate = `${monthName} ${y}`;
-  }
+  const latestChecked = latestLastChecked(clubs);
+  const updatedDate = latestChecked
+    ? formatMonthYear(latestChecked, locale === "en" ? "en" : "nb")
+    : null;
 
   const lede = range
     ? t("ledeWithPrices", {

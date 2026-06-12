@@ -5,6 +5,8 @@ import {
   selectVtgRegions,
   vtgPriceRange,
   groupClubsByRegion,
+  latestLastChecked,
+  formatMonthYear,
   type VtgClub,
 } from "./vtg";
 import type { Course } from "@/types/course";
@@ -170,5 +172,58 @@ describe("groupClubsByRegion", () => {
     ];
     const groups = groupClubsByRegion(clubs);
     expect(groups[0].clubs.map((c) => c.name)).toEqual(["Ziersborg GK", "Ålesund Golfklubb"]);
+  });
+});
+
+describe("latestLastChecked", () => {
+  const clubWithData = (lastChecked: string): VtgClub =>
+    toVtgClub(makeCourse({ vtg: { ...fullVtg, lastChecked } }), "r");
+
+  it("picks the latest lastChecked among clubs with usable data", () => {
+    const clubs = [
+      clubWithData("2026-03-01"),
+      clubWithData("2026-06-12"),
+      clubWithData("2025-12-31"),
+    ];
+    expect(latestLastChecked(clubs)).toBe("2026-06-12");
+  });
+
+  it("ignores clubs without usable data even when their lastChecked is set", () => {
+    // offered but no price/signup → not usable, despite a newer lastChecked
+    const unusable = toVtgClub(
+      makeCourse({
+        vtg: {
+          ...fullVtg,
+          price: null,
+          priceYouth: null,
+          signupUrl: null,
+          lastChecked: "2027-01-01",
+        },
+      }),
+      "r",
+    );
+    expect(unusable.hasData).toBe(false);
+    expect(unusable.lastChecked).toBe("2027-01-01");
+    expect(latestLastChecked([clubWithData("2026-06-12"), unusable])).toBe("2026-06-12");
+  });
+
+  it("returns null when no club has usable data", () => {
+    const noData = toVtgClub(makeCourse({ vtg: null }), "r");
+    expect(latestLastChecked([noData])).toBe(null);
+    expect(latestLastChecked([])).toBe(null);
+  });
+});
+
+describe("formatMonthYear", () => {
+  it("formats Norwegian month + year", () => {
+    expect(formatMonthYear("2026-06-12", "nb")).toBe("juni 2026");
+  });
+
+  it("formats English month + year", () => {
+    expect(formatMonthYear("2026-06-12", "en")).toBe("June 2026");
+  });
+
+  it("keeps the month stable on month-boundary dates regardless of timezone", () => {
+    expect(formatMonthYear("2026-06-01", "nb")).toBe("juni 2026");
   });
 });

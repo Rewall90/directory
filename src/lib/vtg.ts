@@ -70,6 +70,37 @@ export function selectVtgRegions(clubs: VtgClub[], minClubs = 3): string[] {
     .sort();
 }
 
+/**
+ * Latest ISO `lastChecked` across the given clubs, or null when none.
+ *
+ * Deliberately scans only clubs with usable data (not all clubs, as the plan's literal
+ * "across clubs" suggests) since the note describes when displayed prices were checked.
+ */
+export function latestLastChecked(clubs: VtgClub[]): string | null {
+  return clubs.reduce<string | null>(
+    (latest, club) =>
+      club.hasData && club.lastChecked && (latest === null || club.lastChecked > latest)
+        ? club.lastChecked
+        : latest,
+    null,
+  );
+}
+
+/**
+ * Format an ISO date (YYYY-MM-DD) as a localized month + year, e.g. "juni 2026".
+ *
+ * Formats from the ISO string parts directly — new Date("YYYY-MM-DD") parses as UTC
+ * midnight, which can shift the month in non-UTC timezones.
+ */
+export function formatMonthYear(isoDate: string, locale: "nb" | "en"): string {
+  const [y, m] = isoDate.split("-").map(Number);
+  const monthName = new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "nb-NO", {
+    month: "long",
+    timeZone: "UTC",
+  }).format(new Date(Date.UTC(y, m - 1, 1)));
+  return `${monthName} ${y}`;
+}
+
 export function vtgPriceRange(clubs: VtgClub[]): { min: number; max: number } | null {
   const prices = clubs.map((c) => c.price).filter((p): p is number => p !== null);
   if (prices.length === 0) return null;

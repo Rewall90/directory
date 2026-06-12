@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getVtgClubs, getVtgRegions } from "@/lib/courses";
-import { groupClubsByRegion, vtgPriceRange } from "@/lib/vtg";
+import { formatMonthYear, groupClubsByRegion, latestLastChecked, vtgPriceRange } from "@/lib/vtg";
 import { VtgClubCard } from "@/components/vtg/VtgClubCard";
 import { generateItemListSchema, createCourseListId, JsonLd } from "@/lib/schema";
 import { getCountyNameFromSlug } from "@/lib/constants/norway-regions";
@@ -18,6 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const t = await getTranslations({ locale, namespace: "vtg" });
   const regionName = getCountyNameFromSlug(region) ?? region;
+  // Count is clubs-with-data only — intentionally different from the hub's all-clubs count
   const clubsWithData = getVtgClubs().filter((club) => club.regionSlug === region && club.hasData);
 
   const title = t("regionMetaTitle", { region: regionName, count: clubsWithData.length });
@@ -78,24 +79,8 @@ export default async function VtgRegionPage({ params }: Props) {
   );
 
   // Latest lastChecked among this region's clubs with data; note is omitted when none.
-  const latestChecked = clubsWithData.reduce<string | null>(
-    (latest, club) =>
-      club.lastChecked && (latest === null || club.lastChecked > latest)
-        ? club.lastChecked
-        : latest,
-    null,
-  );
-  // Format from the ISO string parts directly — new Date("YYYY-MM-DD") parses as UTC
-  // midnight, which can shift the month in non-UTC timezones.
-  let updatedDate: string | null = null;
-  if (latestChecked) {
-    const [y, m] = latestChecked.split("-").map(Number);
-    const monthName = new Intl.DateTimeFormat("nb-NO", {
-      month: "long",
-      timeZone: "UTC",
-    }).format(new Date(Date.UTC(y, m - 1, 1)));
-    updatedDate = `${monthName} ${y}`;
-  }
+  const latestChecked = latestLastChecked(regionClubs);
+  const updatedDate = latestChecked ? formatMonthYear(latestChecked, "nb") : null;
 
   return (
     <>
@@ -150,3 +135,7 @@ export default async function VtgRegionPage({ params }: Props) {
 export async function generateStaticParams() {
   return getVtgRegions().map((region) => ({ locale: "nb", region }));
 }
+
+// Only params from generateStaticParams are valid — anything else 404s at the
+// routing layer (the runtime notFound() guard above remains as defense-in-depth)
+export const dynamicParams = false;
