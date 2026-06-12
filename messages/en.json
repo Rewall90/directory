@@ -130,7 +130,7 @@
     "clubPageButton": "Club's course page",
     "noPriceOnline": "The club doesn't list a price online – see their course page",
     "youthPrice": "Youth {price} kr",
-    "reviews": "{count} reviews",
+    "reviews": "{count, plural, one {# review} other {# reviews}}",
     "faqTitle": "Frequently asked questions",
     "faqQ1": "How much does a VTG course cost?",
     "faqA1": "Between {min} and {max} kr at the clubs in this overview ({year}). Many clubs have lower prices for children and youth, and some include membership for the first year.",

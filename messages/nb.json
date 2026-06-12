@@ -130,7 +130,7 @@
     "clubPageButton": "Klubbens kursside",
     "noPriceOnline": "Klubben oppgir ikke pris på nett – se kurssiden deres",
     "youthPrice": "Ungdom {price} kr",
-    "reviews": "{count} anmeldelser",
+    "reviews": "{count, plural, one {# anmeldelse} other {# anmeldelser}}",
     "faqTitle": "Vanlige spørsmål",
     "faqQ1": "Hva koster et VTG-kurs?",
     "faqA1": "Mellom {min} og {max} kr hos klubbene i denne oversikten ({year}). Mange klubber har lavere pris for barn og ungdom, og noen inkluderer medlemskap det første året.",
