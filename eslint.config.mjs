@@ -23,6 +23,7 @@ export default [
       "postcss.config.js",
       "next.config.ts",
       "tailwind.config.ts",
+      "vitest.config.ts",
       "src/types/**/*.d.ts",
       "automation-golf-images/**",
       "data/**",
