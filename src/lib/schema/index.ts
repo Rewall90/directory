@@ -25,6 +25,7 @@ export type {
   BreadcrumbListSchema,
   ItemListSchema,
   GolfCourseSchema,
+  FAQPageSchema,
   PlaceSchema,
   ImageObject,
   PostalAddress,
@@ -49,6 +50,7 @@ export type {
   CourseData,
   ReviewData,
   ListItemData,
+  FAQEntry,
 } from "./types/site-config.types";
 
 // ========================================
@@ -114,6 +116,7 @@ export {
   generateCourseListSchema,
   generateSearchResultsListSchema,
 } from "./generators/itemlist";
+export { generateFAQPageSchema } from "./generators/faq";
 
 // Entity generators
 export { generateRegionPlaceSchema, generateBasicRegionSchema } from "./generators/place";

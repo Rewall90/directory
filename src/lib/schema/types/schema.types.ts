@@ -87,6 +87,12 @@ export interface GolfCourseSchema extends SchemaBase {
   priceRange?: string;
 }
 
+// FAQPage schema
+export interface FAQPageSchema extends SchemaBase {
+  "@type": "FAQPage";
+  mainEntity: Question[];
+}
+
 // Place/AdministrativeArea schema (for regions)
 export interface PlaceSchema extends SchemaBase {
   "@type": "Place" | "AdministrativeArea";
@@ -147,6 +153,17 @@ export interface ListItem {
   position: number;
   name?: string;
   item: string | Thing;
+}
+
+export interface Question {
+  "@type": "Question";
+  name: string;
+  acceptedAnswer: Answer;
+}
+
+export interface Answer {
+  "@type": "Answer";
+  text: string;
 }
 
 export interface Thing {
@@ -220,4 +237,5 @@ export type Schema =
   | BreadcrumbListSchema
   | ItemListSchema
   | GolfCourseSchema
+  | FAQPageSchema
   | PlaceSchema;

@@ -80,6 +80,12 @@ export interface ReviewData {
   comment: string;
 }
 
+// FAQ entry for FAQPage schema
+export interface FAQEntry {
+  question: string;
+  answer: string;
+}
+
 // List item for ItemList schema
 export interface ListItemData {
   name: string;
