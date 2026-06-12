@@ -127,6 +127,7 @@
     "filterLabel": "Finn din klubb",
     "filterPlaceholder": "Klubbnavn eller sted ...",
     "filterCount": "{shown} av {total} klubber",
+    "filterEmpty": "Ingen klubber matcher «{query}». Tøm søket for å se alle.",
     "regionPageLink": "Egen side for {region}",
     "regionSubtitle": "{count, plural, one {# klubb} other {# klubber}} med VTG-kurs",
     "regionSubtitleWithPrice": "{count, plural, one {# klubb} other {# klubber}} med VTG-kurs, priser fra {min} kr",

@@ -247,6 +247,21 @@ describe("matchesClubQuery", () => {
   it("returns false when nothing matches", () => {
     expect(matchesClubQuery(searchText, "trondheim")).toBe(false);
   });
+
+  it("matches multi-word queries out of order (every token a substring)", () => {
+    expect(matchesClubQuery("oslo golfklubb oslo golf club bogstad oslo", "golfklubb oslo")).toBe(
+      true,
+    );
+    expect(matchesClubQuery(searchText, "rogaland stava")).toBe(true);
+  });
+
+  it("returns false when one token in a multi-token query doesn't match", () => {
+    expect(matchesClubQuery(searchText, "stavanger trondheim")).toBe(false);
+  });
+
+  it("ignores extra whitespace between tokens", () => {
+    expect(matchesClubQuery(searchText, "  golfklubb   stavanger  ")).toBe(true);
+  });
 });
 
 describe("formatMonthYear", () => {

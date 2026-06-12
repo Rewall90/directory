@@ -127,6 +127,7 @@
     "filterLabel": "Find your club",
     "filterPlaceholder": "Club name or place ...",
     "filterCount": "{shown} of {total} clubs",
+    "filterEmpty": "No clubs match “{query}”. Clear the search to see all.",
     "regionPageLink": "Dedicated page for {region}",
     "regionSubtitle": "{count, plural, one {# club} other {# clubs}} with VTG courses",
     "regionSubtitleWithPrice": "{count, plural, one {# club} other {# clubs}} with VTG courses, prices from {min} kr",
