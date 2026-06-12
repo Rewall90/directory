@@ -819,26 +819,28 @@ git commit -m "feat: add VTG-kurs hub page"
 
 **Step 1: Implement**
 
-Same patterns as the hub. The gate lives in BOTH places:
+Same patterns as the hub, with one deliberate difference: **region pages are Norwegian-only**. VTG is a Norwegian-audience product; English county pages would have near-zero search demand and be the thinnest pages on the site (per the 2026-06-12 deep-research validation — "no more pages than necessary"). The English hub still exists for expats; English county pages do not.
+
+The gate lives in BOTH places, and the locale restriction in both places too:
 
 ```tsx
 import { notFound } from "next/navigation";
-import { routing } from "@/i18n/routing";
 import { getVtgClubs, getVtgRegions } from "@/lib/courses";
 
-// Gate #1: only qualifying regions are statically generated
+// Gate #1: only qualifying regions, Norwegian locale only
 export async function generateStaticParams() {
-  const regions = getVtgRegions();
-  return routing.locales.flatMap((locale) => regions.map((region) => ({ locale, region })));
+  return getVtgRegions().map((region) => ({ locale: "nb", region }));
 }
 
-// Gate #2: direct requests to non-qualifying regions 404
+// Gate #2: direct requests to non-qualifying regions or /en/ URLs 404
 export default async function VtgRegionPage({ params }: Props) {
   const { locale, region } = await params;
-  if (!getVtgRegions().includes(region)) notFound();
+  if (locale !== "nb" || !getVtgRegions().includes(region)) notFound();
   // ...
 }
 ```
+
+Metadata for region pages: canonical `https://golfkart.no/vtg-kurs/{region}` with NO `en` entry in `alternates.languages` (just `nb` + `x-default`) — there is no English version to point to.
 
 Content per the mockup: breadcrumb (Hjem / VTG-kurs / {region}) → `regionTitle` h1 → data-generated lede (`regionLede` with `regionPriceSuffix` when the region has prices) → `regionCoursePagesNote` → full `VtgClubCard` list (clubs with data first — `groupClubsByRegion` already sorts) → updated-note. Region display name via `getCountyNameFromSlug` from `src/lib/constants/norway-regions.ts`. Metadata mirrors the hub's pattern with the region in title/description and canonical `/vtg-kurs/{region}`.
 
@@ -885,22 +887,19 @@ const vtgPages: MetadataRoute.Sitemap = [
     priority: 0.7,
     alternates: langAlternates("/vtg-kurs"),
   },
-  ...getVtgRegions().flatMap((region) => [
-    {
-      url: `${BASE_URL}/vtg-kurs/${region}`,
-      lastModified: new Date(),
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-      alternates: langAlternates(`/vtg-kurs/${region}`),
+  // Region pages are Norwegian-only — no /en/ entries and no en hreflang
+  ...getVtgRegions().map((region) => ({
+    url: `${BASE_URL}/vtg-kurs/${region}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+    alternates: {
+      languages: {
+        nb: `${BASE_URL}/vtg-kurs/${region}`,
+        "x-default": `${BASE_URL}/vtg-kurs/${region}`,
+      },
     },
-    {
-      url: `${BASE_URL}/en/vtg-kurs/${region}`,
-      lastModified: new Date(),
-      changeFrequency: "weekly" as const,
-      priority: 0.6,
-      alternates: langAlternates(`/vtg-kurs/${region}`),
-    },
-  ]),
+  })),
 ];
 ```
 
@@ -956,6 +955,7 @@ Run: `pnpm dev`
 - `http://localhost:3000/vtg-kurs` — seeded clubs now show prices and primary buttons, and sort first in their region; lede shows the computed price range.
 - `http://localhost:3000/vtg-kurs/akershus` — renders (if ≥3 Akershus clubs seeded).
 - `http://localhost:3000/vtg-kurs/finnmark` — still 404.
+- `http://localhost:3000/en/vtg-kurs/akershus` — 404 (region pages are Norwegian-only).
 
 **Step 3: Commit**
 
@@ -1062,8 +1062,8 @@ Expected: all pass. The build output lists the generated routes — confirm `/vt
 - `/vtg-kurs` renders nb; `/en/vtg-kurs` renders en
 - Click "Meld deg på" with DevTools console: `dataLayer` receives the `vtg_signup_click` event with club_slug + region (filter network tab on `collect?` to see the GA hit)
 - View page source: FAQPage + ItemList JSON-LD present
-- `/sitemap.xml` includes the new URLs
-- Non-gated region URL 404s
+- `/sitemap.xml` includes the new URLs (and contains NO `/en/vtg-kurs/[region]` entries)
+- Non-gated region URL 404s; any `/en/vtg-kurs/[region]` URL 404s
 
 **Step 3: Final commit & wrap-up**
 
@@ -1077,4 +1077,5 @@ Use superpowers:verification-before-completion before claiming done. Then follow
 - Lead-capture forms (GDPR work; phase 3)
 - VTG box on the 168 course detail pages (phase 3)
 - Distance-to-city computation for region intros (nice-to-have; regionLede ships without it)
-- English-specific slugs for VTG routes (same path both locales)
+- English-specific slugs for the VTG hub (same path both locales)
+- English region pages (deliberately excluded — near-zero search demand, would be the thinnest pages on the site; revisit only if /en/vtg-kurs hub traffic warrants it)

@@ -24,14 +24,17 @@ VTG (Veien til Golf) is the mandatory beginner course every new Norwegian golfer
 - [Spam policies — doorway abuse](https://developers.google.com/search/docs/essentials/spam-policies): pages targeting cities/regions that funnel to one page, or boilerplate with swapped place names, are violations.
 - [Helpful content guidance](https://developers.google.com/search/docs/fundamentals/creating-helpful-content): each page must be independently useful.
 - Our region pages are legitimate because each lists **different real inventory** (clubs, prices, signup links, ratings) and gets a **data-generated unique intro** (club count, price range, distances from nearby cities computed from coordinates). The inventory gate guarantees no thin pages.
+- **Validated 2026-06-12 by adversarial deep-research** (98 agents, 25 claims 3-vote-verified against primary Google sources, 22 confirmed): hub + gated county pages matches Google's "clearly defined, browseable hierarchy"; per-city and per-club pages would contradict Mueller's on-record doorway warnings; hub/county listing overlap is canonicalization, not spam. Standing obligation: scraped prices must stay fresh — staleness, not architecture, is the long-term policy risk ("scraping... where little value is provided" is a named abuse example).
 
 ## URL structure
 
 ```
 /vtg-kurs                  hub (phase 1) — targets "VTG-kurs", "golfkurs", "nybegynnerkurs golf"
-/vtg-kurs/[region]         region pages (phase 2) — target "golfkurs + by/fylke"
-/en/vtg-kurs[...]          English via existing next-intl setup (nb at root, localePrefix as-needed)
+/vtg-kurs/[region]         region pages (phase 2) — target "golfkurs + by/fylke" — NORWEGIAN ONLY
+/en/vtg-kurs               English hub only (for expats); NO English region pages
 ```
+
+**Amendment 2026-06-12 (post deep-research validation):** region pages are generated for the `nb` locale only. English county pages would have near-zero search demand and be the thinnest pages on the site — contrary to the "no more pages than necessary" principle this design follows. `/en/vtg-kurs/[region]` URLs 404; region-page hreflang lists only `nb` + `x-default`. Full rollout is therefore ~13–16 nb pages + 1 en hub.
 
 Club entries link to (a) the club's own signup/kurs page (external, tracked) and (b) the club's existing course page on golfkart.no.
 
