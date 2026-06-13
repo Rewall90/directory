@@ -45,6 +45,38 @@ const nextConfig: NextConfig = {
         destination: "/blog/beste-golfbaner-norge",
         permanent: true,
       },
+      // Viken was dissolved 2024-01-01 and split back into Akershus, Buskerud
+      // and Østfold. Redirect the old county URLs to the courses' new homes.
+      {
+        source: "/viken/ballerud-golfklubb",
+        destination: "/akershus/ballerud-golfklubb",
+        permanent: true,
+      },
+      {
+        source: "/en/viken/ballerud-golf",
+        destination: "/en/akershus/ballerud-golf",
+        permanent: true,
+      },
+      {
+        source: "/viken/drammen-golfbane",
+        destination: "/buskerud/drammen-golfbane",
+        permanent: true,
+      },
+      {
+        source: "/en/viken/drammen-golf-course",
+        destination: "/en/buskerud/drammen-golf-course",
+        permanent: true,
+      },
+      {
+        source: "/viken",
+        destination: "/regions",
+        permanent: true,
+      },
+      {
+        source: "/en/viken",
+        destination: "/en/regions",
+        permanent: true,
+      },
     ];
   },
 };

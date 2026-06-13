@@ -61,12 +61,11 @@ export const NORWAY_COUNTY_CODES = NORWAY_COUNTIES.reduce(
 export const LEGACY_REGION_NAMES: Record<string, string> = {
   "vestfold-og-telemark": "Vestfold og Telemark",
   "troms-og-finnmark": "Troms og Finnmark",
-  viken: "Viken",
 };
 
 /**
  * Get ISO county code from county name
- * @param countyName - Norwegian county name (e.g., "Oslo", "Viken")
+ * @param countyName - Norwegian county name (e.g., "Oslo", "Akershus")
  * @returns ISO code (e.g., "NO-03") or undefined if not found
  */
 export function getCountyCode(countyName: string): string | undefined {
