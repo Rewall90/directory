@@ -58,16 +58,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/viken/drammen-golfbane",
-        destination: "/buskerud/drammen-golfbane",
-        permanent: true,
-      },
-      {
-        source: "/en/viken/drammen-golf-course",
-        destination: "/en/buskerud/drammen-golf-course",
-        permanent: true,
-      },
-      {
         source: "/viken",
         destination: "/regions",
         permanent: true,
@@ -75,6 +65,39 @@ const nextConfig: NextConfig = {
       {
         source: "/en/viken",
         destination: "/en/regions",
+        permanent: true,
+      },
+      // Duplicate course entries consolidated to a single canonical URL.
+      // Drammen Golfbane was a duplicate of Drammen Golfklubb (same club);
+      // Rommen Golfklubb was a duplicate of Nes Golfklubb (same club).
+      {
+        source: "/viken/drammen-golfbane",
+        destination: "/buskerud/drammen-golfklubb",
+        permanent: true,
+      },
+      {
+        source: "/en/viken/drammen-golf-course",
+        destination: "/en/buskerud/drammen-golf-club",
+        permanent: true,
+      },
+      {
+        source: "/buskerud/drammen-golfbane",
+        destination: "/buskerud/drammen-golfklubb",
+        permanent: true,
+      },
+      {
+        source: "/en/buskerud/drammen-golf-course",
+        destination: "/en/buskerud/drammen-golf-club",
+        permanent: true,
+      },
+      {
+        source: "/akershus/rommen-golfklubb",
+        destination: "/akershus/nes-golfklubb",
+        permanent: true,
+      },
+      {
+        source: "/en/akershus/nes-golf-club-rommen",
+        destination: "/en/akershus/nes-golf-club",
         permanent: true,
       },
     ];
