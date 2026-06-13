@@ -15,7 +15,6 @@ export function CookieConsentProvider({ children }: CookieConsentProviderProps) 
   const [preferences, setPreferences] = useState<CookiePreferences | null>(null);
   const [showBanner, setShowBanner] = useState(false);
   const [showModal, setShowModal] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
 
   // Initialize preferences on mount
   useEffect(() => {
@@ -29,10 +28,8 @@ export function CookieConsentProvider({ children }: CookieConsentProviderProps) 
       setShowBanner(true);
     }
 
-    // Initialize Google consent mode
-    cookieManager.initializeGoogleConsent();
-
-    setIsLoading(false);
+    // Google consent mode default is set in the inline GA script in the root
+    // layout, before gtag('config'), so the first hit is consent-gated.
   }, []);
 
   const hasConsent = useCallback(
@@ -87,11 +84,6 @@ export function CookieConsentProvider({ children }: CookieConsentProviderProps) 
     openModal,
     closeModal,
   };
-
-  // Don't render children until we've checked for existing preferences
-  if (isLoading) {
-    return null;
-  }
 
   return (
     <CookieConsentContext.Provider value={contextValue}>{children}</CookieConsentContext.Provider>

@@ -183,7 +183,9 @@ export interface PopularCourse {
 
 export interface TopRatedCourse {
   name: string;
+  nameEn: string | null;
   slug: string;
+  slugEn: string | null;
   regionSlug: string;
   rating: number;
 }
@@ -195,27 +197,37 @@ export const getTopRatedCourses = cache((limit = 5): TopRatedCourse[] => {
   const courses = getAllCourses();
   const regionSlugs = getRegions();
 
-  const results: TopRatedCourse[] = [];
-
-  for (const course of courses) {
+  const rated = courses.flatMap((course) => {
     const google = course.ratings?.google;
-    if (!google?.rating || !google.reviewCount || google.reviewCount < 10) continue;
+    if (!google?.rating || !google.reviewCount || google.reviewCount < 10) return [];
+    return [{ course, rating: google.rating, reviewCount: google.reviewCount }];
+  });
 
-    const regionSlug =
-      regionSlugs.find((r) => {
-        const regionDir = path.join(COURSES_DIR, r);
-        return fs.existsSync(path.join(regionDir, `${course.slug}.json`));
-      }) || "";
+  return rated
+    .sort(
+      // Tiebreakers keep footer slots stable across filesystems/builds
+      (a, b) =>
+        b.rating - a.rating ||
+        b.reviewCount - a.reviewCount ||
+        a.course.slug.localeCompare(b.course.slug),
+    )
+    .slice(0, limit)
+    .map(({ course, rating }) => {
+      const regionSlug =
+        regionSlugs.find((r) => {
+          const regionDir = path.join(COURSES_DIR, r);
+          return fs.existsSync(path.join(regionDir, `${course.slug}.json`));
+        }) || "";
 
-    results.push({
-      name: course.name,
-      slug: course.slug,
-      regionSlug,
-      rating: google.rating,
+      return {
+        name: course.name,
+        nameEn: course.name_en ?? null,
+        slug: course.slug,
+        slugEn: course.slug_en ?? null,
+        regionSlug,
+        rating,
+      };
     });
-  }
-
-  return results.sort((a, b) => b.rating - a.rating).slice(0, limit);
 });
 
 /**

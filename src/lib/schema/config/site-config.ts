@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
 
   // Site description
   description:
-    "Utforsk 169 golfbaner i hele Norge – med oppdatert informasjon om fasiliteter, tjenester og brukeranmeldelser.",
+    "Utforsk over 160 golfbaner i hele Norge – med oppdatert informasjon om fasiliteter, tjenester og brukeranmeldelser.",
 
   // Organization details
   organization: {
@@ -28,7 +28,7 @@ export const SITE_CONFIG = {
   // Contact information
   contact: {
     contactType: "customer service" as const,
-    email: "petter@tegnogfarge.no",
+    email: "kontakt@golfkart.no",
     availableLanguage: ["no", "nb", "en"],
   },
 

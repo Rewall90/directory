@@ -13,10 +13,8 @@
     "switchLanguage": "Norsk"
   },
   "footer": {
-    "aboutTitle": "About golfkart.no",
     "aboutDescription": "Your complete guide to golf courses in Norway",
     "navigationTitle": "Navigation",
-    "regions": "Regions",
     "blog": "Blog",
     "about": "About Us",
     "contact": "Contact",
@@ -24,14 +22,15 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "cookieSettings": "Cookie Settings",
+    "switchLanguage": "Norsk",
     "regionsTitle": "Golf courses by region",
     "popularCoursesTitle": "Popular golf courses",
+    "ratingSrLabel": "Rated {rating} out of 5",
     "allCourses": "All golf courses",
     "map": "Golf course map",
     "vtg": "VTG courses",
     "badgeCourses": "{count} courses",
     "badgeRegions": "{count} regions",
-    "trustBadge": "{courses} courses · {regions} regions",
     "copyright": "© {year} golfkart.no. All rights reserved."
   },
   "home": {

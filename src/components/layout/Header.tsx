@@ -107,6 +107,7 @@ export function Header() {
           <Link
             href={pathname}
             locale={locale === "nb" ? "en" : "nb"}
+            lang={locale === "nb" ? "en" : "nb"}
             className={
               isHomePage
                 ? "text-base font-medium text-green-100 transition-colors hover:text-yellow-400 md:text-lg"

@@ -13,10 +13,8 @@
     "switchLanguage": "English"
   },
   "footer": {
-    "aboutTitle": "Om golfkart.no",
     "aboutDescription": "Din komplette guide til golfbaner i Norge",
     "navigationTitle": "Navigasjon",
-    "regions": "Fylke",
     "blog": "Blogg",
     "about": "Om oss",
     "contact": "Kontakt",
@@ -24,14 +22,15 @@
     "privacy": "Personvern",
     "terms": "Bruksvilkår",
     "cookieSettings": "Informasjonskapselinnstillinger",
+    "switchLanguage": "English",
     "regionsTitle": "Golfbaner etter fylke",
     "popularCoursesTitle": "Populære golfbaner",
+    "ratingSrLabel": "Vurdering {rating} av 5",
     "allCourses": "Alle golfbaner",
     "map": "Golfbanekart",
     "vtg": "VTG-kurs",
     "badgeCourses": "{count} baner",
     "badgeRegions": "{count} fylker",
-    "trustBadge": "{courses} baner · {regions} fylker",
     "copyright": "© {year} golfkart.no. Alle rettigheter reservert."
   },
   "home": {
