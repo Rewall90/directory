@@ -6,11 +6,6 @@ import Script from "next/script";
 
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
-import {
-  CookieConsentProvider,
-  CookieConsentBanner,
-  CookieConsentModal,
-} from "@/components/cookie-consent";
 import { routing } from "@/i18n/routing";
 
 const manrope = Manrope({
@@ -71,35 +66,17 @@ export default async function LocaleLayout({
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
-            // Consent default must be queued before config so the first
-            // page_view respects stored (or absent) consent.
-            var consent = null;
-            try {
-              consent = JSON.parse(localStorage.getItem('golfkart-cookie-consent'));
-            } catch (e) {}
-            var analyticsGranted = !!(consent && consent.categories && consent.categories.analytics);
-            gtag('consent', 'default', {
-              analytics_storage: analyticsGranted ? 'granted' : 'denied',
-              ad_storage: 'denied',
-              functionality_storage: 'denied',
-              personalization_storage: 'denied',
-              security_storage: 'granted'
-            });
             gtag('js', new Date());
             gtag('config', 'G-ZM0PFETJNE');
           `}
         </Script>
 
         <NextIntlClientProvider>
-          <CookieConsentProvider>
-            <div className="flex min-h-screen flex-col">
-              <Header />
-              <main className="flex-1 bg-background text-text-primary">{children}</main>
-              <Footer />
-            </div>
-            <CookieConsentBanner />
-            <CookieConsentModal />
-          </CookieConsentProvider>
+          <div className="flex min-h-screen flex-col">
+            <Header />
+            <main className="flex-1 bg-background text-text-primary">{children}</main>
+            <Footer />
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>

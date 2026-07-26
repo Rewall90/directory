@@ -1,6 +1,5 @@
 import { getTranslations, getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
-import { CookieSettingsButton } from "@/components/cookie-consent";
 import { FooterLanguageSwitcher } from "@/components/layout/FooterLanguageSwitcher";
 import { getRegionsWithCounts, getTopRatedCourses } from "@/lib/courses";
 import { JsonLd, generateOrganizationSchema } from "@/lib/schema";
@@ -210,9 +209,6 @@ export async function Footer() {
                 >
                   {t("terms")}
                 </Link>
-              </li>
-              <li>
-                <CookieSettingsButton />
               </li>
             </ul>
           </nav>
